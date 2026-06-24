@@ -1,0 +1,412 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AdPlaceholder from "../components/AdPlaceholder.astro";
+import { SITE } from "../data/site";
+
+const title = "Meditation Guide for Beginners";
+const description = "Learn how to meditate with this beginner-friendly guide to posture, breathing, mindfulness, distractions, meditation types, and daily practice.";
+const canonicalPath = "/meditation-guide/";
+const faqItems = [
+  {
+    question: "How long should a beginner meditate?",
+    answer:
+      "Three to five minutes is enough for a first practice. Build gradually toward ten or fifteen minutes when the shorter period feels sustainable."
+  },
+  {
+    question: "Do I need to stop thinking during meditation?",
+    answer:
+      "No. Meditation is not the removal of every thought. The practice is noticing when attention has wandered and returning without harsh judgment."
+  },
+  {
+    question: "Is it better to meditate in the morning or evening?",
+    answer:
+      "The best time is one you can repeat consistently. Morning practice can set an intention for the day, while evening practice can support reflection and rest."
+  },
+  {
+    question: "Can I meditate while sitting in a chair?",
+    answer:
+      "Yes. A stable chair is a good meditation seat. Keep the feet supported, let the spine rise naturally, and rest the hands comfortably."
+  },
+  {
+    question: "What should I do if meditation makes me uncomfortable?",
+    answer:
+      "Open your eyes, feel your feet, shorten the session, or stop. People dealing with trauma or serious mental health distress may benefit from guidance from a qualified professional."
+  }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    totalTime: "PT10M",
+    step: [
+      {
+        "@type": "HowToStep",
+        name: "Choose a place and time",
+        text: "Choose a quiet, ordinary place where you can sit without interruption for a few minutes."
+      },
+      {
+        "@type": "HowToStep",
+        name: "Find a stable posture",
+        text: "Sit on a chair or cushion with an upright but relaxed spine and comfortably supported hands."
+      },
+      {
+        "@type": "HowToStep",
+        name: "Notice the natural breath",
+        text: "Feel the breath at the nose, chest, or belly without forcing it to become deeper or slower."
+      },
+      {
+        "@type": "HowToStep",
+        name: "Return from distraction",
+        text: "When thoughts or sounds carry attention away, acknowledge the distraction and gently return to breathing."
+      },
+      {
+        "@type": "HowToStep",
+        name: "End with awareness",
+        text: "Notice the body and surroundings, then carry one mindful intention into the next part of the day."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Meditation</span>
+      <h1>Meditation Guide for Beginners</h1>
+      <p class="lede">
+        Learn how to begin a simple mindfulness meditation practice with clear instructions for posture, breathing,
+        distractions, timing, and bringing awareness into daily life.
+      </p>
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="container article-shell">
+      <div class="prose">
+        <p>
+          Meditation is the practice of training attention and becoming more familiar with the activity of the mind.
+          In Buddhist traditions, meditation supports clarity, compassion, concentration, and insight. It is not a
+          test of how peaceful you can appear, and it does not require a completely silent mind.
+        </p>
+        <p>
+          This guide begins with mindfulness of breathing, a simple practice that can be done on a chair or cushion.
+          You do not need special clothing, equipment, beliefs, or previous experience. Ten unhurried minutes and a
+          willingness to begin are enough.
+        </p>
+
+        <nav class="guide-contents surface" aria-label="Meditation guide contents">
+          <h2>In This Guide</h2>
+          <ol>
+            <li><a href="#before-you-begin">Before you begin</a></li>
+            <li><a href="#how-to-meditate">How to meditate step by step</a></li>
+            <li><a href="#ten-minute-practice">A 10-minute meditation</a></li>
+            <li><a href="#common-challenges">Common meditation challenges</a></li>
+            <li><a href="#meditation-types">Types of meditation</a></li>
+            <li><a href="#daily-practice">Building a daily practice</a></li>
+            <li><a href="#faq">Frequently asked questions</a></li>
+          </ol>
+        </nav>
+
+        <h2 id="before-you-begin">Before You Begin Meditation</h2>
+        <p>
+          Choose a time when you are reasonably alert and unlikely to be interrupted. Many beginners enjoy
+          meditating shortly after waking, before the day's demands gather momentum. Others prefer a quiet pause
+          after work or before bed. The best time is not universal; it is the time you can return to consistently.
+        </p>
+        <p>
+          Silence notifications and decide how long you will sit before starting. A gentle timer can remove the need
+          to keep checking the clock. Begin with three to five minutes if ten feels intimidating. A short practice
+          repeated regularly is more useful than an ambitious session that quickly becomes another obligation.
+        </p>
+
+        <h2 id="how-to-meditate">How to Meditate Step by Step</h2>
+
+        <h3>1. Choose a Quiet, Ordinary Place</h3>
+        <p>
+          Find a place where you can sit without needing to perform. It may be a cushion, chair, floor mat,
+          or a simple corner of a room. The space does not need to look sacred to support sincere practice.
+        </p>
+        <p>
+          Some background sound is fine. Meditation is not dependent on perfect conditions. If a sound appears, let
+          it become part of what you notice rather than proof that the practice has been ruined.
+        </p>
+
+        <h3>2. Sit With Stability</h3>
+        <p>
+          Let the spine be upright but not stiff. Rest the hands comfortably. Soften the face and shoulders.
+          If you use a chair, place both feet on the floor when possible.
+        </p>
+        <p>
+          The purpose of posture is wakeful ease, not physical perfection. Use support beneath the hips or behind the
+          back when needed. You may keep the eyes gently closed or let the gaze rest on the floor a short distance
+          ahead.
+        </p>
+
+        <h3>3. Follow the Natural Breath</h3>
+        <p>
+          Notice the inhale and exhale as they are. You might feel the breath at the nose, chest, or belly.
+          Choose one area and let attention rest there lightly.
+        </p>
+        <p>
+          There is no need to breathe in a special way. A tight breath can be known as tight; a long breath can be
+          known as long. The practice is to feel breathing directly instead of thinking about how breathing should be.
+        </p>
+
+        <h3>4. Return Kindly When the Mind Wanders</h3>
+        <p>
+          Thoughts, sounds, and emotions will appear. This is not failure. When you notice the mind has wandered,
+          name it gently if helpful, then return to the breath.
+        </p>
+        <p>
+          Simple labels such as "thinking," "planning," or "hearing" can help you recognize what occurred without
+          becoming involved in the whole story. Use the label once, then reconnect with the physical sensation of
+          the next breath.
+        </p>
+
+        <h3>5. End With Intention</h3>
+        <p>
+          Before standing, notice the body again. Choose one simple intention for the next part of the day:
+          patience in speech, care in work, or gratitude for one ordinary thing.
+        </p>
+        <p>
+          Open the eyes if they were closed and give yourself a few seconds to transition. Ending carefully helps
+          connect formal meditation with the way you move, speak, and respond afterward.
+        </p>
+
+        <AdPlaceholder label="Meditation guide in-content ad placeholder" />
+
+        <h2 id="ten-minute-practice">A Simple 10-Minute Meditation Practice</h2>
+        <ol class="timed-practice">
+          <li><strong>Minutes 0-2:</strong> Feel the support beneath the body and allow the posture to settle.</li>
+          <li><strong>Minutes 2-4:</strong> Notice where the breath feels clearest without controlling its rhythm.</li>
+          <li><strong>Minutes 4-8:</strong> Stay with breathing and return gently whenever attention wanders.</li>
+          <li><strong>Minutes 8-9:</strong> Expand awareness to include the whole body, sounds, and the room.</li>
+          <li><strong>Minutes 9-10:</strong> End with a kind intention for yourself and the people you will meet.</li>
+        </ol>
+        <p>
+          You may lose track of the stages, become restless, or spend several minutes inside a thought. That is
+          normal. Once you notice, begin again from the body and the next available breath.
+        </p>
+
+        <h2 id="common-challenges">Common Meditation Challenges</h2>
+
+        <h3>"I Cannot Stop Thinking"</h3>
+        <p>
+          The mind produces thoughts just as the ears receive sounds. Success does not mean stopping this process.
+          The useful moment is the one in which you realize attention has wandered. That recognition is awareness,
+          and the gentle return is the training.
+        </p>
+
+        <h3>Restlessness and Impatience</h3>
+        <p>
+          Notice where restlessness lives in the body. It may feel like pressure, heat, or an urge to move. Take one
+          conscious breath before changing posture. If movement is needed, move slowly and know that you are moving.
+          Meditation should develop sensitivity, not force the body into unnecessary pain.
+        </p>
+
+        <h3>Sleepiness</h3>
+        <p>
+          Sit a little more upright, open the eyes, or practice at a more alert time of day. Walking meditation can
+          be a helpful alternative. If the body genuinely needs sleep, rest may be the wiser response.
+        </p>
+
+        <h3>Difficult Emotions</h3>
+        <p>
+          Strong sadness, fear, or anger may become more noticeable in stillness. Ground attention in the feet,
+          hands, or sounds around you. Shorten or stop the session when needed. Meditation is not an instruction to
+          remain overwhelmed.
+        </p>
+
+        <h2 id="meditation-types">Types of Meditation to Explore</h2>
+        <p>
+          Mindfulness of breathing is one doorway into practice, not the only one. Different methods cultivate
+          different qualities, and many practitioners combine them over time.
+        </p>
+        <dl class="meditation-types">
+          <div>
+            <dt>Breathing meditation</dt>
+            <dd>Uses the natural breath as a steady place for attention to return.</dd>
+          </div>
+          <div>
+            <dt>Body scan meditation</dt>
+            <dd>Moves attention through the body to develop sensitivity to physical sensations and tension.</dd>
+          </div>
+          <div>
+            <dt>Walking meditation</dt>
+            <dd>Brings awareness to standing, stepping, balance, movement, and contact with the ground.</dd>
+          </div>
+          <div>
+            <dt>Loving-kindness meditation</dt>
+            <dd>Uses sincere phrases of goodwill to cultivate compassion for oneself and other beings.</dd>
+          </div>
+          <div>
+            <dt>Open awareness meditation</dt>
+            <dd>Receives sounds, sensations, thoughts, and feelings without choosing a single primary object.</dd>
+          </div>
+        </dl>
+        <p>
+          For more detail, read our guides to <a href="/articles/walking-meditation-step-by-step/">walking meditation</a>
+          and <a href="/articles/loving-kindness-meditation-beginners/">loving-kindness meditation</a>.
+        </p>
+
+        <h2 id="daily-practice">How to Build a Daily Meditation Practice</h2>
+        <p>
+          Attach meditation to a routine that already exists. Sit after making morning tea, before opening your
+          laptop, or after brushing your teeth at night. Keeping the place and cue consistent reduces the number of
+          decisions required.
+        </p>
+        <p>
+          Track whether you practiced, not whether the session felt calm. Some useful sittings feel scattered or
+          uncomfortable because they reveal habits that usually go unnoticed. Let regularity, honesty, and kindness
+          be better measures of progress than a particular mood.
+        </p>
+
+        <h3>Suggested Four-Week Beginner Schedule</h3>
+        <ul>
+          <li>Week 1: 3 minutes each day.</li>
+          <li>Week 2: 5 minutes each day.</li>
+          <li>Week 3: 8 minutes each day.</li>
+          <li>Week 4: 10 minutes each day, with one mindful pause later in the day.</li>
+        </ul>
+        <p>
+          Missing a day does not erase the practice. Return at the next reasonable opportunity without creating a
+          story of failure. Learning to begin again is one of meditation's central lessons.
+        </p>
+
+        <h2>Bringing Meditation Into Everyday Life</h2>
+        <p>
+          Formal sitting gives you a quiet place to learn, but mindfulness becomes most valuable in ordinary
+          situations. Feel one breath before answering a difficult question. Notice your feet while waiting in line.
+          Give another person your full attention for the first minute of a conversation.
+        </p>
+        <p>
+          These small practices connect awareness with ethical action. The purpose is not to remain inwardly focused
+          all day. It is to become more available to life, less governed by automatic reactions, and more capable of
+          choosing a compassionate response.
+        </p>
+
+        <AdPlaceholder label="Meditation guide lower ad placeholder" />
+
+        <h2 id="faq">Meditation Questions for Beginners</h2>
+        <div class="faq-list">
+          {faqItems.map((item) => (
+            <details>
+              <summary>{item.question}</summary>
+              <p>{item.answer}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+      <aside>
+        <div class="surface guide-note">
+          <h2>Start Here</h2>
+          <p>Set a timer for five minutes, sit comfortably, and feel one natural breath at a time.</p>
+        </div>
+        <div class="surface guide-note">
+          <h2>Gentle Reminder</h2>
+          <p>
+            Meditation can support calm and awareness, but it is not a substitute for professional care when
+            someone is facing serious mental health distress.
+          </p>
+        </div>
+        <AdPlaceholder label="Guide sidebar ad placeholder" size="box" />
+      </aside>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .guide-contents {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .guide-contents h2 {
+    font-size: 1.45rem;
+    margin-top: 0;
+  }
+
+  .guide-contents ol {
+    margin-bottom: 0;
+  }
+
+  .prose h3 {
+    font-size: 1.35rem;
+    margin-top: 2rem;
+  }
+
+  .timed-practice {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 1.5rem;
+  }
+
+  .meditation-types {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .meditation-types div {
+    border-bottom: 1px solid var(--color-line);
+    padding-bottom: 0.75rem;
+  }
+
+  .meditation-types dt {
+    color: var(--color-brown);
+    font-weight: 800;
+  }
+
+  .meditation-types dd {
+    color: var(--color-muted);
+    margin: 0.2rem 0 0;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .faq-list details {
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0.9rem 1rem;
+  }
+
+  .faq-list summary {
+    color: var(--color-ink);
+    cursor: pointer;
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    font-weight: 700;
+  }
+
+  .faq-list p {
+    color: var(--color-muted);
+    margin: 0.75rem 0 0;
+  }
+
+  .guide-note {
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+  }
+
+  .guide-note h2 {
+    font-size: 1.35rem;
+  }
+</style>

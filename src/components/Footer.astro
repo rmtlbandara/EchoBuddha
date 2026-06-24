@@ -1,0 +1,79 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="/">Echo Buddha</a>
+      <p>Original Buddhist-inspired wisdom, meditation guidance, and educational reflections for steady daily practice.</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="/about/">About</a>
+      <a href="/articles/">Articles</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms-and-conditions/">Terms</a>
+      <a href="/disclaimer/">Disclaimer</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <small>&copy; {year} Echo Buddha. All rights reserved.</small>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: #f7f0e5;
+    border-top: 1px solid var(--color-line);
+    color: var(--color-muted);
+    margin-top: 3rem;
+    padding: 3rem 0 1.5rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .footer-brand {
+    color: var(--color-ink);
+    display: inline-flex;
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+    text-decoration: none;
+  }
+
+  .site-footer p {
+    max-width: 520px;
+  }
+
+  .site-footer nav {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .site-footer nav a {
+    color: var(--color-muted);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .site-footer nav a:hover {
+    color: var(--color-green);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid var(--color-line);
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+
+  @media (min-width: 720px) {
+    .footer-grid {
+      grid-template-columns: 1fr auto;
+    }
+  }
+</style>

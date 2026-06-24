@@ -1,0 +1,110 @@
+---
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/quotes/", label: "Quotes" },
+  { href: "/articles/", label: "Articles" },
+  { href: "/meditation-guide/", label: "Meditation" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" }
+];
+---
+
+<header class="site-header">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Echo Buddha home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Echo Buddha</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: rgba(255, 253, 248, 0.92);
+    border-bottom: 1px solid var(--color-line);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-inner {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    min-height: 4.5rem;
+  }
+
+  .skip-link {
+    background: var(--color-brown);
+    color: #fff;
+    left: 1rem;
+    padding: 0.5rem 0.75rem;
+    position: absolute;
+    top: -4rem;
+    z-index: 20;
+  }
+
+  .skip-link:focus {
+    top: 0.75rem;
+  }
+
+  .brand {
+    align-items: center;
+    color: var(--color-ink);
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    gap: 0.6rem;
+    text-decoration: none;
+  }
+
+  .brand-mark {
+    background:
+      radial-gradient(circle, #fffdf8 0 34%, transparent 35%),
+      conic-gradient(from 24deg, var(--color-gold-soft), var(--color-green-soft), var(--color-gold-soft));
+    border: 1px solid var(--color-line);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.75rem;
+    justify-content: flex-end;
+  }
+
+  .main-nav a {
+    border-radius: var(--radius);
+    color: var(--color-muted);
+    font-size: 0.93rem;
+    font-weight: 750;
+    padding: 0.4rem 0.35rem;
+    text-decoration: none;
+  }
+
+  .main-nav a:hover {
+    color: var(--color-green);
+  }
+
+  @media (max-width: 760px) {
+    .header-inner {
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      padding-block: 0.85rem;
+    }
+
+    .main-nav {
+      justify-content: flex-start;
+    }
+  }
+</style>

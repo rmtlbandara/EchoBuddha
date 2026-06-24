@@ -1,0 +1,94 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const title = "Contact";
+const description = "Contact Echo Buddha with questions, suggestions, article ideas, or general feedback about the website.";
+---
+
+<Layout title={title} description={description} canonicalPath="/contact/">
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Contact</span>
+      <h1>Contact Echo Buddha</h1>
+      <p class="lede">
+        Send questions, suggestions, or feedback for future content. This static form is a placeholder until
+        a form provider is connected.
+      </p>
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="container contact-grid">
+      <form class="surface contact-form" aria-label="Contact form placeholder">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" disabled />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" disabled />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Your message" disabled></textarea>
+        <button type="button" disabled>Send Message</button>
+      </form>
+      <div class="prose">
+        <h2>Email</h2>
+        <p>
+          For now, use <a href="mailto:hello@echobuddha.com">hello@echobuddha.com</a> as the public contact address.
+          Update this address before publishing if needed.
+        </p>
+        <h2>Content Suggestions</h2>
+        <p>
+          Echo Buddha welcomes future topic ideas about meditation, compassion, mindful living, and beginner-friendly
+          Buddhist education.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .contact-grid {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .contact-form {
+    display: grid;
+    gap: 0.7rem;
+    padding: 1.25rem;
+  }
+
+  .contact-form label {
+    font-weight: 800;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    border-radius: var(--radius);
+    font: inherit;
+    padding: 0.75rem 0.9rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    background: #fff;
+    border: 1px solid var(--color-line);
+  }
+
+  .contact-form button {
+    background: var(--color-brown);
+    border: 1px solid var(--color-brown);
+    color: #fff;
+    font-weight: 800;
+  }
+
+  .contact-form :disabled {
+    cursor: not-allowed;
+    opacity: 0.72;
+  }
+
+  @media (min-width: 820px) {
+    .contact-grid {
+      align-items: start;
+      grid-template-columns: minmax(280px, 0.75fr) 1fr;
+    }
+  }
+</style>

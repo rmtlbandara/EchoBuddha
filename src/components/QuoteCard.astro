@@ -1,0 +1,80 @@
+---
+import { getQuoteCategory, getQuoteStoryPath, type Quote } from "../data/site";
+
+type Props = {
+  quote: Quote;
+};
+
+const { quote } = Astro.props;
+const category = getQuoteCategory(quote.theme);
+const storyPath = getQuoteStoryPath(quote);
+---
+
+<figure class="quote-card surface">
+  <blockquote>
+    <a href={storyPath} aria-label={`Read the story behind: ${quote.text}`}>{quote.text}</a>
+  </blockquote>
+  <figcaption>
+    <a href={`/quotes/${category.slug}/`} aria-label={`View all ${quote.theme} quotes`}>{quote.theme}</a>
+    <a class="story-link" href={storyPath}>Read story</a>
+  </figcaption>
+</figure>
+
+<style>
+  .quote-card {
+    margin: 0;
+    min-height: 12rem;
+    padding: 1.4rem;
+    position: relative;
+  }
+
+  .quote-card::before {
+    color: rgba(185, 133, 36, 0.22);
+    content: "\201C";
+    font-family: var(--font-serif);
+    font-size: 4rem;
+    left: 1rem;
+    line-height: 1;
+    position: absolute;
+    top: 0.4rem;
+  }
+
+  blockquote {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    line-height: 1.45;
+    margin: 1.4rem 0 1rem;
+  }
+
+  blockquote a {
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+
+  blockquote a:hover {
+    color: var(--color-brown);
+  }
+
+  figcaption {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  figcaption a {
+    color: var(--color-green);
+    text-decoration-thickness: 1px;
+  }
+
+  .story-link {
+    color: var(--color-brown);
+    letter-spacing: 0;
+    text-transform: none;
+  }
+</style>

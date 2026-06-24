@@ -1,0 +1,143 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import ArticleCard from "../../../components/ArticleCard.astro";
+import AdPlaceholder from "../../../components/AdPlaceholder.astro";
+import {
+  SITE,
+  articleCategories,
+  fullArticles,
+  getQuoteCategory,
+  getQuoteThemeForArticleCategory
+} from "../../../data/site";
+
+export function getStaticPaths() {
+  return articleCategories.map((category) => ({
+    params: { category: category.slug },
+    props: {
+      category,
+      categoryArticles: fullArticles.filter((article) => article.category === category.name)
+    }
+  }));
+}
+
+const { category, categoryArticles } = Astro.props;
+const title = `${category.name} Articles`;
+const canonicalPath = `/articles/category/${category.slug}/`;
+const quoteTheme = getQuoteThemeForArticleCategory(category.name);
+const quoteCategory = getQuoteCategory(quoteTheme);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description: category.description,
+    url: `${SITE.url}${canonicalPath}`,
+    numberOfItems: categoryArticles.length,
+    isPartOf: {
+      "@type": "Blog",
+      name: `${SITE.name} Articles`,
+      url: `${SITE.url}/articles/`
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: categoryArticles.map((article, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: article.title,
+        url: `${SITE.url}/articles/${article.slug}/`
+      }))
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Articles",
+        item: `${SITE.url}/articles/`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: category.name,
+        item: `${SITE.url}${canonicalPath}`
+      }
+    ]
+  }
+];
+---
+
+<Layout title={title} description={category.description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/articles/">All Articles</a>
+      <span class="eyebrow">Article Category</span>
+      <h1>{category.name} Articles</h1>
+      <p class="lede">{category.introduction}</p>
+      <p class="item-count">
+        {categoryArticles.length} {categoryArticles.length === 1 ? "article" : "articles"}
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="grid grid--3">
+        {categoryArticles.map((article) => <ArticleCard article={article} />)}
+      </div>
+      <AdPlaceholder label={`${category.name} articles ad placeholder`} />
+
+      <aside class="related-quotes surface">
+        <div>
+          <span class="eyebrow">Related quotes</span>
+          <h2>Continue With {quoteTheme}</h2>
+          <p>Explore short reflections that complement these {category.name.toLowerCase()} articles.</p>
+        </div>
+        <a class="button button--secondary" href={`/quotes/${quoteCategory.slug}/`}>
+          Read {quoteTheme} Quotes
+        </a>
+      </aside>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .item-count {
+    color: var(--color-green);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  .related-quotes {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  .related-quotes h2 {
+    font-size: 1.6rem;
+  }
+
+  .related-quotes p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+</style>

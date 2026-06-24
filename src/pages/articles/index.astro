@@ -1,0 +1,174 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import AdPlaceholder from "../../components/AdPlaceholder.astro";
+import { SITE, articleCategories, fullArticles } from "../../data/site";
+
+const title = "Articles and Blog";
+const description = "Browse Echo Buddha articles on mindfulness, meditation, compassion, patience, and Buddhist-inspired daily reflection.";
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: `${SITE.name} Articles`,
+    url: `${SITE.url}/articles/`,
+    description,
+    inLanguage: "en",
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    numberOfItems: fullArticles.length,
+    itemListElement: fullArticles.map((article, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: article.title,
+      url: `${SITE.url}/articles/${article.slug}/`
+    }))
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath="/articles/" jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Articles</span>
+      <h1>Articles and Blog</h1>
+      <p class="lede">
+        Original educational writing on meditation, Buddhist wisdom, and practical ways to meet daily life with care.
+      </p>
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="container article-index">
+      <div>
+        <div class="category-heading">
+          <span class="eyebrow">Browse by category</span>
+          <h2>Article Topics</h2>
+        </div>
+        <nav class="category-grid" aria-label="Article categories">
+          {articleCategories.map((category) => (
+            <a class="category-link surface" href={`/articles/category/${category.slug}/`}>
+              <span>{category.name}</span>
+              <small>{category.count} {category.count === 1 ? "article" : "articles"}</small>
+            </a>
+          ))}
+        </nav>
+
+        <h2 class="all-articles-heading">All Articles</h2>
+        <div class="grid grid--2">
+          {fullArticles.map((article) => <ArticleCard article={article} />)}
+        </div>
+      </div>
+      <aside class="sidebar">
+        <AdPlaceholder label="Desktop sidebar ad placeholder" size="box" />
+        <div class="surface sidebar-note">
+          <h2>Editorial Note</h2>
+          <p>
+            Echo Buddha publishes original educational writing in clear language. Articles are reviewed for
+            respectful presentation, practical usefulness, and consistency with the site's contemplative purpose.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section archive-intro">
+    <div class="container prose">
+      <span class="eyebrow">Learning library</span>
+      <h2>Practical Buddhist Wisdom for Everyday Life</h2>
+      <p>
+        This collection covers beginner meditation, mindfulness, compassion, impermanence, non-attachment, patience,
+        and the Noble Eightfold Path. Each article connects a focused topic with practical steps that can be explored
+        in ordinary routines, relationships, and difficult moments.
+      </p>
+      <p>
+        Start with the subject that feels most relevant today, then follow the related articles and quote reflections
+        to continue learning at a steady pace.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .article-index {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .sidebar-note {
+    padding: 1.25rem;
+  }
+
+  .sidebar-note h2 {
+    font-size: 1.4rem;
+  }
+
+  .category-heading h2,
+  .all-articles-heading {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+  }
+
+  .category-grid {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .category-link {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .category-link span {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    font-weight: 700;
+  }
+
+  .category-link small {
+    color: var(--color-green);
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  .category-link:hover {
+    border-color: var(--color-green);
+  }
+
+  .all-articles-heading {
+    margin-top: 3rem;
+  }
+
+  .archive-intro {
+    background: rgba(247, 240, 229, 0.64);
+    border-top: 1px solid var(--color-line);
+  }
+
+  @media (min-width: 960px) {
+    .article-index {
+      align-items: start;
+      grid-template-columns: minmax(0, 1fr) 280px;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 5.5rem;
+    }
+  }
+
+  @media (min-width: 720px) {
+    .category-grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+</style>

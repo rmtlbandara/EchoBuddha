@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Echo Buddha</title>
+  <desc id="desc">A calm original Open Graph image with warm paper, gold, brown, and soft green circles.</desc>
+  <rect width="1200" height="630" fill="#fffdf8"/>
+  <circle cx="930" cy="158" r="190" fill="#e8f0e4"/>
+  <circle cx="245" cy="500" r="210" fill="#f3dfaa"/>
+  <circle cx="600" cy="292" r="145" fill="none" stroke="#b98524" stroke-width="8"/>
+  <circle cx="600" cy="292" r="74" fill="none" stroke="#5f7f62" stroke-width="4"/>
+  <text x="600" y="286" text-anchor="middle" font-family="Georgia, serif" font-size="84" font-weight="700" fill="#26231f">Echo Buddha</text>
+  <text x="600" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#674824">Timeless Buddhist wisdom for a peaceful mind</text>
+</svg>

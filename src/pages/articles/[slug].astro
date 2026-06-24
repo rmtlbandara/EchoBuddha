@@ -1,0 +1,380 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import AdPlaceholder from "../../components/AdPlaceholder.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import QuoteCard from "../../components/QuoteCard.astro";
+import {
+  SITE,
+  fullArticles,
+  getArticleCategory,
+  getArticleReadTime,
+  getArticleSeoDetails,
+  getArticleWordCount,
+  getQuoteCategory,
+  getQuoteThemeForArticleCategory,
+  quotes,
+  slugify
+} from "../../data/site";
+
+export function getStaticPaths() {
+  return fullArticles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article }
+  }));
+}
+
+const { article } = Astro.props;
+const canonicalPath = `/articles/${article.slug}/`;
+const formattedDate = new Intl.DateTimeFormat("en", {
+  month: "long",
+  day: "numeric",
+  year: "numeric"
+}).format(new Date(`${article.date}T00:00:00Z`));
+const articleUrl = `${SITE.url}${canonicalPath}`;
+const category = getArticleCategory(article.category);
+const seoDetails = getArticleSeoDetails(article.slug);
+const readTime = getArticleReadTime(article);
+const wordCount = getArticleWordCount(article);
+const formattedReviewedDate = new Intl.DateTimeFormat("en", {
+  month: "long",
+  day: "numeric",
+  year: "numeric"
+}).format(new Date(`${seoDetails.reviewedDate}T00:00:00Z`));
+const sectionsWithIds = article.content.map((section) => ({
+  ...section,
+  id: section.heading ? slugify(section.heading) : ""
+}));
+const tableOfContents = sectionsWithIds.filter((section) => section.heading);
+const relatedArticles = fullArticles
+  .filter((item) => item.slug !== article.slug && item.category === article.category)
+  .slice(0, 3);
+const relatedQuoteTheme = getQuoteThemeForArticleCategory(article.category);
+const relatedQuoteCategory = getQuoteCategory(relatedQuoteTheme);
+const relatedQuotes = quotes.filter((quote) => quote.theme === relatedQuoteTheme).slice(0, 3);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": ["BlogPosting", "Article"],
+    headline: article.title,
+    description: article.description,
+    url: articleUrl,
+    datePublished: article.date,
+    dateModified: seoDetails.reviewedDate,
+    articleSection: article.category,
+    keywords: article.tags.join(", "),
+    wordCount,
+    timeRequired: `PT${Number.parseInt(readTime, 10)}M`,
+    inLanguage: "en",
+    image: `${SITE.url}/og-default.svg`,
+    author: {
+      "@type": "Organization",
+      name: article.author,
+      url: `${SITE.url}/about/`
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE.url}/og-default.svg`
+      }
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Articles",
+        item: `${SITE.url}/articles/`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.category,
+        item: `${SITE.url}/articles/category/${category.slug}/`
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: article.title,
+        item: articleUrl
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: seoDetails.faqs.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  }
+];
+---
+
+<Layout
+  title={article.title}
+  description={article.description}
+  canonicalPath={canonicalPath}
+  type="article"
+  publishedDate={article.date}
+  modifiedDate={seoDetails.reviewedDate}
+  author={article.author}
+  jsonLd={jsonLd}
+>
+  <article>
+    <header class="page-hero">
+      <div class="container prose">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="/articles/">Articles</a>
+          <span aria-hidden="true">/</span>
+          <a href={`/articles/category/${category.slug}/`}>{article.category}</a>
+        </nav>
+        <a class="eyebrow category-eyebrow" href={`/articles/category/${category.slug}/`}>{article.category}</a>
+        <h1>{article.title}</h1>
+        <p class="lede">{article.description}</p>
+        <div class="article-meta">
+          <span>By {article.author}</span>
+          <span>Published <time datetime={article.date}>{formattedDate}</time></span>
+          <span>Reviewed <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
+          <span>{readTime}</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="container article-shell">
+      <div class="prose article-content">
+        <aside class="key-takeaways surface" aria-labelledby="key-takeaways-heading">
+          <h2 id="key-takeaways-heading">Key Takeaways</h2>
+          <ul>
+            {seoDetails.takeaways.map((takeaway) => <li>{takeaway}</li>)}
+          </ul>
+        </aside>
+
+        {sectionsWithIds.map((section, index) => (
+          <>
+            {section.heading && <h2 id={section.id}>{section.heading}</h2>}
+            {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+            {index === 1 && <AdPlaceholder label="In-article ad placeholder" />}
+          </>
+        ))}
+
+        <section class="article-faq" aria-labelledby="article-faq-heading">
+          <h2 id="article-faq-heading">Frequently Asked Questions</h2>
+          <div class="faq-list">
+            {seoDetails.faqs.map((item) => (
+              <details>
+                <summary>{item.question}</summary>
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      </div>
+      <aside>
+        {tableOfContents.length > 0 && (
+          <nav class="surface article-toc" aria-label="Article contents">
+            <h2>On This Page</h2>
+            <ol>
+              {tableOfContents.map((section) => (
+                <li><a href={`#${section.id}`}>{section.heading}</a></li>
+              ))}
+              <li><a href="#article-faq-heading">Frequently Asked Questions</a></li>
+            </ol>
+          </nav>
+        )}
+        <AdPlaceholder label="Article sidebar ad placeholder" size="box" />
+        <div class="surface article-tags">
+          <h2>Topics</h2>
+          <ul>
+            {article.tags.map((tag) => <li>{tag}</li>)}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  {relatedArticles.length > 0 && (
+    <section class="section section-band">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Article to article</span>
+            <h2>Related {article.category} Articles</h2>
+          </div>
+          <a href={`/articles/category/${category.slug}/`}>View this category</a>
+        </div>
+        <div class="grid grid--3">
+          {relatedArticles.map((item) => <ArticleCard article={item} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Article to quote</span>
+          <h2>{relatedQuoteTheme} Quotes for Further Reflection</h2>
+        </div>
+        <a href={`/quotes/${relatedQuoteCategory.slug}/`}>View all {relatedQuoteTheme} quotes</a>
+      </div>
+      <div class="grid grid--3">
+        {relatedQuotes.map((quote) => <QuoteCard quote={quote} />)}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .breadcrumbs {
+    align-items: center;
+    color: var(--color-muted);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.86rem;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .breadcrumbs a {
+    color: var(--color-muted);
+  }
+
+  .category-eyebrow {
+    text-decoration-thickness: 1px;
+  }
+
+  .key-takeaways {
+    margin-bottom: 2rem;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .key-takeaways h2 {
+    font-size: 1.45rem;
+    margin-top: 0;
+  }
+
+  .key-takeaways ul {
+    margin-bottom: 0;
+  }
+
+  .article-toc {
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+  }
+
+  .article-toc h2 {
+    font-size: 1.35rem;
+  }
+
+  .article-toc ol {
+    font-size: 0.9rem;
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  .article-toc li + li {
+    margin-top: 0.5rem;
+  }
+
+  .article-toc a {
+    color: var(--color-brown);
+  }
+
+  .article-tags {
+    padding: 1.25rem;
+  }
+
+  .article-tags h2 {
+    font-size: 1.35rem;
+  }
+
+  .article-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .article-tags li {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.84rem;
+    font-weight: 800;
+    padding: 0.25rem 0.7rem;
+  }
+
+  .article-faq {
+    border-top: 1px solid var(--color-line);
+    margin-top: 3rem;
+    padding-top: 0.25rem;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .faq-list details {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+  }
+
+  .faq-list summary {
+    color: var(--color-ink);
+    cursor: pointer;
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    font-weight: 700;
+  }
+
+  .faq-list p {
+    color: var(--color-muted);
+    margin: 0.75rem 0 0;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .section-heading {
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading a {
+    font-weight: 800;
+  }
+</style>

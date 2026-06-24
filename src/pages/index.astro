@@ -1,0 +1,244 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AdPlaceholder from "../components/AdPlaceholder.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import QuoteCard from "../components/QuoteCard.astro";
+import { SITE, articles, quotes } from "../data/site";
+
+const title = "Echo Buddha";
+const description = "Timeless Buddhist wisdom for a peaceful mind, with original quotes, meditation guidance, and simple articles for everyday practice.";
+const featuredQuotes = quotes.slice(0, 3);
+const latestArticles = articles.slice(0, 3);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE.name,
+    url: SITE.url,
+    description: SITE.description,
+    inLanguage: "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    email: SITE.email
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath="/" jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Buddhist wisdom for daily life</span>
+        <h1>Echo Buddha</h1>
+        <p class="hero-subtitle">Timeless Buddhist wisdom for a peaceful mind</p>
+        <p class="lede">
+          Explore original reflections, gentle meditation guidance, and simple teachings inspired by Buddhist practice.
+          Echo Buddha is built for quiet reading, steady learning, and a kinder relationship with the mind.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/articles/">Read Articles</a>
+          <a class="button button--secondary" href="/meditation-guide/">Start Meditating</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Calm circular visual inspired by stillness and mindful attention">
+        <div class="decorative-mark"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdPlaceholder label="Ad placeholder below hero" />
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Featured quotes</span>
+      <h2>Small Lines for a Steady Day</h2>
+      <div class="grid grid--3">
+        {featuredQuotes.map((quote) => <QuoteCard quote={quote} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Latest articles</span>
+          <h2>New Reflections</h2>
+        </div>
+        <a href="/articles/">View all articles</a>
+      </div>
+      <div class="grid grid--3">
+        {latestArticles.map((article) => <ArticleCard article={article} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Meditation guidance</span>
+        <h2>Begin With One Breath</h2>
+        <p class="lede">
+          A calm meditation practice can begin in a few minutes. Learn posture, breathing, gentle attention,
+          and how to return when the mind wanders.
+        </p>
+        <a class="button" href="/meditation-guide/">Open the guide</a>
+      </div>
+      <div class="practice-panel surface">
+        <h3>Simple Daily Rhythm</h3>
+        <ol>
+          <li>Pause and notice the body.</li>
+          <li>Follow three natural breaths.</li>
+          <li>Return with kindness when distracted.</li>
+          <li>End by choosing one compassionate action.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container newsletter">
+      <div>
+        <span class="eyebrow">Newsletter placeholder</span>
+        <h2>Quiet Notes for Future Readers</h2>
+        <p>
+          This area is reserved for a future newsletter sign-up. It can later connect to an email provider
+          after privacy wording and consent handling are finalized.
+        </p>
+      </div>
+      <form aria-label="Newsletter placeholder form">
+        <label for="newsletter-email">Email address</label>
+        <div class="form-row">
+          <input id="newsletter-email" type="email" placeholder="you@example.com" disabled />
+          <button type="button" disabled>Notify Me</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdPlaceholder label="Bottom ad placeholder" />
+  </div>
+</Layout>
+
+<style>
+  .hero {
+    padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(2rem, 6vw, 4rem);
+  }
+
+  .hero-grid {
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+  }
+
+  .hero-subtitle {
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero-visual {
+    margin-inline: auto;
+    width: min(78vw, 24rem);
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .section-heading {
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading a {
+    font-weight: 800;
+  }
+
+  .practice-panel {
+    padding: 1.5rem;
+  }
+
+  .practice-panel ol {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+  }
+
+  .newsletter {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .newsletter form {
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .newsletter label {
+    font-weight: 800;
+  }
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .form-row input,
+  .form-row button {
+    border-radius: var(--radius);
+    font: inherit;
+    min-height: 2.8rem;
+    padding: 0.7rem 0.9rem;
+  }
+
+  .form-row input {
+    background: #fff;
+    border: 1px solid var(--color-line);
+    flex: 1 1 16rem;
+  }
+
+  .form-row button {
+    background: var(--color-brown);
+    border: 1px solid var(--color-brown);
+    color: #fff;
+    font-weight: 800;
+  }
+
+  .form-row :disabled {
+    cursor: not-allowed;
+    opacity: 0.72;
+  }
+
+  @media (min-width: 820px) {
+    .hero-grid {
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.75fr);
+    }
+
+    .newsletter {
+      align-items: end;
+      grid-template-columns: 1fr minmax(280px, 0.8fr);
+    }
+  }
+</style>

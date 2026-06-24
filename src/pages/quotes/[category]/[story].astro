@@ -1,0 +1,190 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import QuoteCard from "../../../components/QuoteCard.astro";
+import ArticleCard from "../../../components/ArticleCard.astro";
+import AdPlaceholder from "../../../components/AdPlaceholder.astro";
+import {
+  SITE,
+  getArticlesForQuoteTheme,
+  getQuoteCategory,
+  getQuoteSlug,
+  getQuoteStory,
+  quotes
+} from "../../../data/site";
+
+export function getStaticPaths() {
+  return quotes.map((quote) => {
+    const category = getQuoteCategory(quote.theme);
+    return {
+      params: {
+        category: category.slug,
+        story: getQuoteSlug(quote)
+      },
+      props: { quote, category }
+    };
+  });
+}
+
+const { quote, category } = Astro.props;
+const story = getQuoteStory(quote);
+const canonicalPath = `/quotes/${category.slug}/${story.slug}/`;
+const relatedQuotes = quotes.filter((item) => item.theme === quote.theme && item.text !== quote.text).slice(0, 3);
+const relatedArticles = getArticlesForQuoteTheme(quote.theme).slice(0, 2);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: story.title,
+  description: story.description,
+  url: `${SITE.url}${canonicalPath}`,
+  author: {
+    "@type": "Organization",
+    name: SITE.author
+  },
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  },
+  about: {
+    "@type": "Thing",
+    name: quote.theme
+  },
+  isPartOf: {
+    "@type": "CollectionPage",
+    name: `${quote.theme} Buddhist Quotes`,
+    url: `${SITE.url}/quotes/${category.slug}/`
+  }
+};
+---
+
+<Layout title={story.title} description={story.description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+  <article>
+    <header class="page-hero story-hero">
+      <div class="container prose">
+        <a class="back-link" href={`/quotes/${category.slug}/`}>All {quote.theme} Quotes</a>
+        <span class="eyebrow">{quote.theme} Reflection Story</span>
+        <h1>{story.title}</h1>
+        <blockquote>{quote.text}</blockquote>
+      </div>
+    </header>
+
+    <div class="container article-shell">
+      <div class="prose story-body">
+        <h2>The Story</h2>
+        {story.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+
+        <AdPlaceholder label="Quote story ad placeholder" />
+
+        <h2>A Quiet Reflection</h2>
+        <p>
+          Consider where this quote meets your own life today. Is there a conversation, habit, expectation, or
+          difficult feeling that could be approached with a little more {quote.theme.toLowerCase()}?
+        </p>
+        <p>
+          Keep the quote nearby and choose one small action that expresses its meaning. Buddhist-inspired wisdom
+          becomes useful when reflection is followed by patient practice.
+        </p>
+      </div>
+
+      <aside>
+        <div class="surface story-note">
+          <span class="eyebrow">Quote category</span>
+          <h2>{quote.theme}</h2>
+          <p>{category.introduction}</p>
+          <a href={`/quotes/${category.slug}/`}>Explore all {quote.theme} quotes</a>
+        </div>
+        <AdPlaceholder label="Story sidebar ad placeholder" size="box" />
+      </aside>
+    </div>
+  </article>
+
+  {relatedQuotes.length > 0 && (
+    <section class="section section-band">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Quote to quote</span>
+            <h2>Related {quote.theme} Quotes</h2>
+          </div>
+          <a href={`/quotes/${category.slug}/`}>View the category</a>
+        </div>
+        <div class="grid grid--3">
+          {relatedQuotes.map((item) => <QuoteCard quote={item} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {relatedArticles.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Quote to article</span>
+            <h2>Continue the Reflection</h2>
+          </div>
+          <a href="/articles/">Browse all articles</a>
+        </div>
+        <div class="grid grid--2 related-article-grid">
+          {relatedArticles.map((article) => <ArticleCard article={article} />)}
+        </div>
+      </div>
+    </section>
+  )}
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .story-hero blockquote {
+    border-left: 3px solid var(--color-gold);
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: clamp(1.35rem, 3vw, 1.8rem);
+    margin: 1.5rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  .story-body h2:first-child {
+    margin-top: 0;
+  }
+
+  .story-note {
+    padding: 1.25rem;
+  }
+
+  .story-note h2 {
+    font-size: 1.45rem;
+  }
+
+  .story-note p {
+    color: var(--color-muted);
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .section-heading {
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading a {
+    font-weight: 800;
+  }
+
+  .related-article-grid {
+    max-width: 760px;
+  }
+</style>

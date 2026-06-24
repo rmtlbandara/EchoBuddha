@@ -1,0 +1,100 @@
+---
+import Layout from "../layouts/Layout.astro";
+import QuoteCard from "../components/QuoteCard.astro";
+import AdPlaceholder from "../components/AdPlaceholder.astro";
+import { SITE, quoteCategories, quotes } from "../data/site";
+
+const title = "Buddhist Quotes";
+const description = "Read original Buddhist-inspired quotes about mindfulness, compassion, patience, letting go, and peaceful living.";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: title,
+  description,
+  url: `${SITE.url}/quotes/`,
+  numberOfItems: quotes.length
+};
+---
+
+<Layout title={title} description={description} canonicalPath="/quotes/" jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Quotes</span>
+      <h1>Buddhist Quotes</h1>
+      <p class="lede">
+        Browse {quotes.length} short original reflections inspired by Buddhist practice, written for mindful reading and
+        daily contemplation.
+      </p>
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="container">
+      <div class="category-heading">
+        <span class="eyebrow">Browse by category</span>
+        <h2>Choose a Theme</h2>
+      </div>
+      <nav class="category-grid" aria-label="Buddhist quote categories">
+        {quoteCategories.map((category) => (
+          <a class="category-link surface" href={`/quotes/${category.slug}/`}>
+            <span>{category.name}</span>
+            <small>{category.count} quotes</small>
+          </a>
+        ))}
+      </nav>
+
+      <h2 class="all-quotes-heading">All Buddhist Quotes</h2>
+      <div class="grid grid--3">
+        {quotes.map((quote) => <QuoteCard quote={quote} />)}
+      </div>
+      <AdPlaceholder label="Quotes page ad placeholder" />
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .category-heading h2 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+  }
+
+  .category-grid {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .category-link {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .category-link span {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 1.12rem;
+    font-weight: 700;
+  }
+
+  .category-link small {
+    color: var(--color-green);
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  .category-link:hover {
+    border-color: var(--color-green);
+  }
+
+  .all-quotes-heading {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    margin-top: 3rem;
+  }
+
+  @media (min-width: 720px) {
+    .category-grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+</style>

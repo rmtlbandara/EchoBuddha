@@ -1,0 +1,149 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import QuoteCard from "../../components/QuoteCard.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import AdPlaceholder from "../../components/AdPlaceholder.astro";
+import { SITE, getArticlesForQuoteTheme, quoteCategories, quotes } from "../../data/site";
+
+export function getStaticPaths() {
+  return quoteCategories.map((category) => ({
+    params: { category: category.slug },
+    props: {
+      category,
+      categoryQuotes: quotes.filter((quote) => quote.theme === category.name)
+    }
+  }));
+}
+
+const { category, categoryQuotes } = Astro.props;
+const title = `${category.name} Buddhist Quotes`;
+const canonicalPath = `/quotes/${category.slug}/`;
+const relatedArticles = getArticlesForQuoteTheme(category.name).slice(0, 3);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: title,
+  description: category.description,
+  url: `${SITE.url}${canonicalPath}`,
+  numberOfItems: categoryQuotes.length,
+  isPartOf: {
+    "@type": "CollectionPage",
+    name: "Buddhist Quotes",
+    url: `${SITE.url}/quotes/`
+  }
+};
+---
+
+<Layout title={title} description={category.description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/quotes/">All Buddhist Quotes</a>
+      <span class="eyebrow">Quote Category</span>
+      <h1>{category.name} Buddhist Quotes</h1>
+      <p class="lede">{category.introduction}</p>
+      <p class="quote-count">{categoryQuotes.length} original quotes</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="grid grid--3">
+        {categoryQuotes.map((quote) => <QuoteCard quote={quote} />)}
+      </div>
+      <AdPlaceholder label={`${category.name} quotes ad placeholder`} />
+
+      {relatedArticles.length > 0 && (
+        <section class="related-reading">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Quote to article</span>
+              <h2>Related Reading</h2>
+            </div>
+            <a href="/articles/">Browse all articles</a>
+          </div>
+          <div class="grid grid--3">
+            {relatedArticles.map((article) => <ArticleCard article={article} />)}
+          </div>
+        </section>
+      )}
+
+      <nav class="more-categories" aria-label="More quote categories">
+        <h2>Explore More Quote Categories</h2>
+        <div>
+          {quoteCategories
+            .filter((item) => item.slug !== category.slug)
+            .map((item) => <a href={`/quotes/${item.slug}/`}>{item.name}</a>)}
+        </div>
+      </nav>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .quote-count {
+    color: var(--color-green);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  .more-categories {
+    border-top: 1px solid var(--color-line);
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .related-reading {
+    border-top: 1px solid var(--color-line);
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .section-heading {
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.7rem, 4vw, 2.25rem);
+  }
+
+  .section-heading a {
+    font-weight: 800;
+  }
+
+  .more-categories h2 {
+    font-size: clamp(1.7rem, 4vw, 2.25rem);
+  }
+
+  .more-categories div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .more-categories a {
+    background: var(--color-green-soft);
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    color: var(--color-green);
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 0.45rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .more-categories a:hover {
+    border-color: var(--color-green);
+  }
+</style>
