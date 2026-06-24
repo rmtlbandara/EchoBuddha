@@ -4,7 +4,7 @@ export const SITE = {
   title: "Echo Buddha",
   description: "Timeless Buddhist wisdom, original quotes, meditation guidance, and simple articles for a peaceful mind.",
   author: "Echo Buddha Editorial",
-  email: "hello@echobuddha.com",
+  email: "info.echobuddha@gmail.com",
   locale: "en_US"
 };
 
