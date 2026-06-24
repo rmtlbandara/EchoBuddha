@@ -63,27 +63,18 @@ No real Google AdSense code is included. Add ad code later inside `AdPlaceholder
 
 This project can be deployed to static hosts such as Netlify, Vercel, Cloudflare Pages, GitHub Pages, or any server that can host the `dist/` folder.
 
-### Cloudflare Pages
+### Cloudflare Workers Static Assets
 
-Use a Pages project connected to the Git repository. This website is fully static and does not require Pages Functions, Wrangler, or the `@astrojs/cloudflare` adapter.
+This website is fully static and deploys through Cloudflare Workers Static Assets. It does not require a Worker script, Pages Functions, SSR, or the `@astrojs/cloudflare` adapter.
 
-- Framework preset: `Astro`
-- Production branch: `main`
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Root directory: leave blank when this project is at the repository root
-- Node.js version: `22.16.0`, pinned in `.node-version`
+Build and deploy:
 
-No deploy command is required for a Cloudflare Pages Git integration. Cloudflare installs dependencies from `package-lock.json`, runs the build command, and publishes the generated `dist/` directory.
-
-The Astro configuration must remain static:
-
-```js
-export default defineConfig({
-  site: "https://echobuddha.com",
-  output: "static"
-});
+```bash
+npm run build
+npx wrangler deploy
 ```
+
+Wrangler uploads the generated `dist/` directory defined in `wrangler.jsonc`. The Astro configuration remains static with `output: "static"`.
 
 ## Maintenance
 
