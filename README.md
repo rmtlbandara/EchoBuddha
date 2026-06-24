@@ -63,10 +63,27 @@ No real Google AdSense code is included. Add ad code later inside `AdPlaceholder
 
 This project can be deployed to static hosts such as Netlify, Vercel, Cloudflare Pages, GitHub Pages, or any server that can host the `dist/` folder.
 
-Common build settings:
+### Cloudflare Pages
 
+Use a Pages project connected to the Git repository. This website is fully static and does not require Pages Functions, Wrangler, or the `@astrojs/cloudflare` adapter.
+
+- Framework preset: `Astro`
+- Production branch: `main`
 - Build command: `npm run build`
-- Output directory: `dist`
+- Build output directory: `dist`
+- Root directory: leave blank when this project is at the repository root
+- Node.js version: `22.16.0`, pinned in `.node-version`
+
+No deploy command is required for a Cloudflare Pages Git integration. Cloudflare installs dependencies from `package-lock.json`, runs the build command, and publishes the generated `dist/` directory.
+
+The Astro configuration must remain static:
+
+```js
+export default defineConfig({
+  site: "https://echobuddha.com",
+  output: "static"
+});
+```
 
 ## Maintenance
 
