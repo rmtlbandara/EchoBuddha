@@ -688,6 +688,7 @@ export function getQuoteStory(quote: Quote) {
 export type Article = {
   slug: string;
   title: string;
+  seoTitle?: string;
   description: string;
   date: string;
   author: string;
@@ -696,8 +697,10 @@ export type Article = {
   imageAlt: string;
   featured?: boolean;
   tags: string[];
+  relatedSlugs?: string[];
   content: {
     heading?: string;
+    subheading?: string;
     paragraphs: string[];
   }[];
 };
@@ -1460,10 +1463,491 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    slug: "what-is-karma-in-buddhism",
+    title: "What Is Karma in Buddhism? A Simple Guide for Daily Life",
+    description: "Learn what karma means in Buddhism, how it relates to intention, action, and daily life, and how to understand karma in a simple, practical way.",
+    date: "2026-06-25",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "8 min read",
+    imageAlt: "A sequence of gentle ripples spreading across still water, representing actions and their effects",
+    featured: true,
+    tags: ["what is karma in Buddhism", "Buddhist karma", "intention and action", "daily Buddhist practice"],
+    relatedSlugs: [
+      "buddhism-for-beginners-simple-guide",
+      "eightfold-path-explained-daily-life",
+      "compassion-as-a-daily-discipline"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "What is karma in Buddhism? The simplest answer is that karma means intentional action. It includes what we choose through body, speech, and mind, along with the ways those choices shape our habits and experience. Karma is not a cosmic scorekeeper handing out rewards and punishments. It is a practical teaching about cause, effect, responsibility, and the kind of person we become through repeated choices.",
+          "This matters in ordinary moments. A sharp reply can deepen tension in a family. A patient pause can prevent a difficult conversation from becoming cruel. Neither action guarantees a neat result, because life contains many conditions beyond our control. Still, our intentions and actions matter. The teaching of karma asks us to notice that influence without pretending we control everything."
+        ]
+      },
+      {
+        heading: "What Is Karma in Buddhism, Exactly?",
+        subheading: "Karma begins with intention",
+        paragraphs: [
+          "The Sanskrit word karma and the Pali word kamma both mean action. In Buddhist teaching, the moral quality of an action is closely connected with intention. Accidentally stepping on an insect is not understood in the same way as deliberately causing harm. The outward event may look similar, but the state of mind and the choice behind it are different.",
+          "Intention does not make consequences disappear. A careless comment can hurt someone even when harm was not intended. Karma invites both kinds of honesty: we examine what motivated us, and we take responsibility for the effect. This balance keeps the teaching from becoming either harsh blame or an easy excuse."
+        ]
+      },
+      {
+        heading: "Karma Is Not Fate",
+        paragraphs: [
+          "One common misunderstanding is that every event was fixed by past karma. That would leave little room for learning, compassion, or change. Buddhist traditions describe life as shaped by many interacting conditions: physical causes, social circumstances, other people's decisions, natural events, and our own past and present actions.",
+          "Past choices influence the present, but they do not write an unchangeable script. If a habit of angry speech has damaged trust, that history matters. Yet a person can begin listening, apologizing, and speaking differently now. The present moment is conditioned, not imprisoned. This is why practice is worthwhile."
+        ]
+      },
+      {
+        heading: "How Actions Shape the Mind",
+        subheading: "Repetition becomes character",
+        paragraphs: [
+          "Karma is easiest to observe in the formation of habits. Each time we rehearse resentment, resentment becomes easier to enter. Each time we practice generosity, the mind becomes more familiar with releasing its grip. A single act may seem small, but repeated actions create pathways that influence future choices.",
+          "Imagine a coworker takes credit for your idea. You may spend the afternoon feeding an inner argument, or you may pause, gather the facts, and address the issue clearly. The second response does not require passivity. It trains steadiness while still protecting what matters. For a closer look at this pause, read <a href=\"/articles/buddhist-approach-to-anger/\">A Buddhist Approach to Anger</a>."
+        ]
+      },
+      {
+        heading: "Helpful and Harmful Roots",
+        paragraphs: [
+          "Buddhist teachings often describe harmful action as rooted in greed, hatred, and confusion. Helpful action grows from generosity, goodwill, compassion, and clearer understanding. These are not labels for dividing people into good and bad. They are qualities that can appear in any mind, sometimes within the same hour.",
+          "Before acting, ask a quiet question: what is feeding this choice? A gift may arise from genuine care, from a wish to impress, or from both. Honest reflection reveals mixed motives without demanding purity. As awareness grows, we can strengthen the kinder intention. <a href=\"/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/\">This wisdom reflection</a> offers a short reminder when urgency clouds judgment."
+        ]
+      },
+      {
+        heading: "Karma in Speech and Relationships",
+        paragraphs: [
+          "Speech is one of the clearest places to study karma. Words alter a room. Gossip makes trust fragile. A truthful apology creates conditions for repair. Even tone matters: the same necessary boundary can be spoken with contempt or with firmness that leaves another person's dignity intact.",
+          "Before a difficult conversation, notice your aim. Are you trying to clarify, punish, protect, or be seen as right? Then choose words that serve the wisest aim available. The result still depends on the other person, but your side of the exchange becomes less likely to produce regret. <a href=\"/articles/mindful-listening-in-everyday-life/\">Mindful listening</a> is a useful companion practice."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Karma",
+        paragraphs: [
+          "Karma should not be used to blame people for illness, poverty, abuse, or tragedy. We rarely know the full conditions behind another person's suffering, and confident claims about their past karma can become a way of withholding compassion. When someone is hurting, the humane response is care, not speculation.",
+          "Karma is also not instant justice. Kind people encounter hardship, and harmful people sometimes appear to prosper. Effects may be delayed, indirect, or mixed with countless other causes. The teaching is not a promise that life will look fair on our schedule. It is guidance for taking our own intentions seriously."
+        ]
+      },
+      {
+        heading: "How to Practice Karma in Daily Life",
+        paragraphs: [
+          "Choose one recurring moment as a place to observe intention. It might be opening email, correcting a child, spending money, or responding when you feel ignored. Pause for one breath and ask: what action is likely to reduce harm? What quality of mind will this choice strengthen?",
+          "At the end of the day, remember one action that brought ease and one that created tension. Appreciate the helpful action without pride. Review the harmful one without turning reflection into self-attack. If repair is possible, make it. This is karma as living education rather than a theory about the universe."
+        ]
+      },
+      {
+        heading: "Responsibility Without Shame",
+        paragraphs: [
+          "A mature understanding of karma supports responsibility, but shame can freeze the very change we need. Saying “I made a harmful choice” leaves room to learn. Saying “I am permanently bad” turns an action into an identity and may make honest repair harder.",
+          "Buddhist practice emphasizes that conditions change. We inherit habits, but we also contribute new conditions through attention and effort. When you recognize an old pattern beginning, the recognition itself is already different from acting blindly. Explore <a href=\"/articles/buddhist-teachings-on-impermanence/\">impermanence and change</a> for another view of why transformation remains possible."
+        ]
+      },
+      {
+        heading: "A Quiet Way to Understand Karma",
+        paragraphs: [
+          "You do not need to solve every philosophical question about past and future lives before karma becomes useful. Begin where the teaching is visible: intentions affect actions, actions shape habits, and habits influence how we meet the world. Careless choices tend to spread confusion; wise choices create better conditions for clarity and trust.",
+          "Let that understanding encourage attention rather than fear. The next choice does not need to be perfect. It only needs to be a little more honest, compassionate, and awake than the automatic response. Over time, those small choices become a direction."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "four-noble-truths-explained",
+    title: "The Four Noble Truths Explained in Simple Everyday Language",
+    seoTitle: "The Four Noble Truths Explained Simply",
+    description: "A beginner-friendly explanation of the Four Noble Truths in Buddhism, including suffering, craving, freedom, and the path to a calmer life.",
+    date: "2026-06-25",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "9 min read",
+    imageAlt: "Four simple stones beside a quiet path, representing the Four Noble Truths",
+    featured: true,
+    tags: ["Four Noble Truths explained", "Buddhist teachings", "dukkha", "Buddhism for beginners"],
+    relatedSlugs: [
+      "buddhism-for-beginners-simple-guide",
+      "eightfold-path-explained-daily-life",
+      "how-to-practice-non-attachment"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "The Four Noble Truths explained in everyday language begin with an experience everyone knows: life does not always match what we want. Pleasant moments end, difficult moments arrive, and even a good day can carry a faint pressure to keep everything under control. Buddhism calls this unsettled quality dukkha.",
+          "The teaching does not stop with a diagnosis. It looks at what adds to our distress, says that freedom from this pattern is possible, and offers a path of practice. The Four Noble Truths are not commandments that demand belief. They are closer to four questions we can investigate: What hurts? What feeds the hurt? Can the feeding stop? What helps us live differently?"
+        ]
+      },
+      {
+        heading: "The Four Noble Truths Explained as a Practical Framework",
+        paragraphs: [
+          "Traditionally, the truths are described as dukkha, its origin, its cessation, and the path leading to cessation. The words may sound formal, but their movement is familiar. We recognize a problem, understand its conditions, discover that change is possible, and learn what supports that change.",
+          "This framework is compassionate because it avoids two extremes. It does not deny pain with forced positivity, and it does not say pain is all that life contains. It asks us to look closely enough to separate unavoidable difficulty from the extra struggle created by grasping and resistance."
+        ]
+      },
+      {
+        heading: "First Noble Truth: Life Includes Dukkha",
+        subheading: "More than obvious suffering",
+        paragraphs: [
+          "Dukkha includes grief, illness, conflict, and physical pain. It also includes subtler dissatisfaction: the restless feeling that the next purchase, achievement, message, or relationship must finally make us secure. Even pleasure carries tension when we fear its ending or need it to confirm who we are.",
+          "Recognizing dukkha is not pessimism. If your shoes are rubbing your feet, admitting the discomfort allows an adjustment. Pretending everything is fine keeps the irritation going. In the same way, honest awareness lets us respond to anxiety, disappointment, and change without adding denial."
+        ]
+      },
+      {
+        heading: "Second Noble Truth: Craving Feeds Suffering",
+        paragraphs: [
+          "The second truth points to craving, often called tanha. We crave pleasant experience, crave escape from unpleasant experience, and crave a stable identity that cannot be threatened. The problem is not having preferences. It is the tight demand that reality obey them before we can be at peace.",
+          "Suppose a friend does not answer a message. The silence may be inconvenient, but the mind quickly adds stories: they are angry, I am unimportant, this relationship is failing. Soon we are suffering not only from uncertainty but from the attempt to force certainty. <a href=\"/articles/how-to-practice-non-attachment/\">Non-attachment</a> helps distinguish care from that tightening grip."
+        ]
+      },
+      {
+        heading: "Craving Is Not the Same as Every Desire",
+        paragraphs: [
+          "Buddhist practice does not require abandoning every wholesome wish. The desire to learn, protect someone, create beauty, or reduce harm can support the path. Craving has a more compulsive texture. It says, “I must have this,” “this must not change,” or “I cannot be okay while this feeling exists.”",
+          "Notice the body when craving appears. There may be leaning, tightness, mental repetition, or a narrowed field of attention. That physical recognition can arrive before a complicated explanation. One breath of awareness does not erase desire, but it gives wisdom a chance to join the conversation."
+        ]
+      },
+      {
+        heading: "Third Noble Truth: Freedom Is Possible",
+        subheading: "Small moments of release matter",
+        paragraphs: [
+          "The third truth says that when craving and clinging cease, suffering can cease. Complete liberation is a profound aim in Buddhist traditions, yet beginners can recognize small tastes of release. You stop rehearsing an argument for a minute. You allow embarrassment to pass without building an identity around it. The mind becomes less crowded.",
+          "This does not mean painful circumstances vanish. Grief may remain grief, and injustice still calls for action. The freedom lies in meeting experience without the extra demand that it be otherwise before we can respond wisely. <a href=\"/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/\">This letting-go quote</a> offers a brief reflection on that shift."
+        ]
+      },
+      {
+        heading: "Fourth Noble Truth: There Is a Path",
+        paragraphs: [
+          "The fourth truth introduces the Noble Eightfold Path: wise view, intention, speech, action, livelihood, effort, mindfulness, and concentration. These factors develop understanding, ethical conduct, and mental steadiness together. The path is not a staircase climbed once. It is a set of capacities strengthened throughout life.",
+          "A person may begin with five minutes of meditation, more truthful speech, or a careful look at how work affects others. One factor naturally touches the rest. For a fuller explanation, read <a href=\"/articles/eightfold-path-explained-daily-life/\">The Noble Eightfold Path Explained for Daily Life</a>."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About the Four Noble Truths",
+        paragraphs: [
+          "The first misunderstanding is that Buddhism says life is only suffering. Buddhist teachings recognize joy, affection, beauty, generosity, and peace. The point is that conditioned experiences cannot provide permanent security. Enjoying them is not the problem; demanding that they never change is where tension grows.",
+          "Another misunderstanding is that suffering is a personal failure. Dukkha is a shared human condition, not evidence that someone has practiced badly. The truths invite compassion for ourselves and others. When pain is present, we can ask what support is needed before turning the teaching into a lecture."
+        ]
+      },
+      {
+        heading: "How to Practice the Four Noble Truths in Daily Life",
+        paragraphs: [
+          "When stress appears, try four gentle questions. What is difficult right now? What am I adding through resistance, craving, or a fixed story? What would loosening that grip feel like for one breath? Which wise action is available next?",
+          "During work stress, the available action may be clarifying a deadline rather than silently panicking. During family conflict, it may be waiting until your voice settles before speaking. During anxiety, it may be feeling your feet and asking for help. The truths become useful when they lead back to reality."
+        ]
+      },
+      {
+        heading: "The Truths Work Together",
+        paragraphs: [
+          "We do not complete the first truth and leave it behind. Each difficult moment can reveal all four: discomfort is present, some reaction is feeding it, release is imaginable, and a wiser path can be practiced. Over time, this repeated investigation becomes less theoretical and more intimate.",
+          "Start with curiosity rather than pressure. You are not required to become serene immediately. Notice one place where the mind tightens, and see whether understanding the conditions brings a little space. That space is not the end of the path, but it is a trustworthy beginning."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "mindfulness-vs-meditation",
+    title: "Mindfulness vs Meditation: What Is the Difference for Beginners?",
+    seoTitle: "Mindfulness vs Meditation: Simple Beginner Guide",
+    description: "Understand the difference between mindfulness and meditation, how they work together, and how beginners can practice both in daily life.",
+    date: "2026-06-25",
+    author: SITE.author,
+    category: "Mindfulness",
+    readTime: "8 min read",
+    imageAlt: "A seated circle beside a flowing path, representing formal meditation and mindfulness in motion",
+    featured: true,
+    tags: ["mindfulness vs meditation", "meditation for beginners", "daily mindfulness", "breathing practice"],
+    relatedSlugs: [
+      "beginning-a-daily-mindfulness-practice",
+      "mindfulness-morning-routine",
+      "how-to-meditate-for-anxiety"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Mindfulness vs meditation can sound like a choice between two competing practices. In reality, they overlap. Meditation is a broad family of intentional exercises for training the mind. Mindfulness is a quality of awareness that can be cultivated during meditation and carried into the rest of the day.",
+          "A beginner might practice mindfulness meditation by sitting for ten minutes and noticing the breath, body, thoughts, and feelings. The same person might practice mindfulness while washing dishes by feeling warm water and recognizing when the mind drifts into worry. One is a formal period of training; the other shows how that training can enter ordinary life. Understanding the distinction helps beginners build a practice without wondering whether every mindful moment must look like formal meditation."
+        ]
+      },
+      {
+        heading: "Mindfulness vs Meditation in Simple Terms",
+        paragraphs: [
+          "Meditation is something you deliberately set time aside to practice. You may sit, stand, walk, repeat loving-kindness phrases, observe breathing, or explore sensations. Different Buddhist traditions contain many forms of meditation, and not all of them use mindfulness in exactly the same way.",
+          "Mindfulness means remembering to be aware of what is happening while it is happening, with enough steadiness to avoid being completely swept away. It includes the body, feeling tone, state of mind, and patterns within experience. Mindfulness is therefore broader than bare concentration on the present."
+        ]
+      },
+      {
+        heading: "What Counts as Meditation?",
+        subheading: "Formal practice creates a training space",
+        paragraphs: [
+          "Meditation usually has a clear beginning and end. You choose a posture and an object or method, then practice returning when attention wanders. This structure makes habits easier to see. Without a phone, task, or conversation to hide behind, the mind's impatience and storytelling become more obvious.",
+          "The purpose is not to stop every thought. It is to learn a different relationship with thinking. A session may feel calm, restless, sleepy, or emotionally tender. The practice is the honest return, not a particular mood. The <a href=\"/meditation-guide/\">Echo Buddha Meditation Guide</a> offers a complete starting routine."
+        ]
+      },
+      {
+        heading: "What Counts as Mindfulness?",
+        paragraphs: [
+          "Mindfulness can be present during almost any safe activity. While walking, you know the body is moving. During a conversation, you notice both the speaker and your urge to interrupt. When anger rises, you recognize heat and tightening before sending a message.",
+          "This does not mean paying intense attention to every detail all day. That would be exhausting. Mindfulness is flexible. Sometimes it is a wide awareness of the room; sometimes it rests on one breath. What matters is that attention is deliberate enough to support understanding and wise action."
+        ]
+      },
+      {
+        heading: "How Mindfulness and Meditation Support Each Other",
+        paragraphs: [
+          "Formal meditation is like practicing a musical scale: it develops familiarity under simpler conditions. Daily mindfulness is playing the music in a changing room. Sitting practice strengthens attention, while ordinary life reveals whether that attention can remain available during deadlines, family noise, and uncertainty.",
+          "The relationship also works in reverse. A mindful pause during the day makes it easier to sit later without carrying every event unconsciously. Even three aware breaths before opening a laptop can soften the transition from one task to another."
+        ]
+      },
+      {
+        heading: "Breath Awareness as a Beginner Practice",
+        paragraphs: [
+          "Sit in a stable, comfortable position and feel where breathing is easiest to notice. It may be the nostrils, chest, or abdomen. Let the breath remain natural. When a thought takes attention away, recognize thinking and return without irritation.",
+          "Begin with five minutes. If focusing on breathing increases anxiety, feel your feet, open your eyes, or listen to sounds instead. Meditation should be adaptable. <a href=\"/articles/how-to-meditate-for-anxiety/\">This gentle anxiety meditation</a> explains grounding options and the importance of professional support when symptoms persist."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Mindfulness is sometimes reduced to relaxation. Calm may occur, but mindfulness can also reveal grief, irritation, or fatigue that was already present. Its value is clearer knowing, not guaranteed comfort. Meditation likewise is not an escape from responsibility; good practice should eventually influence speech and action.",
+          "Another misunderstanding is that any present-moment attention is automatically wholesome. A person can pay close attention while planning harm. Buddhist mindfulness is supported by ethical intention and discernment. Awareness asks not only “What is happening?” but also “What response leads away from harm?”"
+        ]
+      },
+      {
+        heading: "Which Should a Beginner Practice First?",
+        paragraphs: [
+          "You do not need to choose. Start with a short meditation period and one daily mindfulness cue. Sit for five minutes after waking, then use the sound of a notification as a reminder to feel one breath before reading the screen.",
+          "If formal sitting feels difficult, try <a href=\"/articles/walking-meditation-step-by-step/\">walking meditation</a>. If your schedule is crowded, begin with <a href=\"/articles/mindfulness-morning-routine/\">a realistic mindful morning</a>. The best entry point is one you can repeat without turning practice into another source of self-criticism."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Choose three transitions: getting out of bed, beginning work, and arriving home. At each transition, stop for one full breath. Feel the body, name the current state in a simple word, and set an intention for the next activity.",
+          "During one routine task, give attention to physical sensation rather than replaying plans. During one conversation, listen until the other person finishes. At night, sit for five minutes and notice how the day remains in the body. These small practices connect formal training with lived experience."
+        ]
+      },
+      {
+        heading: "When Practice Feels Uneventful",
+        paragraphs: [
+          "Many beginners assume a useful session should feel deep or peaceful. Often it feels ordinary. You notice breathing, become distracted, and return. During the day, mindfulness may be no more dramatic than recognizing tension before you answer a question.",
+          "These modest moments are the training. Attention becomes dependable through repetition, not intensity. Keep a simple record for one week: when did you remember, what did you notice, and did awareness change the next action? This reveals progress that a search for special experiences can miss."
+        ]
+      },
+      {
+        heading: "A Balanced Beginning",
+        paragraphs: [
+          "Meditation gives mindfulness a dependable place to grow. Mindfulness keeps meditation from remaining confined to a cushion. Together they help us recognize experience earlier, recover from distraction more gently, and choose with greater care.",
+          "Do not measure progress by how peaceful you look or how long you can sit. Notice whether you catch a reaction sooner, listen a little more fully, or begin again with less judgment. Those modest changes are meaningful signs that practice is becoming part of life."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "buddhist-teachings-on-forgiveness",
+    title: "Buddhist Teachings on Forgiveness: Letting Go Without Excusing Harm",
+    seoTitle: "Buddhist Teachings on Forgiveness and Letting Go",
+    description: "Explore Buddhist-inspired teachings on forgiveness, letting go of resentment, and finding peace without excusing harmful actions.",
+    date: "2026-06-25",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "9 min read",
+    imageAlt: "An open hand releasing a dark leaf into a soft green landscape, representing forgiveness with boundaries",
+    featured: true,
+    tags: ["Buddhist forgiveness", "Buddhist teachings on forgiveness", "letting go of resentment", "compassion and boundaries"],
+    relatedSlugs: [
+      "buddhist-approach-to-anger",
+      "letting-go-without-giving-up",
+      "compassion-as-a-daily-discipline"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Buddhist forgiveness is often less about declaring that an offense no longer matters and more about refusing to let hatred keep occupying the heart. Buddhist traditions do not always frame forgiveness as a single formal doctrine. They offer related practices: understanding anger, releasing clinging, cultivating compassion, acting without cruelty, and seeing that every person is shaped by conditions.",
+          "None of this requires excusing abuse, restoring trust immediately, or returning to an unsafe relationship. Harm should be named clearly. Boundaries may be necessary. Forgiveness, when the word is useful, can mean gradually releasing the wish to keep suffering through endless resentment while still protecting yourself and seeking accountability."
+        ]
+      },
+      {
+        heading: "Buddhist Teachings on Forgiveness Begin With Honesty",
+        paragraphs: [
+          "Forgiveness cannot be built on pretending. If someone lied, humiliated you, betrayed trust, or crossed a boundary, begin by acknowledging the impact. The body may still tighten when you remember. Grief, anger, and confusion may need time and support.",
+          "Buddhist practice invites clear seeing, not spiritual performance. Saying “I should be over this” often adds shame to pain. A more honest beginning is “This hurt, and resentment is now hurting too.” Both truths can be held without rushing toward a graceful conclusion."
+        ]
+      },
+      {
+        heading: "Forgiveness Is Not the Same as Reconciliation",
+        paragraphs: [
+          "Forgiveness concerns your relationship with resentment and the past. Reconciliation concerns a relationship between people. Reconciliation usually requires safety, truthful acknowledgment, changed behavior, and rebuilt trust. One person can work toward inner release even when the other person refuses responsibility.",
+          "You may forgive and still limit contact. You may wish someone freedom from hatred while reporting their harmful behavior. You may decide that trust cannot return. Compassion does not erase consequences. <a href=\"/articles/compassion-as-a-daily-discipline/\">Compassion as a Daily Discipline</a> explores how care and firmness can coexist."
+        ]
+      },
+      {
+        heading: "Why Resentment Feels Protective",
+        subheading: "The mind does not want the lesson forgotten",
+        paragraphs: [
+          "Resentment often promises protection. By replaying the event, the mind tries to prevent another injury, preserve a sense of justice, or keep the harmed part of us from being ignored. Telling yourself simply to let go may feel like abandoning that protection.",
+          "Instead, thank the protective intention and ask whether constant replay is still helping. The lesson can remain without the daily punishment. You can remember the boundary, recognize warning signs, and make different choices while allowing the emotional charge to soften."
+        ]
+      },
+      {
+        heading: "Working With Anger Without Feeding Hatred",
+        paragraphs: [
+          "Anger may contain valuable information: something mattered, a line was crossed, or repair is needed. Hatred goes further by reducing a whole person to the worst thing they did. Buddhist mindfulness asks us to feel anger in the body and understand its conditions before acting from it.",
+          "When a memory triggers heat or tightening, pause. Name anger, feel your feet, and postpone the imagined argument. Later, choose a response that protects dignity and safety. <a href=\"/articles/buddhist-approach-to-anger/\">A Buddhist Approach to Anger</a> offers a practical sequence for that first wave."
+        ]
+      },
+      {
+        heading: "Compassion Does Not Require Approval",
+        paragraphs: [
+          "To see that a harmful person is also shaped by fear, ignorance, craving, and pain is not to approve of the harm. It is to refuse the belief that cruelty is the only possible response to cruelty. Understanding conditions can help us act more wisely without becoming naive.",
+          "Sometimes compassion is expressed as distance. Sometimes it is a direct conversation or a legal consequence. Sometimes it is simply the wish that this person become free from the confusion that causes harm, so fewer people suffer. The wish does not require access to your life."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Buddhist Forgiveness",
+        paragraphs: [
+          "Forgiveness is not forgetting. Memory may protect future wellbeing. It is not saying the event was acceptable, and it is not a guarantee that painful feelings will never return. Emotional healing rarely follows a straight line.",
+          "Forgiveness is also not a duty to be imposed on someone who has been harmed. Pressuring a person to forgive can protect the offender and silence necessary truth. Each person needs room to decide what healing means, often with support from trusted people or qualified professionals."
+        ]
+      },
+      {
+        heading: "A Gentle Forgiveness Reflection",
+        paragraphs: [
+          "Sit somewhere you feel safe. Bring the situation to mind only as strongly as you can tolerate. Notice what happens in the body. Silently say: “This pain deserves care. I do not need to deny what happened. May I become free from the hatred that keeps hurting me.”",
+          "Do not force warmth toward the person who caused harm. Begin with compassion for yourself. If the practice becomes overwhelming, stop, look around the room, and return to physical support. Healing practices should respect capacity, especially when trauma is involved."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Separate three questions on paper: What happened? What boundary or repair is needed now? What part of the resentment am I ready to stop feeding today? The answers may be different. This separation prevents inner release from being confused with unsafe reconciliation.",
+          "When replay begins, choose one grounding action and one useful action. Grounding might be walking or breathing. Useful action might be speaking with a counselor, documenting an issue, or asking for a clear conversation. Read <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a> for more on releasing control while keeping wise effort."
+        ]
+      },
+      {
+        heading: "Forgiving Yourself",
+        paragraphs: [
+          "Self-forgiveness also needs truth. Regret can guide repair, but endless self-punishment does not undo harm. A responsible process includes naming the action, apologizing without demanding comfort, making amends where possible, and changing the conditions that supported the behavior.",
+          "You may need to accept that another person is not ready to forgive you. Their boundary belongs to them. Your practice is to continue becoming more trustworthy without using shame as proof of goodness. <a href=\"/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/\">This renewal reflection</a> offers a concise reminder."
+        ]
+      },
+      {
+        heading: "Release Can Be Gradual",
+        paragraphs: [
+          "Some days forgiveness feels possible; on others the old anger returns. That does not erase the work. Each time you notice resentment without feeding it, uphold a boundary without hatred, or choose not to pass pain onward, the pattern changes a little.",
+          "There is no need to force a final declaration. Let forgiveness be a direction toward freedom, honesty, and non-harm. The past remains part of the story, but it does not have to write every page that follows."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "metta-meditation-script",
+    title: "Metta Meditation Script: A Loving-Kindness Practice for Yourself and Others",
+    seoTitle: "Metta Meditation Script for Loving-Kindness Practice",
+    description: "A gentle metta meditation script for beginners to practice loving-kindness toward themselves, loved ones, neutral people, and others.",
+    date: "2026-06-25",
+    author: SITE.author,
+    category: "Meditation",
+    readTime: "9 min read",
+    imageAlt: "Soft circles widening from one warm center, representing loving-kindness extending toward others",
+    featured: true,
+    tags: ["metta meditation script", "loving kindness meditation script", "meditation for beginners", "self-kindness"],
+    relatedSlugs: [
+      "loving-kindness-meditation-beginners",
+      "compassion-as-a-daily-discipline",
+      "beginning-a-daily-mindfulness-practice"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This metta meditation script offers a gentle way to practice loving-kindness toward yourself and others. Metta is commonly translated as loving-kindness, goodwill, or friendliness. The practice uses repeated phrases to encourage a sincere wish for safety, peace, health, and ease.",
+          "You do not need to produce a glowing feeling. Some days the phrases feel warm; on other days they feel quiet or awkward. The intention matters more than the emotion. Set aside fifteen to twenty minutes if you can, or shorten the stages for a five-minute practice. Sit comfortably, keep your expectations light, and let each phrase be an invitation rather than a demand."
+        ]
+      },
+      {
+        heading: "Before You Begin the Metta Meditation Script",
+        paragraphs: [
+          "Choose a place where you are unlikely to be interrupted. Sit on a chair or cushion with a posture that feels supported and awake. Let your hands rest naturally. You may close your eyes or keep them softly open, especially if closing them feels uncomfortable.",
+          "Take two or three unforced breaths. Feel the contact beneath your body and notice the room around you. There is nothing special to achieve before beginning. If you are new to meditation, the <a href=\"/meditation-guide/\">Echo Buddha Meditation Guide</a> explains posture, attention, and working with distraction."
+        ]
+      },
+      {
+        heading: "Choose Loving-Kindness Phrases",
+        subheading: "Use words you can say honestly",
+        paragraphs: [
+          "A traditional set of phrases might be: “May I be safe. May I be healthy. May I be peaceful. May I live with ease.” You may replace a phrase with language that better meets your life, such as “May I meet this day with courage” or “May I learn to care for this heart.”",
+          "Keep the phrases simple and possible. “May I never suffer” may feel unbelievable because difficulty is part of life. “May I meet suffering with support and wisdom” leaves room for reality. Use the same phrases through the session so the mind can settle into their meaning."
+        ]
+      },
+      {
+        heading: "Stage One: Loving-Kindness for Yourself",
+        paragraphs: [
+          "Bring a gentle awareness to yourself sitting here. You might picture your face, remember your name, or simply feel the breathing body. Then repeat slowly: “May I be safe. May I be healthy. May I be peaceful. May I live with ease.” Leave a quiet breath between phrases.",
+          "Notice any response without judging it. Warmth may appear, but so may resistance or sadness. If self-kindness feels difficult, imagine how you would speak to a tired friend. Let the words be offered to the vulnerable human being who has carried your particular joys and burdens."
+        ]
+      },
+      {
+        heading: "Stage Two: A Supportive Person",
+        paragraphs: [
+          "Bring to mind someone whose care feels relatively uncomplicated: a friend, teacher, elder, or family member. Choose someone who is not likely to pull you into intense longing or conflict during this practice. Sense their presence without straining for a detailed image.",
+          "Change the phrases: “May you be safe. May you be healthy. May you be peaceful. May you live with ease.” Remember that you are not trying to control their life through thought. You are practicing the intention of goodwill."
+        ]
+      },
+      {
+        heading: "Stage Three: A Neutral Person",
+        paragraphs: [
+          "Now remember someone you see but do not know well: a cashier, delivery worker, neighbor, or person from your commute. Notice how easily the mind treats neutral people as background. Metta asks us to recognize a full life where we usually see only a role.",
+          "Offer the same phrases. “May you be safe. May you be healthy. May you be peaceful. May you live with ease.” You do not need to invent their story. It is enough to remember that they also know uncertainty, hope, fatigue, and the wish to be treated with care."
+        ]
+      },
+      {
+        heading: "Stage Four: A Difficult Person",
+        paragraphs: [
+          "This stage is optional. Choose a mildly difficult person rather than someone connected with trauma, abuse, or current danger. Keep your boundaries clear. Loving-kindness does not mean approving of behavior, reopening contact, or making yourself available for further harm.",
+          "If it feels steady enough, offer: “May you be free from hatred and confusion. May you learn to live without causing harm. May you find genuine peace.” If resistance becomes overwhelming, return to yourself or the supportive person. <a href=\"/articles/buddhist-teachings-on-forgiveness/\">Buddhist teachings on forgiveness</a> explore this distinction between goodwill and excusing harm."
+        ]
+      },
+      {
+        heading: "Stage Five: Widening Toward All Beings",
+        paragraphs: [
+          "Let the circle widen to include people nearby, then those farther away. Include people you understand and those whose lives are unfamiliar. You might also include animals and all beings seeking safety and freedom from suffering.",
+          "Repeat: “May all beings be safe. May all beings find care. May all beings be free from hatred. May all beings live with greater ease.” The wish may feel vast compared with your personal influence. That is all right. The practice trains the direction of the heart; action gives that direction a practical form."
+        ]
+      },
+      {
+        heading: "Closing the Practice",
+        paragraphs: [
+          "Release the phrases and feel the body breathing. Notice sounds, light, and contact with the floor or chair. Let the session end gradually. Before standing, choose one small action through which goodwill can continue: a patient reply, a sincere apology, or a message to someone who may need support.",
+          "Do not grade the meditation. A distracted session still included many moments of returning. A dry session still practiced kind intention. Metta develops through repetition, much like a path becomes visible because people keep walking it."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Metta",
+        paragraphs: [
+          "Metta is not forced affection. You are not required to like everyone or feel emotionally close to them. It is the wish that suffering and the causes of suffering diminish. That wish can exist beside disagreement, accountability, and distance.",
+          "The practice is also not a substitute for concrete care. Loving phrases should support helpful speech and action, not replace them. If a friend is struggling, kindness may mean listening or helping them find qualified support. <a href=\"/articles/loving-kindness-meditation-beginners/\">Loving-Kindness Meditation for Beginners</a> explains how the practice enters conversation."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Use one phrase at ordinary moments. While waiting in a queue, quietly wish the people nearby safety. Before a tense meeting, wish yourself steadiness and the group freedom from needless hostility. When self-criticism begins, place a hand on the body and repeat one honest phrase.",
+          "Try the full script two or three times a week for a month. On other days, use a three-minute version: one minute for yourself, one for another person, and one for all beings. Consistency matters more than creating a powerful emotional experience."
+        ]
+      },
+      {
+        heading: "A Practice of Direction, Not Perfection",
+        paragraphs: [
+          "Loving-kindness does not make difficult relationships simple or remove every harsh thought. It gives the mind another direction to practice. Each sincere phrase weakens the assumption that contempt is the only protection and reminds us that care can be both warm and wise.",
+          "Begin with the circle that feels possible today. Perhaps that is only yourself and one trusted person. Let the practice widen at a humane pace. The heart learns generosity through invitations it can actually receive."
+        ]
+      }
+    ]
   }
 ];
 
-export const fullArticles = articles.filter((article) => article.content.length > 0);
+export const fullArticles = articles
+  .filter((article) => article.content.length > 0)
+  .sort((a, b) => b.date.localeCompare(a.date));
 
 export type ArticleSeoDetails = {
   reviewedDate: string;
@@ -1871,6 +2355,196 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
           "Yes. A single chair, a cushion stored between sessions, or one clear section of floor can serve as a dependable practice place."
       }
     ]
+  },
+  "what-is-karma-in-buddhism": {
+    reviewedDate: "2026-06-25",
+    takeaways: [
+      "In Buddhism, karma means intentional action rather than fate or cosmic punishment.",
+      "Intentions matter, while the real effects of our actions still deserve honest attention.",
+      "Repeated choices shape habits, character, relationships, and the conditions we meet later.",
+      "Past actions influence the present without removing our ability to choose differently now.",
+      "Karma supports responsibility and repair, not shame or blame for another person's suffering."
+    ],
+    faqs: [
+      {
+        question: "What is karma in Buddhism in simple terms?",
+        answer:
+          "Karma is intentional action through body, speech, or mind. Such actions shape habits and contribute to future experience, alongside many other conditions."
+      },
+      {
+        question: "Is karma the same as fate?",
+        answer:
+          "No. Past actions influence present conditions, but they do not create a completely fixed future. Present choices, other people, society, and natural causes also matter."
+      },
+      {
+        question: "Does bad karma mean something bad will happen immediately?",
+        answer:
+          "Not necessarily. Consequences may be delayed, indirect, or mixed with other causes. Karma is not a promise of instant reward or punishment."
+      },
+      {
+        question: "Does intention matter more than the result?",
+        answer:
+          "Intention is central to the karmic quality of an action, but results matter too. A person can have a good intention and still need to acknowledge harm, apologize, and learn."
+      },
+      {
+        question: "How can I create helpful karma in daily life?",
+        answer:
+          "Practice generosity, truthful speech, patience, compassion, and careful attention. Begin with small repeated choices rather than trying to control every future result."
+      }
+    ]
+  },
+  "four-noble-truths-explained": {
+    reviewedDate: "2026-06-25",
+    takeaways: [
+      "The First Noble Truth recognizes the obvious and subtle forms of dissatisfaction known as dukkha.",
+      "The Second Noble Truth identifies craving and clinging as conditions that add to suffering.",
+      "The Third Noble Truth points to the possibility of release when grasping is no longer fed.",
+      "The Fourth Noble Truth presents the Noble Eightfold Path as practical training.",
+      "The truths are meant to be investigated in experience, not accepted as a pessimistic slogan."
+    ],
+    faqs: [
+      {
+        question: "What are the Four Noble Truths in simple words?",
+        answer:
+          "Life includes dissatisfaction; craving contributes to it; freedom from craving is possible; and the Noble Eightfold Path develops the conditions for that freedom."
+      },
+      {
+        question: "Does Buddhism teach that all life is suffering?",
+        answer:
+          "No. Buddhism recognizes joy and beauty while observing that changing experiences cannot provide permanent security. Clinging to them creates tension."
+      },
+      {
+        question: "What is dukkha?",
+        answer:
+          "Dukkha is often translated as suffering, stress, or unsatisfactoriness. It includes obvious pain and the subtler instability of depending on changing conditions."
+      },
+      {
+        question: "Is every desire considered harmful craving?",
+        answer:
+          "No. Wholesome wishes to learn, help, or reduce harm can support practice. Craving is the compulsive demand that experience satisfy or protect a fixed self."
+      },
+      {
+        question: "How can a beginner practice the Four Noble Truths?",
+        answer:
+          "When stress appears, identify the difficulty, notice what reaction is feeding it, allow a moment of release, and choose one wise action from the Eightfold Path."
+      }
+    ]
+  },
+  "mindfulness-vs-meditation": {
+    reviewedDate: "2026-06-25",
+    takeaways: [
+      "Meditation is a structured practice, while mindfulness is a quality of awareness used both inside and outside formal sessions.",
+      "Mindfulness meditation is one form of meditation, not a synonym for every meditation method.",
+      "Formal practice trains attention under simple conditions; daily mindfulness applies it in changing situations.",
+      "Neither practice requires a blank mind or constant relaxation.",
+      "Beginners can combine five minutes of meditation with one repeatable daily mindfulness cue."
+    ],
+    faqs: [
+      {
+        question: "What is the main difference between mindfulness and meditation?",
+        answer:
+          "Meditation is an intentional period of mental training. Mindfulness is aware, discerning attention that can be cultivated during meditation and ordinary activities."
+      },
+      {
+        question: "Can you practice mindfulness without meditating?",
+        answer:
+          "Yes. You can practice mindfulness while walking, listening, eating, or noticing an emotion. Formal meditation usually makes this awareness steadier and easier to recognize."
+      },
+      {
+        question: "Is all meditation mindfulness meditation?",
+        answer:
+          "No. Meditation includes concentration, loving-kindness, visualization, contemplation, and other methods. Mindfulness is involved differently across these practices."
+      },
+      {
+        question: "Should beginners start with mindfulness or meditation?",
+        answer:
+          "Use both: begin with a short formal meditation and choose one daily activity for mindful attention. The two practices naturally support each other."
+      },
+      {
+        question: "How long should a beginner meditate?",
+        answer:
+          "Five minutes is a realistic start. Increase gradually when the practice feels sustainable rather than forcing a long session."
+      }
+    ]
+  },
+  "buddhist-teachings-on-forgiveness": {
+    reviewedDate: "2026-06-25",
+    takeaways: [
+      "Buddhist forgiveness can mean releasing hatred without denying or excusing harm.",
+      "Forgiveness and reconciliation are different; restored trust requires safety and changed behavior.",
+      "Anger may carry useful information, while repeated resentment can continue the suffering.",
+      "Compassion can include distance, firm boundaries, accountability, and professional support.",
+      "Self-forgiveness requires truth, repair, and changed action rather than endless self-punishment."
+    ],
+    faqs: [
+      {
+        question: "What do Buddhist teachings say about forgiveness?",
+        answer:
+          "They emphasize releasing hatred, understanding the conditions behind harmful actions, practicing compassion, and avoiding further harm. Forgiveness need not erase accountability."
+      },
+      {
+        question: "Do I have to reconcile with someone I forgive?",
+        answer:
+          "No. Reconciliation requires mutual safety, honesty, and rebuilt trust. Inner release can be practiced while maintaining distance or ending contact."
+      },
+      {
+        question: "Does forgiveness mean forgetting what happened?",
+        answer:
+          "No. Clear memory can protect wellbeing and guide boundaries. Forgiveness changes the relationship with resentment rather than deleting the past."
+      },
+      {
+        question: "Can I forgive someone and still feel angry?",
+        answer:
+          "Yes. Feelings may return in waves. Progress can mean recognizing anger without feeding revenge or allowing it to direct every choice."
+      },
+      {
+        question: "How can I begin forgiving myself?",
+        answer:
+          "Name the harm honestly, apologize without demanding forgiveness, repair what is possible, change the supporting conditions, and continue practicing responsible action."
+      }
+    ]
+  },
+  "metta-meditation-script": {
+    reviewedDate: "2026-06-25",
+    takeaways: [
+      "Metta meditation develops goodwill through simple phrases rather than forced emotion.",
+      "The practice usually moves from oneself to a supportive person, a neutral person, and wider circles of life.",
+      "Working with a difficult person is optional and should never override safety or healthy boundaries.",
+      "Phrases can be adapted so they remain sincere, realistic, and easy to remember.",
+      "Loving-kindness becomes practical when it influences speech, listening, and compassionate action."
+    ],
+    faqs: [
+      {
+        question: "What is a simple metta meditation script?",
+        answer:
+          "Repeat slowly: May I be safe. May I be healthy. May I be peaceful. May I live with ease. Then offer the same wishes to others."
+      },
+      {
+        question: "How long should metta meditation last?",
+        answer:
+          "Fifteen to twenty minutes allows time for several stages, but beginners can use a three- to five-minute version and extend it gradually."
+      },
+      {
+        question: "What if I do not feel loving-kindness?",
+        answer:
+          "Continue gently without pretending. Metta trains sincere intention; warmth may or may not arise during a particular session."
+      },
+      {
+        question: "Do I have to send metta to a difficult person?",
+        answer:
+          "No. That stage is optional. Return to yourself or a supportive person if it feels unsafe, overwhelming, or connected with trauma."
+      },
+      {
+        question: "Can I change the loving-kindness phrases?",
+        answer:
+          "Yes. Choose brief phrases that express safety, wellbeing, peace, courage, or wise care in language that feels honest to you."
+      },
+      {
+        question: "Is metta meditation the same as self-compassion?",
+        answer:
+          "They overlap, especially when goodwill is offered to oneself. Metta gradually widens that benevolent intention toward other people and all beings."
+      }
+    ]
   }
 };
 
@@ -1880,7 +2554,10 @@ export function getArticleSeoDetails(slug: string) {
 
 export function getArticleWordCount(article: Article) {
   const seo = getArticleSeoDetails(article.slug);
-  const content = article.content.flatMap((section) => section.paragraphs).join(" ");
+  const content = article.content
+    .flatMap((section) => [section.heading ?? "", section.subheading ?? "", ...section.paragraphs])
+    .join(" ")
+    .replace(/<[^>]+>/g, " ");
   const supplemental = [
     ...(seo?.takeaways ?? []),
     ...(seo?.faqs.flatMap((item) => [item.question, item.answer]) ?? [])

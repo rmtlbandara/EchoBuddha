@@ -45,9 +45,14 @@ const sectionsWithIds = article.content.map((section) => ({
   id: section.heading ? slugify(section.heading) : ""
 }));
 const tableOfContents = sectionsWithIds.filter((section) => section.heading);
-const relatedArticles = fullArticles
-  .filter((item) => item.slug !== article.slug && item.category === article.category)
-  .slice(0, 3);
+const selectedRelatedArticles = (article.relatedSlugs ?? [])
+  .map((slug) => fullArticles.find((item) => item.slug === slug))
+  .filter(Boolean);
+const relatedArticles = selectedRelatedArticles.length > 0
+  ? selectedRelatedArticles
+  : fullArticles
+      .filter((item) => item.slug !== article.slug && item.category === article.category)
+      .slice(0, 3);
 const relatedQuoteTheme = getQuoteThemeForArticleCategory(article.category);
 const relatedQuoteCategory = getQuoteCategory(relatedQuoteTheme);
 const relatedQuotes = quotes.filter((quote) => quote.theme === relatedQuoteTheme).slice(0, 3);
@@ -74,7 +79,7 @@ const jsonLd = [
     author: {
       "@type": "Organization",
       name: article.author,
-      url: `${SITE.url}/about/`
+      url: `${SITE.url}/authors/echo-buddha-editorial/`
     },
     publisher: {
       "@type": "Organization",
@@ -136,7 +141,7 @@ const jsonLd = [
 ---
 
 <Layout
-  title={article.title}
+  title={article.seoTitle ?? article.title}
   description={article.description}
   canonicalPath={canonicalPath}
   type="article"
@@ -179,7 +184,8 @@ const jsonLd = [
         {sectionsWithIds.map((section, index) => (
           <>
             {section.heading && <h2 id={section.id}>{section.heading}</h2>}
-            {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+            {section.subheading && <h3>{section.subheading}</h3>}
+            {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
             {index === 1 && <AdSlot />}
           </>
         ))}
@@ -244,7 +250,7 @@ const jsonLd = [
         <div class="section-heading">
           <div>
             <span class="eyebrow">Article to article</span>
-            <h2>Related {article.category} Articles</h2>
+            <h2>Related Articles</h2>
           </div>
           <a href={`/articles/category/${category.slug}/`}>View this category</a>
         </div>
