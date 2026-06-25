@@ -3,12 +3,12 @@ import Layout from "../layouts/Layout.astro";
 import AdSlot from "../components/AdSlot.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
-import { SITE, articles, quotes } from "../data/site";
+import { SITE, fullArticles, quotes } from "../data/site";
 
 const title = "Echo Buddha | Buddhist Wisdom, Quotes & Meditation for Daily Life";
 const description = "Read original Buddhist-inspired quotes, meditation guidance, and practical mindfulness articles for a calmer daily life.";
-const featuredQuotes = quotes.slice(0, 3);
-const latestArticles = articles.slice(0, 3);
+const featuredQuotes = quotes.slice(0, 6);
+const latestArticles = fullArticles.slice(0, 6);
 const jsonLd = [
   {
     "@context": "https://schema.org",
