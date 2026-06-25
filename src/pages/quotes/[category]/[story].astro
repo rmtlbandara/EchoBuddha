@@ -2,7 +2,7 @@
 import Layout from "../../../layouts/Layout.astro";
 import QuoteCard from "../../../components/QuoteCard.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
-import AdPlaceholder from "../../../components/AdPlaceholder.astro";
+import AdSlot from "../../../components/AdSlot.astro";
 import {
   SITE,
   getArticlesForQuoteTheme,
@@ -30,31 +30,64 @@ const story = getQuoteStory(quote);
 const canonicalPath = `/quotes/${category.slug}/${story.slug}/`;
 const relatedQuotes = quotes.filter((item) => item.theme === quote.theme && item.text !== quote.text).slice(0, 3);
 const relatedArticles = getArticlesForQuoteTheme(quote.theme).slice(0, 2);
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  headline: story.title,
-  description: story.description,
-  url: `${SITE.url}${canonicalPath}`,
-  author: {
-    "@type": "Organization",
-    name: SITE.author
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: story.title,
+    description: story.description,
+    url: `${SITE.url}${canonicalPath}`,
+    author: {
+      "@type": "Organization",
+      name: SITE.author,
+      url: `${SITE.url}/authors/echo-buddha-editorial/`
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url
+    },
+    about: {
+      "@type": "Thing",
+      name: quote.theme
+    },
+    isPartOf: {
+      "@type": "CollectionPage",
+      name: `${quote.theme} Buddhist Quotes`,
+      url: `${SITE.url}/quotes/${category.slug}/`
+    }
   },
-  publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url
-  },
-  about: {
-    "@type": "Thing",
-    name: quote.theme
-  },
-  isPartOf: {
-    "@type": "CollectionPage",
-    name: `${quote.theme} Buddhist Quotes`,
-    url: `${SITE.url}/quotes/${category.slug}/`
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Buddhist Quotes",
+        item: `${SITE.url}/quotes/`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: quote.theme,
+        item: `${SITE.url}/quotes/${category.slug}/`
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: story.title,
+        item: `${SITE.url}${canonicalPath}`
+      }
+    ]
   }
-};
+];
 ---
 
 <Layout title={story.title} description={story.description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
@@ -73,7 +106,7 @@ const jsonLd = {
         <h2>The Story</h2>
         {story.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
 
-        <AdPlaceholder label="Quote story ad placeholder" />
+        <AdSlot />
 
         <h2>A Quiet Reflection</h2>
         <p>
@@ -93,7 +126,7 @@ const jsonLd = {
           <p>{category.introduction}</p>
           <a href={`/quotes/${category.slug}/`}>Explore all {quote.theme} quotes</a>
         </div>
-        <AdPlaceholder label="Story sidebar ad placeholder" size="box" />
+        <AdSlot size="box" />
       </aside>
     </div>
   </article>

@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import AdPlaceholder from "../../components/AdPlaceholder.astro";
+import AdSlot from "../../components/AdSlot.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import {
@@ -51,6 +51,11 @@ const relatedArticles = fullArticles
 const relatedQuoteTheme = getQuoteThemeForArticleCategory(article.category);
 const relatedQuoteCategory = getQuoteCategory(relatedQuoteTheme);
 const relatedQuotes = quotes.filter((quote) => quote.theme === relatedQuoteTheme).slice(0, 3);
+const needsWellbeingNote = [
+  "how-to-meditate-for-anxiety",
+  "mindfulness-for-better-sleep",
+  "buddhist-approach-to-anger"
+].includes(article.slug);
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -154,7 +159,7 @@ const jsonLd = [
         <h1>{article.title}</h1>
         <p class="lede">{article.description}</p>
         <div class="article-meta">
-          <span>By {article.author}</span>
+          <span>By <a href="/authors/echo-buddha-editorial/">{article.author}</a></span>
           <span>Published <time datetime={article.date}>{formattedDate}</time></span>
           <span>Reviewed <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
           <span>{readTime}</span>
@@ -175,9 +180,19 @@ const jsonLd = [
           <>
             {section.heading && <h2 id={section.id}>{section.heading}</h2>}
             {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
-            {index === 1 && <AdPlaceholder label="In-article ad placeholder" />}
+            {index === 1 && <AdSlot />}
           </>
         ))}
+
+        {needsWellbeingNote && (
+          <aside class="wellbeing-note surface" aria-labelledby="wellbeing-note-heading">
+            <h2 id="wellbeing-note-heading">A Note About Wellbeing</h2>
+            <p>
+              This article is educational and does not provide medical or mental health treatment. Meditation and
+              mindfulness experiences vary. Seek qualified professional support for persistent or serious symptoms.
+            </p>
+          </aside>
+        )}
 
         <section class="article-faq" aria-labelledby="article-faq-heading">
           <h2 id="article-faq-heading">Frequently Asked Questions</h2>
@@ -203,12 +218,21 @@ const jsonLd = [
             </ol>
           </nav>
         )}
-        <AdPlaceholder label="Article sidebar ad placeholder" size="box" />
+        <AdSlot size="box" />
         <div class="surface article-tags">
           <h2>Topics</h2>
           <ul>
             {article.tags.map((tag) => <li>{tag}</li>)}
           </ul>
+        </div>
+        <div class="surface author-card">
+          <span class="eyebrow">About the author</span>
+          <h2>Echo Buddha Editorial</h2>
+          <p>
+            Accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education for general
+            readers.
+          </p>
+          <a href="/authors/echo-buddha-editorial/">View editorial profile</a>
         </div>
       </aside>
     </div>
@@ -304,6 +328,7 @@ const jsonLd = [
   }
 
   .article-tags {
+    margin-bottom: 1rem;
     padding: 1.25rem;
   }
 
@@ -327,6 +352,27 @@ const jsonLd = [
     font-size: 0.84rem;
     font-weight: 800;
     padding: 0.25rem 0.7rem;
+  }
+
+  .author-card,
+  .wellbeing-note {
+    padding: 1.25rem;
+  }
+
+  .author-card h2,
+  .wellbeing-note h2 {
+    font-size: 1.35rem;
+    margin-top: 0;
+  }
+
+  .author-card p,
+  .wellbeing-note p {
+    color: var(--color-muted);
+  }
+
+  .wellbeing-note {
+    border-left: 3px solid var(--color-green);
+    margin-top: 2.5rem;
   }
 
   .article-faq {

@@ -11,6 +11,8 @@ import {
 const staticPaths = [
   "/",
   "/about/",
+  "/editorial-policy/",
+  "/authors/echo-buddha-editorial/",
   "/quotes/",
   "/articles/",
   "/meditation-guide/",

@@ -1,0 +1,37 @@
+---
+type Props = {
+  size?: "wide" | "box";
+};
+
+const { size = "wide" } = Astro.props;
+---
+
+<!-- TODO: Insert approved AdSense code here after a real publisher ID is available. -->
+<aside class:list={["ad-slot", `ad-slot--${size}`]} aria-label="Advertisement">
+  <span>Advertisement</span>
+</aside>
+
+<style>
+  .ad-slot {
+    align-items: center;
+    border-block: 1px solid var(--color-line);
+    color: var(--color-muted);
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    min-height: 5rem;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  .ad-slot span {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .ad-slot--box {
+    min-height: 12rem;
+  }
+</style>

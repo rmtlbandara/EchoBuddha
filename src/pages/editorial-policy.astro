@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+
+const title = "Editorial Policy";
+const description = "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}/editorial-policy/`,
+  author: {
+    "@type": "Organization",
+    name: SITE.author,
+    url: `${SITE.url}/authors/echo-buddha-editorial/`
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath="/editorial-policy/" jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Editorial standards</span>
+      <h1>Editorial Policy</h1>
+      <p class="lede">How Echo Buddha creates, reviews, and corrects its educational content.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <h2>Content Purpose</h2>
+      <p>
+        Echo Buddha publishes accessible Buddhist-inspired reflections, original quotes, meditation guidance, and
+        practical mindfulness education. The purpose is to support thoughtful learning and daily reflection without
+        presenting the website as a religious authority.
+      </p>
+
+      <h2>Originality</h2>
+      <p>
+        Articles, quote text, and reflection stories are written for Echo Buddha. The editorial process avoids copied
+        passages, false quotation attributions, copyrighted imagery, and lightly rewritten material from other
+        publishers.
+      </p>
+
+      <h2>Writing and Review</h2>
+      <p>
+        Content is reviewed for clarity, internal consistency, respectful language, useful structure, and unsupported
+        claims. Health-adjacent topics such as anxiety, sleep, stress, or emotional distress include appropriate
+        limitations and do not claim that meditation cures illness or guarantees results.
+      </p>
+
+      <h2>Corrections Policy</h2>
+      <p>
+        Substantive errors are corrected when identified. Minor wording, accessibility, linking, or formatting issues
+        may also be updated to improve clarity. Article pages display published and reviewed dates where appropriate.
+      </p>
+      <p>
+        To report an issue, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and include the page URL, the
+        relevant passage, and a brief explanation.
+      </p>
+
+      <h2>Editorial Independence</h2>
+      <p>
+        Advertising placement does not determine article conclusions or quote themes. Advertising must remain
+        visually distinct from editorial content and must never use language that pressures users to engage with it.
+      </p>
+
+      <h2>Limitations</h2>
+      <p>
+        Echo Buddha is an educational and reflective publication. It does not replace qualified medical, mental
+        health, legal, or religious guidance. Read the <a href="/disclaimer/">Disclaimer</a> for more detail.
+      </p>
+    </div>
+  </section>
+</Layout>

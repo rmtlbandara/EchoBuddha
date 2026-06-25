@@ -1,7 +1,7 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
-import AdPlaceholder from "../../../components/AdPlaceholder.astro";
+import AdSlot from "../../../components/AdSlot.astro";
 import {
   SITE,
   articleCategories,
@@ -93,7 +93,7 @@ const jsonLd = [
       <div class="grid grid--3">
         {categoryArticles.map((article) => <ArticleCard article={article} />)}
       </div>
-      <AdPlaceholder label={`${category.name} articles ad placeholder`} />
+      <AdSlot />
 
       <aside class="related-quotes surface">
         <div>

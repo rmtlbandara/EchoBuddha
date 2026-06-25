@@ -55,9 +55,8 @@ Update `SITE.url` in `src/data/site.ts` and `site` in `astro.config.mjs` before 
 
 ## AdSense Preparation
 
-Ad placeholder blocks use `src/components/AdPlaceholder.astro`. They reserve space below the hero, inside articles, on sidebars, and near page bottoms.
-
-No real Google AdSense code is included. Add ad code later inside `AdPlaceholder.astro` only after the site has enough original content, policy pages are reviewed, and advertising/privacy wording is updated.
+Ad-ready slots use `src/components/AdSlot.astro`. No Google AdSense publisher ID or ad-serving code is included.
+Add approved ad code only after a real publisher ID is available and consent requirements have been reviewed.
 
 ## Deployment
 
@@ -81,4 +80,4 @@ Wrangler uploads the generated `dist/` directory defined in `wrangler.jsonc`. Th
 - Keep content original and respectful.
 - Avoid copyrighted Buddhist images or copied passages.
 - Add new full articles by adding content to `src/data/site.ts`.
-- Review privacy, terms, and disclaimer pages before enabling analytics, newsletter collection, or advertising.
+- Review privacy, terms, disclaimer, and consent requirements before enabling new third-party services.

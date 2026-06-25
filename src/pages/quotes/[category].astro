@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
-import AdPlaceholder from "../../components/AdPlaceholder.astro";
+import AdSlot from "../../components/AdSlot.astro";
 import { SITE, getArticlesForQuoteTheme, quoteCategories, quotes } from "../../data/site";
 
 export function getStaticPaths() {
@@ -19,19 +19,45 @@ const { category, categoryQuotes } = Astro.props;
 const title = `${category.name} Buddhist Quotes`;
 const canonicalPath = `/quotes/${category.slug}/`;
 const relatedArticles = getArticlesForQuoteTheme(category.name).slice(0, 3);
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: title,
-  description: category.description,
-  url: `${SITE.url}${canonicalPath}`,
-  numberOfItems: categoryQuotes.length,
-  isPartOf: {
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Buddhist Quotes",
-    url: `${SITE.url}/quotes/`
+    name: title,
+    description: category.description,
+    url: `${SITE.url}${canonicalPath}`,
+    numberOfItems: categoryQuotes.length,
+    isPartOf: {
+      "@type": "CollectionPage",
+      name: "Buddhist Quotes",
+      url: `${SITE.url}/quotes/`
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Buddhist Quotes",
+        item: `${SITE.url}/quotes/`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: category.name,
+        item: `${SITE.url}${canonicalPath}`
+      }
+    ]
   }
-};
+];
 ---
 
 <Layout title={title} description={category.description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
@@ -50,7 +76,7 @@ const jsonLd = {
       <div class="grid grid--3">
         {categoryQuotes.map((quote) => <QuoteCard quote={quote} />)}
       </div>
-      <AdPlaceholder label={`${category.name} quotes ad placeholder`} />
+      <AdSlot />
 
       {relatedArticles.length > 0 && (
         <section class="related-reading">

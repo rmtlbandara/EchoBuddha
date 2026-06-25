@@ -1,12 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import AdPlaceholder from "../components/AdPlaceholder.astro";
+import AdSlot from "../components/AdSlot.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
 import { SITE, articles, quotes } from "../data/site";
 
-const title = "Echo Buddha";
-const description = "Timeless Buddhist wisdom for a peaceful mind, with original quotes, meditation guidance, and simple articles for everyday practice.";
+const title = "Echo Buddha | Buddhist Wisdom, Quotes & Meditation for Daily Life";
+const description = "Read original Buddhist-inspired quotes, meditation guidance, and practical mindfulness articles for a calmer daily life.";
 const featuredQuotes = quotes.slice(0, 3);
 const latestArticles = articles.slice(0, 3);
 const jsonLd = [
@@ -51,7 +51,7 @@ const jsonLd = [
   </section>
 
   <div class="container">
-    <AdPlaceholder label="Ad placeholder below hero" />
+    <AdSlot />
   </div>
 
   <section class="section">
@@ -102,28 +102,8 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="section section-band">
-    <div class="container newsletter">
-      <div>
-        <span class="eyebrow">Newsletter placeholder</span>
-        <h2>Quiet Notes for Future Readers</h2>
-        <p>
-          This area is reserved for a future newsletter sign-up. It can later connect to an email provider
-          after privacy wording and consent handling are finalized.
-        </p>
-      </div>
-      <form aria-label="Newsletter placeholder form">
-        <label for="newsletter-email">Email address</label>
-        <div class="form-row">
-          <input id="newsletter-email" type="email" placeholder="you@example.com" disabled />
-          <button type="button" disabled>Notify Me</button>
-        </div>
-      </form>
-    </div>
-  </section>
-
   <div class="container">
-    <AdPlaceholder label="Bottom ad placeholder" />
+    <AdSlot />
   </div>
 </Layout>
 
@@ -185,60 +165,9 @@ const jsonLd = [
     padding-left: 1.25rem;
   }
 
-  .newsletter {
-    display: grid;
-    gap: 1.5rem;
-  }
-
-  .newsletter form {
-    display: grid;
-    gap: 0.5rem;
-  }
-
-  .newsletter label {
-    font-weight: 800;
-  }
-
-  .form-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-  }
-
-  .form-row input,
-  .form-row button {
-    border-radius: var(--radius);
-    font: inherit;
-    min-height: 2.8rem;
-    padding: 0.7rem 0.9rem;
-  }
-
-  .form-row input {
-    background: #fff;
-    border: 1px solid var(--color-line);
-    flex: 1 1 16rem;
-  }
-
-  .form-row button {
-    background: var(--color-brown);
-    border: 1px solid var(--color-brown);
-    color: #fff;
-    font-weight: 800;
-  }
-
-  .form-row :disabled {
-    cursor: not-allowed;
-    opacity: 0.72;
-  }
-
   @media (min-width: 820px) {
     .hero-grid {
       grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.75fr);
-    }
-
-    .newsletter {
-      align-items: end;
-      grid-template-columns: 1fr minmax(280px, 0.8fr);
     }
   }
 </style>

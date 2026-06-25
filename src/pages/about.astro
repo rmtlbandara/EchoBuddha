@@ -1,11 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
 
 const title = "About Echo Buddha";
-const description = "Learn about Echo Buddha, a calm educational website sharing original Buddhist-inspired wisdom, meditation guidance, and reflections.";
+const description = "Learn about Echo Buddha's purpose, educational approach, editorial standards, and respectful Buddhist-inspired content.";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: title,
+  description,
+  url: `${SITE.url}/about/`,
+  mainEntity: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    email: SITE.email
+  }
+};
 ---
 
-<Layout title={title} description={description} canonicalPath="/about/">
+<Layout title={title} description={description} canonicalPath="/about/" jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
       <span class="eyebrow">About</span>
@@ -27,10 +41,28 @@ const description = "Learn about Echo Buddha, a calm educational website sharing
         Echo Buddha does not claim to replace traditional teachers, Buddhist communities, or careful study.
         It offers a gentle starting point and encourages readers to approach the teachings with humility.
       </p>
+      <h2>Educational and Reflective Content</h2>
+      <p>
+        Articles, quote reflections, and meditation guides are created for general education and personal reflection.
+        They are not a substitute for professional mental health, medical, legal, or religious advice. Readers facing
+        serious distress or important personal decisions should seek appropriately qualified support.
+      </p>
       <h2>Editorial Approach</h2>
       <p>
-        All quotes and articles on this starter site are original sample content. Future updates should continue
-        to avoid copied text, copyrighted imagery, and sensational claims.
+        Echo Buddha publishes original writing in accessible language. The editorial voice avoids sensational claims,
+        false attribution, invented authority, and promises that meditation or spiritual practice will guarantee a
+        particular outcome.
+      </p>
+      <p>
+        Learn more about how content is prepared and corrected in the
+        <a href="/editorial-policy/">Editorial Policy</a>, or read about
+        <a href="/authors/echo-buddha-editorial/">Echo Buddha Editorial</a>.
+      </p>
+      <h2>Transparency and Contact</h2>
+      <p>
+        Please review the <a href="/disclaimer/">Disclaimer</a> for important limitations, the
+        <a href="/privacy-policy/">Privacy Policy</a> for information about analytics and advertising, or
+        <a href="/contact/">contact the editorial team</a> with a question or correction.
       </p>
     </div>
   </section>

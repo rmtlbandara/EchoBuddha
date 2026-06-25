@@ -902,7 +902,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "6 min read",
-    imageAlt: "Warm morning light crossing a simple cup and meditation cushion placeholder",
+    imageAlt: "Warm morning light crossing a simple cup and meditation cushion",
     tags: ["mindful morning routine", "morning meditation", "daily mindfulness"],
     content: [
       {
@@ -1184,7 +1184,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "5 min read",
-    imageAlt: "Soft circular meditation placeholder in warm gold and green tones",
+    imageAlt: "Soft circular meditation artwork in warm gold and green tones",
     featured: true,
     tags: ["mindfulness", "meditation", "daily practice"],
     content: [
@@ -1232,7 +1232,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "6 min read",
-    imageAlt: "Abstract leaf placeholder symbolizing compassion and steady growth",
+    imageAlt: "Abstract leaf artwork symbolizing compassion and steady growth",
     featured: true,
     tags: ["compassion", "ethics", "kindness"],
     content: [
@@ -1280,7 +1280,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Reflection",
     readTime: "7 min read",
-    imageAlt: "Minimal circle and horizon placeholder representing release and clarity",
+    imageAlt: "Minimal circle and horizon artwork representing release and clarity",
     featured: true,
     tags: ["letting go", "non-attachment", "reflection"],
     content: [
@@ -1328,7 +1328,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Practice",
     readTime: "4 min read",
-    imageAlt: "Simple warm-toned placeholder for an article about patience",
+    imageAlt: "Simple warm-toned artwork for an article about patience",
     tags: ["patience", "practice", "daily life"],
     content: [
       {
@@ -1375,7 +1375,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "5 min read",
-    imageAlt: "Soft green placeholder for mindful listening article",
+    imageAlt: "Soft green artwork representing mindful listening",
     tags: ["listening", "mindfulness", "relationships"],
     content: [
       {
@@ -1422,7 +1422,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "4 min read",
-    imageAlt: "Minimal home meditation corner placeholder in soft natural tones",
+    imageAlt: "Minimal home meditation corner in soft natural tones",
     tags: ["home practice", "meditation", "space"],
     content: [
       {

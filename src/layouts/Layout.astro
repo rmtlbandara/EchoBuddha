@@ -12,6 +12,7 @@ type Props = {
   publishedDate?: string;
   modifiedDate?: string;
   author?: string;
+  noindex?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 };
 
@@ -23,6 +24,7 @@ const {
   publishedDate,
   modifiedDate,
   author,
+  noindex = false,
   jsonLd
 } = Astro.props;
 ---
@@ -41,6 +43,7 @@ const {
       publishedDate={publishedDate}
       modifiedDate={modifiedDate}
       author={author}
+      noindex={noindex}
       jsonLd={jsonLd}
     />
     <!-- Google tag (gtag.js) -->

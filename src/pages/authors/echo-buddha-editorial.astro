@@ -1,0 +1,71 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { SITE, fullArticles } from "../../data/site";
+
+const title = "Echo Buddha Editorial";
+const description = "Meet the Echo Buddha Editorial voice behind accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  name: title,
+  description,
+  url: `${SITE.url}/authors/echo-buddha-editorial/`,
+  mainEntity: {
+    "@type": "Organization",
+    name: SITE.author,
+    description:
+      "The editorial voice of Echo Buddha, focused on accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.",
+    url: `${SITE.url}/authors/echo-buddha-editorial/`
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath="/authors/echo-buddha-editorial/" jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Editorial profile</span>
+      <h1>Echo Buddha Editorial</h1>
+      <p class="lede">
+        The shared editorial voice behind Echo Buddha's original articles, quote reflections, and meditation guidance.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <h2>About the Editorial Voice</h2>
+      <p>
+        Echo Buddha Editorial focuses on clear, respectful introductions to Buddhist-inspired wisdom, mindfulness,
+        compassion, reflection, and meditation practice. Content is written for general readers and avoids claims of
+        monastic status, religious rank, clinical expertise, or personal spiritual authority.
+      </p>
+      <p>
+        The aim is to translate contemplative themes into practical language while acknowledging the depth and
+        diversity of Buddhist traditions. Readers seeking formal religious instruction are encouraged to learn from
+        qualified teachers and established communities.
+      </p>
+      <p>
+        Review the <a href="/editorial-policy/">Editorial Policy</a> or
+        <a href="/contact/">contact Echo Buddha</a> with a correction.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container">
+      <span class="eyebrow">Selected writing</span>
+      <h2>Articles by Echo Buddha Editorial</h2>
+      <div class="grid grid--3">
+        {fullArticles.slice(0, 6).map((article) => <ArticleCard article={article} />)}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+</style>

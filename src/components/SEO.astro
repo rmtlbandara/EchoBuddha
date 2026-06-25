@@ -10,6 +10,7 @@ type Props = {
   publishedDate?: string;
   modifiedDate?: string;
   author?: string;
+  noindex?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 };
 
@@ -22,16 +23,21 @@ const {
   publishedDate,
   modifiedDate,
   author,
+  noindex = false,
   jsonLd
 } = Astro.props;
 
 const canonicalUrl = new URL(canonicalPath, SITE.url).toString();
 const imageUrl = new URL(image, SITE.url).toString();
-const pageTitle = title === SITE.name ? title : `${title} | ${SITE.name}`;
+const isBrandedTitle = title === SITE.name
+  || title.startsWith(`${SITE.name} |`)
+  || title.endsWith(`| ${SITE.name}`);
+const pageTitle = isBrandedTitle ? title : `${title} | ${SITE.name}`;
 ---
 
 <title>{pageTitle}</title>
 <meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex, follow" />}
 <link rel="canonical" href={canonicalUrl} />
 <meta property="og:locale" content={SITE.locale} />
 <meta property="og:site_name" content={SITE.name} />

@@ -61,6 +61,15 @@ a:hover {
   color: var(--color-green);
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
 p {
   margin: 0 0 1.1rem;
 }
@@ -237,6 +246,11 @@ h3 {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.section-band {
+  background: rgba(247, 240, 229, 0.64);
+  border-block: 1px solid var(--color-line);
 }
 
 @media (min-width: 720px) {

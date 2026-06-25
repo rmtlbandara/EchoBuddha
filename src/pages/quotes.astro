@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import QuoteCard from "../components/QuoteCard.astro";
-import AdPlaceholder from "../components/AdPlaceholder.astro";
+import AdSlot from "../components/AdSlot.astro";
 import { SITE, quoteCategories, quotes } from "../data/site";
 
 const title = "Buddhist Quotes";
@@ -46,7 +46,7 @@ const jsonLd = {
       <div class="grid grid--3">
         {quotes.map((quote) => <QuoteCard quote={quote} />)}
       </div>
-      <AdPlaceholder label="Quotes page ad placeholder" />
+      <AdSlot />
     </div>
   </section>
 </Layout>
