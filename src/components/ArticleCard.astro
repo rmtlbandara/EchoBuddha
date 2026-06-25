@@ -3,9 +3,10 @@ import { getArticleCategory, getArticleReadTime, type Article } from "../data/si
 
 type Props = {
   article: Article;
+  showThumbnail?: boolean;
 };
 
-const { article } = Astro.props;
+const { article, showThumbnail = true } = Astro.props;
 const articleHref = article.content.length > 0 ? `/articles/${article.slug}/` : "";
 const category = getArticleCategory(article.category);
 const readTime = getArticleReadTime(article);
@@ -19,10 +20,16 @@ const formattedDate = new Intl.DateTimeFormat("en", {
 <article class="article-card surface">
   {articleHref ? (
     <a class="article-art" href={articleHref} aria-label={`Read ${article.title}`}>
-      <span role="img" aria-label={article.imageAlt}></span>
+      {showThumbnail && (
+        <img src={article.thumbnail} alt={article.imageAlt} width="1200" height="675" loading="lazy" decoding="async" />
+      )}
     </a>
   ) : (
-    <div class="article-art" role="img" aria-label={article.imageAlt}></div>
+    <div class="article-art">
+      {showThumbnail && (
+        <img src={article.thumbnail} alt={article.imageAlt} width="1200" height="675" loading="lazy" decoding="async" />
+      )}
+    </div>
   )}
   <div class="article-body">
     <p class="article-kicker">
@@ -55,6 +62,19 @@ const formattedDate = new Intl.DateTimeFormat("en", {
       linear-gradient(135deg, rgba(185, 133, 36, 0.34), rgba(95, 127, 98, 0.22));
     border-bottom: 1px solid var(--color-line);
     display: block;
+    overflow: hidden;
+  }
+
+  .article-art img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 180ms ease;
+    width: 100%;
+  }
+
+  .article-art:hover img {
+    transform: scale(1.02);
   }
 
   .article-body {

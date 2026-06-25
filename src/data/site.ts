@@ -694,6 +694,7 @@ export type Article = {
   author: string;
   category: string;
   readTime: string;
+  thumbnail: string;
   imageAlt: string;
   featured?: boolean;
   tags: string[];
@@ -714,6 +715,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "8 min read",
+    thumbnail: "/images/articles/buddhism-for-beginners-simple-guide.webp",
     imageAlt: "Simple path curving toward a warm sunrise, representing the beginning of Buddhist practice",
     featured: true,
     tags: ["Buddhism for beginners", "Buddhist teachings", "Four Noble Truths"],
@@ -762,6 +764,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "7 min read",
+    thumbnail: "/images/articles/how-to-meditate-for-anxiety.webp",
     imageAlt: "A steady green circle surrounded by soft open space, symbolizing grounded awareness during anxiety",
     featured: true,
     tags: ["meditation for anxiety", "mindful breathing", "grounding practice"],
@@ -810,6 +813,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "7 min read",
+    thumbnail: "/images/articles/loving-kindness-meditation-beginners.webp",
     imageAlt: "Two overlapping leaf shapes in soft green and gold, representing kindness toward self and others",
     featured: true,
     tags: ["loving-kindness meditation", "metta meditation", "self-compassion"],
@@ -858,6 +862,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "9 min read",
+    thumbnail: "/images/articles/eightfold-path-explained-daily-life.webp",
     imageAlt: "Eight simple gold marks arranged around a calm central circle, representing the Noble Eightfold Path",
     tags: ["Noble Eightfold Path", "Buddhist teachings", "daily Buddhist practice"],
     content: [
@@ -905,6 +910,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "6 min read",
+    thumbnail: "/images/articles/mindfulness-morning-routine.webp",
     imageAlt: "Warm morning light crossing a simple cup and meditation cushion",
     tags: ["mindful morning routine", "morning meditation", "daily mindfulness"],
     content: [
@@ -952,6 +958,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "8 min read",
+    thumbnail: "/images/articles/buddhist-teachings-on-impermanence.webp",
     imageAlt: "A single leaf changing from green to gold, representing impermanence and natural change",
     tags: ["impermanence in Buddhism", "anicca", "accepting change"],
     content: [
@@ -999,6 +1006,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "7 min read",
+    thumbnail: "/images/articles/walking-meditation-step-by-step.webp",
     imageAlt: "Minimal footsteps following a quiet path through soft green and warm gold tones",
     tags: ["walking meditation", "mindful walking", "meditation for beginners"],
     content: [
@@ -1046,6 +1054,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "8 min read",
+    thumbnail: "/images/articles/buddhist-approach-to-anger.webp",
     imageAlt: "A warm red-gold shape settling into a calm green circle, representing anger becoming clear awareness",
     tags: ["Buddhist approach to anger", "mindfulness of emotions", "responding to anger"],
     content: [
@@ -1093,6 +1102,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "7 min read",
+    thumbnail: "/images/articles/mindfulness-for-better-sleep.webp",
     imageAlt: "A quiet evening sky above a simple resting shape in muted green and gold",
     tags: ["mindfulness for sleep", "bedtime meditation", "evening routine"],
     content: [
@@ -1140,6 +1150,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Reflection",
     readTime: "8 min read",
+    thumbnail: "/images/articles/how-to-practice-non-attachment.webp",
     imageAlt: "An open hand beneath a floating leaf, representing care without clinging",
     tags: ["non-attachment", "letting go", "Buddhist wisdom for daily life"],
     content: [
@@ -1187,6 +1198,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "5 min read",
+    thumbnail: "/images/articles/beginning-a-daily-mindfulness-practice.webp",
     imageAlt: "Soft circular meditation artwork in warm gold and green tones",
     featured: true,
     tags: ["mindfulness", "meditation", "daily practice"],
@@ -1235,6 +1247,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "6 min read",
+    thumbnail: "/images/articles/compassion-as-a-daily-discipline.webp",
     imageAlt: "Abstract leaf artwork symbolizing compassion and steady growth",
     featured: true,
     tags: ["compassion", "ethics", "kindness"],
@@ -1283,6 +1296,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Reflection",
     readTime: "7 min read",
+    thumbnail: "/images/articles/letting-go-without-giving-up.webp",
     imageAlt: "Minimal circle and horizon artwork representing release and clarity",
     featured: true,
     tags: ["letting go", "non-attachment", "reflection"],
@@ -1331,6 +1345,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Practice",
     readTime: "4 min read",
+    thumbnail: "/images/articles/three-ways-to-practice-patience.webp",
     imageAlt: "Simple warm-toned artwork for an article about patience",
     tags: ["patience", "practice", "daily life"],
     content: [
@@ -1378,6 +1393,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "5 min read",
+    thumbnail: "/images/articles/mindful-listening-in-everyday-life.webp",
     imageAlt: "Soft green artwork representing mindful listening",
     tags: ["listening", "mindfulness", "relationships"],
     content: [
@@ -1425,6 +1441,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "4 min read",
+    thumbnail: "/images/articles/creating-a-peaceful-corner-at-home.webp",
     imageAlt: "Minimal home meditation corner in soft natural tones",
     tags: ["home practice", "meditation", "space"],
     content: [
@@ -1472,6 +1489,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "8 min read",
+    thumbnail: "/images/articles/what-is-karma-in-buddhism.webp",
     imageAlt: "A sequence of gentle ripples spreading across still water, representing actions and their effects",
     featured: true,
     tags: ["what is karma in Buddhism", "Buddhist karma", "intention and action", "daily Buddhist practice"],
@@ -1563,6 +1581,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "9 min read",
+    thumbnail: "/images/articles/four-noble-truths-explained.webp",
     imageAlt: "Four simple stones beside a quiet path, representing the Four Noble Truths",
     featured: true,
     tags: ["Four Noble Truths explained", "Buddhist teachings", "dukkha", "Buddhism for beginners"],
@@ -1654,6 +1673,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "8 min read",
+    thumbnail: "/images/articles/mindfulness-vs-meditation.webp",
     imageAlt: "A seated circle beside a flowing path, representing formal meditation and mindfulness in motion",
     featured: true,
     tags: ["mindfulness vs meditation", "meditation for beginners", "daily mindfulness", "breathing practice"],
@@ -1751,6 +1771,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Reflection",
     readTime: "9 min read",
+    thumbnail: "/images/articles/buddhist-teachings-on-forgiveness.webp",
     imageAlt: "An open hand releasing a dark leaf into a soft green landscape, representing forgiveness with boundaries",
     featured: true,
     tags: ["Buddhist forgiveness", "Buddhist teachings on forgiveness", "letting go of resentment", "compassion and boundaries"],
@@ -1848,6 +1869,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Meditation",
     readTime: "9 min read",
+    thumbnail: "/images/articles/metta-meditation-script.webp",
     imageAlt: "Soft circles widening from one warm center, representing loving-kindness extending toward others",
     featured: true,
     tags: ["metta meditation script", "loving kindness meditation script", "meditation for beginners", "self-kindness"],
