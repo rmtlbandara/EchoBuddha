@@ -709,127 +709,154 @@ export type Article = {
 
 const articleVisuals = {
   eightfoldPath: `
-    <figure class="article-visual surface" role="group" aria-labelledby="eightfold-path-wheel-title">
-      <figcaption id="eightfold-path-wheel-title">Eightfold Path practice wheel: three training areas supporting one daily path.</figcaption>
-      <div class="practice-wheel" aria-label="Wisdom includes Right View and Right Intention. Ethical Conduct includes Right Speech, Right Action, and Right Livelihood. Mental Discipline includes Right Effort, Right Mindfulness, and Right Concentration.">
-        <div class="wheel-group">
-          <strong>Wisdom</strong>
-          <span>Right View</span>
-          <span>Right Intention</span>
-        </div>
-        <div class="wheel-group">
-          <strong>Ethical Conduct</strong>
-          <span>Right Speech</span>
-          <span>Right Action</span>
-          <span>Right Livelihood</span>
-        </div>
-        <div class="wheel-group">
-          <strong>Mental Discipline</strong>
-          <span>Right Effort</span>
-          <span>Right Mindfulness</span>
-          <span>Right Concentration</span>
-        </div>
+    <figure class="article-visual surface" role="group" aria-labelledby="eightfold-framework-caption">
+      <figcaption id="eightfold-framework-caption">Noble Eightfold Path Framework: a simple conceptual map of the three training areas and their daily-life connection.</figcaption>
+      <div class="visual-card-grid visual-card-grid--three" aria-label="Noble Eightfold Path Framework">
+        <section class="visual-card">
+          <p class="visual-kicker">Wisdom</p>
+          <h3>Seeing Clearly</h3>
+          <p>Understanding experience with less confusion and choosing a kinder inner direction.</p>
+          <ul>
+            <li>Right View</li>
+            <li>Right Intention</li>
+          </ul>
+        </section>
+        <section class="visual-card">
+          <p class="visual-kicker">Ethical Conduct</p>
+          <h3>Living With Care</h3>
+          <p>Letting speech, behavior, and work reduce harm in ordinary relationships.</p>
+          <ul>
+            <li>Right Speech</li>
+            <li>Right Action</li>
+            <li>Right Livelihood</li>
+          </ul>
+        </section>
+        <section class="visual-card">
+          <p class="visual-kicker">Mental Discipline</p>
+          <h3>Training Attention</h3>
+          <p>Returning to wholesome effort, present-moment awareness, and steady concentration.</p>
+          <ul>
+            <li>Right Effort</li>
+            <li>Right Mindfulness</li>
+            <li>Right Concentration</li>
+          </ul>
+        </section>
       </div>
-      <div class="practice-bars" aria-label="Daily life connections for the Eightfold Path">
-        <span style="--bar: 92%">Thinking</span>
-        <span style="--bar: 86%">Speaking</span>
-        <span style="--bar: 78%">Acting</span>
-        <span style="--bar: 72%">Working</span>
-        <span style="--bar: 88%">Practicing</span>
-        <span style="--bar: 94%">Paying attention</span>
-        <span style="--bar: 82%">Meditating</span>
+      <div class="visual-table" aria-label="Daily Life Connection">
+        <h3>Daily Life Connection</h3>
+        <dl>
+          <div><dt>Right View</dt><dd>Seeing life more clearly</dd></div>
+          <div><dt>Right Intention</dt><dd>Choosing the direction of kindness</dd></div>
+          <div><dt>Right Speech</dt><dd>Speaking truthfully and gently</dd></div>
+          <div><dt>Right Action</dt><dd>Doing what reduces harm</dd></div>
+          <div><dt>Right Livelihood</dt><dd>Working with responsibility</dd></div>
+          <div><dt>Right Effort</dt><dd>Protecting helpful habits</dd></div>
+          <div><dt>Right Mindfulness</dt><dd>Remembering the present moment</dd></div>
+          <div><dt>Right Concentration</dt><dd>Resting attention with steadiness</dd></div>
+        </dl>
       </div>
     </figure>
   `,
   attachment: `
-    <figure class="article-visual surface" role="group" aria-labelledby="attachment-chart-title">
-      <figcaption id="attachment-chart-title">Attachment vs letting go: a reflection map for noticing how clinging can soften.</figcaption>
-      <div class="comparison-chart">
-        <div>
-          <strong>Attachment</strong>
-          <span>Clinging</span>
-          <span>Expectation</span>
-          <span>Disappointment</span>
-        </div>
-        <div>
-          <strong>Letting Go</strong>
-          <span>Awareness</span>
-          <span>Acceptance</span>
-          <span>Wise action</span>
-        </div>
-      </div>
-      <ol class="flow-steps" aria-label="Letting go practice scale">
-        <li>Holding tightly</li>
-        <li>Noticing attachment</li>
-        <li>Softening the grip</li>
-        <li>Acting with wisdom</li>
-        <li>Peaceful acceptance</li>
+    <figure class="article-visual surface" role="group" aria-labelledby="attachment-flow-caption">
+      <figcaption id="attachment-flow-caption">Attachment to Letting Go: a practice flow for meeting clinging with awareness, patience, and wise care.</figcaption>
+      <ol class="visual-flow visual-flow--numbered" aria-label="Attachment to Letting Go flow">
+        <li><strong>Notice clinging</strong><span>The mind tightens around a person, result, role, or plan.</span></li>
+        <li><strong>Name the wish</strong><span>Say gently what the heart is trying to secure.</span></li>
+        <li><strong>Feel the body</strong><span>Find the grip in the chest, jaw, hands, or breath.</span></li>
+        <li><strong>Remember change</strong><span>Let impermanence soften the demand for control.</span></li>
+        <li><strong>Choose wise care</strong><span>Take the helpful action that is actually available.</span></li>
+        <li><strong>Release the demand</strong><span>Let the result belong to changing conditions.</span></li>
+        <li><strong>Return with kindness</strong><span>Begin again without shame when clinging returns.</span></li>
       </ol>
+      <div class="visual-comparison" aria-label="Attachment and Letting Go comparison">
+        <section class="visual-comparison-card">
+          <h3>Attachment</h3>
+          <ul>
+            <li>I need this to stay exactly as I want.</li>
+            <li>My peace depends on controlling the outcome.</li>
+            <li>Change feels like a personal threat.</li>
+          </ul>
+        </section>
+        <section class="visual-comparison-card">
+          <h3>Letting Go</h3>
+          <ul>
+            <li>I can care deeply without gripping tightly.</li>
+            <li>I will do my part and release what is not mine.</li>
+            <li>Change can be met with patience and wisdom.</li>
+          </ul>
+        </section>
+      </div>
     </figure>
   `,
   rightSpeech: `
-    <figure class="article-visual surface" role="group" aria-labelledby="right-speech-title">
-      <figcaption id="right-speech-title">Four filters of Right Speech and a mindful communication flow.</figcaption>
-      <div class="filter-grid" aria-label="Four filters of Right Speech">
-        <span>Is it true?</span>
-        <span>Is it kind?</span>
-        <span>Is it useful?</span>
-        <span>Is it the right time?</span>
+    <figure class="article-visual surface" role="group" aria-labelledby="right-speech-caption">
+      <figcaption id="right-speech-caption">Four Filters of Right Speech: a practical guide for choosing words with truth, kindness, usefulness, and timing.</figcaption>
+      <div class="visual-card-grid visual-card-grid--four" aria-label="Four Filters of Right Speech">
+        <section class="visual-card visual-card--compact"><h3>Is it true?</h3><p>Check whether the words match what is known, not only what is felt.</p></section>
+        <section class="visual-card visual-card--compact"><h3>Is it kind?</h3><p>Let honesty travel with respect rather than contempt.</p></section>
+        <section class="visual-card visual-card--compact"><h3>Is it useful?</h3><p>Ask whether speaking will help understanding, repair, or wise action.</p></section>
+        <section class="visual-card visual-card--compact"><h3>Is it the right time?</h3><p>Choose the moment when words are most likely to be received well.</p></section>
       </div>
-      <ol class="flow-steps" aria-label="Mindful communication decision flow">
-        <li>Pause</li>
-        <li>Notice intention</li>
-        <li>Choose words</li>
-        <li>Speak gently</li>
-        <li>Listen fully</li>
+      <ol class="visual-flow" aria-label="Mindful communication flow">
+        <li><strong>Pause</strong></li>
+        <li><strong>Notice intention</strong></li>
+        <li><strong>Choose words</strong></li>
+        <li><strong>Speak gently</strong></li>
+        <li><strong>Listen fully</strong></li>
       </ol>
     </figure>
   `,
   overthinking: `
-    <figure class="article-visual surface" role="group" aria-labelledby="busy-mind-title">
-      <figcaption id="busy-mind-title">Busy mind to calm mind: a conceptual practice graph for working with repeated thoughts.</figcaption>
-      <ol class="flow-steps" aria-label="Daily practice flow for overthinking">
-        <li>Thought appears</li>
-        <li>Mind reacts</li>
-        <li>Awareness notices</li>
-        <li>Breath grounds</li>
-        <li>Thought softens</li>
-        <li>Wise response</li>
+    <figure class="article-visual surface" role="group" aria-labelledby="busy-mind-caption">
+      <figcaption id="busy-mind-caption">Busy Mind to Calm Mind: a conceptual practice flow for meeting repeated thoughts with awareness.</figcaption>
+      <ol class="visual-flow visual-flow--numbered" aria-label="Busy Mind to Calm Mind flow">
+        <li><strong>Thought appears</strong><span>A memory, worry, or imagined conversation enters awareness.</span></li>
+        <li><strong>Mind reacts</strong><span>The story begins to repeat, defend, predict, or compare.</span></li>
+        <li><strong>Name the pattern</strong><span>Quietly note planning, worrying, replaying, or judging.</span></li>
+        <li><strong>Ground in the body</strong><span>Feel the breath, feet, hands, sounds, or contact with the chair.</span></li>
+        <li><strong>Let the thought move</strong><span>Allow the thought to be present without building a home around it.</span></li>
+        <li><strong>Choose one next step</strong><span>Act wisely, postpone consciously, rest, or ask for support.</span></li>
       </ol>
-      <div class="comparison-chart">
-        <div>
-          <strong>Overthinking response</strong>
-          <span>Replays the story</span>
-          <span>Searches for certainty</span>
-          <span>Tightens the body</span>
-        </div>
-        <div>
-          <strong>Mindful response</strong>
-          <span>Names the thought</span>
-          <span>Returns to sensation</span>
-          <span>Chooses the next step</span>
-        </div>
+      <div class="visual-comparison" aria-label="Overthinking Response and Mindful Response comparison">
+        <section class="visual-comparison-card">
+          <h3>Overthinking Response</h3>
+          <ul>
+            <li>Replays the same story without new information.</li>
+            <li>Searches for perfect certainty before resting.</li>
+            <li>Treats one thought as the whole truth.</li>
+          </ul>
+        </section>
+        <section class="visual-comparison-card">
+          <h3>Mindful Response</h3>
+          <ul>
+            <li>Names the thought as a passing mental event.</li>
+            <li>Returns attention to the body and present moment.</li>
+            <li>Chooses one useful action or lets the replay soften.</li>
+          </ul>
+        </section>
       </div>
     </figure>
   `,
   impermanence: `
-    <figure class="article-visual surface" role="group" aria-labelledby="impermanence-cycle-title">
-      <figcaption id="impermanence-cycle-title">Cycle of change: a reflection guide for seeing impermanence in ordinary life.</figcaption>
-      <ol class="flow-steps cycle" aria-label="Cycle of change">
-        <li>Beginning</li>
-        <li>Growth</li>
-        <li>Change</li>
-        <li>Ending</li>
-        <li>Renewal</li>
+    <figure class="article-visual surface" role="group" aria-labelledby="impermanence-cycle-caption">
+      <figcaption id="impermanence-cycle-caption">Cycle of Change: a reflection guide for seeing how beginnings, growth, endings, and renewal belong to ordinary life.</figcaption>
+      <ol class="visual-flow visual-flow--cycle" aria-label="Cycle of Change">
+        <li><strong>Beginning</strong><span>Something appears because conditions have gathered.</span></li>
+        <li><strong>Growth</strong><span>Energy, care, and causes shape what is unfolding.</span></li>
+        <li><strong>Change</strong><span>The situation shifts as conditions continue to move.</span></li>
+        <li><strong>Ending</strong><span>A form, season, role, or feeling passes away.</span></li>
+        <li><strong>Renewal</strong><span>New conditions become possible from what remains.</span></li>
       </ol>
-      <div class="reflection-grid" aria-label="Areas where impermanence appears">
-        <span>Body</span>
-        <span>Feelings</span>
-        <span>Relationships</span>
-        <span>Work</span>
-        <span>Seasons</span>
-        <span>Thoughts</span>
-        <span>Possessions</span>
+      <div class="visual-mini-grid" aria-label="Where Impermanence Appears">
+        <section class="visual-mini-card"><h3>Body</h3><p>Energy, age, health, and sensation keep changing.</p></section>
+        <section class="visual-mini-card"><h3>Feelings</h3><p>Joy, sadness, irritation, and ease rise and fade.</p></section>
+        <section class="visual-mini-card"><h3>Thoughts</h3><p>Ideas appear, repeat, soften, and disappear.</p></section>
+        <section class="visual-mini-card"><h3>Relationships</h3><p>Closeness, roles, needs, and communication evolve.</p></section>
+        <section class="visual-mini-card"><h3>Work</h3><p>Tasks, goals, pressure, and identity shift over time.</p></section>
+        <section class="visual-mini-card"><h3>Seasons</h3><p>Weather and light quietly teach change every year.</p></section>
+        <section class="visual-mini-card"><h3>Possessions</h3><p>Objects wear, break, get replaced, or lose importance.</p></section>
+        <section class="visual-mini-card"><h3>Plans</h3><p>Intentions meet conditions and often need adjustment.</p></section>
       </div>
     </figure>
   `
@@ -2103,7 +2130,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "9 min read",
-    thumbnail: "/images/articles/eightfold-path-explained.svg",
+    thumbnail: "/images/articles/eightfold-path-explained.webp",
     imageAlt: "A calm wheel divided into wisdom, ethical conduct, and mental discipline for the Noble Eightfold Path",
     featured: true,
     tags: ["eightfold path explained", "Noble Eightfold Path", "Buddhism for beginners", "Right Speech", "Buddhist practice"],
@@ -2148,10 +2175,10 @@ export const articles: Article[] = [
         ]
       },
       {
-        heading: "Eightfold Path Practice Wheel",
+        heading: "Noble Eightfold Path Framework",
         paragraphs: [
           "The visual below is a practice guide, not a measurement of spiritual progress. It shows how the eight factors gather into three training areas and how those areas touch ordinary life. A day may include all of them before lunch: thinking, speaking, acting, working, practicing, paying attention, and returning to meditation.",
-          "Use the wheel as a reflection map. Choose one factor that feels alive today. If speech is the difficult area, practice one honest and kind sentence. If attention is scattered, practice one mindful task. If work feels ethically complicated, begin by naming one small choice that reduces harm."
+          "Use the framework as a reflection map. Choose one factor that feels alive today. If speech is the difficult area, practice one honest and kind sentence. If attention is scattered, practice one mindful task. If work feels ethically complicated, begin by naming one small choice that reduces harm."
         ],
         visual: articleVisuals.eightfoldPath
       },
@@ -2187,7 +2214,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Reflection",
     readTime: "9 min read",
-    thumbnail: "/images/articles/how-to-let-go-of-attachment-in-buddhism.svg",
+    thumbnail: "/images/articles/how-to-let-go-of-attachment-in-buddhism.webp",
     imageAlt: "An open hand releasing a small leaf, symbolizing letting go of attachment with care",
     featured: true,
     tags: ["buddhist attachment", "how to let go of attachment", "letting go", "non-attachment", "mindfulness"],
@@ -2218,9 +2245,9 @@ export const articles: Article[] = [
         ]
       },
       {
-        heading: "Attachment vs Letting Go",
+        heading: "Attachment to Letting Go",
         paragraphs: [
-          "The chart below is a conceptual reflection map. It is not a scientific scale, but a way to see the movement from clinging toward wiser care. Most people do not move through the stages perfectly. We may soften one attachment and tighten around another in the same day.",
+          "The visual below is a conceptual reflection map. It is not a scientific scale, but a way to see the movement from clinging toward wiser care. Most people do not move through the stages perfectly. We may soften one attachment and tighten around another in the same day.",
           "Letting go often begins with honest noticing. “I am attached to being praised.” “I am attached to this plan working.” “I am attached to someone seeing me a certain way.” Naming attachment does not make it vanish, but it turns a hidden habit into something practice can meet."
         ],
         visual: articleVisuals.attachment
@@ -2271,7 +2298,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Practice",
     readTime: "9 min read",
-    thumbnail: "/images/articles/right-speech-buddhism.svg",
+    thumbnail: "/images/articles/right-speech-buddhism.webp",
     imageAlt: "Two simple speech circles with a leaf between them, representing kind and mindful communication",
     featured: true,
     tags: ["right speech buddhism", "mindful communication", "Buddhist ethics", "kind speech", "listening"],
@@ -2355,7 +2382,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Mindfulness",
     readTime: "9 min read",
-    thumbnail: "/images/articles/buddhist-wisdom-for-overthinking.svg",
+    thumbnail: "/images/articles/buddhist-wisdom-for-overthinking.webp",
     imageAlt: "Soft thought lines settling into a calm green circle, representing a busy mind becoming steady",
     featured: true,
     tags: ["buddhist wisdom for overthinking", "buddhism overthinking", "busy mind", "mindfulness", "calm thoughts"],
@@ -2386,9 +2413,9 @@ export const articles: Article[] = [
         ]
       },
       {
-        heading: "Busy Mind to Calm Mind Practice Graph",
+        heading: "Busy Mind to Calm Mind Practice Flow",
         paragraphs: [
-          "The visual below is a daily practice framework, not a medical claim or scientific measurement. It shows how a thought can move from automatic reaction toward a wiser response when awareness and the body are included.",
+          "The visual below is a daily practice flow, not a medical claim or scientific measurement. It shows how a thought can move from automatic reaction toward a wiser response when awareness and the body are included.",
           "Use it when the mind begins circling. Do not wait until you feel calm. Begin in the middle of the noise. A single breath, felt fully, is already different from being completely carried away."
         ],
         visual: articleVisuals.overthinking
@@ -2439,7 +2466,7 @@ export const articles: Article[] = [
     author: SITE.author,
     category: "Buddhist Wisdom",
     readTime: "9 min read",
-    thumbnail: "/images/articles/impermanence-in-buddhism.svg",
+    thumbnail: "/images/articles/impermanence-in-buddhism.webp",
     imageAlt: "A soft cycle of leaves from bud to falling leaf, representing impermanence and renewal",
     featured: true,
     tags: ["impermanence in Buddhism", "buddhist impermanence", "anicca", "accepting change", "letting go"],
@@ -2470,7 +2497,7 @@ export const articles: Article[] = [
         ]
       },
       {
-        heading: "Cycle of Change Reflection",
+        heading: "Cycle of Change",
         paragraphs: [
           "The visual below is a reflection guide. It shows change as a cycle: beginning, growth, change, ending, and renewal. Real life is not always neat, but this pattern can help us remember that endings and beginnings often touch each other.",
           "Use the reflection grid slowly. Choose one area such as body, feelings, work, or relationships. Ask: what is changing here? What am I trying to freeze? What wise care is possible while change continues?"
