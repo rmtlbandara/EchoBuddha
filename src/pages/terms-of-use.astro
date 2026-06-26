@@ -1,11 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
 
 const title = "Terms of Use";
 const description = "Read the terms for using Echo Buddha articles, original quotes, meditation guidance, and educational resources.";
+const canonicalPath = "/terms-of-use/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  }
+};
 ---
 
-<Layout title={title} description={description} canonicalPath="/terms-and-conditions/">
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
       <span class="eyebrow">Terms</span>

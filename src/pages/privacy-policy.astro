@@ -1,11 +1,26 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
 
 const title = "Privacy Policy";
 const description = "Read how Echo Buddha handles analytics, cookies, advertising technologies, email messages, and privacy choices.";
+const canonicalPath = "/privacy-policy/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "PrivacyPolicy",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    email: SITE.email
+  }
+};
 ---
 
-<Layout title={title} description={description} canonicalPath="/privacy-policy/">
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
       <span class="eyebrow">Policy</span>
@@ -57,7 +72,7 @@ const description = "Read how Echo Buddha handles analytics, cookies, advertisin
       <h2>Contact</h2>
       <p>
         Questions about this policy can be sent to
-        <a href="mailto:info.echobuddha@gmail.com">info.echobuddha@gmail.com</a>.
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
       </p>
     </div>
   </section>

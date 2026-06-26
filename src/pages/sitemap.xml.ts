@@ -18,7 +18,7 @@ const staticPaths = [
   "/meditation-guide/",
   "/contact/",
   "/privacy-policy/",
-  "/terms-and-conditions/",
+  "/terms-of-use/",
   "/disclaimer/"
 ];
 

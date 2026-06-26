@@ -1,11 +1,26 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
 
 const title = "Contact";
 const description = "Contact Echo Buddha with questions, suggestions, article ideas, or general feedback about the website.";
+const canonicalPath = "/contact/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  mainEntity: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    email: SITE.email
+  }
+};
 ---
 
-<Layout title={title} description={description} canonicalPath="/contact/">
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
       <span class="eyebrow">Contact</span>
@@ -21,7 +36,7 @@ const description = "Contact Echo Buddha with questions, suggestions, article id
         <span class="eyebrow">Email</span>
         <h2>Write to Echo Buddha</h2>
         <p>Contact the editorial team at:</p>
-        <p><a class="email-link" href="mailto:info.echobuddha@gmail.com">info.echobuddha@gmail.com</a></p>
+        <p><a class="email-link" href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
         <p>
           Please include the page URL when reporting a correction. Personal medical, legal, or spiritual counseling
           cannot be provided by email.
