@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
+import ArticleShare from "../../components/ArticleShare.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import {
   SITE,
@@ -31,6 +32,7 @@ const formattedDate = new Intl.DateTimeFormat("en", {
   year: "numeric"
 }).format(new Date(`${article.date}T00:00:00Z`));
 const articleUrl = `${SITE.url}${canonicalPath}`;
+const articleImageUrl = new URL(article.thumbnail, SITE.url).toString();
 const category = getArticleCategory(article.category);
 const seoDetails = getArticleSeoDetails(article.slug);
 const readTime = getArticleReadTime(article);
@@ -77,7 +79,7 @@ const jsonLd = [
     wordCount,
     timeRequired: `PT${Number.parseInt(readTime, 10)}M`,
     inLanguage: "en",
-    image: `${SITE.url}/og-default.svg`,
+    image: articleImageUrl,
     author: {
       "@type": "Organization",
       name: article.author,
@@ -147,6 +149,7 @@ const jsonLd = [
   description={article.description}
   canonicalPath={canonicalPath}
   type="article"
+  image={article.thumbnail}
   publishedDate={article.date}
   modifiedDate={seoDetails.reviewedDate}
   author={article.author}
@@ -170,6 +173,15 @@ const jsonLd = [
           <span>Published <time datetime={article.date}>{formattedDate}</time></span>
           <span>Reviewed <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
           <span>{readTime}</span>
+        </div>
+        <div class="article-share-row">
+          <ArticleShare
+            title={article.title}
+            description={article.description}
+            url={articleUrl}
+            image={articleImageUrl}
+            variant="page"
+          />
         </div>
       </div>
     </header>
@@ -297,6 +309,11 @@ const jsonLd = [
 
   .category-eyebrow {
     text-decoration-thickness: 1px;
+  }
+
+  .article-share-row {
+    display: flex;
+    margin-top: 1rem;
   }
 
   .key-takeaways {

@@ -9,6 +9,7 @@ type Props = {
   description: string;
   canonicalPath?: string;
   type?: "website" | "article";
+  image?: string;
   publishedDate?: string;
   modifiedDate?: string;
   author?: string;
@@ -21,6 +22,7 @@ const {
   description,
   canonicalPath,
   type = "website",
+  image,
   publishedDate,
   modifiedDate,
   author,
@@ -40,6 +42,7 @@ const {
       description={description}
       canonicalPath={canonicalPath}
       type={type}
+      image={image}
       publishedDate={publishedDate}
       modifiedDate={modifiedDate}
       author={author}

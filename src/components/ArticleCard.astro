@@ -1,5 +1,6 @@
 ---
-import { getArticleCategory, getArticleReadTime, type Article } from "../data/site";
+import ArticleShare from "./ArticleShare.astro";
+import { SITE, getArticleCategory, getArticleReadTime, type Article } from "../data/site";
 
 type Props = {
   article: Article;
@@ -8,6 +9,8 @@ type Props = {
 
 const { article, showThumbnail = true } = Astro.props;
 const articleHref = article.content.length > 0 ? `/articles/${article.slug}/` : "";
+const articleUrl = articleHref ? new URL(articleHref, SITE.url).toString() : SITE.url;
+const thumbnailUrl = article.thumbnail ? new URL(article.thumbnail, SITE.url).toString() : "";
 const category = getArticleCategory(article.category);
 const readTime = getArticleReadTime(article);
 const formattedDate = new Intl.DateTimeFormat("en", {
@@ -43,6 +46,15 @@ const formattedDate = new Intl.DateTimeFormat("en", {
       <time datetime={article.date}>{formattedDate}</time>
       <span>{readTime}</span>
       {!articleHref && <span>Preview</span>}
+      {articleHref && (
+        <ArticleShare
+          title={article.title}
+          description={article.description}
+          url={articleUrl}
+          image={thumbnailUrl}
+          variant="card"
+        />
+      )}
     </div>
   </div>
 </article>
@@ -51,7 +63,8 @@ const formattedDate = new Intl.DateTimeFormat("en", {
   .article-card {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow: visible;
+    position: relative;
   }
 
   .article-art {
@@ -114,11 +127,16 @@ const formattedDate = new Intl.DateTimeFormat("en", {
   }
 
   .article-details {
+    align-items: center;
     color: var(--color-muted);
     display: flex;
     flex-wrap: wrap;
     font-size: 0.86rem;
     gap: 0.4rem 0.8rem;
     margin-top: auto;
+  }
+
+  .article-details :global(.article-share) {
+    margin-left: auto;
   }
 </style>

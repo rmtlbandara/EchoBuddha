@@ -1,0 +1,276 @@
+---
+type Props = {
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+  variant?: "card" | "page";
+};
+
+const { title, description, url, image = "", variant = "card" } = Astro.props;
+const shareText = `${title}\n\n${description}\n\n${url}${image ? `\n\n${image}` : ""}`;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+const encodedDescription = encodeURIComponent(description);
+const encodedText = encodeURIComponent(`${title} - ${description}`);
+const encodedWhatsapp = encodeURIComponent(`${title}\n${description}\n${url}`);
+const encodedImage = encodeURIComponent(image);
+
+const links = [
+  {
+    label: "Facebook",
+    href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`
+  },
+  {
+    label: "X / Twitter",
+    href: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedText}`
+  },
+  {
+    label: "LinkedIn",
+    href: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}&summary=${encodedDescription}`
+  },
+  {
+    label: "WhatsApp",
+    href: `https://api.whatsapp.com/send?text=${encodedWhatsapp}`
+  },
+  ...(image
+    ? [
+        {
+          label: "Pinterest",
+          href: `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedImage}&description=${encodedText}`
+        }
+      ]
+    : [])
+];
+---
+
+<div
+  class:list={["article-share", `article-share--${variant}`]}
+  data-article-share
+  data-copy-text={shareText}
+>
+  <button
+    class="share-toggle"
+    type="button"
+    aria-label={`Share ${title}`}
+    aria-expanded="false"
+    data-share-toggle
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M18 16.1c-.76 0-1.44.3-1.95.77L8.9 12.7a3.2 3.2 0 0 0 0-1.39l7.06-4.12A2.96 2.96 0 1 0 15 5c0 .22.03.44.08.65L8.02 9.77a3 3 0 1 0 0 4.46l7.12 4.18c-.05.19-.07.39-.07.59A2.93 2.93 0 1 0 18 16.1Z" />
+    </svg>
+    {variant === "page" && <span>Share</span>}
+  </button>
+
+  <div class="share-menu" data-share-menu hidden>
+    <button class="share-action" type="button" data-copy-share>Copy Link</button>
+    {links.map((link) => (
+      <a class="share-action" href={link.href} target="_blank" rel="noopener noreferrer" data-share-link>
+        {link.label}
+      </a>
+    ))}
+    <span class="share-copied" role="status" aria-live="polite" data-share-status></span>
+  </div>
+</div>
+
+<script>
+  const closeShareMenu = (share) => {
+    const menu = share.querySelector("[data-share-menu]");
+    const toggle = share.querySelector("[data-share-toggle]");
+    const status = share.querySelector("[data-share-status]");
+
+    if (menu instanceof HTMLElement) {
+      menu.hidden = true;
+    }
+
+    if (toggle instanceof HTMLButtonElement) {
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
+    if (status instanceof HTMLElement) {
+      status.textContent = "";
+    }
+  };
+
+  const closeOtherShareMenus = (currentShare) => {
+    document.querySelectorAll("[data-article-share]").forEach((share) => {
+      if (share !== currentShare) {
+        closeShareMenu(share);
+      }
+    });
+  };
+
+  const copyShareText = async (text) => {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    document.body.append(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    textarea.remove();
+  };
+
+  document.addEventListener("click", (event) => {
+    const target = event.target;
+
+    if (!(target instanceof Element)) {
+      return;
+    }
+
+    const share = target.closest("[data-article-share]");
+    const toggle = target.closest("[data-share-toggle]");
+    const copyButton = target.closest("[data-copy-share]");
+    const shareLink = target.closest("[data-share-link]");
+
+    if (!share) {
+      document.querySelectorAll("[data-article-share]").forEach(closeShareMenu);
+      return;
+    }
+
+    if (toggle instanceof HTMLButtonElement) {
+      event.preventDefault();
+      event.stopPropagation();
+      const menu = share.querySelector("[data-share-menu]");
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      closeOtherShareMenus(share);
+
+      if (menu instanceof HTMLElement) {
+        menu.hidden = isOpen;
+      }
+
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      return;
+    }
+
+    if (copyButton instanceof HTMLButtonElement) {
+      event.preventDefault();
+      event.stopPropagation();
+      const text = share.getAttribute("data-copy-text") ?? "";
+      const status = share.querySelector("[data-share-status]");
+
+      copyShareText(text)
+        .then(() => {
+          if (status instanceof HTMLElement) {
+            status.textContent = "Copied";
+          }
+          window.setTimeout(() => closeShareMenu(share), 900);
+        })
+        .catch(() => {
+          if (status instanceof HTMLElement) {
+            status.textContent = "Copy failed";
+          }
+        });
+      return;
+    }
+
+    if (shareLink instanceof HTMLAnchorElement) {
+      closeShareMenu(share);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      document.querySelectorAll("[data-article-share]").forEach(closeShareMenu);
+    }
+  });
+</script>
+
+<style>
+  .article-share {
+    display: inline-flex;
+    position: relative;
+  }
+
+  .share-toggle {
+    align-items: center;
+    background: rgba(255, 253, 248, 0.9);
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    color: var(--color-brown);
+    cursor: pointer;
+    display: inline-flex;
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    gap: 0.4rem;
+    justify-content: center;
+    min-height: 2.2rem;
+    min-width: 2.2rem;
+    padding: 0.45rem;
+  }
+
+  .share-toggle:hover,
+  .share-toggle:focus-visible {
+    border-color: var(--color-green);
+    color: var(--color-green);
+  }
+
+  .share-toggle svg {
+    fill: currentColor;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .article-share--page .share-toggle {
+    padding-inline: 0.75rem;
+  }
+
+  .share-menu {
+    background: #fffdf8;
+    border: 1px solid var(--color-line);
+    border-radius: 8px;
+    box-shadow: 0 18px 45px rgba(64, 49, 31, 0.14);
+    display: grid;
+    gap: 0.2rem;
+    min-width: 11rem;
+    padding: 0.45rem;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.45rem);
+    z-index: 20;
+  }
+
+  .share-menu[hidden] {
+    display: none;
+  }
+
+  .article-share--card .share-menu {
+    bottom: calc(100% + 0.45rem);
+    top: auto;
+  }
+
+  .share-action {
+    background: transparent;
+    border: 0;
+    border-radius: 6px;
+    color: var(--color-ink);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.65rem;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .share-action:hover,
+  .share-action:focus-visible {
+    background: rgba(232, 240, 228, 0.7);
+    color: var(--color-green);
+  }
+
+  .share-copied {
+    color: var(--color-green);
+    font-size: 0.78rem;
+    font-weight: 800;
+    min-height: 1rem;
+    padding: 0 0.65rem 0.25rem;
+  }
+</style>
