@@ -44,8 +44,16 @@ const jsonLd = [
           <a class="button button--secondary" href="/meditation-guide/">Start Meditating</a>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Calm circular visual inspired by stillness and mindful attention">
-        <div class="decorative-mark"></div>
+      <div class="hero-visual">
+        <img
+          class="hero-art"
+          src="/images/hero-mindful-lotus.webp"
+          alt="Minimal lotus, sun, and leaf illustration for mindful Buddhist reflection"
+          width="960"
+          height="960"
+          loading="eager"
+          decoding="async"
+        />
       </div>
     </div>
   </section>
@@ -53,19 +61,6 @@ const jsonLd = [
   <div class="container">
     <AdSlot />
   </div>
-
-  <section class="section">
-    <div class="container">
-      <span class="eyebrow">Featured quotes</span>
-      <h2>Small Lines for a Steady Day</h2>
-      <div class="grid grid--3">
-        {featuredQuotes.map((quote) => <QuoteCard quote={quote} />)}
-      </div>
-      <div class="section-end-link">
-        <a href="/quotes/">View all quotes</a>
-      </div>
-    </div>
-  </section>
 
   <section class="section section-band">
     <div class="container">
@@ -80,6 +75,19 @@ const jsonLd = [
       </div>
       <div class="section-end-link">
         <a href="/articles/">View all articles</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Featured quotes</span>
+      <h2>Small Lines for a Steady Day</h2>
+      <div class="grid grid--3">
+        {featuredQuotes.map((quote) => <QuoteCard quote={quote} />)}
+      </div>
+      <div class="section-end-link">
+        <a href="/quotes/">View all quotes</a>
       </div>
     </div>
   </section>
@@ -141,6 +149,16 @@ const jsonLd = [
   .hero-visual {
     margin-inline: auto;
     width: min(78vw, 24rem);
+  }
+
+  .hero-art {
+    aspect-ratio: 1;
+    border: 1px solid var(--color-line);
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
   }
 
   .section-band {
