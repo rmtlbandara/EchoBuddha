@@ -19,29 +19,44 @@ const encodedImage = encodeURIComponent(image);
 const links = [
   {
     label: "Facebook",
+    icon: "facebook",
     href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`
   },
   {
     label: "X / Twitter",
+    icon: "x",
     href: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedText}`
   },
   {
     label: "LinkedIn",
+    icon: "linkedin",
     href: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}&summary=${encodedDescription}`
   },
   {
     label: "WhatsApp",
+    icon: "whatsapp",
     href: `https://api.whatsapp.com/send?text=${encodedWhatsapp}`
   },
   ...(image
     ? [
         {
           label: "Pinterest",
+          icon: "pinterest",
           href: `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedImage}&description=${encodedText}`
         }
       ]
     : [])
 ];
+
+const icons: Record<string, string> = {
+  share: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.1c-.76 0-1.44.3-1.95.77L8.9 12.7a3.2 3.2 0 0 0 0-1.39l7.06-4.12A2.96 2.96 0 1 0 15 5c0 .22.03.44.08.65L8.02 9.77a3 3 0 1 0 0 4.46l7.12 4.18c-.05.19-.07.39-.07.59A2.93 2.93 0 1 0 18 16.1Z" /></svg>`,
+  copy: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 7.5A2.5 2.5 0 0 1 10.5 5h6A2.5 2.5 0 0 1 19 7.5v6a2.5 2.5 0 0 1-2.5 2.5h-6A2.5 2.5 0 0 1 8 13.5v-6Zm2.5-.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5h-6Z" /><path d="M5 10.5A2.5 2.5 0 0 1 7.5 8v2A.5.5 0 0 0 7 10.5v6a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 .5-.5h2a2.5 2.5 0 0 1-2.5 2.5h-6A2.5 2.5 0 0 1 5 16.5v-6Z" /></svg>`,
+  facebook: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.2 8.1h2.1V5.2c-.4-.1-1.6-.2-3-.2-3 0-5 1.8-5 5.2v2.9H5v3.3h3.3V23h3.8v-6.6h3.1l.5-3.3h-3.6v-2.5c0-1 .3-1.7 2.1-1.7Z" /></svg>`,
+  x: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 10.5 21.5 2h-2.2l-6.3 7.1L8 2H2l7.9 11.2L2 22h2.2l6.7-7.5L16.1 22H22l-8-11.5Zm-2.3 2.6-.8-1.1-6.3-8.3h2.5l5 6.7.8 1.1 6.6 8.7H17l-5.3-7.1Z" /></svg>`,
+  linkedin: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.7 8.6H3.3V20h3.4V8.6ZM5 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm15.7 9.5c0-3.3-1.8-5.1-4.3-5.1-2 0-2.9 1.1-3.4 1.9V8.6H9.7V20H13v-6.2c0-1.6.9-2.5 2.1-2.5 1.2 0 2 .8 2 2.5V20h3.5v-6.5Z" /></svg>`,
+  whatsapp: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a8.8 8.8 0 0 0-7.5 13.4L3.4 21l4.7-1.2A8.8 8.8 0 1 0 12 3Zm0 1.9a6.9 6.9 0 0 1 5.9 10.4A6.9 6.9 0 0 1 8.5 18l-.3-.2-2.1.6.6-2-.2-.3A6.9 6.9 0 0 1 12 4.9Zm-3.1 3.8c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.7 2.8 4.3 3.7 2.1.8 2.6.6 3.1.5.5-.1 1.6-.7 1.8-1.3.2-.6.2-1.1.1-1.3-.1-.1-.2-.2-.5-.4l-1.7-.8c-.2-.1-.4-.1-.6.1-.2.3-.7.8-.9 1-.2.2-.3.2-.6.1a5.6 5.6 0 0 1-2.8-2.4c-.2-.3 0-.4.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.8c-.2-.4-.4-.4-.6-.4Z" /></svg>`,
+  pinterest: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.2 2C6.8 2 4 5.5 4 9.3c0 2.3 1.3 4.1 3.2 4.8.3.1.6 0 .7-.4l.3-1.2c.1-.4.1-.5-.2-.9-.6-.7-.9-1.4-.9-2.4 0-2.8 2.1-5.2 5.4-5.2 2.9 0 4.6 1.8 4.6 4.2 0 3.2-1.4 5.9-3.5 5.9-1.1 0-2-.9-1.7-2.1.3-1.4 1-2.9 1-3.9 0-.9-.5-1.7-1.5-1.7-1.2 0-2.1 1.2-2.1 2.8 0 1 .3 1.7.3 1.7L8.3 16c-.4 1.7-.1 3.8 0 4 .1.1.2.1.3 0 .1-.2 1.8-2.2 2.4-4.2l.6-2.2c.5.9 1.7 1.6 3 1.6 4 0 6.7-3.6 6.7-8.4C21.3 3.9 18.2 2 12.2 2Z" /></svg>`
+};
 ---
 
 <div
@@ -49,24 +64,34 @@ const links = [
   data-article-share
   data-copy-text={shareText}
 >
-  <button
-    class="share-toggle"
-    type="button"
-    aria-label={`Share ${title}`}
-    aria-expanded="false"
-    data-share-toggle
-  >
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path d="M18 16.1c-.76 0-1.44.3-1.95.77L8.9 12.7a3.2 3.2 0 0 0 0-1.39l7.06-4.12A2.96 2.96 0 1 0 15 5c0 .22.03.44.08.65L8.02 9.77a3 3 0 1 0 0 4.46l7.12 4.18c-.05.19-.07.39-.07.59A2.93 2.93 0 1 0 18 16.1Z" />
-    </svg>
-    {variant === "page" && <span>Share</span>}
-  </button>
+  {variant === "card" && (
+    <button
+      class="share-toggle"
+      type="button"
+      aria-label={`Share ${title}`}
+      title="Share"
+      aria-expanded="false"
+      data-share-toggle
+    >
+      <Fragment set:html={icons.share} />
+    </button>
+  )}
 
-  <div class="share-menu" data-share-menu hidden>
-    <button class="share-action" type="button" data-copy-share>Copy Link</button>
+  <div class:list={["share-menu", variant === "page" && "share-menu--inline"]} data-share-menu hidden={variant === "card"}>
+    <button class="share-action" type="button" aria-label="Copy link" title="Copy link" data-copy-share>
+      <Fragment set:html={icons.copy} />
+    </button>
     {links.map((link) => (
-      <a class="share-action" href={link.href} target="_blank" rel="noopener noreferrer" data-share-link>
-        {link.label}
+      <a
+        class="share-action"
+        href={link.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Share on ${link.label}`}
+        title={link.label}
+        data-share-link
+      >
+        <Fragment set:html={icons[link.icon]} />
       </a>
     ))}
     <span class="share-copied" role="status" aria-live="polite" data-share-status></span>
@@ -78,8 +103,9 @@ const links = [
     const menu = share.querySelector("[data-share-menu]");
     const toggle = share.querySelector("[data-share-toggle]");
     const status = share.querySelector("[data-share-status]");
+    const isInlineShare = share.classList.contains("article-share--page");
 
-    if (menu instanceof HTMLElement) {
+    if (menu instanceof HTMLElement && !isInlineShare) {
       menu.hidden = true;
     }
 
@@ -87,7 +113,7 @@ const links = [
       toggle.setAttribute("aria-expanded", "false");
     }
 
-    if (status instanceof HTMLElement) {
+    if (status instanceof HTMLElement && !isInlineShare) {
       status.textContent = "";
     }
   };
@@ -160,7 +186,15 @@ const links = [
           if (status instanceof HTMLElement) {
             status.textContent = "Copied";
           }
-          window.setTimeout(() => closeShareMenu(share), 900);
+          window.setTimeout(() => {
+            if (share.classList.contains("article-share--page")) {
+              if (status instanceof HTMLElement) {
+                status.textContent = "";
+              }
+            } else {
+              closeShareMenu(share);
+            }
+          }, 900);
         })
         .catch(() => {
           if (status instanceof HTMLElement) {
@@ -171,7 +205,10 @@ const links = [
     }
 
     if (shareLink instanceof HTMLAnchorElement) {
-      closeShareMenu(share);
+      event.stopPropagation();
+      if (!share.classList.contains("article-share--page")) {
+        closeShareMenu(share);
+      }
     }
   });
 
@@ -186,6 +223,12 @@ const links = [
   .article-share {
     display: inline-flex;
     position: relative;
+  }
+
+  .article-share--page {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.45rem;
   }
 
   .share-toggle {
@@ -218,18 +261,14 @@ const links = [
     width: 1rem;
   }
 
-  .article-share--page .share-toggle {
-    padding-inline: 0.75rem;
-  }
-
   .share-menu {
     background: #fffdf8;
     border: 1px solid var(--color-line);
     border-radius: 8px;
     box-shadow: 0 18px 45px rgba(64, 49, 31, 0.14);
     display: grid;
-    gap: 0.2rem;
-    min-width: 11rem;
+    gap: 0.35rem;
+    grid-template-columns: repeat(3, 2.1rem);
     padding: 0.45rem;
     position: absolute;
     right: 0;
@@ -246,31 +285,57 @@ const links = [
     top: auto;
   }
 
-  .share-action {
+  .share-menu--inline {
     background: transparent;
     border: 0;
-    border-radius: 6px;
-    color: var(--color-ink);
+    box-shadow: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding: 0;
+    position: static;
+  }
+
+  .share-action {
+    align-items: center;
+    background: rgba(255, 253, 248, 0.9);
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    color: var(--color-brown);
     cursor: pointer;
+    display: inline-flex;
     font: inherit;
-    font-size: 0.9rem;
-    padding: 0.5rem 0.65rem;
-    text-align: left;
+    height: 2.1rem;
+    justify-content: center;
+    padding: 0;
     text-decoration: none;
-    white-space: nowrap;
+    width: 2.1rem;
+  }
+
+  .share-action svg {
+    fill: currentColor;
+    height: 1rem;
+    width: 1rem;
   }
 
   .share-action:hover,
   .share-action:focus-visible {
     background: rgba(232, 240, 228, 0.7);
+    border-color: var(--color-green);
     color: var(--color-green);
   }
 
   .share-copied {
     color: var(--color-green);
+    grid-column: 1 / -1;
     font-size: 0.78rem;
     font-weight: 800;
     min-height: 1rem;
-    padding: 0 0.65rem 0.25rem;
+    padding: 0 0.25rem;
+  }
+
+  .share-menu--inline .share-copied {
+    align-self: center;
+    padding-inline: 0.1rem;
   }
 </style>
