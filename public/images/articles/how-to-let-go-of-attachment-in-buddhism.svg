@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Letting go of attachment</title>
+  <desc id="desc">An open hand releases a leaf into warm quiet space.</desc>
+  <rect width="1200" height="675" fill="#fffdf8"/>
+  <circle cx="770" cy="220" r="150" fill="#e8f0e4"/>
+  <path d="M294 442c92 38 210 44 302 10 45-17 88-25 135-16 41 8 74 31 102 61" fill="none" stroke="#7d5a2f" stroke-width="34" stroke-linecap="round"/>
+  <path d="M418 396c70 18 138 16 205-8" fill="none" stroke="#b98524" stroke-width="26" stroke-linecap="round"/>
+  <path d="M682 244c88 14 150 87 155 174-90 1-160-61-177-146 6-11 13-20 22-28z" fill="#5f7f62"/>
+  <path d="M702 270c46 42 82 86 113 134" fill="none" stroke="#fffdf8" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+  <path d="M185 531c194-36 635-35 831 0" fill="none" stroke="#d8c093" stroke-width="24" stroke-linecap="round" opacity=".4"/>
+</svg>

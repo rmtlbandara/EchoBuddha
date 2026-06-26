@@ -59,7 +59,9 @@ const relatedQuotes = quotes.filter((quote) => quote.theme === relatedQuoteTheme
 const needsWellbeingNote = [
   "how-to-meditate-for-anxiety",
   "mindfulness-for-better-sleep",
-  "buddhist-approach-to-anger"
+  "buddhist-approach-to-anger",
+  "buddhist-wisdom-for-overthinking",
+  "impermanence-in-buddhism"
 ].includes(article.slug);
 const jsonLd = [
   {
@@ -186,6 +188,7 @@ const jsonLd = [
             {section.heading && <h2 id={section.id}>{section.heading}</h2>}
             {section.subheading && <h3>{section.subheading}</h3>}
             {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+            {section.visual && <Fragment set:html={section.visual} />}
             {index === 1 && <AdSlot />}
           </>
         ))}
@@ -379,6 +382,108 @@ const jsonLd = [
   .wellbeing-note {
     border-left: 3px solid var(--color-green);
     margin-top: 2.5rem;
+  }
+
+  :global(.article-visual) {
+    margin: 2rem 0;
+    padding: 1.25rem;
+  }
+
+  :global(.article-visual figcaption) {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  :global(.practice-wheel),
+  :global(.comparison-chart),
+  :global(.filter-grid),
+  :global(.reflection-grid) {
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  :global(.practice-wheel) {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+
+  :global(.wheel-group),
+  :global(.comparison-chart > div) {
+    background: rgba(247, 240, 229, 0.72);
+    border: 1px solid var(--color-line);
+    border-radius: 8px;
+    display: grid;
+    gap: 0.45rem;
+    padding: 1rem;
+  }
+
+  :global(.wheel-group strong),
+  :global(.comparison-chart strong) {
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+  }
+
+  :global(.wheel-group span),
+  :global(.comparison-chart span),
+  :global(.filter-grid span),
+  :global(.reflection-grid span) {
+    background: rgba(255, 253, 248, 0.82);
+    border: 1px solid rgba(212, 194, 163, 0.72);
+    border-radius: 999px;
+    color: var(--color-ink);
+    font-size: 0.9rem;
+    padding: 0.42rem 0.7rem;
+  }
+
+  :global(.practice-bars) {
+    display: grid;
+    gap: 0.55rem;
+    margin-top: 1rem;
+  }
+
+  :global(.practice-bars span) {
+    align-items: center;
+    background: linear-gradient(90deg, rgba(95, 127, 98, 0.24) var(--bar), rgba(247, 240, 229, 0.78) var(--bar));
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    color: var(--color-ink);
+    display: flex;
+    font-size: 0.9rem;
+    min-height: 2.15rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  :global(.comparison-chart) {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  :global(.filter-grid),
+  :global(.reflection-grid) {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+
+  :global(.flow-steps) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+
+  :global(.flow-steps li) {
+    background: rgba(232, 240, 228, 0.72);
+    border: 1px solid rgba(95, 127, 98, 0.24);
+    border-radius: 999px;
+    color: var(--color-ink);
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0.5rem 0.8rem;
+  }
+
+  :global(.flow-steps li + li) {
+    margin-top: 0;
   }
 
   .article-faq {

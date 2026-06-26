@@ -703,7 +703,136 @@ export type Article = {
     heading?: string;
     subheading?: string;
     paragraphs: string[];
+    visual?: string;
   }[];
+};
+
+const articleVisuals = {
+  eightfoldPath: `
+    <figure class="article-visual surface" role="group" aria-labelledby="eightfold-path-wheel-title">
+      <figcaption id="eightfold-path-wheel-title">Eightfold Path practice wheel: three training areas supporting one daily path.</figcaption>
+      <div class="practice-wheel" aria-label="Wisdom includes Right View and Right Intention. Ethical Conduct includes Right Speech, Right Action, and Right Livelihood. Mental Discipline includes Right Effort, Right Mindfulness, and Right Concentration.">
+        <div class="wheel-group">
+          <strong>Wisdom</strong>
+          <span>Right View</span>
+          <span>Right Intention</span>
+        </div>
+        <div class="wheel-group">
+          <strong>Ethical Conduct</strong>
+          <span>Right Speech</span>
+          <span>Right Action</span>
+          <span>Right Livelihood</span>
+        </div>
+        <div class="wheel-group">
+          <strong>Mental Discipline</strong>
+          <span>Right Effort</span>
+          <span>Right Mindfulness</span>
+          <span>Right Concentration</span>
+        </div>
+      </div>
+      <div class="practice-bars" aria-label="Daily life connections for the Eightfold Path">
+        <span style="--bar: 92%">Thinking</span>
+        <span style="--bar: 86%">Speaking</span>
+        <span style="--bar: 78%">Acting</span>
+        <span style="--bar: 72%">Working</span>
+        <span style="--bar: 88%">Practicing</span>
+        <span style="--bar: 94%">Paying attention</span>
+        <span style="--bar: 82%">Meditating</span>
+      </div>
+    </figure>
+  `,
+  attachment: `
+    <figure class="article-visual surface" role="group" aria-labelledby="attachment-chart-title">
+      <figcaption id="attachment-chart-title">Attachment vs letting go: a reflection map for noticing how clinging can soften.</figcaption>
+      <div class="comparison-chart">
+        <div>
+          <strong>Attachment</strong>
+          <span>Clinging</span>
+          <span>Expectation</span>
+          <span>Disappointment</span>
+        </div>
+        <div>
+          <strong>Letting Go</strong>
+          <span>Awareness</span>
+          <span>Acceptance</span>
+          <span>Wise action</span>
+        </div>
+      </div>
+      <ol class="flow-steps" aria-label="Letting go practice scale">
+        <li>Holding tightly</li>
+        <li>Noticing attachment</li>
+        <li>Softening the grip</li>
+        <li>Acting with wisdom</li>
+        <li>Peaceful acceptance</li>
+      </ol>
+    </figure>
+  `,
+  rightSpeech: `
+    <figure class="article-visual surface" role="group" aria-labelledby="right-speech-title">
+      <figcaption id="right-speech-title">Four filters of Right Speech and a mindful communication flow.</figcaption>
+      <div class="filter-grid" aria-label="Four filters of Right Speech">
+        <span>Is it true?</span>
+        <span>Is it kind?</span>
+        <span>Is it useful?</span>
+        <span>Is it the right time?</span>
+      </div>
+      <ol class="flow-steps" aria-label="Mindful communication decision flow">
+        <li>Pause</li>
+        <li>Notice intention</li>
+        <li>Choose words</li>
+        <li>Speak gently</li>
+        <li>Listen fully</li>
+      </ol>
+    </figure>
+  `,
+  overthinking: `
+    <figure class="article-visual surface" role="group" aria-labelledby="busy-mind-title">
+      <figcaption id="busy-mind-title">Busy mind to calm mind: a conceptual practice graph for working with repeated thoughts.</figcaption>
+      <ol class="flow-steps" aria-label="Daily practice flow for overthinking">
+        <li>Thought appears</li>
+        <li>Mind reacts</li>
+        <li>Awareness notices</li>
+        <li>Breath grounds</li>
+        <li>Thought softens</li>
+        <li>Wise response</li>
+      </ol>
+      <div class="comparison-chart">
+        <div>
+          <strong>Overthinking response</strong>
+          <span>Replays the story</span>
+          <span>Searches for certainty</span>
+          <span>Tightens the body</span>
+        </div>
+        <div>
+          <strong>Mindful response</strong>
+          <span>Names the thought</span>
+          <span>Returns to sensation</span>
+          <span>Chooses the next step</span>
+        </div>
+      </div>
+    </figure>
+  `,
+  impermanence: `
+    <figure class="article-visual surface" role="group" aria-labelledby="impermanence-cycle-title">
+      <figcaption id="impermanence-cycle-title">Cycle of change: a reflection guide for seeing impermanence in ordinary life.</figcaption>
+      <ol class="flow-steps cycle" aria-label="Cycle of change">
+        <li>Beginning</li>
+        <li>Growth</li>
+        <li>Change</li>
+        <li>Ending</li>
+        <li>Renewal</li>
+      </ol>
+      <div class="reflection-grid" aria-label="Areas where impermanence appears">
+        <span>Body</span>
+        <span>Feelings</span>
+        <span>Relationships</span>
+        <span>Work</span>
+        <span>Seasons</span>
+        <span>Thoughts</span>
+        <span>Possessions</span>
+      </div>
+    </figure>
+  `
 };
 
 export const articles: Article[] = [
@@ -1964,6 +2093,426 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    slug: "eightfold-path-explained",
+    title: "The Noble Eightfold Path Explained for Beginners",
+    seoTitle: "The Noble Eightfold Path Explained for Beginners",
+    description: "A simple beginner-friendly guide to the Noble Eightfold Path, explaining right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+    date: "2026-06-26",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "9 min read",
+    thumbnail: "/images/articles/eightfold-path-explained.svg",
+    imageAlt: "A calm wheel divided into wisdom, ethical conduct, and mental discipline for the Noble Eightfold Path",
+    featured: true,
+    tags: ["eightfold path explained", "Noble Eightfold Path", "Buddhism for beginners", "Right Speech", "Buddhist practice"],
+    relatedSlugs: [
+      "buddhism-for-beginners-simple-guide",
+      "right-speech-buddhism",
+      "what-is-karma-in-buddhism"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "The Noble Eightfold Path explained for beginners is not a list of rules to memorize. It is a practical map for living with more wisdom, kindness, and steadiness. The path points to eight areas of practice: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+          "The word right can sound strict in English, but it is closer to wise, skillful, or aligned with less harm. A beginner does not need to master all eight factors at once. The path is learned in ordinary moments: how we understand a problem, how we speak when irritated, how we work, how we return to attention, and how we keep practicing after a difficult day."
+        ]
+      },
+      {
+        heading: "Eightfold Path Explained in Simple Language",
+        paragraphs: [
+          "The Eightfold Path is often grouped into three trainings. Wisdom includes right view and right intention. Ethical conduct includes right speech, right action, and right livelihood. Mental discipline includes right effort, right mindfulness, and right concentration. These groups help beginners see the shape of the path without turning it into a rigid checklist.",
+          "Wisdom helps us understand life more clearly. Ethical conduct reduces harm in relationships and daily choices. Mental discipline steadies attention so we can see our habits before they become actions. If you are new to the wider Buddhist path, start with <a href=\"/articles/buddhism-for-beginners-simple-guide/\">Buddhism for Beginners</a> and return here when the Eightfold Path feels like the next step."
+        ]
+      },
+      {
+        heading: "Right View and Right Intention",
+        paragraphs: [
+          "Right view begins with seeing cause and effect. Our choices matter. Thoughts, words, and actions leave traces in the mind and in the world around us. This does not mean blaming ourselves for everything that happens. It means recognizing that present choices can create kinder conditions than automatic reactions do.",
+          "Right intention asks what direction the heart is taking. Is this action guided by greed, resentment, or confusion? Or is it guided by renunciation, goodwill, and harmlessness? A person may still need to speak firmly, set boundaries, or make practical decisions. The question is whether the inner direction reduces unnecessary suffering. For a related teaching, read <a href=\"/articles/what-is-karma-in-buddhism/\">What Is Karma in Buddhism?</a>."
+        ]
+      },
+      {
+        heading: "Right Speech, Action, and Livelihood",
+        paragraphs: [
+          "Right speech is the training of words. It asks us to avoid lying, cruel speech, divisive speech, and careless chatter that spreads confusion. This is not about becoming silent or perfectly gentle. It is about speaking in ways that are truthful, useful, timely, and connected to care.",
+          "Right action concerns what we do with the body: avoiding harm, theft, exploitation, and careless conduct. Right livelihood asks whether our work supports or damages life. Not everyone can change jobs easily, and Buddhism is practical about conditions. Still, we can ask how our work, spending, and ambition affect other people. A deeper look at words appears in <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "Right Effort, Mindfulness, and Concentration",
+        paragraphs: [
+          "Right effort is not harsh self-improvement. It is the steady care that prevents harmful states from growing, lets go of harmful states already present, encourages wholesome states, and protects wholesome states once they arise. It is the difference between forcing the mind and patiently training it.",
+          "Right mindfulness notices body, feelings, mind states, and patterns clearly. Right concentration gathers attention so it becomes less scattered. These two factors support meditation, but they also support daily life. When you notice impatience before sending a message, mindfulness is already working. When you stay with one breath instead of chasing every thought, concentration is being trained. The <a href=\"/meditation-guide/\">Meditation Guide</a> can help beginners start gently."
+        ]
+      },
+      {
+        heading: "Eightfold Path Practice Wheel",
+        paragraphs: [
+          "The visual below is a practice guide, not a measurement of spiritual progress. It shows how the eight factors gather into three training areas and how those areas touch ordinary life. A day may include all of them before lunch: thinking, speaking, acting, working, practicing, paying attention, and returning to meditation.",
+          "Use the wheel as a reflection map. Choose one factor that feels alive today. If speech is the difficult area, practice one honest and kind sentence. If attention is scattered, practice one mindful task. If work feels ethically complicated, begin by naming one small choice that reduces harm."
+        ],
+        visual: articleVisuals.eightfoldPath
+      },
+      {
+        heading: "Common Misunderstandings About the Eightfold Path",
+        paragraphs: [
+          "One misunderstanding is that the path must be practiced in order, like steps on a ladder. In real life, the factors support one another. Mindfulness improves speech. Speech affects relationships. Relationships reveal intentions. Clearer intention deepens meditation.",
+          "Another misunderstanding is that the Eightfold Path is only for monks, scholars, or unusually calm people. The path is meant for lived experience. It belongs in family conversations, workplace decisions, disappointment, waiting, money, conflict, and the quiet moment before the next response."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "For one week, choose one path factor each morning. On Monday, practice right speech by pausing before unnecessary criticism. On Tuesday, practice right effort by noticing one unhelpful habit and one wholesome habit. On Wednesday, practice right mindfulness by giving full attention to a routine task.",
+          "At night, review without self-attack. Where did the factor appear naturally? Where did you forget? What helped you return? This kind of review turns the Eightfold Path from an idea into a lived education. Small, repeated choices matter more than dramatic declarations."
+        ]
+      },
+      {
+        heading: "A Gentle Reflection on the Path",
+        paragraphs: [
+          "The Eightfold Path does not ask you to become a different person overnight. It asks you to meet this person, this life, and this moment with more honesty. Some days the practice is meditation. Some days it is an apology. Some days it is refusing to pass anger onward.",
+          "Let the path be practical. Let it be patient. The next mindful step is already part of the training, even when it seems ordinary. For a short reflection, visit the <a href=\"/quotes/wisdom/\">Wisdom quotes</a> page and choose one line to carry through the day."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "how-to-let-go-of-attachment-in-buddhism",
+    title: "How to Let Go of Attachment in Buddhism",
+    seoTitle: "How to Let Go of Attachment in Buddhism",
+    description: "Learn what attachment means in Buddhism, why clinging creates suffering, and how to practice letting go with mindfulness, patience, and compassion.",
+    date: "2026-06-26",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "9 min read",
+    thumbnail: "/images/articles/how-to-let-go-of-attachment-in-buddhism.svg",
+    imageAlt: "An open hand releasing a small leaf, symbolizing letting go of attachment with care",
+    featured: true,
+    tags: ["buddhist attachment", "how to let go of attachment", "letting go", "non-attachment", "mindfulness"],
+    relatedSlugs: [
+      "how-to-practice-non-attachment",
+      "letting-go-without-giving-up",
+      "impermanence-in-buddhism"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Buddhist attachment is not the same as love, care, or commitment. Attachment is the tight clinging that says a person, outcome, feeling, role, or possession must stay exactly as we want before we can be at peace. Learning how to let go of attachment does not mean becoming cold. It means caring with a softer grip.",
+          "This distinction matters. You can love your family without trying to control every choice they make. You can work hard without needing one result to prove your worth. You can enjoy comfort without asking it to protect you from change. Buddhism points to the suffering that grows when natural care turns into grasping."
+        ]
+      },
+      {
+        heading: "What Buddhist Attachment Means",
+        paragraphs: [
+          "In Buddhist teaching, clinging is closely connected with craving. The mind leans toward what feels pleasant, pushes away what feels unpleasant, and tries to build a fixed identity around changing experience. Attachment can appear as “I must have this,” “I cannot lose this,” or “I cannot be okay unless this person behaves as I expect.”",
+          "The problem is not preference. It is natural to prefer kindness over cruelty, health over illness, and safety over danger. Attachment begins when preference becomes a demand against reality. For a broader explanation, read <a href=\"/articles/four-noble-truths-explained/\">The Four Noble Truths Explained</a>, which describes how craving adds extra suffering."
+        ]
+      },
+      {
+        heading: "Why Clinging Creates Suffering",
+        paragraphs: [
+          "Clinging narrows attention. When we cling to an outcome, the mind rehearses, worries, compares, and checks for signs that life will obey. If the outcome arrives, fear of losing it may begin. If it does not arrive, disappointment can become identity: “I failed,” “I am unloved,” or “nothing works for me.”",
+          "Imagine waiting for a reply to an important message. Concern is understandable. Attachment adds a story every few minutes. The phone becomes a small altar to certainty. Mindfulness does not mock the wish for reassurance. It simply notices the grip and asks whether the grip is helping."
+        ]
+      },
+      {
+        heading: "Attachment vs Letting Go",
+        paragraphs: [
+          "The chart below is a conceptual reflection map. It is not a scientific scale, but a way to see the movement from clinging toward wiser care. Most people do not move through the stages perfectly. We may soften one attachment and tighten around another in the same day.",
+          "Letting go often begins with honest noticing. “I am attached to being praised.” “I am attached to this plan working.” “I am attached to someone seeing me a certain way.” Naming attachment does not make it vanish, but it turns a hidden habit into something practice can meet."
+        ],
+        visual: articleVisuals.attachment
+      },
+      {
+        heading: "Letting Go Is Not Giving Up",
+        paragraphs: [
+          "A common fear is that letting go means abandoning effort. In Buddhist practice, letting go releases the demand for total control while keeping wise action. You can prepare for an interview, speak honestly in a relationship, or care for your health without pretending you control every result.",
+          "The difference is felt in the body. Clinging often feels tight, urgent, and repetitive. Wise effort feels steadier, even when the situation matters. If this distinction is difficult, <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a> explores the balance between release and responsibility."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Buddhist Attachment",
+        paragraphs: [
+          "The first misunderstanding is that Buddhism asks people not to love. Love and attachment are not the same. Love wishes for wellbeing. Attachment demands possession, permanence, or control. Love can listen. Attachment often bargains. Love can grieve. Attachment turns grief into the belief that life must not change.",
+          "The second misunderstanding is that non-attachment means emotional distance. True non-attachment can make care more available because it is less crowded by fear. A parent can guide a child while accepting that the child is not an extension of the parent. A friend can care deeply while allowing another person to have their own path."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Begin with one attachment that is small enough to study. Notice what triggers it. Is it praise, control, certainty, comfort, being right, or being needed? Then notice the body. Is there tightening in the chest, leaning forward, shallow breathing, or repeated checking?",
+          "Practice softening one step. Put the phone down for five minutes. Let someone finish speaking without correcting them. Do the work and release the need to be admired. Say quietly, “I can care without clinging.” Pair this with <a href=\"/articles/how-to-practice-non-attachment/\">How to Practice Non-Attachment</a> for a wider daily practice."
+        ]
+      },
+      {
+        heading: "Patience, Compassion, and Impermanence",
+        paragraphs: [
+          "Attachment loosens more easily when patience is present. The mind may need time to trust a softer grip. Compassion also matters because attachment often hides fear: fear of loss, shame, loneliness, or not being enough. Meeting that fear harshly usually makes the grip stronger.",
+          "Impermanence is the deeper teacher. Every feeling changes. Every role changes. Relationships, bodies, work, and possessions change. Remembering impermanence is not meant to make life bleak. It helps us appreciate what is here without demanding that it freeze. Visit the <a href=\"/quotes/impermanence/\">Impermanence quotes</a> page for short reflections."
+        ]
+      },
+      {
+        heading: "A Gentle Reflection on Letting Go",
+        paragraphs: [
+          "Letting go does not always feel peaceful at first. Sometimes it feels like sadness, humility, or the awkward space after an old habit loses authority. Be patient with that space. The mind is learning that safety does not come only from control.",
+          "You do not need to let go of everything today. Begin with one breath, one unclenched hand, one honest sentence, one wise action without a guaranteed result. Over time, the heart learns that care can remain even when clinging softens."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "right-speech-buddhism",
+    title: "Right Speech in Buddhism: How to Speak with Kindness and Awareness",
+    seoTitle: "Right Speech in Buddhism: Speak with Kindness",
+    description: "A practical guide to Right Speech in Buddhism, including mindful communication, honesty, kindness, silence, listening, and daily examples.",
+    date: "2026-06-26",
+    author: SITE.author,
+    category: "Practice",
+    readTime: "9 min read",
+    thumbnail: "/images/articles/right-speech-buddhism.svg",
+    imageAlt: "Two simple speech circles with a leaf between them, representing kind and mindful communication",
+    featured: true,
+    tags: ["right speech buddhism", "mindful communication", "Buddhist ethics", "kind speech", "listening"],
+    relatedSlugs: [
+      "eightfold-path-explained",
+      "mindful-listening-in-everyday-life",
+      "buddhist-approach-to-anger"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Right Speech in Buddhism is the practice of using words with honesty, kindness, usefulness, and awareness. It is one part of the Noble Eightfold Path, but it is also one of the easiest teachings to test in daily life. A single sentence can create trust, confusion, healing, or harm.",
+          "The practice is not about becoming perfectly soft-spoken or avoiding difficult conversations. Sometimes the kindest words are clear and firm. Right Speech asks us to notice intention before speaking and to choose words that reduce unnecessary suffering."
+        ]
+      },
+      {
+        heading: "Right Speech Buddhism: The Basic Teaching",
+        paragraphs: [
+          "Traditional Buddhist teaching often describes Right Speech by naming what to avoid: false speech, divisive speech, harsh speech, and idle or careless speech. In positive language, this means speaking truthfully, creating harmony where possible, using words with respect, and choosing speech that has purpose.",
+          "These guidelines are simple, but not easy. The difficult moment usually arrives quickly: criticism from a manager, a tense family dinner, a message that feels unfair, or a rumor that would be satisfying to repeat. Practice begins in the pause before words leave the mouth or the screen."
+        ]
+      },
+      {
+        heading: "The Four Filters of Right Speech",
+        paragraphs: [
+          "The visual below is a practical decision guide. Before speaking, ask four quiet questions: Is it true? Is it kind? Is it useful? Is it the right time? Not every sentence will pass every filter perfectly, but the questions slow down the habit of speaking from irritation alone.",
+          "The filters are especially helpful when emotion is strong. If a sentence is true but meant to wound, it may need a different tone. If it is kind but not honest, it may create confusion later. If it is useful but badly timed, silence may serve better for now."
+        ],
+        visual: articleVisuals.rightSpeech
+      },
+      {
+        heading: "Honesty Without Cruelty",
+        paragraphs: [
+          "Honesty is central to Right Speech, yet honesty is sometimes used as an excuse for aggression. “I am just being honest” can hide the wish to punish. Buddhist practice asks for truth joined with care. The same boundary can be spoken with contempt or with dignity.",
+          "For example, “You never help” may express frustration but invites defensiveness. “I am overwhelmed and need us to divide this task clearly” is more specific and more useful. Right Speech does not remove discomfort from every conversation. It reduces the extra harm created by careless words."
+        ]
+      },
+      {
+        heading: "Silence Can Also Be Speech Practice",
+        paragraphs: [
+          "Right Speech includes knowing when not to speak. Silence may be wise when the facts are unclear, when anger is too strong, or when words would only feed gossip. Silence is not always avoidance. Sometimes it is restraint that protects everyone from a reaction that would need repair later.",
+          "There is also unwise silence: avoiding necessary truth, allowing harm to continue, or withholding care to punish someone. Mindfulness helps distinguish restraint from avoidance. If anger is present, read <a href=\"/articles/buddhist-approach-to-anger/\">A Buddhist Approach to Anger</a> before having the conversation."
+        ]
+      },
+      {
+        heading: "Listening Is Part of Right Speech",
+        paragraphs: [
+          "Many harmful conversations begin before we speak because we are not truly listening. We prepare a defense, assume the other person's meaning, or wait for a gap to correct them. Right Speech depends on Right Listening: receiving enough of what is actually being said to respond wisely.",
+          "A simple practice is to let the other person finish one complete thought before answering. Notice the urge to interrupt. Feel it in the body. Then choose whether speaking now will help. <a href=\"/articles/mindful-listening-in-everyday-life/\">Mindful Listening in Everyday Life</a> offers more examples."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Right Speech",
+        paragraphs: [
+          "Right Speech does not mean being agreeable. You can disagree, correct misinformation, report harm, or say no. The practice concerns the intention and manner of speech, not the avoidance of all conflict. Kindness is not the same as people-pleasing.",
+          "Right Speech also does not mean every thought deserves expression. A passing judgment may be noticed without becoming a sentence. A private irritation may need care, rest, or reflection more than an audience. Words become powerful when they are chosen, not merely released."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Choose one communication habit for a week. You might stop exaggerating when upset, avoid gossip at work, pause before replying to criticism, or ask one clarifying question before disagreeing. Keep the practice small enough to remember.",
+          "Before a difficult conversation, write your intention in one sentence: “I want to understand,” “I need to set a boundary,” or “I want to repair trust.” This keeps speech connected to purpose. If compassion feels difficult, the <a href=\"/articles/loving-kindness-meditation-beginners/\">Loving-Kindness Meditation</a> article can support a warmer inner tone."
+        ]
+      },
+      {
+        heading: "A Gentle Reflection on Words",
+        paragraphs: [
+          "Words do not disappear when the conversation ends. They echo in memory, relationships, and the habits of the speaker. This is why Buddhist practice treats speech as a field of training. Every conversation gives us a chance to reduce harm or pass it along.",
+          "Begin with one pause. Let the first sharp sentence remain unspoken long enough for wisdom to arrive. Then speak, if speaking is needed, in a way your future self will not have to repair."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "buddhist-wisdom-for-overthinking",
+    title: "Buddhist Wisdom for Overthinking: How to Calm a Busy Mind",
+    seoTitle: "Buddhist Wisdom for Overthinking and a Busy Mind",
+    description: "Discover Buddhist-inspired ways to understand overthinking, calm a busy mind, return to the present moment, and respond to thoughts with awareness.",
+    date: "2026-06-26",
+    author: SITE.author,
+    category: "Mindfulness",
+    readTime: "9 min read",
+    thumbnail: "/images/articles/buddhist-wisdom-for-overthinking.svg",
+    imageAlt: "Soft thought lines settling into a calm green circle, representing a busy mind becoming steady",
+    featured: true,
+    tags: ["buddhist wisdom for overthinking", "buddhism overthinking", "busy mind", "mindfulness", "calm thoughts"],
+    relatedSlugs: [
+      "how-to-meditate-for-anxiety",
+      "beginning-a-daily-mindfulness-practice",
+      "letting-go-without-giving-up"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Buddhist wisdom for overthinking begins with a gentle observation: thoughts are events in the mind, not commands that must be obeyed. A busy mind may replay conversations, predict failure, rehearse arguments, or search for certainty before sleep. Buddhism overthinking practices do not demand a blank mind. They help us relate to thought with more awareness.",
+          "Overthinking often tries to protect us. It wants to prevent mistakes, avoid rejection, or solve pain before it arrives. The trouble is that repeated thinking can become another form of suffering. The mind circles the same material without becoming wiser. Practice begins when we notice the circling."
+        ]
+      },
+      {
+        heading: "Buddhist Wisdom for Overthinking Starts With Noticing",
+        paragraphs: [
+          "The first step is not to fight thought. Fighting usually creates another thought: “Why am I still thinking?” Instead, name what is happening with simple language. “Planning is here.” “Worry is here.” “Rehearsing is here.” This small naming creates space between awareness and the mental story.",
+          "In mindfulness practice, the goal is not to destroy thinking. Thinking is part of being human. The goal is to know thought as thought. When a worry is recognized as a worry, it may still feel uncomfortable, but it is no longer the whole room."
+        ]
+      },
+      {
+        heading: "Why the Mind Repeats Itself",
+        paragraphs: [
+          "Overthinking often appears when the mind wants certainty in a situation that remains uncertain. A conversation ended awkwardly. A work decision is unfinished. Someone's mood changed. The mind tries to close the open loop by replaying every detail.",
+          "Sometimes reflection is useful. It helps us learn, apologize, prepare, or choose a wise next step. Overthinking is different. It repeats without fresh information. It tightens the body and narrows attention. A practical question can help: “Is this thought leading to a useful action, or is it asking for certainty I cannot have right now?”"
+        ]
+      },
+      {
+        heading: "Busy Mind to Calm Mind Practice Graph",
+        paragraphs: [
+          "The visual below is a daily practice framework, not a medical claim or scientific measurement. It shows how a thought can move from automatic reaction toward a wiser response when awareness and the body are included.",
+          "Use it when the mind begins circling. Do not wait until you feel calm. Begin in the middle of the noise. A single breath, felt fully, is already different from being completely carried away."
+        ],
+        visual: articleVisuals.overthinking
+      },
+      {
+        heading: "Return to the Body",
+        paragraphs: [
+          "Overthinking lives mostly in mental images, imagined conversations, and future scenes. The body brings attention back to something present. Feel the feet on the floor. Notice the weight of the hands. Let the jaw soften. Listen to one sound without naming it too quickly.",
+          "Breathing can help, but it should not be forced. If focusing on the breath increases anxiety, widen attention to the whole body or the room around you. <a href=\"/articles/how-to-meditate-for-anxiety/\">How to Meditate for Anxiety</a> offers gentle options when the nervous system feels activated."
+        ]
+      },
+      {
+        heading: "Let Thoughts Pass Without Building a Home for Them",
+        paragraphs: [
+          "A thought may appear: “I ruined everything.” The overthinking mind begins gathering evidence. A mindful response notices the thought and asks, “Is this the full truth, or a frightened interpretation?” That question does not deny responsibility. It prevents one thought from becoming an identity.",
+          "Letting thoughts pass does not mean ignoring practical problems. If action is needed, take action. Send the apology, make the plan, ask the question, rest, or seek support. After the useful action is chosen, practice releasing the extra replay. <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a> is helpful here."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Calming the Mind",
+        paragraphs: [
+          "Many beginners think a calm mind means no thoughts. In meditation, calm often means not being pushed around by every thought. The mind may still produce memories and plans. The difference is that awareness can see them arise and pass.",
+          "Another misunderstanding is that overthinking is always a personal failure. It may be shaped by stress, fatigue, pressure, uncertainty, or past experiences. A compassionate approach works better than scolding. If overthinking is severe, persistent, or connected with significant distress, qualified mental health support may be important."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Create a three-step overthinking practice. First, name the pattern: “This is replaying.” Second, ground the body: feel three breaths, the feet, or the chair. Third, choose one wise next action or consciously postpone the issue until a specific time.",
+          "Before sleep, keep paper nearby. Write the practical concern in one sentence and the next possible action. Then return to the body. The goal is not to force sleep, but to show the mind that the concern has been acknowledged. For building steady attention, read <a href=\"/articles/beginning-a-daily-mindfulness-practice/\">Beginning a Daily Mindfulness Practice</a>."
+        ]
+      },
+      {
+        heading: "A Gentle Reflection for a Busy Mind",
+        paragraphs: [
+          "You do not need to believe every thought to respect the mind that produced it. The busy mind is often trying, in its tangled way, to keep life safe. Thank the protective effort, then return to what is actually here: breathing, contact, sound, light, and the next kind action.",
+          "Over time, the mind learns that not every question must be solved tonight. Some thoughts soften when they are noticed. Some problems become clearer after rest. Awareness gives thought a place to appear without handing it the whole life."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "impermanence-in-buddhism",
+    title: "Impermanence in Buddhism: Learning to Accept Change Peacefully",
+    seoTitle: "Impermanence in Buddhism: Accepting Change Peacefully",
+    description: "A beginner-friendly explanation of impermanence in Buddhism and how understanding change can help with letting go, grief, patience, and daily peace.",
+    date: "2026-06-26",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "9 min read",
+    thumbnail: "/images/articles/impermanence-in-buddhism.svg",
+    imageAlt: "A soft cycle of leaves from bud to falling leaf, representing impermanence and renewal",
+    featured: true,
+    tags: ["impermanence in Buddhism", "buddhist impermanence", "anicca", "accepting change", "letting go"],
+    relatedSlugs: [
+      "buddhist-teachings-on-impermanence",
+      "how-to-let-go-of-attachment-in-buddhism",
+      "letting-go-without-giving-up"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Impermanence in Buddhism is the teaching that conditioned things arise, change, and pass away. Bodies change, feelings change, relationships change, thoughts change, seasons change, and even the problems that feel permanent are moving in some way. Buddhist impermanence is not meant to make life feel cold. It helps us meet change with more honesty.",
+          "For beginners, impermanence can sound like a teaching about loss. It includes loss, but it also includes growth, healing, learning, and renewal. The same truth that says a pleasant moment cannot be held forever also says a painful moment is not fixed forever."
+        ]
+      },
+      {
+        heading: "Impermanence in Buddhism in Simple Words",
+        paragraphs: [
+          "The traditional term for impermanence is anicca. It means that experiences depend on conditions. When conditions gather, something appears. When conditions shift, that thing changes. A mood depends on sleep, memory, food, weather, conversation, and thought. A relationship depends on attention, history, communication, timing, and many other causes.",
+          "Seeing impermanence does not require abstract belief. Look at one breath. It begins, changes, and ends. Listen to one sound. It arises, vibrates, and fades. Notice one feeling. Even when it lasts, it changes texture. The teaching is visible in small moments before it is understood in large ones."
+        ]
+      },
+      {
+        heading: "Why Change Feels So Difficult",
+        paragraphs: [
+          "Change is difficult because the mind often tries to build safety from what cannot remain the same. We want youth, praise, health, success, and closeness to stay reliable. When they shift, the mind may feel betrayed, as if life broke a promise it never made.",
+          "This does not mean grief is wrong. When someone dies, a relationship ends, or a familiar role disappears, pain may be natural and deep. Buddhist practice does not ask us to smile at loss. It asks whether clinging to permanence adds another layer of suffering on top of the grief that already deserves care."
+        ]
+      },
+      {
+        heading: "Cycle of Change Reflection",
+        paragraphs: [
+          "The visual below is a reflection guide. It shows change as a cycle: beginning, growth, change, ending, and renewal. Real life is not always neat, but this pattern can help us remember that endings and beginnings often touch each other.",
+          "Use the reflection grid slowly. Choose one area such as body, feelings, work, or relationships. Ask: what is changing here? What am I trying to freeze? What wise care is possible while change continues?"
+        ],
+        visual: articleVisuals.impermanence
+      },
+      {
+        heading: "Impermanence and Letting Go",
+        paragraphs: [
+          "Letting go becomes more understandable when impermanence is seen clearly. If everything changes, then clinging cannot give lasting safety. It can only tighten the heart around what is already moving. This does not mean we stop appreciating people, places, or opportunities. It means we appreciate them without demanding ownership over time.",
+          "A simple phrase can help: “This is precious because it changes.” A quiet morning, a child's voice, a shared meal, a healthy body, or a creative season may all be met with more tenderness when we stop assuming they are guaranteed. For a related practice, read <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "Impermanence and Grief",
+        paragraphs: [
+          "Impermanence does not remove grief. Sometimes it makes grief more honest because it admits that love meets change. If you are grieving, the teaching should be held gently. It is not a slogan to silence pain. It is a companion that says the ache, too, will move in waves.",
+          "Grief may soften, return, change shape, or appear unexpectedly. Practice can help you notice the wave without believing you have failed. If grief feels overwhelming or you feel unable to function, support from trusted people or qualified professionals is appropriate and wise."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings About Impermanence",
+        paragraphs: [
+          "One misunderstanding is that impermanence means nothing matters. Buddhist practice points in the opposite direction. Because moments are changing, our choices matter. A kind sentence may not last forever, but it can change the conditions of a conversation. A harmful action may pass, but its effects may continue.",
+          "Another misunderstanding is that accepting change means liking every change. Acceptance is not approval. It is the honest recognition that this is happening, which allows a wiser response. You can accept that a season has ended while still feeling sadness. You can accept a problem while still working to repair what can be repaired."
+        ]
+      },
+      {
+        heading: "How to Practice This in Daily Life",
+        paragraphs: [
+          "Practice with small changes first. Notice a cup of tea cooling, a sound fading, the body shifting during a walk, or irritation changing when you stop feeding the story. Small observations train the mind to see change without panic.",
+          "When a larger change arrives, use three questions: What has ended? What remains? What kind action is possible now? These questions do not solve every pain, but they keep attention connected to reality. <a href=\"/articles/three-ways-to-practice-patience/\">Three Ways to Practice Patience</a> can support the waiting that change often requires."
+        ]
+      },
+      {
+        heading: "A Peaceful Way to Remember Change",
+        paragraphs: [
+          "Impermanence is not only the sound of something leaving. It is also the possibility of beginning again. The mood that dominated the morning may not own the evening. A habit can be interrupted. A relationship can be repaired or released. A painful season can become less sharp.",
+          "Let impermanence make you attentive rather than afraid. Meet what is here while it is here. Care for what can be cared for. Release what cannot be held. For short reminders, visit the <a href=\"/quotes/impermanence/\">Impermanence quotes</a> page and choose one reflection for the day."
+        ]
+      }
+    ]
   }
 ];
 
@@ -2565,6 +3114,191 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
         question: "Is metta meditation the same as self-compassion?",
         answer:
           "They overlap, especially when goodwill is offered to oneself. Metta gradually widens that benevolent intention toward other people and all beings."
+      }
+    ]
+  },
+  "eightfold-path-explained": {
+    reviewedDate: "2026-06-26",
+    takeaways: [
+      "The Noble Eightfold Path develops wisdom, ethical conduct, and mental discipline together.",
+      "Right View and Right Intention shape the direction of thought and motivation.",
+      "Right Speech, Right Action, and Right Livelihood bring Buddhist practice into relationships and work.",
+      "Right Effort, Right Mindfulness, and Right Concentration train attention without harshness.",
+      "Beginners can practice one path factor at a time in ordinary daily situations."
+    ],
+    faqs: [
+      {
+        question: "What is the Noble Eightfold Path in simple terms?",
+        answer:
+          "It is a Buddhist path of practice made of eight factors: right view, intention, speech, action, livelihood, effort, mindfulness, and concentration."
+      },
+      {
+        question: "Why is it called the Eightfold Path?",
+        answer:
+          "It has eight connected areas of training. They are not separate rules, but related practices that support wisdom, ethical conduct, and mental steadiness."
+      },
+      {
+        question: "Do beginners need to practice all eight parts at once?",
+        answer:
+          "No. A beginner can choose one factor, such as right speech or right mindfulness, and notice how it connects with the rest of daily life."
+      },
+      {
+        question: "Is the Eightfold Path only about meditation?",
+        answer:
+          "No. Meditation is important, but the path also includes how we understand, speak, act, work, and make effort."
+      },
+      {
+        question: "How does the Eightfold Path help daily life?",
+        answer:
+          "It gives practical guidance for reducing harm, responding with more awareness, and building habits that support clarity and compassion."
+      }
+    ]
+  },
+  "how-to-let-go-of-attachment-in-buddhism": {
+    reviewedDate: "2026-06-26",
+    takeaways: [
+      "Buddhist attachment means clinging, not ordinary love or care.",
+      "Attachment creates suffering when preference becomes a demand for control or permanence.",
+      "Letting go keeps wise effort while releasing the need to guarantee every result.",
+      "Mindfulness helps attachment become visible in the body, thoughts, and repeated habits.",
+      "Non-attachment can make care more compassionate because it is less ruled by fear."
+    ],
+    faqs: [
+      {
+        question: "What does attachment mean in Buddhism?",
+        answer:
+          "Attachment means clinging to people, feelings, outcomes, possessions, or identity as if they can provide permanent security."
+      },
+      {
+        question: "Does Buddhism teach people not to love?",
+        answer:
+          "No. Buddhism distinguishes love and compassion from clinging. Love can care deeply without trying to possess or control."
+      },
+      {
+        question: "How do I let go of attachment?",
+        answer:
+          "Notice the grip, name the fear or expectation beneath it, soften the body, take wise action, and release what cannot be controlled."
+      },
+      {
+        question: "Is letting go the same as giving up?",
+        answer:
+          "No. Giving up abandons useful effort. Letting go releases the demand that life produce a guaranteed result."
+      },
+      {
+        question: "Can I practice non-attachment in relationships?",
+        answer:
+          "Yes. Listen, care, and communicate honestly while remembering that another person is changing and cannot be owned or controlled."
+      }
+    ]
+  },
+  "right-speech-buddhism": {
+    reviewedDate: "2026-06-26",
+    takeaways: [
+      "Right Speech is a Buddhist practice of honest, kind, useful, and timely communication.",
+      "The practice avoids lying, divisive speech, harsh speech, and careless speech.",
+      "Kind speech can still be firm, clear, and boundaried.",
+      "Listening is part of speech practice because wise words depend on accurate understanding.",
+      "A short pause before speaking can prevent avoidable harm."
+    ],
+    faqs: [
+      {
+        question: "What is Right Speech in Buddhism?",
+        answer:
+          "Right Speech is one factor of the Noble Eightfold Path. It trains truthful, respectful, useful, and timely communication."
+      },
+      {
+        question: "What are the four kinds of speech to avoid?",
+        answer:
+          "Buddhist teachings commonly advise avoiding false speech, divisive speech, harsh speech, and idle or careless speech."
+      },
+      {
+        question: "Does Right Speech mean never disagreeing?",
+        answer:
+          "No. You can disagree, set boundaries, and speak firmly while avoiding cruelty, exaggeration, and unnecessary harm."
+      },
+      {
+        question: "How can I practice Right Speech at work?",
+        answer:
+          "Pause before replying, avoid gossip, clarify facts, speak directly when needed, and choose words that solve problems rather than spread tension."
+      },
+      {
+        question: "Is silence part of Right Speech?",
+        answer:
+          "Yes. Silence can be wise when words would be harmful, premature, or rooted mainly in anger. It should not be used to avoid necessary truth."
+      }
+    ]
+  },
+  "buddhist-wisdom-for-overthinking": {
+    reviewedDate: "2026-06-26",
+    takeaways: [
+      "Buddhist-inspired practice sees thoughts as events in the mind, not commands.",
+      "Overthinking often searches for certainty when uncertainty is still present.",
+      "Naming a thought creates space between awareness and the mental story.",
+      "Returning to the body can ground attention when thinking becomes repetitive.",
+      "Mindfulness supports wise action without demanding a blank mind."
+    ],
+    faqs: [
+      {
+        question: "What does Buddhism say about overthinking?",
+        answer:
+          "Buddhist practice encourages noticing thoughts clearly, understanding clinging and fear, and returning to present-moment awareness."
+      },
+      {
+        question: "Can meditation stop overthinking?",
+        answer:
+          "Meditation may reduce identification with repeated thoughts, but it does not guarantee a blank mind. The practice is to relate differently to thought."
+      },
+      {
+        question: "What is a simple practice for a busy mind?",
+        answer:
+          "Name the pattern, feel the body or breath, and choose one useful next action. If no action is needed, practice letting the thought pass."
+      },
+      {
+        question: "Is overthinking always bad?",
+        answer:
+          "No. Reflection can be useful when it leads to learning or action. Overthinking becomes unhelpful when it repeats without fresh information or clarity."
+      },
+      {
+        question: "Should I seek help for constant overthinking?",
+        answer:
+          "If overthinking is persistent, distressing, or interfering with sleep, work, or relationships, support from a qualified professional may be helpful."
+      }
+    ]
+  },
+  "impermanence-in-buddhism": {
+    reviewedDate: "2026-06-26",
+    takeaways: [
+      "Impermanence in Buddhism means conditioned experiences arise, change, and pass.",
+      "The teaching includes loss, but also growth, healing, learning, and renewal.",
+      "Accepting change does not mean liking every change or denying grief.",
+      "Seeing impermanence can soften clinging and deepen appreciation.",
+      "Daily practice begins by noticing small changes in breath, sound, feelings, and routines."
+    ],
+    faqs: [
+      {
+        question: "What is impermanence in Buddhism?",
+        answer:
+          "Impermanence, or anicca, means that conditioned things arise, change, and pass away. This includes thoughts, feelings, bodies, relationships, and circumstances."
+      },
+      {
+        question: "Is impermanence a sad teaching?",
+        answer:
+          "It can include sadness, but it is not only sad. Impermanence also makes growth, repair, learning, and healing possible."
+      },
+      {
+        question: "How does impermanence help with letting go?",
+        answer:
+          "When we see that everything changes, clinging to permanence becomes less convincing. We can care deeply while holding experience more lightly."
+      },
+      {
+        question: "Does accepting impermanence mean accepting harm?",
+        answer:
+          "No. Acceptance means recognizing what is happening clearly. It can support wise action, boundaries, repair, and protection."
+      },
+      {
+        question: "How can beginners practice awareness of impermanence?",
+        answer:
+          "Notice simple changes: one breath ending, a sound fading, a mood shifting, or a season changing. Let small observations train clear seeing."
       }
     ]
   }
