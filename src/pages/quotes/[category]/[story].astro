@@ -103,10 +103,31 @@ const jsonLd = [
 
     <div class="container article-shell">
       <div class="prose story-body">
-        <h2>The Story</h2>
-        {story.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+        {story.intro ? (
+          <>
+            <p class="lede" set:html={story.intro} />
+            {story.sections.map((section) => (
+              <section>
+                <h2>{section.heading}</h2>
+                {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+              </section>
+            ))}
+          </>
+        ) : (
+          <>
+            <h2>The Story</h2>
+            {story.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          </>
+        )}
 
         <AdSlot />
+
+        {story.reflectionQuestion && (
+          <>
+            <h2>Reflection Question</h2>
+            <p>{story.reflectionQuestion}</p>
+          </>
+        )}
 
         <h2>A Quiet Reflection</h2>
         <p>
