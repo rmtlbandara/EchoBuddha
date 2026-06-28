@@ -13,7 +13,7 @@ const navItems = [
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="Echo Buddha home">
-      <span class="brand-mark" aria-hidden="true"></span>
+      <img class="brand-mark" src="/images/buddha-brand-icon.png" alt="" width="96" height="96" aria-hidden="true" />
       <span>Echo Buddha</span>
     </a>
     <nav class="main-nav" aria-label="Main navigation">
@@ -66,12 +66,11 @@ const navItems = [
   }
 
   .brand-mark {
-    background:
-      radial-gradient(circle, #fffdf8 0 34%, transparent 35%),
-      conic-gradient(from 24deg, var(--color-gold-soft), var(--color-green-soft), var(--color-gold-soft));
     border: 1px solid var(--color-line);
     border-radius: 50%;
+    display: block;
     height: 2rem;
+    object-fit: cover;
     width: 2rem;
   }
 
