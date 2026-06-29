@@ -47,6 +47,16 @@ const jsonLd = [
       <div class="grid grid--3">
         {learnHubCards.map((item) => <LearningCard item={item} />)}
       </div>
+      <div class="search-entry surface">
+        <div>
+          <h2>Search the Learning Library</h2>
+          <p>
+            Find Buddhist terms, beginner lessons, Dhammapada reflections, sutta notes, meditation guides, articles,
+            and quotes from one calm search page.
+          </p>
+        </div>
+        <a class="button button--secondary" href="/search/">Search learning content</a>
+      </div>
     </div>
   </section>
 
@@ -140,6 +150,23 @@ const jsonLd = [
     gap: 1.25rem;
   }
 
+  .search-entry {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .search-entry h2 {
+    font-size: 1.45rem;
+  }
+
+  .search-entry p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
   .hero-actions {
     align-items: flex-start;
     display: flex;
@@ -150,6 +177,10 @@ const jsonLd = [
   @media (min-width: 760px) {
     .path-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .search-entry {
+      grid-template-columns: minmax(0, 1fr) auto;
     }
   }
 </style>

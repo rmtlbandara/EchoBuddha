@@ -1,4 +1,6 @@
 ---
+import SearchOverlay from "./SearchOverlay.astro";
+
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/learn/", label: "Learn" },
@@ -20,6 +22,7 @@ const navItems = [
     <nav class="main-nav" aria-label="Main navigation">
       {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
     </nav>
+    <SearchOverlay />
   </div>
 </header>
 
@@ -105,6 +108,17 @@ const navItems = [
 
     .main-nav {
       justify-content: flex-start;
+    }
+  }
+
+  @media (max-width: 920px) and (min-width: 761px) {
+    .header-inner {
+      flex-wrap: wrap;
+    }
+
+    .main-nav {
+      order: 3;
+      width: 100%;
     }
   }
 </style>

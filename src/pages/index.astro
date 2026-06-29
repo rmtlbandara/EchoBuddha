@@ -83,6 +83,13 @@ const jsonLd = [
       <div class="grid grid--3">
         {wisdomCards.map((item) => <LearningCard item={item} />)}
       </div>
+      <div class="search-entry surface">
+        <div>
+          <h3>Looking for a teaching, term, or meditation guide?</h3>
+          <p>Search articles, quotes, Buddhist terms, Dhammapada reflections, and meditation pages.</p>
+        </div>
+        <a class="button button--secondary" href="/search/">Search Echo Buddha</a>
+      </div>
     </div>
   </section>
 
@@ -212,6 +219,23 @@ const jsonLd = [
     font-weight: 800;
   }
 
+  .search-entry {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .search-entry h3 {
+    font-size: 1.35rem;
+  }
+
+  .search-entry p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
   .practice-panel {
     padding: 1.5rem;
   }
@@ -224,6 +248,10 @@ const jsonLd = [
   @media (min-width: 820px) {
     .hero-grid {
       grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.75fr);
+    }
+
+    .search-entry {
+      grid-template-columns: minmax(0, 1fr) auto;
     }
   }
 </style>

@@ -1,0 +1,212 @@
+---
+const popularSearches = ["Mindfulness", "Anicca", "Metta", "Karma", "Meditation", "Four Noble Truths"];
+---
+
+<div class="search-overlay" data-search-overlay data-search-root data-search-mode="overlay" data-open="false">
+  <button
+    class="search-trigger"
+    type="button"
+    data-search-open
+    aria-haspopup="dialog"
+    aria-controls="site-search-panel"
+    aria-expanded="false"
+  >
+    <span>Search</span>
+  </button>
+  <div class="search-backdrop" data-search-backdrop hidden></div>
+  <section
+    id="site-search-panel"
+    class="search-panel surface"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="site-search-heading"
+    hidden
+    data-search-panel
+  >
+    <div class="search-panel__header">
+      <div>
+        <span class="eyebrow">Search Echo Buddha</span>
+        <h2 id="site-search-heading">Find Buddhist Wisdom</h2>
+      </div>
+      <button class="search-close" type="button" data-search-close aria-label="Close search">x</button>
+    </div>
+    <form class="search-form" data-search-form action="/search/" method="get" role="search">
+      <label class="visually-hidden" for="header-search-input">Search Buddhist wisdom</label>
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        data-search-input
+        autocomplete="off"
+        placeholder="Search Buddhist wisdom, meditation, quotes, and teachings..."
+      />
+      <button type="submit">Search</button>
+    </form>
+    <div class="search-state" data-search-empty>
+      <p>Search for a Buddhist teaching, meditation practice, quote, or term.</p>
+      <div class="popular-searches" aria-label="Popular searches">
+        {popularSearches.map((term) => <button type="button" data-popular-search={term}>{term}</button>)}
+      </div>
+    </div>
+    <p class="search-state" data-search-no-results hidden>
+      No results found. Try mindfulness, metta, karma, meditation, or compassion.
+    </p>
+    <ol class="search-results" data-search-results aria-label="Search results"></ol>
+    <a class="full-search-link" href="/search/">Open full search page</a>
+  </section>
+</div>
+
+<style>
+  .search-trigger {
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    color: var(--color-muted);
+    cursor: pointer;
+    display: inline-flex;
+    font: inherit;
+    font-size: 0.93rem;
+    font-weight: 800;
+    gap: 0.35rem;
+    min-height: 2.35rem;
+    padding: 0.35rem 0.55rem;
+  }
+
+  .search-trigger:hover {
+    border-color: var(--color-green);
+    color: var(--color-green);
+  }
+
+  .search-backdrop {
+    background: rgba(38, 35, 31, 0.34);
+    inset: 0;
+    position: fixed;
+    z-index: 30;
+  }
+
+  .search-panel {
+    inset: 5.5rem 1rem auto;
+    margin-inline: auto;
+    max-height: calc(100vh - 7rem);
+    max-width: 720px;
+    overflow: auto;
+    padding: 1.25rem;
+    position: fixed;
+    width: min(100% - 2rem, 720px);
+    z-index: 31;
+  }
+
+  .search-panel__header {
+    align-items: start;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .search-panel h2 {
+    font-size: clamp(1.7rem, 4vw, 2.25rem);
+  }
+
+  .search-close {
+    align-items: center;
+    background: var(--color-green-soft);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    color: var(--color-green);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.35rem;
+    font-weight: 800;
+    height: 2.25rem;
+    justify-content: center;
+    line-height: 1;
+    width: 2.25rem;
+  }
+
+  .search-close:hover {
+    border-color: var(--color-green);
+  }
+
+  .search-form {
+    display: grid;
+    gap: 0.65rem;
+    margin: 0.75rem 0 1rem;
+  }
+
+  .search-form input {
+    background: #fffdf8;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    color: var(--color-ink);
+    font: inherit;
+    min-height: 3rem;
+    padding: 0.75rem 0.9rem;
+    width: 100%;
+  }
+
+  .search-form button {
+    background: var(--color-brown);
+    border: 1px solid var(--color-brown);
+    border-radius: var(--radius);
+    color: #fffaf1;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 800;
+    min-height: 2.75rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .search-form button:hover {
+    background: var(--color-green);
+    border-color: var(--color-green);
+  }
+
+  .search-state {
+    color: var(--color-muted);
+  }
+
+  .popular-searches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.85rem;
+  }
+
+  .popular-searches button,
+  .full-search-link {
+    background: var(--color-green-soft);
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    color: var(--color-green);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 0.45rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .popular-searches button:hover,
+  .full-search-link:hover {
+    border-color: var(--color-green);
+  }
+
+  .search-results {
+    display: grid;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .full-search-link {
+    display: inline-flex;
+  }
+
+  @media (min-width: 620px) {
+    .search-form {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+  }
+</style>
