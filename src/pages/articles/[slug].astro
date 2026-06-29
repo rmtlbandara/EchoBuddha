@@ -95,6 +95,16 @@ const practiceToday =
         : article.category === "Reflection"
           ? "Notice one place where clinging tightens the body, then soften one breath around it."
           : "Ask what action would reduce harm in one situation you meet today.";
+const reflectionQuestion =
+  article.category === "Meditation"
+    ? "What did this practice help you notice about the mind or body today?"
+    : article.category === "Mindfulness"
+      ? "Where did awareness create even a small pause before habit took over?"
+      : article.category === "Practice"
+        ? "Which ordinary action could become part of your Buddhist practice this week?"
+        : article.category === "Reflection"
+          ? "What are you holding tightly that may be asking for a softer relationship?"
+          : "What would a wiser, less harmful response look like in one real situation?";
 const needsWellbeingNote = [
   "how-to-meditate-for-anxiety",
   "mindfulness-for-better-sleep",
@@ -255,6 +265,11 @@ const jsonLd = [
         <aside class="practice-today surface" aria-labelledby="practice-today-heading">
           <h2 id="practice-today-heading">Practice Today</h2>
           <p>{practiceToday}</p>
+        </aside>
+
+        <aside class="reflection-question surface" aria-labelledby="reflection-question-heading">
+          <h2 id="reflection-question-heading">Reflection Question</h2>
+          <p>{reflectionQuestion}</p>
         </aside>
 
         {relatedBuddhistTerms.length > 0 && (
@@ -679,12 +694,14 @@ const jsonLd = [
     }
   }
 
-  .practice-today {
+  .practice-today,
+  .reflection-question {
     margin: 2rem 0;
     padding: 1.25rem 1.5rem;
   }
 
-  .practice-today h2 {
+  .practice-today h2,
+  .reflection-question h2 {
     font-size: 1.45rem;
     margin-top: 0;
   }

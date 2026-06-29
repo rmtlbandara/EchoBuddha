@@ -12,7 +12,11 @@ const description = "Read original Buddhist-inspired quotes, meditation guidance
 const featuredQuotes = quotes.slice(0, 6);
 const latestArticles = fullArticles.slice(0, 6);
 const wisdomCards = [
-  { label: "Learn", href: "/learn/", description: "Open the Echo Buddha Buddhist wisdom learning library." },
+  {
+    label: "Learn Buddhist Wisdom",
+    href: "/learn/",
+    description: "Start a calm learning path through Buddhist teachings, reflection, and daily practice."
+  },
   learnHubCards.find((item) => item.href === "/learn/buddhist-dictionary/"),
   learnHubCards.find((item) => item.href === "/learn/dhammapada-reflections/"),
   learnHubCards.find((item) => item.href === "/meditation/"),
@@ -74,8 +78,8 @@ const jsonLd = [
 
   <section class="section">
     <div class="container">
-      <span class="eyebrow">Explore Buddhist wisdom</span>
-      <h2>Learning Paths for Daily Practice</h2>
+      <span class="eyebrow">Learning paths</span>
+      <h2>Explore Buddhist Wisdom</h2>
       <div class="grid grid--3">
         {wisdomCards.map((item) => <LearningCard item={item} />)}
       </div>

@@ -14,6 +14,48 @@ export function getStaticPaths() {
 
 const { section } = Astro.props;
 const canonicalPath = section.href;
+const sectionGuidance = {
+  "buddhism-101": {
+    title: "How to use Buddhism 101",
+    text:
+      "Read these lessons slowly rather than as a checklist. Each page explains one foundation, gives a daily-life example, and points toward a related practice, article, or Buddhist term.",
+    links: [
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" },
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+      { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" }
+    ]
+  },
+  "buddhist-dictionary": {
+    title: "More than short definitions",
+    text:
+      "This dictionary explains Buddhist terms through practice, daily examples, and related teachings. Use it when an article, quote, or meditation guide mentions a word you want to understand more deeply.",
+    links: [
+      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
+      { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
+      { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" }
+    ]
+  },
+  "dhammapada-reflections": {
+    title: "Read as reflection, not quotation collecting",
+    text:
+      "These pages use original, public-domain-safe paraphrase and practical reflection. They are meant to help a theme become speech, patience, attention, or kindness in daily life.",
+    links: [
+      { label: "Practice Quotes", href: "/quotes/practice/" },
+      { label: "Right Speech", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
+      { label: "Daily Buddhist Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" }
+    ]
+  },
+  "sutta-for-daily-life": {
+    title: "Traditional themes in plain English",
+    text:
+      "These pages introduce selected sutta themes through simple background, practical examples, and gentle reflection. They do not replace formal study with teachers or full translations.",
+    links: [
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
+      { label: "Metta", href: "/learn/buddhist-dictionary/metta/" },
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" }
+    ]
+  }
+}[section.slug];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -48,6 +90,18 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
+      {sectionGuidance && (
+        <div class="surface guidance-card">
+          <div>
+            <span class="eyebrow">Learning guide</span>
+            <h2>{sectionGuidance.title}</h2>
+            <p>{sectionGuidance.text}</p>
+          </div>
+          <div class="guidance-links">
+            {sectionGuidance.links.map((link) => <a href={link.href}>{link.label}</a>)}
+          </div>
+        </div>
+      )}
       <div class="grid grid--3">
         {section.items.map((item) => (
           <LearningCard
@@ -70,5 +124,41 @@ const jsonLd = [
     font-size: 0.9rem;
     font-weight: 800;
     margin-bottom: 1rem;
+  }
+
+  .guidance-card {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .guidance-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .guidance-card p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  .guidance-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .guidance-links a {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 0.3rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .guidance-links a:hover {
+    color: var(--color-brown);
   }
 </style>

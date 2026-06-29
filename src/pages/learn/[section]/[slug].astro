@@ -6,7 +6,9 @@ import {
   getAllLearningPages,
   getBreadcrumbJsonLd,
   getLearningBreadcrumbs,
+  getLearningQualityNote,
   getLearningSection,
+  getTermLinks,
   type LearningPage
 } from "../../../data/learn";
 import { SITE } from "../../../data/site";
@@ -23,6 +25,8 @@ const section = getLearningSection(page.section);
 const canonicalPath = `/learn/${page.section}/${page.slug}/`;
 const breadcrumbs = getLearningBreadcrumbs(page);
 const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: item.description ?? "" }));
+const qualityNote = getLearningQualityNote(page);
+const termLinks = getTermLinks(page.terms);
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -78,6 +82,13 @@ const jsonLd = [
           <p>{page.takeaway}</p>
         </aside>
 
+        {qualityNote && (
+          <section class="learning-note" aria-labelledby="why-this-matters-heading">
+            <h2 id="why-this-matters-heading">Why This Matters</h2>
+            <p>{qualityNote.why}</p>
+          </section>
+        )}
+
         {page.sections.map((section, index) => (
           <>
             <h2>{section.heading}</h2>
@@ -86,10 +97,24 @@ const jsonLd = [
           </>
         ))}
 
+        {qualityNote && (
+          <aside class="surface clarification-box">
+            <h2>A Helpful Clarification</h2>
+            <p>{qualityNote.clarification}</p>
+          </aside>
+        )}
+
         {page.practice && (
           <aside class="surface practice-box">
             <h2>Practice Today</h2>
             <p>{page.practice}</p>
+          </aside>
+        )}
+
+        {qualityNote && (
+          <aside class="surface reflection-box">
+            <h2>Reflection Question</h2>
+            <p>{qualityNote.question}</p>
           </aside>
         )}
 
@@ -102,11 +127,13 @@ const jsonLd = [
       </div>
 
       <aside>
-        {page.terms && page.terms.length > 0 && (
+        {termLinks.length > 0 && (
           <div class="surface side-card">
             <span class="eyebrow">Related terms</span>
             <ul>
-              {page.terms.map((term) => <li>{term}</li>)}
+              {termLinks.map((term) => (
+                <li>{term.href ? <a href={term.href}>{term.label}</a> : <span>{term.label}</span>}</li>
+              ))}
             </ul>
           </div>
         )}
@@ -143,15 +170,30 @@ const jsonLd = [
 
   .key-box,
   .practice-box,
+  .clarification-box,
+  .reflection-box,
   .side-card {
     padding: 1.25rem;
   }
 
   .key-box h2,
   .practice-box h2,
+  .clarification-box h2,
+  .reflection-box h2,
   .side-card h2 {
     font-size: 1.35rem;
     margin-top: 0;
+  }
+
+  .clarification-box,
+  .reflection-box {
+    margin: 2rem 0;
+  }
+
+  .learning-note {
+    border-bottom: 1px solid var(--color-line);
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
   }
 
   .side-card {
@@ -167,13 +209,20 @@ const jsonLd = [
     padding: 0;
   }
 
-  .side-card li {
+  .side-card li a,
+  .side-card li span {
     background: var(--color-green-soft);
     border-radius: 999px;
     color: var(--color-green);
+    display: inline-flex;
     font-size: 0.84rem;
     font-weight: 800;
     padding: 0.25rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .side-card li a:hover {
+    color: var(--color-brown);
   }
 
   .section-band {

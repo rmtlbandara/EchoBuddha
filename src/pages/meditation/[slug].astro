@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import { SITE } from "../../data/site";
-import { allMeditationPages, getBreadcrumbJsonLd, type LearningPage } from "../../data/learn";
+import { allMeditationPages, getBreadcrumbJsonLd, getLearningQualityNote, getTermLinks, type LearningPage } from "../../data/learn";
 
 export function getStaticPaths() {
   return allMeditationPages.map((page) => ({
@@ -14,6 +14,8 @@ export function getStaticPaths() {
 
 const { page } = Astro.props as { page: LearningPage };
 const canonicalPath = `/meditation/${page.slug}/`;
+const qualityNote = getLearningQualityNote(page);
+const termLinks = getTermLinks(page.terms);
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -58,6 +60,12 @@ const jsonLd = [
           <h2>Key Takeaway</h2>
           <p>{page.takeaway}</p>
         </aside>
+        {qualityNote && (
+          <section class="learning-note" aria-labelledby="why-this-meditation-matters-heading">
+            <h2 id="why-this-meditation-matters-heading">Why This Matters</h2>
+            <p>{qualityNote.why}</p>
+          </section>
+        )}
         {page.sections.map((section, index) => (
           <>
             <h2>{section.heading}</h2>
@@ -65,10 +73,22 @@ const jsonLd = [
             {index === 1 && <AdSlot />}
           </>
         ))}
+        {qualityNote && (
+          <aside class="surface key-box">
+            <h2>A Helpful Clarification</h2>
+            <p>{qualityNote.clarification}</p>
+          </aside>
+        )}
         {page.practice && (
           <aside class="surface key-box">
             <h2>Practice Today</h2>
             <p>{page.practice}</p>
+          </aside>
+        )}
+        {qualityNote && (
+          <aside class="surface key-box">
+            <h2>Reflection Question</h2>
+            <p>{qualityNote.question}</p>
           </aside>
         )}
         {page.sourceNote && (
@@ -79,6 +99,16 @@ const jsonLd = [
         )}
       </div>
       <aside>
+        {termLinks.length > 0 && (
+          <div class="surface side-card">
+            <span class="eyebrow">Related terms</span>
+            <ul>
+              {termLinks.map((term) => (
+                <li>{term.href ? <a href={term.href}>{term.label}</a> : <span>{term.label}</span>}</li>
+              ))}
+            </ul>
+          </div>
+        )}
         <AdSlot size="box" />
       </aside>
     </div>
@@ -111,6 +141,42 @@ const jsonLd = [
   .key-box h2 {
     font-size: 1.35rem;
     margin-top: 0;
+  }
+
+  .learning-note {
+    border-bottom: 1px solid var(--color-line);
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .side-card {
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+  }
+
+  .side-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .side-card li a,
+  .side-card li span {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    display: inline-flex;
+    font-size: 0.84rem;
+    font-weight: 800;
+    padding: 0.25rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .side-card li a:hover {
+    color: var(--color-brown);
   }
 
   .section-band {

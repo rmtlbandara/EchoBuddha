@@ -25,6 +25,17 @@ export type LearningPage = {
   terms?: string[];
 };
 
+export type LearningQualityNote = {
+  why: string;
+  clarification: string;
+  question: string;
+};
+
+export type TermLink = {
+  label: string;
+  href?: string;
+};
+
 export type LearningSection = {
   slug: string;
   title: string;
@@ -38,6 +49,275 @@ export type LearningSection = {
 
 const commonSourceNote =
   "Echo Buddha writes original, beginner-friendly explanations for general education and reflection. Readers who want formal study are encouraged to learn with qualified teachers and reputable translations.";
+
+const learningQualityNotes: Record<string, LearningQualityNote> = {
+  "buddhism-101/who-was-the-buddha": {
+    why:
+      "Beginning with the Buddha as a human teacher keeps Buddhist study grounded. The path becomes less about distant perfection and more about honest observation, careful conduct, and the possibility of awakening in ordinary life.",
+    clarification:
+      "A common misunderstanding is that honoring the Buddha means treating him as a creator god. Most Buddhist traditions honor him as the awakened teacher who discovered and taught a path that can be examined through practice.",
+    question: "Where in your life would clearer seeing be more helpful than another quick opinion?"
+  },
+  "buddhism-101/what-is-buddhism": {
+    why:
+      "Understanding Buddhism as a path of practice helps beginners avoid reducing it to either belief alone or relaxation alone. Wisdom, ethics, meditation, and compassion support one another.",
+    clarification:
+      "Buddhism is not simply positive thinking. It begins with a realistic look at suffering, change, craving, and habit so that kindness and freedom can become more than ideas.",
+    question: "Which part of practice feels most needed today: wiser seeing, kinder speech, or steadier attention?"
+  },
+  "buddhism-101/the-three-jewels-explained": {
+    why:
+      "The Three Jewels give beginners a stable orientation: the Buddha as example, the Dhamma as teaching, and the Sangha as support. This keeps practice from becoming isolated or vague.",
+    clarification:
+      "Taking refuge does not mean hiding from life. It means choosing reliable guidance when confusion, fear, pride, or loneliness would otherwise lead the mind.",
+    question: "What kind of refuge do you need most right now: inspiration, teaching, or wise companionship?"
+  },
+  "buddhism-101/the-four-noble-truths-explained": {
+    why:
+      "The Four Noble Truths matter because they turn pain into something workable. Instead of blaming ourselves for suffering, we learn to see causes, conditions, and possible release.",
+    clarification:
+      "This teaching is not pessimistic. It is compassionate realism: what is understood clearly can be met more wisely than what is denied.",
+    question: "What part of a current difficulty is unavoidable pain, and what part is added by clinging or resistance?"
+  },
+  "buddhism-101/the-noble-eightfold-path-explained": {
+    why:
+      "The Eightfold Path matters because it brings Buddhist wisdom into speech, work, relationships, attention, and effort. It prevents practice from remaining only a beautiful idea.",
+    clarification:
+      "The word right is best understood as wise, skillful, or leading away from harm. It is not a weapon for judging yourself or others harshly.",
+    question: "Which path factor could guide one real choice before the day ends?"
+  },
+  "buddhism-101/what-is-karma-in-buddhism": {
+    why:
+      "Karma matters because intention quietly shapes the direction of a life. Small repeated choices become habits, and habits influence how we meet joy, stress, conflict, and loss.",
+    clarification:
+      "Karma should not be used to blame people for illness, poverty, grief, or misfortune. Buddhist practice uses karma mainly as a teaching on responsibility for present intention and action.",
+    question: "What intention is behind one action you are about to take?"
+  },
+  "buddhism-101/what-is-impermanence": {
+    why:
+      "Impermanence matters because much suffering comes from asking changing life to behave as if it were fixed. Seeing change clearly can make love, gratitude, and patience more honest.",
+    clarification:
+      "Impermanence does not mean nothing matters. It means what matters should be met with presence, because it cannot be possessed forever.",
+    question: "What are you trying to hold still that life is already changing?"
+  },
+  "buddhism-101/what-is-mindfulness": {
+    why:
+      "Mindfulness matters because it creates a pause between impulse and action. In that pause, wisdom has room to enter speech, work, family life, and meditation.",
+    clarification:
+      "Mindfulness is not the demand to feel calm all the time. It is honest awareness of what is happening, including restlessness, sadness, joy, or confusion.",
+    question: "What would change if you noticed the body before answering one difficult message?"
+  },
+  "buddhism-101/how-to-practice-buddhism-at-home": {
+    why:
+      "Home practice matters because the path is tested in ordinary rooms: the kitchen, the phone call, the commute, the apology, and the evening reflection.",
+    clarification:
+      "Practicing at home does not require making your life look special. Consistency, sincerity, and reduced harm are more important than display.",
+    question: "What small practice could fit naturally into your real morning or evening?"
+  },
+  "buddhism-101/a-simple-daily-buddhist-practice": {
+    why:
+      "A simple daily practice matters because transformation usually grows through repetition. One steady breath, one careful sentence, and one honest review can shape the mind over time.",
+    clarification:
+      "Daily practice is not a performance of purity. Missing a day is not failure; beginning again without shame is also practice.",
+    question: "What is one repeatable practice you can keep even on an ordinary busy day?"
+  },
+  "buddhist-dictionary/anicca": {
+    why:
+      "Anicca matters because impermanence is not hidden in monasteries; it is visible in emotions, relationships, work, aging, success, disappointment, and every meditation session.",
+    clarification:
+      "Seeing impermanence is not cold detachment. It can make care warmer because we stop assuming that people, moods, and opportunities will always be available.",
+    question: "What changed recently that you are still treating as if it should be unchanged?"
+  },
+  "buddhist-dictionary/dukkha": {
+    why:
+      "Dukkha matters because it names both obvious pain and the quieter unease of wanting life to satisfy every expectation. Naming it clearly is the first kindness of practice.",
+    clarification:
+      "Dukkha does not say life is only suffering. It says clinging to changing conditions cannot provide lasting security.",
+    question: "Where is expectation adding extra weight to an already difficult moment?"
+  },
+  "buddhist-dictionary/anatta": {
+    why:
+      "Anatta matters because rigid identity can become a prison. Seeing the self as changing and conditioned softens shame, pride, resentment, and the belief that old patterns are permanent.",
+    clarification:
+      "Non-self does not mean you are nothing or that your actions do not matter. It points to the absence of a fixed, independent self that can be possessed.",
+    question: "What story about yourself feels solid but may actually be changing?"
+  },
+  "buddhist-dictionary/metta": {
+    why:
+      "Metta matters because goodwill can be trained in the very places where irritation, self-criticism, and social division usually grow. It changes the tone of speech and the direction of attention.",
+    clarification:
+      "Loving-kindness is not people-pleasing. It can be warm, truthful, and boundaried at the same time.",
+    question: "Who could receive a quieter, cleaner form of goodwill from you today?"
+  },
+  "buddhist-dictionary/karuna": {
+    why:
+      "Karuna matters because suffering is everywhere, but the heart can learn to respond without collapsing, judging, or turning away. Compassion joins tenderness with wise action.",
+    clarification:
+      "Compassion is not pity and not approval of harm. It sees pain clearly while still allowing truth, protection, and boundaries.",
+    question: "What would wise compassion look like here, not merely soft feeling?"
+  },
+  "buddhist-dictionary/sati": {
+    why:
+      "Sati matters because remembering awareness interrupts automatic habit. It helps you notice intention before speech and sensation before reaction.",
+    clarification:
+      "Mindfulness is not passive watching. In Buddhist practice it supports ethical choices, wise effort, and insight.",
+    question: "What daily cue could remind you to return to the body and breath?"
+  },
+  "buddhist-dictionary/karma": {
+    why:
+      "Karma matters because it makes practice concrete. Each intention leaves some trace in speech, behavior, relationship, and habit.",
+    clarification:
+      "Karma is not a simple reward-and-punishment story. Many causes shape life, so the teaching should be used carefully and compassionately.",
+    question: "What repeated intention are you strengthening without noticing?"
+  },
+  "buddhist-dictionary/dhamma": {
+    why:
+      "Dhamma matters because it points to teaching that can be lived, not merely admired. It asks whether a view, word, or action leads toward less greed, hatred, and confusion.",
+    clarification:
+      "The Dhamma is not only information about Buddhism. It is guidance to be examined in experience and embodied through practice.",
+    question: "What teaching do you already understand but need to practice more honestly?"
+  },
+  "buddhist-dictionary/sangha": {
+    why:
+      "Sangha matters because sincere practice is easier with support. Teachers, communities, and wise friends help us remember the path when habit becomes persuasive.",
+    clarification:
+      "Community does not need to be perfect to be helpful. Still, healthy Sangha should support humility, safety, kindness, and clear practice.",
+    question: "Who or what helps you return to wisdom when you forget?"
+  },
+  "buddhist-dictionary/nirvana": {
+    why:
+      "Nirvana matters because it points beyond temporary comfort toward the cooling of greed, hatred, and delusion. Even small moments of release can hint at this direction.",
+    clarification:
+      "Nirvana is not the same as a pleasant mood. It is traditionally understood as liberation from the fires that keep suffering burning.",
+    question: "What small fire of grasping could you stop feeding for one moment?"
+  },
+  "buddhist-dictionary/mindfulness": {
+    why:
+      "Mindfulness matters because attention shapes the life we actually experience. What we notice, ignore, repeat, and feed becomes the ground of speech and action.",
+    clarification:
+      "Mindfulness is not a productivity trick. In Buddhist practice, it is connected to ethics, compassion, concentration, and insight.",
+    question: "What is happening now that you have been moving too quickly to notice?"
+  },
+  "buddhist-dictionary/compassion": {
+    why:
+      "Compassion matters because Buddhist practice is not only inner calm. It asks the heart to meet suffering in oneself and others with wise, non-harming care.",
+    clarification:
+      "Compassion does not remove the need for boundaries. Sometimes the most compassionate action is honest, firm, and protective.",
+    question: "Where could compassion include both kindness and clarity?"
+  },
+  "dhammapada-reflections/avoid-evil-do-good-purify-the-mind": {
+    why:
+      "This theme matters because it gathers the path into a memorable training: reduce harm, cultivate what is wholesome, and understand the mind that creates both.",
+    clarification:
+      "Avoiding harm is not only about dramatic wrongdoing. It includes small habits of speech, thought, and neglect that quietly shape the heart.",
+    question: "Which one harmful habit, wholesome action, and mind state can you notice today?"
+  },
+  "dhammapada-reflections/the-mind-leads-all-things": {
+    why:
+      "This theme matters because speech and action rarely begin at the mouth or hand. They begin as intention, mood, interpretation, and attention.",
+    clarification:
+      "Saying the mind leads does not mean every hardship is imagined. It means the quality of mind strongly shapes how hardship is met.",
+    question: "What mind is leading your next sentence?"
+  },
+  "dhammapada-reflections/hatred-is-not-ended-by-hatred": {
+    why:
+      "This theme matters because hostility often feels powerful while secretly extending the wound. Non-hatred interrupts the chain without pretending harm is acceptable.",
+    clarification:
+      "Non-hatred is not passivity. It can include boundaries, justice, distance, and truth spoken without revenge.",
+    question: "What boundary would protect peace without feeding hatred?"
+  },
+  "dhammapada-reflections/better-than-a-thousand-empty-words": {
+    why:
+      "This theme matters because words can either clarify suffering or multiply it. A small amount of truthful, timely speech can protect more peace than a flood of reaction.",
+    clarification:
+      "Buddhist speech practice does not mean becoming silent out of fear. It means learning when speech is true, useful, kind, and well-timed.",
+    question: "Where would fewer, truer words serve better than more explanation?"
+  },
+  "dhammapada-reflections/peace-comes-from-a-trained-mind": {
+    why:
+      "This theme matters because peace is not only found; it is cultivated. The mind is trained by whatever it repeats, so practice gives repetition a wiser direction.",
+    clarification:
+      "Training the mind is not forcing it into silence. It is learning to return, observe, soften, and choose with patience.",
+    question: "What has your mind been practicing repeatedly, and is it worth continuing?"
+  },
+  "sutta-for-daily-life/metta-sutta-explained-for-daily-life": {
+    why:
+      "The Metta Sutta matters because goodwill becomes a complete way of living: humble, content, ethical, inclusive, and free from the wish to harm.",
+    clarification:
+      "Metta is not pretending everyone is easy to like. It is the deeper intention not to add hatred to the world.",
+    question: "How could goodwill shape one difficult interaction without erasing your boundary?"
+  },
+  "sutta-for-daily-life/kalama-sutta-and-wise-thinking": {
+    why:
+      "This teaching matters because modern readers meet many claims, teachers, trends, and opinions. Wise inquiry protects both faith and intelligence.",
+    clarification:
+      "Questioning is not cynicism. The Kalama Sutta theme points toward careful testing of what leads to harm or freedom from harm.",
+    question: "What advice have you accepted recently, and what qualities does it strengthen?"
+  },
+  "sutta-for-daily-life/right-speech-in-daily-life": {
+    why:
+      "Right speech matters because words are daily karma. They can heal, confuse, divide, protect, apologize, encourage, or wound.",
+    clarification:
+      "Right speech is not always soft speech. Sometimes truth needs firmness, but firmness does not require cruelty.",
+    question: "Before one conversation, can you check truth, usefulness, kindness, and timing?"
+  },
+  "sutta-for-daily-life/mindfulness-of-breathing-explained-simply": {
+    why:
+      "Mindfulness of breathing matters because the breath is always near enough to become a simple training ground for attention, patience, and clear seeing.",
+    clarification:
+      "The practice is not about controlling the breath into calmness. It is about knowing the breath and returning when the mind wanders.",
+    question: "What happens when you let one breath be enough?"
+  },
+  "sutta-for-daily-life/buddhas-teaching-on-patience": {
+    why:
+      "Patience matters because many harmful actions happen in the first hot moment. Patience gives wisdom time to arrive.",
+    clarification:
+      "Patience is not allowing harm to continue. It is the strength to respond from clarity rather than panic, resentment, or pride.",
+    question: "What would patience protect in this situation?"
+  },
+  "meditation/meditation-for-beginners": {
+    why:
+      "Beginner meditation matters because it teaches the most basic movement of practice: noticing wandering and returning without punishment.",
+    clarification:
+      "A busy mind does not mean meditation is failing. Seeing the busyness is already part of the training.",
+    question: "Can you treat one return to the breath as success rather than interruption?"
+  },
+  "meditation/breathing-meditation": {
+    why:
+      "Breathing meditation matters because the breath gives attention a simple, honest anchor that does not require belief, performance, or special conditions.",
+    clarification:
+      "The breath does not need to become deep or peaceful. A natural breath known clearly is enough for practice.",
+    question: "Where do you feel the next breath most clearly?"
+  },
+  "meditation/loving-kindness-meditation": {
+    why:
+      "Loving-kindness meditation matters because the heart can be trained away from harshness and toward goodwill, including toward oneself.",
+    clarification:
+      "Metta phrases are not meant to force emotion. They gently incline intention, even when feeling is quiet or mixed.",
+    question: "What phrase of goodwill feels honest enough to repeat today?"
+  },
+  "meditation/walking-meditation": {
+    why:
+      "Walking meditation matters because practice should not remain only on a cushion. Each step can reconnect attention with the body and the earth.",
+    clarification:
+      "Walking meditation does not need to look unusual. Natural walking with remembered awareness can still be meaningful practice.",
+    question: "Can you feel one complete step without rushing to the next?"
+  },
+  "meditation/mindfulness-in-daily-life": {
+    why:
+      "Daily mindfulness matters because most of life happens between formal meditation sessions. The path becomes real in washing, listening, eating, typing, and waiting.",
+    clarification:
+      "You do not need to be mindful of everything all day. Choose small repeatable cues and let the habit grow gently.",
+    question: "Which ordinary action could become a reminder to wake up?"
+  },
+  "meditation/5-minute-meditation-practice": {
+    why:
+      "A five-minute meditation matters because it removes the excuse that practice must be long to count. Small sincere pauses can change the direction of a day.",
+    clarification:
+      "Short practice is not lesser practice. It is often the practice that actually survives a busy life.",
+    question: "What time of day could hold five honest minutes without strain?"
+  }
+};
 
 export const buddhism101Pages: LearningPage[] = [
   {
@@ -1571,91 +1851,101 @@ export const questionsAboutBuddhism = [
   {
     question: "Is Buddhism a religion or a philosophy?",
     answer:
-      "Buddhism can be lived as a religion, a spiritual path, a philosophy, and a practical training. Different cultures emphasize different aspects, but the heart of practice is understanding suffering and cultivating wisdom, ethics, and meditation.",
+      "Buddhism can be approached as a religion, a spiritual path, a philosophy, an ethical training, and a meditation tradition. In many cultures it includes temples, rituals, devotion, monastic communities, and sacred texts. For other readers, especially beginners, it may first appear as a practical way to understand suffering, cultivate compassion, and live with more awareness. Echo Buddha presents Buddhism respectfully as a living tradition with many expressions, not as a single narrow category. A helpful first step is to study the Buddha's core teachings and notice how they apply to speech, intention, and daily conduct.",
     links: [
       { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
+      { label: "Buddhism 101", href: "/learn/buddhism-101/" },
       { label: "Buddhist Resources", href: "/learn/buddhist-resources/" }
     ]
   },
   {
     question: "Do Buddhists believe in God?",
     answer:
-      "Buddhist traditions vary, but Buddhism does not center on a creator god. Its main concern is awakening from greed, hatred, and delusion through understanding, ethical conduct, and meditation.",
+      "Buddhist traditions vary widely across countries and schools, but Buddhism does not center its path on worship of a creator god. The main concern is awakening from greed, hatred, and delusion through wisdom, ethical conduct, meditation, and compassion. Some Buddhist cultures include devotional practices, celestial beings, rituals, and protective chants, while others emphasize meditation and philosophy. For beginners, the safest summary is this: Buddhism asks less, “Who created the world?” and more, “What causes suffering, and how can the heart become free from harmful patterns?”",
     links: [
       { label: "Who Was the Buddha?", href: "/learn/buddhism-101/who-was-the-buddha/" },
-      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "The Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" }
     ]
   },
   {
     question: "What is the purpose of meditation in Buddhism?",
     answer:
-      "Meditation trains attention, steadies the mind, supports compassion, and helps practitioners see thoughts, feelings, and habits more clearly.",
+      "Meditation in Buddhism trains attention, steadies the mind, supports compassion, and helps practitioners see thoughts, feelings, intentions, and habits more clearly. It is not mainly an escape from life or a technique for forcing calm. A breathing practice may reveal restlessness. Loving-kindness practice may reveal self-criticism. Walking meditation may reveal how often the mind rushes ahead. These discoveries are useful because they make wise response possible. Meditation may support calm and self-awareness, but it is not a replacement for medical or mental health care.",
     links: [
       { label: "Meditation Hub", href: "/meditation/" },
-      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" }
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+      { label: "Sati", href: "/learn/buddhist-dictionary/sati/" }
     ]
   },
   {
     question: "What does Buddhism say about anger?",
     answer:
-      "Buddhist wisdom treats anger as a powerful state to be understood before it becomes harmful speech or action. Anger may signal pain or injustice, but it needs mindfulness and wise boundaries.",
+      "Buddhist wisdom treats anger as a powerful state to be understood before it becomes harmful speech or action. Anger can sometimes point toward pain, fear, violated boundaries, or injustice, so the practice is not to deny it. The practice is to know anger clearly, feel its heat in the body, and avoid letting it turn into cruelty or revenge. Right speech, patience, and compassion help anger become information rather than a master. A wise response may still be firm, protective, or truthful.",
     links: [
       { label: "Anger Article", href: "/articles/buddhist-approach-to-anger/" },
-      { label: "Right Speech", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" }
+      { label: "Right Speech", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
+      { label: "Patience Teaching", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" }
     ]
   },
   {
     question: "What is the Buddhist view of suffering?",
     answer:
-      "Buddhism begins by honestly recognizing suffering, stress, and dissatisfaction. This honesty is not pessimism; it is the start of understanding causes and practicing a wiser path.",
+      "Buddhism begins by honestly recognizing suffering, stress, and dissatisfaction. This includes obvious pain such as grief, sickness, aging, and loss, but also subtler unease: wanting praise to last, fearing change, clinging to identity, or expecting life to satisfy every demand. This honesty is not pessimism. It is the start of understanding causes. When craving and clinging are seen more clearly, the mind can practice a wiser path through ethics, meditation, insight, and compassion.",
     links: [
       { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
-      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" }
+      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Impermanence", href: "/learn/buddhist-dictionary/anicca/" }
     ]
   },
   {
     question: "What does it mean to take refuge?",
     answer:
-      "Taking refuge means turning toward the Buddha, Dhamma, and Sangha for guidance. It is a commitment to awakening, teaching, and supportive practice.",
+      "Taking refuge means turning toward the Buddha, Dhamma, and Sangha for guidance. The Buddha represents awakening and the possibility of clear seeing. The Dhamma is the teaching and practice. The Sangha is the community of those who preserve, practice, and support the path. Refuge is not hiding from life; it is choosing reliable guidance when the mind is pulled by fear, pride, anger, or confusion. In daily life, refuge may look like pausing before harmful speech, reading a teaching, meditating, or asking wise companions for support.",
     links: [
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
-      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" }
+      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" },
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
     ]
   },
   {
     question: "Can anyone practice Buddhist mindfulness?",
     answer:
-      "Anyone can explore mindfulness respectfully. Formal Buddhist practice may include specific traditions and teachers, but basic mindful awareness can be practiced in ordinary daily life.",
+      "Anyone can explore mindfulness respectfully, especially simple awareness of breathing, body, speech, and intention. Formal Buddhist practice may include particular traditions, teachers, ethics, chanting, and study, so it is good to approach the roots of mindfulness with humility. Basic mindful awareness can still be practiced in ordinary life: noticing the body before replying, feeling the breath while waiting, or listening without preparing an argument. In Buddhism, mindfulness is connected with wisdom and ethical care, not only stress reduction.",
     links: [
       { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
-      { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" }
+      { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
+      { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" }
     ]
   },
   {
     question: "What is attachment in Buddhism?",
     answer:
-      "Attachment is the grasping that tries to make changing life secure by force. Buddhism does not ask us to stop caring; it invites us to care without clinging.",
+      "Attachment is grasping: the mind's attempt to make changing life secure by force. It can appear around people, possessions, opinions, plans, success, identity, or even spiritual experiences. Buddhism does not ask us to stop caring. It invites us to care without clinging. A parent can love a child deeply while still accepting that the child changes. A worker can do excellent work without making self-worth depend on praise. Non-attachment is not coldness; it is love and effort with a more open hand.",
     links: [
       { label: "Attachment Article", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
-      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }
+      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
+      { label: "Letting Go Quotes", href: "/quotes/letting-go/" }
     ]
   },
   {
     question: "What is compassion in Buddhism?",
     answer:
-      "Compassion is wise care for suffering. It includes kindness, understanding, and action, while still allowing boundaries and truth.",
+      "Compassion in Buddhism is wise care for suffering. It is not pity from a distance and not the need to rescue everyone. Compassion sees pain clearly and asks what response reduces harm. Sometimes that response is listening, sometimes practical help, sometimes apology, and sometimes a firm boundary. Compassion also includes oneself; harsh self-judgment rarely creates wisdom. Buddhist compassion works best with mindfulness, because clear seeing helps kindness become skillful rather than overwhelmed.",
     links: [
       { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
-      { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" }
+      { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" },
+      { label: "Karuna", href: "/learn/buddhist-dictionary/karuna/" }
     ]
   },
   {
     question: "How can I practice Buddhism at home?",
     answer:
-      "Begin with small repeatable practices: five minutes of breathing, careful speech, one kind action, and evening reflection. Practice grows through consistency rather than display.",
+      "Begin with small repeatable practices: five minutes of breathing, one careful conversation, one kind action, and a short evening reflection. You can read a beginner lesson, choose a quote for the day, practice right speech during one difficult moment, or offer loving-kindness before sleep. Home practice does not need to look impressive. It becomes meaningful when it reduces harm and increases honesty, patience, and compassion. If possible, learn from reputable teachers or communities when questions deepen.",
     links: [
       { label: "Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" },
-      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" }
+      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+      { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" }
     ]
   }
 ];
@@ -1860,6 +2150,21 @@ export function getLearningPage(section: string, slug: string) {
 
 export function getAllLearningPages() {
   return learningSections.flatMap((section) => section.items);
+}
+
+export function getLearningQualityNote(page: LearningPage) {
+  return learningQualityNotes[`${page.section}/${page.slug}`];
+}
+
+export function getTermLinks(terms: string[] = []): TermLink[] {
+  return terms.map((term) => {
+    const dictionaryPage = dictionaryPages.find((page) => page.title.toLowerCase() === term.toLowerCase());
+
+    return {
+      label: term,
+      href: dictionaryPage ? `/learn/buddhist-dictionary/${dictionaryPage.slug}/` : undefined
+    };
+  });
 }
 
 export function getLearningBreadcrumbs(page: LearningPage) {
