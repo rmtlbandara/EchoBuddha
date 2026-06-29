@@ -58,6 +58,43 @@ const relatedArticles = selectedRelatedArticles.length > 0
 const relatedQuoteTheme = getQuoteThemeForArticleCategory(article.category);
 const relatedQuoteCategory = getQuoteCategory(relatedQuoteTheme);
 const relatedQuotes = quotes.filter((quote) => quote.theme === relatedQuoteTheme).slice(0, 3);
+const relatedBuddhistTerms = {
+  "Buddhist Wisdom": [
+    { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+    { label: "Karma", href: "/learn/buddhist-dictionary/karma/" },
+    { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" }
+  ],
+  Meditation: [
+    { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+    { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" },
+    { label: "Metta", href: "/learn/buddhist-dictionary/metta/" }
+  ],
+  Mindfulness: [
+    { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+    { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" },
+    { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }
+  ],
+  Reflection: [
+    { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
+    { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
+    { label: "Anatta", href: "/learn/buddhist-dictionary/anatta/" }
+  ],
+  Practice: [
+    { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+    { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+    { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
+  ]
+}[article.category] ?? [];
+const practiceToday =
+  article.category === "Meditation"
+    ? "Pause for three natural breaths and return gently whenever attention wanders."
+    : article.category === "Mindfulness"
+      ? "Choose one ordinary task and give it your full attention for one minute."
+      : article.category === "Practice"
+        ? "Before one reply today, check whether your words are true, kind, useful, and timely."
+        : article.category === "Reflection"
+          ? "Notice one place where clinging tightens the body, then soften one breath around it."
+          : "Ask what action would reduce harm in one situation you meet today.";
 const needsWellbeingNote = [
   "how-to-meditate-for-anxiety",
   "mindfulness-for-better-sleep",
@@ -215,6 +252,20 @@ const jsonLd = [
           </aside>
         )}
 
+        <aside class="practice-today surface" aria-labelledby="practice-today-heading">
+          <h2 id="practice-today-heading">Practice Today</h2>
+          <p>{practiceToday}</p>
+        </aside>
+
+        {relatedBuddhistTerms.length > 0 && (
+          <section class="related-terms" aria-labelledby="related-terms-heading">
+            <h2 id="related-terms-heading">Related Buddhist Terms</h2>
+            <div>
+              {relatedBuddhistTerms.map((term) => <a href={term.href}>{term.label}</a>)}
+            </div>
+          </section>
+        )}
+
         <section class="article-faq" aria-labelledby="article-faq-heading">
           <h2 id="article-faq-heading">Frequently Asked Questions</h2>
           <div class="faq-list">
@@ -225,6 +276,14 @@ const jsonLd = [
               </details>
             ))}
           </div>
+        </section>
+
+        <section class="source-note" aria-labelledby="source-note-heading">
+          <h2 id="source-note-heading">Further Reading / Source Note</h2>
+          <p>
+            Echo Buddha articles are original educational reflections written for general readers. For deeper formal
+            study, compare reputable Buddhist translations, teachers, and practice communities.
+          </p>
         </section>
       </div>
       <aside>
@@ -618,6 +677,42 @@ const jsonLd = [
     :global(.visual-table dl > div) {
       grid-template-columns: 1fr;
     }
+  }
+
+  .practice-today {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .practice-today h2 {
+    font-size: 1.45rem;
+    margin-top: 0;
+  }
+
+  .related-terms {
+    border-top: 1px solid var(--color-line);
+    margin-top: 3rem;
+    padding-top: 0.25rem;
+  }
+
+  .related-terms div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .related-terms a {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 0.3rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .related-terms a:hover {
+    color: var(--color-brown);
   }
 
   .article-faq {

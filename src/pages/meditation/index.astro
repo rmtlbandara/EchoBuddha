@@ -1,0 +1,73 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import AdSlot from "../../components/AdSlot.astro";
+import { SITE } from "../../data/site";
+import { getBreadcrumbJsonLd, meditationHubTopics } from "../../data/learn";
+
+const title = "Meditation Practice";
+const description =
+  "Explore beginner-friendly Buddhist-inspired meditation guides for breathing, loving-kindness, walking meditation, mindfulness in daily life, and short practices.";
+const canonicalPath = "/meditation/";
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE.name,
+      url: SITE.url
+    }
+  },
+  getBreadcrumbJsonLd([
+    { name: "Home", href: "/" },
+    { name: "Meditation", href: "/meditation/" }
+  ])
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Meditation</span>
+      <h1>Meditation Practice</h1>
+      <p class="lede">
+        Gentle meditation guides for beginners, including breathing meditation, loving-kindness, walking meditation,
+        daily mindfulness, and short practices for ordinary life.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="grid grid--3">
+        {meditationHubTopics.map((item) => <LearningCard item={item} />)}
+      </div>
+      <AdSlot />
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Safety note</span>
+        <h2>Practice Gently</h2>
+        <p class="lede">
+          Meditation is educational and reflective. It is not a replacement for medical or mental health care. If
+          practice feels overwhelming, open your eyes, feel your feet, shorten the session, or seek qualified support.
+        </p>
+      </div>
+      <a class="button" href="/meditation-guide/">Open the full meditation guide</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+</style>

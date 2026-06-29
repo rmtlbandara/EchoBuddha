@@ -1,0 +1,74 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import LearningCard from "../../../components/LearningCard.astro";
+import AdSlot from "../../../components/AdSlot.astro";
+import { SITE } from "../../../data/site";
+import { getBreadcrumbJsonLd, learningSections } from "../../../data/learn";
+
+export function getStaticPaths() {
+  return learningSections.map((section) => ({
+    params: { section: section.slug },
+    props: { section }
+  }));
+}
+
+const { section } = Astro.props;
+const canonicalPath = section.href;
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: section.title,
+    description: section.description,
+    url: `${SITE.url}${canonicalPath}`,
+    numberOfItems: section.items.length,
+    isPartOf: {
+      "@type": "CollectionPage",
+      name: "Learn",
+      url: `${SITE.url}/learn/`
+    }
+  },
+  getBreadcrumbJsonLd([
+    { name: "Home", href: "/" },
+    { name: "Learn", href: "/learn/" },
+    { name: section.title, href: canonicalPath }
+  ])
+];
+---
+
+<Layout title={section.title} description={section.description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/learn/">Learn</a>
+      <span class="eyebrow">{section.eyebrow}</span>
+      <h1>{section.title}</h1>
+      <p class="lede">{section.intro}</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="grid grid--3">
+        {section.items.map((item) => (
+          <LearningCard
+            item={{
+              label: item.title,
+              href: `/learn/${section.slug}/${item.slug}/`,
+              description: item.description
+            }}
+          />
+        ))}
+      </div>
+      <AdSlot />
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+</style>

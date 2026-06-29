@@ -1,0 +1,108 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { SITE } from "../../data/site";
+import { getBreadcrumbJsonLd, resourceGroups } from "../../data/learn";
+
+const title = "Buddhist Resources";
+const description =
+  "A curated Echo Buddha resource page for Buddhist texts, meditation learning, dictionaries, beginner Buddhism, Sri Lankan resources, and global Buddhist study.";
+const canonicalPath = "/learn/buddhist-resources/";
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`
+  },
+  getBreadcrumbJsonLd([
+    { name: "Home", href: "/" },
+    { name: "Learn", href: "/learn/" },
+    { name: title, href: canonicalPath }
+  ])
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/learn/">Learn</a>
+      <span class="eyebrow">Further Reading</span>
+      <h1>Buddhist Resources</h1>
+      <p class="lede">
+        A small, curated list of trusted Buddhist learning resources. External links open in a new tab and are shared
+        for education, not endorsement of every view or page on those sites.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container resource-grid">
+      {resourceGroups.map((group) => (
+        <section class="surface resource-card">
+          <h2>{group.title}</h2>
+          <p>{group.description}</p>
+          <ul>
+            {group.links.map((link) => (
+              <li>
+                <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
+                <span>{link.description}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .resource-grid {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .resource-card {
+    padding: 1.25rem;
+  }
+
+  .resource-card h2 {
+    font-size: 1.45rem;
+  }
+
+  .resource-card p,
+  .resource-card span {
+    color: var(--color-muted);
+  }
+
+  .resource-card ul {
+    display: grid;
+    gap: 0.85rem;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+
+  .resource-card a {
+    display: inline-flex;
+    font-weight: 800;
+  }
+
+  .resource-card span {
+    display: block;
+    font-size: 0.92rem;
+  }
+
+  @media (min-width: 760px) {
+    .resource-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

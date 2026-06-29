@@ -1,0 +1,1887 @@
+import { SITE } from "./site";
+
+export type LearningLink = {
+  label: string;
+  href: string;
+  description?: string;
+};
+
+export type LearningPage = {
+  section: string;
+  slug: string;
+  title: string;
+  seoTitle?: string;
+  description: string;
+  eyebrow: string;
+  intro: string;
+  sections: {
+    heading: string;
+    paragraphs: string[];
+  }[];
+  takeaway: string;
+  practice?: string;
+  relatedLinks: LearningLink[];
+  sourceNote?: string;
+  terms?: string[];
+};
+
+export type LearningSection = {
+  slug: string;
+  title: string;
+  shortTitle: string;
+  description: string;
+  intro: string;
+  href: string;
+  eyebrow: string;
+  items: LearningPage[];
+};
+
+const commonSourceNote =
+  "Echo Buddha writes original, beginner-friendly explanations for general education and reflection. Readers who want formal study are encouraged to learn with qualified teachers and reputable translations.";
+
+export const buddhism101Pages: LearningPage[] = [
+  {
+    section: "buddhism-101",
+    slug: "who-was-the-buddha",
+    title: "Who Was the Buddha?",
+    seoTitle: "Who Was the Buddha? A Simple Beginner-Friendly Explanation",
+    description:
+      "Learn who the Buddha was, why he is called the awakened one, and how his life story can guide modern daily practice.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Buddha was a human teacher remembered for awakening to the causes of suffering and teaching a practical path of wisdom, ethics, and meditation.",
+    sections: [
+      {
+        heading: "A Human Teacher, Not a Creator God",
+        paragraphs: [
+          "The historical Buddha is commonly known as Siddhartha Gautama. Buddhist traditions remember him as a prince who left a life of comfort after seeing sickness, aging, death, and the possibility of spiritual freedom. His search was not a rejection of life, but a sincere attempt to understand why human beings suffer and how the mind can become free from confusion.",
+          "The word Buddha means awakened one. In this sense, the Buddha is honored as a teacher who saw clearly into experience and shared a path others could test for themselves. Echo Buddha explains this respectfully in simple language, without asking readers to accept anything blindly."
+        ]
+      },
+      {
+        heading: "Why His Story Still Matters",
+        paragraphs: [
+          "The Buddha's life speaks to ordinary concerns: fear, loss, desire, anger, uncertainty, and the wish to live with more care. His teaching begins with honest observation rather than dramatic belief. We look at the mind, notice what leads to harm, and practice what leads to clarity and compassion.",
+          "For daily life, this means the Buddha's example is not remote. It can appear when we pause before speaking sharply, sit quietly with the breath, notice craving, or choose kindness when irritation would be easier."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Imagine beginning a tense morning by asking, “What is actually happening in the mind right now?” That question is close to the Buddha's spirit of investigation. Instead of being carried by habit, you begin to see causes and choices. This is where learning becomes practice."
+        ]
+      }
+    ],
+    takeaway: "The Buddha was an awakened human teacher whose path invites clear seeing, ethical care, meditation, and compassion.",
+    practice:
+      "Today, pause once and ask, “What action would reduce harm here?” Let the answer guide one small choice.",
+    relatedLinks: [
+      { label: "Buddhism for Beginners", href: "/articles/buddhism-for-beginners-simple-guide/" },
+      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Buddha", "Dhamma", "Sangha"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "what-is-buddhism",
+    title: "What Is Buddhism?",
+    seoTitle: "What Is Buddhism? A Clear Beginner's Guide",
+    description:
+      "A simple explanation of Buddhism as a path of wisdom, ethical living, meditation, compassion, and practical insight.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "Buddhism is a diverse spiritual tradition and practical path that helps people understand suffering and cultivate wisdom, compassion, and freedom.",
+    sections: [
+      {
+        heading: "A Path of Practice",
+        paragraphs: [
+          "Buddhism includes temples, rituals, communities, scriptures, meditation methods, ethics, philosophy, and devotional traditions. It is lived differently across cultures. Still, a simple thread runs through many Buddhist teachings: look carefully at experience, understand suffering, reduce harmful habits, and cultivate the mind.",
+          "For beginners, Buddhism can be approached as a path of practice. It asks how we speak, how we think, how we respond to pain, and how we relate to change. It is not only something to believe; it is something to explore through daily life."
+        ]
+      },
+      {
+        heading: "Wisdom, Ethics, and Meditation",
+        paragraphs: [
+          "Buddhist practice is often described through wisdom, ethical conduct, and mental cultivation. Wisdom helps us see impermanence, craving, and interdependence. Ethics helps us reduce regret and harm. Meditation steadies attention so inner habits become easier to see.",
+          "These parts support each other. A quiet mind helps speech become more careful. Kind speech helps meditation feel less burdened by regret. Clear seeing helps compassion become wiser."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "If someone criticizes you, Buddhism does not simply tell you to be calm. It invites you to notice the hurt, see the urge to react, consider the consequences of your words, and choose a response that reduces unnecessary harm. That ordinary moment becomes the path."
+        ]
+      }
+    ],
+    takeaway: "Buddhism is a living path of understanding suffering and practicing wisdom, compassion, and mindful action.",
+    practice: "Choose one ordinary moment today and treat it as practice: a reply, a meal, a chore, or a pause.",
+    relatedLinks: [
+      { label: "Noble Eightfold Path", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
+      { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
+      { label: "Daily Buddhist Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Dhamma", "Karma", "Mindfulness"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "the-three-jewels-explained",
+    title: "The Three Jewels Explained",
+    description:
+      "Understand the Buddha, Dhamma, and Sangha in simple language and learn how the Three Jewels support daily practice.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Three Jewels are the Buddha, the Dhamma, and the Sangha. They are sources of guidance, practice, and community in Buddhist life.",
+    sections: [
+      {
+        heading: "Buddha, Dhamma, and Sangha",
+        paragraphs: [
+          "The Buddha represents awakening and the possibility of seeing clearly. The Dhamma is the teaching and truth discovered through practice. The Sangha is the community of those who practice, from monastic communities to sincere companions on the path.",
+          "Taking refuge in the Three Jewels does not need to sound mysterious. It means turning toward wisdom instead of confusion, toward teaching instead of harmful habit, and toward supportive community instead of isolation."
+        ]
+      },
+      {
+        heading: "Daily Meaning",
+        paragraphs: [
+          "In daily life, the Buddha can remind us that human beings can wake up from harmful patterns. The Dhamma can guide a difficult choice. The Sangha can be a friend, teacher, or community that helps us remember what matters when the mind forgets.",
+          "For beginners, the Three Jewels offer a simple map: learn from awakening, study the teaching, and practice with support."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "When anger rises, refuge might mean remembering the Buddha's example of clear seeing, using the Dhamma of right speech, and asking a wise friend for perspective before acting. Refuge becomes practical, not abstract."
+        ]
+      }
+    ],
+    takeaway: "The Three Jewels offer guidance through the awakened example, the teaching, and the community of practice.",
+    practice: "Ask which jewel you need today: inspiration, teaching, or support. Take one small step toward it.",
+    relatedLinks: [
+      { label: "Dhamma Definition", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "Sangha Definition", href: "/learn/buddhist-dictionary/sangha/" },
+      { label: "How to Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Buddha", "Dhamma", "Sangha"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "the-four-noble-truths-explained",
+    title: "The Four Noble Truths Explained",
+    description:
+      "A beginner-friendly explanation of the Four Noble Truths and how they help us understand suffering and practice wisely.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Four Noble Truths are a foundation of Buddhist teaching: suffering can be understood, its causes can be seen, and a path of practice can be followed.",
+    sections: [
+      {
+        heading: "A Caring Diagnosis",
+        paragraphs: [
+          "The Four Noble Truths say that life includes suffering and dissatisfaction, that craving and clinging contribute to suffering, that freedom from this pattern is possible, and that the Noble Eightfold Path supports that freedom.",
+          "This teaching is not meant to make life gloomy. It is more like a caring diagnosis. Before pain can be understood, it must be acknowledged without shame or denial."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "A person may suffer because a plan changes, but the suffering often becomes heavier when the mind adds clinging: this must not happen, I cannot accept this, my peace depends on this result. Seeing the pattern gives us room to respond differently.",
+          "The Four Noble Truths help us ask gentle questions: What is painful here? What am I clinging to? What can soften? What wise step is available?"
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "If a friend cancels a visit, disappointment may be natural. Extra suffering may come from the demand that the day should be exactly as expected. Seeing that demand does not erase disappointment, but it can soften resentment."
+        ]
+      }
+    ],
+    takeaway: "The Four Noble Truths help us understand suffering, its causes, the possibility of release, and the path of practice.",
+    practice: "Name one difficulty and one form of clinging around it. Then choose one kind step that does not feed the clinging.",
+    relatedLinks: [
+      { label: "Four Noble Truths Article", href: "/articles/four-noble-truths-explained/" },
+      { label: "Dukkha Definition", href: "/learn/buddhist-dictionary/dukkha/" },
+      { label: "Eightfold Path Lesson", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Dukkha", "Karma", "Dhamma"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "the-noble-eightfold-path-explained",
+    title: "The Noble Eightfold Path Explained",
+    description:
+      "Learn the Noble Eightfold Path in simple language, with examples for speech, action, work, mindfulness, and meditation.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Noble Eightfold Path is a practical guide for living with clearer understanding, kinder conduct, and steadier attention.",
+    sections: [
+      {
+        heading: "Eight Parts of One Path",
+        paragraphs: [
+          "The path includes right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration. These are not rigid commandments. They are training areas that support wisdom and reduce harm.",
+          "The word right means skillful or wise in context. It asks whether a way of seeing, speaking, or acting leads toward less greed, hatred, and confusion."
+        ]
+      },
+      {
+        heading: "Daily Meaning",
+        paragraphs: [
+          "Right speech may appear in a difficult family conversation. Right effort may appear when you protect a helpful habit. Right mindfulness may appear when you notice the body before anger becomes a sentence. Right concentration may appear in a few steady minutes with the breath.",
+          "The path becomes real when it enters ordinary choices. It is not separate from work, relationships, money, conflict, rest, or care."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Before sending a tense email, the path might ask: Am I seeing clearly? What is my intention? Are these words true and useful? Would waiting reduce harm? One email can become a complete field of practice."
+        ]
+      }
+    ],
+    takeaway: "The Noble Eightfold Path turns Buddhist wisdom into daily practice through seeing, intention, speech, action, effort, mindfulness, and concentration.",
+    practice: "Choose one path factor for today. Keep it visible and practice it in one specific situation.",
+    relatedLinks: [
+      { label: "Eightfold Path Article", href: "/articles/eightfold-path-explained/" },
+      { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
+      { label: "Eightfold Path Quote", href: "/quotes/practice/eightfold-path-daily-choices/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Mindfulness", "Dhamma", "Sati"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "what-is-karma-in-buddhism",
+    title: "What Is Karma in Buddhism?",
+    description:
+      "A simple explanation of karma in Buddhism, focusing on intention, action, habits, and consequences in daily life.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "In Buddhism, karma is closely connected with intention. What we repeatedly intend, say, and do shapes habits and consequences.",
+    sections: [
+      {
+        heading: "Karma Is Not Simple Fate",
+        paragraphs: [
+          "Karma is often misunderstood as a system of reward and punishment. A more careful beginner-friendly explanation is that intentional actions have consequences. These consequences may appear in the mind, relationships, habits, and future conditions.",
+          "This does not mean every painful event is someone's fault. Life is shaped by many causes. Karma invites responsibility for the intentions and actions that are actually ours."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "If we repeatedly speak with anger, anger becomes easier to repeat. If we practice pausing, honesty, and kindness, those qualities also become more available. Karma is seen in the way small actions train the mind.",
+          "This makes daily life meaningful. A single kind word, sincere apology, or restrained reply can plant a different seed."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Before criticizing someone, you might notice the intention beneath the words. Do you want to help, or do you want to hurt? The outer sentence may be similar, but the karmic direction of the heart is different."
+        ]
+      }
+    ],
+    takeaway: "Karma points to intentional action and the way choices shape habits, relationships, and future conditions.",
+    practice: "Before one important action today, ask, “What intention is leading this?” Adjust gently if needed.",
+    relatedLinks: [
+      { label: "Karma Article", href: "/articles/what-is-karma-in-buddhism/" },
+      { label: "Karma Dictionary Term", href: "/learn/buddhist-dictionary/karma/" },
+      { label: "Karma Quote", href: "/quotes/wisdom/karma-begins-in-intention/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Karma", "Dhamma", "Compassion"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "what-is-impermanence",
+    title: "What Is Impermanence?",
+    description:
+      "Understand impermanence in Buddhism and how noticing change can deepen gratitude, patience, and wise letting go.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "Impermanence means that all conditioned things change. Seeing this clearly can soften clinging and deepen appreciation.",
+    sections: [
+      {
+        heading: "Everything Is Changing",
+        paragraphs: [
+          "In Buddhism, impermanence is often called anicca. It points to the changing nature of bodies, feelings, thoughts, relationships, seasons, possessions, and plans. Nothing made of conditions stays exactly the same forever.",
+          "This teaching is not meant to make life cold. It can make life more tender. When we know a moment will not last, we may meet it with more care."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Impermanence helps us understand why clinging hurts. We want a feeling, person, role, or situation to remain fixed, but life keeps moving. The practice is not to stop caring. It is to care with open hands.",
+          "Change can include loss, but it also includes growth, repair, learning, forgiveness, and new beginnings."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "A child grows, a friendship changes, a mood lifts, a flower fades. Each example can become a teacher. Instead of asking life never to change, we learn to meet change with steadiness."
+        ]
+      }
+    ],
+    takeaway: "Impermanence teaches that change is part of life and can guide gratitude, patience, and letting go.",
+    practice: "Notice three small changes today: a sound fading, light shifting, or a feeling moving. Say gently, “Changing.”",
+    relatedLinks: [
+      { label: "Anicca Dictionary Term", href: "/learn/buddhist-dictionary/anicca/" },
+      { label: "Impermanence Article", href: "/articles/impermanence-in-buddhism/" },
+      { label: "Impermanence Quotes", href: "/quotes/impermanence/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Anicca", "Letting Go", "Dukkha"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "what-is-mindfulness",
+    title: "What Is Mindfulness?",
+    description:
+      "A simple Buddhist explanation of mindfulness as remembering to be present with body, feelings, mind, and daily life.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "Mindfulness is the practice of remembering to notice what is happening with clarity, steadiness, and care.",
+    sections: [
+      {
+        heading: "More Than Relaxation",
+        paragraphs: [
+          "Mindfulness is often used today to mean relaxation or present-moment awareness. In Buddhist practice, it is deeper than a calm mood. It includes remembering the body, feelings, mind states, and patterns clearly enough to respond wisely.",
+          "Mindfulness can be peaceful, but it can also reveal restlessness, anger, sadness, or craving. The point is not to force a pleasant state. The point is to know experience honestly."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Mindfulness appears when you notice the breath before replying, feel the body while walking, hear another person fully, or recognize a repeated thought as a thought. It helps create a small space between stimulus and reaction.",
+          "That space is where kindness and wisdom can enter."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "While washing dishes, the mind may plan, remember, or complain. Mindfulness gently returns to warm water, movement, sound, and posture. An ordinary chore becomes a training in presence."
+        ]
+      }
+    ],
+    takeaway: "Mindfulness is clear, caring awareness of present experience, used to support wiser responses.",
+    practice: "Give one ordinary task your full attention today. When the mind wanders, return without criticism.",
+    relatedLinks: [
+      { label: "Sati Dictionary Term", href: "/learn/buddhist-dictionary/sati/" },
+      { label: "Mindfulness vs Meditation", href: "/articles/mindfulness-vs-meditation/" },
+      { label: "Mindfulness Quotes", href: "/quotes/mindfulness/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Sati", "Mindfulness", "Meditation"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "how-to-practice-buddhism-at-home",
+    title: "How to Practice Buddhism at Home",
+    description:
+      "Learn simple ways to practice Buddhist-inspired wisdom at home through meditation, speech, kindness, reflection, and daily habits.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "Home practice can be simple: a few quiet minutes, kinder speech, honest reflection, and small repeated choices that reduce harm.",
+    sections: [
+      {
+        heading: "Begin With What Is Realistic",
+        paragraphs: [
+          "Practicing Buddhism at home does not require turning your home into a monastery. Begin with a small, repeatable practice. Sit for five minutes, read one teaching, speak more carefully, or pause before reacting.",
+          "The best home practice is one you can return to without resentment. A small sincere practice is better than an impressive plan that disappears after three days."
+        ]
+      },
+      {
+        heading: "Three Simple Areas",
+        paragraphs: [
+          "You can practice meditation by following the breath. You can practice ethics by reducing harsh speech and unnecessary harm. You can practice wisdom by noticing impermanence, craving, and the results of your choices.",
+          "These areas support each other. A few quiet breaths can change speech. Kinder speech can reduce regret. Less regret can make meditation more settled."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "A home practice might be this: sit for five minutes after waking, choose one intention for speech, and end the day by reflecting on one action to continue and one action to repair."
+        ]
+      }
+    ],
+    takeaway: "Home practice grows through small repeatable actions: meditation, ethical speech, reflection, and kindness.",
+    practice: "Choose one practice cue at home, such as morning tea or closing a door, and pair it with one mindful breath.",
+    relatedLinks: [
+      { label: "Meditation Hub", href: "/meditation/" },
+      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+      { label: "Daily Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Practice", "Mindfulness", "Compassion"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "a-simple-daily-buddhist-practice",
+    title: "A Simple Daily Buddhist Practice",
+    description:
+      "A gentle daily Buddhist-inspired practice for beginners, including breathing, intention, kind speech, and evening reflection.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "A daily Buddhist practice can be simple, peaceful, and realistic. The aim is not perfection, but steady return.",
+    sections: [
+      {
+        heading: "Morning: Set an Intention",
+        paragraphs: [
+          "Begin with one or two minutes of breathing. Feel the body, notice the day beginning, and choose one intention. It might be patience, truthfulness, careful listening, or compassion.",
+          "An intention is not a guarantee that the day will go smoothly. It is a direction to remember when the day becomes ordinary."
+        ]
+      },
+      {
+        heading: "Daytime: Practice in Speech and Action",
+        paragraphs: [
+          "During the day, choose one place to practice. Before replying to a message, pause. Before criticizing, check your intention. Before rushing, feel your feet. These small moments are not separate from the path.",
+          "Buddhist wisdom becomes real when it touches ordinary conduct."
+        ]
+      },
+      {
+        heading: "Evening: Reflect Without Harshness",
+        paragraphs: [
+          "At night, ask three gentle questions: What helped today? What caused harm or confusion? What can be repaired or practiced tomorrow? Reflection is not self-punishment. It is learning with honesty."
+        ]
+      }
+    ],
+    takeaway: "Daily practice can be one breath, one intention, one careful action, and one honest reflection.",
+    practice: "Try this rhythm for one day: morning breath, midday pause, evening reflection.",
+    relatedLinks: [
+      { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" },
+      { label: "Right Intention Quote", href: "/quotes/practice/right-intention-turns-the-heart/" },
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Practice", "Sati", "Metta"]
+  }
+];
+
+export const dictionaryPages: LearningPage[] = [
+  {
+    section: "buddhist-dictionary",
+    slug: "anicca",
+    title: "Anicca",
+    seoTitle: "Anicca Meaning: Impermanence in Buddhism Explained Simply",
+    description:
+      "Learn the meaning of Anicca, the Buddhist teaching on impermanence, with daily-life examples and related terms.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Anicca, often pronounced ah-nee-chah, means impermanence: the changing nature of all conditioned things.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Anicca teaches that bodies, feelings, thoughts, relationships, possessions, and circumstances are always changing. Nothing made from conditions remains fixed forever.",
+          "This does not make life meaningless. It can make attention more tender. Because moments change, they become worth meeting while they are here."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "A mood shifts, a child grows, a plan changes, a sound fades. Seeing anicca helps us care without demanding that life freeze in place. It also reminds us that painful states are not permanent identities."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Anicca is closely connected with dukkha, because clinging to what changes creates distress. It also supports letting go, gratitude, and wise patience."
+        ]
+      }
+    ],
+    takeaway: "Anicca means impermanence, the truth that conditioned life is constantly changing.",
+    practice: "Notice one small change today and silently name it: changing.",
+    relatedLinks: [
+      { label: "What Is Impermanence?", href: "/learn/buddhism-101/what-is-impermanence/" },
+      { label: "Impermanence Article", href: "/articles/impermanence-in-buddhism/" },
+      { label: "Impermanence Quotes", href: "/quotes/impermanence/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Dukkha", "Anatta", "Letting Go"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "dukkha",
+    title: "Dukkha",
+    seoTitle: "Dukkha Meaning: Suffering and Unsatisfactoriness in Buddhism",
+    description:
+      "Understand Dukkha in simple language as suffering, stress, and dissatisfaction, with examples for daily life.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Dukkha is often translated as suffering, stress, or unsatisfactoriness. It points to the unease that appears when life is clung to in confused ways.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Dukkha includes obvious pain such as grief, illness, fear, and disappointment. It also includes subtler dissatisfaction: the feeling that what we have is not enough, or that what changes should not change.",
+          "The teaching of dukkha is not meant to make life dark. It helps us name the places where the heart is struggling so practice can begin."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Dukkha can appear when plans fail, praise fades, possessions break, or relationships do not meet every expectation. Seeing dukkha clearly lets us ask what craving, fear, or clinging might be adding to the pain."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Dukkha is the first of the Four Noble Truths. It is closely related to anicca because clinging to changing things creates distress."
+        ]
+      }
+    ],
+    takeaway: "Dukkha names suffering, stress, and dissatisfaction so they can be understood rather than denied.",
+    practice: "When stress appears, gently ask, “What am I resisting or clinging to right now?”",
+    relatedLinks: [
+      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Four Noble Truths Article", href: "/articles/four-noble-truths-explained/" },
+      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Anicca", "Karma", "Dhamma"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "anatta",
+    title: "Anatta",
+    seoTitle: "Anatta Meaning: Non-Self in Buddhism Explained for Beginners",
+    description:
+      "Learn Anatta, the Buddhist teaching of non-self, in simple beginner-friendly language with daily reflection.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Anatta, often translated as non-self, points to the fact that what we call self is changing, conditioned, and not fully controllable.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Anatta does not mean you do not exist in an ordinary sense. It means the self we cling to as fixed and separate cannot be found as a permanent, independent thing. Body, feelings, perceptions, habits, and thoughts keep changing.",
+          "This teaching can sound abstract at first. In practice, it helps soften rigid identity: I am always angry, I am a failure, I must be seen this way."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "When you notice a mood changing, a belief maturing, or an old habit weakening, you are seeing that identity is less solid than it feels. This can create humility and hope."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Anatta is often studied with anicca and dukkha. Together, these teachings point toward freedom from clinging."
+        ]
+      }
+    ],
+    takeaway: "Anatta teaches that the self is not a fixed, permanent possession, which can soften clinging to identity.",
+    practice: "When a strong self-judgment appears, add: “This is a changing pattern, not my whole being.”",
+    relatedLinks: [
+      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
+      { label: "Letting Go Quotes", href: "/quotes/letting-go/" },
+      { label: "Buddhism 101", href: "/learn/buddhism-101/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Anicca", "Dukkha", "Nirvana"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "metta",
+    title: "Metta",
+    seoTitle: "Metta Meaning: Loving-Kindness in Buddhism",
+    description:
+      "Learn Metta, or loving-kindness, as a Buddhist practice of goodwill toward oneself and others.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Metta means loving-kindness or goodwill. It is the sincere wish for beings, including oneself, to be safe and free from unnecessary suffering.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Metta is not sentimental affection. It is a steady intention of goodwill. It can be practiced toward oneself, loved ones, neutral people, difficult people, and all beings.",
+          "The practice often uses simple phrases such as wishes for safety, ease, health, and peace. The words are not magic; they train the direction of the heart."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Metta appears when we choose not to add harm, speak with care, or remember that another person also wants to be free from pain. It can coexist with boundaries."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Metta is closely related to karuna, compassion. Loving-kindness wishes well; compassion responds to suffering."
+        ]
+      }
+    ],
+    takeaway: "Metta is loving-kindness, a trainable intention of goodwill toward oneself and others.",
+    practice: "Silently repeat: “May I meet this moment with kindness. May others meet this moment with kindness.”",
+    relatedLinks: [
+      { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" },
+      { label: "Metta Sutta Explained", href: "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/" },
+      { label: "Loving-Kindness Article", href: "/articles/loving-kindness-meditation-beginners/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Karuna", "Compassion", "Meditation"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "karuna",
+    title: "Karuna",
+    seoTitle: "Karuna Meaning: Compassion in Buddhism",
+    description:
+      "A simple explanation of Karuna, Buddhist compassion, with daily-life meaning and related teachings.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Karuna means compassion: the trembling of the heart in response to suffering and the wish to reduce harm.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Compassion in Buddhism is not pity from above. It is the recognition that suffering is real and that beings are worthy of care. Karuna includes tenderness, but also wise action.",
+          "Compassion does not require approving harmful behavior. It can include boundaries, truth, and protection."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Karuna may appear when you listen before judging, help someone without needing praise, or speak honestly without cruelty. It may also appear as self-compassion after a mistake."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Karuna works with metta. Goodwill opens the heart; compassion moves toward suffering with care."
+        ]
+      }
+    ],
+    takeaway: "Karuna is compassion that sees suffering clearly and responds with wise care.",
+    practice: "When someone is difficult, ask: “What pain might be present, and what boundary is still needed?”",
+    relatedLinks: [
+      { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" },
+      { label: "Compassion Quotes", href: "/quotes/compassion/" },
+      { label: "Metta", href: "/learn/buddhist-dictionary/metta/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Metta", "Compassion", "Right Speech"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "sati",
+    title: "Sati",
+    seoTitle: "Sati Meaning: Mindfulness in Buddhist Practice",
+    description:
+      "Learn Sati, the Buddhist term often translated as mindfulness, with simple examples for daily awareness.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Sati is often translated as mindfulness. It includes remembering to stay aware of body, feelings, mind, and experience.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Sati is not only present-moment calm. It is the ability to remember what is happening and what matters. In practice, it notices breathing, posture, feeling tone, thoughts, intentions, and reactions.",
+          "This remembering interrupts automatic habit. It gives wisdom a chance to enter before speech or action hardens."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Sati appears when you notice anger in the body before speaking, hear a sound without irritation, or return to the task in front of you. It is practical and repeatable."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Sati is part of the Noble Eightfold Path as right mindfulness. It supports meditation, ethical conduct, and insight."
+        ]
+      }
+    ],
+    takeaway: "Sati is mindful remembering: clear awareness of present experience and the path of practice.",
+    practice: "Choose one daily cue, such as opening a door, and use it to remember the body and breath.",
+    relatedLinks: [
+      { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
+      { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
+      { label: "Mindfulness Quotes", href: "/quotes/mindfulness/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Mindfulness", "Meditation", "Dhamma"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "karma",
+    title: "Karma",
+    seoTitle: "Karma Meaning in Buddhism: Intention, Action, and Consequences",
+    description:
+      "Learn the Buddhist meaning of karma as intentional action and the way choices shape habits and consequences.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Karma means intentional action. In Buddhist practice, intention matters because it shapes speech, behavior, habits, and consequences.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Karma is not a simple cosmic scoreboard. It points to the fact that actions rooted in greed, hatred, and confusion tend to produce suffering, while actions rooted in generosity, kindness, and clarity tend to support wellbeing.",
+          "Many causes shape life, so karma should not be used to blame people for pain. It is best used as a teaching on responsibility for our own intentions."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Each repeated action trains the mind. Speaking harshly makes harshness easier. Pausing before speech makes pausing easier. Small choices matter because they become conditions for future choices."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Karma connects with right intention, right speech, and right action on the Noble Eightfold Path."
+        ]
+      }
+    ],
+    takeaway: "Karma is intentional action and the way choices shape future habits and conditions.",
+    practice: "Before one action today, check whether the intention is helpful, harmful, fearful, or kind.",
+    relatedLinks: [
+      { label: "Karma Lesson", href: "/learn/buddhism-101/what-is-karma-in-buddhism/" },
+      { label: "Karma Article", href: "/articles/what-is-karma-in-buddhism/" },
+      { label: "Right Intention Quote", href: "/quotes/practice/right-intention-turns-the-heart/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Right Intention", "Dhamma", "Practice"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "dhamma",
+    title: "Dhamma",
+    seoTitle: "Dhamma Meaning: Buddhist Teaching and Truth",
+    description:
+      "Understand Dhamma as Buddhist teaching, truth, practice, and the way things are seen through wisdom.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Dhamma can mean the Buddha's teaching, truth, practice, and the nature of reality as understood through wisdom.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Dhamma is a rich word. In everyday Buddhist use, it often means the teaching that guides practice. It can also point to truth itself: the way experience works when seen clearly.",
+          "Studying Dhamma is not only reading ideas. It is testing them in speech, meditation, relationships, and daily choices."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Dhamma appears when a teaching helps you pause before anger, understand impermanence, forgive wisely, or return to the breath. It becomes alive when it changes how we live."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Dhamma is one of the Three Jewels, along with the Buddha and Sangha."
+        ]
+      }
+    ],
+    takeaway: "Dhamma is the teaching and truth that guide Buddhist practice toward wisdom and freedom.",
+    practice: "Take one teaching you know and apply it to one ordinary action today.",
+    relatedLinks: [
+      { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
+      { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
+      { label: "Sutta for Daily Life", href: "/learn/sutta-for-daily-life/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Buddha", "Sangha", "Practice"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "sangha",
+    title: "Sangha",
+    seoTitle: "Sangha Meaning: Buddhist Community Explained Simply",
+    description:
+      "Learn the meaning of Sangha as Buddhist community and how wise support helps daily practice.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Sangha means community. Traditionally it can refer to the monastic community, and more broadly to those who support practice.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "The Sangha is one of the Three Jewels. In traditional Buddhism, the monastic Sangha preserves and practices the teachings. Many modern readers also use the word for sincere practice community.",
+          "Community matters because the mind forgets. Good companions help us return to patience, wisdom, and care."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "A Sangha may be a temple, meditation group, teacher, study circle, or a few friends committed to honest practice. It should encourage humility, ethics, and compassion rather than pressure or dependency."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Sangha supports the Buddha's example and the Dhamma's teaching. Together, the Three Jewels offer refuge."
+        ]
+      }
+    ],
+    takeaway: "Sangha is the community of practice that supports learning, ethical living, and steady return.",
+    practice: "Reach toward one wholesome support: a reliable teaching, teacher, group, or practice friend.",
+    relatedLinks: [
+      { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Dhamma", "Buddha", "Refuge"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "nirvana",
+    title: "Nirvana",
+    seoTitle: "Nirvana Meaning in Buddhism Explained Simply",
+    description:
+      "A gentle beginner-friendly explanation of Nirvana as the ending of greed, hatred, and delusion.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Nirvana, or Nibbana in Pali, points to liberation: the extinguishing of greed, hatred, and delusion.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Nirvana is sometimes imagined as a place, but in Buddhist teaching it is better understood as liberation from the fires that burn in the mind. Greed, hatred, and delusion no longer rule.",
+          "For beginners, it is enough to understand Nirvana as the direction of freedom. Small moments of non-greed, non-hatred, and clear seeing give a faint taste of that direction."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "When anger softens before becoming harm, when craving loosens, or when confusion clears, the mind experiences a small release. These moments do not equal final liberation, but they show why practice matters."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Nirvana is connected with the Four Noble Truths, especially the truth that release from suffering is possible."
+        ]
+      }
+    ],
+    takeaway: "Nirvana points to liberation from greed, hatred, and delusion.",
+    practice: "Notice one moment today when grasping or anger loosens. Let that release be known.",
+    relatedLinks: [
+      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
+      { label: "Wisdom Quotes", href: "/quotes/wisdom/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Dukkha", "Anatta", "Dhamma"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "mindfulness",
+    title: "Mindfulness",
+    seoTitle: "Mindfulness Meaning in Buddhist Practice",
+    description:
+      "Learn mindfulness as clear awareness and remembering, with practical examples for Buddhist-inspired daily life.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Mindfulness is clear, caring awareness of present experience and the remembering to return to what matters.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Mindfulness notices body, feelings, thoughts, and actions. It is not a demand to feel peaceful. It is a way to know what is happening without being completely carried away.",
+          "In Buddhist practice, mindfulness supports insight, ethics, and meditation."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Mindfulness can be practiced while breathing, walking, listening, eating, working, or pausing before speech. It turns ordinary moments into opportunities for clear seeing."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Mindfulness is closely related to sati and is part of the Noble Eightfold Path as right mindfulness."
+        ]
+      }
+    ],
+    takeaway: "Mindfulness is the practice of knowing present experience clearly enough to respond wisely.",
+    practice: "Pause before one routine action and feel the body for one breath.",
+    relatedLinks: [
+      { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+      { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
+      { label: "Mindfulness Articles", href: "/articles/category/mindfulness/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Sati", "Meditation", "Awareness"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "compassion",
+    title: "Compassion",
+    seoTitle: "Compassion Meaning in Buddhist Wisdom",
+    description:
+      "Learn compassion in Buddhist wisdom as clear care for suffering with boundaries, kindness, and wise action.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "Compassion is the caring response to suffering. In Buddhist wisdom, it is warm, clear, and practical.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Compassion sees pain and wishes to reduce harm. It does not look down on others. It remembers that all beings experience fear, loss, aging, confusion, and the wish to be safe.",
+          "Compassion is not the same as allowing harm. Wise compassion can say no, protect boundaries, and speak truth."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Compassion appears when you listen carefully, help without needing attention, apologize sincerely, or speak to yourself gently after a mistake."
+        ]
+      },
+      {
+        heading: "Related Teaching",
+        paragraphs: [
+          "Compassion is related to karuna and metta. Together they train the heart toward care and goodwill."
+        ]
+      }
+    ],
+    takeaway: "Compassion is wise care for suffering, joined with kindness, truth, and boundaries.",
+    practice: "When judging someone, pause and ask what suffering may be present without excusing harmful behavior.",
+    relatedLinks: [
+      { label: "Karuna", href: "/learn/buddhist-dictionary/karuna/" },
+      { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" },
+      { label: "Compassion Quotes", href: "/quotes/compassion/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Karuna", "Metta", "Right Speech"]
+  }
+];
+
+export const dhammapadaPages: LearningPage[] = [
+  {
+    section: "dhammapada-reflections",
+    slug: "avoid-evil-do-good-purify-the-mind",
+    title: "Avoid Evil, Do Good, Purify the Mind",
+    description:
+      "An original Dhammapada-inspired reflection on avoiding harm, cultivating good, and training the mind.",
+    eyebrow: "Dhammapada Reflection",
+    intro:
+      "This reflection is based on a well-known Dhammapada theme: avoid harmful action, cultivate what is good, and purify the mind through practice.",
+    sections: [
+      {
+        heading: "Simple Explanation",
+        paragraphs: [
+          "The teaching is simple enough to remember and deep enough to practice for a lifetime. Avoiding harm begins with body, speech, and mind. Doing good means cultivating generosity, patience, honesty, and compassion. Purifying the mind means seeing greed, hatred, and confusion clearly so they lose strength.",
+          "The order matters. Ethical care supports meditation. Meditation reveals the mind. Clear seeing supports wiser action."
+        ]
+      },
+      {
+        heading: "Daily Life Meaning",
+        paragraphs: [
+          "In daily life, this may mean not sending the harsh message, doing the small helpful task, and then looking honestly at the resentment or pride that appeared. The teaching is not abstract. It lives in the next choice."
+        ]
+      },
+      {
+        heading: "Short Reflection Story",
+        paragraphs: [
+          "A worker wanted to expose a colleague's mistake in a way that would win praise. He paused, corrected the issue quietly, and later spoke privately with honesty. He avoided harm, did good, and saw the pride in his own mind. That was the teaching in one afternoon."
+        ]
+      }
+    ],
+    takeaway: "The path can be remembered as three trainings: reduce harm, cultivate good, and purify the mind.",
+    practice: "Choose one harmful habit to pause, one good action to complete, and one mind state to observe today.",
+    relatedLinks: [
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+      { label: "Practice Quotes", href: "/quotes/practice/" }
+    ],
+    sourceNote:
+      "This page offers an original reflection on a traditional Dhammapada theme. It does not reproduce a copyrighted translation.",
+    terms: ["Dhamma", "Karma", "Practice"]
+  },
+  {
+    section: "dhammapada-reflections",
+    slug: "the-mind-leads-all-things",
+    title: "The Mind Leads All Things",
+    description:
+      "A Dhammapada-inspired reflection on how intention, thought, and attention shape speech and action.",
+    eyebrow: "Dhammapada Reflection",
+    intro:
+      "A central Dhammapada theme teaches that the mind comes first. What we cultivate inwardly shapes how we speak and act outwardly.",
+    sections: [
+      {
+        heading: "Simple Explanation",
+        paragraphs: [
+          "The mind does not merely watch life. It colors life. A resentful mind hears insult quickly. A fearful mind predicts danger quickly. A generous mind notices opportunities to help.",
+          "This does not mean every event is created by thought. It means the quality of mind strongly affects our response and the suffering or peace that follows."
+        ]
+      },
+      {
+        heading: "Daily Life Meaning",
+        paragraphs: [
+          "Before speech, there is intention. Before action, there is a leaning of the heart. Training the mind is therefore practical. It changes emails, meals, arguments, work, and apologies."
+        ]
+      },
+      {
+        heading: "Short Reflection Story",
+        paragraphs: [
+          "A mother heard a child's spilled cup and felt anger rise. Then she noticed the thought: another problem. She softened it to: a child learning. Her words changed immediately. The spilled water was the same; the mind leading the response was different."
+        ]
+      }
+    ],
+    takeaway: "The state of mind shapes the direction of speech, action, and experience.",
+    practice: "Before one reply today, ask: “What mind is leading these words?”",
+    relatedLinks: [
+      { label: "Karma", href: "/learn/buddhist-dictionary/karma/" },
+      { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" },
+      { label: "Overthinking Article", href: "/articles/buddhist-wisdom-for-overthinking/" }
+    ],
+    sourceNote:
+      "This is an original explanation of a traditional Dhammapada theme using paraphrase and daily-life reflection.",
+    terms: ["Mindfulness", "Karma", "Sati"]
+  },
+  {
+    section: "dhammapada-reflections",
+    slug: "hatred-is-not-ended-by-hatred",
+    title: "Hatred Is Not Ended by Hatred",
+    description:
+      "A Dhammapada-inspired reflection on meeting hostility with wisdom, boundaries, and non-hatred.",
+    eyebrow: "Dhammapada Reflection",
+    intro:
+      "This reflection explores the traditional teaching that hatred is not healed by more hatred, but by non-hatred and wise care.",
+    sections: [
+      {
+        heading: "Simple Explanation",
+        paragraphs: [
+          "Hatred promises strength but often repeats the wound. When anger becomes hatred, the mind reduces another person to an enemy and loses the ability to see clearly.",
+          "Non-hatred does not mean silence in the face of harm. It means refusing to let the heart become shaped by the same violence it opposes."
+        ]
+      },
+      {
+        heading: "Daily Life Meaning",
+        paragraphs: [
+          "In ordinary conflict, this teaching may mean setting a boundary without contempt, telling the truth without cruelty, or stepping away before words become weapons."
+        ]
+      },
+      {
+        heading: "Short Reflection Story",
+        paragraphs: [
+          "A man received an insulting message and wrote a sharper one in return. Before sending it, he imagined the chain continuing all evening. He deleted it, waited, and later answered firmly without insult. The conflict did not vanish, but hatred did not receive new fuel."
+        ]
+      }
+    ],
+    takeaway: "Non-hatred is not weakness; it is the strength to stop passing harm forward.",
+    practice: "When resentment rises, ask what boundary is needed and what hatred would add.",
+    relatedLinks: [
+      { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+      { label: "Right Speech", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
+      { label: "Anger Article", href: "/articles/buddhist-approach-to-anger/" }
+    ],
+    sourceNote: "This page uses original wording to reflect on a traditional Dhammapada theme.",
+    terms: ["Karuna", "Right Speech", "Compassion"]
+  },
+  {
+    section: "dhammapada-reflections",
+    slug: "better-than-a-thousand-empty-words",
+    title: "Better Than a Thousand Empty Words",
+    description:
+      "A Dhammapada-inspired reflection on meaningful speech, silence, and words that bring peace.",
+    eyebrow: "Dhammapada Reflection",
+    intro:
+      "This reflection explores the value of one meaningful word over many careless words.",
+    sections: [
+      {
+        heading: "Simple Explanation",
+        paragraphs: [
+          "Words can fill space without helping anyone. They can defend the ego, repeat gossip, or make confusion louder. A few words spoken with truth and care can be more valuable than long speech that leaves the mind restless.",
+          "Buddhist wisdom does not reject speech. It asks speech to become useful."
+        ]
+      },
+      {
+        heading: "Daily Life Meaning",
+        paragraphs: [
+          "In daily life, meaningful speech may be an apology, a clear boundary, a kind encouragement, or silence where a complaint would add nothing. The value of speech is measured by its effect, not its volume."
+        ]
+      },
+      {
+        heading: "Short Reflection Story",
+        paragraphs: [
+          "During a tense meeting, everyone repeated positions until the room grew tired. One quiet person finally said, “What are we actually trying to protect?” The question changed the conversation. A few useful words carried more peace than an hour of noise."
+        ]
+      }
+    ],
+    takeaway: "Wise speech is measured by truth, kindness, usefulness, and timing.",
+    practice: "Before speaking today, ask whether fewer words would be more helpful.",
+    relatedLinks: [
+      { label: "Right Speech Article", href: "/articles/right-speech-buddhism/" },
+      { label: "Wise Silence Quote", href: "/quotes/wisdom/wise-silence/" },
+      { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" }
+    ],
+    sourceNote: "This reflection uses original wording inspired by a traditional Dhammapada theme.",
+    terms: ["Right Speech", "Wisdom", "Dhamma"]
+  },
+  {
+    section: "dhammapada-reflections",
+    slug: "peace-comes-from-a-trained-mind",
+    title: "Peace Comes from a Trained Mind",
+    description:
+      "A Dhammapada-inspired reflection on training the mind through meditation, patience, and daily awareness.",
+    eyebrow: "Dhammapada Reflection",
+    intro:
+      "This reflection considers the traditional Buddhist idea that a trained mind brings steadiness and peace.",
+    sections: [
+      {
+        heading: "Simple Explanation",
+        paragraphs: [
+          "A trained mind is not a controlled or frozen mind. It is a mind familiar with returning, observing, softening, and choosing wisely. Training happens through meditation and through daily conduct.",
+          "Without training, the mind is easily pulled by praise, blame, fear, memory, and desire. With practice, it still feels these things, but it is less ruled by them."
+        ]
+      },
+      {
+        heading: "Daily Life Meaning",
+        paragraphs: [
+          "Training the mind may look like one breath before replying, five minutes of meditation, or noticing a repeated worry without following it for an hour. Peace grows through repetition."
+        ]
+      },
+      {
+        heading: "Short Reflection Story",
+        paragraphs: [
+          "A student complained that meditation was repetitive. Her teacher asked how many times she had practiced anger. The student smiled. Repetition had already trained the mind; now she was choosing a different training."
+        ]
+      }
+    ],
+    takeaway: "Peace grows through repeated training of attention, intention, and response.",
+    practice: "Choose one repeated moment today and train it gently: breathing, listening, or pausing.",
+    relatedLinks: [
+      { label: "Meditation Hub", href: "/meditation/" },
+      { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+      { label: "Daily Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
+    ],
+    sourceNote: "This page offers original reflection on a traditional Dhammapada theme.",
+    terms: ["Sati", "Meditation", "Practice"]
+  }
+];
+
+export const suttaPages: LearningPage[] = [
+  {
+    section: "sutta-for-daily-life",
+    slug: "metta-sutta-explained-for-daily-life",
+    title: "The Metta Sutta Explained for Daily Life",
+    description:
+      "A simple, practical explanation of the Metta Sutta and how loving-kindness can shape speech, family life, and daily practice.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "The Metta Sutta is loved for its teaching on goodwill. This page explains its daily meaning in original, beginner-friendly language.",
+    sections: [
+      {
+        heading: "Simple Background",
+        paragraphs: [
+          "The Metta Sutta is a well-known Buddhist discourse on loving-kindness. It encourages a heart of goodwill, humility, contentment, ethical care, and wishes of safety for living beings.",
+          "Rather than treating metta as a sentimental mood, the teaching presents goodwill as a way of living."
+        ]
+      },
+      {
+        heading: "Main Teaching",
+        paragraphs: [
+          "Metta asks us to cultivate the wish that beings be safe, peaceful, and free from unnecessary suffering. This includes oneself, loved ones, strangers, difficult people, and beings we will never meet.",
+          "The practice does not erase boundaries. Goodwill can remain clear and wise."
+        ]
+      },
+      {
+        heading: "Modern Daily Life",
+        paragraphs: [
+          "Metta can shape how we write messages, speak to family, drive, work, and think about people we disagree with. It begins with the simple refusal to add more harm."
+        ]
+      }
+    ],
+    takeaway: "The Metta Sutta teaches goodwill as a daily practice of non-harm and care.",
+    practice: "Repeat slowly: “May I be safe. May others be safe. May this moment be met with kindness.”",
+    relatedLinks: [
+      { label: "Metta Dictionary Term", href: "/learn/buddhist-dictionary/metta/" },
+      { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" },
+      { label: "Metta Meditation Script", href: "/articles/metta-meditation-script/" }
+    ],
+    sourceNote:
+      "This explanation is an original educational reflection on the Metta Sutta theme. It does not reproduce copyrighted translation text.",
+    terms: ["Metta", "Karuna", "Compassion"]
+  },
+  {
+    section: "sutta-for-daily-life",
+    slug: "kalama-sutta-and-wise-thinking",
+    title: "The Kalama Sutta and Wise Thinking",
+    description:
+      "A beginner-friendly explanation of the Kalama Sutta theme of wise inquiry, testing teachings, and recognizing harmful or helpful qualities.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "The Kalama Sutta is often remembered for encouraging careful inquiry rather than blind acceptance.",
+    sections: [
+      {
+        heading: "Simple Background",
+        paragraphs: [
+          "In this teaching, people are unsure which teachers to trust. The Buddha advises careful examination of what leads to harm or benefit rather than accepting claims simply because of tradition, popularity, or authority.",
+          "This does not mean rejecting all guidance. It means learning with both respect and discernment."
+        ]
+      },
+      {
+        heading: "Main Teaching",
+        paragraphs: [
+          "Wise thinking looks at results. Do greed, hatred, and confusion increase? Or do kindness, clarity, and freedom from harm increase? This practical test protects the mind from both gullibility and cynicism."
+        ]
+      },
+      {
+        heading: "Modern Daily Life",
+        paragraphs: [
+          "Online advice, spiritual claims, and strong opinions appear constantly. The Kalama Sutta theme reminds us to slow down, examine consequences, and see whether a teaching makes the heart wiser and less harmful."
+        ]
+      }
+    ],
+    takeaway: "Wise inquiry asks whether a teaching leads toward less harm and more clarity.",
+    practice: "Before accepting advice today, ask what qualities it strengthens in the mind.",
+    relatedLinks: [
+      { label: "Wisdom Dictionary", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
+      { label: "Buddhist Wisdom Articles", href: "/articles/category/buddhist-wisdom/" }
+    ],
+    sourceNote:
+      "This is an original practical explanation of a traditional sutta theme. Readers may compare reputable public-domain translations for formal study.",
+    terms: ["Dhamma", "Wisdom", "Karma"]
+  },
+  {
+    section: "sutta-for-daily-life",
+    slug: "right-speech-in-daily-life",
+    title: "Right Speech in Daily Life",
+    description:
+      "A practical Buddhist explanation of right speech: truthful, kind, useful, and timely communication.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "Right speech is a daily-life teaching about using words to reduce harm and support understanding.",
+    sections: [
+      {
+        heading: "Simple Background",
+        paragraphs: [
+          "Buddhist teachings often emphasize speech because words shape relationships, memory, trust, and the mind that speaks them. Speech can wound quickly or heal slowly.",
+          "Right speech asks that words be truthful, kind, useful, and timely."
+        ]
+      },
+      {
+        heading: "Main Teaching",
+        paragraphs: [
+          "Right speech avoids lying, divisive talk, harshness, and empty chatter that feeds confusion. It does not require silence about hard truths. It asks truth to travel with care."
+        ]
+      },
+      {
+        heading: "Modern Daily Life",
+        paragraphs: [
+          "Right speech applies to family conversations, workplace feedback, social media, and private self-talk. A mindful pause before speaking can prevent hours of repair."
+        ]
+      }
+    ],
+    takeaway: "Right speech uses truth, kindness, usefulness, and timing to reduce harm.",
+    practice: "Before one important sentence, ask: Is it true, kind, useful, and timely?",
+    relatedLinks: [
+      { label: "Right Speech Article", href: "/articles/right-speech-buddhism/" },
+      { label: "Right Speech Quote", href: "/quotes/wisdom/right-speech-with-kindness/" },
+      { label: "Mindful Listening", href: "/articles/mindful-listening-in-everyday-life/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Right Speech", "Sati", "Compassion"]
+  },
+  {
+    section: "sutta-for-daily-life",
+    slug: "mindfulness-of-breathing-explained-simply",
+    title: "Mindfulness of Breathing Explained Simply",
+    description:
+      "A simple explanation of mindfulness of breathing and how the breath supports attention, steadiness, and daily practice.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "Mindfulness of breathing is a foundational Buddhist meditation practice that uses the natural breath as an anchor for awareness.",
+    sections: [
+      {
+        heading: "Simple Background",
+        paragraphs: [
+          "Many Buddhist meditation instructions use the breath because it is always close, ordinary, and changing. The breath gives attention a gentle place to return.",
+          "The practice does not require controlling the breath. A long breath is known as long. A short breath is known as short."
+        ]
+      },
+      {
+        heading: "Main Teaching",
+        paragraphs: [
+          "By staying with breathing, the practitioner learns to notice wandering, return kindly, and see body and mind more clearly. The breath becomes a teacher of impermanence and patience."
+        ]
+      },
+      {
+        heading: "Modern Daily Life",
+        paragraphs: [
+          "One breath before a reply, meeting, or decision can change the quality of action. Breath practice is portable, quiet, and humble."
+        ]
+      }
+    ],
+    takeaway: "Mindfulness of breathing trains attention through the repeated, gentle return to the natural breath.",
+    practice: "Feel three natural breaths without changing them. Begin again whenever attention wanders.",
+    relatedLinks: [
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
+      { label: "Meditation Guide", href: "/meditation-guide/" },
+      { label: "Sati", href: "/learn/buddhist-dictionary/sati/" }
+    ],
+    sourceNote:
+      "This page is an original, simplified explanation of a traditional Buddhist breathing practice.",
+    terms: ["Sati", "Meditation", "Anicca"]
+  },
+  {
+    section: "sutta-for-daily-life",
+    slug: "buddhas-teaching-on-patience",
+    title: "The Buddha's Teaching on Patience",
+    description:
+      "A practical reflection on patience in Buddhist teaching, including delay, conflict, anger, and daily practice.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "Patience is a quiet strength in Buddhist practice. It protects the mind from being ruled by irritation and urgency.",
+    sections: [
+      {
+        heading: "Simple Background",
+        paragraphs: [
+          "Many Buddhist teachings praise patience as a powerful practice. Patience is not passivity. It is the strength to remain steady while choosing a wise response.",
+          "Without patience, anger and craving make decisions quickly. With patience, wisdom has time to arrive."
+        ]
+      },
+      {
+        heading: "Main Teaching",
+        paragraphs: [
+          "Patience includes waiting, enduring discomfort wisely, listening fully, and allowing growth to take time. It does not require accepting harm. It supports clear boundaries without hatred."
+        ]
+      },
+      {
+        heading: "Modern Daily Life",
+        paragraphs: [
+          "Patience is practiced in traffic, family life, slow work, unanswered messages, meditation restlessness, and the long process of changing habits."
+        ]
+      }
+    ],
+    takeaway: "Patience gives wisdom enough room to respond instead of react.",
+    practice: "During one delay today, relax the body and silently say, “This too is practice.”",
+    relatedLinks: [
+      { label: "Patience Article", href: "/articles/three-ways-to-practice-patience/" },
+      { label: "Patience Quotes", href: "/quotes/patience/" },
+      { label: "Anger Article", href: "/articles/buddhist-approach-to-anger/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Patience", "Right Speech", "Compassion"]
+  }
+];
+
+export const meditationGuidePages: LearningPage[] = [
+  {
+    section: "meditation",
+    slug: "meditation-for-beginners",
+    title: "Meditation for Beginners",
+    description:
+      "A gentle beginner's guide to meditation with posture, breathing, common mistakes, encouragement, and safety notes.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Meditation begins with a simple willingness to sit, notice, and return. You do not need a silent mind to begin.",
+    sections: [
+      {
+        heading: "How to Practice",
+        paragraphs: [
+          "Sit on a chair or cushion with a stable posture. Let the hands rest. Feel the natural breath at the nose, chest, or belly. When attention wanders, notice gently and return.",
+          "Begin with three to five minutes. A short practice repeated often is more useful than a long practice that creates pressure."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "Beginners often try to stop thinking, judge wandering as failure, or sit too long too soon. Meditation is not a test of calm. Returning is the practice."
+        ]
+      },
+      {
+        heading: "Gentle Encouragement",
+        paragraphs: [
+          "Some sessions feel peaceful; others feel restless. Both can teach. If meditation feels overwhelming, open the eyes, feel the feet, shorten the session, or stop."
+        ]
+      }
+    ],
+    takeaway: "Beginner meditation is the repeated practice of noticing and returning with kindness.",
+    practice: "Sit for five minutes and return to one natural breath whenever you remember.",
+    relatedLinks: [
+      { label: "Meditation Guide", href: "/meditation-guide/" },
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
+      { label: "Meditation Quotes", href: "/quotes/meditation/" }
+    ],
+    sourceNote:
+      "Meditation guidance on Echo Buddha is educational and reflective. It is not a substitute for medical or mental health care.",
+    terms: ["Meditation", "Sati", "Mindfulness"]
+  },
+  {
+    section: "meditation",
+    slug: "breathing-meditation",
+    title: "Breathing Meditation",
+    description:
+      "Learn a simple breathing meditation practice for steady attention, mindful returning, and daily calm without forcing the breath.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Breathing meditation uses the natural breath as a steady place for attention to return.",
+    sections: [
+      {
+        heading: "Step-by-Step Practice",
+        paragraphs: [
+          "Sit comfortably and notice where breathing is easiest to feel. Let the breath move naturally. Stay with one inhale and one exhale at a time.",
+          "When sounds, thoughts, or feelings pull attention away, acknowledge them and return to the next breath without criticism."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "Do not force the breath to become deep or peaceful. A tight breath can be known as tight. A shallow breath can be known as shallow. Honest awareness matters more than control."
+        ]
+      },
+      {
+        heading: "Daily Use",
+        paragraphs: [
+          "One mindful breath before speaking, driving, working, or checking messages can reconnect the mind with the body."
+        ]
+      }
+    ],
+    takeaway: "Breathing meditation trains attention by returning to the breath as it is.",
+    practice: "Feel ten natural breaths. If you lose count, begin again at one.",
+    relatedLinks: [
+      { label: "Mindfulness of Breathing", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/" },
+      { label: "Mindful Breathing Quote", href: "/quotes/meditation/one-honest-breath/" },
+      { label: "Meditation Guide", href: "/meditation-guide/" }
+    ],
+    sourceNote:
+      "This practice is educational. If stillness increases distress, pause and seek appropriate support.",
+    terms: ["Sati", "Meditation", "Mindfulness"]
+  },
+  {
+    section: "meditation",
+    slug: "loving-kindness-meditation",
+    title: "Loving-Kindness Meditation",
+    description:
+      "Learn loving-kindness meditation with simple goodwill phrases, common difficulties, boundaries, and daily-life practice.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Loving-kindness meditation trains goodwill toward oneself and others through sincere, gentle phrases.",
+    sections: [
+      {
+        heading: "Step-by-Step Practice",
+        paragraphs: [
+          "Sit comfortably and begin with yourself or someone easy to care about. Silently repeat phrases such as: May I be safe. May I be peaceful. May I meet this day with kindness.",
+          "Then, if steady, extend goodwill to a friend, a neutral person, a difficult person, and all beings. Move slowly. There is no need to force emotion."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "Do not use loving-kindness to deny hurt or remove boundaries. If a difficult person feels too hard, return to yourself or a neutral person. Goodwill can be gentle and honest."
+        ]
+      },
+      {
+        heading: "Daily Use",
+        paragraphs: [
+          "Metta can be practiced before a family conversation, while reading difficult news, or when self-criticism becomes harsh."
+        ]
+      }
+    ],
+    takeaway: "Loving-kindness meditation trains the heart toward goodwill without denying truth or boundaries.",
+    practice: "Repeat three phrases of goodwill for yourself and one other person today.",
+    relatedLinks: [
+      { label: "Metta", href: "/learn/buddhist-dictionary/metta/" },
+      { label: "Metta Sutta", href: "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/" },
+      { label: "Loving-Kindness Article", href: "/articles/loving-kindness-meditation-beginners/" }
+    ],
+    sourceNote: "This is educational meditation guidance and not a substitute for professional care.",
+    terms: ["Metta", "Karuna", "Compassion"]
+  },
+  {
+    section: "meditation",
+    slug: "walking-meditation",
+    title: "Walking Meditation",
+    description:
+      "A simple walking meditation guide for beginners, including step-by-step practice, common mistakes, and daily mindfulness.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Walking meditation brings awareness to standing, lifting, moving, placing, and the whole body in motion.",
+    sections: [
+      {
+        heading: "Step-by-Step Practice",
+        paragraphs: [
+          "Choose a short path. Stand still and feel the feet. Walk slowly enough to notice lifting, moving, and placing each foot. Let the eyes rest softly ahead.",
+          "When the mind wanders, return to the feeling of the next step. You may use simple labels: lifting, moving, placing."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "Do not worry about looking spiritual. Walking meditation is not a performance. If very slow walking feels awkward, walk naturally and feel contact with the ground."
+        ]
+      },
+      {
+        heading: "Daily Use",
+        paragraphs: [
+          "Use walking meditation between tasks, from car to door, or during a short break. It can help reconnect the mind and body."
+        ]
+      }
+    ],
+    takeaway: "Walking meditation turns ordinary movement into steady embodied awareness.",
+    practice: "Take ten mindful steps today, feeling each foot meet the ground.",
+    relatedLinks: [
+      { label: "Walking Meditation Article", href: "/articles/walking-meditation-step-by-step/" },
+      { label: "Present Moment Quote", href: "/quotes/mindfulness/present-moment-one-step/" },
+      { label: "Sati", href: "/learn/buddhist-dictionary/sati/" }
+    ],
+    sourceNote: "Practice gently and adapt movement to your body and surroundings.",
+    terms: ["Sati", "Mindfulness", "Practice"]
+  },
+  {
+    section: "meditation",
+    slug: "mindfulness-in-daily-life",
+    title: "Mindfulness in Daily Life",
+    description:
+      "Learn how to practice mindfulness during work, conversations, chores, meals, and ordinary transitions.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Mindfulness in daily life means remembering awareness during ordinary moments, not only during formal meditation.",
+    sections: [
+      {
+        heading: "Step-by-Step Practice",
+        paragraphs: [
+          "Choose one daily activity: washing hands, opening a door, eating, or beginning work. Feel the body during that activity. Notice sounds, movement, and intention.",
+          "When the mind rushes ahead, return to the action already happening."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "Do not try to be mindful of everything all day. That becomes exhausting. Choose small repeatable moments. Let practice grow through friendliness, not pressure."
+        ]
+      },
+      {
+        heading: "Daily Use",
+        paragraphs: [
+          "Mindfulness can support listening, patient speech, simpler work, and less automatic reaction. It brings the path into the places you already live."
+        ]
+      }
+    ],
+    takeaway: "Daily mindfulness grows through small moments of remembered awareness.",
+    practice: "Pick one routine action and make it a mindfulness bell for one day.",
+    relatedLinks: [
+      { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
+      { label: "Mindfulness at Work Quote", href: "/quotes/practice/mindfulness-at-work-breath/" },
+      { label: "Mindfulness Articles", href: "/articles/category/mindfulness/" }
+    ],
+    sourceNote: commonSourceNote,
+    terms: ["Mindfulness", "Sati", "Practice"]
+  }
+];
+
+export const questionsAboutBuddhism = [
+  {
+    question: "Is Buddhism a religion or a philosophy?",
+    answer:
+      "Buddhism can be lived as a religion, a spiritual path, a philosophy, and a practical training. Different cultures emphasize different aspects, but the heart of practice is understanding suffering and cultivating wisdom, ethics, and meditation.",
+    links: [
+      { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" }
+    ]
+  },
+  {
+    question: "Do Buddhists believe in God?",
+    answer:
+      "Buddhist traditions vary, but Buddhism does not center on a creator god. Its main concern is awakening from greed, hatred, and delusion through understanding, ethical conduct, and meditation.",
+    links: [
+      { label: "Who Was the Buddha?", href: "/learn/buddhism-101/who-was-the-buddha/" },
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
+    ]
+  },
+  {
+    question: "What is the purpose of meditation in Buddhism?",
+    answer:
+      "Meditation trains attention, steadies the mind, supports compassion, and helps practitioners see thoughts, feelings, and habits more clearly.",
+    links: [
+      { label: "Meditation Hub", href: "/meditation/" },
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" }
+    ]
+  },
+  {
+    question: "What does Buddhism say about anger?",
+    answer:
+      "Buddhist wisdom treats anger as a powerful state to be understood before it becomes harmful speech or action. Anger may signal pain or injustice, but it needs mindfulness and wise boundaries.",
+    links: [
+      { label: "Anger Article", href: "/articles/buddhist-approach-to-anger/" },
+      { label: "Right Speech", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" }
+    ]
+  },
+  {
+    question: "What is the Buddhist view of suffering?",
+    answer:
+      "Buddhism begins by honestly recognizing suffering, stress, and dissatisfaction. This honesty is not pessimism; it is the start of understanding causes and practicing a wiser path.",
+    links: [
+      { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
+      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" }
+    ]
+  },
+  {
+    question: "What does it mean to take refuge?",
+    answer:
+      "Taking refuge means turning toward the Buddha, Dhamma, and Sangha for guidance. It is a commitment to awakening, teaching, and supportive practice.",
+    links: [
+      { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
+      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" }
+    ]
+  },
+  {
+    question: "Can anyone practice Buddhist mindfulness?",
+    answer:
+      "Anyone can explore mindfulness respectfully. Formal Buddhist practice may include specific traditions and teachers, but basic mindful awareness can be practiced in ordinary daily life.",
+    links: [
+      { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
+      { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" }
+    ]
+  },
+  {
+    question: "What is attachment in Buddhism?",
+    answer:
+      "Attachment is the grasping that tries to make changing life secure by force. Buddhism does not ask us to stop caring; it invites us to care without clinging.",
+    links: [
+      { label: "Attachment Article", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
+      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }
+    ]
+  },
+  {
+    question: "What is compassion in Buddhism?",
+    answer:
+      "Compassion is wise care for suffering. It includes kindness, understanding, and action, while still allowing boundaries and truth.",
+    links: [
+      { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+      { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" }
+    ]
+  },
+  {
+    question: "How can I practice Buddhism at home?",
+    answer:
+      "Begin with small repeatable practices: five minutes of breathing, careful speech, one kind action, and evening reflection. Practice grows through consistency rather than display.",
+    links: [
+      { label: "Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" },
+      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" }
+    ]
+  }
+];
+
+export const resourceGroups = [
+  {
+    title: "Buddhist Texts",
+    description: "Useful starting points for readers who want to explore Buddhist teachings carefully.",
+    links: [
+      { label: "SuttaCentral", href: "https://suttacentral.net/", description: "A large collection of early Buddhist texts and translations." },
+      { label: "Access to Insight Archive", href: "https://www.accesstoinsight.org/", description: "A long-standing archive of Theravada Buddhist texts and essays." }
+    ]
+  },
+  {
+    title: "Meditation Learning",
+    description: "Simple places to continue learning meditation with care and context.",
+    links: [
+      { label: "Insight Meditation Society", href: "https://www.dharma.org/", description: "Meditation teachings and retreat information." },
+      { label: "Buddhist Society", href: "https://www.thebuddhistsociety.org/", description: "Educational resources and talks for general learners." }
+    ]
+  },
+  {
+    title: "Buddhist Dictionaries",
+    description: "Reference tools for Buddhist terms and concepts.",
+    links: [
+      { label: "Pali Text Society", href: "https://palitextsociety.org/", description: "Resources for Pali studies and Buddhist texts." },
+      { label: "Wisdom Library Buddhist Terms", href: "https://www.wisdomlib.org/", description: "A broad reference site with Buddhist entries and related material." }
+    ]
+  },
+  {
+    title: "Beginner Buddhism",
+    description: "Accessible learning for readers beginning Buddhist study.",
+    links: [
+      { label: "Tricycle Beginner Resources", href: "https://tricycle.org/beginners/", description: "Beginner-friendly Buddhist explanations and practice articles." },
+      { label: "Lion's Roar Buddhism Guides", href: "https://www.lionsroar.com/", description: "Articles and guides from a contemporary Buddhist publication." }
+    ]
+  },
+  {
+    title: "Sri Lankan Buddhist Resources",
+    description: "Resources connected with Sri Lankan Buddhist learning and culture.",
+    links: [
+      { label: "Buddhist Publication Society", href: "https://www.bps.lk/", description: "A Sri Lankan publisher of Buddhist books and essays." },
+      { label: "Buddhist and Pali University of Sri Lanka", href: "https://www.bpu.ac.lk/", description: "Academic institution for Buddhist and Pali studies." }
+    ]
+  },
+  {
+    title: "Global Buddhist Resources",
+    description: "International Buddhist education and practice resources.",
+    links: [
+      { label: "84000 Translating the Words of the Buddha", href: "https://84000.co/", description: "A translation initiative for Tibetan Buddhist texts." },
+      { label: "BuddhaNet", href: "https://www.buddhanet.net/", description: "An educational Buddhist website with general resources." }
+    ]
+  }
+];
+
+export const learningSections: LearningSection[] = [
+  {
+    slug: "buddhism-101",
+    title: "Buddhism 101",
+    shortTitle: "Buddhism 101",
+    description: "Beginner-friendly lessons on the Buddha, core teachings, karma, mindfulness, and daily practice.",
+    intro:
+      "Start here for simple explanations of foundational Buddhist ideas and how they connect with ordinary life.",
+    href: "/learn/buddhism-101/",
+    eyebrow: "Start Here",
+    items: buddhism101Pages
+  },
+  {
+    slug: "buddhist-dictionary",
+    title: "Buddhist Dictionary",
+    shortTitle: "Dictionary",
+    description: "A practical glossary of Buddhist terms explained in simple, beginner-friendly English.",
+    intro:
+      "Explore Buddhist terms through clear meanings, daily-life examples, and related teachings.",
+    href: "/learn/buddhist-dictionary/",
+    eyebrow: "Glossary",
+    items: dictionaryPages
+  },
+  {
+    slug: "dhammapada-reflections",
+    title: "Dhammapada Reflections",
+    shortTitle: "Dhammapada",
+    description: "Original reflections on public-domain-safe Dhammapada themes for daily life.",
+    intro:
+      "Read gentle, original explanations of Dhammapada themes without relying on copyrighted translation text.",
+    href: "/learn/dhammapada-reflections/",
+    eyebrow: "Reflections",
+    items: dhammapadaPages
+  },
+  {
+    slug: "sutta-for-daily-life",
+    title: "Sutta for Daily Life",
+    shortTitle: "Sutta Daily Life",
+    description: "Simple explanations of Buddhist teachings from sutta themes, written for ordinary readers.",
+    intro:
+      "Learn how traditional Buddhist teachings can support wise thinking, speech, patience, and meditation today.",
+    href: "/learn/sutta-for-daily-life/",
+    eyebrow: "Teachings",
+    items: suttaPages
+  }
+];
+
+export const learnHubCards: LearningLink[] = [
+  { label: "Buddhism 101", href: "/learn/buddhism-101/", description: "Begin with core Buddhist teachings in simple language." },
+  { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/", description: "Look up terms like anicca, dukkha, metta, and sati." },
+  { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/", description: "Read original reflections on classic Buddhist themes." },
+  { label: "Sutta for Daily Life", href: "/learn/sutta-for-daily-life/", description: "Explore teachings through practical daily examples." },
+  { label: "Meditation Practice", href: "/meditation/", description: "Learn breathing, loving-kindness, walking meditation, and daily mindfulness." },
+  { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/", description: "Find calm answers to common beginner questions." },
+  { label: "Buddhist Resources", href: "/learn/buddhist-resources/", description: "A curated list of trusted learning resources." }
+];
+
+export const popularLearningPaths = [
+  {
+    title: "New to Buddhism",
+    links: [
+      { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
+      { label: "The Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" }
+    ]
+  },
+  {
+    title: "Start Meditating",
+    links: [
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
+      { label: "5-Minute Practice", href: "/meditation/5-minute-meditation-practice/" }
+    ]
+  },
+  {
+    title: "Understand Buddhist Terms",
+    links: [
+      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
+      { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
+      { label: "Metta", href: "/learn/buddhist-dictionary/metta/" }
+    ]
+  }
+];
+
+export const meditationHubTopics: LearningLink[] = [
+  { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/", description: "A gentle first guide to sitting and returning." },
+  { label: "Breathing Meditation", href: "/meditation/breathing-meditation/", description: "Use the natural breath as a steady anchor." },
+  { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/", description: "Practice goodwill toward yourself and others." },
+  { label: "Walking Meditation", href: "/meditation/walking-meditation/", description: "Bring awareness into steps and movement." },
+  { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/", description: "Practice awareness during ordinary routines." },
+  { label: "Common Meditation Difficulties", href: "/meditation-guide/#common-challenges", description: "Work gently with restlessness, sleepiness, and thoughts." },
+  { label: "5-Minute Meditation Practice", href: "/meditation/5-minute-meditation-practice/", description: "A short practice for busy days." },
+  { label: "10-Minute Meditation Practice", href: "/meditation-guide/#ten-minute-practice", description: "A simple ten-minute structure from the full guide." }
+];
+
+export const shortMeditationPages: LearningPage[] = [
+  {
+    section: "meditation",
+    slug: "5-minute-meditation-practice",
+    title: "5-Minute Meditation Practice",
+    description:
+      "A simple five-minute meditation practice for beginners using posture, breath, and a gentle return from distraction.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Five minutes is enough to begin. This short practice is designed for ordinary days when a small steady pause is possible.",
+    sections: [
+      {
+        heading: "Step-by-Step Practice",
+        paragraphs: [
+          "Minute one: sit comfortably and feel the support beneath the body. Minute two: notice the natural breath. Minutes three and four: return to breathing each time attention wanders. Minute five: widen awareness to the room and choose one kind intention."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "Do not rush to feel peaceful. A five-minute practice may feel restless, sleepy, or ordinary. The value is in returning."
+        ]
+      },
+      {
+        heading: "Safety Note",
+        paragraphs: [
+          "If meditation feels overwhelming, open the eyes, feel the feet, shorten the practice, or stop. Meditation is not a replacement for professional medical or mental health care."
+        ]
+      }
+    ],
+    takeaway: "A short meditation can train the habit of returning without adding pressure.",
+    practice: "Try this five-minute structure once today.",
+    relatedLinks: [
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
+      { label: "Meditation Guide", href: "/meditation-guide/" }
+    ],
+    sourceNote: "Educational meditation guidance only; adapt practice to your needs and seek support when appropriate.",
+    terms: ["Meditation", "Sati", "Mindfulness"]
+  }
+];
+
+export const allMeditationPages = [...meditationGuidePages, ...shortMeditationPages];
+
+export function getLearningSection(slug: string) {
+  return learningSections.find((section) => section.slug === slug);
+}
+
+export function getLearningPage(section: string, slug: string) {
+  return learningSections.flatMap((item) => item.items).find((page) => page.section === section && page.slug === slug);
+}
+
+export function getAllLearningPages() {
+  return learningSections.flatMap((section) => section.items);
+}
+
+export function getLearningBreadcrumbs(page: LearningPage) {
+  const section = getLearningSection(page.section);
+
+  return [
+    { name: "Home", href: "/" },
+    { name: "Learn", href: "/learn/" },
+    { name: section?.title ?? "Learning", href: section?.href ?? "/learn/" },
+    { name: page.title, href: `/learn/${page.section}/${page.slug}/` }
+  ];
+}
+
+export function getBreadcrumbJsonLd(items: { name: string; href: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: new URL(item.href, SITE.url).toString()
+    }))
+  };
+}

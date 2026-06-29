@@ -1,0 +1,98 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { SITE } from "../../data/site";
+import { getBreadcrumbJsonLd, questionsAboutBuddhism } from "../../data/learn";
+
+const title = "Questions About Buddhism";
+const description =
+  "Beginner-friendly answers to common questions about Buddhism, meditation, suffering, compassion, attachment, and home practice.";
+const canonicalPath = "/learn/questions-about-buddhism/";
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: questionsAboutBuddhism.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  },
+  getBreadcrumbJsonLd([
+    { name: "Home", href: "/" },
+    { name: "Learn", href: "/learn/" },
+    { name: title, href: canonicalPath }
+  ])
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/learn/">Learn</a>
+      <span class="eyebrow">Beginner Questions</span>
+      <h1>Questions About Buddhism</h1>
+      <p class="lede">
+        Clear, gentle answers for readers beginning Buddhist study or exploring Buddhist-inspired mindfulness and
+        daily practice.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <div class="faq-list">
+        {questionsAboutBuddhism.map((item) => (
+          <details class="surface">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+            <div class="faq-links">
+              {item.links.map((link) => <a href={link.href}>{link.label}</a>)}
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  details {
+    padding: 1rem 1.15rem;
+  }
+
+  summary {
+    color: var(--color-ink);
+    cursor: pointer;
+    font-family: var(--font-serif);
+    font-size: 1.18rem;
+    font-weight: 700;
+  }
+
+  details p {
+    color: var(--color-muted);
+    margin-top: 0.75rem;
+  }
+
+  .faq-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+</style>

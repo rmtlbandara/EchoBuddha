@@ -2,13 +2,23 @@
 import Layout from "../layouts/Layout.astro";
 import AdSlot from "../components/AdSlot.astro";
 import ArticleCard from "../components/ArticleCard.astro";
+import LearningCard from "../components/LearningCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
+import { learnHubCards } from "../data/learn";
 import { SITE, fullArticles, quotes } from "../data/site";
 
 const title = "Echo Buddha | Buddhist Wisdom, Quotes & Meditation for Daily Life";
 const description = "Read original Buddhist-inspired quotes, meditation guidance, and practical mindfulness articles for a calmer daily life.";
 const featuredQuotes = quotes.slice(0, 6);
 const latestArticles = fullArticles.slice(0, 6);
+const wisdomCards = [
+  { label: "Learn", href: "/learn/", description: "Open the Echo Buddha Buddhist wisdom learning library." },
+  learnHubCards.find((item) => item.href === "/learn/buddhist-dictionary/"),
+  learnHubCards.find((item) => item.href === "/learn/dhammapada-reflections/"),
+  learnHubCards.find((item) => item.href === "/meditation/"),
+  learnHubCards.find((item) => item.href === "/learn/questions-about-buddhism/"),
+  { label: "Latest Articles", href: "/articles/", description: "Read practical Buddhist-inspired articles and reflections." }
+].filter(Boolean);
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -61,6 +71,16 @@ const jsonLd = [
   <div class="container">
     <AdSlot />
   </div>
+
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Explore Buddhist wisdom</span>
+      <h2>Learning Paths for Daily Practice</h2>
+      <div class="grid grid--3">
+        {wisdomCards.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
 
   <section class="section section-band">
     <div class="container">

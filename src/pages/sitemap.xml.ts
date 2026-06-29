@@ -1,5 +1,10 @@
 import type { APIRoute } from "astro";
 import {
+  allMeditationPages,
+  getAllLearningPages,
+  learningSections
+} from "../data/learn";
+import {
   SITE,
   articleCategories,
   fullArticles,
@@ -13,8 +18,12 @@ const staticPaths = [
   "/about/",
   "/editorial-policy/",
   "/authors/echo-buddha-editorial/",
+  "/learn/",
+  "/learn/questions-about-buddhism/",
+  "/learn/buddhist-resources/",
   "/quotes/",
   "/articles/",
+  "/meditation/",
   "/meditation-guide/",
   "/contact/",
   "/privacy-policy/",
@@ -27,7 +36,19 @@ export const GET: APIRoute = () => {
   const articleCategoryPaths = articleCategories.map((category) => `/articles/category/${category.slug}/`);
   const quoteCategoryPaths = quoteCategories.map((category) => `/quotes/${category.slug}/`);
   const quoteStoryPaths = quotes.map((quote) => getQuoteStoryPath(quote));
-  const urls = [...staticPaths, ...articlePaths, ...articleCategoryPaths, ...quoteCategoryPaths, ...quoteStoryPaths]
+  const learningSectionPaths = learningSections.map((section) => section.href);
+  const learningPagePaths = getAllLearningPages().map((page) => `/learn/${page.section}/${page.slug}/`);
+  const meditationPagePaths = allMeditationPages.map((page) => `/meditation/${page.slug}/`);
+  const urls = [
+    ...staticPaths,
+    ...learningSectionPaths,
+    ...learningPagePaths,
+    ...meditationPagePaths,
+    ...articlePaths,
+    ...articleCategoryPaths,
+    ...quoteCategoryPaths,
+    ...quoteStoryPaths
+  ]
     .map((path) => {
       const loc = new URL(path, SITE.url).toString();
       return `  <url><loc>${loc}</loc></url>`;

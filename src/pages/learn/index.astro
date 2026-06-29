@@ -1,0 +1,150 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import AdSlot from "../../components/AdSlot.astro";
+import { SITE } from "../../data/site";
+import { learnHubCards, popularLearningPaths, getBreadcrumbJsonLd } from "../../data/learn";
+
+const title = "Learn Buddhist Wisdom for Daily Life";
+const description =
+  "Explore Echo Buddha's learning library with beginner-friendly Buddhist teachings, dictionary terms, meditation guidance, Dhammapada reflections, and practical wisdom.";
+const canonicalPath = "/learn/";
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE.name,
+      url: SITE.url
+    }
+  },
+  getBreadcrumbJsonLd([
+    { name: "Home", href: "/" },
+    { name: "Learn", href: "/learn/" }
+  ])
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Learning Library</span>
+      <h1>Learn Buddhist Wisdom for Daily Life</h1>
+      <p class="lede">
+        A peaceful learning library for simple Buddhist-inspired teachings, meditation guidance, reflective reading,
+        and beginner-friendly explanations for everyday practice.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="grid grid--3">
+        {learnHubCards.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+  </div>
+
+  <section class="section section-band">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Start here</span>
+        <h2>New to Buddhist Wisdom?</h2>
+        <p class="lede">
+          Begin with the Buddha's life, the Four Noble Truths, the Noble Eightfold Path, and one simple daily
+          practice. Learning is most useful when it becomes kinder speech, steadier attention, and less harm.
+        </p>
+        <a class="button" href="/learn/buddhism-101/">Open Buddhism 101</a>
+      </div>
+      <div class="surface start-panel">
+        <h3>A Gentle First Path</h3>
+        <ol>
+          <li><a href="/learn/buddhism-101/what-is-buddhism/">Understand what Buddhism is</a></li>
+          <li><a href="/learn/buddhism-101/the-four-noble-truths-explained/">Learn the Four Noble Truths</a></li>
+          <li><a href="/meditation/meditation-for-beginners/">Try beginner meditation</a></li>
+          <li><a href="/quotes/">Read one daily reflection</a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Popular learning paths</span>
+      <h2>Choose a Direction</h2>
+      <div class="path-grid">
+        {popularLearningPaths.map((path) => (
+          <section class="surface path-card">
+            <h3>{path.title}</h3>
+            <ul>
+              {path.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Continue daily wisdom</span>
+        <h2>Read, Reflect, Practice</h2>
+        <p>
+          Explore short original <a href="/quotes/">Buddhist-inspired quotes</a>, practical
+          <a href="/articles/">articles</a>, and the full <a href="/meditation-guide/">meditation guide</a>.
+          Echo Buddha provides educational and reflective content, not professional medical, psychological, legal, or
+          religious authority guidance.
+        </p>
+      </div>
+      <div class="hero-actions">
+        <a class="button" href="/quotes/">Explore daily wisdom</a>
+        <a class="button button--secondary" href="/meditation/">Start meditation</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .start-panel,
+  .path-card {
+    padding: 1.35rem;
+  }
+
+  .start-panel h3,
+  .path-card h3 {
+    font-size: 1.35rem;
+  }
+
+  .start-panel ol,
+  .path-card ul {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+  }
+
+  .path-grid {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .hero-actions {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  @media (min-width: 760px) {
+    .path-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

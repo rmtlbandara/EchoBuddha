@@ -1,0 +1,42 @@
+---
+import type { LearningLink } from "../data/learn";
+
+type Props = {
+  item: LearningLink;
+};
+
+const { item } = Astro.props;
+---
+
+<a class="learning-card surface" href={item.href}>
+  <span>{item.label}</span>
+  {item.description && <p>{item.description}</p>}
+</a>
+
+<style>
+  .learning-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1.2rem;
+    text-decoration: none;
+  }
+
+  .learning-card span {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+
+  .learning-card p {
+    color: var(--color-muted);
+    margin: 0.65rem 0 0;
+  }
+
+  .learning-card:hover {
+    border-color: var(--color-green);
+  }
+</style>
