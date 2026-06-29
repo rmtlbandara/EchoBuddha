@@ -19,10 +19,22 @@ const navItems = [
       <img class="brand-mark" src="/images/buddha-brand-icon.png" alt="" width="96" height="96" aria-hidden="true" />
       <span>Echo Buddha</span>
     </a>
-    <nav class="main-nav" aria-label="Main navigation">
+    <div class="header-actions">
+      <SearchOverlay />
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+        data-menu-toggle
+      >
+        Menu
+      </button>
+    </div>
+    <nav id="main-navigation" class="main-nav" aria-label="Main navigation" data-main-nav>
       {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
     </nav>
-    <SearchOverlay />
   </div>
 </header>
 
@@ -41,6 +53,13 @@ const navItems = [
     gap: 1rem;
     justify-content: space-between;
     min-height: 4.5rem;
+  }
+
+  .header-actions {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 0.5rem;
   }
 
   .skip-link {
@@ -80,6 +99,7 @@ const navItems = [
 
   .main-nav {
     display: flex;
+    flex: 1 1 auto;
     flex-wrap: wrap;
     gap: 0.2rem 0.75rem;
     justify-content: flex-end;
@@ -98,27 +118,105 @@ const navItems = [
     color: var(--color-green);
   }
 
-  @media (max-width: 760px) {
+  .menu-toggle {
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    color: var(--color-muted);
+    cursor: pointer;
+    display: none;
+    font: inherit;
+    font-size: 0.93rem;
+    font-weight: 800;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .menu-toggle:hover {
+    border-color: var(--color-green);
+    color: var(--color-green);
+  }
+
+  @media (max-width: 860px) {
     .header-inner {
-      align-items: flex-start;
-      flex-direction: column;
-      justify-content: center;
-      padding-block: 0.85rem;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      min-height: 4rem;
+      padding-block: 0.7rem;
+    }
+
+    .brand {
+      min-width: 0;
+    }
+
+    .brand span {
+      overflow-wrap: anywhere;
+    }
+
+    .header-actions {
+      margin-left: auto;
+    }
+
+    .menu-toggle {
+      display: inline-flex;
     }
 
     .main-nav {
-      justify-content: flex-start;
+      background: rgba(255, 253, 248, 0.96);
+      border-top: 1px solid var(--color-line);
+      display: none;
+      gap: 0.35rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      order: 3;
+      padding-top: 0.7rem;
+      width: 100%;
+    }
+
+    .site-header[data-nav-open="true"] .main-nav {
+      display: grid;
+    }
+
+    .main-nav a {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.62);
+      border: 1px solid var(--color-line);
+      display: inline-flex;
+      min-height: 2.75rem;
+      padding: 0.55rem 0.7rem;
     }
   }
 
-  @media (max-width: 920px) and (min-width: 761px) {
-    .header-inner {
-      flex-wrap: wrap;
+  @media (max-width: 360px) {
+    .brand {
+      font-size: 1.12rem;
+      gap: 0.45rem;
+    }
+
+    .brand-mark {
+      height: 1.85rem;
+      width: 1.85rem;
+    }
+
+    .header-actions {
+      gap: 0.35rem;
     }
 
     .main-nav {
-      order: 3;
-      width: 100%;
+      grid-template-columns: 1fr;
     }
   }
 </style>
+
+<script is:inline>
+  const header = document.querySelector(".site-header");
+  const menuToggle = header?.querySelector("[data-menu-toggle]");
+
+  menuToggle?.addEventListener("click", () => {
+    const isOpen = header?.dataset.navOpen === "true";
+    header.dataset.navOpen = isOpen ? "false" : "true";
+    menuToggle.setAttribute("aria-expanded", String(!isOpen));
+    menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+  });
+</script>

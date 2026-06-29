@@ -1,5 +1,5 @@
 ---
-const popularSearches = ["Mindfulness", "Anicca", "Metta", "Karma", "Meditation", "Four Noble Truths"];
+const popularSearches = ["Mindfulness", "Metta", "Karma", "Anicca", "Meditation", "Dhammapada"];
 ---
 
 <div class="search-overlay" data-search-overlay data-search-root data-search-mode="overlay" data-open="false">
@@ -69,8 +69,9 @@ const popularSearches = ["Mindfulness", "Anicca", "Metta", "Karma", "Meditation"
     font-size: 0.93rem;
     font-weight: 800;
     gap: 0.35rem;
-    min-height: 2.35rem;
-    padding: 0.35rem 0.55rem;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.7rem;
   }
 
   .search-trigger:hover {
@@ -207,6 +208,28 @@ const popularSearches = ["Mindfulness", "Anicca", "Metta", "Karma", "Meditation"
   @media (min-width: 620px) {
     .search-form {
       grid-template-columns: minmax(0, 1fr) auto;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .search-panel {
+      inset: 4.75rem 0.75rem auto;
+      max-height: calc(100vh - 5.5rem);
+      padding: 1rem;
+      width: calc(100% - 1.5rem);
+    }
+
+    .search-panel__header {
+      gap: 0.75rem;
+    }
+
+    .search-panel h2 {
+      font-size: 1.65rem;
+    }
+
+    .popular-searches button,
+    .full-search-link {
+      min-height: 2.5rem;
     }
   }
 </style>
