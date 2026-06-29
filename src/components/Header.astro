@@ -4,8 +4,8 @@ import SearchOverlay from "./SearchOverlay.astro";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/learn/", label: "Learn" },
-  { href: "/quotes/", label: "Quotes" },
   { href: "/articles/", label: "Articles" },
+  { href: "/quotes/", label: "Quotes" },
   { href: "/meditation/", label: "Meditation" },
   { href: "/about/", label: "About" },
   { href: "/contact/", label: "Contact" }
@@ -19,6 +19,9 @@ const navItems = [
       <img class="brand-mark" src="/images/buddha-brand-icon.png" alt="" width="96" height="96" aria-hidden="true" />
       <span>Echo Buddha</span>
     </a>
+    <nav id="main-navigation" class="main-nav" aria-label="Main navigation" data-main-nav>
+      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
     <div class="header-actions">
       <SearchOverlay />
       <button
@@ -32,9 +35,6 @@ const navItems = [
         Menu
       </button>
     </div>
-    <nav id="main-navigation" class="main-nav" aria-label="Main navigation" data-main-nav>
-      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
-    </nav>
   </div>
 </header>
 
