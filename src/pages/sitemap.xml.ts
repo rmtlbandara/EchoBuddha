@@ -8,37 +8,66 @@ import {
   SITE,
   articleCategories,
   fullArticles,
+  getArticleSeoDetails,
   getQuoteStoryPath,
   quoteCategories,
   quotes
 } from "../data/site";
 
-const staticPaths = [
-  "/",
-  "/about/",
-  "/editorial-policy/",
-  "/authors/echo-buddha-editorial/",
-  "/learn/",
-  "/learn/questions-about-buddhism/",
-  "/learn/buddhist-resources/",
-  "/quotes/",
-  "/articles/",
-  "/meditation/",
-  "/meditation-guide/",
-  "/contact/",
-  "/privacy-policy/",
-  "/terms-of-use/",
-  "/disclaimer/"
+const siteLastModified = "2026-07-01";
+
+type SitemapEntry = {
+  path: string;
+  lastmod?: string;
+};
+
+const staticPaths: SitemapEntry[] = [
+  { path: "/", lastmod: siteLastModified },
+  { path: "/about/", lastmod: siteLastModified },
+  { path: "/editorial-policy/", lastmod: siteLastModified },
+  { path: "/authors/echo-buddha-editorial/", lastmod: siteLastModified },
+  { path: "/learn/", lastmod: siteLastModified },
+  { path: "/learn/questions-about-buddhism/", lastmod: siteLastModified },
+  { path: "/learn/buddhist-resources/", lastmod: siteLastModified },
+  { path: "/quotes/", lastmod: siteLastModified },
+  { path: "/articles/", lastmod: siteLastModified },
+  { path: "/meditation/", lastmod: siteLastModified },
+  { path: "/meditation-guide/", lastmod: siteLastModified },
+  { path: "/contact/", lastmod: siteLastModified },
+  { path: "/privacy-policy/", lastmod: siteLastModified },
+  { path: "/terms-of-use/", lastmod: siteLastModified },
+  { path: "/disclaimer/", lastmod: siteLastModified }
 ];
 
 export const GET: APIRoute = () => {
-  const articlePaths = fullArticles.map((article) => `/articles/${article.slug}/`);
-  const articleCategoryPaths = articleCategories.map((category) => `/articles/category/${category.slug}/`);
-  const quoteCategoryPaths = quoteCategories.map((category) => `/quotes/${category.slug}/`);
-  const quoteStoryPaths = quotes.map((quote) => getQuoteStoryPath(quote));
-  const learningSectionPaths = learningSections.map((section) => section.href);
-  const learningPagePaths = getAllLearningPages().map((page) => `/learn/${page.section}/${page.slug}/`);
-  const meditationPagePaths = allMeditationPages.map((page) => `/meditation/${page.slug}/`);
+  const articlePaths = fullArticles.map((article) => ({
+    path: `/articles/${article.slug}/`,
+    lastmod: getArticleSeoDetails(article.slug)?.reviewedDate ?? article.date
+  }));
+  const articleCategoryPaths = articleCategories.map((category) => ({
+    path: `/articles/category/${category.slug}/`,
+    lastmod: siteLastModified
+  }));
+  const quoteCategoryPaths = quoteCategories.map((category) => ({
+    path: `/quotes/${category.slug}/`,
+    lastmod: siteLastModified
+  }));
+  const quoteStoryPaths = quotes.map((quote) => ({
+    path: getQuoteStoryPath(quote),
+    lastmod: siteLastModified
+  }));
+  const learningSectionPaths = learningSections.map((section) => ({
+    path: section.href,
+    lastmod: siteLastModified
+  }));
+  const learningPagePaths = getAllLearningPages().map((page) => ({
+    path: `/learn/${page.section}/${page.slug}/`,
+    lastmod: siteLastModified
+  }));
+  const meditationPagePaths = allMeditationPages.map((page) => ({
+    path: `/meditation/${page.slug}/`,
+    lastmod: siteLastModified
+  }));
   const urls = [
     ...staticPaths,
     ...learningSectionPaths,
@@ -49,9 +78,10 @@ export const GET: APIRoute = () => {
     ...quoteCategoryPaths,
     ...quoteStoryPaths
   ]
-    .map((path) => {
-      const loc = new URL(path, SITE.url).toString();
-      return `  <url><loc>${loc}</loc></url>`;
+    .map((entry) => {
+      const loc = new URL(entry.path, SITE.url).toString();
+      const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : "";
+      return `  <url><loc>${loc}</loc>${lastmod}</url>`;
     })
     .join("\n");
 

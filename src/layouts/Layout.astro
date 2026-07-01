@@ -10,6 +10,10 @@ type Props = {
   canonicalPath?: string;
   type?: "website" | "article";
   image?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
   publishedDate?: string;
   modifiedDate?: string;
   author?: string;
@@ -23,6 +27,10 @@ const {
   canonicalPath,
   type = "website",
   image,
+  ogTitle,
+  ogDescription,
+  twitterTitle,
+  twitterDescription,
   publishedDate,
   modifiedDate,
   author,
@@ -48,6 +56,10 @@ const {
       canonicalPath={canonicalPath}
       type={type}
       image={image}
+      ogTitle={ogTitle}
+      ogDescription={ogDescription}
+      twitterTitle={twitterTitle}
+      twitterDescription={twitterDescription}
       publishedDate={publishedDate}
       modifiedDate={modifiedDate}
       author={author}

@@ -7,6 +7,10 @@ type Props = {
   canonicalPath?: string;
   type?: "website" | "article";
   image?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
   publishedDate?: string;
   modifiedDate?: string;
   author?: string;
@@ -20,6 +24,10 @@ const {
   canonicalPath = Astro.url.pathname,
   type = "website",
   image = "/og-default.svg",
+  ogTitle,
+  ogDescription,
+  twitterTitle,
+  twitterDescription,
   publishedDate,
   modifiedDate,
   author,
@@ -33,6 +41,32 @@ const isBrandedTitle = title === SITE.name
   || title.startsWith(`${SITE.name} |`)
   || title.endsWith(`| ${SITE.name}`);
 const pageTitle = isBrandedTitle ? title : `${title} | ${SITE.name}`;
+const openGraphTitle = ogTitle ?? pageTitle;
+const openGraphDescription = ogDescription ?? description;
+const twitterCardTitle = twitterTitle ?? openGraphTitle;
+const twitterCardDescription = twitterDescription ?? openGraphDescription;
+const globalJsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE.name,
+    url: SITE.url,
+    description: SITE.description,
+    inLanguage: "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    logo: {
+      "@type": "ImageObject",
+      url: new URL("/images/buddha-brand-icon.png", SITE.url).toString()
+    }
+  }
+];
+const pageJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+const structuredData = [...globalJsonLd, ...pageJsonLd];
 ---
 
 <title>{pageTitle}</title>
@@ -42,15 +76,15 @@ const pageTitle = isBrandedTitle ? title : `${title} | ${SITE.name}`;
 <meta property="og:locale" content={SITE.locale} />
 <meta property="og:site_name" content={SITE.name} />
 <meta property="og:type" content={type} />
-<meta property="og:title" content={pageTitle} />
-<meta property="og:description" content={description} />
+<meta property="og:title" content={openGraphTitle} />
+<meta property="og:description" content={openGraphDescription} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={imageUrl} />
 {type === "article" && publishedDate && <meta property="article:published_time" content={publishedDate} />}
 {type === "article" && modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
 {type === "article" && author && <meta property="article:author" content={author} />}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={pageTitle} />
-<meta name="twitter:description" content={description} />
+<meta name="twitter:title" content={twitterCardTitle} />
+<meta name="twitter:description" content={twitterCardDescription} />
 <meta name="twitter:image" content={imageUrl} />
-{jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />

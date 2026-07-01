@@ -5,10 +5,14 @@ import ArticleCard from "../components/ArticleCard.astro";
 import LearningCard from "../components/LearningCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
 import { learnHubCards } from "../data/learn";
-import { SITE, fullArticles, quotes } from "../data/site";
+import { fullArticles, quotes } from "../data/site";
 
-const title = "Echo Buddha | Buddhist Wisdom, Quotes & Meditation for Daily Life";
-const description = "Read original Buddhist-inspired quotes, meditation guidance, and practical mindfulness articles for a calmer daily life.";
+const title = "Echo Buddha | Buddhist Wisdom, Mindfulness and Meditation for Daily Life";
+const description = "Echo Buddha shares original Buddhist-inspired quotes, meditation guidance, mindfulness reflections, and simple wisdom for a peaceful daily life.";
+const ogTitle = "Echo Buddha | Buddhist Wisdom for Daily Life";
+const ogDescription = "Explore original Buddhist-inspired reflections, meditation guidance, mindfulness articles, and peaceful quotes for daily living.";
+const twitterTitle = "Echo Buddha | Buddhist Wisdom for Daily Life";
+const twitterDescription = "Original Buddhist-inspired quotes, mindfulness reflections, and meditation guidance for a peaceful mind.";
 const featuredQuotes = quotes.slice(0, 6);
 const latestArticles = fullArticles.slice(0, 6);
 const wisdomCards = [
@@ -23,26 +27,17 @@ const wisdomCards = [
   learnHubCards.find((item) => item.href === "/learn/questions-about-buddhism/"),
   { label: "Latest Articles", href: "/articles/", description: "Read practical Buddhist-inspired articles and reflections." }
 ].filter(Boolean);
-const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: SITE.name,
-    url: SITE.url,
-    description: SITE.description,
-    inLanguage: "en"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url,
-    email: SITE.email
-  }
-];
 ---
 
-<Layout title={title} description={description} canonicalPath="/" jsonLd={jsonLd}>
+<Layout
+  title={title}
+  description={description}
+  canonicalPath="/"
+  ogTitle={ogTitle}
+  ogDescription={ogDescription}
+  twitterTitle={twitterTitle}
+  twitterDescription={twitterDescription}
+>
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
@@ -67,6 +62,7 @@ const jsonLd = [
           height="960"
           loading="eager"
           decoding="async"
+          fetchpriority="high"
         />
       </div>
     </div>
