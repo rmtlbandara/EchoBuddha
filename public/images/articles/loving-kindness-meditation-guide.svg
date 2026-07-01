@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Loving-kindness meditation illustration</title>
+  <desc id="desc">A soft heart-shaped lotus glow in warm green and gold.</desc>
+  <rect width="1200" height="675" fill="#fff7e8"/>
+  <circle cx="600" cy="310" r="210" fill="#edf1df"/>
+  <path d="M600 250 C552 178 430 205 430 316 C430 407 527 462 600 525 C673 462 770 407 770 316 C770 205 648 178 600 250 Z" fill="#d9a441" opacity=".78"/>
+  <g transform="translate(600 420)" fill="#b98235">
+    <path d="M0 -120 C-52 -60 -52 8 0 62 C52 8 52 -60 0 -120 Z"/>
+    <path d="M-35 -78 C-108 -32 -118 43 -45 96 C6 33 15 -30 -35 -78 Z" opacity=".82"/>
+    <path d="M35 -78 C108 -32 118 43 45 96 C-6 33 -15 -30 35 -78 Z" opacity=".82"/>
+  </g>
+  <path d="M0 565 C230 520 445 540 620 565 C825 595 1010 532 1200 565 L1200 675 L0 675 Z" fill="#dfe8d3"/>
+</svg>

@@ -2226,6 +2226,722 @@ const articleVisuals = {
 
 export const articles: Article[] = [
   {
+    slug: "what-is-buddhism-beginner-guide",
+    title: "What Is Buddhism? A Beginner-Friendly Guide",
+    seoTitle: "What Is Buddhism? Beginner Guide to Buddhist Wisdom",
+    description: "A clear beginner guide to Buddhism, the Buddha's teaching, mindful living, compassion, and the path toward a steadier mind.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/what-is-buddhism-beginner-guide.svg",
+    imageAlt: "Minimal path, lotus, and warm sun illustration for a beginner guide to Buddhism",
+    featured: true,
+    tags: ["Buddhism for beginners", "Buddhist wisdom", "mindful living"],
+    relatedSlugs: ["buddhism-for-beginners-simple-guide", "four-noble-truths-explained-simply", "noble-eightfold-path-practical-guide"],
+    content: [
+      {
+        paragraphs: [
+          "Buddhism can look mysterious from the outside. Some people first meet it through meditation, some through quotes about peace, and some through a difficult life season that makes them ask deeper questions. A simple way to begin is this: Buddhism is a path of understanding the mind, reducing suffering, and living with wisdom and compassion.",
+          "This guide is written for readers who want a respectful, plain-language introduction. It does not try to compress every Buddhist culture or school into one small box. Instead, it introduces the central ideas that many Buddhist traditions share, then shows how those ideas can be practiced in ordinary life."
+        ]
+      },
+      {
+        heading: "The Meaning of Buddhism",
+        paragraphs: [
+          "The word Buddha means awakened one. In most Buddhist traditions, it refers to Siddhartha Gautama, a historical teacher who awakened to the causes of suffering and shared a practical path for others to investigate. Buddhism grows from his teaching, but it is not only a set of beliefs. It is also a discipline of attention, conduct, and understanding.",
+          "A beginner does not need to memorize long lists before starting. A useful beginning is to notice the difference between actions that create more agitation and actions that bring steadiness, kindness, and clarity. This approach connects directly with <a href=\"/articles/buddhism-for-beginners-simple-guide/\">Buddhism for beginners</a> and the practical spirit of the path."
+        ]
+      },
+      {
+        heading: "The Main Concern: Suffering and Freedom",
+        paragraphs: [
+          "Buddhist teaching begins with an honest observation: life includes dissatisfaction, loss, aging, conflict, fear, and uncertainty. This does not mean life is only pain. It means that even pleasant things cannot provide permanent security. When the mind demands permanence from changing things, stress appears.",
+          "The good news is that Buddhism does not stop at diagnosis. It points toward causes and conditions. Craving, clinging, ignorance, and reactive habits can be understood. When they are understood, they can soften. This is why the <a href=\"/articles/four-noble-truths-explained-simply/\">Four Noble Truths</a> are so important for beginners."
+        ]
+      },
+      {
+        heading: "Meditation Is Part of the Path, Not the Whole Path",
+        paragraphs: [
+          "Many people equate Buddhism with meditation. Meditation is important, but the path also includes ethical speech, wise action, generosity, patience, and understanding. Sitting quietly for ten minutes is valuable. Speaking honestly and kindly during a tense conversation is also practice.",
+          "If you want a practical starting point, try pairing a short daily sit with one mindful choice. For example, pause before sending a sharp message, listen fully when someone is speaking, or notice the breath before reacting. The <a href=\"/articles/how-to-meditate-for-beginners/\">beginner meditation guide</a> can help you begin gently."
+        ]
+      },
+      {
+        heading: "A Simple Daily Example",
+        paragraphs: [
+          "Imagine you are criticized at work. A familiar habit may arise: defensiveness, replaying the words, planning a reply, or judging yourself. Buddhist practice does not ask you to pretend the criticism feels pleasant. It invites you to observe the reaction clearly. What is present in the body? What story is the mind repeating? What response would reduce harm?",
+          "This tiny moment contains the path. You see suffering. You notice clinging to praise or identity. You pause. You choose a wiser response. The teaching becomes practical because it enters the details of daily life."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "One misunderstanding is that Buddhism teaches people to feel nothing. In truth, Buddhist practice helps people feel more clearly without being ruled by every emotion. Another misunderstanding is that non-attachment means not caring. Non-attachment means caring without trying to possess, control, or freeze life.",
+          "A third misunderstanding is that Buddhism is pessimistic. The teaching is realistic, but its purpose is freedom. It faces pain because pain can be understood. It studies the mind because the mind can be trained."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Three Gentle Pauses",
+        paragraphs: [
+          "Today, choose three ordinary moments to pause: before opening your phone, before replying to someone, and before eating. In each pause, take one slow breath and ask, \"What is happening in my mind right now?\" Do not force a special feeling. Simply notice.",
+          "This exercise introduces mindfulness without pressure. It also helps you see that the path is not separate from life. Every moment of attention can become a doorway into wisdom."
+        ]
+      },
+      {
+        heading: "Related Terms for Beginners",
+        paragraphs: [
+          "Helpful terms include the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, karma, impermanence, and non-attachment. These words become clearer when they are connected to experience. For example, impermanence is not only an idea; it is visible in moods, relationships, weather, plans, and the body.",
+          "Original reflection: Buddhism begins when we stop treating the mind as an enemy or a master. We learn to meet it as a field of causes and conditions, worthy of patience, honesty, and care."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "four-noble-truths-explained-simply",
+    title: "The Four Noble Truths Explained Simply",
+    seoTitle: "Four Noble Truths Explained Simply for Beginners",
+    description: "A simple explanation of the Four Noble Truths with daily examples, reflection prompts, and practical Buddhist wisdom.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/four-noble-truths-explained-simply.svg",
+    imageAlt: "Four calm stepping stones leading toward a sunrise to represent the Four Noble Truths",
+    featured: true,
+    tags: ["Four Noble Truths", "Buddhist teachings", "suffering"],
+    relatedSlugs: ["what-is-buddhism-beginner-guide", "noble-eightfold-path-practical-guide", "how-to-let-go-of-attachment-in-buddhism"],
+    content: [
+      {
+        paragraphs: [
+          "The Four Noble Truths are often described as the foundation of Buddhism. They are not commandments and they are not meant to make life sound hopeless. They are more like a careful map of human stress: what it feels like, why it keeps returning, whether freedom is possible, and how to walk toward that freedom.",
+          "For a beginner, the Four Noble Truths become meaningful when they are connected to ordinary life. They speak to disappointment, worry, comparison, loss, and the pressure to make changing things stay exactly the way we want."
+        ]
+      },
+      {
+        heading: "First Noble Truth: Life Includes Dukkha",
+        paragraphs: [
+          "Dukkha is often translated as suffering, stress, or unsatisfactoriness. It includes obvious pain, such as grief or illness, but also subtler forms of unease. Even when life is going well, the mind may fear losing what it has, want more, or feel incomplete.",
+          "This truth is not a complaint about life. It is an honest starting point. If we cannot admit stress, we cannot understand it. If we cannot understand it, we keep repeating the same habits."
+        ]
+      },
+      {
+        heading: "Second Noble Truth: Craving and Clinging Add Fuel",
+        paragraphs: [
+          "The second truth points to craving, clinging, and ignorance as conditions that intensify suffering. We cling to pleasant feelings, resist unpleasant feelings, and build identity around changing experiences. The problem is not that we love, work, plan, or hope. The problem is the tight grip that says, \"This must not change\" or \"I cannot be okay unless I get this.\"",
+          "You can see this in small moments. A message goes unanswered and the mind creates a story. A plan changes and irritation rises. Praise appears and we want it to continue. The teaching asks us to notice the grip."
+        ]
+      },
+      {
+        heading: "Third Noble Truth: Letting Go Is Possible",
+        paragraphs: [
+          "The third truth is the hopeful truth. If suffering is conditioned, then it can soften when its conditions soften. When craving, hatred, and confusion are understood, they do not control the mind in the same way. There can be peace, even in an imperfect life.",
+          "This does not mean every difficulty disappears. It means the mind can relate to difficulty differently. A person may still face loss, conflict, and responsibility, but without adding as much fear, resentment, or self-blame."
+        ]
+      },
+      {
+        heading: "Fourth Noble Truth: There Is a Path",
+        paragraphs: [
+          "The fourth truth is the Noble Eightfold Path: right view, intention, speech, action, livelihood, effort, mindfulness, and concentration. It turns insight into practice. Instead of only wishing to be peaceful, we cultivate conditions that support peace.",
+          "For a fuller companion guide, read <a href=\"/articles/noble-eightfold-path-practical-guide/\">the Noble Eightfold Path explained for daily life</a>. The path is where Buddhist wisdom becomes visible in conversations, habits, choices, and attention."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Suppose you compare yourself to someone online. First, you notice dukkha: tightness, envy, inadequacy. Second, you notice craving: wanting a different life, a different face, a different timeline. Third, you glimpse that the pain can soften if the craving is not fed. Fourth, you practice: breathe, put down the phone, speak kindly to yourself, and choose one useful action.",
+          "This is not a dramatic spiritual moment. It is ordinary practice. The Four Noble Truths are powerful because they apply to moments that look small but shape the heart."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "A common misunderstanding is that the First Noble Truth says life is only suffering. It does not. It says that conditioned life cannot provide complete and permanent satisfaction. Another misunderstanding is that desire itself is always bad. Buddhist practice looks more carefully at craving, compulsion, and clinging.",
+          "The teaching also does not ask people to become passive. The path includes wise action. Letting go is not giving up; it is releasing the mental grip that adds unnecessary pain."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Name the Pattern",
+        paragraphs: [
+          "When stress arises today, quietly name four things: \"stress is here,\" \"grasping is here,\" \"softening is possible,\" and \"one wise step is available.\" This simple reflection turns the Four Noble Truths into a practical tool.",
+          "Original reflection: The Four Noble Truths do not shame us for suffering. They treat suffering as something understandable, workable, and worthy of compassion."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "noble-eightfold-path-practical-guide",
+    title: "The Noble Eightfold Path: A Practical Guide for Daily Life",
+    seoTitle: "Noble Eightfold Path Practical Guide for Daily Life",
+    description: "Learn how the Noble Eightfold Path can guide speech, action, mindfulness, meditation, and everyday choices with clarity.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "8 min read",
+    thumbnail: "/images/articles/noble-eightfold-path-practical-guide.svg",
+    imageAlt: "Eight simple golden path markers arranged in a calm circular path",
+    featured: true,
+    tags: ["Eightfold Path", "Buddhist practice", "daily life"],
+    relatedSlugs: ["four-noble-truths-explained-simply", "right-speech-buddhism", "beginning-a-daily-mindfulness-practice"],
+    content: [
+      {
+        paragraphs: [
+          "The Noble Eightfold Path is the practical heart of Buddhist training. It describes eight areas of life that can be developed together: view, intention, speech, action, livelihood, effort, mindfulness, and concentration. The word path matters. These are not boxes to check once. They are directions to walk repeatedly.",
+          "Many beginners appreciate the Eightfold Path because it makes Buddhism concrete. It shows that peace is shaped by what we believe, what we intend, how we speak, how we act, and how we train attention."
+        ]
+      },
+      {
+        heading: "Right View: Seeing More Clearly",
+        paragraphs: [
+          "Right view begins with understanding that actions have consequences, experience is shaped by conditions, and clinging leads to suffering. It also includes the insight that life is changing. When view becomes clearer, we stop asking changing things to provide permanent security.",
+          "A practical example is noticing that anger feels justified in the moment but often leaves harm behind. Right view does not deny anger; it sees its cost."
+        ]
+      },
+      {
+        heading: "Right Intention: The Direction of the Heart",
+        paragraphs: [
+          "Right intention points the heart toward renunciation, goodwill, and harmlessness. In daily language, it asks: Am I moving from grasping or generosity? From resentment or goodwill? From carelessness or compassion?",
+          "Before a difficult conversation, pause and set one intention: \"May I speak truthfully without trying to wound.\" This connects naturally with <a href=\"/articles/right-speech-buddhism/\">right speech in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "Right Speech and Right Action",
+        paragraphs: [
+          "Right speech includes truthfulness, kindness, usefulness, and timing. It asks us to avoid lying, harshness, divisive speech, and empty chatter that feeds confusion. Right action concerns conduct: not harming, not taking what is not given, and acting with responsibility.",
+          "These practices may sound simple, but they are deep. A peaceful mind is difficult to cultivate when our words create regret or our actions create fear."
+        ]
+      },
+      {
+        heading: "Right Livelihood and Right Effort",
+        paragraphs: [
+          "Right livelihood asks whether our work causes harm or supports a life of integrity. Not everyone can change jobs easily, but everyone can examine how they earn, spend, lead, sell, and communicate. The question is not perfection. The question is direction.",
+          "Right effort means training energy wisely. We abandon unwholesome states, prevent new ones where possible, cultivate wholesome states, and sustain them. This is steady gardening, not self-attack."
+        ]
+      },
+      {
+        heading: "Right Mindfulness and Right Concentration",
+        paragraphs: [
+          "Right mindfulness is clear, present awareness of body, feeling, mind, and patterns. Right concentration develops stability through meditation. Together, they help us see experience without being immediately carried away.",
+          "A beginner can start with <a href=\"/articles/mindfulness-of-breathing-guide/\">mindfulness of breathing</a>. The breath becomes a simple place to return when the mind is scattered."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Right does not mean morally superior or rigid. It means skillful, helpful, and aligned with liberation. Another misunderstanding is to treat the eight factors as separate steps. In practice, they support one another. Clear view helps speech. Careful speech supports meditation. Meditation strengthens wise effort.",
+          "The path is also not a demand for instant purity. It is a training. You notice, adjust, begin again, and learn."
+        ]
+      },
+      {
+        heading: "Practice Exercise: One Factor a Day",
+        paragraphs: [
+          "For the next eight days, choose one factor each morning. On the day of right speech, listen for unnecessary exaggeration. On the day of right effort, notice whether your energy is harsh or wise. On the day of mindfulness, return to the breath several times.",
+          "Original reflection: The Eightfold Path is not far from home. It appears in emails, meals, traffic, work, silence, apology, and the quiet decision to begin again."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "impermanence-in-buddhism-letting-go",
+    title: "Impermanence in Buddhism: Learning to Let Go Gently",
+    seoTitle: "Impermanence in Buddhism and How to Let Go Gently",
+    description: "Understand impermanence in Buddhism with gentle examples, common misunderstandings, and a practical reflection exercise.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/impermanence-in-buddhism-letting-go.svg",
+    imageAlt: "Falling leaves beside a quiet bowl representing impermanence and gentle letting go",
+    featured: true,
+    tags: ["impermanence", "letting go", "Buddhist wisdom"],
+    relatedSlugs: ["buddhist-teachings-on-impermanence", "how-to-let-go-of-attachment-in-buddhism", "letting-go-without-giving-up"],
+    content: [
+      {
+        paragraphs: [
+          "Impermanence is one of the clearest teachings in Buddhism and one of the hardest to accept emotionally. We know things change. We have seen seasons turn, bodies age, moods shift, and plans dissolve. Yet the heart still reaches for certainty. It wants pleasant things to stay and painful things to leave immediately.",
+          "Buddhist reflection on impermanence is not meant to make life cold or sad. It helps us love more wisely. When we understand change, we can hold people, possessions, success, and identity with less fear."
+        ]
+      },
+      {
+        heading: "What Impermanence Means",
+        paragraphs: [
+          "Impermanence means that conditioned things arise, change, and pass away. Thoughts change. Emotions change. Relationships change. The body changes. Even strong opinions and personal stories shift over time. Nothing made of conditions can remain exactly the same forever.",
+          "This teaching is closely connected to <a href=\"/articles/buddhist-teachings-on-impermanence/\">Buddhist teachings on impermanence</a>, but it becomes real only when we observe it directly."
+        ]
+      },
+      {
+        heading: "Why Change Feels Threatening",
+        paragraphs: [
+          "Change feels threatening when the mind builds safety around what cannot be controlled. A job, relationship, appearance, routine, or reputation may feel like proof that we are secure. When it changes, the mind may panic because it confused a temporary condition with a permanent refuge.",
+          "This does not mean we should stop caring. It means we learn to care with open hands. We still protect what is precious, but we do not ask it to defeat the nature of life."
+        ]
+      },
+      {
+        heading: "Letting Go Is Not Rejection",
+        paragraphs: [
+          "Letting go is sometimes misunderstood as indifference. In Buddhist practice, letting go means releasing the extra clinging that turns love into control and preference into demand. A parent can love a child deeply while accepting that the child changes. A person can enjoy success without building identity entirely on it.",
+          "For a related angle, read <a href=\"/articles/letting-go-without-giving-up/\">letting go without giving up</a>. Gentle release can coexist with responsibility."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Imagine a peaceful morning turning difficult because an unexpected task appears. The plan changed. The mind says, \"This should not be happening.\" Stress grows not only from the task, but from resistance to change. If you notice impermanence, you may still feel inconvenience, but you can respond without as much inner struggle.",
+          "The practice is simple: acknowledge the change, feel the body, soften the demand, and take the next wise step."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Impermanence does not mean nothing matters. It means things matter because they are alive, changing, and vulnerable. It does not mean we should avoid commitment. It means commitment becomes more compassionate when we remember that people and conditions are not fixed objects.",
+          "Another misunderstanding is that impermanence should erase grief. It does not. Grief may still come. But understanding change can reduce the added suffering that says loss should be impossible."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Watch One Change",
+        paragraphs: [
+          "Choose one ordinary changing experience today: a cup of tea cooling, light moving across a wall, a feeling rising and fading, or a sound appearing and disappearing. Watch it carefully for one minute. Say quietly, \"Changing, changing.\"",
+          "Original reflection: Impermanence does not steal beauty from life. It asks us to meet beauty while it is here, without demanding that it become permanent to be worthy of love."
+        ]
+      },
+      {
+        heading: "Related Terms",
+        paragraphs: [
+          "Related terms include anicca, non-attachment, clinging, mindfulness, equanimity, and dependent arising. Each points to a different side of the same insight: life is a moving field of conditions, and peace grows when the mind stops insisting that the moving field stand still."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "compassion-in-buddhism-beginner-guide",
+    title: "Compassion in Buddhism: A Beginner's Guide",
+    seoTitle: "Compassion in Buddhism: Beginner Guide and Daily Practice",
+    description: "Learn what compassion means in Buddhism, how it differs from pity, and how to practice it in daily life.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/compassion-in-buddhism-beginner-guide.svg",
+    imageAlt: "Two simple hands holding a small lotus to symbolize compassion in Buddhism",
+    featured: true,
+    tags: ["compassion", "karuna", "Buddhist practice"],
+    relatedSlugs: ["compassion-as-a-daily-discipline", "loving-kindness-meditation-guide", "buddhist-teachings-on-forgiveness"],
+    content: [
+      {
+        paragraphs: [
+          "Compassion is central to Buddhist practice. It is the sincere wish that suffering be understood, eased, and not increased. Compassion includes warmth, but it is stronger than a passing feeling. It becomes visible in how we listen, speak, forgive, set boundaries, and respond to pain.",
+          "For beginners, compassion can feel both inspiring and difficult. We may want to be kind, yet become impatient with others or harsh toward ourselves. Buddhist practice begins exactly there: with honesty and a willingness to train the heart."
+        ]
+      },
+      {
+        heading: "What Compassion Means",
+        paragraphs: [
+          "The traditional term karuna is often translated as compassion. It is different from pity. Pity looks down from a distance. Compassion recognizes shared vulnerability. It says, \"Suffering is present, and I do not want to add more.\"",
+          "Compassion also differs from rescuing. It does not require fixing everything or saying yes to every request. Wise compassion includes discernment, patience, and sometimes a clear boundary."
+        ]
+      },
+      {
+        heading: "Compassion Begins With Seeing",
+        paragraphs: [
+          "It is difficult to respond compassionately to what we refuse to see. Buddhist practice trains us to notice suffering without immediately turning away. This may mean noticing another person's fear beneath anger, or noticing our own shame beneath defensiveness.",
+          "Mindfulness supports compassion because it slows the moment down. When we see more clearly, we have more choices. The article on <a href=\"/articles/beginning-a-daily-mindfulness-practice/\">beginning a daily mindfulness practice</a> offers a simple foundation."
+        ]
+      },
+      {
+        heading: "Self-Compassion Is Not Self-Indulgence",
+        paragraphs: [
+          "Some people worry that self-compassion will make them lazy or excuse harmful behavior. In practice, harshness often creates more hiding, shame, and resistance. Compassion allows honest accountability without self-hatred.",
+          "If you make a mistake, self-compassion says: \"This caused pain. I can learn. I can repair what is possible. I do not need to become my worst action.\" This attitude supports growth better than inner punishment."
+        ]
+      },
+      {
+        heading: "Compassion in Difficult Conversations",
+        paragraphs: [
+          "Compassion does not mean avoiding truth. In a difficult conversation, compassionate speech may be firm, but it avoids cruelty. It considers timing, tone, intention, and the real effect of words. This connects with <a href=\"/articles/right-speech-buddhism/\">right speech</a> as a daily practice.",
+          "Before speaking, ask three questions: Is it true? Is it useful? Can it be said with less harm? These questions do not guarantee perfection, but they change the direction of the conversation."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "A common misunderstanding is that compassion means absorbing everyone else's pain. That leads to exhaustion. Buddhist compassion is supported by wisdom and equanimity. It cares deeply while recognizing that each person has conditions, choices, and limits.",
+          "Another misunderstanding is that compassion must feel soft. Sometimes compassion feels steady, brave, and clear. It may say no. It may protect the vulnerable. It may pause instead of reacting."
+        ]
+      },
+      {
+        heading: "Practice Exercise: One Compassionate Wish",
+        paragraphs: [
+          "Choose one person today: a loved one, a stranger, a difficult person, or yourself. Quietly repeat, \"May you be free from suffering. May you meet this moment with wisdom.\" Do not force emotion. Let the words train direction.",
+          "For a structured practice, try <a href=\"/articles/loving-kindness-meditation-guide/\">loving-kindness meditation</a>, which gently expands goodwill and care."
+        ]
+      },
+      {
+        heading: "Original Reflection",
+        paragraphs: [
+          "Compassion is not a decoration placed on top of spiritual life. It is the way wisdom moves when it enters the world. When we understand that suffering has causes, we become less interested in blame and more interested in healing."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "how-to-meditate-for-beginners",
+    title: "How to Meditate for Beginners: A Simple Buddhist Guide",
+    seoTitle: "How to Meditate for Beginners: Simple Buddhist Guide",
+    description: "A calm beginner meditation guide with posture tips, breath practice, common obstacles, and a simple daily routine.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Meditation",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/how-to-meditate-for-beginners.svg",
+    imageAlt: "Simple meditation cushion under a soft sun for a beginner meditation guide",
+    featured: true,
+    tags: ["meditation for beginners", "Buddhist meditation", "mindfulness"],
+    relatedSlugs: ["mindfulness-of-breathing-guide", "beginning-a-daily-mindfulness-practice", "how-to-meditate-for-anxiety"],
+    content: [
+      {
+        paragraphs: [
+          "Meditation often sounds more complicated than it needs to be. A beginner may wonder whether the mind must become blank, whether a special posture is required, or whether five distracted minutes count. In Buddhist practice, meditation begins more simply: sit down, know that you are breathing, and return kindly when the mind wanders.",
+          "This guide offers a gentle starting point. It is not meant to replace a teacher or a living tradition, but it can help you build a daily habit with confidence and respect."
+        ]
+      },
+      {
+        heading: "Choose a Simple Place and Time",
+        paragraphs: [
+          "Pick a place where you can sit without too much interruption. It does not need to be perfectly quiet. A chair, cushion, or folded blanket is enough. The best time is the time you can repeat: morning before the day begins, evening before sleep, or a short pause at lunch.",
+          "Start with five minutes. Consistency matters more than length. A short practice done daily trains the mind better than a long practice done once and then abandoned."
+        ]
+      },
+      {
+        heading: "Find a Stable Posture",
+        paragraphs: [
+          "Sit with the body upright but not stiff. Let the hands rest easily. If you use a chair, keep both feet on the floor if possible. If you use a cushion, support the knees so the body can settle. The eyes may be gently closed or softly open.",
+          "The posture is not a performance. It supports alertness and ease. If pain appears, adjust respectfully. Meditation is not a contest against the body."
+        ]
+      },
+      {
+        heading: "Use the Breath as an Anchor",
+        paragraphs: [
+          "Bring attention to the natural breath. Feel it at the nostrils, chest, belly, or wherever it is easiest to notice. You do not need to breathe in a special way. Just know breathing in as breathing in, and breathing out as breathing out.",
+          "When thoughts pull attention away, recognize that the mind has wandered and return to the breath. This returning is the practice. For a deeper version, read <a href=\"/articles/mindfulness-of-breathing-guide/\">mindfulness of breathing</a>."
+        ]
+      },
+      {
+        heading: "What to Do With Thoughts",
+        paragraphs: [
+          "Thoughts will come. Planning, remembering, judging, and daydreaming are normal. The goal is not to destroy thought but to stop being completely carried away by it. You can silently note \"thinking\" and return to the breath.",
+          "A useful attitude is kindness. If you scold the mind every time it wanders, meditation becomes another source of stress. If you return patiently, the mind slowly learns stability."
+        ]
+      },
+      {
+        heading: "Common Beginner Obstacles",
+        paragraphs: [
+          "Restlessness, sleepiness, boredom, doubt, and impatience are common. Restlessness may ask for a softer breath and shorter session. Sleepiness may ask for open eyes or morning practice. Doubt may ask for realistic expectations. Boredom may be a chance to notice how the mind chases stimulation.",
+          "Nothing has gone wrong when obstacles appear. They are part of training. Each one teaches something about how the mind seeks comfort or resists discomfort."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Five Minutes of Returning",
+        paragraphs: [
+          "Set a timer for five minutes. Sit upright. Feel three breaths clearly. When the mind wanders, say quietly, \"returning,\" and come back to the breath. At the end, notice how the body and mind feel without judging the session.",
+          "If you want to connect meditation with daily life, pair this exercise with <a href=\"/meditation-guide/\">the Echo Buddha meditation guide</a>."
+        ]
+      },
+      {
+        heading: "Original Reflection",
+        paragraphs: [
+          "Meditation is not the art of never wandering. It is the art of returning without cruelty. Each return is a small act of freedom because it shows that attention can be trained."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "mindfulness-of-breathing-guide",
+    title: "Mindfulness of Breathing: A Step-by-Step Guide",
+    seoTitle: "Mindfulness of Breathing Guide for Calm and Clarity",
+    description: "A step-by-step mindfulness of breathing guide for beginners, including posture, attention, obstacles, and daily practice.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Meditation",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/mindfulness-of-breathing-guide.svg",
+    imageAlt: "Soft flowing breath lines above a meditation cushion in a calm illustration",
+    featured: true,
+    tags: ["mindfulness of breathing", "anapanasati", "meditation"],
+    relatedSlugs: ["how-to-meditate-for-beginners", "mindfulness-vs-meditation", "beginning-a-daily-mindfulness-practice"],
+    content: [
+      {
+        paragraphs: [
+          "Mindfulness of breathing is one of the simplest and most reliable meditation practices. The breath is always close. It changes with the body and mind, yet it remains available as a steady object of attention. For beginners, the breath teaches presence without requiring complicated beliefs.",
+          "In Buddhist practice, mindfulness of breathing can support calm, clarity, patience, and insight. It helps us notice how attention moves, how thoughts arise, and how the body holds stress."
+        ]
+      },
+      {
+        heading: "Begin With the Body",
+        paragraphs: [
+          "Sit in a stable posture. Let the spine rise naturally. Relax the jaw, shoulders, belly, and hands as much as possible. Before focusing tightly on the breath, spend a few moments feeling the whole body sitting.",
+          "This matters because mindfulness is embodied. A tense, forced posture can make the mind feel like it is trying too hard. A supported posture invites alert ease."
+        ]
+      },
+      {
+        heading: "Find the Breath",
+        paragraphs: [
+          "Notice where the breath is easiest to feel. Some people feel it at the nostrils as coolness and warmth. Others feel the chest rising and falling, or the belly moving gently. Choose one place and stay with it for the session.",
+          "You do not need to improve the breath. Let it be long when it is long, short when it is short, rough when it is rough, and smooth when it is smooth."
+        ]
+      },
+      {
+        heading: "Use Counting if Helpful",
+        paragraphs: [
+          "If attention feels scattered, count breaths from one to ten. Count one after an out-breath, two after the next, and so on. When you lose count, begin again at one without frustration. Counting is a training support, not a test.",
+          "When the mind feels steadier, release counting and simply know the breathing. This approach pairs well with <a href=\"/articles/how-to-meditate-for-beginners/\">a beginner meditation routine</a>."
+        ]
+      },
+      {
+        heading: "Notice the Whole Cycle",
+        paragraphs: [
+          "Try to know the beginning, middle, and end of each breath. Notice the pause after breathing out. Notice the impulse to breathe in. This careful attention helps the mind settle into direct experience rather than commentary.",
+          "If thoughts arise, do not treat them as enemies. Know them briefly and return. The breath is home base."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "A common misunderstanding is that mindfulness of breathing is only relaxation. Relaxation may happen, but the deeper training is awareness. Another misunderstanding is that a busy mind means failure. In truth, noticing a busy mind is mindfulness beginning to work.",
+          "It is also easy to force the breath. If you feel strain, widen attention to the whole body for a few breaths, then return gently."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Ten Breath Windows",
+        paragraphs: [
+          "For ten breaths, give each breath a small window of attention. Know breathing in. Know breathing out. If the mind leaves, simply return on the next breath. After ten breaths, rest attention in the whole body for a moment.",
+          "Repeat this exercise once or twice daily. It can also help before a meeting, while waiting, or after reading a reflective quote from <a href=\"/quotes/\">the Buddhist quotes collection</a>."
+        ]
+      },
+      {
+        heading: "Related Terms and Reflection",
+        paragraphs: [
+          "Related terms include mindfulness, concentration, anapanasati, calm, insight, body awareness, and present-moment attention.",
+          "Original reflection: The breath asks very little from us. It simply invites us to return to the life already happening, one quiet moment at a time."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "loving-kindness-meditation-guide",
+    title: "Loving-Kindness Meditation: A Gentle Practice Guide",
+    seoTitle: "Loving-Kindness Meditation Guide for Beginners",
+    description: "A beginner-friendly loving-kindness meditation guide with phrases, stages, examples, and common misunderstandings.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Meditation",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/loving-kindness-meditation-guide.svg",
+    imageAlt: "Soft heart-shaped lotus glow representing loving-kindness meditation",
+    featured: true,
+    tags: ["loving-kindness meditation", "metta", "compassion"],
+    relatedSlugs: ["metta-meditation-script", "compassion-in-buddhism-beginner-guide", "compassion-as-a-daily-discipline"],
+    content: [
+      {
+        paragraphs: [
+          "Loving-kindness meditation, often called metta practice, trains the heart in goodwill. It uses simple phrases to cultivate friendliness toward oneself and others. The practice can be quiet and gentle, but it is not sentimental. It gradually challenges resentment, self-hatred, indifference, and the habit of seeing others as obstacles.",
+          "A beginner can practice loving-kindness in a few minutes. The key is not to force emotion. The key is to plant a wise intention again and again."
+        ]
+      },
+      {
+        heading: "What Loving-Kindness Means",
+        paragraphs: [
+          "Loving-kindness is the wish for well-being. It says, \"May you be safe. May you be peaceful. May you live with ease.\" It is related to compassion, but not identical. Compassion responds to suffering. Loving-kindness offers goodwill whether suffering is obvious or not.",
+          "This practice supports <a href=\"/articles/compassion-in-buddhism-beginner-guide/\">compassion in Buddhist life</a> because goodwill makes the heart less reactive."
+        ]
+      },
+      {
+        heading: "Choose Simple Phrases",
+        paragraphs: [
+          "Use phrases that feel clear and sincere. Common examples include: May I be safe. May I be peaceful. May I be healthy. May I live with ease. You can adjust the words while keeping the meaning wholesome.",
+          "The phrases are not magic spells. They are training signals. They gently point the mind toward care instead of hostility."
+        ]
+      },
+      {
+        heading: "Begin With Yourself",
+        paragraphs: [
+          "Many people find self-kindness difficult. If beginning with yourself feels too hard, begin with a benefactor, a person or presence that naturally brings warmth. Then return to yourself later. The practice should be honest, not forced.",
+          "When self-critical thoughts arise, include them in awareness. You might say, \"Even with this harshness present, may I learn to meet myself with wisdom.\""
+        ]
+      },
+      {
+        heading: "Expand the Circle",
+        paragraphs: [
+          "A traditional sequence moves from oneself to a benefactor, a dear friend, a neutral person, a difficult person, and eventually all beings. Beginners can move slowly. There is no need to rush toward the most difficult person in your life.",
+          "A neutral person can be powerful: the cashier, driver, neighbor, or stranger online. Loving-kindness reminds us that unseen lives are real."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Loving-kindness does not mean approving harmful behavior. You can wish a difficult person freedom from hatred while still keeping boundaries. In fact, wise boundaries may be an expression of compassion for everyone involved.",
+          "Another misunderstanding is that the practice must feel warm every time. Some days it may feel dry. Continue gently. Repetition shapes the heart even when emotion is quiet."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Five-Minute Metta",
+        paragraphs: [
+          "Sit comfortably. Place attention on the body. Repeat for yourself: \"May I be safe. May I be peaceful. May I meet this moment with kindness.\" Then offer the same phrases to someone you care about. End by offering goodwill to one neutral person.",
+          "For a longer structure, visit the <a href=\"/articles/metta-meditation-script/\">metta meditation script</a>."
+        ]
+      },
+      {
+        heading: "Original Reflection",
+        paragraphs: [
+          "Loving-kindness is a quiet rebellion against the habit of turning pain into hardness. It teaches the heart that care can be practiced, not merely waited for."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "dhammapada-reflection-what-we-think",
+    title: "Dhammapada Reflection: What We Think, We Become",
+    seoTitle: "Dhammapada Reflection on Thought, Intention, and Mind",
+    description: "An original reflection inspired by broad Dhammapada themes on thought, intention, karma, and the shaping of the mind.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/dhammapada-reflection-what-we-think.svg",
+    imageAlt: "Quiet mind ripple and lotus illustration inspired by Dhammapada reflections on thought",
+    featured: true,
+    tags: ["Dhammapada reflection", "Buddhist quotes", "mind training"],
+    relatedSlugs: ["dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism", "buddhist-wisdom-for-overthinking"],
+    content: [
+      {
+        paragraphs: [
+          "Many readers meet the Dhammapada through short verses about the mind. A common theme is that experience is deeply shaped by thought, intention, and the qualities we cultivate. This article offers an original reflection inspired by those broad themes. It is not a verified translation of any verse.",
+          "The idea that thought shapes life can be misunderstood. Buddhism does not say that every painful event is caused by one private thought. It points more carefully to the way repeated intentions, reactions, and habits condition how we experience and respond to the world."
+        ]
+      },
+      {
+        heading: "The Mind as a Starting Point",
+        paragraphs: [
+          "The mind often moves before speech and action. A resentful thought may become a sharp message. A compassionate thought may become patience. A fearful thought may become avoidance. Buddhist practice asks us to notice this early movement.",
+          "This is why mindfulness matters. When we see thought as thought, we gain space. We do not have to obey every mental story. For related support, read <a href=\"/articles/buddhist-wisdom-for-overthinking/\">Buddhist wisdom for overthinking</a>."
+        ]
+      },
+      {
+        heading: "Thought Is Not the Same as Truth",
+        paragraphs: [
+          "A thought can feel powerful without being accurate. The mind may say, \"I always fail,\" \"They do not care,\" or \"This feeling will never end.\" Meditation reveals that thoughts arise, stay for a time, and pass. Seeing this does not make thoughts meaningless; it makes them workable.",
+          "A wise practitioner asks: Does this thought lead toward kindness, clarity, and responsibility, or toward more confusion and harm?"
+        ]
+      },
+      {
+        heading: "Intention Shapes Karma",
+        paragraphs: [
+          "In Buddhism, karma is closely connected with intentional action. The quality behind an action matters. Greed, hatred, and confusion lead in one direction; generosity, compassion, and wisdom lead in another. This is not about cosmic bookkeeping in a simplistic sense. It is about conditions and consequences.",
+          "For a fuller explanation, see <a href=\"/articles/what-is-karma-in-buddhism/\">what karma means in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Imagine waking with the thought, \"This day will be terrible.\" If that thought goes unquestioned, it may shape posture, tone, attention, and choices. You may overlook kindness and notice only irritation. But if you recognize it as a passing mental event, the day has more room.",
+          "You might say, \"A discouraged thought is here.\" Then you make tea, breathe, and choose one helpful action. The mind is not magically fixed, but a different seed has been planted."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "One misunderstanding is that Buddhism blames people for suffering because of their thoughts. That is not a compassionate reading. Conditions are complex: body, history, society, relationships, and environment all matter. Practice simply shows that mental habits are one important condition we can gradually train.",
+          "Another misunderstanding is that positive thinking is enough. Buddhist practice is deeper than repeating pleasant ideas. It includes ethical action, mindfulness, effort, and wisdom."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Track One Thought",
+        paragraphs: [
+          "Choose one repeated thought today. Write it down. Ask: What feeling follows this thought? What action does it encourage? Is it completely true? What wiser thought could guide me without denying reality?",
+          "You can pair this reflection with a quote from <a href=\"/quotes/\">the Buddhist quotes library</a> and notice which words support a steadier mind."
+        ]
+      },
+      {
+        heading: "Original Reflection and Source Note",
+        paragraphs: [
+          "Original reflection: A thought is a seed, but attention is the soil. What we water repeatedly begins to shape the path beneath our feet.",
+          "Source note: This article reflects broad Dhammapada themes about mind, intention, heedfulness, and consequence. It is an original educational reflection, not a quoted or verified translation."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "dhammapada-reflection-trained-mind",
+    title: "Dhammapada Reflection: A Trained Mind Brings Peace",
+    seoTitle: "Dhammapada Reflection on a Trained Mind and Peace",
+    description: "An original Dhammapada-inspired reflection on training the mind, patience, attention, and inner peace in daily life.",
+    date: "2026-07-01",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/dhammapada-reflection-trained-mind.svg",
+    imageAlt: "Calm lamp and lotus illustration for a Dhammapada-inspired reflection on training the mind",
+    featured: true,
+    tags: ["Dhammapada reflection", "trained mind", "inner peace"],
+    relatedSlugs: ["dhammapada-reflection-what-we-think", "mindfulness-of-breathing-guide", "how-to-meditate-for-beginners"],
+    content: [
+      {
+        paragraphs: [
+          "A recurring theme in the Dhammapada is the importance of training the mind. An untrained mind can run toward anger, fear, craving, and distraction. A trained mind can become a source of peace. This article is an original reflection inspired by those broad themes, not a verified translation of any verse.",
+          "The phrase trained mind may sound strict, but Buddhist training is not about violence toward oneself. It is a patient education of attention, intention, speech, and action."
+        ]
+      },
+      {
+        heading: "What It Means to Train the Mind",
+        paragraphs: [
+          "Training the mind means learning to recognize patterns before they take over. It includes returning to the breath, noticing anger in the body, questioning unhelpful thoughts, and cultivating wholesome qualities. The mind is not treated as bad. It is treated as trainable.",
+          "This approach connects directly with <a href=\"/articles/how-to-meditate-for-beginners/\">beginner meditation</a>, where the simple act of returning becomes a foundation for freedom."
+        ]
+      },
+      {
+        heading: "Peace Is Not Passivity",
+        paragraphs: [
+          "A trained mind is not numb. It can respond to pain, injustice, and responsibility with steadiness rather than panic. Peace does not mean life becomes easy or that strong feelings never arise. It means the mind has more room around what arises.",
+          "This room matters. In that space, we can choose speech that heals instead of harms, effort that helps instead of exhausts, and action that reflects values instead of impulse."
+        ]
+      },
+      {
+        heading: "The Training Happens in Small Moments",
+        paragraphs: [
+          "A quiet meditation session is valuable, but training also happens when the phone buzzes, when someone interrupts, when traffic slows, or when a memory stings. Each moment asks whether we will feed the old habit or practice a wiser response.",
+          "You do not need a perfect environment. You need repeated moments of honest attention. The <a href=\"/articles/mindfulness-of-breathing-guide/\">mindfulness of breathing guide</a> gives a steady anchor for this work."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "One misunderstanding is that a trained mind never feels anger, sadness, or fear. In reality, training helps us know these states without being fully possessed by them. Another misunderstanding is that peace means withdrawing from the world. Buddhist peace can support wiser engagement.",
+          "Training also should not become perfectionism. If you turn practice into self-criticism, return to kindness. A harsh mind is not the goal."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Someone speaks sharply to you. The untrained habit may respond with instant sharpness. A trained mind feels the sting, notices heat in the body, breathes, and chooses a response. It may still set a boundary, but it does not need to add unnecessary harm.",
+          "This is peace in action. It is not dramatic. It is practical."
+        ]
+      },
+      {
+        heading: "Practice Exercise: Return Three Times",
+        paragraphs: [
+          "Today, choose three moments to return: one during meditation, one during work, and one during a conversation. Each time, feel one breath and ask, \"What would a trained mind do next?\" Then choose one small action.",
+          "For a supportive quote practice, explore <a href=\"/quotes/\">Buddhist quotes by category</a> and choose one line to carry through the day."
+        ]
+      },
+      {
+        heading: "Original Reflection and Source Note",
+        paragraphs: [
+          "Original reflection: The trained mind is not a locked room. It is an open window. It lets the weather pass through without letting every storm rearrange the house.",
+          "Source note: This article reflects broad Dhammapada themes about mindfulness, heedfulness, training, and peace. It is original educational commentary, not a quoted or verified translation."
+        ]
+      }
+    ]
+  },
+  {
     slug: "buddhism-for-beginners-simple-guide",
     title: "Buddhism for Beginners: A Simple Guide to the Path",
     description: "A clear introduction to Buddhist teachings, meditation, ethics, and practical wisdom for beginners.",
@@ -3911,6 +4627,239 @@ type ArticleWeek2Upgrade = Partial<Pick<Article, "seoTitle" | "description" | "r
   appendContent: ArticleContentSection[];
 };
 
+const week3ArticleExpansions: Record<string, ArticleContentSection[]> = {
+  "what-is-buddhism-beginner-guide": [
+    {
+      heading: "How Buddhism Helps With Modern Stress",
+      paragraphs: [
+        "Modern life often trains the mind to hurry, compare, and consume more than it can digest. Buddhist practice offers a different rhythm. Instead of asking, \"How can I control everything?\" it asks, \"What is actually happening, and what response reduces suffering?\" This question can be used while reading the news, answering a message, spending money, or sitting with loneliness.",
+        "A beginner may notice that stress is not only caused by events. It is also shaped by interpretation. A delayed reply becomes rejection. A mistake becomes identity. A changing plan becomes disaster. Buddhist mindfulness creates enough space to see the event and the story separately, which makes wiser action possible."
+      ]
+    },
+    {
+      heading: "A Respectful Way to Keep Learning",
+      paragraphs: [
+        "Because Buddhism is lived through many cultures and lineages, it is helpful to learn with humility. Read introductory teachings, but also remember that Buddhism is not only inspirational quotes. It includes community, ethics, meditation, ritual, study, and long traditions of practice. Move slowly and avoid treating sacred ideas as decorations for self-improvement.",
+        "A simple next step is to choose one theme for the week. You might study impermanence, practice mindful breathing, or notice right speech. Keep a small note each evening: What did I notice? Where did I cling? Where did kindness become possible? This keeps learning grounded in experience."
+      ]
+    }
+  ],
+  "four-noble-truths-explained-simply": [
+    {
+      heading: "How the Four Truths Work Together",
+      paragraphs: [
+        "The Four Noble Truths are sometimes studied one by one, but in life they often appear together. You feel stress, notice the craving or resistance underneath it, glimpse that the grip can soften, and choose a step that supports release. This can happen in a meditation session, a family disagreement, or a moment of self-criticism.",
+        "The power of the teaching is that it avoids two extremes. It does not deny pain, and it does not make pain into a permanent identity. It says that suffering is real, but it is also conditioned. Because it is conditioned, the way we relate to it can change."
+      ]
+    },
+    {
+      heading: "Reflection Questions for Practice",
+      paragraphs: [
+        "At the end of the day, ask four gentle questions. Where did I feel dukkha today? What was I wanting, resisting, or protecting? Was there a moment when the grip softened? What part of the path could support me tomorrow? These questions turn doctrine into direct learning.",
+        "Do not use the questions to criticize yourself. Use them the way a careful gardener studies soil, light, and water. The aim is not to blame the plant for struggling. The aim is to understand the conditions that help life grow with less strain."
+      ]
+    }
+  ],
+  "noble-eightfold-path-practical-guide": [
+    {
+      heading: "A Week With the Eightfold Path",
+      paragraphs: [
+        "One practical way to learn the path is to give each factor a day of attention. On Monday, study right view by noticing causes and effects. On Tuesday, practice right intention before speaking. On Wednesday, listen to right speech. On Thursday, observe right action in small choices. Continue in this simple way without turning the practice into pressure.",
+        "By the end of a week, you may see that the eight factors are woven together. A clearer view changes intention. Better intention changes speech. Careful speech calms the mind. A calmer mind can concentrate. The path becomes less abstract when it is watched in real time."
+      ]
+    },
+    {
+      heading: "When the Path Feels Overwhelming",
+      paragraphs: [
+        "Beginners sometimes feel discouraged because the path is wide. There are many teachings, and daily life exposes many habits. The answer is not to rush. Choose one doorway. If speech creates the most regret, begin with speech. If distraction causes suffering, begin with mindfulness. If resentment is heavy, begin with goodwill.",
+        "The Eightfold Path is not asking for instant perfection. It is asking for honest direction. A single moment of restraint, a sincere apology, a mindful breath, or a less harmful choice is already part of the path."
+      ]
+    },
+    {
+      heading: "How to Review Your Practice",
+      paragraphs: [
+        "At the end of the week, review the path gently. Which factor felt most natural? Which one revealed the most resistance? Did one area, such as speech or effort, influence the others? This kind of review helps the path become personal without becoming self-centered.",
+        "Keep the review practical. Write one sentence about what helped and one sentence about what you will practice next. The Eightfold Path grows through repeated, honest adjustments rather than dramatic declarations."
+      ]
+    }
+  ],
+  "impermanence-in-buddhism-letting-go": [
+    {
+      heading: "Impermanence in Relationships",
+      paragraphs: [
+        "Relationships reveal impermanence in a personal way. People grow, moods shift, needs change, and even loving bonds require renewal. Remembering impermanence can make us more attentive. Instead of assuming someone will always be available in the same way, we listen more carefully and speak with more care.",
+        "This reflection can also soften control. We can love someone without demanding that they remain a fixed version of themselves. We can let a friendship change shape, repair what can be repaired, and grieve what cannot return without turning grief into bitterness."
+      ]
+    },
+    {
+      heading: "A Further Reflection on Possessions and Identity",
+      paragraphs: [
+        "Impermanence also applies to the things we call mine: possessions, roles, achievements, opinions, and reputation. These may be useful and meaningful, but they cannot hold the whole weight of identity. When the mind builds itself entirely around them, every change becomes a threat.",
+        "Try asking, \"Who am I when this changes?\" The question is not meant to erase personality. It helps reveal a wider awareness that can meet gain and loss with more balance."
+      ]
+    },
+    {
+      heading: "Using Impermanence Without Becoming Detached From Life",
+      paragraphs: [
+        "The reflection should make life more intimate, not less. When you remember that a conversation will not return in exactly the same form, you may listen more fully. When you remember that health, energy, and opportunity change, you may become more grateful and less careless.",
+        "A balanced practice of impermanence includes appreciation. Notice what is here, care for it well, and let the heart admit that change is part of its beauty.",
+        "A simple phrase can help: \"This is changing, so let me meet it with care.\" Use it during a pleasant moment, not only during loss. This trains the mind to appreciate without tightening around what it loves."
+      ]
+    }
+  ],
+  "compassion-in-buddhism-beginner-guide": [
+    {
+      heading: "Compassion With Boundaries",
+      paragraphs: [
+        "Compassion becomes more sustainable when it includes boundaries. Without boundaries, care can turn into resentment, exhaustion, or enabling. With boundaries, care has a stable shape. You can wish someone well, listen honestly, and still decline a request that would create harm or overwhelm.",
+        "A useful phrase is: \"I care, and I need to be honest about what I can offer.\" This protects both the giver and the receiver. Buddhist compassion is not measured by how much we abandon ourselves. It is measured by how wisely we reduce suffering."
+      ]
+    },
+    {
+      heading: "Compassion for Difficult People",
+      paragraphs: [
+        "Practicing compassion for a difficult person does not mean pretending their behavior is acceptable. It means seeing that harmful actions arise from conditions such as fear, ignorance, craving, pain, or confusion. This wider view can reduce hatred while still allowing accountability.",
+        "Begin with someone only mildly difficult. Notice the body. Offer a simple wish: \"May this person be free from the causes of harm.\" If the practice feels unsafe or forced, return to yourself or a neutral person. Compassion grows best with patience."
+      ]
+    },
+    {
+      heading: "Compassion as a Daily Discipline",
+      paragraphs: [
+        "Compassion becomes real through repetition. Hold the door with attention. Let someone finish speaking. Notice when your words become sharper than needed. Offer help without needing praise. These ordinary gestures train the heart to respond instead of only react.",
+        "At night, review one moment when compassion was present and one moment when it was difficult. This review is not for guilt. It helps you see the conditions that make care easier to remember tomorrow.",
+        "If compassion felt absent, begin again with something small. Send a kind message, soften your tone, or place a hand on your own heart for one breath. Small gestures repeated with sincerity gradually become character.",
+        "Compassion also grows when we pay attention to causes. When someone acts unskillfully, ask what pressure, fear, or confusion may be present without excusing harm. This question can reduce blame and make room for a wiser response."
+      ]
+    }
+  ],
+  "how-to-meditate-for-beginners": [
+    {
+      heading: "Building a Habit That Lasts",
+      paragraphs: [
+        "A meditation habit lasts longer when it is connected to an existing routine. Sit after brushing your teeth, after making tea, or before opening your laptop. Keep the session short enough that the mind cannot make a convincing excuse. The goal is to become the kind of person who returns, not the kind of person who performs perfectly.",
+        "It can help to prepare the space the night before. Place the cushion or chair where you will see it. Keep a timer nearby. Decide the length in advance. These small supports reduce friction, and less friction makes consistency easier."
+      ]
+    },
+    {
+      heading: "How to End a Meditation Session",
+      paragraphs: [
+        "Do not leap up the moment the timer rings. Take one final breath and notice the whole body. Ask, \"What quality can I carry into the next activity?\" It might be patience, steadiness, kindness, or careful speech. This connects formal meditation with the rest of the day.",
+        "After the session, avoid judging it as good or bad. A restless session can teach as much as a calm one. The most important question is whether you practiced returning with honesty and gentleness."
+      ]
+    },
+    {
+      heading: "A Simple Seven-Day Beginner Plan",
+      paragraphs: [
+        "For the first week, keep the plan very simple. Sit for five minutes each day. Use the breath as your anchor. After each session, write one word that describes the mind: restless, calm, sleepy, busy, tender, or clear. This builds familiarity without overthinking.",
+        "On the seventh day, look back and notice patterns. Was one time of day easier? Did posture matter? Did kindness help you return? Use what you learn to make the next week more realistic.",
+        "If you miss a day, do not restart with shame. Simply sit again the next day. A meditation habit is built by returning after interruption, which is also exactly what meditation teaches."
+      ]
+    }
+  ],
+  "mindfulness-of-breathing-guide": [
+    {
+      heading: "Using the Breath Outside Meditation",
+      paragraphs: [
+        "Mindfulness of breathing is not limited to the cushion. You can feel one breath before answering a phone call, entering a meeting, beginning a meal, or replying to criticism. These short returns help the mind remember that awareness is available in ordinary life.",
+        "A single conscious breath will not solve every problem, but it can interrupt automatic momentum. That interruption matters. It gives wisdom a chance to enter before speech or action hardens into habit."
+      ]
+    },
+    {
+      heading: "When the Breath Feels Uncomfortable",
+      paragraphs: [
+        "Sometimes focusing on the breath can feel tight or uneasy, especially when stress is high. If that happens, widen attention to the whole body, sounds in the room, or the feeling of the feet on the floor. Mindfulness should be steady but not forceful.",
+        "After attention becomes less tense, you may return to the breath lightly. If breath practice repeatedly feels distressing, choose a gentler anchor and consider learning with a qualified meditation teacher."
+      ]
+    },
+    {
+      heading: "From Calm to Insight",
+      paragraphs: [
+        "As the breath becomes familiar, you may notice more than breathing. You may see impatience, wanting, judging, or the wish for a special experience. These observations are not distractions from practice. They are part of what mindfulness reveals.",
+        "Stay simple. Know the breath, know the wandering, and return. Over time, this shows that thoughts and moods are changing processes rather than solid commands.",
+        "This insight should be handled gently. You do not need to analyze every mental event. Let the breath remain central, and allow understanding to grow from repeated, calm observation.",
+        "If the mind becomes excited by insight, return to the next breath. If the mind becomes dull, straighten the posture and refresh interest. Balance matters: enough steadiness to stay, enough curiosity to see.",
+        "Even one clearly known breath can interrupt a long chain of distraction, which is why this practice remains useful at every stage. Return to that one breath whenever practice feels too large, and let the next breath teach the same lesson again."
+      ]
+    }
+  ],
+  "loving-kindness-meditation-guide": [
+    {
+      heading: "Choosing the Right Person to Begin With",
+      paragraphs: [
+        "Many instructions begin with offering loving-kindness to yourself, but that is not always the easiest doorway. If self-kindness feels blocked, begin with a person, teacher, elder, friend, or memory that naturally awakens gratitude. Let the heart borrow warmth from an easier place.",
+        "After a few minutes, turn a small portion of that warmth toward yourself. You do not need to believe every phrase strongly. You are practicing a direction: less hostility, more care, less isolation, more goodwill."
+      ]
+    },
+    {
+      heading: "Bringing Metta Into Daily Speech",
+      paragraphs: [
+        "Loving-kindness becomes powerful when it changes how we speak. Before a conversation, silently repeat, \"May my words reduce harm.\" During conflict, remember that the other person also wants safety and respect, even if they express it poorly. This remembrance can soften the urge to win.",
+        "After practicing, choose one concrete expression of goodwill: a patient reply, a sincere thank-you, an apology, or a quiet decision not to spread a harsh story. Metta becomes real when it enters behavior."
+      ]
+    },
+    {
+      heading: "When Loving-Kindness Meets Grief or Anger",
+      paragraphs: [
+        "Strong emotions can make loving-kindness feel dishonest. If grief or anger is present, begin by acknowledging it. Say, \"This is painful,\" or \"Anger is here.\" Then offer the phrases softly, as if placing a small lamp in a dark room rather than forcing the room to become bright.",
+        "You can also narrow the practice. Instead of offering goodwill to all beings, offer it to the part of yourself that is hurting. Instead of choosing a very difficult person, choose someone neutral. This keeps the practice compassionate toward your actual capacity.",
+        "Over time, loving-kindness can make room around painful emotions. The grief may still be grief and the anger may still be anger, but the heart learns that it does not need to become only grief or only anger.",
+        "End by noticing one ordinary being you usually overlook: a passerby, a delivery worker, or a neighbor. Offer one quiet phrase for their well-being. This simple act expands the circle without making the practice abstract.",
+        "When goodwill feels small, let it be small and sincere. A small sincere wish is stronger than a grand phrase spoken without attention. The quiet sincerity is the training, and the repetition slowly makes kindness easier to remember in speech, thought, daily action, difficult conversations, ordinary moments of choice, and the next breath."
+      ]
+    }
+  ],
+  "dhammapada-reflection-what-we-think": [
+    {
+      heading: "A Careful Note About Thought and Responsibility",
+      paragraphs: [
+        "It is important to handle teachings about thought with care. People should not be blamed for illness, trauma, loss, or social hardship because they had the wrong thoughts. Buddhist reflection is more compassionate and more precise than that. It observes that mental habits condition how we respond, not that private thoughts control the whole universe.",
+        "This distinction protects the teaching from becoming harsh. The purpose is not blame. The purpose is freedom. When a repeated thought is seen clearly, it becomes less invisible, and what is less invisible can be met with wisdom."
+      ]
+    },
+    {
+      heading: "A Practice for Planting Better Seeds",
+      paragraphs: [
+        "At the start of the day, choose one intention that can guide thought and action. It might be, \"Today I will pause before assuming,\" or \"Today I will notice one moment of gratitude.\" Write it down. Return to it at midday. Review it in the evening with honesty rather than judgment.",
+        "Over time, these small intentions become seeds. Some will not grow. Some will surprise you. The practice is to keep planting wholesome causes and to learn from the conditions that help them take root."
+      ]
+    },
+    {
+      heading: "How This Reflection Supports Daily Choices",
+      paragraphs: [
+        "The reflection becomes useful when it reaches ordinary decisions. Before repeating a complaint, ask what it will water. Before feeding a jealous thought, ask what it will strengthen. Before speaking from fear, ask whether another intention is available.",
+        "This does not mean every thought must be corrected immediately. It means we learn to recognize the direction of the mind and gently choose which direction deserves our energy.",
+        "A practical review at night can be brief: What thought did I feed today? What thought did I release? What thought helped me act with more care? These questions keep the reflection connected to lived experience."
+      ]
+    }
+  ],
+  "dhammapada-reflection-trained-mind": [
+    {
+      heading: "Training Without Harshness",
+      paragraphs: [
+        "A trained mind is not created by insults. If practice becomes another way to attack yourself, pause and soften. Harshness may create temporary discipline, but it often leaves fear behind. Buddhist training is firmer and kinder than self-punishment. It asks for honesty without hatred.",
+        "When you lose mindfulness, name it simply: \"lost.\" Then return. When anger takes over, acknowledge the harm, repair what can be repaired, and learn the conditions that led there. This is training. It is humble, repeated, and human."
+      ]
+    },
+    {
+      heading: "Signs the Mind Is Becoming More Trainable",
+      paragraphs: [
+        "Progress may appear quietly. You pause one second sooner. You apologize with less pride. You notice anxiety before it becomes a whole story. You stop feeding a resentment that once lasted for days. These signs may look small, but they show that attention is becoming more flexible.",
+        "Do not measure practice only by calm meditation sessions. Measure it by the increasing ability to meet life without adding unnecessary harm. That is where a trained mind begins to bring peace."
+      ]
+    },
+    {
+      heading: "A Gentle Evening Review",
+      paragraphs: [
+        "Each evening, review the mind without punishment. Where did attention stay clear? Where did it get swept away? What condition helped peace? What condition fed agitation? This review turns the day into a teacher.",
+        "End with one compassionate sentence: \"May I learn from this day and begin again tomorrow.\" A trained mind grows through many such returns.",
+        "If the review reveals a mistake, choose one repair rather than a long self-judgment. Repair trains the mind in responsibility. Self-judgment often only trains the mind in fear.",
+        "This evening review can be completed in two minutes. Its power comes from repetition. A mind that checks its direction each day becomes less likely to drift for weeks without noticing.",
+        "In this way, peace becomes less dependent on ideal conditions and more rooted in practiced attention. The review itself becomes another moment of training."
+      ]
+    }
+  ]
+};
+
 const week2ArticleUpgrades: Record<string, ArticleWeek2Upgrade> = {
   "buddhism-for-beginners-simple-guide": {
     seoTitle: "Buddhism for Beginners: A Simple Guide",
@@ -4874,8 +5823,19 @@ function applyWeek2ArticleUpgrade(article: Article): Article {
   };
 }
 
+function applyWeek3ArticleExpansion(article: Article): Article {
+  const appendContent = week3ArticleExpansions[article.slug];
+  if (!appendContent) return article;
+
+  return {
+    ...article,
+    content: [...article.content, ...appendContent]
+  };
+}
+
 export const fullArticles = articles
   .map(applyWeek2ArticleUpgrade)
+  .map(applyWeek3ArticleExpansion)
   .filter((article) => article.content.length > 0)
   .sort((a, b) => b.date.localeCompare(a.date));
 
@@ -6258,8 +7218,381 @@ const week2ArticleSeoDetails: Record<string, ArticleSeoDetails> = {
   }
 };
 
+const week3ArticleSeoDetails: Record<string, ArticleSeoDetails> = {
+  "what-is-buddhism-beginner-guide": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Buddhism is a practical path for understanding suffering and cultivating wisdom.",
+      "Meditation, ethical conduct, and compassion support one another.",
+      "Beginners can start with short pauses, mindful breathing, and careful daily choices.",
+      "Non-attachment means caring without trying to control changing life.",
+      "The Four Noble Truths and Eightfold Path provide a clear foundation for learning."
+    ],
+    faqs: [
+      {
+        question: "What is Buddhism in simple words?",
+        answer:
+          "Buddhism is a path of practice that helps people understand suffering, train the mind, and live with wisdom, compassion, and less clinging."
+      },
+      {
+        question: "Do I need to meditate to learn Buddhism?",
+        answer:
+          "Meditation is helpful, but Buddhist practice also includes ethical speech, wise action, generosity, reflection, and compassion in daily life."
+      },
+      {
+        question: "Is Buddhism a religion or philosophy?",
+        answer:
+          "Buddhism can be lived as a religion, philosophy, and practical path depending on tradition and personal commitment."
+      },
+      {
+        question: "What should a beginner study first?",
+        answer:
+          "Start with the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, karma, and impermanence."
+      },
+      {
+        question: "Can non-Buddhists benefit from Buddhist teachings?",
+        answer:
+          "Yes. Many people benefit from mindfulness, compassion, and ethical reflection without making a formal religious commitment."
+      }
+    ]
+  },
+  "four-noble-truths-explained-simply": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "The Four Noble Truths describe suffering, its causes, its ending, and the path.",
+      "Dukkha includes obvious pain and subtle dissatisfaction.",
+      "Craving and clinging add stress to changing experience.",
+      "Letting go is possible because suffering depends on conditions.",
+      "The Noble Eightfold Path turns insight into daily practice."
+    ],
+    faqs: [
+      {
+        question: "What are the Four Noble Truths?",
+        answer:
+          "They are the truths of suffering, the cause of suffering, the ending of suffering, and the path that leads toward the ending of suffering."
+      },
+      {
+        question: "Does Buddhism teach that life is only suffering?",
+        answer:
+          "No. Buddhism teaches that life includes unsatisfactoriness because changing things cannot provide permanent security."
+      },
+      {
+        question: "What causes suffering in the Four Noble Truths?",
+        answer:
+          "Craving, clinging, and ignorance are central causes because they make the mind grasp at what cannot be fully controlled."
+      },
+      {
+        question: "What is the solution to suffering?",
+        answer:
+          "The solution is gradually weakening craving and confusion through wisdom, ethical conduct, mindfulness, and concentration."
+      },
+      {
+        question: "How can I practice the Four Noble Truths today?",
+        answer:
+          "Notice stress, identify the grip behind it, remember softening is possible, and take one wise action."
+      }
+    ]
+  },
+  "noble-eightfold-path-practical-guide": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "The Eightfold Path trains wisdom, ethical living, and meditation together.",
+      "Right view helps us understand conditions, consequences, and change.",
+      "Right speech and action reduce regret and harm.",
+      "Right mindfulness and concentration steady attention.",
+      "The path is practiced through ordinary choices, not only formal meditation."
+    ],
+    faqs: [
+      {
+        question: "What are the eight parts of the Noble Eightfold Path?",
+        answer:
+          "They are right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration."
+      },
+      {
+        question: "Do the eight factors need to be practiced in order?",
+        answer:
+          "No. They support one another and can be developed together throughout daily life."
+      },
+      {
+        question: "What does right mean in the Eightfold Path?",
+        answer:
+          "Right means skillful, wise, and aligned with reducing suffering rather than being rigid or self-righteous."
+      },
+      {
+        question: "Which part should beginners start with?",
+        answer:
+          "Many beginners start with right speech, right mindfulness, and right effort because these can be practiced immediately."
+      },
+      {
+        question: "Is the Eightfold Path only for monks?",
+        answer:
+          "No. Lay practitioners can apply the path through work, relationships, speech, habits, and meditation."
+      }
+    ]
+  },
+  "impermanence-in-buddhism-letting-go": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Impermanence means conditioned things arise, change, and pass away.",
+      "Suffering increases when the mind demands permanence from changing life.",
+      "Letting go is not indifference; it is caring without clinging.",
+      "Reflection on change can make love wiser and less fearful.",
+      "Small daily observations can make impermanence easier to understand."
+    ],
+    faqs: [
+      {
+        question: "What does impermanence mean in Buddhism?",
+        answer:
+          "Impermanence means that all conditioned experiences, including thoughts, feelings, bodies, plans, and relationships, change over time."
+      },
+      {
+        question: "Does impermanence mean nothing matters?",
+        answer:
+          "No. It means life matters deeply, but it should be held with wisdom because it cannot be made permanently fixed."
+      },
+      {
+        question: "How does impermanence help with letting go?",
+        answer:
+          "It helps us see that clinging to what changes creates extra suffering, while open-handed care allows more peace."
+      },
+      {
+        question: "Can impermanence help with grief?",
+        answer:
+          "It may not remove grief, but it can reduce resistance and help the heart meet loss with compassion."
+      },
+      {
+        question: "How can I practice impermanence today?",
+        answer:
+          "Observe one changing experience, such as breath, light, sound, or mood, and gently note that it is changing."
+      }
+    ]
+  },
+  "compassion-in-buddhism-beginner-guide": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Compassion is the wish that suffering be eased and not increased.",
+      "Buddhist compassion includes wisdom, not only warm emotion.",
+      "Self-compassion supports accountability without self-hatred.",
+      "Compassionate speech can be truthful, firm, and kind.",
+      "Goodwill can be practiced through simple repeated phrases."
+    ],
+    faqs: [
+      {
+        question: "What is compassion in Buddhism?",
+        answer:
+          "Compassion is the sincere wish for suffering to be understood and eased, supported by wisdom and non-harming."
+      },
+      {
+        question: "Is compassion the same as pity?",
+        answer:
+          "No. Pity looks down from a distance, while compassion recognizes shared vulnerability and responds with care."
+      },
+      {
+        question: "Does compassion mean saying yes to everyone?",
+        answer:
+          "No. Wise compassion can include boundaries, honest speech, and protection from harm."
+      },
+      {
+        question: "How can I practice compassion daily?",
+        answer:
+          "Pause before reacting, listen carefully, speak with less harm, and offer a simple wish for well-being."
+      },
+      {
+        question: "Why is self-compassion important?",
+        answer:
+          "Self-compassion helps people learn from mistakes without becoming trapped in shame or harsh self-judgment."
+      }
+    ]
+  },
+  "how-to-meditate-for-beginners": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Beginner meditation starts with posture, breathing, and patient returning.",
+      "The mind does not need to become blank for meditation to be useful.",
+      "Short daily sessions are better than rare long sessions.",
+      "Thoughts are normal and can be met with kindness.",
+      "Common obstacles such as restlessness and sleepiness are part of training."
+    ],
+    faqs: [
+      {
+        question: "How long should beginners meditate?",
+        answer:
+          "Five minutes is enough to begin. Increase gradually only after the habit feels steady."
+      },
+      {
+        question: "Do I need to sit on the floor?",
+        answer:
+          "No. A chair is fine as long as the posture is stable, upright, and reasonably comfortable."
+      },
+      {
+        question: "What should I focus on while meditating?",
+        answer:
+          "The natural breath is a simple anchor. Notice breathing in and breathing out, then return when attention wanders."
+      },
+      {
+        question: "Is it bad if I keep thinking?",
+        answer:
+          "No. Thinking is normal. Meditation trains you to notice thoughts and return without harshness."
+      },
+      {
+        question: "What is the best time to meditate?",
+        answer:
+          "The best time is one you can repeat consistently, such as early morning, lunch break, or evening."
+      }
+    ]
+  },
+  "mindfulness-of-breathing-guide": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Mindfulness of breathing uses the natural breath as a steady anchor.",
+      "The breath should be observed rather than forced.",
+      "Counting can help when attention feels scattered.",
+      "Busy thoughts do not mean the practice is failing.",
+      "Breath awareness can be used both in meditation and daily pauses."
+    ],
+    faqs: [
+      {
+        question: "What is mindfulness of breathing?",
+        answer:
+          "It is a meditation practice that observes the natural breath to develop calm, mindfulness, and clarity."
+      },
+      {
+        question: "Should I control my breath during the practice?",
+        answer:
+          "No. Let the breath move naturally and notice it as clearly as possible."
+      },
+      {
+        question: "Where should I feel the breath?",
+        answer:
+          "Use the nostrils, chest, belly, or any place where the breath is easiest to feel."
+      },
+      {
+        question: "Is counting breaths necessary?",
+        answer:
+          "No. Counting is optional and can be helpful when attention is very restless."
+      },
+      {
+        question: "Can mindfulness of breathing reduce stress?",
+        answer:
+          "It can support calm and awareness, though it should be practiced gently and not treated as a replacement for needed care."
+      }
+    ]
+  },
+  "loving-kindness-meditation-guide": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Loving-kindness meditation trains goodwill through simple phrases.",
+      "Warm emotion is welcome but not required.",
+      "The practice can begin with oneself, a benefactor, or a dear friend.",
+      "Goodwill can coexist with clear boundaries.",
+      "Metta practice supports compassion in daily relationships."
+    ],
+    faqs: [
+      {
+        question: "What is loving-kindness meditation?",
+        answer:
+          "It is a meditation practice that cultivates goodwill toward oneself and others through sincere phrases."
+      },
+      {
+        question: "What phrases can I use for loving-kindness?",
+        answer:
+          "You can use phrases such as: May I be safe, may I be peaceful, may I be healthy, and may I live with ease."
+      },
+      {
+        question: "What if I do not feel loving-kindness?",
+        answer:
+          "That is common. Continue gently with the intention rather than forcing emotion."
+      },
+      {
+        question: "Should I include difficult people?",
+        answer:
+          "Eventually you may, but beginners should move slowly and keep the practice emotionally safe."
+      },
+      {
+        question: "Does loving-kindness mean approving harm?",
+        answer:
+          "No. It wishes for freedom from suffering while still allowing boundaries and accountability."
+      }
+    ]
+  },
+  "dhammapada-reflection-what-we-think": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Broad Dhammapada themes emphasize the role of mind and intention.",
+      "Thoughts can be powerful without being completely true.",
+      "Mindfulness creates space between thought and action.",
+      "Karma is connected with intentional action and its consequences.",
+      "This article is an original reflection, not a verified translation."
+    ],
+    faqs: [
+      {
+        question: "Is this article quoting the Dhammapada?",
+        answer:
+          "No. It is an original reflection inspired by broad Dhammapada themes about mind, intention, and consequence."
+      },
+      {
+        question: "Does Buddhism say thoughts create everything?",
+        answer:
+          "No. Buddhism recognizes many conditions. It highlights thought and intention because they strongly shape response and action."
+      },
+      {
+        question: "How can I work with negative thoughts?",
+        answer:
+          "Notice the thought, question whether it is fully true, feel the body, and choose one wiser response."
+      },
+      {
+        question: "How is thought related to karma?",
+        answer:
+          "Thought and intention influence speech and action, which create consequences for oneself and others."
+      },
+      {
+        question: "Can mindfulness change thinking habits?",
+        answer:
+          "Yes. Mindfulness helps repeated thoughts become visible, which makes new responses possible."
+      }
+    ]
+  },
+  "dhammapada-reflection-trained-mind": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "A trained mind can respond with more steadiness and less reactivity.",
+      "Mind training is patient education, not self-punishment.",
+      "Peace does not mean passivity or numbness.",
+      "Daily interruptions are opportunities to practice attention.",
+      "This article is original commentary inspired by broad Dhammapada themes."
+    ],
+    faqs: [
+      {
+        question: "What is a trained mind in Buddhism?",
+        answer:
+          "A trained mind recognizes patterns, returns to awareness, and responds with more wisdom and less impulse."
+      },
+      {
+        question: "Does a trained mind never feel anger?",
+        answer:
+          "No. Strong feelings may still arise, but practice helps us know them without being ruled by them."
+      },
+      {
+        question: "How do I begin training the mind?",
+        answer:
+          "Start with short breathing meditation, mindful pauses, and one daily intention for wise speech or action."
+      },
+      {
+        question: "Is this a Dhammapada translation?",
+        answer:
+          "No. It is an original reflection based on broad Dhammapada themes about mindfulness, training, and peace."
+      },
+      {
+        question: "Can mind training help in daily life?",
+        answer:
+          "Yes. It can create more space around stress, speech, conflict, distraction, and emotional habits."
+      }
+    ]
+  }
+};
+
 export function getArticleSeoDetails(slug: string) {
-  return week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  return week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
 }
 
 export function getArticleWordCount(article: Article) {

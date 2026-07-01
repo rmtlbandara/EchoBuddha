@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Dhammapada reflection on thought illustration</title>
+  <desc id="desc">A quiet mind ripple and lotus inspired by reflection on thought.</desc>
+  <rect width="1200" height="675" fill="#fff7e8"/>
+  <circle cx="820" cy="170" r="84" fill="#d9a441" opacity=".8"/>
+  <circle cx="575" cy="328" r="220" fill="#edf1df"/>
+  <path d="M345 410 C470 355 660 355 785 410" fill="none" stroke="#9aaa77" stroke-width="14" stroke-linecap="round" opacity=".75"/>
+  <path d="M405 455 C510 415 630 415 735 455" fill="none" stroke="#d9a441" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+  <g transform="translate(575 360)" fill="#b98235">
+    <path d="M0 -95 C-44 -39 -44 18 0 64 C44 18 44 -39 0 -95 Z"/>
+    <path d="M-32 -60 C-88 -25 -96 38 -38 82 C4 31 8 -22 -32 -60 Z" opacity=".8"/>
+    <path d="M32 -60 C88 -25 96 38 38 82 C-4 31 -8 -22 32 -60 Z" opacity=".8"/>
+  </g>
+  <path d="M0 555 C270 510 440 545 605 570 C790 598 1000 528 1200 560 L1200 675 L0 675 Z" fill="#dfe8d3"/>
+</svg>
