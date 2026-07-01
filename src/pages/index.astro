@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import AdSlot from "../components/AdSlot.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
-import { SITE, fullArticles, quotes, type Article } from "../data/site";
+import { SITE, fullArticles, quotes, type Quote } from "../data/site";
 
 const title = "Echo Buddha | Buddhist Wisdom, Meditation & Mindful Quotes";
 const description =
@@ -15,21 +15,29 @@ const twitterTitle = "Echo Buddha | Buddhist Wisdom, Meditation & Mindful Quotes
 const twitterDescription =
   "Beginner-friendly Buddhist wisdom, mindful quotes, meditation guidance, and calm reflections for daily life.";
 
-const articlePrioritySlugs = [
-  "eightfold-path-explained",
-  "how-to-let-go-of-attachment-in-buddhism",
-  "right-speech-buddhism",
-  "buddhist-wisdom-for-overthinking",
-  "impermanence-in-buddhism",
-  "what-is-karma-in-buddhism"
+const getPublishedTime = (date: string) => {
+  const timestamp = Date.parse(date);
+  return Number.isNaN(timestamp) ? Number.NEGATIVE_INFINITY : timestamp;
+};
+
+const homepageArticles = [...fullArticles]
+  .sort((a, b) => getPublishedTime(b.date) - getPublishedTime(a.date))
+  .slice(0, 6);
+
+const featuredQuoteThemes = [
+  "Mindfulness",
+  "Compassion",
+  "Patience",
+  "Awareness",
+  "Letting Go",
+  "Practice",
+  "Meditation",
+  "Wisdom"
 ];
 
-const prioritizedArticles = articlePrioritySlugs
-  .map((slug) => fullArticles.find((article) => article.slug === slug))
-  .filter((article): article is Article => Boolean(article));
-const homepageArticles = prioritizedArticles.length > 0 ? prioritizedArticles.slice(0, 6) : fullArticles.slice(0, 6);
-
-const featuredQuotes = quotes.slice(0, 4);
+const featuredQuotes = featuredQuoteThemes
+  .map((theme) => quotes.find((quote) => quote.theme === theme))
+  .filter((quote): quote is Quote => Boolean(quote));
 
 const guideCards = [
   {
@@ -617,16 +625,34 @@ const homepageJsonLd = [
   }
 
   .quote-grid :global(.quote-card) {
-    min-height: 11rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 12.25rem;
+    overflow: hidden;
+    padding: 1.35rem;
   }
 
   .quote-grid :global(.quote-card::before) {
-    color: rgba(185, 133, 36, 0.16);
-    font-size: 3.3rem;
+    color: rgba(185, 133, 36, 0.14);
+    font-size: 3.1rem;
+    top: 0.55rem;
   }
 
   .quote-grid :global(.quote-card blockquote) {
+    font-size: 1.18rem;
     line-height: 1.5;
+    margin: 1rem 0 1.1rem;
+  }
+
+  .quote-grid :global(.quote-card figcaption) {
+    border-top: 1px solid rgba(232, 223, 210, 0.84);
+    margin-top: auto;
+    padding-top: 0.85rem;
+  }
+
+  .quote-grid :global(.quote-card .story-link) {
+    color: var(--color-brown);
+    font-weight: 800;
   }
 
   .section-end-link {
