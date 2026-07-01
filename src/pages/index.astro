@@ -33,36 +33,47 @@ const featuredQuotes = quotes.slice(0, 4);
 
 const guideCards = [
   {
-    title: "Buddhist Wisdom",
+    title: "Learn Buddhist Wisdom",
     href: "/learn/",
     description: "Learn core ideas with gentle, practical explanations made for everyday reflection.",
     tone: "wisdom"
   },
   {
-    title: "Meditation for Beginners",
-    href: "/meditation-guide/",
-    description: "Start with posture, breathing, and simple awareness practices that fit a quiet day.",
+    title: "Buddhist Dictionary",
+    href: "/learn/buddhist-dictionary/",
+    description: "Explore clear meanings for Buddhist terms such as metta, karma, anicca, and mindfulness.",
+    tone: "dictionary"
+  },
+  {
+    title: "Dhammapada Reflections",
+    href: "/learn/dhammapada-reflections/",
+    description: "Read simple reflections inspired by classic Buddhist wisdom for daily life.",
+    tone: "dhammapada"
+  },
+  {
+    title: "Meditation Practice",
+    href: "/meditation/",
+    description: "Start with breathing, walking, loving-kindness, and short mindful practice guides.",
     tone: "meditation"
   },
   {
-    title: "Daily Mindfulness",
-    href: "/learn/buddhism-101/what-is-mindfulness/",
-    description: "Bring attention into ordinary moments with clear, grounded mindfulness guidance.",
-    tone: "mindfulness"
+    title: "Questions About Buddhism",
+    href: "/learn/questions-about-buddhism/",
+    description: "Find beginner-friendly answers to common questions about Buddhist ideas and practice.",
+    tone: "questions"
   },
   {
-    title: "Buddhist Quotes",
-    href: "/quotes/",
-    description: "Read short original reflections and story pages for calm daily reminders.",
-    tone: "quotes"
+    title: "Latest Articles",
+    href: "/articles/",
+    description: "Read practical Buddhist-inspired articles on wisdom, mindfulness, compassion, and letting go.",
+    tone: "articles"
   }
 ];
 
 const resourceLinks = [
-  { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
-  { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
-  { label: "Beginner Questions", href: "/learn/questions-about-buddhism/" },
-  { label: "Meditation Practice", href: "/meditation/" },
+  { label: "Daily Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" },
+  { label: "Meditation Guide", href: "/meditation-guide/" },
+  { label: "Buddhist Quotes", href: "/quotes/" },
   { label: "Search Echo Buddha", href: "/search/" }
 ];
 
@@ -146,9 +157,9 @@ const homepageJsonLd = [
           thoughtful articles, and simple meditation guidance without noise or pressure.
         </p>
         <div class="hero-actions" aria-label="Homepage quick links">
-          <a class="button" href="/articles/">Explore Articles</a>
-          <a class="button button--secondary" href="/meditation-guide/">Start Meditation</a>
-          <a class="hero-text-link" href="/quotes/">Read Daily Quotes</a>
+          <a class="button" href="/articles/">Read Articles</a>
+          <a class="button button--secondary" href="/meditation-guide/">Start Meditating</a>
+          <a class="hero-text-link" href="/quotes/">Explore Quotes</a>
         </div>
         <ul class="hero-values" aria-label="Echo Buddha values">
           <li>Original reflections</li>
@@ -417,7 +428,7 @@ const homepageJsonLd = [
     color: var(--color-ink);
     display: flex;
     flex-direction: column;
-    min-height: 13.5rem;
+    min-height: 13.25rem;
     padding: 1.35rem;
     text-decoration: none;
     transition:
@@ -471,15 +482,17 @@ const homepageJsonLd = [
     border-color: rgba(95, 127, 98, 0.2);
   }
 
-  .guide-icon--meditation span {
+  .guide-icon--meditation span,
+  .guide-icon--questions span {
     background: var(--color-green);
   }
 
-  .guide-icon--mindfulness span {
+  .guide-icon--dictionary span,
+  .guide-icon--dhammapada span {
     background: var(--color-brown);
   }
 
-  .guide-icon--quotes {
+  .guide-icon--articles {
     background: rgba(151, 93, 47, 0.1);
     border-color: rgba(151, 93, 47, 0.18);
   }
@@ -577,6 +590,43 @@ const homepageJsonLd = [
   .article-grid :global(.article-card),
   .quote-grid :global(.quote-card) {
     height: 100%;
+    transition:
+      border-color 160ms ease,
+      box-shadow 160ms ease,
+      transform 160ms ease;
+  }
+
+  .article-grid :global(.article-card:hover),
+  .article-grid :global(.article-card:focus-within),
+  .quote-grid :global(.quote-card:hover),
+  .quote-grid :global(.quote-card:focus-within) {
+    border-color: rgba(95, 127, 98, 0.38);
+    box-shadow: 0 18px 42px rgba(74, 55, 31, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .article-grid :global(.article-body > p:not(.article-kicker)) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  .article-grid :global(.article-body h3) {
+    line-height: 1.2;
+  }
+
+  .quote-grid :global(.quote-card) {
+    min-height: 11rem;
+  }
+
+  .quote-grid :global(.quote-card::before) {
+    color: rgba(185, 133, 36, 0.16);
+    font-size: 3.3rem;
+  }
+
+  .quote-grid :global(.quote-card blockquote) {
+    line-height: 1.5;
   }
 
   .section-end-link {
@@ -586,7 +636,8 @@ const homepageJsonLd = [
   }
 
   .meditation-section {
-    background: linear-gradient(180deg, rgba(255, 253, 248, 0) 0%, rgba(247, 240, 229, 0.5) 100%);
+    background:
+      linear-gradient(180deg, rgba(255, 253, 248, 0) 0%, rgba(247, 240, 229, 0.5) 100%);
   }
 
   .practice-panel {
@@ -711,6 +762,10 @@ const homepageJsonLd = [
     .guide-grid,
     .article-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .quote-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
     .about-grid {
