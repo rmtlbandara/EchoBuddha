@@ -3002,6 +3002,7 @@ export const articles: Article[] = [
   {
     slug: "what-is-karma-in-buddhism",
     title: "What Is Karma in Buddhism? A Simple Guide for Daily Life",
+    seoTitle: "What Is Karma in Buddhism?",
     description: "Learn what karma means in Buddhism, how it relates to intention, action, and daily life, and how to understand karma in a simple, practical way.",
     date: "2026-06-25",
     author: SITE.author,
@@ -3905,7 +3906,976 @@ export const articles: Article[] = [
   }
 ];
 
+type ArticleContentSection = Article["content"][number];
+type ArticleWeek2Upgrade = Partial<Pick<Article, "seoTitle" | "description" | "readTime" | "relatedSlugs">> & {
+  appendContent: ArticleContentSection[];
+};
+
+const week2ArticleUpgrades: Record<string, ArticleWeek2Upgrade> = {
+  "buddhism-for-beginners-simple-guide": {
+    seoTitle: "Buddhism for Beginners: A Simple Guide",
+    description:
+      "A beginner-friendly guide to Buddhism, the Four Noble Truths, meditation, ethics, and simple daily practice without overwhelm.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "four-noble-truths-explained",
+      "eightfold-path-explained",
+      "beginning-a-daily-mindfulness-practice"
+    ],
+    appendContent: [
+      {
+        heading: "A Practical First Week of Practice",
+        paragraphs: [
+          "A beginner does not need to understand every Buddhist term before beginning. For one week, keep the practice very plain: read one short teaching, sit quietly for five minutes, and choose one moment of speech to handle with more care. This gives the path a body in daily life rather than leaving it as an idea.",
+          "If you want a simple learning route, begin with the <a href=\"/learn/buddhism-101/what-is-buddhism/\">What Is Buddhism?</a> guide, then read the <a href=\"/articles/four-noble-truths-explained/\">Four Noble Truths explained</a>. Let each page answer one question before moving to the next."
+        ]
+      },
+      {
+        heading: "Common Beginner Misunderstandings",
+        paragraphs: [
+          "One misunderstanding is that Buddhism is only meditation. Meditation is important, but the path also includes ethics, generosity, careful speech, and wisdom. Another misunderstanding is that Buddhist practice requires constant calm. The practice is not to become a person without feelings, but to see feelings clearly before they become harmful actions.",
+          "A third misunderstanding is that beginners must choose a Buddhist identity immediately. Some people do, and others learn respectfully without formal commitment. Either way, the important question is whether practice is reducing greed, hatred, confusion, and unnecessary harm."
+        ]
+      },
+      {
+        heading: "A Simple Reflection Exercise",
+        paragraphs: [
+          "At the end of the day, write down three brief notes: one moment of stress, one reaction you noticed, and one kinder response you might try next time. This is not self-judgment. It is the patient study of causes and effects in your own life.",
+          "Original Echo Buddha reflection: \"The path begins where honesty meets the next small choice.\" Use that sentence as a reminder that Buddhist learning becomes real through repeated, ordinary decisions."
+        ]
+      },
+      {
+        heading: "Where to Go Next",
+        paragraphs: [
+          "After this introduction, explore the <a href=\"/articles/eightfold-path-explained/\">Noble Eightfold Path</a>, the <a href=\"/meditation-guide/\">Meditation Guide</a>, and short <a href=\"/quotes/practice/\">practice quotes</a>. These pages connect basic understanding with speech, attention, compassion, and daily choices.",
+          "A gentle next step is enough. Choose one teaching, one practice period, and one relationship where you can reduce harm. That is already a meaningful beginning."
+        ]
+      }
+    ]
+  },
+  "how-to-meditate-for-anxiety": {
+    seoTitle: "How to Meditate for Anxiety Gently",
+    description:
+      "Learn a gentle meditation for anxiety using grounding, breath awareness, body support, and mindful choices without forcing calm.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "buddhist-wisdom-for-overthinking",
+      "mindfulness-for-better-sleep",
+      "beginning-a-daily-mindfulness-practice"
+    ],
+    appendContent: [
+      {
+        heading: "A Gentle Five-Minute Practice",
+        paragraphs: [
+          "Set a timer for five minutes and keep your eyes open or softly lowered. Feel the soles of the feet, the weight of the body, and one sound in the room. If attention moves quickly, let it move. Your task is only to return to one simple anchor without adding blame.",
+          "After a minute or two, notice the breath as part of the whole body rather than as a narrow object you must control. If breathing feels uncomfortable, return to the hands, feet, or contact with the chair. This keeps the practice flexible and kind."
+        ]
+      },
+      {
+        heading: "What Not to Do When Anxiety Is Present",
+        paragraphs: [
+          "Do not turn meditation into a test of whether you can make anxiety vanish. That demand often creates more struggle. Do not force deep breathing if it makes the body feel trapped. Do not criticize yourself for having anxious thoughts during a practice meant to help you notice them.",
+          "Meditation for anxiety is most supportive when it is modest. It gives the mind a steadier relationship with experience, not a guarantee that difficult sensations will disappear on a schedule."
+        ]
+      },
+      {
+        heading: "Applying the Practice During the Day",
+        paragraphs: [
+          "Use ordinary transitions as practice points: before opening email, before answering a message, after parking the car, or before entering a conversation. Feel the feet and name one fact: standing, breathing, hearing, touching. This interrupts the rush toward imagined futures.",
+          "For related support, read <a href=\"/articles/buddhist-wisdom-for-overthinking/\">Buddhist wisdom for overthinking</a> or try the <a href=\"/meditation/breathing-meditation/\">breathing meditation guide</a>. Keep any practice gentle enough that you are willing to return tomorrow."
+        ]
+      },
+      {
+        heading: "When More Support Is Needed",
+        paragraphs: [
+          "Anxiety can be connected with health, trauma, work pressure, grief, or many other conditions. Mindfulness may support awareness and coping, but it is not a replacement for qualified mental health care when symptoms are persistent, intense, or disrupting daily life.",
+          "Original Echo Buddha reflection: \"A steady breath is not a command to be calm; it is an invitation to stay with yourself kindly.\" Let that be the tone of the practice."
+        ]
+      }
+    ]
+  },
+  "loving-kindness-meditation-beginners": {
+    seoTitle: "Loving-Kindness Meditation for Beginners",
+    description:
+      "Practice loving-kindness meditation with simple metta phrases, realistic stages, and gentle ways to bring goodwill into daily life.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "metta-meditation-script",
+      "compassion-as-a-daily-discipline",
+      "buddhist-teachings-on-forgiveness"
+    ],
+    appendContent: [
+      {
+        heading: "A Simple Metta Practice Script",
+        paragraphs: [
+          "Begin by sitting comfortably and softening the face and hands. Repeat slowly: May I be safe. May I be peaceful. May I meet this day with kindness. Let the words be quiet and ordinary. You are not trying to force a feeling; you are practicing a direction of the heart.",
+          "After a few minutes, offer the same phrases to someone easy to care for, then to a neutral person, and finally to a wider circle of life. For a longer version, use the <a href=\"/articles/metta-meditation-script/\">metta meditation script</a>."
+        ]
+      },
+      {
+        heading: "When Loving-Kindness Feels Difficult",
+        paragraphs: [
+          "Some people feel resistance when offering kindness to themselves. Others feel numb or distracted. This does not mean the practice is failing. Metta often reveals the places where the heart has learned to protect itself.",
+          "If a difficult person feels too intense, skip that stage. Loving-kindness should not override safety or boundaries. Practice with yourself, a trusted person, or all beings in a general way until the heart feels steady enough."
+        ]
+      },
+      {
+        heading: "Daily-Life Examples",
+        paragraphs: [
+          "In a tense family conversation, metta may appear as a pause before using a cutting word. At work, it may appear as giving someone the benefit of a clarifying question. In self-talk, it may appear as correcting a mistake without calling yourself names.",
+          "This connects naturally with <a href=\"/articles/compassion-as-a-daily-discipline/\">compassion as a daily discipline</a>. Loving-kindness is not only what happens on the cushion; it is the repeated refusal to make suffering heavier."
+        ]
+      },
+      {
+        heading: "A Reflection to Carry",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Kindness becomes strong when it learns how to stay present without pretending harm is harmless.\" This is especially useful when metta and boundaries need to stand together.",
+          "End each practice by choosing one kind action you can realistically take today. A message, an apology, a patient silence, or a small act of service can bring the meditation into the world."
+        ]
+      }
+    ]
+  },
+  "eightfold-path-explained-daily-life": {
+    seoTitle: "Eightfold Path in Daily Life",
+    description:
+      "See how the Noble Eightfold Path applies to daily life through speech, work, mindfulness, intention, and practical examples.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "eightfold-path-explained",
+      "right-speech-buddhism",
+      "what-is-karma-in-buddhism"
+    ],
+    appendContent: [
+      {
+        heading: "A Day on the Eightfold Path",
+        paragraphs: [
+          "The path can be practiced before breakfast. Wise view remembers that the mood you wake with is conditioned and changing. Wise intention chooses not to let irritation direct the whole morning. Wise speech appears when you answer a question without unnecessary sharpness.",
+          "Wise action may be as simple as keeping a promise. Wise livelihood asks whether the day's work is being done honestly. Wise effort interrupts resentment. Wise mindfulness notices the body. Wise concentration gives full attention to one task."
+        ]
+      },
+      {
+        heading: "Common Mistakes With the Path",
+        paragraphs: [
+          "A common mistake is treating the eight factors as a spiritual scorecard. The path is not a way to rank yourself. It is a way to notice where suffering is being fed and where freedom can be practiced.",
+          "Another mistake is separating meditation from ethics. If speech is careless and actions are harmful, the mind has more agitation to carry into meditation. If meditation is sincere, it should gradually influence how we speak, work, and repair harm."
+        ]
+      },
+      {
+        heading: "A Weekly Practice Exercise",
+        paragraphs: [
+          "Choose one path factor each week. If you choose wise speech, watch exaggeration, gossip, timing, and tone. If you choose wise effort, notice what mental states you keep feeding. If you choose wise mindfulness, use ordinary routines as reminders to return.",
+          "For a deeper beginner explanation, read <a href=\"/articles/eightfold-path-explained/\">The Noble Eightfold Path Explained</a>. For one specific factor, explore <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "A Modern-Life Reflection",
+        paragraphs: [
+          "Modern life offers many chances to practice the path: social media replies, workplace pressure, family responsibilities, spending habits, and the speed of daily communication. Each moment asks what kind of cause we want to become.",
+          "Original Echo Buddha reflection: \"The path is not separate from ordinary life; it is ordinary life met with wiser intention.\" Let the next choice be small enough to practice and sincere enough to matter."
+        ]
+      }
+    ]
+  },
+  "mindfulness-morning-routine": {
+    seoTitle: "Mindful Morning Routine for Beginners",
+    description:
+      "Build a simple mindful morning routine with breathing, intention, movement, and screen boundaries for a calmer start.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "beginning-a-daily-mindfulness-practice",
+      "mindfulness-vs-meditation",
+      "mindfulness-for-better-sleep"
+    ],
+    appendContent: [
+      {
+        heading: "A Ten-Minute Routine You Can Adjust",
+        paragraphs: [
+          "Try two minutes of waking without screens, three minutes of seated breathing, two minutes of gentle stretching, one minute of setting an intention, and two minutes of doing one ordinary activity without multitasking. This is a starting shape, not a rule.",
+          "If you have children, early work, or unpredictable mornings, make the routine smaller. One breath before touching your phone can still protect a little space for awareness."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "The first mistake is making the routine too complicated. If it requires perfect silence, special equipment, and a long schedule, it may disappear on ordinary weekdays. The second mistake is using mindfulness as another form of self-pressure.",
+          "A mindful morning should help you meet the day, not create a new reason to feel behind. Let the routine be plain enough that it can survive real life."
+        ]
+      },
+      {
+        heading: "Connect Morning Practice With the Rest of the Day",
+        paragraphs: [
+          "Choose one reminder that will return later: opening a door, drinking water, hearing a notification, or sitting down at work. When that reminder appears, take one natural breath and remember the morning intention.",
+          "This connects the routine with <a href=\"/articles/beginning-a-daily-mindfulness-practice/\">daily mindfulness practice</a>. The value of the morning is not only the morning; it is the way it teaches attention to return."
+        ]
+      },
+      {
+        heading: "A Gentle Ending",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Begin the day before the day begins using you.\" You do not need a perfect start to have a mindful start. You only need one honest moment of awareness.",
+          "For evening balance, read <a href=\"/articles/mindfulness-for-better-sleep/\">Mindfulness for Better Sleep</a> or browse <a href=\"/quotes/mindfulness/\">mindfulness quotes</a> for a short reflection."
+        ]
+      }
+    ]
+  },
+  "buddhist-teachings-on-impermanence": {
+    seoTitle: "Buddhist Teachings on Impermanence",
+    description:
+      "Explore Buddhist teachings on impermanence, change, grief, gratitude, and daily ways to practice anicca with care.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "impermanence-in-buddhism",
+      "how-to-let-go-of-attachment-in-buddhism",
+      "letting-go-without-giving-up"
+    ],
+    appendContent: [
+      {
+        heading: "Impermanence in Small Moments",
+        paragraphs: [
+          "Begin with changes that are easy to observe: steam fading from tea, a sound ending, sunlight moving across a floor, or irritation losing strength after a pause. These small examples train the mind to see change directly rather than only as a dramatic idea.",
+          "This is the everyday doorway into anicca, the Buddhist teaching of impermanence. It shows that experience is not fixed, even when emotion makes it feel solid."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Impermanence does not mean nothing matters. Because things change, care matters more. Words can heal or harm. Habits can deepen or soften. A relationship can be nourished while it is here.",
+          "Impermanence also does not mean grief should be rushed. Buddhist reflection should make grief more honest, not less human. If loss is present, hold the teaching gently and seek support when needed."
+        ]
+      },
+      {
+        heading: "A Reflection Exercise for Change",
+        paragraphs: [
+          "Choose one changing situation and write three lines: what has ended, what remains, and what kind action is still possible. This keeps attention connected to reality instead of replaying only what cannot be controlled.",
+          "For related reading, compare this article with <a href=\"/articles/impermanence-in-buddhism/\">Impermanence in Buddhism</a> and <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">letting go of attachment</a>."
+        ]
+      },
+      {
+        heading: "A Peaceful Way to Practice",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"What changes is not always lost; sometimes it is teaching the heart how to hold more lightly.\" Let this guide attention toward appreciation rather than fear.",
+          "Practice by thanking one ordinary thing before it changes: a meal, a conversation, a quiet hour, or a season of life. Gratitude becomes deeper when it knows nothing is guaranteed."
+        ]
+      }
+    ]
+  },
+  "walking-meditation-step-by-step": {
+    seoTitle: "Walking Meditation: Step-by-Step Guide",
+    description:
+      "Learn walking meditation step by step with posture, pacing, attention cues, common mistakes, and everyday practice tips.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "beginning-a-daily-mindfulness-practice",
+      "mindfulness-vs-meditation",
+      "how-to-meditate-for-anxiety"
+    ],
+    appendContent: [
+      {
+        heading: "A Step-by-Step Walking Session",
+        paragraphs: [
+          "Choose a short path, perhaps ten to twenty steps. Stand still first. Feel the soles of the feet, the balance of the body, and the space around you. Begin walking slightly slower than usual, letting attention rest on lifting, moving, placing, and shifting weight.",
+          "At the end of the path, pause before turning. Notice the intention to turn, the movement itself, and the first step in the other direction. This small pause helps walking become meditation rather than exercise done slowly."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "One mistake is walking so slowly that the body becomes tense and awkward. Another is staring at the feet in a way that strains the neck. Let the gaze rest a few steps ahead and keep the movement natural enough to remain stable.",
+          "A third mistake is expecting walking meditation to feel special. Many sessions feel ordinary. That is part of the value: the practice teaches awareness in movement, not only in quiet conditions."
+        ]
+      },
+      {
+        heading: "Using Walking Meditation in Daily Life",
+        paragraphs: [
+          "Practice during transitions: walking from one room to another, leaving the car, moving toward a meeting, or stepping outside after work. Feel three steps clearly before entering the next activity.",
+          "If seated practice feels difficult, walking can be a friendly entry point. It pairs well with the <a href=\"/meditation-guide/\">Meditation Guide</a> and <a href=\"/articles/how-to-meditate-for-anxiety/\">gentle meditation for anxiety</a> because the body provides a steady anchor."
+        ]
+      },
+      {
+        heading: "A Reflection to Carry",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Each step can return you to the life you are actually walking through.\" Let this sentence remind you that mindfulness does not require leaving movement behind.",
+          "End by standing still for one breath and noticing how the body feels. Then choose one ordinary walk today as a place to practice again."
+        ]
+      }
+    ]
+  },
+  "buddhist-approach-to-anger": {
+    seoTitle: "A Buddhist Approach to Anger",
+    description:
+      "Learn a Buddhist-inspired approach to anger using mindful pause, body awareness, compassion, boundaries, and wise response.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "right-speech-buddhism",
+      "three-ways-to-practice-patience",
+      "compassion-as-a-daily-discipline"
+    ],
+    appendContent: [
+      {
+        heading: "The First Thirty Seconds",
+        paragraphs: [
+          "The first thirty seconds of anger often decide whether a moment becomes repairable or harmful. Before speaking, notice the body: heat, pressure, jaw tension, fast breathing, or the urge to send a message immediately.",
+          "If possible, delay the first reaction. Put the phone down, feel both feet, and take one complete breath. This does not solve the conflict, but it prevents anger from becoming the only voice in the room."
+        ]
+      },
+      {
+        heading: "Understand Without Excusing",
+        paragraphs: [
+          "A Buddhist approach studies causes and conditions. Anger may arise from fear, grief, shame, exhaustion, injustice, or crossed boundaries. Understanding these conditions does not excuse harmful behavior, including your own.",
+          "It simply gives wisdom more information. When you know what is underneath the anger, the response can become clearer: a direct conversation, a boundary, an apology, rest, or practical action."
+        ]
+      },
+      {
+        heading: "Speech Practice When Angry",
+        paragraphs: [
+          "Before speaking, ask whether the words are true, useful, timely, and as kind as the situation allows. Sometimes the kindest speech is firm and brief. Sometimes it is silence until the body settles.",
+          "For deeper guidance, read <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a> and <a href=\"/articles/three-ways-to-practice-patience/\">Three Ways to Practice Patience</a>. Anger often needs both truth and patience."
+        ]
+      },
+      {
+        heading: "A Reflection for Difficult Moments",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Anger asks for speed; awareness asks for one more breath.\" This is not a command to suppress anger. It is a reminder to make room for wisdom before action.",
+          "If anger is frequent, intense, or connected with unsafe situations, seek appropriate support. Mindfulness can help you notice patterns, but safety and qualified help matter when harm is involved."
+        ]
+      }
+    ]
+  },
+  "mindfulness-for-better-sleep": {
+    seoTitle: "Mindfulness for Better Sleep",
+    description:
+      "Use gentle mindfulness before sleep with body awareness, evening routines, common mistakes, and calm ways to meet wakefulness.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "mindfulness-morning-routine",
+      "how-to-meditate-for-anxiety",
+      "beginning-a-daily-mindfulness-practice"
+    ],
+    appendContent: [
+      {
+        heading: "A Gentle Evening Practice",
+        paragraphs: [
+          "Lie down or sit comfortably and feel the points of contact: feet, legs, back, hands, and head. Let attention move slowly through the body without trying to force relaxation. If a place feels tense, notice it with kindness rather than treating it as a problem to defeat.",
+          "You may silently say, \"softening\" on the exhale, but keep the word light. The purpose is not to command sleep. It is to reduce the struggle that often keeps the mind active."
+        ]
+      },
+      {
+        heading: "Create a Transition Ritual",
+        paragraphs: [
+          "About thirty minutes before bed, lower stimulation where possible. Dim bright screens, reduce unfinished tasks, and choose one repeatable cue such as washing your face, making tea, or reading a few calm lines.",
+          "A routine tells the body that the day is ending. It does not guarantee sleep, but it creates supportive conditions. For daytime balance, read <a href=\"/articles/mindfulness-morning-routine/\">A Mindful Morning Routine</a>."
+        ]
+      },
+      {
+        heading: "Common Mistakes With Sleep Mindfulness",
+        paragraphs: [
+          "The most common mistake is checking whether mindfulness is working every few seconds. That turns practice into another form of monitoring. Another mistake is forcing breath control when the body wants ease.",
+          "If you remain awake, practice being awake with less resistance. Feel the bed, listen to a quiet sound, and let thoughts be thoughts. If sleep problems persist, qualified medical guidance may be important."
+        ]
+      },
+      {
+        heading: "A Reflection Before Rest",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Rest begins when the day is allowed to be unfinished.\" You may still have tasks, regrets, or plans. Let them be noted without inviting them to run the night.",
+          "For related support, explore <a href=\"/articles/how-to-meditate-for-anxiety/\">gentle meditation for anxiety</a> or the <a href=\"/meditation/breathing-meditation/\">breathing meditation guide</a>."
+        ]
+      }
+    ]
+  },
+  "how-to-practice-non-attachment": {
+    seoTitle: "How to Practice Non-Attachment",
+    description:
+      "Learn how to practice non-attachment in everyday life while still caring deeply, acting wisely, and keeping healthy boundaries.",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "how-to-let-go-of-attachment-in-buddhism",
+      "letting-go-without-giving-up",
+      "buddhist-teachings-on-impermanence"
+    ],
+    appendContent: [
+      {
+        heading: "Non-Attachment Is Not Indifference",
+        paragraphs: [
+          "Non-attachment is often misunderstood as not caring. In Buddhist-inspired reflection, it means caring without trying to possess, freeze, or control what is changing. Love can remain warm while the grip becomes softer.",
+          "A parent, partner, friend, or worker can act with devotion and still remember that outcomes depend on many conditions. Non-attachment protects care from becoming fear-driven control."
+        ]
+      },
+      {
+        heading: "Daily-Life Places to Practice",
+        paragraphs: [
+          "Practice with small things first: a delayed reply, a changed plan, a possession that breaks, or a compliment that does not arrive. Notice the moment when preference becomes demand. Feel how the body tightens around the demand.",
+          "Then ask what wise action is still available. Sometimes it is a conversation. Sometimes it is patience. Sometimes it is accepting that the moment cannot be arranged around your preferred script."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "One mistake is using non-attachment to avoid difficult conversations. Another is pretending not to feel pain when something matters deeply. Non-attachment does not erase grief, disappointment, or love. It changes how tightly those experiences are held.",
+          "For a fuller discussion, read <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a> and <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a>."
+        ]
+      },
+      {
+        heading: "A Reflection Exercise",
+        paragraphs: [
+          "Write down one sentence: \"I care about this, and I cannot control all of it.\" Then list one action that belongs to you and one outcome that does not. This separates responsibility from grasping.",
+          "Original Echo Buddha reflection: \"An open hand can care for what a clenched hand can only fear losing.\" Let the image guide one small release today."
+        ]
+      }
+    ]
+  },
+  "beginning-a-daily-mindfulness-practice": {
+    seoTitle: "Daily Mindfulness Practice for Beginners",
+    description:
+      "Start a daily mindfulness practice with simple breath awareness, realistic timing, habit cues, and kind ways to begin again.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "mindfulness-vs-meditation",
+      "mindfulness-morning-routine",
+      "walking-meditation-step-by-step"
+    ],
+    appendContent: [
+      {
+        heading: "Build the Habit Around a Cue",
+        paragraphs: [
+          "Choose a cue that already happens: morning tea, sitting at your desk, closing a laptop, or brushing your teeth. Attach one minute of mindfulness to that cue. The practice becomes easier when it is connected to a rhythm that already exists.",
+          "After one week, increase only if the practice still feels realistic. A small habit kept sincerely is more valuable than a large promise that produces guilt."
+        ]
+      },
+      {
+        heading: "What to Notice During Practice",
+        paragraphs: [
+          "Notice the body breathing, sounds appearing and fading, feelings in the chest or belly, and thoughts coming and going. You do not need to make any of this special. Mindfulness is the willingness to know the present moment directly.",
+          "When attention wanders, silently note \"thinking\" or \"planning\" and return. The return is not a correction of failure; it is the exact movement that trains mindfulness."
+        ]
+      },
+      {
+        heading: "Common Beginner Mistakes",
+        paragraphs: [
+          "Beginners often expect the mind to become blank. A living mind produces thoughts. Another mistake is measuring practice only by calm. Sometimes mindfulness reveals restlessness, sadness, or impatience because those states were already present.",
+          "For more context, read <a href=\"/articles/mindfulness-vs-meditation/\">Mindfulness vs Meditation</a> or try <a href=\"/articles/walking-meditation-step-by-step/\">walking meditation</a> if sitting feels difficult."
+        ]
+      },
+      {
+        heading: "A Simple Ending",
+        paragraphs: [
+          "End each session by asking, \"What quality can I carry into the next hour?\" Choose one word such as patience, honesty, kindness, or steadiness. Then stand up slowly and let the next action be part of the practice.",
+          "Original Echo Buddha reflection: \"Mindfulness grows each time attention returns without cruelty.\" Let beginning again be part of the discipline."
+        ]
+      }
+    ]
+  },
+  "compassion-as-a-daily-discipline": {
+    seoTitle: "Compassion as a Daily Buddhist Practice",
+    description:
+      "Explore compassion as a daily discipline through speech, listening, boundaries, self-compassion, and small practical choices.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "loving-kindness-meditation-beginners",
+      "buddhist-teachings-on-forgiveness",
+      "right-speech-buddhism"
+    ],
+    appendContent: [
+      {
+        heading: "Compassion Is Trained in Ordinary Moments",
+        paragraphs: [
+          "Compassion is not only a feeling for dramatic suffering. It is trained when someone interrupts you, when a coworker makes a mistake, when a family member is difficult, or when your own mind is discouraged.",
+          "In those moments, compassion asks what would reduce suffering without abandoning truth. The answer may be listening, helping, apologizing, setting a boundary, or choosing silence until speech becomes wiser."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Compassion does not mean saying yes to everything. It does not mean staying in unsafe situations. It does not mean pretending harm did not happen. Compassion sees suffering clearly, including the suffering caused by unskillful behavior.",
+          "This is why compassion pairs naturally with <a href=\"/articles/right-speech-buddhism/\">Right Speech</a> and <a href=\"/articles/buddhist-teachings-on-forgiveness/\">Buddhist teachings on forgiveness</a>. Care and accountability can support each other."
+        ]
+      },
+      {
+        heading: "A Daily Compassion Exercise",
+        paragraphs: [
+          "Choose one person you will meet today and silently reflect: \"This person wants safety and ease, just as I do.\" This does not require liking every behavior. It simply interrupts the habit of reducing another person to a role or irritation.",
+          "Then choose one concrete action: listen without rushing, speak without contempt, offer help, or refrain from adding a sharp comment. Compassion becomes trustworthy through such small repetitions."
+        ]
+      },
+      {
+        heading: "A Reflection to Carry",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Compassion grows where judgment loosens its grip.\" Let that line be practical rather than sentimental. Loosening judgment gives enough space to see what is actually needed.",
+          "To continue, practice with <a href=\"/articles/loving-kindness-meditation-beginners/\">loving-kindness meditation</a> or read related <a href=\"/quotes/compassion/\">compassion quotes</a>."
+        ]
+      }
+    ]
+  },
+  "letting-go-without-giving-up": {
+    seoTitle: "Letting Go Without Giving Up",
+    description:
+      "Learn the difference between letting go and giving up through non-attachment, wise effort, boundaries, and daily reflection.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "how-to-practice-non-attachment",
+      "how-to-let-go-of-attachment-in-buddhism",
+      "buddhist-teachings-on-impermanence"
+    ],
+    appendContent: [
+      {
+        heading: "The Difference Between Release and Resignation",
+        paragraphs: [
+          "Giving up says, \"Nothing matters, so I will stop caring.\" Letting go says, \"I care, and I will release the part I cannot control.\" This difference matters in relationships, work, grief, and personal change.",
+          "Letting go may still include effort. You can prepare carefully, speak honestly, apologize, seek help, and protect boundaries. The release is the demand that every outcome obey your fear."
+        ]
+      },
+      {
+        heading: "Daily-Life Examples",
+        paragraphs: [
+          "You might let go of needing the last word while still communicating a boundary. You might let go of replaying an old mistake while still making repair. You might let go of controlling another person's response while still speaking the truth.",
+          "These examples connect with <a href=\"/articles/how-to-practice-non-attachment/\">how to practice non-attachment</a> and <a href=\"/articles/buddhist-teachings-on-impermanence/\">Buddhist teachings on impermanence</a>."
+        ]
+      },
+      {
+        heading: "A Practice for the Grip",
+        paragraphs: [
+          "When you feel the grip, name it gently: wanting, fearing, controlling, replaying, proving. Then ask, \"What is mine to do?\" and \"What is not mine to command?\" Write one answer for each.",
+          "Take the action that belongs to you, however small. Then practice releasing the rest for one breath at a time. This makes letting go concrete instead of abstract."
+        ]
+      },
+      {
+        heading: "A Gentle Conclusion",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Release the outcome, but keep the care you bring.\" Letting go is not the end of love or effort. It is the end of making peace depend entirely on control.",
+          "For more support, explore <a href=\"/quotes/letting-go/\">letting go quotes</a> or the deeper article on <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">attachment in Buddhism</a>."
+        ]
+      }
+    ]
+  },
+  "three-ways-to-practice-patience": {
+    seoTitle: "Three Ways to Practice Patience",
+    description:
+      "Learn three practical ways to practice patience with delays, emotions, difficult people, and everyday stress without passivity.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "buddhist-approach-to-anger",
+      "right-speech-buddhism",
+      "mindful-listening-in-everyday-life"
+    ],
+    appendContent: [
+      {
+        heading: "Patience Is Not Passivity",
+        paragraphs: [
+          "Patience does not mean allowing harm to continue. It means creating enough inner space to choose a response instead of being pushed by the first reaction. Sometimes the patient response is firm and immediate.",
+          "In Buddhist-inspired practice, patience protects the mind from adding unnecessary suffering. It lets discomfort be known without letting discomfort become the leader."
+        ]
+      },
+      {
+        heading: "Modern Examples of Patience",
+        paragraphs: [
+          "In traffic, patience may mean relaxing the hands and choosing not to rehearse blame. In a tense message thread, patience may mean waiting before replying. With a slow project, patience may mean doing the next honest task rather than demanding instant results.",
+          "Patience works closely with <a href=\"/articles/buddhist-approach-to-anger/\">a Buddhist approach to anger</a> and <a href=\"/articles/mindful-listening-in-everyday-life/\">mindful listening</a>. It gives wisdom time to arrive."
+        ]
+      },
+      {
+        heading: "A Seven-Day Practice",
+        paragraphs: [
+          "Choose one recurring irritation and practice with it for seven days. Each time it appears, notice the body, allow the feeling, and widen the view. Keep the practice small enough to remember.",
+          "At the end of each day, ask whether impatience helped or whether another response might have reduced suffering. This kind of review turns daily irritation into training."
+        ]
+      },
+      {
+        heading: "A Reflection to Carry",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Patience is strength that does not need to shout at time.\" This does not make waiting pleasant, but it reminds the heart that urgency is not always wisdom.",
+          "For short reminders, visit <a href=\"/quotes/patience/\">patience quotes</a> and choose one line to practice during a delay."
+        ]
+      }
+    ]
+  },
+  "mindful-listening-in-everyday-life": {
+    seoTitle: "Mindful Listening in Everyday Life",
+    description:
+      "Practice mindful listening with presence, pauses, reflection, boundaries, and practical examples for everyday relationships.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "right-speech-buddhism",
+      "compassion-as-a-daily-discipline",
+      "three-ways-to-practice-patience"
+    ],
+    appendContent: [
+      {
+        heading: "Why Listening Is a Mindfulness Practice",
+        paragraphs: [
+          "Listening reveals the mind quickly. While another person speaks, we may plan, defend, compare, judge, fix, or drift. Mindful listening is the practice of noticing those movements and returning to the person in front of us.",
+          "This does not require silence forever. It means allowing understanding to form before response. In this way, listening becomes part of <a href=\"/articles/right-speech-buddhism/\">Right Speech</a>."
+        ]
+      },
+      {
+        heading: "A Practice for Difficult Conversations",
+        paragraphs: [
+          "Before responding, summarize one thing you heard: \"It sounds like you are concerned about...\" Then ask whether you understood correctly. This simple step can prevent many arguments from becoming arguments about mishearing.",
+          "If the conversation becomes harmful or overwhelming, name a pause: \"I want to respond carefully. I need a few minutes.\" Mindful listening includes knowing when the conditions are no longer useful."
+        ]
+      },
+      {
+        heading: "Common Mistakes",
+        paragraphs: [
+          "One mistake is treating mindful listening as agreement. You can understand someone and still disagree. Another mistake is using listening to avoid your own truth. A complete conversation needs both receiving and honest speaking.",
+          "Mindful listening pairs well with <a href=\"/articles/compassion-as-a-daily-discipline/\">compassion practice</a> because both ask us to see more than our first reaction."
+        ]
+      },
+      {
+        heading: "A Reflection to Carry",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"Listen to the moment before filling it with your plans.\" Use this line before meetings, family conversations, and moments when advice wants to arrive too quickly.",
+          "A small next step is to choose one conversation today and let the other person finish one full thought before you begin shaping your answer."
+        ]
+      }
+    ]
+  },
+  "creating-a-peaceful-corner-at-home": {
+    seoTitle: "Create a Peaceful Meditation Corner",
+    description:
+      "Create a peaceful meditation corner at home with simple space, posture support, respectful objects, and daily practice cues.",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "beginning-a-daily-mindfulness-practice",
+      "mindfulness-morning-routine",
+      "walking-meditation-step-by-step"
+    ],
+    appendContent: [
+      {
+        heading: "What Belongs in a Practice Space",
+        paragraphs: [
+          "A useful meditation corner may include a chair or cushion, a timer, a small notebook, a blanket, and enough clear space to sit without strain. None of these objects needs to be expensive. The point is to reduce friction before practice.",
+          "If you include candles or incense, use them safely and only where appropriate. If you include Buddhist imagery, treat it respectfully. The space should support sincerity rather than decoration for its own sake."
+        ]
+      },
+      {
+        heading: "Small Homes and Shared Spaces",
+        paragraphs: [
+          "A peaceful corner can exist in a shared room. A cushion stored in a basket, a chair near a window, or a small shelf with one meaningful object can be enough. The space does not need to be permanently visible.",
+          "If your home is noisy, let sound become part of mindfulness. Notice hearing as hearing. A practice space supports attention, but it does not need to remove life."
+        ]
+      },
+      {
+        heading: "Make the Space a Cue",
+        paragraphs: [
+          "Link the corner to a regular rhythm: morning tea, after work, before sleep, or after a walk. Keep the space ready enough that sitting down is easy. The more steps required, the easier it becomes to postpone.",
+          "This supports <a href=\"/articles/beginning-a-daily-mindfulness-practice/\">daily mindfulness practice</a> and a <a href=\"/articles/mindfulness-morning-routine/\">mindful morning routine</a>. Environment cannot practice for you, but it can invite you back."
+        ]
+      },
+      {
+        heading: "A Reflection for the Home",
+        paragraphs: [
+          "Original Echo Buddha reflection: \"A peaceful corner is not an escape from life; it is a place to return to life more gently.\" Let the space remind you that calm is practiced, not purchased.",
+          "Start with five minutes. Sit, breathe, notice, and return. Over time, the corner becomes familiar not because it is perfect, but because you have met yourself there repeatedly."
+        ]
+      }
+    ]
+  }
+};
+
+type Week2DeepeningNote = {
+  topic: string;
+  situation: string;
+  practice: string;
+  mistake: string;
+  links: { label: string; href: string }[];
+  reflection: string;
+};
+
+const week2DeepeningNotes: Record<string, Week2DeepeningNote> = {
+  "buddhism-for-beginners-simple-guide": {
+    topic: "beginner Buddhist practice",
+    situation: "reading about Buddhism while also trying to handle work, family, uncertainty, and ordinary emotional habits",
+    practice:
+      "choose one teaching for the week, one five-minute meditation period, and one daily action that reduces harm",
+    mistake:
+      "trying to collect many ideas before allowing even one teaching to change speech, attention, or behavior",
+    links: [
+      { label: "Buddhism 101", href: "/learn/buddhism-101/" },
+      { label: "Buddhist dictionary", href: "/learn/buddhist-dictionary/" }
+    ],
+    reflection: "A beginner is not behind; a beginner is close to the freshness of practice."
+  },
+  "how-to-meditate-for-anxiety": {
+    topic: "gentle meditation with anxiety",
+    situation: "meeting a racing mind before a task, conversation, appointment, or night of rest",
+    practice:
+      "feel the feet, relax the hands, name one sound, and let one natural breath happen without forcing it",
+    mistake:
+      "treating meditation as a test that must remove anxiety before the practice can count",
+    links: [
+      { label: "Overthinking article", href: "/articles/buddhist-wisdom-for-overthinking/" },
+      { label: "Breathing meditation", href: "/meditation/breathing-meditation/" }
+    ],
+    reflection: "You do not have to win a fight with the mind in order to sit beside it kindly."
+  },
+  "loving-kindness-meditation-beginners": {
+    topic: "loving-kindness practice",
+    situation: "meeting self-criticism, relational tension, or the quiet wish to become less harsh",
+    practice:
+      "repeat one simple phrase of goodwill and let it shape the next sentence you speak",
+    mistake:
+      "believing loving-kindness must feel warm every time or must include unsafe closeness with difficult people",
+    links: [
+      { label: "Metta meditation script", href: "/articles/metta-meditation-script/" },
+      { label: "Compassion quotes", href: "/quotes/compassion/" }
+    ],
+    reflection: "Goodwill can be quiet and still change the direction of a day."
+  },
+  "eightfold-path-explained-daily-life": {
+    topic: "the Eightfold Path in modern life",
+    situation: "choosing how to understand, speak, work, reply, and return to attention during an ordinary day",
+    practice:
+      "select one path factor each morning and notice where it appears before evening",
+    mistake:
+      "turning the path into a perfection checklist instead of a practical training in less harm",
+    links: [
+      { label: "Eightfold Path guide", href: "/articles/eightfold-path-explained/" },
+      { label: "Right Speech", href: "/articles/right-speech-buddhism/" }
+    ],
+    reflection: "The path is walked through the next email, meal, errand, apology, and breath."
+  },
+  "mindfulness-morning-routine": {
+    topic: "morning mindfulness",
+    situation: "waking into messages, duties, noise, and the feeling of being late before the day begins",
+    practice:
+      "protect one minute before screens, feel the body, and choose one quality to remember",
+    mistake:
+      "building a morning routine so elaborate that ordinary life cannot hold it",
+    links: [
+      { label: "Daily mindfulness", href: "/articles/beginning-a-daily-mindfulness-practice/" },
+      { label: "Mindfulness quotes", href: "/quotes/mindfulness/" }
+    ],
+    reflection: "A mindful morning is not a perfect morning; it is a morning entered with attention."
+  },
+  "buddhist-teachings-on-impermanence": {
+    topic: "impermanence and change",
+    situation: "meeting endings, shifting plans, changing moods, aging, grief, and the uncertainty of ordinary life",
+    practice:
+      "notice one small change directly and ask what kind action is still possible now",
+    mistake:
+      "using impermanence as a slogan to rush grief or pretend that loss does not hurt",
+    links: [
+      { label: "Impermanence article", href: "/articles/impermanence-in-buddhism/" },
+      { label: "Impermanence quotes", href: "/quotes/impermanence/" }
+    ],
+    reflection: "Change is not only what takes things away; it is also what lets healing begin."
+  },
+  "walking-meditation-step-by-step": {
+    topic: "walking meditation",
+    situation: "moving through hallways, sidewalks, rooms, gardens, and daily transitions with a scattered mind",
+    practice:
+      "feel three steps clearly before entering the next activity",
+    mistake:
+      "walking so unnaturally that the body becomes tense and the practice turns into performance",
+    links: [
+      { label: "Meditation Guide", href: "/meditation-guide/" },
+      { label: "Walking meditation page", href: "/meditation/walking-meditation/" }
+    ],
+    reflection: "The ground is available even when the mind is busy."
+  },
+  "buddhist-approach-to-anger": {
+    topic: "anger and wise response",
+    situation: "feeling heat before a reply, argument, message, decision, or boundary-setting conversation",
+    practice:
+      "delay the first reaction, feel the body, and choose words that are true without being cruel",
+    mistake:
+      "confusing suppression with mindfulness or confusing honest anger with permission to harm",
+    links: [
+      { label: "Patience article", href: "/articles/three-ways-to-practice-patience/" },
+      { label: "Awareness quotes", href: "/quotes/awareness/" }
+    ],
+    reflection: "Anger may knock loudly, but it does not have to hold the pen."
+  },
+  "mindfulness-for-better-sleep": {
+    topic: "sleep and evening mindfulness",
+    situation: "lying awake with unfinished tasks, replayed conversations, physical tension, or concern about tomorrow",
+    practice:
+      "feel the body's contact with the bed and let the day be unfinished for one breath",
+    mistake:
+      "checking repeatedly whether mindfulness has worked yet, which turns practice into monitoring",
+    links: [
+      { label: "Morning routine", href: "/articles/mindfulness-morning-routine/" },
+      { label: "5-minute meditation", href: "/meditation/5-minute-meditation-practice/" }
+    ],
+    reflection: "Rest begins when the heart is no longer required to solve the whole day."
+  },
+  "how-to-practice-non-attachment": {
+    topic: "non-attachment in relationships and goals",
+    situation: "caring about people, outcomes, identities, and plans without being able to control them completely",
+    practice:
+      "name what is yours to do and what cannot be forced, then take the honest action that remains",
+    mistake:
+      "mistaking non-attachment for emotional withdrawal, avoidance, or indifference",
+    links: [
+      { label: "Attachment in Buddhism", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
+      { label: "Letting go quotes", href: "/quotes/letting-go/" }
+    ],
+    reflection: "Care becomes freer when it no longer has to become control."
+  },
+  "beginning-a-daily-mindfulness-practice": {
+    topic: "daily mindfulness habit",
+    situation: "trying to build a steady practice amid missed days, distractions, fatigue, and changing schedules",
+    practice:
+      "attach one minute of attention to a cue that already happens every day",
+    mistake:
+      "believing a wandering mind means the practice is failing",
+    links: [
+      { label: "Mindfulness vs meditation", href: "/articles/mindfulness-vs-meditation/" },
+      { label: "Mindfulness in daily life", href: "/meditation/mindfulness-in-daily-life/" }
+    ],
+    reflection: "The habit grows through returning, not through never drifting."
+  },
+  "compassion-as-a-daily-discipline": {
+    topic: "compassion in daily conduct",
+    situation: "responding to mistakes, difficult people, self-criticism, and moments where harshness feels easy",
+    practice:
+      "pause before adding pain, then choose one response that is truthful and less harmful",
+    mistake:
+      "thinking compassion means endless agreement, weak boundaries, or avoiding accountability",
+    links: [
+      { label: "Forgiveness article", href: "/articles/buddhist-teachings-on-forgiveness/" },
+      { label: "Loving-kindness meditation", href: "/articles/loving-kindness-meditation-beginners/" }
+    ],
+    reflection: "Compassion is care that has learned to stay awake."
+  },
+  "letting-go-without-giving-up": {
+    topic: "letting go while still caring",
+    situation: "working with plans, relationships, memories, and efforts whose outcomes cannot be guaranteed",
+    practice:
+      "take the next wise action and release the demand that peace wait for a perfect result",
+    mistake:
+      "using letting go as a reason to abandon responsibility or silence a real need",
+    links: [
+      { label: "Non-attachment article", href: "/articles/how-to-practice-non-attachment/" },
+      { label: "Impermanence quotes", href: "/quotes/impermanence/" }
+    ],
+    reflection: "Letting go is not the end of care; it is care without a clenched fist."
+  },
+  "three-ways-to-practice-patience": {
+    topic: "patience as daily training",
+    situation: "waiting, being interrupted, feeling delayed, meeting difficult emotions, or listening under pressure",
+    practice:
+      "use one predictable irritation as a place to notice the body and delay the first reaction",
+    mistake:
+      "treating patience as passivity rather than strength that makes wise action possible",
+    links: [
+      { label: "Anger article", href: "/articles/buddhist-approach-to-anger/" },
+      { label: "Patience quotes", href: "/quotes/patience/" }
+    ],
+    reflection: "Patience gives wisdom enough room to enter."
+  },
+  "mindful-listening-in-everyday-life": {
+    topic: "mindful listening",
+    situation: "hearing another person while the mind prepares advice, defense, correction, or escape",
+    practice:
+      "let the speaker finish one full thought, then reflect back what you understood",
+    mistake:
+      "confusing listening with agreement or using silence to avoid honest speech",
+    links: [
+      { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
+      { label: "Compassion article", href: "/articles/compassion-as-a-daily-discipline/" }
+    ],
+    reflection: "Listening is generosity offered through attention."
+  },
+  "creating-a-peaceful-corner-at-home": {
+    topic: "a home meditation space",
+    situation: "trying to practice in a real home with shared rooms, noise, limited space, and ordinary interruptions",
+    practice:
+      "keep one small place ready enough that sitting down requires very little preparation",
+    mistake:
+      "making the space more about appearance than accessibility, comfort, and sincere practice",
+    links: [
+      { label: "Daily mindfulness", href: "/articles/beginning-a-daily-mindfulness-practice/" },
+      { label: "Meditation for beginners", href: "/meditation/meditation-for-beginners/" }
+    ],
+    reflection: "A practice corner is useful when it helps you return, not when it impresses anyone."
+  }
+};
+
+function createWeek2DeepeningSections(note?: Week2DeepeningNote): ArticleContentSection[] {
+  if (!note) return [];
+
+  const links = note.links.map((link) => `<a href="${link.href}">${link.label}</a>`).join(" and ");
+  return [
+    {
+      heading: "Practical Examples in Daily Life",
+      paragraphs: [
+        `This teaching becomes useful when it meets ${note.situation}. In those moments, ${note.topic} is not an abstract idea. It is a way to pause, notice conditions, and choose a response that creates less harm than habit would create on its own.`,
+        `A practical example might be very small: ${note.practice}. The size of the action matters less than the sincerity of the attention. Buddhist-inspired practice often grows through modest repetitions that slowly change the tone of speech, thought, and behavior.`
+      ]
+    },
+    {
+      heading: "A Mindfulness Exercise",
+      paragraphs: [
+        `For one day, watch for the moment when ${note.topic} becomes relevant. When it appears, pause long enough to feel the body and name what is happening in plain language. Then ask, \"What response would reduce unnecessary suffering here?\"`,
+        `The common mistake is ${note.mistake}. If that pattern appears, do not turn it into another reason for self-criticism. Notice it, soften the body, and begin again with the next available choice.`
+      ]
+    },
+    {
+      heading: "Continue the Path",
+      paragraphs: [
+        `To continue learning, read ${links}. These related pages give the teaching more context and help connect reflection with meditation, speech, daily conduct, and simple Buddhist-inspired practice.`,
+        `Original Echo Buddha reflection: \"${note.reflection}\" Carry the line lightly. Let it point toward one practical step rather than becoming another idea to collect.`
+      ]
+    }
+  ];
+}
+
+const week2FinalTouchSections: Record<string, ArticleContentSection[]> = {
+  "compassion-as-a-daily-discipline": [
+    {
+      heading: "A Small Practice for Today",
+      paragraphs: [
+        "Before one conversation today, pause and ask what would help rather than merely what would win. The answer may be a softer tone, a clearer boundary, a sincere apology, or the restraint not to add a sharp sentence.",
+        "Compassion grows through these small moments of restraint and care. It becomes less like an ideal and more like a dependable way of meeting life."
+      ]
+    }
+  ],
+  "letting-go-without-giving-up": [
+    {
+      heading: "A Small Practice for Today",
+      paragraphs: [
+        "Choose one concern you have been carrying repeatedly. Write down the next wise action, then write down the part you cannot force. This simple separation can calm the mind without denying responsibility.",
+        "Return to the action that belongs to you. Let the rest be practiced one breath at a time, especially when the old grip returns."
+      ]
+    }
+  ],
+  "three-ways-to-practice-patience": [
+    {
+      heading: "A Small Practice for Today",
+      paragraphs: [
+        "Let one delay become your teacher today. Instead of reaching immediately for distraction or complaint, feel the body and notice the story impatience is telling about the moment.",
+        "Then choose one response that does not add suffering. This may be silence, a calmer sentence, a practical adjustment, or simply waiting with more dignity."
+      ]
+    }
+  ],
+  "mindful-listening-in-everyday-life": [
+    {
+      heading: "A Small Practice for Today",
+      paragraphs: [
+        "In one conversation today, notice the first moment you begin preparing your reply. Instead of judging that habit, return attention to the speaker's next sentence and let it fully arrive.",
+        "When you do speak, begin from what you actually heard. This small discipline can make ordinary conversation feel less rushed and more trustworthy."
+      ]
+    }
+  ]
+};
+
+function applyWeek2ArticleUpgrade(article: Article): Article {
+  const upgrade = week2ArticleUpgrades[article.slug];
+  if (!upgrade) return article;
+  const deepeningSections = createWeek2DeepeningSections(week2DeepeningNotes[article.slug]);
+  const finalTouchSections = week2FinalTouchSections[article.slug] ?? [];
+
+  return {
+    ...article,
+    seoTitle: upgrade.seoTitle ?? article.seoTitle,
+    description: upgrade.description ?? article.description,
+    readTime: upgrade.readTime ?? article.readTime,
+    relatedSlugs: upgrade.relatedSlugs ?? article.relatedSlugs,
+    content: [...article.content, ...upgrade.appendContent, ...deepeningSections, ...finalTouchSections]
+  };
+}
+
 export const fullArticles = articles
+  .map(applyWeek2ArticleUpgrade)
   .filter((article) => article.content.length > 0)
   .sort((a, b) => b.date.localeCompare(a.date));
 
@@ -4693,8 +5663,603 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
   }
 };
 
+const week2ArticleSeoDetails: Record<string, ArticleSeoDetails> = {
+  "buddhism-for-beginners-simple-guide": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Buddhism begins with understanding suffering, change, and the habits that add unnecessary stress.",
+      "Beginners can start with the Four Noble Truths, the Eightfold Path, and a few minutes of meditation.",
+      "Ethics, meditation, and wisdom support one another in daily life.",
+      "A respectful beginner does not need to master every term before practicing sincerely.",
+      "Small daily choices are often the most realistic doorway into Buddhist practice."
+    ],
+    faqs: [
+      {
+        question: "What should a beginner learn first in Buddhism?",
+        answer:
+          "Start with the Four Noble Truths, the Noble Eightfold Path, and a simple mindfulness practice. These give beginners a clear foundation without requiring every Buddhist term at once."
+      },
+      {
+        question: "Can I practice Buddhism without joining a temple?",
+        answer:
+          "Yes. Many people begin with reading, meditation, ethical reflection, and respectful study. A teacher or community can be helpful, but a beginner can start with sincere daily practice."
+      },
+      {
+        question: "Is Buddhism only about meditation?",
+        answer:
+          "No. Meditation is important, but Buddhist practice also includes wise speech, ethical action, compassion, generosity, and understanding the conditions that create suffering."
+      },
+      {
+        question: "How can I practice Buddhism in daily life?",
+        answer:
+          "Practice one careful breath, one honest sentence, one kind action, and one moment of noticing attachment or anger before reacting."
+      },
+      {
+        question: "Do I need to call myself Buddhist to learn from Buddhism?",
+        answer:
+          "No. Formal identity is personal. You can learn respectfully from Buddhist teachings while deciding slowly how deeply you want to commit."
+      }
+    ]
+  },
+  "how-to-meditate-for-anxiety": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Meditation for anxiety should begin gently and should not force calm.",
+      "Grounding through the feet, hands, and body can feel safer than focusing only on breath.",
+      "Anxious thoughts can be recognized as thoughts without arguing with every prediction.",
+      "Short practices are often more sustainable than long sessions during distress.",
+      "Meditation can support coping, but persistent or severe anxiety deserves qualified care."
+    ],
+    faqs: [
+      {
+        question: "What is the best meditation for anxiety beginners?",
+        answer:
+          "A simple grounding practice is often a good start: feel the feet, notice the body, and follow a few natural breaths without trying to force relaxation."
+      },
+      {
+        question: "Should I focus on my breath if it makes anxiety worse?",
+        answer:
+          "No. If the breath feels uncomfortable, use another anchor such as the feet, hands, sounds, or contact with a chair."
+      },
+      {
+        question: "How long should anxiety meditation last?",
+        answer:
+          "Begin with three to five minutes. A short, kind session is usually better than forcing a long practice when the nervous system feels activated."
+      },
+      {
+        question: "Can meditation cure anxiety?",
+        answer:
+          "Meditation is not a guaranteed cure. It can support awareness and steadier coping, but ongoing or intense anxiety should be discussed with a qualified professional."
+      },
+      {
+        question: "What should I do after meditating with anxiety?",
+        answer:
+          "Look around the room, feel the body, and choose one manageable next action. This helps the practice connect with real life."
+      }
+    ]
+  },
+  "loving-kindness-meditation-beginners": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Loving-kindness meditation trains goodwill through simple, repeatable phrases.",
+      "Warm emotion is welcome but not required for sincere metta practice.",
+      "Beginners can start with themselves or with someone whose presence feels supportive.",
+      "Metta can include boundaries and does not mean approving harmful behavior.",
+      "The practice becomes meaningful when goodwill influences speech and action."
+    ],
+    faqs: [
+      {
+        question: "What are simple loving-kindness phrases?",
+        answer:
+          "You might use: May I be safe. May I be peaceful. May I live with ease. Then offer the same wishes to others."
+      },
+      {
+        question: "What if loving-kindness meditation feels fake?",
+        answer:
+          "Use simpler words and keep the intention modest. Metta is a training of goodwill, not a demand to feel warm on command."
+      },
+      {
+        question: "Do I have to send loving-kindness to a difficult person?",
+        answer:
+          "No. That stage is optional. Safety and steadiness matter. You can stay with yourself, a supportive person, or all beings in a general way."
+      },
+      {
+        question: "Is loving-kindness meditation good for beginners?",
+        answer:
+          "Yes. It is beginner-friendly when practiced gently, with phrases that feel honest and with no pressure to create a special emotion."
+      },
+      {
+        question: "How does metta connect with daily life?",
+        answer:
+          "Metta becomes practical when it softens speech, encourages patience, supports apologies, and reminds us not to add unnecessary harm."
+      }
+    ]
+  },
+  "eightfold-path-explained-daily-life": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "The Eightfold Path is a practical guide for daily understanding, speech, action, work, and attention.",
+      "The eight factors support each other rather than functioning as a rigid checklist.",
+      "Wise speech, action, and livelihood connect Buddhist practice with relationships and responsibility.",
+      "Mindfulness and concentration help the mind notice habits before they become harmful actions.",
+      "Beginners can practice one path factor each week and observe how it affects ordinary life."
+    ],
+    faqs: [
+      {
+        question: "How can I practice the Eightfold Path every day?",
+        answer:
+          "Choose one factor, such as wise speech or mindfulness, and practice it in ordinary situations like conversations, work, or daily routines."
+      },
+      {
+        question: "Is the Eightfold Path only for monks?",
+        answer:
+          "No. Laypeople can practice the path through ethical choices, careful speech, mindfulness, work, relationships, and meditation."
+      },
+      {
+        question: "Do I need to practice the eight factors in order?",
+        answer:
+          "Not usually. The factors develop together. Mindfulness supports speech, speech affects the mind, and clearer understanding shapes intention."
+      },
+      {
+        question: "What is a simple example of the Eightfold Path?",
+        answer:
+          "Pausing before a harsh reply can involve mindfulness, wise effort, wise intention, and wise speech at the same time."
+      },
+      {
+        question: "How is the Eightfold Path related to meditation?",
+        answer:
+          "Meditation develops mindfulness and concentration, but the path also includes wisdom and ethical conduct outside formal practice."
+      }
+    ]
+  },
+  "mindfulness-morning-routine": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "A mindful morning routine creates space between waking and reacting.",
+      "A realistic five- to ten-minute routine is more useful than an elaborate plan that rarely happens.",
+      "Screen boundaries can protect attention at the beginning of the day.",
+      "Ordinary activities like drinking water or brushing teeth can become mindfulness cues.",
+      "The morning intention should be gentle enough to remember during real life."
+    ],
+    faqs: [
+      {
+        question: "What is a simple mindful morning routine?",
+        answer:
+          "Try a few screen-free minutes, three natural breaths, brief sitting, gentle movement, and one clear intention for the day."
+      },
+      {
+        question: "How long should a morning mindfulness practice be?",
+        answer:
+          "Five to ten minutes is enough for many beginners. The routine should be realistic enough to continue on ordinary days."
+      },
+      {
+        question: "Can I practice mindfulness on a rushed morning?",
+        answer:
+          "Yes. Use one conscious breath, one mindful sip of water, or one kind intention before the day begins moving quickly."
+      },
+      {
+        question: "Should I avoid my phone in the morning?",
+        answer:
+          "A short screen-free period can help protect attention. Even five minutes before checking messages can change the tone of the morning."
+      },
+      {
+        question: "How do I remember mindfulness after morning practice?",
+        answer:
+          "Choose one daily cue, such as opening a door or drinking water, and use it as a reminder to return to the breath."
+      }
+    ]
+  },
+  "buddhist-teachings-on-impermanence": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Impermanence, or anicca, points to the changing nature of conditioned experience.",
+      "The teaching includes loss, but also healing, growth, repair, and renewal.",
+      "Accepting impermanence does not mean liking every change or rushing grief.",
+      "Small daily observations can help the mind understand change directly.",
+      "Seeing impermanence can deepen appreciation and soften clinging."
+    ],
+    faqs: [
+      {
+        question: "What does impermanence mean in Buddhism?",
+        answer:
+          "Impermanence means that conditioned things arise, change, and pass. This includes thoughts, feelings, bodies, relationships, and circumstances."
+      },
+      {
+        question: "Is impermanence a negative teaching?",
+        answer:
+          "No. It includes endings, but it also explains growth, healing, learning, and the possibility of beginning again."
+      },
+      {
+        question: "How can I practice impermanence daily?",
+        answer:
+          "Notice small changes directly: a breath ending, a sound fading, tea cooling, or a feeling shifting after a pause."
+      },
+      {
+        question: "Does accepting impermanence mean not grieving?",
+        answer:
+          "No. Grief is human. Impermanence can be held gently as a companion to grief, not as a slogan to silence pain."
+      },
+      {
+        question: "How does impermanence help with letting go?",
+        answer:
+          "When we see that everything changes, clinging to permanence becomes less convincing. We can care deeply while holding more lightly."
+      }
+    ]
+  },
+  "walking-meditation-step-by-step": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Walking meditation trains awareness through movement, balance, and contact with the ground.",
+      "A short path and natural pace are enough for beginners.",
+      "Pausing before turning helps walking become deliberate practice.",
+      "Walking meditation can support people who find seated meditation difficult.",
+      "Daily transitions can become brief walking meditation opportunities."
+    ],
+    faqs: [
+      {
+        question: "How do I do walking meditation step by step?",
+        answer:
+          "Stand still, feel the feet, walk slowly along a short path, notice lifting and placing, pause before turning, and return when attention wanders."
+      },
+      {
+        question: "How slow should walking meditation be?",
+        answer:
+          "Walk a little slower than usual while staying balanced. Extremely slow walking is optional and should not create strain."
+      },
+      {
+        question: "Can walking meditation replace sitting meditation?",
+        answer:
+          "It can be a complete practice on its own or support seated meditation. Many people benefit from using both."
+      },
+      {
+        question: "Where can beginners practice walking meditation?",
+        answer:
+          "A hallway, room, garden path, or quiet outdoor area can work. Choose a place where safety requires little extra attention."
+      },
+      {
+        question: "What should I do when my mind wanders while walking?",
+        answer:
+          "Notice that wandering happened and return to the feeling of the next step. Returning is the practice."
+      }
+    ]
+  },
+  "buddhist-approach-to-anger": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Anger can be acknowledged without allowing it to control speech and action.",
+      "The first pause before reacting is often the most important practice point.",
+      "Understanding anger's causes does not excuse harmful behavior.",
+      "Wise speech can be firm, truthful, and boundaried without becoming cruel.",
+      "Mindfulness supports safer responses but does not replace help in unsafe situations."
+    ],
+    faqs: [
+      {
+        question: "What does Buddhism say about anger?",
+        answer:
+          "Buddhist practice encourages recognizing anger clearly, understanding its conditions, and avoiding actions that feed harm or hatred."
+      },
+      {
+        question: "Should I suppress anger in meditation?",
+        answer:
+          "No. Suppression hides anger. Mindfulness notices the feeling in the body and creates space before choosing a response."
+      },
+      {
+        question: "What is the first step when anger arises?",
+        answer:
+          "Pause, feel the body, delay quick speech or messages, and take one complete breath before deciding what action is needed."
+      },
+      {
+        question: "Can anger ever be useful?",
+        answer:
+          "Anger may signal fear, harm, injustice, or a boundary. Its information can be useful even when its first impulse needs care."
+      },
+      {
+        question: "How can I speak wisely when angry?",
+        answer:
+          "Ask whether your words are true, useful, timely, and as kind as the situation allows. Sometimes the wise choice is to wait."
+      }
+    ]
+  },
+  "mindfulness-for-better-sleep": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Mindfulness before sleep reduces struggle rather than forcing unconsciousness.",
+      "Body awareness can be gentler than strong breath control at bedtime.",
+      "A repeated evening transition can help the body recognize that the day is closing.",
+      "Checking whether mindfulness is working can become another form of tension.",
+      "Persistent sleep problems should be discussed with a qualified healthcare professional."
+    ],
+    faqs: [
+      {
+        question: "Can mindfulness help with sleep?",
+        answer:
+          "Mindfulness may support sleep by reducing struggle and helping the body settle, but it cannot guarantee sleep on demand."
+      },
+      {
+        question: "What mindfulness practice is best before bed?",
+        answer:
+          "A gentle body scan or awareness of physical support is often helpful because it does not require intense concentration."
+      },
+      {
+        question: "What if I stay awake during mindfulness practice?",
+        answer:
+          "Practice being awake with less resistance. Feel the bed, notice sounds, and let thoughts be present without chasing them."
+      },
+      {
+        question: "Should I use breathing meditation for sleep?",
+        answer:
+          "You can, but keep it natural. If focusing on breath creates tension, shift to body contact, sound, or the feeling of support."
+      },
+      {
+        question: "Is mindfulness a treatment for insomnia?",
+        answer:
+          "This article is educational. Persistent or serious sleep difficulties should be discussed with a qualified medical professional."
+      }
+    ]
+  },
+  "how-to-practice-non-attachment": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Non-attachment means caring without demanding control, permanence, or possession.",
+      "It is different from indifference or emotional withdrawal.",
+      "Daily practice begins by noticing where preference becomes a demand.",
+      "Wise action can continue even when the outcome is released.",
+      "Non-attachment can support healthier relationships, boundaries, and appreciation."
+    ],
+    faqs: [
+      {
+        question: "What does non-attachment mean in daily life?",
+        answer:
+          "It means caring and acting wisely without trying to possess people, control every result, or make peace depend on one outcome."
+      },
+      {
+        question: "Is non-attachment the same as not caring?",
+        answer:
+          "No. Non-attachment can include deep care. It loosens fear-driven clinging rather than removing love or responsibility."
+      },
+      {
+        question: "How can I practice non-attachment in relationships?",
+        answer:
+          "Listen, communicate honestly, keep boundaries, and remember that another person is changing and cannot be owned or controlled."
+      },
+      {
+        question: "What is a simple non-attachment exercise?",
+        answer:
+          "Write: I care about this, and I cannot control all of it. Then name one action that is yours and one result you must release."
+      },
+      {
+        question: "How is non-attachment related to impermanence?",
+        answer:
+          "Impermanence shows that experiences change. Non-attachment is the practice of caring wisely within that changing nature."
+      }
+    ]
+  },
+  "beginning-a-daily-mindfulness-practice": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Daily mindfulness can begin with one minute and one natural breath.",
+      "A consistent cue makes practice easier to remember.",
+      "The return from distraction is the training, not a sign of failure.",
+      "Mindfulness can be carried into ordinary activities after formal sitting.",
+      "Missed days are invitations to begin again rather than reasons to quit."
+    ],
+    faqs: [
+      {
+        question: "How do I start a daily mindfulness practice?",
+        answer:
+          "Choose a regular cue, sit for one to five minutes, feel the breath or body, and return gently whenever attention wanders."
+      },
+      {
+        question: "How long should beginners practice mindfulness?",
+        answer:
+          "Start with one to five minutes. Increase only when the habit feels steady and realistic."
+      },
+      {
+        question: "What should I focus on during mindfulness?",
+        answer:
+          "Use the natural breath, body sensations, sounds, or one ordinary activity. The anchor should be simple and accessible."
+      },
+      {
+        question: "What if I miss a day of mindfulness practice?",
+        answer:
+          "Missing a day is not failure. Return at the next realistic moment and keep the minimum version small enough to continue."
+      },
+      {
+        question: "How do I know mindfulness is helping?",
+        answer:
+          "Look for earlier recognition of reactions, more deliberate choices, and more willingness to begin again without harshness."
+      }
+    ]
+  },
+  "compassion-as-a-daily-discipline": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Compassion is a daily discipline expressed through speech, listening, restraint, and repair.",
+      "Compassion can be firm and boundaried when behavior is harmful.",
+      "Self-compassion supports responsibility rather than avoiding accountability.",
+      "Small repeated actions often reveal compassion more clearly than dramatic feelings.",
+      "Compassion and right speech work together in difficult conversations."
+    ],
+    faqs: [
+      {
+        question: "How can compassion become a daily practice?",
+        answer:
+          "Pause before harsh speech, listen before assuming, choose one action that reduces suffering, and repair honestly when you cause harm."
+      },
+      {
+        question: "Does compassion mean saying yes to everyone?",
+        answer:
+          "No. Compassion can include clear limits, direct speech, and distance from harmful behavior."
+      },
+      {
+        question: "How is compassion different from pity?",
+        answer:
+          "Pity can look down from a distance. Compassion recognizes suffering and asks what response would reduce harm with respect."
+      },
+      {
+        question: "Can self-compassion be responsible?",
+        answer:
+          "Yes. Balanced self-compassion names pain and mistakes honestly while supporting repair and changed behavior."
+      },
+      {
+        question: "What is one simple compassion exercise?",
+        answer:
+          "Choose one person and silently remember that they also want safety and ease. Then take one practical action that reduces harm."
+      }
+    ]
+  },
+  "letting-go-without-giving-up": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Letting go releases grasping while preserving care and responsibility.",
+      "Giving up abandons useful effort; letting go releases the demand for control.",
+      "The practice begins by naming what is yours to do and what is not yours to command.",
+      "Letting go can include boundaries, repair, patience, and honest action.",
+      "Non-attachment and impermanence help explain why release can reduce suffering."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between letting go and giving up?",
+        answer:
+          "Giving up stops caring or acting. Letting go keeps wise effort while releasing the demand that every outcome be controlled."
+      },
+      {
+        question: "How do I practice letting go in daily life?",
+        answer:
+          "Name what you can influence, take one honest action, and consciously release the result you cannot guarantee."
+      },
+      {
+        question: "Does letting go mean accepting harmful behavior?",
+        answer:
+          "No. Letting go can include boundaries, direct speech, distance, and protection. It releases grasping, not wisdom."
+      },
+      {
+        question: "Why is letting go difficult?",
+        answer:
+          "Clinging often promises safety, certainty, or identity. Seeing the fear beneath the grip can make release more compassionate."
+      },
+      {
+        question: "How does impermanence support letting go?",
+        answer:
+          "Impermanence shows that conditions change. Letting go is the practice of caring within change without pretending control is permanent."
+      }
+    ]
+  },
+  "three-ways-to-practice-patience": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Patience is active strength, not passive waiting.",
+      "The body often shows impatience before speech or action does.",
+      "Allowing discomfort creates room for a wiser response.",
+      "Seeing wider conditions can support compassion without removing boundaries.",
+      "Predictable irritations can become practical training places."
+    ],
+    faqs: [
+      {
+        question: "How can I practice patience every day?",
+        answer:
+          "Choose one predictable irritation and practice noticing the body, allowing the feeling, and delaying the first reaction."
+      },
+      {
+        question: "Does patience mean tolerating bad behavior?",
+        answer:
+          "No. Patience supports deliberate action. That action may include a boundary, a clear conversation, or leaving an unsafe situation."
+      },
+      {
+        question: "Why do I become impatient so quickly?",
+        answer:
+          "Impatience often grows from fatigue, pressure, fear, or unmet expectations. Recognizing the conditions makes another response easier."
+      },
+      {
+        question: "What is a simple patience practice?",
+        answer:
+          "Feel both feet, take one complete exhale, and wait a few seconds before speaking or acting."
+      },
+      {
+        question: "How does patience relate to anger?",
+        answer:
+          "Patience creates space before anger becomes speech or action. It helps the mind respond rather than simply react."
+      }
+    ]
+  },
+  "mindful-listening-in-everyday-life": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "Mindful listening means receiving another person before preparing a response.",
+      "The practice includes noticing your own reactions while someone else speaks.",
+      "Reflecting back what you heard can prevent misunderstanding.",
+      "Mindful listening does not require agreement or unsafe availability.",
+      "Listening and right speech support each other in relationships."
+    ],
+    faqs: [
+      {
+        question: "What is mindful listening?",
+        answer:
+          "Mindful listening is giving careful attention to someone's words, tone, and pauses while noticing your own reactions and urge to interrupt."
+      },
+      {
+        question: "How can I practice mindful listening in conversation?",
+        answer:
+          "Pause before replying, let the person finish, summarize what you heard, and ask whether you understood correctly."
+      },
+      {
+        question: "Does mindful listening mean agreeing?",
+        answer:
+          "No. You can understand someone accurately and still disagree, set a boundary, or speak your own truth."
+      },
+      {
+        question: "How do I stop interrupting people?",
+        answer:
+          "Notice the urge to speak, feel one breath, and wait until the other person completes the thought before responding."
+      },
+      {
+        question: "Can mindful listening help difficult relationships?",
+        answer:
+          "It can support clearer understanding and less reactive speech, but it should be paired with boundaries when behavior is harmful."
+      }
+    ]
+  },
+  "creating-a-peaceful-corner-at-home": {
+    reviewedDate: "2026-07-01",
+    takeaways: [
+      "A meditation corner should be simple, accessible, and supportive rather than elaborate.",
+      "Comfortable posture matters more than achieving a special appearance.",
+      "Small homes and shared spaces can still support sincere practice.",
+      "Respectful objects and minimal clutter can help the mind settle.",
+      "A ready practice space becomes a cue for daily mindfulness."
+    ],
+    faqs: [
+      {
+        question: "What do I need for a meditation corner?",
+        answer:
+          "A stable chair or cushion and enough space to sit are enough. A timer, blanket, notebook, plant, or simple object can be optional supports."
+      },
+      {
+        question: "Can I create a peaceful corner in a small home?",
+        answer:
+          "Yes. A chair, cushion, or small shelf in a shared room can work. Accessibility matters more than having a separate room."
+      },
+      {
+        question: "Should I use Buddhist images in my meditation space?",
+        answer:
+          "You may, if they are treated respectfully. Avoid using sacred imagery as casual decoration or clutter."
+      },
+      {
+        question: "How can a meditation corner help daily practice?",
+        answer:
+          "A ready space reduces friction and reminds the body and mind that a few minutes have been set aside for attention."
+      },
+      {
+        question: "Does the room need to be silent?",
+        answer:
+          "No. A quieter space can help, but familiar sounds can also become part of mindfulness practice."
+      }
+    ]
+  }
+};
+
 export function getArticleSeoDetails(slug: string) {
-  return articleSeoDetails[slug];
+  return week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
 }
 
 export function getArticleWordCount(article: Article) {
