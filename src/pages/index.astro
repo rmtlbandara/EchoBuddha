@@ -175,7 +175,11 @@ const homepageJsonLd = [
           <li>Calm daily practice</li>
         </ul>
       </div>
-      <div class="hero-visual">
+      <picture class="hero-visual">
+        <source
+          media="(max-width: 639px)"
+          srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+        />
         <img
           class="hero-art"
           src="/images/hero-buddha.avif"
@@ -186,7 +190,7 @@ const homepageJsonLd = [
           decoding="async"
           fetchpriority="high"
         />
-      </div>
+      </picture>
     </div>
   </section>
 
@@ -396,6 +400,7 @@ const homepageJsonLd = [
   }
 
   .hero-visual {
+    display: block;
     margin-inline: auto;
     width: min(76vw, 24rem);
   }
@@ -768,6 +773,53 @@ const homepageJsonLd = [
 
     .search-callout .button {
       width: auto;
+    }
+  }
+
+  @media (max-width: 639px) {
+    .hero {
+      padding: 2.65rem 0 2rem;
+    }
+
+    .hero-grid {
+      gap: 0;
+    }
+
+    .hero-visual {
+      display: none;
+    }
+
+    .hero-subtitle {
+      margin-bottom: 0.85rem;
+    }
+
+    .hero-actions {
+      margin-top: 1.25rem;
+    }
+
+    .hero-actions .button {
+      min-height: 3rem;
+      padding-inline: 1rem;
+    }
+
+    .hero-values {
+      margin-top: 1.15rem;
+    }
+
+    .guide-section {
+      padding-top: 1.25rem;
+    }
+
+    .guide-card,
+    .search-callout,
+    .practice-panel,
+    .faq-item {
+      padding: 1.15rem;
+    }
+
+    .quote-grid :global(.quote-card) {
+      min-height: 0;
+      padding: 1.2rem;
     }
   }
 
