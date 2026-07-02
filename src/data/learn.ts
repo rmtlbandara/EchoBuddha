@@ -86,12 +86,40 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
       "The word right is best understood as wise, skillful, or leading away from harm. It is not a weapon for judging yourself or others harshly.",
     question: "Which path factor could guide one real choice before the day ends?"
   },
+  "buddhism-101/five-precepts-buddhism": {
+    why:
+      "The Five Precepts matter because they make Buddhist ethics visible in ordinary choices. They help speech, work, family life, money, and digital habits become less harmful and more trustworthy.",
+    clarification:
+      "The precepts are best understood as training principles, not a way to shame yourself or rank other people. Their purpose is to support wisdom, safety, and a calmer conscience.",
+    question: "Which precept could protect one relationship, conversation, or habit today?"
+  },
+  "buddhism-101/three-marks-of-existence": {
+    why:
+      "The Three Marks matter because they describe patterns already visible in daily life: change, unsatisfactoriness, and the absence of a fixed self. Seeing them gently can reduce clinging.",
+    clarification:
+      "These teachings are not meant to make life bleak or meaningless. They help the heart meet changing life with less denial and more care.",
+    question: "Where are you asking something changing to provide permanent security?"
+  },
   "buddhism-101/what-is-karma-in-buddhism": {
     why:
       "Karma matters because intention quietly shapes the direction of a life. Small repeated choices become habits, and habits influence how we meet joy, stress, conflict, and loss.",
     clarification:
       "Karma should not be used to blame people for illness, poverty, grief, or misfortune. Buddhist practice uses karma mainly as a teaching on responsibility for present intention and action.",
     question: "What intention is behind one action you are about to take?"
+  },
+  "buddhism-101/dependent-origination-explained": {
+    why:
+      "Dependent origination matters because it shows that suffering does not appear from nowhere. When causes and conditions are understood, old reactions can be interrupted with mindfulness and care.",
+    clarification:
+      "This teaching is not fatalism. Conditions influence experience, but practice can become a new condition that changes how a moment unfolds.",
+    question: "What condition could you change before a familiar reaction becomes suffering again?"
+  },
+  "buddhism-101/five-aggregates-buddhism": {
+    why:
+      "The Five Aggregates matter because they help us observe experience without turning every feeling, thought, or story into a solid self. This can soften shame, pride, and reactivity.",
+    clarification:
+      "Non-self does not mean nothing matters. It means the person we call self is a changing process, and that process can be understood and trained.",
+    question: "Which part of an experience can you observe today: body, feeling, perception, formation, or consciousness?"
   },
   "buddhism-101/what-is-impermanence": {
     why:
@@ -106,6 +134,13 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
     clarification:
       "Mindfulness is not the demand to feel calm all the time. It is honest awareness of what is happening, including restlessness, sadness, joy, or confusion.",
     question: "What would change if you noticed the body before answering one difficult message?"
+  },
+  "buddhism-101/right-livelihood-buddhism": {
+    why:
+      "Right livelihood matters because work is one of the main places where values become visible. It asks whether earning, ambition, speech, and responsibility reduce harm or quietly increase it.",
+    clarification:
+      "Right livelihood is not a demand for a perfect job. It is a sincere direction: earn and work with as much honesty, care, and non-harming as your real conditions allow.",
+    question: "What one work choice could become more honest, kind, or less harmful this week?"
   },
   "buddhism-101/how-to-practice-buddhism-at-home": {
     why:
@@ -482,7 +517,8 @@ export const buddhism101Pages: LearningPage[] = [
     relatedLinks: [
       { label: "Four Noble Truths Article", href: "/articles/four-noble-truths-explained/" },
       { label: "Dukkha Definition", href: "/learn/buddhist-dictionary/dukkha/" },
-      { label: "Eightfold Path Lesson", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" }
+      { label: "Eightfold Path Lesson", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
+      { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" }
     ],
     sourceNote: commonSourceNote,
     terms: ["Dukkha", "Karma", "Dhamma"]
@@ -523,10 +559,210 @@ export const buddhism101Pages: LearningPage[] = [
     relatedLinks: [
       { label: "Eightfold Path Article", href: "/articles/eightfold-path-explained/" },
       { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
+      { label: "Right Livelihood", href: "/learn/buddhism-101/right-livelihood-buddhism/" },
       { label: "Eightfold Path Quote", href: "/quotes/practice/eightfold-path-daily-choices/" }
     ],
     sourceNote: commonSourceNote,
     terms: ["Mindfulness", "Dhamma", "Sati"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "five-precepts-buddhism",
+    title: "The Five Precepts in Buddhism",
+    seoTitle: "The Five Precepts in Buddhism: A Beginner's Guide to Ethical Living",
+    description:
+      "Learn the Five Precepts in Buddhism in simple language. A beginner-friendly guide to Buddhist ethics, daily choices, right speech, honesty, kindness, and mindful living.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Five Precepts are simple Buddhist training principles for living with less harm, more trust, and a clearer heart.",
+    sections: [
+      {
+        heading: "What Are the Five Precepts?",
+        paragraphs: [
+          "The Five Precepts are among the most practical introductions to Buddhist ethics for beginners. They guide lay people toward non-harming in body, speech, livelihood, relationships, and daily habits. In simple language, they encourage us to avoid killing, stealing, sexual misconduct, false speech, and intoxicants that lead to carelessness.",
+          "These precepts are not meant to make a beginner feel watched or judged. They are training principles. A person practices them because harmful action leaves disturbance in the mind and harm in the world. When conduct becomes steadier, meditation and wisdom also have better conditions. This is why the precepts sit naturally beside the <a href='/learn/buddhism-101/the-noble-eightfold-path-explained/'>Noble Eightfold Path</a>, especially right speech, right action, and right livelihood."
+        ]
+      },
+      {
+        heading: "Precepts as Training, Not Punishment",
+        paragraphs: [
+          "A useful way to understand the Five Precepts is to see them as promises of care. They are not commandments handed down for fear. They are chosen disciplines that protect life. A person may break a precept, recognize the result, make repair where possible, and begin again with more honesty.",
+          "This training approach is important because shame can become another form of suffering. Buddhist ethics asks for responsibility without cruelty. If you speak falsely, the practice is not to hate yourself. The practice is to understand why it happened, tell the truth where you can, and strengthen the conditions for honesty next time. This connects closely with the lesson on <a href='/learn/buddhism-101/what-is-karma-in-buddhism/'>karma and intention</a>."
+        ]
+      },
+      {
+        heading: "The First Precept: Respect for Life",
+        paragraphs: [
+          "The first precept trains us to avoid taking life. For many beginners, this begins with obvious non-violence, but it also invites a gentler relationship with living beings. It can shape how we treat animals, insects, the natural world, and people who are difficult to like.",
+          "In daily life, this precept may appear as patience during anger, careful driving, eating with gratitude, or refusing to turn another person into an enemy in the mind. It does not answer every ethical question with one simple rule, but it asks a steady question: does this action increase harm or protect life?"
+        ]
+      },
+      {
+        heading: "The Second Precept: Respect for What Is Not Given",
+        paragraphs: [
+          "The second precept trains us not to take what is not freely given. It includes obvious stealing, but it also touches time, credit, attention, and trust. At work, it may mean not claiming another person's effort. In digital life, it may mean not using someone else's words, images, or private information carelessly.",
+          "This precept encourages contentment and honesty. Much stealing begins before the hand moves; it begins with the mind that says, I must have what is not mine. Noticing that movement is already practice."
+        ]
+      },
+      {
+        heading: "The Third Precept: Care in Sexual Conduct",
+        paragraphs: [
+          "The third precept trains us to avoid sexual misconduct. For lay life, this means relating to sexuality with honesty, consent, responsibility, and non-harm. It asks us not to use another person for craving, secrecy, pressure, betrayal, or manipulation.",
+          "A beginner can practice this precept by respecting boundaries, keeping promises, avoiding exploitative situations, and remembering that desire does not remove responsibility. The precept is not anti-love. It protects trust so that affection is not mixed with harm."
+        ]
+      },
+      {
+        heading: "The Fourth Precept: Truthful and Helpful Speech",
+        paragraphs: [
+          "The fourth precept trains us to avoid false speech. In a wider practical sense, it supports truthfulness, trustworthy communication, and restraint from speech that deceives. This is closely related to the site lesson on <a href='/learn/sutta-for-daily-life/right-speech-in-daily-life/'>right speech in daily life</a>.",
+          "Modern life gives this precept many practice fields: exaggerating online, hiding mistakes at work, gossiping in a family, forwarding uncertain claims, or speaking in a tone that bends the truth to win. Truthful speech does not mean saying everything harshly. It means letting words become accurate, timely, useful, and kind whenever possible."
+        ]
+      },
+      {
+        heading: "The Fifth Precept: Carefulness With Intoxicants",
+        paragraphs: [
+          "The fifth precept trains us to avoid intoxicants that lead to heedlessness. The heart of this precept is care. When the mind becomes careless, the other precepts become easier to break. Speech becomes loose, desire becomes reckless, anger becomes less restrained, and attention becomes clouded.",
+          "For some people, this precept may mean complete abstinence. For others who are still learning, it may begin as honest reflection: does this habit make me less aware, less truthful, less safe, or less kind? The point is not moral display. The point is protecting the clarity that Buddhist practice needs."
+        ]
+      },
+      {
+        heading: "Everyday Examples of the Five Precepts",
+        paragraphs: [
+          "The precepts become real in small choices. You pause before sending an angry message because words can harm. You return extra change because honesty matters even when nobody notices. You give credit to a coworker because taking praise that is not yours weakens trust. You decline gossip because truth and kindness are more important than belonging for a moment.",
+          "At home, the precepts may look like apologizing after harsh speech, respecting a partner's boundary, choosing a safer habit when stress rises, or teaching children by example. They are not only about avoiding dramatic wrongs. They train the ordinary texture of a life."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "<strong>Misunderstanding one:</strong> the precepts are only rules. In practice, they are more like mirrors. They show where craving, fear, carelessness, or dishonesty is leading the mind.",
+          "<strong>Misunderstanding two:</strong> keeping precepts makes a person superior. Buddhist ethics should soften pride, not feed it. The precepts are personal training, not a weapon for judging others.",
+          "<strong>Misunderstanding three:</strong> one mistake ruins practice. Mistakes matter, but they can become teachers when met with honesty, repair, and renewed intention."
+        ]
+      },
+      {
+        heading: "Key Takeaways",
+        paragraphs: [
+          "The Five Precepts are a daily training in non-harming. They protect life, trust, sexuality, speech, and clarity of mind. They are simple enough for beginners and deep enough to keep refining for a lifetime.",
+          "The precepts work best when they are practiced with humility. They do not make a person pure or superior. They help a person notice intention earlier, repair harm more honestly, and create conditions for a more peaceful mind.",
+          "If the whole list feels large, begin with one precept in one real situation. Truthful speech in a difficult conversation, care with consumption, or respect for what is not given can become a complete practice for the day."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "<strong>What are the Five Precepts in Buddhism?</strong> They are training principles to avoid killing, stealing, sexual misconduct, false speech, and intoxicants that lead to carelessness.",
+          "<strong>Are the Five Precepts required for all Buddhists?</strong> Traditions vary, but the precepts are widely used as a basic ethical training for lay Buddhist life.",
+          "<strong>Are the precepts the same as commandments?</strong> They are better understood as voluntary trainings that support non-harming, clarity, and wise conduct.",
+          "<strong>What happens if I break a precept?</strong> Practice invites honest recognition, repair where possible, and renewed care. The point is learning, not self-hatred.",
+          "<strong>Can beginners practice one precept at a time?</strong> Yes. Begin where daily life is most obvious, such as truthful speech or mindful consumption, and let the training grow."
+        ]
+      }
+    ],
+    takeaway:
+      "The Five Precepts are practical Buddhist ethical trainings that protect life, trust, truthfulness, responsibility, and mindful awareness.",
+    practice:
+      "Choose one precept for today. Before one action connected with it, pause and ask, \"Would this increase harm or support trust?\"",
+    relatedLinks: [
+      { label: "Noble Eightfold Path", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
+      { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
+      { label: "Karma Lesson", href: "/learn/buddhism-101/what-is-karma-in-buddhism/" }
+    ],
+    sourceNote:
+      "Source note: The Five Precepts are widely taught in Buddhist traditions as lay ethical trainings. Echo Buddha presents them in original beginner-friendly language for reflection and daily practice.",
+    terms: ["Karma", "Right Speech", "Dhamma"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "three-marks-of-existence",
+    title: "The Three Marks of Existence",
+    seoTitle: "The Three Marks of Existence in Buddhism Explained Simply",
+    description:
+      "Understand the Three Marks of Existence in Buddhism: anicca, dukkha, and anatta. A simple beginner guide with examples, reflections, and practical meaning.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Three Marks of Existence describe three features of conditioned life: impermanence, unsatisfactoriness, and non-self.",
+    sections: [
+      {
+        heading: "What Are the Three Marks?",
+        paragraphs: [
+          "The Three Marks of Existence are usually named with three Pali words: anicca, dukkha, and anatta. Anicca means impermanence. Dukkha points to suffering, stress, or unsatisfactoriness. Anatta means non-self, or the absence of a fixed independent self that can be possessed.",
+          "These teachings may sound abstract at first, but they describe ordinary experience. Moods change. Plans disappoint. Identity shifts. The mind says mine and me, then suffers when life refuses to stay still. The Three Marks help beginners understand why the <a href='/learn/buddhism-101/the-four-noble-truths-explained/'>Four Noble Truths</a> are practical rather than pessimistic."
+        ]
+      },
+      {
+        heading: "Anicca: Everything Conditioned Changes",
+        paragraphs: [
+          "Anicca is the mark of impermanence. A feeling begins, changes, and passes. A body ages. A relationship grows in one direction, then another. A work role feels central for years and later becomes only one chapter of life.",
+          "Seeing impermanence does not mean becoming cold. It can make care more tender. If a visit with a loved one will not last forever, attention becomes precious. If an anxious mood is changing, it does not need to define the whole day. You can explore this more in <a href='/learn/buddhism-101/what-is-impermanence/'>What Is Impermanence?</a>."
+        ]
+      },
+      {
+        heading: "Dukkha: Clinging Cannot Give Lasting Security",
+        paragraphs: [
+          "Dukkha includes obvious pain such as sickness, grief, and loss. It also includes the subtle dissatisfaction that comes from asking changing things to provide permanent safety. Praise feels good, then fades. Control works for a moment, then fails. A pleasant mood arrives, but cannot be held by force.",
+          "This does not mean joy is wrong. It means clinging is unreliable. When the mind demands that joy must stay, fear enters the joy. When the mind can appreciate without grasping, the same moment may become lighter."
+        ]
+      },
+      {
+        heading: "Anatta: Experience Is Not a Fixed Self",
+        paragraphs: [
+          "Anatta is often the most challenging mark for beginners. It does not mean you do not exist in any ordinary sense. It means what we call self is a changing process of body, feeling, perception, habits, and consciousness. It is not a solid owner standing apart from life.",
+          "This can be deeply practical. A person who says, I am an angry person, may begin to see anger as a conditioned state that arises and passes. A person who says, I always fail, may begin to see a painful story rather than a permanent identity. This connects naturally with the lesson on <a href='/learn/buddhist-dictionary/anatta/'>anatta</a> and the new guide to the <a href='/learn/buddhism-101/five-aggregates-buddhism/'>Five Aggregates</a>."
+        ]
+      },
+      {
+        heading: "How the Three Marks Work Together",
+        paragraphs: [
+          "The Three Marks are not separate boxes. They reveal one another. Because things are impermanent, clinging to them creates dukkha. Because experience is changing and conditioned, it cannot be found as a fixed self. Because the mind mistakes changing processes for mine and me, it struggles when they shift.",
+          "A simple example is criticism. The sound of words is impermanent. The painful feeling is impermanent. The interpretation, They do not respect me, is a perception. The urge to defend is a mental formation. Consciousness knows these events. When they are taken as a solid self under attack, suffering grows quickly."
+        ]
+      },
+      {
+        heading: "A Daily Life Example",
+        paragraphs: [
+          "Imagine waiting for a message that does not arrive. Anicca appears because the mood changes from hopeful to tense. Dukkha appears because the mind clings to the demand that the person must respond now. Anatta can be seen when you notice the story, I am being ignored, as a changing thought rather than a permanent truth.",
+          "This does not mean your needs do not matter. It means you can respond with more wisdom. You might wait, ask clearly later, or set a boundary, but you do not have to let one unanswered message become your whole identity."
+        ]
+      },
+      {
+        heading: "A Simple Reflection Practice",
+        paragraphs: [
+          "Choose one experience today, such as a feeling, sound, or thought. Notice its beginning, middle, and fading. If grasping appears, name it gently: wanting, resisting, fearing. Then ask whether the experience is a permanent self or a changing event known by awareness.",
+          "Keep the reflection light. The purpose is not to force a conclusion. The purpose is to become more honest with experience. This honesty supports <a href='/learn/buddhism-101/what-is-mindfulness/'>mindfulness</a> and letting go."
+        ]
+      },
+      {
+        heading: "Key Takeaways",
+        paragraphs: [
+          "Anicca, dukkha, and anatta are not only ideas for study. They are ways to look at ordinary experience. A changing mood, a clinging thought, and a rigid self-story can all become places of insight.",
+          "The Three Marks are not pessimistic. They help the heart stop arguing with the nature of conditioned life. When change is understood, gratitude becomes more immediate and clinging becomes easier to question.",
+          "For beginners, the most useful approach is gentle observation. Notice change, notice the stress of grasping, and notice how a thought or feeling is not the whole of who you are."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "<strong>What are the Three Marks of Existence?</strong> They are impermanence, unsatisfactoriness, and non-self, often called anicca, dukkha, and anatta.",
+          "<strong>Are the Three Marks negative?</strong> No. They are realistic observations that can reduce denial, clinging, and confusion.",
+          "<strong>What does dukkha mean here?</strong> Dukkha points to stress or unsatisfactoriness, especially the strain of clinging to changing conditions.",
+          "<strong>Does non-self mean I am nothing?</strong> No. It means the self is not a fixed independent thing. It is a changing process shaped by conditions.",
+          "<strong>How can I practice the Three Marks daily?</strong> Notice change, notice clinging, and observe thoughts and feelings as events rather than permanent identity."
+        ]
+      }
+    ],
+    takeaway:
+      "The Three Marks help beginners see changing life clearly: all conditioned things change, clinging brings stress, and the self is a changing process.",
+    practice:
+      "Notice one feeling today and quietly observe: changing, not fully satisfying, not a fixed self.",
+    relatedLinks: [
+      { label: "What Is Impermanence?", href: "/learn/buddhism-101/what-is-impermanence/" },
+      { label: "Dukkha Definition", href: "/learn/buddhist-dictionary/dukkha/" },
+      { label: "Five Aggregates", href: "/learn/buddhism-101/five-aggregates-buddhism/" }
+    ],
+    sourceNote:
+      "Source note: The Three Marks are foundational Buddhist teachings discussed across Buddhist traditions. Echo Buddha summarizes them in original plain language for beginner education.",
+    terms: ["Anicca", "Dukkha", "Anatta"]
   },
   {
     section: "buddhism-101",
@@ -564,10 +800,202 @@ export const buddhism101Pages: LearningPage[] = [
     relatedLinks: [
       { label: "Karma Article", href: "/articles/what-is-karma-in-buddhism/" },
       { label: "Karma Dictionary Term", href: "/learn/buddhist-dictionary/karma/" },
+      { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" },
       { label: "Karma Quote", href: "/quotes/wisdom/karma-begins-in-intention/" }
     ],
     sourceNote: commonSourceNote,
     terms: ["Karma", "Dhamma", "Compassion"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "dependent-origination-explained",
+    title: "Dependent Origination Explained",
+    seoTitle: "Dependent Origination in Buddhism Explained for Beginners",
+    description:
+      "Learn dependent origination in Buddhism in simple terms. Understand causes, conditions, craving, clinging, suffering, and how mindfulness can interrupt old patterns.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "Dependent origination teaches that experiences arise because of causes and conditions, and that understanding conditions can help reduce suffering.",
+    sections: [
+      {
+        heading: "The Simple Meaning of Dependent Origination",
+        paragraphs: [
+          "Dependent origination is a central Buddhist teaching about causes and conditions. The Pali term is paticca samuppada. A beginner does not need to memorize every traditional link before the teaching becomes useful. The simple meaning is this: things arise in dependence on conditions, and when conditions change, results can change.",
+          "This teaching helps explain why suffering is workable. If suffering had no causes, practice would have no place to stand. But if stress grows from conditions such as ignorance, craving, clinging, habit, and reaction, then mindfulness and wisdom can become new conditions. This connects closely with the <a href='/learn/buddhism-101/the-four-noble-truths-explained/'>Four Noble Truths</a>."
+        ]
+      },
+      {
+        heading: "Causes and Conditions in Ordinary Life",
+        paragraphs: [
+          "A flower depends on soil, water, light, seed, temperature, and time. A harsh sentence depends on tiredness, irritation, old stories, fear, tone, and intention. A peaceful response may depend on sleep, practice, patience, and a remembered breath.",
+          "Dependent origination asks us to look less for one single blame and more for the conditions that make an experience likely. This does not remove responsibility. It makes responsibility more intelligent. If you see the conditions that feed anger, you can begin changing them before anger becomes speech."
+        ]
+      },
+      {
+        heading: "The Chain From Feeling to Suffering",
+        paragraphs: [
+          "One practical way to understand dependent origination is through a familiar chain: contact, feeling, craving, clinging, and suffering. Something happens. A pleasant, unpleasant, or neutral feeling appears. The mind wants more, wants less, or stops paying attention. Craving becomes clinging. Clinging becomes stress.",
+          "For example, a notification appears. The feeling is unpleasant because the message sounds critical. Craving appears as the wish to defend yourself immediately. Clinging appears as the thought, I must prove I am right. Suffering appears as tension, angry words, and a mind that keeps replaying the exchange."
+        ]
+      },
+      {
+        heading: "A Daily Example: Irritation Becoming Suffering",
+        paragraphs: [
+          "Imagine you are cooking and someone points out a small mistake. Contact happens through hearing the words. Feeling appears as heat in the chest. Perception labels the comment as disrespect. Mental formations prepare a sharp reply. Consciousness knows the whole event.",
+          "If mindfulness is absent, irritation may become a familiar sentence. If mindfulness is present, the chain can be interrupted. You may feel the heat, breathe, and ask, Is this comment harmful, helpful, clumsy, or simply inconvenient? The response may still be honest, but it does not need to be ruled by the first spark."
+        ]
+      },
+      {
+        heading: "Mindfulness Interrupts Old Patterns",
+        paragraphs: [
+          "Mindfulness is powerful in dependent origination because it notices the process early. It sees feeling before craving becomes a command. It sees a story before the story becomes identity. It sees tension before tension becomes harmful speech. This is why <a href='/learn/buddhism-101/what-is-mindfulness/'>mindfulness</a> is not only relaxation; it is practical wisdom in motion.",
+          "The interruption may be small. One breath before replying. One honest label: anger is here. One softer choice: I will answer later. Small changes matter because conditions are cumulative. Repeated pauses create a different kind of mind."
+        ]
+      },
+      {
+        heading: "Dependent Origination Is Not Fatalism",
+        paragraphs: [
+          "A common misunderstanding is that dependent origination means everything is predetermined. That is not the point. The teaching shows influence, not helplessness. Conditions shape a moment, but practice itself is also a condition.",
+          "If you grew up around harsh speech, harsh speech may arise quickly. That history matters. But listening, study, therapy where needed, good friends, meditation, and restraint can become new conditions. Buddhism does not ask us to pretend we have no conditioning. It asks us to see conditioning clearly enough to stop being completely ruled by it."
+        ]
+      },
+      {
+        heading: "A Simple Practice for Seeing Conditions",
+        paragraphs: [
+          "Choose one repeated pattern, such as checking your phone too often, snapping at a loved one, or postponing meditation. Ask gently: What conditions make this more likely? What conditions make it less likely? Then change one small condition.",
+          "You might place the phone outside the bedroom, eat before a difficult conversation, write a kinder reply and wait before sending it, or sit for two minutes before the day becomes busy. The goal is not self-control through force. The goal is wiser conditions."
+        ]
+      },
+      {
+        heading: "Key Takeaways",
+        paragraphs: [
+          "Dependent origination teaches that experience unfolds through causes and conditions. This helps beginners move away from one-sided blame and toward clearer understanding.",
+          "The teaching is practical because reaction chains can be seen. Contact, feeling, craving, clinging, and suffering often happen quickly, but mindfulness can notice the process before it hardens into speech or action.",
+          "Changing one condition may look small, but it matters. Rest, wise friends, honest reflection, ethical restraint, and short meditation can all become conditions that weaken old patterns."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "<strong>What is dependent origination in simple words?</strong> It means experiences arise because of causes and conditions, and changing conditions can change what follows.",
+          "<strong>Is dependent origination the same as karma?</strong> They are related, but not identical. Karma focuses on intentional action, while dependent origination describes conditional arising more broadly.",
+          "<strong>Why is dependent origination important?</strong> It shows that suffering has conditions and can therefore be understood and gradually weakened.",
+          "<strong>Does dependent origination mean everything is fate?</strong> No. Practice, mindfulness, and wise choices are also conditions that can change a pattern.",
+          "<strong>How can beginners practice this teaching?</strong> Notice one reaction chain and interrupt it early with a breath, a pause, or a wiser condition."
+        ]
+      }
+    ],
+    takeaway:
+      "Dependent origination teaches that suffering arises through causes and conditions, and mindful practice can change the conditions that keep old patterns alive.",
+    practice:
+      "When a familiar reaction begins today, pause and ask, \"What conditions are feeding this, and what condition could soften it?\"",
+    relatedLinks: [
+      { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Karma Lesson", href: "/learn/buddhism-101/what-is-karma-in-buddhism/" },
+      { label: "Overthinking Article", href: "/articles/buddhist-wisdom-for-overthinking/" }
+    ],
+    sourceNote:
+      "Source note: Dependent origination is a foundational Buddhist teaching on conditional arising. This page offers an original beginner summary and encourages deeper study with reputable translations and teachers.",
+    terms: ["Karma", "Dukkha", "Mindfulness"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "five-aggregates-buddhism",
+    title: "The Five Aggregates in Buddhism",
+    seoTitle: "The Five Aggregates in Buddhism Explained Simply",
+    description:
+      "A simple beginner guide to the Five Aggregates in Buddhism: form, feeling, perception, mental formations, and consciousness, with practical examples.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Five Aggregates are a Buddhist way of observing human experience as a changing process rather than a fixed self.",
+    sections: [
+      {
+        heading: "What Are the Five Aggregates?",
+        paragraphs: [
+          "The Five Aggregates are form, feeling, perception, mental formations, and consciousness. In Pali they are called the five khandhas. They describe the parts of experience that we often gather together and call me, mine, or myself.",
+          "For beginners, the aggregates are not meant to be a dry list. They are a practical way to observe life. A body sensation appears. A pleasant or unpleasant feeling tone appears. The mind recognizes and labels. Habits and intentions form. Consciousness knows the experience. When these processes are clung to as a solid self, suffering grows. This connects with <a href='/learn/buddhism-101/three-marks-of-existence/'>the Three Marks of Existence</a> and the dictionary entry on <a href='/learn/buddhist-dictionary/anatta/'>anatta</a>."
+        ]
+      },
+      {
+        heading: "Form: The Body and Material Experience",
+        paragraphs: [
+          "Form includes the body and material aspects of experience. It is the weight of sitting, the sound of traffic, the warmth of tea, the eyes reading a page, and the hands typing a message. The body is not separate from practice; it is one of the clearest places to begin.",
+          "When anger rises, form may be tight shoulders, a clenched jaw, and faster breathing. Seeing form clearly can prevent the mind from becoming lost in the story alone. The body often announces a reaction before words do."
+        ]
+      },
+      {
+        heading: "Feeling: Pleasant, Unpleasant, or Neutral",
+        paragraphs: [
+          "Feeling in the aggregate teaching does not mean emotion in the broad modern sense. It means the basic tone of experience: pleasant, unpleasant, or neutral. A compliment feels pleasant. A loud noise feels unpleasant. A familiar wall may feel neutral.",
+          "This matters because craving often begins here. Pleasant feeling invites grasping. Unpleasant feeling invites resistance. Neutral feeling invites dullness or neglect. Mindfulness notices feeling tone before it becomes a whole drama."
+        ]
+      },
+      {
+        heading: "Perception: Naming and Recognizing",
+        paragraphs: [
+          "Perception is the process of recognizing and labeling. It tells us, This is a smile, this is criticism, this is my phone, this is success, this is failure. Perception is useful, but it can also be mistaken.",
+          "If someone sends a short message, perception may label it as cold. Another person might label it as busy. The same words can be colored by history, fear, and expectation. Seeing perception as a process helps us hold interpretations more lightly."
+        ]
+      },
+      {
+        heading: "Mental Formations: Habits, Intentions, and Reactions",
+        paragraphs: [
+          "Mental formations include intentions, emotions, habits, impulses, attention patterns, and reactions. This is where much of daily Buddhist practice becomes visible. The urge to interrupt, the wish to help, the habit of worrying, the decision to pause, and the intention to speak truthfully are all part of this field.",
+          "Because formations are conditioned, they can be trained. This is encouraging. An impatient habit is not a permanent identity. A kinder response can be practiced until it becomes more available."
+        ]
+      },
+      {
+        heading: "Consciousness: Knowing Experience",
+        paragraphs: [
+          "Consciousness is the knowing of an object: seeing, hearing, smelling, tasting, touching, or thinking. It is not presented here as a permanent soul. It is part of the changing stream of experience.",
+          "In meditation, consciousness may know the breath, then a sound, then a memory, then a feeling in the knee. Observing this movement helps reveal impermanence. Experience is happening, but it is not as solid as the mind usually assumes."
+        ]
+      },
+      {
+        heading: "A Daily Example: Receiving Criticism",
+        paragraphs: [
+          "Suppose a manager says your work needs revision. Form: the body tightens. Feeling: the tone is unpleasant. Perception: the mind labels the comment as rejection. Mental formations: defensiveness and shame prepare a response. Consciousness: the whole experience is known moment by moment.",
+          "Without practice, the mind may turn this into, I am not good enough. With mindfulness, the aggregates can be seen as changing events. The body can soften, the feeling can be known, the perception can be questioned, the reaction can be restrained, and the response can become more useful."
+        ]
+      },
+      {
+        heading: "Observing the Aggregates in Meditation",
+        paragraphs: [
+          "During breathing meditation, the aggregates are not distant theory. Form is the body breathing. Feeling may be pleasant ease, unpleasant restlessness, or neutral repetition. Perception labels breath, sound, thought. Mental formations include impatience, effort, curiosity, and returning. Consciousness knows each object as it appears.",
+          "A beginner can use this gently. You do not need to analyze every moment. Sometimes it is enough to notice, This is a feeling, this is a thought, this is a body sensation. That small naming can loosen the belief that every experience is a fixed self."
+        ]
+      },
+      {
+        heading: "Key Takeaways",
+        paragraphs: [
+          "The Five Aggregates show that experience is made of changing parts: body, feeling tone, perception, mental formations, and consciousness. What feels like a solid self can be observed more carefully.",
+          "This teaching is useful in emotional moments. Instead of becoming a story like I am failing or I am angry, the mind can notice body tension, unpleasant feeling, interpretation, reaction, and awareness.",
+          "Seeing the aggregates does not make life meaningless. It can make practice kinder because painful states become workable processes rather than permanent identities."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "<strong>What are the Five Aggregates in Buddhism?</strong> They are form, feeling, perception, mental formations, and consciousness.",
+          "<strong>Why are the Five Aggregates important?</strong> They help us observe experience as changing processes rather than a permanent self.",
+          "<strong>Are the aggregates the same as the soul?</strong> No. They are conditioned aspects of experience that arise and change.",
+          "<strong>How do the aggregates relate to non-self?</strong> They show that what we call self is made of changing parts, not a fixed independent essence.",
+          "<strong>Can beginners practice with the aggregates?</strong> Yes. Start by noticing body, feeling tone, thoughts, and reactions during ordinary moments."
+        ]
+      }
+    ],
+    takeaway:
+      "The Five Aggregates help us observe body, feeling, perception, mental formations, and consciousness as changing processes rather than a fixed self.",
+    practice:
+      "During one strong emotion today, name the body sensation, feeling tone, perception, reaction, and knowing. Keep it simple and kind.",
+    relatedLinks: [
+      { label: "Anatta Definition", href: "/learn/buddhist-dictionary/anatta/" },
+      { label: "Three Marks of Existence", href: "/learn/buddhism-101/three-marks-of-existence/" },
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" }
+    ],
+    sourceNote:
+      "Source note: The Five Aggregates are a traditional Buddhist framework for understanding experience and non-self. Echo Buddha presents this overview in original beginner-friendly language.",
+    terms: ["Anatta", "Dukkha", "Mindfulness"]
   },
   {
     section: "buddhism-101",
@@ -604,6 +1032,7 @@ export const buddhism101Pages: LearningPage[] = [
     practice: "Notice three small changes today: a sound fading, light shifting, or a feeling moving. Say gently, “Changing.”",
     relatedLinks: [
       { label: "Anicca Dictionary Term", href: "/learn/buddhist-dictionary/anicca/" },
+      { label: "Three Marks of Existence", href: "/learn/buddhism-101/three-marks-of-existence/" },
       { label: "Impermanence Article", href: "/articles/impermanence-in-buddhism/" },
       { label: "Impermanence Quotes", href: "/quotes/impermanence/" }
     ],
@@ -650,6 +1079,105 @@ export const buddhism101Pages: LearningPage[] = [
     ],
     sourceNote: commonSourceNote,
     terms: ["Sati", "Mindfulness", "Meditation"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "right-livelihood-buddhism",
+    title: "Right Livelihood in Buddhism",
+    seoTitle: "Right Livelihood in Buddhism: A Beginner's Guide to Ethical Work",
+    description:
+      "Learn Right Livelihood in Buddhism and how it applies to modern work, money, business, ambition, honesty, stress, and ethical daily choices.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "Right livelihood is the practice of earning and working in ways that reduce harm and support honesty, care, and wisdom.",
+    sections: [
+      {
+        heading: "What Is Right Livelihood?",
+        paragraphs: [
+          "Right livelihood is one part of the <a href='/learn/buddhism-101/the-noble-eightfold-path-explained/'>Noble Eightfold Path</a>. It asks how work, earning, business, ambition, and daily responsibility can be guided by non-harming. For beginners, the basic question is simple: does the way I make a living support harm, deception, exploitation, or heedlessness, or does it move as much as possible toward honesty and care?",
+          "This does not mean every person can instantly choose ideal work. Many people have families, debts, limited options, immigration pressures, health needs, or local economic limits. Right livelihood should be approached with compassion and realism. It is a direction for practice, not a reason to shame people who are trying to survive."
+        ]
+      },
+      {
+        heading: "Right Livelihood Within the Eightfold Path",
+        paragraphs: [
+          "Right livelihood belongs to the ethical training of the Eightfold Path, together with right speech and right action. Work is not separate from practice because work shapes speech, intention, money, time, and relationships. A person may meditate each morning and still need to practice Buddhism during meetings, emails, sales, hiring, buying, and leadership.",
+          "Right livelihood asks us to bring the same care into work that we bring into meditation. Are we truthful? Are we increasing fear? Are we treating people as tools? Are we ignoring harm because profit is convenient? These questions may be uncomfortable, but they can make work more humane."
+        ]
+      },
+      {
+        heading: "Work as a Field of Practice",
+        paragraphs: [
+          "A workplace can train patience, generosity, humility, and mindfulness. It can also train comparison, resentment, overwork, and dishonesty. Buddhist practice asks us to notice what our work is training in us. The answer is often more important than the job title.",
+          "For example, a teacher may practice patience with students. A shop owner may practice fairness with customers. A manager may practice truthful feedback without humiliation. A remote worker may practice attention and boundaries. A student preparing for a career may practice honesty before professional identity hardens."
+        ]
+      },
+      {
+        heading: "Honest Work and Harmful Work",
+        paragraphs: [
+          "Traditional Buddhist discussions warn against livelihoods that directly support serious harm. Modern readers can apply the principle by asking whether their work depends on violence, exploitation, deception, addiction, environmental harm, or the deliberate creation of confusion.",
+          "The answer is not always simple. A person may work in a large system where some parts help and some parts harm. Right livelihood begins with honest seeing. From there, a person may reduce harm inside the current role, speak up where possible, refuse dishonest tasks, seek better work over time, or support others through ethical choices."
+        ]
+      },
+      {
+        heading: "Money, Ambition, and Buddhist Practice",
+        paragraphs: [
+          "Buddhism does not require lay people to hate money or reject responsibility. Money can feed families, support education, care for elders, fund generosity, and provide stability. The question is how money is earned, held, and used. Does it increase greed and fear, or does it support a balanced life?",
+          "Ambition also needs examination. Ambition can be wholesome when it means developing skill, serving others, and doing careful work. It becomes painful when self-worth depends on status, praise, or endless comparison. This is where <a href='/learn/buddhism-101/five-precepts-buddhism/'>the Five Precepts</a> can guide daily choices."
+        ]
+      },
+      {
+        heading: "Modern Examples of Right Livelihood",
+        paragraphs: [
+          "Right livelihood may appear as refusing to exaggerate a product's benefits, giving accurate information to a client, protecting customer privacy, avoiding gossip about coworkers, paying people fairly when you have authority, or admitting a mistake before it becomes larger.",
+          "It may also appear as setting boundaries around overwork. If work consumes the whole heart, relationships, health, and practice may suffer. A mindful worker asks not only, How much can I achieve? but also, What kind of person is this schedule training me to become?"
+        ]
+      },
+      {
+        heading: "Right Livelihood Is Not Perfectionism",
+        paragraphs: [
+          "A common misunderstanding is that right livelihood requires a perfectly pure job. In a complex world, this thought can lead to despair or pride. The Buddhist path usually begins where we are. The first step may be to become more honest in the work we already do.",
+          "Perfectionism can become another form of self-centeredness. Sincere practice is humbler. It asks what harm can be reduced today, what truth can be spoken today, what responsibility can be met today, and what longer-term change may be possible."
+        ]
+      },
+      {
+        heading: "A Simple Right Livelihood Practice",
+        paragraphs: [
+          "At the beginning of a workday, choose one intention: honesty, patience, usefulness, fairness, or non-harm. At midday, pause and ask whether the intention is still alive. At the end of the day, reflect without harshness: Where did work support wisdom? Where did it feed greed, fear, or carelessness?",
+          "This simple review can be paired with <a href='/learn/buddhism-101/a-simple-daily-buddhist-practice/'>daily Buddhist practice</a>. Over time, patterns become clearer. You may discover one conversation to repair, one habit to protect, or one larger career question to hold with patience."
+        ]
+      },
+      {
+        heading: "Key Takeaways",
+        paragraphs: [
+          "Right livelihood brings Buddhist ethics into work, business, money, ambition, and responsibility. It asks whether earning a living is connected with honesty and non-harming.",
+          "The practice is not perfectionism. Many people must begin from imperfect conditions. A sincere step may be clearer speech, less deception, more fairness, or a gradual move away from work that causes harm.",
+          "Work can become a field of practice when daily tasks are guided by mindfulness, the Five Precepts, and the Eightfold Path. Even one ethical choice can change the tone of a day."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "<strong>What does right livelihood mean in Buddhism?</strong> It means earning and working in ways that avoid unnecessary harm and support honesty, responsibility, and wisdom.",
+          "<strong>Is right livelihood only about choosing a job?</strong> No. It also includes how you behave inside a job: speech, fairness, privacy, money, ambition, and responsibility.",
+          "<strong>Can I practice right livelihood if my job is imperfect?</strong> Yes. Begin by reducing harm and increasing honesty where you are, while considering wiser long-term options when possible.",
+          "<strong>Does Buddhism say money is bad?</strong> No. The concern is craving, dishonesty, harm, and attachment around money, not responsible support of life.",
+          "<strong>What is one simple right livelihood practice?</strong> Choose one work intention each day and review whether your actions supported it."
+        ]
+      }
+    ],
+    takeaway:
+      "Right livelihood brings Buddhist ethics into work, money, ambition, and daily responsibility by asking how earning can reduce harm and support honesty.",
+    practice:
+      "Before work or study today, choose one intention such as honesty or fairness. Let it guide one email, decision, or conversation.",
+    relatedLinks: [
+      { label: "Noble Eightfold Path", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/" },
+      { label: "Right Speech Article", href: "/articles/right-speech-buddhism/" }
+    ],
+    sourceNote:
+      "Source note: Right livelihood is traditionally taught as one factor of the Noble Eightfold Path. Echo Buddha presents a practical modern overview for general education and reflection.",
+    terms: ["Dhamma", "Karma", "Right Speech"]
   },
   {
     section: "buddhism-101",
@@ -771,6 +1299,7 @@ export const dictionaryPages: LearningPage[] = [
     practice: "Notice one small change today and silently name it: changing.",
     relatedLinks: [
       { label: "What Is Impermanence?", href: "/learn/buddhism-101/what-is-impermanence/" },
+      { label: "Three Marks of Existence", href: "/learn/buddhism-101/three-marks-of-existence/" },
       { label: "Impermanence Article", href: "/articles/impermanence-in-buddhism/" },
       { label: "Impermanence Quotes", href: "/quotes/impermanence/" }
     ],
@@ -812,6 +1341,7 @@ export const dictionaryPages: LearningPage[] = [
     practice: "When stress appears, gently ask, “What am I resisting or clinging to right now?”",
     relatedLinks: [
       { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
+      { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" },
       { label: "Four Noble Truths Article", href: "/articles/four-noble-truths-explained/" },
       { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }
     ],
@@ -853,7 +1383,8 @@ export const dictionaryPages: LearningPage[] = [
     practice: "When a strong self-judgment appears, add: “This is a changing pattern, not my whole being.”",
     relatedLinks: [
       { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
-      { label: "Letting Go Quotes", href: "/quotes/letting-go/" },
+      { label: "Five Aggregates", href: "/learn/buddhism-101/five-aggregates-buddhism/" },
+      { label: "Three Marks of Existence", href: "/learn/buddhism-101/three-marks-of-existence/" },
       { label: "Buddhism 101", href: "/learn/buddhism-101/" }
     ],
     sourceNote: commonSourceNote,
@@ -1017,6 +1548,7 @@ export const dictionaryPages: LearningPage[] = [
     practice: "Before one action today, check whether the intention is helpful, harmful, fearful, or kind.",
     relatedLinks: [
       { label: "Karma Lesson", href: "/learn/buddhism-101/what-is-karma-in-buddhism/" },
+      { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" },
       { label: "Karma Article", href: "/articles/what-is-karma-in-buddhism/" },
       { label: "Right Intention Quote", href: "/quotes/practice/right-intention-turns-the-heart/" }
     ],
@@ -1895,7 +2427,7 @@ export const questionsAboutBuddhism = [
     links: [
       { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
       { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
-      { label: "Impermanence", href: "/learn/buddhist-dictionary/anicca/" }
+      { label: "Three Marks", href: "/learn/buddhism-101/three-marks-of-existence/" }
     ]
   },
   {
@@ -1925,7 +2457,7 @@ export const questionsAboutBuddhism = [
     links: [
       { label: "Attachment Article", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
       { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
-      { label: "Letting Go Quotes", href: "/quotes/letting-go/" }
+      { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" }
     ]
   },
   {
@@ -1945,7 +2477,7 @@ export const questionsAboutBuddhism = [
     links: [
       { label: "Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" },
       { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
-      { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" }
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/" }
     ]
   }
 ];
