@@ -27,7 +27,7 @@ const breadcrumbs = getLearningBreadcrumbs(page);
 const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: item.description ?? "" }));
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
-const jsonLd = [
+const articleJsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -49,6 +49,23 @@ const jsonLd = [
   },
   getBreadcrumbJsonLd(breadcrumbs)
 ];
+const dictionaryJsonLd = page.section === "buddhist-dictionary"
+  ? [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        name: page.title,
+        description: page.description,
+        url: `${SITE.url}${canonicalPath}`,
+        inDefinedTermSet: {
+          "@type": "DefinedTermSet",
+          name: "Echo Buddha Buddhist Dictionary",
+          url: `${SITE.url}/learn/buddhist-dictionary/`
+        }
+      }
+    ]
+  : [];
+const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 ---
 
 <Layout

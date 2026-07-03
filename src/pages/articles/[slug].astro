@@ -85,6 +85,33 @@ const relatedBuddhistTerms = {
     { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
   ]
 }[article.category] ?? [];
+const topicClusterHub = [
+  {
+    slugs: ["four-noble-truths-explained", "four-noble-truths-explained-simply"],
+    label: "main Four Noble Truths guide",
+    href: "/articles/four-noble-truths-explained-simply/"
+  },
+  {
+    slugs: ["eightfold-path-explained", "eightfold-path-explained-daily-life", "noble-eightfold-path-practical-guide"],
+    label: "main Noble Eightfold Path guide",
+    href: "/articles/noble-eightfold-path-practical-guide/"
+  },
+  {
+    slugs: ["impermanence-in-buddhism", "buddhist-teachings-on-impermanence", "impermanence-in-buddhism-letting-go"],
+    label: "main impermanence guide",
+    href: "/articles/impermanence-in-buddhism-letting-go/"
+  },
+  {
+    slugs: ["how-to-meditate-for-beginners", "mindfulness-of-breathing-guide", "mindfulness-vs-meditation"],
+    label: "main beginner meditation guide",
+    href: "/articles/how-to-meditate-for-beginners/"
+  },
+  {
+    slugs: ["loving-kindness-meditation-guide", "loving-kindness-meditation-beginners", "metta-meditation-script"],
+    label: "main loving-kindness meditation guide",
+    href: "/articles/loving-kindness-meditation-guide/"
+  }
+].find((cluster) => cluster.slugs.includes(article.slug) && cluster.href !== canonicalPath);
 const practiceToday =
   article.category === "Meditation"
     ? "Pause for three natural breaths and return gently whenever attention wanders."
@@ -299,6 +326,12 @@ const jsonLd = [
             Echo Buddha articles are original educational reflections written for general readers. For deeper formal
             study, compare reputable Buddhist translations, teachers, and practice communities.
           </p>
+          {topicClusterHub && (
+            <p>
+              For the broader topic cluster, continue with the
+              {" "}<a href={topicClusterHub.href}>{topicClusterHub.label}</a>.
+            </p>
+          )}
         </section>
       </div>
       <aside>

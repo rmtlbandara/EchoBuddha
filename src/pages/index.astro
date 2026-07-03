@@ -5,15 +5,13 @@ import ArticleCard from "../components/ArticleCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
 import { SITE, fullArticles, quotes, type Quote } from "../data/site";
 
-const title = "Echo Buddha | Buddhist Wisdom, Meditation & Mindful Quotes";
+const title = SITE.title;
 const description =
-  "Explore beginner-friendly Buddhist wisdom, original mindful quotes, meditation guidance, and calm reflections for daily life.";
-const ogTitle = "Echo Buddha | Buddhist Wisdom, Meditation & Mindful Quotes";
-const ogDescription =
-  "Read original Buddhist-inspired reflections, mindful quotes, and gentle meditation guidance for peaceful daily living.";
-const twitterTitle = "Echo Buddha | Buddhist Wisdom, Meditation & Mindful Quotes";
-const twitterDescription =
-  "Beginner-friendly Buddhist wisdom, mindful quotes, meditation guidance, and calm reflections for daily life.";
+  "Echo Buddha shares beginner-friendly Buddhist wisdom, meditation guides, Dhammapada reflections, and practical mindfulness articles for a calmer daily life.";
+const ogTitle = SITE.title;
+const ogDescription = description;
+const twitterTitle = SITE.title;
+const twitterDescription = description;
 
 const getPublishedTime = (date: string) => {
   const timestamp = Date.parse(date);
@@ -116,6 +114,18 @@ const faqItems = [
 ];
 
 const homepageJsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      }
+    ]
+  },
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",

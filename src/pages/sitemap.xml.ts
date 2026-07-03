@@ -14,7 +14,7 @@ import {
   quotes
 } from "../data/site";
 
-const siteLastModified = "2026-07-01";
+const siteLastModified = "2026-07-03";
 
 type SitemapEntry = {
   path: string;

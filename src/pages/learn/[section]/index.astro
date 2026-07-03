@@ -73,6 +73,23 @@ const jsonLd = [
       url: `${SITE.url}/learn/`
     }
   },
+  ...(section.slug === "buddhist-dictionary"
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "DefinedTermSet",
+          name: "Echo Buddha Buddhist Dictionary",
+          description: section.description,
+          url: `${SITE.url}${canonicalPath}`,
+          hasDefinedTerm: section.items.map((item) => ({
+            "@type": "DefinedTerm",
+            name: item.title,
+            description: item.description,
+            url: `${SITE.url}/learn/${section.slug}/${item.slug}/`
+          }))
+        }
+      ]
+    : []),
   getBreadcrumbJsonLd([
     { name: "Home", href: "/" },
     { name: "Learn", href: "/learn/" },

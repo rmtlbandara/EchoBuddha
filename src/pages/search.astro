@@ -16,6 +16,13 @@ const popularSearches = [
   "Anger",
   "Four Noble Truths"
 ];
+const noResultLinks = [
+  { label: "Buddhism 101", href: "/learn/buddhism-101/" },
+  { label: "Meditation Guides", href: "/meditation/" },
+  { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
+  { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
+  { label: "Quotes", href: "/quotes/" }
+];
 ---
 
 <Layout title={title} description={description} canonicalPath="/search/" noindex>
@@ -63,6 +70,9 @@ const popularSearches = [
       <div class="surface search-page-state" data-search-no-results hidden>
         <h2>No results found</h2>
         <p>Try searching for mindfulness, metta, karma, meditation, or compassion.</p>
+        <nav class="no-result-links" aria-label="Helpful search alternatives">
+          {noResultLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+        </nav>
       </div>
 
       <ol class="search-page-results" data-search-results aria-label="Search results"></ol>
@@ -153,18 +163,31 @@ const popularSearches = [
     gap: 0.5rem;
   }
 
+  .no-result-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .no-result-links a,
   .popular-searches button {
     background: var(--color-green-soft);
     border: 1px solid transparent;
     border-radius: var(--radius);
     color: var(--color-green);
-    cursor: pointer;
     font: inherit;
     font-size: 0.88rem;
     font-weight: 800;
     padding: 0.45rem 0.75rem;
+    text-decoration: none;
   }
 
+  .popular-searches button {
+    cursor: pointer;
+  }
+
+  .no-result-links a:hover,
   .popular-searches button:hover {
     border-color: var(--color-green);
   }

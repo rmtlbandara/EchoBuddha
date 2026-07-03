@@ -38,6 +38,8 @@ const {
 const canonicalUrl = new URL(canonicalPath, SITE.url).toString();
 const imageUrl = new URL(image, SITE.url).toString();
 const isBrandedTitle = title === SITE.name
+  || title === SITE.title
+  || title.startsWith(`${SITE.name} -`)
   || title.startsWith(`${SITE.name} |`)
   || title.endsWith(`| ${SITE.name}`);
 const pageTitle = isBrandedTitle ? title : `${title} | ${SITE.name}`;
@@ -52,7 +54,12 @@ const globalJsonLd = [
     name: SITE.name,
     url: SITE.url,
     description: SITE.description,
-    inLanguage: "en"
+    inLanguage: "en",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE.url}/search/?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
   },
   {
     "@context": "https://schema.org",
