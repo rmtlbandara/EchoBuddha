@@ -395,7 +395,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is an original Echo Buddha educational overview of the historical Buddha as presented across Buddhist traditions. Readers seeking formal study should compare reputable biographies, translations, teachers, and practice communities.",
     terms: ["Buddha", "Dhamma", "Sangha"]
   },
   {
@@ -437,7 +438,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
       { label: "Daily Buddhist Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is an original Echo Buddha explanation of Buddhism as a path of wisdom, ethical conduct, meditation, and compassion. It is simplified for beginners and should be compared with reputable Buddhist teachers and study communities for deeper learning.",
     terms: ["Dhamma", "Karma", "Mindfulness"]
   },
   {
@@ -478,7 +480,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Sangha Definition", href: "/learn/buddhist-dictionary/sangha/" },
       { label: "How to Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: The Three Jewels are widely taught as Buddha, Dhamma, and Sangha. Echo Buddha presents this beginner explanation in original language for general education and daily reflection.",
     terms: ["Buddha", "Dhamma", "Sangha"]
   },
   {
@@ -520,7 +523,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Eightfold Path Lesson", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
       { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is an original Echo Buddha educational explanation based on the widely taught Buddhist framework of the Four Noble Truths, traditionally associated with the Buddha's first teaching.",
     terms: ["Dukkha", "Karma", "Dhamma"]
   },
   {
@@ -562,7 +566,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Right Livelihood", href: "/learn/buddhism-101/right-livelihood-buddhism/" },
       { label: "Eightfold Path Quote", href: "/quotes/practice/eightfold-path-daily-choices/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is an original Echo Buddha explanation of the Noble Eightfold Path as a practical training path in wisdom, ethical conduct, and mental cultivation.",
     terms: ["Mindfulness", "Dhamma", "Sati"]
   },
   {
@@ -803,7 +808,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" },
       { label: "Karma Quote", href: "/quotes/wisdom/karma-begins-in-intention/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is original Echo Buddha educational writing about karma as intention, action, habit, and consequence. It avoids using karma to blame people for suffering and encourages compassionate, careful study.",
     terms: ["Karma", "Dhamma", "Compassion"]
   },
   {
@@ -1036,7 +1042,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Impermanence Article", href: "/articles/impermanence-in-buddhism/" },
       { label: "Impermanence Quotes", href: "/quotes/impermanence/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is an original Echo Buddha explanation of impermanence, or anicca, written in plain language for general Buddhist education and daily reflection.",
     terms: ["Anicca", "Letting Go", "Dukkha"]
   },
   {
@@ -1077,7 +1084,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Mindfulness vs Meditation", href: "/articles/mindfulness-vs-meditation/" },
       { label: "Mindfulness Quotes", href: "/quotes/mindfulness/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page explains mindfulness in simplified language for general readers. In Buddhist practice, mindfulness is traditionally connected with ethics, concentration, and insight, so deeper study with teachers and translations is encouraged.",
     terms: ["Sati", "Mindfulness", "Meditation"]
   },
   {
@@ -1217,7 +1225,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
       { label: "Daily Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is original Echo Buddha educational guidance for home practice. It is not a substitute for learning with reputable teachers, communities, or tradition-specific instruction.",
     terms: ["Practice", "Mindfulness", "Compassion"]
   },
   {
@@ -1258,7 +1267,8 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Right Intention Quote", href: "/quotes/practice/right-intention-turns-the-heart/" },
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: This page is original Echo Buddha guidance for a simple daily Buddhist practice, written for general education and reflection rather than formal religious instruction.",
     terms: ["Practice", "Sati", "Metta"]
   }
 ];

@@ -9,6 +9,15 @@ const title = "Meditation Practice";
 const description =
   "Explore beginner-friendly Buddhist-inspired meditation guides for breathing, loving-kindness, walking meditation, mindfulness in daily life, and short practices.";
 const canonicalPath = "/meditation/";
+const guideChoices = [
+  { need: "New to meditation", label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+  { need: "Busy day", label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" },
+  { need: "Restless mind", label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
+  { need: "Emotional heaviness", label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" },
+  { need: "Cannot sit still", label: "Walking Meditation", href: "/meditation/walking-meditation/" },
+  { need: "Daily awareness", label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
+  { need: "Need consistency", label: "10-Minute Meditation", href: "/meditation-guide/#ten-minute-practice" }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -43,6 +52,18 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
+      <section class="surface guide-chooser" aria-labelledby="guide-chooser-heading">
+        <span class="eyebrow">Choose your meditation guide</span>
+        <h2 id="guide-chooser-heading">Start Where You Are Today</h2>
+        <div class="guide-choice-grid">
+          {guideChoices.map((choice) => (
+            <a href={choice.href}>
+              <span>{choice.need}</span>
+              <strong>{choice.label}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
       <div class="grid grid--3">
         {meditationHubTopics.map((item) => <LearningCard item={item} />)}
       </div>
@@ -69,5 +90,58 @@ const jsonLd = [
   .section-band {
     background: rgba(247, 240, 229, 0.64);
     border-block: 1px solid var(--color-line);
+  }
+
+  .guide-chooser {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .guide-chooser h2 {
+    font-size: 1.45rem;
+  }
+
+  .guide-choice-grid {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .guide-choice-grid a {
+    background: rgba(247, 240, 229, 0.58);
+    border: 1px solid var(--color-line);
+    border-radius: 8px;
+    display: grid;
+    gap: 0.15rem;
+    padding: 0.85rem;
+    text-decoration: none;
+  }
+
+  .guide-choice-grid a:hover {
+    border-color: var(--color-green);
+  }
+
+  .guide-choice-grid span {
+    color: var(--color-muted);
+    font-size: 0.84rem;
+    font-weight: 800;
+  }
+
+  .guide-choice-grid strong {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 1rem;
+  }
+
+  @media (min-width: 720px) {
+    .guide-choice-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1040px) {
+    .guide-choice-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
   }
 </style>

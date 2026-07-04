@@ -30,6 +30,24 @@ const jsonLd = [
       name: article.title,
       url: `${SITE.url}/articles/${article.slug}/`
     }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Articles",
+        item: `${SITE.url}/articles/`
+      }
+    ]
   }
 ];
 ---
@@ -85,7 +103,6 @@ const jsonLd = [
         </div>
       </div>
       <aside class="sidebar">
-        <AdSlot size="box" />
         <div class="surface sidebar-note">
           <h2>Editorial Note</h2>
           <p>
@@ -93,6 +110,7 @@ const jsonLd = [
             respectful presentation, practical usefulness, and consistency with the site's contemplative purpose.
           </p>
         </div>
+        <AdSlot size="box" />
       </aside>
     </div>
   </section>

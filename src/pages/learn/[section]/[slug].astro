@@ -27,6 +27,12 @@ const breadcrumbs = getLearningBreadcrumbs(page);
 const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: item.description ?? "" }));
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
+const sourceNoteText =
+  page.section === "buddhist-dictionary"
+    ? `${page.title} is explained in simplified language for general readers. Compare this definition with reputable Buddhist teachers, translations, and study communities for deeper tradition-specific learning.`
+    : page.section === "meditation"
+      ? "This is educational meditation guidance based on general Buddhist practice themes. It is not medical or mental health advice; adapt gently and seek qualified support when needed."
+      : page.sourceNote;
 const articleJsonLd = [
   {
     "@context": "https://schema.org",
@@ -135,10 +141,10 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           </aside>
         )}
 
-        {page.sourceNote && (
+        {sourceNoteText && (
           <section>
             <h2>Further Reading / Source Note</h2>
-            <p>{page.sourceNote}</p>
+            <p>{sourceNoteText}</p>
           </section>
         )}
       </div>

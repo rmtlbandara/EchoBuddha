@@ -59,6 +59,65 @@ const sectionGuidance = {
     ]
   }
 }[section.slug];
+const buddhism101LearningOrder = [
+  {
+    label: "Who Was the Buddha?",
+    href: "/learn/buddhism-101/who-was-the-buddha/",
+    text: "Begin with the human teacher and the spirit of careful investigation."
+  },
+  {
+    label: "What Is Buddhism?",
+    href: "/learn/buddhism-101/what-is-buddhism/",
+    text: "Understand Buddhism as wisdom, ethics, meditation, compassion, and practice."
+  },
+  {
+    label: "The Three Jewels",
+    href: "/learn/buddhism-101/the-three-jewels-explained/",
+    text: "Learn how the Buddha, Dhamma, and Sangha orient Buddhist life."
+  },
+  {
+    label: "The Four Noble Truths",
+    href: "/learn/buddhism-101/the-four-noble-truths-explained/",
+    text: "See how suffering, craving, release, and the path fit together."
+  },
+  {
+    label: "The Noble Eightfold Path",
+    href: "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+    text: "Turn understanding into speech, action, livelihood, mindfulness, and meditation."
+  },
+  {
+    label: "The Five Precepts",
+    href: "/learn/buddhism-101/five-precepts-buddhism/",
+    text: "Bring Buddhist ethics into ordinary choices and relationships."
+  },
+  {
+    label: "The Three Marks of Existence",
+    href: "/learn/buddhism-101/three-marks-of-existence/",
+    text: "Explore impermanence, unsatisfactoriness, and non-self gently."
+  },
+  {
+    label: "Karma",
+    href: "/learn/buddhism-101/what-is-karma-in-buddhism/",
+    text: "Learn how intention and repeated action shape habits and consequences."
+  },
+  {
+    label: "Mindfulness",
+    href: "/learn/buddhism-101/what-is-mindfulness/",
+    text: "Practice remembering the body, feelings, mind, and present conditions."
+  },
+  {
+    label: "Simple Daily Buddhist Practice",
+    href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+    text: "Make learning repeatable through small daily practices."
+  },
+  {
+    label: "How to Practice Buddhism at Home",
+    href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+    text: "Bring study, meditation, ethics, and reflection into home life."
+  }
+];
+const dictionarySourceNote =
+  "Dictionary definitions are simplified for general readers. For deeper study, compare reputable Buddhist teachers, translations, study communities, and tradition-specific explanations.";
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -122,24 +181,41 @@ const jsonLd = [
           </div>
         </div>
       )}
+      {section.slug === "buddhism-101" && (
+        <section class="surface learning-order" aria-labelledby="learning-order-heading">
+          <span class="eyebrow">Suggested learning order</span>
+          <h2 id="learning-order-heading">A Gentle Path Through Buddhism 101</h2>
+          <ol>
+            {buddhism101LearningOrder.map((item) => (
+              <li>
+                <a href={item.href}>{item.label}</a>
+                <p>{item.text}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
       {section.slug === "buddhist-dictionary" && (
-        <div class="surface filter-panel">
-          <label for="dictionary-filter">Search Buddhist terms</label>
-          <div class="filter-controls">
-            <input
-              id="dictionary-filter"
-              type="search"
-              data-filter-input
-              autocomplete="off"
-              placeholder="Search anicca, dukkha, metta, mindfulness, karma..."
-            />
-            <button type="button" data-filter-clear>Clear</button>
+        <>
+          <div class="surface filter-panel">
+            <label for="dictionary-filter">Search Buddhist terms</label>
+            <div class="filter-controls">
+              <input
+                id="dictionary-filter"
+                type="search"
+                data-filter-input
+                autocomplete="off"
+                placeholder="Search anicca, dukkha, metta, mindfulness, karma..."
+              />
+              <button type="button" data-filter-clear>Clear</button>
+            </div>
+            <nav class="letter-list" aria-label="Dictionary letters represented in this glossary">
+              {dictionaryLetters.map((letter) => <span>{letter}</span>)}
+            </nav>
+            <p class="filter-empty" data-filter-empty hidden>No terms found. Try anicca, metta, karma, or mindfulness.</p>
           </div>
-          <nav class="letter-list" aria-label="Dictionary letters represented in this glossary">
-            {dictionaryLetters.map((letter) => <span>{letter}</span>)}
-          </nav>
-          <p class="filter-empty" data-filter-empty hidden>No terms found. Try anicca, metta, karma, or mindfulness.</p>
-        </div>
+          <p class="source-helper">{dictionarySourceNote}</p>
+        </>
       )}
       <div class="grid grid--3">
         {section.items.map((item) => (
@@ -204,6 +280,67 @@ const jsonLd = [
 
   .guidance-links a:hover {
     color: var(--color-brown);
+  }
+
+  .learning-order {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .learning-order h2 {
+    font-size: 1.45rem;
+  }
+
+  .learning-order ol {
+    counter-reset: lesson;
+    display: grid;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+
+  .learning-order li {
+    background: rgba(247, 240, 229, 0.55);
+    border: 1px solid var(--color-line);
+    border-radius: 8px;
+    counter-increment: lesson;
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.8rem 0.9rem 0.8rem 3rem;
+    position: relative;
+  }
+
+  .learning-order li::before {
+    align-items: center;
+    background: var(--color-green-soft);
+    border-radius: 50%;
+    color: var(--color-green);
+    content: counter(lesson);
+    display: inline-flex;
+    font-size: 0.8rem;
+    font-weight: 800;
+    height: 1.7rem;
+    justify-content: center;
+    left: 0.8rem;
+    position: absolute;
+    top: 0.8rem;
+    width: 1.7rem;
+  }
+
+  .learning-order a {
+    font-weight: 800;
+  }
+
+  .learning-order p,
+  .source-helper {
+    color: var(--color-muted);
+    margin: 0;
+  }
+
+  .source-helper {
+    font-size: 0.94rem;
+    margin: -0.5rem 0 1.5rem;
   }
 
   .filter-panel {

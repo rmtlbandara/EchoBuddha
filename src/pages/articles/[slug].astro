@@ -85,33 +85,113 @@ const relatedBuddhistTerms = {
     { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
   ]
 }[article.category] ?? [];
-const topicClusterHub = [
+const topicClusters = [
   {
     slugs: ["four-noble-truths-explained", "four-noble-truths-explained-simply"],
     label: "main Four Noble Truths guide",
-    href: "/articles/four-noble-truths-explained-simply/"
+    href: "/articles/four-noble-truths-explained-simply/",
+    source:
+      "This article is an original Echo Buddha educational explanation based on the widely taught Buddhist framework of the Four Noble Truths, traditionally associated with the Buddha's first teaching.",
+    links: [
+      { label: "Four Noble Truths Explained Simply", href: "/articles/four-noble-truths-explained-simply/" },
+      { label: "Four Noble Truths in Everyday Language", href: "/articles/four-noble-truths-explained/" },
+      { label: "Dukkha Definition", href: "/learn/buddhist-dictionary/dukkha/" }
+    ]
   },
   {
     slugs: ["eightfold-path-explained", "eightfold-path-explained-daily-life", "noble-eightfold-path-practical-guide"],
     label: "main Noble Eightfold Path guide",
-    href: "/articles/noble-eightfold-path-practical-guide/"
+    href: "/articles/noble-eightfold-path-practical-guide/",
+    source:
+      "This article is an original Echo Buddha explanation of the Noble Eightfold Path as a practical training path in wisdom, ethical conduct, and mental cultivation.",
+    links: [
+      { label: "Noble Eightfold Path Practical Guide", href: "/articles/noble-eightfold-path-practical-guide/" },
+      { label: "Right Speech in Buddhism", href: "/articles/right-speech-buddhism/" },
+      { label: "Eightfold Path Lesson", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" }
+    ]
   },
   {
     slugs: ["impermanence-in-buddhism", "buddhist-teachings-on-impermanence", "impermanence-in-buddhism-letting-go"],
     label: "main impermanence guide",
-    href: "/articles/impermanence-in-buddhism-letting-go/"
+    href: "/articles/impermanence-in-buddhism-letting-go/",
+    source:
+      "This article is original Echo Buddha educational writing on anicca, the Buddhist teaching of impermanence, with daily-life examples for general readers.",
+    links: [
+      { label: "Impermanence and Letting Go", href: "/articles/impermanence-in-buddhism-letting-go/" },
+      { label: "Accepting Change Peacefully", href: "/articles/impermanence-in-buddhism/" },
+      { label: "Anicca Definition", href: "/learn/buddhist-dictionary/anicca/" }
+    ]
   },
   {
     slugs: ["how-to-meditate-for-beginners", "mindfulness-of-breathing-guide", "mindfulness-vs-meditation"],
     label: "main beginner meditation guide",
-    href: "/articles/how-to-meditate-for-beginners/"
+    href: "/articles/how-to-meditate-for-beginners/",
+    source:
+      "This article is educational and reflective, based on general Buddhist meditation themes. It is not medical or mental health advice.",
+    links: [
+      { label: "How to Meditate for Beginners", href: "/articles/how-to-meditate-for-beginners/" },
+      { label: "Mindfulness of Breathing", href: "/articles/mindfulness-of-breathing-guide/" },
+      { label: "Meditation Practice Hub", href: "/meditation/" }
+    ]
   },
   {
     slugs: ["loving-kindness-meditation-guide", "loving-kindness-meditation-beginners", "metta-meditation-script"],
     label: "main loving-kindness meditation guide",
-    href: "/articles/loving-kindness-meditation-guide/"
+    href: "/articles/loving-kindness-meditation-guide/",
+    source:
+      "This article is original Echo Buddha educational writing on metta, or loving-kindness practice, presented as reflective guidance rather than clinical advice.",
+    links: [
+      { label: "Loving-Kindness Meditation Guide", href: "/articles/loving-kindness-meditation-guide/" },
+      { label: "Metta Meditation Script", href: "/articles/metta-meditation-script/" },
+      { label: "Metta Definition", href: "/learn/buddhist-dictionary/metta/" }
+    ]
+  },
+  {
+    slugs: ["what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide"],
+    label: "main Buddhism beginner guide",
+    href: "/articles/what-is-buddhism-beginner-guide/",
+    source:
+      "This article is an original Echo Buddha beginner explanation of Buddhism as a living tradition of wisdom, ethics, meditation, and compassion.",
+    links: [
+      { label: "What Is Buddhism?", href: "/articles/what-is-buddhism-beginner-guide/" },
+      { label: "Buddhism for Beginners", href: "/articles/buddhism-for-beginners-simple-guide/" },
+      { label: "Buddhism 101 Learning Path", href: "/learn/buddhism-101/" }
+    ]
+  },
+  {
+    slugs: ["what-is-karma-in-buddhism"],
+    label: "karma and intention guide",
+    href: "/articles/what-is-karma-in-buddhism/",
+    source:
+      "This article is original Echo Buddha educational writing about karma as intention, action, habit, and consequence. It avoids using karma to blame people for suffering.",
+    links: [
+      { label: "Karma Article", href: "/articles/what-is-karma-in-buddhism/" },
+      { label: "Karma Dictionary Term", href: "/learn/buddhist-dictionary/karma/" },
+      { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" }
+    ]
+  },
+  {
+    slugs: ["dhammapada-reflection-what-we-think", "dhammapada-reflection-trained-mind"],
+    label: "Dhammapada reflections hub",
+    href: "/learn/dhammapada-reflections/",
+    source:
+      "This is an original Echo Buddha reflection inspired by broad Dhammapada themes. It is not presented as a direct copyrighted translation.",
+    links: [
+      { label: "Dhammapada Reflections Hub", href: "/learn/dhammapada-reflections/" },
+      { label: "The Mind Leads All Things", href: "/learn/dhammapada-reflections/the-mind-leads-all-things/" },
+      { label: "Peace Comes From a Trained Mind", href: "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/" }
+    ]
   }
-].find((cluster) => cluster.slugs.includes(article.slug) && cluster.href !== canonicalPath);
+];
+const activeTopicCluster = topicClusters.find((cluster) => cluster.slugs.includes(article.slug));
+const topicClusterHub = activeTopicCluster && activeTopicCluster.href !== canonicalPath ? activeTopicCluster : undefined;
+const sourceNoteText =
+  activeTopicCluster?.source ??
+  (article.category === "Meditation"
+    ? "This article is educational and reflective, based on general Buddhist meditation themes. It is not medical or mental health advice."
+    : article.category === "Reflection"
+      ? "This article is an original Echo Buddha reflection inspired by Buddhist themes and is not presented as a direct scripture translation."
+      : "Echo Buddha articles are original educational reflections written for general readers. For deeper formal study, compare reputable Buddhist translations, teachers, and practice communities.");
 const practiceToday =
   article.category === "Meditation"
     ? "Pause for three natural breaths and return gently whenever attention wanders."
@@ -322,10 +402,7 @@ const jsonLd = [
 
         <section class="source-note" aria-labelledby="source-note-heading">
           <h2 id="source-note-heading">Further Reading / Source Note</h2>
-          <p>
-            Echo Buddha articles are original educational reflections written for general readers. For deeper formal
-            study, compare reputable Buddhist translations, teachers, and practice communities.
-          </p>
+          <p>{sourceNoteText}</p>
           {topicClusterHub && (
             <p>
               For the broader topic cluster, continue with the
@@ -333,6 +410,17 @@ const jsonLd = [
             </p>
           )}
         </section>
+
+        {activeTopicCluster && (
+          <section class="continue-learning" aria-labelledby="continue-learning-heading">
+            <h2 id="continue-learning-heading">Continue Learning</h2>
+            <ul>
+              {activeTopicCluster.links
+                .filter((link) => link.href !== canonicalPath)
+                .map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+            </ul>
+          </section>
+        )}
       </div>
       <aside>
         {tableOfContents.length > 0 && (
@@ -346,7 +434,6 @@ const jsonLd = [
             </ol>
           </nav>
         )}
-        <AdSlot size="box" />
         <div class="surface article-tags">
           <h2>Topics</h2>
           <ul>
@@ -362,6 +449,7 @@ const jsonLd = [
           </p>
           <a href="/authors/echo-buddha-editorial/">View editorial profile</a>
         </div>
+        <AdSlot size="box" />
       </aside>
     </div>
   </article>
@@ -769,6 +857,19 @@ const jsonLd = [
     border-top: 1px solid var(--color-line);
     margin-top: 3rem;
     padding-top: 0.25rem;
+  }
+
+  .continue-learning {
+    border-top: 1px solid var(--color-line);
+    margin-top: 3rem;
+    padding-top: 0.25rem;
+  }
+
+  .continue-learning ul {
+    display: grid;
+    gap: 0.55rem;
+    list-style: none;
+    padding-left: 0;
   }
 
   .faq-list {

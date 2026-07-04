@@ -80,6 +80,24 @@ const jsonLd = [
         text: item.answer
       }
     }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Meditation Guide",
+        item: `${SITE.url}${canonicalPath}`
+      }
+    ]
   }
 ];
 ---
@@ -299,6 +317,15 @@ const jsonLd = [
           all day. It is to become more available to life, less governed by automatic reactions, and more capable of
           choosing a compassionate response.
         </p>
+
+        <section class="source-note">
+          <h2>Further Reading / Source Note</h2>
+          <p>
+            This guide is original Echo Buddha educational meditation guidance based on general Buddhist mindfulness
+            and breathing practice themes. It is not medical or mental health advice. For deeper study, compare
+            reputable Buddhist teachers, practice communities, and tradition-specific meditation instructions.
+          </p>
+        </section>
 
         <AdSlot />
 

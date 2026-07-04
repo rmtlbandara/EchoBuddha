@@ -6,14 +6,53 @@ import { SITE, quoteCategories, quotes } from "../data/site";
 
 const title = "Buddhist Quotes";
 const description = "Read original Buddhist-inspired quotes about mindfulness, compassion, patience, letting go, and peaceful living.";
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: title,
-  description,
-  url: `${SITE.url}/quotes/`,
-  numberOfItems: quotes.length
+const quoteOfTheDay = quotes.find((quote) => quote.story) ?? quotes[0];
+const relatedReadingByTheme = {
+  Mindfulness: "/articles/beginning-a-daily-mindfulness-practice/",
+  Compassion: "/articles/compassion-in-buddhism-beginner-guide/",
+  Patience: "/articles/three-ways-to-practice-patience/",
+  Awareness: "/articles/mindfulness-vs-meditation/",
+  Practice: "/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+  "Letting Go": "/articles/how-to-practice-non-attachment/",
+  Meditation: "/meditation/",
+  Renewal: "/articles/letting-go-without-giving-up/",
+  Wisdom: "/articles/what-is-buddhism-beginner-guide/",
+  Impermanence: "/articles/impermanence-in-buddhism-letting-go/"
 };
+const quoteRelatedReading = quoteCategories
+  .map((category) => ({
+    label: `${category.name} reading`,
+    href: relatedReadingByTheme[category.name]
+  }))
+  .filter((item) => item.href);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}/quotes/`,
+    numberOfItems: quotes.length
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Quotes",
+        item: `${SITE.url}/quotes/`
+      }
+    ]
+  }
+];
 ---
 
 <Layout title={title} description={description} canonicalPath="/quotes/" jsonLd={jsonLd}>
@@ -29,6 +68,21 @@ const jsonLd = {
   </section>
   <section class="section section--tight">
     <div class="container" data-filter-root>
+      <aside class="surface quote-note" aria-labelledby="quote-note-heading">
+        <div>
+          <span class="eyebrow">Quote of the day</span>
+          <h2 id="quote-note-heading">{quoteOfTheDay.text}</h2>
+          <p>
+            Echo Buddha quotes are original reflections inspired by Buddhist practice. They are written for daily
+            contemplation and are not presented as direct scripture translations.
+          </p>
+        </div>
+        {quoteOfTheDay.story && (
+          <a class="button button--secondary" href={`/quotes/${quoteOfTheDay.theme.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/${quoteOfTheDay.story.slug}/`}>
+            Read the reflection
+          </a>
+        )}
+      </aside>
       <div class="category-heading">
         <span class="eyebrow">Browse by category</span>
         <h2>Choose a Theme</h2>
@@ -40,6 +94,10 @@ const jsonLd = {
             <small>{category.count} quotes</small>
           </a>
         ))}
+      </nav>
+
+      <nav class="related-reading-row" aria-label="Quote theme related reading">
+        {quoteRelatedReading.map((item) => <a href={item.href}>{item.label}</a>)}
       </nav>
 
       <div class="surface filter-panel">
@@ -75,6 +133,27 @@ const jsonLd = {
     font-size: clamp(1.8rem, 4vw, 2.4rem);
   }
 
+  .quote-note {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .quote-note h2 {
+    font-size: clamp(1.45rem, 3vw, 1.9rem);
+    max-width: 760px;
+  }
+
+  .quote-note p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+    max-width: 760px;
+  }
+
   .category-grid {
     display: grid;
     gap: 0.75rem;
@@ -108,6 +187,27 @@ const jsonLd = {
 
   .category-link:hover {
     border-color: var(--color-green);
+  }
+
+  .related-reading-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .related-reading-row a {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.82rem;
+    font-weight: 800;
+    padding: 0.3rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .related-reading-row a:hover {
+    color: var(--color-brown);
   }
 
   .all-quotes-heading {

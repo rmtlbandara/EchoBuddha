@@ -48,9 +48,7 @@ const popularSearches = ["Mindfulness", "Metta", "Karma", "Anicca", "Meditation"
         {popularSearches.map((term) => <button type="button" data-popular-search={term}>{term}</button>)}
       </div>
     </div>
-    <p class="search-state" data-search-no-results hidden>
-      No results found. Try mindfulness, metta, karma, meditation, or compassion.
-    </p>
+    <p class="search-state" data-search-no-results hidden>No results found.</p>
     <ol class="search-results" data-search-results aria-label="Search results"></ol>
     <a class="full-search-link" href="/search/">Open full search page</a>
   </section>
