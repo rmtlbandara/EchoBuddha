@@ -1,0 +1,213 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LearningCard from "../components/LearningCard.astro";
+import DailyReflectionCard from "../components/DailyReflectionCard.astro";
+import { dailyReflections } from "../data/dailyReflections";
+import { SITE } from "../data/site";
+
+const title = "Start Here - Begin Your Buddhist Wisdom and Mindfulness Journey";
+const description =
+  "New to Echo Buddha? Start with simple Buddhist teachings, beginner meditation, daily reflections, and practical mindfulness guidance.";
+const canonicalPath = "/start-here/";
+const sevenStepPath = [
+  { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/", description: "Understand Buddhism as a path of wisdom, ethics, meditation, and compassion." },
+  { label: "The Four Noble Truths", href: "/learn/four-noble-truths/", description: "Learn the core teaching on suffering, causes, release, and the path." },
+  { label: "The Noble Eightfold Path", href: "/learn/eightfold-path/", description: "See how Buddhist practice enters speech, work, effort, and attention." },
+  { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/", description: "Practice awareness in simple daily moments." },
+  { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/", description: "Meet change with less clinging and more care." },
+  { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/", description: "Learn warm, clear, non-harming care for yourself and others." },
+  { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/", description: "Begin with breath, posture, and gentle returning." }
+];
+const startingNeeds = [
+  { label: "New to Buddhism?", href: "/learn/buddhism-for-beginners/", description: "Start with beginner explanations and a calm order of study." },
+  { label: "Want to start meditation?", href: "/meditation/", description: "Choose a short beginner guide and practice gently." },
+  { label: "Looking for daily peace?", href: "/daily-reflections/today/", description: "Read today's reflection, practice, and journal question." },
+  { label: "Want quote meanings?", href: "/quotes/", description: "Explore original quotes with reflection stories and related teachings." },
+  { label: "Need practical mindfulness?", href: "/mindful-living/", description: "Bring awareness into work, speech, home, and relationships." },
+  { label: "Prefer simple tools?", href: "/tools/", description: "Use timers, reflection tools, quote prompts, and a 7-day challenge." }
+];
+const faqItems = [
+  {
+    question: "Do I need to be Buddhist to use Echo Buddha?",
+    answer: "No. Echo Buddha is written for beginners and mindful readers who want respectful, practical Buddhist-inspired education and reflection."
+  },
+  {
+    question: "Where should I begin if I only have five minutes?",
+    answer: "Read today's daily reflection or try the 5-minute meditation guide. One sincere practice is enough for a beginning."
+  },
+  {
+    question: "Is this medical or mental health advice?",
+    answer: "No. Echo Buddha offers educational reflection and gentle mindfulness guidance. It is not a replacement for professional support."
+  }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Start Here", item: `${SITE.url}${canonicalPath}` }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer }
+    }))
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Start here</span>
+      <h1>Begin Your Buddhist Wisdom and Mindfulness Journey</h1>
+      <p class="lede">
+        Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful
+        living. Start gently, learn one idea at a time, and let practice become part of ordinary life.
+      </p>
+      <div class="hero-actions">
+        <a class="button" href="/learn/buddhism-for-beginners/">Start Learning</a>
+        <a class="button button--secondary" href="/daily-reflections/today/">Read Today's Reflection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <span class="eyebrow">Choose your doorway</span>
+      <h2>What Are You Looking For?</h2>
+      <div class="grid grid--3">
+        {startingNeeds.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container">
+      <span class="eyebrow">Recommended path</span>
+      <h2>A Gentle 7-Step Beginning</h2>
+      <div class="path-list">
+        {sevenStepPath.map((item, index) => (
+          <a class="surface path-item" href={item.href}>
+            <span>{index + 1}</span>
+            <div>
+              <h3>{item.label}</h3>
+              <p>{item.description}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Daily companion</span>
+        <h2>Return for One Reflection Each Day</h2>
+        <p class="lede">
+          Echo Buddha is designed as a daily Buddhist wisdom and mindfulness companion. Read a short reflection, try
+          one simple practice, and carry one question into the day.
+        </p>
+        <a class="button" href="/daily-reflections/">Open daily reflections</a>
+      </div>
+      <DailyReflectionCard reflection={dailyReflections[0]} compact />
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <span class="eyebrow">Beginner questions</span>
+      <h2>Helpful Notes Before You Begin</h2>
+      <div class="faq-list">
+        {faqItems.map((item) => (
+          <details class="surface faq-item">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .path-list,
+  .faq-list {
+    display: grid;
+    gap: 0.85rem;
+    margin-top: 1.25rem;
+  }
+
+  .path-item {
+    align-items: start;
+    color: var(--color-ink);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .path-item > span {
+    align-items: center;
+    background: var(--color-green-soft);
+    border-radius: 50%;
+    color: var(--color-green);
+    display: inline-flex;
+    font-weight: 900;
+    height: 2.25rem;
+    justify-content: center;
+    width: 2.25rem;
+  }
+
+  .path-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .path-item p,
+  .faq-item p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  .faq-item {
+    padding: 1rem 1.15rem;
+  }
+
+  .faq-item summary {
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+  @media (min-width: 760px) {
+    .path-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

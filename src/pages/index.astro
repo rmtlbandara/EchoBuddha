@@ -2,13 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 import AdSlot from "../components/AdSlot.astro";
 import ArticleCard from "../components/ArticleCard.astro";
+import DailyReflectionCard from "../components/DailyReflectionCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
+import { dailyReflections } from "../data/dailyReflections";
 import { SITE, fullArticles, quotes, type Quote } from "../data/site";
 
-const title = SITE.title;
+const title = "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life";
 const description =
-  "Echo Buddha shares beginner-friendly Buddhist wisdom, meditation guides, Dhammapada reflections, and practical mindfulness articles for a calmer daily life.";
-const ogTitle = SITE.title;
+  "Explore simple Buddhist teachings, daily reflections, quote meanings, beginner meditation guides, and mindfulness practices for a calmer everyday life.";
+const ogTitle = title;
 const ogDescription = description;
 const twitterTitle = SITE.title;
 const twitterDescription = description;
@@ -39,22 +41,22 @@ const featuredQuotes = featuredQuoteThemes
 
 const guideCards = [
   {
-    title: "Learn Buddhist Wisdom",
-    href: "/learn/",
-    description: "Learn core ideas with gentle, practical explanations made for everyday reflection.",
+    title: "Learn Buddhism",
+    href: "/learn/buddhism-for-beginners/",
+    description: "Start with clear beginner teachings, core ideas, and a gentle study path.",
     tone: "wisdom"
   },
   {
-    title: "Buddhist Dictionary",
-    href: "/learn/buddhist-dictionary/",
-    description: "Explore clear meanings for Buddhist terms such as metta, karma, anicca, and mindfulness.",
-    tone: "dictionary"
+    title: "Daily Reflections",
+    href: "/daily-reflections/",
+    description: "Read a short reflection, daily practice, and journal question for mindful living.",
+    tone: "dhammapada"
   },
   {
-    title: "Dhammapada Reflections",
-    href: "/learn/dhammapada-reflections/",
-    description: "Read simple reflections inspired by classic Buddhist wisdom for daily life.",
-    tone: "dhammapada"
+    title: "Buddhist Quotes & Meanings",
+    href: "/quotes/",
+    description: "Explore original quotes with reflection stories and related Buddhist ideas.",
+    tone: "dictionary"
   },
   {
     title: "Meditation Practice",
@@ -63,25 +65,37 @@ const guideCards = [
     tone: "meditation"
   },
   {
-    title: "Questions About Buddhism",
-    href: "/learn/questions-about-buddhism/",
-    description: "Find beginner-friendly answers to common questions about Buddhist ideas and practice.",
+    title: "Mindful Living",
+    href: "/mindful-living/",
+    description: "Apply Buddhist wisdom to speech, work, relationships, patience, and letting go.",
     tone: "questions"
   },
   {
-    title: "Latest Articles",
-    href: "/articles/",
-    description: "Read practical Buddhist-inspired articles on wisdom, mindfulness, compassion, and letting go.",
+    title: "Practice Tools",
+    href: "/tools/",
+    description: "Use simple timers, reflection prompts, quote tools, and a 7-day mindfulness path.",
     tone: "articles"
   }
 ];
 
 const resourceLinks = [
-  { label: "Daily Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" },
-  { label: "Meditation Guide", href: "/meditation-guide/" },
-  { label: "Buddhist Quotes", href: "/quotes/" },
+  { label: "Start Here", href: "/start-here/" },
+  { label: "Today's Reflection", href: "/daily-reflections/today/" },
+  { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+  { label: "Eightfold Path", href: "/learn/eightfold-path/" },
   { label: "Search Echo Buddha", href: "/search/" }
 ];
+
+const beginnerPath = [
+  { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
+  { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+  { label: "Noble Eightfold Path", href: "/learn/eightfold-path/" },
+  { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" },
+  { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/" }
+];
+
+const featuredDailyReflection = dailyReflections[0];
+const featuredQuote = quotes.find((quote) => quote.theme === "Mindfulness") ?? quotes[0];
 
 const practiceSteps = [
   "Sit comfortably and let the shoulders soften.",
@@ -165,24 +179,25 @@ const homepageJsonLd = [
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow">Buddhist wisdom for daily life</span>
+        <span class="eyebrow">Buddhist wisdom for a calmer everyday life</span>
         <h1>Echo Buddha</h1>
         <p class="hero-subtitle">
-          A calm learning space for Buddhist wisdom, mindfulness, meditation, and daily reflection.
+          A daily Buddhist wisdom, meditation, and mindfulness companion for modern life.
         </p>
         <p class="lede">
-          Read original, beginner-friendly reflections written for peaceful daily practice. Explore short quotes,
-          thoughtful articles, and simple meditation guidance without noise or pressure.
+          Learn Buddhist teachings simply, read daily reflections, explore quote meanings, practice beginner
+          meditation, and bring mindfulness into ordinary conversations, work, and rest.
         </p>
         <div class="hero-actions" aria-label="Homepage quick links">
-          <a class="button" href="/articles/">Read Articles</a>
-          <a class="button button--secondary" href="/meditation-guide/">Start Meditating</a>
-          <a class="hero-text-link" href="/quotes/">Explore Quotes</a>
+          <a class="button" href="/start-here/">Start Learning</a>
+          <a class="button button--secondary" href="/daily-reflections/today/">Read Today's Reflection</a>
+          <a class="button button--secondary" href="/meditation/">Explore Meditation</a>
+          <a class="hero-text-link" href="/quotes/">Browse Quotes</a>
         </div>
         <ul class="hero-values" aria-label="Echo Buddha values">
           <li>Original reflections</li>
           <li>Beginner-friendly guides</li>
-          <li>Calm daily practice</li>
+          <li>Daily practice tools</li>
         </ul>
       </div>
       <picture class="hero-visual">
@@ -208,10 +223,10 @@ const homepageJsonLd = [
     <div class="container">
       <div class="section-intro">
         <span class="eyebrow">Start gently</span>
-        <h2>Choose a Gentle Place to Begin</h2>
+        <h2>Choose a Calm Place to Begin</h2>
         <p>
-          Follow the path that fits your day, whether you want a short reflection, a practical teaching,
-          or a few quiet minutes with the breath.
+          Echo Buddha is organized around daily usefulness: simple teachings, reflections, quote meanings,
+          meditation, mindful living, and practice tools you can return to.
         </p>
       </div>
       <div class="guide-grid">
@@ -233,11 +248,43 @@ const homepageJsonLd = [
       </nav>
       <div class="search-callout surface">
         <div>
-          <h3>Looking for a teaching, term, or quote?</h3>
-          <p>Search the Echo Buddha library by topic, practice, Buddhist term, article, or quote theme.</p>
+          <h3>New here?</h3>
+          <p>Follow a calm beginner path through Buddhism, mindfulness, meditation, and daily reflection.</p>
         </div>
-        <a class="button button--secondary" href="/search/">Open search</a>
+        <a class="button button--secondary" href="/start-here/">Start here</a>
       </div>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Beginner learning path</span>
+        <h2>A Gentle First Path</h2>
+        <p class="lede">
+          Start with the foundations, then carry one small practice into the day. You do not need to learn everything
+          at once.
+        </p>
+        <ol class="beginner-path">
+          {beginnerPath.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+        </ol>
+      </div>
+      <DailyReflectionCard reflection={featuredDailyReflection} compact />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Buddhist quotes & meanings</span>
+        <h2>One Short Line, One Daily Practice</h2>
+        <p class="lede">
+          Echo Buddha quotes are original Buddhist-inspired reflections. Each quote links to a fuller meaning, daily
+          life example, related teaching, and practice question.
+        </p>
+        <a class="button button--secondary" href="/quotes/">Browse quote meanings</a>
+      </div>
+      <QuoteCard quote={featuredQuote} />
     </div>
   </section>
 
@@ -300,6 +347,29 @@ const homepageJsonLd = [
         <h3>A Four-Step Starter Practice</h3>
         <ol>
           {practiceSteps.map((step) => <li>{step}</li>)}
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Practice tools</span>
+        <h2>Simple Tools for Returning Daily</h2>
+        <p class="lede">
+          Use a daily reflection generator, random quote tool, 5-minute meditation timer, breathing timer, 7-day
+          mindfulness challenge, and mini Buddhist glossary. Everything works fully in the browser.
+        </p>
+        <a class="button" href="/tools/">Open practice tools</a>
+      </div>
+      <div class="practice-panel surface">
+        <h3>Today Could Be Simple</h3>
+        <ol>
+          <li>Read one reflection.</li>
+          <li>Take three natural breaths.</li>
+          <li>Choose one kinder response.</li>
+          <li>Return tomorrow without pressure.</li>
         </ol>
       </div>
     </div>
@@ -407,6 +477,17 @@ const homepageJsonLd = [
     font-size: 0.88rem;
     font-weight: 700;
     padding: 0.48rem 0.72rem;
+  }
+
+  .beginner-path {
+    display: grid;
+    gap: 0.55rem;
+    margin: 1.25rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  .beginner-path a {
+    font-weight: 800;
   }
 
   .hero-visual {

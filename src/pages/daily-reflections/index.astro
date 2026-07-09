@@ -1,0 +1,166 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import DailyReflectionCard from "../../components/DailyReflectionCard.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import { dailyReflections } from "../../data/dailyReflections";
+import { SITE } from "../../data/site";
+
+const title = "Daily Buddhist Reflections for Mindful Living";
+const description =
+  "Read short Buddhist-inspired daily reflections with simple meanings, mindful practices, and journal questions for everyday life.";
+const canonicalPath = "/daily-reflections/";
+const featuredReflections = dailyReflections.slice(0, 6);
+const relatedSections = [
+  { label: "Today's Reflection", href: "/daily-reflections/today/", description: "Open the reflection selected for today's date." },
+  { label: "Practice Tools", href: "/tools/", description: "Use timers, quote prompts, and a 7-day mindfulness challenge." },
+  { label: "Mindful Living", href: "/mindful-living/", description: "Apply Buddhist wisdom in daily routines, work, and relationships." },
+  { label: "Beginner Meditation", href: "/meditation/", description: "Start with simple, gentle meditation practices." },
+  { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/", description: "Understand key Buddhist terms in plain language." },
+  { label: "Buddhist Quotes", href: "/quotes/", description: "Read short original quotes with reflection stories." }
+];
+const faqItems = [
+  {
+    question: "How does today's reflection work?",
+    answer: "Echo Buddha chooses from a local set of original reflections using the date in your browser. No login or database is needed."
+  },
+  {
+    question: "Can I use daily reflections as meditation?",
+    answer: "You can use a reflection as a gentle mindfulness prompt. It is educational and reflective, not medical or mental health treatment."
+  }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: dailyReflections.map((reflection, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: reflection.title,
+        url: `${SITE.url}/daily-reflections/today/#${reflection.slug}`
+      }))
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Daily Reflections", item: `${SITE.url}${canonicalPath}` }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer }
+    }))
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Daily reflections</span>
+      <h1>Daily Buddhist Reflections for Mindful Living</h1>
+      <p class="lede">
+        A quiet daily companion for Buddhist-inspired reflection. Each prompt includes a short teaching, plain meaning,
+        practice for today, journal question, and links for deeper learning.
+      </p>
+      <div class="hero-actions">
+        <a class="button" href="/daily-reflections/today/">Read Today's Reflection</a>
+        <a class="button button--secondary" href="/tools/">Open practice tools</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">How to use this page</span>
+        <h2>Read, Practice, Return</h2>
+        <p class="lede">
+          Let one reflection be enough. Read slowly, try the suggested practice once, and return later if the question
+          continues to speak to your day.
+        </p>
+      </div>
+      <DailyReflectionCard reflection={dailyReflections[0]} compact />
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container">
+      <span class="eyebrow">Reflection library</span>
+      <h2>Featured Daily Reflections</h2>
+      <div class="reflection-grid">
+        {featuredReflections.map((reflection) => <DailyReflectionCard reflection={reflection} compact />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Continue practice</span>
+      <h2>Related Sections</h2>
+      <div class="grid grid--3">
+        {relatedSections.map((item) => <LearningCard item={item} />)}
+      </div>
+      <div class="faq-list">
+        {faqItems.map((item) => (
+          <details class="surface faq-item">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .reflection-grid,
+  .faq-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .faq-item {
+    padding: 1rem 1.15rem;
+  }
+
+  .faq-item summary {
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+  .faq-item p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 860px) {
+    .reflection-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

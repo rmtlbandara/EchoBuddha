@@ -14,7 +14,7 @@ import {
   quotes
 } from "../data/site";
 
-const siteLastModified = "2026-07-03";
+const siteLastModified = "2026-07-09";
 
 type SitemapEntry = {
   path: string;
@@ -24,11 +24,19 @@ type SitemapEntry = {
 const staticPaths: SitemapEntry[] = [
   { path: "/", lastmod: siteLastModified },
   { path: "/about/", lastmod: siteLastModified },
+  { path: "/start-here/", lastmod: siteLastModified },
   { path: "/editorial-policy/", lastmod: siteLastModified },
   { path: "/authors/echo-buddha-editorial/", lastmod: siteLastModified },
   { path: "/learn/", lastmod: siteLastModified },
+  { path: "/learn/buddhism-for-beginners/", lastmod: siteLastModified },
+  { path: "/learn/four-noble-truths/", lastmod: siteLastModified },
+  { path: "/learn/eightfold-path/", lastmod: siteLastModified },
   { path: "/learn/questions-about-buddhism/", lastmod: siteLastModified },
   { path: "/learn/buddhist-resources/", lastmod: siteLastModified },
+  { path: "/daily-reflections/", lastmod: siteLastModified },
+  { path: "/daily-reflections/today/", lastmod: siteLastModified },
+  { path: "/mindful-living/", lastmod: siteLastModified },
+  { path: "/tools/", lastmod: siteLastModified },
   { path: "/quotes/", lastmod: siteLastModified },
   { path: "/articles/", lastmod: siteLastModified },
   { path: "/meditation/", lastmod: siteLastModified },

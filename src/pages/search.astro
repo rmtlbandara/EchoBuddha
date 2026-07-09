@@ -16,7 +16,18 @@ const popularSearches = [
   "Anger",
   "Four Noble Truths"
 ];
+const discoveryLinks = [
+  { label: "Start Here", href: "/start-here/" },
+  { label: "Daily Reflection", href: "/daily-reflections/today/" },
+  { label: "Beginner Buddhism", href: "/learn/buddhism-for-beginners/" },
+  { label: "Meditation Guides", href: "/meditation/" },
+  { label: "Quote Categories", href: "/quotes/" },
+  { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
+  { label: "Practice Tools", href: "/tools/" }
+];
 const noResultLinks = [
+  { label: "Start Here", href: "/start-here/" },
+  { label: "Daily Reflection", href: "/daily-reflections/today/" },
   { label: "Buddhism 101", href: "/learn/buddhism-101/" },
   { label: "Meditation Guides", href: "/meditation/" },
   { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
@@ -65,6 +76,9 @@ const noResultLinks = [
         <div class="popular-searches" aria-label="Suggested popular searches">
           {popularSearches.map((term) => <button type="button" data-popular-search={term}>{term}</button>)}
         </div>
+        <nav class="no-result-links discovery-links" aria-label="Browse Echo Buddha sections">
+          {discoveryLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+        </nav>
       </div>
 
       <div class="surface search-page-state" data-search-no-results hidden>

@@ -1,0 +1,182 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import DailyReflectionCard from "../../components/DailyReflectionCard.astro";
+import { dailyReflections, getDailyReflectionForDate } from "../../data/dailyReflections";
+import { SITE } from "../../data/site";
+
+const title = "Today's Buddhist Reflection";
+const description =
+  "Read today's Buddhist-inspired reflection with a simple meaning, mindful practice, journal question, and related learning links.";
+const canonicalPath = "/daily-reflections/today/";
+const fallbackReflection = getDailyReflectionForDate();
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    author: { "@type": "Organization", name: SITE.author, url: `${SITE.url}/authors/echo-buddha-editorial/` },
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Daily Reflections", item: `${SITE.url}/daily-reflections/` },
+      { "@type": "ListItem", position: 3, name: "Today", item: `${SITE.url}${canonicalPath}` }
+    ]
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/daily-reflections/">Daily Reflections</a>
+      <span class="eyebrow">Today</span>
+      <h1>Today's Buddhist Reflection</h1>
+      <p class="lede">
+        A daily reflection chosen in your browser from Echo Buddha's original reflection library. Read slowly, practice
+        gently, and let the question stay with you.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container today-shell">
+      <div data-daily-reflection-root>
+        <p class="today-date" data-today-date></p>
+        <div class="reflection-stack">
+          {dailyReflections.map((reflection) => (
+            <div id={reflection.slug} data-daily-reflection-card data-reflection-slug={reflection.slug} hidden={reflection.slug !== fallbackReflection.slug}>
+              <DailyReflectionCard reflection={reflection} />
+            </div>
+          ))}
+        </div>
+        <div class="tool-actions">
+          <button class="button" type="button" data-random-reflection>Show another reflection</button>
+          <a class="button button--secondary" href="/tools/">Open practice tools</a>
+        </div>
+      </div>
+      <aside class="surface note-card">
+        <span class="eyebrow">Gentle note</span>
+        <h2>Use This as a Prompt</h2>
+        <p>
+          These reflections are educational and contemplative. They may support mindfulness for some readers, but they
+          are not medical advice or a replacement for professional care.
+        </p>
+        <nav aria-label="Related daily reflection links">
+          <a href="/start-here/">Start Here</a>
+          <a href="/meditation/">Meditation</a>
+          <a href="/mindful-living/">Mindful Living</a>
+        </nav>
+      </aside>
+    </div>
+  </section>
+</Layout>
+
+<script define:vars={{ reflectionCount: dailyReflections.length }}>
+  const root = document.querySelector("[data-daily-reflection-root]");
+  const cards = [...document.querySelectorAll("[data-daily-reflection-card]")];
+  const dateLabel = document.querySelector("[data-today-date]");
+  const randomButton = document.querySelector("[data-random-reflection]");
+
+  const dayOfYear = (date) => {
+    const start = Date.UTC(date.getFullYear(), 0, 0);
+    const today = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+    return Math.floor((today - start) / 86400000);
+  };
+
+  const showIndex = (index) => {
+    cards.forEach((card, cardIndex) => {
+      card.hidden = cardIndex !== index;
+    });
+  };
+
+  if (root && cards.length) {
+    const today = new Date();
+    const todayIndex = (dayOfYear(today) - 1) % reflectionCount;
+    showIndex(todayIndex);
+    if (dateLabel) {
+      dateLabel.textContent = new Intl.DateTimeFormat(undefined, {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+      }).format(today);
+    }
+
+    randomButton?.addEventListener("click", () => {
+      const visibleIndex = cards.findIndex((card) => !card.hidden);
+      const nextIndex = (visibleIndex + 7) % cards.length;
+      showIndex(nextIndex);
+    });
+  }
+</script>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .today-shell {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .today-date {
+    color: var(--color-green);
+    font-weight: 900;
+  }
+
+  .tool-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .tool-actions .button {
+    cursor: pointer;
+  }
+
+  .note-card {
+    padding: 1.25rem;
+  }
+
+  .note-card h2 {
+    font-size: 1.35rem;
+  }
+
+  .note-card p {
+    color: var(--color-muted);
+  }
+
+  .note-card nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .note-card nav a {
+    background: var(--color-green-soft);
+    border-radius: var(--radius);
+    color: var(--color-green);
+    font-size: 0.86rem;
+    font-weight: 800;
+    padding: 0.42rem 0.68rem;
+    text-decoration: none;
+  }
+
+  @media (min-width: 920px) {
+    .today-shell {
+      align-items: start;
+      grid-template-columns: minmax(0, 1fr) 18rem;
+    }
+  }
+</style>

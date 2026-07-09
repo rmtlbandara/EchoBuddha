@@ -1,0 +1,98 @@
+---
+import type { DailyReflection } from "../data/dailyReflections";
+
+type Props = {
+  reflection: DailyReflection;
+  compact?: boolean;
+};
+
+const { reflection, compact = false } = Astro.props;
+---
+
+<article class:list={["daily-reflection-card", "surface", { "daily-reflection-card--compact": compact }]}>
+  <span class="eyebrow">{reflection.relatedIdea}</span>
+  <h3>{reflection.title}</h3>
+  <blockquote>{reflection.reflection}</blockquote>
+  <div class="reflection-detail">
+    <strong>Meaning</strong>
+    <p>{reflection.meaning}</p>
+  </div>
+  <div class="reflection-detail">
+    <strong>Practice Today</strong>
+    <p>{reflection.practice}</p>
+  </div>
+  {!compact && (
+    <div class="reflection-detail">
+      <strong>Journal Question</strong>
+      <p>{reflection.journalQuestion}</p>
+    </div>
+  )}
+  <nav class="reflection-links" aria-label={`Related links for ${reflection.title}`}>
+    {reflection.relatedLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+  </nav>
+</article>
+
+<style>
+  .daily-reflection-card {
+    display: grid;
+    gap: 0.95rem;
+    padding: 1.35rem;
+  }
+
+  .daily-reflection-card h3 {
+    font-size: clamp(1.55rem, 4vw, 2rem);
+    margin-bottom: 0;
+  }
+
+  .daily-reflection-card--compact h3 {
+    font-size: 1.35rem;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--color-gold);
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    line-height: 1.45;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .reflection-detail {
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  .reflection-detail strong {
+    color: var(--color-ink);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .reflection-detail p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  .reflection-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .reflection-links a {
+    background: var(--color-green-soft);
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    color: var(--color-green);
+    font-size: 0.86rem;
+    font-weight: 800;
+    padding: 0.42rem 0.68rem;
+    text-decoration: none;
+  }
+
+  .reflection-links a:hover {
+    border-color: var(--color-green);
+  }
+</style>

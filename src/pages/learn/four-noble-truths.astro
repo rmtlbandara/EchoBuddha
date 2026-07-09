@@ -1,0 +1,109 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { SITE, fullArticles } from "../../data/site";
+
+const title = "Four Noble Truths Explained for Beginners";
+const description =
+  "Learn the Four Noble Truths in simple language: suffering, the causes of suffering, the possibility of release, and the path of practice.";
+const canonicalPath = "/learn/four-noble-truths/";
+const truthCards = [
+  { label: "1. Dukkha", href: "/learn/buddhist-dictionary/dukkha/", description: "Life includes stress, pain, dissatisfaction, and instability." },
+  { label: "2. Cause", href: "/learn/buddhism-101/the-four-noble-truths-explained/", description: "Craving, clinging, and confusion add suffering to experience." },
+  { label: "3. Release", href: "/learn/buddhist-dictionary/nirvana/", description: "The fires of greed, hatred, and delusion can cool." },
+  { label: "4. Path", href: "/learn/eightfold-path/", description: "The Noble Eightfold Path trains wisdom, conduct, and the mind." }
+];
+const relatedArticles = ["four-noble-truths-explained-simply", "four-noble-truths-explained", "what-is-buddhism-beginner-guide"]
+  .map((slug) => fullArticles.find((article) => article.slug === slug))
+  .filter(Boolean);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    author: { "@type": "Organization", name: SITE.author },
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Learn", item: `${SITE.url}/learn/` },
+      { "@type": "ListItem", position: 3, name: "Four Noble Truths", item: `${SITE.url}${canonicalPath}` }
+    ]
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+  <article>
+    <header class="page-hero">
+      <div class="container prose">
+        <a class="back-link" href="/learn/">Learn</a>
+        <span class="eyebrow">Core teaching hub</span>
+        <h1>The Four Noble Truths Explained for Beginners</h1>
+        <p class="lede">
+          The Four Noble Truths are a compassionate framework for understanding suffering, its causes, the possibility
+          of release, and the path of practice.
+        </p>
+      </div>
+    </header>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="grid grid--2">
+          {truthCards.map((item) => <LearningCard item={item} />)}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-band">
+      <div class="container prose">
+        <h2>Why This Teaching Matters</h2>
+        <p>
+          The Four Noble Truths do not say that life is only suffering. They help us see how pain becomes heavier when
+          craving, resistance, and confusion take over. When causes are understood, practice becomes possible.
+        </p>
+        <h2>Practice Today</h2>
+        <p>
+          Choose one difficult moment and ask: what is unavoidable pain here, and what extra suffering is being added
+          by clinging, fear, or resistance?
+        </p>
+        <h2>Source Notes</h2>
+        <p>
+          This is an original Echo Buddha beginner explanation of a central Buddhist framework. For formal study,
+          compare reputable translations and learning resources such as SuttaCentral, Access to Insight, Buddhist
+          Publication Society, and qualified teachers.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow">Related reading</span>
+        <h2>Continue Learning</h2>
+        <div class="grid grid--3">
+          {relatedArticles.map((article) => <ArticleCard article={article} />)}
+        </div>
+      </div>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+</style>

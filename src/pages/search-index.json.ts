@@ -11,6 +11,7 @@ import {
   getQuoteStory,
   quotes
 } from "../data/site";
+import { dailyReflections } from "../data/dailyReflections";
 
 type SearchIndexItem = {
   title: string;
@@ -154,7 +155,93 @@ const resourcesItem: SearchIndexItem = {
     .join(" ")
 };
 
+const hubItems: SearchIndexItem[] = [
+  {
+    title: "Start Here",
+    url: "/start-here/",
+    type: "Hub",
+    excerpt: "Begin with simple Buddhist teachings, daily reflections, meditation, quotes, mindful living, and tools.",
+    category: "Beginner Path",
+    section: "Start Here",
+    keywords: ["start here", "beginner", "Buddhism", "mindfulness", "meditation"],
+    content: "New to Buddhism start meditation daily peace Buddhist quotes practical mindfulness seven step path"
+  },
+  {
+    title: "Daily Buddhist Reflections",
+    url: "/daily-reflections/",
+    type: "Daily Reflection",
+    excerpt: "Short Buddhist-inspired daily reflections with meanings, practices, and journal questions.",
+    category: "Daily Practice",
+    section: "Daily Reflections",
+    keywords: ["daily reflections", "today", "journal", "practice", "mindfulness"],
+    content: dailyReflections
+      .flatMap((item) => [item.title, item.reflection, item.meaning, item.practice, item.journalQuestion, item.relatedIdea])
+      .join(" ")
+  },
+  {
+    title: "Today's Buddhist Reflection",
+    url: "/daily-reflections/today/",
+    type: "Daily Reflection",
+    excerpt: "Open today's Buddhist-inspired reflection and mindful practice prompt.",
+    category: "Today",
+    section: "Daily Reflections",
+    keywords: ["today", "daily reflection", "practice", "journal question"],
+    content: dailyReflections.map((item) => item.title).join(" ")
+  },
+  {
+    title: "Buddhist Mindfulness Tools",
+    url: "/tools/",
+    type: "Tool",
+    excerpt: "Use a reflection generator, quote tool, meditation timer, breathing timer, mindfulness challenge, and mini glossary.",
+    category: "Practice Tools",
+    section: "Tools",
+    keywords: ["tools", "timer", "meditation timer", "breathing", "quote tool", "glossary"],
+    content: "daily Buddhist reflection tool random quote tool 5 minute meditation timer breathing practice timer 7 day mindfulness challenge Buddhist terms mini glossary"
+  },
+  {
+    title: "Mindful Living",
+    url: "/mindful-living/",
+    type: "Hub",
+    excerpt: "Practical Buddhist-inspired mindfulness for speech, work, relationships, patience, compassion, and letting go.",
+    category: "Mindful Living",
+    section: "Mindful Living",
+    keywords: ["mindful living", "daily life", "right speech", "work", "relationships", "patience"],
+    content: "mindful speech work family patience letting go compassion daily tools ordinary life practice"
+  },
+  {
+    title: "Buddhism for Beginners",
+    url: "/learn/buddhism-for-beginners/",
+    type: "Learning Page",
+    excerpt: "Start learning Buddhism with simple explanations of core teachings and beginner practice.",
+    category: "Beginner Buddhism",
+    section: "Learn",
+    keywords: ["Buddhism for beginners", "beginner Buddhism", "what is Buddhism"],
+    content: "Buddha Four Noble Truths Noble Eightfold Path mindfulness compassion beginner meditation"
+  },
+  {
+    title: "Four Noble Truths Explained for Beginners",
+    url: "/learn/four-noble-truths/",
+    type: "Learning Page",
+    excerpt: "A clear hub for suffering, the causes of suffering, release, and the path of practice.",
+    category: "Core Teaching",
+    section: "Learn",
+    keywords: ["Four Noble Truths", "dukkha", "suffering", "Buddhist teaching"],
+    content: "dukkha cause craving clinging release Noble Eightfold Path source notes"
+  },
+  {
+    title: "Noble Eightfold Path for Daily Life",
+    url: "/learn/eightfold-path/",
+    type: "Learning Page",
+    excerpt: "Learn the Eightfold Path as practical training in wisdom, conduct, mindfulness, and meditation.",
+    category: "Core Practice",
+    section: "Learn",
+    keywords: ["Eightfold Path", "Noble Eightfold Path", "right speech", "right mindfulness"],
+    content: "right view right intention right speech right action right livelihood right effort right mindfulness right concentration"
+  }
+];
+
 const searchIndex = [
+  ...hubItems,
   ...articleItems,
   ...quoteItems,
   ...learningItems,

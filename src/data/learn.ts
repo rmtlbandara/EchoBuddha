@@ -2591,6 +2591,10 @@ export const learningSections: LearningSection[] = [
 ];
 
 export const learnHubCards: LearningLink[] = [
+  { label: "Start Here", href: "/start-here/", description: "A gentle path for new visitors to begin learning and practicing." },
+  { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/", description: "Start with the Buddha, core teachings, mindfulness, and meditation." },
+  { label: "Four Noble Truths", href: "/learn/four-noble-truths/", description: "Understand suffering, causes, release, and the path in simple language." },
+  { label: "Noble Eightfold Path", href: "/learn/eightfold-path/", description: "Practice wisdom, conduct, effort, mindfulness, and concentration in daily life." },
   { label: "Buddhism 101", href: "/learn/buddhism-101/", description: "Begin with core Buddhist teachings in simple language." },
   { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/", description: "Look up terms like anicca, dukkha, metta, and sati." },
   { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/", description: "Read original reflections on classic Buddhist themes." },
@@ -2604,9 +2608,9 @@ export const popularLearningPaths = [
   {
     title: "New to Buddhism",
     links: [
-      { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
-      { label: "The Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
-      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" }
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+      { label: "The Four Noble Truths", href: "/learn/four-noble-truths/" },
+      { label: "The Noble Eightfold Path", href: "/learn/eightfold-path/" }
     ]
   },
   {

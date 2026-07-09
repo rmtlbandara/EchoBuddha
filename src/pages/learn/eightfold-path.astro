@@ -1,0 +1,112 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { SITE, fullArticles } from "../../data/site";
+
+const title = "Noble Eightfold Path for Daily Life";
+const description =
+  "Learn the Noble Eightfold Path as a practical Buddhist training in wisdom, ethical conduct, effort, mindfulness, and meditation.";
+const canonicalPath = "/learn/eightfold-path/";
+const pathFactors = [
+  { label: "Right View", href: "/learn/buddhism-101/the-four-noble-truths-explained/", description: "See suffering, change, intention, and practice more clearly." },
+  { label: "Right Intention", href: "/quotes/practice/right-intention-turns-the-heart/", description: "Turn the heart toward non-harming, renunciation, and goodwill." },
+  { label: "Right Speech", href: "/articles/right-speech-buddhism/", description: "Speak truthfully, kindly, usefully, and at the right time." },
+  { label: "Right Action", href: "/learn/buddhism-101/five-precepts-buddhism/", description: "Let conduct reduce harm and support trust." },
+  { label: "Right Livelihood", href: "/learn/buddhism-101/right-livelihood-buddhism/", description: "Bring honesty and non-harming into work." },
+  { label: "Right Effort", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/", description: "Cultivate wholesome states without harshness." },
+  { label: "Right Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/", description: "Remember awareness in body, feeling, mind, and daily life." },
+  { label: "Right Concentration", href: "/meditation/meditation-for-beginners/", description: "Train steadiness through meditation and gentle returning." }
+];
+const relatedArticles = ["noble-eightfold-path-practical-guide", "eightfold-path-explained", "eightfold-path-explained-daily-life", "right-speech-buddhism"]
+  .map((slug) => fullArticles.find((article) => article.slug === slug))
+  .filter(Boolean);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    author: { "@type": "Organization", name: SITE.author },
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Learn", item: `${SITE.url}/learn/` },
+      { "@type": "ListItem", position: 3, name: "Eightfold Path", item: `${SITE.url}${canonicalPath}` }
+    ]
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+  <article>
+    <header class="page-hero">
+      <div class="container prose">
+        <a class="back-link" href="/learn/">Learn</a>
+        <span class="eyebrow">Core practice hub</span>
+        <h1>The Noble Eightfold Path for Daily Life</h1>
+        <p class="lede">
+          The Noble Eightfold Path is a practical training in wisdom, ethical conduct, mindfulness, and meditation. It
+          becomes real through speech, work, effort, attention, and daily choices.
+        </p>
+      </div>
+    </header>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="grid grid--2">
+          {pathFactors.map((item) => <LearningCard item={item} />)}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-band">
+      <div class="container prose">
+        <h2>Use This as a Practice Map</h2>
+        <p>
+          The path factors are not eight separate achievements. They support one another. Clearer view shapes intention,
+          intention shapes speech and action, and mindfulness helps the whole path remain alive in ordinary moments.
+        </p>
+        <h2>Practice Today</h2>
+        <p>
+          Choose one path factor before the day ends. Let it guide a real sentence, task, or response.
+        </p>
+        <h2>Source Notes</h2>
+        <p>
+          This is original Echo Buddha educational writing on a central Buddhist teaching. For deeper formal study,
+          compare reputable translations, SuttaCentral, Access to Insight, Buddhist Publication Society, and qualified
+          teachers.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow">Related reading</span>
+        <h2>Continue Learning</h2>
+        <div class="grid grid--3">
+          {relatedArticles.map((article) => <ArticleCard article={article} />)}
+        </div>
+      </div>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+</style>

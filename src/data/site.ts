@@ -1,8 +1,8 @@
 export const SITE = {
   name: "Echo Buddha",
   url: "https://echobuddha.com",
-  title: "Echo Buddha - Buddhist Wisdom, Meditation & Mindful Living",
-  description: "Echo Buddha shares beginner-friendly Buddhist wisdom, meditation guides, Dhammapada reflections, and practical mindfulness articles for a calmer daily life.",
+  title: "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life",
+  description: "Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful living practices for everyday life.",
   author: "Echo Buddha Editorial",
   email: "info.echobuddha@gmail.com",
   locale: "en_US"

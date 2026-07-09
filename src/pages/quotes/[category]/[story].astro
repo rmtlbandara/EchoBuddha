@@ -3,6 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import QuoteCard from "../../../components/QuoteCard.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import AdSlot from "../../../components/AdSlot.astro";
+import ArticleShare from "../../../components/ArticleShare.astro";
 import {
   SITE,
   getArticlesForQuoteTheme,
@@ -28,15 +29,46 @@ export function getStaticPaths() {
 const { quote, category } = Astro.props;
 const story = getQuoteStory(quote);
 const canonicalPath = `/quotes/${category.slug}/${story.slug}/`;
+const quoteUrl = `${SITE.url}${canonicalPath}`;
 const relatedQuotes = quotes.filter((item) => item.theme === quote.theme && item.text !== quote.text).slice(0, 3);
 const relatedArticles = getArticlesForQuoteTheme(quote.theme).slice(0, 2);
+const relatedTeaching = {
+  Mindfulness: { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" },
+  Compassion: { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+  Patience: { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
+  Awareness: { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+  Practice: { label: "Noble Eightfold Path", href: "/learn/eightfold-path/" },
+  "Letting Go": { label: "Non-Attachment", href: "/articles/how-to-practice-non-attachment/" },
+  Meditation: { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+  Renewal: { label: "Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+  Wisdom: { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+  Impermanence: { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/" }
+}[quote.theme] ?? { label: "Buddhist Wisdom", href: "/learn/" };
+const practiceSuggestion =
+  quote.theme === "Meditation"
+    ? "Sit for one minute and follow a natural breath without trying to force calm."
+    : quote.theme === "Compassion"
+      ? "Offer one small kindness today while keeping your boundaries clear."
+      : quote.theme === "Patience"
+        ? "Before one difficult reply, pause long enough to feel the body."
+        : quote.theme === "Letting Go"
+          ? "Name one outcome you can release for today while still acting with care."
+          : "Choose one ordinary moment and meet it with more awareness than habit.";
+const dailyLifeExample =
+  quote.theme === "Meditation"
+    ? "This quote can meet you before a short sitting practice, during a restless pause, or after noticing the mind wander."
+    : quote.theme === "Compassion"
+      ? "This quote can meet you in a tense conversation, a moment of self-criticism, or a chance to reduce someone else's burden."
+      : quote.theme === "Patience"
+        ? "This quote can meet you in traffic, family life, delayed plans, or the moment before irritation becomes speech."
+        : "This quote can meet you in work, relationships, quiet routines, or any moment where awareness can guide the next step.";
 const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: story.title,
     description: story.description,
-    url: `${SITE.url}${canonicalPath}`,
+    url: quoteUrl,
     author: {
       "@type": "Organization",
       name: SITE.author,
@@ -83,7 +115,7 @@ const jsonLd = [
         "@type": "ListItem",
         position: 4,
         name: story.title,
-        item: `${SITE.url}${canonicalPath}`
+        item: quoteUrl
       }
     ]
   }
@@ -98,11 +130,33 @@ const jsonLd = [
         <span class="eyebrow">{quote.theme} Reflection Story</span>
         <h1>{story.title}</h1>
         <blockquote>{quote.text}</blockquote>
+        <div class="quote-share-row">
+          <ArticleShare
+            title={story.title}
+            description={story.description}
+            url={quoteUrl}
+            variant="page"
+          />
+        </div>
       </div>
     </header>
 
     <div class="container article-shell">
       <div class="prose story-body">
+        <aside class="surface meaning-box">
+          <h2>Meaning of This Quote</h2>
+          <p>{story.description}</p>
+          <h2>Daily-Life Example</h2>
+          <p>{dailyLifeExample}</p>
+          <h2>Related Buddhist Teaching</h2>
+          <p>
+            This reflection connects with <a href={relatedTeaching.href}>{relatedTeaching.label}</a>, a practical way
+            to bring Buddhist wisdom into ordinary life.
+          </p>
+          <h2>Practice Suggestion</h2>
+          <p>{practiceSuggestion}</p>
+        </aside>
+
         {story.intro ? (
           <>
             <p class="lede" set:html={story.intro} />
@@ -138,6 +192,14 @@ const jsonLd = [
           Keep the quote nearby and choose one small action that expresses its meaning. Buddhist-inspired wisdom
           becomes useful when reflection is followed by patient practice.
         </p>
+
+        <section class="source-note">
+          <h2>Source Note</h2>
+          <p>
+            This is an original Echo Buddha Buddhist-inspired reflection, not a direct scripture translation. For
+            formal study, compare reputable Buddhist teachers, translations, and learning communities.
+          </p>
+        </section>
       </div>
 
       <aside>
@@ -204,8 +266,31 @@ const jsonLd = [
     padding-left: 1.25rem;
   }
 
+  .quote-share-row {
+    display: flex;
+    margin-top: 1rem;
+  }
+
   .story-body h2:first-child {
     margin-top: 0;
+  }
+
+  .meaning-box {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+  }
+
+  .meaning-box h2 {
+    font-size: 1.25rem;
+    margin-top: 1.35rem;
+  }
+
+  .meaning-box h2:first-child {
+    margin-top: 0;
+  }
+
+  .meaning-box p {
+    color: var(--color-muted);
   }
 
   .story-note {

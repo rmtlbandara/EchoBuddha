@@ -1,0 +1,510 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LearningCard from "../components/LearningCard.astro";
+import { dailyReflections } from "../data/dailyReflections";
+import { dictionaryPages } from "../data/learn";
+import { SITE, getQuoteCategory, getQuoteStory, quotes } from "../data/site";
+
+const title = "Buddhist Mindfulness Tools and Daily Practice Resources";
+const description =
+  "Use simple mindfulness tools including a daily reflection generator, Buddhist quote tool, meditation timer, breathing timer, and 7-day practice path.";
+const canonicalPath = "/tools/";
+const reflectionItems = dailyReflections.map((item) => ({
+  title: item.title,
+  reflection: item.reflection,
+  meaning: item.meaning,
+  practice: item.practice,
+  question: item.journalQuestion,
+  idea: item.relatedIdea,
+  links: item.relatedLinks
+}));
+const quoteItems = quotes.slice(0, 80).map((quote) => {
+  const story = getQuoteStory(quote);
+  const category = getQuoteCategory(quote.theme);
+  return {
+    text: quote.text,
+    theme: quote.theme,
+    meaning: story.description,
+    href: `/quotes/${category.slug}/${story.slug}/`,
+    categoryHref: `/quotes/${category.slug}/`
+  };
+});
+const glossaryItems = dictionaryPages.map((page) => ({
+  term: page.title,
+  meaning: page.description,
+  href: `/learn/${page.section}/${page.slug}/`
+}));
+const challengeDays = [
+  { day: "Day 1", title: "Breath", practice: "Pause for three natural breaths before beginning one task.", href: "/meditation/breathing-meditation/" },
+  { day: "Day 2", title: "Speech", practice: "Before one reply, ask whether your words are true, kind, and useful.", href: "/articles/right-speech-buddhism/" },
+  { day: "Day 3", title: "Patience", practice: "Let one small delay become a chance to soften the body.", href: "/quotes/patience/" },
+  { day: "Day 4", title: "Letting Go", practice: "Release one outcome for an hour while keeping care in the action.", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
+  { day: "Day 5", title: "Compassion", practice: "Offer one quiet sentence of goodwill to yourself and another person.", href: "/learn/buddhist-dictionary/compassion/" },
+  { day: "Day 6", title: "Impermanence", practice: "Notice one changing thing without trying to hold it still.", href: "/learn/buddhism-101/what-is-impermanence/" },
+  { day: "Day 7", title: "Gratitude", practice: "Name three ordinary supports you received today.", href: "/daily-reflections/today/" }
+];
+const relatedSections = [
+  { label: "Daily Reflections", href: "/daily-reflections/", description: "Short reflections with practices and journal questions." },
+  { label: "Meditation Guides", href: "/meditation/", description: "Beginner-friendly guides for breath, walking, metta, and daily mindfulness." },
+  { label: "Mindful Living", href: "/mindful-living/", description: "Bring Buddhist-inspired practice into ordinary days." }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: [
+        "Daily Buddhist Reflection Tool",
+        "Random Buddhist Quote Tool",
+        "5-Minute Meditation Timer",
+        "Breathing Practice Timer",
+        "7-Day Mindfulness Challenge",
+        "Buddhist Terms Mini Glossary"
+      ].map((name, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name
+      }))
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE.url}${canonicalPath}` }
+    ]
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <span class="eyebrow">Practice tools</span>
+      <h1>Buddhist Mindfulness Tools and Daily Practice Resources</h1>
+      <p class="lede">
+        Simple static tools for daily Buddhist-inspired reflection, quotes, meditation timing, breathing practice, and
+        beginner mindfulness. Everything works in your browser without login or a database.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container tool-grid" data-tools-root>
+      <section class="surface tool-panel tool-panel--wide" aria-labelledby="reflection-tool-heading">
+        <div class="tool-heading">
+          <span class="eyebrow">Daily practice</span>
+          <h2 id="reflection-tool-heading">Daily Buddhist Reflection Tool</h2>
+          <p>Use this when you want one reflection, one practice, and one journal question for the day.</p>
+        </div>
+        <article class="tool-output" data-reflection-output></article>
+        <div class="tool-actions">
+          <button class="button" type="button" data-next-reflection>Another reflection</button>
+          <a class="button button--secondary" href="/daily-reflections/today/">Today's page</a>
+        </div>
+      </section>
+
+      <section class="surface tool-panel" aria-labelledby="quote-tool-heading">
+        <div class="tool-heading">
+          <span class="eyebrow">Quote prompt</span>
+          <h2 id="quote-tool-heading">Random Buddhist Quote Tool</h2>
+          <p>Read one original quote with a meaning and a link to its full reflection story.</p>
+        </div>
+        <article class="tool-output" data-quote-output></article>
+        <div class="tool-actions">
+          <button class="button" type="button" data-next-quote>New quote</button>
+          <button class="button button--secondary" type="button" data-copy-quote>Copy</button>
+        </div>
+        <p class="copy-status" data-copy-status aria-live="polite"></p>
+      </section>
+
+      <section class="surface tool-panel" aria-labelledby="timer-heading">
+        <div class="tool-heading">
+          <span class="eyebrow">Timer</span>
+          <h2 id="timer-heading">5-Minute Meditation Timer</h2>
+          <p>A quiet timer for short meditation. Practice gently and stop if the session feels overwhelming.</p>
+        </div>
+        <div class="timer-display" data-timer-display>05:00</div>
+        <div class="tool-actions">
+          <button class="button" type="button" data-timer-start>Start</button>
+          <button class="button button--secondary" type="button" data-timer-pause>Pause</button>
+          <button class="button button--secondary" type="button" data-timer-reset>Reset</button>
+        </div>
+        <p class="timer-message" data-timer-message aria-live="polite"></p>
+      </section>
+
+      <section class="surface tool-panel" aria-labelledby="breathing-heading">
+        <div class="tool-heading">
+          <span class="eyebrow">Breath</span>
+          <h2 id="breathing-heading">Breathing Practice Timer</h2>
+          <p>Follow a simple inhale and exhale rhythm. This can support mindful attention for some readers.</p>
+        </div>
+        <div class="breath-visual" data-breath-visual>
+          <span data-breath-label>Inhale</span>
+        </div>
+        <div class="tool-actions">
+          <button class="button" type="button" data-breath-start>Start</button>
+          <button class="button button--secondary" type="button" data-breath-stop>Stop</button>
+        </div>
+      </section>
+
+      <section class="surface tool-panel tool-panel--wide" aria-labelledby="challenge-heading">
+        <div class="tool-heading">
+          <span class="eyebrow">7 days</span>
+          <h2 id="challenge-heading">7-Day Mindfulness Challenge</h2>
+          <p>Follow one small practice each day. No account is needed; repeat the path whenever it feels useful.</p>
+        </div>
+        <div class="challenge-grid">
+          {challengeDays.map((item) => (
+            <a href={item.href}>
+              <span>{item.day}</span>
+              <strong>{item.title}</strong>
+              <p>{item.practice}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="surface tool-panel tool-panel--wide" aria-labelledby="glossary-heading">
+        <div class="tool-heading">
+          <span class="eyebrow">Glossary</span>
+          <h2 id="glossary-heading">Buddhist Terms Mini Glossary</h2>
+          <p>Search simple meanings for common Buddhist terms, then open the full dictionary entry.</p>
+        </div>
+        <label class="visually-hidden" for="tool-glossary-search">Search Buddhist terms</label>
+        <input id="tool-glossary-search" class="tool-search" type="search" data-glossary-search placeholder="Search terms such as metta, karma, anicca..." />
+        <div class="glossary-grid" data-glossary-output></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Practice note</span>
+        <h2>Use Tools Lightly</h2>
+        <p class="lede">
+          These tools are educational supports for reflection and mindfulness. They do not diagnose, treat, or cure any
+          condition. If meditation or breathing practice feels uncomfortable, pause, open your eyes, shorten the
+          session, or seek qualified support.
+        </p>
+      </div>
+      <div class="grid">
+        {relatedSections.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script define:vars={{ reflectionItems, quoteItems, glossaryItems }}>
+  const reflectionOutput = document.querySelector("[data-reflection-output]");
+  const quoteOutput = document.querySelector("[data-quote-output]");
+  const glossaryOutput = document.querySelector("[data-glossary-output]");
+  const glossarySearch = document.querySelector("[data-glossary-search]");
+  const copyStatus = document.querySelector("[data-copy-status]");
+  let reflectionIndex = new Date().getDate() % reflectionItems.length;
+  let quoteIndex = new Date().getDate() % quoteItems.length;
+  let timerSeconds = 300;
+  let timerId;
+  let breathId;
+  let currentQuoteText = "";
+
+  const escapeHtml = (value) => (value || "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[char]);
+
+  const renderReflection = () => {
+    const item = reflectionItems[reflectionIndex];
+    reflectionOutput.innerHTML = `
+      <h3>${escapeHtml(item.title)}</h3>
+      <blockquote>${escapeHtml(item.reflection)}</blockquote>
+      <p><strong>Meaning:</strong> ${escapeHtml(item.meaning)}</p>
+      <p><strong>Practice:</strong> ${escapeHtml(item.practice)}</p>
+      <p><strong>Journal:</strong> ${escapeHtml(item.question)}</p>
+      <div>${item.links.map((link) => `<a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`).join("")}</div>
+    `;
+  };
+
+  const renderQuote = () => {
+    const item = quoteItems[quoteIndex];
+    currentQuoteText = `${item.text} - Echo Buddha`;
+    quoteOutput.innerHTML = `
+      <h3>${escapeHtml(item.theme)}</h3>
+      <blockquote>${escapeHtml(item.text)}</blockquote>
+      <p>${escapeHtml(item.meaning)}</p>
+      <div>
+        <a href="${escapeHtml(item.href)}">Read meaning</a>
+        <a href="${escapeHtml(item.categoryHref)}">${escapeHtml(item.theme)} quotes</a>
+      </div>
+    `;
+  };
+
+  const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
+    const rest = (seconds % 60).toString().padStart(2, "0");
+    return `${minutes}:${rest}`;
+  };
+
+  const updateTimer = () => {
+    const display = document.querySelector("[data-timer-display]");
+    if (display) display.textContent = formatTime(timerSeconds);
+  };
+
+  const renderGlossary = () => {
+    const query = (glossarySearch?.value || "").toLowerCase().trim();
+    const matches = glossaryItems
+      .filter((item) => !query || `${item.term} ${item.meaning}`.toLowerCase().includes(query))
+      .slice(0, 12);
+    glossaryOutput.innerHTML = matches.map((item) => `
+      <a href="${escapeHtml(item.href)}">
+        <strong>${escapeHtml(item.term)}</strong>
+        <span>${escapeHtml(item.meaning)}</span>
+      </a>
+    `).join("");
+  };
+
+  document.querySelector("[data-next-reflection]")?.addEventListener("click", () => {
+    reflectionIndex = (reflectionIndex + 1) % reflectionItems.length;
+    renderReflection();
+  });
+
+  document.querySelector("[data-next-quote]")?.addEventListener("click", () => {
+    quoteIndex = (quoteIndex + 1) % quoteItems.length;
+    renderQuote();
+  });
+
+  document.querySelector("[data-copy-quote]")?.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(currentQuoteText);
+      if (copyStatus) copyStatus.textContent = "Copied";
+      window.setTimeout(() => {
+        if (copyStatus) copyStatus.textContent = "";
+      }, 1200);
+    } catch {
+      if (copyStatus) copyStatus.textContent = "Copy failed";
+    }
+  });
+
+  document.querySelector("[data-timer-start]")?.addEventListener("click", () => {
+    window.clearInterval(timerId);
+    document.querySelector("[data-timer-message]").textContent = "";
+    timerId = window.setInterval(() => {
+      timerSeconds = Math.max(0, timerSeconds - 1);
+      updateTimer();
+      if (timerSeconds === 0) {
+        window.clearInterval(timerId);
+        document.querySelector("[data-timer-message]").textContent = "Practice complete. Return gently.";
+      }
+    }, 1000);
+  });
+
+  document.querySelector("[data-timer-pause]")?.addEventListener("click", () => window.clearInterval(timerId));
+  document.querySelector("[data-timer-reset]")?.addEventListener("click", () => {
+    window.clearInterval(timerId);
+    timerSeconds = 300;
+    updateTimer();
+    document.querySelector("[data-timer-message]").textContent = "";
+  });
+
+  document.querySelector("[data-breath-start]")?.addEventListener("click", () => {
+    const visual = document.querySelector("[data-breath-visual]");
+    const label = document.querySelector("[data-breath-label]");
+    let inhale = true;
+    window.clearInterval(breathId);
+    visual?.classList.add("is-inhale");
+    label.textContent = "Inhale";
+    breathId = window.setInterval(() => {
+      inhale = !inhale;
+      visual?.classList.toggle("is-inhale", inhale);
+      label.textContent = inhale ? "Inhale" : "Exhale";
+    }, 4000);
+  });
+
+  document.querySelector("[data-breath-stop]")?.addEventListener("click", () => {
+    window.clearInterval(breathId);
+    document.querySelector("[data-breath-visual]")?.classList.remove("is-inhale");
+    document.querySelector("[data-breath-label]").textContent = "Rest";
+  });
+
+  glossarySearch?.addEventListener("input", renderGlossary);
+  renderReflection();
+  renderQuote();
+  renderGlossary();
+  updateTimer();
+</script>
+
+<style>
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .tool-grid {
+    display: grid;
+    gap: 1.15rem;
+  }
+
+  .tool-panel {
+    display: grid;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .tool-heading h2 {
+    font-size: 1.55rem;
+  }
+
+  .tool-heading p,
+  .tool-output p,
+  .challenge-grid p,
+  .copy-status,
+  .timer-message {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  .tool-output {
+    background: rgba(247, 240, 229, 0.58);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    display: grid;
+    gap: 0.75rem;
+    min-height: 12rem;
+    padding: 1rem;
+  }
+
+  .tool-output h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  .tool-output blockquote {
+    border-left: 3px solid var(--color-gold);
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .tool-output div,
+  .tool-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .tool-actions .button {
+    cursor: pointer;
+  }
+
+  .tool-output a {
+    background: var(--color-green-soft);
+    border-radius: var(--radius);
+    color: var(--color-green);
+    font-size: 0.85rem;
+    font-weight: 800;
+    padding: 0.35rem 0.6rem;
+    text-decoration: none;
+  }
+
+  .timer-display {
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: clamp(3rem, 10vw, 5rem);
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .breath-visual {
+    align-items: center;
+    aspect-ratio: 1;
+    background: var(--color-green-soft);
+    border: 1px solid rgba(95, 127, 98, 0.28);
+    border-radius: 50%;
+    color: var(--color-green);
+    display: flex;
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    font-weight: 700;
+    justify-content: center;
+    margin-inline: auto;
+    max-width: 13rem;
+    transform: scale(0.82);
+    transition: transform 4000ms ease;
+    width: 72%;
+  }
+
+  .breath-visual.is-inhale {
+    transform: scale(1);
+  }
+
+  .challenge-grid,
+  .glossary-grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .challenge-grid a,
+  .glossary-grid a {
+    background: rgba(247, 240, 229, 0.58);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    display: grid;
+    gap: 0.2rem;
+    padding: 0.85rem;
+    text-decoration: none;
+  }
+
+  .challenge-grid a:hover,
+  .glossary-grid a:hover {
+    border-color: var(--color-green);
+  }
+
+  .challenge-grid span,
+  .glossary-grid span {
+    color: var(--color-muted);
+    font-size: 0.88rem;
+  }
+
+  .challenge-grid strong,
+  .glossary-grid strong {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+  }
+
+  .tool-search {
+    background: #fffdf8;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    color: var(--color-ink);
+    font: inherit;
+    min-height: 3rem;
+    padding: 0.75rem 0.9rem;
+    width: 100%;
+  }
+
+  @media (min-width: 860px) {
+    .tool-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tool-panel--wide {
+      grid-column: 1 / -1;
+    }
+
+    .challenge-grid,
+    .glossary-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

@@ -1,0 +1,107 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import { SITE } from "../../data/site";
+
+const title = "Buddhism for Beginners - Simple Buddhist Teachings";
+const description =
+  "Start learning Buddhism with simple explanations of the Buddha, the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, and meditation.";
+const canonicalPath = "/learn/buddhism-for-beginners/";
+const beginnerLinks = [
+  { label: "Who Was the Buddha?", href: "/learn/buddhism-101/who-was-the-buddha/", description: "Begin with the Buddha as a human teacher and awakened guide." },
+  { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/", description: "Understand Buddhism as practice, not only belief." },
+  { label: "The Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/", description: "Learn Buddha, Dhamma, and Sangha as sources of refuge." },
+  { label: "Four Noble Truths", href: "/learn/four-noble-truths/", description: "A clear hub for the Buddha's teaching on suffering and release." },
+  { label: "Noble Eightfold Path", href: "/learn/eightfold-path/", description: "A practical path through wisdom, conduct, and mental training." },
+  { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/", description: "Start with a gentle, non-performative practice." }
+];
+const faqItems = [
+  {
+    question: "What should a beginner learn first in Buddhism?",
+    answer: "Start with the Buddha, the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, and one simple daily practice."
+  },
+  {
+    question: "Do I need special beliefs to begin?",
+    answer: "You can begin by learning, reflecting, and practicing carefully. Echo Buddha presents beginner-friendly educational material rather than asking for blind belief."
+  }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Learn", item: `${SITE.url}/learn/` },
+      { "@type": "ListItem", position: 3, name: "Buddhism for Beginners", item: `${SITE.url}${canonicalPath}` }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer }
+    }))
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/learn/">Learn</a>
+      <span class="eyebrow">Beginner hub</span>
+      <h1>Buddhism for Beginners</h1>
+      <p class="lede">
+        A simple starting point for learning Buddhist wisdom without rushing. Begin with core teachings, then bring one
+        small practice into daily speech, attention, kindness, and meditation.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="grid grid--3">
+        {beginnerLinks.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band">
+    <div class="container prose">
+      <span class="eyebrow">How to begin</span>
+      <h2>Learn Slowly, Practice Simply</h2>
+      <p>
+        A beginner does not need to memorize every term. Start by understanding suffering, change, intention, mindful
+        awareness, and non-harming. Then choose one practice you can repeat: one breath, one careful sentence, one
+        moment of patience, or one act of compassion.
+      </p>
+      <p>
+        Echo Buddha's beginner pages are original educational explanations. For formal study, compare reputable
+        teachers, translations, and practice communities.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+</style>
