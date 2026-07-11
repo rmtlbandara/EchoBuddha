@@ -19,6 +19,82 @@ const { category, categoryQuotes } = Astro.props;
 const title = `${category.name} Buddhist Quotes`;
 const canonicalPath = `/quotes/${category.slug}/`;
 const relatedArticles = getArticlesForQuoteTheme(category.name).slice(0, 3);
+const categoryMeanings: Record<string, string> = {
+  Mindfulness:
+    "Mindfulness is the practice of remembering to notice experience clearly: breath, body, feelings, thoughts, speech, and the next action.",
+  Compassion:
+    "Compassion notices suffering and asks what would reduce harm. In daily life, it can include warmth, patience, wise boundaries, and practical help.",
+  Patience:
+    "Patience is not passive waiting. It is the strength to pause before speech or action becomes harmful.",
+  Awareness:
+    "Awareness is the honest seeing of what is happening in the mind, body, and relationships before habit takes over.",
+  Practice:
+    "Practice means bringing Buddhist wisdom into repeated choices: speech, work, attention, effort, generosity, and daily habits.",
+  "Letting Go":
+    "Letting go means loosening the grip of control, clinging, and repeated stories while still caring about what is wholesome.",
+  Meditation:
+    "Meditation trains gentle attention. These quotes support breath practice, posture, distraction, and beginning again.",
+  Renewal:
+    "Renewal is the willingness to learn, repair, and return to the path without being trapped by shame.",
+  Wisdom:
+    "Wisdom sees causes and consequences more clearly, then chooses what reduces suffering for oneself and others.",
+  Impermanence:
+    "Impermanence points to change. Remembering change can soften clinging, deepen gratitude, and make room for release."
+};
+const categoryTeachingLinks: Record<string, { label: string; href: string }[]> = {
+  Mindfulness: [
+    { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
+    { label: "Daily Mindfulness Practice", href: "/articles/beginning-a-daily-mindfulness-practice/" },
+    { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" }
+  ],
+  Compassion: [
+    { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+    { label: "Metta", href: "/learn/buddhist-dictionary/metta/" },
+    { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" }
+  ],
+  Patience: [
+    { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
+    { label: "Buddhist Approach to Anger", href: "/articles/buddhist-approach-to-anger/" },
+    { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" }
+  ],
+  Awareness: [
+    { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
+    { label: "Mindfulness vs Meditation", href: "/articles/mindfulness-vs-meditation/" },
+    { label: "Anger as Practice", href: "/articles/buddhist-approach-to-anger/" }
+  ],
+  Practice: [
+    { label: "Noble Eightfold Path", href: "/learn/eightfold-path/" },
+    { label: "Simple Daily Buddhist Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+    { label: "Practice Tools", href: "/tools/" }
+  ],
+  "Letting Go": [
+    { label: "How to Let Go of Attachment", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
+    { label: "Non-Attachment", href: "/articles/how-to-practice-non-attachment/" },
+    { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/" }
+  ],
+  Meditation: [
+    { label: "Meditation Hub", href: "/meditation/" },
+    { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+    { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" }
+  ],
+  Renewal: [
+    { label: "Today's Reflection", href: "/daily-reflections/today/" },
+    { label: "Daily Buddhist Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+    { label: "Forgiveness", href: "/articles/buddhist-teachings-on-forgiveness/" }
+  ],
+  Wisdom: [
+    { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+    { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+    { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" }
+  ],
+  Impermanence: [
+    { label: "What Is Impermanence?", href: "/learn/buddhism-101/what-is-impermanence/" },
+    { label: "Letting Go", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
+    { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }
+  ]
+};
+const relatedTeachingLinks = categoryTeachingLinks[category.name] ?? [];
+const categoryMeaning = categoryMeanings[category.name] ?? category.introduction;
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -73,6 +149,23 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
+      <section class="surface category-guide" aria-labelledby="category-guide-heading">
+        <div>
+          <span class="eyebrow">Theme meaning</span>
+          <h2 id="category-guide-heading">How to Use These {category.name} Quotes</h2>
+          <p>{categoryMeaning}</p>
+          <p>
+            Read one quote slowly, notice where it touches ordinary life, then choose one small practice before moving
+            to the next quote.
+          </p>
+        </div>
+        {relatedTeachingLinks.length > 0 && (
+          <nav aria-label={`Related teachings for ${category.name} quotes`}>
+            {relatedTeachingLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+          </nav>
+        )}
+      </section>
+
       <div class="grid grid--3">
         {categoryQuotes.map((quote) => <QuoteCard quote={quote} />)}
       </div>
@@ -117,6 +210,42 @@ const jsonLd = [
     color: var(--color-green);
     font-size: 0.9rem;
     font-weight: 800;
+  }
+
+  .category-guide {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .category-guide h2 {
+    font-size: clamp(1.55rem, 4vw, 2rem);
+  }
+
+  .category-guide p {
+    color: var(--color-muted);
+  }
+
+  .category-guide nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .category-guide nav a {
+    background: var(--color-green-soft);
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    color: var(--color-green);
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 0.45rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .category-guide nav a:hover {
+    border-color: var(--color-green);
   }
 
   .more-categories {

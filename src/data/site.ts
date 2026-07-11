@@ -8,9 +8,14 @@ export const SITE = {
   locale: "en_US"
 };
 
+export const FEATURES = {
+  adsEnabled: false
+};
+
 export type Quote = {
   text: string;
   theme: string;
+  isIndexable?: boolean;
   story?: {
     slug?: string;
     title: string;
@@ -21,6 +26,8 @@ export type Quote = {
       paragraphs: string[];
     }[];
     reflectionQuestion?: string;
+    isIndexable?: boolean;
+    updatedDate?: string;
   };
 };
 
@@ -2012,6 +2019,19 @@ export function getQuoteStoryPath(quote: Quote) {
   return `/quotes/${category.slug}/${getQuoteSlug(quote)}/`;
 }
 
+export const INDEXABLE_GENERATED_QUOTES_PER_THEME = 6;
+
+export function isQuoteStoryIndexable(quote: Quote) {
+  const explicitIndexing = quote.story?.isIndexable ?? quote.isIndexable;
+  if (typeof explicitIndexing === "boolean") return explicitIndexing;
+
+  if (quote.story) return true;
+
+  const themeQuotes = quotes.filter((item) => item.theme === quote.theme);
+  const themeIndex = themeQuotes.findIndex((item) => item.text === quote.text);
+  return themeIndex >= 0 && themeIndex < INDEXABLE_GENERATED_QUOTES_PER_THEME;
+}
+
 export function getQuoteStory(quote: Quote) {
   if (quote.story) {
     const frame = storyFrames[quote.theme];
@@ -3717,9 +3737,9 @@ export const articles: Article[] = [
   },
   {
     slug: "what-is-karma-in-buddhism",
-    title: "What Is Karma in Buddhism? A Simple Guide for Daily Life",
-    seoTitle: "What Is Karma in Buddhism?",
-    description: "Learn what karma means in Buddhism, how it relates to intention, action, and daily life, and how to understand karma in a simple, practical way.",
+    title: "How Karma Shapes Daily Choices in Buddhist Practice",
+    seoTitle: "How Karma Shapes Daily Choices in Buddhist Practice",
+    description: "Explore how karma relates to everyday choices, speech, intention, habits, and mindful living in Buddhist practice.",
     date: "2026-06-25",
     author: SITE.author,
     category: "Buddhist Wisdom",
@@ -3727,7 +3747,7 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/what-is-karma-in-buddhism.webp",
     imageAlt: "A sequence of gentle ripples spreading across still water, representing actions and their effects",
     featured: true,
-    tags: ["what is karma in Buddhism", "Buddhist karma", "intention and action", "daily Buddhist practice"],
+    tags: ["karma in daily life", "Buddhist practice", "intention and action", "mindful choices"],
     relatedSlugs: [
       "buddhism-for-beginners-simple-guide",
       "eightfold-path-explained-daily-life",
@@ -3736,13 +3756,13 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "What is karma in Buddhism? The simplest answer is that karma means intentional action. It includes what we choose through body, speech, and mind, along with the ways those choices shape our habits and experience. Karma is not a cosmic scorekeeper handing out rewards and punishments. It is a practical teaching about cause, effect, responsibility, and the kind of person we become through repeated choices.",
-          "This matters in ordinary moments. A sharp reply can deepen tension in a family. A patient pause can prevent a difficult conversation from becoming cruel. Neither action guarantees a neat result, because life contains many conditions beyond our control. Still, our intentions and actions matter. The teaching of karma asks us to notice that influence without pretending we control everything."
+          "Karma becomes practical when it is seen in ordinary choices. A sharp reply can deepen tension in a family. A patient pause can prevent a difficult conversation from becoming cruel. Neither action guarantees a neat result, because life contains many conditions beyond our control. Still, intentions and actions matter.",
+          "This article focuses on daily-life application: how speech, habits, repair, and mindful choices shape the conditions we help create. For the main beginner explanation of the teaching, start with <a href=\"/learn/buddhism-101/what-is-karma-in-buddhism/\">What Is Karma in Buddhism? A Beginner's Guide</a>."
         ]
       },
       {
-        heading: "What Is Karma in Buddhism, Exactly?",
-        subheading: "Karma begins with intention",
+        heading: "Karma Begins With Everyday Intention",
+        subheading: "Daily choices train the mind",
         paragraphs: [
           "The Sanskrit word karma and the Pali word kamma both mean action. In Buddhist teaching, the moral quality of an action is closely connected with intention. Accidentally stepping on an insect is not understood in the same way as deliberately causing harm. The outward event may look similar, but the state of mind and the choice behind it are different.",
           "Intention does not make consequences disappear. A careless comment can hurt someone even when harm was not intended. Karma invites both kinds of honesty: we examine what motivated us, and we take responsibility for the effect. This balance keeps the teaching from becoming either harsh blame or an easy excuse."

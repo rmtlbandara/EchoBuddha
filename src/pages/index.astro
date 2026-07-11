@@ -5,7 +5,7 @@ import ArticleCard from "../components/ArticleCard.astro";
 import DailyReflectionCard from "../components/DailyReflectionCard.astro";
 import QuoteCard from "../components/QuoteCard.astro";
 import { dailyReflections } from "../data/dailyReflections";
-import { SITE, fullArticles, quotes, type Quote } from "../data/site";
+import { FEATURES, SITE, fullArticles, quotes, type Quote } from "../data/site";
 
 const title = "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life";
 const description =
@@ -185,11 +185,11 @@ const homepageJsonLd = [
           A daily Buddhist wisdom, meditation, and mindfulness companion for modern life.
         </p>
         <p class="lede">
-          Learn Buddhist teachings simply, read daily reflections, explore quote meanings, practice beginner
-          meditation, and bring mindfulness into ordinary conversations, work, and rest.
+          Echo Buddha is a calm space for Buddhist wisdom, meditation, and mindful living. Explore simple teachings,
+          daily reflections, quote meanings, beginner meditation guides, and practical mindfulness for everyday life.
         </p>
         <div class="hero-actions" aria-label="Homepage quick links">
-          <a class="button" href="/start-here/">Start Learning</a>
+          <a class="button" href="/start-here/">Start Here</a>
           <a class="button button--secondary" href="/daily-reflections/today/">Read Today's Reflection</a>
           <a class="button button--secondary" href="/meditation/">Explore Meditation</a>
           <a class="hero-text-link" href="/quotes/">Browse Quotes</a>
@@ -288,9 +288,11 @@ const homepageJsonLd = [
     </div>
   </section>
 
-  <div class="container ad-placement">
-    <AdSlot />
-  </div>
+  {FEATURES.adsEnabled && (
+    <div class="container ad-placement">
+      <AdSlot />
+    </div>
+  )}
 
   <section class="section section-band">
     <div class="container">
@@ -419,9 +421,11 @@ const homepageJsonLd = [
     </div>
   </section>
 
-  <div class="container ad-placement ad-placement--lower">
-    <AdSlot />
-  </div>
+  {FEATURES.adsEnabled && (
+    <div class="container ad-placement ad-placement--lower">
+      <AdSlot />
+    </div>
+  )}
 </Layout>
 
 <style>

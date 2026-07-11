@@ -773,11 +773,12 @@ export const buddhism101Pages: LearningPage[] = [
     section: "buddhism-101",
     slug: "what-is-karma-in-buddhism",
     title: "What Is Karma in Buddhism?",
+    seoTitle: "What Is Karma in Buddhism? A Beginner's Guide",
     description:
-      "A simple explanation of karma in Buddhism, focusing on intention, action, habits, and consequences in daily life.",
+      "Learn what karma means in Buddhism, how intention shapes actions, and how beginners can understand karma in everyday life.",
     eyebrow: "Buddhism 101",
     intro:
-      "In Buddhism, karma is closely connected with intention. What we repeatedly intend, say, and do shapes habits and consequences.",
+      "This beginner guide explains karma as intentional action, not fate or cosmic punishment. It gives new readers a clear foundation before exploring practical daily-life applications.",
     sections: [
       {
         heading: "Karma Is Not Simple Fate",
@@ -803,7 +804,7 @@ export const buddhism101Pages: LearningPage[] = [
     takeaway: "Karma points to intentional action and the way choices shape habits, relationships, and future conditions.",
     practice: "Before one important action today, ask, “What intention is leading this?” Adjust gently if needed.",
     relatedLinks: [
-      { label: "Karma Article", href: "/articles/what-is-karma-in-buddhism/" },
+      { label: "Daily Karma Practice Article", href: "/articles/what-is-karma-in-buddhism/" },
       { label: "Karma Dictionary Term", href: "/learn/buddhist-dictionary/karma/" },
       { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" },
       { label: "Karma Quote", href: "/quotes/wisdom/karma-begins-in-intention/" }

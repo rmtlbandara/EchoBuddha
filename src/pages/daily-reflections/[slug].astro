@@ -1,0 +1,193 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LearningCard from "../../components/LearningCard.astro";
+import {
+  dailyReflections,
+  getDailyReflectionExample,
+  getDailyReflectionPath,
+  getDailyReflectionQuoteLinks,
+  type DailyReflection
+} from "../../data/dailyReflections";
+import { SITE } from "../../data/site";
+
+export function getStaticPaths() {
+  return dailyReflections.map((reflection) => ({
+    params: { slug: reflection.slug },
+    props: { reflection }
+  }));
+}
+
+const { reflection } = Astro.props as { reflection: DailyReflection };
+const canonicalPath = getDailyReflectionPath(reflection);
+const title = `${reflection.title} - Daily Buddhist Reflection`;
+const description = `${reflection.reflection} Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.`;
+const dailyLifeExample = getDailyReflectionExample(reflection);
+const relatedQuoteLinks = getDailyReflectionQuoteLinks(reflection);
+const continueLinks = [
+  { label: "Today's Reflection", href: "/daily-reflections/today/", description: "Open the reflection selected for today's date." },
+  { label: "Daily Reflections Hub", href: "/daily-reflections/", description: "Browse the reflection library and daily practice notes." },
+  { label: "Practice Tools", href: "/tools/", description: "Use the meditation timer, breathing timer, quote tool, and reflection prompt." }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    author: { "@type": "Organization", name: SITE.author, url: `${SITE.url}/authors/echo-buddha-editorial/` },
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    about: { "@type": "Thing", name: reflection.relatedIdea },
+    isPartOf: {
+      "@type": "CollectionPage",
+      name: "Daily Buddhist Reflections",
+      url: `${SITE.url}/daily-reflections/`
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Daily Reflections", item: `${SITE.url}/daily-reflections/` },
+      { "@type": "ListItem", position: 3, name: reflection.title, item: `${SITE.url}${canonicalPath}` }
+    ]
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+  <article>
+    <header class="page-hero">
+      <div class="container prose">
+        <a class="back-link" href="/daily-reflections/">Daily Reflections</a>
+        <span class="eyebrow">{reflection.relatedIdea}</span>
+        <h1>{reflection.title}</h1>
+        <blockquote>{reflection.reflection}</blockquote>
+      </div>
+    </header>
+
+    <div class="container article-shell">
+      <div class="prose reflection-body">
+        <section class="surface reflection-summary">
+          <h2>Simple Meaning</h2>
+          <p>{reflection.meaning}</p>
+        </section>
+
+        <h2>Daily-Life Example</h2>
+        <p>{dailyLifeExample}</p>
+
+        <h2>Practice for Today</h2>
+        <p>{reflection.practice}</p>
+
+        <h2>Journal Question</h2>
+        <p>{reflection.journalQuestion}</p>
+
+        <h2>Related Buddhist Idea</h2>
+        <p>
+          This reflection connects with <strong>{reflection.relatedIdea}</strong>. Use the links below to continue with
+          a fuller teaching or a quote category that supports the same practice.
+        </p>
+
+        <nav class="reflection-link-list" aria-label={`Related teachings for ${reflection.title}`}>
+          {reflection.relatedLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+          {relatedQuoteLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+        </nav>
+
+        <section class="source-note">
+          <h2>Editorial Note</h2>
+          <p>
+            This is an original Echo Buddha reflection written for education and daily contemplation. It is not medical
+            advice, and mindfulness or meditation should be practiced gently according to your needs.
+          </p>
+        </section>
+      </div>
+
+      <aside>
+        <div class="surface side-note">
+          <span class="eyebrow">Return tomorrow</span>
+          <h2>Make It a Daily Practice</h2>
+          <p>
+            Read one reflection, try one small practice, and let one question stay with you. Tomorrow's page will offer
+            a new prompt from the reflection library.
+          </p>
+          <a class="button button--secondary" href="/daily-reflections/today/">Open today's reflection</a>
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <section class="section section-band">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Continue practice</span>
+          <h2>Practice Next</h2>
+        </div>
+      </div>
+      <div class="grid grid--3">
+        {continueLinks.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--color-gold);
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: clamp(1.35rem, 3vw, 1.8rem);
+    margin: 1.5rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  .reflection-summary,
+  .side-note {
+    padding: 1.25rem;
+  }
+
+  .reflection-summary h2,
+  .side-note h2 {
+    font-size: 1.35rem;
+    margin-top: 0;
+  }
+
+  .reflection-summary p,
+  .side-note p {
+    color: var(--color-muted);
+  }
+
+  .reflection-link-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 1.25rem 0 2rem;
+  }
+
+  .reflection-link-list a {
+    background: var(--color-green-soft);
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    color: var(--color-green);
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 0.45rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .reflection-link-list a:hover {
+    border-color: var(--color-green);
+  }
+
+  .section-heading {
+    margin-bottom: 1.25rem;
+  }
+</style>

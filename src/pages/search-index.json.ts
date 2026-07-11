@@ -11,7 +11,12 @@ import {
   getQuoteStory,
   quotes
 } from "../data/site";
-import { dailyReflections } from "../data/dailyReflections";
+import {
+  dailyReflections,
+  getDailyReflectionExample,
+  getDailyReflectionPath,
+  getDailyReflectionQuoteLinks
+} from "../data/dailyReflections";
 
 type SearchIndexItem = {
   title: string;
@@ -131,6 +136,33 @@ const quoteItems: SearchIndexItem[] = quotes.map((quote) => {
   };
 });
 
+const dailyReflectionItems: SearchIndexItem[] = dailyReflections.map((reflection) => ({
+  title: reflection.title,
+  url: getDailyReflectionPath(reflection),
+  type: "Daily Reflection",
+  excerpt: reflection.reflection,
+  category: reflection.relatedIdea,
+  section: "Daily Reflections",
+  keywords: [
+    reflection.relatedIdea,
+    "daily reflection",
+    "practice",
+    "journal question",
+    ...reflection.relatedLinks.map((link) => link.label),
+    ...getDailyReflectionQuoteLinks(reflection).map((link) => link.label)
+  ],
+  content: [
+    reflection.title,
+    reflection.reflection,
+    reflection.meaning,
+    getDailyReflectionExample(reflection),
+    reflection.practice,
+    reflection.journalQuestion,
+    reflection.relatedIdea,
+    ...reflection.relatedLinks.map((link) => link.label)
+  ].join(" ")
+}));
+
 const faqItem: SearchIndexItem = {
   title: "Questions About Buddhism",
   url: "/learn/questions-about-buddhism/",
@@ -243,6 +275,7 @@ const hubItems: SearchIndexItem[] = [
 const searchIndex = [
   ...hubItems,
   ...articleItems,
+  ...dailyReflectionItems,
   ...quoteItems,
   ...learningItems,
   ...meditationItems,

@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LearningCard from "../components/LearningCard.astro";
-import { dailyReflections } from "../data/dailyReflections";
+import { dailyReflections, getDailyReflectionPath } from "../data/dailyReflections";
 import { dictionaryPages } from "../data/learn";
 import { SITE, getQuoteCategory, getQuoteStory, quotes } from "../data/site";
 
@@ -16,6 +16,7 @@ const reflectionItems = dailyReflections.map((item) => ({
   practice: item.practice,
   question: item.journalQuestion,
   idea: item.relatedIdea,
+  href: getDailyReflectionPath(item),
   links: item.relatedLinks
 }));
 const quoteItems = quotes.slice(0, 80).map((quote) => {
@@ -230,7 +231,10 @@ const jsonLd = [
       <p><strong>Meaning:</strong> ${escapeHtml(item.meaning)}</p>
       <p><strong>Practice:</strong> ${escapeHtml(item.practice)}</p>
       <p><strong>Journal:</strong> ${escapeHtml(item.question)}</p>
-      <div>${item.links.map((link) => `<a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`).join("")}</div>
+      <div>
+        <a href="${escapeHtml(item.href)}">Full reflection</a>
+        ${item.links.map((link) => `<a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`).join("")}
+      </div>
     `;
   };
 

@@ -1,5 +1,5 @@
 ---
-import type { DailyReflection } from "../data/dailyReflections";
+import { getDailyReflectionPath, type DailyReflection } from "../data/dailyReflections";
 
 type Props = {
   reflection: DailyReflection;
@@ -7,11 +7,12 @@ type Props = {
 };
 
 const { reflection, compact = false } = Astro.props;
+const reflectionPath = getDailyReflectionPath(reflection);
 ---
 
 <article class:list={["daily-reflection-card", "surface", { "daily-reflection-card--compact": compact }]}>
   <span class="eyebrow">{reflection.relatedIdea}</span>
-  <h3>{reflection.title}</h3>
+  <h3><a href={reflectionPath}>{reflection.title}</a></h3>
   <blockquote>{reflection.reflection}</blockquote>
   <div class="reflection-detail">
     <strong>Meaning</strong>
@@ -29,6 +30,7 @@ const { reflection, compact = false } = Astro.props;
   )}
   <nav class="reflection-links" aria-label={`Related links for ${reflection.title}`}>
     {reflection.relatedLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+    <a href={reflectionPath}>Full reflection</a>
   </nav>
 </article>
 
@@ -46,6 +48,15 @@ const { reflection, compact = false } = Astro.props;
 
   .daily-reflection-card--compact h3 {
     font-size: 1.35rem;
+  }
+
+  .daily-reflection-card h3 a {
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+
+  .daily-reflection-card h3 a:hover {
+    color: var(--color-brown);
   }
 
   blockquote {

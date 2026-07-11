@@ -10,6 +10,7 @@ import {
   getQuoteCategory,
   getQuoteSlug,
   getQuoteStory,
+  isQuoteStoryIndexable,
   quotes
 } from "../../../data/site";
 
@@ -30,6 +31,7 @@ const { quote, category } = Astro.props;
 const story = getQuoteStory(quote);
 const canonicalPath = `/quotes/${category.slug}/${story.slug}/`;
 const quoteUrl = `${SITE.url}${canonicalPath}`;
+const isIndexable = isQuoteStoryIndexable(quote);
 const relatedQuotes = quotes.filter((item) => item.theme === quote.theme && item.text !== quote.text).slice(0, 3);
 const relatedArticles = getArticlesForQuoteTheme(quote.theme).slice(0, 2);
 const relatedTeaching = {
@@ -54,6 +56,9 @@ const practiceSuggestion =
         : quote.theme === "Letting Go"
           ? "Name one outcome you can release for today while still acting with care."
           : "Choose one ordinary moment and meet it with more awareness than habit.";
+const reflectionQuestion =
+  story.reflectionQuestion ??
+  `Where could this ${quote.theme.toLowerCase()} quote become one small practice in your day?`;
 const dailyLifeExample =
   quote.theme === "Meditation"
     ? "This quote can meet you before a short sitting practice, during a restless pause, or after noticing the mind wander."
@@ -122,7 +127,14 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={story.title} description={story.description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+<Layout
+  title={story.title}
+  description={story.description}
+  canonicalPath={canonicalPath}
+  type="article"
+  noindex={!isIndexable}
+  jsonLd={jsonLd}
+>
   <article>
     <header class="page-hero story-hero">
       <div class="container prose">
@@ -176,12 +188,8 @@ const jsonLd = [
 
         <AdSlot />
 
-        {story.reflectionQuestion && (
-          <>
-            <h2>Reflection Question</h2>
-            <p>{story.reflectionQuestion}</p>
-          </>
-        )}
+        <h2>Reflection Question</h2>
+        <p>{reflectionQuestion}</p>
 
         <h2>A Quiet Reflection</h2>
         <p>

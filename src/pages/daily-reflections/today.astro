@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import DailyReflectionCard from "../../components/DailyReflectionCard.astro";
-import { dailyReflections, getDailyReflectionForDate } from "../../data/dailyReflections";
+import { dailyReflections, getDailyReflectionForDate, getDailyReflectionPath } from "../../data/dailyReflections";
 import { SITE } from "../../data/site";
 
 const title = "Today's Buddhist Reflection";
@@ -9,6 +9,7 @@ const description =
   "Read today's Buddhist-inspired reflection with a simple meaning, mindful practice, journal question, and related learning links.";
 const canonicalPath = "/daily-reflections/today/";
 const fallbackReflection = getDailyReflectionForDate();
+const reflectionPaths = dailyReflections.map((reflection) => getDailyReflectionPath(reflection));
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -55,6 +56,9 @@ const jsonLd = [
             </div>
           ))}
         </div>
+        <a class="full-reflection-link" href={getDailyReflectionPath(fallbackReflection)} data-current-reflection-link>
+          Open the full reflection page
+        </a>
         <div class="tool-actions">
           <button class="button" type="button" data-random-reflection>Show another reflection</button>
           <a class="button button--secondary" href="/tools/">Open practice tools</a>
@@ -67,6 +71,7 @@ const jsonLd = [
           These reflections are educational and contemplative. They may support mindfulness for some readers, but they
           are not medical advice or a replacement for professional care.
         </p>
+        <p>Return tomorrow for a new reflection, or use the random button when a different prompt would be helpful.</p>
         <nav aria-label="Related daily reflection links">
           <a href="/start-here/">Start Here</a>
           <a href="/meditation/">Meditation</a>
@@ -77,11 +82,12 @@ const jsonLd = [
   </section>
 </Layout>
 
-<script define:vars={{ reflectionCount: dailyReflections.length }}>
+<script define:vars={{ reflectionCount: dailyReflections.length, reflectionPaths }}>
   const root = document.querySelector("[data-daily-reflection-root]");
   const cards = [...document.querySelectorAll("[data-daily-reflection-card]")];
   const dateLabel = document.querySelector("[data-today-date]");
   const randomButton = document.querySelector("[data-random-reflection]");
+  const fullReflectionLink = document.querySelector("[data-current-reflection-link]");
 
   const dayOfYear = (date) => {
     const start = Date.UTC(date.getFullYear(), 0, 0);
@@ -93,6 +99,9 @@ const jsonLd = [
     cards.forEach((card, cardIndex) => {
       card.hidden = cardIndex !== index;
     });
+    if (fullReflectionLink) {
+      fullReflectionLink.href = reflectionPaths[index] || "/daily-reflections/";
+    }
   };
 
   if (root && cards.length) {
@@ -138,6 +147,12 @@ const jsonLd = [
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .full-reflection-link {
+    display: inline-flex;
+    font-weight: 800;
     margin-top: 1rem;
   }
 

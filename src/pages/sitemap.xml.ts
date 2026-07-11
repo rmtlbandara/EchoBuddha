@@ -10,11 +10,11 @@ import {
   fullArticles,
   getArticleSeoDetails,
   getQuoteStoryPath,
+  isQuoteStoryIndexable,
   quoteCategories,
   quotes
 } from "../data/site";
-
-const siteLastModified = "2026-07-09";
+import { dailyReflections, getDailyReflectionPath } from "../data/dailyReflections";
 
 type SitemapEntry = {
   path: string;
@@ -22,69 +22,84 @@ type SitemapEntry = {
 };
 
 const staticPaths: SitemapEntry[] = [
-  { path: "/", lastmod: siteLastModified },
-  { path: "/about/", lastmod: siteLastModified },
-  { path: "/start-here/", lastmod: siteLastModified },
-  { path: "/editorial-policy/", lastmod: siteLastModified },
-  { path: "/authors/echo-buddha-editorial/", lastmod: siteLastModified },
-  { path: "/learn/", lastmod: siteLastModified },
-  { path: "/learn/buddhism-for-beginners/", lastmod: siteLastModified },
-  { path: "/learn/four-noble-truths/", lastmod: siteLastModified },
-  { path: "/learn/eightfold-path/", lastmod: siteLastModified },
-  { path: "/learn/questions-about-buddhism/", lastmod: siteLastModified },
-  { path: "/learn/buddhist-resources/", lastmod: siteLastModified },
-  { path: "/daily-reflections/", lastmod: siteLastModified },
-  { path: "/daily-reflections/today/", lastmod: siteLastModified },
-  { path: "/mindful-living/", lastmod: siteLastModified },
-  { path: "/tools/", lastmod: siteLastModified },
-  { path: "/quotes/", lastmod: siteLastModified },
-  { path: "/articles/", lastmod: siteLastModified },
-  { path: "/meditation/", lastmod: siteLastModified },
-  { path: "/meditation-guide/", lastmod: siteLastModified },
-  { path: "/contact/", lastmod: siteLastModified },
-  { path: "/privacy-policy/", lastmod: siteLastModified },
-  { path: "/terms-of-use/", lastmod: siteLastModified },
-  { path: "/disclaimer/", lastmod: siteLastModified }
+  { path: "/" },
+  { path: "/about/" },
+  { path: "/start-here/" },
+  { path: "/editorial-policy/" },
+  { path: "/authors/echo-buddha-editorial/" },
+  { path: "/learn/" },
+  { path: "/learn/buddhism-for-beginners/" },
+  { path: "/learn/four-noble-truths/" },
+  { path: "/learn/eightfold-path/" },
+  { path: "/learn/questions-about-buddhism/" },
+  { path: "/learn/buddhist-resources/" },
+  { path: "/daily-reflections/" },
+  { path: "/daily-reflections/today/" },
+  { path: "/mindful-living/" },
+  { path: "/tools/" },
+  { path: "/quotes/" },
+  { path: "/articles/" },
+  { path: "/meditation/" },
+  { path: "/meditation-guide/" },
+  { path: "/contact/" },
+  { path: "/privacy-policy/", lastmod: "2026-07-03" },
+  { path: "/terms-of-use/", lastmod: "2026-06-24" },
+  { path: "/disclaimer/" }
 ];
 
 export const GET: APIRoute = () => {
+  const getArticleLastmod = (slug: string, fallback: string) => getArticleSeoDetails(slug)?.reviewedDate ?? fallback;
+  const latestArticleLastmod = fullArticles
+    .map((article) => getArticleLastmod(article.slug, article.date))
+    .sort()
+    .at(-1);
   const articlePaths = fullArticles.map((article) => ({
     path: `/articles/${article.slug}/`,
-    lastmod: getArticleSeoDetails(article.slug)?.reviewedDate ?? article.date
+    lastmod: getArticleLastmod(article.slug, article.date)
   }));
   const articleCategoryPaths = articleCategories.map((category) => ({
     path: `/articles/category/${category.slug}/`,
-    lastmod: siteLastModified
+    lastmod: fullArticles
+      .filter((article) => article.category === category.name)
+      .map((article) => getArticleLastmod(article.slug, article.date))
+      .sort()
+      .at(-1)
   }));
   const quoteCategoryPaths = quoteCategories.map((category) => ({
-    path: `/quotes/${category.slug}/`,
-    lastmod: siteLastModified
+    path: `/quotes/${category.slug}/`
   }));
-  const quoteStoryPaths = quotes.map((quote) => ({
-    path: getQuoteStoryPath(quote),
-    lastmod: siteLastModified
+  const quoteStoryPaths = quotes
+    .filter(isQuoteStoryIndexable)
+    .map((quote) => ({
+      path: getQuoteStoryPath(quote),
+      lastmod: quote.story?.updatedDate
+    }));
+  const dailyReflectionPaths = dailyReflections.map((reflection) => ({
+    path: getDailyReflectionPath(reflection)
   }));
   const learningSectionPaths = learningSections.map((section) => ({
-    path: section.href,
-    lastmod: siteLastModified
+    path: section.href
   }));
   const learningPagePaths = getAllLearningPages().map((page) => ({
-    path: `/learn/${page.section}/${page.slug}/`,
-    lastmod: siteLastModified
+    path: `/learn/${page.section}/${page.slug}/`
   }));
   const meditationPagePaths = allMeditationPages.map((page) => ({
-    path: `/meditation/${page.slug}/`,
-    lastmod: siteLastModified
+    path: `/meditation/${page.slug}/`
   }));
   const urls = [
-    ...staticPaths,
+    ...staticPaths.map((entry) =>
+      ["/", "/articles/"].includes(entry.path) && latestArticleLastmod
+        ? { ...entry, lastmod: latestArticleLastmod }
+        : entry
+    ),
     ...learningSectionPaths,
     ...learningPagePaths,
     ...meditationPagePaths,
     ...articlePaths,
     ...articleCategoryPaths,
     ...quoteCategoryPaths,
-    ...quoteStoryPaths
+    ...quoteStoryPaths,
+    ...dailyReflectionPaths
   ]
     .map((entry) => {
       const loc = new URL(entry.path, SITE.url).toString();

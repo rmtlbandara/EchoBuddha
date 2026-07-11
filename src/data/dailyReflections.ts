@@ -12,6 +12,11 @@ export type DailyReflection = {
   }[];
 };
 
+export type DailyReflectionQuoteLink = {
+  label: string;
+  href: string;
+};
+
 const coreLinks = {
   mindfulness: { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" },
   meditation: { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
@@ -21,6 +26,41 @@ const coreLinks = {
   fourNobleTruths: { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
   lettingGo: { label: "Letting Go", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
   rightSpeech: { label: "Right Speech", href: "/articles/right-speech-buddhism/" }
+};
+
+const quoteLinksByIdea: Record<string, DailyReflectionQuoteLink[]> = {
+  mindfulness: [
+    { label: "Mindfulness quotes", href: "/quotes/mindfulness/" },
+    { label: "Awareness quotes", href: "/quotes/awareness/" }
+  ],
+  meditation: [
+    { label: "Meditation quotes", href: "/quotes/meditation/" },
+    { label: "Practice quotes", href: "/quotes/practice/" }
+  ],
+  compassion: [
+    { label: "Compassion quotes", href: "/quotes/compassion/" },
+    { label: "Wisdom quotes", href: "/quotes/wisdom/" }
+  ],
+  impermanence: [
+    { label: "Impermanence quotes", href: "/quotes/impermanence/" },
+    { label: "Letting go quotes", href: "/quotes/letting-go/" }
+  ],
+  patience: [
+    { label: "Patience quotes", href: "/quotes/patience/" },
+    { label: "Awareness quotes", href: "/quotes/awareness/" }
+  ],
+  practice: [
+    { label: "Practice quotes", href: "/quotes/practice/" },
+    { label: "Wisdom quotes", href: "/quotes/wisdom/" }
+  ],
+  renewal: [
+    { label: "Renewal quotes", href: "/quotes/renewal/" },
+    { label: "Practice quotes", href: "/quotes/practice/" }
+  ],
+  wisdom: [
+    { label: "Wisdom quotes", href: "/quotes/wisdom/" },
+    { label: "Practice quotes", href: "/quotes/practice/" }
+  ]
 };
 
 export const dailyReflections: DailyReflection[] = [
@@ -331,9 +371,77 @@ export function getDailyReflectionByIndex(index: number) {
   return dailyReflections[normalizedIndex];
 }
 
+export function getDailyReflectionPath(reflection: DailyReflection) {
+  return `/daily-reflections/${reflection.slug}/`;
+}
+
+export function getDailyReflectionBySlug(slug: string) {
+  return dailyReflections.find((reflection) => reflection.slug === slug);
+}
+
 export function getDailyReflectionForDate(date = new Date()) {
   const start = Date.UTC(date.getUTCFullYear(), 0, 0);
   const today = Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
   const dayOfYear = Math.floor((today - start) / 86400000);
   return getDailyReflectionByIndex(dayOfYear - 1);
+}
+
+export function getDailyReflectionExample(reflection: DailyReflection) {
+  const idea = reflection.relatedIdea.toLowerCase();
+
+  if (idea.includes("speech") || idea.includes("patience") || idea.includes("anger")) {
+    return "A difficult message arrives and the body wants to answer quickly. This reflection invites one breath before words, so the reply can be honest without adding harm.";
+  }
+
+  if (idea.includes("breath") || idea.includes("meditation") || idea.includes("walking")) {
+    return "During a short pause, the mind keeps moving into plans and worries. This reflection brings attention back to one breath, one step, or one sensation already present.";
+  }
+
+  if (idea.includes("compassion") || idea.includes("karuna") || idea.includes("metta") || idea.includes("goodwill")) {
+    return "Someone is struggling, and advice is not the first thing needed. This reflection points toward a small act of care, a warmer tone, or a kind boundary.";
+  }
+
+  if (idea.includes("impermanence") || idea.includes("anicca") || idea.includes("letting") || idea.includes("attachment")) {
+    return "A plan changes, a pleasant moment ends, or an old expectation loosens. This reflection helps you meet change with care instead of gripping more tightly.";
+  }
+
+  if (idea.includes("karma") || idea.includes("path") || idea.includes("intention") || idea.includes("livelihood")) {
+    return "A small choice appears ordinary: what to say, what to repeat, what to ignore. This reflection treats that choice as part of practice because intention shapes habit.";
+  }
+
+  return "An ordinary moment becomes a place to practice: a conversation, a task, a feeling, or a pause between activities. This reflection asks for one clear and kind next step.";
+}
+
+export function getDailyReflectionQuoteLinks(reflection: DailyReflection) {
+  const idea = reflection.relatedIdea.toLowerCase();
+
+  if (idea.includes("patience") || idea.includes("speech") || idea.includes("anger") || idea.includes("home")) {
+    return quoteLinksByIdea.patience;
+  }
+
+  if (idea.includes("breath") || idea.includes("meditation") || idea.includes("walking")) {
+    return quoteLinksByIdea.meditation;
+  }
+
+  if (idea.includes("compassion") || idea.includes("karuna") || idea.includes("metta") || idea.includes("goodwill") || idea.includes("forgiveness")) {
+    return quoteLinksByIdea.compassion;
+  }
+
+  if (idea.includes("impermanence") || idea.includes("anicca") || idea.includes("letting") || idea.includes("attachment") || idea.includes("change")) {
+    return quoteLinksByIdea.impermanence;
+  }
+
+  if (idea.includes("renewal") || idea.includes("reflection")) {
+    return quoteLinksByIdea.renewal;
+  }
+
+  if (idea.includes("mindfulness") || idea.includes("awareness") || idea.includes("sati") || idea.includes("present")) {
+    return quoteLinksByIdea.mindfulness;
+  }
+
+  if (idea.includes("path") || idea.includes("karma") || idea.includes("intention") || idea.includes("practice") || idea.includes("effort") || idea.includes("livelihood")) {
+    return quoteLinksByIdea.practice;
+  }
+
+  return quoteLinksByIdea.wisdom;
 }
