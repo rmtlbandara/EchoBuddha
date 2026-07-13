@@ -1,0 +1,631 @@
+articleA,articleB,phase1Scope,beforeEditorialOverlap,afterEditorialOverlap,beforeOverallBodySimilarity,afterOverallBodySimilarity,deltaOverallBodySimilarity,beforeExactDuplicatedSentenceCount,afterExactDuplicatedSentenceCount,beforeNearDuplicatedParagraphCount,afterNearDuplicatedParagraphCount
+beginning-a-daily-mindfulness-practice,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.311,0.253,-0.058,8,0,2,0
+beginning-a-daily-mindfulness-practice,buddhist-approach-to-anger,In scope pair,Medium,Low,0.24,0.156,-0.084,8,0,2,0
+beginning-a-daily-mindfulness-practice,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.122,0.116,-0.006,0,0,0,0
+beginning-a-daily-mindfulness-practice,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.246,0.165,-0.081,8,0,3,0
+beginning-a-daily-mindfulness-practice,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.18,0.171,-0.009,0,0,0,0
+compassion-as-a-daily-discipline,beginning-a-daily-mindfulness-practice,In scope pair,Medium,Low,0.255,0.172,-0.083,8,0,2,0
+beginning-a-daily-mindfulness-practice,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.15,0.137,-0.013,0,0,0,0
+creating-a-peaceful-corner-at-home,beginning-a-daily-mindfulness-practice,In scope pair,Medium,Low,0.31,0.244,-0.066,8,0,2,0
+beginning-a-daily-mindfulness-practice,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.199,0.184,-0.015,0,0,0,0
+beginning-a-daily-mindfulness-practice,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.155,0.136,-0.019,0,0,0,0
+beginning-a-daily-mindfulness-practice,eightfold-path-explained,In scope pair,Low,Low,0.186,0.175,-0.011,0,0,0,0
+beginning-a-daily-mindfulness-practice,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.28,0.211,-0.069,8,0,2,0
+beginning-a-daily-mindfulness-practice,four-noble-truths-explained,In scope pair,Low,Low,0.132,0.12,-0.012,0,0,0,0
+beginning-a-daily-mindfulness-practice,four-noble-truths-explained-simply,In scope pair,Low,Low,0.14,0.126,-0.014,0,0,0,0
+beginning-a-daily-mindfulness-practice,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.137,0.13,-0.007,0,0,0,0
+beginning-a-daily-mindfulness-practice,how-to-meditate-for-anxiety,In scope pair,High,Low,0.312,0.244,-0.068,8,0,2,0
+beginning-a-daily-mindfulness-practice,how-to-meditate-for-beginners,In scope pair,Low,Low,0.23,0.228,-0.002,0,0,0,0
+beginning-a-daily-mindfulness-practice,how-to-practice-non-attachment,In scope pair,Medium,Low,0.258,0.178,-0.08,8,0,2,0
+beginning-a-daily-mindfulness-practice,impermanence-in-buddhism,In scope pair,Low,Low,0.157,0.143,-0.014,0,0,0,0
+beginning-a-daily-mindfulness-practice,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.141,0.128,-0.013,0,0,0,0
+letting-go-without-giving-up,beginning-a-daily-mindfulness-practice,In scope pair,Medium,Low,0.259,0.185,-0.074,8,0,2,0
+beginning-a-daily-mindfulness-practice,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.276,0.191,-0.085,8,0,2,0
+beginning-a-daily-mindfulness-practice,loving-kindness-meditation-guide,In scope pair,Low,Low,0.159,0.149,-0.01,0,0,0,0
+beginning-a-daily-mindfulness-practice,metta-meditation-script,In scope pair,Low,Low,0.178,0.169,-0.009,0,0,0,0
+mindful-listening-in-everyday-life,beginning-a-daily-mindfulness-practice,In scope pair,Medium,Low,0.267,0.189,-0.078,8,0,4,0
+beginning-a-daily-mindfulness-practice,mindfulness-for-better-sleep,In scope pair,High,Low,0.306,0.228,-0.078,8,0,3,0
+beginning-a-daily-mindfulness-practice,mindfulness-morning-routine,In scope pair,High,Medium,0.334,0.265,-0.069,8,0,3,0
+beginning-a-daily-mindfulness-practice,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.236,0.234,-0.002,0,0,0,0
+beginning-a-daily-mindfulness-practice,mindfulness-vs-meditation,In scope pair,Medium,Medium,0.288,0.28,-0.008,0,0,0,0
+beginning-a-daily-mindfulness-practice,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.167,0.15,-0.017,0,0,0,0
+beginning-a-daily-mindfulness-practice,right-speech-buddhism,In scope pair,Low,Low,0.144,0.126,-0.018,0,0,0,0
+three-ways-to-practice-patience,beginning-a-daily-mindfulness-practice,In scope pair,Medium,Low,0.28,0.205,-0.075,8,0,2,0
+beginning-a-daily-mindfulness-practice,walking-meditation-step-by-step,In scope pair,High,Low,0.295,0.219,-0.076,8,0,2,0
+beginning-a-daily-mindfulness-practice,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.211,0.188,-0.023,0,0,0,0
+beginning-a-daily-mindfulness-practice,what-is-karma-in-buddhism,In scope pair,Low,Low,0.147,0.127,-0.02,0,0,0,0
+buddhist-approach-to-anger,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.241,0.165,-0.076,8,0,2,0
+buddhism-for-beginners-simple-guide,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.161,0.153,-0.008,0,0,0,0
+buddhist-teachings-on-impermanence,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.268,0.197,-0.071,8,0,2,0
+buddhism-for-beginners-simple-guide,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.174,0.163,-0.011,0,0,0,0
+compassion-as-a-daily-discipline,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.28,0.22,-0.06,8,0,2,0
+buddhism-for-beginners-simple-guide,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.18,0.173,-0.007,0,0,0,0
+creating-a-peaceful-corner-at-home,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.261,0.185,-0.076,8,0,2,0
+buddhism-for-beginners-simple-guide,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.189,0.182,-0.007,0,0,0,0
+buddhism-for-beginners-simple-guide,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.196,0.186,-0.01,0,0,0,0
+buddhism-for-beginners-simple-guide,eightfold-path-explained,In scope pair,Low,Low,0.235,0.234,-0.001,0,0,0,0
+eightfold-path-explained-daily-life,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.318,0.265,-0.053,8,0,2,0
+buddhism-for-beginners-simple-guide,four-noble-truths-explained,In scope pair,Low,Low,0.216,0.212,-0.004,0,0,0,0
+buddhism-for-beginners-simple-guide,four-noble-truths-explained-simply,In scope pair,Low,Low,0.217,0.209,-0.008,0,0,0,0
+buddhism-for-beginners-simple-guide,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.175,0.17,-0.005,0,0,0,0
+how-to-meditate-for-anxiety,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.282,0.206,-0.076,8,0,2,0
+buddhism-for-beginners-simple-guide,how-to-meditate-for-beginners,In scope pair,Low,Low,0.173,0.179,0.006,0,0,0,0
+how-to-practice-non-attachment,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.267,0.202,-0.065,8,0,2,0
+buddhism-for-beginners-simple-guide,impermanence-in-buddhism,In scope pair,Low,Low,0.18,0.169,-0.011,0,0,0,0
+buddhism-for-beginners-simple-guide,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.147,0.135,-0.012,0,0,0,0
+letting-go-without-giving-up,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.26,0.189,-0.071,8,0,2,0
+loving-kindness-meditation-beginners,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.262,0.181,-0.081,8,0,2,0
+buddhism-for-beginners-simple-guide,loving-kindness-meditation-guide,In scope pair,Low,Low,0.159,0.151,-0.008,0,0,0,0
+buddhism-for-beginners-simple-guide,metta-meditation-script,In scope pair,Low,Low,0.173,0.167,-0.006,0,0,0,0
+mindful-listening-in-everyday-life,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.265,0.205,-0.06,8,0,2,0
+mindfulness-for-better-sleep,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.248,0.164,-0.084,8,0,2,0
+mindfulness-morning-routine,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.277,0.219,-0.058,8,0,3,0
+buddhism-for-beginners-simple-guide,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.16,0.156,-0.004,0,0,0,0
+buddhism-for-beginners-simple-guide,mindfulness-vs-meditation,In scope pair,Low,Low,0.244,0.233,-0.011,0,0,0,0
+buddhism-for-beginners-simple-guide,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.21,0.206,-0.004,0,0,0,0
+buddhism-for-beginners-simple-guide,right-speech-buddhism,In scope pair,Low,Low,0.19,0.181,-0.009,0,0,0,0
+three-ways-to-practice-patience,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.269,0.213,-0.056,8,0,2,0
+walking-meditation-step-by-step,buddhism-for-beginners-simple-guide,In scope pair,Medium,Low,0.283,0.211,-0.072,8,0,2,0
+buddhism-for-beginners-simple-guide,what-is-buddhism-beginner-guide,In scope pair,Medium,Medium,0.332,0.317,-0.015,0,0,0,0
+buddhism-for-beginners-simple-guide,what-is-karma-in-buddhism,In scope pair,Low,Low,0.206,0.197,-0.009,0,0,0,0
+buddhist-approach-to-anger,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.195,0.196,0.001,0,0,0,0
+buddhist-approach-to-anger,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.211,0.127,-0.084,8,0,2,0
+buddhist-approach-to-anger,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.164,0.152,-0.012,0,0,0,0
+compassion-as-a-daily-discipline,buddhist-approach-to-anger,In scope pair,Medium,Low,0.249,0.174,-0.075,8,0,2,0
+buddhist-approach-to-anger,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.154,0.139,-0.015,0,0,0,0
+creating-a-peaceful-corner-at-home,buddhist-approach-to-anger,In scope pair,Medium,Low,0.215,0.139,-0.076,8,0,2,0
+buddhist-approach-to-anger,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.169,0.156,-0.013,0,0,0,0
+buddhist-approach-to-anger,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.132,0.118,-0.014,0,0,0,0
+buddhist-approach-to-anger,eightfold-path-explained,In scope pair,Low,Low,0.14,0.126,-0.014,0,0,0,0
+buddhist-approach-to-anger,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.228,0.145,-0.083,8,0,2,0
+buddhist-approach-to-anger,four-noble-truths-explained,In scope pair,Low,Low,0.136,0.128,-0.008,0,0,0,0
+buddhist-approach-to-anger,four-noble-truths-explained-simply,In scope pair,Low,Low,0.113,0.098,-0.015,0,0,0,0
+buddhist-approach-to-anger,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.119,0.109,-0.01,0,0,0,0
+buddhist-approach-to-anger,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.236,0.162,-0.074,8,0,2,0
+buddhist-approach-to-anger,how-to-meditate-for-beginners,In scope pair,Low,Low,0.122,0.115,-0.007,0,0,0,0
+how-to-practice-non-attachment,buddhist-approach-to-anger,In scope pair,Medium,Low,0.232,0.155,-0.077,8,0,2,0
+buddhist-approach-to-anger,impermanence-in-buddhism,In scope pair,Low,Low,0.123,0.103,-0.02,0,0,0,0
+buddhist-approach-to-anger,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.099,0.084,-0.015,0,0,0,0
+letting-go-without-giving-up,buddhist-approach-to-anger,In scope pair,Medium,Low,0.227,0.145,-0.082,8,0,2,0
+buddhist-approach-to-anger,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.219,0.134,-0.085,8,0,2,0
+buddhist-approach-to-anger,loving-kindness-meditation-guide,In scope pair,Low,Low,0.139,0.128,-0.011,0,0,0,0
+buddhist-approach-to-anger,metta-meditation-script,In scope pair,Low,Low,0.122,0.113,-0.009,0,0,0,0
+mindful-listening-in-everyday-life,buddhist-approach-to-anger,In scope pair,High,Low,0.252,0.169,-0.083,8,0,2,0
+mindfulness-for-better-sleep,buddhist-approach-to-anger,In scope pair,Medium,Low,0.232,0.146,-0.086,8,0,2,0
+buddhist-approach-to-anger,mindfulness-morning-routine,In scope pair,Medium,Low,0.231,0.153,-0.078,8,0,3,0
+buddhist-approach-to-anger,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.133,0.129,-0.004,0,0,0,0
+buddhist-approach-to-anger,mindfulness-vs-meditation,In scope pair,Low,Low,0.16,0.142,-0.018,0,0,0,0
+buddhist-approach-to-anger,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.128,0.11,-0.018,0,0,0,0
+buddhist-approach-to-anger,right-speech-buddhism,In scope pair,Low,Low,0.187,0.178,-0.009,0,0,0,0
+three-ways-to-practice-patience,buddhist-approach-to-anger,In scope pair,High,Low,0.301,0.235,-0.066,8,0,3,0
+buddhist-approach-to-anger,walking-meditation-step-by-step,In scope pair,Medium,Low,0.226,0.141,-0.085,8,0,2,0
+buddhist-approach-to-anger,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.163,0.141,-0.022,0,0,0,0
+buddhist-approach-to-anger,what-is-karma-in-buddhism,In scope pair,Low,Low,0.153,0.135,-0.018,0,0,0,0
+buddhist-teachings-on-impermanence,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.124,0.122,-0.002,0,0,0,0
+buddhist-teachings-on-forgiveness,buddhist-wisdom-for-overthinking,Context pair,Low,Low,0.151,0.151,0,0,0,0,0
+compassion-as-a-daily-discipline,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.18,0.189,0.009,0,0,0,0
+buddhist-teachings-on-forgiveness,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.196,0.196,0,0,0,0,0
+creating-a-peaceful-corner-at-home,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.1,0.096,-0.004,0,0,0,0
+buddhist-teachings-on-forgiveness,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.151,0.151,0,0,0,0,0
+buddhist-teachings-on-forgiveness,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.128,0.128,0,0,0,0,0
+buddhist-teachings-on-forgiveness,eightfold-path-explained,Context pair,Low,Low,0.115,0.115,0,0,0,0,0
+eightfold-path-explained-daily-life,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.118,0.11,-0.008,0,0,0,0
+buddhist-teachings-on-forgiveness,four-noble-truths-explained,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+buddhist-teachings-on-forgiveness,four-noble-truths-explained-simply,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+buddhist-teachings-on-forgiveness,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.171,0.171,0,0,0,0,0
+how-to-meditate-for-anxiety,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.123,0.12,-0.003,0,0,0,0
+buddhist-teachings-on-forgiveness,how-to-meditate-for-beginners,Context pair,Low,Low,0.104,0.104,0,0,0,0,0
+how-to-practice-non-attachment,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.139,0.139,0,0,0,0,0
+buddhist-teachings-on-forgiveness,impermanence-in-buddhism,Context pair,Low,Low,0.148,0.148,0,0,0,0,0
+buddhist-teachings-on-forgiveness,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+letting-go-without-giving-up,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.171,0.167,-0.004,0,0,0,0
+loving-kindness-meditation-beginners,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.15,0.156,0.006,0,0,0,0
+buddhist-teachings-on-forgiveness,loving-kindness-meditation-guide,Context pair,Low,Low,0.166,0.166,0,0,0,0,0
+metta-meditation-script,buddhist-teachings-on-forgiveness,Context pair,Low,Low,0.166,0.166,0,0,0,0,0
+mindful-listening-in-everyday-life,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.133,0.131,-0.002,0,0,0,0
+mindfulness-for-better-sleep,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.11,0.104,-0.006,0,0,0,0
+mindfulness-morning-routine,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.108,0.1,-0.008,0,0,0,0
+buddhist-teachings-on-forgiveness,mindfulness-of-breathing-guide,Context pair,Low,Low,0.104,0.104,0,0,0,0,0
+buddhist-teachings-on-forgiveness,mindfulness-vs-meditation,Context pair,Low,Low,0.143,0.143,0,0,0,0,0
+buddhist-teachings-on-forgiveness,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.109,0.109,0,0,0,0,0
+buddhist-teachings-on-forgiveness,right-speech-buddhism,Context pair,Low,Low,0.142,0.142,0,0,0,0,0
+three-ways-to-practice-patience,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.139,0.14,0.001,0,0,0,0
+walking-meditation-step-by-step,buddhist-teachings-on-forgiveness,In scope pair,Low,Low,0.118,0.11,-0.008,0,0,0,0
+buddhist-teachings-on-forgiveness,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.154,0.154,0,0,0,0,0
+buddhist-teachings-on-forgiveness,what-is-karma-in-buddhism,Context pair,Low,Low,0.169,0.169,0,0,0,0,0
+buddhist-teachings-on-impermanence,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.141,0.131,-0.01,0,0,0,0
+compassion-as-a-daily-discipline,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.245,0.169,-0.076,8,0,2,0
+buddhist-teachings-on-impermanence,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.127,0.118,-0.009,0,0,0,0
+creating-a-peaceful-corner-at-home,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.209,0.135,-0.074,8,0,2,0
+buddhist-teachings-on-impermanence,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.145,0.129,-0.016,0,0,0,0
+buddhist-teachings-on-impermanence,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.149,0.138,-0.011,0,0,0,0
+buddhist-teachings-on-impermanence,eightfold-path-explained,In scope pair,Low,Low,0.135,0.122,-0.013,0,0,0,0
+buddhist-teachings-on-impermanence,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.225,0.151,-0.074,8,0,2,0
+buddhist-teachings-on-impermanence,four-noble-truths-explained,In scope pair,Low,Low,0.155,0.151,-0.004,0,0,0,0
+buddhist-teachings-on-impermanence,four-noble-truths-explained-simply,In scope pair,Low,Low,0.171,0.16,-0.011,0,0,0,0
+buddhist-teachings-on-impermanence,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.186,0.184,-0.002,0,0,0,0
+buddhist-teachings-on-impermanence,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.231,0.159,-0.072,8,0,2,0
+buddhist-teachings-on-impermanence,how-to-meditate-for-beginners,In scope pair,Low,Low,0.11,0.106,-0.004,0,0,0,0
+how-to-practice-non-attachment,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.29,0.215,-0.075,8,0,3,0
+buddhist-teachings-on-impermanence,impermanence-in-buddhism,In scope pair,Medium,Medium,0.354,0.352,-0.002,0,0,0,0
+buddhist-teachings-on-impermanence,impermanence-in-buddhism-letting-go,In scope pair,Medium,Medium,0.315,0.315,0,0,0,0,0
+letting-go-without-giving-up,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.278,0.199,-0.079,8,0,2,0
+buddhist-teachings-on-impermanence,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.221,0.136,-0.085,8,0,2,0
+buddhist-teachings-on-impermanence,loving-kindness-meditation-guide,In scope pair,Low,Low,0.13,0.121,-0.009,0,0,0,0
+buddhist-teachings-on-impermanence,metta-meditation-script,In scope pair,Low,Low,0.127,0.124,-0.003,0,0,0,0
+mindful-listening-in-everyday-life,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.234,0.152,-0.082,8,0,3,0
+mindfulness-for-better-sleep,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.222,0.145,-0.077,8,0,2,0
+buddhist-teachings-on-impermanence,mindfulness-morning-routine,In scope pair,Medium,Low,0.219,0.132,-0.087,8,0,2,0
+buddhist-teachings-on-impermanence,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.132,0.126,-0.006,0,0,0,0
+buddhist-teachings-on-impermanence,mindfulness-vs-meditation,In scope pair,Low,Low,0.161,0.151,-0.01,0,0,0,0
+buddhist-teachings-on-impermanence,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.135,0.116,-0.019,0,0,0,0
+buddhist-teachings-on-impermanence,right-speech-buddhism,In scope pair,Low,Low,0.124,0.112,-0.012,0,0,0,0
+three-ways-to-practice-patience,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.235,0.158,-0.077,8,0,3,0
+walking-meditation-step-by-step,buddhist-teachings-on-impermanence,In scope pair,Medium,Low,0.219,0.145,-0.074,8,0,2,0
+buddhist-teachings-on-impermanence,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.199,0.18,-0.019,0,0,0,0
+buddhist-teachings-on-impermanence,what-is-karma-in-buddhism,In scope pair,Low,Low,0.163,0.148,-0.015,0,0,0,0
+compassion-as-a-daily-discipline,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.131,0.12,-0.011,0,0,0,0
+buddhist-wisdom-for-overthinking,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.11,0.11,0,0,0,0,0
+creating-a-peaceful-corner-at-home,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.15,0.136,-0.014,0,0,0,0
+buddhist-wisdom-for-overthinking,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.216,0.216,0,0,0,0,0
+buddhist-wisdom-for-overthinking,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.218,0.218,0,0,0,0,0
+buddhist-wisdom-for-overthinking,eightfold-path-explained,Context pair,Low,Low,0.152,0.152,0,0,0,0,0
+eightfold-path-explained-daily-life,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.154,0.142,-0.012,0,0,0,0
+four-noble-truths-explained,buddhist-wisdom-for-overthinking,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+buddhist-wisdom-for-overthinking,four-noble-truths-explained-simply,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+buddhist-wisdom-for-overthinking,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.167,0.167,0,0,0,0,0
+how-to-meditate-for-anxiety,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.212,0.203,-0.009,0,0,0,0
+buddhist-wisdom-for-overthinking,how-to-meditate-for-beginners,Context pair,Low,Low,0.196,0.196,0,0,0,0,0
+how-to-practice-non-attachment,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.144,0.137,-0.007,0,0,0,0
+impermanence-in-buddhism,buddhist-wisdom-for-overthinking,Context pair,Low,Low,0.153,0.153,0,0,0,0,0
+buddhist-wisdom-for-overthinking,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.139,0.139,0,0,0,0,0
+letting-go-without-giving-up,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.185,0.178,-0.007,0,0,0,0
+loving-kindness-meditation-beginners,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.133,0.114,-0.019,0,0,0,0
+buddhist-wisdom-for-overthinking,loving-kindness-meditation-guide,Context pair,Low,Low,0.117,0.117,0,0,0,0,0
+metta-meditation-script,buddhist-wisdom-for-overthinking,Context pair,Low,Low,0.142,0.142,0,0,0,0,0
+mindful-listening-in-everyday-life,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.155,0.14,-0.015,0,0,0,0
+mindfulness-for-better-sleep,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.203,0.197,-0.006,0,0,0,0
+mindfulness-morning-routine,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.162,0.149,-0.013,0,0,0,0
+buddhist-wisdom-for-overthinking,mindfulness-of-breathing-guide,Context pair,Low,Low,0.19,0.19,0,0,0,0,0
+mindfulness-vs-meditation,buddhist-wisdom-for-overthinking,Context pair,Low,Low,0.188,0.188,0,0,0,0,0
+buddhist-wisdom-for-overthinking,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.117,0.117,0,0,0,0,0
+buddhist-wisdom-for-overthinking,right-speech-buddhism,Context pair,Low,Low,0.138,0.138,0,0,0,0,0
+three-ways-to-practice-patience,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.164,0.157,-0.007,0,0,0,0
+walking-meditation-step-by-step,buddhist-wisdom-for-overthinking,In scope pair,Low,Low,0.162,0.149,-0.013,0,0,0,0
+buddhist-wisdom-for-overthinking,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.169,0.169,0,0,0,0,0
+what-is-karma-in-buddhism,buddhist-wisdom-for-overthinking,Context pair,Low,Low,0.137,0.137,0,0,0,0,0
+compassion-as-a-daily-discipline,compassion-in-buddhism-beginner-guide,In scope pair,Medium,Medium,0.326,0.325,-0.001,0,0,0,0
+creating-a-peaceful-corner-at-home,compassion-as-a-daily-discipline,In scope pair,Medium,Low,0.224,0.144,-0.08,8,0,2,0
+compassion-as-a-daily-discipline,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.161,0.154,-0.007,0,0,0,0
+compassion-as-a-daily-discipline,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.144,0.136,-0.008,0,0,0,0
+compassion-as-a-daily-discipline,eightfold-path-explained,In scope pair,Low,Low,0.166,0.161,-0.005,0,0,0,0
+compassion-as-a-daily-discipline,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.241,0.175,-0.066,8,0,2,0
+compassion-as-a-daily-discipline,four-noble-truths-explained,In scope pair,Low,Low,0.151,0.151,0,0,0,0,0
+compassion-as-a-daily-discipline,four-noble-truths-explained-simply,In scope pair,Low,Low,0.153,0.147,-0.006,0,0,0,0
+compassion-as-a-daily-discipline,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.142,0.141,-0.001,0,0,0,0
+compassion-as-a-daily-discipline,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.227,0.149,-0.078,8,0,2,0
+compassion-as-a-daily-discipline,how-to-meditate-for-beginners,In scope pair,Low,Low,0.109,0.1,-0.009,0,0,0,0
+compassion-as-a-daily-discipline,how-to-practice-non-attachment,In scope pair,Medium,Low,0.239,0.168,-0.071,8,0,3,0
+compassion-as-a-daily-discipline,impermanence-in-buddhism,In scope pair,Low,Low,0.137,0.13,-0.007,0,0,0,0
+compassion-as-a-daily-discipline,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.123,0.117,-0.006,0,0,0,0
+letting-go-without-giving-up,compassion-as-a-daily-discipline,In scope pair,Medium,Low,0.255,0.185,-0.07,8,0,3,0
+compassion-as-a-daily-discipline,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.277,0.205,-0.072,8,0,2,0
+compassion-as-a-daily-discipline,loving-kindness-meditation-guide,In scope pair,Low,Low,0.179,0.178,-0.001,0,0,0,0
+compassion-as-a-daily-discipline,metta-meditation-script,In scope pair,Low,Low,0.164,0.164,0,0,0,0,0
+mindful-listening-in-everyday-life,compassion-as-a-daily-discipline,In scope pair,Medium,Low,0.309,0.237,-0.072,8,0,2,0
+compassion-as-a-daily-discipline,mindfulness-for-better-sleep,In scope pair,Medium,Low,0.214,0.121,-0.093,8,0,2,0
+compassion-as-a-daily-discipline,mindfulness-morning-routine,In scope pair,Medium,Low,0.233,0.156,-0.077,8,0,3,0
+compassion-as-a-daily-discipline,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.109,0.097,-0.012,0,0,0,0
+compassion-as-a-daily-discipline,mindfulness-vs-meditation,In scope pair,Low,Low,0.153,0.139,-0.014,0,0,0,0
+compassion-as-a-daily-discipline,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.156,0.147,-0.009,0,0,0,0
+compassion-as-a-daily-discipline,right-speech-buddhism,In scope pair,Low,Low,0.19,0.187,-0.003,0,0,0,0
+three-ways-to-practice-patience,compassion-as-a-daily-discipline,In scope pair,Medium,Low,0.284,0.218,-0.066,8,0,2,0
+compassion-as-a-daily-discipline,walking-meditation-step-by-step,In scope pair,Medium,Low,0.236,0.153,-0.083,8,0,2,0
+compassion-as-a-daily-discipline,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.189,0.174,-0.015,0,0,0,0
+compassion-as-a-daily-discipline,what-is-karma-in-buddhism,In scope pair,Low,Low,0.171,0.163,-0.008,0,0,0,0
+creating-a-peaceful-corner-at-home,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.115,0.1,-0.015,0,0,0,0
+dhammapada-reflection-trained-mind,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.14,0.14,0,0,0,0,0
+dhammapada-reflection-what-we-think,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.131,0.131,0,0,0,0,0
+eightfold-path-explained,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.14,0.14,0,0,0,0,0
+eightfold-path-explained-daily-life,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.131,0.119,-0.012,0,0,0,0
+four-noble-truths-explained,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+compassion-in-buddhism-beginner-guide,four-noble-truths-explained-simply,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.157,0.157,0,0,0,0,0
+how-to-meditate-for-anxiety,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.12,0.107,-0.013,0,0,0,0
+how-to-meditate-for-beginners,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.109,0.109,0,0,0,0,0
+how-to-practice-non-attachment,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.141,0.135,-0.006,0,0,0,0
+impermanence-in-buddhism,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.139,0.139,0,0,0,0,0
+compassion-in-buddhism-beginner-guide,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+letting-go-without-giving-up,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.138,0.122,-0.016,0,0,0,0
+loving-kindness-meditation-beginners,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.197,0.189,-0.008,0,0,0,0
+loving-kindness-meditation-guide,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.22,0.22,0,0,0,0,0
+metta-meditation-script,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.175,0.175,0,0,0,0,0
+mindful-listening-in-everyday-life,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.172,0.163,-0.009,0,0,0,0
+mindfulness-for-better-sleep,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.111,0.091,-0.02,0,0,0,0
+mindfulness-morning-routine,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.122,0.106,-0.016,0,0,0,0
+mindfulness-of-breathing-guide,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.107,0.107,0,0,0,0,0
+mindfulness-vs-meditation,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.128,0.128,0,0,0,0,0
+compassion-in-buddhism-beginner-guide,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.14,0.14,0,0,0,0,0
+right-speech-buddhism,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.156,0.156,0,0,0,0,0
+three-ways-to-practice-patience,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.155,0.145,-0.01,0,0,0,0
+walking-meditation-step-by-step,compassion-in-buddhism-beginner-guide,In scope pair,Low,Low,0.111,0.096,-0.015,0,0,0,0
+compassion-in-buddhism-beginner-guide,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.193,0.193,0,0,0,0,0
+what-is-karma-in-buddhism,compassion-in-buddhism-beginner-guide,Context pair,Low,Low,0.159,0.159,0,0,0,0,0
+creating-a-peaceful-corner-at-home,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.155,0.135,-0.02,0,0,0,0
+creating-a-peaceful-corner-at-home,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.124,0.106,-0.018,0,0,0,0
+creating-a-peaceful-corner-at-home,eightfold-path-explained,In scope pair,Low,Low,0.14,0.122,-0.018,0,0,0,0
+creating-a-peaceful-corner-at-home,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.229,0.149,-0.08,8,0,2,0
+creating-a-peaceful-corner-at-home,four-noble-truths-explained,In scope pair,Low,Low,0.11,0.098,-0.012,0,0,0,0
+creating-a-peaceful-corner-at-home,four-noble-truths-explained-simply,In scope pair,Low,Low,0.118,0.097,-0.021,0,0,0,0
+creating-a-peaceful-corner-at-home,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.108,0.098,-0.01,0,0,0,0
+creating-a-peaceful-corner-at-home,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.268,0.206,-0.062,8,0,2,0
+creating-a-peaceful-corner-at-home,how-to-meditate-for-beginners,In scope pair,Low,Low,0.188,0.18,-0.008,0,0,0,0
+creating-a-peaceful-corner-at-home,how-to-practice-non-attachment,In scope pair,Medium,Low,0.211,0.132,-0.079,8,0,2,0
+creating-a-peaceful-corner-at-home,impermanence-in-buddhism,In scope pair,Low,Low,0.122,0.103,-0.019,0,0,0,0
+creating-a-peaceful-corner-at-home,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.11,0.1,-0.01,0,0,0,0
+creating-a-peaceful-corner-at-home,letting-go-without-giving-up,In scope pair,Medium,Low,0.217,0.138,-0.079,8,0,2,0
+creating-a-peaceful-corner-at-home,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.253,0.168,-0.085,8,0,2,0
+creating-a-peaceful-corner-at-home,loving-kindness-meditation-guide,In scope pair,Low,Low,0.147,0.134,-0.013,0,0,0,0
+creating-a-peaceful-corner-at-home,metta-meditation-script,In scope pair,Low,Low,0.161,0.15,-0.011,0,0,0,0
+creating-a-peaceful-corner-at-home,mindful-listening-in-everyday-life,In scope pair,Medium,Low,0.225,0.147,-0.078,8,0,2,0
+creating-a-peaceful-corner-at-home,mindfulness-for-better-sleep,In scope pair,Medium,Low,0.258,0.183,-0.075,8,0,2,0
+creating-a-peaceful-corner-at-home,mindfulness-morning-routine,In scope pair,Medium,Low,0.281,0.207,-0.074,8,0,2,0
+creating-a-peaceful-corner-at-home,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.155,0.145,-0.01,0,0,0,0
+creating-a-peaceful-corner-at-home,mindfulness-vs-meditation,In scope pair,Low,Low,0.219,0.2,-0.019,0,0,0,0
+creating-a-peaceful-corner-at-home,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.118,0.099,-0.019,0,0,0,0
+creating-a-peaceful-corner-at-home,right-speech-buddhism,In scope pair,Low,Low,0.121,0.103,-0.018,0,0,0,0
+creating-a-peaceful-corner-at-home,three-ways-to-practice-patience,In scope pair,Medium,Low,0.246,0.164,-0.082,8,0,2,0
+creating-a-peaceful-corner-at-home,walking-meditation-step-by-step,In scope pair,Medium,Low,0.284,0.214,-0.07,8,0,2,0
+creating-a-peaceful-corner-at-home,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.159,0.13,-0.029,0,0,0,0
+creating-a-peaceful-corner-at-home,what-is-karma-in-buddhism,In scope pair,Low,Low,0.111,0.087,-0.024,0,0,0,0
+dhammapada-reflection-trained-mind,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.227,0.227,0,0,0,1,1
+eightfold-path-explained,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.17,0.17,0,0,0,0,0
+eightfold-path-explained-daily-life,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.186,0.174,-0.012,0,0,0,0
+four-noble-truths-explained,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.126,0.126,0,0,0,0,0
+dhammapada-reflection-trained-mind,four-noble-truths-explained-simply,Context pair,Low,Low,0.146,0.146,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.139,0.139,0,0,0,0,0
+how-to-meditate-for-anxiety,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.166,0.143,-0.023,0,0,0,0
+dhammapada-reflection-trained-mind,how-to-meditate-for-beginners,Context pair,Low,Low,0.191,0.191,0,0,0,0,0
+how-to-practice-non-attachment,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.147,0.133,-0.014,0,0,0,0
+impermanence-in-buddhism,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.13,0.13,0,0,0,0,0
+dhammapada-reflection-trained-mind,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.143,0.143,0,0,0,0,0
+letting-go-without-giving-up,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.162,0.14,-0.022,0,0,0,0
+loving-kindness-meditation-beginners,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.147,0.128,-0.019,0,0,0,0
+dhammapada-reflection-trained-mind,loving-kindness-meditation-guide,Context pair,Low,Low,0.129,0.129,0,0,0,0,0
+metta-meditation-script,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.148,0.148,0,0,0,0,0
+mindful-listening-in-everyday-life,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.149,0.136,-0.013,0,0,0,0
+mindfulness-for-better-sleep,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.158,0.142,-0.016,0,0,0,0
+mindfulness-morning-routine,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.174,0.156,-0.018,0,0,0,0
+dhammapada-reflection-trained-mind,mindfulness-of-breathing-guide,Context pair,Low,Low,0.174,0.174,0,0,0,0,0
+mindfulness-vs-meditation,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.198,0.198,0,0,0,0,0
+dhammapada-reflection-trained-mind,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.168,0.168,0,0,0,0,0
+right-speech-buddhism,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.124,0.124,0,0,0,0,0
+three-ways-to-practice-patience,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.181,0.171,-0.01,0,0,0,0
+walking-meditation-step-by-step,dhammapada-reflection-trained-mind,In scope pair,Low,Low,0.164,0.145,-0.019,0,0,0,0
+dhammapada-reflection-trained-mind,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.199,0.199,0,0,0,0,0
+what-is-karma-in-buddhism,dhammapada-reflection-trained-mind,Context pair,Low,Low,0.168,0.168,0,0,0,0,0
+eightfold-path-explained,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.15,0.15,0,0,0,0,0
+eightfold-path-explained-daily-life,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.162,0.152,-0.01,0,0,0,0
+four-noble-truths-explained,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+dhammapada-reflection-what-we-think,four-noble-truths-explained-simply,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.133,0.133,0,0,0,0,0
+how-to-meditate-for-anxiety,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.154,0.135,-0.019,0,0,0,0
+dhammapada-reflection-what-we-think,how-to-meditate-for-beginners,Context pair,Low,Low,0.135,0.135,0,0,0,0,0
+how-to-practice-non-attachment,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.151,0.139,-0.012,0,0,0,0
+impermanence-in-buddhism,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.139,0.139,0,0,0,0,0
+dhammapada-reflection-what-we-think,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.139,0.139,0,0,0,0,0
+letting-go-without-giving-up,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.147,0.131,-0.016,0,0,0,0
+loving-kindness-meditation-beginners,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.121,0.096,-0.025,0,0,0,0
+dhammapada-reflection-what-we-think,loving-kindness-meditation-guide,Context pair,Low,Low,0.112,0.112,0,0,0,0,0
+metta-meditation-script,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+mindful-listening-in-everyday-life,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.144,0.132,-0.012,0,0,0,0
+mindfulness-for-better-sleep,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.147,0.124,-0.023,0,0,0,0
+mindfulness-morning-routine,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.142,0.125,-0.017,0,0,0,0
+dhammapada-reflection-what-we-think,mindfulness-of-breathing-guide,Context pair,Low,Low,0.121,0.121,0,0,0,0,0
+mindfulness-vs-meditation,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.138,0.138,0,0,0,0,0
+dhammapada-reflection-what-we-think,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.134,0.134,0,0,0,0,0
+right-speech-buddhism,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.141,0.141,0,0,0,0,0
+three-ways-to-practice-patience,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.151,0.142,-0.009,0,0,0,0
+walking-meditation-step-by-step,dhammapada-reflection-what-we-think,In scope pair,Low,Low,0.12,0.105,-0.015,0,0,0,0
+dhammapada-reflection-what-we-think,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.197,0.197,0,0,0,0,0
+what-is-karma-in-buddhism,dhammapada-reflection-what-we-think,Context pair,Low,Low,0.188,0.188,0,0,0,0,0
+eightfold-path-explained-daily-life,four-noble-truths-explained,In scope pair,Low,Low,0.185,0.174,-0.011,0,0,0,0
+eightfold-path-explained-daily-life,four-noble-truths-explained-simply,In scope pair,Low,Low,0.181,0.166,-0.015,0,0,0,0
+eightfold-path-explained-daily-life,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.13,0.122,-0.008,0,0,0,0
+eightfold-path-explained-daily-life,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.235,0.151,-0.084,8,0,2,0
+eightfold-path-explained-daily-life,how-to-meditate-for-beginners,In scope pair,Low,Low,0.141,0.129,-0.012,0,0,0,0
+how-to-practice-non-attachment,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.252,0.182,-0.07,8,0,2,0
+eightfold-path-explained-daily-life,impermanence-in-buddhism,In scope pair,Low,Low,0.143,0.129,-0.014,0,0,0,0
+eightfold-path-explained-daily-life,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.109,0.096,-0.013,0,0,0,0
+letting-go-without-giving-up,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.249,0.186,-0.063,8,0,2,0
+eightfold-path-explained-daily-life,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.235,0.156,-0.079,8,0,2,0
+eightfold-path-explained-daily-life,loving-kindness-meditation-guide,In scope pair,Low,Low,0.125,0.114,-0.011,0,0,0,0
+eightfold-path-explained-daily-life,metta-meditation-script,In scope pair,Low,Low,0.141,0.135,-0.006,0,0,0,0
+mindful-listening-in-everyday-life,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.241,0.173,-0.068,8,0,2,0
+mindfulness-for-better-sleep,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.243,0.157,-0.086,8,0,2,0
+mindfulness-morning-routine,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.265,0.193,-0.072,8,0,2,0
+eightfold-path-explained-daily-life,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.141,0.13,-0.011,0,0,0,0
+eightfold-path-explained-daily-life,mindfulness-vs-meditation,In scope pair,Low,Low,0.208,0.193,-0.015,0,0,0,0
+eightfold-path-explained-daily-life,noble-eightfold-path-practical-guide,In scope pair,Medium,Medium,0.298,0.314,0.016,0,0,0,0
+eightfold-path-explained-daily-life,right-speech-buddhism,In scope pair,Low,Low,0.201,0.203,0.002,0,0,0,0
+three-ways-to-practice-patience,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.247,0.179,-0.068,8,0,2,0
+walking-meditation-step-by-step,eightfold-path-explained-daily-life,In scope pair,Medium,Low,0.254,0.181,-0.073,8,0,2,0
+eightfold-path-explained-daily-life,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.228,0.211,-0.017,0,0,0,0
+eightfold-path-explained-daily-life,what-is-karma-in-buddhism,In scope pair,Low,Low,0.154,0.143,-0.011,0,0,0,0
+eightfold-path-explained-daily-life,eightfold-path-explained,In scope pair,Medium,Medium,0.331,0.344,0.013,0,0,0,0
+four-noble-truths-explained,eightfold-path-explained,Context pair,Low,Low,0.188,0.188,0,0,0,0,0
+eightfold-path-explained,four-noble-truths-explained-simply,Context pair,Low,Low,0.16,0.16,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,eightfold-path-explained,Context pair,Low,Low,0.127,0.127,0,0,0,0,0
+how-to-meditate-for-anxiety,eightfold-path-explained,In scope pair,Low,Low,0.154,0.133,-0.021,0,0,0,0
+eightfold-path-explained,how-to-meditate-for-beginners,Context pair,Low,Low,0.119,0.119,0,0,0,0,0
+how-to-practice-non-attachment,eightfold-path-explained,In scope pair,Low,Low,0.148,0.136,-0.012,0,0,0,0
+impermanence-in-buddhism,eightfold-path-explained,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+eightfold-path-explained,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.104,0.104,0,0,0,0,0
+letting-go-without-giving-up,eightfold-path-explained,In scope pair,Low,Low,0.147,0.132,-0.015,0,0,0,0
+loving-kindness-meditation-beginners,eightfold-path-explained,In scope pair,Low,Low,0.156,0.137,-0.019,0,0,0,0
+eightfold-path-explained,loving-kindness-meditation-guide,Context pair,Low,Low,0.134,0.134,0,0,0,0,0
+metta-meditation-script,eightfold-path-explained,Context pair,Low,Low,0.142,0.142,0,0,0,0,0
+mindful-listening-in-everyday-life,eightfold-path-explained,In scope pair,Low,Low,0.158,0.152,-0.006,0,0,0,0
+mindfulness-for-better-sleep,eightfold-path-explained,In scope pair,Low,Low,0.146,0.126,-0.02,0,0,0,0
+mindfulness-morning-routine,eightfold-path-explained,In scope pair,Low,Low,0.162,0.143,-0.019,0,0,0,0
+eightfold-path-explained,mindfulness-of-breathing-guide,Context pair,Low,Low,0.126,0.126,0,0,0,0,0
+mindfulness-vs-meditation,eightfold-path-explained,Context pair,Low,Low,0.183,0.183,0,0,0,0,0
+eightfold-path-explained,noble-eightfold-path-practical-guide,Context pair,Medium,Medium,0.381,0.381,0,0,0,0,0
+right-speech-buddhism,eightfold-path-explained,Context pair,Low,Low,0.274,0.274,0,0,0,0,0
+three-ways-to-practice-patience,eightfold-path-explained,In scope pair,Low,Low,0.15,0.144,-0.006,0,0,0,0
+walking-meditation-step-by-step,eightfold-path-explained,In scope pair,Low,Low,0.163,0.149,-0.014,0,0,0,0
+eightfold-path-explained,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.213,0.213,0,0,0,0,0
+what-is-karma-in-buddhism,eightfold-path-explained,Context pair,Low,Low,0.161,0.161,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,four-noble-truths-explained-simply,Context pair,Low,Low,0.184,0.184,0,0,0,0,0
+how-to-meditate-for-anxiety,four-noble-truths-explained-simply,In scope pair,Low,Low,0.119,0.104,-0.015,0,0,0,0
+how-to-meditate-for-beginners,four-noble-truths-explained-simply,Context pair,Low,Low,0.101,0.101,0,0,0,0,0
+how-to-practice-non-attachment,four-noble-truths-explained-simply,In scope pair,Low,Low,0.176,0.166,-0.01,0,0,0,0
+impermanence-in-buddhism,four-noble-truths-explained-simply,Context pair,Low,Low,0.16,0.16,0,0,0,0,0
+impermanence-in-buddhism-letting-go,four-noble-truths-explained-simply,Context pair,Low,Low,0.169,0.169,0,0,0,0,0
+letting-go-without-giving-up,four-noble-truths-explained-simply,In scope pair,Low,Low,0.158,0.146,-0.012,0,0,0,0
+loving-kindness-meditation-beginners,four-noble-truths-explained-simply,In scope pair,Low,Low,0.124,0.106,-0.018,0,0,0,0
+loving-kindness-meditation-guide,four-noble-truths-explained-simply,Context pair,Low,Low,0.109,0.109,0,0,0,0,0
+metta-meditation-script,four-noble-truths-explained-simply,Context pair,Low,Low,0.127,0.127,0,0,0,0,0
+mindful-listening-in-everyday-life,four-noble-truths-explained-simply,In scope pair,Low,Low,0.117,0.101,-0.016,0,0,0,0
+mindfulness-for-better-sleep,four-noble-truths-explained-simply,In scope pair,Low,Low,0.108,0.086,-0.022,0,0,0,0
+mindfulness-morning-routine,four-noble-truths-explained-simply,In scope pair,Low,Low,0.118,0.097,-0.021,0,0,0,0
+mindfulness-of-breathing-guide,four-noble-truths-explained-simply,Context pair,Low,Low,0.09,0.09,0,0,0,0,0
+mindfulness-vs-meditation,four-noble-truths-explained-simply,Context pair,Low,Low,0.136,0.136,0,0,0,0,0
+noble-eightfold-path-practical-guide,four-noble-truths-explained-simply,Context pair,Low,Low,0.161,0.161,0,0,0,0,0
+right-speech-buddhism,four-noble-truths-explained-simply,Context pair,Low,Low,0.109,0.109,0,0,0,0,0
+three-ways-to-practice-patience,four-noble-truths-explained-simply,In scope pair,Low,Low,0.128,0.112,-0.016,0,0,0,0
+walking-meditation-step-by-step,four-noble-truths-explained-simply,In scope pair,Low,Low,0.128,0.11,-0.018,0,0,0,0
+four-noble-truths-explained-simply,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.217,0.217,0,0,0,0,0
+what-is-karma-in-buddhism,four-noble-truths-explained-simply,Context pair,Low,Low,0.128,0.128,0,0,0,0,0
+four-noble-truths-explained,four-noble-truths-explained-simply,Context pair,Medium,Medium,0.344,0.344,0,0,0,0,0
+four-noble-truths-explained,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.166,0.166,0,0,0,0,0
+how-to-meditate-for-anxiety,four-noble-truths-explained,In scope pair,Low,Low,0.14,0.129,-0.011,0,0,0,0
+four-noble-truths-explained,how-to-meditate-for-beginners,Context pair,Low,Low,0.094,0.094,0,0,0,0,0
+how-to-practice-non-attachment,four-noble-truths-explained,In scope pair,Low,Low,0.152,0.15,-0.002,0,0,0,0
+four-noble-truths-explained,impermanence-in-buddhism,Context pair,Low,Low,0.157,0.157,0,0,0,0,0
+four-noble-truths-explained,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.151,0.151,0,0,0,0,0
+letting-go-without-giving-up,four-noble-truths-explained,In scope pair,Low,Low,0.15,0.142,-0.008,0,0,0,0
+loving-kindness-meditation-beginners,four-noble-truths-explained,In scope pair,Low,Low,0.126,0.113,-0.013,0,0,0,0
+four-noble-truths-explained,loving-kindness-meditation-guide,Context pair,Low,Low,0.11,0.11,0,0,0,0,0
+metta-meditation-script,four-noble-truths-explained,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+mindful-listening-in-everyday-life,four-noble-truths-explained,In scope pair,Low,Low,0.127,0.12,-0.007,0,0,0,0
+mindfulness-for-better-sleep,four-noble-truths-explained,In scope pair,Low,Low,0.117,0.101,-0.016,0,0,0,0
+mindfulness-morning-routine,four-noble-truths-explained,In scope pair,Low,Low,0.124,0.111,-0.013,0,0,0,0
+four-noble-truths-explained,mindfulness-of-breathing-guide,Context pair,Low,Low,0.109,0.109,0,0,0,0,0
+mindfulness-vs-meditation,four-noble-truths-explained,Context pair,Low,Low,0.141,0.141,0,0,0,0,0
+four-noble-truths-explained,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.159,0.159,0,0,0,0,0
+four-noble-truths-explained,right-speech-buddhism,Context pair,Low,Low,0.14,0.14,0,0,0,0,0
+three-ways-to-practice-patience,four-noble-truths-explained,In scope pair,Low,Low,0.137,0.132,-0.005,0,0,0,0
+walking-meditation-step-by-step,four-noble-truths-explained,In scope pair,Low,Low,0.124,0.116,-0.008,0,0,0,0
+four-noble-truths-explained,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.216,0.216,0,0,0,0,0
+four-noble-truths-explained,what-is-karma-in-buddhism,Context pair,Low,Low,0.139,0.139,0,0,0,0,0
+how-to-meditate-for-anxiety,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.127,0.117,-0.01,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,how-to-meditate-for-beginners,Context pair,Low,Low,0.103,0.103,0,0,0,0,0
+how-to-practice-non-attachment,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.253,0.266,0.013,0,0,0,0
+impermanence-in-buddhism,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.212,0.212,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.211,0.211,0,0,0,0,0
+letting-go-without-giving-up,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.244,0.247,0.003,0,0,0,0
+loving-kindness-meditation-beginners,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.14,0.131,-0.009,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,loving-kindness-meditation-guide,Context pair,Low,Low,0.12,0.12,0,0,0,0,0
+metta-meditation-script,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.14,0.14,0,0,0,0,0
+mindful-listening-in-everyday-life,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.133,0.124,-0.009,0,0,0,0
+mindfulness-for-better-sleep,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.125,0.115,-0.01,0,0,0,0
+mindfulness-morning-routine,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.112,0.104,-0.008,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,mindfulness-of-breathing-guide,Context pair,Low,Low,0.114,0.114,0,0,0,0,0
+mindfulness-vs-meditation,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.133,0.133,0,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.115,0.115,0,0,0,0,0
+right-speech-buddhism,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.121,0.121,0,0,0,0,0
+three-ways-to-practice-patience,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.152,0.148,-0.004,0,0,0,0
+walking-meditation-step-by-step,how-to-let-go-of-attachment-in-buddhism,In scope pair,Low,Low,0.113,0.103,-0.01,0,0,0,0
+how-to-let-go-of-attachment-in-buddhism,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.185,0.185,0,0,0,0,0
+what-is-karma-in-buddhism,how-to-let-go-of-attachment-in-buddhism,Context pair,Low,Low,0.137,0.137,0,0,0,0,0
+how-to-meditate-for-anxiety,how-to-meditate-for-beginners,In scope pair,Low,Low,0.215,0.208,-0.007,0,0,0,0
+how-to-practice-non-attachment,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.227,0.155,-0.072,8,0,2,0
+how-to-meditate-for-anxiety,impermanence-in-buddhism,In scope pair,Low,Low,0.145,0.135,-0.01,0,0,0,0
+how-to-meditate-for-anxiety,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.119,0.11,-0.009,0,0,0,0
+letting-go-without-giving-up,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.237,0.16,-0.077,8,0,2,0
+loving-kindness-meditation-beginners,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.262,0.192,-0.07,8,0,2,0
+how-to-meditate-for-anxiety,loving-kindness-meditation-guide,In scope pair,Low,Low,0.147,0.146,-0.001,0,0,0,0
+how-to-meditate-for-anxiety,metta-meditation-script,In scope pair,Low,Low,0.188,0.185,-0.003,0,0,0,0
+mindful-listening-in-everyday-life,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.241,0.165,-0.076,8,0,2,0
+mindfulness-for-better-sleep,how-to-meditate-for-anxiety,In scope pair,High,Low,0.311,0.25,-0.061,8,0,3,0
+mindfulness-morning-routine,how-to-meditate-for-anxiety,In scope pair,High,Low,0.278,0.21,-0.068,8,0,2,0
+how-to-meditate-for-anxiety,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.233,0.229,-0.004,0,0,0,0
+how-to-meditate-for-anxiety,mindfulness-vs-meditation,In scope pair,Medium,Low,0.256,0.25,-0.006,0,0,0,0
+how-to-meditate-for-anxiety,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.13,0.112,-0.018,0,0,0,0
+how-to-meditate-for-anxiety,right-speech-buddhism,In scope pair,Low,Low,0.129,0.113,-0.016,0,0,0,0
+three-ways-to-practice-patience,how-to-meditate-for-anxiety,In scope pair,Medium,Low,0.265,0.187,-0.078,8,0,2,0
+walking-meditation-step-by-step,how-to-meditate-for-anxiety,In scope pair,High,Low,0.314,0.259,-0.055,8,0,3,0
+how-to-meditate-for-anxiety,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.183,0.157,-0.026,0,0,0,0
+how-to-meditate-for-anxiety,what-is-karma-in-buddhism,In scope pair,Low,Low,0.124,0.101,-0.023,0,0,0,0
+how-to-practice-non-attachment,how-to-meditate-for-beginners,In scope pair,Low,Low,0.121,0.116,-0.005,0,0,0,0
+impermanence-in-buddhism,how-to-meditate-for-beginners,Context pair,Low,Low,0.108,0.108,0,0,0,0,0
+how-to-meditate-for-beginners,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.101,0.101,0,0,0,0,0
+letting-go-without-giving-up,how-to-meditate-for-beginners,In scope pair,Low,Low,0.133,0.116,-0.017,0,0,0,0
+loving-kindness-meditation-beginners,how-to-meditate-for-beginners,In scope pair,Low,Low,0.166,0.154,-0.012,0,0,0,0
+loving-kindness-meditation-guide,how-to-meditate-for-beginners,Context pair,Low,Low,0.14,0.14,0,0,0,0,0
+metta-meditation-script,how-to-meditate-for-beginners,Context pair,Low,Low,0.171,0.171,0,0,0,0,0
+mindful-listening-in-everyday-life,how-to-meditate-for-beginners,In scope pair,Low,Low,0.136,0.128,-0.008,0,0,0,0
+mindfulness-for-better-sleep,how-to-meditate-for-beginners,In scope pair,Low,Low,0.181,0.184,0.003,0,0,0,0
+mindfulness-morning-routine,how-to-meditate-for-beginners,In scope pair,Low,Low,0.202,0.199,-0.003,0,0,0,0
+mindfulness-of-breathing-guide,how-to-meditate-for-beginners,Context pair,Low,Low,0.235,0.235,0,0,0,0,0
+mindfulness-vs-meditation,how-to-meditate-for-beginners,Context pair,Low,Low,0.248,0.248,0,0,0,0,0
+how-to-meditate-for-beginners,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.113,0.113,0,0,0,0,0
+right-speech-buddhism,how-to-meditate-for-beginners,Context pair,Low,Low,0.096,0.096,0,0,0,0,0
+three-ways-to-practice-patience,how-to-meditate-for-beginners,In scope pair,Low,Low,0.141,0.129,-0.012,0,0,0,0
+walking-meditation-step-by-step,how-to-meditate-for-beginners,In scope pair,Low,Low,0.201,0.194,-0.007,0,0,0,0
+how-to-meditate-for-beginners,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.163,0.163,0,0,0,0,0
+what-is-karma-in-buddhism,how-to-meditate-for-beginners,Context pair,Low,Low,0.104,0.104,0,0,0,0,0
+how-to-practice-non-attachment,impermanence-in-buddhism,In scope pair,Low,Low,0.202,0.192,-0.01,0,0,0,0
+how-to-practice-non-attachment,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.211,0.208,-0.003,0,0,0,0
+letting-go-without-giving-up,how-to-practice-non-attachment,In scope pair,High,Medium,0.341,0.294,-0.047,8,0,4,0
+how-to-practice-non-attachment,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.241,0.159,-0.082,8,0,2,0
+how-to-practice-non-attachment,loving-kindness-meditation-guide,In scope pair,Low,Low,0.129,0.119,-0.01,0,0,0,0
+how-to-practice-non-attachment,metta-meditation-script,In scope pair,Low,Low,0.148,0.147,-0.001,0,0,0,0
+mindful-listening-in-everyday-life,how-to-practice-non-attachment,In scope pair,Medium,Low,0.255,0.18,-0.075,8,0,2,0
+how-to-practice-non-attachment,mindfulness-for-better-sleep,In scope pair,Medium,Low,0.229,0.148,-0.081,8,0,2,0
+how-to-practice-non-attachment,mindfulness-morning-routine,In scope pair,Medium,Low,0.236,0.16,-0.076,8,0,2,0
+how-to-practice-non-attachment,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.114,0.114,0,0,0,0,0
+how-to-practice-non-attachment,mindfulness-vs-meditation,In scope pair,Low,Low,0.153,0.14,-0.013,0,0,0,0
+how-to-practice-non-attachment,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.131,0.113,-0.018,0,0,0,0
+how-to-practice-non-attachment,right-speech-buddhism,In scope pair,Low,Low,0.136,0.124,-0.012,0,0,0,0
+three-ways-to-practice-patience,how-to-practice-non-attachment,In scope pair,Medium,Low,0.252,0.183,-0.069,8,0,2,0
+how-to-practice-non-attachment,walking-meditation-step-by-step,In scope pair,Medium,Low,0.229,0.145,-0.084,8,0,2,0
+how-to-practice-non-attachment,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.185,0.16,-0.025,0,0,0,0
+how-to-practice-non-attachment,what-is-karma-in-buddhism,In scope pair,Low,Low,0.157,0.145,-0.012,0,0,0,0
+letting-go-without-giving-up,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.19,0.18,-0.01,0,0,0,0
+loving-kindness-meditation-beginners,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.122,0.111,-0.011,0,0,0,0
+loving-kindness-meditation-guide,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.12,0.12,0,0,0,0,0
+metta-meditation-script,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.115,0.115,0,0,0,0,0
+mindful-listening-in-everyday-life,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.116,0.105,-0.011,0,0,0,0
+mindfulness-for-better-sleep,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.116,0.107,-0.009,0,0,0,0
+mindfulness-morning-routine,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.116,0.101,-0.015,0,0,0,0
+mindfulness-of-breathing-guide,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.129,0.129,0,0,0,0,0
+mindfulness-vs-meditation,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.123,0.123,0,0,0,0,0
+impermanence-in-buddhism-letting-go,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.105,0.105,0,0,0,0,0
+right-speech-buddhism,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.097,0.097,0,0,0,0,0
+three-ways-to-practice-patience,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.116,0.107,-0.009,0,0,0,0
+walking-meditation-step-by-step,impermanence-in-buddhism-letting-go,In scope pair,Low,Low,0.114,0.1,-0.014,0,0,0,0
+impermanence-in-buddhism-letting-go,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.185,0.185,0,0,0,0,0
+what-is-karma-in-buddhism,impermanence-in-buddhism-letting-go,Context pair,Low,Low,0.134,0.134,0,0,0,0,0
+impermanence-in-buddhism,impermanence-in-buddhism-letting-go,Context pair,Medium,Medium,0.337,0.337,0,0,0,0,0
+letting-go-without-giving-up,impermanence-in-buddhism,In scope pair,Low,Low,0.198,0.185,-0.013,0,0,0,0
+loving-kindness-meditation-beginners,impermanence-in-buddhism,In scope pair,Low,Low,0.145,0.122,-0.023,0,0,0,0
+impermanence-in-buddhism,loving-kindness-meditation-guide,Context pair,Low,Low,0.123,0.123,0,0,0,0,0
+metta-meditation-script,impermanence-in-buddhism,Context pair,Low,Low,0.138,0.138,0,0,0,0,0
+mindful-listening-in-everyday-life,impermanence-in-buddhism,In scope pair,Low,Low,0.13,0.115,-0.015,0,0,0,0
+mindfulness-for-better-sleep,impermanence-in-buddhism,In scope pair,Low,Low,0.131,0.116,-0.015,0,0,0,0
+mindfulness-morning-routine,impermanence-in-buddhism,In scope pair,Low,Low,0.135,0.119,-0.016,0,0,0,0
+impermanence-in-buddhism,mindfulness-of-breathing-guide,Context pair,Low,Low,0.121,0.121,0,0,0,0,0
+mindfulness-vs-meditation,impermanence-in-buddhism,Context pair,Low,Low,0.147,0.147,0,0,0,0,0
+impermanence-in-buddhism,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.114,0.114,0,0,0,0,0
+impermanence-in-buddhism,right-speech-buddhism,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+three-ways-to-practice-patience,impermanence-in-buddhism,In scope pair,Low,Low,0.141,0.128,-0.013,0,0,0,0
+walking-meditation-step-by-step,impermanence-in-buddhism,In scope pair,Low,Low,0.125,0.11,-0.015,0,0,0,0
+impermanence-in-buddhism,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.177,0.177,0,0,0,0,0
+what-is-karma-in-buddhism,impermanence-in-buddhism,Context pair,Low,Low,0.146,0.146,0,0,0,0,0
+letting-go-without-giving-up,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.238,0.15,-0.088,8,0,2,0
+letting-go-without-giving-up,loving-kindness-meditation-guide,In scope pair,Low,Low,0.13,0.114,-0.016,0,0,0,0
+letting-go-without-giving-up,metta-meditation-script,In scope pair,Low,Low,0.138,0.125,-0.013,0,0,0,0
+mindful-listening-in-everyday-life,letting-go-without-giving-up,In scope pair,Medium,Low,0.252,0.177,-0.075,8,0,2,0
+letting-go-without-giving-up,mindfulness-for-better-sleep,In scope pair,Medium,Low,0.228,0.144,-0.084,8,0,2,0
+letting-go-without-giving-up,mindfulness-morning-routine,In scope pair,Medium,Low,0.242,0.162,-0.08,8,0,2,0
+letting-go-without-giving-up,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.129,0.115,-0.014,0,0,0,0
+letting-go-without-giving-up,mindfulness-vs-meditation,In scope pair,Low,Low,0.143,0.122,-0.021,0,0,0,0
+letting-go-without-giving-up,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.135,0.121,-0.014,0,0,0,0
+letting-go-without-giving-up,right-speech-buddhism,In scope pair,Low,Low,0.134,0.116,-0.018,0,0,0,0
+three-ways-to-practice-patience,letting-go-without-giving-up,In scope pair,Medium,Low,0.264,0.192,-0.072,8,0,2,0
+letting-go-without-giving-up,walking-meditation-step-by-step,In scope pair,Medium,Low,0.228,0.143,-0.085,8,0,2,0
+letting-go-without-giving-up,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.172,0.144,-0.028,0,0,0,0
+letting-go-without-giving-up,what-is-karma-in-buddhism,In scope pair,Low,Low,0.149,0.128,-0.021,0,0,0,0
+loving-kindness-meditation-beginners,loving-kindness-meditation-guide,In scope pair,Medium,Medium,0.332,0.333,0.001,0,0,0,0
+loving-kindness-meditation-beginners,metta-meditation-script,In scope pair,Medium,Medium,0.332,0.337,0.005,0,0,0,0
+mindful-listening-in-everyday-life,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.259,0.18,-0.079,8,0,3,0
+mindfulness-for-better-sleep,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.238,0.151,-0.087,8,0,3,0
+mindfulness-morning-routine,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.242,0.157,-0.085,8,0,2,0
+loving-kindness-meditation-beginners,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.143,0.127,-0.016,0,0,0,0
+loving-kindness-meditation-beginners,mindfulness-vs-meditation,In scope pair,Low,Low,0.207,0.187,-0.02,0,0,0,0
+loving-kindness-meditation-beginners,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.13,0.109,-0.021,0,0,0,0
+loving-kindness-meditation-beginners,right-speech-buddhism,In scope pair,Low,Low,0.151,0.131,-0.02,0,0,0,0
+three-ways-to-practice-patience,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.258,0.174,-0.084,8,0,2,0
+walking-meditation-step-by-step,loving-kindness-meditation-beginners,In scope pair,Medium,Low,0.276,0.192,-0.084,8,0,2,0
+loving-kindness-meditation-beginners,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.165,0.144,-0.021,0,0,0,0
+loving-kindness-meditation-beginners,what-is-karma-in-buddhism,In scope pair,Low,Low,0.138,0.114,-0.024,0,0,0,0
+metta-meditation-script,loving-kindness-meditation-guide,Context pair,Medium,Medium,0.319,0.319,0,0,0,0,0
+mindful-listening-in-everyday-life,loving-kindness-meditation-guide,In scope pair,Low,Low,0.15,0.139,-0.011,0,0,0,0
+mindfulness-for-better-sleep,loving-kindness-meditation-guide,In scope pair,Low,Low,0.123,0.109,-0.014,0,0,0,0
+mindfulness-morning-routine,loving-kindness-meditation-guide,In scope pair,Low,Low,0.121,0.107,-0.014,0,0,0,0
+loving-kindness-meditation-guide,mindfulness-of-breathing-guide,Context pair,Low,Low,0.132,0.132,0,0,0,0,0
+mindfulness-vs-meditation,loving-kindness-meditation-guide,Context pair,Low,Low,0.173,0.173,0,0,0,0,0
+loving-kindness-meditation-guide,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.121,0.121,0,0,0,0,0
+right-speech-buddhism,loving-kindness-meditation-guide,Context pair,Low,Low,0.142,0.142,0,0,0,0,0
+three-ways-to-practice-patience,loving-kindness-meditation-guide,In scope pair,Low,Low,0.142,0.129,-0.013,0,0,0,0
+walking-meditation-step-by-step,loving-kindness-meditation-guide,In scope pair,Low,Low,0.155,0.143,-0.012,0,0,0,0
+loving-kindness-meditation-guide,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.128,0.128,0,0,0,0,0
+what-is-karma-in-buddhism,loving-kindness-meditation-guide,Context pair,Low,Low,0.121,0.121,0,0,0,0,0
+mindful-listening-in-everyday-life,metta-meditation-script,In scope pair,Low,Low,0.151,0.145,-0.006,0,0,0,0
+mindfulness-for-better-sleep,metta-meditation-script,In scope pair,Low,Low,0.152,0.144,-0.008,0,0,0,0
+mindfulness-morning-routine,metta-meditation-script,In scope pair,Low,Low,0.153,0.144,-0.009,0,0,0,0
+metta-meditation-script,mindfulness-of-breathing-guide,Context pair,Low,Low,0.143,0.143,0,0,0,0,0
+metta-meditation-script,mindfulness-vs-meditation,Context pair,Low,Low,0.207,0.207,0,0,0,0,0
+metta-meditation-script,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.126,0.126,0,0,0,0,0
+metta-meditation-script,right-speech-buddhism,Context pair,Low,Low,0.135,0.135,0,0,0,0,0
+three-ways-to-practice-patience,metta-meditation-script,In scope pair,Low,Low,0.144,0.14,-0.004,0,0,0,0
+walking-meditation-step-by-step,metta-meditation-script,In scope pair,Low,Low,0.174,0.168,-0.006,0,0,0,0
+metta-meditation-script,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.157,0.157,0,0,0,0,0
+metta-meditation-script,what-is-karma-in-buddhism,Context pair,Low,Low,0.128,0.128,0,0,0,0,0
+mindful-listening-in-everyday-life,mindfulness-for-better-sleep,In scope pair,Medium,Low,0.253,0.168,-0.085,8,0,3,0
+mindful-listening-in-everyday-life,mindfulness-morning-routine,In scope pair,Medium,Low,0.266,0.192,-0.074,8,0,2,0
+mindful-listening-in-everyday-life,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.142,0.133,-0.009,0,0,0,0
+mindful-listening-in-everyday-life,mindfulness-vs-meditation,In scope pair,Low,Low,0.176,0.163,-0.013,0,0,0,0
+mindful-listening-in-everyday-life,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.147,0.137,-0.01,0,0,0,0
+mindful-listening-in-everyday-life,right-speech-buddhism,In scope pair,Low,Low,0.205,0.202,-0.003,0,0,0,0
+mindful-listening-in-everyday-life,three-ways-to-practice-patience,In scope pair,High,Low,0.279,0.204,-0.075,8,0,2,0
+mindful-listening-in-everyday-life,walking-meditation-step-by-step,In scope pair,Medium,Low,0.26,0.182,-0.078,8,0,3,0
+mindful-listening-in-everyday-life,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.162,0.146,-0.016,0,0,0,0
+mindful-listening-in-everyday-life,what-is-karma-in-buddhism,In scope pair,Low,Low,0.152,0.138,-0.014,0,0,0,0
+mindfulness-for-better-sleep,mindfulness-morning-routine,In scope pair,High,Low,0.285,0.214,-0.071,8,0,3,0
+mindfulness-for-better-sleep,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.19,0.179,-0.011,0,0,0,0
+mindfulness-for-better-sleep,mindfulness-vs-meditation,In scope pair,Low,Low,0.224,0.216,-0.008,0,0,0,0
+mindfulness-for-better-sleep,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.129,0.106,-0.023,0,0,0,0
+mindfulness-for-better-sleep,right-speech-buddhism,In scope pair,Low,Low,0.113,0.092,-0.021,0,0,0,0
+three-ways-to-practice-patience,mindfulness-for-better-sleep,In scope pair,Medium,Low,0.241,0.16,-0.081,8,0,2,0
+mindfulness-for-better-sleep,walking-meditation-step-by-step,In scope pair,High,Low,0.272,0.201,-0.071,8,0,2,0
+mindfulness-for-better-sleep,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.159,0.132,-0.027,0,0,0,0
+mindfulness-for-better-sleep,what-is-karma-in-buddhism,In scope pair,Low,Low,0.12,0.094,-0.026,0,0,0,0
+mindfulness-morning-routine,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.181,0.178,-0.003,0,0,0,0
+mindfulness-morning-routine,mindfulness-vs-meditation,In scope pair,Low,Low,0.229,0.214,-0.015,0,0,0,0
+mindfulness-morning-routine,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.143,0.123,-0.02,0,0,0,0
+mindfulness-morning-routine,right-speech-buddhism,In scope pair,Low,Low,0.127,0.111,-0.016,0,0,0,0
+three-ways-to-practice-patience,mindfulness-morning-routine,In scope pair,Medium,Low,0.255,0.188,-0.067,8,0,2,0
+walking-meditation-step-by-step,mindfulness-morning-routine,In scope pair,High,Low,0.274,0.204,-0.07,8,0,2,0
+mindfulness-morning-routine,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.162,0.134,-0.028,0,0,0,0
+mindfulness-morning-routine,what-is-karma-in-buddhism,In scope pair,Low,Low,0.14,0.12,-0.02,0,0,0,0
+mindfulness-vs-meditation,mindfulness-of-breathing-guide,Context pair,Low,Low,0.256,0.256,0,0,0,0,0
+mindfulness-of-breathing-guide,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.13,0.13,0,0,0,0,0
+right-speech-buddhism,mindfulness-of-breathing-guide,Context pair,Low,Low,0.094,0.094,0,0,0,0,0
+three-ways-to-practice-patience,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.148,0.14,-0.008,0,0,0,0
+walking-meditation-step-by-step,mindfulness-of-breathing-guide,In scope pair,Low,Low,0.201,0.197,-0.004,0,0,0,0
+mindfulness-of-breathing-guide,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.167,0.167,0,0,0,0,0
+what-is-karma-in-buddhism,mindfulness-of-breathing-guide,Context pair,Low,Low,0.098,0.098,0,0,0,0,0
+mindfulness-vs-meditation,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.174,0.174,0,0,0,0,0
+mindfulness-vs-meditation,right-speech-buddhism,Context pair,Low,Low,0.134,0.134,0,0,0,0,0
+three-ways-to-practice-patience,mindfulness-vs-meditation,In scope pair,Low,Low,0.169,0.16,-0.009,0,0,0,0
+walking-meditation-step-by-step,mindfulness-vs-meditation,In scope pair,Low,Low,0.259,0.246,-0.013,0,0,0,0
+mindfulness-vs-meditation,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.204,0.204,0,0,0,0,0
+mindfulness-vs-meditation,what-is-karma-in-buddhism,Context pair,Low,Low,0.131,0.131,0,0,0,0,0
+right-speech-buddhism,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.249,0.249,0,0,0,0,0
+three-ways-to-practice-patience,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.139,0.126,-0.013,0,0,0,0
+walking-meditation-step-by-step,noble-eightfold-path-practical-guide,In scope pair,Low,Low,0.139,0.125,-0.014,0,0,0,0
+noble-eightfold-path-practical-guide,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.2,0.2,0,0,0,0,0
+what-is-karma-in-buddhism,noble-eightfold-path-practical-guide,Context pair,Low,Low,0.154,0.154,0,0,0,0,0
+three-ways-to-practice-patience,right-speech-buddhism,In scope pair,Low,Low,0.155,0.152,-0.003,0,0,0,0
+walking-meditation-step-by-step,right-speech-buddhism,In scope pair,Low,Low,0.112,0.1,-0.012,0,0,0,0
+right-speech-buddhism,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.175,0.175,0,0,0,0,0
+what-is-karma-in-buddhism,right-speech-buddhism,Context pair,Low,Low,0.162,0.162,0,0,0,0,0
+three-ways-to-practice-patience,walking-meditation-step-by-step,In scope pair,Medium,Low,0.257,0.174,-0.083,8,0,2,0
+three-ways-to-practice-patience,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.173,0.158,-0.015,0,0,0,0
+three-ways-to-practice-patience,what-is-karma-in-buddhism,In scope pair,Low,Low,0.152,0.141,-0.011,0,0,0,0
+walking-meditation-step-by-step,what-is-buddhism-beginner-guide,In scope pair,Low,Low,0.183,0.162,-0.021,0,0,0,0
+walking-meditation-step-by-step,what-is-karma-in-buddhism,In scope pair,Low,Low,0.115,0.092,-0.023,0,0,0,0
+what-is-karma-in-buddhism,what-is-buddhism-beginner-guide,Context pair,Low,Low,0.177,0.177,0,0,0,0,0
