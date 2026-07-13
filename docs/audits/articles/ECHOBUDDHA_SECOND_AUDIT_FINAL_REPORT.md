@@ -6,7 +6,7 @@ The article library has a strong technical SEO foundation but is not ready for b
 
 ## Corrected Audit Findings
 
-- Articles audited: 36
+- Articles audited: 42
 - Previous artifacts inspected: 9
 - Inconsistencies found and resolved: 4
 - Exact duplicated sentence groups: 0
@@ -15,8 +15,8 @@ The article library has a strong technical SEO foundation but is not ready for b
 - High-overlap cluster count: 0
 - Articles requiring substantial rewrite: 0
 - Articles requiring targeted rewrite or cluster repositioning: 9
-- Articles requiring only light polish/no change: 27
-- Articles requiring source-aware review: 36
+- Articles requiring only light polish/no change: 33
+- Articles requiring source-aware review: 42
 - Articles requiring wellbeing review: 7
 
 ## Article-Library Strengths

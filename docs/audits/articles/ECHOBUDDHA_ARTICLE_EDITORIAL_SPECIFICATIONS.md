@@ -2,6 +2,300 @@
 
 These are implementation specifications only. They do not rewrite article prose.
 
+## The Three Poisons in Buddhism: Greed, Hatred, and Delusion Explained
+
+- URL: https://echobuddha.com/articles/three-poisons-buddhism-explained/
+- Score: 83 (Medium)
+- Recommended scope: Light polish
+
+### Current-State Diagnosis
+
+- Strongest section: The Source Teaching Behind the Three Roots
+- Weakest section: Source-aware support
+- Primary overlap problem: No major pairwise overlap
+- Structural-template risk: Low template evidence
+- Repeated/portable passages: None found at exact-match threshold
+- Generic examples: No excessive example count, but examples should stay role-specific.
+- Repeated FAQ items: None
+- Doctrinal/factual gaps: buddhism, buddhist, buddha, karma, right speech, attachment, sati
+- Sourcing gaps: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Wellbeing risks: overthinking, sleep, anger, treatment
+- Metadata issues: No duplicate title, meta description, or canonical found.
+
+### Preservation Instructions
+
+- Preserve URL, slug, category, schema behavior, and all existing href values.
+- Heading anchors: the-source-teaching-behind-the-three-roots, one-situation-seen-through-three-poisons, how-the-roots-reinforce-one-another, the-skillful-counter-qualities, a-three-root-recognition-practice, why-this-teaching-still-feels-practical
+- Useful sections to retain: The Source Teaching Behind the Three Roots, One Situation Seen Through Three Poisons, How the Roots Reinforce One Another
+- Related resources to preserve: what-is-karma-in-buddhism, buddhist-approach-to-anger, how-to-let-go-of-attachment-in-buddhism
+
+### Rewrite Instructions
+
+- Introduction: Lightly revise for stronger article-specific promise.
+- Sections needing substantial rewriting: None
+- Sections needing tightening only: The Source Teaching Behind the Three Roots, One Situation Seen Through Three Poisons, How the Roots Reinforce One Another, The Skillful Counter-Qualities, A Three-Root Recognition Practice, Why This Teaching Still Feels Practical
+- Remove or vary repeated prose: None
+- Replace generic example with: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- New depth required: Add source-aware qualification and term clarity.
+- FAQ treatment: Keep useful FAQ structure; differentiate repeated questions by article role rather than deleting by default.
+- Conclusion: specific next practice and sibling/hub relationship
+- Length direction: Remain similar length or slightly shorter.
+
+### Unique Value Specification
+
+- Unique promise: Give buddhism for beginners a distinct reader outcome tied to this URL.
+- Unique angle: Informational explanation
+- Unique practical outcome: Reader can apply buddhism for beginners in one specific situation without needing another article first.
+- Unique example categories: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- Unique structure: Educational explanation
+- Unique source plan: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Hub/sibling relationship: Standalone or category-level relationship only.
+
+## Equanimity in Buddhism: Calm Without Indifference
+
+- URL: https://echobuddha.com/articles/equanimity-in-buddhism/
+- Score: 83 (Medium)
+- Recommended scope: Light polish
+
+### Current-State Diagnosis
+
+- Strongest section: The Worldly Conditions That Test Balance
+- Weakest section: Source-aware support
+- Primary overlap problem: No major pairwise overlap
+- Structural-template risk: Low template evidence
+- Repeated/portable passages: None found at exact-match threshold
+- Generic examples: No excessive example count, but examples should stay role-specific.
+- Repeated FAQ items: None
+- Doctrinal/factual gaps: buddhism, buddhist, buddha, impermanence, compassion, sati, dhamma
+- Sourcing gaps: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Wellbeing risks: anger, grief
+- Metadata issues: No duplicate title, meta description, or canonical found.
+
+### Preservation Instructions
+
+- Preserve URL, slug, category, schema behavior, and all existing href values.
+- Heading anchors: the-worldly-conditions-that-test-balance, balanced-presence-is-not-numbness, care-without-reactivity, praise-blame-gain-and-loss, a-worldly-winds-review, the-quiet-strength-of-equanimity
+- Useful sections to retain: The Worldly Conditions That Test Balance, Balanced Presence Is Not Numbness, Care Without Reactivity
+- Related resources to preserve: compassion-in-buddhism-beginner-guide, impermanence-in-buddhism, three-ways-to-practice-patience
+
+### Rewrite Instructions
+
+- Introduction: Lightly revise for stronger article-specific promise.
+- Sections needing substantial rewriting: None
+- Sections needing tightening only: The Worldly Conditions That Test Balance, Balanced Presence Is Not Numbness, Care Without Reactivity, Praise, Blame, Gain, and Loss, A Worldly Winds Review, The Quiet Strength of Equanimity
+- Remove or vary repeated prose: None
+- Replace generic example with: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- New depth required: Add source-aware qualification and term clarity.
+- FAQ treatment: Keep useful FAQ structure; differentiate repeated questions by article role rather than deleting by default.
+- Conclusion: specific next practice and sibling/hub relationship
+- Length direction: Remain similar length or slightly shorter.
+
+### Unique Value Specification
+
+- Unique promise: Give buddhism for beginners a distinct reader outcome tied to this URL.
+- Unique angle: Educational explanation
+- Unique practical outcome: Reader can apply buddhism for beginners in one specific situation without needing another article first.
+- Unique example categories: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- Unique structure: Educational explanation
+- Unique source plan: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Hub/sibling relationship: Standalone or category-level relationship only.
+
+## The Five Precepts in Daily Life: A Beginner's Guide to Buddhist Ethics
+
+- URL: https://echobuddha.com/articles/five-precepts-in-daily-life/
+- Score: 83 (Medium)
+- Recommended scope: Light polish
+
+### Current-State Diagnosis
+
+- Strongest section: The Traditional List and Its Source
+- Weakest section: Source-aware support
+- Primary overlap problem: No major pairwise overlap
+- Structural-template risk: Low template evidence
+- Repeated/portable passages: None found at exact-match threshold
+- Generic examples: No excessive example count, but examples should stay role-specific.
+- Repeated FAQ items: None
+- Doctrinal/factual gaps: buddhism, buddhist, buddha, eightfold path, karma, compassion, right speech, sati
+- Sourcing gaps: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Wellbeing risks: sleep, anger, illness, treatment
+- Metadata issues: No duplicate title, meta description, or canonical found.
+
+### Preservation Instructions
+
+- Preserve URL, slug, category, schema behavior, and all existing href values.
+- Heading anchors: the-traditional-list-and-its-source, ethics-as-training-not-superiority, the-first-precept-protects-life, the-second-precept-protects-trust-around-possessions, the-third-precept-protects-consent-and-responsibility, the-fourth-precept-protects-speech, the-fifth-precept-protects-heedfulness, a-weekly-precept-reflection, living-the-precepts-without-weaponizing-them
+- Useful sections to retain: The Traditional List and Its Source, Ethics as Training, Not Superiority, The First Precept Protects Life
+- Related resources to preserve: right-speech-buddhism, what-is-karma-in-buddhism, noble-eightfold-path-practical-guide
+
+### Rewrite Instructions
+
+- Introduction: Lightly revise for stronger article-specific promise.
+- Sections needing substantial rewriting: None
+- Sections needing tightening only: The Traditional List and Its Source, Ethics as Training, Not Superiority, The First Precept Protects Life, The Second Precept Protects Trust Around Possessions, The Third Precept Protects Consent and Responsibility, The Fourth Precept Protects Speech, The Fifth Precept Protects Heedfulness, A Weekly Precept Reflection, Living the Precepts Without Weaponizing Them
+- Remove or vary repeated prose: None
+- Replace generic example with: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- New depth required: Add source-aware qualification and term clarity.
+- FAQ treatment: Keep useful FAQ structure; differentiate repeated questions by article role rather than deleting by default.
+- Conclusion: specific next practice and sibling/hub relationship
+- Length direction: Remain similar length or slightly shorter.
+
+### Unique Value Specification
+
+- Unique promise: Give practice a distinct reader outcome tied to this URL.
+- Unique angle: Informational explanation
+- Unique practical outcome: Reader can apply practice in one specific situation without needing another article first.
+- Unique example categories: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- Unique structure: Educational explanation
+- Unique source plan: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Hub/sibling relationship: Standalone or category-level relationship only.
+
+## Right Livelihood in Modern Life: Buddhist Work Ethics Without Perfectionism
+
+- URL: https://echobuddha.com/articles/right-livelihood-modern-life/
+- Score: 83 (Medium)
+- Recommended scope: Light polish
+
+### Current-State Diagnosis
+
+- Strongest section: Right Livelihood in the Eightfold Path
+- Weakest section: Source-aware support
+- Primary overlap problem: No major pairwise overlap
+- Structural-template risk: Low template evidence
+- Repeated/portable passages: None found at exact-match threshold
+- Generic examples: No excessive example count, but examples should stay role-specific.
+- Repeated FAQ items: None
+- Doctrinal/factual gaps: buddhism, buddhist, eightfold path, karma, right speech, sati
+- Sourcing gaps: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Wellbeing risks: None detected
+- Metadata issues: No duplicate title, meta description, or canonical found.
+
+### Preservation Instructions
+
+- Preserve URL, slug, category, schema behavior, and all existing href values.
+- Heading anchors: right-livelihood-in-the-eightfold-path, a-work-dilemma-the-hidden-problem, mixed-conditions-are-still-conditions, speech-sales-and-concealment, employers-workers-and-mutual-duties, money-as-a-practical-condition, a-right-livelihood-review, without-perfectionism-without-escape
+- Useful sections to retain: Right Livelihood in the Eightfold Path, A Work Dilemma: The Hidden Problem, Mixed Conditions Are Still Conditions
+- Related resources to preserve: eightfold-path-explained, right-speech-buddhism, what-is-karma-in-buddhism
+
+### Rewrite Instructions
+
+- Introduction: Lightly revise for stronger article-specific promise.
+- Sections needing substantial rewriting: None
+- Sections needing tightening only: Right Livelihood in the Eightfold Path, A Work Dilemma: The Hidden Problem, Mixed Conditions Are Still Conditions, Speech, Sales, and Concealment, Employers, Workers, and Mutual Duties, Money as a Practical Condition, A Right Livelihood Review, Without Perfectionism, Without Escape
+- Remove or vary repeated prose: None
+- Replace generic example with: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- New depth required: Add source-aware qualification and term clarity.
+- FAQ treatment: Keep useful FAQ structure; differentiate repeated questions by article role rather than deleting by default.
+- Conclusion: specific next practice and sibling/hub relationship
+- Length direction: Remain similar length or slightly shorter.
+
+### Unique Value Specification
+
+- Unique promise: Give noble eightfold path a distinct reader outcome tied to this URL.
+- Unique angle: Educational explanation
+- Unique practical outcome: Reader can apply noble eightfold path in one specific situation without needing another article first.
+- Unique example categories: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- Unique structure: Educational explanation
+- Unique source plan: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Hub/sibling relationship: Standalone or category-level relationship only.
+
+## What Is Sangha? Why Buddhist Community Matters for Beginners
+
+- URL: https://echobuddha.com/articles/what-is-sangha-buddhist-community/
+- Score: 83 (Medium)
+- Recommended scope: Light polish
+
+### Current-State Diagnosis
+
+- Strongest section: Admirable Friendship as a Source Anchor
+- Weakest section: Source-aware support
+- Primary overlap problem: No major pairwise overlap
+- Structural-template risk: Low template evidence
+- Repeated/portable passages: None found at exact-match threshold
+- Generic examples: No excessive example count, but examples should stay role-specific.
+- Repeated FAQ items: None
+- Doctrinal/factual gaps: buddhism, buddhist, buddha, eightfold path, compassion, mindfulness, dhamma
+- Sourcing gaps: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Wellbeing risks: grief
+- Metadata issues: No duplicate title, meta description, or canonical found.
+
+### Preservation Instructions
+
+- Preserve URL, slug, category, schema behavior, and all existing href values.
+- Heading anchors: admirable-friendship-as-a-source-anchor, the-traditional-sangha-and-broader-community-use, why-companionship-changes-practice, teachers-trust-and-judgement, online-sangha-and-its-limits, visiting-a-temple-or-center-respectfully, a-first-community-step
+- Useful sections to retain: Admirable Friendship as a Source Anchor, The Traditional Sangha and Broader Community Use, Why Companionship Changes Practice
+- Related resources to preserve: what-is-buddhism-beginner-guide, buddhism-for-beginners-simple-guide, mindful-listening-in-everyday-life
+
+### Rewrite Instructions
+
+- Introduction: Lightly revise for stronger article-specific promise.
+- Sections needing substantial rewriting: None
+- Sections needing tightening only: Admirable Friendship as a Source Anchor, The Traditional Sangha and Broader Community Use, Why Companionship Changes Practice, Teachers, Trust, and Judgement, Online Sangha and Its Limits, Visiting a Temple or Center Respectfully, A First Community Step
+- Remove or vary repeated prose: None
+- Replace generic example with: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- New depth required: Add source-aware qualification and term clarity.
+- FAQ treatment: Keep useful FAQ structure; differentiate repeated questions by article role rather than deleting by default.
+- Conclusion: specific next practice and sibling/hub relationship
+- Length direction: Remain similar length or slightly shorter.
+
+### Unique Value Specification
+
+- Unique promise: Give buddhism for beginners a distinct reader outcome tied to this URL.
+- Unique angle: Informational explanation
+- Unique practical outcome: Reader can apply buddhism for beginners in one specific situation without needing another article first.
+- Unique example categories: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- Unique structure: Educational explanation
+- Unique source plan: early Buddhist texts or reputable public-domain translations; responsible meditation institutions and tradition-specific teaching resources; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Hub/sibling relationship: Standalone or category-level relationship only.
+
+## Buddhist Gratitude Practice: Appreciating Life Without Clinging
+
+- URL: https://echobuddha.com/articles/buddhist-gratitude-practice/
+- Score: 83 (Medium)
+- Recommended scope: Light polish
+
+### Current-State Diagnosis
+
+- Strongest section: Gratitude, Contentment, and Source Grounding
+- Weakest section: Source-aware support
+- Primary overlap problem: No major pairwise overlap
+- Structural-template risk: Low template evidence
+- Repeated/portable passages: None found at exact-match threshold
+- Generic examples: No excessive example count, but examples should stay role-specific.
+- Repeated FAQ items: None
+- Doctrinal/factual gaps: buddhism, buddhist, buddha, impermanence, compassion, non-attachment, attachment
+- Sourcing gaps: early Buddhist texts or reputable public-domain translations; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Wellbeing risks: anger, grief, illness, treatment
+- Metadata issues: No duplicate title, meta description, or canonical found.
+
+### Preservation Instructions
+
+- Preserve URL, slug, category, schema behavior, and all existing href values.
+- Heading anchors: gratitude-contentment-and-source-grounding, contentment-without-complacency, appreciation-without-ownership, gratitude-toward-people-without-debt, difficult-days-and-honest-gratitude, a-three-line-evening-practice
+- Useful sections to retain: Gratitude, Contentment, and Source Grounding, Contentment Without Complacency, Appreciation Without Ownership
+- Related resources to preserve: impermanence-in-buddhism, how-to-practice-non-attachment, compassion-as-a-daily-discipline
+
+### Rewrite Instructions
+
+- Introduction: Lightly revise for stronger article-specific promise.
+- Sections needing substantial rewriting: None
+- Sections needing tightening only: Gratitude, Contentment, and Source Grounding, Contentment Without Complacency, Appreciation Without Ownership, Gratitude Toward People Without Debt, Difficult Days and Honest Gratitude, A Three-Line Evening Practice
+- Remove or vary repeated prose: None
+- Replace generic example with: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- New depth required: Add source-aware qualification and term clarity.
+- FAQ treatment: Keep useful FAQ structure; differentiate repeated questions by article role rather than deleting by default.
+- Conclusion: specific next practice and sibling/hub relationship
+- Length direction: Remain similar length or slightly shorter.
+
+### Unique Value Specification
+
+- Unique promise: Give non-attachment a distinct reader outcome tied to this URL.
+- Unique angle: Practical instruction
+- Unique practical outcome: Reader can apply non-attachment in one specific situation without needing another article first.
+- Unique example categories: one concrete situation unique to the article's role, avoiding generic phone/work-delay examples unless essential
+- Unique structure: Practice guide
+- Unique source plan: early Buddhist texts or reputable public-domain translations; established Buddhist institutions and dictionaries/encyclopaedias of Buddhism
+- Hub/sibling relationship: Standalone or category-level relationship only.
+
 ## What Is Buddhism? A Beginner-Friendly Guide
 
 - URL: https://echobuddha.com/articles/what-is-buddhism-beginner-guide/

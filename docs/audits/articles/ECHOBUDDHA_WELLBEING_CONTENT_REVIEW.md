@@ -2,6 +2,11 @@
 
 | URL | Terms | Educational? | Implies treatment? | Promises relief? | Existing note? | Targeted caution needed? | Placement | Recommendation |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| https://echobuddha.com/articles/three-poisons-buddhism-explained/ | overthinking, sleep, anger, treatment | No | Yes | No | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |
+| https://echobuddha.com/articles/equanimity-in-buddhism/ | anger, grief | Yes | No | Possible | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |
+| https://echobuddha.com/articles/five-precepts-in-daily-life/ | sleep, anger, illness, treatment | No | Yes | No | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |
+| https://echobuddha.com/articles/what-is-sangha-buddhist-community/ | grief | No | Yes | No | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |
+| https://echobuddha.com/articles/buddhist-gratitude-practice/ | anger, grief, illness, treatment | No | Yes | No | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |
 | https://echobuddha.com/articles/four-noble-truths-explained-simply/ | grief, illness | No | Yes | No | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |
 | https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/ | grief | Yes | No | No | No | Yes | Near the first practice instruction or before grief/anxiety/sleep application sections | Add article-specific boundary language in the later implementation pass; do not use identical boilerplate. |
 | https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/ | anger, healing | No | Yes | No | No | No | No new caution required beyond existing educational framing | No article-specific wellbeing boundary required based on current page promise. |

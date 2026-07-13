@@ -1,0 +1,188 @@
+{
+  "three-poisons-buddhism-explained": {
+    "outgoingContextualLinks": [
+      {
+        "href": "/articles/what-is-karma-in-buddhism/",
+        "anchorText": "karma as intention and action",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "anchorText": "letting go of attachment",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/buddhist-approach-to-anger/",
+        "anchorText": "the Buddhist approach to anger",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/buddhist-wisdom-for-overthinking/",
+        "anchorText": "Buddhist wisdom for overthinking",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/right-speech-buddhism/",
+        "anchorText": "Right Speech in Buddhism",
+        "routeValidation": "valid"
+      }
+    ],
+    "relatedSlugs": [
+      "what-is-karma-in-buddhism",
+      "buddhist-approach-to-anger",
+      "how-to-let-go-of-attachment-in-buddhism"
+    ],
+    "newToNewRelationships": [],
+    "routeValidation": "valid"
+  },
+  "equanimity-in-buddhism": {
+    "outgoingContextualLinks": [
+      {
+        "href": "/articles/compassion-in-buddhism-beginner-guide/",
+        "anchorText": "Compassion in Buddhism",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/compassion-as-a-daily-discipline/",
+        "anchorText": "compassion as a daily discipline",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/impermanence-in-buddhism/",
+        "anchorText": "impermanence in Buddhism",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/three-ways-to-practice-patience/",
+        "anchorText": "three ways to practice patience",
+        "routeValidation": "valid"
+      }
+    ],
+    "relatedSlugs": [
+      "compassion-in-buddhism-beginner-guide",
+      "impermanence-in-buddhism",
+      "three-ways-to-practice-patience"
+    ],
+    "newToNewRelationships": [],
+    "routeValidation": "valid"
+  },
+  "five-precepts-in-daily-life": {
+    "outgoingContextualLinks": [
+      {
+        "href": "/articles/what-is-karma-in-buddhism/",
+        "anchorText": "karma in Buddhism",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/noble-eightfold-path-practical-guide/",
+        "anchorText": "Noble Eightfold Path",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/right-speech-buddhism/",
+        "anchorText": "Right Speech in Buddhism",
+        "routeValidation": "valid"
+      }
+    ],
+    "relatedSlugs": [
+      "right-speech-buddhism",
+      "what-is-karma-in-buddhism",
+      "noble-eightfold-path-practical-guide"
+    ],
+    "newToNewRelationships": [],
+    "routeValidation": "valid"
+  },
+  "right-livelihood-modern-life": {
+    "outgoingContextualLinks": [
+      {
+        "href": "/articles/eightfold-path-explained/",
+        "anchorText": "Eightfold Path",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/right-speech-buddhism/",
+        "anchorText": "Right Speech",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/what-is-karma-in-buddhism/",
+        "anchorText": "karma",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/noble-eightfold-path-practical-guide/",
+        "anchorText": "A practical Eightfold Path review",
+        "routeValidation": "valid"
+      }
+    ],
+    "relatedSlugs": [
+      "eightfold-path-explained",
+      "right-speech-buddhism",
+      "what-is-karma-in-buddhism"
+    ],
+    "newToNewRelationships": [],
+    "routeValidation": "valid"
+  },
+  "what-is-sangha-buddhist-community": {
+    "outgoingContextualLinks": [
+      {
+        "href": "/articles/mindful-listening-in-everyday-life/",
+        "anchorText": "mindful listening",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/compassion-in-buddhism-beginner-guide/",
+        "anchorText": "compassion",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/buddhism-for-beginners-simple-guide/",
+        "anchorText": "A simple beginner guide to Buddhism",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/what-is-buddhism-beginner-guide/",
+        "anchorText": "What Is Buddhism?",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/eightfold-path-explained/",
+        "anchorText": "Eightfold Path explanation",
+        "routeValidation": "valid"
+      }
+    ],
+    "relatedSlugs": [
+      "what-is-buddhism-beginner-guide",
+      "buddhism-for-beginners-simple-guide",
+      "mindful-listening-in-everyday-life"
+    ],
+    "newToNewRelationships": [],
+    "routeValidation": "valid"
+  },
+  "buddhist-gratitude-practice": {
+    "outgoingContextualLinks": [
+      {
+        "href": "/articles/impermanence-in-buddhism/",
+        "anchorText": "Impermanence in Buddhism",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/how-to-practice-non-attachment/",
+        "anchorText": "how to practice non-attachment",
+        "routeValidation": "valid"
+      },
+      {
+        "href": "/articles/compassion-as-a-daily-discipline/",
+        "anchorText": "Compassion as a daily discipline",
+        "routeValidation": "valid"
+      }
+    ],
+    "relatedSlugs": [
+      "impermanence-in-buddhism",
+      "how-to-practice-non-attachment",
+      "compassion-as-a-daily-discipline"
+    ],
+    "newToNewRelationships": [],
+    "routeValidation": "valid"
+  }
+}

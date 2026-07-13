@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">A work path with balanced exchange</title>
+  <desc id="desc">A path moves through work tools and open hands toward a balanced exchange, representing Right Livelihood.</desc>
+  <rect width="1200" height="675" fill="#fff8ec"/>
+  <path d="M168 522c137-85 231-109 338-84 145 35 213-92 363-96 66-2 125 11 178 37" fill="none" stroke="#d7c49b" stroke-width="68" stroke-linecap="round"/>
+  <path d="M168 522c137-85 231-109 338-84 145 35 213-92 363-96 66-2 125 11 178 37" fill="none" stroke="#fffdf8" stroke-width="44" stroke-linecap="round"/>
+  <g fill="none" stroke="#4f463b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M290 365v-92h94v92"/>
+    <path d="M272 365h130"/>
+    <path d="M801 269h118v86H801z"/>
+    <path d="M830 269v-38h60v38"/>
+    <path d="M555 250l45-45 45 45"/>
+    <path d="M600 205v155"/>
+  </g>
+  <g fill="#6f8f69" opacity=".85">
+    <path d="M500 470c50-40 102-39 150 0-32 54-118 54-150 0z"/>
+    <path d="M650 470c50-40 102-39 150 0-32 54-118 54-150 0z"/>
+  </g>
+  <circle cx="600" cy="416" r="42" fill="#b98524"/>
+  <text x="600" y="590" fill="#3f3026" font-family="Georgia, serif" font-size="34" font-weight="700" text-anchor="middle">Work with responsibility</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">A respectful community circle around shared light</title>
+  <desc id="desc">Varied figures form a circle around a shared lamp, representing Sangha and wise companionship.</desc>
+  <rect width="1200" height="675" fill="#fbf6ea"/>
+  <circle cx="600" cy="338" r="232" fill="#eef3df"/>
+  <circle cx="600" cy="338" r="130" fill="#fffdf8"/>
+  <g fill="#6f8f69">
+    <circle cx="600" cy="190" r="38"/>
+    <circle cx="738" cy="268" r="38"/>
+    <circle cx="738" cy="426" r="38"/>
+    <circle cx="600" cy="500" r="38"/>
+    <circle cx="462" cy="426" r="38"/>
+    <circle cx="462" cy="268" r="38"/>
+  </g>
+  <g fill="#8f6d4f" opacity=".9">
+    <path d="M550 250h100l-50 84z"/>
+    <path d="M688 328h100l-50 84z"/>
+    <path d="M688 486h100l-50 84z"/>
+    <path d="M550 560h100l-50 84z"/>
+    <path d="M412 486h100l-50 84z"/>
+    <path d="M412 328h100l-50 84z"/>
+  </g>
+  <path d="M566 382h68l-17-102h-34z" fill="#b98524"/>
+  <path d="M600 238c28 32 43 63 43 92 0 27-18 49-43 49s-43-22-43-49c0-29 15-60 43-92z" fill="#f4d27e"/>
+  <circle cx="600" cy="338" r="96" fill="none" stroke="#d7b86a" stroke-width="10"/>
+  <text x="600" y="614" fill="#3f3026" font-family="Georgia, serif" font-size="34" font-weight="700" text-anchor="middle">Wise companionship</text>
+</svg>

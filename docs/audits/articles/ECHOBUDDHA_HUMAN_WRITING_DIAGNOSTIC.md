@@ -8,6 +8,12 @@ This diagnostic measures body prose separately from shared renderer content. It 
 
 | URL | Words | Sentences | Avg sentence | Paragraphs | Intro words | Conclusion words | Repeated transitions | Template-risk classification |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| https://echobuddha.com/articles/three-poisons-buddhism-explained/ | 1600 | 122 | 11.738 | 23 | 189 | 0 | Notice: 1 | Low template evidence |
+| https://echobuddha.com/articles/equanimity-in-buddhism/ | 1407 | 99 | 12.818 | 23 | 146 | 0 | Notice: 2 | Low template evidence |
+| https://echobuddha.com/articles/five-precepts-in-daily-life/ | 1707 | 114 | 13.474 | 31 | 158 | 0 | Notice: 2<br>In daily life: 1<br>Begin by: 1 | Low template evidence |
+| https://echobuddha.com/articles/right-livelihood-modern-life/ | 1700 | 109 | 13.89 | 30 | 153 | 0 | None | Low template evidence |
+| https://echobuddha.com/articles/what-is-sangha-buddhist-community/ | 1500 | 88 | 15.114 | 28 | 151 | 0 | Notice: 3<br>You do not need to: 1 | Low template evidence |
+| https://echobuddha.com/articles/buddhist-gratitude-practice/ | 1300 | 91 | 13 | 26 | 134 | 0 | Notice: 3<br>At the end of the day: 1 | Low template evidence |
 | https://echobuddha.com/articles/what-is-buddhism-beginner-guide/ | 1158 | 73 | 13.274 | 20 | 105 | 0 | Notice: 6<br>This does not mean: 1<br>For beginners: 3 | Moderate template evidence |
 | https://echobuddha.com/articles/four-noble-truths-explained-simply/ | 1073 | 65 | 13.6 | 20 | 79 | 0 | Notice: 4<br>This does not mean: 1<br>At the end of the day: 1 | Low template evidence |
 | https://echobuddha.com/articles/noble-eightfold-path-practical-guide/ | 938 | 53 | 13.774 | 22 | 70 | 0 | Notice: 6 | Low template evidence |

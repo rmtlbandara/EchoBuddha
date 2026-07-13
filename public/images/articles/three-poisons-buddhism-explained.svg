@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Three intertwined roots beneath a clearing leaf</title>
+  <desc id="desc">An editorial illustration of greed, aversion, and delusion as three roots beneath a leaf opening into clear space.</desc>
+  <rect width="1200" height="675" fill="#fbf6ea"/>
+  <circle cx="600" cy="292" r="184" fill="#eef3df"/>
+  <circle cx="600" cy="292" r="116" fill="#fffdf8"/>
+  <path d="M600 168c86 36 132 100 137 192-91-4-155-48-192-132 18-26 36-45 55-60z" fill="#6f8f69"/>
+  <path d="M600 168c-86 36-132 100-137 192 91-4 155-48 192-132-18-26-36-45-55-60z" fill="#9ab37f"/>
+  <path d="M600 250c-16 73-16 143 0 210" fill="none" stroke="#5a6f4f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 456c-74 14-140 50-194 109" fill="none" stroke="#9d6a37" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 456c74 14 140 50 194 109" fill="none" stroke="#a24f44" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 456c-18 58-18 103 0 135" fill="none" stroke="#6f6659" stroke-width="18" stroke-linecap="round"/>
+  <path d="M406 565c46-42 86-66 120-72" fill="none" stroke="#c69a53" stroke-width="8" stroke-linecap="round"/>
+  <path d="M794 565c-46-42-86-66-120-72" fill="none" stroke="#c77a6c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M600 591c-10-41-10-72 0-94" fill="none" stroke="#9b9587" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#3f3026" font-family="Georgia, serif" font-size="34" font-weight="700" text-anchor="middle">
+    <text x="350" y="585">Greed</text>
+    <text x="850" y="585">Aversion</text>
+    <text x="600" y="628">Delusion</text>
+  </g>
+</svg>

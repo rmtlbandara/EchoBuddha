@@ -1,0 +1,2849 @@
+{
+  "createdAt": "2026-07-13T16:14:47.277Z",
+  "phase": "six-new-articles-pre-implementation",
+  "expectedFinalArticleCount": 42,
+  "originalArticleCount": 36,
+  "originalSlugs": [
+    "what-is-buddhism-beginner-guide",
+    "four-noble-truths-explained-simply",
+    "noble-eightfold-path-practical-guide",
+    "impermanence-in-buddhism-letting-go",
+    "compassion-in-buddhism-beginner-guide",
+    "how-to-meditate-for-beginners",
+    "mindfulness-of-breathing-guide",
+    "loving-kindness-meditation-guide",
+    "dhammapada-reflection-what-we-think",
+    "dhammapada-reflection-trained-mind",
+    "eightfold-path-explained",
+    "how-to-let-go-of-attachment-in-buddhism",
+    "right-speech-buddhism",
+    "buddhist-wisdom-for-overthinking",
+    "impermanence-in-buddhism",
+    "what-is-karma-in-buddhism",
+    "four-noble-truths-explained",
+    "mindfulness-vs-meditation",
+    "buddhist-teachings-on-forgiveness",
+    "metta-meditation-script",
+    "buddhism-for-beginners-simple-guide",
+    "how-to-meditate-for-anxiety",
+    "loving-kindness-meditation-beginners",
+    "eightfold-path-explained-daily-life",
+    "mindfulness-morning-routine",
+    "buddhist-teachings-on-impermanence",
+    "walking-meditation-step-by-step",
+    "buddhist-approach-to-anger",
+    "mindfulness-for-better-sleep",
+    "how-to-practice-non-attachment",
+    "beginning-a-daily-mindfulness-practice",
+    "compassion-as-a-daily-discipline",
+    "letting-go-without-giving-up",
+    "three-ways-to-practice-patience",
+    "mindful-listening-in-everyday-life",
+    "creating-a-peaceful-corner-at-home"
+  ],
+  "categoryCounts": {
+    "Buddhist Wisdom": 14,
+    "Meditation": 9,
+    "Mindfulness": 5,
+    "Reflection": 6,
+    "Practice": 2
+  },
+  "sitemapArticleCount": 36,
+  "searchIndexArticleCount": 36,
+  "canonicalAuditSummary": {
+    "articlesAudited": 36,
+    "previousAuditArtifactsInspected": 9,
+    "inconsistenciesFoundAndResolved": 4,
+    "finalExactDuplicateSentenceGroupCount": 0,
+    "finalExactDuplicateParagraphGroupCount": 0,
+    "finalNearDuplicatePairCount": 12,
+    "finalHighOverlapPairCount": 0,
+    "highOverlapClusterCount": 0,
+    "tenHighestRiskPairs": [
+      {
+        "articleA": "impermanence-in-buddhism",
+        "articleB": "impermanence-in-buddhism-letting-go",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.315,
+        "introductionSimilarity": 0.339,
+        "headingSequenceSimilarity": 0.097,
+        "faqSimilarity": 0.332,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "four-noble-truths-explained",
+        "articleB": "four-noble-truths-explained-simply",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.314,
+        "introductionSimilarity": 0.28,
+        "headingSequenceSimilarity": 0.205,
+        "faqSimilarity": 0.167,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "eightfold-path-explained",
+        "articleB": "eightfold-path-explained-daily-life",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.304,
+        "introductionSimilarity": 0.303,
+        "headingSequenceSimilarity": 0.158,
+        "faqSimilarity": 0.288,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "compassion-as-a-daily-discipline",
+        "articleB": "compassion-in-buddhism-beginner-guide",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.295,
+        "introductionSimilarity": 0.206,
+        "headingSequenceSimilarity": 0.07,
+        "faqSimilarity": 0.362,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "loving-kindness-meditation-beginners",
+        "articleB": "loving-kindness-meditation-guide",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.292,
+        "introductionSimilarity": 0.214,
+        "headingSequenceSimilarity": 0.107,
+        "faqSimilarity": 0.233,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "buddhist-teachings-on-impermanence",
+        "articleB": "impermanence-in-buddhism",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.292,
+        "introductionSimilarity": 0.256,
+        "headingSequenceSimilarity": 0.09,
+        "faqSimilarity": 0.177,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "buddhist-teachings-on-impermanence",
+        "articleB": "impermanence-in-buddhism-letting-go",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.285,
+        "introductionSimilarity": 0.219,
+        "headingSequenceSimilarity": 0.085,
+        "faqSimilarity": 0.423,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "loving-kindness-meditation-beginners",
+        "articleB": "metta-meditation-script",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.28,
+        "introductionSimilarity": 0.131,
+        "headingSequenceSimilarity": 0.094,
+        "faqSimilarity": 0.306,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "loving-kindness-meditation-guide",
+        "articleB": "metta-meditation-script",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.273,
+        "introductionSimilarity": 0.161,
+        "headingSequenceSimilarity": 0.094,
+        "faqSimilarity": 0.276,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      },
+      {
+        "articleA": "how-to-practice-non-attachment",
+        "articleB": "letting-go-without-giving-up",
+        "editorialOverlap": "Medium",
+        "overallBodySimilarity": 0.271,
+        "introductionSimilarity": 0.132,
+        "headingSequenceSimilarity": 0.237,
+        "faqSimilarity": 0.208,
+        "exactDuplicatedSentenceCount": 0,
+        "nearDuplicatedParagraphCount": 0
+      }
+    ],
+    "substantialRewriteCount": 0,
+    "targetedRewriteCount": 9,
+    "lightPolishOrNoChangeCount": 27,
+    "sourceAwareReviewCount": 36,
+    "wellbeingReviewCount": 7,
+    "readinessVerdict": "Ready for a controlled implementation pass only after Batch 1 role decisions are approved; not ready for mass rewrite, URL consolidation, or AdSense-readiness claims.",
+    "recommendedFirstImplementationBatch": "Batch 1: Noble Eightfold Path, Four Noble Truths, Beginner Buddhism, and Impermanence."
+  },
+  "exactDuplication": {
+    "exactDuplicatedSentenceGroups": [],
+    "exactDuplicatedParagraphGroups": [],
+    "exactDuplicatedSentenceGroupCount": 0,
+    "exactDuplicatedParagraphGroupCount": 0
+  },
+  "highOverlapPairCount": 0,
+  "articles": {
+    "what-is-buddhism-beginner-guide": {
+      "slug": "what-is-buddhism-beginner-guide",
+      "url": "/articles/what-is-buddhism-beginner-guide/",
+      "title": "What Is Buddhism? A Beginner-Friendly Guide",
+      "seoTitle": "What Is Buddhism? Beginner Guide to Buddhist Wisdom",
+      "description": "A clear beginner guide to Buddhism, the Buddha's teaching, mindful living, compassion, and the path toward a steadier mind.",
+      "h1": "What Is Buddhism? A Beginner-Friendly Guide",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/what-is-buddhism-beginner-guide.webp",
+      "imageAlt": "Minimal path, lotus, and warm sun illustration for a beginner guide to Buddhism",
+      "tags": [
+        "Buddhism for beginners",
+        "Buddhist wisdom",
+        "mindful living"
+      ],
+      "relatedSlugs": [
+        "buddhism-for-beginners-simple-guide",
+        "four-noble-truths-explained-simply",
+        "noble-eightfold-path-practical-guide"
+      ],
+      "headingIds": [
+        "the-meaning-of-buddhism",
+        "the-main-concern-suffering-and-freedom",
+        "meditation-is-part-of-the-path-not-the-whole-path",
+        "a-simple-daily-example",
+        "common-misunderstandings",
+        "practice-exercise-three-gentle-pauses",
+        "related-terms-for-beginners",
+        "how-buddhism-helps-with-modern-stress",
+        "a-respectful-way-to-keep-learning"
+      ],
+      "hrefs": [
+        "/articles/buddhism-for-beginners-simple-guide/",
+        "/articles/four-noble-truths-explained-simply/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/buddhism-for-beginners-simple-guide/",
+        "/articles/four-noble-truths-explained-simply/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/noble-eightfold-path-practical-guide/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-for-beginners/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-for-beginners/"
+      ],
+      "relatedReferences": [
+        "buddhism-for-beginners-simple-guide",
+        "four-noble-truths-explained-simply",
+        "noble-eightfold-path-practical-guide"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "four-noble-truths-explained-simply": {
+      "slug": "four-noble-truths-explained-simply",
+      "url": "/articles/four-noble-truths-explained-simply/",
+      "title": "The Four Noble Truths Explained Simply",
+      "seoTitle": "Four Noble Truths Explained Simply for Beginners",
+      "description": "A simple explanation of the Four Noble Truths with daily examples, reflection prompts, and practical Buddhist wisdom.",
+      "h1": "The Four Noble Truths Explained Simply",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/four-noble-truths-explained-simply.webp",
+      "imageAlt": "Four calm stepping stones leading toward a sunrise to represent the Four Noble Truths",
+      "tags": [
+        "Four Noble Truths",
+        "Buddhist teachings",
+        "suffering"
+      ],
+      "relatedSlugs": [
+        "what-is-buddhism-beginner-guide",
+        "noble-eightfold-path-practical-guide",
+        "how-to-let-go-of-attachment-in-buddhism"
+      ],
+      "headingIds": [
+        "first-noble-truth-life-includes-dukkha",
+        "second-noble-truth-craving-and-clinging-add-fuel",
+        "third-noble-truth-letting-go-is-possible",
+        "fourth-noble-truth-there-is-a-path",
+        "a-daily-life-example",
+        "common-misunderstandings",
+        "practice-exercise-name-the-pattern",
+        "how-the-four-truths-work-together",
+        "reflection-questions-for-practice"
+      ],
+      "hrefs": [
+        "/articles/noble-eightfold-path-practical-guide/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/noble-eightfold-path-practical-guide/",
+        "/articles/what-is-buddhism-beginner-guide/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/four-noble-truths-explained/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/four-noble-truths/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/four-noble-truths/"
+      ],
+      "relatedReferences": [
+        "what-is-buddhism-beginner-guide",
+        "noble-eightfold-path-practical-guide",
+        "how-to-let-go-of-attachment-in-buddhism"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "noble-eightfold-path-practical-guide": {
+      "slug": "noble-eightfold-path-practical-guide",
+      "url": "/articles/noble-eightfold-path-practical-guide/",
+      "title": "The Noble Eightfold Path: A Practical Guide for Daily Life",
+      "seoTitle": "Noble Eightfold Path Practical Guide for Daily Life",
+      "description": "Learn how the Noble Eightfold Path can guide speech, action, mindfulness, meditation, and everyday choices with clarity.",
+      "h1": "The Noble Eightfold Path: A Practical Guide for Daily Life",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/noble-eightfold-path-practical-guide.webp",
+      "imageAlt": "Eight simple golden path markers arranged in a calm circular path",
+      "tags": [
+        "Eightfold Path",
+        "Buddhist practice",
+        "daily life"
+      ],
+      "relatedSlugs": [
+        "four-noble-truths-explained-simply",
+        "right-speech-buddhism",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "headingIds": [
+        "right-view-seeing-more-clearly",
+        "right-intention-the-direction-of-the-heart",
+        "right-speech-and-right-action",
+        "right-livelihood-and-right-effort",
+        "right-mindfulness-and-right-concentration",
+        "common-misunderstandings",
+        "practice-exercise-one-factor-a-day",
+        "a-week-with-the-eightfold-path",
+        "when-the-path-feels-overwhelming",
+        "how-to-review-your-practice"
+      ],
+      "hrefs": [
+        "/articles/right-speech-buddhism/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/right-speech-buddhism/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/four-noble-truths-explained-simply/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/eightfold-path-explained/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/eightfold-path/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/eightfold-path/"
+      ],
+      "relatedReferences": [
+        "four-noble-truths-explained-simply",
+        "right-speech-buddhism",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "impermanence-in-buddhism-letting-go": {
+      "slug": "impermanence-in-buddhism-letting-go",
+      "url": "/articles/impermanence-in-buddhism-letting-go/",
+      "title": "Impermanence in Buddhism: Learning to Let Go Gently",
+      "seoTitle": "Impermanence in Buddhism and How to Let Go Gently",
+      "description": "Understand impermanence in Buddhism with gentle examples, common misunderstandings, and a practical reflection exercise.",
+      "h1": "Impermanence in Buddhism: Learning to Let Go Gently",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/impermanence-in-buddhism-letting-go.webp",
+      "imageAlt": "Falling leaves beside a quiet bowl representing impermanence and gentle letting go",
+      "tags": [
+        "impermanence",
+        "letting go",
+        "Buddhist wisdom"
+      ],
+      "relatedSlugs": [
+        "buddhist-teachings-on-impermanence",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up"
+      ],
+      "headingIds": [
+        "what-impermanence-means",
+        "why-change-feels-threatening",
+        "letting-go-is-not-rejection",
+        "a-daily-life-example",
+        "common-misunderstandings",
+        "practice-exercise-watch-one-change",
+        "related-terms",
+        "impermanence-in-relationships",
+        "a-further-reflection-on-possessions-and-identity",
+        "using-impermanence-without-becoming-detached-from-life"
+      ],
+      "hrefs": [
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/impermanence-in-buddhism/",
+        "/articles/how-to-practice-non-attachment/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-101/what-is-impermanence/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-101/what-is-impermanence/"
+      ],
+      "relatedReferences": [
+        "buddhist-teachings-on-impermanence",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "compassion-in-buddhism-beginner-guide": {
+      "slug": "compassion-in-buddhism-beginner-guide",
+      "url": "/articles/compassion-in-buddhism-beginner-guide/",
+      "title": "Compassion in Buddhism: A Beginner's Guide",
+      "seoTitle": "Compassion in Buddhism: Beginner Guide and Daily Practice",
+      "description": "Learn what compassion means in Buddhism, how it differs from pity, and how to practice it in daily life.",
+      "h1": "Compassion in Buddhism: A Beginner's Guide",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/compassion-in-buddhism-beginner-guide.webp",
+      "imageAlt": "Two simple hands holding a small lotus to symbolize compassion in Buddhism",
+      "tags": [
+        "compassion",
+        "karuna",
+        "Buddhist practice"
+      ],
+      "relatedSlugs": [
+        "compassion-as-a-daily-discipline",
+        "loving-kindness-meditation-guide",
+        "buddhist-teachings-on-forgiveness"
+      ],
+      "headingIds": [
+        "what-compassion-means",
+        "compassion-begins-with-seeing",
+        "self-compassion-is-not-self-indulgence",
+        "compassion-in-difficult-conversations",
+        "common-misunderstandings",
+        "practice-exercise-one-compassionate-wish",
+        "original-reflection",
+        "compassion-with-boundaries",
+        "compassion-for-difficult-people",
+        "compassion-as-a-daily-discipline"
+      ],
+      "hrefs": [
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/right-speech-buddhism/",
+        "/articles/loving-kindness-meditation-guide/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/right-speech-buddhism/",
+        "/articles/loving-kindness-meditation-guide/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/"
+      ],
+      "relatedReferences": [
+        "compassion-as-a-daily-discipline",
+        "loving-kindness-meditation-guide",
+        "buddhist-teachings-on-forgiveness"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "how-to-meditate-for-beginners": {
+      "slug": "how-to-meditate-for-beginners",
+      "url": "/articles/how-to-meditate-for-beginners/",
+      "title": "How to Meditate for Beginners: A Simple Buddhist Guide",
+      "seoTitle": "How to Meditate for Beginners: Simple Buddhist Guide",
+      "description": "A calm beginner meditation guide with posture tips, breath practice, common obstacles, and a simple daily routine.",
+      "h1": "How to Meditate for Beginners: A Simple Buddhist Guide",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/how-to-meditate-for-beginners.webp",
+      "imageAlt": "Simple meditation cushion under a soft sun for a beginner meditation guide",
+      "tags": [
+        "meditation for beginners",
+        "Buddhist meditation",
+        "mindfulness"
+      ],
+      "relatedSlugs": [
+        "mindfulness-of-breathing-guide",
+        "beginning-a-daily-mindfulness-practice",
+        "how-to-meditate-for-anxiety"
+      ],
+      "headingIds": [
+        "choose-a-simple-place-and-time",
+        "find-a-stable-posture",
+        "use-the-breath-as-an-anchor",
+        "what-to-do-with-thoughts",
+        "common-beginner-obstacles",
+        "practice-exercise-five-minutes-of-returning",
+        "original-reflection",
+        "building-a-habit-that-lasts",
+        "how-to-end-a-meditation-session",
+        "a-simple-seven-day-beginner-plan"
+      ],
+      "hrefs": [
+        "/articles/mindfulness-of-breathing-guide/",
+        "/meditation-guide/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "mindfulness-of-breathing-guide",
+        "beginning-a-daily-mindfulness-practice",
+        "how-to-meditate-for-anxiety"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "mindfulness-of-breathing-guide": {
+      "slug": "mindfulness-of-breathing-guide",
+      "url": "/articles/mindfulness-of-breathing-guide/",
+      "title": "Mindfulness of Breathing: A Step-by-Step Guide",
+      "seoTitle": "Mindfulness of Breathing Guide for Calm and Clarity",
+      "description": "A step-by-step mindfulness of breathing guide for beginners, including posture, attention, obstacles, and daily practice.",
+      "h1": "Mindfulness of Breathing: A Step-by-Step Guide",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/mindfulness-of-breathing-guide.webp",
+      "imageAlt": "Soft flowing breath lines above a meditation cushion in a calm illustration",
+      "tags": [
+        "mindfulness of breathing",
+        "anapanasati",
+        "meditation"
+      ],
+      "relatedSlugs": [
+        "how-to-meditate-for-beginners",
+        "mindfulness-vs-meditation",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "headingIds": [
+        "begin-with-the-body",
+        "find-the-breath",
+        "use-counting-if-helpful",
+        "notice-the-whole-cycle",
+        "common-misunderstandings",
+        "practice-exercise-ten-breath-windows",
+        "related-terms-and-reflection",
+        "using-the-breath-outside-meditation",
+        "when-the-breath-feels-uncomfortable",
+        "from-calm-to-insight"
+      ],
+      "hrefs": [
+        "/articles/how-to-meditate-for-beginners/",
+        "/quotes/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "how-to-meditate-for-beginners",
+        "mindfulness-vs-meditation",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "loving-kindness-meditation-guide": {
+      "slug": "loving-kindness-meditation-guide",
+      "url": "/articles/loving-kindness-meditation-guide/",
+      "title": "Loving-Kindness Meditation: A Gentle Practice Guide",
+      "seoTitle": "Loving-Kindness Meditation Guide for Beginners",
+      "description": "A beginner-friendly loving-kindness meditation guide with phrases, stages, examples, and common misunderstandings.",
+      "h1": "Loving-Kindness Meditation: A Gentle Practice Guide",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/loving-kindness-meditation-guide.webp",
+      "imageAlt": "Soft heart-shaped lotus glow representing loving-kindness meditation",
+      "tags": [
+        "loving-kindness meditation",
+        "metta",
+        "compassion"
+      ],
+      "relatedSlugs": [
+        "metta-meditation-script",
+        "compassion-in-buddhism-beginner-guide",
+        "compassion-as-a-daily-discipline"
+      ],
+      "headingIds": [
+        "what-loving-kindness-means",
+        "choose-simple-phrases",
+        "begin-with-yourself",
+        "expand-the-circle",
+        "common-misunderstandings",
+        "practice-exercise-five-minute-metta",
+        "original-reflection",
+        "choosing-the-right-person-to-begin-with",
+        "bringing-metta-into-daily-speech",
+        "when-loving-kindness-meets-grief-or-anger"
+      ],
+      "hrefs": [
+        "/articles/compassion-in-buddhism-beginner-guide/",
+        "/articles/metta-meditation-script/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/compassion-in-buddhism-beginner-guide/",
+        "/articles/metta-meditation-script/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/loving-kindness-meditation/"
+      ],
+      "relatedReferences": [
+        "metta-meditation-script",
+        "compassion-in-buddhism-beginner-guide",
+        "compassion-as-a-daily-discipline"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "dhammapada-reflection-what-we-think": {
+      "slug": "dhammapada-reflection-what-we-think",
+      "url": "/articles/dhammapada-reflection-what-we-think/",
+      "title": "Dhammapada Reflection: What We Think, We Become",
+      "seoTitle": "Dhammapada Reflection on Thought, Intention, and Mind",
+      "description": "An original reflection inspired by broad Dhammapada themes on thought, intention, karma, and the shaping of the mind.",
+      "h1": "Dhammapada Reflection: What We Think, We Become",
+      "category": "Reflection",
+      "canonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/dhammapada-reflection-what-we-think.webp",
+      "imageAlt": "Quiet mind ripple and lotus illustration inspired by Dhammapada reflections on thought",
+      "tags": [
+        "Dhammapada reflection",
+        "Buddhist quotes",
+        "mind training"
+      ],
+      "relatedSlugs": [
+        "dhammapada-reflection-trained-mind",
+        "what-is-karma-in-buddhism",
+        "buddhist-wisdom-for-overthinking"
+      ],
+      "headingIds": [
+        "the-mind-as-a-starting-point",
+        "thought-is-not-the-same-as-truth",
+        "intention-shapes-karma",
+        "a-daily-life-example",
+        "common-misunderstandings",
+        "practice-exercise-track-one-thought",
+        "original-reflection-and-source-note",
+        "a-careful-note-about-thought-and-responsibility",
+        "a-practice-for-planting-better-seeds",
+        "how-this-reflection-supports-daily-choices"
+      ],
+      "hrefs": [
+        "/articles/buddhist-wisdom-for-overthinking/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/quotes/",
+        "/articles/",
+        "/articles/category/reflection/",
+        "/articles/buddhist-wisdom-for-overthinking/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/articles/dhammapada-reflection-trained-mind/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/learn/dhammapada-reflections/",
+        "/quotes/",
+        "/quotes/letting-go/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/learn/dhammapada-reflections/"
+      ],
+      "relatedReferences": [
+        "dhammapada-reflection-trained-mind",
+        "what-is-karma-in-buddhism",
+        "buddhist-wisdom-for-overthinking"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "dhammapada-reflection-trained-mind": {
+      "slug": "dhammapada-reflection-trained-mind",
+      "url": "/articles/dhammapada-reflection-trained-mind/",
+      "title": "Dhammapada Reflection: A Trained Mind Brings Peace",
+      "seoTitle": "Dhammapada Reflection on a Trained Mind and Peace",
+      "description": "An original Dhammapada-inspired reflection on training the mind, patience, attention, and inner peace in daily life.",
+      "h1": "Dhammapada Reflection: A Trained Mind Brings Peace",
+      "category": "Reflection",
+      "canonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "publicationDate": "2026-07-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/dhammapada-reflection-trained-mind.webp",
+      "imageAlt": "Calm lamp and lotus illustration for a Dhammapada-inspired reflection on training the mind",
+      "tags": [
+        "Dhammapada reflection",
+        "trained mind",
+        "inner peace"
+      ],
+      "relatedSlugs": [
+        "dhammapada-reflection-what-we-think",
+        "mindfulness-of-breathing-guide",
+        "how-to-meditate-for-beginners"
+      ],
+      "headingIds": [
+        "what-it-means-to-train-the-mind",
+        "peace-is-not-passivity",
+        "the-training-happens-in-small-moments",
+        "common-misunderstandings",
+        "a-daily-life-example",
+        "practice-exercise-return-three-times",
+        "original-reflection-and-source-note",
+        "training-without-harshness",
+        "signs-the-mind-is-becoming-more-trainable",
+        "a-gentle-evening-review"
+      ],
+      "hrefs": [
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/quotes/",
+        "/articles/",
+        "/articles/category/reflection/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/dhammapada-reflection-what-we-think/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/learn/dhammapada-reflections/",
+        "/quotes/",
+        "/quotes/letting-go/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/learn/dhammapada-reflections/"
+      ],
+      "relatedReferences": [
+        "dhammapada-reflection-what-we-think",
+        "mindfulness-of-breathing-guide",
+        "how-to-meditate-for-beginners"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "eightfold-path-explained": {
+      "slug": "eightfold-path-explained",
+      "url": "/articles/eightfold-path-explained/",
+      "title": "The Noble Eightfold Path Explained for Beginners",
+      "seoTitle": "The Noble Eightfold Path Explained for Beginners",
+      "description": "A simple beginner-friendly guide to the Noble Eightfold Path, explaining right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+      "h1": "The Noble Eightfold Path Explained for Beginners",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "publicationDate": "2026-06-26",
+      "reviewedDate": "2026-06-26",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/eightfold-path-explained.webp",
+      "imageAlt": "A calm wheel divided into wisdom, ethical conduct, and mental discipline for the Noble Eightfold Path",
+      "tags": [
+        "eightfold path explained",
+        "Noble Eightfold Path",
+        "Buddhism for beginners",
+        "Right Speech",
+        "Buddhist practice"
+      ],
+      "relatedSlugs": [
+        "buddhism-for-beginners-simple-guide",
+        "right-speech-buddhism",
+        "what-is-karma-in-buddhism"
+      ],
+      "headingIds": [
+        "eightfold-path-explained-in-simple-language",
+        "right-view-and-right-intention",
+        "right-speech-action-and-livelihood",
+        "right-effort-mindfulness-and-concentration",
+        "noble-eightfold-path-framework",
+        "common-misunderstandings-about-the-eightfold-path",
+        "how-to-practice-this-in-daily-life",
+        "a-gentle-reflection-on-the-path"
+      ],
+      "hrefs": [
+        "/articles/buddhism-for-beginners-simple-guide/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/articles/right-speech-buddhism/",
+        "/meditation-guide/",
+        "/quotes/wisdom/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/buddhism-for-beginners-simple-guide/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/articles/right-speech-buddhism/",
+        "/articles/noble-eightfold-path-practical-guide/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/eightfold-path/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/eightfold-path/"
+      ],
+      "relatedReferences": [
+        "buddhism-for-beginners-simple-guide",
+        "right-speech-buddhism",
+        "what-is-karma-in-buddhism"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "how-to-let-go-of-attachment-in-buddhism": {
+      "slug": "how-to-let-go-of-attachment-in-buddhism",
+      "url": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "title": "How to Let Go of Attachment in Buddhism",
+      "seoTitle": "How to Let Go of Attachment in Buddhism",
+      "description": "Learn what attachment means in Buddhism, why clinging creates suffering, and how to practice letting go with mindfulness, patience, and compassion.",
+      "h1": "How to Let Go of Attachment in Buddhism",
+      "category": "Reflection",
+      "canonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "publicationDate": "2026-06-26",
+      "reviewedDate": "2026-06-26",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/how-to-let-go-of-attachment-in-buddhism.webp",
+      "imageAlt": "An open hand releasing a small leaf, symbolizing letting go of attachment with care",
+      "tags": [
+        "buddhist attachment",
+        "how to let go of attachment",
+        "letting go",
+        "non-attachment",
+        "mindfulness"
+      ],
+      "relatedSlugs": [
+        "how-to-practice-non-attachment",
+        "letting-go-without-giving-up",
+        "impermanence-in-buddhism"
+      ],
+      "headingIds": [
+        "what-buddhist-attachment-means",
+        "why-clinging-creates-suffering",
+        "attachment-to-letting-go",
+        "letting-go-is-not-giving-up",
+        "common-misunderstandings-about-buddhist-attachment",
+        "how-to-practice-this-in-daily-life",
+        "patience-compassion-and-impermanence",
+        "a-gentle-reflection-on-letting-go"
+      ],
+      "hrefs": [
+        "/articles/four-noble-truths-explained/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/how-to-practice-non-attachment/",
+        "/quotes/impermanence/",
+        "/articles/",
+        "/articles/category/reflection/",
+        "/articles/four-noble-truths-explained/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/how-to-practice-non-attachment/",
+        "/articles/impermanence-in-buddhism/",
+        "/articles/impermanence-in-buddhism-letting-go/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/quotes/impermanence/",
+        "/quotes/letting-go/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/"
+      ],
+      "relatedReferences": [
+        "how-to-practice-non-attachment",
+        "letting-go-without-giving-up",
+        "impermanence-in-buddhism"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "right-speech-buddhism": {
+      "slug": "right-speech-buddhism",
+      "url": "/articles/right-speech-buddhism/",
+      "title": "Right Speech in Buddhism: How to Speak with Kindness and Awareness",
+      "seoTitle": "Right Speech in Buddhism: Speak with Kindness",
+      "description": "A practical guide to Right Speech in Buddhism, including mindful communication, honesty, kindness, silence, listening, and daily examples.",
+      "h1": "Right Speech in Buddhism: How to Speak with Kindness and Awareness",
+      "category": "Practice",
+      "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "publicationDate": "2026-06-26",
+      "reviewedDate": "2026-06-26",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/right-speech-buddhism.webp",
+      "imageAlt": "Two simple speech circles with a leaf between them, representing kind and mindful communication",
+      "tags": [
+        "right speech buddhism",
+        "mindful communication",
+        "Buddhist ethics",
+        "kind speech",
+        "listening"
+      ],
+      "relatedSlugs": [
+        "eightfold-path-explained",
+        "mindful-listening-in-everyday-life",
+        "buddhist-approach-to-anger"
+      ],
+      "headingIds": [
+        "right-speech-buddhism-the-basic-teaching",
+        "the-four-filters-of-right-speech",
+        "honesty-without-cruelty",
+        "silence-can-also-be-speech-practice",
+        "listening-is-part-of-right-speech",
+        "common-misunderstandings-about-right-speech",
+        "how-to-practice-this-in-daily-life",
+        "a-gentle-reflection-on-words"
+      ],
+      "hrefs": [
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/articles/",
+        "/articles/category/practice/",
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/articles/eightfold-path-explained/",
+        "/articles/three-ways-to-practice-patience/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/quotes/practice/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/dhamma/"
+      ],
+      "relatedReferences": [
+        "eightfold-path-explained",
+        "mindful-listening-in-everyday-life",
+        "buddhist-approach-to-anger"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "buddhist-wisdom-for-overthinking": {
+      "slug": "buddhist-wisdom-for-overthinking",
+      "url": "/articles/buddhist-wisdom-for-overthinking/",
+      "title": "Buddhist Wisdom for Overthinking: How to Calm a Busy Mind",
+      "seoTitle": "Buddhist Wisdom for Overthinking and a Busy Mind",
+      "description": "Discover Buddhist-inspired ways to understand overthinking, calm a busy mind, return to the present moment, and respond to thoughts with awareness.",
+      "h1": "Buddhist Wisdom for Overthinking: How to Calm a Busy Mind",
+      "category": "Mindfulness",
+      "canonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "publicationDate": "2026-06-26",
+      "reviewedDate": "2026-06-26",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/buddhist-wisdom-for-overthinking.webp",
+      "imageAlt": "Soft thought lines settling into a calm green circle, representing a busy mind becoming steady",
+      "tags": [
+        "buddhist wisdom for overthinking",
+        "buddhism overthinking",
+        "busy mind",
+        "mindfulness",
+        "calm thoughts"
+      ],
+      "relatedSlugs": [
+        "how-to-meditate-for-anxiety",
+        "beginning-a-daily-mindfulness-practice",
+        "letting-go-without-giving-up"
+      ],
+      "headingIds": [
+        "buddhist-wisdom-for-overthinking-starts-with-noticing",
+        "why-the-mind-repeats-itself",
+        "busy-mind-to-calm-mind-practice-flow",
+        "return-to-the-body",
+        "let-thoughts-pass-without-building-a-home-for-them",
+        "common-misunderstandings-about-calming-the-mind",
+        "how-to-practice-this-in-daily-life",
+        "a-gentle-reflection-for-a-busy-mind"
+      ],
+      "hrefs": [
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/",
+        "/articles/category/mindfulness/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/quotes/mindfulness/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/"
+      ],
+      "relatedReferences": [
+        "how-to-meditate-for-anxiety",
+        "beginning-a-daily-mindfulness-practice",
+        "letting-go-without-giving-up"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "impermanence-in-buddhism": {
+      "slug": "impermanence-in-buddhism",
+      "url": "/articles/impermanence-in-buddhism/",
+      "title": "Impermanence in Buddhism: Learning to Accept Change Peacefully",
+      "seoTitle": "Impermanence in Buddhism: Accepting Change Peacefully",
+      "description": "A beginner-friendly explanation of impermanence in Buddhism and how understanding change can help with letting go, grief, patience, and daily peace.",
+      "h1": "Impermanence in Buddhism: Learning to Accept Change Peacefully",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "publicationDate": "2026-06-26",
+      "reviewedDate": "2026-06-26",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/impermanence-in-buddhism.webp",
+      "imageAlt": "A soft cycle of leaves from bud to falling leaf, representing impermanence and renewal",
+      "tags": [
+        "impermanence in Buddhism",
+        "buddhist impermanence",
+        "anicca",
+        "accepting change",
+        "letting go"
+      ],
+      "relatedSlugs": [
+        "buddhist-teachings-on-impermanence",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up"
+      ],
+      "headingIds": [
+        "impermanence-in-buddhism-in-simple-words",
+        "why-change-feels-so-difficult",
+        "cycle-of-change",
+        "impermanence-and-letting-go",
+        "impermanence-and-grief",
+        "common-misunderstandings-about-impermanence",
+        "how-to-practice-this-in-daily-life",
+        "a-peaceful-way-to-remember-change"
+      ],
+      "hrefs": [
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/three-ways-to-practice-patience/",
+        "/quotes/impermanence/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/three-ways-to-practice-patience/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/impermanence-in-buddhism-letting-go/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-101/what-is-impermanence/",
+        "/quotes/impermanence/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-101/what-is-impermanence/"
+      ],
+      "relatedReferences": [
+        "buddhist-teachings-on-impermanence",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "what-is-karma-in-buddhism": {
+      "slug": "what-is-karma-in-buddhism",
+      "url": "/articles/what-is-karma-in-buddhism/",
+      "title": "How Karma Shapes Daily Choices in Buddhist Practice",
+      "seoTitle": "How Karma Shapes Daily Choices in Buddhist Practice",
+      "description": "Explore how karma relates to everyday choices, speech, intention, habits, and mindful living in Buddhist practice.",
+      "h1": "How Karma Shapes Daily Choices in Buddhist Practice",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "publicationDate": "2026-06-25",
+      "reviewedDate": "2026-06-25",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/what-is-karma-in-buddhism.webp",
+      "imageAlt": "A sequence of gentle ripples spreading across still water, representing actions and their effects",
+      "tags": [
+        "karma in daily life",
+        "Buddhist practice",
+        "intention and action",
+        "mindful choices"
+      ],
+      "relatedSlugs": [
+        "buddhism-for-beginners-simple-guide",
+        "eightfold-path-explained-daily-life",
+        "compassion-as-a-daily-discipline"
+      ],
+      "headingIds": [
+        "karma-begins-with-everyday-intention",
+        "karma-is-not-fate",
+        "how-actions-shape-the-mind",
+        "helpful-and-harmful-roots",
+        "karma-in-speech-and-relationships",
+        "common-misunderstandings-about-karma",
+        "how-to-practice-karma-in-daily-life",
+        "responsibility-without-shame",
+        "a-quiet-way-to-understand-karma"
+      ],
+      "hrefs": [
+        "/learn/buddhism-101/what-is-karma-in-buddhism/",
+        "/articles/buddhist-approach-to-anger/",
+        "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/buddhism-for-beginners-simple-guide/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/learn/buddhism-101/what-is-karma-in-buddhism/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhism-101/what-is-karma-in-buddhism/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/"
+      ],
+      "relatedReferences": [
+        "buddhism-for-beginners-simple-guide",
+        "eightfold-path-explained-daily-life",
+        "compassion-as-a-daily-discipline"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "four-noble-truths-explained": {
+      "slug": "four-noble-truths-explained",
+      "url": "/articles/four-noble-truths-explained/",
+      "title": "The Four Noble Truths Explained in Simple Everyday Language",
+      "seoTitle": "The Four Noble Truths Explained Simply",
+      "description": "A beginner-friendly explanation of the Four Noble Truths in Buddhism, including suffering, craving, freedom, and the path to a calmer life.",
+      "h1": "The Four Noble Truths Explained in Simple Everyday Language",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "publicationDate": "2026-06-25",
+      "reviewedDate": "2026-06-25",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/four-noble-truths-explained.webp",
+      "imageAlt": "Four simple stones beside a quiet path, representing the Four Noble Truths",
+      "tags": [
+        "Four Noble Truths explained",
+        "Buddhist teachings",
+        "dukkha",
+        "Buddhism for beginners"
+      ],
+      "relatedSlugs": [
+        "buddhism-for-beginners-simple-guide",
+        "eightfold-path-explained-daily-life",
+        "how-to-practice-non-attachment"
+      ],
+      "headingIds": [
+        "the-four-noble-truths-explained-as-a-practical-framework",
+        "first-noble-truth-life-includes-dukkha",
+        "second-noble-truth-craving-feeds-suffering",
+        "craving-is-not-the-same-as-every-desire",
+        "third-noble-truth-freedom-is-possible",
+        "fourth-noble-truth-there-is-a-path",
+        "common-misunderstandings-about-the-four-noble-truths",
+        "how-to-practice-the-four-noble-truths-in-daily-life",
+        "the-truths-work-together"
+      ],
+      "hrefs": [
+        "/articles/how-to-practice-non-attachment/",
+        "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/how-to-practice-non-attachment/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/articles/buddhism-for-beginners-simple-guide/",
+        "/articles/four-noble-truths-explained-simply/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/four-noble-truths/",
+        "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/four-noble-truths/"
+      ],
+      "relatedReferences": [
+        "buddhism-for-beginners-simple-guide",
+        "eightfold-path-explained-daily-life",
+        "how-to-practice-non-attachment"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "mindfulness-vs-meditation": {
+      "slug": "mindfulness-vs-meditation",
+      "url": "/articles/mindfulness-vs-meditation/",
+      "title": "Mindfulness vs Meditation: What Is the Difference for Beginners?",
+      "seoTitle": "Mindfulness vs Meditation: Simple Beginner Guide",
+      "description": "Understand the difference between mindfulness and meditation, how they work together, and how beginners can practice both in daily life.",
+      "h1": "Mindfulness vs Meditation: What Is the Difference for Beginners?",
+      "category": "Mindfulness",
+      "canonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "publicationDate": "2026-06-25",
+      "reviewedDate": "2026-06-25",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/mindfulness-vs-meditation.webp",
+      "imageAlt": "A seated circle beside a flowing path, representing formal meditation and mindfulness in motion",
+      "tags": [
+        "mindfulness vs meditation",
+        "meditation for beginners",
+        "daily mindfulness",
+        "breathing practice"
+      ],
+      "relatedSlugs": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-morning-routine",
+        "how-to-meditate-for-anxiety"
+      ],
+      "headingIds": [
+        "mindfulness-vs-meditation-in-simple-terms",
+        "what-counts-as-meditation",
+        "what-counts-as-mindfulness",
+        "how-mindfulness-and-meditation-support-each-other",
+        "breath-awareness-as-a-beginner-practice",
+        "common-misunderstandings",
+        "which-should-a-beginner-practice-first",
+        "how-to-practice-this-in-daily-life",
+        "when-practice-feels-uneventful",
+        "a-balanced-beginning"
+      ],
+      "hrefs": [
+        "/meditation-guide/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/",
+        "/articles/category/mindfulness/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/quotes/mindfulness/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-morning-routine",
+        "how-to-meditate-for-anxiety"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "buddhist-teachings-on-forgiveness": {
+      "slug": "buddhist-teachings-on-forgiveness",
+      "url": "/articles/buddhist-teachings-on-forgiveness/",
+      "title": "Buddhist Teachings on Forgiveness: Letting Go Without Excusing Harm",
+      "seoTitle": "Buddhist Teachings on Forgiveness and Letting Go",
+      "description": "Explore Buddhist-inspired teachings on forgiveness, letting go of resentment, and finding peace without excusing harmful actions.",
+      "h1": "Buddhist Teachings on Forgiveness: Letting Go Without Excusing Harm",
+      "category": "Reflection",
+      "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "publicationDate": "2026-06-25",
+      "reviewedDate": "2026-06-25",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/buddhist-teachings-on-forgiveness.webp",
+      "imageAlt": "An open hand releasing a dark leaf into a soft green landscape, representing forgiveness with boundaries",
+      "tags": [
+        "Buddhist forgiveness",
+        "Buddhist teachings on forgiveness",
+        "letting go of resentment",
+        "compassion and boundaries"
+      ],
+      "relatedSlugs": [
+        "buddhist-approach-to-anger",
+        "letting-go-without-giving-up",
+        "compassion-as-a-daily-discipline"
+      ],
+      "headingIds": [
+        "buddhist-teachings-on-forgiveness-begin-with-honesty",
+        "forgiveness-is-not-the-same-as-reconciliation",
+        "why-resentment-feels-protective",
+        "working-with-anger-without-feeding-hatred",
+        "compassion-does-not-require-approval",
+        "common-misunderstandings-about-buddhist-forgiveness",
+        "a-gentle-forgiveness-reflection",
+        "how-to-practice-this-in-daily-life",
+        "forgiving-yourself",
+        "release-can-be-gradual"
+      ],
+      "hrefs": [
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/letting-go-without-giving-up/",
+        "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+        "/articles/",
+        "/articles/category/reflection/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/compassion-in-buddhism-beginner-guide/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/articles/right-speech-buddhism/",
+        "/articles/three-ways-to-practice-patience/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+        "/quotes/letting-go/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/"
+      ],
+      "relatedReferences": [
+        "buddhist-approach-to-anger",
+        "letting-go-without-giving-up",
+        "compassion-as-a-daily-discipline"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "metta-meditation-script": {
+      "slug": "metta-meditation-script",
+      "url": "/articles/metta-meditation-script/",
+      "title": "Metta Meditation Script: A Loving-Kindness Practice for Yourself and Others",
+      "seoTitle": "Metta Meditation Script for Loving-Kindness Practice",
+      "description": "A gentle metta meditation script for beginners to practice loving-kindness toward themselves, loved ones, neutral people, and others.",
+      "h1": "Metta Meditation Script: A Loving-Kindness Practice for Yourself and Others",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/metta-meditation-script/",
+      "publicationDate": "2026-06-25",
+      "reviewedDate": "2026-06-25",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/metta-meditation-script.webp",
+      "imageAlt": "Soft circles widening from one warm center, representing loving-kindness extending toward others",
+      "tags": [
+        "metta meditation script",
+        "loving kindness meditation script",
+        "meditation for beginners",
+        "self-kindness"
+      ],
+      "relatedSlugs": [
+        "loving-kindness-meditation-beginners",
+        "compassion-as-a-daily-discipline",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "headingIds": [
+        "before-you-begin-the-metta-meditation-script",
+        "choose-loving-kindness-phrases",
+        "stage-one-loving-kindness-for-yourself",
+        "stage-two-a-supportive-person",
+        "stage-three-a-neutral-person",
+        "stage-four-a-difficult-person",
+        "stage-five-widening-toward-all-beings",
+        "closing-the-practice",
+        "common-misunderstandings-about-metta",
+        "how-to-practice-this-in-daily-life",
+        "a-practice-of-direction-not-perfection"
+      ],
+      "hrefs": [
+        "/meditation-guide/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/loving-kindness-meditation-guide/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/loving-kindness-meditation/"
+      ],
+      "relatedReferences": [
+        "loving-kindness-meditation-beginners",
+        "compassion-as-a-daily-discipline",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 6,
+      "takeawayCount": 5
+    },
+    "buddhism-for-beginners-simple-guide": {
+      "slug": "buddhism-for-beginners-simple-guide",
+      "url": "/articles/buddhism-for-beginners-simple-guide/",
+      "title": "Buddhism for Beginners: A Simple Guide to the Path",
+      "seoTitle": "Buddhism for Beginners: A Simple Guide",
+      "description": "A beginner-friendly guide to Buddhism, the Four Noble Truths, meditation, ethics, and simple daily practice without overwhelm.",
+      "h1": "Buddhism for Beginners: A Simple Guide to the Path",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "publicationDate": "2026-06-24",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/buddhism-for-beginners-simple-guide.webp",
+      "imageAlt": "Simple path curving toward a warm sunrise, representing the beginning of Buddhist practice",
+      "tags": [
+        "Buddhism for beginners",
+        "Buddhist teachings",
+        "Four Noble Truths"
+      ],
+      "relatedSlugs": [
+        "four-noble-truths-explained",
+        "eightfold-path-explained",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "headingIds": [
+        "who-was-the-buddha",
+        "the-four-noble-truths-in-everyday-language",
+        "meditation-ethics-and-wisdom",
+        "how-to-begin-without-becoming-overwhelmed",
+        "a-practical-first-week-of-practice",
+        "common-beginner-misunderstandings",
+        "a-simple-reflection-exercise",
+        "where-to-go-next",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/learn/buddhism-101/what-is-buddhism/",
+        "/articles/four-noble-truths-explained/",
+        "/articles/eightfold-path-explained/",
+        "/meditation-guide/",
+        "/quotes/practice/",
+        "/learn/buddhism-101/",
+        "/learn/buddhist-dictionary/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/four-noble-truths-explained/",
+        "/articles/eightfold-path-explained/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/what-is-buddhism-beginner-guide/",
+        "/learn/buddhism-101/what-is-buddhism/",
+        "/learn/buddhism-101/",
+        "/learn/buddhist-dictionary/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-for-beginners/",
+        "/quotes/practice/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhism-101/what-is-buddhism/",
+        "/learn/buddhism-101/",
+        "/learn/buddhist-dictionary/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-for-beginners/"
+      ],
+      "relatedReferences": [
+        "four-noble-truths-explained",
+        "eightfold-path-explained",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "how-to-meditate-for-anxiety": {
+      "slug": "how-to-meditate-for-anxiety",
+      "url": "/articles/how-to-meditate-for-anxiety/",
+      "title": "How to Meditate for Anxiety Without Fighting Your Mind",
+      "seoTitle": "How to Meditate for Anxiety Gently",
+      "description": "Learn a gentle meditation for anxiety using grounding, breath awareness, body support, and mindful choices without forcing calm.",
+      "h1": "How to Meditate for Anxiety Without Fighting Your Mind",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "publicationDate": "2026-06-23",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/how-to-meditate-for-anxiety.webp",
+      "imageAlt": "A steady green circle surrounded by soft open space, symbolizing grounded awareness during anxiety",
+      "tags": [
+        "meditation for anxiety",
+        "mindful breathing",
+        "grounding practice"
+      ],
+      "relatedSlugs": [
+        "buddhist-wisdom-for-overthinking",
+        "mindfulness-for-better-sleep",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "headingIds": [
+        "begin-with-the-ground-not-the-breath",
+        "let-the-exhale-be-easy",
+        "recognize-thoughts-as-thoughts",
+        "keep-the-practice-short-and-supportive",
+        "a-gentle-five-minute-practice",
+        "what-not-to-do-when-anxiety-is-present",
+        "applying-the-practice-during-the-day",
+        "when-more-support-is-needed",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/buddhist-wisdom-for-overthinking/",
+        "/meditation/breathing-meditation/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/buddhist-wisdom-for-overthinking/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/mindfulness-morning-routine/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/breathing-meditation/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "buddhist-wisdom-for-overthinking",
+        "mindfulness-for-better-sleep",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "loving-kindness-meditation-beginners": {
+      "slug": "loving-kindness-meditation-beginners",
+      "url": "/articles/loving-kindness-meditation-beginners/",
+      "title": "Loving-Kindness Meditation for Beginners",
+      "seoTitle": "Loving-Kindness Meditation for Beginners",
+      "description": "Practice loving-kindness meditation with simple metta phrases, realistic stages, and gentle ways to bring goodwill into daily life.",
+      "h1": "Loving-Kindness Meditation for Beginners",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "publicationDate": "2026-06-22",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/loving-kindness-meditation-beginners.webp",
+      "imageAlt": "Two overlapping leaf shapes in soft green and gold, representing kindness toward self and others",
+      "tags": [
+        "loving-kindness meditation",
+        "metta meditation",
+        "self-compassion"
+      ],
+      "relatedSlugs": [
+        "metta-meditation-script",
+        "compassion-as-a-daily-discipline",
+        "buddhist-teachings-on-forgiveness"
+      ],
+      "headingIds": [
+        "choose-phrases-that-sound-honest",
+        "start-with-yourself-or-a-supportive-person",
+        "gradually-widen-the-circle",
+        "bring-loving-kindness-into-conversation",
+        "a-simple-metta-practice-script",
+        "when-loving-kindness-feels-difficult",
+        "daily-life-examples",
+        "a-reflection-to-carry",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/metta-meditation-script/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/quotes/compassion/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/metta-meditation-script/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/loving-kindness-meditation-guide/",
+        "/articles/compassion-in-buddhism-beginner-guide/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/compassion/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/loving-kindness-meditation/"
+      ],
+      "relatedReferences": [
+        "metta-meditation-script",
+        "compassion-as-a-daily-discipline",
+        "buddhist-teachings-on-forgiveness"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "eightfold-path-explained-daily-life": {
+      "slug": "eightfold-path-explained-daily-life",
+      "url": "/articles/eightfold-path-explained-daily-life/",
+      "title": "The Noble Eightfold Path Explained for Daily Life",
+      "seoTitle": "Eightfold Path in Daily Life",
+      "description": "See how the Noble Eightfold Path applies to daily life through speech, work, mindfulness, intention, and practical examples.",
+      "h1": "The Noble Eightfold Path Explained for Daily Life",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "publicationDate": "2026-06-21",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/eightfold-path-explained-daily-life.webp",
+      "imageAlt": "Eight simple gold marks arranged around a calm central circle, representing the Noble Eightfold Path",
+      "tags": [
+        "Noble Eightfold Path",
+        "Buddhist teachings",
+        "daily Buddhist practice"
+      ],
+      "relatedSlugs": [
+        "eightfold-path-explained",
+        "right-speech-buddhism",
+        "what-is-karma-in-buddhism"
+      ],
+      "headingIds": [
+        "wisdom-view-and-intention",
+        "ethical-living-speech-action-and-livelihood",
+        "mental-training-effort-mindfulness-and-concentration",
+        "practice-the-path-as-a-whole",
+        "a-day-on-the-eightfold-path",
+        "common-mistakes-with-the-path",
+        "a-weekly-practice-exercise",
+        "a-modern-life-reflection",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/eightfold-path-explained/",
+        "/articles/right-speech-buddhism/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/eightfold-path-explained/",
+        "/articles/right-speech-buddhism/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/articles/noble-eightfold-path-practical-guide/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/eightfold-path/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/eightfold-path/"
+      ],
+      "relatedReferences": [
+        "eightfold-path-explained",
+        "right-speech-buddhism",
+        "what-is-karma-in-buddhism"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "mindfulness-morning-routine": {
+      "slug": "mindfulness-morning-routine",
+      "url": "/articles/mindfulness-morning-routine/",
+      "title": "A Mindful Morning Routine for a Calmer Day",
+      "seoTitle": "Mindful Morning Routine for Beginners",
+      "description": "Build a simple mindful morning routine with breathing, intention, movement, and screen boundaries for a calmer start.",
+      "h1": "A Mindful Morning Routine for a Calmer Day",
+      "category": "Mindfulness",
+      "canonical": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "publicationDate": "2026-06-20",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/mindfulness-morning-routine.webp",
+      "imageAlt": "Warm morning light crossing a simple cup and meditation cushion",
+      "tags": [
+        "mindful morning routine",
+        "morning meditation",
+        "daily mindfulness"
+      ],
+      "relatedSlugs": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-vs-meditation",
+        "mindfulness-for-better-sleep"
+      ],
+      "headingIds": [
+        "protect-the-first-five-minutes",
+        "sit-before-the-day-becomes-busy",
+        "set-an-intention-you-can-actually-remember",
+        "make-one-ordinary-activity-the-practice",
+        "a-ten-minute-routine-you-can-adjust",
+        "common-mistakes",
+        "connect-morning-practice-with-the-rest-of-the-day",
+        "a-gentle-ending",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/quotes/mindfulness/",
+        "/articles/",
+        "/articles/category/mindfulness/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/quotes/mindfulness/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-vs-meditation",
+        "mindfulness-for-better-sleep"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "buddhist-teachings-on-impermanence": {
+      "slug": "buddhist-teachings-on-impermanence",
+      "url": "/articles/buddhist-teachings-on-impermanence/",
+      "title": "Buddhist Teachings on Impermanence and Change",
+      "seoTitle": "Buddhist Teachings on Impermanence",
+      "description": "Explore Buddhist teachings on impermanence, change, grief, gratitude, and daily ways to practice anicca with care.",
+      "h1": "Buddhist Teachings on Impermanence and Change",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "publicationDate": "2026-06-19",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/buddhist-teachings-on-impermanence.webp",
+      "imageAlt": "A single leaf changing from green to gold, representing impermanence and natural change",
+      "tags": [
+        "impermanence in Buddhism",
+        "anicca",
+        "accepting change"
+      ],
+      "relatedSlugs": [
+        "impermanence-in-buddhism",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up"
+      ],
+      "headingIds": [
+        "change-is-happening-in-every-moment",
+        "why-we-suffer-when-we-resist-change",
+        "impermanence-also-makes-healing-possible",
+        "practice-gratitude-without-grasping",
+        "impermanence-in-small-moments",
+        "common-misunderstandings",
+        "a-reflection-exercise-for-change",
+        "a-peaceful-way-to-practice",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/impermanence-in-buddhism/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/quotes/impermanence/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/impermanence-in-buddhism/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/impermanence-in-buddhism-letting-go/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-101/what-is-impermanence/",
+        "/quotes/impermanence/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhism-101/what-is-impermanence/"
+      ],
+      "relatedReferences": [
+        "impermanence-in-buddhism",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "walking-meditation-step-by-step": {
+      "slug": "walking-meditation-step-by-step",
+      "url": "/articles/walking-meditation-step-by-step/",
+      "title": "Walking Meditation: A Step-by-Step Beginner's Guide",
+      "seoTitle": "Walking Meditation: Step-by-Step Guide",
+      "description": "Learn walking meditation step by step with posture, pacing, attention cues, common mistakes, and everyday practice tips.",
+      "h1": "Walking Meditation: A Step-by-Step Beginner's Guide",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "publicationDate": "2026-06-18",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/walking-meditation-step-by-step.webp",
+      "imageAlt": "Minimal footsteps following a quiet path through soft green and warm gold tones",
+      "tags": [
+        "walking meditation",
+        "mindful walking",
+        "meditation for beginners"
+      ],
+      "relatedSlugs": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-vs-meditation",
+        "how-to-meditate-for-anxiety"
+      ],
+      "headingIds": [
+        "choose-a-simple-place-to-practice",
+        "walk-at-a-natural-unhurried-pace",
+        "turn-with-attention",
+        "use-mindful-walking-in-daily-life",
+        "a-step-by-step-walking-session",
+        "common-mistakes",
+        "using-walking-meditation-in-daily-life",
+        "a-reflection-to-carry",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/meditation-guide/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/meditation/walking-meditation/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/walking-meditation/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-vs-meditation",
+        "how-to-meditate-for-anxiety"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "buddhist-approach-to-anger": {
+      "slug": "buddhist-approach-to-anger",
+      "url": "/articles/buddhist-approach-to-anger/",
+      "title": "A Buddhist Approach to Anger: Pause, Understand, Respond",
+      "seoTitle": "A Buddhist Approach to Anger",
+      "description": "Learn a Buddhist-inspired approach to anger using mindful pause, body awareness, compassion, boundaries, and wise response.",
+      "h1": "A Buddhist Approach to Anger: Pause, Understand, Respond",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "publicationDate": "2026-06-17",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/buddhist-approach-to-anger.webp",
+      "imageAlt": "A warm red-gold shape settling into a calm green circle, representing anger becoming clear awareness",
+      "tags": [
+        "Buddhist approach to anger",
+        "mindfulness of emotions",
+        "responding to anger"
+      ],
+      "relatedSlugs": [
+        "right-speech-buddhism",
+        "three-ways-to-practice-patience",
+        "compassion-as-a-daily-discipline"
+      ],
+      "headingIds": [
+        "notice-anger-in-the-body-first",
+        "do-not-feed-the-inner-argument",
+        "look-beneath-anger-with-care",
+        "respond-clearly-without-hatred",
+        "the-first-thirty-seconds",
+        "understand-without-excusing",
+        "speech-practice-when-angry",
+        "a-reflection-for-difficult-moments",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/right-speech-buddhism/",
+        "/articles/three-ways-to-practice-patience/",
+        "/quotes/awareness/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/right-speech-buddhism/",
+        "/articles/three-ways-to-practice-patience/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/quotes/awareness/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/"
+      ],
+      "relatedReferences": [
+        "right-speech-buddhism",
+        "three-ways-to-practice-patience",
+        "compassion-as-a-daily-discipline"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "mindfulness-for-better-sleep": {
+      "slug": "mindfulness-for-better-sleep",
+      "url": "/articles/mindfulness-for-better-sleep/",
+      "title": "Mindfulness for Better Sleep: A Gentle Evening Practice",
+      "seoTitle": "Mindfulness for Better Sleep",
+      "description": "Use gentle mindfulness before sleep with body awareness, evening routines, common mistakes, and calm ways to meet wakefulness.",
+      "h1": "Mindfulness for Better Sleep: A Gentle Evening Practice",
+      "category": "Mindfulness",
+      "canonical": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "publicationDate": "2026-06-16",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/mindfulness-for-better-sleep.webp",
+      "imageAlt": "A quiet evening sky above a simple resting shape in muted green and gold",
+      "tags": [
+        "mindfulness for sleep",
+        "bedtime meditation",
+        "evening routine"
+      ],
+      "relatedSlugs": [
+        "mindfulness-morning-routine",
+        "how-to-meditate-for-anxiety",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "headingIds": [
+        "create-a-clear-transition-into-night",
+        "try-a-slow-body-scan",
+        "when-thoughts-keep-returning",
+        "be-kind-during-wakeful-nights",
+        "a-gentle-evening-practice",
+        "create-a-transition-ritual",
+        "common-mistakes-with-sleep-mindfulness",
+        "a-reflection-before-rest",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/mindfulness-morning-routine/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/meditation/breathing-meditation/",
+        "/meditation/5-minute-meditation-practice/",
+        "/articles/",
+        "/articles/category/mindfulness/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/walking-meditation-step-by-step/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/quotes/mindfulness/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/meditation/breathing-meditation/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "mindfulness-morning-routine",
+        "how-to-meditate-for-anxiety",
+        "beginning-a-daily-mindfulness-practice"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "how-to-practice-non-attachment": {
+      "slug": "how-to-practice-non-attachment",
+      "url": "/articles/how-to-practice-non-attachment/",
+      "title": "How to Practice Non-Attachment in Everyday Life",
+      "seoTitle": "How to Practice Non-Attachment",
+      "description": "Learn how to practice non-attachment in everyday life while still caring deeply, acting wisely, and keeping healthy boundaries.",
+      "h1": "How to Practice Non-Attachment in Everyday Life",
+      "category": "Reflection",
+      "canonical": "https://echobuddha.com/articles/how-to-practice-non-attachment/",
+      "publicationDate": "2026-06-15",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/how-to-practice-non-attachment.webp",
+      "imageAlt": "An open hand beneath a floating leaf, representing care without clinging",
+      "tags": [
+        "non-attachment",
+        "letting go",
+        "Buddhist wisdom for daily life"
+      ],
+      "relatedSlugs": [
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up",
+        "buddhist-teachings-on-impermanence"
+      ],
+      "headingIds": [
+        "learn-to-recognize-clinging",
+        "separate-commitment-from-control",
+        "hold-identity-more-lightly",
+        "practice-appreciation-instead-of-possession",
+        "non-attachment-is-not-indifference",
+        "daily-life-places-to-practice",
+        "common-mistakes",
+        "a-reflection-exercise",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/letting-go-without-giving-up/",
+        "/quotes/letting-go/",
+        "/articles/",
+        "/articles/category/reflection/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/letting-go-without-giving-up/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/impermanence-in-buddhism-letting-go/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/quotes/letting-go/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/"
+      ],
+      "relatedReferences": [
+        "how-to-let-go-of-attachment-in-buddhism",
+        "letting-go-without-giving-up",
+        "buddhist-teachings-on-impermanence"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "beginning-a-daily-mindfulness-practice": {
+      "slug": "beginning-a-daily-mindfulness-practice",
+      "url": "/articles/beginning-a-daily-mindfulness-practice/",
+      "title": "Beginning a Daily Mindfulness Practice",
+      "seoTitle": "Daily Mindfulness Practice for Beginners",
+      "description": "Start a daily mindfulness practice with simple breath awareness, realistic timing, habit cues, and kind ways to begin again.",
+      "h1": "Beginning a Daily Mindfulness Practice",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "publicationDate": "2026-06-01",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/beginning-a-daily-mindfulness-practice.webp",
+      "imageAlt": "Soft circular meditation artwork in warm gold and green tones",
+      "tags": [
+        "mindfulness",
+        "meditation",
+        "daily practice"
+      ],
+      "relatedSlugs": [
+        "mindfulness-vs-meditation",
+        "mindfulness-morning-routine",
+        "walking-meditation-step-by-step"
+      ],
+      "headingIds": [
+        "start-with-one-breath",
+        "choose-a-small-daily-rhythm",
+        "carry-mindfulness-into-the-day",
+        "work-with-missed-days",
+        "build-the-habit-around-a-cue",
+        "what-to-notice-during-practice",
+        "common-beginner-mistakes",
+        "a-simple-ending",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/walking-meditation-step-by-step/",
+        "/meditation/mindfulness-in-daily-life/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/mindfulness-vs-meditation/",
+        "/articles/walking-meditation-step-by-step/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/how-to-meditate-for-beginners/",
+        "/articles/mindfulness-of-breathing-guide/",
+        "/articles/how-to-meditate-for-anxiety/",
+        "/articles/mindfulness-for-better-sleep/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/mindfulness-in-daily-life/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "mindfulness-vs-meditation",
+        "mindfulness-morning-routine",
+        "walking-meditation-step-by-step"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "compassion-as-a-daily-discipline": {
+      "slug": "compassion-as-a-daily-discipline",
+      "url": "/articles/compassion-as-a-daily-discipline/",
+      "title": "Compassion as a Daily Discipline",
+      "seoTitle": "Compassion as a Daily Buddhist Practice",
+      "description": "Explore compassion as a daily discipline through speech, listening, boundaries, self-compassion, and small practical choices.",
+      "h1": "Compassion as a Daily Discipline",
+      "category": "Buddhist Wisdom",
+      "canonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "publicationDate": "2026-05-18",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/compassion-as-a-daily-discipline.webp",
+      "imageAlt": "Abstract leaf artwork symbolizing compassion and steady growth",
+      "tags": [
+        "compassion",
+        "ethics",
+        "kindness"
+      ],
+      "relatedSlugs": [
+        "loving-kindness-meditation-beginners",
+        "buddhist-teachings-on-forgiveness",
+        "right-speech-buddhism"
+      ],
+      "headingIds": [
+        "begin-close-to-home",
+        "practice-with-speech",
+        "let-compassion-include-you",
+        "compassion-when-you-disagree",
+        "compassion-is-trained-in-ordinary-moments",
+        "common-misunderstandings",
+        "a-daily-compassion-exercise",
+        "a-reflection-to-carry",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path",
+        "a-small-practice-for-today"
+      ],
+      "hrefs": [
+        "/articles/right-speech-buddhism/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/quotes/compassion/",
+        "/articles/",
+        "/articles/category/buddhist-wisdom/",
+        "/articles/right-speech-buddhism/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/loving-kindness-meditation-beginners/",
+        "/articles/compassion-in-buddhism-beginner-guide/",
+        "/articles/three-ways-to-practice-patience/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/buddhist-approach-to-anger/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/quotes/compassion/",
+        "/quotes/wisdom/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/dhamma/",
+        "/learn/buddhist-dictionary/karma/",
+        "/learn/buddhist-dictionary/dukkha/"
+      ],
+      "relatedReferences": [
+        "loving-kindness-meditation-beginners",
+        "buddhist-teachings-on-forgiveness",
+        "right-speech-buddhism"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "letting-go-without-giving-up": {
+      "slug": "letting-go-without-giving-up",
+      "url": "/articles/letting-go-without-giving-up/",
+      "title": "Letting Go Without Giving Up",
+      "seoTitle": "Letting Go Without Giving Up",
+      "description": "Learn the difference between letting go and giving up through non-attachment, wise effort, boundaries, and daily reflection.",
+      "h1": "Letting Go Without Giving Up",
+      "category": "Reflection",
+      "canonical": "https://echobuddha.com/articles/letting-go-without-giving-up/",
+      "publicationDate": "2026-04-27",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/letting-go-without-giving-up.webp",
+      "imageAlt": "Minimal circle and horizon artwork representing release and clarity",
+      "tags": [
+        "letting go",
+        "non-attachment",
+        "reflection"
+      ],
+      "relatedSlugs": [
+        "how-to-practice-non-attachment",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "buddhist-teachings-on-impermanence"
+      ],
+      "headingIds": [
+        "notice-the-grip",
+        "keep-the-wise-effort",
+        "return-to-what-is-real",
+        "let-go-in-small-concrete-ways",
+        "the-difference-between-release-and-resignation",
+        "daily-life-examples",
+        "a-practice-for-the-grip",
+        "a-gentle-conclusion",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path",
+        "a-small-practice-for-today"
+      ],
+      "hrefs": [
+        "/articles/how-to-practice-non-attachment/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/quotes/letting-go/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/quotes/impermanence/",
+        "/articles/",
+        "/articles/category/reflection/",
+        "/articles/how-to-practice-non-attachment/",
+        "/articles/buddhist-teachings-on-impermanence/",
+        "/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "/articles/impermanence-in-buddhism-letting-go/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/",
+        "/quotes/letting-go/",
+        "/quotes/impermanence/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/anicca/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/anatta/"
+      ],
+      "relatedReferences": [
+        "how-to-practice-non-attachment",
+        "how-to-let-go-of-attachment-in-buddhism",
+        "buddhist-teachings-on-impermanence"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "three-ways-to-practice-patience": {
+      "slug": "three-ways-to-practice-patience",
+      "url": "/articles/three-ways-to-practice-patience/",
+      "title": "Three Ways to Practice Patience",
+      "seoTitle": "Three Ways to Practice Patience",
+      "description": "Learn three practical ways to practice patience with delays, emotions, difficult people, and everyday stress without passivity.",
+      "h1": "Three Ways to Practice Patience",
+      "category": "Practice",
+      "canonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "publicationDate": "2026-04-12",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/three-ways-to-practice-patience.webp",
+      "imageAlt": "Simple warm-toned artwork for an article about patience",
+      "tags": [
+        "patience",
+        "practice",
+        "daily life"
+      ],
+      "relatedSlugs": [
+        "buddhist-approach-to-anger",
+        "right-speech-buddhism",
+        "mindful-listening-in-everyday-life"
+      ],
+      "headingIds": [
+        "1-practice-patience-with-the-body",
+        "2-make-room-for-an-unpleasant-feeling",
+        "3-see-the-wider-conditions",
+        "a-daily-patience-practice",
+        "patience-is-not-passivity",
+        "modern-examples-of-patience",
+        "a-seven-day-practice",
+        "a-reflection-to-carry",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path",
+        "a-small-practice-for-today"
+      ],
+      "hrefs": [
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/quotes/patience/",
+        "/articles/",
+        "/articles/category/practice/",
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/mindful-listening-in-everyday-life/",
+        "/articles/right-speech-buddhism/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/dhamma/",
+        "/quotes/patience/",
+        "/quotes/practice/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/dhamma/"
+      ],
+      "relatedReferences": [
+        "buddhist-approach-to-anger",
+        "right-speech-buddhism",
+        "mindful-listening-in-everyday-life"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "mindful-listening-in-everyday-life": {
+      "slug": "mindful-listening-in-everyday-life",
+      "url": "/articles/mindful-listening-in-everyday-life/",
+      "title": "Mindful Listening in Everyday Life",
+      "seoTitle": "Mindful Listening in Everyday Life",
+      "description": "Practice mindful listening with presence, pauses, reflection, boundaries, and practical examples for everyday relationships.",
+      "h1": "Mindful Listening in Everyday Life",
+      "category": "Mindfulness",
+      "canonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "publicationDate": "2026-03-24",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/mindful-listening-in-everyday-life.webp",
+      "imageAlt": "Soft green artwork representing mindful listening",
+      "tags": [
+        "listening",
+        "mindfulness",
+        "relationships"
+      ],
+      "relatedSlugs": [
+        "right-speech-buddhism",
+        "compassion-as-a-daily-discipline",
+        "three-ways-to-practice-patience"
+      ],
+      "headingIds": [
+        "arrive-before-you-listen",
+        "listen-without-building-the-reply",
+        "reflect-before-responding",
+        "keep-boundaries-inside-compassion",
+        "why-listening-is-a-mindfulness-practice",
+        "a-practice-for-difficult-conversations",
+        "common-mistakes",
+        "a-reflection-to-carry",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path",
+        "a-small-practice-for-today"
+      ],
+      "hrefs": [
+        "/articles/right-speech-buddhism/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/",
+        "/articles/category/mindfulness/",
+        "/articles/right-speech-buddhism/",
+        "/articles/compassion-as-a-daily-discipline/",
+        "/articles/three-ways-to-practice-patience/",
+        "/articles/buddhist-approach-to-anger/",
+        "/articles/buddhist-teachings-on-forgiveness/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/",
+        "/quotes/mindfulness/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/anicca/"
+      ],
+      "relatedReferences": [
+        "right-speech-buddhism",
+        "compassion-as-a-daily-discipline",
+        "three-ways-to-practice-patience"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    },
+    "creating-a-peaceful-corner-at-home": {
+      "slug": "creating-a-peaceful-corner-at-home",
+      "url": "/articles/creating-a-peaceful-corner-at-home/",
+      "title": "Creating a Peaceful Corner at Home",
+      "seoTitle": "Create a Peaceful Meditation Corner",
+      "description": "Create a peaceful meditation corner at home with simple space, posture support, respectful objects, and daily practice cues.",
+      "h1": "Creating a Peaceful Corner at Home",
+      "category": "Meditation",
+      "canonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "publicationDate": "2026-03-03",
+      "reviewedDate": "2026-07-01",
+      "author": "Echo Buddha Editorial",
+      "thumbnail": "/images/articles/creating-a-peaceful-corner-at-home.webp",
+      "imageAlt": "Minimal home meditation corner in soft natural tones",
+      "tags": [
+        "home practice",
+        "meditation",
+        "space"
+      ],
+      "relatedSlugs": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-morning-routine",
+        "walking-meditation-step-by-step"
+      ],
+      "headingIds": [
+        "choose-a-space-you-can-actually-use",
+        "support-the-body",
+        "keep-decoration-simple-and-respectful",
+        "create-a-reliable-cue",
+        "what-belongs-in-a-practice-space",
+        "small-homes-and-shared-spaces",
+        "make-the-space-a-cue",
+        "a-reflection-for-the-home",
+        "practical-examples-in-daily-life",
+        "a-mindfulness-exercise",
+        "continue-the-path"
+      ],
+      "hrefs": [
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/mindfulness-morning-routine/",
+        "/meditation/meditation-for-beginners/",
+        "/articles/",
+        "/articles/category/meditation/",
+        "/articles/beginning-a-daily-mindfulness-practice/",
+        "/articles/mindfulness-morning-routine/",
+        "/articles/walking-meditation-step-by-step/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/quotes/meditation/"
+      ],
+      "hubReferences": [
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhist-dictionary/mindfulness/",
+        "/learn/buddhist-dictionary/metta/",
+        "/meditation/meditation-for-beginners/",
+        "/meditation/"
+      ],
+      "relatedReferences": [
+        "beginning-a-daily-mindfulness-practice",
+        "mindfulness-morning-routine",
+        "walking-meditation-step-by-step"
+      ],
+      "structuredDataTypes": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 5,
+      "takeawayCount": 5
+    }
+  }
+}

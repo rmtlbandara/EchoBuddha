@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Balanced bowl amid changing conditions</title>
+  <desc id="desc">A centered bowl rests between moving shapes that suggest praise, blame, gain, loss, pleasure, and pain.</desc>
+  <rect width="1200" height="675" fill="#fff8ec"/>
+  <path d="M150 338c90-92 180-92 270 0s180 92 270 0 180-92 360 0" fill="none" stroke="#d4b46d" stroke-width="10" opacity=".55"/>
+  <path d="M165 424c96-74 187-74 274 0s178 74 274 0 187-74 322 0" fill="none" stroke="#7f9a79" stroke-width="10" opacity=".5"/>
+  <circle cx="298" cy="252" r="42" fill="#ba6f56" opacity=".8"/>
+  <circle cx="902" cy="242" r="42" fill="#6f8f69" opacity=".8"/>
+  <rect x="207" y="397" width="76" height="76" rx="16" fill="#8f6d4f" opacity=".75"/>
+  <rect x="925" y="390" width="76" height="76" rx="16" fill="#b98524" opacity=".75"/>
+  <path d="M470 350h260c-9 90-62 142-130 142s-121-52-130-142z" fill="#fffdf8" stroke="#4f463b" stroke-width="10"/>
+  <path d="M454 350h292" stroke="#4f463b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M600 238v110" stroke="#4f463b" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="600" cy="220" r="34" fill="#7f9a79"/>
+  <g fill="#4a3b2d" font-family="Georgia, serif" font-size="32" font-weight="700" text-anchor="middle">
+    <text x="600" y="566">Balanced care</text>
+  </g>
+</svg>

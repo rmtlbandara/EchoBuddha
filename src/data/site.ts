@@ -4639,6 +4639,497 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    slug: "three-poisons-buddhism-explained",
+    title: "The Three Poisons in Buddhism: Greed, Hatred, and Delusion Explained",
+    seoTitle: "Three Poisons in Buddhism: Greed, Aversion, and Delusion",
+    description: "Learn how the three poisons in Buddhism work as roots of unskillful action, and how non-greed, non-hatred, and clear seeing change daily choices.",
+    date: "2026-07-13",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "9 min read",
+    thumbnail: "/images/articles/three-poisons-buddhism-explained.svg",
+    imageAlt: "Three intertwined roots labeled greed, aversion, and delusion beneath a clearing leaf",
+    tags: ["three poisons", "Buddhist wisdom", "greed", "aversion", "delusion"],
+    relatedSlugs: ["what-is-karma-in-buddhism", "buddhist-approach-to-anger", "how-to-let-go-of-attachment-in-buddhism"],
+    content: [
+      {
+        paragraphs: [
+          "The three poisons in Buddhism are greed, hatred or aversion, and delusion. In Pali they are often discussed as lobha, dosa, and moha. They are called poisons because they affect the mind before action becomes visible. A sentence, purchase, accusation, apology, silence, or decision may look ordinary from the outside, yet its inner root can bend it toward harm or toward freedom from harm.",
+          "A useful beginner image is not three separate monsters, but three movements of mind. Greed grabs. Aversion pushes away. Delusion mis-sees. Sometimes one dominates; often they cooperate. A person wants control, resents an obstacle, and then tells a story that makes the whole reaction seem justified. The teaching is not meant to make ordinary emotion shameful. It helps reveal what is feeding unskillful speech and action before those habits harden.",
+          "The teaching also keeps the word poison from becoming too narrow. Greed is not only wanting money. Aversion is not only shouting. Delusion is not only holding an odd belief. They can appear in refined forms: wanting to be admired as spiritual, quietly enjoying someone else's embarrassment, or mistaking one's preferred explanation for reality itself."
+        ]
+      },
+      {
+        heading: "The Source Teaching Behind the Three Roots",
+        paragraphs: [
+          "In the <a href=\"https://www.accesstoinsight.org/tipitaka/an/an03/an03.069.than.html\">Mula Sutta, AN 3.69</a>, translated from the Pali by Thanissaro Bhikkhu, greed, aversion, and delusion are named as roots of what is unskillful. The same discourse contrasts them with lack of greed, lack of aversion, and lack of delusion as roots of what is skillful. Echo Buddha's examples below are modern illustrations of that framework, not additional scripture.",
+          "The word root matters. A root is not always visible, but it feeds what grows. In Buddhist ethics, action is not judged only by the outer shape. Intention, perception, and the mental qualities behind speech and behavior matter. This connects naturally with <a href=\"/articles/what-is-karma-in-buddhism/\">karma as intention and action</a>, though the three poisons have their own role: they describe the mental roots that can make action unskillful."
+        ]
+      },
+      {
+        heading: "One Situation Seen Through Three Poisons",
+        paragraphs: [
+          "Imagine a person waiting for an important reply. The message does not arrive. First comes discomfort: uncertainty in the body, heat in the face, a tight story forming. The situation is small enough to be recognizable and large enough to reveal the mind's pattern. Nothing dramatic has happened yet. The next action has not been chosen.",
+          "Greed may appear as the demand to obtain certainty, approval, control, or reassurance right now. The mind reaches for the phone again and again. It imagines the exact response it wants. It rehearses a version of the future in which the other person finally behaves correctly. This is greed not only as wanting objects, but as grasping at experience. It says, 'Give me the feeling I want, and give it now.' Related practice on this pressure appears in <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">letting go of attachment</a>.",
+          "Aversion may arrive next. The other person becomes the obstacle. The delay becomes disrespect. The mind prepares a sharp reply or withdraws affection in advance. Aversion can be hot, like anger, or cold, like contempt. It is not the first flash of irritation that creates the deepest harm; the danger is feeding ill will until speech and action follow. For a fuller treatment of this distinction, read <a href=\"/articles/buddhist-approach-to-anger/\">the Buddhist approach to anger</a>.",
+          "Delusion is quieter. It may say, 'I know exactly why this happened,' when the facts are thin. It may reduce the other person to one motive. It may forget sleep, workload, misunderstanding, fear, or ordinary delay. Delusion is not stupidity. It is mis-seeing: taking a partial view as the whole truth. In this way, delusion gives greed and aversion a believable script."
+        ]
+      },
+      {
+        heading: "How the Roots Reinforce One Another",
+        paragraphs: [
+          "The three poisons rarely wait in separate rooms. Grasping wants a specific outcome. Aversion attacks whatever blocks it. Delusion edits the evidence so the reaction feels reasonable. This is why a minor exchange can become a painful conversation. The mind is not merely feeling; it is building a world around the feeling.",
+          "The same pattern appears in status, money, family roles, online disagreement, and self-judgment. A person may grasp praise, resent criticism, and mis-see one comment as proof of permanent failure. Another may grasp comfort, resent inconvenience, and mis-see a needed boundary as rejection. Buddhist practice asks us to look beneath the surface event and ask what root is being watered.",
+          "The roots can even hide inside apparently wholesome action. Helping someone may contain generosity, but it may also contain the wish to be needed. Correcting misinformation may protect truth, but it may also contain pleasure in humiliation. Resting may be wise care, or it may conceal avoidance. The point is not paranoia about every motive. It is a willingness to inspect the mixed places where habit likes to stay vague."
+        ]
+      },
+      {
+        heading: "The Skillful Counter-Qualities",
+        paragraphs: [
+          "AN 3.69 does not only name the unskillful roots. It also points to their opposites: non-greed, non-aversion, and non-delusion. Non-greed is not lifeless refusal. It is the capacity to enjoy, use, give, and release without possession tightening around everything. Non-aversion is not pretending harm is harmless. It is the willingness to respond without hatred steering the hand.",
+          "Non-delusion is clear seeing. It asks for evidence, context, consequences, and humility. In a tense conversation, clear seeing may remember that one message is not the whole relationship. In political or social conflict, it may refuse to flatten people into slogans. In personal practice, it may notice the body and the story at the same time. <a href=\"/articles/buddhist-wisdom-for-overthinking/\">Buddhist wisdom for overthinking</a> can help when delusion appears as endless mental fabrication.",
+          "The counter-qualities also affect speech. If greed wants to win, aversion wants to wound, and delusion wants to be unquestionably right, then wiser speech needs restraint, truthfulness, and timing. The article on <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a> develops that ethical side of the same training.",
+          "These counter-qualities should be understood as directions of training, not as moods that appear perfectly on command. Non-greed may begin as one moment of sharing. Non-aversion may begin as not sending the cruel message. Non-delusion may begin as admitting, 'I do not know enough yet.' Small movements matter because roots grow through repeated conditions."
+        ]
+      },
+      {
+        heading: "A Three-Root Recognition Practice",
+        paragraphs: [
+          "Choose one real situation that has emotional charge but is not overwhelming. Write three short lines, without trying to fix the entire mind. First: what is the mind trying to obtain? Name the wanted feeling, object, status, answer, victory, or certainty. Second: what is the mind trying to reject? Name the discomfort, person, limit, shame, delay, or possible loss. Third: what might the mind not be seeing clearly?",
+          "This is not a quick cure for the three poisons. It is a way to interrupt automatic growth. If anger is present, the practice does not declare you morally bad. It asks whether anger is being fed by ill will. If desire is present, it asks whether appreciation has become grasping. If confusion is present, it asks what facts, conditions, or perspectives deserve more room.",
+          "When the three lines are complete, choose one action that belongs to the counter-root. Non-greed might wait before buying or demanding. Non-aversion might speak firmly without insult. Non-delusion might ask a clarifying question. Even one action can stop the roots from becoming a larger habit.",
+          "If the situation involves another person, avoid using the practice as a private courtroom where you prove that they are the real problem. Include your own uncertainty. Ask what you know directly, what you are assuming, what you have not asked, and what outcome you are secretly trying to force. That humility is already a movement away from delusion."
+        ]
+      },
+      {
+        heading: "Why This Teaching Still Feels Practical",
+        paragraphs: [
+          "The three poisons are not only an old list. They are a diagnostic tool for modern life. They help explain why intelligence alone does not prevent harm, why good intentions can become controlling, and why anger can feel persuasive even when it narrows the heart. The teaching does not require self-hatred. It asks for honesty about what the mind is cultivating.",
+          "A careful reader does not need to label every thought all day. It is enough to learn the taste of grabbing, pushing away, and mis-seeing. With practice, the moment before action becomes more visible. In that small visibility, the roots of harm are not the only possible roots.",
+          "This is also why the teaching should be held with patience. Deep roots are not removed by one insight, and Buddhist traditions do not present liberation as a quick self-improvement technique. Recognition is still valuable. When a root is seen, it is no longer completely hidden. When it is no longer hidden, a different cause can be planted."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "equanimity-in-buddhism",
+    title: "Equanimity in Buddhism: Calm Without Indifference",
+    seoTitle: "Equanimity in Buddhism: Balanced Care Without Numbness",
+    description: "A clear guide to Buddhist equanimity as balanced care amid gain, loss, praise, blame, pleasure, and pain without becoming indifferent.",
+    date: "2026-07-13",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "8 min read",
+    thumbnail: "/images/articles/equanimity-in-buddhism.svg",
+    imageAlt: "Balanced bowl at the center of changing shapes, representing equanimity amid worldly conditions",
+    tags: ["equanimity", "upekkha", "Buddhist wisdom", "emotional balance"],
+    relatedSlugs: ["compassion-in-buddhism-beginner-guide", "impermanence-in-buddhism", "three-ways-to-practice-patience"],
+    content: [
+      {
+        paragraphs: [
+          "Equanimity in Buddhism is not emotional numbness. It is the trained capacity to remain balanced enough to see, care, and act wisely when conditions change. A person with equanimity may still feel joy, sadness, concern, warmth, disappointment, or grief. The difference is that the mind is not completely carried away by every pleasant or unpleasant wind.",
+          "The Pali term often connected with equanimity is upekkha. It can be misunderstood as distance from life. In practice, it is closer to balanced presence: the heart does not collapse into the event, and it does not turn away. That balance matters because both success and failure can distort judgment.",
+          "Equanimity is therefore useful during joy as well as pain. A new opportunity, admiration, romantic attention, a good review, or a sudden financial gain may make the mind careless. Balance helps pleasure be enjoyed without letting it become a command."
+        ]
+      },
+      {
+        heading: "The Worldly Conditions That Test Balance",
+        paragraphs: [
+          "A key source for this article is <a href=\"https://www.dhammatalks.org/suttas/AN/AN8_6.html\">AN 8.6, the Lokavipatti Sutta</a>, in Thanissaro Bhikkhu's translation at Dhammatalks.org. The discourse names eight worldly conditions: gain, loss, status, disgrace, censure, praise, pleasure, and pain. Echo Buddha uses these terms as the doctrinal anchor while applying them to ordinary decisions.",
+          "The teaching is realistic. It does not say only untrained people experience gain and loss. Everyone meets changing conditions. The difference lies in whether the mind is consumed by them. Praise arrives and the mind wants to live there. Criticism arrives and the mind wants to destroy it. Equanimity studies that movement without obeying it blindly.",
+          "The phrase worldly conditions can sound abstract until it is brought close. Status may be a promotion, a follower count, a family role, or being treated as the knowledgeable one in a room. Disgrace may be a public mistake or the private fear that others now see you differently. Censure and praise can arrive through one sentence."
+        ]
+      },
+      {
+        heading: "Balanced Presence Is Not Numbness",
+        paragraphs: [
+          "Numbness withdraws. Equanimity remains available. Numbness may say, 'I do not care,' because caring feels risky. Equanimity says, 'I care, and I will not let reactivity decide for me.' This distinction is especially important for readers who fear that Buddhist balance means becoming less human.",
+          "Consider a person who receives public praise for a project and private criticism about a real mistake in the same week. Without balance, praise may inflate the self and criticism may crush it. With equanimity, praise can be received without addiction, and criticism can be examined without self-destruction. The person still acts. They thank supporters, repair what needs repair, and keep their identity larger than the latest reaction."
+        ]
+      },
+      {
+        heading: "Care Without Reactivity",
+        paragraphs: [
+          "Equanimity is compatible with compassion because it protects compassion from panic, favoritism, and exhaustion. If compassion alone becomes overwhelmed by every cry for help, the heart may burn out or make poor choices. Equanimity gives compassion room to ask what actually helps. For more on that relationship, read <a href=\"/articles/compassion-in-buddhism-beginner-guide/\">Compassion in Buddhism</a> and <a href=\"/articles/compassion-as-a-daily-discipline/\">compassion as a daily discipline</a>.",
+          "Balance does not mean passivity. If someone is being harmed, equanimity does not advise watching politely. It helps the response become less governed by hatred, fear, or the wish to appear heroic. A balanced response may still be firm, urgent, protective, and public. The question is whether action is guided by wisdom rather than by the intoxication of the moment.",
+          "Compassion without equanimity can become frantic. Equanimity without compassion can become cold. Together, they allow a person to stay close enough to care and spacious enough to choose well. A parent, caregiver, organizer, teacher, or friend may need exactly this combination: tenderness that does not collapse, steadiness that does not abandon."
+        ]
+      },
+      {
+        heading: "Praise, Blame, Gain, and Loss",
+        paragraphs: [
+          "Praise can be pleasant and still dangerous if the mind starts needing it to feel real. Blame can be painful and still useful if it reveals something true. Gain can support practice, family, generosity, and rest. Loss can require grief, planning, and support. Equanimity does not flatten these conditions into one emotional color; it notices that none of them are stable enough to be a final refuge.",
+          "This is where equanimity differs from a general article on <a href=\"/articles/impermanence-in-buddhism/\">impermanence in Buddhism</a>. Impermanence explains why conditions change. Equanimity trains the heart not to be dominated by the changing. The two teachings support one another, but the central skill here is balance while change is already touching the life.",
+          "The success-and-failure scenario also shows why balance protects ethics. If praise becomes the main food, a person may hide mistakes to preserve admiration. If blame becomes unbearable, they may retaliate or deny what is true. Equanimity leaves enough room to ask what is accurate, what is useful, what needs repair, and what should not be absorbed as identity."
+        ]
+      },
+      {
+        heading: "A Worldly Winds Review",
+        paragraphs: [
+          "Choose one recent event that felt strongly pleasant or unpleasant. It may be praise, criticism, a gain, a loss, a comfort, or a disappointment. Ask four questions slowly. What changed? What did the mind want to preserve or escape? What would a balanced response protect: honesty, kindness, safety, learning, patience, or responsibility? What action still needs to be taken?",
+          "The review should not be used to talk yourself out of legitimate pain. Pain may need care. Criticism may need boundaries. Loss may require practical help. The point is to separate the event from the extra consumption around it. If patience is part of the needed response, <a href=\"/articles/three-ways-to-practice-patience/\">three ways to practice patience</a> offers a related training angle.",
+          "If the event was pleasant, do not skip the review. Ask what the mind now expects. Is it demanding that the praise continue, that the gain remain, or that the comfort never change? If the event was painful, ask whether resistance is adding a second wound. In both cases, balance begins with seeing how quickly the mind builds a home in what cannot be controlled."
+        ]
+      },
+      {
+        heading: "The Quiet Strength of Equanimity",
+        paragraphs: [
+          "A balanced person is not unreachable. They are reachable without being easily conquered by every condition. They can listen to blame without becoming only blame, enjoy praise without becoming dependent on praise, and meet pain without making pain the whole world.",
+          "Equanimity matures through repeated contact with ordinary life. One email, one diagnosis, one compliment, one delay, one success, one sharp sentence: each becomes a place to learn whether the mind is welcoming and rebelling, or seeing and responding. In that space, care becomes steadier.",
+          "The practice may feel modest because it rarely announces itself. It may look like waiting before defending yourself, accepting praise without performing humility, taking criticism to heart without swallowing shame, or acting on behalf of someone else without needing to be seen as noble. Equanimity is quiet strength precisely because it does not need a dramatic identity.",
+          "This quietness makes equanimity easy to overlook. Many people notice the dramatic reaction more than the wise restraint that prevented harm. Buddhist practice values the restraint anyway. A harsh reply not sent, a compliment not clung to, a loss met without self-pity becoming cruelty: these are not empty moments. They are the path becoming visible in ordinary conditions.",
+          "For readers who fear becoming detached, this is the reassurance: equanimity does not remove love from life. It removes some of the panic around love, the possessiveness around success, and the despair around loss. What remains can be more reliable than emotional intensity because it is less dependent on conditions behaving exactly as hoped.",
+          "This is why equanimity can be practiced in conversation before it is mastered in crisis. Let one pleasant word be pleasant. Let one unpleasant word be known. Then choose the next response from values rather than from the strongest gust."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "five-precepts-in-daily-life",
+    title: "The Five Precepts in Daily Life: A Beginner's Guide to Buddhist Ethics",
+    seoTitle: "Five Precepts in Daily Life: Buddhist Ethics for Beginners",
+    description: "Understand the Five Precepts as voluntary Buddhist training rules that reduce harm, protect trust, and support heedful daily conduct.",
+    date: "2026-07-13",
+    author: SITE.author,
+    category: "Practice",
+    readTime: "10 min read",
+    thumbnail: "/images/articles/five-precepts-in-daily-life.svg",
+    imageAlt: "Five small markers forming a protective path through leaves and open space",
+    tags: ["Five Precepts", "Buddhist ethics", "sila", "daily practice"],
+    relatedSlugs: ["right-speech-buddhism", "what-is-karma-in-buddhism", "noble-eightfold-path-practical-guide"],
+    content: [
+      {
+        paragraphs: [
+          "The Five Precepts are basic training commitments for many lay Buddhists. They are not divine commandments handed down as a test of superiority. They are voluntary disciplines that help a person reduce harm, protect trust, and become more heedful in ordinary life.",
+          "A beginner may first meet the precepts as a list: refrain from taking life, taking what is not given, sexual misconduct, false or harmful speech, and intoxicants that lead to carelessness. The list matters, but the deeper question is what each precept protects. Buddhist ethics is not only about avoiding blame. It is about training the conditions from which wiser action can grow.",
+          "The precepts also show that Buddhist practice is embodied. A person may understand a teaching, quote a sutta, or enjoy meditation, yet still need training around speech, desire, anger, money, and carelessness. The precepts bring practice into kitchens, offices, relationships, checkout lines, group chats, and moments when no one seems to be watching."
+        ]
+      },
+      {
+        heading: "The Traditional List and Its Source",
+        paragraphs: [
+          "The source anchor for this article is Access to Insight's page on <a href=\"https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html\">The Five Precepts, pancasila</a>. It presents the precepts as training rules observed by practicing lay Buddhists and gives the familiar undertaking formulae. The page also connects the precepts with 'five faultless gifts,' where refraining from harm gives safety and freedom from fear to others.",
+          "Different Buddhist communities may explain details differently. Some traditions emphasize formal recitation; others focus on daily application. Echo Buddha's examples are educational modern applications, not a replacement for guidance from a qualified teacher or community."
+        ]
+      },
+      {
+        heading: "Ethics as Training, Not Superiority",
+        paragraphs: [
+          "The word training is important. A training rule is not a weapon for looking down on others. It is a commitment that reveals where the mind becomes careless. If someone breaks a precept, Buddhist practice does not need to turn the mistake into a permanent identity. The useful question is what conditions led there, who may have been harmed, and what repair or renewed restraint is possible.",
+          "This approach connects with <a href=\"/articles/what-is-karma-in-buddhism/\">karma in Buddhism</a>, because intention and action shape consequences. It also connects with the <a href=\"/articles/noble-eightfold-path-practical-guide/\">Noble Eightfold Path</a>, especially Right Speech, Right Action, and Right Livelihood. Still, the Five Precepts deserve their own attention because they give lay practitioners a concrete ethical foundation.",
+          "Training also means repetition. A person does not become truthful by admiring truth once. They become more truthful through repeated restraint when lying would be convenient, repeated confession when honesty is costly, and repeated attention to the small distortions that prepare larger ones. The same pattern applies to non-harming, respect for property, sexual responsibility, and heedfulness."
+        ]
+      },
+      {
+        heading: "The First Precept Protects Life",
+        paragraphs: [
+          "The first precept concerns refraining from destroying living beings. In daily life, this trains respect for vulnerability. It encourages non-harming, compassion, and care in how one treats people, animals, and the conditions that support life.",
+          "Modern application is not always solved by one sentence. Food choices, insects in the home, ecological impact, illness, and safety can raise complex questions. A beginner does not need to pretend every dilemma is easy. The precept invites the heart to pause before treating life as disposable. It asks whether convenience has become stronger than care.",
+          "This precept can also shape tone and policy, not only physical action. Dehumanizing language makes harm easier. Indifference to preventable suffering makes harm easier. A practitioner may begin by asking where habits harden the heart: entertainment that celebrates cruelty, speech that turns people into objects, or choices that hide harm because the victims are distant."
+        ]
+      },
+      {
+        heading: "The Second Precept Protects Trust Around Possessions",
+        paragraphs: [
+          "The second precept concerns not taking what is not given. It includes obvious theft, but its daily meaning is wider: respecting property, time, credit, labor, shared resources, and digital boundaries. In a modern workplace, taking what is not given may include using someone else's work without acknowledgment or quietly shifting costs onto people with less power.",
+          "This precept protects trust. When people know their belongings, words, and work will not be taken casually, relationships become safer. It also trains contentment. The mind learns to notice the moment when wanting begins to negotiate with honesty.",
+          "In digital life, the second precept can be surprisingly concrete. A password, photograph, draft, private message, paid resource, or creative work may be easy to copy and still not be freely given. The question is not only 'Can I get away with this?' but 'What kind of world am I helping create if taking becomes normal?'"
+        ]
+      },
+      {
+        heading: "The Third Precept Protects Consent and Responsibility",
+        paragraphs: [
+          "The third precept is traditionally framed around sexual misconduct. For a general beginner audience, it is best understood as training in responsibility, consent, honesty, and non-exploitation in intimate life. Its exact explanation varies across cultures and communities, but it consistently asks practitioners not to use desire in ways that betray trust or cause harm.",
+          "This treatment must remain careful. The precept is not an invitation to pry into other people's private lives or rank them morally. It is a personal and communal commitment to avoid deception, coercion, betrayal, and carelessness where vulnerability is high.",
+          "A beginner can apply this precept by asking whether desire is being joined with honesty, respect, and responsibility. Are promises clear? Are power differences being handled carefully? Is anyone being pressured, hidden, used, or misled? These questions keep the precept practical without turning the article into explicit instruction or moral policing."
+        ]
+      },
+      {
+        heading: "The Fourth Precept Protects Speech",
+        paragraphs: [
+          "The Access to Insight source renders the fourth undertaking as refraining from incorrect speech. In practice, Buddhist communities often discuss lying, divisive speech, harsh speech, and idle or careless speech alongside this training. A deeper guide to the subject is available in <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>.",
+          "Speech deserves deeper attention because it is where many people create harm most often. Falsehood breaks trust. Exaggeration inflames conflict. A private confidence repeated for entertainment can injure a relationship. A technically true sentence can still be timed or shaped to wound. The fourth precept asks whether words are serving truth and care, or serving impulse.",
+          "A precept review around speech can be uncomfortable because speech feels fast. Words leave before the mind recognizes the intention. This is why practice may focus on conditions: sleep, resentment, group pressure, alcohol, online speed, or the wish to be clever. Reducing those conditions can be more effective than promising never to speak badly again."
+        ]
+      },
+      {
+        heading: "The Fifth Precept Protects Heedfulness",
+        paragraphs: [
+          "The fifth precept concerns intoxicating drinks and drugs that lead to carelessness. The point is not to create a culture of contempt. It is to protect heedfulness. When judgment is blurred, the other precepts become easier to break: speech loosens, boundaries weaken, anger escalates, and responsibility is postponed.",
+          "People live with different medical, social, legal, and recovery contexts. This article is not medical advice and does not give instructions about substances. The ethical question is narrower and serious: what makes heedlessness more likely, and what conditions help the practitioner remain responsible?",
+          "For some people, the answer may involve abstinence. For others, it may involve medical guidance, recovery support, changed social settings, or honest conversation with trusted people. The precept's center is heedfulness: protecting the mind from conditions that make harm easier to ignore."
+        ]
+      },
+      {
+        heading: "A Weekly Precept Reflection",
+        paragraphs: [
+          "Once a week, choose one precept and review it through four questions. Where was harm caused or prevented? Where was trust strengthened or weakened? What conditions made heedlessness more likely: fatigue, secrecy, resentment, pressure, loneliness, intoxication, or fear? What is one realistic repair or training intention?",
+          "Keep the review honest but not theatrical. If repair is needed, it may involve apology, restitution, clearer boundaries, different company, or a changed routine. If no obvious harm occurred, notice what protected that outcome. Good conduct is not luck alone; it usually has causes."
+        ]
+      },
+      {
+        heading: "Living the Precepts Without Weaponizing Them",
+        paragraphs: [
+          "The Five Precepts can make daily life more trustworthy. They can also be misused if they become a way to judge everyone else. A practitioner can hold the precepts sincerely while remembering humility. Training is personal, relational, and unfinished.",
+          "In this sense, the precepts are protective rather than decorative. They protect beings, belongings, relationships, speech, and heedfulness. They do not make a person perfect. They give imperfect people a way to keep learning how not to add unnecessary harm.",
+          "A mature relationship to the precepts includes both seriousness and humility. Seriousness remembers that actions matter. Humility remembers that training continues. Held together, those two qualities prevent both carelessness and self-righteousness.",
+          "The precepts also create a reason to return. A weekly review may reveal the same pattern for months: speech under stress, careless consumption, resentment toward a particular person, or secrecy around a habit. Repetition is not proof that practice is failing. It shows where the training is most alive. The precept becomes a mirror that keeps offering useful information.",
+          "If the review feels heavy, choose one precept rather than all five. Buddhist ethics becomes more livable when attention is specific. A week of truthful speech, a week of careful use of resources, or a week of protecting heedfulness can reveal more than a vague promise to be better.",
+          "The precepts are remembered through use. They become familiar by being brought to one grocery decision, one joke, one apology, one boundary, and one evening review."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "right-livelihood-modern-life",
+    title: "Right Livelihood in Modern Life: Buddhist Work Ethics Without Perfectionism",
+    seoTitle: "Right Livelihood in Modern Life: Buddhist Work Ethics",
+    description: "Explore Right Livelihood as a realistic Buddhist framework for work, income, responsibility, harm reduction, and ethical change.",
+    date: "2026-07-13",
+    author: SITE.author,
+    category: "Practice",
+    readTime: "10 min read",
+    thumbnail: "/images/articles/right-livelihood-modern-life.svg",
+    imageAlt: "A work path crossing tools, hands, and a balanced exchange symbol",
+    tags: ["Right Livelihood", "Buddhist ethics", "work", "Eightfold Path"],
+    relatedSlugs: ["eightfold-path-explained", "right-speech-buddhism", "what-is-karma-in-buddhism"],
+    content: [
+      {
+        paragraphs: [
+          "Right Livelihood asks how earning a living can be brought into Buddhist practice. For many modern readers, this is not a tidy question. Work may involve pressure, mixed motives, limited choices, family needs, managers, customers, products, systems, and bills that arrive whether or not the job feels spiritually clean.",
+          "A realistic approach avoids two extremes. One extreme treats money as automatically corrupt. The other treats income as morally neutral no matter how it is obtained. Right Livelihood sits in the harder middle: work is a condition for life, and the way income is earned can reduce harm or increase it.",
+          "This topic is sensitive because employment is tied to survival. Rent, food, medicine, immigration status, dependents, debt, and local opportunity all shape what choices are available. A Buddhist approach should not shame a person for needing income. It should help that person see more clearly where choice, pressure, complicity, and courage actually meet."
+        ]
+      },
+      {
+        heading: "Right Livelihood in the Eightfold Path",
+        paragraphs: [
+          "In <a href=\"https://www.dhammatalks.org/suttas/SN/SN45_8.html\">SN 45.8, the Magga-Vibhanga Sutta</a>, Thanissaro Bhikkhu's translation lists Right Livelihood as one factor of the Noble Eightfold Path and defines it in contrast with dishonest livelihood. The same path includes Right Speech and Right Action, which matters because work is full of speech and action.",
+          "Right Livelihood should not be isolated from intention. A job title alone may not reveal everything. What does the work produce? How are customers treated? What speech is required? Who carries the risk? What happens when a problem is discovered? The broader <a href=\"/articles/eightfold-path-explained/\">Eightfold Path</a> gives Right Livelihood its ethical context.",
+          "Because it is part of a path, Right Livelihood is not solved by branding oneself ethical. It asks for ongoing examination. A business may begin with a useful purpose and drift toward manipulation. A worker may begin with little influence and later gain authority. A job that once reduced harm may change after new leadership."
+        ]
+      },
+      {
+        heading: "A Work Dilemma: The Hidden Problem",
+        paragraphs: [
+          "Imagine an employee who discovers a known problem in a product before a sales deadline. The problem is not catastrophic, but it matters. A manager says, 'Do not mention it unless they ask directly.' The employee needs the job, respects parts of the company, and knows the customer is making a real decision with incomplete information.",
+          "A perfectionist reading of Right Livelihood might leap immediately to resignation. Sometimes leaving is necessary, especially when serious harm is built into the work. But many situations require staged responsibility: tell the truth where possible, document concerns, ask for better disclosure, refuse direct deception, seek allies, and consider longer-term change if the pattern continues.",
+          "The employee's first ethical task may be to slow the situation down. A deadline creates urgency, and urgency often pressures people into silence. They might ask for the issue to be included in release notes, request written guidance, or propose language that is accurate without being needlessly alarming. These are not heroic gestures, but they can prevent the mind from surrendering to helplessness."
+        ]
+      },
+      {
+        heading: "Mixed Conditions Are Still Conditions",
+        paragraphs: [
+          "Modern work often contains mixed conditions. A nurse may work inside a strained health system. A designer may support a useful product with manipulative marketing around it. A manager may have authority over workload but not company policy. A freelancer may need income from imperfect clients while trying to shift toward better ones.",
+          "This does not make ethics meaningless. It makes ethics more specific. Responsibility differs by role and influence. A senior leader has different power from a new worker. A business owner has choices an hourly employee may not have. A person with savings can take risks that someone supporting family may not be able to take. Buddhist work ethics should be honest about pressure without surrendering conscience.",
+          "Specificity also prevents vague guilt. If a person feels bad about an entire industry but has no immediate alternative, the review can focus on the nearest live choice: one truthful disclosure, one humane schedule change, one refusal to exploit fear, one search for better training, or one plan to build savings for transition. Right Livelihood becomes workable when it moves from fog to causes."
+        ]
+      },
+      {
+        heading: "Speech, Sales, and Concealment",
+        paragraphs: [
+          "Many livelihood questions pass through speech. Sales copy, meetings, reports, interviews, performance reviews, and customer support can all become places where truth is bent. If work asks a person to mislead, exaggerate, hide risks, flatter falsely, or blame unfairly, the issue is not only professional. It touches <a href=\"/articles/right-speech-buddhism/\">Right Speech</a> directly.",
+          "In the hidden-problem scenario, a Right Livelihood response may start with language: 'I cannot say there is no issue. I can explain the current limitation and what we are doing about it.' This may not solve the whole system, but it reduces participation in deception. Small reductions in harm are not meaningless when they protect real people.",
+          "A similar test appears in leadership. A manager may not control the entire company, but they may control how deadlines are assigned, whether concerns are punished, how credit is shared, and whether exhausted workers are treated as disposable. Right Livelihood becomes more concrete as influence grows."
+        ]
+      },
+      {
+        heading: "Employers, Workers, and Mutual Duties",
+        paragraphs: [
+          "A second source, <a href=\"https://www.accesstoinsight.org/tipitaka/dn/dn.31.0.ksw0.html\">DN 31, the Sigalovada Sutta</a>, translated by John Kelly, Sue Sawyer, and Victoria Yareham, includes guidance on reciprocal responsibilities in household and social life. Its employer-worker passage names duties such as assigning work according to ability, providing wages and food, care in sickness, sharing special treats, and reasonable time off.",
+          "This does not create a complete modern labor policy, and it should not be stretched beyond its context. It does, however, show that Buddhist ethical reflection is not limited to private intention. Work relationships include power, care, fairness, and material conditions. A manager practicing Right Livelihood should ask not only whether the product is acceptable, but whether people are being used carelessly.",
+          "A worker's responsibilities also matter. Doing work well, taking only what is given, and supporting a trustworthy reputation are not glamorous teachings, but they keep livelihood relational. Ethical work is not only what the employer owes; it is also how the worker handles time, tools, truth, and the people who depend on the work being done."
+        ]
+      },
+      {
+        heading: "Money as a Practical Condition",
+        paragraphs: [
+          "Money can support generosity, shelter, medicine, education, family, community, and practice. It can also feed greed, status competition, exploitation, and fear. Buddhism does not require a layperson to pretend income is irrelevant. It asks what craving, harm, and delusion gather around income.",
+          "This is why <a href=\"/articles/what-is-karma-in-buddhism/\">karma</a> is relevant without turning poverty or employment pressure into blame. People inherit different constraints. The practical question is: within these constraints, what choices are available now, and what future conditions could make more ethical choices possible?"
+        ]
+      },
+      {
+        heading: "A Right Livelihood Review",
+        paragraphs: [
+          "Use this review as a reflection, not a purity score. What does this work produce or support? Who may be helped or harmed? Where am I asked to mislead, conceal, pressure, or exploit? What influence do I actually have? What is one realistic reduction in harm? Is a longer-term change necessary?",
+          "The answer might be a conversation, a refusal, a documented concern, a revised script, a fairer schedule, a plan to change teams, or a job search that cannot happen overnight. <a href=\"/articles/noble-eightfold-path-practical-guide/\">A practical Eightfold Path review</a> can support this kind of gradual training.",
+          "Do not use the review only when a crisis appears. Use it when taking a client, designing a feature, setting a price, writing copy, assigning a shift, or accepting a promotion. Ethical problems become harder to change after systems are built around them. Early review is often kinder than late regret."
+        ]
+      },
+      {
+        heading: "Without Perfectionism, Without Escape",
+        paragraphs: [
+          "Right Livelihood does not ask workers to solve capitalism in one afternoon. It also does not excuse every livelihood choice because life is complicated. The middle work is more demanding: stay awake to harm, refuse avoidable deception, use the influence available, and prepare larger changes when small ones are no longer enough.",
+          "In the hidden-problem scenario, the ethical step may begin with one truthful sentence. Over time, that sentence may reveal whether the workplace can change or whether the practitioner must move. Either way, livelihood has entered practice.",
+          "If a longer-term change is needed, the path may include training, savings, networking, legal advice, or quiet preparation. Buddhism does not require theatrical purity. It asks that the direction of life be examined honestly and moved, where possible, toward less harm and more integrity.",
+          "A person may also discover that their work already contains wholesome conditions worth strengthening: mentoring juniors, making information clearer, treating customers honestly, reducing waste, or protecting time for family and service. Right Livelihood is not only a search for what is wrong. It is also the cultivation of what is already tending toward care.",
+          "This balanced view prevents cynicism. If every job is dismissed as impure, practice loses contact with reality. If every job is excused as necessary, practice loses moral force. Right Livelihood stays alive by asking for the next truthful adjustment while keeping sight of the larger direction.",
+          "That larger direction may change slowly, but it should remain visible. Without it, compromise becomes habit and habit starts to feel like fate.",
+          "Review keeps that direction visible daily."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "what-is-sangha-buddhist-community",
+    title: "What Is Sangha? Why Buddhist Community Matters for Beginners",
+    seoTitle: "What Is Sangha? Buddhist Community for Beginners",
+    description: "Understand Sangha as monastic community, Buddhist community, and wise companionship, with practical guidance for learning responsibly.",
+    date: "2026-07-13",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "8 min read",
+    thumbnail: "/images/articles/what-is-sangha-buddhist-community.svg",
+    imageAlt: "A respectful circle of varied figures around a shared lamp, symbolizing Buddhist community",
+    tags: ["Sangha", "Buddhist community", "wise friendship", "Buddhism for beginners"],
+    relatedSlugs: ["what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide", "mindful-listening-in-everyday-life"],
+    content: [
+      {
+        paragraphs: [
+          "Sangha is one of the most important words a Buddhist beginner will meet, and also one of the easiest to flatten. Traditionally, Sangha can refer especially to the monastic community. In many modern settings, people also use sangha to mean a local or online Buddhist practice community. Those uses are related, but they should not be casually treated as identical.",
+          "Community matters because Buddhist practice is not only private self-improvement. Teachings are received, preserved, questioned, embodied, and corrected through people. A reader learning alone can still begin sincerely, but wise companionship gives practice a different kind of support.",
+          "This is not a criticism of private practice. Many people begin because a book, podcast, article, or quiet meditation at home is the only available doorway. The point is that Buddhism has never been merely an idea floating without human carriers. It is practiced in relationships, lineages, rituals, ethical commitments, and shared responsibilities."
+        ]
+      },
+      {
+        heading: "Admirable Friendship as a Source Anchor",
+        paragraphs: [
+          "A key source for this article is <a href=\"https://www.dhammatalks.org/suttas/SN/SN45_2.html\">SN 45.2, the Upaddha Sutta</a>, in Thanissaro Bhikkhu's translation. In that discourse, admirable friendship, companionship, and collegiality are connected with developing and pursuing the Noble Eightfold Path. Echo Buddha applies that teaching to beginner learning while respecting that the source speaks in a monastic context.",
+          "This matters for readers who assume Buddhism is only meditation done alone. Solitary practice can be valuable, especially where local access is limited. Yet even solitary practice usually depends on translated texts, teachers, communities, and lineages that carried the Dhamma forward.",
+          "The source also keeps the article from reducing community to social comfort. Admirable friendship is not simply having pleasant people nearby. It is companionship that helps the path develop: view, intention, speech, action, livelihood, effort, mindfulness, and concentration. A community can be friendly and still not be spiritually supportive if it avoids truth or encourages carelessness."
+        ]
+      },
+      {
+        heading: "The Traditional Sangha and Broader Community Use",
+        paragraphs: [
+          "The monastic Sangha has a special traditional role in preserving teachings, practicing discipline, offering instruction, and providing a visible field of commitment. Lay communities support monastics, learn from them, and participate in generosity, ethics, ritual, and study in different ways across Buddhist cultures.",
+          "Modern English often uses sangha more broadly for a meditation group, temple community, retreat community, or online Buddhist circle. That broader use can be warm and useful, but it should not erase the distinct place of the monastic Sangha in many traditions. Respectful language keeps both meanings visible.",
+          "A beginner can simply be clear: 'This is my meditation group' or 'this temple community is my sangha in the broad modern sense.' Such phrasing avoids pretending that every informal group has the same role, discipline, or authority as the monastic Sangha. Precision can be an act of respect."
+        ]
+      },
+      {
+        heading: "Why Companionship Changes Practice",
+        paragraphs: [
+          "Good companions can interrupt self-deception. They may notice when practice has become pride, avoidance, harshness, or performance. They can also normalize difficulty. A beginner may think distraction, doubt, grief, or uneven motivation means failure. A wiser community can show that these are workable conditions rather than personal defects.",
+          "Community also trains listening. A group discussion, temple visit, or shared practice asks a person to receive perspectives beyond private preference. This connects naturally with <a href=\"/articles/mindful-listening-in-everyday-life/\">mindful listening</a> and with the relational side of <a href=\"/articles/compassion-in-buddhism-beginner-guide/\">compassion</a>.",
+          "It can also protect humility. Alone, a person may unknowingly choose only teachings that confirm existing habits. In community, one may encounter generosity practices, chanting, service, etiquette, silence, ritual, and teachers who emphasize areas the private self would not have selected. That friction can be uncomfortable and valuable."
+        ]
+      },
+      {
+        heading: "Teachers, Trust, and Judgement",
+        paragraphs: [
+          "Teachers can help a beginner avoid confusion, but a teacher's presence does not remove the need for discernment. Healthy learning environments usually allow respectful questions, clear boundaries, transparency around money and authority, and consistency between teaching and conduct.",
+          "Warning signs include pressure to obey without question, secrecy around finances or relationships, boundary violations, humiliation framed as spiritual training, isolation from outside support, or claims that one group alone has the only valid path. These signs do not mean suspicion should dominate every visit. They mean trust should be gradual and observable.",
+          "Respect and discernment can coexist. A beginner can bow, listen, donate, volunteer, and learn while still noticing whether the community handles power responsibly. Trust that cannot tolerate reasonable questions is not the same as faith."
+        ]
+      },
+      {
+        heading: "Online Sangha and Its Limits",
+        paragraphs: [
+          "Online communities can be helpful for people without local access. They may provide talks, reading groups, chanting, meditation sessions, and contact with practitioners across traditions. They can also become fast, reactive, and shallow if discussion rewards certainty more than humility.",
+          "An online group is not automatically equivalent to in-person community. Embodied practice, service, ritual, accountability, and long-term relationships are different when people share a place. Still, online learning can be a real first doorway when used carefully. <a href=\"/articles/buddhism-for-beginners-simple-guide/\">A simple beginner guide to Buddhism</a> can help orient that first doorway.",
+          "Careful online practice includes checking who is teaching, what tradition they represent, whether claims are sourced, how disagreement is handled, and whether the space rewards outrage. A slow, well-moderated reading group may be more nourishing than a large feed where Buddhist language becomes another way to win arguments."
+        ]
+      },
+      {
+        heading: "Visiting a Temple or Center Respectfully",
+        paragraphs: [
+          "Before visiting, read the center's stated tradition, schedule, visitor guidance, and conduct policies if available. Dress modestly, arrive on time, silence the phone, and observe before assuming how things are done. If unsure, ask a simple practical question rather than pretending to know.",
+          "You do not need to make a lifelong commitment on the first visit. Attend a public teaching, listen, notice how people treat newcomers, and give yourself permission to learn slowly. For broader orientation, see <a href=\"/articles/what-is-buddhism-beginner-guide/\">What Is Buddhism?</a> and the <a href=\"/articles/eightfold-path-explained/\">Eightfold Path explanation</a>.",
+          "If you come from a different religious, cultural, or secular background, humility helps. Avoid treating the space as a wellness studio with unfamiliar decoration. Notice customs around shoes, seating, images, donations, chanting, and teacher interaction. When unsure, follow posted guidance or ask quietly."
+        ]
+      },
+      {
+        heading: "A First Community Step",
+        paragraphs: [
+          "Choose one modest step: attend a public teaching, read a center's tradition and conduct information, observe a practice session before joining formally, ask how beginners are supported, or compare a few communities without rushing. If there is no local access, choose one reputable online teaching series and one discussion space with clear moderation.",
+          "The aim is not to collect spiritual identities. It is to find conditions that support humility, ethical conduct, learning, and wise companionship. Sangha, in any responsible use of the word, should help the path become less imaginary and more lived.",
+          "If the first group you visit is not suitable, that does not mean community is impossible. Different Buddhist traditions, languages, schedules, and teaching styles may fit different people. Move slowly, compare carefully, and let conduct matter at least as much as charisma.",
+          "A realistic first step may be very small: sit near the back, listen to one talk, attend one beginner class, or email one question about etiquette. The point is not to perform belonging. It is to learn whether the environment supports patience, honesty, generosity, and the gradual development of the path.",
+          "Community can also ask something of the beginner. It may ask for patience with unfamiliar forms, respect for elders, willingness to serve, and openness to correction. These are not always comfortable. When held in a healthy environment, they help practice move beyond preference and become training.",
+          "Sangha is therefore not only a place to receive comfort. It can be a place where generosity becomes scheduled, listening becomes disciplined, and humility becomes practical. A beginner does not need to enter every form immediately, but noticing this communal training helps prevent the word community from becoming only a social label.",
+          "Over time, the best community support is often ordinary and unglamorous: showing up, cleaning up, listening again, apologizing when needed, and letting the teaching be larger than personal preference. That ordinary reliability is one way Buddhist community becomes practice rather than atmosphere for a sincere beginner today."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "buddhist-gratitude-practice",
+    title: "Buddhist Gratitude Practice: Appreciating Life Without Clinging",
+    seoTitle: "Buddhist Gratitude Practice Without Forced Positivity",
+    description: "A reflective Buddhist gratitude practice shaped by contentment, generosity, relationship, and impermanence without denying difficulty.",
+    date: "2026-07-13",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/buddhist-gratitude-practice.svg",
+    imageAlt: "Open hands receiving and releasing a leaf with a small warm light",
+    tags: ["gratitude practice", "Buddhist reflection", "contentment", "non-attachment"],
+    relatedSlugs: ["impermanence-in-buddhism", "how-to-practice-non-attachment", "compassion-as-a-daily-discipline"],
+    content: [
+      {
+        paragraphs: [
+          "A cup is set down. Someone remembered. A door was held. Rain softened the heat. A sentence arrived at the right time. Gratitude often begins in moments too small to make a speech about, yet large enough to reveal dependence. Something supported this life, and the mind noticed.",
+          "Buddhist gratitude practice is not forced positivity. It does not require pretending that grief, injustice, exhaustion, or disappointment have disappeared. It asks whether appreciation can be honest without becoming possessive, sentimental, or blind.",
+          "This matters because gratitude is sometimes used badly. A suffering person may be told to be grateful instead of being helped. A worker may be told to appreciate having a job while unfair treatment continues. A child may be told gratitude means silence. Buddhist gratitude should not become a tool for suppressing truth."
+        ]
+      },
+      {
+        heading: "Gratitude, Contentment, and Source Grounding",
+        paragraphs: [
+          "The <a href=\"https://www.dhammatalks.org/suttas/KN/Khp/khp5.html\">Mangala Sutta, Khp 5</a>, in Thanissaro Bhikkhu's translation, places contentment and gratitude among qualities associated with protection and well-being. <a href=\"https://www.dhammatalks.org/suttas/AN/AN4_28.html\">AN 4.28</a> speaks repeatedly of contentment with basic supports and warns against exalting oneself or disparaging others on account of that contentment.",
+          "These sources do not present a modern journaling method. Echo Buddha's practice below is a contemporary reflection shaped by those themes: appreciation, contentment, humility, and non-clinging.",
+          "That distinction is important. The practice offered here is not being presented as a traditional formula from the suttas. It is a modern exercise designed to point back toward recognizable Buddhist concerns: how the mind receives, how it clings, how it responds, and how appreciation can lead to generosity rather than possession."
+        ]
+      },
+      {
+        heading: "Contentment Without Complacency",
+        paragraphs: [
+          "Contentment is sometimes misunderstood as settling for injustice or refusing improvement. Buddhist contentment is more subtle. It notices enoughness without denying that repair may still be needed. A person can appreciate shelter and still work for safer housing. A person can be grateful for help and still set a boundary. A person can enjoy a meal and still care about those without food.",
+          "Contentment weakens the belief that peace must wait for the next acquisition. It does not forbid effort. It changes the inner posture of effort so that action is less driven by endless hunger.",
+          "Contentment also resists comparison. Gratitude loses its steadiness when it turns into measuring who has more, who deserves more, or who appears more blessed. The contented mind can acknowledge unequal conditions without converting every perception into envy or pride. That humility echoes AN 4.28's warning against exalting oneself or disparaging others."
+        ]
+      },
+      {
+        heading: "Appreciation Without Ownership",
+        paragraphs: [
+          "Impermanence deepens gratitude because it reveals that what is received cannot be held still. A healthy body, a friendship, a season of work, a quiet morning, a teacher, a home, or a shared joke becomes more vivid when it is not treated as guaranteed. For a broader explanation, read <a href=\"/articles/impermanence-in-buddhism/\">Impermanence in Buddhism</a>.",
+          "This is where gratitude and non-attachment meet. Non-attachment does not say, 'Do not love this.' It says, 'Do not crush this by trying to own what changes.' The article on <a href=\"/articles/how-to-practice-non-attachment/\">how to practice non-attachment</a> explores that wider relationship.",
+          "A grateful person may therefore become more careful, not more clingy. Knowing that a friendship is changing can encourage a timely apology. Knowing that a body is not guaranteed can encourage rest and care. Knowing that a home depends on many conditions can encourage generosity toward those who make it possible."
+        ]
+      },
+      {
+        heading: "Gratitude Toward People Without Debt",
+        paragraphs: [
+          "Gratitude toward people can become tangled if it turns into emotional debt. Appreciation is wholesome when it recognizes support and responds with care. It becomes heavy when it says, 'Because you helped me, I can never disagree, leave, ask for respect, or tell the truth.'",
+          "A Buddhist gratitude practice should preserve dignity on both sides. The giver is not made into an owner. The receiver is not reduced to obligation. Gratitude may lead to generosity, service, kind words, or changed behavior, but it should not erase boundaries. <a href=\"/articles/compassion-as-a-daily-discipline/\">Compassion as a daily discipline</a> offers a practical companion to this point.",
+          "This distinction is especially important in families, workplaces, spiritual communities, and caregiving relationships. Help can be real and still not purchase control. Gratitude can be sincere and still leave room for honest disagreement. Appreciation is healthiest when it makes relationship more truthful, not more trapped."
+        ]
+      },
+      {
+        heading: "Difficult Days and Honest Gratitude",
+        paragraphs: [
+          "Some days are not good candidates for gratitude practice. In acute grief, shock, illness, or danger, forcing appreciation can become another form of harm. The practice may be skipped, shortened, or replaced by rest, help, or truthful lament. Gratitude should never be used to silence pain or excuse injustice.",
+          "On difficult but workable days, gratitude can be very small. Not 'I am grateful for everything,' but 'one person answered,' 'one breath was possible,' or 'the body carried me through the afternoon.' Honest gratitude stays close to what is real.",
+          "If gratitude brings up sadness, that may not be failure. Appreciation often reveals how much we depend on what can change. A memory of kindness may carry grief inside it. A good day may make a hard season more visible by contrast. Buddhist reflection can hold both without forcing either to disappear."
+        ]
+      },
+      {
+        heading: "A Three-Line Evening Practice",
+        paragraphs: [
+          "At the end of the day, write three lines. First, something received or supported today. Second, a person, condition, or unseen effort connected to it. Third, one way to respond with care, generosity, or non-clinging.",
+          "For example: 'A meal was ready. Many hands grew, carried, sold, cooked, and served it. I will eat with less distraction and waste less tomorrow.' Or: 'A friend listened. Their attention cost time and energy. I will not demand constant availability, and I will listen well when they need it.'",
+          "Let the practice remain small enough to be truthful. Gratitude that releases is lighter than gratitude that clings. It receives, responds, and lets the day pass.",
+          "If the mind starts turning the exercise into a performance, simplify it. One received thing, one condition behind it, one response. That is enough. The aim is not to produce a beautiful journal page; it is to train the heart to notice support and answer without grasping.",
+          "Over time, the practice may also reveal patterns of dependence that invite action. Gratitude for clean water may lead to less waste. Gratitude for a teacher may lead to careful study. Gratitude for a friend's patience may lead to a needed apology. Appreciation becomes Buddhist practice when it changes how the heart participates in the web of conditions.",
+          "On nights when nothing comes easily, the practice can become one line instead of three: 'Something supported this day, even if I cannot feel it clearly.' Then stop. Gratitude should remain an invitation, not another demand placed on a tired heart.",
+          "When practiced this way, gratitude is less about improving a mood and more about remembering relationship. The life that feels private is still supported by weather, food, labor, language, ancestors, teachers, strangers, and fragile conditions that deserve care.",
+          "That memory can make gratitude quieter and more durable, especially when a day has been difficult and appreciation must stay modest and honest tonight."
+        ]
+      }
+    ]
   }
 ];
 
@@ -7984,8 +8475,198 @@ const week3ArticleSeoDetails: Record<string, ArticleSeoDetails> = {
   }
 };
 
+const sixNewArticleSeoDetails: Record<string, ArticleSeoDetails> = {
+  "three-poisons-buddhism-explained": {
+    reviewedDate: "2026-07-13",
+    takeaways: [
+      "The three poisons are greed, aversion, and delusion: mental roots that can feed unskillful action.",
+      "Greed grabs for control or possession, aversion pushes away, and delusion mis-sees conditions.",
+      "The counter-roots are non-greed, non-aversion, and non-delusion.",
+      "Recognizing the roots helps interrupt harmful speech and action before they grow.",
+      "This teaching is not a quick cure or a reason to shame ordinary emotion."
+    ],
+    faqs: [
+      {
+        question: "What are the three poisons in Buddhism?",
+        answer:
+          "The three poisons are greed, aversion or hatred, and delusion. They are mental roots that can give rise to unskillful speech, action, and thought."
+      },
+      {
+        question: "Is delusion the same as being unintelligent?",
+        answer:
+          "No. Delusion means mis-seeing conditions or taking a partial view as the whole truth. Intelligent people can still act from delusion."
+      },
+      {
+        question: "What are the opposites of the three poisons?",
+        answer:
+          "Traditional teaching contrasts them with non-greed, non-aversion, and non-delusion, which support more skillful action."
+      },
+      {
+        question: "Can one reflection remove the three poisons?",
+        answer:
+          "No. A reflection can interrupt a pattern, but uprooting greed, aversion, and delusion is a long training in Buddhist practice."
+      }
+    ]
+  },
+  "equanimity-in-buddhism": {
+    reviewedDate: "2026-07-13",
+    takeaways: [
+      "Equanimity is balanced presence, not numbness or indifference.",
+      "AN 8.6 frames practice around changing worldly conditions such as gain, loss, praise, blame, pleasure, and pain.",
+      "Equanimity protects compassion from panic, favoritism, and reactive judgment.",
+      "Balance can support firm action when action is needed.",
+      "Pleasant conditions can distort judgment as much as unpleasant ones."
+    ],
+    faqs: [
+      {
+        question: "What is equanimity in Buddhism?",
+        answer:
+          "Equanimity is a balanced quality of mind that can meet pleasant and unpleasant conditions without being consumed by them."
+      },
+      {
+        question: "Does equanimity mean not caring?",
+        answer:
+          "No. Equanimity can care deeply while refusing to let reactivity, panic, or attachment make the decision."
+      },
+      {
+        question: "What are the worldly conditions in AN 8.6?",
+        answer:
+          "Thanissaro Bhikkhu's translation names gain, loss, status, disgrace, censure, praise, pleasure, and pain."
+      },
+      {
+        question: "How is equanimity related to compassion?",
+        answer:
+          "Equanimity steadies compassion so care can respond wisely rather than being overwhelmed or reactive."
+      }
+    ]
+  },
+  "five-precepts-in-daily-life": {
+    reviewedDate: "2026-07-13",
+    takeaways: [
+      "The Five Precepts are voluntary training rules for many lay Buddhists.",
+      "They protect life, property and trust, sexual responsibility, truthful speech, and heedfulness.",
+      "The precepts are not proof of moral superiority or tools for judging others.",
+      "Mistakes can lead to reflection, repair, and renewed training.",
+      "Daily application may vary across traditions and communities."
+    ],
+    faqs: [
+      {
+        question: "What are the Five Precepts in Buddhism?",
+        answer:
+          "They are training rules to refrain from taking life, taking what is not given, sexual misconduct, false or harmful speech, and intoxicants that lead to carelessness."
+      },
+      {
+        question: "Are the Five Precepts commandments?",
+        answer:
+          "They are usually presented as voluntary training commitments for lay practitioners, not divine commandments or proof of superiority."
+      },
+      {
+        question: "What should I do if I break a precept?",
+        answer:
+          "Reflect honestly on harm and conditions, repair what can be repaired, and renew the training intention without turning the mistake into a permanent identity."
+      },
+      {
+        question: "Do all Buddhist traditions explain the precepts the same way?",
+        answer:
+          "The basic commitments are widely recognized, but practical explanations and community expectations can vary by tradition and context."
+      }
+    ]
+  },
+  "right-livelihood-modern-life": {
+    reviewedDate: "2026-07-13",
+    takeaways: [
+      "Right Livelihood is part of the Noble Eightfold Path and concerns how income is earned.",
+      "Modern work often contains mixed conditions, so responsibility depends partly on role and influence.",
+      "Ethical work practice includes speech, products, pressure, harm reduction, and fair treatment.",
+      "Needing income is not a reason for shame, but it does not make all choices neutral.",
+      "Gradual reductions in harm can be meaningful while longer-term changes are considered."
+    ],
+    faqs: [
+      {
+        question: "What is Right Livelihood in Buddhism?",
+        answer:
+          "Right Livelihood is the Eightfold Path factor concerned with earning a living in ways that avoid dishonest or harmful livelihood."
+      },
+      {
+        question: "Do I need to quit my job immediately if it is imperfect?",
+        answer:
+          "Not necessarily. Some situations require urgent change, but many call first for truthful speech, harm reduction, documentation, boundaries, and realistic planning."
+      },
+      {
+        question: "Can Buddhist work ethics apply to managers and owners?",
+        answer:
+          "Yes. Greater influence usually brings greater responsibility around workload, honesty, wages, care, and the harm or benefit a business creates."
+      },
+      {
+        question: "Is money bad in Buddhism?",
+        answer:
+          "Money is a practical condition for lay life. The ethical issue is how it is obtained, used, clung to, and connected with harm or generosity."
+      }
+    ]
+  },
+  "what-is-sangha-buddhist-community": {
+    reviewedDate: "2026-07-13",
+    takeaways: [
+      "Sangha can refer especially to the monastic community and, in modern usage, to Buddhist practice communities.",
+      "Those meanings are related but should not be collapsed casually.",
+      "Wise companionship supports learning, humility, ethics, and the Eightfold Path.",
+      "Teachers and communities deserve respect, but trust should remain discerning.",
+      "Online community can help beginners, though it is not identical to in-person practice."
+    ],
+    faqs: [
+      {
+        question: "What does Sangha mean in Buddhism?",
+        answer:
+          "Sangha traditionally has a special connection with the monastic community, though modern English also uses it for Buddhist practice communities."
+      },
+      {
+        question: "Do I need a Sangha to begin practicing?",
+        answer:
+          "You can begin with study and practice on your own, but wise community can support learning, humility, ethics, and continuity."
+      },
+      {
+        question: "Is online Sangha the same as in-person community?",
+        answer:
+          "Online community can be useful, especially where local access is limited, but it does not fully replace embodied practice, service, and long-term in-person relationships."
+      },
+      {
+        question: "What are warning signs in a Buddhist community?",
+        answer:
+          "Pressure, secrecy, financial exploitation, boundary violations, humiliation, isolation, and discouraging reasonable questions are serious warning signs."
+      }
+    ]
+  },
+  "buddhist-gratitude-practice": {
+    reviewedDate: "2026-07-13",
+    takeaways: [
+      "Buddhist gratitude can be shaped by contentment, humility, generosity, and impermanence.",
+      "Gratitude should not be used to deny pain, grief, injustice, or boundaries.",
+      "Appreciation can deepen care without turning what is received into possession.",
+      "Gratitude toward people should not become emotional debt.",
+      "A small evening practice can connect receiving with generous response."
+    ],
+    faqs: [
+      {
+        question: "Is gratitude a Buddhist practice?",
+        answer:
+          "Gratitude appears within broader Buddhist themes of contentment, humility, generosity, and wise relationship, though modern gratitude exercises are contemporary practice forms."
+      },
+      {
+        question: "How is Buddhist gratitude different from forced positivity?",
+        answer:
+          "It does not deny pain or pressure people to feel good. It notices real support while allowing grief, boundaries, and repair."
+      },
+      {
+        question: "Can gratitude become clinging?",
+        answer:
+          "Yes. Appreciation becomes clinging when it tries to own, freeze, or control what has been received."
+      }
+    ]
+  }
+};
+
 export function getArticleSeoDetails(slug: string) {
-  return week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  return sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
 }
 
 export function getArticleWordCount(article: Article) {

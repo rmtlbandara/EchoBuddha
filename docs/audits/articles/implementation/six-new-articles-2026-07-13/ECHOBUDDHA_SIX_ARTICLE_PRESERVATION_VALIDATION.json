@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-07-13T16:35:49.430Z",
+  "originalArticleCount": 36,
+  "finalArticleCount": 42,
+  "expectedFinalArticleCount": 42,
+  "protectedExistingArticleCount": 36,
+  "existingProtectedValuesUnchanged": true,
+  "diffs": [],
+  "newArticleSlugs": [
+    "three-poisons-buddhism-explained",
+    "equanimity-in-buddhism",
+    "five-precepts-in-daily-life",
+    "right-livelihood-modern-life",
+    "what-is-sangha-buddhist-community",
+    "buddhist-gratitude-practice"
+  ],
+  "categoryCounts": {
+    "Buddhist Wisdom": 17,
+    "Meditation": 9,
+    "Mindfulness": 5,
+    "Reflection": 7,
+    "Practice": 4
+  },
+  "metadataUniqueness": {
+    "duplicateTitles": [],
+    "duplicateSeoTitles": [],
+    "duplicateDescriptions": [],
+    "duplicateCanonicals": [],
+    "pass": true
+  },
+  "links": {
+    "invalidNewInternalLinks": [],
+    "pass": true
+  },
+  "images": {
+    "missingImages": [],
+    "missingAlt": [],
+    "pass": true
+  },
+  "schema": {
+    "expectedTypes": [
+      "BlogPosting",
+      "Article",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "newArticles": {
+      "three-poisons-buddhism-explained": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "equanimity-in-buddhism": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "five-precepts-in-daily-life": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "right-livelihood-modern-life": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "what-is-sangha-buddhist-community": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "buddhist-gratitude-practice": [
+        "BlogPosting",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    "faqSchemaMatchesVisibleFaqs": true
+  },
+  "advertisementsRemainDisabled": true,
+  "noPushOrDeploymentPerformedByThisScript": true
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Five markers forming a protective path</title>
+  <desc id="desc">Five simple markers form a curving path, representing the Five Precepts as training commitments that protect trust.</desc>
+  <rect width="1200" height="675" fill="#fbf6ea"/>
+  <path d="M186 512c184-178 279-55 392-178 112-121 184-150 436-96" fill="none" stroke="#d8caa8" stroke-width="76" stroke-linecap="round"/>
+  <path d="M186 512c184-178 279-55 392-178 112-121 184-150 436-96" fill="none" stroke="#fffdf8" stroke-width="52" stroke-linecap="round"/>
+  <g fill="#6f8f69" stroke="#3f5d43" stroke-width="8">
+    <circle cx="247" cy="468" r="48"/>
+    <circle cx="426" cy="405" r="48"/>
+    <circle cx="590" cy="327" r="48"/>
+    <circle cx="748" cy="246" r="48"/>
+    <circle cx="963" cy="244" r="48"/>
+  </g>
+  <g fill="#fffdf8" font-family="Georgia, serif" font-size="42" font-weight="700" text-anchor="middle">
+    <text x="247" y="482">1</text>
+    <text x="426" y="419">2</text>
+    <text x="590" y="341">3</text>
+    <text x="748" y="260">4</text>
+    <text x="963" y="258">5</text>
+  </g>
+  <path d="M140 555c143 50 300 60 461 28 177-36 328-123 459-261" fill="none" stroke="#b98524" stroke-width="8" opacity=".45"/>
+  <text x="600" y="588" fill="#3f3026" font-family="Georgia, serif" font-size="34" font-weight="700" text-anchor="middle">Training that protects trust</text>
+</svg>

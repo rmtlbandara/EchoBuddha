@@ -61,7 +61,7 @@ const site = await importTs("src/data/site.ts");
 const articles = canonical.articles;
 const slugs = articles.map((article) => article.slug);
 const sourceSlugs = site.fullArticles.map((article) => article.slug);
-assert(articles.length === 36, `Expected 36 canonical articles, found ${articles.length}`);
+assert(articles.length === sourceSlugs.length, `Expected ${sourceSlugs.length} canonical articles, found ${articles.length}`);
 assert(articles.length === site.fullArticles.length, "Canonical article count does not match fullArticles");
 assert(unique(slugs).length === slugs.length, "Duplicate canonical slugs found");
 assert(JSON.stringify(slugs) === JSON.stringify(sourceSlugs), "Canonical article order/slugs do not match fullArticles");
