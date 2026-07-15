@@ -8,6 +8,7 @@ import {
   getLearningBreadcrumbs,
   getLearningQualityNote,
   getLearningSection,
+  getSourceLinks,
   getTermLinks,
   type LearningPage
 } from "../../../data/learn";
@@ -27,6 +28,7 @@ const breadcrumbs = getLearningBreadcrumbs(page);
 const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: item.description ?? "" }));
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
+const sourceLinks = getSourceLinks(page);
 const sourceNoteText =
   page.section === "buddhist-dictionary"
     ? `${page.title} is explained in simplified language for general readers. Compare this definition with reputable Buddhist teachers, translations, and study communities for deeper tradition-specific learning.`
@@ -145,6 +147,19 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           <section>
             <h2>Further Reading / Source Note</h2>
             <p>{sourceNoteText}</p>
+            {sourceLinks.length > 0 && (
+              <>
+                <h3>Traditional References</h3>
+                <ul class="source-list">
+                  {sourceLinks.map((source) => (
+                    <li>
+                      <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                      <span>{source.note}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </section>
         )}
       </div>
@@ -217,6 +232,25 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
     border-bottom: 1px solid var(--color-line);
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   .side-card {

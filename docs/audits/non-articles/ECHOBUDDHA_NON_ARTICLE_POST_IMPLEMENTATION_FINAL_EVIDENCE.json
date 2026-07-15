@@ -1,0 +1,35 @@
+{
+  "auditDate": "2026-07-15",
+  "finalAuditDirectory": "docs/audits/non-articles/implementation/phase-2/final",
+  "finalReportDirectory": "docs/audits/non-articles/implementation/phase-2",
+  "generatedNonArticleRoutes": 264,
+  "quoteRecords": 153,
+  "quoteStoriesMateriallyChanged": 153,
+  "dailyReflectionsMateriallyChanged": 30,
+  "todayRouteChanged": true,
+  "sourceReviewNeeded": 0,
+  "preservationPassed": true,
+  "qualityGatesPassed": true,
+  "similarity": {
+    "baseline": {
+      "duplicateSentenceGroups": 100,
+      "duplicateParagraphGroups": 100,
+      "retainedHighSimilarityPairs": 200,
+      "maxDuplicateSentenceRoutes": 153,
+      "maxDuplicateParagraphRoutes": 153
+    },
+    "final": {
+      "duplicateSentenceGroups": 100,
+      "duplicateParagraphGroups": 100,
+      "retainedHighSimilarityPairs": 200,
+      "maxDuplicateSentenceRoutes": 110,
+      "maxDuplicateParagraphRoutes": 52
+    },
+    "fullHighSimilarityPairsFromAuditConsole": {
+      "baseline": 12242,
+      "final": 11104
+    }
+  },
+  "adsEnabled": false,
+  "pushedOrDeployed": false
+}

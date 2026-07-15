@@ -118,6 +118,56 @@ const buddhism101LearningOrder = [
 ];
 const dictionarySourceNote =
   "Dictionary definitions are simplified for general readers. For deeper study, compare reputable Buddhist teachers, translations, study communities, and tradition-specific explanations.";
+const sourceLinksBySection = {
+  "buddhism-101": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Background source for the Four Noble Truths and path orientation used across beginner lessons."
+    },
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Background source for the Eightfold Path lessons."
+    }
+  ],
+  "buddhist-dictionary": [
+    {
+      label: "Access to Insight glossary",
+      href: "https://www.accesstoinsight.org/glossary.html",
+      note: "Used as one comparison point for Pali terms and traditional teaching context."
+    },
+    {
+      label: "Dhammapada, Maggavagga",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "Supports key terms such as anicca, dukkha, and anatta."
+    }
+  ],
+  "dhammapada-reflections": [
+    {
+      label: "Dhammapada, Yamakavagga",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional source background for several reflection themes."
+    },
+    {
+      label: "Dhammapada, Buddhavagga",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "Traditional source background for purification, patience, and refuge themes."
+    }
+  ],
+  "sutta-for-daily-life": [
+    {
+      label: "Karaniya Metta Sutta (Sn 1.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Source background for goodwill and loving-kindness practice."
+    },
+    {
+      label: "Kalama Sutta (AN 3.65)",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+      note: "Source background for wise inquiry and testing what leads to welfare."
+    }
+  ]
+}[section.slug] ?? [];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -216,6 +266,23 @@ const jsonLd = [
           </div>
           <p class="source-helper">{dictionarySourceNote}</p>
         </>
+      )}
+      {sourceLinksBySection.length > 0 && (
+        <section class="source-panel" aria-label={`${section.title} sources`}>
+          <span class="eyebrow">Source context</span>
+          <p>
+            Echo Buddha uses original beginner-friendly explanations. These references give readers a starting point
+            for checking traditional context and comparing translations.
+          </p>
+          <ul class="source-list">
+            {sourceLinksBySection.map((source) => (
+              <li>
+                <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                <span>{source.note}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
       <div class="grid grid--3">
         {section.items.map((item) => (
@@ -341,6 +408,36 @@ const jsonLd = [
   .source-helper {
     font-size: 0.94rem;
     margin: -0.5rem 0 1.5rem;
+  }
+
+  .source-panel {
+    border-block: 1px solid var(--color-line);
+    margin: 1.5rem 0;
+    padding: 1.25rem 0;
+  }
+
+  .source-panel p {
+    color: var(--color-muted);
+    margin-bottom: 1rem;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   .filter-panel {

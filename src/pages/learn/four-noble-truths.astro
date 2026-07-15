@@ -17,6 +17,18 @@ const truthCards = [
 const relatedArticles = ["four-noble-truths-explained-simply", "four-noble-truths-explained", "what-is-buddhism-beginner-guide"]
   .map((slug) => fullArticles.find((article) => article.slug === slug))
   .filter(Boolean);
+const sourceLinks = [
+  {
+    label: "Dhammacakkappavattana Sutta (SN 56.11)",
+    href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    note: "Primary early-discourse source for the Four Noble Truths and the path leading beyond dukkha."
+  },
+  {
+    label: "Magga-vibhanga Sutta (SN 45.8)",
+    href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    note: "Supports the path card by defining the Noble Eightfold Path factors."
+  }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -76,9 +88,16 @@ const jsonLd = [
         <h2>Source Notes</h2>
         <p>
           This is an original Echo Buddha beginner explanation of a central Buddhist framework. For formal study,
-          compare reputable translations and learning resources such as SuttaCentral, Access to Insight, Buddhist
-          Publication Society, and qualified teachers.
+          compare reputable translations, study communities, and qualified teachers.
         </p>
+        <ul class="source-list">
+          {sourceLinks.map((source) => (
+            <li>
+              <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+              <span>{source.note}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
 
@@ -105,5 +124,24 @@ const jsonLd = [
   .section-band {
     background: rgba(247, 240, 229, 0.64);
     border-block: 1px solid var(--color-line);
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 </style>

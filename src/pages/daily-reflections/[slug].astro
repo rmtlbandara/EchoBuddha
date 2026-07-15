@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import {
   dailyReflections,
+  getDailyReflectionDetails,
   getDailyReflectionExample,
   getDailyReflectionPath,
   getDailyReflectionQuoteLinks,
@@ -21,6 +22,7 @@ const { reflection } = Astro.props as { reflection: DailyReflection };
 const canonicalPath = getDailyReflectionPath(reflection);
 const title = `${reflection.title} - Daily Buddhist Reflection`;
 const description = `${reflection.reflection} Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.`;
+const details = getDailyReflectionDetails(reflection);
 const dailyLifeExample = getDailyReflectionExample(reflection);
 const relatedQuoteLinks = getDailyReflectionQuoteLinks(reflection);
 const continueLinks = [
@@ -38,6 +40,7 @@ const jsonLd = [
     author: { "@type": "Organization", name: SITE.author, url: `${SITE.url}/authors/echo-buddha-editorial/` },
     publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
     about: { "@type": "Thing", name: reflection.relatedIdea },
+    learningResourceType: details?.form ?? "daily reflection",
     isPartOf: {
       "@type": "CollectionPage",
       name: "Daily Buddhist Reflections",
@@ -64,12 +67,19 @@ const jsonLd = [
         <span class="eyebrow">{reflection.relatedIdea}</span>
         <h1>{reflection.title}</h1>
         <blockquote>{reflection.reflection}</blockquote>
+        {details && <p class="reflection-form">{details.form}</p>}
       </div>
     </header>
 
     <div class="container article-shell">
       <div class="prose reflection-body">
         <section class="surface reflection-summary">
+          {details && (
+            <>
+              <h2>Central Observation</h2>
+              <p>{details.centralObservation}</p>
+            </>
+          )}
           <h2>Simple Meaning</h2>
           <p>{reflection.meaning}</p>
         </section>
@@ -79,6 +89,13 @@ const jsonLd = [
 
         <h2>Practice for Today</h2>
         <p>{reflection.practice}</p>
+
+        {details && (
+          <>
+            <h2>Natural Next Step</h2>
+            <p>{details.nextStep}</p>
+          </>
+        )}
 
         <h2>Journal Question</h2>
         <p>{reflection.journalQuestion}</p>
@@ -100,6 +117,7 @@ const jsonLd = [
             This is an original Echo Buddha reflection written for education and daily contemplation. It is not medical
             advice, and mindfulness or meditation should be practiced gently according to your needs.
           </p>
+          {details?.wellbeingNote && <p>{details.wellbeingNote}</p>}
         </section>
       </div>
 
@@ -147,6 +165,19 @@ const jsonLd = [
     font-size: clamp(1.35rem, 3vw, 1.8rem);
     margin: 1.5rem 0 0;
     padding-left: 1.25rem;
+  }
+
+  .reflection-form {
+    background: var(--color-green-soft);
+    border: 1px solid rgba(45, 106, 79, 0.2);
+    border-radius: var(--radius);
+    color: var(--color-green);
+    display: inline-flex;
+    font-size: 0.86rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    padding: 0.35rem 0.65rem;
+    text-transform: capitalize;
   }
 
   .reflection-summary,

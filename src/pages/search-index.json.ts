@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import {
   allMeditationPages,
+  dictionaryPages,
   getAllLearningPages,
   questionsAboutBuddhism,
   resourceGroups
@@ -188,6 +189,126 @@ const resourcesItem: SearchIndexItem = {
 };
 
 const hubItems: SearchIndexItem[] = [
+  {
+    title: "Echo Buddha",
+    url: "/",
+    type: "Home",
+    excerpt: "Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful living for ordinary life.",
+    category: "Home",
+    section: "Echo Buddha",
+    keywords: ["Echo Buddha", "Buddhist wisdom", "meditation", "mindfulness", "daily reflections"],
+    content: "Echo Buddha Buddhist wisdom meditation mindfulness daily reflections quotes beginner learning mindful living"
+  },
+  {
+    title: "About Echo Buddha",
+    url: "/about/",
+    type: "Trust",
+    excerpt: "Learn about Echo Buddha's purpose, educational approach, editorial standards, and respectful Buddhist-inspired content.",
+    category: "About",
+    section: "Trust",
+    keywords: ["about", "purpose", "editorial standards", "Echo Buddha"],
+    content: "about Echo Buddha purpose educational approach editorial standards respectful Buddhist inspired content"
+  },
+  {
+    title: "Echo Buddha Editorial",
+    url: "/authors/echo-buddha-editorial/",
+    type: "Author",
+    excerpt: "Meet the editorial voice behind Echo Buddha's Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.",
+    category: "Editorial",
+    section: "Trust",
+    keywords: ["author", "editorial", "Echo Buddha Editorial"],
+    content: "Echo Buddha Editorial author profile editorial voice accessible Buddhist inspired wisdom mindfulness meditation education"
+  },
+  {
+    title: "Contact Echo Buddha",
+    url: "/contact/",
+    type: "Contact",
+    excerpt: "Contact Echo Buddha with questions, suggestions, article ideas, feedback, or correction reports.",
+    category: "Contact",
+    section: "Trust",
+    keywords: ["contact", "corrections", "feedback", "suggestions"],
+    content: "contact Echo Buddha corrections feedback suggestions topic ideas editorial team email"
+  },
+  {
+    title: "Editorial Policy",
+    url: "/editorial-policy/",
+    type: "Trust",
+    excerpt: "Read how Echo Buddha creates, reviews, corrects, and limits its educational content.",
+    category: "Editorial Standards",
+    section: "Trust",
+    keywords: ["editorial policy", "corrections", "originality", "review"],
+    content: "editorial policy originality writing review corrections responsible limitations educational reflective content"
+  },
+  {
+    title: "Learn Buddhist Wisdom for Daily Life",
+    url: "/learn/",
+    type: "Learning Hub",
+    excerpt: "Explore Buddhist teachings, dictionary terms, meditation guidance, Dhammapada reflections, sutta notes, and practical daily wisdom.",
+    category: "Learning Library",
+    section: "Learn",
+    keywords: ["learn Buddhism", "Buddhism 101", "Buddhist dictionary", "Dhammapada", "sutta"],
+    content: "learn Buddhist wisdom daily life Buddhism 101 dictionary Dhammapada reflections sutta notes meditation guidance"
+  },
+  {
+    title: "Buddhism 101",
+    url: "/learn/buddhism-101/",
+    type: "Learning Hub",
+    excerpt: "Beginner-friendly lessons on the Buddha, Four Noble Truths, Eightfold Path, precepts, karma, mindfulness, and daily practice.",
+    category: "Beginner Buddhism",
+    section: "Learn",
+    keywords: ["Buddhism 101", "beginner Buddhism", "Buddha", "Four Noble Truths", "Eightfold Path"],
+    content: "Buddhism 101 Buddha Four Noble Truths Eightfold Path precepts karma mindfulness impermanence daily Buddhist practice"
+  },
+  {
+    title: "Buddhist Dictionary",
+    url: "/learn/buddhist-dictionary/",
+    type: "Dictionary",
+    excerpt: "Simple Buddhist term definitions with practice context for anicca, dukkha, anatta, metta, karma, mindfulness, and more.",
+    category: "Dictionary",
+    section: "Learn",
+    keywords: ["Buddhist dictionary", "Buddhist terms", "anicca", "dukkha", "metta", "karma"],
+    content: dictionaryPages.map((page) => `${page.title} ${page.description} ${(page.terms ?? []).join(" ")}`).join(" ")
+  },
+  {
+    title: "Dhammapada Reflections",
+    url: "/learn/dhammapada-reflections/",
+    type: "Learning Hub",
+    excerpt: "Original, public-domain-safe Dhammapada reflections for daily practice, speech, patience, and training the mind.",
+    category: "Dhammapada",
+    section: "Learn",
+    keywords: ["Dhammapada reflections", "Dhammapada", "mind training", "patience"],
+    content: "Dhammapada reflections mind leads all things hatred not ended by hatred avoid evil do good purify mind peace trained mind"
+  },
+  {
+    title: "Sutta for Daily Life",
+    url: "/learn/sutta-for-daily-life/",
+    type: "Learning Hub",
+    excerpt: "Plain-English sutta notes for metta, wise thinking, right speech, mindfulness of breathing, and patience.",
+    category: "Sutta Guide",
+    section: "Learn",
+    keywords: ["sutta", "daily life", "metta sutta", "Kalama Sutta", "right speech"],
+    content: "sutta for daily life metta sutta Kalama Sutta right speech mindfulness of breathing patience daily practice"
+  },
+  {
+    title: "Beginner Meditation Guides and Mindfulness Practices",
+    url: "/meditation/",
+    type: "Meditation Hub",
+    excerpt: "Simple meditation practices, breathing exercises, walking meditation, loving-kindness, and mindful awareness techniques for beginners.",
+    category: "Meditation",
+    section: "Meditation",
+    keywords: ["meditation", "mindfulness", "breathing meditation", "walking meditation", "loving-kindness"],
+    content: "meditation guide beginner breathing meditation loving kindness walking meditation mindfulness in daily life five minute meditation"
+  },
+  {
+    title: "Meditation Guide for Beginners",
+    url: "/meditation-guide/",
+    type: "Meditation Guide",
+    excerpt: "Learn posture, breathing, mindfulness, distractions, meditation types, and daily practice for beginners.",
+    category: "Meditation",
+    section: "Meditation",
+    keywords: ["meditation guide", "how to meditate", "beginner meditation", "breathing"],
+    content: "meditation guide beginners posture breathing mindfulness distractions ten minute practice common meditation challenges daily practice"
+  },
   {
     title: "Start Here",
     url: "/start-here/",

@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-07-15T07:14:28.870Z",
+  "passed": true,
+  "phase2BaselineToFinal": {
+    "label": "Phase 2 baseline to final",
+    "beforeRoutes": 264,
+    "afterRoutes": 264,
+    "passed": true,
+    "failures": [],
+    "warnings": [],
+    "intentionalChanges": [
+      {
+        "route": "/daily-reflections/today/",
+        "field": "schemaTypes",
+        "before": [
+          "WebSite",
+          "Organization",
+          "Article",
+          "BreadcrumbList"
+        ],
+        "after": [
+          "WebSite",
+          "Organization",
+          "WebPage",
+          "BreadcrumbList"
+        ],
+        "reason": "Phase 2 intentionally reclassified the recurring Today utility route from Article to WebPage."
+      }
+    ]
+  },
+  "originalPreImplementationToFinal": {
+    "label": "Original pre-implementation to final",
+    "beforeRoutes": 264,
+    "afterRoutes": 264,
+    "passed": true,
+    "failures": [],
+    "warnings": [],
+    "intentionalChanges": [
+      {
+        "route": "/daily-reflections/today/",
+        "field": "schemaTypes",
+        "before": [
+          "WebSite",
+          "Organization",
+          "Article",
+          "BreadcrumbList"
+        ],
+        "after": [
+          "WebSite",
+          "Organization",
+          "WebPage",
+          "BreadcrumbList"
+        ],
+        "reason": "Phase 2 intentionally reclassified the recurring Today utility route from Article to WebPage."
+      }
+    ]
+  },
+  "summary": {
+    "phase2RoutesBefore": 264,
+    "phase2RoutesAfter": 264,
+    "originalRoutesBefore": 264,
+    "finalRoutesAfter": 264,
+    "failures": 0,
+    "warnings": 0,
+    "intentionalChanges": 2
+  }
+}

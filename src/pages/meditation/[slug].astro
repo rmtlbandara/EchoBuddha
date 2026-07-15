@@ -3,7 +3,14 @@ import Layout from "../../layouts/Layout.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import { SITE } from "../../data/site";
-import { allMeditationPages, getBreadcrumbJsonLd, getLearningQualityNote, getTermLinks, type LearningPage } from "../../data/learn";
+import {
+  allMeditationPages,
+  getBreadcrumbJsonLd,
+  getLearningQualityNote,
+  getSourceLinks,
+  getTermLinks,
+  type LearningPage
+} from "../../data/learn";
 
 export function getStaticPaths() {
   return allMeditationPages.map((page) => ({
@@ -16,6 +23,7 @@ const { page } = Astro.props as { page: LearningPage };
 const canonicalPath = `/meditation/${page.slug}/`;
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
+const sourceLinks = getSourceLinks(page);
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -95,6 +103,19 @@ const jsonLd = [
           <section>
             <h2>Safety Note</h2>
             <p>{page.sourceNote}</p>
+            {sourceLinks.length > 0 && (
+              <>
+                <h3>Practice Sources</h3>
+                <ul class="source-list">
+                  {sourceLinks.map((source) => (
+                    <li>
+                      <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                      <span>{source.note}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </section>
         )}
       </div>
@@ -147,6 +168,25 @@ const jsonLd = [
     border-bottom: 1px solid var(--color-line);
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   .side-card {

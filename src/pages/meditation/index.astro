@@ -18,6 +18,18 @@ const guideChoices = [
   { need: "Daily awareness", label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
   { need: "Need consistency", label: "10-Minute Meditation", href: "/meditation-guide/#ten-minute-practice" }
 ];
+const sourceLinks = [
+  {
+    label: "Anapanasati Sutta (MN 118)",
+    href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    note: "Classical source for mindfulness of breathing."
+  },
+  {
+    label: "Maha-satipatthana Sutta (DN 22)",
+    href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    note: "Traditional source for mindfulness in posture, walking, and ordinary activities."
+  }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -80,6 +92,17 @@ const jsonLd = [
           Meditation is educational and reflective. It is not a replacement for medical or mental health care. If
           practice feels overwhelming, open your eyes, feel your feet, shorten the session, or seek qualified support.
         </p>
+        <div class="source-note">
+          <h3>Practice Sources</h3>
+          <ul class="source-list">
+            {sourceLinks.map((source) => (
+              <li>
+                <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                <span>{source.note}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       <a class="button" href="/meditation-guide/">Open the full meditation guide</a>
     </div>
@@ -131,6 +154,33 @@ const jsonLd = [
     color: var(--color-ink);
     font-family: var(--font-serif);
     font-size: 1rem;
+  }
+
+  .source-note {
+    margin-top: 1rem;
+  }
+
+  .source-note h3 {
+    font-size: 1.2rem;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   @media (min-width: 720px) {

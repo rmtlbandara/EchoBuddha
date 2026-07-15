@@ -33,6 +33,23 @@ const faqItems = [
       "Open your eyes, feel your feet, shorten the session, or stop. People dealing with trauma or serious mental health distress may benefit from guidance from a qualified professional."
   }
 ];
+const sourceLinks = [
+  {
+    label: "Anapanasati Sutta (MN 118)",
+    href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    note: "Traditional source for mindfulness of breathing."
+  },
+  {
+    label: "Maha-satipatthana Sutta (DN 22)",
+    href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    note: "Traditional source for mindfulness in sitting, walking, posture, and daily activities."
+  },
+  {
+    label: "Karaniya Metta Sutta (Sn 1.8)",
+    href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    note: "Background source for loving-kindness practice."
+  }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -325,6 +342,14 @@ const jsonLd = [
             and breathing practice themes. It is not medical or mental health advice. For deeper study, compare
             reputable Buddhist teachers, practice communities, and tradition-specific meditation instructions.
           </p>
+          <ul class="source-list">
+            {sourceLinks.map((source) => (
+              <li>
+                <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                <span>{source.note}</span>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <AdSlot />
@@ -401,6 +426,25 @@ const jsonLd = [
   .meditation-types dd {
     color: var(--color-muted);
     margin: 0.2rem 0 0;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   .faq-list {

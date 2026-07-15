@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-07-15T07:14:28.830Z",
+  "beforeRoutes": 264,
+  "afterRoutes": 264,
+  "passed": true,
+  "failures": [],
+  "warnings": [],
+  "intentionalChanges": [
+    {
+      "route": "/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/about/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/authors/echo-buddha-editorial/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/contact/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/learn/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/meditation-guide/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    },
+    {
+      "route": "/meditation/",
+      "field": "internalSearchMembership",
+      "before": false,
+      "after": true
+    }
+  ]
+}

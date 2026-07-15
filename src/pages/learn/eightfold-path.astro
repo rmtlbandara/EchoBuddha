@@ -21,6 +21,18 @@ const pathFactors = [
 const relatedArticles = ["noble-eightfold-path-practical-guide", "eightfold-path-explained", "eightfold-path-explained-daily-life", "right-speech-buddhism"]
   .map((slug) => fullArticles.find((article) => article.slug === slug))
   .filter(Boolean);
+const sourceLinks = [
+  {
+    label: "Magga-vibhanga Sutta (SN 45.8)",
+    href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    note: "Traditional source defining right view, intention, speech, action, livelihood, effort, mindfulness, and concentration."
+  },
+  {
+    label: "Right Livelihood overview",
+    href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html",
+    note: "Supports the daily-life framing of right livelihood."
+  }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -79,9 +91,16 @@ const jsonLd = [
         <h2>Source Notes</h2>
         <p>
           This is original Echo Buddha educational writing on a central Buddhist teaching. For deeper formal study,
-          compare reputable translations, SuttaCentral, Access to Insight, Buddhist Publication Society, and qualified
-          teachers.
+          compare reputable translations, study communities, and qualified teachers.
         </p>
+        <ul class="source-list">
+          {sourceLinks.map((source) => (
+            <li>
+              <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+              <span>{source.note}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
 
@@ -108,5 +127,24 @@ const jsonLd = [
   .section-band {
     background: rgba(247, 240, 229, 0.64);
     border-block: 1px solid var(--color-line);
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 </style>

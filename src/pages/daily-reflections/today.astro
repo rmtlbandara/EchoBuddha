@@ -4,21 +4,26 @@ import DailyReflectionCard from "../../components/DailyReflectionCard.astro";
 import { dailyReflections, getDailyReflectionForDate, getDailyReflectionPath } from "../../data/dailyReflections";
 import { SITE } from "../../data/site";
 
-const title = "Today's Buddhist Reflection";
+const title = "Today's Buddhist Reflection Prompt";
 const description =
-  "Read today's Buddhist-inspired reflection with a simple meaning, mindful practice, journal question, and related learning links.";
+  "Open a recurring daily reflection prompt selected from Echo Buddha's original reflection library, with archive links and gentle practice guidance.";
 const canonicalPath = "/daily-reflections/today/";
 const fallbackReflection = getDailyReflectionForDate();
 const reflectionPaths = dailyReflections.map((reflection) => getDailyReflectionPath(reflection));
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "WebPage",
     headline: title,
+    name: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
-    author: { "@type": "Organization", name: SITE.author, url: `${SITE.url}/authors/echo-buddha-editorial/` },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url }
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    isPartOf: {
+      "@type": "CollectionPage",
+      name: "Daily Buddhist Reflections",
+      url: `${SITE.url}/daily-reflections/`
+    }
   },
   {
     "@context": "https://schema.org",
@@ -32,15 +37,15 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
       <a class="back-link" href="/daily-reflections/">Daily Reflections</a>
       <span class="eyebrow">Today</span>
-      <h1>Today's Buddhist Reflection</h1>
+      <h1>Today's Buddhist Reflection Prompt</h1>
       <p class="lede">
-        A daily reflection chosen in your browser from Echo Buddha's original reflection library. Read slowly, practice
-        gently, and let the question stay with you.
+        A recurring utility page that selects one prompt from Echo Buddha's original reflection library by UTC day.
+        The URL stays stable; the full archive pages remain the permanent homes for each reflection.
       </p>
     </div>
   </section>
@@ -90,8 +95,8 @@ const jsonLd = [
   const fullReflectionLink = document.querySelector("[data-current-reflection-link]");
 
   const dayOfYear = (date) => {
-    const start = Date.UTC(date.getFullYear(), 0, 0);
-    const today = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+    const start = Date.UTC(date.getUTCFullYear(), 0, 0);
+    const today = Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
     return Math.floor((today - start) / 86400000);
   };
 

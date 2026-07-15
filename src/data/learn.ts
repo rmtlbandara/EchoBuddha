@@ -6,6 +6,12 @@ export type LearningLink = {
   description?: string;
 };
 
+export type SourceLink = {
+  label: string;
+  href: string;
+  note: string;
+};
+
 export type LearningPage = {
   section: string;
   slug: string;
@@ -49,6 +55,325 @@ export type LearningSection = {
 
 const commonSourceNote =
   "Echo Buddha writes original, beginner-friendly explanations for general education and reflection. Readers who want formal study are encouraged to learn with qualified teachers and reputable translations.";
+
+const sourceLinksByPage: Record<string, SourceLink[]> = {
+  "buddhism-101/who-was-the-buddha": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "A traditional early-discourse context for the Buddha's first teaching after awakening."
+    }
+  ],
+  "buddhism-101/what-is-buddhism": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Supports the framing of Buddhism around dukkha, its cause, cessation, and a path of practice."
+    },
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Gives a compact early-discourse analysis of the Noble Eightfold Path."
+    }
+  ],
+  "buddhism-101/the-three-jewels-explained": [
+    {
+      label: "Dhammapada, Buddhavagga (Dhp 190-192)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "A traditional source for refuge in the Buddha, Dhamma, and Sangha."
+    }
+  ],
+  "buddhism-101/the-four-noble-truths-explained": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Primary early-discourse source for the four truths and the path leading to the cessation of dukkha."
+    }
+  ],
+  "buddhism-101/the-noble-eightfold-path-explained": [
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Defines the eight path factors in an early Buddhist discourse."
+    }
+  ],
+  "buddhism-101/five-precepts-buddhism": [
+    {
+      label: "The Five Precepts",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html",
+      note: "Lists the five lay training precepts and connects them with non-harming."
+    }
+  ],
+  "buddhism-101/three-marks-of-existence": [
+    {
+      label: "Pañcavaggi Sutta (SN 22.59)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html",
+      note: "A traditional source connecting the aggregates with impermanence, dukkha, and not-self."
+    },
+    {
+      label: "Dhammapada, Maggavagga (Dhp 277-279)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "A concise Dhammapada source for impermanence, dukkha, and not-self themes."
+    }
+  ],
+  "buddhism-101/what-is-karma-in-buddhism": [
+    {
+      label: "Kalama Sutta (AN 3.65)",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+      note: "Supports careful attention to greed, aversion, delusion, and the results of actions."
+    }
+  ],
+  "buddhism-101/dependent-origination-explained": [
+    {
+      label: "Paticca-samuppada-vibhanga Sutta (SN 12.2)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.002.than.html",
+      note: "A standard early-discourse analysis of dependent origination."
+    }
+  ],
+  "buddhism-101/five-aggregates-buddhism": [
+    {
+      label: "Khandha Sutta (SN 22.48)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.048.than.html",
+      note: "Defines the five aggregates and the five clinging-aggregates."
+    }
+  ],
+  "buddhism-101/what-is-impermanence": [
+    {
+      label: "Dhammapada, Maggavagga (Dhp 277)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "A concise traditional verse source for impermanence as a path insight."
+    }
+  ],
+  "buddhism-101/what-is-mindfulness": [
+    {
+      label: "Maha-satipatthana Sutta (DN 22)",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "A major early-discourse source for the four frames of reference."
+    }
+  ],
+  "buddhism-101/right-livelihood-buddhism": [
+    {
+      label: "Right Livelihood overview",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html",
+      note: "Summarizes right livelihood as part of the Noble Eightfold Path."
+    },
+    {
+      label: "Vanijja Sutta (AN 5.177)",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an05/an05.177.than.html",
+      note: "Names five trades traditionally discouraged for lay followers."
+    }
+  ],
+  "buddhism-101/how-to-practice-buddhism-at-home": [
+    {
+      label: "The Five Precepts",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html",
+      note: "Supports home practice as ethical training, not only meditation."
+    }
+  ],
+  "buddhism-101/a-simple-daily-buddhist-practice": [
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Connects daily practice with the path factors of conduct, effort, mindfulness, and concentration."
+    }
+  ],
+  "buddhist-dictionary/anicca": [
+    {
+      label: "Dhammapada, Maggavagga (Dhp 277)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "Traditional verse source for impermanence as a direct path insight."
+    }
+  ],
+  "buddhist-dictionary/dukkha": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Primary early-discourse source for the truth of dukkha and the path beyond it."
+    }
+  ],
+  "buddhist-dictionary/anatta": [
+    {
+      label: "Pañcavaggi Sutta (SN 22.59)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html",
+      note: "A traditional source for not-self reflection through the five aggregates."
+    }
+  ],
+  "buddhist-dictionary/metta": [
+    {
+      label: "Karaniya Metta Sutta (Sn 1.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for mettā/goodwill and care for all beings."
+    }
+  ],
+  "buddhist-dictionary/karuna": [
+    {
+      label: "Dhammapada, Yamakavagga (Dhp 5)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Supports the non-hatred and non-harming framing behind compassion."
+    }
+  ],
+  "buddhist-dictionary/sati": [
+    {
+      label: "Maha-satipatthana Sutta (DN 22)",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "A major early-discourse source for mindfulness as careful present-moment remembering."
+    }
+  ],
+  "buddhist-dictionary/karma": [
+    {
+      label: "Kalama Sutta (AN 3.65)",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+      note: "Supports the focus on intention, skillful action, and observable results."
+    }
+  ],
+  "buddhist-dictionary/dhamma": [
+    {
+      label: "Dhammapada, Buddhavagga (Dhp 190-192)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "A traditional source for taking refuge in Buddha, Dhamma, and Sangha."
+    }
+  ],
+  "buddhist-dictionary/sangha": [
+    {
+      label: "Dhammapada, Buddhavagga (Dhp 190-192)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "A traditional source for the Sangha as part of the Three Jewels."
+    }
+  ],
+  "buddhist-dictionary/nirvana": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Supports the beginner framing of cessation and release from dukkha."
+    }
+  ],
+  "buddhist-dictionary/mindfulness": [
+    {
+      label: "Maha-satipatthana Sutta (DN 22)",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "A major traditional source for mindfulness of body, feelings, mind, and mental qualities."
+    }
+  ],
+  "buddhist-dictionary/compassion": [
+    {
+      label: "Karaniya Metta Sutta (Sn 1.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "A traditional source for goodwill and non-harming concern for all beings."
+    }
+  ],
+  "dhammapada-reflections/avoid-evil-do-good-purify-the-mind": [
+    {
+      label: "Dhammapada, Buddhavagga (Dhp 183)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "Traditional verse source for avoiding evil, cultivating good, and cleansing the mind."
+    }
+  ],
+  "dhammapada-reflections/the-mind-leads-all-things": [
+    {
+      label: "Dhammapada, Yamakavagga (Dhp 1-2)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional source for the mind-leading theme; Echo Buddha's wording is an original explanation."
+    }
+  ],
+  "dhammapada-reflections/hatred-is-not-ended-by-hatred": [
+    {
+      label: "Dhammapada, Yamakavagga (Dhp 5)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional verse source for the non-hatred theme."
+    }
+  ],
+  "dhammapada-reflections/better-than-a-thousand-empty-words": [
+    {
+      label: "Dhammapada, Sahassavagga (Dhp 100-102)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.08.budd.html",
+      note: "Traditional source for the value of one useful word or verse."
+    }
+  ],
+  "dhammapada-reflections/peace-comes-from-a-trained-mind": [
+    {
+      label: "Dhammapada, Cittavagga (Dhp 33-43)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.03.budd.html",
+      note: "Traditional source for training, guarding, and directing the mind."
+    }
+  ],
+  "sutta-for-daily-life/metta-sutta-explained-for-daily-life": [
+    {
+      label: "Karaniya Metta Sutta (Sn 1.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for mettā/goodwill practice and the phrase 'may all beings be happy at heart.'"
+    }
+  ],
+  "sutta-for-daily-life/kalama-sutta-and-wise-thinking": [
+    {
+      label: "Kalama Sutta (AN 3.65)",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+      note: "Traditional source for discernment and checking what leads to welfare or harm."
+    }
+  ],
+  "sutta-for-daily-life/right-speech-in-daily-life": [
+    {
+      label: "Right Speech overview",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
+      note: "Collects early-discourse criteria for right speech and careful verbal action."
+    }
+  ],
+  "sutta-for-daily-life/mindfulness-of-breathing-explained-simply": [
+    {
+      label: "Anapanasati Sutta (MN 118)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Primary early-discourse source for mindfulness of in-and-out breathing."
+    }
+  ],
+  "sutta-for-daily-life/buddhas-teaching-on-patience": [
+    {
+      label: "Dhammapada, Buddhavagga (Dhp 184)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "Traditional source for patience as a valued discipline."
+    }
+  ],
+  "meditation/meditation-for-beginners": [
+    {
+      label: "Anapanasati Sutta (MN 118)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Classical background for breath-based meditation; this page gives modern beginner guidance."
+    }
+  ],
+  "meditation/breathing-meditation": [
+    {
+      label: "Anapanasati Sutta (MN 118)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Primary source for mindfulness of breathing in the Pali canon."
+    }
+  ],
+  "meditation/loving-kindness-meditation": [
+    {
+      label: "Karaniya Metta Sutta (Sn 1.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for mettā/goodwill practice."
+    }
+  ],
+  "meditation/walking-meditation": [
+    {
+      label: "Maha-satipatthana Sutta (DN 22)",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "Includes mindfulness while walking, standing, sitting, and lying down."
+    }
+  ],
+  "meditation/mindfulness-in-daily-life": [
+    {
+      label: "Maha-satipatthana Sutta (DN 22)",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "Supports mindfulness as awareness of body, feelings, mind, and mental qualities in ordinary activities."
+    }
+  ],
+  "meditation/5-minute-meditation-practice": [
+    {
+      label: "Anapanasati Sutta (MN 118)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Classical background for breath attention; this page adapts it into a short practice."
+    }
+  ]
+};
 
 const learningQualityNotes: Record<string, LearningQualityNote> = {
   "buddhism-101/who-was-the-buddha": {
@@ -2701,6 +3026,10 @@ export function getAllLearningPages() {
 
 export function getLearningQualityNote(page: LearningPage) {
   return learningQualityNotes[`${page.section}/${page.slug}`];
+}
+
+export function getSourceLinks(page: LearningPage) {
+  return sourceLinksByPage[`${page.section}/${page.slug}`] ?? [];
 }
 
 export function getTermLinks(terms: string[] = []): TermLink[] {

@@ -46,27 +46,9 @@ const relatedTeaching = {
   Wisdom: { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
   Impermanence: { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/" }
 }[quote.theme] ?? { label: "Buddhist Wisdom", href: "/learn/" };
-const practiceSuggestion =
-  quote.theme === "Meditation"
-    ? "Sit for one minute and follow a natural breath without trying to force calm."
-    : quote.theme === "Compassion"
-      ? "Offer one small kindness today while keeping your boundaries clear."
-      : quote.theme === "Patience"
-        ? "Before one difficult reply, pause long enough to feel the body."
-        : quote.theme === "Letting Go"
-          ? "Name one outcome you can release for today while still acting with care."
-          : "Choose one ordinary moment and meet it with more awareness than habit.";
-const reflectionQuestion =
-  story.reflectionQuestion ??
-  `Where could this ${quote.theme.toLowerCase()} quote become one small practice in your day?`;
-const dailyLifeExample =
-  quote.theme === "Meditation"
-    ? "This quote can meet you before a short sitting practice, during a restless pause, or after noticing the mind wander."
-    : quote.theme === "Compassion"
-      ? "This quote can meet you in a tense conversation, a moment of self-criticism, or a chance to reduce someone else's burden."
-      : quote.theme === "Patience"
-        ? "This quote can meet you in traffic, family life, delayed plans, or the moment before irritation becomes speech."
-        : "This quote can meet you in work, relationships, quiet routines, or any moment where awareness can guide the next step.";
+const practiceSuggestion = story.practiceSuggestion;
+const reflectionQuestion = story.reflectionQuestion;
+const dailyLifeExample = story.dailyLifeExample;
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -88,6 +70,8 @@ const jsonLd = [
       "@type": "Thing",
       name: quote.theme
     },
+    creditText: story.status.label,
+    abstract: story.status.note,
     isPartOf: {
       "@type": "CollectionPage",
       name: `${quote.theme} Buddhist Quotes`,
@@ -142,6 +126,7 @@ const jsonLd = [
         <span class="eyebrow">{quote.theme} Reflection Story</span>
         <h1>{story.title}</h1>
         <blockquote>{quote.text}</blockquote>
+        <p class="quote-status">{story.status.label}</p>
         <div class="quote-share-row">
           <ArticleShare
             title={story.title}
@@ -156,6 +141,8 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose story-body">
         <aside class="surface meaning-box">
+          <h2>Quote Status</h2>
+          <p>{story.status.note}</p>
           <h2>Meaning of This Quote</h2>
           <p>{story.description}</p>
           <h2>Daily-Life Example</h2>
@@ -193,20 +180,17 @@ const jsonLd = [
 
         <h2>A Quiet Reflection</h2>
         <p>
-          Consider where this quote meets your own life today. Is there a conversation, habit, expectation, or
-          difficult feeling that could be approached with a little more {quote.theme.toLowerCase()}?
+          Let this quote stay connected to its real context: {dailyLifeExample} If the line remains only decorative,
+          "{quote.text}" has not yet become practice.
         </p>
         <p>
-          Keep the quote nearby and choose one small action that expresses its meaning. Buddhist-inspired wisdom
-          becomes useful when reflection is followed by patient practice.
+          The useful question is not whether "{quote.text}" sounds peaceful. It is whether the line helps one response
+          become more honest, less harmful, and more connected to {quote.theme.toLowerCase()}.
         </p>
 
         <section class="source-note">
           <h2>Source Note</h2>
-          <p>
-            This is an original Echo Buddha Buddhist-inspired reflection, not a direct scripture translation. For
-            formal study, compare reputable Buddhist teachers, translations, and learning communities.
-          </p>
+          <p>{story.sourceNote}</p>
         </section>
       </div>
 
@@ -272,6 +256,18 @@ const jsonLd = [
     font-size: clamp(1.35rem, 3vw, 1.8rem);
     margin: 1.5rem 0 0;
     padding-left: 1.25rem;
+  }
+
+  .quote-status {
+    background: var(--color-green-soft);
+    border: 1px solid rgba(45, 106, 79, 0.2);
+    border-radius: var(--radius);
+    color: var(--color-green);
+    display: inline-flex;
+    font-size: 0.86rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    padding: 0.35rem 0.65rem;
   }
 
   .quote-share-row {

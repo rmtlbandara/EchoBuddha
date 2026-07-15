@@ -4,8 +4,8 @@ import QuoteCard from "../components/QuoteCard.astro";
 import AdSlot from "../components/AdSlot.astro";
 import { SITE, quoteCategories, quotes } from "../data/site";
 
-const title = "Buddhist Quotes";
-const description = "Read original Buddhist-inspired quotes about mindfulness, compassion, patience, letting go, and peaceful living.";
+const title = "Original Buddhist-Inspired Quotes";
+const description = "Read original Echo Buddha quotes inspired by Buddhist practice, with clear origin labels, reflection stories, and mindful browsing by theme.";
 const quoteOfTheDay = quotes.find((quote) => quote.story) ?? quotes[0];
 const relatedReadingByTheme = {
   Mindfulness: "/articles/beginning-a-daily-mindfulness-practice/",
@@ -59,10 +59,10 @@ const jsonLd = [
   <section class="page-hero">
     <div class="container prose">
       <span class="eyebrow">Quotes</span>
-      <h1>Buddhist Quotes</h1>
+      <h1>Original Buddhist-Inspired Quotes</h1>
       <p class="lede">
-        Browse {quotes.length} short original reflections inspired by Buddhist practice, written for mindful reading and
-        daily contemplation.
+        Browse {quotes.length} short original Echo Buddha quotes inspired by Buddhist practice. These are editorial
+        reflections for mindful reading, not direct Buddha quotes or scripture translations.
       </p>
     </div>
   </section>
@@ -73,8 +73,8 @@ const jsonLd = [
           <span class="eyebrow">Quote of the day</span>
           <h2 id="quote-note-heading">{quoteOfTheDay.text}</h2>
           <p>
-            Echo Buddha quotes are original reflections inspired by Buddhist practice. They are written for daily
-            contemplation and are not presented as direct scripture translations.
+            Echo Buddha quotes are original editorial reflections inspired by Buddhist practice. If a future page uses
+            a traditional or named-source quotation, it should be labeled separately and sourced visibly.
           </p>
         </div>
         {quoteOfTheDay.story && (

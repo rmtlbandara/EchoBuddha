@@ -1,0 +1,131 @@
+[
+  {
+    "cluster": "Beginner Buddhism / start here",
+    "nonArticleUrls": [
+      "/",
+      "/start-here/",
+      "/learn/",
+      "/learn/buddhism-for-beginners/",
+      "/learn/buddhism-101/what-is-buddhism/"
+    ],
+    "protectedArticleUrls": [
+      "/articles/what-is-buddhism-beginner-guide/",
+      "/articles/buddhism-for-beginners-simple-guide/"
+    ],
+    "primaryQuery": "beginner buddhism / start here",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "Multiple pages promise a beginner entry into Buddhism.",
+    "preferredOwner": "/",
+    "risk": "cross-section overlap with protected article context",
+    "recommendation": "Keep separate if roles stay explicit: homepage as concept, Start Here as journey, Learn as hub, Buddhism for Beginners as curriculum, article pages as protected long-form reading."
+  },
+  {
+    "cluster": "Meditation for beginners",
+    "nonArticleUrls": [
+      "/meditation/",
+      "/meditation-guide/",
+      "/meditation/meditation-for-beginners/",
+      "/meditation/5-minute-meditation-practice/"
+    ],
+    "protectedArticleUrls": [
+      "/articles/how-to-meditate-for-beginners/",
+      "/articles/how-to-meditate-for-anxiety/"
+    ],
+    "primaryQuery": "meditation for beginners",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "Meditation hub, guide, method pages, and protected articles all address first practice.",
+    "preferredOwner": "/meditation/",
+    "risk": "cross-section overlap with protected article context",
+    "recommendation": "Make the guide the comprehensive non-article reference, the hub the navigation page, and method pages concise practice references; do not let each retell the same beginner overview."
+  },
+  {
+    "cluster": "Breathing and mindfulness of breathing",
+    "nonArticleUrls": [
+      "/meditation/breathing-meditation/",
+      "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/"
+    ],
+    "protectedArticleUrls": [
+      "/articles/mindfulness-of-breathing-guide/"
+    ],
+    "primaryQuery": "breathing and mindfulness of breathing",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "Breath practice appears as a method page, sutta-related explainer, and protected article.",
+    "preferredOwner": "/meditation/breathing-meditation/",
+    "risk": "cross-section overlap with protected article context",
+    "recommendation": "Differentiate practice instruction, source-aware teaching explanation, and article-depth guide. Add source review to the sutta page before expansion."
+  },
+  {
+    "cluster": "Loving-kindness / metta / compassion",
+    "nonArticleUrls": [
+      "/meditation/loving-kindness-meditation/",
+      "/learn/buddhist-dictionary/metta/",
+      "/learn/buddhist-dictionary/karuna/",
+      "/quotes/compassion/",
+      "/daily-reflections/simple-goodwill/"
+    ],
+    "protectedArticleUrls": [
+      "/articles/loving-kindness-meditation-guide/",
+      "/articles/loving-kindness-meditation-beginners/",
+      "/articles/compassion-in-buddhism-beginner-guide/",
+      "/articles/compassion-as-a-daily-discipline/"
+    ],
+    "primaryQuery": "loving-kindness / metta / compassion",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "Compassion and metta are served by dictionary, practice, quote, reflection, and protected article pages.",
+    "preferredOwner": "/meditation/loving-kindness-meditation/",
+    "risk": "cross-section overlap with protected article context",
+    "recommendation": "Keep dictionary concise, meditation page procedural, quotes reflective, and protected articles long-form. Review quote-story templates for repeated generic compassion framing."
+  },
+  {
+    "cluster": "Four Noble Truths",
+    "nonArticleUrls": [
+      "/learn/four-noble-truths/",
+      "/learn/buddhism-101/the-four-noble-truths-explained/",
+      "/daily-reflections/the-first-truth-is-kind/"
+    ],
+    "protectedArticleUrls": [
+      "/articles/four-noble-truths-explained/",
+      "/articles/four-noble-truths-explained-simply/"
+    ],
+    "primaryQuery": "four noble truths",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "A hub, lesson, reflection, and protected articles target the same central doctrine.",
+    "preferredOwner": "/learn/four-noble-truths/",
+    "risk": "cross-section overlap with protected article context",
+    "recommendation": "The non-article hub should sequence learning; the lesson should define; the reflection should remain practice-oriented. Do not add another broad overview URL."
+  },
+  {
+    "cluster": "Noble Eightfold Path",
+    "nonArticleUrls": [
+      "/learn/eightfold-path/",
+      "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "/daily-reflections/one-step-on-the-path/"
+    ],
+    "protectedArticleUrls": [
+      "/articles/eightfold-path-explained/",
+      "/articles/eightfold-path-explained-daily-life/",
+      "/articles/noble-eightfold-path-practical-guide/"
+    ],
+    "primaryQuery": "noble eightfold path",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "The path has multiple overview and application routes.",
+    "preferredOwner": "/learn/eightfold-path/",
+    "risk": "cross-section overlap with protected article context",
+    "recommendation": "Assign ownership: hub for navigation, learning page for concise doctrine, reflections for daily prompt, articles for protected depth and examples."
+  },
+  {
+    "cluster": "Quotes and daily reflections",
+    "nonArticleUrls": [
+      "/quotes/",
+      "/daily-reflections/",
+      "/daily-reflections/today/"
+    ],
+    "protectedArticleUrls": [],
+    "primaryQuery": "quotes and daily reflections",
+    "readerStage": "beginner to returning practitioner",
+    "contentPromise": "Quote stories and daily reflections share short reflective/practice patterns and many themes.",
+    "preferredOwner": "/quotes/",
+    "risk": "within non-article overlap",
+    "recommendation": "Continue separating quote-origin pages from date/rotation practice pages. Reduce boilerplate in future reflection and quote-story batches."
+  }
+]

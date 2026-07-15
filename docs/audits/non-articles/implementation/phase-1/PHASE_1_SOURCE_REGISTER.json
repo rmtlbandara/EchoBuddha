@@ -1,0 +1,506 @@
+[
+  {
+    "route": "/learn/buddhism-101/",
+    "family": "Learning content",
+    "priority": "Tier 1 learning hub",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/",
+    "family": "Learning content",
+    "priority": "Tier 1 learning hub",
+    "label": "Magga-vibhanga Sutta (SN 45.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Magga-vibhanga Sutta (SN 45.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/dependent-origination-explained/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Paticca-samuppada-vibhanga Sutta (SN 12.2)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.002.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/five-aggregates-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Khandha Sutta (SN 22.48)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.048.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/five-precepts-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "The Five Precepts",
+    "href": "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "The Five Precepts",
+    "href": "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/right-livelihood-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Right Livelihood overview",
+    "href": "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/right-livelihood-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Vanijja Sutta (AN 5.177)",
+    "href": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.177.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/the-four-noble-truths-explained/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Magga-vibhanga Sutta (SN 45.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/the-three-jewels-explained/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Dhammapada, Buddhavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/three-marks-of-existence/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Pancavaggi / Anatta-lakkhana Sutta (SN 22.59)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/three-marks-of-existence/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Dhammapada, Maggavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/what-is-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/what-is-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Magga-vibhanga Sutta (SN 45.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/what-is-impermanence/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Dhammapada, Maggavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/what-is-karma-in-buddhism/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Kalama Sutta (AN 3.65)",
+    "href": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/what-is-mindfulness/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhism-101/who-was-the-buddha/",
+    "family": "Learning content",
+    "priority": "Tier 3 transparency/navigation",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Access to Insight glossary",
+    "href": "https://www.accesstoinsight.org/glossary.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammapada, Maggavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/anatta/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Pancavaggi / Anatta-lakkhana Sutta (SN 22.59)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/anicca/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammapada, Maggavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/compassion/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Karaniya Metta Sutta (Sn 1.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/dhamma/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammapada, Buddhavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/dukkha/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/karma/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Kalama Sutta (AN 3.65)",
+    "href": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/karuna/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammapada, Yamakavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/metta/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Karaniya Metta Sutta (Sn 1.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/mindfulness/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/nirvana/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/sangha/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Dhammapada, Buddhavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/sati/",
+    "family": "Buddhist dictionary",
+    "priority": "Tier 1 dictionary/doctrine",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Yamakavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Buddhavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Buddhavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Sahassavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.08.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Yamakavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Cittavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.03.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Yamakavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/eightfold-path/",
+    "family": "Learning content",
+    "priority": "Tier 1 doctrine hub",
+    "label": "Magga-vibhanga Sutta (SN 45.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/eightfold-path/",
+    "family": "Learning content",
+    "priority": "Tier 1 doctrine hub",
+    "label": "Right Livelihood overview",
+    "href": "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/four-noble-truths/",
+    "family": "Learning content",
+    "priority": "Tier 1 doctrine hub",
+    "label": "Dhammacakkappavattana Sutta (SN 56.11)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/four-noble-truths/",
+    "family": "Learning content",
+    "priority": "Tier 1 doctrine hub",
+    "label": "Magga-vibhanga Sutta (SN 45.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Karaniya Metta Sutta (Sn 1.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Kalama Sutta (AN 3.65)",
+    "href": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Dhammapada, Buddhavagga",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Kalama Sutta (AN 3.65)",
+    "href": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Karaniya Metta Sutta (Sn 1.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Anapanasati Sutta (MN 118)",
+    "href": "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+    "family": "Sutta and Dhammapada content",
+    "priority": "Tier 1 scripture-facing",
+    "label": "Right Speech overview",
+    "href": "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation-guide/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Anapanasati Sutta (MN 118)",
+    "href": "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation-guide/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation-guide/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Karaniya Metta Sutta (Sn 1.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Anapanasati Sutta (MN 118)",
+    "href": "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/5-minute-meditation-practice/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Anapanasati Sutta (MN 118)",
+    "href": "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/breathing-meditation/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Anapanasati Sutta (MN 118)",
+    "href": "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/loving-kindness-meditation/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Karaniya Metta Sutta (Sn 1.8)",
+    "href": "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/meditation-for-beginners/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Anapanasati Sutta (MN 118)",
+    "href": "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/mindfulness-in-daily-life/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  },
+  {
+    "route": "/meditation/walking-meditation/",
+    "family": "Meditation content",
+    "priority": "Tier 2 practice-method",
+    "label": "Maha-satipatthana Sutta (DN 22)",
+    "href": "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+    "status": "Added in Phase 1"
+  }
+]

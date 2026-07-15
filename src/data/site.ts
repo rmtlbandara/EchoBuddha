@@ -12,10 +12,28 @@ export const FEATURES = {
   adsEnabled: false
 };
 
+export type QuoteOriginStatus =
+  | "original-echo-buddha-quote"
+  | "original-echo-buddha-reflection"
+  | "traditional-quotation"
+  | "verified-named-source"
+  | "paraphrase"
+  | "inspired-by-buddhist-theme"
+  | "unclear";
+
+export type QuoteStatus = {
+  status: QuoteOriginStatus;
+  label: string;
+  shortLabel: string;
+  schemaName: string;
+  note: string;
+};
+
 export type Quote = {
   text: string;
   theme: string;
   isIndexable?: boolean;
+  status?: QuoteStatus;
   story?: {
     slug?: string;
     title: string;
@@ -29,6 +47,15 @@ export type Quote = {
     isIndexable?: boolean;
     updatedDate?: string;
   };
+};
+
+const defaultQuoteStatus: QuoteStatus = {
+  status: "original-echo-buddha-quote",
+  label: "Original Echo Buddha quote",
+  shortLabel: "Original quote",
+  schemaName: "Original Echo Buddha quote",
+  note:
+    "This quote is original Echo Buddha editorial writing inspired by Buddhist practice. It is not presented as a direct Buddha quote, scripture translation, or historical saying."
 };
 
 export function slugify(value: string) {
@@ -1932,79 +1959,123 @@ const storyDetails = [
 
 const storyFrames: Record<
   string,
-  { title: string; struggle: string; action: string; change: string; articleCategory: string }
+  { title: string; struggle: string; action: string; change: string; articleCategory: string; promise: string }
 > = {
   Mindfulness: {
     title: "The Moment That Was Already Here",
     struggle: "had spent the morning moving from one task to the next while barely noticing any of them",
     action: "stopped, felt one complete breath, and gave careful attention to what was directly present",
     change: "The day did not become less busy, but it stopped feeling entirely absent.",
-    articleCategory: "Mindfulness"
+    articleCategory: "Mindfulness",
+    promise: "a way to bring attention back to what is actually happening"
   },
   Compassion: {
     title: "The Kindness Left Unsaid",
     struggle: "was preparing a sharp reply to someone whose behavior had caused real frustration",
     action: "paused long enough to recognize the tiredness and fear beneath both sides of the disagreement",
     change: "The necessary truth was still spoken, but it arrived without the wish to wound.",
-    articleCategory: "Buddhist Wisdom"
+    articleCategory: "Buddhist Wisdom",
+    promise: "a way to let care and truth remain together"
   },
   Patience: {
     title: "The Lesson of Waiting",
     struggle: "wanted an answer immediately and treated every delay as proof that something had gone wrong",
     action: "allowed the uncertainty to remain for a while without filling it with blame or prediction",
     change: "Waiting became less like an empty space and more like a place where understanding could grow.",
-    articleCategory: "Practice"
+    articleCategory: "Practice",
+    promise: "a way to keep reactivity from becoming speech or action too quickly"
   },
   Awareness: {
     title: "What the Body Knew",
     struggle: "kept saying everything was fine even as tension gathered in the jaw, shoulders, and hands",
     action: "noticed each sensation without argument and listened for the feeling beneath the reaction",
     change: "Once the experience had been clearly named, it no longer needed to shout through every action.",
-    articleCategory: "Mindfulness"
+    articleCategory: "Mindfulness",
+    promise: "a way to recognize a pattern before it quietly chooses for you"
   },
   Practice: {
     title: "The Smallest Step",
     struggle: "admired wise teachings but kept waiting for a perfect day to put them into practice",
     action: "chose one modest action that could be completed with care before the day ended",
     change: "The teaching became useful only when it entered the next ordinary choice.",
-    articleCategory: "Buddhist Wisdom"
+    articleCategory: "Buddhist Wisdom",
+    promise: "a way to turn understanding into a repeatable choice"
   },
   "Letting Go": {
     title: "The Open Hand",
     struggle: "had been holding tightly to an outcome that no amount of worry could guarantee",
     action: "separated the effort that was still possible from the result that could not be controlled",
     change: "Care remained, but the exhausting demand for certainty began to loosen.",
-    articleCategory: "Reflection"
+    articleCategory: "Reflection",
+    promise: "a way to keep sincere care while loosening control"
   },
   Meditation: {
     title: "Returning to the Cushion",
     struggle: "believed a restless meditation meant the practice had failed",
     action: "noticed each distraction and returned to the next breath without keeping score",
     change: "The many returns became the practice rather than interruptions to it.",
-    articleCategory: "Meditation"
+    articleCategory: "Meditation",
+    promise: "a way to understand returning as the heart of practice"
   },
   Renewal: {
     title: "Beginning After the Mistake",
     struggle: "was carrying yesterday's mistake as if it were a permanent description of character",
     action: "acknowledged the harm, made the repair that was possible, and chose one different action",
     change: "The past remained true, but it no longer had to decide the direction of the next step.",
-    articleCategory: "Reflection"
+    articleCategory: "Reflection",
+    promise: "a way to begin again without denying what happened"
   },
   Wisdom: {
     title: "The Wider View",
     struggle: "was certain that being right mattered more than understanding the whole situation",
     action: "looked again at causes, consequences, and the suffering hidden behind each person's position",
     change: "A larger truth appeared, one that did not require anyone to be reduced to an enemy.",
-    articleCategory: "Buddhist Wisdom"
+    articleCategory: "Buddhist Wisdom",
+    promise: "a way to see causes and consequences before choosing a response"
   },
   Impermanence: {
     title: "The Changing Season",
     struggle: "wanted a cherished moment to remain exactly as it had been",
     action: "allowed change to be present while appreciating what had not yet passed",
     change: "Knowing the moment could not stay made attention more tender, not less.",
-    articleCategory: "Buddhist Wisdom"
+    articleCategory: "Buddhist Wisdom",
+    promise: "a way to meet change without asking it to become still"
   }
 };
+
+const interpretationAngles = [
+  "This reflection is most useful when it is read as a direction for the next response, not as a slogan to admire.",
+  "The quote points to a small inner shift: the moment when habit is seen clearly enough that another choice becomes possible.",
+  "Its value is practical. It asks the reader to notice one specific condition, then answer with less harm and more care.",
+  "The line is brief on purpose. It leaves room for the reader to test the teaching in speech, work, family life, or meditation.",
+  "The quote works best as a mirror for a recurring pattern, especially the part of experience that usually moves too quickly to be noticed."
+];
+
+const practiceOpenings = [
+  "Use this quote during",
+  "Try this line before",
+  "Let the quote accompany",
+  "Bring the sentence into",
+  "Test the meaning during"
+];
+
+const practiceSituations = [
+  "one conversation where the first reply is not the wisest reply",
+  "one routine task that usually disappears into hurry",
+  "one moment of waiting, uncertainty, or unfinished business",
+  "one transition between work, home, rest, or practice",
+  "one place where the body signals stress before the mind has words for it",
+  "one decision where kindness needs both warmth and clarity",
+  "one short meditation, walk, message, chore, or repair"
+];
+
+const reflectionPrompts = [
+  "Where does this quote ask for a different response than the one habit usually offers?",
+  "What exact situation today would change if this quote guided the next sentence or action?",
+  "Which part of this quote feels easy to admire but harder to practice?",
+  "What would this quote look like if it became one honest choice rather than a thought?",
+  "Where is the smallest believable place to practice this without forcing a dramatic change?"
+];
 
 function getQuoteTextSlug(quote: Quote) {
   return slugify(quote.text).split("-").slice(0, 9).join("-");
@@ -2021,6 +2092,22 @@ export function getQuoteStoryPath(quote: Quote) {
 
 export const INDEXABLE_GENERATED_QUOTES_PER_THEME = 6;
 
+export function getQuoteStatus(quote: Quote) {
+  if (quote.status) return quote.status;
+
+  return {
+    ...defaultQuoteStatus,
+    note: `"${quote.text}" is original Echo Buddha editorial writing inspired by ${quoteThemePhrase(quote.theme)} and is not presented as a direct Buddha quote, scripture translation, or historical saying.`
+  };
+}
+
+function quoteThemePhrase(theme: string) {
+  if (theme === "Practice") return "Buddhist daily practice";
+  if (theme === "Meditation") return "Buddhist meditation practice";
+  if (theme === "Letting Go") return "Buddhist non-attachment and letting-go practice";
+  return `${theme.toLowerCase()} practice`;
+}
+
 export function isQuoteStoryIndexable(quote: Quote) {
   const explicitIndexing = quote.story?.isIndexable ?? quote.isIndexable;
   if (typeof explicitIndexing === "boolean") return explicitIndexing;
@@ -2032,7 +2119,30 @@ export function isQuoteStoryIndexable(quote: Quote) {
   return themeIndex >= 0 && themeIndex < INDEXABLE_GENERATED_QUOTES_PER_THEME;
 }
 
+export function getQuoteIndexabilityClass(quote: Quote) {
+  if (quote.story?.isIndexable === false || quote.isIndexable === false) return "retain-noindex-useful-internal-story";
+  if (quote.story?.isIndexable === true || quote.isIndexable === true) return "strong-indexable-story";
+  if (isQuoteStoryIndexable(quote)) return "indexable-after-generated-quality-improvement";
+  return "retain-noindex-useful-internal-story";
+}
+
+export function getQuoteQualitySignals(quote: Quote) {
+  const themeQuotes = quotes.filter((item) => item.theme === quote.theme);
+  const themeIndex = themeQuotes.findIndex((item) => item.text === quote.text);
+  const status = getQuoteStatus(quote);
+  return {
+    status,
+    themeIndex,
+    indexabilityClass: getQuoteIndexabilityClass(quote),
+    uniqueInterpretation: `${quote.theme} reflection ${themeIndex + 1}: ${storyFrames[quote.theme].promise}.`,
+    reviewerNote: isQuoteStoryIndexable(quote)
+      ? "Indexable by existing theme allowlist after Phase 2 status and uniqueness improvements."
+      : "Retained as noindex, follow by default; useful for internal browsing without forcing search indexability."
+  };
+}
+
 export function getQuoteStory(quote: Quote) {
+  const status = getQuoteStatus(quote);
   if (quote.story) {
     const frame = storyFrames[quote.theme];
 
@@ -2043,7 +2153,11 @@ export function getQuoteStory(quote: Quote) {
       articleCategory: frame.articleCategory,
       intro: quote.story.intro,
       sections: quote.story.sections,
-      reflectionQuestion: quote.story.reflectionQuestion
+      reflectionQuestion: quote.story.reflectionQuestion,
+      status,
+      dailyLifeExample: `${quote.theme} practice is most honest when "${quote.text}" is tested in a real situation rather than kept as decoration.`,
+      practiceSuggestion: `Use "${quote.text}" during one specific moment today and notice whether it changes the next response.`,
+      sourceNote: status.note
     };
   }
 
@@ -2053,18 +2167,56 @@ export function getQuoteStory(quote: Quote) {
   const character = storyCharacters[themeIndex % storyCharacters.length];
   const place = storyPlaces[(themeIndex + quote.theme.length) % storyPlaces.length];
   const detail = storyDetails[(themeIndex * 2 + quote.theme.length) % storyDetails.length];
+  const angle = interpretationAngles[(themeIndex + quote.theme.length) % interpretationAngles.length];
+  const practiceOpening = practiceOpenings[(themeIndex + quote.text.length) % practiceOpenings.length];
+  const practiceSituation = practiceSituations[(themeIndex * 3 + quote.theme.length) % practiceSituations.length];
+  const reflectionQuestion = reflectionPrompts[(themeIndex + quote.text.split(" ").length) % reflectionPrompts.length];
+  const titleStart = quote.text.split(" ").slice(0, 5).join(" ");
 
   return {
     slug: getQuoteSlug(quote),
-    title: `A ${quote.theme} Story: ${quote.text.split(" ").slice(0, 4).join(" ")}...`,
-    description: `An original Buddhist-inspired reflection story about the quote "${quote.text}"`,
+    title: `Original ${quote.theme} Reflection: ${titleStart}...`,
+    description: `An original Echo Buddha reflection on ${quote.theme.toLowerCase()} practice through the quote "${quote.text}"`,
     articleCategory: frame.articleCategory,
-    paragraphs: [
-      `${character} was at ${place} and ${frame.struggle}. In the middle of that familiar struggle, ${detail} became unexpectedly clear. Nothing dramatic had changed, yet attention had finally stopped running past the moment.`,
-      `${character} ${frame.action}. A simple sentence came to mind: "${quote.text}" It was not treated as a magical answer. It became a direction for the next breath, the next word, and the next small decision.`,
-      `${frame.change} Before leaving, ${character} wrote the sentence down, not as a rule to master, but as a reminder to practice when the same difficulty returned.`
+    intro: `${quote.text} is an original Echo Buddha quote about ${quote.theme.toLowerCase()}. This page treats "${quote.text}" as a practical reflection, not as a scripture translation or a historical saying.`,
+    status,
+    dailyLifeExample: `${dailyLifeExamplePrefix(quote.theme)} ${practiceSituation}.`,
+    practiceSuggestion: `${practiceOpening} ${practiceSituation}; let the quote shape one concrete response.`,
+    reflectionQuestion,
+    sourceNote: status.note,
+    sections: [
+      {
+        heading: "A Specific Moment",
+        paragraphs: [
+          `${character} was at ${place} and ${frame.struggle}. In that ordinary setting, ${detail} drew attention away from the old reaction and back toward what was actually happening.`,
+          `The quote, "${quote.text}", did not solve the situation from the outside. It gave ${character} a way to hold the tension without adding another careless word, demand, or story.`
+        ]
+      },
+      {
+        heading: "What the Quote Is Asking",
+        paragraphs: [
+          `${angle} For this page, the important movement is ${frame.promise}.`,
+          `${frame.action.charAt(0).toUpperCase()}${frame.action.slice(1)}. ${frame.change}`
+        ]
+      },
+      {
+        heading: "How to Carry It",
+        paragraphs: [
+          `Keep "${quote.text}" close to ${practiceSituation}. If it helps, write this quote in plain language and name the exact moment where it could change a response.`,
+          `The point is not to perform ${quote.theme.toLowerCase()}. It is to let "${quote.text}" become small enough to practice honestly.`
+        ]
+      }
     ]
   };
+}
+
+function dailyLifeExamplePrefix(theme: string) {
+  if (theme === "Meditation") return "Use it before sitting, while returning from distraction, or during";
+  if (theme === "Compassion") return "Use it when care needs to stay warm and boundaried in";
+  if (theme === "Patience") return "Use it when waiting or irritation appears in";
+  if (theme === "Letting Go") return "Use it when effort is possible but control is not, especially in";
+  if (theme === "Impermanence") return "Use it when change is visible in";
+  return "Use it during";
 }
 
 export type Article = {

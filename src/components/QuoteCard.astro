@@ -1,5 +1,5 @@
 ---
-import { getQuoteCategory, getQuoteStoryPath, type Quote } from "../data/site";
+import { getQuoteCategory, getQuoteStatus, getQuoteStoryPath, type Quote } from "../data/site";
 
 type Props = {
   quote: Quote;
@@ -8,6 +8,7 @@ type Props = {
 const { quote } = Astro.props;
 const category = getQuoteCategory(quote.theme);
 const storyPath = getQuoteStoryPath(quote);
+const status = getQuoteStatus(quote);
 ---
 
 <figure class="quote-card surface">
@@ -15,7 +16,10 @@ const storyPath = getQuoteStoryPath(quote);
     <a href={storyPath} aria-label={`Read the story behind: ${quote.text}`}>{quote.text}</a>
   </blockquote>
   <figcaption>
-    <a href={`/quotes/${category.slug}/`} aria-label={`View all ${quote.theme} quotes`}>{quote.theme}</a>
+    <span>
+      <a href={`/quotes/${category.slug}/`} aria-label={`View all ${quote.theme} quotes`}>{quote.theme}</a>
+      <small>{status.shortLabel}</small>
+    </span>
     <a class="story-link" href={storyPath}>Read story</a>
   </figcaption>
 </figure>
@@ -70,6 +74,18 @@ const storyPath = getQuoteStoryPath(quote);
   figcaption a {
     color: var(--color-green);
     text-decoration-thickness: 1px;
+  }
+
+  figcaption span {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  figcaption small {
+    color: var(--color-muted);
+    font-size: 0.68rem;
+    letter-spacing: 0;
+    text-transform: none;
   }
 
   .story-link {

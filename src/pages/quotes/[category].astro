@@ -16,7 +16,7 @@ export function getStaticPaths() {
 }
 
 const { category, categoryQuotes } = Astro.props;
-const title = `${category.name} Buddhist Quotes`;
+const title = `Original ${category.name} Quotes Inspired by Buddhist Practice`;
 const canonicalPath = `/quotes/${category.slug}/`;
 const relatedArticles = getArticlesForQuoteTheme(category.name).slice(0, 3);
 const categoryMeanings: Record<string, string> = {
@@ -139,9 +139,9 @@ const jsonLd = [
 <Layout title={title} description={category.description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
-      <a class="back-link" href="/quotes/">All Buddhist Quotes</a>
+      <a class="back-link" href="/quotes/">All Quotes</a>
       <span class="eyebrow">Quote Category</span>
-      <h1>{category.name} Buddhist Quotes</h1>
+      <h1>Original {category.name} Quotes</h1>
       <p class="lede">{category.introduction}</p>
       <p class="quote-count">{categoryQuotes.length} original quotes</p>
     </div>
@@ -155,8 +155,9 @@ const jsonLd = [
           <h2 id="category-guide-heading">How to Use These {category.name} Quotes</h2>
           <p>{categoryMeaning}</p>
           <p>
-            Read one quote slowly, notice where it touches ordinary life, then choose one small practice before moving
-            to the next quote.
+            The quotes in this category are original Echo Buddha editorial reflections inspired by Buddhist practice,
+            not direct scripture translations. Read one quote slowly, notice where it touches ordinary life, then
+            choose one practice before moving to the next quote.
           </p>
         </div>
         {relatedTeachingLinks.length > 0 && (

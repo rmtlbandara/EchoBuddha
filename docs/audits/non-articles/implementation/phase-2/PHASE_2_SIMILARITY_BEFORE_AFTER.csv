@@ -1,0 +1,6 @@
+metric,before,after,note
+duplicate sentence groups retained by artifact,100,100,Audit artifact retains top 100 groups.
+duplicate paragraph groups retained by artifact,100,100,Audit artifact retains top 100 groups.
+largest duplicate sentence route count,153,110,Remaining sentence boilerplate is mostly disclosure language.
+largest duplicate paragraph route count,153,52,Reduced from all quote stories to the larger article/date cluster.
+full high-similarity pairs from audit console,12242,11104,Console summary from phase-2 baseline/final audit runs; JSON retains top 200 pairs.

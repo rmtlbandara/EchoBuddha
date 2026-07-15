@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-07-15T07:14:29.790Z",
+  "passed": true,
+  "summary": {
+    "gates": 13,
+    "errors": 0,
+    "warnings": 1,
+    "quoteRecords": 153,
+    "dailyReflections": 30,
+    "indexableQuoteStories": 103,
+    "noindexQuoteStories": 50
+  },
+  "gates": [
+    {
+      "name": "Unique quote text",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "duplicateGroups": []
+      }
+    },
+    {
+      "name": "Every quote record has a generated story route",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "missingRoutes": []
+      }
+    },
+    {
+      "name": "Every quote story has visible origin/status disclosure",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "missingRoutes": [],
+        "total": 0
+      }
+    },
+    {
+      "name": "Quote story robots and sitemap policy",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Quote pages avoid direct-Buddha-quote framing",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "routes": [],
+        "total": 0
+      }
+    },
+    {
+      "name": "Unique daily reflection slugs",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "duplicateGroups": []
+      }
+    },
+    {
+      "name": "Unique daily reflection titles",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "duplicateGroups": []
+      }
+    },
+    {
+      "name": "Every daily reflection has Phase 2 differentiation details",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "missingRoutes": []
+      }
+    },
+    {
+      "name": "Daily reflection differentiators are not duplicated",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "duplicateGroups": []
+      }
+    },
+    {
+      "name": "Today route is a WebPage utility, not Article schema",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "schemaTypes": [
+          "WebSite",
+          "Organization",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    {
+      "name": "Today route uses UTC day-of-year language",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "route": "/daily-reflections/today/"
+      }
+    },
+    {
+      "name": "Final source review register has no unresolved source-review blockers",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "total": 0,
+        "sample": []
+      }
+    },
+    {
+      "name": "Residual duplication is documented for editorial follow-up",
+      "passed": true,
+      "severity": "warning",
+      "details": {
+        "duplicateSentenceGroupsRetained": 100,
+        "duplicateParagraphGroupsRetained": 100,
+        "largestDuplicateSentenceRoutes": 110,
+        "largestDuplicateParagraphRoutes": 52
+      }
+    }
+  ]
+}
