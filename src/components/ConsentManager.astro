@@ -23,8 +23,8 @@ const isProduction = import.meta.env.PROD;
       <p class="eyebrow">Privacy choices</p>
       <h2 id="consent-heading">Optional Analytics</h2>
       <p id="consent-description">
-        Echo Buddha can use Google Analytics to understand which pages are useful. Analytics stays off unless you
-        accept it. Rejecting optional cookies keeps the site fully usable.
+        Echo Buddha uses Google Analytics to understand which pages are useful. Analytics is accepted by default, and
+        rejecting optional analytics keeps the site fully usable.
       </p>
     </div>
     <div class="consent-actions" aria-label="Analytics consent choices">
@@ -191,12 +191,11 @@ const isProduction = import.meta.env.PROD;
       closeButton?.addEventListener("click", closePanel);
 
       const preference = readPreference();
-      if (preference?.analytics === true) {
-        loadAnalytics();
-      } else if (preference?.analytics === false) {
+      if (preference?.analytics === false) {
         clearAnalyticsCookies();
       } else {
-        window.setTimeout(openPanel, 700);
+        if (!preference) writePreference(true);
+        loadAnalytics();
       }
     })();
   </script>
@@ -217,6 +216,10 @@ const isProduction = import.meta.env.PROD;
     position: fixed;
     right: 1rem;
     z-index: 40;
+  }
+
+  .consent-panel[hidden] {
+    display: none;
   }
 
   .consent-panel h2 {

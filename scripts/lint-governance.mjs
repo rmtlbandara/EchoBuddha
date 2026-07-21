@@ -34,7 +34,16 @@ for (const consentType of ["ad_storage", "ad_user_data", "ad_personalization", "
   if (!consent.includes(consentType)) failures.push(`ConsentManager is missing ${consentType} handling.`);
 }
 if (!consent.includes("analytics_storage: \"denied\"")) {
-  failures.push("ConsentManager must default analytics storage to denied.");
+  failures.push("ConsentManager must still support denying analytics storage.");
+}
+if (!consent.includes("writePreference(true)")) {
+  failures.push("ConsentManager must default missing analytics preferences to accepted.");
+}
+if (consent.includes("window.setTimeout(openPanel")) {
+  failures.push("ConsentManager must not auto-open the analytics popup for missing preferences.");
+}
+if (!consent.includes(".consent-panel[hidden]")) {
+  failures.push("ConsentManager must explicitly hide the panel when the hidden attribute is set.");
 }
 
 const site = read("src/data/site.ts");

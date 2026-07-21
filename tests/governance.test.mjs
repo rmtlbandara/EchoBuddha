@@ -4,12 +4,15 @@ import test from "node:test";
 
 const read = (file) => fs.readFileSync(file, "utf8");
 
-test("analytics is consent-gated and ads remain disabled", () => {
+test("analytics defaults accepted without auto-opening the popup and ads remain disabled", () => {
   const layout = read("src/layouts/Layout.astro");
   const consent = read("src/components/ConsentManager.astro");
   const site = read("src/data/site.ts");
 
   assert.equal(layout.includes("googletagmanager.com/gtag/js"), false);
+  assert.match(consent, /writePreference\(true\)/);
+  assert.equal(consent.includes("window.setTimeout(openPanel"), false);
+  assert.match(consent, /\.consent-panel\[hidden\]/);
   assert.match(consent, /analytics_storage:\s*"denied"/);
   assert.match(consent, /ad_storage:\s*"denied"/);
   assert.match(consent, /ad_user_data:\s*"denied"/);
