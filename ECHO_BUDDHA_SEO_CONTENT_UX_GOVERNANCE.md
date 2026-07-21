@@ -7,7 +7,7 @@
 | Project name | Echo Buddha |
 | File purpose | Permanent project-wide governance standard for SEO, content quality, UX, accessibility, crawling, indexing, analytics, privacy, performance, AdSense readiness, and repository change control. |
 | Status | Active governance baseline for future audits and changes |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Created date | 2026-07-21 |
 | Last reviewed date | 2026-07-21 |
 | Governance owner | TBD project owner / Echo Buddha editorial and technical owner |
@@ -62,6 +62,7 @@ Document navigation:
 - [35. Change-Approval Checklist](#35-change-approval-checklist)
 - [36. Exceptions Process](#36-exceptions-process)
 - [37. Governance Maintenance](#37-governance-maintenance)
+- [38. Content Audit Remediation Governance](#38-content-audit-remediation-governance)
 
 Authoritative external source categories reviewed for this version:
 
@@ -919,3 +920,92 @@ Maintenance rules:
 |---|---|---|
 | 1.0.0 | 2026-07-21 | Initial governance source of truth created from repository inspection, limited production verification, and official Google Search / AdSense guidance. |
 | 1.1.0 | 2026-07-21 | Stage B implementation update: consent-gated analytics, validation scripts, CI, SEO audit automation, structured-data simplification, robots operating model, and AdSense-readiness workflow. |
+| 1.2.0 | 2026-07-21 | Content audit remediation update: quote-origin register, source register, meditation safety checklist, page-role map, content re-audit command, URL decision map, and AdSense page-type suitability matrix. |
+
+## 38. Content Audit Remediation Governance
+
+The content audit remediation program is governed by `ECHO_BUDDHA_COMPLETE_CONTENT_AUDIT.md`, `ECHO_BUDDHA_CONTENT_AUDIT_IMPLEMENTATION_REPORT.md`, `src/data/editorialGovernance.ts`, and generated evidence under `docs/audits/content-audit/`.
+
+Current required content-audit validation command:
+
+- `npm run audit:content`
+
+`npm run validate` MUST continue to include the content remediation audit after major content, sitemap, noindex, source, quote, trust-page, or AdSense-readiness changes.
+
+### Quote-Origin Governance
+
+Every quote-story page MUST have a quote-origin register row before being treated as ready for monetization or high-confidence indexing review.
+
+Current allowed quote-origin classifications:
+
+- Original Echo Buddha writing.
+- Verified canonical quotation.
+- Verified historical quotation.
+- Verified modern quotation.
+- Clearly labelled paraphrase.
+- Traditional saying with uncertain origin.
+- Attribution requires verification.
+- Misattributed.
+- Unsupported.
+
+The current repository-safe default for existing quote stories is:
+
+> Original Echo Buddha writing; not presented as a quotation from the Buddha or a Buddhist scripture.
+
+No quote may be labelled as a Buddha quote, scripture quotation, historical saying, or named-person quote without reliable verification and copyright/translation review.
+
+### Source Register and Translation Handling
+
+The source register MUST identify source type, supported claim or topic, source title, author or translator where applicable, institution or publication, URL, copyright/license note, access date, verification status, and reviewer note.
+
+Access to Insight, SuttaCentral, Dhammatalks, institutional Buddhist sources, universities, government health institutions, and scholarly references MAY be used when they support the specific claim. They MUST NOT be treated as interchangeable proof for all claims.
+
+Long modern translations, copyrighted passages, and uncertain attribution require owner/legal review before reproduction.
+
+### Meditation and Wellbeing Safety
+
+Meditation, mindfulness, anxiety, sleep, anger, forgiveness, grief, distress, trauma-adjacent, or wellbeing-adjacent pages MUST be checked against the safety review queue and checklist.
+
+These pages MUST NOT diagnose, treat, cure, guarantee calm, guarantee sleep, guarantee healing, or present Buddhist practice as a substitute for medical or mental-health support.
+
+These pages SHOULD tell readers they may adapt, shorten, ground, open the eyes, choose a different anchor, maintain boundaries, or stop a practice when needed.
+
+### Page-Role Mapping and Duplicate Review
+
+Priority topic clusters MUST have one primary route for the main search intent. Supporting pages MUST have distinct roles such as cornerstone guide, beginner introduction, learning reference, dictionary definition, practical application, meditation instruction, source-study page, daily reflection, quote interpretation, topic hub, or supporting article.
+
+Changing only the title or metadata is not enough to resolve cannibalization. Role differences SHOULD be visible through introduction, structure, examples, source notes, related links, and navigation context.
+
+### Internal-Link Governance
+
+Content-audit link opportunities SHOULD be reviewed after each build. Links should be implemented only where they help readers move from reflection to durable learning, from quote stories to source/trust context, from articles to primary hubs, and from meditation pages to safety/disclaimer context.
+
+### URL Decisions
+
+Every merge, redirect, noindex, or removal decision MUST be documented in `docs/audits/content-audit/url-decision-map.csv` before implementation.
+
+The current page-specific URL decision is:
+
+- `/daily-reflections/today/`: keep URL, add `noindex`, remove from sitemap, retain self-canonical, and keep internal links for recurring users.
+
+### AdSense Page-Type Suitability
+
+Ads remain disabled. Before any AdSense activation, `docs/audits/content-audit/adsense-page-type-suitability.csv` MUST be reviewed with the owner.
+
+Current default restrictions:
+
+- Search, 404, policy, privacy, terms, and disclaimer pages are not suitable for ads.
+- Meditation pages must avoid ads inside practice instructions and near safety notes.
+- Daily reflections must avoid ads near safety notes and should remain low-density.
+- Quote stories require owner review until standalone value and origin review are complete.
+- Articles, learning pages, hubs, and indexes require final content/source/safety review before ads.
+
+### Re-Audit Cadence
+
+Run a full content re-audit:
+
+- Before final AdSense pre-application review.
+- After material content-model changes.
+- After quote-story or daily-reflection family changes.
+- After any merge, redirect, noindex, or removal batch.
+- Quarterly during active publication periods.

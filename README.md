@@ -34,8 +34,10 @@ The validation sequence runs:
 - `npm run lint`
 - `npm test`
 - `npm run audit:seo`
+- `npm run audit:content`
 
 The SEO audit writes current generated-site evidence to `docs/audits/echo-buddha-governance-implementation/`.
+The content audit writes remediation evidence, registers, queues, and page-role maps to `docs/audits/content-audit/`.
 
 ## Content Model
 
@@ -45,7 +47,7 @@ Shared content lives mainly in:
 - `src/data/learn.ts`
 - `src/data/dailyReflections.ts`
 
-Current counts should be generated with `npm run audit:seo` rather than hardcoded into docs. The site includes article pages, quote categories and quote stories, daily reflections, learning hubs and detail pages, meditation guides, tools, search, and trust/policy pages.
+Current counts should be generated with `npm run audit:seo` and `npm run audit:content` rather than hardcoded into docs. The site includes article pages, quote categories and quote stories, daily reflections, learning hubs and detail pages, meditation guides, tools, search, and trust/policy pages.
 
 ## SEO and Indexing
 

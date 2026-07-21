@@ -1,0 +1,2 @@
+currentUrl,currentPurpose,problem,chosenAction,destinationUrl,redirectType,canonicalEffect,sitemapEffect,internalLinkEffect,structuredDataEffect,userImpact,validation
+https://echobuddha.com/daily-reflections/today/,Recurring daily reflection utility page,High similarity with the daily-reflection hub and rotating detail pages,"Noindex, keep URL",,None,Self-canonical retained,Removed from sitemap,Links remain for recurring users,WebPage schema retained,Stable utility page remains available,npm run validate and sitemap/noindex audit

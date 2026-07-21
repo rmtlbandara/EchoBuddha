@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-07-21T15:49:11.185Z",
+  "repositorySafeRemediationDate": "2026-07-21",
+  "totalHtmlPages": 312,
+  "indexablePages": 259,
+  "noindexPages": 53,
+  "sitemapUrls": 259,
+  "quoteStories": 153,
+  "indexableQuoteStories": 103,
+  "dailyReflections": 30,
+  "articles": 42,
+  "learningPages": 37,
+  "meditationPages": 6,
+  "decisionCounts": {
+    "Pass": 93,
+    "Source verification required": 85,
+    "Minor improvement": 30,
+    "Major improvement": 103
+  },
+  "sourceVerificationItems": 85,
+  "expertReviewItems": 88,
+  "similarityPairs": 825,
+  "highSimilarityPairs": 654,
+  "internalLinkOpportunities": 8,
+  "internalLinksImplemented": "Template-level links added from quote, daily, article, learning, and meditation source/safety notes to trust/source pages.",
+  "brokenLinks": 0,
+  "canonicalMismatches": 0,
+  "duplicateTitles": 0,
+  "duplicateDescriptions": 0,
+  "invalidStructuredData": 0,
+  "urlDecisions": 1
+}

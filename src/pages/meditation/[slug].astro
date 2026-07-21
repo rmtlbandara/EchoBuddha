@@ -11,6 +11,7 @@ import {
   getTermLinks,
   type LearningPage
 } from "../../data/learn";
+import { getMeditationSafetyNotice, getTopicRole } from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return allMeditationPages.map((page) => ({
@@ -24,6 +25,8 @@ const canonicalPath = `/meditation/${page.slug}/`;
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
+const meditationRole = getTopicRole(canonicalPath);
+const safetyNotice = getMeditationSafetyNotice();
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -59,6 +62,7 @@ const jsonLd = [
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
+        {meditationRole && <p class="page-role-note">{meditationRole.publicSummary}</p>}
       </div>
     </header>
 
@@ -67,6 +71,10 @@ const jsonLd = [
         <aside class="surface key-box">
           <h2>Key Takeaway</h2>
           <p>{page.takeaway}</p>
+        </aside>
+        <aside class="surface safety-box" aria-labelledby="meditation-safety-heading">
+          <h2 id="meditation-safety-heading">Practice Safety</h2>
+          {safetyNotice.map((notice) => <p>{notice}</p>)}
         </aside>
         {qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-meditation-matters-heading">
@@ -115,6 +123,16 @@ const jsonLd = [
           <section>
             <h2>Safety Note</h2>
             <p>{page.sourceNote}</p>
+            {meditationRole && (
+              <p>
+                This page serves as a <strong>{meditationRole.role}</strong> in the {meditationRole.cluster} topic
+                cluster. Keep future advertising away from practice steps and safety guidance.
+              </p>
+            )}
+            <p>
+              Read the <a href="/disclaimer/">Disclaimer</a> for the site's meditation and wellbeing limitations, and
+              the <a href="/editorial-policy/">Editorial Policy</a> for review standards.
+            </p>
             {sourceLinks.length > 0 && (
               <>
                 <h3>Practice Sources</h3>
@@ -166,14 +184,31 @@ const jsonLd = [
     margin-bottom: 1rem;
   }
 
-  .key-box {
+  .key-box,
+  .safety-box {
     margin-bottom: 2rem;
     padding: 1.25rem;
   }
 
-  .key-box h2 {
+  .key-box h2,
+  .safety-box h2 {
     font-size: 1.35rem;
     margin-top: 0;
+  }
+
+  .safety-box {
+    border-left: 4px solid var(--color-green);
+  }
+
+  .safety-box p {
+    color: var(--color-muted);
+  }
+
+  .page-role-note {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 0.9rem;
   }
 
 	  .learning-note {

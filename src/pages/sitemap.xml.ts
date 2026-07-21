@@ -36,7 +36,6 @@ const staticPaths: SitemapEntry[] = [
   { path: "/learn/questions-about-buddhism/" },
   { path: "/learn/buddhist-resources/" },
   { path: "/daily-reflections/" },
-  { path: "/daily-reflections/today/" },
   { path: "/mindful-living/" },
   { path: "/tools/" },
   { path: "/quotes/" },

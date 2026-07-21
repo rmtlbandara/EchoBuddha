@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-21T13:46:13.077Z",
+  "generatedAt": "2026-07-21T15:49:10.086Z",
   "pageCount": 312,
-  "indexableCount": 260,
-  "noindexCount": 52,
-  "sitemapCount": 260,
+  "indexableCount": 259,
+  "noindexCount": 53,
+  "sitemapCount": 259,
   "pageTypeCounts": {
     "other": 4,
     "policy": 7,
@@ -37,7 +37,7 @@
     "PrivacyPolicy": 1
   },
   "lowInboundCount": 0,
-  "thinReviewCount": 3,
+  "thinReviewCount": 2,
   "failures": [],
   "warnings": []
 }

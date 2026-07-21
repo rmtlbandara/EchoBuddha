@@ -16,6 +16,7 @@ import {
   quotes,
   slugify
 } from "../../data/site";
+import { getTopicRole } from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return fullArticles.map((article) => ({
@@ -192,6 +193,7 @@ const topicClusters = [
 ];
 const activeTopicCluster = topicClusters.find((cluster) => cluster.slugs.includes(article.slug));
 const topicClusterHub = activeTopicCluster && activeTopicCluster.href !== canonicalPath ? activeTopicCluster : undefined;
+const articleRole = getTopicRole(canonicalPath);
 const sourceNoteText =
   activeTopicCluster?.source ??
   (article.category === "Meditation"
@@ -335,6 +337,9 @@ const jsonLd = [
           <span>Reviewed <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
           <span>{readTime}</span>
         </div>
+        {articleRole && (
+          <p class="page-role-note">{articleRole.publicSummary}</p>
+        )}
         <div class="article-share-row">
           <ArticleShare
             title={article.title}
@@ -410,12 +415,22 @@ const jsonLd = [
         <section class="source-note" aria-labelledby="source-note-heading">
           <h2 id="source-note-heading">Further Reading / Source Note</h2>
           <p>{sourceNoteText}</p>
+          {articleRole && (
+            <p>
+              In this topic cluster, this page serves as a <strong>{articleRole.role}</strong>. Its role is to support,
+              not replace, the primary learning route for the cluster.
+            </p>
+          )}
           {topicClusterHub && (
             <p>
               For the broader topic cluster, continue with the
               {" "}<a href={topicClusterHub.href}>{topicClusterHub.label}</a>.
             </p>
           )}
+          <p>
+            For sourcing, attribution, corrections, and the limits of educational content, read the
+            <a href="/editorial-policy/"> Editorial Policy</a> and <a href="/disclaimer/">Disclaimer</a>.
+          </p>
         </section>
 
         {activeTopicCluster && (
@@ -517,6 +532,13 @@ const jsonLd = [
   .article-share-row {
     display: flex;
     margin-top: 1rem;
+  }
+
+  .page-role-note {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 0.9rem;
   }
 
   .key-takeaways {

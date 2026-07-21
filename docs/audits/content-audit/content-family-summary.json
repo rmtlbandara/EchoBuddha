@@ -1,0 +1,129 @@
+{
+  "homepage": {
+    "total": 1,
+    "indexable": 1,
+    "noindex": 0,
+    "decisions": {
+      "Pass": 1
+    },
+    "averageWords": 1187
+  },
+  "error": {
+    "total": 1,
+    "indexable": 0,
+    "noindex": 1,
+    "decisions": {
+      "Pass": 1
+    },
+    "averageWords": 159
+  },
+  "policy": {
+    "total": 7,
+    "indexable": 7,
+    "noindex": 0,
+    "decisions": {
+      "Pass": 7
+    },
+    "averageWords": 419
+  },
+  "hub": {
+    "total": 8,
+    "indexable": 8,
+    "noindex": 0,
+    "decisions": {
+      "Pass": 8
+    },
+    "averageWords": 1116
+  },
+  "article": {
+    "total": 42,
+    "indexable": 42,
+    "noindex": 0,
+    "decisions": {
+      "Source verification required": 42
+    },
+    "averageWords": 1685
+  },
+  "articleCategory": {
+    "total": 5,
+    "indexable": 5,
+    "noindex": 0,
+    "decisions": {
+      "Pass": 5
+    },
+    "averageWords": 510
+  },
+  "dailyReflection": {
+    "total": 30,
+    "indexable": 30,
+    "noindex": 0,
+    "decisions": {
+      "Minor improvement": 30
+    },
+    "averageWords": 482
+  },
+  "todayReflection": {
+    "total": 1,
+    "indexable": 0,
+    "noindex": 1,
+    "decisions": {
+      "Pass": 1
+    },
+    "averageWords": 2190
+  },
+  "learningPage": {
+    "total": 9,
+    "indexable": 9,
+    "noindex": 0,
+    "decisions": {
+      "Pass": 9
+    },
+    "averageWords": 546
+  },
+  "learningDetail": {
+    "total": 37,
+    "indexable": 37,
+    "noindex": 0,
+    "decisions": {
+      "Source verification required": 37
+    },
+    "averageWords": 595
+  },
+  "other": {
+    "total": 2,
+    "indexable": 1,
+    "noindex": 1,
+    "decisions": {
+      "Pass": 2
+    },
+    "averageWords": 930
+  },
+  "meditationDetail": {
+    "total": 6,
+    "indexable": 6,
+    "noindex": 0,
+    "decisions": {
+      "Source verification required": 6
+    },
+    "averageWords": 553
+  },
+  "quoteCategory": {
+    "total": 10,
+    "indexable": 10,
+    "noindex": 0,
+    "decisions": {
+      "Pass": 10
+    },
+    "averageWords": 591
+  },
+  "quoteStory": {
+    "total": 153,
+    "indexable": 103,
+    "noindex": 50,
+    "decisions": {
+      "Major improvement": 103,
+      "Pass": 50
+    },
+    "averageWords": 911
+  }
+}

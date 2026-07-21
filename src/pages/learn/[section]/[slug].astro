@@ -13,6 +13,7 @@ import {
   type LearningPage
 } from "../../../data/learn";
 import { SITE } from "../../../data/site";
+import { getTopicRole } from "../../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return getAllLearningPages().map((page) => ({
@@ -29,6 +30,7 @@ const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: it
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
+const learningRole = getTopicRole(canonicalPath);
 const sourceNoteText =
   page.section === "buddhist-dictionary"
     ? `${page.title} is explained in simplified language for general readers. Compare this definition with reputable Buddhist teachers, translations, and study communities for deeper tradition-specific learning.`
@@ -97,6 +99,7 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
+        {learningRole && <p class="page-role-note">{learningRole.publicSummary}</p>}
       </div>
     </header>
 
@@ -147,6 +150,18 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           <section>
             <h2>Further Reading / Source Note</h2>
             <p>{sourceNoteText}</p>
+            {learningRole && (
+              <p>
+                This page serves as a <strong>{learningRole.role}</strong> in the {learningRole.cluster} topic
+                cluster. It is written as original Echo Buddha educational guidance and remains open to formal
+                Buddhist studies review where doctrine, translation, or tradition-specific interpretation matters.
+              </p>
+            )}
+            <p>
+              For source standards and correction requests, see the <a href="/editorial-policy/">Editorial Policy</a>.
+              For study pathways beyond beginner summaries, visit <a href="/learn/buddhist-resources/">Buddhist
+              Resources</a>.
+            </p>
             {sourceLinks.length > 0 && (
               <>
                 <h3>Traditional References</h3>
@@ -204,6 +219,13 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 
   .breadcrumbs a {
     color: var(--color-muted);
+  }
+
+  .page-role-note {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 0.9rem;
   }
 
   .key-box,

@@ -1,0 +1,30 @@
+{
+  "method": "Risk-based manual review queue from full automated inventory. Includes every current thin indexable page, every high-similarity cluster representative, all meditation pages, major hubs, cornerstone topics, all page-family templates, and representative quote/daily records.",
+  "sampleUrls": [
+    "/",
+    "/start-here/",
+    "/learn/",
+    "/learn/buddhism-for-beginners/",
+    "/learn/buddhism-101/what-is-buddhism/",
+    "/learn/buddhist-dictionary/anicca/",
+    "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+    "/articles/what-is-buddhism-beginner-guide/",
+    "/articles/how-to-meditate-for-anxiety/",
+    "/articles/mindfulness-vs-meditation/",
+    "/meditation/",
+    "/meditation/meditation-for-beginners/",
+    "/meditation/breathing-meditation/",
+    "/quotes/",
+    "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+    "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+    "/daily-reflections/",
+    "/daily-reflections/today/",
+    "/daily-reflections/thoughts-are-visitors/",
+    "/tools/",
+    "/about/",
+    "/contact/",
+    "/privacy-policy/",
+    "/terms-of-use/",
+    "/disclaimer/"
+  ]
+}

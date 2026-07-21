@@ -1,0 +1,14 @@
+cluster,href,role,primary,action
+Beginner Buddhism,https://echobuddha.com/learn/buddhism-for-beginners/,topic hub,yes,Keep as primary route
+Beginner Buddhism,https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,cornerstone guide,no,Differentiate as full article
+Four Noble Truths,https://echobuddha.com/learn/four-noble-truths/,topic hub,yes,Keep as primary route
+Four Noble Truths,https://echobuddha.com/articles/four-noble-truths-explained/,cornerstone guide,no,Keep and source-review
+Four Noble Truths,https://echobuddha.com/articles/four-noble-truths-explained-simply/,beginner introduction,no,Keep differentiated as simple intro
+Noble Eightfold Path,https://echobuddha.com/learn/eightfold-path/,topic hub,yes,Keep as primary route
+Noble Eightfold Path,https://echobuddha.com/articles/eightfold-path-explained/,cornerstone guide,no,Keep and source-review
+Noble Eightfold Path,https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,learning reference,no,Keep as lesson page
+Impermanence,https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,learning reference,yes,Keep as primary reference
+Loving-kindness and Metta,https://echobuddha.com/meditation/loving-kindness-meditation/,meditation instruction,yes,Keep as practice route
+Mindfulness and Meditation,https://echobuddha.com/meditation/,topic hub,yes,Keep as primary route
+Right Speech,https://echobuddha.com/articles/right-speech-buddhism/,practical application,yes,Keep as practical guide
+Daily Reflections,https://echobuddha.com/daily-reflections/today/,daily reflection utility,no,Keep noindex utility page

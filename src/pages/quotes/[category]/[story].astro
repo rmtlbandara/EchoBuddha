@@ -13,6 +13,7 @@ import {
   isQuoteStoryIndexable,
   quotes
 } from "../../../data/site";
+import { getQuoteOriginRecord } from "../../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return quotes.map((quote) => {
@@ -49,6 +50,7 @@ const relatedTeaching = {
 const practiceSuggestion = story.practiceSuggestion;
 const reflectionQuestion = story.reflectionQuestion;
 const dailyLifeExample = story.dailyLifeExample;
+const quoteOriginRecord = getQuoteOriginRecord(quote, canonicalPath);
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -146,8 +148,22 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose story-body">
         <aside class="surface meaning-box">
-          <h2>Quote Status</h2>
+          <h2>Quote Origin and Review Status</h2>
           <p>{story.status.note}</p>
+          <dl class="origin-details">
+            <div>
+              <dt>Origin classification</dt>
+              <dd>{quoteOriginRecord.originClassification}</dd>
+            </div>
+            <div>
+              <dt>Attribution wording</dt>
+              <dd>{quoteOriginRecord.attributionWording}</dd>
+            </div>
+            <div>
+              <dt>Scripture status</dt>
+              <dd>{quoteOriginRecord.canonicalTextReference}</dd>
+            </div>
+          </dl>
           <h2>Meaning of This Quote</h2>
           <p>{story.description}</p>
           <h2>Daily-Life Example</h2>
@@ -196,6 +212,10 @@ const jsonLd = [
         <section class="source-note">
           <h2>Source Note</h2>
           <p>{story.sourceNote}</p>
+          <p>
+            Echo Buddha quote stories use original reflection language unless a page clearly states another source.
+            Read the <a href="/editorial-policy/">Editorial Policy</a> for attribution and correction standards.
+          </p>
         </section>
       </div>
 
@@ -300,6 +320,31 @@ const jsonLd = [
 
   .meaning-box p {
     color: var(--color-muted);
+  }
+
+  .origin-details {
+    border-top: 1px solid var(--color-line);
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .origin-details div {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .origin-details dt {
+    color: var(--color-brown);
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .origin-details dd {
+    color: var(--color-muted);
+    margin: 0;
   }
 
   .story-note {

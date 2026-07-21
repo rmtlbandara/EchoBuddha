@@ -22,7 +22,7 @@ test("analytics defaults accepted without auto-opening the popup and ads remain 
 
 test("required validation scripts are present", () => {
   const pkg = JSON.parse(read("package.json"));
-  for (const script of ["typecheck", "lint", "test", "audit:seo", "validate"]) {
+  for (const script of ["typecheck", "lint", "test", "audit:seo", "audit:content", "validate"]) {
     assert.ok(pkg.scripts[script], `missing ${script} script`);
   }
 });
@@ -46,4 +46,14 @@ test("sitemap output aligns with canonical site when built", () => {
   assert.ok(urls.length > 0);
   assert.ok(urls.every((url) => url.startsWith("https://echobuddha.com/")));
   assert.equal(urls.some((url) => url.includes("/search/")), false);
+  assert.equal(urls.some((url) => url.includes("/daily-reflections/today/")), false);
+});
+
+test("content remediation governance assets remain present", () => {
+  const governance = read("src/data/editorialGovernance.ts");
+  assert.match(governance, /quoteId/);
+  assert.match(governance, /adSuitabilityMatrix/);
+  assert.match(governance, /safetyReviewChecklist/);
+  assert.match(governance, /topicRoleMap/);
+  assert.match(governance, /Original Echo Buddha writing/);
 });

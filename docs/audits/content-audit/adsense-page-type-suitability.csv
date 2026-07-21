@@ -1,0 +1,8 @@
+pageType,classification,note,ownerReviewRequired
+"homepage, hubs, and article indexes",Suitable with restricted placement,Future ads should remain below core navigation and never obscure learning choices.,yes
+article detail,Suitable with restricted placement,Review source and safety status before ads; avoid inserting ads inside sensitive explanations.,yes
+learning detail and dictionary,Suitable with restricted placement,"Ads should not interrupt source notes, definitions, or beginner learning flow.",yes
+meditation detail,Avoid ads inside main instructions,Do not place ads inside practice steps or immediately beside safety notes.,yes
+quote story,Requires owner review,Keep ads disabled until quote-origin and standalone-value review is complete.,yes
+daily reflection,Avoid ads near safety notes,Avoid ads inside the reflection/practice flow; recurring utility pages should remain low-density.,yes
+"search, 404, policy, privacy, terms, disclaimer",Not suitable for ads,These pages are functional or trust pages and should not be monetized by default.,yes

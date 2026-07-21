@@ -9,9 +9,10 @@
     "preview": "astro preview",
     "typecheck": "astro sync && tsc --noEmit",
     "lint": "node scripts/lint-governance.mjs",
+    "audit:content": "node scripts/audit-content-remediation.mjs",
     "test": "node --test tests/*.test.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
-    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo"
+    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content"
   },
   "dependencies": {
     "astro": "^6.4.8"
