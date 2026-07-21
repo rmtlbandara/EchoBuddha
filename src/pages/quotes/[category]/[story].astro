@@ -52,8 +52,9 @@ const dailyLifeExample = story.dailyLifeExample;
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "WebPage",
     headline: story.title,
+    name: story.title,
     description: story.description,
     url: quoteUrl,
     author: {
@@ -72,6 +73,10 @@ const jsonLd = [
     },
     creditText: story.status.label,
     abstract: story.status.note,
+    mainEntity: {
+      "@type": "Quotation",
+      text: quote.text
+    },
     isPartOf: {
       "@type": "CollectionPage",
       name: `${quote.theme} Buddhist Quotes`,

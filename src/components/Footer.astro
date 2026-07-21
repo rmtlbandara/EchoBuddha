@@ -17,6 +17,7 @@ const year = new Date().getFullYear();
       <a href="/articles/">Articles</a>
       <a href="/editorial-policy/">Editorial Policy</a>
       <a href="/privacy-policy/">Privacy Policy</a>
+      <button type="button" data-privacy-settings>Privacy Settings</button>
       <a href="/terms-of-use/">Terms of Use</a>
       <a href="/disclaimer/">Disclaimer</a>
       <a href="/contact/">Contact</a>
@@ -66,15 +67,22 @@ const year = new Date().getFullYear();
     gap: 0.4rem 1rem;
   }
 
-  .site-footer nav a {
+  .site-footer nav a,
+  .site-footer nav button {
+    background: transparent;
+    border: 0;
     color: var(--color-muted);
+    cursor: pointer;
+    font: inherit;
     font-size: 0.9rem;
     font-weight: 700;
     line-height: 1.35;
+    padding: 0;
     text-decoration: none;
   }
 
-  .site-footer nav a:hover {
+  .site-footer nav a:hover,
+  .site-footer nav button:hover {
     color: var(--color-green);
   }
 

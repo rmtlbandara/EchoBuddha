@@ -7,6 +7,14 @@ const title = "Buddhist Resources";
 const description =
   "A curated Echo Buddha resource page for Buddhist texts, meditation learning, dictionaries, beginner Buddhism, Sri Lankan resources, and global Buddhist study.";
 const canonicalPath = "/learn/buddhist-resources/";
+const internalStudyLinks = [
+  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
+  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
+  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" },
+  { label: "Mindfulness of Breathing Explained Simply", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/" },
+  { label: "Buddha's Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" },
+  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -56,6 +64,21 @@ const jsonLd = [
           </ul>
         </section>
       ))}
+      <section class="surface resource-card internal-study">
+        <h2>Echo Buddha Text Study Starting Points</h2>
+        <p>
+          Begin with these source-aware internal guides, then compare the external resources above for fuller study and
+          different translation choices.
+        </p>
+        <ul>
+          {internalStudyLinks.map((link) => (
+            <li>
+              <a href={link.href}>{link.label}</a>
+              <span>Internal beginner guide with practical reflection and source context.</span>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   </section>
 </Layout>

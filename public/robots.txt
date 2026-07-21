@@ -1,3 +1,6 @@
+# Echo Buddha source-controlled base Search policy.
+# Production may be edge-augmented by Cloudflare Managed content-signal
+# and AI crawler rules. Google Search crawling must remain allowed.
 User-agent: *
 Allow: /
 

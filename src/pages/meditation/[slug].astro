@@ -74,14 +74,26 @@ const jsonLd = [
             <p>{qualityNote.why}</p>
           </section>
         )}
-        {page.sections.map((section, index) => (
-          <>
+	        {page.sections.map((section, index) => (
+	          <>
             <h2>{section.heading}</h2>
             {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
             {index === 1 && <AdSlot />}
           </>
-        ))}
-        {qualityNote && (
+	        ))}
+        <section class="practice-context" aria-labelledby="practice-context-heading">
+          <h2 id="practice-context-heading">Before and After Practice</h2>
+          <p>
+            Before you begin, choose a length and posture that your body can sustain without strain. Buddhist meditation
+            is often taught with ethics and wisdom, so the aim is not to perform calm but to notice experience clearly
+            and respond with less harm.
+          </p>
+          <p>
+            Afterward, take a moment before returning to the day. Notice whether speech, attention, or intention feels a
+            little more workable. If practice feels agitating, shorten it, open your eyes, or return to ordinary grounding.
+          </p>
+        </section>
+	        {qualityNote && (
           <aside class="surface key-box">
             <h2>A Helpful Clarification</h2>
             <p>{qualityNote.clarification}</p>
@@ -164,10 +176,16 @@ const jsonLd = [
     margin-top: 0;
   }
 
-  .learning-note {
+	  .learning-note {
     border-bottom: 1px solid var(--color-line);
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;
+	  }
+
+  .practice-context {
+    border-block: 1px solid var(--color-line);
+    margin: 2rem 0;
+    padding: 0.5rem 0 1rem;
   }
 
   .source-list {

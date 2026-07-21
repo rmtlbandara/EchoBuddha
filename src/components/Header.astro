@@ -213,10 +213,26 @@ const navItems = [
   const header = document.querySelector(".site-header");
   const menuToggle = header?.querySelector("[data-menu-toggle]");
 
-  menuToggle?.addEventListener("click", () => {
-    const isOpen = header?.dataset.navOpen === "true";
-    header.dataset.navOpen = isOpen ? "false" : "true";
-    menuToggle.setAttribute("aria-expanded", String(!isOpen));
-    menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+	  menuToggle?.addEventListener("click", () => {
+	    const isOpen = header?.dataset.navOpen === "true";
+	    header.dataset.navOpen = isOpen ? "false" : "true";
+	    menuToggle.setAttribute("aria-expanded", String(!isOpen));
+	    menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+	  });
+
+  header?.querySelectorAll("[data-main-nav] a").forEach((link) => {
+    link.addEventListener("click", () => {
+      header.dataset.navOpen = "false";
+      menuToggle?.setAttribute("aria-expanded", "false");
+      menuToggle?.setAttribute("aria-label", "Open navigation menu");
+    });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || header?.dataset.navOpen !== "true") return;
+    header.dataset.navOpen = "false";
+    menuToggle?.setAttribute("aria-expanded", "false");
+    menuToggle?.setAttribute("aria-label", "Open navigation menu");
+    menuToggle?.focus();
   });
 </script>

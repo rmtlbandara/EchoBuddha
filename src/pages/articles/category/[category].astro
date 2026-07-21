@@ -25,6 +25,31 @@ const title = `${category.name} Articles`;
 const canonicalPath = `/articles/category/${category.slug}/`;
 const quoteTheme = getQuoteThemeForArticleCategory(category.name);
 const quoteCategory = getQuoteCategory(quoteTheme);
+const categoryFocus = {
+  "Buddhist Wisdom": {
+    purpose: "Use this category for core Buddhist ideas, ethical reflection, and beginner explanations that need more context than a quote or dictionary entry.",
+    practice: "Start with one teaching, then ask how it changes speech, intention, work, or the next small choice."
+  },
+  Meditation: {
+    purpose: "Use this category for practical meditation guidance, breath awareness, loving-kindness, walking practice, and careful wellbeing notes.",
+    practice: "Choose the shortest practice that feels steady, keep the body comfortable, and treat difficulty as information rather than failure."
+  },
+  Mindfulness: {
+    purpose: "Use this category for present-moment awareness in ordinary activities such as listening, morning routines, work, sleep, and overthinking.",
+    practice: "Pick one ordinary task and let it become a simple place to return to attention."
+  },
+  Reflection: {
+    purpose: "Use this category for essays that turn impermanence, forgiveness, gratitude, and letting go into practical contemplation.",
+    practice: "Read slowly and carry one question into the day instead of trying to solve everything at once."
+  },
+  Practice: {
+    purpose: "Use this category for applied Buddhist training: non-harming, patience, right speech, compassion, daily discipline, and wise effort.",
+    practice: "Choose one repeatable action that reduces harm and makes practice visible in daily life."
+  }
+}[category.name] ?? {
+  purpose: "Use this category to browse related Echo Buddha articles by topic and intent.",
+  practice: "Choose one article and follow its related links when you want more context."
+};
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -95,6 +120,20 @@ const jsonLd = [
       </div>
       <AdSlot />
 
+      <section class="category-guidance surface" aria-labelledby="category-guidance-heading">
+        <div>
+          <span class="eyebrow">Category guide</span>
+          <h2 id="category-guidance-heading">How to Use These {category.name} Articles</h2>
+          <p>{categoryFocus.purpose}</p>
+          <p>
+            Each card points to a full article with related terms, practice prompts, and source notes where the topic
+            needs context. If you are unsure where to begin, choose the article that answers your current real-life
+            question rather than reading the category as a checklist.
+          </p>
+        </div>
+        <p>{categoryFocus.practice}</p>
+      </section>
+
       <aside class="related-quotes surface">
         <div>
           <span class="eyebrow">Related quotes</span>
@@ -130,6 +169,22 @@ const jsonLd = [
     gap: 1.25rem;
     justify-content: space-between;
     padding: 1.5rem;
+  }
+
+  .category-guidance {
+    display: grid;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+  }
+
+  .category-guidance h2 {
+    font-size: 1.55rem;
+  }
+
+  .category-guidance p {
+    color: var(--color-muted);
+    margin-bottom: 0;
   }
 
   .related-quotes h2 {

@@ -1,0 +1,270 @@
+---
+import { ANALYTICS, FEATURES } from "../data/site";
+
+const analyticsId = ANALYTICS.googleAnalyticsId;
+const consentPreferenceKey = ANALYTICS.consentPreferenceKey;
+const consentVersion = ANALYTICS.consentVersion;
+const analyticsEnabled = FEATURES.analyticsEnabled && Boolean(analyticsId);
+const isProduction = import.meta.env.PROD;
+---
+
+{analyticsEnabled && (
+  <section
+    class="consent-panel"
+    role="dialog"
+    aria-modal="false"
+    aria-labelledby="consent-heading"
+    aria-describedby="consent-description"
+    data-consent-panel
+    data-open="false"
+    hidden
+  >
+    <div>
+      <p class="eyebrow">Privacy choices</p>
+      <h2 id="consent-heading">Optional Analytics</h2>
+      <p id="consent-description">
+        Echo Buddha can use Google Analytics to understand which pages are useful. Analytics stays off unless you
+        accept it. Rejecting optional cookies keeps the site fully usable.
+      </p>
+    </div>
+    <div class="consent-actions" aria-label="Analytics consent choices">
+      <button type="button" data-consent-accept>Accept analytics</button>
+      <button type="button" data-consent-reject>Reject optional cookies</button>
+      <button type="button" data-consent-close>Close</button>
+    </div>
+  </section>
+)}
+
+{analyticsEnabled && (
+  <script
+    is:inline
+    define:vars={{
+      analyticsId,
+      consentPreferenceKey,
+      consentVersion,
+      isProduction
+    }}
+  >
+    (() => {
+      const panel = document.querySelector("[data-consent-panel]");
+      if (!panel) return;
+
+      const acceptButton = panel.querySelector("[data-consent-accept]");
+      const rejectButton = panel.querySelector("[data-consent-reject]");
+      const closeButton = panel.querySelector("[data-consent-close]");
+      const focusableSelector = "button, [href], input, select, textarea, [tabindex]:not([tabindex='-1'])";
+      let analyticsLoaded = false;
+      let lastFocus = null;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function gtag() {
+        window.dataLayer.push(arguments);
+      };
+
+      window.gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied"
+      });
+
+      const readPreference = () => {
+        try {
+          const raw = window.localStorage.getItem(consentPreferenceKey);
+          if (!raw) return null;
+          const parsed = JSON.parse(raw);
+          return parsed?.version === consentVersion ? parsed : null;
+        } catch {
+          return null;
+        }
+      };
+
+      const writePreference = (analytics) => {
+        try {
+          window.localStorage.setItem(consentPreferenceKey, JSON.stringify({
+            analytics,
+            version: consentVersion,
+            updatedAt: new Date().toISOString()
+          }));
+        } catch {
+          // If storage is unavailable, keep the choice for this page view only.
+        }
+      };
+
+      const clearAnalyticsCookies = () => {
+        const hostParts = window.location.hostname.split(".");
+        const domains = new Set([window.location.hostname]);
+        if (hostParts.length > 2) domains.add(`.${hostParts.slice(-2).join(".")}`);
+        domains.add(".echobuddha.com");
+        const names = ["_ga", "_gid", "_gat", `_ga_${analyticsId.replace(/^G-/, "")}`];
+        names.forEach((name) => {
+          document.cookie = `${name}=; Max-Age=0; path=/; SameSite=Lax`;
+          domains.forEach((domain) => {
+            document.cookie = `${name}=; Max-Age=0; path=/; domain=${domain}; SameSite=Lax`;
+          });
+        });
+      };
+
+      const openPanel = () => {
+        lastFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+        panel.hidden = false;
+        panel.dataset.open = "true";
+        acceptButton?.focus();
+      };
+
+      const closePanel = () => {
+        panel.hidden = true;
+        panel.dataset.open = "false";
+        lastFocus?.focus?.();
+      };
+
+      const loadAnalytics = () => {
+        if (analyticsLoaded || !isProduction) return;
+        analyticsLoaded = true;
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analyticsId)}`;
+        document.head.appendChild(script);
+        window.gtag("js", new Date());
+        window.gtag("consent", "update", {
+          analytics_storage: "granted",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied"
+        });
+        window.gtag("config", analyticsId, { anonymize_ip: true });
+      };
+
+      const acceptAnalytics = () => {
+        writePreference(true);
+        loadAnalytics();
+        closePanel();
+      };
+
+      const rejectAnalytics = () => {
+        writePreference(false);
+        window.gtag("consent", "update", {
+          analytics_storage: "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied"
+        });
+        clearAnalyticsCookies();
+        closePanel();
+      };
+
+      window.EchoBuddhaPrivacy = {
+        open: openPanel,
+        acceptAnalytics,
+        rejectAnalytics,
+        getPreference: readPreference
+      };
+
+      document.addEventListener("click", (event) => {
+        const trigger = event.target instanceof Element ? event.target.closest("[data-privacy-settings]") : null;
+        if (!trigger) return;
+        event.preventDefault();
+        openPanel();
+      });
+
+      panel.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          closePanel();
+          return;
+        }
+        if (event.key !== "Tab") return;
+        const focusable = [...panel.querySelectorAll(focusableSelector)].filter((item) => !item.hasAttribute("disabled"));
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable.at(-1);
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      });
+
+      acceptButton?.addEventListener("click", acceptAnalytics);
+      rejectButton?.addEventListener("click", rejectAnalytics);
+      closeButton?.addEventListener("click", closePanel);
+
+      const preference = readPreference();
+      if (preference?.analytics === true) {
+        loadAnalytics();
+      } else if (preference?.analytics === false) {
+        clearAnalyticsCookies();
+      } else {
+        window.setTimeout(openPanel, 700);
+      }
+    })();
+  </script>
+)}
+
+<style>
+  .consent-panel {
+    background: rgba(255, 253, 248, 0.98);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    bottom: 1rem;
+    box-shadow: var(--shadow-soft);
+    display: grid;
+    gap: 1rem;
+    left: 1rem;
+    max-width: 42rem;
+    padding: 1rem;
+    position: fixed;
+    right: 1rem;
+    z-index: 40;
+  }
+
+  .consent-panel h2 {
+    font-size: 1.35rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .consent-panel p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  .consent-actions {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .consent-actions button {
+    background: transparent;
+    border: 1px solid var(--color-brown);
+    border-radius: var(--radius);
+    color: var(--color-brown);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 800;
+    min-height: 2.75rem;
+    padding: 0.7rem 0.9rem;
+  }
+
+  .consent-actions button:first-child {
+    background: var(--color-brown);
+    color: #fffaf1;
+  }
+
+  .consent-actions button:hover {
+    background: var(--color-green-soft);
+    border-color: var(--color-green);
+    color: var(--color-green);
+  }
+
+  @media (min-width: 720px) {
+    .consent-panel {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    .consent-actions {
+      align-content: center;
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+</style>

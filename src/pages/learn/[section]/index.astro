@@ -284,6 +284,20 @@ const jsonLd = [
           </ul>
         </section>
       )}
+      {(section.slug === "dhammapada-reflections" || section.slug === "sutta-for-daily-life") && (
+        <section class="surface study-note" aria-labelledby="study-note-heading">
+          <span class="eyebrow">Study note</span>
+          <h2 id="study-note-heading">Read With Source Awareness</h2>
+          <p>
+            These pages are not a substitute for full translation study. They offer original Echo Buddha explanations
+            that help a reader test one traditional theme in speech, attention, patience, and non-harming.
+          </p>
+          <p>
+            When a passage matters to you, compare translations and teacher commentaries. A short reflection becomes
+            stronger when it leads to careful reading rather than replacing it.
+          </p>
+        </section>
+      )}
       <div class="grid grid--3">
         {section.items.map((item) => (
           <div
@@ -410,10 +424,27 @@ const jsonLd = [
     margin: -0.5rem 0 1.5rem;
   }
 
-  .source-panel {
+	  .source-panel {
     border-block: 1px solid var(--color-line);
     margin: 1.5rem 0;
     padding: 1.25rem 0;
+	  }
+
+  .study-note {
+    margin: 1.5rem 0;
+    padding: 1.25rem;
+  }
+
+  .study-note h2 {
+    font-size: 1.45rem;
+  }
+
+  .study-note p {
+    color: var(--color-muted);
+  }
+
+  .study-note p:last-child {
+    margin-bottom: 0;
   }
 
   .source-panel p {

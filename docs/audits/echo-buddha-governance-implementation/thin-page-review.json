@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/terms-of-use/",
+    "type": "policy",
+    "words": 254,
+    "decision": "Keep with documented navigational/trust purpose unless product owner chooses expansion."
+  },
+  {
+    "path": "/contact/",
+    "type": "policy",
+    "words": 258,
+    "decision": "Keep with documented navigational/trust purpose unless product owner chooses expansion."
+  },
+  {
+    "path": "/disclaimer/",
+    "type": "policy",
+    "words": 322,
+    "decision": "Keep with documented navigational/trust purpose unless product owner chooses expansion."
+  }
+]

@@ -9,6 +9,14 @@ const title = "Learn Buddhist Wisdom for Daily Life";
 const description =
   "Explore Echo Buddha's calm learning library with beginner-friendly Buddhist teachings, dictionary terms, meditation guidance, Dhammapada reflections, sutta notes, and practical daily wisdom.";
 const canonicalPath = "/learn/";
+const textStudyLinks = [
+  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
+  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" },
+  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
+  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" },
+  { label: "Buddha's Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" },
+  { label: "Mindfulness of Breathing Explained Simply", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/" }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -57,6 +65,19 @@ const jsonLd = [
         </div>
         <a class="button button--secondary" href="/search/">Search learning content</a>
       </div>
+      <section class="text-study surface" aria-labelledby="text-study-heading">
+        <div>
+          <span class="eyebrow">Text study pathways</span>
+          <h2 id="text-study-heading">Dhammapada and Sutta Notes Worth Reading Next</h2>
+          <p>
+            These short guides connect classic Buddhist themes with careful modern reflection. Use them when you want
+            source-aware reading beyond a dictionary definition or quote card.
+          </p>
+        </div>
+        <ul>
+          {textStudyLinks.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+        </ul>
+      </section>
     </div>
   </section>
 
@@ -158,6 +179,34 @@ const jsonLd = [
     padding: 1.25rem;
   }
 
+  .text-study {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .text-study h2 {
+    font-size: 1.45rem;
+  }
+
+  .text-study p {
+    color: var(--color-muted);
+    margin-bottom: 0;
+  }
+
+  .text-study ul {
+    display: grid;
+    gap: 0.55rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-study a {
+    font-weight: 800;
+  }
+
   .search-entry h2 {
     font-size: 1.45rem;
   }
@@ -181,6 +230,10 @@ const jsonLd = [
 
     .search-entry {
       grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    .text-study {
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
     }
   }
 </style>

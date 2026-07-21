@@ -1,0 +1,34 @@
+{
+  "schemaCounts": {
+    "AboutPage": 1,
+    "BlogPosting+Article": 42,
+    "BreadcrumbList": 303,
+    "FAQPage": 49,
+    "CollectionPage": 28,
+    "Blog": 1,
+    "ItemList": 2,
+    "ProfilePage": 1,
+    "ContactPage": 1,
+    "WebPage": 187,
+    "WebSite": 1,
+    "Organization": 1,
+    "Article": 45,
+    "DefinedTerm": 12,
+    "DefinedTermSet": 1,
+    "HowTo": 1,
+    "PrivacyPolicy": 1
+  },
+  "pageTypeCounts": {
+    "other": 4,
+    "policy": 7,
+    "article": 42,
+    "articleCategory": 5,
+    "hub": 9,
+    "daily": 30,
+    "learning": 37,
+    "learningHub": 9,
+    "meditation": 6,
+    "quoteStory": 153,
+    "quoteCategory": 10
+  }
+}

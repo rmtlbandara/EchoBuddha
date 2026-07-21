@@ -1,0 +1,32 @@
+{
+  "name": "Echo Buddha",
+  "short_name": "Echo Buddha",
+  "description": "Buddhist wisdom, meditation guidance, daily reflections, quote meanings, and mindful living practices for everyday life.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#fffdf8",
+  "theme_color": "#fffdf8",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

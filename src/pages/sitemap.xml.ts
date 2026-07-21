@@ -21,6 +21,8 @@ type SitemapEntry = {
   lastmod?: string;
 };
 
+const asSitemapEntries = (entries: SitemapEntry[]) => entries;
+
 const staticPaths: SitemapEntry[] = [
   { path: "/" },
   { path: "/about/" },
@@ -57,7 +59,7 @@ export const GET: APIRoute = () => {
     path: `/articles/${article.slug}/`,
     lastmod: getArticleLastmod(article.slug, article.date)
   }));
-  const articleCategoryPaths = articleCategories.map((category) => ({
+  const articleCategoryPaths: SitemapEntry[] = articleCategories.map((category) => ({
     path: `/articles/category/${category.slug}/`,
     lastmod: fullArticles
       .filter((article) => article.category === category.name)
@@ -65,28 +67,28 @@ export const GET: APIRoute = () => {
       .sort()
       .at(-1)
   }));
-  const quoteCategoryPaths = quoteCategories.map((category) => ({
+  const quoteCategoryPaths: SitemapEntry[] = quoteCategories.map((category) => ({
     path: `/quotes/${category.slug}/`
   }));
-  const quoteStoryPaths = quotes
+  const quoteStoryPaths: SitemapEntry[] = quotes
     .filter(isQuoteStoryIndexable)
     .map((quote) => ({
       path: getQuoteStoryPath(quote),
       lastmod: quote.story?.updatedDate
     }));
-  const dailyReflectionPaths = dailyReflections.map((reflection) => ({
+  const dailyReflectionPaths: SitemapEntry[] = dailyReflections.map((reflection) => ({
     path: getDailyReflectionPath(reflection)
   }));
-  const learningSectionPaths = learningSections.map((section) => ({
+  const learningSectionPaths: SitemapEntry[] = learningSections.map((section) => ({
     path: section.href
   }));
-  const learningPagePaths = getAllLearningPages().map((page) => ({
+  const learningPagePaths: SitemapEntry[] = getAllLearningPages().map((page) => ({
     path: `/learn/${page.section}/${page.slug}/`
   }));
-  const meditationPagePaths = allMeditationPages.map((page) => ({
+  const meditationPagePaths: SitemapEntry[] = allMeditationPages.map((page) => ({
     path: `/meditation/${page.slug}/`
   }));
-  const urls = [
+  const entries = asSitemapEntries([
     ...staticPaths.map((entry) =>
       ["/", "/articles/"].includes(entry.path) && latestArticleLastmod
         ? { ...entry, lastmod: latestArticleLastmod }
@@ -100,7 +102,8 @@ export const GET: APIRoute = () => {
     ...quoteCategoryPaths,
     ...quoteStoryPaths,
     ...dailyReflectionPaths
-  ]
+  ]);
+  const urls = entries
     .map((entry) => {
       const loc = new URL(entry.path, SITE.url).toString();
       const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : "";

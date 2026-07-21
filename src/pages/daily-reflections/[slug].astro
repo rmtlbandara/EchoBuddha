@@ -33,8 +33,8 @@ const continueLinks = [
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: title,
+    "@type": "WebPage",
+    name: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
     author: { "@type": "Organization", name: SITE.author, url: `${SITE.url}/authors/echo-buddha-editorial/` },
@@ -100,11 +100,25 @@ const jsonLd = [
         <h2>Journal Question</h2>
         <p>{reflection.journalQuestion}</p>
 
-        <h2>Related Buddhist Idea</h2>
-        <p>
-          This reflection connects with <strong>{reflection.relatedIdea}</strong>. Use the links below to continue with
-          a fuller teaching or a quote category that supports the same practice.
-        </p>
+	        <h2>Related Buddhist Idea</h2>
+	        <p>
+	          This reflection connects with <strong>{reflection.relatedIdea}</strong>. Use the links below to continue with
+	          a fuller teaching or a quote category that supports the same practice.
+	        </p>
+
+        <section class="reflection-context" aria-labelledby="reflection-context-heading">
+          <h2 id="reflection-context-heading">How to Use This Reflection</h2>
+          <p>
+            Read this page as a small practice note rather than a rule for every situation. Echo Buddha reflections are
+            original educational writing inspired by Buddhist themes such as non-harming, mindfulness, compassion,
+            impermanence, and wise intention.
+          </p>
+          <p>
+            If the reflection names a difficult emotion or relationship, keep practical safety and boundaries in view.
+            A gentle pause can support clarity, but it should not replace qualified help, honest communication, or
+            necessary protection.
+          </p>
+        </section>
 
         <nav class="reflection-link-list" aria-label={`Related teachings for ${reflection.title}`}>
           {reflection.relatedLinks.map((link) => <a href={link.href}>{link.label}</a>)}
@@ -196,11 +210,17 @@ const jsonLd = [
     color: var(--color-muted);
   }
 
-  .reflection-link-list {
+	  .reflection-link-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
     margin: 1.25rem 0 2rem;
+	  }
+
+  .reflection-context {
+    border-block: 1px solid var(--color-line);
+    margin: 2rem 0;
+    padding: 0.5rem 0 1rem;
   }
 
   .reflection-link-list a {

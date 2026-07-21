@@ -9,7 +9,14 @@ export const SITE = {
 };
 
 export const FEATURES = {
-  adsEnabled: false
+  adsEnabled: false,
+  analyticsEnabled: true
+};
+
+export const ANALYTICS = {
+  googleAnalyticsId: "G-6QB396HNKN",
+  consentPreferenceKey: "echo_buddha_privacy_consent",
+  consentVersion: "2026-07-21"
 };
 
 export type QuoteOriginStatus =

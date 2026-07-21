@@ -49,6 +49,14 @@ const relatedSections = [
   { label: "Meditation Guides", href: "/meditation/", description: "Beginner-friendly guides for breath, walking, metta, and daily mindfulness." },
   { label: "Mindful Living", href: "/mindful-living/", description: "Bring Buddhist-inspired practice into ordinary days." }
 ];
+const staticResourceLinks = [
+  { label: "Today\'s Reflection", href: "/daily-reflections/today/", description: "Open the current daily reflection without using the generator." },
+  { label: "Mindfulness Quotes", href: "/quotes/mindfulness/", description: "Browse original mindfulness quotes and reflection stories." },
+  { label: "Breathing Meditation", href: "/meditation/breathing-meditation/", description: "Practice with a simple breath guide before using the timer." },
+  { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/", description: "Look up terms such as metta, karma, anicca, and sati." },
+  { label: "Daily Buddhist Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/", description: "Build a repeatable practice around study, ethics, and attention." },
+  { label: "Right Speech", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/", description: "Use mindful speech as a practical daily tool." }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -184,8 +192,8 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="section section-band">
-    <div class="container split">
+	  <section class="section section-band">
+	    <div class="container split">
       <div>
         <span class="eyebrow">Practice note</span>
         <h2>Use Tools Lightly</h2>
@@ -197,6 +205,16 @@ const jsonLd = [
       </div>
       <div class="grid">
         {relatedSections.map((item) => <LearningCard item={item} />)}
+      </div>
+	    </div>
+	  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <span class="eyebrow">Crawlable resources</span>
+      <h2>Practice Links Available Without JavaScript</h2>
+      <div class="grid grid--3">
+        {staticResourceLinks.map((item) => <LearningCard item={item} />)}
       </div>
     </div>
   </section>
