@@ -1,9 +1,0 @@
-check,owner_action,status,notes
-GA property ownership,Confirm access to GA property G-6QB396HNKN,owner-required,Repository cannot verify account ownership.
-Realtime analytics after consent,Verify events only after accepted analytics preference,owner-required,Local browser network test passed.
-Rejected analytics behavior,Verify no unexpected page_view collection after rejection,owner-required,Local browser network test passed.
-Duplicate pageviews,Review duplicate page_view or route-change anomalies,owner-required,Account data unavailable.
-Landing page quality,Review engagement for homepage, learning, articles, quotes, daily reflections, tools, and policy pages,owner-required,Useful before applying for AdSense.
-Consent rates,Review accept/reject rates and regional implications with privacy reviewer,owner-required,Legal/privacy advice not provided by this audit.
-Internal traffic exclusion,Configure owner/team traffic filters if appropriate,owner-required,Helps avoid distorted engagement/invalid-traffic signals.
-AdSense linkage,Do not link or activate AdSense until final owner approval,not-started,No AdSense code was added.

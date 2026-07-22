@@ -1,9 +1,0 @@
-review_area,scope,status,required_before_adsense_application,notes
-Owner review,Final readiness report and remaining deployment/account actions,owner-required,yes,Owner must decide whether to apply after production deployment verification.
-Legal/privacy review,Privacy policy, consent model, analytics, cookies, terms, disclaimer, and future ads,owner-required,yes,This audit is not legal advice.
-Copyright/translation review,Quote-origin register, source register, modern translations, and external reuse risk,owner-required,yes,No fabricated legal clearance claimed.
-Buddhist studies/source review,High-risk doctrinal/source claims and quote-origin classifications,owner-required,recommended,Repository source queue is closed but specialist review is not claimed.
-Safety/clinical review,Meditation, anxiety, sleep, anger, forgiveness, grief, and wellbeing-adjacent content,owner-required,recommended,Required before expanding into treatment/trauma/crisis-adjacent guidance.
-Search Console review,Indexing, sitemap, manual actions, security issues, CWV, structured data,owner-required,yes,Account evidence unavailable locally.
-Analytics review,Consent behavior, duplicate views, traffic quality, landing pages,owner-required,yes,Account evidence unavailable locally.
-AdSense account review,Eligibility, site review, policy account state,owner-required,yes,No application or activation performed.

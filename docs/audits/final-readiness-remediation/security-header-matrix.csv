@@ -1,8 +1,0 @@
-header,source_controlled_in_public_headers,built_in_dist_headers,current_production_observed_2026_07_22,status,notes
-X-Content-Type-Options,yes,yes,no,production-pending-deployment,Configured as nosniff in public/_headers and dist/_headers.
-Referrer-Policy,yes,yes,no,production-pending-deployment,Configured as strict-origin-when-cross-origin.
-X-Frame-Options,yes,yes,no,production-pending-deployment,Configured as DENY.
-Permissions-Policy,yes,yes,no,production-pending-deployment,"Restricts camera, microphone, geolocation, usb, payment, browsing-topics, accelerometer, gyroscope, and magnetometer."
-Strict-Transport-Security,yes,yes,no,production-pending-deployment,Configured max-age 31536000 without includeSubDomains to reduce deployment risk.
-Content-Security-Policy-Report-Only,yes,yes,no,production-pending-deployment,Report-only policy avoids breaking production while validating script/connect/style allowances.
-Cloudflare NEL and Report-To,no,no,yes,existing-production-edge,Observed on production from Cloudflare; not repository-controlled.

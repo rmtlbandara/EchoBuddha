@@ -1,5 +1,0 @@
-url,status,strict_transport_security,content_security_policy,x_content_type_options,referrer_policy,permissions_policy,x_frame_options,cache_control,server,cf_cache_status
-https://echobuddha.com/,200,,,,,,,"public, max-age=0, must-revalidate",cloudflare,HIT
-https://echobuddha.com/privacy-policy/,200,,,,,,,"public, max-age=0, must-revalidate",cloudflare,HIT
-https://echobuddha.com/robots.txt,200,,,,,,,"public, max-age=0, must-revalidate",cloudflare,HIT
-https://echobuddha.com/sitemap.xml,200,,,,,,,"public, max-age=0, must-revalidate",cloudflare,HIT

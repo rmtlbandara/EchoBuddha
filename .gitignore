@@ -4,3 +4,9 @@ dist/
 .DS_Store
 **/.DS_Store
 npm-debug.log*
+
+# Local final audit evidence kept off main/production.
+ECHO_BUDDHA_FINAL_PRODUCTION_ADSENSE_READINESS_AUDIT.md
+ECHO_BUDDHA_FINAL_READINESS_REMEDIATION_REPORT.md
+docs/audits/final-production-audit/
+docs/audits/final-readiness-remediation/

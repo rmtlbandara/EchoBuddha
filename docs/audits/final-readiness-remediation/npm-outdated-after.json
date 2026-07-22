@@ -1,9 +1,0 @@
-{
-  "typescript": {
-    "current": "5.9.3",
-    "wanted": "5.9.3",
-    "latest": "7.0.2",
-    "dependent": "EB 2",
-    "location": "/Users/tharindu/Documents/EB 2/node_modules/typescript"
-  }
-}
