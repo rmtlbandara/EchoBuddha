@@ -63,6 +63,20 @@ if (!fs.existsSync(path.join(root, "public/site.webmanifest"))) {
   failures.push("Missing public/site.webmanifest.");
 }
 
+if (!fs.existsSync(path.join(root, "public/_headers"))) {
+  failures.push("Missing source-controlled Cloudflare header policy at public/_headers.");
+} else {
+  const headers = read("public/_headers");
+  for (const required of [
+    "X-Content-Type-Options: nosniff",
+    "Referrer-Policy: strict-origin-when-cross-origin",
+    "X-Frame-Options: DENY",
+    "Content-Security-Policy-Report-Only:"
+  ]) {
+    if (!headers.includes(required)) failures.push(`Missing required security header: ${required}`);
+  }
+}
+
 if (!fs.existsSync(path.join(root, ".github/workflows/validate.yml"))) {
   failures.push("Missing CI workflow at .github/workflows/validate.yml.");
 }

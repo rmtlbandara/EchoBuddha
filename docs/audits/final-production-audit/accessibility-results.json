@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-22",
+  "status": "manual_browser_verification_needed",
+  "automatedBrowserTooling": "Playwright was not installed in the audit environment; axe and Lighthouse were not run.",
+  "staticEvidence": {
+    "metadataAuditRowsRequiringReview": 0,
+    "structuredDataParseErrors": 0,
+    "brokenInternalLinks": 0,
+    "lowInboundIndexablePages": 0
+  },
+  "representativeManualItemsStillNeeded": [
+    "Keyboard navigation",
+    "Focus visibility",
+    "Mobile navigation menu",
+    "Consent controls",
+    "Search interaction",
+    "Tools interaction",
+    "Screen-reader landmark and announcement review",
+    "Contrast and text-resize review"
+  ],
+  "readinessImpact": "No confirmed serious accessibility blocker was found by static audit, but final readiness remains conditional until browser/manual accessibility testing is completed."
+}

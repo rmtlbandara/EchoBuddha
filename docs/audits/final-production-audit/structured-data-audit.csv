@@ -1,0 +1,313 @@
+url,family,schema_types,json_parse_errors,result
+https://echobuddha.com/,Homepage,WebSite|Organization|BreadcrumbList|FAQPage|ItemList,0,pass_syntax
+https://echobuddha.com/404.html,Error,,0,no_json_ld
+https://echobuddha.com/about/,Trust,AboutPage,0,pass_syntax
+https://echobuddha.com/articles/,Article hub,Blog|ItemList|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/buddhist-approach-to-anger/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/buddhist-gratitude-practice/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/category/buddhist-wisdom/,Article category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/articles/category/meditation/,Article category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/articles/category/mindfulness/,Article category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/articles/category/practice/,Article category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/articles/category/reflection/,Article category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/articles/compassion-as-a-daily-discipline/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/eightfold-path-explained-daily-life/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/eightfold-path-explained/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/equanimity-in-buddhism/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/five-precepts-in-daily-life/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/four-noble-truths-explained-simply/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/four-noble-truths-explained/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/how-to-meditate-for-anxiety/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/how-to-meditate-for-beginners/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/how-to-practice-non-attachment/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/impermanence-in-buddhism/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/letting-go-without-giving-up/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/loving-kindness-meditation-beginners/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/loving-kindness-meditation-guide/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/metta-meditation-script/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/mindful-listening-in-everyday-life/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/mindfulness-for-better-sleep/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/mindfulness-morning-routine/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/mindfulness-of-breathing-guide/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/mindfulness-vs-meditation/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/right-livelihood-modern-life/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/right-speech-buddhism/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/three-poisons-buddhism-explained/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/three-ways-to-practice-patience/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/walking-meditation-step-by-step/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/what-is-karma-in-buddhism/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/articles/what-is-sangha-buddhist-community/,Article,BlogPosting|Article|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/authors/echo-buddha-editorial/,Trust,ProfilePage,0,pass_syntax
+https://echobuddha.com/contact/,Trust,ContactPage,0,pass_syntax
+https://echobuddha.com/daily-reflections/,Daily reflection hub,CollectionPage|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/daily-reflections/anger-as-a-signal/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/begin-again-without-shame/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/compassion-begins-nearby/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/enough-for-this-moment/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/evening-release/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/family-patience/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/forgiveness-without-approval/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/gratitude-for-change/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/gratitude-notices-enough/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/impermanence-softens-clinging/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/kindness-with-boundaries/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/let-the-feeling-pass/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/letting-go-keeps-care/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/listen-before-answering/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/mindful-work/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/morning-intention/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/notice-before-fixing/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/one-honest-breath/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/one-step-on-the-path/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/patience-before-anger-speaks/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/rest-without-escape/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/see-the-conditions/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/simple-goodwill/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/soften-the-inner-argument/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/the-first-truth-is-kind/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/thoughts-are-visitors/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/today/,Daily reflection utility,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/daily-reflections/walking-as-practice/,Daily reflection,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/disclaimer/,Trust,WebPage,0,pass_syntax
+https://echobuddha.com/editorial-policy/,Trust,WebPage,0,pass_syntax
+https://echobuddha.com/learn/,Learn hub,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/,Learning,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhism-for-beginners/,Learning,CollectionPage|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/,Learning,CollectionPage|DefinedTermSet|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/anatta/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/anicca/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/compassion/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/dhamma/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/dukkha/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/karma/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/karuna/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/metta/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/nirvana/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/sangha/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-dictionary/sati/,Learning,Article|BreadcrumbList|DefinedTerm,0,pass_syntax
+https://echobuddha.com/learn/buddhist-resources/,Learning,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/dhammapada-reflections/,Learning,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/eightfold-path/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/four-noble-truths/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/questions-about-buddhism/,Learning,FAQPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/sutta-for-daily-life/,Learning,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,Learning,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation-guide/,Utility,HowTo|FAQPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/,Meditation hub,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/5-minute-meditation-practice/,Meditation,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/breathing-meditation/,Meditation,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/loving-kindness-meditation/,Meditation,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/meditation-for-beginners/,Meditation,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/mindfulness-in-daily-life/,Meditation,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/meditation/walking-meditation/,Meditation,Article|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/mindful-living/,Utility,CollectionPage|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/privacy-policy/,Trust,PrivacyPolicy,0,pass_syntax
+https://echobuddha.com/quotes/,Quote story,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/gentle-self-compassion/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/meet-change-softly/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/caring-without-clinging/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/soften-around-stress/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/where-attachment-begins/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/few-quiet-minutes/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/meditation-is-returning/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/one-honest-breath/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/listen-before-answering/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/family-kindness-and-patience/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/patience-softens-the-wait/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/bring-the-teaching-into-the-place-where-you-are/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/begin-again-without-shame/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/evening-release-reflection/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/,Quote category,CollectionPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/quotes/wisdom/wise-silence/,Quote story,WebPage|BreadcrumbList,0,pass_syntax
+https://echobuddha.com/search/,Utility,,0,no_json_ld
+https://echobuddha.com/start-here/,Utility,CollectionPage|BreadcrumbList|FAQPage,0,pass_syntax
+https://echobuddha.com/terms-of-use/,Trust,WebPage,0,pass_syntax
+https://echobuddha.com/tools/,Utility,CollectionPage|BreadcrumbList,0,pass_syntax

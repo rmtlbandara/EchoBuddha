@@ -7,9 +7,9 @@
 | Project name | Echo Buddha |
 | File purpose | Permanent project-wide governance standard for SEO, content quality, UX, accessibility, crawling, indexing, analytics, privacy, performance, AdSense readiness, and repository change control. |
 | Status | Active governance baseline for future audits and changes |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Created date | 2026-07-21 |
-| Last reviewed date | 2026-07-21 |
+| Last reviewed date | 2026-07-22 |
 | Governance owner | TBD project owner / Echo Buddha editorial and technical owner |
 | Review frequency | At least quarterly, and before any major audit, domain/routing change, advertising launch, analytics/privacy change, or policy-sensitive content expansion. |
 | Scope | The Echo Buddha Astro codebase, generated static website, production domain where verified, editorial content model, SEO implementation, future audit process, and future AdSense-readiness decisions. |
@@ -69,6 +69,8 @@ Authoritative external source categories reviewed for this version:
 - Google Search Central documentation for Search Essentials, spam policies, SEO Starter Guide, crawling, indexing, robots controls, canonicalization, redirects, sitemaps, JavaScript SEO, mobile-first indexing, structured data, title links and snippets, images, page experience, Core Web Vitals, Search Console, AI-generated content, and AI features in Search.
 - Google AdSense Help and policy documentation for site readiness, valuable content, navigation, privacy, ad placement, invalid traffic, and policy compliance.
 - Google Search Console Help for operational reports and diagnostics.
+- Cloudflare Static Assets documentation for source-controlled `_headers`.
+- npm audit, Astro upgrade, Lighthouse, Web Vitals, WCAG, and axe-core documentation for release, performance, and accessibility gates.
 
 Official guidance changes over time. Before any major audit, AdSense application, analytics/consent change, structured-data change, indexing change, or policy-sensitive content expansion, the current official Google documentation MUST be rechecked and this document updated if needed.
 
@@ -102,6 +104,13 @@ Primary official references used:
 - Ad placement policies: https://support.google.com/adsense/answer/1346295
 - Invalid traffic guidance: https://support.google.com/adsense/answer/1112983
 - Google EU user consent policy: https://www.google.com/about/company/user-consent-policy/
+- Cloudflare Static Assets headers: https://developers.cloudflare.com/workers/static-assets/headers/
+- npm audit: https://docs.npmjs.com/cli/v11/commands/npm-audit
+- Astro upgrade guide: https://docs.astro.build/en/upgrade-astro/
+- Lighthouse overview: https://developer.chrome.com/docs/lighthouse/overview
+- Web Vitals: https://web.dev/vitals/
+- WCAG 2.2: https://www.w3.org/TR/WCAG22/
+- axe-core documentation: https://www.deque.com/axe/core-documentation/
 
 ## 2. Echo Buddha Project Baseline
 
@@ -111,7 +120,7 @@ This section records verified facts from the repository and limited production c
 
 | Area | Verified baseline |
 |---|---|
-| Technology stack | Astro static site, TypeScript, HTML, CSS. `package.json` lists Astro `^6.4.8`, TypeScript `^5.8.3`, and Wrangler `^4.104.0`. |
+| Technology stack | Astro static site, TypeScript, HTML, CSS. `package.json` lists Astro `^7.1.3`, TypeScript `^5.8.3`, Wrangler `^4.113.0`, browser audit tooling, and dependency overrides for `sharp` and `svgo`. |
 | Rendering approach | Static output. `astro.config.mjs` sets `output: "static"` and `site: "https://echobuddha.com"`. |
 | Routing model | File-based Astro routing under `src/pages`, including static pages, dynamic routes, API-style static endpoints for `sitemap.xml` and `search-index.json`, and a `404.astro` page. |
 | Content storage | TypeScript data modules, not Markdown/MDX content collections. Main modules are `src/data/site.ts`, `src/data/learn.ts`, and `src/data/dailyReflections.ts`. |
@@ -550,6 +559,7 @@ Standards:
 - Font loading, image loading, JavaScript, third-party scripts, ads, and embeds MUST be managed for performance.
 - Lab data and field data SHOULD both be used when available.
 - A perfect Lighthouse score is not proof of SEO success.
+- Final AdSense pre-application review MUST include `npm run audit:lighthouse` or equivalent current Lighthouse/PageSpeed evidence, plus Search Console/Core Web Vitals field evidence when owner access is available.
 
 ## 22. Mobile-First Standards
 
@@ -583,7 +593,7 @@ Echo Buddha MUST follow WCAG-aligned principles:
 - Skip link preservation.
 - Link purpose understandable from text or context.
 
-The next audit MUST test accessibility with automated tools and manual keyboard/screen-reader spot checks.
+Final pre-release and AdSense-readiness reviews MUST run `npm run audit:browser` or an equivalent browser-level accessibility pass. Manual keyboard and screen-reader spot checks are still recommended because automated tools cannot prove full accessibility.
 
 ## 24. UX and User-Friendliness Standard
 
@@ -659,7 +669,7 @@ AdSense compliance and readiness do not guarantee approval.
 
 ## 28. Privacy, Analytics, and Consent
 
-Current implementation uses a first-party consent preference and loads Google Analytics only after analytics consent. The property ID is centralized in `src/data/site.ts`. Advertising storage, ad user data, and ad personalization remain denied and ads remain disabled.
+Current implementation uses a first-party consent preference. Analytics defaults to accepted without auto-opening a popup, matching the current owner-approved behavior. Users can reject analytics, accept analytics from privacy settings, reopen settings, and withdraw analytics. The property ID is centralized in `src/data/site.ts`. Advertising storage, ad user data, and ad personalization remain denied and ads remain disabled.
 
 Rules:
 
@@ -670,6 +680,7 @@ Rules:
 - Third-party scripts MUST be reviewed for privacy, security, performance, and user trust.
 - Sensitive personal data MUST NOT be collected unless a future product decision, legal review, and security plan approve it.
 - Consent interfaces MUST be clear and non-misleading.
+- Final pre-release review MUST include browser network verification for first visit, returning rejected user, accept, withdrawal, mobile navigation, and keyboard/Escape behavior.
 
 This document is not legal advice.
 
@@ -705,6 +716,10 @@ Baseline trust requirements:
 
 - HTTPS MUST remain enabled.
 - Dependencies SHOULD be maintained.
+- Releases MUST NOT ship with unresolved high or critical `npm audit` advisories unless a documented security exception is approved.
+- `public/_headers` MUST remain source-controlled for Cloudflare Static Assets hardening.
+- Production response headers MUST be verified after deployment before claiming security headers are live.
+- Current source-controlled header baseline includes `X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, `Permissions-Policy`, `Strict-Transport-Security`, and `Content-Security-Policy-Report-Only`.
 - External links SHOULD avoid unsafe destinations.
 - Future forms MUST include spam prevention, privacy disclosure, and safe error handling.
 - Third-party scripts MUST be reviewed.
@@ -723,9 +738,14 @@ Current validation commands are:
 - `npm run lint`
 - `npm test`
 - `npm run audit:seo`
+- `npm run audit:content`
+- `npm run audit:dependencies`
+- `npm run audit:browser`
+- `npm run audit:lighthouse`
 - `npm run validate`
+- `npm run validate:release`
 
-The CI workflow in `.github/workflows/validate.yml` runs `npm run validate` without deployment.
+The CI workflow in `.github/workflows/validate.yml` runs `npm run validate:release` without deployment. The release gate runs the existing validation sequence and fails on high or critical dependency advisories.
 
 Future contributors and coding agents MUST:
 
@@ -734,7 +754,7 @@ Future contributors and coding agents MUST:
 3. Inspect existing patterns before adding new ones.
 4. Avoid parallel/conflicting implementations.
 5. Add or update tests when behavior changes.
-6. Run existing validation commands that apply.
+6. Run existing validation commands that apply; release handoff SHOULD use `npm run validate:release`.
 7. Report SEO, accessibility, performance, content, privacy, and indexing implications.
 8. Update this document when architecture or policy materially changes.
 9. Avoid weakening mandatory rules without documenting the reason.
@@ -742,7 +762,7 @@ Future contributors and coding agents MUST:
 
 Future automated checks SHOULD cover duplicate/missing titles and descriptions, heading issues, broken links, orphan pages, canonicals, redirects, sitemap inconsistencies, `noindex` sitemap conflicts, robots conflicts, missing alt text, structured-data validity, missing dates, date inconsistencies, thin/near-duplicate pages, route/sitemap mismatch, accessibility violations, and performance regressions.
 
-The current `audit:seo` command covers generated metadata, sitemap/indexability alignment, static links, image references, JSON-LD syntax, date relationships, hidden public output, low-inbound pages, and manifest presence. Future improvements SHOULD extend it as the site grows.
+The current `audit:seo` command covers generated metadata, sitemap/indexability alignment, static links, image references, JSON-LD syntax, date relationships, hidden public output, low-inbound pages, and manifest presence. `audit:dependencies` enforces high/critical dependency security posture. `audit:browser` covers consent and automated accessibility evidence in system Chrome. `audit:lighthouse` covers representative mobile and desktop lab performance/accessibility. Future improvements SHOULD extend these checks as the site grows.
 
 ## 32. Page-Type Quality Matrix
 
@@ -763,7 +783,7 @@ The current `audit:seo` command covers generated metadata, sitemap/indexability 
 | Quote story | `/quotes/[category]/[story]/` | Explain one quote. | Informational / reflective | Conditional; code supports noindex | Self canonical even when noindex | Quote status, meaning, source note, practice, related links. | `Article`, breadcrumbs. | Link to category, teaching, related quotes/articles. | Mass-generated thin stories. | Enrich or noindex. | Generally unsuitable until unique value proven. |
 | Daily reflections hub | `/daily-reflections/` | Browse recurring reflections. | Recurring / exploratory | Index | Self canonical | Explain use, link to today and entries. | `CollectionPage`, `ItemList`. | Link to reflection details and practice areas. | Thin recurring content. | Update with reflection model. | Possible with caution. |
 | Daily reflection detail | `/daily-reflections/[slug]/` | One reflection, practice, journal prompt. | Recurring / practical | Index if unique | Self canonical | Reflection, meaning, practice, links, limitations when needed. | `Article`, breadcrumbs. | Link to hub, today, tools, related teachings. | Repetitive daily pages. | Periodic uniqueness review. | Low suitability; avoid intrusive ads. |
-| Today's reflection | `/daily-reflections/today/` | Dynamic current reflection entry point. | Recurring / navigational | Index currently in sitemap | Self canonical | Explain current reflection behavior. | `Article`/web page as implemented. | Link to hub and selected detail. | Date/currentness ambiguity; duplicate with detail pages. | Audit required. | Low suitability. |
+| Today's reflection | `/daily-reflections/today/` | Dynamic current reflection entry point. | Recurring / navigational | Noindex, excluded from sitemap | Self canonical | Explain current reflection behavior. | `WebPage` and breadcrumbs as implemented. | Link to hub and selected detail. | Date/currentness ambiguity; duplicate with detail pages. | Keep as recurring-user utility and verify noindex/sitemap behavior. | Avoid ads. |
 | Tools | `/tools/` | Practice timers/prompts/resources. | Practical / interactive | Index if useful | Self canonical | Functional controls and links. | `WebPage`, breadcrumbs. | Link to relevant guides. | Broken JS, inaccessible controls. | Test after JS changes. | Ads must not interfere. |
 | Search | `/search/` | Site search. | Navigational | Noindex, follow | Self canonical | Search form, results states, helpful alternatives. | Global only unless expanded. | Link to hubs in no-result states. | Accidental indexation of query pages. | Test search index after content changes. | Not suitable for ads. |
 | Trust/policy | `/about/`, `/contact/`, `/editorial-policy/`, `/privacy-policy/`, `/terms-of-use/`, `/disclaimer/`, `/authors/echo-buddha-editorial/` | Transparency and user trust. | Navigational / trust | Index unless legal review says otherwise | Self canonical | Accurate ownership, limits, contact, policy details. | Page-specific `AboutPage`, `ContactPage`, `ProfilePage`, etc. | Footer and relevant content links. | Outdated claims, legal inaccuracy, fabricated credentials. | Review after policy/service changes. | Usually no ads. |
@@ -921,6 +941,7 @@ Maintenance rules:
 | 1.0.0 | 2026-07-21 | Initial governance source of truth created from repository inspection, limited production verification, and official Google Search / AdSense guidance. |
 | 1.1.0 | 2026-07-21 | Stage B implementation update: consent-gated analytics, validation scripts, CI, SEO audit automation, structured-data simplification, robots operating model, and AdSense-readiness workflow. |
 | 1.2.0 | 2026-07-21 | Content audit remediation update: quote-origin register, source register, meditation safety checklist, page-role map, content re-audit command, URL decision map, and AdSense page-type suitability matrix. |
+| 1.3.0 | 2026-07-22 | Final readiness remediation update: dependency audit gate, Astro/Wrangler security upgrade path, source-controlled Cloudflare headers, browser consent/accessibility checks, Lighthouse evidence, and release validation gate. |
 
 ## 38. Content Audit Remediation Governance
 

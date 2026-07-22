@@ -54,6 +54,7 @@ const jsonLd = [
     <div class="container today-shell">
       <div data-daily-reflection-root>
         <p class="today-date" data-today-date></p>
+        <h2 class="section-title">Selected Reflection</h2>
         <div class="reflection-stack">
           {dailyReflections.map((reflection) => (
             <div id={reflection.slug} data-daily-reflection-card data-reflection-slug={reflection.slug} hidden={reflection.slug !== fallbackReflection.slug}>
@@ -146,6 +147,10 @@ const jsonLd = [
   .today-date {
     color: var(--color-green);
     font-weight: 900;
+  }
+
+  .section-title {
+    font-size: clamp(1.7rem, 4vw, 2.25rem);
   }
 
   .tool-actions {

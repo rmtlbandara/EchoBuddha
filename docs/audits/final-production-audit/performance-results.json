@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-22",
+  "status": "lab_and_field_data_needed",
+  "availableEvidence": {
+    "productionUrlsCrawled": 265,
+    "sitemapUrlsCrawled": 259,
+    "unexpectedProductionErrors": 0,
+    "cacheHeaderObserved": "public, max-age=0, must-revalidate",
+    "cloudflareCacheObserved": "HIT and MISS responses observed"
+  },
+  "unavailableEvidence": [
+    "CrUX field data",
+    "Search Console Core Web Vitals",
+    "PageSpeed Insights",
+    "Lighthouse mobile run",
+    "Lighthouse desktop run",
+    "INP field data"
+  ],
+  "readinessImpact": "No production availability blocker was found, but ad launch should wait for PageSpeed/Lighthouse and field-data review where available."
+}

@@ -1,0 +1,15 @@
+area,status,evidence,remaining_action
+Dependency security,pass,"dependency-audit-after.json; npm audit --audit-level=moderate found 0 vulnerabilities",Continue running validate:release before release.
+Release gate,pass,"package.json scripts, scripts/audit-dependencies.mjs, .github/workflows/validate.yml",Use npm run validate:release in CI and local release checks.
+Source-controlled headers,pass,"public/_headers and dist/_headers contain required headers",Deploy before claiming production headers live.
+Production headers,blocked,"curl -L -I production checks on 2026-07-22 did not show new headers",Deploy approved repository changes and verify live headers.
+Consent browser behavior,pass,"consent-browser-results.json: 5/5 scenarios passed",Owner/legal privacy review still required.
+Accessibility automation,pass,"accessibility-browser-results.json: 17 pages; 0 critical, serious, moderate, minor, or unknown violations",Manual screen-reader spot checks still recommended.
+Performance lab evidence,pass,"performance-summary.csv: mobile/desktop performance scores 1.00 across 10 pages",Review field Core Web Vitals in Search Console if available.
+Technical SEO validation,pass,"npm run audit:seo passed; previous final-production audit crawl/index evidence preserved",Recheck production after deployment.
+Content governance,pass-with-monitoring,"npm run audit:content passed; source/quote/safety queues remain repository-closed",External owner/specialist review not claimed.
+Search Console,owner-required,"No account access in repository context",Owner must verify indexing, sitemap, manual actions, security issues, CWV.
+Analytics,owner-required,"No account access in repository context",Owner must verify GA property behavior and traffic quality.
+Legal/privacy/copyright,owner-required,"Repository policy pages and consent behavior reviewed technically",Qualified review required before AdSense application.
+AdSense code,pass,"No publisher ID or adsbygoogle code added; FEATURES.adsEnabled remains false",Do not enable without separate owner approval.
+Final verdict,near-readiness,"Repository-safe blockers closed; production/account/external checks remain",Apply only after deployment/header verification and owner account/legal checks.

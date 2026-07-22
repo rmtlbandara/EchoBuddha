@@ -1,0 +1,29 @@
+item,result,evidence,blocking_status,owner_action,final_signoff
+Unique content,Pass with monitoring,0 unresolved similarity pairs; 166 pass and 145 minor-improvement decisions in generated content audit,Not blocking,Monitor quote and daily-reflection families during future additions,Pending owner
+Content purpose,Pass,Homepage learn articles quotes daily reflections meditation tools and trust pages have clear roles,Not blocking,Keep page-role map updated,Pending owner
+Original contribution,Pass with monitoring,153 quote-origin records classify original Echo Buddha writing and no pending origin items,Not blocking,Do not present original text as scripture,Pending owner
+Quote-origin status,Pass,Quote-origin register rows 153; pending origin items 0,Not blocking,External Buddhist studies review before claiming specialist verification,Pending owner
+Source status,Pass with external caveat,Source-verification queue rows 0,Not blocking,Owner/source reviewer to spot-check doctrinal/source claims,Pending owner
+Safety status,Pass with restricted placement,47 safety rows have repository safety language and 0 pending safety-review items,Not blocking,Owner/safety reviewer to approve future ad placement near wellbeing content,Pending owner
+Copyright status,Conditional pass,No copied large excerpts found by repository evidence; owner/legal review not available,Conditional,Owner/legal review of quote reuse images translations and policy pages,Pending owner
+Navigation,Pass,Full local link audit found 0 broken internal links and 0 low-inbound indexable pages,Not blocking,Keep internal links updated with new pages,Pending owner
+Mobile UX,Manual verification needed,No browser tool available in this environment,Conditional,Run mobile browser walkthrough,Pending owner
+Accessibility,Manual verification needed,Static h1/metadata/link checks pass; no axe/Lighthouse run,Conditional,Run keyboard/mobile/assistive checks,Pending owner
+Performance,Manual verification needed,Production crawl responses generally returned 200 quickly; no Lighthouse/field data,Not blocking,Run PageSpeed/Lighthouse and review field data,Pending owner
+Trust pages,Pass,About contact editorial policy privacy terms disclaimer author profile all return 200 in production,Not blocking,Owner/legal review wording,Pending owner
+Contactability,Pass,Contact page returns 200 and is in sitemap,Not blocking,Verify contact inbox ownership,Pending owner
+Ownership,Pass with owner review,Author/editorial profile and policy pages visible,Not blocking,Keep ownership/contact signals current,Pending owner
+Privacy,Pass with legal caveat,Privacy page production 200 and consent source reviewed,Conditional,Qualified privacy review,Pending owner
+Consent,Pass by repository tests; browser verification needed,Tests pass and source keeps analytics storage denied before consent; no browser network test available,Conditional,Run clean-browser consent network test,Pending owner
+Analytics,Pass by source; account review unavailable,Consent-gated GA ID present; no duplicate pageview evidence available,Conditional,Review Analytics account and tag behavior,Pending owner
+Search Console,Unavailable,No authenticated access,Conditional,Review indexing sitemap manual actions security issues and Core Web Vitals,Pending owner
+Manual Actions,Unavailable,No Search Console access,Conditional,Owner must confirm no manual actions,Pending owner
+Security Issues,Unavailable plus npm blocker,No Search Console access; npm audit has high vulnerabilities,Blocking,Resolve npm audit high vulnerabilities and review Search Console security issues,Pending owner
+Sitemap,Pass,259 local sitemap URLs equal 259 production sitemap URLs; no sitemap mismatch,Not blocking,Submit/monitor sitemap in Search Console,Pending owner
+Indexing,Technically pass; Search Console unavailable,259 indexable pages; 53 noindex; `/daily-reflections/today/` noindex and excluded,Conditional,Review Search Console indexing reports,Pending owner
+Canonicals,Pass,0 canonical mismatches in generated audit and production samples self-canonicalize,Not blocking,Monitor route changes,Pending owner
+Structured data,Pass syntax; external rich-result validation needed,0 JSON-LD parse errors locally,Not blocking,Run Rich Results/schema validation for representatives,Pending owner
+Ad placement,Restricted initial plan only,Ads disabled; suitability matrix favors conservative placement,Not blocking after security blocker fixed,Keep ads out of practice/safety/policy/search/today pages,Pending owner
+Ads-disabled verification,Pass,`FEATURES.adsEnabled` false; no AdSense publisher ID/ad script found,Not blocking,Do not enable ads until owner approval,Pending owner
+Invalid traffic safeguards,Owner policy needed,No AdSense account or invalid-traffic controls reviewed,Conditional,Owner to document invalid traffic policy before enabling ads,Pending owner
+Final policy review,Not complete,AdSense account review not performed,Conditional,Complete owner AdSense policy review,Pending owner

@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-07-22T03:58:10Z",
+  "project": "Echo Buddha",
+  "branch": "main",
+  "baselineCommit": "d5089464cb80306a01c412104424e7bdadbaf0d4",
+  "productionUrl": "https://echobuddha.com",
+  "productionDeploymentPerformed": false,
+  "gitCommitCreated": false,
+  "gitPushPerformed": false,
+  "adsenseCodeAdded": false,
+  "adsenseApplicationSubmitted": false,
+  "finalVerdict": "Near readiness",
+  "repositorySafeBlockersClosed": [
+    "SEC-001 high dependency advisories",
+    "Dependency audit gate absent",
+    "Browser consent verification absent",
+    "Browser accessibility verification absent",
+    "Lighthouse lab performance evidence absent",
+    "Source-controlled security headers absent"
+  ],
+  "remainingBlockers": [
+    "Production has not been redeployed with public/_headers, so the new security headers are not live on https://echobuddha.com.",
+    "Search Console, Analytics, legal/privacy/copyright, and AdSense account checks require owner/account access and are not complete."
+  ],
+  "validation": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "tests": "passed",
+    "auditSeo": "passed",
+    "auditContent": "passed",
+    "auditDependencies": "passed",
+    "validate": "passed",
+    "validateRelease": "passed",
+    "auditBrowser": "passed",
+    "auditLighthouse": "passed",
+    "npmAuditModerate": "passed"
+  },
+  "dependencyAudit": {
+    "before": {
+      "total": 7,
+      "high": 6,
+      "critical": 0
+    },
+    "after": {
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    }
+  },
+  "browserEvidence": {
+    "consentScenarios": 5,
+    "consentPass": true,
+    "accessibilityPagesTested": 17,
+    "axeViolationCounts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0,
+      "unknown": 0
+    }
+  },
+  "lighthouseEvidence": {
+    "mobilePages": 10,
+    "desktopPages": 10,
+    "mobileMinPerformanceScore": 1,
+    "desktopMinPerformanceScore": 1,
+    "mobileMinAccessibilityScore": 0.95,
+    "desktopMinAccessibilityScore": 1,
+    "maxMobileLcpMs": 1083.3071,
+    "maxDesktopLcpMs": 408.8139,
+    "maxCls": 0
+  }
+}

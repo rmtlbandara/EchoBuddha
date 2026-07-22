@@ -1,0 +1,16 @@
+metric,current_value,evidence,readiness_impact
+Built HTML pages,312,local-audit-summary.json,Complete local output audited
+Indexable pages,259,local-audit-summary.json,Aligned with sitemap
+Noindex pages,53,local-audit-summary.json,Excluded from sitemap
+Sitemap URLs,259,deployment-parity.json,Production and local sitemap match
+Quote stories,153,post-remediation-summary.json,103 indexable and 50 noindex
+Indexable quote stories,103,post-remediation-summary.json,Origin register has 0 pending items
+Daily reflections,30,post-remediation-summary.json,Daily family has 31 review rows including today utility
+Source-verification queue rows,0,local-audit-summary.json,No repository source queue blocker
+Safety-review pending items,0,post-remediation-summary.json,47 safety rows remain for placement caution
+Unresolved similarity pairs,0,post-remediation-summary.json,No current duplicate-content blocker
+Internal-link opportunities,0,post-remediation-summary.json,No current internal-link opportunity blocker
+Broken internal links,0,local-audit-summary.json,No link integrity blocker
+Duplicate titles,0,local-audit-summary.json,No metadata duplication blocker
+Duplicate descriptions,0,local-audit-summary.json,No metadata duplication blocker
+Invalid structured data,0,local-audit-summary.json,No JSON-LD syntax blocker

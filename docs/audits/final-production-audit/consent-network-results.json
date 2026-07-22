@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-07-22",
+  "status": "source_and_tests_pass_browser_network_verification_needed",
+  "repositoryEvidence": {
+    "analyticsEnabled": true,
+    "adsEnabled": false,
+    "googleAnalyticsIdPresent": true,
+    "analyticsStorageDefault": "denied",
+    "advertisingConsent": "not granted by implementation",
+    "tests": "analytics defaults accepted without auto-opening the popup and ads remain disabled"
+  },
+  "productionEvidence": {
+    "privacyPolicyStatus": 200,
+    "searchPageNoindex": true,
+    "adsenseCodeFoundByRepositoryScan": false
+  },
+  "unavailableEvidence": [
+    "Clean-browser network request log before consent",
+    "Accept analytics browser flow",
+    "Reject optional analytics browser flow",
+    "Withdraw consent browser flow",
+    "Mobile and keyboard-only consent flow"
+  ],
+  "readinessImpact": "No source-level consent blocker was found, but legal adequacy and clean-browser network behavior need owner/browser verification."
+}

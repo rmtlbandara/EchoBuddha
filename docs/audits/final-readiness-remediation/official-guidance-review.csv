@@ -1,0 +1,20 @@
+area,source,url,review_date,used_for
+Search essentials,Google Search Central,https://developers.google.com/search/docs/essentials,2026-07-22,Crawlable people-first website baseline and site-quality expectations
+Helpful content,Google Search Central,https://developers.google.com/search/docs/fundamentals/creating-helpful-content,2026-07-22,Content quality and originality governance
+Spam policies,Google Search Central,https://developers.google.com/search/docs/essentials/spam-policies,2026-07-22,Avoiding doorway/thin/generated-for-search content
+Page experience,Google Search Central,https://developers.google.com/search/docs/appearance/page-experience,2026-07-22,Mobile UX and page experience checks
+Core Web Vitals,Google Search Central,https://developers.google.com/search/docs/appearance/core-web-vitals,2026-07-22,Performance evidence framing
+Structured data policies,Google Search Central,https://developers.google.com/search/docs/appearance/structured-data/sd-policies,2026-07-22,Structured-data governance
+AdSense site readiness,Google AdSense Help,https://support.google.com/adsense/answer/7299563,2026-07-22,Pre-application readiness criteria
+AdSense Program policies,Google AdSense Help,https://support.google.com/adsense/answer/48182,2026-07-22,Publisher policy and compliance baseline
+Google Publisher Policies,Google Publisher Policies Help,https://support.google.com/publisherpolicies/answer/10502938,2026-07-22,Ads and content policy baseline
+Invalid traffic,Google AdSense Help,https://support.google.com/adsense/answer/1112983,2026-07-22,Ad placement and click-safety safeguards
+EU user consent,Google,https://www.google.com/about/company/user-consent-policy/,2026-07-22,Consent/legal review reminder
+Consent mode,Google tag platform,https://developers.google.com/tag-platform/security/guides/consent,2026-07-22,Analytics consent behavior review
+Cloudflare static headers,Cloudflare Developers,https://developers.cloudflare.com/workers/static-assets/headers/,2026-07-22,Source-controlled _headers policy
+npm audit,npm CLI docs,https://docs.npmjs.com/cli/v11/commands/npm-audit,2026-07-22,Dependency audit gate
+Astro upgrade guide,Astro Docs,https://docs.astro.build/en/upgrade-astro/,2026-07-22,Framework major upgrade risk review
+Lighthouse,Chrome Developers,https://developer.chrome.com/docs/lighthouse/overview,2026-07-22,Performance and accessibility lab audit
+Web Vitals,web.dev,https://web.dev/vitals/,2026-07-22,Performance metric interpretation
+WCAG 2.2,W3C,https://www.w3.org/TR/WCAG22/,2026-07-22,Accessibility standard
+axe-core,Deque,https://www.deque.com/axe/core-documentation/,2026-07-22,Browser accessibility automation

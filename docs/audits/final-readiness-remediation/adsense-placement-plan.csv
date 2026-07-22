@@ -1,0 +1,13 @@
+page_type,recommendation,status,notes
+Homepage,Conservative one below-primary-content placement after approval,planned-not-enabled,No ads above H1 or blocking navigation.
+Articles,One to two between-section placements on long articles after approval,planned-not-enabled,Avoid deceptive placement and excessive density.
+Learning pages,Conservative between-section placement after approval,planned-not-enabled,Keep educational flow readable.
+Quote category pages,Low-density placement only after owner review,restricted,Do not make quote collections feel ad-first.
+Quote story pages,Generally avoid until unique value/origin review is complete,restricted,Many quote stories remain noindex or low monetization priority.
+Daily reflection detail pages,Low-density placement only,restricted,Avoid interrupting reflective practice.
+/daily-reflections/today/,No ads,avoid,Recurring noindex utility.
+Meditation pages,No ads inside practice steps or near safety notes,restricted,Preserve user safety and focus.
+Tools,Owner review before any ads,owner-required,Interactive controls should not be crowded.
+Search,No ads,avoid,Noindex utility and higher accidental-click risk.
+Trust/policy pages,No ads,avoid,Privacy, terms, disclaimer, contact, editorial policy, and author profile should remain trust-first.
+404,No ads,avoid,Error recovery page.

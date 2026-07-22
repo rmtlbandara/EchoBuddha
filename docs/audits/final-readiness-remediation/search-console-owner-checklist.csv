@@ -1,0 +1,11 @@
+check,owner_action,status,notes
+Property verification,Confirm owner/admin access to https://echobuddha.com,owner-required,Not available from repository.
+Sitemap processing,Confirm sitemap submitted and processed without errors,owner-required,Use https://echobuddha.com/sitemap.xml.
+Page indexing report,Review excluded/crawled/discovered/duplicate canonical buckets,owner-required,Do not use site: search as definitive evidence.
+URL Inspection,Inspect homepage, article, learning page, quote category, quote story, daily reflection, today page, search, privacy, and 404,owner-required,Confirm selected canonical and indexing state.
+Manual Actions,Confirm no manual actions,owner-required,Account-only evidence.
+Security Issues,Confirm no security issues,owner-required,Account-only evidence.
+Core Web Vitals,Review mobile and desktop field data if available,owner-required,Lab Lighthouse passed locally but field data was unavailable.
+HTTPS report,Confirm HTTPS issues absent,owner-required,Production serves HTTPS.
+Structured-data enhancements,Review warnings/errors by template,owner-required,Repository JSON-LD parses locally; external rich-result/account evidence unavailable.
+Performance report,Review queries, landing pages, countries, devices, and low-quality traffic anomalies,owner-required,Needed before AdSense application decision.

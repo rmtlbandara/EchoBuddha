@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-07-22T02:53:28.013Z",
+  "branch": "main",
+  "commit": "d5089464cb80306a01c412104424e7bdadbaf0d4",
+  "status_short": "## main...origin/main\n M docs/audits/content-audit/post-remediation-summary.json\n M docs/audits/echo-buddha-governance-implementation/final-validation-summary.json\n?? docs/audits/final-production-audit/deployment-parity.json\n?? docs/audits/final-production-audit/http-redirect-matrix.csv\n?? docs/audits/final-production-audit/indexability-matrix.csv\n?? docs/audits/final-production-audit/internal-link-audit.csv\n?? docs/audits/final-production-audit/local-audit-summary.json\n?? docs/audits/final-production-audit/local-page-inventory.csv\n?? docs/audits/final-production-audit/metadata-audit.csv\n?? docs/audits/final-production-audit/official-guidance-review.csv\n?? docs/audits/final-production-audit/production-url-inventory.csv\n?? docs/audits/final-production-audit/repository-baseline.json\n?? docs/audits/final-production-audit/security-header-results.csv\n?? docs/audits/final-production-audit/structured-data-audit.csv",
+  "log_1": "d508946 Complete targeted Echo Buddha content remediation",
+  "remote_v": "origin\thttps://github.com/rmtlbandara/EchoBuddha.git (fetch)\norigin\thttps://github.com/rmtlbandara/EchoBuddha.git (push)",
+  "node_version": "v26.4.0",
+  "npm_version": "11.17.0",
+  "package_versions": {
+    "astro": "6.4.8",
+    "typescript": "5.9.3",
+    "wrangler": "4.104.0"
+  },
+  "production_url": "https://echobuddha.com",
+  "deployment_config": {
+    "astro_site": "https://echobuddha.com",
+    "astro_output": "static",
+    "wrangler_assets_directory": "./dist",
+    "wrangler_compatibility_date": "2026-06-24"
+  },
+  "validation_results": [
+    {
+      "command": "npm run build",
+      "result": "passed",
+      "observed": "312 pages built"
+    },
+    {
+      "command": "npm run typecheck",
+      "result": "passed",
+      "observed": "astro sync and tsc --noEmit completed"
+    },
+    {
+      "command": "npm run lint",
+      "result": "passed",
+      "observed": "Governance lint passed"
+    },
+    {
+      "command": "npm test",
+      "result": "passed",
+      "observed": "5 tests passed, 0 failed"
+    },
+    {
+      "command": "npm run audit:seo",
+      "result": "passed",
+      "observed": "SEO audit passed"
+    },
+    {
+      "command": "npm run audit:content",
+      "result": "passed",
+      "observed": "Content remediation audit passed"
+    },
+    {
+      "command": "npm run validate",
+      "result": "passed",
+      "observed": "Full validation chain passed"
+    }
+  ]
+}

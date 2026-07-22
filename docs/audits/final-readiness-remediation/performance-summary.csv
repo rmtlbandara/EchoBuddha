@@ -1,0 +1,21 @@
+formFactor,label,path,performanceScore,accessibilityScore,fcpMs,lcpMs,cls,tbtMs,speedIndexMs,totalByteWeight
+mobile,Homepage,/,1,1,911.8534999999999,957.8534999999999,0,46.5,911.8534999999999,211923
+mobile,Cornerstone article,/articles/four-noble-truths-explained-simply/,0.99,1,908.4453000000001,908.4453000000001,0,142,908.4453000000001,211441
+mobile,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,760.8484000000001,958.8484000000001,0,7.5,760.8484000000001,204464
+mobile,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,756.9439,906.9439,0,7.5,756.9439,206684
+mobile,Daily reflection,/daily-reflections/one-honest-breath/,1,1,759.9004,909.9004,0,6.5,759.9004,203894
+mobile,Meditation page,/meditation/breathing-meditation/,1,1,758.1860999999999,908.1860999999999,0,5,758.1860999999999,204402
+mobile,Topic hub,/quotes/mindfulness/,1,1,754.0953,956.0953,0,38.5,754.0953,206514
+mobile,Search,/search/,1,1,930.0537999999999,930.0537999999999,0,49.5,930.0537999999999,202722
+mobile,Tools,/tools/,0.99,0.95,904.5510999999999,1194.5511,0.001734273664773513,96.72444999999993,904.5510999999999,216187
+mobile,Privacy,/privacy-policy/,1,1,759.7095999999999,939.7095999999999,0,29.5,759.7095999999999,202905
+desktop,Homepage,/,1,1,253.1431,413.1431,0.0003632681237862187,0,253.1431,289205
+desktop,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,253.2319,253.2319,0.0003632681237862187,0,253.2319,211441
+desktop,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,202.95710000000003,242.95710000000003,0.0003632681237862187,0,202.95710000000003,204464
+desktop,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,261.2524,261.2524,0,0,261.2524,206684
+desktop,Daily reflection,/daily-reflections/one-honest-breath/,1,1,203.1526,243.1526,0,0,203.1526,203894
+desktop,Meditation page,/meditation/breathing-meditation/,1,1,209.42430000000002,289.4243,0.0003632681237862187,0,209.42430000000002,204402
+desktop,Topic hub,/quotes/mindfulness/,1,1,206.7629,246.7629,0,0,206.7629,333982
+desktop,Search,/search/,1,1,209.4217,251.4217,0,0,209.4217,202729
+desktop,Tools,/tools/,1,1,243.0213,293.0213,0.0003632681237862187,0,243.0213,216187
+desktop,Privacy,/privacy-policy/,1,1,204.44330000000002,244.44330000000002,0.0003632681237862187,0,204.44330000000002,202814

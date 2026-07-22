@@ -1,0 +1,12 @@
+package,before,current,reason,status
+astro,6.4.8,7.1.3,Resolve dependency advisories through supported framework upgrade,updated
+wrangler,4.104.0,4.113.0,Resolve dependency advisories through supported deployment-tool upgrade,updated
+typescript,5.9.3,5.9.3,Already current within supported 5.x range; npm outdated reports 7.0.2 latest,unchanged
+esbuild,0.27.7,0.28.1,Transitive upgrade through Astro and Wrangler,updated
+js-yaml,4.2.0,4.3.0,Transitive upgrade through Astro,updated
+sharp,0.34.5,0.35.3,Override to patched version across Astro and Miniflare dependency paths,updated-with-override
+svgo,4.0.1,4.0.2,Override to patched version across Astro dependency path,updated-with-override
+miniflare,4.20260623.0,4.20260721.0,Transitive upgrade through Wrangler,updated
+axe-core,not installed,4.12.1,Add browser accessibility audit support,added
+lighthouse,not installed,13.4.1,Add performance and accessibility lab audit support,added
+playwright-core,not installed,1.61.1,Add browser consent and accessibility audit support using system Chrome,added

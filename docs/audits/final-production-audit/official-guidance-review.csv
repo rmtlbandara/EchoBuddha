@@ -1,0 +1,13 @@
+source_title,authority,date_accessed,category,conclusion
+Google Search Essentials,Google Search Central,2026-07-22,"Search eligibility, technical requirements, spam policies","Eligible search presence requires technical accessibility, non-spam behavior, crawlable links, and helpful content."
+"Creating helpful, reliable, people-first content",Google Search Central,2026-07-22,Content quality,"Content should primarily help people and demonstrate clear value, not search-engine-first production."
+Learn about sitemaps,Google Search Central,2026-07-22,Sitemaps,Sitemaps identify important canonical URLs but do not guarantee crawling or indexing.
+Robots meta tags specifications,Google Search Central,2026-07-22,Robots/noindex,Noindex must be discoverable through crawling; robots blocking can prevent Google from seeing noindex.
+Specify a canonical with rel=canonical,Google Search Central,2026-07-22,Canonicalization,Use absolute self-referencing canonicals and link internally to canonical URLs.
+General structured data guidelines,Google Search Central,2026-07-22,Structured data,JSON-LD should describe visible page content and avoid misleading or hidden claims.
+Make sure your site's pages are ready for AdSense,Google AdSense Help,2026-07-22,AdSense readiness,"Pages need clear navigation and unique, original, relevant content."
+AdSense Program policies,Google AdSense Help,2026-07-22,AdSense policy,Publishers must follow AdSense and Google Publisher policies.
+WCAG 2.2,W3C,2026-07-22,Accessibility,"Accessibility requires perceivable, operable, understandable, and robust content verified by automated and human methods."
+Web Vitals,web.dev,2026-07-22,Performance,Core Web Vitals should separate lab and field evidence; no field data was available in this audit.
+Workers Static Assets,Cloudflare,2026-07-22,Production platform,Cloudflare Workers Static Assets serves the built static asset directory configured in Wrangler.
+Schema.org,Schema.org,2026-07-22,Schema vocabulary,Schema.org vocabulary supports type-level semantic review separate from Google rich result eligibility.

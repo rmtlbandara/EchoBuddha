@@ -1,0 +1,23 @@
+{
+  "astro": {
+    "current": "6.4.8",
+    "wanted": "6.4.8",
+    "latest": "7.1.3",
+    "dependent": "EB 2",
+    "location": "/Users/tharindu/Documents/EB 2/node_modules/astro"
+  },
+  "typescript": {
+    "current": "5.9.3",
+    "wanted": "5.9.3",
+    "latest": "7.0.2",
+    "dependent": "EB 2",
+    "location": "/Users/tharindu/Documents/EB 2/node_modules/typescript"
+  },
+  "wrangler": {
+    "current": "4.104.0",
+    "wanted": "4.113.0",
+    "latest": "4.113.0",
+    "dependent": "EB 2",
+    "location": "/Users/tharindu/Documents/EB 2/node_modules/wrangler"
+  }
+}

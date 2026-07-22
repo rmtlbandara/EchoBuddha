@@ -22,18 +22,35 @@ test("analytics defaults accepted without auto-opening the popup and ads remain 
 
 test("required validation scripts are present", () => {
   const pkg = JSON.parse(read("package.json"));
-  for (const script of ["typecheck", "lint", "test", "audit:seo", "audit:content", "validate"]) {
+  for (const script of [
+    "typecheck",
+    "lint",
+    "test",
+    "audit:seo",
+    "audit:content",
+    "audit:dependencies",
+    "audit:browser",
+    "audit:lighthouse",
+    "validate",
+    "validate:release"
+  ]) {
     assert.ok(pkg.scripts[script], `missing ${script} script`);
   }
 });
 
-test("robots and manifest metadata are source-controlled", () => {
+test("robots manifest and security headers are source-controlled", () => {
   const robots = read("public/robots.txt");
   const manifest = JSON.parse(read("public/site.webmanifest"));
+  const headers = read("public/_headers");
   assert.match(robots, /Sitemap: https:\/\/echobuddha\.com\/sitemap\.xml/);
   assert.equal(manifest.name, "Echo Buddha");
   assert.equal(manifest.start_url, "/");
   assert.ok(manifest.icons.length >= 3);
+  assert.match(headers, /X-Content-Type-Options:\s*nosniff/);
+  assert.match(headers, /Referrer-Policy:\s*strict-origin-when-cross-origin/);
+  assert.match(headers, /X-Frame-Options:\s*DENY/);
+  assert.match(headers, /Content-Security-Policy-Report-Only:/);
+  assert.match(headers, /frame-ancestors 'none'/);
 });
 
 test("sitemap output aligns with canonical site when built", () => {
