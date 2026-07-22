@@ -26,6 +26,12 @@ const startingNeeds = [
   { label: "Need practical mindfulness?", href: "/mindful-living/", description: "Bring awareness into work, speech, home, and relationships." },
   { label: "Prefer simple tools?", href: "/tools/", description: "Use timers, reflection tools, quote prompts, and a 7-day challenge." }
 ];
+const sourceStudyLinks = [
+  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
+  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" },
+  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
+  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" }
+];
 const faqItems = [
   {
     question: "Do I need to be Buddhist to use Echo Buddha?",
@@ -109,6 +115,16 @@ const jsonLd = [
           </a>
         ))}
       </div>
+      <div class="source-study surface">
+        <h3>Source-Aware Reading Next</h3>
+        <p>
+          When the first path feels familiar, continue with short Dhammapada and sutta notes that connect classic
+          Buddhist themes with careful daily-life reflection.
+        </p>
+        <ul>
+          {sourceStudyLinks.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -157,6 +173,7 @@ const jsonLd = [
   }
 
   .path-list,
+  .source-study,
   .faq-list {
     display: grid;
     gap: 0.85rem;
@@ -191,9 +208,28 @@ const jsonLd = [
   }
 
   .path-item p,
+  .source-study p,
   .faq-item p {
     color: var(--color-muted);
     margin-bottom: 0;
+  }
+
+  .source-study {
+    padding: 1.1rem 1.25rem;
+  }
+
+  .source-study h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .source-study ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .faq-item {

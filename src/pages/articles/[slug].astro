@@ -16,7 +16,7 @@ import {
   quotes,
   slugify
 } from "../../data/site";
-import { getTopicRole } from "../../data/editorialGovernance";
+import { getSourceReferencesForRoute, getTopicRole } from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return fullArticles.map((article) => ({
@@ -194,6 +194,7 @@ const topicClusters = [
 const activeTopicCluster = topicClusters.find((cluster) => cluster.slugs.includes(article.slug));
 const topicClusterHub = activeTopicCluster && activeTopicCluster.href !== canonicalPath ? activeTopicCluster : undefined;
 const articleRole = getTopicRole(canonicalPath);
+const sourceReferences = getSourceReferencesForRoute(canonicalPath);
 const sourceNoteText =
   activeTopicCluster?.source ??
   (article.category === "Meditation"
@@ -226,7 +227,13 @@ const needsWellbeingNote = [
   "mindfulness-for-better-sleep",
   "buddhist-approach-to-anger",
   "buddhist-wisdom-for-overthinking",
-  "impermanence-in-buddhism"
+  "impermanence-in-buddhism",
+  "loving-kindness-meditation-beginners",
+  "loving-kindness-meditation-guide",
+  "metta-meditation-script",
+  "mindfulness-of-breathing-guide",
+  "how-to-meditate-for-beginners",
+  "mindfulness-vs-meditation"
 ].includes(article.slug);
 const jsonLd = [
   {
@@ -376,7 +383,9 @@ const jsonLd = [
             <h2 id="wellbeing-note-heading">A Note About Wellbeing</h2>
             <p>
               This article is educational and does not provide medical or mental health treatment. Meditation and
-              mindfulness experiences vary. Seek qualified professional support for persistent or serious symptoms.
+              mindfulness experiences vary. If a practice feels uncomfortable, open your eyes, shorten it, feel your
+              feet or hands, change anchors, or stop. Seek qualified professional support for persistent or serious
+              symptoms.
             </p>
           </aside>
         )}
@@ -431,6 +440,19 @@ const jsonLd = [
             For sourcing, attribution, corrections, and the limits of educational content, read the
             <a href="/editorial-policy/"> Editorial Policy</a> and <a href="/disclaimer/">Disclaimer</a>.
           </p>
+          {sourceReferences.length > 0 && (
+            <>
+              <h3>Selected References</h3>
+              <ul class="source-list">
+                {sourceReferences.map((source) => (
+                  <li>
+                    <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                    <span>{source.note}</span>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </section>
 
         {activeTopicCluster && (
@@ -603,6 +625,25 @@ const jsonLd = [
     font-size: 0.84rem;
     font-weight: 800;
     padding: 0.25rem 0.7rem;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   .author-card,

@@ -66,6 +66,12 @@ export type SafetyChecklistItem = {
   requiredStandard: string;
 };
 
+export type SourceReference = {
+  label: string;
+  href: string;
+  note: string;
+};
+
 export const REVIEWED_AT = "2026-07-21";
 
 export const topicRoleMap: TopicRole[] = [
@@ -127,6 +133,22 @@ export const topicRoleMap: TopicRole[] = [
   },
   {
     cluster: "Noble Eightfold Path",
+    href: "/articles/eightfold-path-explained-daily-life/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article for applied daily-life examples after the main path explanation.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Noble Eightfold Path",
+    href: "/articles/noble-eightfold-path-practical-guide/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article as the most practice-oriented Eightfold Path checklist.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Noble Eightfold Path",
     href: "/learn/buddhism-101/the-noble-eightfold-path-explained/",
     role: "learning reference",
     primary: false,
@@ -150,6 +172,22 @@ export const topicRoleMap: TopicRole[] = [
     reviewStatus: "external-review-pending"
   },
   {
+    cluster: "Impermanence",
+    href: "/articles/buddhist-teachings-on-impermanence/",
+    role: "source-study page",
+    primary: false,
+    publicSummary: "Use this article for a teaching-focused explanation of anicca and change.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Impermanence",
+    href: "/articles/impermanence-in-buddhism-letting-go/",
+    role: "supporting article",
+    primary: false,
+    publicSummary: "Use this article for the letting-go application of impermanence.",
+    reviewStatus: "external-review-pending"
+  },
+  {
     cluster: "Loving-kindness and Metta",
     href: "/meditation/loving-kindness-meditation/",
     role: "meditation instruction",
@@ -163,6 +201,54 @@ export const topicRoleMap: TopicRole[] = [
     role: "dictionary definition",
     primary: false,
     publicSummary: "Use this page for the term meaning, scope, and related references.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Loving-kindness and Metta",
+    href: "/articles/loving-kindness-meditation-guide/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article for a guided explanation of loving-kindness practice.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Loving-kindness and Metta",
+    href: "/articles/loving-kindness-meditation-beginners/",
+    role: "beginner introduction",
+    primary: false,
+    publicSummary: "Use this article as the gentlest beginner entry into metta practice.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Loving-kindness and Metta",
+    href: "/articles/metta-meditation-script/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this page as a script-style practice support, not the main metta explainer.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Loving-kindness and Metta",
+    href: "/learn/buddhist-dictionary/karuna/",
+    role: "dictionary definition",
+    primary: false,
+    publicSummary: "Use this page for the Pali compassion term and related practice context.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Loving-kindness and Metta",
+    href: "/articles/compassion-in-buddhism-beginner-guide/",
+    role: "beginner introduction",
+    primary: false,
+    publicSummary: "Use this article for compassion as a beginner Buddhist practice theme.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Loving-kindness and Metta",
+    href: "/articles/compassion-as-a-daily-discipline/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article for daily discipline and ordinary-life compassion examples.",
     reviewStatus: "external-review-pending"
   },
   {
@@ -182,6 +268,46 @@ export const topicRoleMap: TopicRole[] = [
     reviewStatus: "external-review-pending"
   },
   {
+    cluster: "Mindfulness and Meditation",
+    href: "/articles/mindfulness-of-breathing-guide/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this article for breath-practice steps with safety context.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Mindfulness and Meditation",
+    href: "/articles/mindfulness-vs-meditation/",
+    role: "beginner introduction",
+    primary: false,
+    publicSummary: "Use this article for the comparison intent between mindfulness and meditation.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Mindfulness and Meditation",
+    href: "/articles/how-to-meditate-for-beginners/",
+    role: "beginner introduction",
+    primary: false,
+    publicSummary: "Use this article for first-session meditation guidance before deeper practice pages.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Mindfulness and Meditation",
+    href: "/meditation/breathing-meditation/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this page for concise breathing-meditation instruction.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Mindfulness and Meditation",
+    href: "/meditation/meditation-for-beginners/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this page for the meditation section's beginner practice route.",
+    reviewStatus: "external-review-pending"
+  },
+  {
     cluster: "Right Speech",
     href: "/articles/right-speech-buddhism/",
     role: "practical application",
@@ -195,6 +321,22 @@ export const topicRoleMap: TopicRole[] = [
     role: "source-study page",
     primary: false,
     publicSummary: "Use this learning page for sutta-context study and further references.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Right Livelihood",
+    href: "/learn/buddhism-101/right-livelihood-buddhism/",
+    role: "learning reference",
+    primary: true,
+    publicSummary: "Use this lesson as the main source-aware route for right livelihood.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Right Livelihood",
+    href: "/articles/right-livelihood-modern-life/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article for modern work examples and applied ethical reflection.",
     reviewStatus: "external-review-pending"
   },
   {
@@ -328,6 +470,194 @@ export const authoritativeSourceReferences = [
   }
 ];
 
+const commonHealthReferences: SourceReference[] = [
+  {
+    label: "NCCIH: Meditation and Mindfulness",
+    href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+    note: "Government health overview used for safety-aware meditation framing."
+  }
+];
+
+const articleSourceReferences: Record<string, SourceReference[]> = {
+  "/articles/what-is-buddhism-beginner-guide/": [
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Primary-text reference for the Four Noble Truths as a central early Buddhist teaching."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the Noble Eightfold Path."
+    }
+  ],
+  "/articles/buddhism-for-beginners-simple-guide/": [
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Reference for the beginner framing of dukkha, cessation, and practice."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Reference for the path factors introduced on the page."
+    }
+  ],
+  "/articles/four-noble-truths-explained/": [
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Primary-text reference for the Four Noble Truths."
+    },
+    {
+      label: "Access to Insight: SN 56.11",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Alternative translation/archive reference for comparison."
+    }
+  ],
+  "/articles/four-noble-truths-explained-simply/": [
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Primary-text reference for the teaching summarized in beginner language."
+    }
+  ],
+  "/articles/eightfold-path-explained/": [
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the eight path factors."
+    }
+  ],
+  "/articles/eightfold-path-explained-daily-life/": [
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the path factors applied in daily life."
+    }
+  ],
+  "/articles/noble-eightfold-path-practical-guide/": [
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the Noble Eightfold Path structure."
+    }
+  ],
+  "/articles/buddhist-teachings-on-impermanence/": [
+    {
+      label: "Access to Insight: Dhammapada XX",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "Traditional reference for impermanence and the marks of existence."
+    }
+  ],
+  "/articles/impermanence-in-buddhism/": [
+    {
+      label: "Access to Insight: Dhammapada XX",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "Traditional reference for impermanence as a Buddhist teaching."
+    }
+  ],
+  "/articles/impermanence-in-buddhism-letting-go/": [
+    {
+      label: "Access to Insight: Dhammapada XX",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "Traditional reference for impermanence and release from clinging."
+    }
+  ],
+  "/articles/mindfulness-of-breathing-guide/": [
+    {
+      label: "Access to Insight: MN 118",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Primary-text reference for mindfulness of breathing."
+    },
+    ...commonHealthReferences
+  ],
+  "/articles/how-to-meditate-for-beginners/": [
+    {
+      label: "Access to Insight: MN 118",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Primary-text reference for breath meditation context."
+    },
+    ...commonHealthReferences
+  ],
+  "/articles/how-to-meditate-for-anxiety/": commonHealthReferences,
+  "/articles/mindfulness-for-better-sleep/": commonHealthReferences,
+  "/articles/mindfulness-vs-meditation/": [
+    {
+      label: "Access to Insight: DN 22",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "Traditional reference for mindfulness foundations."
+    },
+    ...commonHealthReferences
+  ],
+  "/articles/loving-kindness-meditation-guide/": [
+    {
+      label: "Access to Insight: Karaniya Metta Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for loving-kindness and goodwill practice."
+    },
+    ...commonHealthReferences
+  ],
+  "/articles/loving-kindness-meditation-beginners/": [
+    {
+      label: "Access to Insight: Karaniya Metta Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for mettā/goodwill practice."
+    },
+    ...commonHealthReferences
+  ],
+  "/articles/metta-meditation-script/": [
+    {
+      label: "Access to Insight: Karaniya Metta Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source used for broad metta context; page wording remains original."
+    },
+    ...commonHealthReferences
+  ],
+  "/articles/compassion-in-buddhism-beginner-guide/": [
+    {
+      label: "Access to Insight: Karaniya Metta Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for goodwill, non-harming, and care for beings."
+    }
+  ],
+  "/articles/compassion-as-a-daily-discipline/": [
+    {
+      label: "Access to Insight: Karaniya Metta Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for goodwill practice."
+    }
+  ],
+  "/articles/right-speech-buddhism/": [
+    {
+      label: "Access to Insight: Right Speech overview",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
+      note: "Reference for right speech criteria in the path."
+    }
+  ],
+  "/articles/buddhist-approach-to-anger/": [
+    {
+      label: "Access to Insight: Dhammapada I",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional reference for non-hatred and careful mental action."
+    }
+  ],
+  "/articles/buddhist-teachings-on-forgiveness/": [
+    {
+      label: "Access to Insight: Dhammapada I",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional reference for non-hatred; page avoids excusing harm."
+    }
+  ],
+  "/articles/what-is-karma-in-buddhism/": [
+    {
+      label: "Access to Insight: Kalama Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+      note: "Reference for intention, action, and observable consequences."
+    }
+  ]
+};
+
 export function getTopicRole(href: string) {
   return topicRoleMap.find((item) => item.href === href);
 }
@@ -361,6 +691,10 @@ export function getQuoteOriginRecord(quote: Quote, canonicalPath?: string): Quot
     editorialNotes:
       "Current repository data presents this as original Echo Buddha writing. Any future non-original attribution must be verified before publication."
   };
+}
+
+export function getSourceReferencesForRoute(href: string): SourceReference[] {
+  return articleSourceReferences[href] ?? [];
 }
 
 export function getMeditationSafetyNotice() {

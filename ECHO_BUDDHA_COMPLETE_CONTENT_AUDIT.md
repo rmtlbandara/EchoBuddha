@@ -822,3 +822,30 @@ The indexable/sitemap count decreased by one because `/daily-reflections/today/`
 - `npm run validate`: passed.
 
 No production deployment occurred. No Git push occurred. No live AdSense code was enabled. No rankings, indexing outcomes, traffic outcomes, or AdSense approval are guaranteed.
+
+## 32. Second Targeted Remediation Phase - 2026-07-21
+
+The second targeted phase completed the remaining repository-safe content governance work after the first remediation. This phase did not broadly rewrite all pages, remove pages, add redirects, deploy production, push to GitHub, enable ads, add a publisher ID, fabricate reviewers, fabricate source approvals, or claim AdSense approval.
+
+### Second-Phase Actions
+
+- Added page-visible selected references to priority article clusters where specific Buddhist-text or safety references were appropriate.
+- Expanded the page-role map for Noble Eightfold Path, Four Noble Truths, impermanence, loving-kindness/metta/compassion/karuna, mindfulness/meditation, right speech, and right livelihood.
+- Strengthened wellbeing and meditation article safety wording so sensitive practice pages include adaptation, stopping, and professional-support boundaries.
+- Added source-aware internal links from `/start-here/` and `/learn/buddhist-resources/` to clear the remaining contextual link queue.
+- Added `daily-reflection-review.csv` with page-level decisions for all 30 daily reflections and the noindex `/daily-reflections/today/` utility page.
+- Updated the content audit generator so source, safety, duplicate, daily-reflection, role-map, tracker, and empty-queue evidence are recorded consistently.
+- Created `ECHO_BUDDHA_TARGETED_CONTENT_REMEDIATION_REPORT.md`.
+
+### Second-Phase Queue Results
+
+| Queue | After first remediation | After second targeted phase |
+|---|---:|---:|
+| Source-verification queue items | 85 | 0 |
+| Quote-origin pending items | 0 | 0 |
+| Safety-review pending items | 0 pending in 47 safety rows | 0 pending in 47 safety rows |
+| Daily-reflection review rows | Not separately generated | 31 |
+| Internal-link opportunities | 8 | 0 |
+| Unresolved similarity pairs | 654 high-similarity pairs requiring manual review or role-map justification | 0 unresolved, 0 unresolved high-similarity |
+
+Final repository status from the generated content audit: **Ready for a separate final AdSense pre-application review**. This means repository-safe content, source, quote-origin, safety, link, role-map, and duplicate-triage queues are complete enough to begin a separate final review. It does not guarantee AdSense approval, indexing, ranking, traffic, or legal/policy acceptance.

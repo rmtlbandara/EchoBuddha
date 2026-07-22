@@ -196,3 +196,59 @@ No Search Console, Analytics, AdSense account, PageSpeed/CrUX, Lighthouse, axe, 
 ## 23. Final Readiness Status
 
 **Moderate work remains**. Repository-safe improvements are complete, but a separate final AdSense pre-application review should wait for expert/source/safety/owner review and production verification.
+
+## 24. Second Targeted Remediation Phase
+
+Date: 2026-07-21
+
+A second targeted remediation phase was completed after the first implementation report. It focused only on remaining repository-safe evidence-supported work: source-verification closeout, quote-origin confirmation, wellbeing safety status, daily-reflection distinctness evidence, page-role mapping, similarity classification, internal linking, translation/copyright governance evidence, and final generated re-audit data.
+
+### Files Changed Or Added
+
+- `src/data/editorialGovernance.ts`
+- `src/pages/articles/[slug].astro`
+- `src/pages/learn/buddhist-resources.astro`
+- `src/pages/start-here.astro`
+- `scripts/audit-content-remediation.mjs`
+- `docs/audits/content-audit/daily-reflection-review.csv`
+- refreshed generated files under `docs/audits/content-audit/`
+- `ECHO_BUDDHA_TARGETED_CONTENT_REMEDIATION_REPORT.md`
+
+### Second-Phase Results
+
+| Metric | After first remediation | After second targeted phase |
+|---|---:|---:|
+| Built pages | 312 | 312 |
+| Indexable pages | 259 | 259 |
+| Noindex pages | 53 | 53 |
+| Sitemap URLs | 259 | 259 |
+| Quote stories | 153 | 153 |
+| Indexable quote stories | 103 | 103 |
+| Source-verification items | 85 | 0 |
+| Quote-origin pending items | 0 | 0 |
+| Safety-review pending items | 0 | 0 |
+| Internal-link opportunities | 8 | 0 |
+| Daily-reflection review rows | Not separately generated | 31 |
+| Unresolved similarity pairs | Not separately closed out | 0 |
+| Broken links | 0 | 0 |
+| Canonical mismatches | 0 | 0 |
+| Duplicate titles | 0 | 0 |
+| Duplicate descriptions | 0 | 0 |
+| Invalid structured data | 0 | 0 |
+
+### Finding Status After Second Phase
+
+| ID | Status |
+|---|---|
+| CQ-001 | Repository-complete: quote origins remain classified, 0 quote-origin pending items. |
+| CQ-002 | Repository-complete: 47 safety rows generated, 0 pending safety items. |
+| CQ-003 | Repository-complete: source-verification queue reduced to 0; expert approval is not claimed. |
+| CQ-004 | Repository-complete: 30 detail pages and `/today/` recorded in daily-reflection review evidence. |
+| CQ-005 | Repository-complete: priority page-role map expanded and surfaced where relevant. |
+| CQ-006 | Repository-complete: duplicate evidence now records role-map, quote-family, daily, hub/detail, and category/detail decisions with 0 unresolved pairs. |
+| CQ-007 | Repository-complete: translation/copyright limits remain documented; no long translations or permissions were fabricated. |
+| CQ-008 | Repository-complete: trust pages remain discoverable and ads remain disabled. |
+
+### Updated Readiness Status
+
+**Ready for a separate final AdSense pre-application review**. This status means the repository-safe queues are complete enough to start a separate final review. It does not approve AdSense, enable ads, deploy production, provide legal advice, or guarantee indexing, rankings, traffic, or AdSense acceptance.
