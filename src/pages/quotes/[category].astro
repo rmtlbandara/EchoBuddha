@@ -25,7 +25,7 @@ const categoryMeanings: Record<string, string> = {
   Compassion:
     "Compassion notices suffering and asks what would reduce harm. In daily life, it can include warmth, patience, wise boundaries, and practical help.",
   Patience:
-    "Patience is not passive waiting. It is the strength to pause before speech or action becomes harmful.",
+    "Patience is not passive waiting. It is the strength to stay present before reaction turns into harmful speech, pressure, or contempt.",
   Awareness:
     "Awareness is the honest seeing of what is happening in the mind, body, and relationships before habit takes over.",
   Practice:
@@ -54,8 +54,9 @@ const categoryTeachingLinks: Record<string, { label: string; href: string }[]> =
   ],
   Patience: [
     { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
+    { label: "Buddhas Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" },
     { label: "Buddhist Approach to Anger", href: "/articles/buddhist-approach-to-anger/" },
-    { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" }
+    { label: "Three Ways to Practice Patience", href: "/articles/three-ways-to-practice-patience/" }
   ],
   Awareness: [
     { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
@@ -70,6 +71,7 @@ const categoryTeachingLinks: Record<string, { label: string; href: string }[]> =
   "Letting Go": [
     { label: "How to Let Go of Attachment", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
     { label: "Non-Attachment", href: "/articles/how-to-practice-non-attachment/" },
+    { label: "Letting Go Without Giving Up", href: "/articles/letting-go-without-giving-up/" },
     { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/" }
   ],
   Meditation: [
@@ -95,6 +97,20 @@ const categoryTeachingLinks: Record<string, { label: string; href: string }[]> =
 };
 const relatedTeachingLinks = categoryTeachingLinks[category.name] ?? [];
 const categoryMeaning = categoryMeanings[category.name] ?? category.introduction;
+const categoryClarifications: Record<string, string> = {
+  Patience:
+    "In Buddhist practice, patience is not the same as suppressing hurt or allowing harm. It is the pause that lets awareness, Right Speech, and compassion choose the next response.",
+  "Letting Go":
+    "Letting go is not giving up on love, responsibility, or wise action. It means releasing the demand to control what cannot be controlled, while continuing to care where care is possible."
+};
+const categoryPracticePrompts: Record<string, string> = {
+  Patience:
+    "Before one reply today, feel the body, wait for one breath, and ask whether the next words will reduce harm.",
+  "Letting Go":
+    "Name one thing you are gripping tightly. Ask what part is care, what part is control, and what one small action can remain without clinging."
+};
+const categoryClarification = categoryClarifications[category.name];
+const categoryPracticePrompt = categoryPracticePrompts[category.name];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -159,6 +175,12 @@ const jsonLd = [
             not direct scripture translations. Read one quote slowly, notice where it touches ordinary life, then
             choose one practice before moving to the next quote.
           </p>
+          {categoryClarification && <p>{categoryClarification}</p>}
+          {categoryPracticePrompt && (
+            <p>
+              <strong>Daily prompt:</strong> {categoryPracticePrompt}
+            </p>
+          )}
         </div>
         {relatedTeachingLinks.length > 0 && (
           <nav aria-label={`Related teachings for ${category.name} quotes`}>

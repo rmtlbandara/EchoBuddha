@@ -1,0 +1,11 @@
+Command: npm run lint
+Started: 2026-08-05T08:02:07Z
+
+
+> echo-buddha@1.0.0 lint
+> node scripts/lint-governance.mjs
+
+Governance lint passed.
+
+Finished: 2026-08-05T08:02:09Z
+Exit code: 0

@@ -231,6 +231,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Dhammapada, Buddhavagga (Dhp 190-192)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
       note: "A traditional source for taking refuge in Buddha, Dhamma, and Sangha."
+    },
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "A compact early-discourse source for the path factors often included when explaining Dhamma as practice."
     }
   ],
   "buddhist-dictionary/sangha": [
@@ -238,6 +243,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Dhammapada, Buddhavagga (Dhp 190-192)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
       note: "A traditional source for the Sangha as part of the Three Jewels."
+    },
+    {
+      label: "Upaddha Sutta (SN 45.2)",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_2.html",
+      note: "A source for admirable friendship and companionship as support for developing the path."
     }
   ],
   "buddhist-dictionary/nirvana": [
@@ -1897,40 +1907,59 @@ export const dictionaryPages: LearningPage[] = [
     title: "Dhamma",
     seoTitle: "Dhamma Meaning: Buddhist Teaching and Truth",
     description:
-      "Understand Dhamma as Buddhist teaching, truth, practice, and the way things are seen through wisdom.",
+      "Understand Dhamma as Buddhist teaching, truth, practice, Dharma spelling, and the way things are seen through wisdom.",
     eyebrow: "Buddhist Dictionary",
     intro:
-      "Dhamma can mean the Buddha's teaching, truth, practice, and the nature of reality as understood through wisdom.",
+      "Dhamma means the Buddha's teaching, the truth it points toward, and the practice of living with clearer wisdom.",
     sections: [
       {
-        heading: "Simple Meaning",
+        heading: "Simple Meaning of Dhamma",
         paragraphs: [
-          "Dhamma is a rich word. In everyday Buddhist use, it often means the teaching that guides practice. It can also point to truth itself: the way experience works when seen clearly.",
-          "Studying Dhamma is not only reading ideas. It is testing them in speech, meditation, relationships, and daily choices."
+          "Dhamma is a rich Pali word. In everyday Buddhist use, it often means the Buddha's teaching: the path, principles, and practices that help people understand suffering and reduce harm.",
+          "It can also point to truth itself: the way experience works when seen clearly. Studying Dhamma is therefore not only reading ideas. It is testing them in speech, meditation, relationships, and daily choices."
         ]
       },
       {
-        heading: "Meaning in Daily Life",
+        heading: "Dhamma vs Dharma",
         paragraphs: [
-          "Dhamma appears when a teaching helps you pause before anger, understand impermanence, forgive wisely, or return to the breath. It becomes alive when it changes how we live."
+          "Dhamma is the Pali form. Dharma is the Sanskrit form. English readers may see both spellings depending on the Buddhist tradition, translation, or teacher being referenced.",
+          "On Echo Buddha, Dhamma is used mainly for early Buddhist and Pali-context explanations. Dharma may appear when a page is speaking more broadly across Buddhist traditions. The spelling should not become a separate competing topic unless the page has a clear tradition or language role."
         ]
       },
       {
-        heading: "Related Teaching",
+        heading: "Dhamma in the Three Jewels",
         paragraphs: [
-          "Dhamma is one of the Three Jewels, along with the Buddha and Sangha."
+          "Dhamma is one of the Three Jewels, together with Buddha and Sangha. In that context, Dhamma is not a motivational idea. It is the teaching and truth that practitioners take seriously enough to study, test, and live.",
+          "The Buddha points to awakening, the Dhamma points to the teaching and path, and the Sangha points to the community that preserves and practices the teaching. For the community side of this refuge, see <a href='/learn/buddhist-dictionary/sangha/'>Sangha</a> and <a href='/articles/what-is-sangha-buddhist-community/'>What Is Sangha?</a>."
+        ]
+      },
+      {
+        heading: "Practice Meaning in Daily Life",
+        paragraphs: [
+          "Dhamma appears when a teaching helps you pause before anger, understand impermanence, speak more carefully, forgive wisely, or return to the breath. It becomes alive when it changes how we live.",
+          "A beginner can ask a simple question: does this teaching reduce greed, hatred, confusion, and unnecessary harm? If it remains only an interesting idea, keep studying. If it changes one real action, Dhamma has begun to enter practice."
+        ]
+      },
+      {
+        heading: "Common Misunderstandings",
+        paragraphs: [
+          "Dhamma is not a slogan for whatever feels calming. It has a Buddhist context, a path context, and a relationship to practice. It should not be stretched into generic positivity.",
+          "Dhamma also should not be treated as one English sentence that settles every tradition. Buddhist communities explain details differently, so this dictionary page gives a beginner orientation and points readers toward source-study pages, reputable teachers, and practice communities."
         ]
       }
     ],
     takeaway: "Dhamma is the teaching and truth that guide Buddhist practice toward wisdom and freedom.",
-    practice: "Take one teaching you know and apply it to one ordinary action today.",
+    practice: "Take one teaching you know and apply it to one ordinary action today: one careful sentence, one generous choice, or one pause before reaction.",
     relatedLinks: [
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
       { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
+      { label: "The Mind Leads All Things", href: "/learn/dhammapada-reflections/the-mind-leads-all-things/" },
+      { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
       { label: "Sutta for Daily Life", href: "/learn/sutta-for-daily-life/" }
     ],
-    sourceNote: commonSourceNote,
-    terms: ["Buddha", "Sangha", "Practice"]
+    sourceNote:
+      "This dictionary page gives a beginner explanation of Dhamma as teaching, truth, and practice. It uses source context from traditional Three Jewels and path references without presenting Echo Buddha wording as scripture.",
+    terms: ["Buddha", "Sangha", "Practice", "Right Speech", "Dhammapada"]
   },
   {
     section: "buddhist-dictionary",
@@ -1941,7 +1970,7 @@ export const dictionaryPages: LearningPage[] = [
       "Learn the meaning of Sangha as Buddhist community and how wise support helps daily practice.",
     eyebrow: "Buddhist Dictionary",
     intro:
-      "Sangha means community. Traditionally it can refer to the monastic community, and more broadly to those who support practice.",
+      "Sangha means Buddhist community. This dictionary page gives the short definition and points to a deeper beginner guide.",
     sections: [
       {
         heading: "Simple Meaning",
@@ -1959,7 +1988,7 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Related Teaching",
         paragraphs: [
-          "Sangha supports the Buddha's example and the Dhamma's teaching. Together, the Three Jewels offer refuge."
+          "Sangha supports the Buddha's example and the Dhamma's teaching. Together, the Three Jewels offer refuge. For a fuller explanation of monastic Sangha, broader community use, online practice, and temple visits, read <a href='/articles/what-is-sangha-buddhist-community/'>What Is Sangha? Why Buddhist Community Matters</a>."
         ]
       }
     ],
@@ -1967,6 +1996,7 @@ export const dictionaryPages: LearningPage[] = [
     practice: "Reach toward one wholesome support: a reliable teaching, teacher, group, or practice friend.",
     relatedLinks: [
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
+      { label: "What Is Sangha?", href: "/articles/what-is-sangha-buddhist-community/" },
       { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ],

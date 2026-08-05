@@ -1,0 +1,3 @@
+command	status	exit_code	log
+npm run validate:release	FAIL	1	docs/audits/phase-0-1-production-readiness/validation-logs/npm_run_validate_release.log
+npm run validate:release after dependency fix	PASS	0	docs/audits/phase-0-1-production-readiness/validation-logs/npm_run_validate_release_after_dependency_fix.log

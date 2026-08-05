@@ -5,7 +5,7 @@ import { SITE } from "../../data/site";
 
 const title = "Buddhism for Beginners - Simple Buddhist Teachings";
 const description =
-  "Start learning Buddhism with simple explanations of the Buddha, the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, and meditation.";
+  "Start learning Buddhism with a calm 7-day path through the Buddha, Four Noble Truths, Eightfold Path, mindfulness, ethics, compassion, karma, and meditation.";
 const canonicalPath = "/learn/buddhism-for-beginners/";
 const beginnerLinks = [
   { label: "Who Was the Buddha?", href: "/learn/buddhism-101/who-was-the-buddha/", description: "Begin with the Buddha as a human teacher and awakened guide." },
@@ -13,12 +13,26 @@ const beginnerLinks = [
   { label: "The Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/", description: "Learn Buddha, Dhamma, and Sangha as sources of refuge." },
   { label: "Four Noble Truths", href: "/learn/four-noble-truths/", description: "A clear hub for the Buddha's teaching on suffering and release." },
   { label: "Noble Eightfold Path", href: "/learn/eightfold-path/", description: "A practical path through wisdom, conduct, and mental training." },
+  { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/", description: "Learn mindfulness as careful remembering, not only relaxation." },
+  { label: "What Is Impermanence?", href: "/learn/buddhism-101/what-is-impermanence/", description: "Understand change as a doorway into less clinging." },
+  { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/", description: "Begin Buddhist ethics as voluntary training in reducing harm." },
+  { label: "Karma", href: "/learn/buddhism-101/what-is-karma-in-buddhism/", description: "Study intention, action, and consequence without blame." },
+  { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/", description: "Connect kindness with wisdom, boundaries, and non-harming." },
   { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/", description: "Start with a gentle, non-performative practice." }
+];
+const firstPath = [
+  { day: "Day 1", label: "Meet the Buddha", href: "/learn/buddhism-101/who-was-the-buddha/", note: "Read for orientation, not hero worship." },
+  { day: "Day 2", label: "Understand the Four Noble Truths", href: "/learn/four-noble-truths/", note: "Notice suffering and the possibility of release." },
+  { day: "Day 3", label: "Learn the Eightfold Path", href: "/learn/eightfold-path/", note: "See practice as wisdom, ethics, and mental training." },
+  { day: "Day 4", label: "Practice Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/", note: "Use one ordinary activity as the reminder to return." },
+  { day: "Day 5", label: "Study the Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/", note: "Look at speech, care, honesty, and heedfulness." },
+  { day: "Day 6", label: "Try Beginner Meditation", href: "/meditation/meditation-for-beginners/", note: "Keep it short and gentle; stop or adapt if needed." },
+  { day: "Day 7", label: "Choose One Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/", note: "Repeat one small action instead of collecting more ideas." }
 ];
 const faqItems = [
   {
     question: "What should a beginner learn first in Buddhism?",
-    answer: "Start with the Buddha, the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, and one simple daily practice."
+    answer: "Start with the Buddha, the Four Noble Truths, the Noble Eightfold Path, mindfulness, the Five Precepts, compassion, karma, meditation, and one simple daily practice."
   },
   {
     question: "Do I need special beliefs to begin?",
@@ -61,8 +75,12 @@ const jsonLd = [
       <span class="eyebrow">Beginner hub</span>
       <h1>Buddhism for Beginners</h1>
       <p class="lede">
-        A simple starting point for learning Buddhist wisdom without rushing. Begin with core teachings, then bring one
-        small practice into daily speech, attention, kindness, and meditation.
+        Buddhism is a path of understanding suffering, reducing harm, training attention, and cultivating wisdom and
+        compassion. Begin here slowly: learn one teaching, test it in one ordinary moment, then continue.
+      </p>
+      <p class="page-role-note">
+        This is the main beginner learning hub. <a href="/start-here/">Start Here</a> is the orientation page for
+        choosing a path through the site; this page is the study hub for Buddhist basics.
       </p>
     </div>
   </section>
@@ -75,8 +93,8 @@ const jsonLd = [
     </div>
   </section>
 
-	  <section class="section section-band">
-	    <div class="container prose">
+  <section class="section section-band">
+    <div class="container prose">
       <span class="eyebrow">How to begin</span>
       <h2>Learn Slowly, Practice Simply</h2>
       <p>
@@ -88,8 +106,29 @@ const jsonLd = [
         Echo Buddha's beginner pages are original educational explanations. For formal study, compare reputable
         teachers, translations, and practice communities.
       </p>
-	    </div>
-	  </section>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">First week</span>
+          <h2>A Simple 7-Day First Path</h2>
+        </div>
+        <a href="/start-here/">Need orientation?</a>
+      </div>
+      <ol class="path-list">
+        {firstPath.map((item) => (
+          <li>
+            <span>{item.day}</span>
+            <a href={item.href}>{item.label}</a>
+            <p>{item.note}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
 
   <section class="section section--tight">
     <div class="container prose">
@@ -121,5 +160,63 @@ const jsonLd = [
   .section-band {
     background: rgba(247, 240, 229, 0.64);
     border-block: 1px solid var(--color-line);
+  }
+
+  .page-role-note {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 0.9rem;
+  }
+
+  .section-heading {
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.7rem, 4vw, 2.25rem);
+  }
+
+  .section-heading a {
+    font-weight: 800;
+  }
+
+  .path-list {
+    counter-reset: path;
+    display: grid;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .path-list li {
+    border-bottom: 1px solid var(--color-line);
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.9rem 0;
+  }
+
+  .path-list span {
+    color: var(--color-green);
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .path-list a {
+    color: var(--color-brown);
+    font-size: 1.08rem;
+    font-weight: 900;
+  }
+
+  .path-list p {
+    color: var(--color-muted);
+    margin: 0;
   }
 </style>

@@ -33,17 +33,17 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1122
+    "averageWords": 1123
   },
   "article": {
     "total": 42,
     "indexable": 42,
     "noindex": 0,
     "decisions": {
-      "Minor improvement": 12,
-      "Pass": 30
+      "Minor improvement": 11,
+      "Pass": 31
     },
-    "averageWords": 1716
+    "averageWords": 1735
   },
   "articleCategory": {
     "total": 5,
@@ -52,7 +52,7 @@
     "decisions": {
       "Pass": 5
     },
-    "averageWords": 510
+    "averageWords": 511
   },
   "dailyReflection": {
     "total": 30,
@@ -79,7 +79,7 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 552
+    "averageWords": 572
   },
   "learningDetail": {
     "total": 37,
@@ -88,7 +88,7 @@
     "decisions": {
       "Pass": 37
     },
-    "averageWords": 598
+    "averageWords": 611
   },
   "other": {
     "total": 2,
@@ -115,7 +115,7 @@
     "decisions": {
       "Pass": 10
     },
-    "averageWords": 591
+    "averageWords": 605
   },
   "quoteStory": {
     "total": 153,
@@ -125,6 +125,6 @@
       "Minor improvement": 103,
       "Pass": 50
     },
-    "averageWords": 911
+    "averageWords": 912
   }
 }

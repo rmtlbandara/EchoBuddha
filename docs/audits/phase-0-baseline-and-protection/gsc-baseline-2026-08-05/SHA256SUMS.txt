@@ -1,0 +1,7 @@
+61e9e499e2ef71127ded39d5256f483235fc6912703bf48239a91ce544b4fdc0  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Chart.csv
+e35203f3d28ea3b3e157b61974515a82ad63950daccfa2a430418c5f3b3322a3  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Countries.csv
+3bd9a35776b97f579bd66be55a39f7e35ed177530057494286e8e8f79e10ec04  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Devices.csv
+163c07d6839b411e21df0e69bc8ae8a86013b42179da00682150503d1400951f  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Filters.csv
+f09876a74d331c118e43734912e730eff82843815438b078e52c03fd2f77f279  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Pages.csv
+e51482f41ad61d2a1e0b0731d064674b7ba20e48b43ff9ff46a613c15d286214  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Queries.csv
+eed9ceafb9193e5e3d034f5897ad992bc851f1998204cd98f0b0f6873fbfc8b2  docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05/Search appearance.csv

@@ -1,0 +1,9 @@
+command	status	exit_code	started_at	finished_at	log
+npm run build	PASS	0	2026-08-05T07:36:16Z	2026-08-05T07:36:18Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_build.log
+npm run typecheck	PASS	0	2026-08-05T07:36:18Z	2026-08-05T07:36:20Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_typecheck.log
+npm run lint	PASS	0	2026-08-05T07:36:20Z	2026-08-05T07:36:21Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_lint.log
+npm test	PASS	0	2026-08-05T07:36:21Z	2026-08-05T07:36:22Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_test.log
+npm run audit:seo	PASS	0	2026-08-05T07:36:22Z	2026-08-05T07:36:22Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_audit_seo.log
+npm run audit:content	PASS	0	2026-08-05T07:36:22Z	2026-08-05T07:36:23Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_audit_content.log
+npm run validate	PASS	0	2026-08-05T07:36:23Z	2026-08-05T07:36:29Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_validate.log
+npm run validate:release	FAIL	1	2026-08-05T07:36:29Z	2026-08-05T07:36:38Z	docs/audits/phase-0-baseline-and-protection/validation-logs/npm_run_validate_release.log

@@ -365,11 +365,11 @@ const hubItems: SearchIndexItem[] = [
     title: "Buddhism for Beginners",
     url: "/learn/buddhism-for-beginners/",
     type: "Learning Page",
-    excerpt: "Start learning Buddhism with simple explanations of core teachings and beginner practice.",
+    excerpt: "Start learning Buddhism with a calm 7-day path through core teachings, ethics, mindfulness, compassion, karma, and meditation.",
     category: "Beginner Buddhism",
     section: "Learn",
-    keywords: ["Buddhism for beginners", "beginner Buddhism", "what is Buddhism"],
-    content: "Buddha Four Noble Truths Noble Eightfold Path mindfulness compassion beginner meditation"
+    keywords: ["Buddhism for beginners", "beginner Buddhism", "what is Buddhism", "Five Precepts", "karma"],
+    content: "Buddha Four Noble Truths Noble Eightfold Path mindfulness impermanence Five Precepts karma compassion beginner meditation seven day path"
   },
   {
     title: "Four Noble Truths Explained for Beginners",

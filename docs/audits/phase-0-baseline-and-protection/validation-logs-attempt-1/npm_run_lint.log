@@ -1,0 +1,6 @@
+
+> echo-buddha@1.0.0 lint
+> node scripts/lint-governance.mjs
+
+Governance lint failed:
+- Remove OS metadata file from source: .DS_Store

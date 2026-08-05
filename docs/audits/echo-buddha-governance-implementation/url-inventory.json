@@ -60,7 +60,7 @@
     "title": "A Buddhist Approach to Anger | Echo Buddha",
     "description": "Learn a Buddhist-inspired approach to anger using mindful pause, body awareness, compassion, boundaries, and wise response.",
     "canonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
-    "words": 1570,
+    "words": 1572,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -177,7 +177,7 @@
     "title": "Practice Articles | Echo Buddha",
     "description": "Explore practical Buddhist articles about patience, mindful action, daily habits, and applying wisdom in difficult moments.",
     "canonical": "https://echobuddha.com/articles/category/practice/",
-    "words": 382,
+    "words": 384,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -191,7 +191,7 @@
     "title": "Reflection Articles | Echo Buddha",
     "description": "Read Buddhist-inspired reflections about non-attachment, letting go, change, control, and living with greater freedom.",
     "canonical": "https://echobuddha.com/articles/category/reflection/",
-    "words": 458,
+    "words": 462,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -205,7 +205,7 @@
     "title": "Compassion as a Daily Buddhist Practice | Echo Buddha",
     "description": "Explore compassion as a daily discipline through speech, listening, boundaries, self-compassion, and small practical choices.",
     "canonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
-    "words": 1548,
+    "words": 1550,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -250,7 +250,7 @@
     "title": "Dhammapada Reflection on a Trained Mind and Peace | Echo Buddha",
     "description": "An original Dhammapada-inspired reflection on training the mind, patience, attention, and inner peace in daily life.",
     "canonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
-    "words": 1530,
+    "words": 1542,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -262,10 +262,10 @@
     "path": "/articles/dhammapada-reflection-what-we-think/",
     "type": "article",
     "noindex": false,
-    "title": "Dhammapada Reflection on Thought, Intention, and Mind | Echo Buddha",
-    "description": "An original reflection inspired by broad Dhammapada themes on thought, intention, karma, and the shaping of the mind.",
+    "title": "Dhammapada What We Think: Translation, Paraphrase, Reflection | Echo Buddha",
+    "description": "A careful Dhammapada reflection on the popular “what we think, we become” wording, distinguishing paraphrase, translation, source context, and Echo Buddha reflection.",
     "canonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
-    "words": 1548,
+    "words": 1730,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -280,7 +280,7 @@
     "title": "The Noble Eightfold Path Explained for Beginners | Echo Buddha",
     "description": "A simple beginner-friendly guide to the Noble Eightfold Path, explaining right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
     "canonical": "https://echobuddha.com/articles/eightfold-path-explained/",
-    "words": 1883,
+    "words": 1885,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -295,7 +295,7 @@
     "title": "Eightfold Path in Daily Life | Echo Buddha",
     "description": "See how the Noble Eightfold Path applies to daily life through speech, work, mindfulness, intention, and practical examples.",
     "canonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
-    "words": 1768,
+    "words": 1770,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -325,7 +325,7 @@
     "title": "Five Precepts in Daily Life: Buddhist Ethics for Beginners | Echo Buddha",
     "description": "Understand the Five Precepts as voluntary Buddhist training rules that reduce harm, protect trust, and support heedful daily conduct.",
     "canonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
-    "words": 2221,
+    "words": 2371,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -460,7 +460,7 @@
     "title": "Articles and Blog | Echo Buddha",
     "description": "Browse Echo Buddha articles on mindfulness, meditation, compassion, patience, and Buddhist-inspired daily reflection.",
     "canonical": "https://echobuddha.com/articles/",
-    "words": 1526,
+    "words": 1532,
     "h1Count": 1,
     "schemaTypes": [
       "Blog",
@@ -535,7 +535,7 @@
     "title": "Mindful Listening in Everyday Life | Echo Buddha",
     "description": "Practice mindful listening with presence, pauses, reflection, boundaries, and practical examples for everyday relationships.",
     "canonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
-    "words": 1456,
+    "words": 1458,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -610,7 +610,7 @@
     "title": "Noble Eightfold Path Practical Guide for Daily Life | Echo Buddha",
     "description": "Learn how the Noble Eightfold Path can guide speech, action, mindfulness, meditation, and everyday choices with clarity.",
     "canonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
-    "words": 1523,
+    "words": 1525,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -625,7 +625,7 @@
     "title": "Right Livelihood in Modern Life: Buddhist Work Ethics | Echo Buddha",
     "description": "Explore Right Livelihood as a realistic Buddhist framework for work, income, responsibility, harm reduction, and ethical change.",
     "canonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
-    "words": 2240,
+    "words": 2242,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -637,10 +637,10 @@
     "path": "/articles/right-speech-buddhism/",
     "type": "article",
     "noindex": false,
-    "title": "Right Speech in Buddhism: Speak with Kindness | Echo Buddha",
-    "description": "A practical guide to Right Speech in Buddhism, including mindful communication, honesty, kindness, silence, listening, and daily examples.",
+    "title": "Right Speech in Buddhism: Meaning, Examples, and Practice | Echo Buddha",
+    "description": "Understand Right Speech in Buddhism quickly, with examples for honesty, kindness, useful timing, silence, listening, anger, and the Five Precepts.",
     "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
-    "words": 1657,
+    "words": 1774,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -655,7 +655,7 @@
     "title": "Three Poisons in Buddhism: Greed, Aversion, and Delusion | Echo Buddha",
     "description": "Learn how the three poisons in Buddhism work as roots of unskillful action, and how non-greed, non-hatred, and clear seeing change daily choices.",
     "canonical": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
-    "words": 2095,
+    "words": 2261,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -670,7 +670,7 @@
     "title": "Three Ways to Practice Patience | Echo Buddha",
     "description": "Learn three practical ways to practice patience with delays, emotions, difficult people, and everyday stress without passivity.",
     "canonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
-    "words": 1488,
+    "words": 1490,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -730,7 +730,7 @@
     "title": "What Is Sangha? Buddhist Community for Beginners | Echo Buddha",
     "description": "Understand Sangha as monastic community, Buddhist community, and wise companionship, with practical guidance for learning responsibly.",
     "canonical": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
-    "words": 1987,
+    "words": 2112,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -1305,7 +1305,7 @@
     "title": "The Five Precepts in Buddhism: A Beginner&#39;s Guide to Ethical Living | Echo Buddha",
     "description": "Learn the Five Precepts in Buddhism in simple language. A beginner-friendly guide to Buddhist ethics, daily choices, right speech, honesty, kindness, and mindful living.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
-    "words": 1513,
+    "words": 1563,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1485,9 +1485,9 @@
     "type": "learningHub",
     "noindex": false,
     "title": "Buddhism for Beginners - Simple Buddhist Teachings | Echo Buddha",
-    "description": "Start learning Buddhism with simple explanations of the Buddha, the Four Noble Truths, the Noble Eightfold Path, mindfulness, compassion, and meditation.",
+    "description": "Start learning Buddhism with a calm 7-day path through the Buddha, Four Noble Truths, Eightfold Path, mindfulness, ethics, compassion, karma, and meditation.",
     "canonical": "https://echobuddha.com/learn/buddhism-for-beginners/",
-    "words": 421,
+    "words": 600,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -1545,9 +1545,9 @@
     "type": "learning",
     "noindex": false,
     "title": "Dhamma Meaning: Buddhist Teaching and Truth | Echo Buddha",
-    "description": "Understand Dhamma as Buddhist teaching, truth, practice, and the way things are seen through wisdom.",
+    "description": "Understand Dhamma as Buddhist teaching, truth, practice, Dharma spelling, and the way things are seen through wisdom.",
     "canonical": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
-    "words": 437,
+    "words": 803,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1577,7 +1577,7 @@
     "title": "Buddhist Dictionary | Echo Buddha",
     "description": "A practical glossary of Buddhist terms explained in simple, beginner-friendly English.",
     "canonical": "https://echobuddha.com/learn/buddhist-dictionary/",
-    "words": 462,
+    "words": 464,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -1667,7 +1667,7 @@
     "title": "Sangha Meaning: Buddhist Community Explained Simply | Echo Buddha",
     "description": "Learn the meaning of Sangha as Buddhist community and how wise support helps daily practice.",
     "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
-    "words": 434,
+    "words": 530,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1795,7 +1795,7 @@
     "title": "Noble Eightfold Path for Daily Life | Echo Buddha",
     "description": "Learn the Noble Eightfold Path as a practical Buddhist training in wisdom, ethical conduct, effort, mindfulness, and meditation.",
     "canonical": "https://echobuddha.com/learn/eightfold-path/",
-    "words": 493,
+    "words": 495,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2048,7 +2048,7 @@
     "title": "Mindful Living with Buddhist Wisdom | Echo Buddha",
     "description": "Explore practical Buddhist-inspired mindfulness for daily life, work, speech, relationships, patience, compassion, and letting go.",
     "canonical": "https://echobuddha.com/mindful-living/",
-    "words": 541,
+    "words": 543,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -2748,7 +2748,7 @@
     "title": "Original Letting Go Reflection: An open hand can care... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;An open hand can care for what a clenched fist cannot.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
-    "words": 936,
+    "words": 937,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2762,7 +2762,7 @@
     "title": "Letting Go Buddhist Quote: Caring Without Clinging | Echo Buddha",
     "description": "A letting go Buddhist quote about caring deeply while loosening the need to control outcomes, people, or change.",
     "canonical": "https://echobuddha.com/quotes/letting-go/caring-without-clinging/",
-    "words": 906,
+    "words": 907,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2776,7 +2776,7 @@
     "title": "Buddhist Forgiveness Quote: Release Without Approving Harm | Echo Buddha",
     "description": "A Buddhist forgiveness quote about releasing resentment while keeping truth, boundaries, and responsibility clear.",
     "canonical": "https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/",
-    "words": 880,
+    "words": 881,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2790,7 +2790,7 @@
     "title": "Original Letting Go Reflection: Freedom often sounds like the... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Freedom often sounds like the quiet end of an inner argument.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
-    "words": 939,
+    "words": 940,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2802,9 +2802,9 @@
     "type": "quoteCategory",
     "noindex": false,
     "title": "Original Letting Go Quotes Inspired by Buddhist Practice | Echo Buddha",
-    "description": "Original letting go quotes about non-attachment, releasing control, accepting change, and moving forward peacefully.",
+    "description": "Original letting go quotes about non-attachment, impermanence, releasing control, caring without clinging, and moving forward peacefully.",
     "canonical": "https://echobuddha.com/quotes/letting-go/",
-    "words": 611,
+    "words": 675,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -2818,7 +2818,7 @@
     "title": "Original Letting Go Reflection: Let the feeling pass through... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Let the feeling pass through without building it a permanent room.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
-    "words": 938,
+    "words": 939,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2832,7 +2832,7 @@
     "title": "Original Letting Go Reflection: Letting go begins by admitting... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Letting go begins by admitting how tightly you are holding.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
-    "words": 925,
+    "words": 926,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2846,7 +2846,7 @@
     "title": "Non Attachment Quote: Hold Life With Open Hands | Echo Buddha",
     "description": "A non attachment quote about holding people, roles, possessions, and plans with open hands rather than fear-based control.",
     "canonical": "https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/",
-    "words": 894,
+    "words": 895,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2860,7 +2860,7 @@
     "title": "Original Letting Go Reflection: Peace enters when control is... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Peace enters when control is no longer the price of feeling safe.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
-    "words": 970,
+    "words": 971,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2874,7 +2874,7 @@
     "title": "Original Letting Go Reflection: Release the need to replay... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Release the need to replay what can no longer be changed.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
-    "words": 937,
+    "words": 938,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2888,7 +2888,7 @@
     "title": "Original Letting Go Reflection: Release the outcome, but keep... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Release the outcome, but keep the care you bring to the work.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
-    "words": 960,
+    "words": 961,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2902,7 +2902,7 @@
     "title": "Buddhist Quote for Stress: Soften Around Pressure | Echo Buddha",
     "description": "A Buddhist quote for stress about softening the inner grip around pressure before choosing the next useful action.",
     "canonical": "https://echobuddha.com/quotes/letting-go/soften-around-stress/",
-    "words": 886,
+    "words": 887,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2916,7 +2916,7 @@
     "title": "Original Letting Go Reflection: What leaves your life may... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;What leaves your life may still leave wisdom behind.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
-    "words": 913,
+    "words": 914,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2930,7 +2930,7 @@
     "title": "Buddhist Attachment Quote: Noticing Where Clinging Begins | Echo Buddha",
     "description": "A Buddhist attachment quote about noticing where care turns into clinging, fear, control, or demand.",
     "canonical": "https://echobuddha.com/quotes/letting-go/where-attachment-begins/",
-    "words": 852,
+    "words": 853,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2944,7 +2944,7 @@
     "title": "Original Letting Go Reflection: You can honor the past... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;You can honor the past without asking it to become your home.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
-    "words": 953,
+    "words": 954,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2958,7 +2958,7 @@
     "title": "Original Letting Go Reflection: You do not betray a... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;You do not betray a memory by allowing yourself to move forward.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
-    "words": 948,
+    "words": 949,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -2972,7 +2972,7 @@
     "title": "Original Letting Go Reflection: You do not need to... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;You do not need to carry every thought that visits you.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
-    "words": 934,
+    "words": 935,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3448,7 +3448,7 @@
     "title": "Original Patience Reflection: A difficult moment becomes heavier... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;A difficult moment becomes heavier when we demand that it end immediately.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
-    "words": 950,
+    "words": 956,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3462,7 +3462,7 @@
     "title": "Original Patience Reflection: Be patient with the part... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Be patient with the part of you that is still learning what peace feels like.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/",
-    "words": 976,
+    "words": 982,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3476,7 +3476,7 @@
     "title": "Kindness in Family Quote: Patience With People Close to Us | Echo Buddha",
     "description": "A kindness in family quote about practicing patience with the people closest to us, especially when old patterns are touched.",
     "canonical": "https://echobuddha.com/quotes/patience/family-kindness-and-patience/",
-    "words": 909,
+    "words": 915,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3490,7 +3490,7 @@
     "title": "Original Patience Reflection: Growth is quiet work, often... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Growth is quiet work, often invisible until the season changes.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
-    "words": 919,
+    "words": 925,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3502,9 +3502,9 @@
     "type": "quoteCategory",
     "noindex": false,
     "title": "Original Patience Quotes Inspired by Buddhist Practice | Echo Buddha",
-    "description": "Original Buddhist-inspired patience quotes for difficult moments, delays, personal growth, and calm responses.",
+    "description": "Original Buddhist-inspired patience quotes for anger, delays, difficult moments, Right Speech, and calm daily practice.",
     "canonical": "https://echobuddha.com/quotes/patience/",
-    "words": 570,
+    "words": 641,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -3518,7 +3518,7 @@
     "title": "Original Patience Reflection: Not every delay is an... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Not every delay is an obstacle; some are invitations to soften.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
-    "words": 944,
+    "words": 950,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3532,7 +3532,7 @@
     "title": "Original Patience Reflection: Patience is the strength to... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Patience is the strength to remain present while life takes its time.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
-    "words": 967,
+    "words": 973,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3546,7 +3546,7 @@
     "title": "Original Patience Reflection: Patience makes room for truth... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Patience makes room for truth to arrive without force.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
-    "words": 911,
+    "words": 917,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3560,7 +3560,7 @@
     "title": "Patience Buddhist Quote: Softening During Delay | Echo Buddha",
     "description": "A patience Buddhist quote about meeting waiting, delay, and uncertainty without adding extra pressure to the moment.",
     "canonical": "https://echobuddha.com/quotes/patience/patience-softens-the-wait/",
-    "words": 890,
+    "words": 896,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3574,7 +3574,7 @@
     "title": "Original Patience Reflection: Some answers become clear only... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Some answers become clear only after the mind stops chasing them.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
-    "words": 944,
+    "words": 950,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3588,7 +3588,7 @@
     "title": "Original Patience Reflection: Stay gentle with beginnings; they... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Stay gentle with beginnings; they are carrying more than they can show.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
-    "words": 941,
+    "words": 947,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3602,7 +3602,7 @@
     "title": "Original Patience Reflection: The path unfolds at the... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;The path unfolds at the pace of sincere practice, not restless comparison.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
-    "words": 966,
+    "words": 972,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3616,7 +3616,7 @@
     "title": "Original Patience Reflection: Wait long enough for the... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Wait long enough for the first reaction to become a wiser response.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
-    "words": 942,
+    "words": 948,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3630,7 +3630,7 @@
     "title": "Original Patience Reflection: When anger rises, pause long... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;When anger rises, pause long enough to see the pain beneath it.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
-    "words": 943,
+    "words": 949,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3728,7 +3728,7 @@
     "title": "Original Practice Quotes Inspired by Buddhist Practice | Echo Buddha",
     "description": "Original Buddhist practice quotes about daily effort, ethical choices, mindful action, and steady spiritual growth.",
     "canonical": "https://echobuddha.com/quotes/practice/",
-    "words": 592,
+    "words": 594,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -3868,7 +3868,7 @@
     "title": "Original Renewal Reflection: A mistake becomes a teacher... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;A mistake becomes a teacher when honesty enters the room.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
-    "words": 894,
+    "words": 898,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3882,7 +3882,7 @@
     "title": "Original Renewal Reflection: A new direction can start... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;A new direction can start with one different choice.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
-    "words": 875,
+    "words": 879,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3896,7 +3896,7 @@
     "title": "Original Renewal Reflection: Begin again gently; the breath... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Begin again gently; the breath is always willing.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
-    "words": 874,
+    "words": 878,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3910,7 +3910,7 @@
     "title": "Renewal Mindfulness Quote: Begin Again Without Shame | Echo Buddha",
     "description": "A renewal mindfulness quote about beginning again after mistakes without using shame as the fuel for growth.",
     "canonical": "https://echobuddha.com/quotes/renewal/begin-again-without-shame/",
-    "words": 849,
+    "words": 853,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3924,7 +3924,7 @@
     "title": "Original Renewal Reflection: Begin again without turning yesterday... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Begin again without turning yesterday into a sentence.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
-    "words": 865,
+    "words": 869,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3938,7 +3938,7 @@
     "title": "Original Renewal Reflection: Do not confuse an old... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Do not confuse an old pattern with an unchangeable nature.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
-    "words": 885,
+    "words": 889,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3952,7 +3952,7 @@
     "title": "Original Renewal Reflection: Each conscious breath is a... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Each conscious breath is a small vote for beginning again.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
-    "words": 884,
+    "words": 888,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3966,7 +3966,7 @@
     "title": "Evening Reflection Quote: Release the Day Gently | Echo Buddha",
     "description": "An evening reflection quote about releasing the day gently, learning from it, and resting without replaying every moment.",
     "canonical": "https://echobuddha.com/quotes/renewal/evening-release-reflection/",
-    "words": 873,
+    "words": 877,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3980,7 +3980,7 @@
     "title": "Buddhist Inspired Hope Quote: Gentle Hope | Echo Buddha",
     "description": "A Buddhist inspired hope quote about quiet hope that keeps walking without forcing life to change on command.",
     "canonical": "https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/",
-    "words": 858,
+    "words": 862,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3994,7 +3994,7 @@
     "title": "Original Renewal Reflection: Hope can be quiet and... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Hope can be quiet and still keep walking.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
-    "words": 860,
+    "words": 864,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -4008,7 +4008,7 @@
     "title": "Original Renewal Quotes Inspired by Buddhist Practice | Echo Buddha",
     "description": "Original renewal quotes about healing, hope, learning from mistakes, and beginning again with kindness.",
     "canonical": "https://echobuddha.com/quotes/renewal/",
-    "words": 564,
+    "words": 568,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -4022,7 +4022,7 @@
     "title": "Original Renewal Reflection: Morning is not the only... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Morning is not the only time a life can begin again.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
-    "words": 893,
+    "words": 897,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -4036,7 +4036,7 @@
     "title": "Peaceful Morning Quote: One Calm Intention | Echo Buddha",
     "description": "A peaceful morning quote about beginning the day with one calm intention instead of carrying every old worry forward.",
     "canonical": "https://echobuddha.com/quotes/renewal/one-calm-morning-intention/",
-    "words": 880,
+    "words": 884,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -4050,7 +4050,7 @@
     "title": "Original Renewal Reflection: Repair what you can, forgive... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Repair what you can, forgive what you cannot redo, and continue with care.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
-    "words": 942,
+    "words": 946,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -4064,7 +4064,7 @@
     "title": "Original Renewal Reflection: The path welcomes your return... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;The path welcomes your return more often than pride allows.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
-    "words": 883,
+    "words": 887,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -4078,7 +4078,7 @@
     "title": "Original Renewal Reflection: You are allowed to learn... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;You are allowed to learn slowly and still be changing.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
-    "words": 886,
+    "words": 890,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",

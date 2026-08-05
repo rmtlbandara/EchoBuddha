@@ -1864,9 +1864,9 @@ export const quoteCategoryDetails: Record<string, { slug: string; description: s
   },
   Patience: {
     slug: "patience",
-    description: "Original Buddhist-inspired patience quotes for difficult moments, delays, personal growth, and calm responses.",
+    description: "Original Buddhist-inspired patience quotes for anger, delays, difficult moments, Right Speech, and calm daily practice.",
     introduction:
-      "These patience quotes explore the quiet strength required to stay present while feelings, people, and circumstances take time to change."
+      "These patience quotes explore patience as quiet strength before reaction: the pause that can protect speech, soften anger, and keep care present while life takes time."
   },
   Awareness: {
     slug: "awareness",
@@ -1882,9 +1882,9 @@ export const quoteCategoryDetails: Record<string, { slug: string; description: s
   },
   "Letting Go": {
     slug: "letting-go",
-    description: "Original letting go quotes about non-attachment, releasing control, accepting change, and moving forward peacefully.",
+    description: "Original letting go quotes about non-attachment, impermanence, releasing control, caring without clinging, and moving forward peacefully.",
     introduction:
-      "These letting go quotes consider how to loosen the grip of control without becoming indifferent to people, responsibilities, or meaningful work."
+      "These letting go quotes consider how to loosen control without giving up on care, responsibility, or wise action."
   },
   Meditation: {
     slug: "meditation",
@@ -2979,8 +2979,8 @@ export const articles: Article[] = [
   {
     slug: "dhammapada-reflection-what-we-think",
     title: "Dhammapada Reflection: What We Think, We Become",
-    seoTitle: "Dhammapada Reflection on Thought, Intention, and Mind",
-    description: "An original reflection inspired by broad Dhammapada themes on thought, intention, karma, and the shaping of the mind.",
+    seoTitle: "Dhammapada What We Think: Translation, Paraphrase, Reflection",
+    description: "A careful Dhammapada reflection on the popular “what we think, we become” wording, distinguishing paraphrase, translation, source context, and Echo Buddha reflection.",
     date: "2026-07-01",
     author: SITE.author,
     category: "Reflection",
@@ -2988,13 +2988,21 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/dhammapada-reflection-what-we-think.webp",
     imageAlt: "Quiet mind ripple and lotus illustration inspired by Dhammapada reflections on thought",
     featured: true,
-    tags: ["Dhammapada reflection", "Buddhist quotes", "mind training"],
-    relatedSlugs: ["dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism", "buddhist-wisdom-for-overthinking"],
+    tags: ["Dhammapada reflection", "Buddhist quotes", "mind training", "Buddha quote attribution"],
+    relatedSlugs: ["dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism", "right-speech-buddhism"],
     content: [
       {
         paragraphs: [
-          "Many readers meet the Dhammapada through short verses about the mind. A common theme is that experience is deeply shaped by thought, intention, and the qualities we cultivate. This article offers an original reflection inspired by those broad themes. It is not a verified translation of any verse.",
+          "Many readers search for the phrase “what we think, we become” and connect it with the Dhammapada. Echo Buddha treats that wording carefully: it is a popular paraphrase of broad Dhammapada mind-training themes, not a verified exact translation presented by this article.",
+          "This page is an original Echo Buddha reflection. It explains the meaning people are often seeking, points to Dhammapada source-study pages, and keeps translation, paraphrase, and reflection separate.",
           "The idea that thought shapes life can be misunderstood. Buddhism does not say that every painful event is caused by one private thought. It points more carefully to the way repeated intentions, reactions, and habits condition how we experience and respond to the world."
+        ]
+      },
+      {
+        heading: "Translation, Paraphrase, and Reflection",
+        paragraphs: [
+          "A translation tries to render a source text into another language. A paraphrase restates an idea in fresh wording. A reflection uses a traditional theme as a doorway into practice. This article is the third kind: original reflection with source context.",
+          "For a closer source-study path, visit <a href=\"/learn/dhammapada-reflections/the-mind-leads-all-things/\">The Mind Leads All Things</a> and the <a href=\"/learn/dhammapada-reflections/\">Dhammapada Reflections hub</a>. Those pages also avoid presenting Echo Buddha wording as scripture."
         ]
       },
       {
@@ -3043,7 +3051,7 @@ export const articles: Article[] = [
         heading: "Original Reflection and Source Note",
         paragraphs: [
           "Original reflection: A thought is a seed, but attention is the soil. What we water repeatedly begins to shape the path beneath our feet.",
-          "Source note: This article reflects broad Dhammapada themes about mind, intention, heedfulness, and consequence. It is an original educational reflection, not a quoted or verified translation."
+          "Source note: This article reflects broad Dhammapada themes about mind, intention, heedfulness, and consequence. It is original educational writing, not a quoted verse, exact canonical translation, or claim that the popular wording has one settled English form."
         ]
       }
     ]
@@ -4550,8 +4558,8 @@ export const articles: Article[] = [
   {
     slug: "right-speech-buddhism",
     title: "Right Speech in Buddhism: How to Speak with Kindness and Awareness",
-    seoTitle: "Right Speech in Buddhism: Speak with Kindness",
-    description: "A practical guide to Right Speech in Buddhism, including mindful communication, honesty, kindness, silence, listening, and daily examples.",
+    seoTitle: "Right Speech in Buddhism: Meaning, Examples, and Practice",
+    description: "Understand Right Speech in Buddhism quickly, with examples for honesty, kindness, useful timing, silence, listening, anger, and the Five Precepts.",
     date: "2026-06-26",
     author: SITE.author,
     category: "Practice",
@@ -4562,14 +4570,16 @@ export const articles: Article[] = [
     tags: ["right speech buddhism", "mindful communication", "Buddhist ethics", "kind speech", "listening"],
     relatedSlugs: [
       "eightfold-path-explained",
+      "five-precepts-in-daily-life",
       "mindful-listening-in-everyday-life",
       "buddhist-approach-to-anger"
     ],
     content: [
       {
         paragraphs: [
-          "Right Speech in Buddhism is the practice of using words with honesty, kindness, usefulness, and awareness. It is one part of the Noble Eightfold Path, but it is also one of the easiest teachings to test in daily life. A single sentence can create trust, confusion, healing, or harm.",
-          "The practice is not about becoming perfectly soft-spoken or avoiding difficult conversations. Sometimes the kindest words are clear and firm. Right Speech asks us to notice intention before speaking and to choose words that reduce unnecessary suffering."
+          "Right Speech in Buddhism means training speech so it is truthful, timely, useful, and guided by non-harming. It is one factor of the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path</a> and closely connected with the <a href=\"/learn/buddhism-101/five-precepts-buddhism/\">Five Precepts</a>.",
+          "The practice is not about becoming perfectly soft-spoken or avoiding difficult conversations. Sometimes the kindest words are clear and firm. Right Speech asks us to notice intention before speaking and to choose words that reduce unnecessary suffering.",
+          "A quick daily test is simple: before speaking or sending a message, ask whether the words are true, kind in intention, useful for this moment, and timed well enough to help."
         ]
       },
       {
@@ -4618,7 +4628,7 @@ export const articles: Article[] = [
       {
         heading: "How to Practice This in Daily Life",
         paragraphs: [
-          "Choose one communication habit for a week. You might stop exaggerating when upset, avoid gossip at work, pause before replying to criticism, or ask one clarifying question before disagreeing. Keep the practice small enough to remember.",
+          "Choose one communication habit for a week. You might stop exaggerating when upset, avoid gossip at work, pause before replying to criticism, or ask one clarifying question before disagreeing. Keep the practice small enough to remember. This is also a practical way to train the fourth precept around truthful and careful speech.",
           "Before a difficult conversation, write your intention in one sentence: “I want to understand,” “I need to set a boundary,” or “I want to repair trust.” This keeps speech connected to purpose. If compassion feels difficult, the <a href=\"/articles/loving-kindness-meditation-beginners/\">Loving-Kindness Meditation</a> article can support a warmer inner tone."
         ]
       },
@@ -4811,13 +4821,14 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/three-poisons-buddhism-explained.svg",
     imageAlt: "Three intertwined roots labeled greed, aversion, and delusion beneath a clearing leaf",
     tags: ["three poisons", "Buddhist wisdom", "greed", "aversion", "delusion"],
-    relatedSlugs: ["what-is-karma-in-buddhism", "buddhist-approach-to-anger", "how-to-let-go-of-attachment-in-buddhism"],
+    relatedSlugs: ["what-is-karma-in-buddhism", "five-precepts-in-daily-life", "buddhist-approach-to-anger", "how-to-let-go-of-attachment-in-buddhism"],
     content: [
       {
         paragraphs: [
           "The three poisons in Buddhism are greed, hatred or aversion, and delusion. In Pali they are often discussed as lobha, dosa, and moha. They are called poisons because they affect the mind before action becomes visible. A sentence, purchase, accusation, apology, silence, or decision may look ordinary from the outside, yet its inner root can bend it toward harm or toward freedom from harm.",
           "A useful beginner image is not three separate monsters, but three movements of mind. Greed grabs. Aversion pushes away. Delusion mis-sees. Sometimes one dominates; often they cooperate. A person wants control, resents an obstacle, and then tells a story that makes the whole reaction seem justified. The teaching is not meant to make ordinary emotion shameful. It helps reveal what is feeding unskillful speech and action before those habits harden.",
-          "The teaching also keeps the word poison from becoming too narrow. Greed is not only wanting money. Aversion is not only shouting. Delusion is not only holding an odd belief. They can appear in refined forms: wanting to be admired as spiritual, quietly enjoying someone else's embarrassment, or mistaking one's preferred explanation for reality itself."
+          "The teaching also keeps the word poison from becoming too narrow. Greed is not only wanting money. Aversion is not only shouting. Delusion is not only holding an odd belief. They can appear in refined forms: wanting to be admired as spiritual, quietly enjoying someone else's embarrassment, or mistaking one's preferred explanation for reality itself.",
+          "This page is the current broad Three Poisons explainer on Echo Buddha. For the daily ethics side of the same training, continue to <a href=\"/articles/five-precepts-in-daily-life/\">the Five Precepts in daily life</a>."
         ]
       },
       {
@@ -4957,11 +4968,12 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/five-precepts-in-daily-life.svg",
     imageAlt: "Five small markers forming a protective path through leaves and open space",
     tags: ["Five Precepts", "Buddhist ethics", "sila", "daily practice"],
-    relatedSlugs: ["right-speech-buddhism", "what-is-karma-in-buddhism", "noble-eightfold-path-practical-guide"],
+    relatedSlugs: ["right-speech-buddhism", "three-poisons-buddhism-explained", "what-is-karma-in-buddhism", "noble-eightfold-path-practical-guide"],
     content: [
       {
         paragraphs: [
-          "The Five Precepts are basic training commitments for many lay Buddhists. They are not divine commandments handed down as a test of superiority. They are voluntary disciplines that help a person reduce harm, protect trust, and become more heedful in ordinary life.",
+          "The Five Precepts are basic training commitments for many lay Buddhists: avoid taking life, taking what is not given, sexual misconduct, false or harmful speech, and intoxicants that lead to carelessness. This article focuses on daily-life application; the concise Learn definition is <a href=\"/learn/buddhism-101/five-precepts-buddhism/\">Five Precepts Buddhism</a>.",
+          "They are not divine commandments handed down as a test of superiority. They are voluntary disciplines that help a person reduce harm, protect trust, and become more heedful in ordinary life.",
           "A beginner may first meet the precepts as a list: refrain from taking life, taking what is not given, sexual misconduct, false or harmful speech, and intoxicants that lead to carelessness. The list matters, but the deeper question is what each precept protects. Buddhist ethics is not only about avoiding blame. It is about training the conditions from which wiser action can grow.",
           "The precepts also show that Buddhist practice is embodied. A person may understand a teaching, quote a sutta, or enjoy meditation, yet still need training around speech, desire, anger, money, and carelessness. The precepts bring practice into kitchens, offices, relationships, checkout lines, group chats, and moments when no one seems to be watching."
         ]
@@ -4977,7 +4989,7 @@ export const articles: Article[] = [
         heading: "Ethics as Training, Not Superiority",
         paragraphs: [
           "The word training is important. A training rule is not a weapon for looking down on others. It is a commitment that reveals where the mind becomes careless. If someone breaks a precept, Buddhist practice does not need to turn the mistake into a permanent identity. The useful question is what conditions led there, who may have been harmed, and what repair or renewed restraint is possible.",
-          "This approach connects with <a href=\"/articles/what-is-karma-in-buddhism/\">karma in Buddhism</a>, because intention and action shape consequences. It also connects with the <a href=\"/articles/noble-eightfold-path-practical-guide/\">Noble Eightfold Path</a>, especially Right Speech, Right Action, and Right Livelihood. Still, the Five Precepts deserve their own attention because they give lay practitioners a concrete ethical foundation.",
+          "This approach connects with <a href=\"/articles/what-is-karma-in-buddhism/\">karma in Buddhism</a>, because intention and action shape consequences. It also connects with the <a href=\"/articles/noble-eightfold-path-practical-guide/\">Noble Eightfold Path</a>, especially Right Speech, Right Action, and Right Livelihood. The <a href=\"/articles/three-poisons-buddhism-explained/\">Three Poisons</a> explain the mental roots that make ethical training necessary.",
           "Training also means repetition. A person does not become truthful by admiring truth once. They become more truthful through repeated restraint when lying would be convenient, repeated confession when honesty is costly, and repeated attention to the small distortions that prepare larger ones. The same pattern applies to non-harming, respect for property, sexual responsibility, and heedfulness."
         ]
       },
@@ -5147,7 +5159,8 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Sangha is one of the most important words a Buddhist beginner will meet, and also one of the easiest to flatten. Traditionally, Sangha can refer especially to the monastic community. In many modern settings, people also use sangha to mean a local or online Buddhist practice community. Those uses are related, but they should not be casually treated as identical.",
+          "Sangha is one of the most important words a Buddhist beginner will meet, and also one of the easiest to flatten. This article is the deeper beginner guide to Buddhist community; the concise definition lives at <a href=\"/learn/buddhist-dictionary/sangha/\">Sangha meaning</a> in the Buddhist Dictionary.",
+          "Traditionally, Sangha can refer especially to the monastic community. In many modern settings, people also use sangha to mean a local or online Buddhist practice community. Those uses are related, but they should not be casually treated as identical.",
           "Community matters because Buddhist practice is not only private self-improvement. Teachings are received, preserved, questioned, embodied, and corrected through people. A reader learning alone can still begin sincerely, but wise companionship gives practice a different kind of support.",
           "This is not a criticism of private practice. Many people begin because a book, podcast, article, or quiet meditation at home is the only available doorway. The point is that Buddhism has never been merely an idea floating without human carriers. It is practiced in relationships, lineages, rituals, ethical commitments, and shared responsibilities."
         ]
@@ -5165,7 +5178,7 @@ export const articles: Article[] = [
         paragraphs: [
           "The monastic Sangha has a special traditional role in preserving teachings, practicing discipline, offering instruction, and providing a visible field of commitment. Lay communities support monastics, learn from them, and participate in generosity, ethics, ritual, and study in different ways across Buddhist cultures.",
           "Modern English often uses sangha more broadly for a meditation group, temple community, retreat community, or online Buddhist circle. That broader use can be warm and useful, but it should not erase the distinct place of the monastic Sangha in many traditions. Respectful language keeps both meanings visible.",
-          "A beginner can simply be clear: 'This is my meditation group' or 'this temple community is my sangha in the broad modern sense.' Such phrasing avoids pretending that every informal group has the same role, discipline, or authority as the monastic Sangha. Precision can be an act of respect."
+          "A beginner can simply be clear: 'This is my meditation group' or 'this temple community is my sangha in the broad modern sense.' Such phrasing avoids pretending that every informal group has the same role, discipline, or authority as the monastic Sangha. Precision can be an act of respect. For the refuge context, see <a href=\"/learn/buddhism-101/the-three-jewels-explained/\">the Three Jewels</a>."
         ]
       },
       {

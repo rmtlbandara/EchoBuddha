@@ -1,0 +1,466 @@
+{
+  "generatedAt": "2026-08-05T07:40:31.493Z",
+  "dateRange": {
+    "from": "2026-06-24",
+    "to": "2026-08-02",
+    "filter": [
+      {
+        "Filter": "Search type",
+        "Value": "Web"
+      },
+      {
+        "Filter": "Date",
+        "Value": "Last 3 months"
+      }
+    ]
+  },
+  "totals": {
+    "clicks": 15,
+    "impressions": 934,
+    "ctr": "1.61%",
+    "position": "46.29"
+  },
+  "devices": [
+    {
+      "Device": "Mobile",
+      "Clicks": "12",
+      "Impressions": "94",
+      "CTR": "12.77%",
+      "Position": "17.44"
+    },
+    {
+      "Device": "Desktop",
+      "Clicks": "3",
+      "Impressions": "840",
+      "CTR": "0.36%",
+      "Position": "49.52"
+    }
+  ],
+  "countriesTop10": [
+    {
+      "Country": "India",
+      "Clicks": "11",
+      "Impressions": "38",
+      "CTR": "28.95%",
+      "Position": "25.29"
+    },
+    {
+      "Country": "United States",
+      "Clicks": "1",
+      "Impressions": "339",
+      "CTR": "0.29%",
+      "Position": "47.52"
+    },
+    {
+      "Country": "Sri Lanka",
+      "Clicks": "1",
+      "Impressions": "32",
+      "CTR": "3.12%",
+      "Position": "4.62"
+    },
+    {
+      "Country": "Thailand",
+      "Clicks": "1",
+      "Impressions": "14",
+      "CTR": "7.14%",
+      "Position": "26"
+    },
+    {
+      "Country": "Hungary",
+      "Clicks": "1",
+      "Impressions": "1",
+      "CTR": "100%",
+      "Position": "4"
+    },
+    {
+      "Country": "United Kingdom",
+      "Clicks": "0",
+      "Impressions": "176",
+      "CTR": "0%",
+      "Position": "56.82"
+    },
+    {
+      "Country": "Canada",
+      "Clicks": "0",
+      "Impressions": "79",
+      "CTR": "0%",
+      "Position": "69.9"
+    },
+    {
+      "Country": "Australia",
+      "Clicks": "0",
+      "Impressions": "42",
+      "CTR": "0%",
+      "Position": "51.4"
+    },
+    {
+      "Country": "Vietnam",
+      "Clicks": "0",
+      "Impressions": "38",
+      "CTR": "0%",
+      "Position": "31.47"
+    },
+    {
+      "Country": "New Zealand",
+      "Clicks": "0",
+      "Impressions": "19",
+      "CTR": "0%",
+      "Position": "43.42"
+    }
+  ],
+  "topPages": [
+    {
+      "Top pages": "https://echobuddha.com/",
+      "Clicks": "12",
+      "Impressions": "53",
+      "CTR": "22.64%",
+      "Position": "3.68"
+    },
+    {
+      "Top pages": "https://echobuddha.com/quotes/letting-go/",
+      "Clicks": "1",
+      "Impressions": "73",
+      "CTR": "1.37%",
+      "Position": "31.53"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "Clicks": "1",
+      "Impressions": "61",
+      "CTR": "1.64%",
+      "Position": "54.89"
+    },
+    {
+      "Top pages": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "Clicks": "1",
+      "Impressions": "1",
+      "CTR": "100%",
+      "Position": "94"
+    },
+    {
+      "Top pages": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "Clicks": "0",
+      "Impressions": "108",
+      "CTR": "0%",
+      "Position": "55.33"
+    },
+    {
+      "Top pages": "https://echobuddha.com/quotes/patience/",
+      "Clicks": "0",
+      "Impressions": "85",
+      "CTR": "0%",
+      "Position": "34.28"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "Clicks": "0",
+      "Impressions": "72",
+      "CTR": "0%",
+      "Position": "40.89"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "Clicks": "0",
+      "Impressions": "72",
+      "CTR": "0%",
+      "Position": "80.88"
+    },
+    {
+      "Top pages": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "Clicks": "0",
+      "Impressions": "70",
+      "CTR": "0%",
+      "Position": "46.13"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "Clicks": "0",
+      "Impressions": "60",
+      "CTR": "0%",
+      "Position": "72.93"
+    },
+    {
+      "Top pages": "https://echobuddha.com/quotes/compassion/",
+      "Clicks": "0",
+      "Impressions": "46",
+      "CTR": "0%",
+      "Position": "48.26"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "Clicks": "0",
+      "Impressions": "22",
+      "CTR": "0%",
+      "Position": "49.32"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "Clicks": "0",
+      "Impressions": "17",
+      "CTR": "0%",
+      "Position": "8.35"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "Clicks": "0",
+      "Impressions": "17",
+      "CTR": "0%",
+      "Position": "10.18"
+    },
+    {
+      "Top pages": "https://echobuddha.com/quotes/",
+      "Clicks": "0",
+      "Impressions": "14",
+      "CTR": "0%",
+      "Position": "4.21"
+    },
+    {
+      "Top pages": "https://echobuddha.com/quotes/awareness/",
+      "Clicks": "0",
+      "Impressions": "14",
+      "CTR": "0%",
+      "Position": "33.14"
+    },
+    {
+      "Top pages": "https://echobuddha.com/quotes/mindfulness/",
+      "Clicks": "0",
+      "Impressions": "12",
+      "CTR": "0%",
+      "Position": "31.42"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/",
+      "Clicks": "0",
+      "Impressions": "11",
+      "CTR": "0%",
+      "Position": "3.73"
+    },
+    {
+      "Top pages": "https://echobuddha.com/about/",
+      "Clicks": "0",
+      "Impressions": "11",
+      "CTR": "0%",
+      "Position": "10.64"
+    },
+    {
+      "Top pages": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "Clicks": "0",
+      "Impressions": "11",
+      "CTR": "0%",
+      "Position": "24.73"
+    }
+  ],
+  "topQueries": [
+    {
+      "Top queries": "buddhism letting go quotes",
+      "Clicks": "1",
+      "Impressions": "6",
+      "CTR": "16.67%",
+      "Position": "19"
+    },
+    {
+      "Top queries": "buddhism for beginners",
+      "Clicks": "0",
+      "Impressions": "34",
+      "CTR": "0%",
+      "Position": "52.94"
+    },
+    {
+      "Top queries": "dhamma",
+      "Clicks": "0",
+      "Impressions": "19",
+      "CTR": "0%",
+      "Position": "39.53"
+    },
+    {
+      "Top queries": "sangha",
+      "Clicks": "0",
+      "Impressions": "19",
+      "CTR": "0%",
+      "Position": "81.63"
+    },
+    {
+      "Top queries": "dhamma buddhism",
+      "Clicks": "0",
+      "Impressions": "17",
+      "CTR": "0%",
+      "Position": "55.65"
+    },
+    {
+      "Top queries": "\"what we think, we become\" dhammapada translation",
+      "Clicks": "0",
+      "Impressions": "8",
+      "CTR": "0%",
+      "Position": "7.75"
+    },
+    {
+      "Top queries": "what is the dhamma in buddhism",
+      "Clicks": "0",
+      "Impressions": "8",
+      "CTR": "0%",
+      "Position": "70.38"
+    },
+    {
+      "Top queries": "buddha quotes patience",
+      "Clicks": "0",
+      "Impressions": "6",
+      "CTR": "0%",
+      "Position": "30.17"
+    },
+    {
+      "Top queries": "dhamma meaning",
+      "Clicks": "0",
+      "Impressions": "6",
+      "CTR": "0%",
+      "Position": "62.5"
+    },
+    {
+      "Top queries": "sangha meaning",
+      "Clicks": "0",
+      "Impressions": "6",
+      "CTR": "0%",
+      "Position": "74"
+    },
+    {
+      "Top queries": "buddha patience",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "45.8"
+    },
+    {
+      "Top queries": "buddha quotes compassion",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "56.8"
+    },
+    {
+      "Top queries": "compassion buddhism",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "60"
+    },
+    {
+      "Top queries": "what is the dhamma",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "60"
+    },
+    {
+      "Top queries": "meaning of dhamma in buddhism",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "71.2"
+    },
+    {
+      "Top queries": "what is dhamma",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "71.4"
+    },
+    {
+      "Top queries": "what is the sangha",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "78.6"
+    },
+    {
+      "Top queries": "right speech",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "79.6"
+    },
+    {
+      "Top queries": "what is sangha in buddhism",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "86.6"
+    },
+    {
+      "Top queries": "five precepts",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "88.4"
+    },
+    {
+      "Top queries": "what do buddhists believe about karma",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "88.8"
+    },
+    {
+      "Top queries": "patience quotes buddha",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "24.25"
+    },
+    {
+      "Top queries": "buddhist sayings about letting go",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "26"
+    },
+    {
+      "Top queries": "buddha quotes on patience",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "26.75"
+    },
+    {
+      "Top queries": "buddha quotes letting go",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "34.25"
+    },
+    {
+      "Top queries": "let go quotes buddha",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "40.25"
+    },
+    {
+      "Top queries": "buddha quotes on letting go",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "43.5"
+    },
+    {
+      "Top queries": "beginners buddhism",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "46.5"
+    },
+    {
+      "Top queries": "buddhist patience",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "47.5"
+    },
+    {
+      "Top queries": "compassion quotes buddha",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "48.5"
+    }
+  ],
+  "searchAppearanceRows": 0
+}

@@ -1,0 +1,11 @@
+Command: npm run typecheck
+Started: 2026-08-05T08:02:04Z
+
+
+> echo-buddha@1.0.0 typecheck
+> astro sync && tsc --noEmit
+
+13:32:05 [types] Generated 65ms
+
+Finished: 2026-08-05T08:02:07Z
+Exit code: 0

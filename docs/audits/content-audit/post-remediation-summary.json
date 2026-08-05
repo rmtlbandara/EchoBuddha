@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T04:42:25.809Z",
+  "generatedAt": "2026-08-05T08:23:39.816Z",
   "repositorySafeRemediationDate": "2026-07-21",
   "targetedRemediationPhaseDate": "2026-07-21",
   "totalHtmlPages": 312,
@@ -13,8 +13,8 @@
   "learningPages": 37,
   "meditationPages": 6,
   "decisionCounts": {
-    "Pass": 166,
-    "Minor improvement": 145
+    "Pass": 167,
+    "Minor improvement": 144
   },
   "quoteOriginPendingItems": 0,
   "sourceVerificationItems": 0,
@@ -23,8 +23,8 @@
   "dailyReflectionReviewItems": 31,
   "dailyReflectionIndexabilityChanges": 0,
   "expertReviewItems": 0,
-  "similarityPairs": 825,
-  "highSimilarityPairs": 654,
+  "similarityPairs": 828,
+  "highSimilarityPairs": 657,
   "unresolvedSimilarityPairs": 0,
   "unresolvedHighSimilarityPairs": 0,
   "internalLinkOpportunities": 0,

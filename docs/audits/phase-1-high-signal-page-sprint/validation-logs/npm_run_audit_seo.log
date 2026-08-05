@@ -1,0 +1,11 @@
+Command: npm run audit:seo
+Started: 2026-08-05T08:02:09Z
+
+
+> echo-buddha@1.0.0 audit:seo
+> node scripts/audit-seo.mjs
+
+SEO audit passed.
+
+Finished: 2026-08-05T08:02:09Z
+Exit code: 0

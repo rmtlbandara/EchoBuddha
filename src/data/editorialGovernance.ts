@@ -324,6 +324,70 @@ export const topicRoleMap: TopicRole[] = [
     reviewStatus: "external-review-pending"
   },
   {
+    cluster: "Dhamma / Dharma",
+    href: "/learn/buddhist-dictionary/dhamma/",
+    role: "dictionary definition",
+    primary: true,
+    publicSummary: "Use this dictionary page as the current broad Dhamma meaning owner until a broader Learn route is deliberately approved.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Sangha / Buddhist Community",
+    href: "/articles/what-is-sangha-buddhist-community/",
+    role: "cornerstone guide",
+    primary: true,
+    publicSummary: "Use this article as the deeper beginner guide to Buddhist community and wise companionship.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Sangha / Buddhist Community",
+    href: "/learn/buddhist-dictionary/sangha/",
+    role: "dictionary definition",
+    primary: false,
+    publicSummary: "Use this dictionary page for the concise Sangha definition; continue to the article for fuller community guidance.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Dhammapada Attribution",
+    href: "/articles/dhammapada-reflection-what-we-think/",
+    role: "source-study page",
+    primary: false,
+    publicSummary: "Use this article for careful explanation of popular Dhammapada wording without claiming an exact translation.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Dhammapada Attribution",
+    href: "/learn/dhammapada-reflections/",
+    role: "topic hub",
+    primary: true,
+    publicSummary: "Use this hub as the source-aware pathway for Dhammapada-inspired reflections.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Buddhist Ethics / Five Precepts",
+    href: "/learn/buddhism-101/five-precepts-buddhism/",
+    role: "learning reference",
+    primary: true,
+    publicSummary: "Use this learning page as the concise Five Precepts definition route.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Buddhist Ethics / Five Precepts",
+    href: "/articles/five-precepts-in-daily-life/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article for daily-life application of the Five Precepts.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Three Poisons",
+    href: "/articles/three-poisons-buddhism-explained/",
+    role: "cornerstone guide",
+    primary: true,
+    publicSummary: "Use this article as the current broad Three Poisons explainer until a dedicated Learn route is approved.",
+    reviewStatus: "external-review-pending"
+  },
+  {
     cluster: "Right Livelihood",
     href: "/learn/buddhism-101/right-livelihood-buddhism/",
     role: "learning reference",
@@ -633,6 +697,18 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Right Speech overview",
       href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
       note: "Reference for right speech criteria in the path."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the Noble Eightfold Path context that includes Right Speech."
+    }
+  ],
+  "/articles/dhammapada-reflection-what-we-think/": [
+    {
+      label: "Access to Insight: Dhammapada I",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional Dhammapada chapter source for mind-leading themes; article wording remains original reflection."
     }
   ],
   "/articles/buddhist-approach-to-anger/": [
@@ -654,6 +730,32 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Kalama Sutta",
       href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
       note: "Reference for intention, action, and observable consequences."
+    }
+  ],
+  "/articles/three-poisons-buddhism-explained/": [
+    {
+      label: "Access to Insight: Mula Sutta (AN 3.69)",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.069.than.html",
+      note: "Source for greed, aversion, and delusion as unskillful roots and their skillful counterparts."
+    }
+  ],
+  "/articles/five-precepts-in-daily-life/": [
+    {
+      label: "Access to Insight: The Five Precepts",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html",
+      note: "Reference for the lay training precepts and their non-harming context."
+    }
+  ],
+  "/articles/what-is-sangha-buddhist-community/": [
+    {
+      label: "Dhammatalks: SN 45.2",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_2.html",
+      note: "Source for admirable friendship, companionship, and collegiality as support for the path."
+    },
+    {
+      label: "Access to Insight: Dhammapada XIV",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "Traditional reference for refuge in Buddha, Dhamma, and Sangha."
     }
   ]
 };
