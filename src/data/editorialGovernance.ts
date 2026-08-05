@@ -466,6 +466,110 @@ export const topicRoleMap: TopicRole[] = [
     primary: false,
     publicSummary: "Use this as a no-change recurring-user utility page; archive pages remain permanent homes.",
     reviewStatus: "repository-reviewed"
+  },
+  {
+    cluster: "Phase 5 Buddhist Foundations",
+    href: "/learn/buddhism-101/middle-way-explained-for-beginners/",
+    role: "learning reference",
+    primary: false,
+    publicSummary: "Use this page as Middle Way foundation support; Buddhism for Beginners remains the broad beginner owner.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Buddhist Foundations",
+    href: "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+    role: "learning reference",
+    primary: false,
+    publicSummary: "Use this page to explain ethical conduct, mental cultivation, and wisdom as support for the Eightfold Path.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Buddhist Foundations",
+    href: "/learn/buddhism-101/five-hindrances-in-buddhism/",
+    role: "learning reference",
+    primary: false,
+    publicSummary: "Use this page as the doctrinal practice-obstacle overview; meditation difficulty pages remain practical support.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Buddhist Foundations",
+    href: "/learn/buddhism-101/four-brahmaviharas/",
+    role: "learning reference",
+    primary: false,
+    publicSummary: "Use this page as the four-quality overview; compassion and metta pages keep their existing owner roles.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Source Study",
+    href: "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+    role: "source-study page",
+    primary: false,
+    publicSummary: "Use this page for source context around the first teaching; the Four Noble Truths hub remains the broad owner.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Source Study",
+    href: "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+    role: "source-study page",
+    primary: false,
+    publicSummary: "Use this page for source context around the Eightfold Path; the Eightfold Path hub remains the broad owner.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Source Study",
+    href: "/learn/buddhist-dictionary/sutta/",
+    role: "dictionary definition",
+    primary: false,
+    publicSummary: "Use this dictionary page to define sutta before source-study reading.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Source Study",
+    href: "/learn/buddhist-dictionary/pali-canon/",
+    role: "dictionary definition",
+    primary: false,
+    publicSummary: "Use this dictionary page to explain Pali Canon context without claiming tradition-wide authority.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Meditation Practice",
+    href: "/meditation/10-minute-meditation-practice/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this page as a duration-specific support page; the Meditation hub remains the broad practice owner.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Meditation Practice",
+    href: "/meditation/meditation-posture-for-beginners/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this page as posture-specific support with accessibility and safety caveats.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Meditation Practice",
+    href: "/meditation/when-meditation-feels-hard/",
+    role: "meditation instruction",
+    primary: false,
+    publicSummary: "Use this page as practical support for difficult sessions; it keeps stop, ground, adapt, and seek-support language visible.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Mindful Communication and Boundaries",
+    href: "/articles/mindful-email-and-texting/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article as digital-message support for Right Speech, not a generic productivity page.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Phase 5 Mindful Communication and Boundaries",
+    href: "/articles/compassion-with-boundaries/",
+    role: "supporting article",
+    primary: false,
+    publicSummary: "Use this article for the boundaries angle; the compassion dictionary page remains the concept owner.",
+    reviewStatus: "external-review-pending"
   }
 ];
 
@@ -789,11 +893,35 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Traditional source for goodwill practice."
     }
   ],
+  "/articles/compassion-with-boundaries/": [
+    {
+      label: "Access to Insight: Karaniya Metta Sutta",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for goodwill and non-harming care; page wording remains original."
+    },
+    {
+      label: "Buddhist Sources and Citations",
+      href: `${SITE.url}/buddhist-sources-and-citations/`,
+      note: "Echo Buddha source and paraphrase standards for Buddhist teaching pages."
+    }
+  ],
   "/articles/right-speech-buddhism/": [
     {
       label: "Access to Insight: Right Speech overview",
       href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
       note: "Reference for right speech criteria in the path."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the Noble Eightfold Path context that includes Right Speech."
+    }
+  ],
+  "/articles/mindful-email-and-texting/": [
+    {
+      label: "Access to Insight: Right Speech overview",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
+      note: "Reference for right speech criteria applied here to digital communication."
     },
     {
       label: "Dhammatalks: SN 45.8",

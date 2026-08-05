@@ -341,6 +341,53 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       note: "Traditional source for patience as a valued discipline."
     }
   ],
+  "buddhism-101/middle-way-explained-for-beginners": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Traditional source context for the Middle Way and the Buddha's first teaching."
+    }
+  ],
+  "buddhism-101/threefold-training-sila-samadhi-panna": [
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Early-discourse source for the Eightfold Path factors, which are often grouped as wisdom, ethical conduct, and mental cultivation."
+    }
+  ],
+  "buddhism-101/five-hindrances-in-buddhism": [
+    {
+      label: "The Five Mental Hindrances",
+      href: "https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel026.html",
+      note: "A traditional Buddhist study essay on the hindrances and their role in practice."
+    }
+  ],
+  "buddhism-101/four-brahmaviharas": [
+    {
+      label: "The Four Sublime States",
+      href: "https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel006.html",
+      note: "A traditional Buddhist study essay on loving-kindness, compassion, appreciative joy, and equanimity."
+    },
+    {
+      label: "Karaniya Metta Sutta (Sn 1.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      note: "Traditional source for mettā/goodwill practice."
+    }
+  ],
+  "sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths": [
+    {
+      label: "Dhammacakkappavattana Sutta (SN 56.11)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      note: "Traditional source for the Four Noble Truths and Middle Way context."
+    }
+  ],
+  "sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path": [
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Traditional source that analyzes the factors of the Noble Eightfold Path."
+    }
+  ],
   "meditation/meditation-for-beginners": [
     {
       label: "Anapanasati Sutta (MN 118)",
@@ -381,6 +428,27 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Anapanasati Sutta (MN 118)",
       href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
       note: "Classical background for breath attention; this page adapts it into a short practice."
+    }
+  ],
+  "meditation/10-minute-meditation-practice": [
+    {
+      label: "Anapanasati Sutta (MN 118)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Classical background for breath attention; this page adapts it into a short beginner practice."
+    }
+  ],
+  "meditation/meditation-posture-for-beginners": [
+    {
+      label: "Maha-satipatthana Sutta (DN 22)",
+      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      note: "Includes mindfulness of bodily postures as part of practice context."
+    }
+  ],
+  "meditation/when-meditation-feels-hard": [
+    {
+      label: "Anapanasati Sutta (MN 118)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      note: "Classical background for returning to breathing with patience and continuity."
     }
   ]
 };
@@ -1606,6 +1674,186 @@ export const buddhism101Pages: LearningPage[] = [
     sourceNote:
       "Source note: This page is original Echo Buddha guidance for a simple daily Buddhist practice, written for general education and reflection rather than formal religious instruction.",
     terms: ["Practice", "Sati", "Metta"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "middle-way-explained-for-beginners",
+    title: "The Middle Way Explained for Beginners",
+    seoTitle: "The Middle Way in Buddhism Explained for Beginners",
+    description:
+      "Learn the Middle Way in Buddhism as a practical path between harsh self-denial and careless indulgence.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Middle Way is the Buddha's practical path of avoiding extremes and training wisdom, ethics, and meditation in ordinary life.",
+    sections: [
+      {
+        heading: "A Path Between Extremes",
+        paragraphs: [
+          "For beginners, the Middle Way means that Buddhist practice is not about punishing the body or chasing every comfort. It asks for a wiser relationship with desire, discipline, pleasure, effort, and care.",
+          "In the traditional first-teaching context, the Buddha points away from two unhelpful extremes: indulgence that feeds craving and harsh self-mortification that damages clarity. The path is neither laziness nor violence toward oneself."
+        ]
+      },
+      {
+        heading: "How It Works in Daily Life",
+        paragraphs: [
+          "A Middle Way response might look like resting without escaping responsibility, working without making achievement into identity, eating with gratitude instead of guilt, or practicing meditation without demanding a special state.",
+          "This keeps practice human. The Middle Way can guide a difficult email, a purchase, a family duty, a meditation session, or a season of grief by asking what reduces harm and supports clearer seeing."
+        ]
+      },
+      {
+        heading: "Common Misunderstanding",
+        paragraphs: [
+          "The Middle Way is not simply compromise between any two opinions. Some actions still cause harm and need firm boundaries. The teaching is about a path that avoids extremes while moving toward wisdom, ethical care, and freedom from clinging.",
+          "Read this page as a foundation support for <a href='/learn/buddhism-for-beginners/'>Buddhism for Beginners</a>, not as a replacement for the Four Noble Truths or the Noble Eightfold Path."
+        ]
+      }
+    ],
+    takeaway: "The Middle Way is a practical Buddhist path that avoids harmful extremes and supports wise, steady practice.",
+    practice:
+      "Choose one area today where you tend to swing between force and avoidance. Ask what a kinder, steadier middle path would look like.",
+    relatedLinks: [
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+      { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+      { label: "Eightfold Path", href: "/learn/eightfold-path/" }
+    ],
+    sourceNote:
+      "Source note: This is an original Echo Buddha beginner explanation of the Middle Way using traditional first-teaching context. It summarizes themes rather than reproducing translation text.",
+    terms: ["Dhamma", "Sutta", "Pali Canon"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "threefold-training-sila-samadhi-panna",
+    title: "The Threefold Training: Sila, Samadhi, and Panna",
+    seoTitle: "Threefold Training in Buddhism: Sila, Samadhi, and Panna",
+    description:
+      "Understand the Threefold Training in Buddhism: ethical conduct, concentration, and wisdom in daily practice.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Threefold Training is a simple way to understand Buddhist practice as ethical conduct, mental cultivation, and wisdom working together.",
+    sections: [
+      {
+        heading: "Three Trainings, One Path",
+        paragraphs: [
+          "Sila means ethical conduct or moral training. Samadhi points to concentration, collectedness, and steadiness of mind. Panna means wisdom or discernment. Together they help beginners see that Buddhism is not only meditation and not only belief.",
+          "Ethics steadies the life around practice. Meditation steadies attention. Wisdom sees what leads to suffering and what leads away from it. These trainings support one another like three legs of the same seat."
+        ]
+      },
+      {
+        heading: "How They Appear in Ordinary Life",
+        paragraphs: [
+          "Sila may appear as honest speech, keeping a promise, or refusing to pass along gossip. Samadhi may appear as returning to one breath, one task, or one conversation. Panna may appear as noticing that a reaction is rooted in fear, pride, craving, or compassion.",
+          "This is why the <a href='/learn/eightfold-path/'>Noble Eightfold Path</a> matters for daily life. The path is not separate from emails, work, money, family, attention, and repair."
+        ]
+      },
+      {
+        heading: "Common Misunderstanding",
+        paragraphs: [
+          "The Threefold Training should not be used to rank people or pretend practice is linear. A person may need to strengthen speech, meditation, and understanding at the same time.",
+          "This page gives a beginner map. Different Buddhist traditions explain training in their own voices, and deeper study should include teachers, communities, and reputable translations."
+        ]
+      }
+    ],
+    takeaway: "The Threefold Training shows Buddhist practice as ethical conduct, mental steadiness, and wisdom working together.",
+    practice:
+      "Before the day ends, choose one training to make visible: one honest sentence, one steady breath, or one wiser interpretation.",
+    relatedLinks: [
+      { label: "Eightfold Path", href: "/learn/eightfold-path/" },
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/" },
+      { label: "Meditation Hub", href: "/meditation/" }
+    ],
+    sourceNote:
+      "Source note: This page is original Echo Buddha educational guidance on a widely used Buddhist training framework. It avoids presenting the explanation as scripture or tradition-specific authority.",
+    terms: ["Dhamma", "Mindfulness", "Sutta"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "five-hindrances-in-buddhism",
+    title: "The Five Hindrances in Buddhism",
+    seoTitle: "Five Hindrances in Buddhism Explained for Beginners",
+    description:
+      "Learn the five hindrances in Buddhism and how desire, ill will, dullness, restlessness, and doubt affect practice.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The five hindrances are common states that cloud meditation and daily practice; they are obstacles to understand gently, not flaws to hate.",
+    sections: [
+      {
+        heading: "What the Hindrances Are",
+        paragraphs: [
+          "The five hindrances are usually named as sensual desire, ill will, sloth and torpor, restlessness and worry, and doubt. They describe ways the mind becomes sticky, foggy, agitated, or discouraged.",
+          "A beginner does not need to memorize them as a harsh checklist. The point is recognition. When the hindrance is seen clearly, the mind has more room to respond."
+        ]
+      },
+      {
+        heading: "How They Show Up",
+        paragraphs: [
+          "Desire may keep reaching for stimulation. Ill will may rehearse blame. Dullness may make practice heavy. Restlessness may jump ahead. Doubt may say, \"This is pointless,\" before practice has had time to teach.",
+          "These states also appear outside meditation: shopping, scrolling, arguments, work pressure, avoidance, or comparing oneself with others. Seeing them as conditions can reduce shame."
+        ]
+      },
+      {
+        heading: "What This Teaching Does Not Say",
+        paragraphs: [
+          "The hindrances are not medical labels, personality labels, or proof that you are bad at meditation. If practice feels overwhelming or distressing, shorten it, open the eyes, ground in the body, or seek qualified support.",
+          "For practical support during difficult sessions, use <a href='/meditation/when-meditation-feels-hard/'>What to Do When Meditation Feels Hard</a> and the <a href='/meditation-safety/'>Meditation Safety</a> page."
+        ]
+      }
+    ],
+    takeaway: "The five hindrances name common obstacles so they can be met with awareness, patience, and wise adjustment.",
+    practice:
+      "During one distracted moment, name the pattern gently: wanting, irritation, dullness, restlessness, or doubt. Then return to one workable action.",
+    relatedLinks: [
+      { label: "Meditation Hub", href: "/meditation/" },
+      { label: "When Meditation Feels Hard", href: "/meditation/when-meditation-feels-hard/" },
+      { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" }
+    ],
+    sourceNote:
+      "Source note: This is original Echo Buddha educational guidance on a traditional Buddhist practice framework. It is not clinical advice or a diagnostic guide.",
+    terms: ["Mindfulness", "Sati", "Dhamma"]
+  },
+  {
+    section: "buddhism-101",
+    slug: "four-brahmaviharas",
+    title: "The Four Brahmaviharas",
+    seoTitle: "The Four Brahmaviharas: Loving-Kindness, Compassion, Joy, and Equanimity",
+    description:
+      "Learn the Four Brahmaviharas in Buddhism: loving-kindness, compassion, appreciative joy, and equanimity.",
+    eyebrow: "Buddhism 101",
+    intro:
+      "The Four Brahmaviharas are four qualities of heart that can be cultivated: loving-kindness, compassion, appreciative joy, and equanimity.",
+    sections: [
+      {
+        heading: "Four Qualities of the Heart",
+        paragraphs: [
+          "Metta is loving-kindness or goodwill. Karuna is compassion for suffering. Mudita is appreciative joy in another person's wellbeing. Upekkha is equanimity, the balanced steadiness that does not collapse into control or indifference.",
+          "Together these qualities train the heart away from ill will, cruelty, envy, and reactivity. They are not decorative feelings; they are ways of meeting beings and situations with less harm."
+        ]
+      },
+      {
+        heading: "Daily Life Practice",
+        paragraphs: [
+          "Metta may appear as refusing to add a cutting word. Compassion may appear as helping while keeping a clear boundary. Mudita may appear as rejoicing in another person's good fortune without comparison. Equanimity may appear as doing your part without trying to control every result.",
+          "The Four Brahmaviharas connect naturally with <a href='/meditation/loving-kindness-meditation/'>loving-kindness meditation</a> and with practical pages on compassion, speech, and boundaries."
+        ]
+      },
+      {
+        heading: "Common Misunderstanding",
+        paragraphs: [
+          "These practices do not require pretending harm is harmless or forcing warm feelings toward unsafe people. Goodwill and compassion can include distance, truth, accountability, and protection.",
+          "Equanimity is also not coldness. It is steadiness with care, especially when life cannot be controlled."
+        ]
+      }
+    ],
+    takeaway: "The Four Brahmaviharas train the heart in goodwill, compassion, appreciative joy, and balanced care.",
+    practice:
+      "Choose one quality today: goodwill, compassion, appreciative joy, or equanimity. Let it guide one sentence or decision.",
+    relatedLinks: [
+      { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+      { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" },
+      { label: "Compassion With Boundaries", href: "/articles/compassion-with-boundaries/" }
+    ],
+    sourceNote:
+      "Source note: This page is original Echo Buddha educational guidance on the Four Brahmaviharas. It summarizes traditional themes and keeps practice boundaries visible.",
+    terms: ["Metta", "Karuna", "Compassion"]
   }
 ];
 
@@ -2127,6 +2375,90 @@ export const dictionaryPages: LearningPage[] = [
     ],
     sourceNote: commonSourceNote,
     terms: ["Karuna", "Metta", "Right Speech"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "sutta",
+    title: "Sutta",
+    seoTitle: "Sutta Meaning in Buddhism",
+    description:
+      "Learn what a sutta is in Buddhism, how suttas relate to Buddhist texts, and how beginners can read them carefully.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "A sutta is a Buddhist discourse or teaching text. Beginners can read suttas as source material while remembering that translation, tradition, and commentary matter.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "Sutta is the Pali word often used for a discourse or teaching preserved in Buddhist textual collections. Sanskrit sources often use sutra. English readers may meet both words depending on tradition and source.",
+          "A sutta is not the same as a modern blog post or quote card. It belongs to a textual tradition and should be approached with source awareness, translation care, and humility."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "Reading a sutta can support practice when the reader asks: What is this teaching saying? What is it not saying? How does it connect with conduct, meditation, wisdom, and compassion today?"
+        ]
+      },
+      {
+        heading: "Common Misunderstanding",
+        paragraphs: [
+          "A short summary of a sutta is not a translation. Echo Buddha source-study pages explain themes in original language and link to source/citation standards so readers can compare reputable translations."
+        ]
+      }
+    ],
+    takeaway: "A sutta is a Buddhist teaching discourse that should be read with translation and tradition context.",
+    practice: "When reading a sutta summary, ask whether you are reading scripture, translation, paraphrase, commentary, or reflection.",
+    relatedLinks: [
+      { label: "Sutta for Daily Life", href: "/learn/sutta-for-daily-life/" },
+      { label: "Pali Canon", href: "/learn/buddhist-dictionary/pali-canon/" },
+      { label: "Buddhist Sources", href: "/buddhist-sources-and-citations/" }
+    ],
+    sourceNote:
+      "Source note: This dictionary page gives a beginner definition of sutta and does not reproduce translation text.",
+    terms: ["Pali Canon", "Dhamma", "Sutta"]
+  },
+  {
+    section: "buddhist-dictionary",
+    slug: "pali-canon",
+    title: "Pali Canon",
+    seoTitle: "Pali Canon Meaning for Beginners",
+    description:
+      "Learn what the Pali Canon is, why it matters in Buddhist study, and how beginners can approach it carefully.",
+    eyebrow: "Buddhist Dictionary",
+    intro:
+      "The Pali Canon is a major collection of Buddhist texts preserved in Pali and especially important in Theravada Buddhist traditions.",
+    sections: [
+      {
+        heading: "Simple Meaning",
+        paragraphs: [
+          "The Pali Canon, also called the Tipitaka or Three Baskets, is one of the most important textual collections in Buddhism. It includes discourses, monastic discipline, and analytical teachings preserved in Pali.",
+          "It is especially central in Theravada contexts. Other Buddhist traditions preserve and study other canons and textual collections, so beginners should avoid treating one phrase as the whole of Buddhism."
+        ]
+      },
+      {
+        heading: "Meaning in Daily Life",
+        paragraphs: [
+          "A beginner does not need to read the entire Pali Canon before practicing. It is enough to understand that many common teachings, such as the Four Noble Truths and Noble Eightfold Path, are connected with traditional textual sources."
+        ]
+      },
+      {
+        heading: "Common Misunderstanding",
+        paragraphs: [
+          "A modern explanation of a Pali Canon theme is not the same as a canonical translation. Echo Buddha pages use original plain-English summaries and point readers toward reputable translations and teachers for formal study."
+        ]
+      }
+    ],
+    takeaway: "The Pali Canon is a major Pali textual collection, especially important in Theravada Buddhist study.",
+    practice: "When a page mentions a Pali Canon source, notice whether it links to a source, summary, translation, or reflection.",
+    relatedLinks: [
+      { label: "Sutta", href: "/learn/buddhist-dictionary/sutta/" },
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
+      { label: "Buddhist Sources", href: "/buddhist-sources-and-citations/" }
+    ],
+    sourceNote:
+      "Source note: This dictionary page gives a simplified source-study orientation and does not claim tradition-wide authority.",
+    terms: ["Sutta", "Dhamma", "Buddhist texts"]
   }
 ];
 
@@ -2499,6 +2831,96 @@ export const suttaPages: LearningPage[] = [
     sourceNote:
       "This page is an original, simplified explanation of a traditional Buddhist breathing practice.",
     terms: ["Sati", "Meditation", "Anicca"]
+  },
+  {
+    section: "sutta-for-daily-life",
+    slug: "dhammacakkappavattana-sutta-four-noble-truths",
+    title: "Dhammacakkappavattana Sutta: Four Noble Truths in Context",
+    seoTitle: "Dhammacakkappavattana Sutta and the Four Noble Truths",
+    description:
+      "A source-aware beginner guide to the Dhammacakkappavattana Sutta, the Middle Way, and the Four Noble Truths.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "The Dhammacakkappavattana Sutta is traditionally remembered as the Buddha's first teaching, where the Middle Way and Four Noble Truths are introduced.",
+    sections: [
+      {
+        heading: "What This Teaching Says",
+        paragraphs: [
+          "This sutta is often associated with setting the wheel of Dhamma in motion. It introduces the Middle Way and the Four Noble Truths: dukkha, the arising of dukkha, the cessation of dukkha, and the path leading toward cessation.",
+          "Echo Buddha summarizes the teaching in original plain English. This page does not reproduce a translation and should be read beside reputable translations for formal study."
+        ]
+      },
+      {
+        heading: "Why Context Matters",
+        paragraphs: [
+          "The sutta is not merely a list of ideas. It points to a practice movement: understand suffering, see craving and clinging, trust that release is possible, and walk a path of wisdom, ethics, and meditation.",
+          "For beginners, this protects the Four Noble Truths from becoming either pessimism or positivity. The teaching is compassionate realism."
+        ]
+      },
+      {
+        heading: "What It Does Not Say",
+        paragraphs: [
+          "The teaching does not say that life is only pain, that every hardship is your fault, or that grief should be rushed. It does not invite blame. It invites understanding and practice.",
+          "Use the full <a href='/learn/four-noble-truths/'>Four Noble Truths</a> hub for the broad beginner path, and this page for source-study context."
+        ]
+      }
+    ],
+    takeaway: "The Dhammacakkappavattana Sutta gives source context for the Middle Way and Four Noble Truths.",
+    practice:
+      "When a difficulty appears today, ask which part you can understand: pain, craving, release, or the next wise step.",
+    relatedLinks: [
+      { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+      { label: "Middle Way", href: "/learn/buddhism-101/middle-way-explained-for-beginners/" },
+      { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" }
+    ],
+    sourceNote:
+      "Source note: This page is an original source-aware explanation of SN 56.11 themes. It distinguishes sutta context, translation, paraphrase, and Echo Buddha reflection.",
+    terms: ["Sutta", "Pali Canon", "Dhamma"]
+  },
+  {
+    section: "sutta-for-daily-life",
+    slug: "magga-vibhanga-sutta-eightfold-path",
+    title: "Magga-vibhanga Sutta: Eightfold Path Explained Simply",
+    seoTitle: "Magga-vibhanga Sutta and the Noble Eightfold Path",
+    description:
+      "A simple source-aware guide to the Magga-vibhanga Sutta and the Noble Eightfold Path in daily life.",
+    eyebrow: "Sutta for Daily Life",
+    intro:
+      "The Magga-vibhanga Sutta gives a compact analysis of the Noble Eightfold Path, showing how wisdom, conduct, and mental training support one another.",
+    sections: [
+      {
+        heading: "What This Teaching Says",
+        paragraphs: [
+          "The sutta analyzes the eight path factors: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+          "These factors should not be treated as eight unrelated tasks. They describe a path where seeing, intention, speech, conduct, work, effort, mindfulness, and concentration shape each other."
+        ]
+      },
+      {
+        heading: "Why Context Matters",
+        paragraphs: [
+          "A source-study page helps readers see that the Eightfold Path is not only a modern self-improvement list. It is a Buddhist path of training that connects the mind with speech, action, livelihood, and meditation.",
+          "This page supports the <a href='/learn/eightfold-path/'>Eightfold Path</a> hub, which remains the broad beginner owner for the topic."
+        ]
+      },
+      {
+        heading: "What It Does Not Say",
+        paragraphs: [
+          "The word right should not be used as a weapon for harsh judgment. A safer beginner reading is wise, skillful, or leading away from harm.",
+          "The teaching also does not isolate meditation from ethics. If practice is sincere, it gradually touches emails, work, promises, attention, and repair."
+        ]
+      }
+    ],
+    takeaway: "The Magga-vibhanga Sutta gives source context for the Eightfold Path as an integrated daily training.",
+    practice:
+      "Choose one path factor today and let it guide one ordinary action, such as a message, work decision, or five minutes of attention.",
+    relatedLinks: [
+      { label: "Eightfold Path", href: "/learn/eightfold-path/" },
+      { label: "Threefold Training", href: "/learn/buddhism-101/threefold-training-sila-samadhi-panna/" },
+      { label: "Right Speech", href: "/articles/right-speech-buddhism/" }
+    ],
+    sourceNote:
+      "Source note: This page is an original source-aware explanation of SN 45.8 themes. It summarizes rather than reproduces translation text.",
+    terms: ["Sutta", "Pali Canon", "Right Speech"]
   },
   {
     section: "sutta-for-daily-life",
@@ -2967,6 +3389,7 @@ export const popularLearningPaths = [
     title: "New to Buddhism",
     links: [
       { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+      { label: "The Middle Way", href: "/learn/buddhism-101/middle-way-explained-for-beginners/" },
       { label: "First Week Buddhist Practice", href: "/articles/first-week-buddhist-practice/" },
       { label: "The Four Noble Truths", href: "/learn/four-noble-truths/" },
       { label: "The Noble Eightfold Path", href: "/learn/eightfold-path/" }
@@ -2977,7 +3400,8 @@ export const popularLearningPaths = [
     links: [
       { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
       { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
-      { label: "5-Minute Practice", href: "/meditation/5-minute-meditation-practice/" }
+      { label: "5-Minute Practice", href: "/meditation/5-minute-meditation-practice/" },
+      { label: "10-Minute Practice", href: "/meditation/10-minute-meditation-practice/" }
     ]
   },
   {
@@ -2985,7 +3409,9 @@ export const popularLearningPaths = [
     links: [
       { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
       { label: "Dhamma vs Dharma", href: "/articles/dhamma-vs-dharma/" },
-      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" }
+      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" },
+      { label: "Sutta", href: "/learn/buddhist-dictionary/sutta/" },
+      { label: "Pali Canon", href: "/learn/buddhist-dictionary/pali-canon/" }
     ]
   }
 ];
@@ -2996,9 +3422,10 @@ export const meditationHubTopics: LearningLink[] = [
   { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/", description: "Practice goodwill toward yourself and others." },
   { label: "Walking Meditation", href: "/meditation/walking-meditation/", description: "Bring awareness into steps and movement." },
   { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/", description: "Practice awareness during ordinary routines." },
-  { label: "Common Meditation Difficulties", href: "/meditation-guide/#common-challenges", description: "Work gently with restlessness, sleepiness, and thoughts." },
+  { label: "Meditation Posture", href: "/meditation/meditation-posture-for-beginners/", description: "Find a stable, accessible posture without performance." },
+  { label: "When Meditation Feels Hard", href: "/meditation/when-meditation-feels-hard/", description: "Work gently with restlessness, discouragement, and overwhelm." },
   { label: "5-Minute Meditation Practice", href: "/meditation/5-minute-meditation-practice/", description: "A short practice for busy days." },
-  { label: "10-Minute Meditation Practice", href: "/meditation-guide/#ten-minute-practice", description: "A simple ten-minute structure from the full guide." }
+  { label: "10-Minute Meditation Practice", href: "/meditation/10-minute-meditation-practice/", description: "A simple ten-minute structure for steady returning." }
 ];
 
 export const shortMeditationPages: LearningPage[] = [
@@ -3040,6 +3467,134 @@ export const shortMeditationPages: LearningPage[] = [
     ],
     sourceNote: "Educational meditation guidance only; adapt practice to your needs and seek support when appropriate.",
     terms: ["Meditation", "Sati", "Mindfulness"]
+  },
+  {
+    section: "meditation",
+    slug: "10-minute-meditation-practice",
+    title: "10-Minute Meditation Practice",
+    description:
+      "A gentle ten-minute meditation practice for beginners with posture, breath awareness, returning, and safety boundaries.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Ten minutes can give a beginner enough time to settle, wander, return, and end with one clear intention for the day.",
+    sections: [
+      {
+        heading: "A Simple Ten-Minute Structure",
+        paragraphs: [
+          "Minutes one and two: settle posture and feel the body. Minutes three through seven: rest attention with the natural breath, returning whenever the mind wanders. Minutes eight and nine: widen awareness to sounds, body, and mood. Minute ten: choose one kind or careful intention.",
+          "Use a timer if it helps. The point is not to produce calm. The point is to practice returning with patience."
+        ]
+      },
+      {
+        heading: "When the Mind Wanders",
+        paragraphs: [
+          "Wandering is expected. Each return is part of the practice, not an interruption. If the breath feels uncomfortable, use the hands, feet, sounds, or posture as the anchor.",
+          "If ten minutes is too much today, use the <a href='/meditation/5-minute-meditation-practice/'>5-minute meditation practice</a> instead."
+        ]
+      },
+      {
+        heading: "Safety Note",
+        paragraphs: [
+          "If meditation feels overwhelming, open the eyes, feel the feet, shorten the session, change anchors, or stop. This practice is educational and does not diagnose, treat, cure, or guarantee any outcome."
+        ]
+      }
+    ],
+    takeaway: "A ten-minute practice trains patient returning without making calm into a demand.",
+    practice: "Try one ten-minute session this week, then adjust the length honestly.",
+    relatedLinks: [
+      { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" },
+      { label: "Meditation Posture", href: "/meditation/meditation-posture-for-beginners/" },
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" }
+    ],
+    sourceNote:
+      "Educational meditation guidance only. Adapt the practice to your body and circumstances, and seek qualified support for serious or persistent distress.",
+    terms: ["Meditation", "Sati", "Mindfulness"]
+  },
+  {
+    section: "meditation",
+    slug: "meditation-posture-for-beginners",
+    title: "Meditation Posture for Beginners",
+    description:
+      "Learn beginner meditation posture options for sitting on a chair or cushion with steadiness, comfort, and accessibility.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Meditation posture should support awareness without turning the body into a performance. Stable, upright, and workable is enough.",
+    sections: [
+      {
+        heading: "A Workable Posture",
+        paragraphs: [
+          "Sit on a chair, cushion, bench, or folded blanket. Let the body be upright but not rigid. Let the hands rest. Let the eyes close or soften if that feels safe.",
+          "A good posture is one you can inhabit without fighting the body. Accessibility matters more than looking traditional."
+        ]
+      },
+      {
+        heading: "Chair and Cushion Options",
+        paragraphs: [
+          "On a chair, place both feet on the floor if possible and sit forward enough that the back supports itself gently. On a cushion, let the knees and hips find a stable base. Adjust height if the knees or back strain.",
+          "If pain, numbness, dizziness, panic, or overwhelm appears, change posture, open the eyes, stand, walk, or stop."
+        ]
+      },
+      {
+        heading: "Common Misunderstanding",
+        paragraphs: [
+          "Posture is not proof of spiritual seriousness. A person sitting in a chair with honest awareness is practicing more truly than a person forcing a beautiful posture with resentment.",
+          "Use posture as a support for mindfulness, not as another way to judge yourself."
+        ]
+      }
+    ],
+    takeaway: "Meditation posture should be stable, accessible, and kind enough to support awareness.",
+    practice: "Before your next sit, adjust one thing so the body feels supported rather than forced.",
+    relatedLinks: [
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+      { label: "10-Minute Meditation", href: "/meditation/10-minute-meditation-practice/" },
+      { label: "Meditation Safety", href: "/meditation-safety/" }
+    ],
+    sourceNote:
+      "Educational posture guidance only; it is not medical or ergonomic advice. Adapt for your body and seek qualified support when needed.",
+    terms: ["Meditation", "Mindfulness", "Sati"]
+  },
+  {
+    section: "meditation",
+    slug: "when-meditation-feels-hard",
+    title: "What to Do When Meditation Feels Hard",
+    description:
+      "Gentle guidance for beginners when meditation feels restless, dull, discouraging, emotional, or overwhelming.",
+    eyebrow: "Meditation Practice",
+    intro:
+      "Meditation sometimes feels hard. That does not mean you are failing; it means practice is meeting real conditions.",
+    sections: [
+      {
+        heading: "Name What Is Happening",
+        paragraphs: [
+          "Hard practice may include restlessness, sleepiness, doubt, irritation, sadness, boredom, or pressure to get it right. Begin by naming the experience gently: restless, tired, doubtful, tight, sad, or trying too hard.",
+          "Naming is not a diagnosis. It is a way to stop being completely swallowed by the state."
+        ]
+      },
+      {
+        heading: "Adjust the Practice",
+        paragraphs: [
+          "Shorten the session. Open the eyes. Feel the feet or hands. Use sounds instead of breath. Stand or walk slowly. Return to one simple phrase such as, \"This is hard, and I can be gentle.\"",
+          "If breath focus feels uncomfortable, do not force it. A different anchor can still support mindfulness."
+        ]
+      },
+      {
+        heading: "When to Stop or Seek Support",
+        paragraphs: [
+          "If practice feels overwhelming, unsafe, dissociative, or connected with intense distress, stop and ground in ordinary surroundings. Look around the room, touch a stable object, contact a trusted person, or seek qualified support.",
+          "Meditation is not a replacement for medical or mental health care. The wisest practice is sometimes to stop."
+        ]
+      }
+    ],
+    takeaway: "Hard meditation can be met by naming, shortening, grounding, changing anchors, stopping, or seeking support.",
+    practice: "Choose one kind adjustment before the next session begins, not after frustration has already taken over.",
+    relatedLinks: [
+      { label: "Meditation Safety", href: "/meditation-safety/" },
+      { label: "Five Hindrances", href: "/learn/buddhism-101/five-hindrances-in-buddhism/" },
+      { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" }
+    ],
+    sourceNote:
+      "Educational meditation guidance only. This page does not diagnose, treat, cure, guarantee calm, or replace qualified support.",
+    terms: ["Meditation", "Mindfulness", "Sati"]
   }
 ];
 

@@ -1,0 +1,12 @@
+$ npm run audit:lighthouse
+started_at=2026-08-05T11:25:57.373Z
+finished_at=2026-08-05T11:30:23.633Z
+exit_code=0
+--- stdout ---
+
+> echo-buddha@1.0.0 audit:lighthouse
+> node scripts/lighthouse-readiness.mjs
+
+Lighthouse readiness check completed.
+
+--- stderr ---

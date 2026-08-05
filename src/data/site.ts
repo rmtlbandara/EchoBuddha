@@ -2405,6 +2405,108 @@ const articleVisuals = {
 
 export const articles: Article[] = [
   {
+    slug: "mindful-email-and-texting",
+    title: "Mindful Email and Texting",
+    seoTitle: "Mindful Email and Texting with Buddhist Right Speech",
+    description:
+      "Practice mindful email and texting with Buddhist Right Speech, patience, clear intention, and less reactive digital communication.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Practice",
+    readTime: "6 min read",
+    thumbnail: "/images/articles/mindful-listening-in-everyday-life.webp",
+    imageAlt: "A calm workspace for practicing mindful email and texting before sending a message",
+    tags: ["Right Speech", "Mindful living", "Digital mindfulness"],
+    relatedSlugs: ["right-speech-buddhism", "right-speech-examples", "mindful-listening-in-everyday-life"],
+    content: [
+      {
+        paragraphs: [
+          "Mindful email and texting means bringing Buddhist Right Speech into digital messages. Before sending, pause long enough to notice intention, tone, truth, usefulness, timing, and possible harm.",
+          "This page is a narrow mindful-living support page. The broader Right Speech owner remains <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "Pause Before the Send Button",
+        paragraphs: [
+          "Digital speech travels fast, but the mind that sends it still has causes and conditions. A message may be shaped by irritation, fear, pride, hurry, kindness, clarity, or care. The Buddhist practice is to see the mind before it becomes a sentence.",
+          "Try one breath before sending a tense reply. Ask: Is this true? Is it useful? Is now the right time? Can the same truth travel with less contempt?"
+        ]
+      },
+      {
+        heading: "Use Right Speech in Messages",
+        paragraphs: [
+          "Right Speech does not make every message soft or agreeable. Some messages need to be firm, brief, and direct. The practice is to avoid deception, cruelty, divisive exaggeration, and words that only feed agitation.",
+          "A mindful text might say, \"I need time before I answer well,\" instead of pretending to be calm while sharpening the next sentence."
+        ]
+      },
+      {
+        heading: "Common Digital Habits to Notice",
+        paragraphs: [
+          "Notice when you forward something you have not checked, write a message to win, use silence as punishment, exaggerate to gain sympathy, or reply while the body is still heated.",
+          "These habits are ordinary, but they train the mind. Mindful communication trains a different habit: pause, check intention, speak truthfully, reduce avoidable harm, and listen for the next wise step."
+        ]
+      },
+      {
+        heading: "A Small Practice for Today",
+        paragraphs: [
+          "Choose one message today and write it twice. First, write the automatic version privately. Then write the version that is true, useful, and less harmful. Send only the second if sending is needed.",
+          "If a conversation involves harassment, threats, coercion, or safety concerns, mindful speech can include documentation, distance, blocking, reporting, or asking for qualified support."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "compassion-with-boundaries",
+    title: "Compassion With Boundaries",
+    seoTitle: "Compassion With Boundaries in Buddhist Practice",
+    description:
+      "Learn compassion with boundaries through Buddhist wisdom, loving-kindness, truth, protection, and wise care.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "6 min read",
+    thumbnail: "/images/articles/compassion-as-a-daily-discipline.webp",
+    imageAlt: "A quiet path suggesting compassion with clear boundaries and wise care",
+    tags: ["Compassion", "Boundaries", "Brahmaviharas"],
+    relatedSlugs: ["compassion-as-a-daily-discipline", "compassion-in-buddhism-beginner-guide", "buddhist-approach-to-anger"],
+    content: [
+      {
+        paragraphs: [
+          "Compassion with boundaries means caring about suffering without allowing harm, manipulation, contempt, or unsafe closeness to continue unchecked. In Buddhist practice, compassion is wise care, not people-pleasing.",
+          "This page supports the <a href=\"/learn/buddhist-dictionary/compassion/\">Compassion</a> dictionary owner and the <a href=\"/learn/buddhism-101/four-brahmaviharas/\">Four Brahmaviharas</a> foundation page."
+        ]
+      },
+      {
+        heading: "Compassion Is Not Permission for Harm",
+        paragraphs: [
+          "A common misunderstanding is that compassion means always staying available, always forgiving quickly, or always making another person comfortable. That can turn kindness into self-abandonment.",
+          "Buddhist compassion sees suffering clearly. It can say, \"This hurts,\" \"This is not acceptable,\" or \"I need distance,\" without adding hatred."
+        ]
+      },
+      {
+        heading: "Boundaries Can Reduce Harm",
+        paragraphs: [
+          "A boundary may protect speech, time, money, body, attention, privacy, or emotional safety. It may be quiet, direct, temporary, or firm. The purpose is not revenge; the purpose is less harm.",
+          "Compassion asks what response is actually helpful. Sometimes that response is listening. Sometimes it is apology. Sometimes it is refusing to continue the same pattern."
+        ]
+      },
+      {
+        heading: "How This Connects With the Brahmaviharas",
+        paragraphs: [
+          "Metta wishes beings well. Karuna responds to suffering. Mudita rejoices in goodness. Upekkha steadies the heart when outcomes cannot be controlled. Boundaries often need all four.",
+          "Without equanimity, compassion can become anxious control. Without compassion, boundaries can become coldness. Practice lets care and steadiness learn to stand together."
+        ]
+      },
+      {
+        heading: "A Small Practice for Today",
+        paragraphs: [
+          "Write one sentence that joins kindness with clarity: \"I care about this, and I am not available for harmful speech.\" Or: \"I want repair, and I need time before continuing.\"",
+          "If harm is ongoing, serious, or unsafe, prioritize protection and qualified support. Buddhist practice should never be used to pressure someone to tolerate abuse or danger."
+        ]
+      }
+    ]
+  },
+  {
     slug: "dhamma-vs-dharma",
     title: "Dhamma vs Dharma: What Is the Difference?",
     seoTitle: "Dhamma vs Dharma: Buddhist Meaning and Spelling",
@@ -7210,6 +7312,56 @@ export type ArticleSeoDetails = {
 };
 
 export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
+  "mindful-email-and-texting": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "Mindful email and texting applies Buddhist Right Speech to digital messages.",
+      "A pause before sending can reveal intention, tone, usefulness, timing, and avoidable harm.",
+      "Boundaries, documentation, delay, or not replying can also be forms of wise digital speech."
+    ],
+    faqs: [
+      {
+        question: "How do I practice mindfulness before sending a text?",
+        answer:
+          "Pause for one breath, feel the body, check your intention, and ask whether the message is true, useful, timely, and less harmful than the first reaction."
+      },
+      {
+        question: "Does Right Speech mean every email has to sound gentle?",
+        answer:
+          "No. Right Speech can be firm and direct. The practice is to avoid deception, cruelty, useless harm, and careless timing."
+      },
+      {
+        question: "Can not replying be mindful?",
+        answer:
+          "Yes, when silence protects safety, prevents escalation, or creates time for a wiser response. It should not be used to manipulate or punish."
+      }
+    ]
+  },
+  "compassion-with-boundaries": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "Compassion with boundaries is wise care, not people-pleasing or tolerance of harm.",
+      "A boundary can reduce harm while keeping hatred from shaping the heart.",
+      "The Four Brahmaviharas help compassion remain warm, clear, joyful, and steady."
+    ],
+    faqs: [
+      {
+        question: "Can compassion include boundaries?",
+        answer:
+          "Yes. Buddhist compassion can include truth, distance, accountability, and protection when those responses reduce harm."
+      },
+      {
+        question: "Does compassion mean forgiving quickly?",
+        answer:
+          "No. Compassion should not be used to rush grief, erase memory, or pressure someone into unsafe closeness."
+      },
+      {
+        question: "How can I set a compassionate boundary?",
+        answer:
+          "Name the care and the limit together, such as: I want repair, and I need this conversation to continue without insults."
+      }
+    ]
+  },
   "dhamma-vs-dharma": {
     reviewedDate: "2026-08-05",
     takeaways: [

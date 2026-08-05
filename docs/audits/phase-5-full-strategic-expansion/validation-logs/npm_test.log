@@ -1,0 +1,51 @@
+$ npm test
+started_at=2026-08-05T11:25:15.485Z
+finished_at=2026-08-05T11:25:15.728Z
+exit_code=0
+--- stdout ---
+
+> echo-buddha@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: analytics defaults accepted without auto-opening the popup and ads remain disabled
+ok 1 - analytics defaults accepted without auto-opening the popup and ads remain disabled
+  ---
+  duration_ms: 1.751666
+  type: 'test'
+  ...
+# Subtest: required validation scripts are present
+ok 2 - required validation scripts are present
+  ---
+  duration_ms: 0.205917
+  type: 'test'
+  ...
+# Subtest: robots manifest and security headers are source-controlled
+ok 3 - robots manifest and security headers are source-controlled
+  ---
+  duration_ms: 0.510084
+  type: 'test'
+  ...
+# Subtest: sitemap output aligns with canonical site when built
+ok 4 - sitemap output aligns with canonical site when built
+  ---
+  duration_ms: 0.730875
+  type: 'test'
+  ...
+# Subtest: content remediation governance assets remain present
+ok 5 - content remediation governance assets remain present
+  ---
+  duration_ms: 0.23075
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 68.024
+
+--- stderr ---

@@ -6,7 +6,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 1250
+    "averageWords": 1242
   },
   "error": {
     "total": 1,
@@ -24,7 +24,7 @@
     "decisions": {
       "Pass": 7
     },
-    "averageWords": 446
+    "averageWords": 445
   },
   "hub": {
     "total": 8,
@@ -33,17 +33,17 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1235
+    "averageWords": 1254
   },
   "article": {
-    "total": 48,
-    "indexable": 48,
+    "total": 50,
+    "indexable": 50,
     "noindex": 0,
     "decisions": {
       "Minor improvement": 11,
-      "Pass": 37
+      "Pass": 39
     },
-    "averageWords": 1664
+    "averageWords": 1635
   },
   "articleCategory": {
     "total": 5,
@@ -52,7 +52,7 @@
     "decisions": {
       "Pass": 5
     },
-    "averageWords": 545
+    "averageWords": 555
   },
   "other": {
     "total": 7,
@@ -88,25 +88,26 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 581
+    "averageWords": 600
   },
   "learningDetail": {
-    "total": 37,
-    "indexable": 37,
+    "total": 45,
+    "indexable": 45,
     "noindex": 0,
     "decisions": {
-      "Pass": 37
+      "Pass": 43,
+      "Source verification required": 2
     },
-    "averageWords": 619
+    "averageWords": 600
   },
   "meditationDetail": {
-    "total": 6,
-    "indexable": 6,
+    "total": 9,
+    "indexable": 9,
     "noindex": 0,
     "decisions": {
-      "Pass": 6
+      "Pass": 9
     },
-    "averageWords": 583
+    "averageWords": 595
   },
   "quoteCategory": {
     "total": 10,
@@ -115,7 +116,7 @@
     "decisions": {
       "Pass": 10
     },
-    "averageWords": 617
+    "averageWords": 610
   },
   "quoteStory": {
     "total": 153,
@@ -125,6 +126,6 @@
       "Minor improvement": 103,
       "Pass": 50
     },
-    "averageWords": 915
+    "averageWords": 912
   }
 }

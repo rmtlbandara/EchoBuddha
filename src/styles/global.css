@@ -80,8 +80,10 @@ h3 {
   color: var(--color-ink);
   font-family: var(--font-serif);
   font-weight: 700;
+  hyphens: auto;
   line-height: 1.16;
   margin: 0 0 0.8rem;
+  overflow-wrap: anywhere;
 }
 
 h1 {
