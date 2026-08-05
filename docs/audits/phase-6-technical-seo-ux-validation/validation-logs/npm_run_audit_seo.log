@@ -1,0 +1,12 @@
+$ npm run audit:seo
+started_at=2026-08-05T14:01:47.213Z
+finished_at=2026-08-05T14:01:47.519Z
+exit_code=0
+--- stdout ---
+
+> echo-buddha@1.0.0 audit:seo
+> node scripts/audit-seo.mjs
+
+SEO audit passed.
+
+--- stderr ---

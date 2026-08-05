@@ -1,0 +1,2359 @@
+{
+  "generatedAt": "2026-08-05T13:56:03.558Z",
+  "rows": [
+    {
+      "route": "/",
+      "family": "home",
+      "schemaTypes": "WebSite|SearchAction|Organization|ImageObject|BreadcrumbList|ListItem|FAQPage|Question|Answer|ItemList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/404.html",
+      "family": "static",
+      "schemaTypes": "",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/about/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "AboutPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/",
+      "family": "articlesHub",
+      "schemaTypes": "Blog|Organization|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/beginning-a-daily-mindfulness-practice/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhism-for-beginners-simple-guide/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-approach-to-anger/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-gratitude-practice/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-forgiveness/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-impermanence/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-wisdom-for-overthinking/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "family": "articleCategory",
+      "schemaTypes": "CollectionPage|Blog|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "family": "articleCategory",
+      "schemaTypes": "CollectionPage|Blog|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "family": "articleCategory",
+      "schemaTypes": "CollectionPage|Blog|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/practice/",
+      "family": "articleCategory",
+      "schemaTypes": "CollectionPage|Blog|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "family": "articleCategory",
+      "schemaTypes": "CollectionPage|Blog|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/compassion-as-a-daily-discipline/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/compassion-in-buddhism-beginner-guide/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/creating-a-peaceful-corner-at-home/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/dhamma-vs-dharma/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/dhammapada-reflection-trained-mind/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/dhammapada-reflection-what-we-think/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/dhammapada-verse-1-meaning/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/eightfold-path-explained-daily-life/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/eightfold-path-explained/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/equanimity-in-buddhism/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/first-week-buddhist-practice/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/five-precepts-in-daily-life/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/four-noble-truths-explained-simply/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/four-noble-truths-explained/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-meditate-for-anxiety/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-meditate-for-beginners/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-practice-non-attachment/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism-letting-go/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/letting-go-without-giving-up/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-beginners/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-guide/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/metta-meditation-script/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindful-email-and-texting/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindful-listening-in-everyday-life/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-for-better-sleep/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-morning-routine/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-of-breathing-guide/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-vs-meditation/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/noble-eightfold-path-practical-guide/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/non-attachment-in-relationships/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/right-livelihood-modern-life/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/right-speech-buddhism/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/right-speech-examples/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/three-poisons-buddhism-explained/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/three-ways-to-practice-patience/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/visiting-a-buddhist-temple-respectfully/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/walking-meditation-step-by-step/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/what-is-buddhism-beginner-guide/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/what-is-karma-in-buddhism/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/what-is-sangha-buddhist-community/",
+      "family": "article",
+      "schemaTypes": "BlogPosting|Article|Organization|ImageObject|WebPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/authors/echo-buddha-editorial/",
+      "family": "static",
+      "schemaTypes": "ProfilePage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/contact/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "ContactPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/corrections/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/",
+      "family": "dailyReflectionHub",
+      "schemaTypes": "CollectionPage|ItemList|ListItem|BreadcrumbList|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/anger-as-a-signal/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/begin-again-without-shame/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/compassion-begins-nearby/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/enough-for-this-moment/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/evening-release/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/family-patience/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/forgiveness-without-approval/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/gratitude-for-change/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/gratitude-notices-enough/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/impermanence-softens-clinging/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/kindness-with-boundaries/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/let-the-feeling-pass/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/letting-go-keeps-care/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/listen-before-answering/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/metta-for-a-difficult-person/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/mindful-work/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/morning-intention/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/notice-before-fixing/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/one-honest-breath/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/one-step-on-the-path/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/patience-before-anger-speaks/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/rest-without-escape/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/see-the-conditions/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/simple-goodwill/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/small-actions-shape-the-mind/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/soften-the-inner-argument/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/speech-can-reduce-suffering/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/the-first-truth-is-kind/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/thoughts-are-visitors/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "family": "todayReflection",
+      "schemaTypes": "WebPage|Organization|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/walking-as-practice/",
+      "family": "dailyReflection",
+      "schemaTypes": "WebPage|Organization|Thing|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/disclaimer/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/editorial-policy/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/how-echo-buddha-creates-content/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|WebSite|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/dependent-origination-explained/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/five-aggregates-buddhism/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/four-brahmaviharas/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/right-livelihood-buddhism/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/the-four-noble-truths-explained/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/the-three-jewels-explained/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-buddhism/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-mindfulness/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/who-was-the-buddha/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-for-beginners/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|DefinedTermSet|DefinedTerm|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anatta/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anicca/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/compassion/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/dhamma/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/dukkha/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karma/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karuna/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/metta/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/mindfulness/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/nirvana/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/pali-canon/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sangha/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sati/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sutta/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem|DefinedTerm|DefinedTermSet",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/eightfold-path/",
+      "family": "learnHub",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/four-noble-truths/",
+      "family": "learnHub",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "family": "learnHub",
+      "schemaTypes": "FAQPage|Question|Answer|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "family": "learnHub",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "family": "learnDetail",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation-guide/",
+      "family": "static",
+      "schemaTypes": "HowTo|HowToStep|FAQPage|Question|Answer|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation-safety/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/",
+      "family": "meditationHub",
+      "schemaTypes": "CollectionPage|WebSite|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/breathing-meditation/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/loving-kindness-meditation/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/meditation-for-beginners/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/mindfulness-in-daily-life/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/walking-meditation/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/when-meditation-feels-hard/",
+      "family": "meditation",
+      "schemaTypes": "Article|Organization|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/mindful-living/",
+      "family": "static",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/privacy-policy/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "PrivacyPolicy|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quote-attribution-policy/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/",
+      "family": "quotesHub",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/acceptance-before-next-step/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/feelings-without-the-wheel/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/one-breath-before-anger-replies/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/thoughts-are-visitors/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/thoughts-pass-without-commanding-you/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-sees-pain-clearly/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/gentle-self-compassion/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/kindness-as-quiet-practice/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/loving-kindness-without-harm/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/change-is-how-life-continues/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/meet-change-softly/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/caring-without-clinging/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/forgiveness-without-approving-harm/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/open-hands-non-attachment/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/soften-around-stress/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/where-attachment-begins/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/few-quiet-minutes/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-returning/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/one-honest-breath/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/begin-the-day-with-awareness/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/gratitude-notices-enough/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/ground-yourself-gently/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/listen-before-answering/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/peace-begins-with-attention/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/present-moment-one-step/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/be-patient-with-the-part-of-you-that-is/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/family-kindness-and-patience/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/patience-softens-the-wait/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/bring-the-teaching-into-the-place-where-you-are/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/eightfold-path-daily-choices/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/mindfulness-at-work-breath/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/right-intention-turns-the-heart/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/small-actions-shape-the-mind/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/the-path-is-not-far-away-it-is-the/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/your-next-response-is-always-part-of-the-path/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-shame/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/evening-release-reflection/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/gentle-hope-keeps-walking/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/one-calm-morning-intention/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "family": "quoteCategory",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/contentment-with-what-is-here/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/difficult-people-and-boundaries/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/karma-begins-in-intention/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/right-speech-with-kindness/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/simplicity-clears-the-room/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/understanding-suffering-honestly/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-sees-clearly/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wise-silence/",
+      "family": "quoteStory",
+      "schemaTypes": "WebPage|Organization|Thing|Quotation|CollectionPage|BreadcrumbList|ListItem",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/search/",
+      "family": "search",
+      "schemaTypes": "",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/start-here/",
+      "family": "static",
+      "schemaTypes": "CollectionPage|BreadcrumbList|ListItem|FAQPage|Question|Answer",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/terms-of-use/",
+      "family": "trustOrPolicy",
+      "schemaTypes": "WebPage|Organization",
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/tools/",
+      "family": "static",
+      "schemaTypes": "CollectionPage|ItemList|ListItem|BreadcrumbList",
+      "status": "PASS",
+      "issues": ""
+    }
+  ],
+  "reviewCount": 336,
+  "issueCount": 0
+}

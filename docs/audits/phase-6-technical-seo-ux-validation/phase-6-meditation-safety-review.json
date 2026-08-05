@@ -1,0 +1,1456 @@
+{
+  "generatedAt": "2026-08-05T13:56:03.560Z",
+  "rows": [
+    {
+      "route": "/",
+      "family": "home",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/404.html",
+      "family": "static",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/",
+      "family": "articlesHub",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/beginning-a-daily-mindfulness-practice/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhism-for-beginners-simple-guide/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-approach-to-anger/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-impermanence/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/buddhist-wisdom-for-overthinking/",
+      "family": "article",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "family": "articleCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "family": "articleCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "family": "articleCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/compassion-as-a-daily-discipline/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/compassion-in-buddhism-beginner-guide/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/creating-a-peaceful-corner-at-home/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/eightfold-path-explained-daily-life/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/eightfold-path-explained/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/first-week-buddhist-practice/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-meditate-for-anxiety/",
+      "family": "article",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-meditate-for-beginners/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/how-to-practice-non-attachment/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/letting-go-without-giving-up/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-beginners/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-guide/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/metta-meditation-script/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindful-listening-in-everyday-life/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-for-better-sleep/",
+      "family": "article",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-morning-routine/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-of-breathing-guide/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/mindfulness-vs-meditation/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/noble-eightfold-path-practical-guide/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/non-attachment-in-relationships/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/right-speech-buddhism/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/right-speech-examples/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/walking-meditation-step-by-step/",
+      "family": "article",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/authors/echo-buddha-editorial/",
+      "family": "static",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/anger-as-a-signal/",
+      "family": "dailyReflection",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/compassion-begins-nearby/",
+      "family": "dailyReflection",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/kindness-with-boundaries/",
+      "family": "dailyReflection",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/patience-before-anger-speaks/",
+      "family": "dailyReflection",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/daily-reflections/the-first-truth-is-kind/",
+      "family": "dailyReflection",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/disclaimer/",
+      "family": "trustOrPolicy",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/how-echo-buddha-creates-content/",
+      "family": "trustOrPolicy",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "family": "learnHub",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/dependent-origination-explained/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/four-brahmaviharas/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-buddhism/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-mindfulness/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhism-for-beginners/",
+      "family": "learnHub",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/compassion/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karuna/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/metta/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/mindfulness/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sati/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "family": "learnHub",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/eightfold-path/",
+      "family": "learnHub",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "family": "learnHub",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "family": "learnDetail",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation-guide/",
+      "family": "static",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation-safety/",
+      "family": "trustOrPolicy",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/",
+      "family": "meditationHub",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/breathing-meditation/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/loving-kindness-meditation/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/meditation-for-beginners/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/mindfulness-in-daily-life/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/walking-meditation/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/meditation/when-meditation-feels-hard/",
+      "family": "meditation",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/mindful-living/",
+      "family": "static",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/acceptance-before-next-step/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/one-breath-before-anger-replies/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/thoughts-are-visitors/",
+      "family": "quoteStory",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/",
+      "family": "quoteCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-sees-pain-clearly/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/gentle-self-compassion/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/kindness-as-quiet-practice/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/loving-kindness-without-harm/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/forgiveness-without-approving-harm/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/",
+      "family": "quoteCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/few-quiet-minutes/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-returning/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/one-honest-breath/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/",
+      "family": "quoteCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/begin-the-day-with-awareness/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/gratitude-notices-enough/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/ground-yourself-gently/",
+      "family": "quoteStory",
+      "needsSafety": true,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/listen-before-answering/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/peace-begins-with-attention/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/present-moment-one-step/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/",
+      "family": "quoteCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/mindfulness-at-work-breath/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-shame/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "family": "quoteCategory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/difficult-people-and-boundaries/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/understanding-suffering-honestly/",
+      "family": "quoteStory",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/search/",
+      "family": "search",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/start-here/",
+      "family": "static",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/terms-of-use/",
+      "family": "trustOrPolicy",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": false,
+      "hasAdaptiveSupportLanguage": false,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/tools/",
+      "family": "static",
+      "needsSafety": false,
+      "hasMeditationSafetyLink": true,
+      "hasAdaptiveSupportLanguage": true,
+      "prohibitedClaimDetected": false,
+      "status": "PASS",
+      "issues": ""
+    }
+  ],
+  "issueCount": 0
+}

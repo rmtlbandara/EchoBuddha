@@ -1,0 +1,12 @@
+$ npm run typecheck
+started_at=2026-08-05T14:01:43.530Z
+finished_at=2026-08-05T14:01:45.758Z
+exit_code=0
+--- stdout ---
+
+> echo-buddha@1.0.0 typecheck
+> astro sync && tsc --noEmit
+
+19:31:44 [types] Generated 50ms
+
+--- stderr ---

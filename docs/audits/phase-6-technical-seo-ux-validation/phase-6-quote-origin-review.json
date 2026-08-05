@@ -1,0 +1,1746 @@
+{
+  "generatedAt": "2026-08-05T13:56:03.560Z",
+  "rows": [
+    {
+      "route": "/articles/dhammapada-reflection-trained-mind/",
+      "family": "article",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/dhammapada-reflection-what-we-think/",
+      "family": "article",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/articles/dhammapada-verse-1-meaning/",
+      "family": "article",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "family": "learnHub",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "family": "learnDetail",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "family": "learnDetail",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "family": "learnDetail",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "family": "learnDetail",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "family": "learnDetail",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": false,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quote-attribution-policy/",
+      "family": "trustOrPolicy",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/",
+      "family": "quotesHub",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/acceptance-before-next-step/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/feelings-without-the-wheel/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/one-breath-before-anger-replies/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/thoughts-are-visitors/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/thoughts-pass-without-commanding-you/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/compassion-sees-pain-clearly/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/gentle-self-compassion/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/kindness-as-quiet-practice/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/loving-kindness-without-harm/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/change-is-how-life-continues/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/meet-change-softly/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/caring-without-clinging/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/forgiveness-without-approving-harm/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/open-hands-non-attachment/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/soften-around-stress/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/where-attachment-begins/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/few-quiet-minutes/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-returning/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/one-honest-breath/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/begin-the-day-with-awareness/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/gratitude-notices-enough/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/ground-yourself-gently/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/listen-before-answering/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/peace-begins-with-attention/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/present-moment-one-step/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/be-patient-with-the-part-of-you-that-is/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/family-kindness-and-patience/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/patience-softens-the-wait/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/bring-the-teaching-into-the-place-where-you-are/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/eightfold-path-daily-choices/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/mindfulness-at-work-breath/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/right-intention-turns-the-heart/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/small-actions-shape-the-mind/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/the-path-is-not-far-away-it-is-the/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/practice/your-next-response-is-always-part-of-the-path/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-shame/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/evening-release-reflection/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/gentle-hope-keeps-walking/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/one-calm-morning-intention/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "family": "quoteCategory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/contentment-with-what-is-here/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/difficult-people-and-boundaries/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/karma-begins-in-intention/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/right-speech-with-kindness/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/simplicity-clears-the-room/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/understanding-suffering-honestly/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/",
+      "family": "quoteStory",
+      "noindex": true,
+      "inSitemap": false,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-sees-clearly/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    },
+    {
+      "route": "/quotes/wisdom/wise-silence/",
+      "family": "quoteStory",
+      "noindex": false,
+      "inSitemap": true,
+      "hasAttributionPolicyLink": true,
+      "hasOriginalOrSourceDisclosure": true,
+      "status": "PASS",
+      "issues": ""
+    }
+  ],
+  "issueCount": 0
+}

@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-08-05T13:56:03.556Z",
+  "builtHtmlPages": 336,
+  "indexableHtmlPages": 283,
+  "sitemapUrls": 283,
+  "noindexPages": 53,
+  "indexableMissingFromSitemap": [],
+  "noindexInSitemap": [],
+  "sitemapUrlsMissingBuiltHtml": [],
+  "duplicateCanonicals": [],
+  "duplicateTitles": [],
+  "duplicateDescriptions": [],
+  "requiredNoindexChecks": {
+    "dailyToday": {
+      "route": "/daily-reflections/today/",
+      "built": true,
+      "noindex": true,
+      "inSitemap": false
+    },
+    "search": {
+      "route": "/search/",
+      "built": true,
+      "noindex": true,
+      "inSitemap": false
+    }
+  },
+  "phase5Pages": [
+    {
+      "route": "/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/"
+    },
+    {
+      "route": "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/"
+    },
+    {
+      "route": "/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/"
+    },
+    {
+      "route": "/learn/buddhism-101/four-brahmaviharas/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/"
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/"
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/"
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sutta/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sutta/"
+    },
+    {
+      "route": "/learn/buddhist-dictionary/pali-canon/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/"
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/meditation/10-minute-meditation-practice/"
+    },
+    {
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/meditation/meditation-posture-for-beginners/"
+    },
+    {
+      "route": "/meditation/when-meditation-feels-hard/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/"
+    },
+    {
+      "route": "/articles/mindful-email-and-texting/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/articles/mindful-email-and-texting/"
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "built": true,
+      "noindex": false,
+      "inSitemap": true,
+      "canonical": "https://echobuddha.com/articles/compassion-with-boundaries/"
+    }
+  ]
+}

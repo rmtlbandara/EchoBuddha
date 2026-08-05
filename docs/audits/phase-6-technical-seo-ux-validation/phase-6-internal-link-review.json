@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-08-05T13:56:03.557Z",
+  "rows": [
+    {
+      "route": "/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "family": "Buddhist Foundations",
+      "parentPillar": "/learn/buddhism-for-beginners/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 21,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/buddhism-101/"
+    },
+    {
+      "route": "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "family": "Buddhist Foundations",
+      "parentPillar": "/learn/eightfold-path/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 20,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/buddhism-101/"
+    },
+    {
+      "route": "/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "family": "Buddhist Foundations",
+      "parentPillar": "/meditation/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 20,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/buddhism-101/"
+    },
+    {
+      "route": "/learn/buddhism-101/four-brahmaviharas/",
+      "family": "Buddhist Foundations",
+      "parentPillar": "/learn/buddhist-dictionary/compassion/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 20,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/buddhism-101/"
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "family": "Source Study",
+      "parentPillar": "/learn/four-noble-truths/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 21,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/sutta-for-daily-life/"
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "family": "Source Study",
+      "parentPillar": "/learn/eightfold-path/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 20,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/sutta-for-daily-life/"
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sutta/",
+      "family": "Dictionary Expansion",
+      "parentPillar": "/learn/buddhist-dictionary/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 18,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/buddhist-dictionary/"
+    },
+    {
+      "route": "/learn/buddhist-dictionary/pali-canon/",
+      "family": "Dictionary Expansion",
+      "parentPillar": "/learn/buddhist-dictionary/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 17,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/learn/buddhist-dictionary/"
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "family": "Meditation Practice",
+      "parentPillar": "/meditation/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 18,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/meditation-safety/"
+    },
+    {
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "family": "Meditation Practice",
+      "parentPillar": "/meditation/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 17,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/meditation-safety/"
+    },
+    {
+      "route": "/meditation/when-meditation-feels-hard/",
+      "family": "Meditation Practice",
+      "parentPillar": "/meditation/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 17,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/meditation-safety/"
+    },
+    {
+      "route": "/articles/mindful-email-and-texting/",
+      "family": "Mindful Living",
+      "parentPillar": "/articles/right-speech-buddhism/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 26,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/articles/category/practice/"
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "family": "Mindful Living",
+      "parentPillar": "/learn/buddhist-dictionary/compassion/",
+      "hasParentPillarLink": true,
+      "usefulRelatedInternalLinks": 27,
+      "hasMeditationSafetyLinkWhenNeeded": true,
+      "hasSourceOrTrustLinkWhenNeeded": true,
+      "status": "PASS",
+      "issues": "",
+      "sampleLinks": "/start-here/|/learn/|/daily-reflections/|/meditation/|/quotes/|/tools/|/articles/|/articles/category/buddhist-wisdom/"
+    }
+  ]
+}

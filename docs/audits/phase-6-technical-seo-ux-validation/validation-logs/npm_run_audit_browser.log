@@ -1,0 +1,12 @@
+$ npm run audit:browser
+started_at=2026-08-05T14:02:02.809Z
+finished_at=2026-08-05T14:02:27.186Z
+exit_code=0
+--- stdout ---
+
+> echo-buddha@1.0.0 audit:browser
+> node scripts/browser-readiness-check.mjs
+
+Browser readiness check passed.
+
+--- stderr ---
