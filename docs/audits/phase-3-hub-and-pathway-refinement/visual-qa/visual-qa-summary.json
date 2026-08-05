@@ -1,0 +1,507 @@
+{
+  "generatedAt": "2026-08-05T09:05:01.203Z",
+  "baseUrl": "http://127.0.0.1:4321",
+  "results": [
+    {
+      "route": "/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-home.png",
+      "h1": "Echo Buddha",
+      "firstViewportText": [
+        "Echo Buddha",
+        "A daily Buddhist wisdom, meditation, and mindfulness companion for modern life.",
+        "Echo Buddha is a calm space for Buddhist wisdom, meditation, and mindful living. Explore simple teachings, daily reflections, quote meanings, beginner meditation guides, and practical mindfulness for everyday life.",
+        "Start Here",
+        "Read Today's Reflection",
+        "Explore Meditation",
+        "Browse Quotes",
+        "Choose a Calm Place to Begin",
+        "Echo Buddha is organized around daily usefulness: simple teachings, reflections, quote meanings, meditation, mindful living, and practice tools you can return to."
+      ],
+      "anchors": 83,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-start-here.png",
+      "h1": "Begin Your Buddhist Wisdom and Mindfulness Journey",
+      "firstViewportText": [
+        "Begin Your Buddhist Wisdom and Mindfulness Journey",
+        "Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful living. This page helps you choose a path; the fuller learning library remains at Learn.",
+        "Start Learning",
+        "Read Today's Reflection"
+      ],
+      "anchors": 33,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-learn.png",
+      "h1": "Learn Buddhist Wisdom for Daily Life",
+      "firstViewportText": [
+        "Learn Buddhist Wisdom for Daily Life",
+        "A peaceful learning library for readers who want to understand Buddhist wisdom slowly and usefully. Start with simple teachings, learn key terms, read reflective Dhammapada and sutta notes, and bring the practice into speech, attention, kindness, and ordinary daily choices.",
+        "Choose the Right Learning Shelf",
+        "The Learn hub keeps one pillar per broad intent. Use these paths to find the current owner before moving into narrower articles, dictionary terms, quote reflections, or practice notes."
+      ],
+      "anchors": 57,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-meditation.png",
+      "h1": "Beginner Meditation Guides and Mindfulness Practices",
+      "firstViewportText": [
+        "Beginner Meditation Guides and Mindfulness Practices",
+        "Gentle meditation guides for beginners, including breathing meditation, loving-kindness, walking meditation, daily mindfulness, and short practices for ordinary life."
+      ],
+      "anchors": 31,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-mindful-living.png",
+      "h1": "Mindful Living with Buddhist Wisdom",
+      "firstViewportText": [
+        "Mindful Living with Buddhist Wisdom",
+        "Buddhist practice becomes useful when it enters ordinary life: the message before you send it, the pause before anger speaks, the work done with honesty, and the kindness that includes boundaries.",
+        "Practice Areas",
+        "SpeechPractice truthful, timely, non-harming words before a reply leaves the mouth.",
+        "Practice truthful, timely, non-harming words before a reply leaves the mouth.",
+        "WorkLet livelihood and responsibility reflect care, honesty, and restraint.",
+        "Let livelihood and responsibility reflect care, honesty, and restraint.",
+        "FamilyUse familiar rooms as a place for patience rather than automatic reaction.",
+        "Use familiar rooms as a place for patience rather than automatic reaction."
+      ],
+      "anchors": 43,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-quotes.png",
+      "h1": "Original Buddhist-Inspired Quotes",
+      "firstViewportText": [
+        "Original Buddhist-Inspired Quotes",
+        "Browse 153 short original Echo Buddha quotes inspired by Buddhist practice. These are editorial reflections for mindful reading, not direct Buddha quotes or scripture translations.",
+        "Begin the day by meeting one moment before you meet every plan.",
+        "Echo Buddha quotes are original editorial reflections inspired by Buddhist practice. If a future page uses a traditional or named-source quotation, it should be labeled separately and sourced visibly.",
+        "Read the reflection"
+      ],
+      "anchors": 483,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-daily-reflections.png",
+      "h1": "Daily Buddhist Reflections for Mindful Living",
+      "firstViewportText": [
+        "Daily Buddhist Reflections for Mindful Living",
+        "A quiet daily companion for Buddhist-inspired reflection. Each prompt includes a short teaching, plain meaning, practice for today, journal question, and links for deeper learning.",
+        "Read Today's Reflection",
+        "Open practice tools",
+        "Read, Practice, Return",
+        "Patience Begins Before Anger Speaks"
+      ],
+      "anchors": 136,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "viewport": "desktop",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/desktop-tools.png",
+      "h1": "Buddhist Mindfulness Tools and Daily Practice Resources",
+      "firstViewportText": [
+        "Buddhist Mindfulness Tools and Daily Practice Resources",
+        "Simple static tools for daily Buddhist-inspired reflection, quotes, meditation timing, breathing practice, and beginner mindfulness. Everything works in your browser without login or a database."
+      ],
+      "anchors": 42,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-home.png",
+      "h1": "Echo Buddha",
+      "firstViewportText": [
+        "Echo Buddha",
+        "A daily Buddhist wisdom, meditation, and mindfulness companion for modern life.",
+        "Echo Buddha is a calm space for Buddhist wisdom, meditation, and mindful living. Explore simple teachings, daily reflections, quote meanings, beginner meditation guides, and practical mindfulness for everyday life.",
+        "Start Here",
+        "Read Today's Reflection",
+        "Explore Meditation",
+        "Browse Quotes",
+        "Choose a Calm Place to Begin"
+      ],
+      "anchors": 83,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-start-here.png",
+      "h1": "Begin Your Buddhist Wisdom and Mindfulness Journey",
+      "firstViewportText": [
+        "Begin Your Buddhist Wisdom and Mindfulness Journey",
+        "Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful living. This page helps you choose a path; the fuller learning library remains at Learn.",
+        "Start Learning",
+        "Read Today's Reflection",
+        "Three Calm Ways to Begin"
+      ],
+      "anchors": 33,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-learn.png",
+      "h1": "Learn Buddhist Wisdom for Daily Life",
+      "firstViewportText": [
+        "Learn Buddhist Wisdom for Daily Life",
+        "A peaceful learning library for readers who want to understand Buddhist wisdom slowly and usefully. Start with simple teachings, learn key terms, read reflective Dhammapada and sutta notes, and bring the practice into speech, attention, kindness, and ordinary daily choices.",
+        "Choose the Right Learning Shelf",
+        "The Learn hub keeps one pillar per broad intent. Use these paths to find the current owner before moving into narrower articles, dictionary terms, quote reflections, or practice notes."
+      ],
+      "anchors": 57,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-meditation.png",
+      "h1": "Beginner Meditation Guides and Mindfulness Practices",
+      "firstViewportText": [
+        "Beginner Meditation Guides and Mindfulness Practices",
+        "Gentle meditation guides for beginners, including breathing meditation, loving-kindness, walking meditation, daily mindfulness, and short practices for ordinary life.",
+        "Choose a Practice Gently",
+        "Begin with a short session when the day is full.",
+        "5-Minute Meditation"
+      ],
+      "anchors": 31,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-mindful-living.png",
+      "h1": "Mindful Living with Buddhist Wisdom",
+      "firstViewportText": [
+        "Mindful Living with Buddhist Wisdom",
+        "Buddhist practice becomes useful when it enters ordinary life: the message before you send it, the pause before anger speaks, the work done with honesty, and the kindness that includes boundaries.",
+        "Practice Areas",
+        "SpeechPractice truthful, timely, non-harming words before a reply leaves the mouth.",
+        "Practice truthful, timely, non-harming words before a reply leaves the mouth.",
+        "WorkLet livelihood and responsibility reflect care, honesty, and restraint.",
+        "Let livelihood and responsibility reflect care, honesty, and restraint."
+      ],
+      "anchors": 43,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-quotes.png",
+      "h1": "Original Buddhist-Inspired Quotes",
+      "firstViewportText": [
+        "Original Buddhist-Inspired Quotes",
+        "Browse 153 short original Echo Buddha quotes inspired by Buddhist practice. These are editorial reflections for mindful reading, not direct Buddha quotes or scripture translations.",
+        "Begin the day by meeting one moment before you meet every plan.",
+        "Echo Buddha quotes are original editorial reflections inspired by Buddhist practice. If a future page uses a traditional or named-source quotation, it should be labeled separately and sourced visibly.",
+        "Read the reflection"
+      ],
+      "anchors": 483,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-daily-reflections.png",
+      "h1": "Daily Buddhist Reflections for Mindful Living",
+      "firstViewportText": [
+        "Daily Buddhist Reflections for Mindful Living",
+        "A quiet daily companion for Buddhist-inspired reflection. Each prompt includes a short teaching, plain meaning, practice for today, journal question, and links for deeper learning.",
+        "Read Today's Reflection",
+        "Open practice tools",
+        "Read, Practice, Return",
+        "Let one reflection be enough. Read slowly, try the suggested practice once, and return later if the question continues to speak to your day."
+      ],
+      "anchors": 136,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "viewport": "mobile",
+      "status": 200,
+      "screenshot": "docs/audits/phase-3-hub-and-pathway-refinement/visual-qa/mobile-tools.png",
+      "h1": "Buddhist Mindfulness Tools and Daily Practice Resources",
+      "firstViewportText": [
+        "Buddhist Mindfulness Tools and Daily Practice Resources",
+        "Simple static tools for daily Buddhist-inspired reflection, quotes, meditation timing, breathing practice, and beginner mindfulness. Everything works in your browser without login or a database.",
+        "Daily Buddhist Reflection Tool",
+        "Use this when you want one reflection, one practice, and one journal question for the day."
+      ],
+      "anchors": 42,
+      "navLinks": [
+        "Skip to content",
+        "Echo Buddha",
+        "Start Here",
+        "Learn",
+        "Daily Reflections",
+        "Meditation",
+        "Quotes",
+        "Tools",
+        "Articles",
+        "Open full search page"
+      ],
+      "overflowX": 0,
+      "badBoxes": [],
+      "mainPresent": true,
+      "pass": true
+    }
+  ]
+}

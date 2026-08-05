@@ -1,0 +1,109 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+
+const title = "How Echo Buddha Creates Content";
+const description =
+  "Learn how Echo Buddha creates original Buddhist-inspired articles, quotes, reflections, and meditation guidance with source-aware review.";
+const canonicalPath = "/how-echo-buddha-creates-content/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/editorial-policy/">Editorial Policy</a>
+      <span class="eyebrow">Trust and governance</span>
+      <h1>How Echo Buddha Creates Content</h1>
+      <p class="lede">
+        Echo Buddha publishes original educational writing and reflective practice support for ordinary life, with
+        extra care around Buddhist sources, quote origins, and meditation safety.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <h2>What Echo Buddha Is</h2>
+      <p>
+        Echo Buddha is an educational and reflective website. It offers plain-English Buddhist-inspired articles,
+        quote meanings, meditation guidance, dictionary entries, Dhammapada reflections, and daily practice prompts
+        for general readers.
+      </p>
+      <p>
+        The site is meant to be a calm starting point, not a substitute for Buddhist teachers, temples, practice
+        communities, qualified medical or mental health care, legal advice, or personal spiritual direction.
+      </p>
+
+      <h2>Original Writing and Reflection</h2>
+      <p>
+        Echo Buddha content is written in original language for this site. Articles and quote stories may draw on
+        Buddhist themes such as mindfulness, compassion, patience, impermanence, non-harming, and the path of practice,
+        but they should not copy other publishers or present paraphrase as translation.
+      </p>
+      <p>
+        Current quote pages are original Echo Buddha reflections unless a page clearly says otherwise. The
+        <a href="/quote-attribution-policy/">Quote Attribution Policy</a> explains how that boundary is protected.
+      </p>
+
+      <h2>Review Before Publishing</h2>
+      <p>
+        Pages are reviewed for clarity, usefulness, tone, duplicate intent, unsupported claims, internal links,
+        source notes, and whether the page fits Echo Buddha's role as a Buddhist wisdom and daily reflection companion.
+      </p>
+      <p>
+        Doctrinal pages receive source-aware review. Quote pages receive origin review. Meditation and wellbeing pages
+        receive safety review. These reviews are editorial checks, not claims of academic, monastic, clinical, legal,
+        or institutional certification.
+      </p>
+
+      <h2>Source-Aware Buddhist Writing</h2>
+      <p>
+        When Echo Buddha explains Buddhist teachings, the goal is to use respectful beginner language while pointing
+        readers toward reputable source context where appropriate. Traditional texts, translations, commentaries,
+        paraphrases, and Echo Buddha explanations should remain visibly distinct.
+      </p>
+      <p>
+        Read <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a> for the source standards
+        used across Learn pages, articles, dictionary entries, and Dhammapada reflections.
+      </p>
+
+      <h2>AI and Automation Boundaries</h2>
+      <p>
+        Automation may help with route inventories, validation, draft organization, technical checks, and consistency
+        audits. It does not replace source verification, owner review, Buddhist studies review where needed, safety
+        review, or correction handling.
+      </p>
+      <p>
+        Echo Buddha should not use automation to fabricate Buddhist sources, invented reviewers, credentials,
+        translations, quote origins, medical claims, traffic claims, or AdSense approval claims.
+      </p>
+
+      <h2>Corrections and Updates</h2>
+      <p>
+        Readers can report unclear wording, typos, broken links, source concerns, quote attribution concerns, or safety
+        concerns through the <a href="/corrections/">Corrections and Editorial Updates</a> process.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+</style>

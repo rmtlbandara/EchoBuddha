@@ -49,6 +49,33 @@ const relatedSections = [
   { label: "Meditation Guides", href: "/meditation/", description: "Beginner-friendly guides for breath, walking, metta, and daily mindfulness." },
   { label: "Mindful Living", href: "/mindful-living/", description: "Bring Buddhist-inspired practice into ordinary days." }
 ];
+const toolPathways = [
+  {
+    tool: "Meditation Timer",
+    href: "/meditation/",
+    description: "Use the timer lightly, then return to the Meditation hub and safety guidance."
+  },
+  {
+    tool: "Quote Tool",
+    href: "/quotes/",
+    description: "Treat each quote as an original reflection and check the attribution policy when source status matters."
+  },
+  {
+    tool: "Reflection Tool",
+    href: "/daily-reflections/",
+    description: "Use the generator as a doorway into the daily reflection library."
+  },
+  {
+    tool: "Glossary Search",
+    href: "/learn/buddhist-dictionary/",
+    description: "Open the full dictionary entry before treating a Buddhist term as understood."
+  },
+  {
+    tool: "7-Day Path",
+    href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+    description: "Connect the challenge back to study, ethics, attention, and ordinary conduct."
+  }
+];
 const staticResourceLinks = [
   { label: "Today\'s Reflection", href: "/daily-reflections/today/", description: "Open the current daily reflection without using the generator." },
   { label: "Mindfulness Quotes", href: "/quotes/mindfulness/", description: "Browse original mindfulness quotes and reflection stories." },
@@ -189,6 +216,26 @@ const jsonLd = [
         <input id="tool-glossary-search" class="tool-search" type="search" data-glossary-search placeholder="Search terms such as metta, karma, anicca..." />
         <div class="glossary-grid" data-glossary-output></div>
       </section>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <span class="eyebrow">Tools should lead back to practice</span>
+      <h2>Choose a Tool, Then Continue the Path</h2>
+      <div class="tool-path-grid">
+        {toolPathways.map((path) => (
+          <a class="surface tool-path" href={path.href}>
+            <strong>{path.tool}</strong>
+            <span>{path.description}</span>
+          </a>
+        ))}
+      </div>
+      <nav class="policy-links" aria-label="Practice tool policy links">
+        <a href="/meditation-safety/">Meditation Safety</a>
+        <a href="/quote-attribution-policy/">Quote Attribution Policy</a>
+        <a href="/buddhist-sources-and-citations/">Buddhist Sources</a>
+      </nav>
     </div>
   </section>
 
@@ -471,13 +518,15 @@ const jsonLd = [
   }
 
   .challenge-grid,
-  .glossary-grid {
+  .glossary-grid,
+  .tool-path-grid {
     display: grid;
     gap: 0.75rem;
   }
 
   .challenge-grid a,
-  .glossary-grid a {
+  .glossary-grid a,
+  .tool-path {
     background: rgba(247, 240, 229, 0.58);
     border: 1px solid var(--color-line);
     border-radius: var(--radius);
@@ -488,20 +537,52 @@ const jsonLd = [
   }
 
   .challenge-grid a:hover,
-  .glossary-grid a:hover {
+  .glossary-grid a:hover,
+  .tool-path:hover {
     border-color: var(--color-green);
   }
 
   .challenge-grid span,
-  .glossary-grid span {
+  .glossary-grid span,
+  .tool-path span {
     color: var(--color-muted);
     font-size: 0.88rem;
   }
 
   .challenge-grid strong,
-  .glossary-grid strong {
+  .glossary-grid strong,
+  .tool-path strong {
     color: var(--color-ink);
     font-family: var(--font-serif);
+  }
+
+  .tool-path-grid {
+    margin-top: 1.25rem;
+  }
+
+  .tool-path {
+    color: var(--color-ink);
+  }
+
+  .policy-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 1rem;
+  }
+
+  .policy-links a {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.84rem;
+    font-weight: 800;
+    padding: 0.35rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .policy-links a:hover {
+    color: var(--color-brown);
   }
 
   .tool-search {
@@ -525,7 +606,8 @@ const jsonLd = [
     }
 
     .challenge-grid,
-    .glossary-grid {
+    .glossary-grid,
+    .tool-path-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }

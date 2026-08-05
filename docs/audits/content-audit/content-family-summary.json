@@ -6,7 +6,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 1187
+    "averageWords": 1274
   },
   "error": {
     "total": 1,
@@ -15,7 +15,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 159
+    "averageWords": 160
   },
   "policy": {
     "total": 7,
@@ -24,7 +24,7 @@
     "decisions": {
       "Pass": 7
     },
-    "averageWords": 419
+    "averageWords": 450
   },
   "hub": {
     "total": 8,
@@ -33,7 +33,7 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1123
+    "averageWords": 1207
   },
   "article": {
     "total": 42,
@@ -43,7 +43,7 @@
       "Minor improvement": 11,
       "Pass": 31
     },
-    "averageWords": 1735
+    "averageWords": 1744
   },
   "articleCategory": {
     "total": 5,
@@ -52,7 +52,16 @@
     "decisions": {
       "Pass": 5
     },
-    "averageWords": 511
+    "averageWords": 512
+  },
+  "other": {
+    "total": 7,
+    "indexable": 6,
+    "noindex": 1,
+    "decisions": {
+      "Pass": 7
+    },
+    "averageWords": 583
   },
   "dailyReflection": {
     "total": 30,
@@ -61,7 +70,7 @@
     "decisions": {
       "Minor improvement": 30
     },
-    "averageWords": 482
+    "averageWords": 483
   },
   "todayReflection": {
     "total": 1,
@@ -70,7 +79,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 2192
+    "averageWords": 2193
   },
   "learningPage": {
     "total": 9,
@@ -79,7 +88,7 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 572
+    "averageWords": 581
   },
   "learningDetail": {
     "total": 37,
@@ -88,16 +97,7 @@
     "decisions": {
       "Pass": 37
     },
-    "averageWords": 611
-  },
-  "other": {
-    "total": 2,
-    "indexable": 1,
-    "noindex": 1,
-    "decisions": {
-      "Pass": 2
-    },
-    "averageWords": 930
+    "averageWords": 618
   },
   "meditationDetail": {
     "total": 6,
@@ -106,7 +106,7 @@
     "decisions": {
       "Pass": 6
     },
-    "averageWords": 564
+    "averageWords": 583
   },
   "quoteCategory": {
     "total": 10,
@@ -115,7 +115,7 @@
     "decisions": {
       "Pass": 10
     },
-    "averageWords": 605
+    "averageWords": 620
   },
   "quoteStory": {
     "total": 153,
@@ -125,6 +125,6 @@
       "Minor improvement": 103,
       "Pass": 50
     },
-    "averageWords": 912
+    "averageWords": 921
   }
 }

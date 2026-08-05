@@ -490,8 +490,16 @@ const jsonLd = [
           )}
           <p>
             For sourcing, attribution, corrections, and the limits of educational content, read the
-            <a href="/editorial-policy/"> Editorial Policy</a> and <a href="/disclaimer/">Disclaimer</a>.
+            <a href="/editorial-policy/">Editorial Policy</a>,
+            <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a>,
+            <a href="/corrections/">Corrections</a>, and <a href="/disclaimer/">Disclaimer</a>.
           </p>
+          {needsWellbeingNote && (
+            <p>
+              For meditation and wellbeing boundaries, read
+              <a href="/meditation-safety/">Meditation Safety and Gentle Practice</a>.
+            </p>
+          )}
           {sourceReferences.length > 0 && (
             <>
               <h3>Selected References</h3>

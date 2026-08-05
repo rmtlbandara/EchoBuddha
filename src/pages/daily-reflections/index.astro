@@ -18,6 +18,28 @@ const relatedSections = [
   { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/", description: "Understand key Buddhist terms in plain language." },
   { label: "Buddhist Quotes", href: "/quotes/", description: "Read short original quotes with reflection stories." }
 ];
+const reflectionPathways = [
+  {
+    label: "Today",
+    href: "/daily-reflections/today/",
+    description: "Open one date-based reflection and let that be enough for the day."
+  },
+  {
+    label: "Recent and Evergreen",
+    href: "#reflection-library",
+    description: "Browse the current reflection library without creating hundreds of thin daily pages."
+  },
+  {
+    label: "Practice Prompt",
+    href: "/tools/",
+    description: "Use the reflection tool, timer, or challenge, then return to the learning path."
+  },
+  {
+    label: "Learn the Related Idea",
+    href: "/learn/",
+    description: "Move from a daily prompt into a Buddhist term, teaching, or source-aware guide."
+  }
+];
 const faqItems = [
   {
     question: "How does today's reflection work?",
@@ -95,7 +117,22 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="section section-band">
+  <section class="section section--tight reflection-path-section">
+    <div class="container">
+      <span class="eyebrow">Daily habit paths</span>
+      <h2>Choose One Way to Return</h2>
+      <div class="reflection-path-grid">
+        {reflectionPathways.map((path) => (
+          <a class="surface reflection-path" href={path.href}>
+            <strong>{path.label}</strong>
+            <span>{path.description}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="reflection-library" class="section section-band">
     <div class="container">
         <span class="eyebrow">Reflection library</span>
       <h2>Evergreen Daily Reflection Library</h2>
@@ -142,10 +179,34 @@ const jsonLd = [
   }
 
   .reflection-grid,
+  .reflection-path-grid,
   .faq-list {
     display: grid;
     gap: 1rem;
     margin-top: 1.25rem;
+  }
+
+  .reflection-path-section {
+    padding-top: 0;
+  }
+
+  .reflection-path {
+    color: var(--color-ink);
+    display: grid;
+    gap: 0.35rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .reflection-path strong {
+    color: var(--color-green);
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+  }
+
+  .reflection-path span {
+    color: var(--color-muted);
+    font-size: 0.92rem;
   }
 
   .section-note {
@@ -168,8 +229,15 @@ const jsonLd = [
   }
 
   @media (min-width: 860px) {
-    .reflection-grid {
+    .reflection-grid,
+    .reflection-path-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1080px) {
+    .reflection-path-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 </style>

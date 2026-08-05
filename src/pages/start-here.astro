@@ -32,6 +32,35 @@ const sourceStudyLinks = [
   { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
   { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" }
 ];
+const pathwayGroups = [
+  {
+    title: "First-Week Beginner Path",
+    description: "Use this if you are new to Buddhism and want a calm order without turning Start Here into another Learn article.",
+    links: [
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+      { label: "Buddhism 101", href: "/learn/buddhism-101/" },
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
+    ]
+  },
+  {
+    title: "Daily Practice Path",
+    description: "Use this when you want one repeatable practice today: reflection, meditation, and mindful conduct.",
+    links: [
+      { label: "Today's Reflection", href: "/daily-reflections/today/" },
+      { label: "Meditation Hub", href: "/meditation/" },
+      { label: "Mindful Living", href: "/mindful-living/" }
+    ]
+  },
+  {
+    title: "Source-Aware Study Path",
+    description: "Use this when you want careful context for Buddhist terms, Dhammapada notes, sutta themes, and sources.",
+    links: [
+      { label: "Learn Library", href: "/learn/" },
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
+      { label: "Buddhist Sources and Citations", href: "/buddhist-sources-and-citations/" }
+    ]
+  }
+];
 const faqItems = [
   {
     question: "Do I need to be Buddhist to use Echo Buddha?",
@@ -81,7 +110,7 @@ const jsonLd = [
       <h1>Begin Your Buddhist Wisdom and Mindfulness Journey</h1>
       <p class="lede">
         Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful
-        living. Start gently, learn one idea at a time, and let practice become part of ordinary life.
+        living. This page helps you choose a path; the fuller learning library remains at Learn.
       </p>
       <div class="hero-actions">
         <a class="button" href="/learn/buddhism-for-beginners/">Start Learning</a>
@@ -92,8 +121,21 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
-      <span class="eyebrow">Choose your doorway</span>
-      <h2>What Are You Looking For?</h2>
+      <span class="eyebrow">Choose your path</span>
+      <h2>Three Calm Ways to Begin</h2>
+      <div class="pathway-grid">
+        {pathwayGroups.map((group) => (
+          <section class="surface pathway-card">
+            <h3>{group.title}</h3>
+            <p>{group.description}</p>
+            <ul>
+              {group.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+            </ul>
+          </section>
+        ))}
+      </div>
+      <span class="eyebrow doorway-eyebrow">Quick doorway</span>
+      <h2 class="doorway-heading">If You Already Know What You Need</h2>
       <div class="grid grid--3">
         {startingNeeds.map((item) => <LearningCard item={item} />)}
       </div>
@@ -173,11 +215,41 @@ const jsonLd = [
   }
 
   .path-list,
+  .pathway-grid,
   .source-study,
   .faq-list {
     display: grid;
     gap: 0.85rem;
     margin-top: 1.25rem;
+  }
+
+  .pathway-card {
+    padding: 1.15rem;
+  }
+
+  .pathway-card h3 {
+    font-size: 1.22rem;
+  }
+
+  .pathway-card p {
+    color: var(--color-muted);
+    margin-bottom: 0.85rem;
+  }
+
+  .pathway-card ul {
+    display: grid;
+    gap: 0.45rem;
+    margin-bottom: 0;
+    padding-left: 1.15rem;
+  }
+
+  .doorway-eyebrow {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+
+  .doorway-heading {
+    font-size: clamp(1.55rem, 3vw, 2rem);
   }
 
   .path-item {
@@ -244,6 +316,10 @@ const jsonLd = [
   @media (min-width: 760px) {
     .path-list {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .pathway-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 </style>

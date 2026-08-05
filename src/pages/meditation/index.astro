@@ -18,6 +18,44 @@ const guideChoices = [
   { need: "Daily awareness", label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
   { need: "Need consistency", label: "10-Minute Meditation", href: "/meditation-guide/#ten-minute-practice" }
 ];
+const meditationPathways = [
+  {
+    title: "Choose by Time",
+    description: "Begin with a short session when the day is full.",
+    links: [
+      { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" },
+      { label: "10-Minute Practice", href: "/meditation-guide/#ten-minute-practice" },
+      { label: "Meditation Timer", href: "/tools/#timer-heading" }
+    ]
+  },
+  {
+    title: "Choose by Practice",
+    description: "Let the practice fit the body and the day.",
+    links: [
+      { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
+      { label: "Walking Meditation", href: "/meditation/walking-meditation/" },
+      { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" }
+    ]
+  },
+  {
+    title: "Choose by Difficulty",
+    description: "Meet distraction, restlessness, and inconsistency without turning meditation into a performance.",
+    links: [
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
+      { label: "Common Difficulties", href: "/meditation-guide/#common-challenges" },
+      { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" }
+    ]
+  },
+  {
+    title: "Safety-First Guidance",
+    description: "Pause, shorten, ground, or seek qualified support when practice feels overwhelming.",
+    links: [
+      { label: "Meditation Safety", href: "/meditation-safety/" },
+      { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/" },
+      { label: "Daily Reflections", href: "/daily-reflections/" }
+    ]
+  }
+];
 const sourceLinks = [
   {
     label: "Anapanasati Sutta (MN 118)",
@@ -64,6 +102,21 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
+      <section class="surface pathway-chooser" aria-labelledby="meditation-pathway-heading">
+        <span class="eyebrow">Practice pathways</span>
+        <h2 id="meditation-pathway-heading">Choose a Practice Gently</h2>
+        <div class="pathway-grid">
+          {meditationPathways.map((path) => (
+            <section class="pathway-card">
+              <h3>{path.title}</h3>
+              <p>{path.description}</p>
+              <ul>
+                {path.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </section>
       <section class="surface guide-chooser" aria-labelledby="guide-chooser-heading">
         <span class="eyebrow">Choose your meditation guide</span>
         <h2 id="guide-chooser-heading">Start Where You Are Today</h2>
@@ -91,6 +144,10 @@ const jsonLd = [
         <p class="lede">
           Meditation is educational and reflective. It is not a replacement for medical or mental health care. If
           practice feels overwhelming, open your eyes, feel your feet, shorten the session, or seek qualified support.
+        </p>
+        <p>
+          Read <a href="/meditation-safety/">Meditation Safety and Gentle Practice</a> for the full safety standard
+          used across Echo Buddha meditation pages.
         </p>
         <div class="source-note">
           <h3>Practice Sources</h3>
@@ -137,8 +194,46 @@ const jsonLd = [
     padding: 1.25rem;
   }
 
+  .pathway-chooser {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+  }
+
   .guide-chooser h2 {
     font-size: 1.45rem;
+  }
+
+  .pathway-chooser h2 {
+    font-size: 1.45rem;
+  }
+
+  .pathway-grid {
+    display: grid;
+    gap: 0.85rem;
+    margin-top: 1rem;
+  }
+
+  .pathway-card {
+    background: rgba(247, 240, 229, 0.58);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    padding: 0.95rem;
+  }
+
+  .pathway-card h3 {
+    font-size: 1.12rem;
+  }
+
+  .pathway-card p {
+    color: var(--color-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .pathway-card ul {
+    display: grid;
+    gap: 0.4rem;
+    margin-bottom: 0;
+    padding-left: 1rem;
   }
 
   .guide-choice-grid {
@@ -201,7 +296,8 @@ const jsonLd = [
   }
 
   @media (min-width: 720px) {
-    .guide-choice-grid {
+    .guide-choice-grid,
+    .pathway-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }

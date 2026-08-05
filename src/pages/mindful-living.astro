@@ -14,7 +14,9 @@ const articleSlugs = [
   "mindfulness-morning-routine",
   "right-speech-buddhism",
   "mindful-listening-in-everyday-life",
+  "buddhist-approach-to-anger",
   "compassion-as-a-daily-discipline",
+  "buddhist-teachings-on-impermanence",
   "letting-go-without-giving-up",
   "three-ways-to-practice-patience"
 ];
@@ -22,12 +24,22 @@ const featuredArticles = articleSlugs
   .map((slug) => fullArticles.find((article) => article.slug === slug))
   .filter(Boolean);
 const livingAreas = [
-  { label: "Mindful Speech", href: "/articles/right-speech-buddhism/", description: "Speak with more truth, care, timing, and restraint." },
-  { label: "Work and Livelihood", href: "/learn/buddhism-101/right-livelihood-buddhism/", description: "Let values become visible in work and responsibility." },
-  { label: "Family Patience", href: "/quotes/patience/family-kindness-and-patience/", description: "Practice patience in familiar rooms and repeated conversations." },
-  { label: "Letting Go", href: "/articles/how-to-practice-non-attachment/", description: "Care sincerely without gripping every outcome." },
-  { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/", description: "Meet suffering with wise, non-harming care." },
-  { label: "Daily Tools", href: "/tools/", description: "Use short prompts and timers to keep practice simple." }
+  { label: "Speech", href: "/articles/right-speech-buddhism/", description: "Practice truthful, timely, non-harming words before a reply leaves the mouth." },
+  { label: "Work", href: "/learn/buddhism-101/right-livelihood-buddhism/", description: "Let livelihood and responsibility reflect care, honesty, and restraint." },
+  { label: "Family", href: "/quotes/patience/family-kindness-and-patience/", description: "Use familiar rooms as a place for patience rather than automatic reaction." },
+  { label: "Emotions", href: "/articles/buddhist-approach-to-anger/", description: "Meet anger and difficulty through awareness, not suppression or harm." },
+  { label: "Screens", href: "/articles/beginning-a-daily-mindfulness-practice/", description: "Bring mindfulness to scrolling, messages, attention, and digital habits." },
+  { label: "Grief and Change", href: "/learn/buddhism-101/what-is-impermanence/", description: "Let impermanence guide tenderness when life will not stay fixed." },
+  { label: "Rest", href: "/daily-reflections/", description: "Return through one daily reflection instead of turning practice into another task." },
+  { label: "Relationships", href: "/learn/buddhist-dictionary/compassion/", description: "Practice compassion with boundaries, listening, and non-harming care." }
+];
+const principleLinks = [
+  { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
+  { label: "Patience", href: "/articles/three-ways-to-practice-patience/" },
+  { label: "Letting Go", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" },
+  { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/" },
+  { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/" },
+  { label: "Daily Reflections", href: "/daily-reflections/" }
 ];
 const faqItems = [
   {
@@ -86,6 +98,9 @@ const jsonLd = [
       <div class="grid grid--3">
         {livingAreas.map((item) => <LearningCard item={item} />)}
       </div>
+      <nav class="principle-links" aria-label="Mindful living Buddhist principles">
+        {principleLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+      </nav>
     </div>
   </section>
 
@@ -133,6 +148,27 @@ const jsonLd = [
     display: grid;
     gap: 0.85rem;
     margin-top: 2rem;
+  }
+
+  .principle-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 1.25rem;
+  }
+
+  .principle-links a {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.84rem;
+    font-weight: 800;
+    padding: 0.35rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .principle-links a:hover {
+    color: var(--color-brown);
   }
 
   .faq-item {

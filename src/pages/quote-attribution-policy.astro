@@ -1,0 +1,91 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+
+const title = "Quote Attribution Policy";
+const description =
+  "How Echo Buddha labels original quote reflections, verified quotes, paraphrases, popular sayings, and quote corrections.";
+const canonicalPath = "/quote-attribution-policy/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/editorial-policy/">Editorial Policy</a>
+      <span class="eyebrow">Quote integrity</span>
+      <h1>Quote Attribution Policy</h1>
+      <p class="lede">
+        Echo Buddha protects quote integrity by treating current quote pages as original Echo Buddha reflections unless
+        another source is clearly verified and labeled.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <h2>Current Quote Status</h2>
+      <p>
+        Current Echo Buddha quote categories and quote stories are original Echo Buddha editorial reflections unless a
+        page clearly says otherwise. They are inspired by Buddhist practice themes, but they are not direct scripture
+        translations or verified historical sayings.
+      </p>
+      <p>
+        A quote should not be called a Buddha quote, Dhammapada quote, scripture translation, sutta quote, or
+        named-person quote unless the origin has been checked against a reliable source.
+      </p>
+
+      <h2>Verified Quotes</h2>
+      <p>
+        If Echo Buddha later publishes a verified quotation, the page should name the source, translator or edition
+        where relevant, copyright or license status where needed, and whether the wording is exact, lightly excerpted,
+        or translated by someone else.
+      </p>
+      <p>
+        Verified quote labels should be specific. A page should say "Dhammapada source context" or "quoted from a
+        named translation" only when that is true.
+      </p>
+
+      <h2>Paraphrases and Reflections</h2>
+      <p>
+        Paraphrases and reflections can be useful, but they must be labeled honestly. A paraphrase restates a source
+        idea in new language. A reflection uses an idea as a starting point for original Echo Buddha writing.
+      </p>
+      <p>
+        When a popular saying is common online but uncertain in origin, Echo Buddha should avoid presenting it as a
+        verified Buddhist quote. The safer label is "popular paraphrase," "attribution uncertain," or "original
+        reflection inspired by Buddhist themes," depending on the evidence.
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        Quote attribution corrections are welcome. Send the page URL, the quote text, the suspected issue, and any
+        source evidence through <a href="/corrections/">Corrections and Editorial Updates</a>.
+      </p>
+      <p>
+        If a quote attribution is wrong or unclear, Echo Buddha may update the label, remove the attribution, add a
+        source note, or rewrite the page so readers are not misled.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+</style>

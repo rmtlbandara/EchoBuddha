@@ -25,6 +25,23 @@ const quoteRelatedReading = quoteCategories
     href: relatedReadingByTheme[category.name]
   }))
   .filter((item) => item.href);
+const quoteSourcePaths = [
+  {
+    title: "Original Echo Buddha Quotes",
+    href: "/quote-attribution-policy/",
+    description: "Current quote pages are original editorial reflections unless a page clearly says otherwise."
+  },
+  {
+    title: "Future Verified Buddhist Text Quotes",
+    href: "/buddhist-sources-and-citations/",
+    description: "Future scripture or named-source quotations need visible source, translation, and attribution context."
+  },
+  {
+    title: "Quote to Practice",
+    href: "/mindful-living/",
+    description: "Move from a short line into speech, patience, compassion, letting go, and daily-life practice."
+  }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -83,6 +100,18 @@ const jsonLd = [
           </a>
         )}
       </aside>
+      <section class="quote-pathways" aria-labelledby="quote-pathways-heading">
+        <span class="eyebrow">Quote integrity</span>
+        <h2 id="quote-pathways-heading">Know What Kind of Quote You Are Reading</h2>
+        <div class="quote-pathway-grid">
+          {quoteSourcePaths.map((path) => (
+            <a class="surface quote-pathway" href={path.href}>
+              <strong>{path.title}</strong>
+              <span>{path.description}</span>
+            </a>
+          ))}
+        </div>
+      </section>
       <div class="category-heading">
         <span class="eyebrow">Browse by category</span>
         <h2>Choose a Theme</h2>
@@ -131,6 +160,39 @@ const jsonLd = [
 <style>
   .category-heading h2 {
     font-size: clamp(1.8rem, 4vw, 2.4rem);
+  }
+
+  .quote-pathways {
+    margin-bottom: 1.5rem;
+  }
+
+  .quote-pathways h2 {
+    font-size: clamp(1.65rem, 3vw, 2.1rem);
+  }
+
+  .quote-pathway-grid {
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .quote-pathway {
+    color: var(--color-ink);
+    display: grid;
+    gap: 0.35rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .quote-pathway strong {
+    color: var(--color-green);
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+  }
+
+  .quote-pathway span {
+    color: var(--color-muted);
+    font-size: 0.92rem;
   }
 
   .quote-note {
@@ -271,6 +333,10 @@ const jsonLd = [
   @media (min-width: 720px) {
     .category-grid {
       grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .quote-pathway-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .filter-controls {

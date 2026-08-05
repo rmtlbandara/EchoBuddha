@@ -75,6 +75,10 @@ const jsonLd = [
         <aside class="surface safety-box" aria-labelledby="meditation-safety-heading">
           <h2 id="meditation-safety-heading">Practice Safety</h2>
           {safetyNotice.map((notice) => <p>{notice}</p>)}
+          <p>
+            Read <a href="/meditation-safety/">Meditation Safety and Gentle Practice</a> for the fuller practice
+            boundaries used across Echo Buddha.
+          </p>
         </aside>
         {qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-meditation-matters-heading">
@@ -130,8 +134,9 @@ const jsonLd = [
               </p>
             )}
             <p>
-              Read the <a href="/disclaimer/">Disclaimer</a> for the site's meditation and wellbeing limitations, and
-              the <a href="/editorial-policy/">Editorial Policy</a> for review standards.
+              Read the <a href="/meditation-safety/">Meditation Safety</a> and
+              <a href="/disclaimer/">Disclaimer</a> for the site's meditation and wellbeing limitations, and the
+              <a href="/editorial-policy/">Editorial Policy</a> for review standards.
             </p>
             {sourceLinks.length > 0 && (
               <>

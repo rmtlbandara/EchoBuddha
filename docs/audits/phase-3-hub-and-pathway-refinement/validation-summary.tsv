@@ -1,0 +1,10 @@
+command	status	exit_code	log	notes
+npm run build	PASS	0	validation-logs/npm_run_build.log	Built 317 pages.
+npm run typecheck	PASS	0	validation-logs/npm_run_typecheck.log	Astro sync and TypeScript check passed.
+npm run lint	PASS	0	validation-logs/npm_run_lint.log	Governance lint passed.
+npm test	PASS	0	validation-logs/npm_test.log	Node test suite passed.
+npm run audit:seo	PASS	0	validation-logs/npm_run_audit_seo.log	Sitemap, canonical, metadata, structured data, and indexability audit passed.
+npm run audit:content	PASS	0	validation-logs/npm_run_audit_content.log	Content remediation/governance audit passed.
+npm run validate	PASS	0	validation-logs/npm_run_validate.log	Combined standard validation passed.
+npm run validate:release	PASS	0	validation-logs/npm_run_validate_release.log	Release validation, including dependency audit, passed.
+visual QA	PASS	0	visual-qa/visual-qa-summary.json	Checked 8 hubs on desktop and mobile; 16 checks, 0 failures.

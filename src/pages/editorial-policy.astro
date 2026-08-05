@@ -4,6 +4,33 @@ import { SITE } from "../data/site";
 
 const title = "Editorial Policy";
 const description = "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.";
+const trustLinks = [
+  {
+    label: "How Echo Buddha Creates Content",
+    href: "/how-echo-buddha-creates-content/",
+    description: "Original writing, review boundaries, automation limits, and what the site does not claim."
+  },
+  {
+    label: "Buddhist Sources and Citations",
+    href: "/buddhist-sources-and-citations/",
+    description: "How scripture, commentary, paraphrase, translation, and Echo Buddha explanation are separated."
+  },
+  {
+    label: "Quote Attribution Policy",
+    href: "/quote-attribution-policy/",
+    description: "How original quote reflections, verified quotes, popular sayings, and corrections are labeled."
+  },
+  {
+    label: "Meditation Safety",
+    href: "/meditation-safety/",
+    description: "Gentle practice boundaries, no treatment claims, and stop, ground, adapt, or seek-support guidance."
+  },
+  {
+    label: "Corrections and Editorial Updates",
+    href: "/corrections/",
+    description: "How readers can report source, quote, typo, safety, clarity, and update concerns."
+  }
+];
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -29,6 +56,20 @@ const jsonLd = {
 
   <section class="section section--tight">
     <div class="container prose">
+      <h2>Trust and Governance</h2>
+      <p>
+        These pages explain how Echo Buddha protects Buddhist source clarity, quote integrity, meditation safety, and
+        correction pathways before broader content expansion.
+      </p>
+      <div class="trust-grid">
+        {trustLinks.map((link) => (
+          <a class="surface trust-card" href={link.href}>
+            <span>{link.label}</span>
+            <p>{link.description}</p>
+          </a>
+        ))}
+      </div>
+
       <h2>Content Purpose</h2>
       <p>
         Echo Buddha publishes accessible Buddhist-inspired reflections, original quotes, meditation guidance, and
@@ -53,6 +94,7 @@ const jsonLd = {
         Echo Buddha quote pages are treated as original editorial reflections unless a page clearly states another
         source. A quote must not be presented as a Buddha quote, scripture translation, historical saying, or teaching
         from a named person unless that origin has been verified against a reliable source.
+        Read the <a href="/quote-attribution-policy/">Quote Attribution Policy</a> for the current labeling standard.
       </p>
       <p>
         If attribution is uncertain, the page should say so plainly or remain unpublished until the uncertainty is
@@ -77,11 +119,12 @@ const jsonLd = {
         Beginner explanations use original language and should be checked against primary Buddhist texts, reputable
         translations, recognized Buddhist institutions, teachers, and study communities where relevant. Pali and
         Sanskrit terms are simplified for general readers, so formal study may require more precise tradition-specific
-        guidance.
+        guidance. Read <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a> for more detail.
       </p>
       <p>
         Automation may assist with audits, organization, code, and editorial checks. It does not replace source
         verification, Buddhist studies review, safety review, owner review, or legal review where those are needed.
+        Read <a href="/how-echo-buddha-creates-content/">How Echo Buddha Creates Content</a> for the fuller process.
       </p>
 
       <h2>Corrections Policy</h2>
@@ -91,7 +134,8 @@ const jsonLd = {
       </p>
       <p>
         To report an issue, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and include the page URL, the
-        relevant passage, and a brief explanation.
+        relevant passage, and a brief explanation. Read
+        <a href="/corrections/">Corrections and Editorial Updates</a> for the review path.
       </p>
 
       <h2>Editorial Independence</h2>
@@ -107,8 +151,42 @@ const jsonLd = {
       <h2>Limitations</h2>
       <p>
         Echo Buddha is an educational and reflective publication. It does not replace qualified medical, mental
-        health, legal, or religious guidance. Read the <a href="/disclaimer/">Disclaimer</a> for more detail.
+        health, legal, or religious guidance. Read the <a href="/disclaimer/">Disclaimer</a> and
+        <a href="/meditation-safety/">Meditation Safety</a> for more detail.
       </p>
     </div>
   </section>
 </Layout>
+
+<style>
+  .trust-grid {
+    display: grid;
+    gap: 0.85rem;
+    margin: 1.25rem 0 2.25rem;
+  }
+
+  .trust-card {
+    display: grid;
+    gap: 0.25rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .trust-card span {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    font-weight: 800;
+  }
+
+  .trust-card p {
+    color: var(--color-muted);
+    margin: 0;
+  }
+
+  @media (min-width: 760px) {
+    .trust-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

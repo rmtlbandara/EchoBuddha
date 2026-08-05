@@ -1,0 +1,93 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+
+const title = "Meditation Safety and Gentle Practice";
+const description =
+  "Echo Buddha's meditation safety guidance for educational practice, grounding, adapting, stopping, and seeking qualified support.";
+const canonicalPath = "/meditation-safety/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/editorial-policy/">Editorial Policy</a>
+      <span class="eyebrow">Meditation safety</span>
+      <h1>Meditation Safety and Gentle Practice</h1>
+      <p class="lede">
+        Echo Buddha meditation content is educational and reflective. It should support gentle practice without
+        promising cure, treatment, guaranteed calm, guaranteed sleep, or any medical outcome.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <h2>Educational Practice, Not Treatment</h2>
+      <p>
+        Meditation can be meaningful for many people, but experiences vary. Echo Buddha does not provide diagnosis,
+        therapy, crisis support, or individualized medical or mental health advice.
+      </p>
+      <p>
+        Pages about stress, sleep, anxiety, anger, grief, overthinking, or difficult emotions should be read as general
+        educational guidance. They should not be used to delay or replace qualified support.
+      </p>
+
+      <h2>Stop, Ground, or Adapt</h2>
+      <p>
+        If breath focus, stillness, silence, loving-kindness, body awareness, or a difficult emotion feels
+        overwhelming, stop or adapt the practice. Open your eyes, feel the feet or hands, notice the room, change to a
+        neutral anchor, shorten the session, stand up, or return to ordinary activity.
+      </p>
+      <p>
+        A useful meditation session is not the one that looks calm from the outside. It is the one practiced with
+        honesty, patience, and care for the actual body and mind present today.
+      </p>
+
+      <h2>Trauma Sensitivity and Overwhelm</h2>
+      <p>
+        Some practices can stir fear, numbness, grief, intrusive memories, shame, or emotional flooding. If that
+        happens, forcing the practice is not required. Choose grounding, connection, movement, or qualified support
+        instead.
+      </p>
+      <p>
+        Loving-kindness or forgiveness practices should not be used to excuse harm, reopen unsafe contact, remove
+        boundaries, or pressure someone into reconciliation.
+      </p>
+
+      <h2>When to Seek Support</h2>
+      <p>
+        Seek qualified professional support for serious, persistent, unsafe, or worsening distress. If there is
+        immediate danger, use local emergency or crisis resources rather than relying on a website practice.
+      </p>
+
+      <h2>How This Applies Across Echo Buddha</h2>
+      <p>
+        Meditation pages, wellbeing-adjacent articles, and reflective practices should include gentle limitation
+        language where relevant. See the <a href="/disclaimer/">Disclaimer</a> for broader limitations and
+        <a href="/corrections/">Corrections and Editorial Updates</a> to report a safety concern.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+</style>

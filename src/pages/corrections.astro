@@ -1,0 +1,105 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+
+const title = "Corrections and Editorial Updates";
+const description =
+  "How to report Echo Buddha source, quote, typo, safety, clarity, and editorial update concerns.";
+const canonicalPath = "/corrections/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/editorial-policy/">Editorial Policy</a>
+      <span class="eyebrow">Corrections</span>
+      <h1>Corrections and Editorial Updates</h1>
+      <p class="lede">
+        Readers can help Echo Buddha stay clear, careful, and useful by reporting source, quote, typo, safety, or
+        clarity concerns.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <div class="surface contact-box">
+        <span class="eyebrow">Report an issue</span>
+        <h2>Contact Echo Buddha</h2>
+        <p>
+          Email <a class="email-link" href={`mailto:${SITE.email}`}>{SITE.email}</a> with the page URL, the passage or
+          issue, and any source information that may help review it.
+        </p>
+      </div>
+
+      <h2>What Readers Can Report</h2>
+      <p>
+        Useful reports include source or citation concerns, quote attribution issues, typos, broken links, unclear
+        wording, safety concerns, accessibility issues, outdated page information, and duplicate-topic confusion.
+      </p>
+
+      <h2>Clarity Updates</h2>
+      <p>
+        Clarity updates may improve wording, headings, internal links, formatting, accessibility, or examples without
+        changing the main meaning of a page. These may happen quietly as part of normal editorial care.
+      </p>
+
+      <h2>Substantive Corrections</h2>
+      <p>
+        Substantive corrections address misleading source context, wrong attribution, doctrinal overstatement,
+        unsafe meditation framing, factual errors, or wording that could materially confuse readers. These updates may
+        change source notes, quote labels, safety language, page descriptions, or reviewed dates.
+      </p>
+
+      <h2>Reviewed and Updated Dates</h2>
+      <p>
+        Article pages may show published and reviewed dates. A reviewed date means the page has been checked within
+        the site's editorial process; it does not claim outside certification, Buddhist studies approval, or medical
+        review.
+      </p>
+
+      <h2>What Echo Buddha Does Not Claim</h2>
+      <p>
+        Echo Buddha does not claim to have a formal review board, monastic authority, academic endorsement, clinical
+        approval, guaranteed search performance, or AdSense approval. Corrections are handled through owner/editorial
+        review and, where needed, future external review.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .contact-box {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+  }
+
+  .contact-box h2 {
+    font-size: 1.45rem;
+    margin-top: 0.25rem;
+  }
+
+  .email-link {
+    font-weight: 800;
+    overflow-wrap: anywhere;
+  }
+</style>

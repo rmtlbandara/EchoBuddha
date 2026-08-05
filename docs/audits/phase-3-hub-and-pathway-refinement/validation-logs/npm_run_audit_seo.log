@@ -1,0 +1,7 @@
+
+> echo-buddha@1.0.0 audit:seo
+> node scripts/audit-seo.mjs
+
+SEO audit passed.
+
+EXIT_CODE=0

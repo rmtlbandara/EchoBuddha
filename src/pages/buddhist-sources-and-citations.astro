@@ -1,0 +1,101 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+
+const title = "Buddhist Sources and Citations";
+const description =
+  "How Echo Buddha references Buddhist teachings, translations, paraphrases, scripture, commentary, and further reading.";
+const canonicalPath = "/buddhist-sources-and-citations/";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description,
+  url: `${SITE.url}${canonicalPath}`,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <section class="page-hero">
+    <div class="container prose">
+      <a class="back-link" href="/editorial-policy/">Editorial Policy</a>
+      <span class="eyebrow">Sources and citations</span>
+      <h1>Buddhist Sources and Citations</h1>
+      <p class="lede">
+        Echo Buddha uses source context to help readers understand where a teaching comes from, while keeping original
+        explanation, paraphrase, scripture, and commentary clearly separated.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose">
+      <h2>How Sources Are Used</h2>
+      <p>
+        Echo Buddha gives beginner-friendly explanations in original language. When a page discusses a traditional
+        Buddhist teaching, source notes and further reading links may point to reputable translations, Buddhist study
+        resources, recognized institutions, teachers, or practice communities.
+      </p>
+      <p>
+        A source link is not a claim that every view on an external website is endorsed. It is a starting point for
+        checking context, comparing translation choices, and continuing study.
+      </p>
+
+      <h2>Scripture, Commentary, Paraphrase, and Explanation</h2>
+      <p>
+        A scripture passage is a traditional text or translation. Commentary explains or interprets a teaching.
+        Paraphrase restates an idea in new language. Echo Buddha explanation is original educational writing inspired
+        by Buddhist themes and source context.
+      </p>
+      <p>
+        These categories should not be blurred. Echo Buddha should not call an original reflection a scripture
+        translation, a Dhammapada quote, a Buddha quote, or a named-person quote unless that origin is verified and
+        clearly labeled.
+      </p>
+
+      <h2>Translations and Copyright Care</h2>
+      <p>
+        Buddhist translations differ across traditions, translators, and editions. Echo Buddha avoids long copied
+        passages from modern translations unless rights and attribution are clear. When a public-domain or freely
+        available source is referenced, the page should still avoid overquoting and should give readers a link for
+        further reading where possible.
+      </p>
+      <p>
+        If a translation, edition, or source is uncertain, the page should use cautious language or remain unpublished
+        until the uncertainty is resolved.
+      </p>
+
+      <h2>Dhammapada and Popular Sayings</h2>
+      <p>
+        Dhammapada-related pages require extra care because popular internet wording often mixes translation,
+        paraphrase, summary, and inspiration. Echo Buddha Dhammapada pages should identify whether a line is a source
+        study, a paraphrase, or an original reflection.
+      </p>
+      <p>
+        The same care applies to popular sayings attributed to the Buddha. When an origin cannot be verified, Echo
+        Buddha should not publish the saying as a confirmed Buddha quote.
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        Source, citation, translation, and attribution concerns can be reported through
+        <a href="/corrections/">Corrections and Editorial Updates</a>. Include the page URL, the sentence in question,
+        and any source information that would help review.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+</style>

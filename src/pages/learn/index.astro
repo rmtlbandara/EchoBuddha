@@ -17,6 +17,62 @@ const textStudyLinks = [
   { label: "Buddha's Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" },
   { label: "Mindfulness of Breathing Explained Simply", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/" }
 ];
+const learningPathways = [
+  {
+    title: "Buddhism 101",
+    description: "Beginner lessons on the Buddha, Four Noble Truths, Eightfold Path, precepts, karma, mindfulness, and impermanence.",
+    links: [
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+      { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+      { label: "Eightfold Path", href: "/learn/eightfold-path/" }
+    ]
+  },
+  {
+    title: "Buddhist Dictionary",
+    description: "Plain-language terms without creating duplicate broad explainers.",
+    links: [
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" },
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/" }
+    ]
+  },
+  {
+    title: "Text Study",
+    description: "Dhammapada and sutta notes with source-aware context for careful reading.",
+    links: [
+      { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
+      { label: "Sutta for Daily Life", href: "/learn/sutta-for-daily-life/" },
+      { label: "Buddhist Sources", href: "/buddhist-sources-and-citations/" }
+    ]
+  },
+  {
+    title: "Practice at Home",
+    description: "Bring Buddhist training into one ordinary day through conduct, attention, and reflection.",
+    links: [
+      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
+      { label: "How to Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" },
+      { label: "Meditation Hub", href: "/meditation/" }
+    ]
+  },
+  {
+    title: "Beginner Questions",
+    description: "Use questions when you need orientation before choosing a deeper page.",
+    links: [
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" },
+      { label: "Start Here", href: "/start-here/" },
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" }
+    ]
+  },
+  {
+    title: "Core Teachings",
+    description: "Keep broad intent with existing pillars before reading supporting articles.",
+    links: [
+      { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
+      { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
+      { label: "Three Poisons", href: "/articles/three-poisons-buddhism-explained/" }
+    ]
+  }
+];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -52,6 +108,25 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
+      <section class="pathway-section" aria-labelledby="learning-pathways-heading">
+        <span class="eyebrow">Learning pathways</span>
+        <h2 id="learning-pathways-heading">Choose the Right Learning Shelf</h2>
+        <p>
+          The Learn hub keeps one pillar per broad intent. Use these paths to find the current owner before moving into
+          narrower articles, dictionary terms, quote reflections, or practice notes.
+        </p>
+        <div class="pathway-grid">
+          {learningPathways.map((path) => (
+            <section class="surface pathway-card">
+              <h3>{path.title}</h3>
+              <p>{path.description}</p>
+              <ul>
+                {path.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </section>
       <div class="grid grid--3">
         {learnHubCards.map((item) => <LearningCard item={item} />)}
       </div>
@@ -105,7 +180,7 @@ const jsonLd = [
           <li><a href="/learn/buddhism-101/the-four-noble-truths-explained/">Learn the Four Noble Truths</a></li>
           <li><a href="/meditation/meditation-for-beginners/">Try beginner meditation</a></li>
           <li><a href="/learn/questions-about-buddhism/">Read beginner questions</a></li>
-          <li><a href="/quotes/">Read one daily reflection</a></li>
+          <li><a href="/daily-reflections/today/">Read one daily reflection</a></li>
         </ol>
       </div>
     </div>
@@ -151,24 +226,38 @@ const jsonLd = [
 
 <style>
   .start-panel,
-  .path-card {
+  .path-card,
+  .pathway-card {
     padding: 1.35rem;
   }
 
   .start-panel h3,
-  .path-card h3 {
+  .path-card h3,
+  .pathway-card h3 {
     font-size: 1.35rem;
   }
 
   .start-panel ol,
-  .path-card ul {
+  .path-card ul,
+  .pathway-card ul {
     margin-bottom: 0;
     padding-left: 1.25rem;
   }
 
-  .path-grid {
+  .path-grid,
+  .pathway-grid {
     display: grid;
     gap: 1.25rem;
+  }
+
+  .pathway-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .pathway-section > p,
+  .pathway-card p {
+    color: var(--color-muted);
+    margin-bottom: 1rem;
   }
 
   .search-entry {
@@ -228,12 +317,22 @@ const jsonLd = [
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
+    .pathway-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .search-entry {
       grid-template-columns: minmax(0, 1fr) auto;
     }
 
     .text-study {
       grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+    }
+  }
+
+  @media (min-width: 1040px) {
+    .pathway-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 </style>

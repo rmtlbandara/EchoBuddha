@@ -1,0 +1,7 @@
+
+> echo-buddha@1.0.0 typecheck
+> astro sync && tsc --noEmit
+
+14:32:26 [types] Generated 67ms
+
+EXIT_CODE=0

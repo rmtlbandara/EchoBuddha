@@ -8,8 +8,8 @@
     "Blog": 1,
     "ItemList": 2,
     "ProfilePage": 1,
+    "WebPage": 192,
     "ContactPage": 1,
-    "WebPage": 187,
     "WebSite": 1,
     "Organization": 1,
     "Article": 45,
@@ -19,7 +19,7 @@
     "PrivacyPolicy": 1
   },
   "pageTypeCounts": {
-    "other": 4,
+    "other": 9,
     "policy": 7,
     "article": 42,
     "articleCategory": 5,
