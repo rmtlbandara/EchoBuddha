@@ -1,0 +1,14 @@
+command: npm run audit:dependencies
+startedAt: 2026-08-05T10:30:10.817Z
+endedAt: 2026-08-05T10:30:11.947Z
+exitCode: 0
+
+stdout:
+
+> echo-buddha@1.0.0 audit:dependencies
+> node scripts/audit-dependencies.mjs
+
+Dependency audit passed: 0 critical, 0 high vulnerabilities.
+
+
+stderr:

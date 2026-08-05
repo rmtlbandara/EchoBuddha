@@ -1,0 +1,14 @@
+command: npm run audit:content
+startedAt: 2026-08-05T10:30:03.060Z
+endedAt: 2026-08-05T10:30:04.293Z
+exitCode: 0
+
+stdout:
+
+> echo-buddha@1.0.0 audit:content
+> node scripts/audit-content-remediation.mjs
+
+Content remediation audit passed.
+
+
+stderr:
