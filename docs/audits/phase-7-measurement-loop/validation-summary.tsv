@@ -1,0 +1,4 @@
+command	status	exit_code	log_file
+npm run audit:seo	PASS	0	docs/audits/phase-7-measurement-loop/validation-logs/npm_run_audit_seo.log
+npm run audit:content	PASS	0	docs/audits/phase-7-measurement-loop/validation-logs/npm_run_audit_content.log
+npm run validate	PASS	0	docs/audits/phase-7-measurement-loop/validation-logs/npm_run_validate.log

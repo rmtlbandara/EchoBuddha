@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-05T16:15:14.358Z",
+  "searchedLocations": [
+    "/Users/tharindu/Downloads",
+    "docs/audits",
+    "project root"
+  ],
+  "gscExportSetsFound": [
+    "/Users/tharindu/Downloads/echobuddha.com-Performance-on-Search-2026-08-05",
+    "docs/audits/phase-0-baseline-and-protection/gsc-baseline-2026-08-05"
+  ],
+  "freshPostPhase6ExportFound": false,
+  "analyticsExportFoundForEchoBuddha": false,
+  "limitation": "Only the Phase 0 baseline GSC export is available locally. No post-deployment Search Console or analytics export was found."
+}
