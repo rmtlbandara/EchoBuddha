@@ -1951,6 +1951,7 @@ export const dictionaryPages: LearningPage[] = [
     takeaway: "Dhamma is the teaching and truth that guide Buddhist practice toward wisdom and freedom.",
     practice: "Take one teaching you know and apply it to one ordinary action today: one careful sentence, one generous choice, or one pause before reaction.",
     relatedLinks: [
+      { label: "Dhamma vs Dharma", href: "/articles/dhamma-vs-dharma/" },
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
       { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
       { label: "The Mind Leads All Things", href: "/learn/dhammapada-reflections/the-mind-leads-all-things/" },
@@ -1997,6 +1998,7 @@ export const dictionaryPages: LearningPage[] = [
     relatedLinks: [
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
       { label: "What Is Sangha?", href: "/articles/what-is-sangha-buddhist-community/" },
+      { label: "Visiting a Temple Respectfully", href: "/articles/visiting-a-buddhist-temple-respectfully/" },
       { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ],
@@ -2965,6 +2967,7 @@ export const popularLearningPaths = [
     title: "New to Buddhism",
     links: [
       { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
+      { label: "First Week Buddhist Practice", href: "/articles/first-week-buddhist-practice/" },
       { label: "The Four Noble Truths", href: "/learn/four-noble-truths/" },
       { label: "The Noble Eightfold Path", href: "/learn/eightfold-path/" }
     ]
@@ -2980,9 +2983,9 @@ export const popularLearningPaths = [
   {
     title: "Understand Buddhist Terms",
     links: [
-      { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" },
-      { label: "Dukkha", href: "/learn/buddhist-dictionary/dukkha/" },
-      { label: "Metta", href: "/learn/buddhist-dictionary/metta/" }
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "Dhamma vs Dharma", href: "/articles/dhamma-vs-dharma/" },
+      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" }
     ]
   }
 ];

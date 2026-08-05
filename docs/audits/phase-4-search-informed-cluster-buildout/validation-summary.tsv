@@ -1,0 +1,10 @@
+command	status	exit_code	log	notes
+npm run build	PASS	0	validation-logs/npm_run_build.log	Completed successfully.
+npm run typecheck	PASS	0	validation-logs/npm_run_typecheck.log	Completed successfully.
+npm run lint	PASS	0	validation-logs/npm_run_lint.log	Completed successfully.
+npm test	PASS	0	validation-logs/npm_test.log	Completed successfully.
+npm run audit:seo	PASS	0	validation-logs/npm_run_audit_seo.log	Completed successfully.
+npm run audit:content	PASS	0	validation-logs/npm_run_audit_content.log	Completed successfully.
+npm run validate	PASS	0	validation-logs/npm_run_validate.log	Completed successfully.
+npm run validate:release	PASS	0	validation-logs/npm_run_validate_release.log	Completed successfully.
+visual QA	PASS	0	visual-qa/visual-qa-summary.json	Checked 18 owner/support routes on desktop and mobile; 36 checks, 0 failures.

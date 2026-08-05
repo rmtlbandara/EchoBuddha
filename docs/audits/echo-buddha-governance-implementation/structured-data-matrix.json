@@ -1,9 +1,9 @@
 {
   "schemaCounts": {
     "AboutPage": 1,
-    "BlogPosting+Article": 42,
-    "BreadcrumbList": 303,
-    "FAQPage": 49,
+    "BlogPosting+Article": 48,
+    "BreadcrumbList": 309,
+    "FAQPage": 55,
     "CollectionPage": 28,
     "Blog": 1,
     "ItemList": 2,
@@ -21,7 +21,7 @@
   "pageTypeCounts": {
     "other": 9,
     "policy": 7,
-    "article": 42,
+    "article": 48,
     "articleCategory": 5,
     "hub": 9,
     "daily": 30,

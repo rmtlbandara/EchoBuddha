@@ -2405,6 +2405,312 @@ const articleVisuals = {
 
 export const articles: Article[] = [
   {
+    slug: "dhamma-vs-dharma",
+    title: "Dhamma vs Dharma: What Is the Difference?",
+    seoTitle: "Dhamma vs Dharma: Buddhist Meaning and Spelling",
+    description:
+      "Learn the difference between Dhamma and Dharma, why both spellings appear in Buddhist writing, and how beginners can read them without confusion.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "6 min read",
+    thumbnail: "/images/articles/what-is-buddhism-beginner-guide.webp",
+    imageAlt: "A calm study path for understanding Dhamma and Dharma spelling in Buddhist practice",
+    tags: ["Dhamma", "Dharma", "Buddhist terms"],
+    relatedSlugs: ["what-is-buddhism-beginner-guide", "what-is-sangha-buddhist-community", "dhammapada-reflection-what-we-think"],
+    content: [
+      {
+        paragraphs: [
+          "Dhamma and Dharma often point to the same broad Buddhist idea: the teaching, truth, and practice that guide the path. The difference is usually one of language, tradition, and translation context rather than two unrelated teachings.",
+          "On Echo Buddha, <a href=\"/learn/buddhist-dictionary/dhamma/\">Dhamma</a> remains the main definition page. This article only helps beginners understand why another spelling appears in books, temples, online talks, and different Buddhist communities."
+        ]
+      },
+      {
+        heading: "The Short Difference",
+        paragraphs: [
+          "Dhamma is the Pali form. Dharma is the Sanskrit form. Pali is often associated with Theravada and early Buddhist textual contexts, while Sanskrit appears in many Mahayana and broader Indian religious contexts. English readers may meet both forms depending on the source.",
+          "A beginner does not need to treat the spellings as a contest. When a teacher, book, or temple uses Dhamma, listen in that context. When another uses Dharma, listen in that context. The important question is whether the teaching reduces greed, hatred, confusion, and harm in actual life."
+        ]
+      },
+      {
+        heading: "Why Echo Buddha Usually Says Dhamma",
+        paragraphs: [
+          "Echo Buddha often uses Dhamma when explaining early Buddhist themes, Pali terms, the Three Jewels, and Dhammapada-related pages. This keeps the vocabulary consistent with many of the source notes and dictionary entries already on the site.",
+          "That choice should not be read as a claim that other traditions are less valid. It is a style and context decision. A Zen, Tibetan, Pure Land, or Mahayana source may naturally use Dharma. A Theravada or Pali-context source may naturally use Dhamma."
+        ]
+      },
+      {
+        heading: "Dhamma Is More Than a Word",
+        paragraphs: [
+          "The safest beginner understanding is practical: Dhamma or Dharma is not just a calming phrase. It points toward teaching, truth, and practice. It asks how suffering is understood, how conduct becomes less harmful, and how wisdom becomes visible in speech, attention, and relationships.",
+          "For a fuller definition, read <a href=\"/learn/buddhist-dictionary/dhamma/\">Dhamma in the Buddhist Dictionary</a>. For context on the community side of the Three Jewels, continue with <a href=\"/articles/what-is-sangha-buddhist-community/\">Sangha and Buddhist community</a>."
+        ]
+      },
+      {
+        heading: "A Beginner Reading Rule",
+        paragraphs: [
+          "When you see Dhamma or Dharma, ask three quiet questions: Which tradition or source is speaking? Is this a direct translation, a paraphrase, or a modern explanation? How does this teaching become practice today?",
+          "Those questions protect the word from becoming decoration. They also keep a respectful space for Buddhist traditions that use different languages, lineages, and study habits."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "visiting-a-buddhist-temple-respectfully",
+    title: "Visiting a Buddhist Temple Respectfully",
+    seoTitle: "Visiting a Buddhist Temple Respectfully: Beginner Guide",
+    description:
+      "A gentle beginner guide to visiting a Buddhist temple respectfully, asking questions carefully, and understanding temple community without cultural carelessness.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Buddhist Wisdom",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/what-is-sangha-buddhist-community.svg",
+    imageAlt: "Simple temple and path illustration for a respectful Buddhist temple visit",
+    tags: ["Sangha", "Buddhist community", "temple visit"],
+    relatedSlugs: ["what-is-sangha-buddhist-community", "what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide"],
+    content: [
+      {
+        paragraphs: [
+          "Visiting a Buddhist temple can be a meaningful way to meet living practice rather than only reading about Buddhism online. A temple may include chanting, meditation, offerings, teaching, service, cultural customs, and community care.",
+          "This page is a practical support page. The broader Sangha guide remains <a href=\"/articles/what-is-sangha-buddhist-community/\">What Is Sangha? Why Buddhist Community Matters</a>, and the concise term definition remains <a href=\"/learn/buddhist-dictionary/sangha/\">Sangha</a> in the dictionary."
+        ]
+      },
+      {
+        heading: "Before You Visit",
+        paragraphs: [
+          "Check the temple's website or contact page first. Look for visitor information, service times, dress expectations, parking, donation customs, and whether beginners are welcome at a particular event. Some gatherings are public; others may be intended for members or a specific language community.",
+          "Arrive with humility rather than a consumer mindset. A temple is not a wellness studio, tourist exhibit, or photo background. It is often a sacred and community space where people practice, grieve, celebrate, learn, serve, and preserve tradition."
+        ]
+      },
+      {
+        heading: "During the Visit",
+        paragraphs: [
+          "Move slowly, observe first, and follow posted guidance. Silence your phone. Ask before taking photos. Dress modestly according to local expectations. If people remove shoes before entering a shrine room, do the same. If you are unsure about bowing, offerings, seating, or chanting, quietly ask a volunteer.",
+          "Respect does not require pretending you understand everything. A beginner can simply sit, listen, and learn. If a ritual is unfamiliar, you may participate gently where invited or observe without making the moment about yourself."
+        ]
+      },
+      {
+        heading: "Asking Questions Carefully",
+        paragraphs: [
+          "Good questions are welcome in many communities, but timing matters. Asking during a ceremony may be disruptive. Asking afterward, or in a beginner class, is usually better. A respectful question sounds like, \"Could you help me understand what this practice means here?\"",
+          "Avoid asking one person to speak for all of Buddhism. Traditions differ. A Sri Lankan temple, Thai forest center, Zen center, Tibetan center, and Pure Land temple may have very different forms. Let the local community explain itself in its own context."
+        ]
+      },
+      {
+        heading: "Community and Discernment",
+        paragraphs: [
+          "A temple can help beginners find Sangha, wise friendship, teachings, and a rhythm of practice. It can also reveal that Buddhism is lived through language, family, food, service, elders, and cultural memory, not only private meditation.",
+          "Discernment still matters. Healthy communities allow reasonable questions, clear boundaries, and ethical conduct. Pressure, secrecy, financial exploitation, humiliation, boundary violations, or discouraging outside help are serious warning signs."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "first-week-buddhist-practice",
+    title: "First Week Buddhist Practice for Beginners",
+    seoTitle: "First Week Buddhist Practice for Beginners",
+    description:
+      "A calm first-week Buddhist practice plan for beginners using study, meditation, ethical speech, reflection, and ordinary daily care.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Practice",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/buddhism-for-beginners-simple-guide.webp",
+    imageAlt: "Seven simple stepping stones for a first week of Buddhist practice",
+    tags: ["Buddhism for beginners", "daily Buddhist practice", "first week practice"],
+    relatedSlugs: ["buddhism-for-beginners-simple-guide", "what-is-buddhism-beginner-guide", "right-speech-buddhism"],
+    content: [
+      {
+        paragraphs: [
+          "A beginner does not need to become expert in one week. The first week can be simple: learn one teaching, sit for a few minutes, practice one careful action, and notice what the mind is learning.",
+          "Use this as a support page for <a href=\"/learn/buddhism-for-beginners/\">Buddhism for Beginners</a>. The hub gives the broader route; this article gives one practical first-week rhythm."
+        ]
+      },
+      {
+        heading: "Day 1: Begin With Intention",
+        paragraphs: [
+          "Read a short beginner explanation of Buddhism and write one sentence about why you are beginning. Keep it honest and modest. You might write, \"I want to understand suffering with more wisdom,\" or \"I want my speech to cause less harm.\"",
+          "Then sit for three natural breaths. Do not try to create a special state. Just notice that a path can begin in a very ordinary body, on a very ordinary day."
+        ]
+      },
+      {
+        heading: "Days 2 and 3: Study and Sit Briefly",
+        paragraphs: [
+          "On the second day, read about the <a href=\"/learn/four-noble-truths/\">Four Noble Truths</a>. Ask where stress, craving, release, and the path appear in one real situation. On the third day, read about the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path</a> and choose one path factor to notice.",
+          "Keep meditation short. Five minutes is enough. Feel the body, notice the breath, and return when attention wanders. If breath focus feels uncomfortable, open the eyes, feel the feet, or choose sounds as the anchor."
+        ]
+      },
+      {
+        heading: "Days 4 and 5: Practice Speech and Care",
+        paragraphs: [
+          "On day four, make speech the practice. Before one reply, ask whether the words are true, useful, kind, and timely. If the answer is unclear, wait. This links the first week to <a href=\"/articles/right-speech-buddhism/\">Right Speech</a> rather than only private reflection.",
+          "On day five, practice one act of care. It may be a sincere apology, a generous task, careful listening, or not passing along a harsh story. Buddhist practice becomes real when it enters conduct."
+        ]
+      },
+      {
+        heading: "Days 6 and 7: Reflect and Continue",
+        paragraphs: [
+          "On day six, read one <a href=\"/daily-reflections/\">daily reflection</a> and carry its question for a few hours. On day seven, review the week without harshness. What helped you remember? What made practice difficult? What small step could continue next week?",
+          "Do not turn the first week into a performance. The point is to learn how to return. If you missed a day, the path has already given you a practice: begin again without shame."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "non-attachment-in-relationships",
+    title: "Non-Attachment in Relationships",
+    seoTitle: "Non-Attachment in Relationships Without Becoming Cold",
+    description:
+      "Learn how Buddhist non-attachment can support relationships through care, boundaries, impermanence, and less controlling love.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/how-to-practice-non-attachment.webp",
+    imageAlt: "Open hands and a quiet path for non-attachment in relationships",
+    tags: ["non-attachment", "relationships", "letting go"],
+    relatedSlugs: ["how-to-let-go-of-attachment-in-buddhism", "how-to-practice-non-attachment", "letting-go-without-giving-up"],
+    content: [
+      {
+        paragraphs: [
+          "Non-attachment in relationships is often misunderstood as emotional distance. In Buddhist practice, it means caring without trying to possess, control, or freeze another person into the version we prefer.",
+          "The main cluster guide remains <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a>. This support page focuses only on relationships, where attachment and care can easily be confused."
+        ]
+      },
+      {
+        heading: "Attachment Is Not the Same as Love",
+        paragraphs: [
+          "Love can include warmth, loyalty, patience, honesty, affection, and protection. Attachment adds a tight demand: you must answer exactly this way, stay exactly the same, soothe my fear immediately, or prove my worth. The suffering often comes from that demand.",
+          "Seeing attachment does not mean blaming yourself for wanting connection. The wish to be loved is human. Practice begins when the wish becomes so tight that it starts creating fear, pressure, or harmful speech."
+        ]
+      },
+      {
+        heading: "Care With an Open Hand",
+        paragraphs: [
+          "Open-handed care still acts. It listens, apologizes, keeps promises, asks for repair, and sets boundaries. What it releases is the fantasy that another person can be managed into permanent certainty.",
+          "A useful sentence is: \"I can care for this relationship without controlling every response.\" Say it before sending a message, during a delay, or after a difficult conversation. Let the sentence separate sincere care from anxious command."
+        ]
+      },
+      {
+        heading: "Boundaries Belong to Non-Attachment",
+        paragraphs: [
+          "Non-attachment should never be used to tolerate harm. If a relationship is unsafe, exploitative, or consistently disrespectful, wise care may require distance, support, documentation, or firm boundaries.",
+          "Letting go is not passivity. It may mean letting go of the hope that someone will become safe while you keep placing yourself in harm's way. Compassion can include protection."
+        ]
+      },
+      {
+        heading: "A Relationship Practice",
+        paragraphs: [
+          "Choose one relationship where the grip feels tight. Write two columns: care and control. Under care, list the actions that are yours: listening, honesty, apology, boundary, patience. Under control, list what is not yours to command: another person's mood, timing, approval, memory, or growth.",
+          "Take one action from the care column. Then practice releasing one item from the control column for today. This keeps love practical without making peace depend on total certainty."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "right-speech-examples",
+    title: "Right Speech Examples for Everyday Life",
+    seoTitle: "Right Speech Examples for Everyday Life",
+    description:
+      "Practical Right Speech examples for messages, family conversations, work, disagreement, apology, silence, and anger before speaking.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Practice",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/right-speech-buddhism.webp",
+    imageAlt: "Four calm speech filters for practical Right Speech examples",
+    tags: ["Right Speech", "patience", "Buddhist ethics"],
+    relatedSlugs: ["right-speech-buddhism", "three-ways-to-practice-patience", "buddhist-approach-to-anger"],
+    content: [
+      {
+        paragraphs: [
+          "Right Speech becomes easier to remember when it is seen in ordinary situations. The broad practical owner remains <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>. This page is a support page for examples.",
+          "Use these examples as training, not as a script for perfect communication. Speech depends on context, relationship, safety, timing, culture, and intention."
+        ]
+      },
+      {
+        heading: "Before Sending a Message",
+        paragraphs: [
+          "A quick message can carry more heat than we realize. Before sending, ask: Is this true? Is it useful? Is this the right time? Could the same truth be said with less contempt?",
+          "Example: instead of \"You never listen,\" try \"I do not feel heard yet. Can we slow down and look at this together?\" The second sentence may still be firm, but it leaves more room for understanding."
+        ]
+      },
+      {
+        heading: "At Work",
+        paragraphs: [
+          "Right Speech at work does not mean avoiding hard feedback. It means giving feedback without humiliation, gossip, exaggeration, or hidden attack. A truthful sentence can still be careful.",
+          "Example: instead of criticizing someone in a side conversation, speak directly when appropriate: \"The deadline moved because this part was missing. What support do you need to finish it?\" The aim is clarity and repair, not blame as entertainment."
+        ]
+      },
+      {
+        heading: "With Family",
+        paragraphs: [
+          "Family speech can move quickly because old roles are familiar. Patience matters here. A pause before speech can prevent one painful sentence from becoming the whole evening.",
+          "Example: instead of answering a repeated criticism with another criticism, try, \"I want to answer this carefully. I need a few minutes.\" This is not avoidance if you return to the conversation with more honesty and less harm."
+        ]
+      },
+      {
+        heading: "When Anger Is Present",
+        paragraphs: [
+          "Anger is not automatically wrong, but it often wants speed. Right Speech asks for enough space to see whether anger is protecting truth or feeding harm. Sometimes the right first speech is: \"I am too heated to speak wisely right now.\"",
+          "If someone is being harmed, do not use patience as an excuse for passivity. Choose the safest firm action available. Later, review the speech with <a href=\"/articles/buddhist-approach-to-anger/\">a Buddhist approach to anger</a>."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "dhammapada-verse-1-meaning",
+    title: "Dhammapada Verse 1 Meaning and Translation Caution",
+    seoTitle: "Dhammapada Verse 1 Meaning and Translation Caution",
+    description:
+      "A source-aware guide to Dhammapada Verse 1, mind-leading themes, paraphrase vs translation, and why popular wording needs careful attribution.",
+    date: "2026-08-05",
+    author: SITE.author,
+    category: "Reflection",
+    readTime: "7 min read",
+    thumbnail: "/images/articles/dhammapada-reflection-what-we-think.webp",
+    imageAlt: "A quiet manuscript and lamp for reading Dhammapada Verse 1 carefully",
+    tags: ["Dhammapada", "Buddhist sources", "quote attribution"],
+    relatedSlugs: ["dhammapada-reflection-what-we-think", "dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism"],
+    content: [
+      {
+        paragraphs: [
+          "Dhammapada Verse 1 is often discussed because it places the mind at the beginning of experience and action. Many English readers meet it through popular paraphrases, including wording like \"what we think, we become.\"",
+          "This page is not a new translation. It is a source-aware guide that explains the theme, the attribution risk, and how Echo Buddha separates translation, paraphrase, source context, and original reflection."
+        ]
+      },
+      {
+        heading: "What Verse 1 Is About",
+        paragraphs: [
+          "In broad terms, Dhammapada Verse 1 points to the mind as a forerunner of speech and action. When speech or action is led by an unskillful mind, suffering follows. The paired next verse presents the wholesome contrast.",
+          "That theme is not the same as saying private thoughts magically create every event. It is more careful: mental intention conditions how we speak, act, repeat habits, and meet experience."
+        ]
+      },
+      {
+        heading: "Translation, Paraphrase, and Reflection",
+        paragraphs: [
+          "A translation tries to render a source text into another language. A paraphrase restates the idea more freely. An original reflection uses the theme as a starting point for new writing. These should not be labeled as the same thing.",
+          "Echo Buddha reflections are original editorial writing unless a page clearly says otherwise. When a popular line is not an exact supported translation, it should be described as a paraphrase, popular rendering, or reflection rather than a direct Dhammapada quotation."
+        ]
+      },
+      {
+        heading: "About 'What We Think, We Become'",
+        paragraphs: [
+          "The line \"what we think, we become\" is widely shared, but it should be handled carefully. It may express a simplified idea related to mind and intention, yet that does not make it an exact canonical translation of Dhammapada Verse 1.",
+          "For the focused attribution-risk page, read <a href=\"/articles/dhammapada-reflection-what-we-think/\">What We Think, We Become: A Dhammapada Reflection</a>. That page addresses the popular wording directly."
+        ]
+      },
+      {
+        heading: "A Safe Way to Practice the Verse",
+        paragraphs: [
+          "Use the verse as a prompt for intention. Before speaking, ask: what mind is leading this? Before repeating a thought, ask: what habit does this feed? Before acting, ask: will this reduce harm?",
+          "This practice keeps the verse close to ordinary life without turning it into blame. It also keeps source care visible. For standards, read <a href=\"/buddhist-sources-and-citations/\">Buddhist Sources and Citations</a> and the <a href=\"/quote-attribution-policy/\">Quote Attribution Policy</a>."
+        ]
+      }
+    ]
+  },
+  {
     slug: "what-is-buddhism-beginner-guide",
     title: "What Is Buddhism? A Beginner-Friendly Guide",
     seoTitle: "What Is Buddhism? Beginner Guide to Buddhist Wisdom",
@@ -2989,7 +3295,7 @@ export const articles: Article[] = [
     imageAlt: "Quiet mind ripple and lotus illustration inspired by Dhammapada reflections on thought",
     featured: true,
     tags: ["Dhammapada reflection", "Buddhist quotes", "mind training", "Buddha quote attribution"],
-    relatedSlugs: ["dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism", "right-speech-buddhism"],
+    relatedSlugs: ["dhammapada-verse-1-meaning", "dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism", "right-speech-buddhism"],
     content: [
       {
         paragraphs: [
@@ -3002,7 +3308,7 @@ export const articles: Article[] = [
         heading: "Translation, Paraphrase, and Reflection",
         paragraphs: [
           "A translation tries to render a source text into another language. A paraphrase restates an idea in fresh wording. A reflection uses a traditional theme as a doorway into practice. This article is the third kind: original reflection with source context.",
-          "For a closer source-study path, visit <a href=\"/learn/dhammapada-reflections/the-mind-leads-all-things/\">The Mind Leads All Things</a> and the <a href=\"/learn/dhammapada-reflections/\">Dhammapada Reflections hub</a>. Those pages also avoid presenting Echo Buddha wording as scripture."
+          "For a closer source-study path, visit <a href=\"/learn/dhammapada-reflections/the-mind-leads-all-things/\">The Mind Leads All Things</a>, <a href=\"/articles/dhammapada-verse-1-meaning/\">Dhammapada Verse 1 Meaning</a>, and the <a href=\"/learn/dhammapada-reflections/\">Dhammapada Reflections hub</a>. Those pages also avoid presenting Echo Buddha wording as scripture."
         ]
       },
       {
@@ -4485,6 +4791,7 @@ export const articles: Article[] = [
     featured: true,
     tags: ["buddhist attachment", "how to let go of attachment", "letting go", "non-attachment", "mindfulness"],
     relatedSlugs: [
+      "non-attachment-in-relationships",
       "how-to-practice-non-attachment",
       "letting-go-without-giving-up",
       "impermanence-in-buddhism"
@@ -4529,7 +4836,7 @@ export const articles: Article[] = [
         heading: "Common Misunderstandings About Buddhist Attachment",
         paragraphs: [
           "The first misunderstanding is that Buddhism asks people not to love. Love and attachment are not the same. Love wishes for wellbeing. Attachment demands possession, permanence, or control. Love can listen and accept responsibility. Attachment often bargains. Love can grieve. Attachment turns grief into the belief that life must not change.",
-          "The second misunderstanding is that non-attachment means emotional distance. True non-attachment can make care more available because it is less crowded by fear. A parent can guide a child while accepting that the child is not an extension of the parent. A friend can care deeply while allowing another person to have their own path."
+          "The second misunderstanding is that non-attachment means emotional distance. True non-attachment can make care more available because it is less crowded by fear. A parent can guide a child while accepting that the child is not an extension of the parent. A friend can care deeply while allowing another person to have their own path. For the relationship-specific support page, read <a href=\"/articles/non-attachment-in-relationships/\">Non-Attachment in Relationships</a>."
         ]
       },
       {
@@ -4569,6 +4876,7 @@ export const articles: Article[] = [
     featured: true,
     tags: ["right speech buddhism", "mindful communication", "Buddhist ethics", "kind speech", "listening"],
     relatedSlugs: [
+      "right-speech-examples",
       "eightfold-path-explained",
       "five-precepts-in-daily-life",
       "mindful-listening-in-everyday-life",
@@ -4579,7 +4887,7 @@ export const articles: Article[] = [
         paragraphs: [
           "Right Speech in Buddhism means training speech so it is truthful, timely, useful, and guided by non-harming. It is one factor of the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path</a> and closely connected with the <a href=\"/learn/buddhism-101/five-precepts-buddhism/\">Five Precepts</a>.",
           "The practice is not about becoming perfectly soft-spoken or avoiding difficult conversations. Sometimes the kindest words are clear and firm. Right Speech asks us to notice intention before speaking and to choose words that reduce unnecessary suffering.",
-          "A quick daily test is simple: before speaking or sending a message, ask whether the words are true, kind in intention, useful for this moment, and timed well enough to help."
+          "A quick daily test is simple: before speaking or sending a message, ask whether the words are true, kind in intention, useful for this moment, and timed well enough to help. If examples help, use <a href=\"/articles/right-speech-examples/\">Right Speech Examples for Everyday Life</a> as a supporting practice page."
         ]
       },
       {
@@ -5155,7 +5463,7 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/what-is-sangha-buddhist-community.svg",
     imageAlt: "A respectful circle of varied figures around a shared lamp, symbolizing Buddhist community",
     tags: ["Sangha", "Buddhist community", "wise friendship", "Buddhism for beginners"],
-    relatedSlugs: ["what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide", "mindful-listening-in-everyday-life"],
+    relatedSlugs: ["visiting-a-buddhist-temple-respectfully", "what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide", "mindful-listening-in-everyday-life"],
     content: [
       {
         paragraphs: [
@@ -5208,7 +5516,7 @@ export const articles: Article[] = [
       {
         heading: "Visiting a Temple or Center Respectfully",
         paragraphs: [
-          "Before visiting, read the center's stated tradition, schedule, visitor guidance, and conduct policies if available. Dress modestly, arrive on time, silence the phone, and observe before assuming how things are done. If unsure, ask a simple practical question rather than pretending to know.",
+          "Before visiting, read the center's stated tradition, schedule, visitor guidance, and conduct policies if available. Dress modestly, arrive on time, silence the phone, and observe before assuming how things are done. If unsure, ask a simple practical question rather than pretending to know. The focused support page <a href=\"/articles/visiting-a-buddhist-temple-respectfully/\">Visiting a Buddhist Temple Respectfully</a> keeps this practical etiquette guidance separate from the broad Sangha explanation.",
           "You do not need to make a lifelong commitment on the first visit. Attend a public teaching, listen, notice how people treat newcomers, and give yourself permission to learn slowly. For broader orientation, see <a href=\"/articles/what-is-buddhism-beginner-guide/\">What Is Buddhism?</a> and the <a href=\"/articles/eightfold-path-explained/\">Eightfold Path explanation</a>.",
           "If you come from a different religious, cultural, or secular background, humility helps. Avoid treating the space as a wellness studio with unfamiliar decoration. Notice customs around shoes, seating, images, donations, chanting, and teacher interaction. When unsure, follow posted guidance or ask quietly."
         ]
@@ -6902,6 +7210,156 @@ export type ArticleSeoDetails = {
 };
 
 export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
+  "dhamma-vs-dharma": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "Dhamma is usually the Pali form and Dharma is usually the Sanskrit form.",
+      "The Dhamma dictionary page remains Echo Buddha's broad Dhamma meaning owner.",
+      "The safest reading habit is to ask which source, tradition, and practice context is being used."
+    ],
+    faqs: [
+      {
+        question: "Are Dhamma and Dharma the same thing?",
+        answer:
+          "They often point to the same broad idea of teaching, truth, and practice, but the spelling depends on language, tradition, and source context."
+      },
+      {
+        question: "Which spelling does Echo Buddha use?",
+        answer:
+          "Echo Buddha often uses Dhamma for Pali and early Buddhist contexts, while recognizing that Dharma is natural in many Sanskrit and Mahayana contexts."
+      },
+      {
+        question: "Where should I read the full Dhamma meaning?",
+        answer:
+          "Use the Buddhist Dictionary page for Dhamma as the main broad definition and this article only for the spelling distinction."
+      }
+    ]
+  },
+  "visiting-a-buddhist-temple-respectfully": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "A temple visit should be approached with humility, patience, and local-context awareness.",
+      "Temple etiquette varies by tradition and community, so posted guidance and volunteer instructions matter.",
+      "A temple can support Sangha, but discernment and healthy boundaries still matter."
+    ],
+    faqs: [
+      {
+        question: "Can beginners visit a Buddhist temple?",
+        answer:
+          "Many temples welcome respectful beginners, but check visitor guidance, service times, language context, and public-event details before attending."
+      },
+      {
+        question: "Do I need to know every ritual before visiting?",
+        answer:
+          "No. Observe quietly, follow local guidance, and ask a volunteer at an appropriate time when you are unsure."
+      },
+      {
+        question: "Is every Buddhist temple the same?",
+        answer:
+          "No. Customs differ across countries, lineages, languages, and communities. Let each temple explain its own context."
+      }
+    ]
+  },
+  "first-week-buddhist-practice": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "A first week of Buddhist practice can be simple, practical, and non-performative.",
+      "Study, short meditation, ethical speech, daily reflection, and review can support one another.",
+      "Missing a day is not failure; returning without shame is already part of practice."
+    ],
+    faqs: [
+      {
+        question: "What should a beginner do in the first week of Buddhist practice?",
+        answer:
+          "Start with one clear intention, a short daily meditation, one beginner teaching, one careful speech practice, and a gentle weekly review."
+      },
+      {
+        question: "Do I need to become Buddhist in the first week?",
+        answer:
+          "No. Formal identity and commitment are personal. A beginner can start with study, reflection, ethical care, and short practice."
+      },
+      {
+        question: "How long should I meditate as a beginner?",
+        answer:
+          "Three to five minutes is enough to begin. Keep the session gentle and adapt the anchor if breath focus feels uncomfortable."
+      }
+    ]
+  },
+  "non-attachment-in-relationships": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "Non-attachment in relationships means caring without trying to control or possess.",
+      "Boundaries belong to wise non-attachment and should not be treated as coldness.",
+      "Separating care from control can make love more honest and less fear-driven."
+    ],
+    faqs: [
+      {
+        question: "Does non-attachment mean not caring about people?",
+        answer:
+          "No. It means caring without clinging, controlling, or making peace depend entirely on another person's response."
+      },
+      {
+        question: "Can non-attachment include boundaries?",
+        answer:
+          "Yes. Boundaries can be an expression of wise care, especially when a relationship is harmful or unsafe."
+      },
+      {
+        question: "How do I practice non-attachment in a relationship?",
+        answer:
+          "Name what belongs to care, name what is only control, take one honest action, and release one demand that you cannot command."
+      }
+    ]
+  },
+  "right-speech-examples": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "Right Speech becomes practical when it is applied to messages, work, family, silence, and disagreement.",
+      "Patience gives speech enough time to become truthful, useful, kind, and timely.",
+      "Right Speech does not require passivity; firm speech can still reduce harm."
+    ],
+    faqs: [
+      {
+        question: "What is an example of Right Speech?",
+        answer:
+          "A Right Speech example is pausing before a heated message and choosing words that are true, useful, timely, and less contemptuous."
+      },
+      {
+        question: "Does Right Speech mean avoiding hard conversations?",
+        answer:
+          "No. Right Speech can be firm and direct. It avoids lying, cruelty, useless harm, and careless timing."
+      },
+      {
+        question: "How does patience support Right Speech?",
+        answer:
+          "Patience creates a pause before reaction, giving awareness time to check intention, tone, and usefulness."
+      }
+    ]
+  },
+  "dhammapada-verse-1-meaning": {
+    reviewedDate: "2026-08-05",
+    takeaways: [
+      "Dhammapada Verse 1 points to the mind as a forerunner of speech and action.",
+      "Popular wording should be separated from exact translation, paraphrase, and original reflection.",
+      "The verse can be practiced through intention review without blaming people for suffering."
+    ],
+    faqs: [
+      {
+        question: "Is 'what we think, we become' an exact Dhammapada translation?",
+        answer:
+          "Echo Buddha does not present that wording as an exact canonical translation. It is safer to treat it as popular paraphrase or reflection unless a specific translation supports it."
+      },
+      {
+        question: "What is Dhammapada Verse 1 about?",
+        answer:
+          "Broadly, it teaches that mind and intention lead speech and action, and that unskillful mental states condition suffering."
+      },
+      {
+        question: "Is this page a new Dhammapada translation?",
+        answer:
+          "No. It is an original source-aware guide that explains themes, attribution caution, and practice context."
+      }
+    ]
+  },
   "buddhism-for-beginners-simple-guide": {
     reviewedDate: "2026-06-24",
     takeaways: [

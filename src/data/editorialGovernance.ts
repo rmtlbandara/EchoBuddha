@@ -92,6 +92,14 @@ export const topicRoleMap: TopicRole[] = [
     reviewStatus: "repository-reviewed"
   },
   {
+    cluster: "Beginner Buddhism",
+    href: "/articles/first-week-buddhist-practice/",
+    role: "practical application",
+    primary: false,
+    publicSummary: "Use this article as a first-week practice support page that links back to the beginner hub.",
+    reviewStatus: "external-review-pending"
+  },
+  {
     cluster: "Four Noble Truths",
     href: "/learn/four-noble-truths/",
     role: "topic hub",
@@ -317,6 +325,14 @@ export const topicRoleMap: TopicRole[] = [
   },
   {
     cluster: "Right Speech",
+    href: "/articles/right-speech-examples/",
+    role: "supporting article",
+    primary: false,
+    publicSummary: "Use this article for concrete Right Speech examples without replacing the main Right Speech guide.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Right Speech",
     href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
     role: "source-study page",
     primary: false,
@@ -332,11 +348,27 @@ export const topicRoleMap: TopicRole[] = [
     reviewStatus: "external-review-pending"
   },
   {
+    cluster: "Dhamma / Dharma",
+    href: "/articles/dhamma-vs-dharma/",
+    role: "supporting article",
+    primary: false,
+    publicSummary: "Use this article for spelling and tradition-context support; the Dhamma dictionary page remains the broad meaning owner.",
+    reviewStatus: "external-review-pending"
+  },
+  {
     cluster: "Sangha / Buddhist Community",
     href: "/articles/what-is-sangha-buddhist-community/",
     role: "cornerstone guide",
     primary: true,
     publicSummary: "Use this article as the deeper beginner guide to Buddhist community and wise companionship.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Sangha / Buddhist Community",
+    href: "/articles/visiting-a-buddhist-temple-respectfully/",
+    role: "supporting article",
+    primary: false,
+    publicSummary: "Use this article for practical temple-visit etiquette and discernment; it does not replace the Sangha guide.",
     reviewStatus: "external-review-pending"
   },
   {
@@ -357,10 +389,34 @@ export const topicRoleMap: TopicRole[] = [
   },
   {
     cluster: "Dhammapada Attribution",
+    href: "/articles/dhammapada-verse-1-meaning/",
+    role: "source-study page",
+    primary: false,
+    publicSummary: "Use this page for Verse 1 meaning, paraphrase, translation, and source-context caution.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Dhammapada Attribution",
     href: "/learn/dhammapada-reflections/",
     role: "topic hub",
     primary: true,
     publicSummary: "Use this hub as the source-aware pathway for Dhammapada-inspired reflections.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Letting Go / Non-attachment",
+    href: "/articles/how-to-let-go-of-attachment-in-buddhism/",
+    role: "cornerstone guide",
+    primary: true,
+    publicSummary: "Use this article as the main practical attachment and letting-go guide.",
+    reviewStatus: "external-review-pending"
+  },
+  {
+    cluster: "Letting Go / Non-attachment",
+    href: "/articles/non-attachment-in-relationships/",
+    role: "supporting article",
+    primary: false,
+    publicSummary: "Use this article for the relationship-specific support angle; the attachment guide remains the owner.",
     reviewStatus: "external-review-pending"
   },
   {
@@ -567,6 +623,23 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Reference for the path factors introduced on the page."
     }
   ],
+  "/articles/first-week-buddhist-practice/": [
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Reference for the beginner framing of dukkha, release, and the path."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Reference for the Noble Eightfold Path factors used as daily practice context."
+    },
+    {
+      label: "Access to Insight: The Five Precepts",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html",
+      note: "Reference for ethical training as a beginner practice foundation."
+    }
+  ],
   "/articles/four-noble-truths-explained/": [
     {
       label: "SuttaCentral: SN 56.11",
@@ -607,6 +680,18 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Primary-text reference for the Noble Eightfold Path structure."
     }
   ],
+  "/articles/right-speech-examples/": [
+    {
+      label: "Access to Insight: Right Speech overview",
+      href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
+      note: "Reference for right speech criteria used in examples."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the Noble Eightfold Path context that includes Right Speech."
+    }
+  ],
   "/articles/buddhist-teachings-on-impermanence/": [
     {
       label: "Access to Insight: Dhammapada XX",
@@ -626,6 +711,18 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Dhammapada XX",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
       note: "Traditional reference for impermanence and release from clinging."
+    }
+  ],
+  "/articles/non-attachment-in-relationships/": [
+    {
+      label: "Access to Insight: Dhammapada XX",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      note: "Traditional reference for impermanence themes that support non-clinging."
+    },
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Reference for craving and clinging context in the Four Noble Truths."
     }
   ],
   "/articles/mindfulness-of-breathing-guide/": [
@@ -711,6 +808,13 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Traditional Dhammapada chapter source for mind-leading themes; article wording remains original reflection."
     }
   ],
+  "/articles/dhammapada-verse-1-meaning/": [
+    {
+      label: "Access to Insight: Dhammapada I",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      note: "Traditional Dhammapada chapter source for Verse 1 and mind-leading themes; page wording remains original explanation."
+    }
+  ],
   "/articles/buddhist-approach-to-anger/": [
     {
       label: "Access to Insight: Dhammapada I",
@@ -756,6 +860,30 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Dhammapada XIV",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
       note: "Traditional reference for refuge in Buddha, Dhamma, and Sangha."
+    }
+  ],
+  "/articles/visiting-a-buddhist-temple-respectfully/": [
+    {
+      label: "Access to Insight: Dhammapada XIV",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "Traditional reference for refuge in Buddha, Dhamma, and Sangha."
+    },
+    {
+      label: "Dhammatalks: SN 45.2",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_2.html",
+      note: "Source for admirable friendship and companionship as support for the path."
+    }
+  ],
+  "/articles/dhamma-vs-dharma/": [
+    {
+      label: "Access to Insight: Dhammapada XIV",
+      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      note: "Traditional reference for Dhamma as one of the Three Jewels."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Primary-text reference for the Noble Eightfold Path context often included when explaining Dhamma as practice."
     }
   ]
 };

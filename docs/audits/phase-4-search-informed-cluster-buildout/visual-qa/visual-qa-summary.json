@@ -1,0 +1,663 @@
+{
+  "generated_at": "2026-08-05",
+  "base_url": "http://127.0.0.1:4321",
+  "routes_checked": 18,
+  "checks": 36,
+  "failures": [],
+  "checks_detail": [
+    {
+      "viewport": "desktop",
+      "path": "/learn/buddhist-dictionary/dhamma/",
+      "status": 200,
+      "h1": "Dhamma",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/dhamma-vs-dharma/",
+          "found": true,
+          "count": 1
+        }
+      ],
+      "screenshot": "visual-qa/desktop-learn-buddhist-dictionary-dhamma.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/dhamma-vs-dharma/",
+      "status": 200,
+      "h1": "Dhamma vs Dharma: What Is the Difference?",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/learn/buddhist-dictionary/dhamma/",
+          "found": true,
+          "count": 5
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-dhamma-vs-dharma.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/what-is-sangha-buddhist-community/",
+      "status": 200,
+      "h1": "What Is Sangha? Why Buddhist Community Matters for Beginners",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/visiting-a-buddhist-temple-respectfully/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-what-is-sangha-buddhist-community.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/visiting-a-buddhist-temple-respectfully/",
+      "status": 200,
+      "h1": "Visiting a Buddhist Temple Respectfully",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/what-is-sangha-buddhist-community/",
+          "found": true,
+          "count": 5
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-visiting-a-buddhist-temple-respectfully.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "h1": "Buddhism for Beginners",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [],
+      "screenshot": "visual-qa/desktop-learn-buddhism-for-beginners.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/first-week-buddhist-practice/",
+      "status": 200,
+      "h1": "First Week Buddhist Practice for Beginners",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/learn/buddhism-for-beginners/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-first-week-buddhist-practice.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "status": 200,
+      "h1": "How to Let Go of Attachment in Buddhism",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/non-attachment-in-relationships/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-how-to-let-go-of-attachment-in-buddhism.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/non-attachment-in-relationships/",
+      "status": 200,
+      "h1": "Non-Attachment in Relationships",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+          "found": true,
+          "count": 5
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-non-attachment-in-relationships.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/quotes/letting-go/",
+      "status": 200,
+      "h1": "Original Letting Go Quotes",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/non-attachment-in-relationships/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-quotes-letting-go.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/right-speech-buddhism/",
+      "status": 200,
+      "h1": "Right Speech in Buddhism: How to Speak with Kindness and Awareness",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-examples/",
+          "found": true,
+          "count": 4
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-right-speech-buddhism.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/right-speech-examples/",
+      "status": 200,
+      "h1": "Right Speech Examples for Everyday Life",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-buddhism/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-right-speech-examples.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/quotes/patience/",
+      "status": 200,
+      "h1": "Original Patience Quotes",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-examples/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-quotes-patience.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/learn/dhammapada-reflections/",
+      "status": 200,
+      "h1": "Dhammapada Reflections",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [],
+      "screenshot": "visual-qa/desktop-learn-dhammapada-reflections.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/dhammapada-reflection-what-we-think/",
+      "status": 200,
+      "h1": "Dhammapada Reflection: What We Think, We Become",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/dhammapada-verse-1-meaning/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-dhammapada-reflection-what-we-think.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/articles/dhammapada-verse-1-meaning/",
+      "status": 200,
+      "h1": "Dhammapada Verse 1 Meaning and Translation Caution",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/learn/dhammapada-reflections/",
+          "found": true,
+          "count": 2
+        }
+      ],
+      "screenshot": "visual-qa/desktop-articles-dhammapada-verse-1-meaning.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/learn/",
+      "status": 200,
+      "h1": "Learn Buddhist Wisdom for Daily Life",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/first-week-buddhist-practice/",
+          "found": true,
+          "count": 2
+        },
+        {
+          "href": "/articles/dhammapada-verse-1-meaning/",
+          "found": true,
+          "count": 1
+        }
+      ],
+      "screenshot": "visual-qa/desktop-learn.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/start-here/",
+      "status": 200,
+      "h1": "Begin Your Buddhist Wisdom and Mindfulness Journey",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/first-week-buddhist-practice/",
+          "found": true,
+          "count": 1
+        },
+        {
+          "href": "/articles/dhamma-vs-dharma/",
+          "found": true,
+          "count": 1
+        }
+      ],
+      "screenshot": "visual-qa/desktop-start-here.png",
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/mindful-living/",
+      "status": 200,
+      "h1": "Mindful Living with Buddhist Wisdom",
+      "mainCount": 1,
+      "docWidth": 1440,
+      "clientWidth": 1440,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-examples/",
+          "found": true,
+          "count": 3
+        },
+        {
+          "href": "/articles/non-attachment-in-relationships/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/desktop-mindful-living.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/learn/buddhist-dictionary/dhamma/",
+      "status": 200,
+      "h1": "Dhamma",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/dhamma-vs-dharma/",
+          "found": true,
+          "count": 1
+        }
+      ],
+      "screenshot": "visual-qa/mobile-learn-buddhist-dictionary-dhamma.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/dhamma-vs-dharma/",
+      "status": 200,
+      "h1": "Dhamma vs Dharma: What Is the Difference?",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/learn/buddhist-dictionary/dhamma/",
+          "found": true,
+          "count": 5
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-dhamma-vs-dharma.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/what-is-sangha-buddhist-community/",
+      "status": 200,
+      "h1": "What Is Sangha? Why Buddhist Community Matters for Beginners",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/visiting-a-buddhist-temple-respectfully/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-what-is-sangha-buddhist-community.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/visiting-a-buddhist-temple-respectfully/",
+      "status": 200,
+      "h1": "Visiting a Buddhist Temple Respectfully",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/what-is-sangha-buddhist-community/",
+          "found": true,
+          "count": 5
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-visiting-a-buddhist-temple-respectfully.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "h1": "Buddhism for Beginners",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [],
+      "screenshot": "visual-qa/mobile-learn-buddhism-for-beginners.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/first-week-buddhist-practice/",
+      "status": 200,
+      "h1": "First Week Buddhist Practice for Beginners",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/learn/buddhism-for-beginners/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-first-week-buddhist-practice.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "status": 200,
+      "h1": "How to Let Go of Attachment in Buddhism",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/non-attachment-in-relationships/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-how-to-let-go-of-attachment-in-buddhism.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/non-attachment-in-relationships/",
+      "status": 200,
+      "h1": "Non-Attachment in Relationships",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+          "found": true,
+          "count": 5
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-non-attachment-in-relationships.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/quotes/letting-go/",
+      "status": 200,
+      "h1": "Original Letting Go Quotes",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/non-attachment-in-relationships/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-quotes-letting-go.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/right-speech-buddhism/",
+      "status": 200,
+      "h1": "Right Speech in Buddhism: How to Speak with Kindness and Awareness",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-examples/",
+          "found": true,
+          "count": 4
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-right-speech-buddhism.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/right-speech-examples/",
+      "status": 200,
+      "h1": "Right Speech Examples for Everyday Life",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-buddhism/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-right-speech-examples.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/quotes/patience/",
+      "status": 200,
+      "h1": "Original Patience Quotes",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-examples/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-quotes-patience.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/learn/dhammapada-reflections/",
+      "status": 200,
+      "h1": "Dhammapada Reflections",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [],
+      "screenshot": "visual-qa/mobile-learn-dhammapada-reflections.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/dhammapada-reflection-what-we-think/",
+      "status": 200,
+      "h1": "Dhammapada Reflection: What We Think, We Become",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/dhammapada-verse-1-meaning/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-dhammapada-reflection-what-we-think.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/articles/dhammapada-verse-1-meaning/",
+      "status": 200,
+      "h1": "Dhammapada Verse 1 Meaning and Translation Caution",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/learn/dhammapada-reflections/",
+          "found": true,
+          "count": 2
+        }
+      ],
+      "screenshot": "visual-qa/mobile-articles-dhammapada-verse-1-meaning.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/learn/",
+      "status": 200,
+      "h1": "Learn Buddhist Wisdom for Daily Life",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/first-week-buddhist-practice/",
+          "found": true,
+          "count": 2
+        },
+        {
+          "href": "/articles/dhammapada-verse-1-meaning/",
+          "found": true,
+          "count": 1
+        }
+      ],
+      "screenshot": "visual-qa/mobile-learn.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/start-here/",
+      "status": 200,
+      "h1": "Begin Your Buddhist Wisdom and Mindfulness Journey",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/first-week-buddhist-practice/",
+          "found": true,
+          "count": 1
+        },
+        {
+          "href": "/articles/dhamma-vs-dharma/",
+          "found": true,
+          "count": 1
+        }
+      ],
+      "screenshot": "visual-qa/mobile-start-here.png",
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/mindful-living/",
+      "status": 200,
+      "h1": "Mindful Living with Buddhist Wisdom",
+      "mainCount": 1,
+      "docWidth": 390,
+      "clientWidth": 390,
+      "expectedLinks": [
+        {
+          "href": "/articles/right-speech-examples/",
+          "found": true,
+          "count": 3
+        },
+        {
+          "href": "/articles/non-attachment-in-relationships/",
+          "found": true,
+          "count": 3
+        }
+      ],
+      "screenshot": "visual-qa/mobile-mindful-living.png",
+      "failures": []
+    }
+  ]
+}
