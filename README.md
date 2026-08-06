@@ -85,15 +85,17 @@ Default behavior:
 - Google Analytics defaults accepted without auto-opening a popup, matching the current owner-approved behavior.
 - Advertising consent types remain denied.
 - Users can accept, reject, reopen settings, or withdraw consent.
-- Ads remain disabled.
+- The owner-approved AdSense publisher script is route-gated to conservative article and learning pages only.
 
 The privacy policy must stay aligned with actual scripts and services.
 
 ## AdSense Status
 
-AdSense is not live. `FEATURES.adsEnabled` is `false`, and no publisher ID should be introduced without a separate AdSense pre-application review.
+AdSense script loading is owner-approved and enabled through `src/components/AdSenseScript.astro` using the publisher ID in `src/data/ads.ts`.
 
-Future ad work must review content quality, policy pages, consent, placement, mobile UX, accessibility, performance, and invalid-traffic risk.
+The script is route-gated away from search, 404, tools, trust/policy pages, quotes, daily reflections, meditation pages, source-study pages, dictionary pages, and sensitive wellbeing articles. Manual ad units remain disabled through `ADSENSE.manualSlotsEnabled`.
+
+Future ad work must review consent/CMP requirements, content quality, policy pages, exact placement, mobile UX, accessibility, performance, and invalid-traffic risk.
 
 ## Deployment
 

@@ -1,15 +1,15 @@
 ---
-import { FEATURES } from "../data/site";
+import { ADSENSE, isAdSenseAllowedPath } from "../data/ads";
 
 type Props = {
   size?: "wide" | "box";
 };
 
 const { size = "wide" } = Astro.props;
-const shouldRender = FEATURES.adsEnabled;
+const shouldRender = ADSENSE.enabled && ADSENSE.manualSlotsEnabled && isAdSenseAllowedPath(Astro.url.pathname);
 ---
 
-<!-- Approved ad code can be inserted here after a real publisher ID is available. -->
+<!-- Manual ad units remain disabled until exact slot IDs and placements are approved. -->
 {shouldRender && (
   <aside class:list={["ad-slot", `ad-slot--${size}`]} aria-label="Advertisement">
     <span>Advertisement</span>

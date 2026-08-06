@@ -1,0 +1,11 @@
+command	status	notes
+npm run build	PASS	336 pages built
+npm run typecheck	PASS	Astro sync and TypeScript check passed
+npm run lint	PASS	Governance lint passed with owner-approved AdSense script checks
+npm test	PASS	6 tests passed
+npm run audit:seo	PASS	SEO audit passed
+npm run audit:content	PASS	Content remediation audit passed
+npm run audit:dependencies	PASS	0 critical and 0 high vulnerabilities
+npm run validate:release	PASS	Release validation passed
+npm run audit:browser	PASS	Browser readiness check passed
+npm run audit:lighthouse	PASS	Lighthouse readiness check completed

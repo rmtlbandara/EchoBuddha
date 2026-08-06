@@ -9,7 +9,7 @@ export const SITE = {
 };
 
 export const FEATURES = {
-  adsEnabled: false,
+  adsEnabled: true,
   analyticsEnabled: true
 };
 

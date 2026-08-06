@@ -1,0 +1,29 @@
+---
+import { ADSENSE, isAdSenseAllowedPath } from "../data/ads";
+
+type Props = {
+  noindex?: boolean;
+};
+
+const { noindex = false } = Astro.props;
+const shouldLoadAdSense = ADSENSE.enabled && isAdSenseAllowedPath(Astro.url.pathname, noindex);
+const adSenseScriptSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.publisherId}`;
+---
+
+{shouldLoadAdSense && (
+  <>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function gtag() {
+        window.dataLayer.push(arguments);
+      };
+      window.gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied"
+      });
+    </script>
+    <script is:inline async src={adSenseScriptSrc} crossorigin="anonymous"></script>
+  </>
+)}

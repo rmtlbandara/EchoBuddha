@@ -669,7 +669,7 @@ AdSense compliance and readiness do not guarantee approval.
 
 ## 28. Privacy, Analytics, and Consent
 
-Current implementation uses a first-party consent preference. Analytics defaults to accepted without auto-opening a popup, matching the current owner-approved behavior. Users can reject analytics, accept analytics from privacy settings, reopen settings, and withdraw analytics. The property ID is centralized in `src/data/site.ts`. Advertising storage, ad user data, and ad personalization remain denied and ads remain disabled.
+Current implementation uses a first-party consent preference. Analytics defaults to accepted without auto-opening a popup, matching the current owner-approved behavior. Users can reject analytics, accept analytics from privacy settings, reopen settings, and withdraw analytics. The property ID is centralized in `src/data/site.ts`. Advertising storage, ad user data, and ad personalization remain denied. The owner-approved AdSense publisher script is enabled only through the conservative route gate in `src/data/ads.ts`; manual ad units remain disabled.
 
 Rules:
 

@@ -47,8 +47,26 @@ if (!consent.includes(".consent-panel[hidden]")) {
 }
 
 const site = read("src/data/site.ts");
-if (!site.includes("adsEnabled: false")) {
-  failures.push("AdSense must remain disabled in src/data/site.ts.");
+if (!site.includes("adsEnabled: true")) {
+  failures.push("Owner-approved AdSense script activation must remain explicit in src/data/site.ts.");
+}
+
+const ads = read("src/data/ads.ts");
+if (!ads.includes('publisherId: "ca-pub-3911157640549350"')) {
+  failures.push("AdSense publisher ID must match the owner-approved publisher ID.");
+}
+if (!ads.includes("manualSlotsEnabled: false")) {
+  failures.push("Manual AdSense slots must remain disabled until exact placements and slot IDs are approved.");
+}
+for (const protectedPath of [
+  "/privacy-policy/",
+  "/quote-attribution-policy/",
+  "/meditation-safety/",
+  "/daily-reflections/today/",
+  "/quotes/",
+  "/meditation/"
+]) {
+  if (!ads.includes(protectedPath)) failures.push(`AdSense route gate is missing protected path ${protectedPath}.`);
 }
 
 const publicFiles = walk(path.join(root, "public"), () => true);

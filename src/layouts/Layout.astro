@@ -3,6 +3,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SEO from "../components/SEO.astro";
 import ConsentManager from "../components/ConsentManager.astro";
+import AdSenseScript from "../components/AdSenseScript.astro";
 import "../styles/global.css";
 
 type Props = {
@@ -68,6 +69,7 @@ const {
       noindex={noindex}
       jsonLd={jsonLd}
     />
+    <AdSenseScript noindex={noindex} />
     <script src="/search.js" defer></script>
   </head>
   <body>
