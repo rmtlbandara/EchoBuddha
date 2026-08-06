@@ -2442,8 +2442,15 @@ export const articles: Article[] = [
       {
         heading: "Common Digital Habits to Notice",
         paragraphs: [
-          "Notice when you forward something you have not checked, write a message to win, use silence as punishment, exaggerate to gain sympathy, or reply while the body is still heated.",
-          "These habits are ordinary, but they train the mind. Mindful communication trains a different habit: pause, check intention, speak truthfully, reduce avoidable harm, and listen for the next wise step."
+          "Notice when you forward something you have not checked, write a message to win, use silence as punishment, exaggerate to gain sympathy, reply while the body is still heated, or take a screenshot of a private exchange for social pressure rather than safety.",
+          "Group chats add another layer. Before forwarding, tagging, quoting, or piling on, ask whether the action clarifies the truth or simply spreads heat. Mindful communication trains a different habit: pause, check intention, speak truthfully, reduce avoidable harm, and listen for the next wise step."
+        ]
+      },
+      {
+        heading: "Delay Is Not the Same as Avoidance",
+        paragraphs: [
+          "A mindful delay can be honest: \"I saw this, and I need time before I answer well.\" Avoidance hides behind silence and leaves the other person guessing. Punishment uses silence to control. Right Speech asks whether the delay reduces harm or simply protects pride.",
+          "Some situations need no reply. Harassment, threats, coercion, privacy violations, and unsafe escalation may call for documentation, blocking, reporting, or support rather than another carefully worded message."
         ]
       },
       {
@@ -2487,7 +2494,7 @@ export const articles: Article[] = [
         heading: "Boundaries Can Reduce Harm",
         paragraphs: [
           "A boundary may protect speech, time, money, body, attention, privacy, or emotional safety. It may be quiet, direct, temporary, or firm. The purpose is not revenge; the purpose is less harm.",
-          "Compassion asks what response is actually helpful. Sometimes that response is listening. Sometimes it is apology. Sometimes it is refusing to continue the same pattern."
+          "Compassion asks what response is actually helpful. Sometimes that response is listening. Sometimes it is apology. Sometimes it is refusing to continue the same pattern. Sometimes it is reporting a serious concern, asking for outside help, or ending access."
         ]
       },
       {
@@ -2501,7 +2508,7 @@ export const articles: Article[] = [
         heading: "A Small Practice for Today",
         paragraphs: [
           "Write one sentence that joins kindness with clarity: \"I care about this, and I am not available for harmful speech.\" Or: \"I want repair, and I need time before continuing.\"",
-          "If harm is ongoing, serious, or unsafe, prioritize protection and qualified support. Buddhist practice should never be used to pressure someone to tolerate abuse or danger."
+          "This is general Buddhist-inspired reflection, not legal, clinical, or personalized relationship advice. If harm is ongoing, serious, coercive, or unsafe, prioritize protection, accountability, and qualified local support. Buddhist practice should never be used to pressure someone to tolerate abuse, danger, or repeated boundary violations."
         ]
       }
     ]
@@ -2530,7 +2537,7 @@ export const articles: Article[] = [
       {
         heading: "The Short Difference",
         paragraphs: [
-          "Dhamma is the Pali form. Dharma is the Sanskrit form. Pali is often associated with Theravada and early Buddhist textual contexts, while Sanskrit appears in many Mahayana and broader Indian religious contexts. English readers may meet both forms depending on the source.",
+          "Dhamma is the common Pali form. Dharma is the common Sanskrit form. Pali is often associated with Theravada and early Buddhist textual contexts, while Sanskrit appears in many Mahayana and broader Indian religious contexts. English readers may meet both forms depending on the source.",
           "A beginner does not need to treat the spellings as a contest. When a teacher, book, or temple uses Dhamma, listen in that context. When another uses Dharma, listen in that context. The important question is whether the teaching reduces greed, hatred, confusion, and harm in actual life."
         ]
       },
@@ -2544,7 +2551,7 @@ export const articles: Article[] = [
       {
         heading: "Dhamma Is More Than a Word",
         paragraphs: [
-          "The safest beginner understanding is practical: Dhamma or Dharma is not just a calming phrase. It points toward teaching, truth, and practice. It asks how suffering is understood, how conduct becomes less harmful, and how wisdom becomes visible in speech, attention, and relationships.",
+          "The safest beginner understanding is practical and spacious: Dhamma or Dharma is not just a calming phrase, and no single English word captures every use. Depending on context it can point toward teaching, truth, phenomena, qualities, law, or practice. On this page, the focus is the Buddhist teaching-and-practice sense most useful for beginners.",
           "For a fuller definition, read <a href=\"/learn/buddhist-dictionary/dhamma/\">Dhamma in the Buddhist Dictionary</a>. For context on the community side of the Three Jewels, continue with <a href=\"/articles/what-is-sangha-buddhist-community/\">Sangha and Buddhist community</a>."
         ]
       },
@@ -2581,14 +2588,14 @@ export const articles: Article[] = [
       {
         heading: "Before You Visit",
         paragraphs: [
-          "Check the temple's website or contact page first. Look for visitor information, service times, dress expectations, parking, donation customs, and whether beginners are welcome at a particular event. Some gatherings are public; others may be intended for members or a specific language community.",
+          "Check the temple's website or contact page first. Look for visitor information, service times, dress expectations, parking, donation customs, accessibility details, and whether beginners are welcome at a particular event. Some gatherings are public; others may be intended for members or a specific language community.",
           "Arrive with humility rather than a consumer mindset. A temple is not a wellness studio, tourist exhibit, or photo background. It is often a sacred and community space where people practice, grieve, celebrate, learn, serve, and preserve tradition."
         ]
       },
       {
         heading: "During the Visit",
         paragraphs: [
-          "Move slowly, observe first, and follow posted guidance. Silence your phone. Ask before taking photos. Dress modestly according to local expectations. If people remove shoes before entering a shrine room, do the same. If you are unsure about bowing, offerings, seating, or chanting, quietly ask a volunteer.",
+          "Move slowly, observe first, and follow posted guidance. Silence your phone. Ask before taking photos. Dress modestly according to local expectations. If people remove shoes before entering a shrine room, do the same where your body safely allows it; if a disability, injury, or medical need makes that difficult, ask locally for help rather than forcing pain.",
           "Respect does not require pretending you understand everything. A beginner can simply sit, listen, and learn. If a ritual is unfamiliar, you may participate gently where invited or observe without making the moment about yourself."
         ]
       },
@@ -2640,7 +2647,7 @@ export const articles: Article[] = [
         heading: "Days 2 and 3: Study and Sit Briefly",
         paragraphs: [
           "On the second day, read about the <a href=\"/learn/four-noble-truths/\">Four Noble Truths</a>. Ask where stress, craving, release, and the path appear in one real situation. On the third day, read about the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path</a> and choose one path factor to notice.",
-          "Keep meditation short. Five minutes is enough. Feel the body, notice the breath, and return when attention wanders. If breath focus feels uncomfortable, open the eyes, feel the feet, or choose sounds as the anchor."
+          "Keep meditation short. Five minutes is enough, and less is also acceptable. Feel the body, notice the breath, and return when attention wanders. If breath focus feels uncomfortable, open the eyes, feel the feet, choose sounds as the anchor, or stop and return later."
         ]
       },
       {
@@ -2654,7 +2661,7 @@ export const articles: Article[] = [
         heading: "Days 6 and 7: Reflect and Continue",
         paragraphs: [
           "On day six, read one <a href=\"/daily-reflections/\">daily reflection</a> and carry its question for a few hours. On day seven, review the week without harshness. What helped you remember? What made practice difficult? What small step could continue next week?",
-          "Do not turn the first week into a performance. The point is to learn how to return. If you missed a day, the path has already given you a practice: begin again without shame."
+          "This seven-day sequence is an original Echo Buddha learning plan, not a rule every tradition requires. Do not turn the first week into a performance. The point is to learn how to return. If you missed a day, the path has already given you a practice: begin again without shame."
         ]
       }
     ]
@@ -2698,7 +2705,14 @@ export const articles: Article[] = [
         heading: "Boundaries Belong to Non-Attachment",
         paragraphs: [
           "Non-attachment should never be used to tolerate harm. If a relationship is unsafe, exploitative, or consistently disrespectful, wise care may require distance, support, documentation, or firm boundaries.",
-          "Letting go is not passivity. It may mean letting go of the hope that someone will become safe while you keep placing yourself in harm's way. Compassion can include protection."
+          "Letting go is not passivity. It may mean letting go of the hope that someone will become safe while you keep placing yourself in harm's way. Compassion can include protection, refusal, accountability, and outside help."
+        ]
+      },
+      {
+        heading: "What Non-Attachment Does Not Ask",
+        paragraphs: [
+          "Non-attachment does not ask you to suppress grief, ignore consent, rush forgiveness, stay in contact, or make reconciliation the proof of spiritual maturity. A careful Buddhist application should leave room for safety, memory, boundaries, and real consequences.",
+          "This page is general reflection, not personalized relationship counselling. If a situation involves threats, coercion, abuse, stalking, or fear for safety, seek qualified local support and prioritize protection over trying to appear calm."
         ]
       },
       {
@@ -2734,7 +2748,7 @@ export const articles: Article[] = [
       {
         heading: "Before Sending a Message",
         paragraphs: [
-          "A quick message can carry more heat than we realize. Before sending, ask: Is this true? Is it useful? Is this the right time? Could the same truth be said with less contempt?",
+          "The traditional Right Speech frame includes abstaining from false speech, divisive speech, harsh speech, and idle or careless chatter. Echo Buddha's practical questions are an editorial application of that frame: Is this true? Is it useful? Is this the right time? Could the same truth be said with less contempt?",
           "Example: instead of \"You never listen,\" try \"I do not feel heard yet. Can we slow down and look at this together?\" The second sentence may still be firm, but it leaves more room for understanding."
         ]
       },
@@ -2785,7 +2799,7 @@ export const articles: Article[] = [
       {
         heading: "What Verse 1 Is About",
         paragraphs: [
-          "In broad terms, Dhammapada Verse 1 points to the mind as a forerunner of speech and action. When speech or action is led by an unskillful mind, suffering follows. The paired next verse presents the wholesome contrast.",
+          "In broad terms, Dhammapada Verse 1, traditionally located at Dhammapada 1 in the Yamakavagga or Pairs chapter, points to the mind as a forerunner of speech and action. When speech or action is led by an unskillful mind, suffering follows. The paired next verse presents the wholesome contrast.",
           "That theme is not the same as saying private thoughts magically create every event. It is more careful: mental intention conditions how we speak, act, repeat habits, and meet experience."
         ]
       },
@@ -2800,14 +2814,14 @@ export const articles: Article[] = [
         heading: "About 'What We Think, We Become'",
         paragraphs: [
           "The line \"what we think, we become\" is widely shared, but it should be handled carefully. It may express a simplified idea related to mind and intention, yet that does not make it an exact canonical translation of Dhammapada Verse 1.",
-          "For the focused attribution-risk page, read <a href=\"/articles/dhammapada-reflection-what-we-think/\">What We Think, We Become: A Dhammapada Reflection</a>. That page addresses the popular wording directly."
+          "When an exact translator's wording is shown, the translator and edition should be named. Echo Buddha avoids reproducing long modern translations on this page. For the focused attribution-risk page, read <a href=\"/articles/dhammapada-reflection-what-we-think/\">What We Think, We Become: A Dhammapada Reflection</a>. That page addresses the popular wording directly."
         ]
       },
       {
         heading: "A Safe Way to Practice the Verse",
         paragraphs: [
           "Use the verse as a prompt for intention. Before speaking, ask: what mind is leading this? Before repeating a thought, ask: what habit does this feed? Before acting, ask: will this reduce harm?",
-          "This practice keeps the verse close to ordinary life without turning it into blame. It also keeps source care visible. For standards, read <a href=\"/buddhist-sources-and-citations/\">Buddhist Sources and Citations</a> and the <a href=\"/quote-attribution-policy/\">Quote Attribution Policy</a>."
+          "This practice keeps the verse close to ordinary life without turning it into blame. It should never be used to suggest that people caused illness, trauma, poverty, grief, abuse, or loss through private thoughts. It also keeps source care visible. For standards, read <a href=\"/buddhist-sources-and-citations/\">Buddhist Sources and Citations</a> and the <a href=\"/quote-attribution-policy/\">Quote Attribution Policy</a>."
         ]
       }
     ]
@@ -7313,7 +7327,7 @@ export type ArticleSeoDetails = {
 
 export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
   "mindful-email-and-texting": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "Mindful email and texting applies Buddhist Right Speech to digital messages.",
       "A pause before sending can reveal intention, tone, usefulness, timing, and avoidable harm.",
@@ -7338,7 +7352,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "compassion-with-boundaries": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "Compassion with boundaries is wise care, not people-pleasing or tolerance of harm.",
       "A boundary can reduce harm while keeping hatred from shaping the heart.",
@@ -7363,7 +7377,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhamma-vs-dharma": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "Dhamma is usually the Pali form and Dharma is usually the Sanskrit form.",
       "The Dhamma dictionary page remains Echo Buddha's broad Dhamma meaning owner.",
@@ -7388,7 +7402,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "visiting-a-buddhist-temple-respectfully": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "A temple visit should be approached with humility, patience, and local-context awareness.",
       "Temple etiquette varies by tradition and community, so posted guidance and volunteer instructions matter.",
@@ -7413,7 +7427,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "first-week-buddhist-practice": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "A first week of Buddhist practice can be simple, practical, and non-performative.",
       "Study, short meditation, ethical speech, daily reflection, and review can support one another.",
@@ -7438,7 +7452,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "non-attachment-in-relationships": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "Non-attachment in relationships means caring without trying to control or possess.",
       "Boundaries belong to wise non-attachment and should not be treated as coldness.",
@@ -7463,7 +7477,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "right-speech-examples": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "Right Speech becomes practical when it is applied to messages, work, family, silence, and disagreement.",
       "Patience gives speech enough time to become truthful, useful, kind, and timely.",
@@ -7488,7 +7502,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhammapada-verse-1-meaning": {
-    reviewedDate: "2026-08-05",
+    reviewedDate: "2026-08-06",
     takeaways: [
       "Dhammapada Verse 1 points to the mind as a forerunner of speech and action.",
       "Popular wording should be separated from exact translation, paraphrase, and original reflection.",

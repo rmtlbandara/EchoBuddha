@@ -1,0 +1,50 @@
+
+> echo-buddha@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: analytics defaults accepted without auto-opening the popup and ad consent remains denied
+ok 1 - analytics defaults accepted without auto-opening the popup and ad consent remains denied
+  ---
+  duration_ms: 1.764667
+  type: 'test'
+  ...
+# Subtest: AdSense is route-gated away from sensitive and trust pages when built
+ok 2 - AdSense is route-gated away from sensitive and trust pages when built
+  ---
+  duration_ms: 7.685542
+  type: 'test'
+  ...
+# Subtest: required validation scripts are present
+ok 3 - required validation scripts are present
+  ---
+  duration_ms: 0.17775
+  type: 'test'
+  ...
+# Subtest: robots manifest and security headers are source-controlled
+ok 4 - robots manifest and security headers are source-controlled
+  ---
+  duration_ms: 0.450584
+  type: 'test'
+  ...
+# Subtest: sitemap output aligns with canonical site when built
+ok 5 - sitemap output aligns with canonical site when built
+  ---
+  duration_ms: 0.793292
+  type: 'test'
+  ...
+# Subtest: content remediation governance assets remain present
+ok 6 - content remediation governance assets remain present
+  ---
+  duration_ms: 0.151084
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 60.632584

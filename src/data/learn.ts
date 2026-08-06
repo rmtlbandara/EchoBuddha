@@ -353,6 +353,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Magga-vibhanga Sutta (SN 45.8)",
       href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
       note: "Early-discourse source for the Eightfold Path factors, which are often grouped as wisdom, ethical conduct, and mental cultivation."
+    },
+    {
+      label: "Access to Insight: The Foundations of Mindfulness",
+      href: "https://www.accesstoinsight.org/lib/authors/nyanasatta/wheel019.html",
+      note: "Study reference that explicitly summarizes the Noble Eightfold Path under virtuous conduct, concentration, and wisdom."
     }
   ],
   "buddhism-101/five-hindrances-in-buddhism": [
@@ -378,14 +383,58 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     {
       label: "Dhammacakkappavattana Sutta (SN 56.11)",
       href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
-      note: "Traditional source for the Four Noble Truths and Middle Way context."
+      note: "Thanissaro Bhikkhu translation of SN 56.11, a traditional source for the two extremes, Middle Way, Four Noble Truths, and path."
+    },
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "Bhikkhu Sujato translation reference for comparison and canonical location."
     }
   ],
   "sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path": [
     {
       label: "Magga-vibhanga Sutta (SN 45.8)",
       href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
-      note: "Traditional source that analyzes the factors of the Noble Eightfold Path."
+      note: "Thanissaro Bhikkhu translation of SN 45.8, a traditional source that analyzes all eight path factors."
+    },
+    {
+      label: "Dhammatalks: SN 45.8",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Current Dhammatalks reference for the same translation and notes on path-factor wording."
+    }
+  ],
+  "buddhist-dictionary/sutta": [
+    {
+      label: "SuttaCentral: sutta definition",
+      href: "https://suttacentral.net/define/sutta",
+      note: "Pali terminology reference for sutta as scripture, discourse, sacred text, and related textual uses."
+    },
+    {
+      label: "Access to Insight: Sutta Pitaka",
+      href: "https://www.accesstoinsight.org/tipitaka/sutta.html",
+      note: "Theravada textual reference for suttas as discourses grouped in the Sutta Pitaka."
+    }
+  ],
+  "buddhist-dictionary/pali-canon": [
+    {
+      label: "Access to Insight: Tipitaka, the Pali Canon",
+      href: "https://www.accesstoinsight.org/tipitaka/index.html",
+      note: "Reference for the Tipitaka or Pali Canon as the primary Pali-language textual foundation of Theravada Buddhism."
+    },
+    {
+      label: "Access to Insight: Sutta Pitaka",
+      href: "https://www.accesstoinsight.org/tipitaka/sutta.html",
+      note: "Reference for the Sutta Pitaka as the discourse collection within the Tipitaka."
+    },
+    {
+      label: "Access to Insight: Vinaya Pitaka",
+      href: "https://www.accesstoinsight.org/tipitaka/vin/",
+      note: "Reference for Vinaya as the monastic discipline division of the Tipitaka."
+    },
+    {
+      label: "Access to Insight: Abhidhamma Pitaka",
+      href: "https://www.accesstoinsight.org/tipitaka/abhi/index.html",
+      note: "Reference for Abhidhamma as the analytical teaching division of the Tipitaka."
     }
   ],
   "meditation/meditation-for-beginners": [
@@ -435,6 +484,16 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Anapanasati Sutta (MN 118)",
       href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
       note: "Classical background for breath attention; this page adapts it into a short beginner practice."
+    },
+    {
+      label: "NCCIH: Meditation and Mindfulness",
+      href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      note: "Health-context safety reference for presenting meditation as supportive practice without guaranteed outcomes."
+    },
+    {
+      label: "NHS: Mindfulness",
+      href: "https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/",
+      note: "Practical safety context for mindfulness, including times when it may not feel suitable."
     }
   ],
   "meditation/meditation-posture-for-beginners": [
@@ -442,6 +501,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Maha-satipatthana Sutta (DN 22)",
       href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
       note: "Includes mindfulness of bodily postures as part of practice context."
+    },
+    {
+      label: "NCCIH: Meditation and Mindfulness",
+      href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      note: "Health-context safety reference for avoiding medical or guaranteed-benefit claims around meditation."
     }
   ],
   "meditation/when-meditation-feels-hard": [
@@ -449,6 +513,16 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Anapanasati Sutta (MN 118)",
       href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
       note: "Classical background for returning to breathing with patience and continuity."
+    },
+    {
+      label: "NCCIH: Meditation and Mindfulness",
+      href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      note: "Health-context safety reference for naming limits, adverse experiences, and support-seeking."
+    },
+    {
+      label: "NHS: Mindfulness",
+      href: "https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/",
+      note: "Practical safety context for readers who find mindfulness uncomfortable, destabilizing, or unsuitable."
     }
   ]
 };
@@ -1703,7 +1777,7 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "Common Misunderstanding",
         paragraphs: [
-          "The Middle Way is not simply compromise between any two opinions. Some actions still cause harm and need firm boundaries. The teaching is about a path that avoids extremes while moving toward wisdom, ethical care, and freedom from clinging.",
+          "The Middle Way is not simply compromise between any two opinions, and it is not the midpoint between any two choices. Some actions still cause harm and need firm boundaries. The teaching is about a path that avoids extremes while moving toward wisdom, ethical care, and freedom from clinging.",
           "Read this page as a foundation support for <a href='/learn/buddhism-for-beginners/'>Buddhism for Beginners</a>, not as a replacement for the Four Noble Truths or the Noble Eightfold Path."
         ]
       }
@@ -1734,7 +1808,7 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "Three Trainings, One Path",
         paragraphs: [
-          "Sila means ethical conduct or moral training. Samadhi points to concentration, collectedness, and steadiness of mind. Panna means wisdom or discernment. Together they help beginners see that Buddhism is not only meditation and not only belief.",
+          "Sila, often written with diacritics as sīla, means ethical conduct or moral training. Samadhi, or samādhi, points to concentration, collectedness, and steadiness of mind. Panna, or paññā, means wisdom or discernment. Together they help beginners see that Buddhism is not only meditation and not only belief.",
           "Ethics steadies the life around practice. Meditation steadies attention. Wisdom sees what leads to suffering and what leads away from it. These trainings support one another like three legs of the same seat."
         ]
       },
@@ -1749,7 +1823,7 @@ export const buddhism101Pages: LearningPage[] = [
         heading: "Common Misunderstanding",
         paragraphs: [
           "The Threefold Training should not be used to rank people or pretend practice is linear. A person may need to strengthen speech, meditation, and understanding at the same time.",
-          "This page gives a beginner map. Different Buddhist traditions explain training in their own voices, and deeper study should include teachers, communities, and reputable translations."
+          "This page gives a beginner map. It does not promise meditative attainment or a guaranteed state of concentration. Different Buddhist traditions explain training in their own voices, and deeper study should include teachers, communities, and reputable translations."
         ]
       }
     ],
@@ -1793,7 +1867,7 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "What This Teaching Does Not Say",
         paragraphs: [
-          "The hindrances are not medical labels, personality labels, or proof that you are bad at meditation. If practice feels overwhelming or distressing, shorten it, open the eyes, ground in the body, or seek qualified support.",
+          "The hindrances are not medical labels, personality labels, or proof that you are bad at meditation. They also should not be used to judge ordinary tiredness, anxiety, grief, or uncertainty as spiritual failure. If practice feels overwhelming or distressing, shorten it, open the eyes, ground in the body, stop, or seek qualified support.",
           "For practical support during difficult sessions, use <a href='/meditation/when-meditation-feels-hard/'>What to Do When Meditation Feels Hard</a> and the <a href='/meditation-safety/'>Meditation Safety</a> page."
         ]
       }
@@ -1839,7 +1913,7 @@ export const buddhism101Pages: LearningPage[] = [
         heading: "Common Misunderstanding",
         paragraphs: [
           "These practices do not require pretending harm is harmless or forcing warm feelings toward unsafe people. Goodwill and compassion can include distance, truth, accountability, and protection.",
-          "Equanimity is also not coldness. It is steadiness with care, especially when life cannot be controlled."
+          "Equanimity is also not coldness. It is steadiness with care, especially when life cannot be controlled. Later Buddhist teaching sometimes warns against look-alike states such as pity replacing compassion or indifference replacing equanimity; Echo Buddha uses that caution as practical guidance, not as a complete commentarial study."
         ]
       }
     ],
@@ -2390,7 +2464,7 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Simple Meaning",
         paragraphs: [
-          "Sutta is the Pali word often used for a discourse or teaching preserved in Buddhist textual collections. Sanskrit sources often use sutra. English readers may meet both words depending on tradition and source.",
+          "Sutta is the Pali word often used for a discourse, scripture, or teaching preserved in Buddhist textual collections. Sanskrit sources often use sutra. English readers may meet both words depending on tradition and source.",
           "A sutta is not the same as a modern blog post or quote card. It belongs to a textual tradition and should be approached with source awareness, translation care, and humility."
         ]
       },
@@ -2403,7 +2477,7 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Common Misunderstanding",
         paragraphs: [
-          "A short summary of a sutta is not a translation. Echo Buddha source-study pages explain themes in original language and link to source/citation standards so readers can compare reputable translations."
+          "A short summary of a sutta is not a translation. The term also does not mean that every Buddhist tradition organizes, names, or uses its texts in exactly the same way. Echo Buddha source-study pages explain themes in original language and link to source/citation standards so readers can compare reputable translations."
         ]
       }
     ],
@@ -2432,8 +2506,8 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Simple Meaning",
         paragraphs: [
-          "The Pali Canon, also called the Tipitaka or Three Baskets, is one of the most important textual collections in Buddhism. It includes discourses, monastic discipline, and analytical teachings preserved in Pali.",
-          "It is especially central in Theravada contexts. Other Buddhist traditions preserve and study other canons and textual collections, so beginners should avoid treating one phrase as the whole of Buddhism."
+          "The Pali Canon, also called the Tipitaka or Three Baskets, is a major Pali-language textual collection that forms the doctrinal foundation of Theravada Buddhism. It includes discourses, monastic discipline, and analytical teachings preserved in Pali.",
+          "It is especially central in Theravada contexts. Other Buddhist traditions preserve and study other canons and textual collections, so beginners should avoid treating the Pali Canon as the complete canon for every Buddhist tradition."
         ]
       },
       {
@@ -2445,7 +2519,7 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Common Misunderstanding",
         paragraphs: [
-          "A modern explanation of a Pali Canon theme is not the same as a canonical translation. Echo Buddha pages use original plain-English summaries and point readers toward reputable translations and teachers for formal study."
+          "A modern explanation of a Pali Canon theme is not the same as a canonical translation. Echo Buddha also avoids unsupported claims such as saying the collection is simply the oldest complete Buddhist canon without careful scholarly qualification. These pages use original plain-English summaries and point readers toward reputable translations and teachers for formal study."
         ]
       }
     ],
@@ -2846,14 +2920,14 @@ export const suttaPages: LearningPage[] = [
       {
         heading: "What This Teaching Says",
         paragraphs: [
-          "This sutta is often associated with setting the wheel of Dhamma in motion. It introduces the Middle Way and the Four Noble Truths: dukkha, the arising of dukkha, the cessation of dukkha, and the path leading toward cessation.",
+          "This sutta, identified as SN 56.11 in the Saṁyutta Nikāya, is traditionally associated with setting the wheel of Dhamma in motion. It introduces the two extremes to avoid, the Middle Way, and the Four Noble Truths: dukkha, the arising of dukkha, the cessation of dukkha, and the path leading toward cessation.",
           "Echo Buddha summarizes the teaching in original plain English. This page does not reproduce a translation and should be read beside reputable translations for formal study."
         ]
       },
       {
         heading: "Why Context Matters",
         paragraphs: [
-          "The sutta is not merely a list of ideas. It points to a practice movement: understand suffering, see craving and clinging, trust that release is possible, and walk a path of wisdom, ethics, and meditation.",
+          "The sutta is not merely a list of ideas. It points to a practice movement: understand dukkha without flattening it into ordinary stress alone, see craving and clinging, trust that release is possible, and walk a path of wisdom, ethics, and meditation.",
           "For beginners, this protects the Four Noble Truths from becoming either pessimism or positivity. The teaching is compassionate realism."
         ]
       },
@@ -2891,7 +2965,7 @@ export const suttaPages: LearningPage[] = [
       {
         heading: "What This Teaching Says",
         paragraphs: [
-          "The sutta analyzes the eight path factors: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+          "The sutta, identified as SN 45.8 in the Saṁyutta Nikāya, analyzes the eight path factors: right view, right intention or resolve, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration or immersion.",
           "These factors should not be treated as eight unrelated tasks. They describe a path where seeing, intention, speech, conduct, work, effort, mindfulness, and concentration shape each other."
         ]
       },
@@ -2906,7 +2980,7 @@ export const suttaPages: LearningPage[] = [
         heading: "What It Does Not Say",
         paragraphs: [
           "The word right should not be used as a weapon for harsh judgment. A safer beginner reading is wise, skillful, or leading away from harm.",
-          "The teaching also does not isolate meditation from ethics. If practice is sincere, it gradually touches emails, work, promises, attention, and repair."
+          "Different translators may choose different English words for the same path factors, so no single wording on this page should be treated as the only valid translation. The teaching also does not isolate meditation from ethics. If practice is sincere, it gradually touches emails, work, promises, attention, and repair."
         ]
       }
     ],
@@ -3481,7 +3555,7 @@ export const shortMeditationPages: LearningPage[] = [
       {
         heading: "A Simple Ten-Minute Structure",
         paragraphs: [
-          "Minutes one and two: settle posture and feel the body. Minutes three through seven: rest attention with the natural breath, returning whenever the mind wanders. Minutes eight and nine: widen awareness to sounds, body, and mood. Minute ten: choose one kind or careful intention.",
+          "Minutes one and two: settle posture and feel the body. Minutes three through seven: rest attention with the natural breath, hands, feet, sounds, or another workable anchor, returning whenever the mind wanders. Minutes eight and nine: widen awareness to sounds, body, and mood. Minute ten: choose one kind or careful intention.",
           "Use a timer if it helps. The point is not to produce calm. The point is to practice returning with patience."
         ]
       },
@@ -3489,7 +3563,7 @@ export const shortMeditationPages: LearningPage[] = [
         heading: "When the Mind Wanders",
         paragraphs: [
           "Wandering is expected. Each return is part of the practice, not an interruption. If the breath feels uncomfortable, use the hands, feet, sounds, or posture as the anchor.",
-          "If ten minutes is too much today, use the <a href='/meditation/5-minute-meditation-practice/'>5-minute meditation practice</a> instead."
+          "If ten minutes is too much today, use the <a href='/meditation/5-minute-meditation-practice/'>5-minute meditation practice</a> instead, or sit for one minute and stop while practice still feels workable."
         ]
       },
       {
@@ -3523,15 +3597,15 @@ export const shortMeditationPages: LearningPage[] = [
       {
         heading: "A Workable Posture",
         paragraphs: [
-          "Sit on a chair, cushion, bench, or folded blanket. Let the body be upright but not rigid. Let the hands rest. Let the eyes close or soften if that feels safe.",
-          "A good posture is one you can inhabit without fighting the body. Accessibility matters more than looking traditional."
+          "Sit on a chair, cushion, bench, folded blanket, or any stable support that works for your body. Standing, lying down, or using a mobility aid can also be appropriate when sitting is not workable. Let the body be upright where possible but not rigid. Let the hands rest. Let the eyes close or soften if that feels safe.",
+          "A good posture is one you can inhabit without fighting the body. Accessibility matters more than looking traditional, and no single posture proves spiritual seriousness."
         ]
       },
       {
         heading: "Chair and Cushion Options",
         paragraphs: [
           "On a chair, place both feet on the floor if possible and sit forward enough that the back supports itself gently. On a cushion, let the knees and hips find a stable base. Adjust height if the knees or back strain.",
-          "If pain, numbness, dizziness, panic, or overwhelm appears, change posture, open the eyes, stand, walk, or stop."
+          "If pain, numbness, dizziness, breathing difficulty, panic, or overwhelm appears, change posture, open the eyes, stand, walk, or stop. Do not endure pain to prove discipline; this page is not medical, ergonomic, or physiotherapy advice."
         ]
       },
       {
@@ -3567,7 +3641,7 @@ export const shortMeditationPages: LearningPage[] = [
         heading: "Name What Is Happening",
         paragraphs: [
           "Hard practice may include restlessness, sleepiness, doubt, irritation, sadness, boredom, or pressure to get it right. Begin by naming the experience gently: restless, tired, doubtful, tight, sad, or trying too hard.",
-          "Naming is not a diagnosis. It is a way to stop being completely swallowed by the state."
+          "Naming is not a diagnosis. It is a way to stop being completely swallowed by the state. Ordinary distraction is different from intense distress, dissociation, traumatic re-experiencing, or feeling unsafe."
         ]
       },
       {
@@ -3580,7 +3654,7 @@ export const shortMeditationPages: LearningPage[] = [
       {
         heading: "When to Stop or Seek Support",
         paragraphs: [
-          "If practice feels overwhelming, unsafe, dissociative, or connected with intense distress, stop and ground in ordinary surroundings. Look around the room, touch a stable object, contact a trusted person, or seek qualified support.",
+          "If practice feels overwhelming, unsafe, dissociative, or connected with intense distress, stop and ground in ordinary surroundings. Look around the room, touch a stable object, contact a trusted person, or seek qualified support. Meditation can be helpful for many people, but it is not right for every person in every moment.",
           "Meditation is not a replacement for medical or mental health care. The wisest practice is sometimes to stop."
         ]
       }

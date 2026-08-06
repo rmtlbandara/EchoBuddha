@@ -1,0 +1,5 @@
+
+> echo-buddha@1.0.0 audit:browser
+> node scripts/browser-readiness-check.mjs
+
+Browser readiness check passed.

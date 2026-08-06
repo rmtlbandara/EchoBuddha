@@ -1,0 +1,8 @@
+URL,Risk,Finding,Action
+/articles/dhamma-vs-dharma/,Medium,Language comparison needs direct terminology support; no long translation issue,Add terminology source; no quotation expansion
+/articles/dhammapada-verse-1-meaning/,High,Popular wording could be mistaken for exact translation,Name canonical location and keep wording as paraphrase/reflection unless source-specific
+/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,Medium,Source-study page summarizes SN56.11 without long translation,Add translator/source visibility; avoid long excerpts
+/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,Medium,Source-study page summarizes SN45.8 without long translation,Add translator/source visibility and wording-variation note
+/learn/buddhist-dictionary/sutta/,Medium,Term has Pali/Sanskrit and textual-use nuance,Add direct dictionary/source links
+/learn/buddhist-dictionary/pali-canon/,Medium,Historical/canon claims need careful support,Add direct Tipitaka source and avoid unsupported oldest/complete claims
+All other scoped pages,Low,No long copyrighted translation reproduction found,Keep source summaries as original Echo Buddha wording

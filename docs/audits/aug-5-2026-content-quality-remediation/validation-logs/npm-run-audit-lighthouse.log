@@ -1,0 +1,5 @@
+
+> echo-buddha@1.0.0 audit:lighthouse
+> node scripts/lighthouse-readiness.mjs
+
+Lighthouse readiness check completed.

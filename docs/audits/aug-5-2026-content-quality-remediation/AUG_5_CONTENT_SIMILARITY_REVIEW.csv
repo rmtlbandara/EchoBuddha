@@ -1,0 +1,12 @@
+Cluster,Pages reviewed,Similarity risk,Evidence,Action
+Dhamma/Dharma,/articles/dhamma-vs-dharma/ vs /learn/buddhist-dictionary/dhamma/,Low,Support article handles spelling/context while dictionary owns broad meaning,Preserve structure; add linguistic source
+Sangha/Temple,/articles/visiting-a-buddhist-temple-respectfully/ vs /articles/what-is-sangha-buddhist-community/,Low,Temple page is practical etiquette; Sangha page broad community,Add institutional detail without broad Sangha rewrite
+Beginner Buddhism,/articles/first-week-buddhist-practice/ vs /learn/buddhism-for-beginners/,Low,First-week page provides sequence; hub owns broad route,Label sequence as editorial plan
+Attachment,/articles/non-attachment-in-relationships/ vs attachment owner and letting-go siblings,Medium,Repeated care/control/boundaries language appears across cluster,Add relationship-specific consent/safety and reduce generic closure
+Right Speech,/articles/right-speech-examples/ vs /articles/mindful-email-and-texting/ and right-speech owner,Medium,Overlap around messages and pause-before-send,Keep examples page broad scenarios and email page digital-specific
+Dhammapada,/articles/dhammapada-verse-1-meaning/ vs Dhammapada reflection pages,Low,Verse page handles attribution-sensitive query,Add exact source/translation caution
+Buddhism 101 foundations,Four Phase 5 foundation pages,Low-medium,Similar section pattern but different intents,Add page-specific caveats and source details
+Source-study pages,SN56.11 and SN45.8 pages,Low-medium,Parallel source-study structure is expected,Add distinct canonical/translator and translation-difference notes
+Dictionary pages,Sutta and Pali Canon pages,Low,Terms are related but separate,Add distinct source support and avoid source-study hub drift
+Meditation pages,10-minute posture hard-practice pages,Medium,Safety language repeats by design,Keep safety repetition but add page-specific adaptations
+Boundary/mindful living,Compassion boundaries vs non-attachment/forgiveness,Medium,Boundary terms overlap,Add accountability/reporting/refusal and avoid forgiveness pressure

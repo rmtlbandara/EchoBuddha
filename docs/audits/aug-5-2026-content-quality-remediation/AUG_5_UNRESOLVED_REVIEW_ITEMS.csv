@@ -1,0 +1,6 @@
+Area,Status,Reason,Required owner action before making stronger claims
+Buddhist-studies expert approval,Not claimed,Repository changes used reputable public sources but no external Buddhist-studies reviewer approved the wording,Obtain qualified review before saying pages are expert-reviewed
+Translation/legal approval,Not claimed,Pages avoid long translation reuse and distinguish paraphrase from translation but no legal review was performed,Review any future substantial quoted translations or publisher-specific wording
+Clinical or medical approval,Not claimed,Meditation language is safer and cites health-context references but remains general education,Obtain qualified clinical/medical review before expanding into therapeutic guidance
+Relationship safety counselling approval,Not claimed,Boundary pages add protection and support caveats but are not counselling/legal advice,Obtain qualified review before addressing severe relationship harm in more detail
+Production publication approval,Pending owner decision,The remediation brief prohibits push merge or deployment without explicit review authorization,Owner may authorize push/deployment after reviewing this remediation package

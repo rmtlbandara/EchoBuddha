@@ -1,0 +1,13 @@
+Command,Status,Log file,Key result,Blocker
+npm run build,Pass,validation-logs/npm-run-build.log,Astro static build completed with 336 pages,None
+npm run typecheck,Pass,validation-logs/npm-run-typecheck.log,astro sync and tsc --noEmit completed,None
+npm run lint,Pass,validation-logs/npm-run-lint.log,Governance lint passed,None
+npm test,Pass,validation-logs/npm-test.log,6 node test subtests passed,None
+npm run audit:seo,Pass,validation-logs/npm-run-audit-seo.log,SEO audit passed,None
+npm run audit:content,Pass,validation-logs/npm-run-audit-content.log,Content remediation audit passed,None
+npm run audit:dependencies,Pass,validation-logs/npm-run-audit-dependencies.log,0 critical and 0 high vulnerabilities,None
+npm run validate,Pass,validation-logs/npm-run-validate.log,Build typecheck lint test SEO audit and content audit passed,None
+npm run validate:release,Pass,validation-logs/npm-run-validate-release.log,validate plus dependency audit passed,None
+npm run audit:browser,Pass,validation-logs/npm-run-audit-browser.log,Browser readiness check passed,None
+npm run audit:lighthouse,Pass,validation-logs/npm-run-audit-lighthouse.log,Lighthouse readiness check completed,None
+node docs/audits/aug-5-2026-content-quality-remediation/run-aug-5-visual-qa.mjs,Pass,validation-logs/aug-5-visual-qa.log,38 desktop/mobile page runs passed for the 19 scoped pages,None

@@ -1,0 +1,5 @@
+
+> echo-buddha@1.0.0 audit:dependencies
+> node scripts/audit-dependencies.mjs
+
+Dependency audit passed: 0 critical, 0 high vulnerabilities.

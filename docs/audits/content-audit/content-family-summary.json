@@ -43,7 +43,7 @@
       "Minor improvement": 11,
       "Pass": 39
     },
-    "averageWords": 1635
+    "averageWords": 1645
   },
   "articleCategory": {
     "total": 5,
@@ -95,10 +95,9 @@
     "indexable": 45,
     "noindex": 0,
     "decisions": {
-      "Pass": 43,
-      "Source verification required": 2
+      "Pass": 45
     },
-    "averageWords": 600
+    "averageWords": 609
   },
   "meditationDetail": {
     "total": 9,
@@ -107,7 +106,7 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 595
+    "averageWords": 614
   },
   "quoteCategory": {
     "total": 10,

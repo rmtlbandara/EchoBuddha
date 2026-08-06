@@ -900,6 +900,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Traditional source for goodwill and non-harming care; page wording remains original."
     },
     {
+      label: "Access to Insight: The Four Sublime States",
+      href: "https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel006.html",
+      note: "Study reference for compassion and equanimity as related heart qualities; modern boundary applications remain Echo Buddha editorial guidance."
+    },
+    {
       label: "Buddhist Sources and Citations",
       href: `${SITE.url}/buddhist-sources-and-citations/`,
       note: "Echo Buddha source and paraphrase standards for Buddhist teaching pages."
@@ -940,7 +945,12 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
     {
       label: "Access to Insight: Dhammapada I",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
-      note: "Traditional Dhammapada chapter source for Verse 1 and mind-leading themes; page wording remains original explanation."
+      note: "Traditional Dhammapada chapter source for Verse 1 and mind-leading themes; translated by Acharya Buddharakkhita on Access to Insight, while page wording remains original explanation."
+    },
+    {
+      label: "SuttaCentral: Dhammapada translation introduction",
+      href: "https://suttacentral.net/edition/dhp/en/sujato/introduction",
+      note: "Reference for translation variation and why popular Dhammapada wording should not be treated as automatically exact."
     }
   ],
   "/articles/buddhist-approach-to-anger/": [
@@ -1000,9 +1010,24 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Dhammatalks: SN 45.2",
       href: "https://www.dhammatalks.org/suttas/SN/SN45_2.html",
       note: "Source for admirable friendship and companionship as support for the path."
+    },
+    {
+      label: "Amaravati Buddhist Monastery: visiting FAQ",
+      href: "https://amaravati.org/visiting/frequently-asked-questions/",
+      note: "Institutional example showing that dress, shoes, offerings, and monastic interaction rules are local and should be checked with the community being visited."
+    },
+    {
+      label: "Buddhist Society of Western Australia: Buddhist etiquette",
+      href: "https://bswa.org/bswp/wp-content/uploads/2022/08/Buddhist-Etiquette-BSWA.pdf",
+      note: "Institutional etiquette guide used as a practical example, not as a universal rule for every Buddhist temple."
     }
   ],
   "/articles/dhamma-vs-dharma/": [
+    {
+      label: "SuttaCentral: dhamma definition",
+      href: "https://suttacentral.net/define/dhamma",
+      note: "Terminology reference for the range of Pali meanings behind dhamma."
+    },
     {
       label: "Access to Insight: Dhammapada XIV",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",

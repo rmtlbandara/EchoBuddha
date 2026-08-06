@@ -1,0 +1,20 @@
+URL,Decision,Priority,Implementation status,Reason,Files affected,Deferred review
+/articles/dhamma-vs-dharma/,SOURCE VERIFICATION REQUIRED,High,Planned,Language comparison needs direct terminology support beyond canonical Dhamma context,src/data/site.ts; src/data/editorialGovernance.ts,Buddhist-studies philology review
+/articles/visiting-a-buddhist-temple-respectfully/,SOURCE VERIFICATION REQUIRED,High,Planned,Practical etiquette claims need institutional support and variation language,src/data/site.ts; src/data/editorialGovernance.ts,Local/tradition etiquette review
+/articles/first-week-buddhist-practice/,MINOR EDIT,Medium,Planned,Seven-day plan is useful but should be labeled as original editorial sequence and safety/adaptation should be stronger,src/data/site.ts,None
+/articles/non-attachment-in-relationships/,SUBSTANTIVE CONTENT IMPROVEMENT,High,Planned,Relationship safety and non-counselling boundaries need more explicit protection,src/data/site.ts; src/data/editorialGovernance.ts,Human review for severe relationship harm
+/articles/right-speech-examples/,MINOR EDIT,High,Planned,Traditional four abstentions should be visible before modern examples,src/data/site.ts,None
+/articles/dhammapada-verse-1-meaning/,SUBSTANTIVE CONTENT IMPROVEMENT,High,Planned,Needs stronger canonical/translator/paraphrase distinction and anti-blame wording,src/data/site.ts; src/data/editorialGovernance.ts,Translation/copyright review if quoting translations
+/learn/buddhism-101/middle-way-explained-for-beginners/,MINOR EDIT,Medium,Planned,Clarify that Middle Way is not any midpoint or generic compromise,src/data/learn.ts,Buddhist-studies review for advanced nuance
+/learn/buddhism-101/threefold-training-sila-samadhi-panna/,SOURCE VERIFICATION REQUIRED,High,Planned,Threefold grouping needs direct support and spelling clarity,src/data/learn.ts,Buddhist-studies review for tradition differences
+/learn/buddhism-101/five-hindrances-in-buddhism/,SUBSTANTIVE CONTENT IMPROVEMENT,High,Planned,Needs stronger non-diagnostic and meditation-safety framing,src/data/learn.ts,Meditation safety review
+/learn/buddhism-101/four-brahmaviharas/,MINOR EDIT,Medium,Planned,Needs careful equanimity/indifference and boundaries framing,src/data/learn.ts,Buddhist-studies review for commentarial detail
+/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,MINOR EDIT,High,Planned,Needs canonical reference/translator visibility and no stress-only flattening,src/data/learn.ts,Buddhist-studies/translation review
+/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,MINOR EDIT,High,Planned,Needs canonical reference/translator visibility and wording-variation note,src/data/learn.ts,Buddhist-studies/translation review
+/learn/buddhist-dictionary/sutta/,SOURCE VERIFICATION REQUIRED,High,Planned,Dictionary claim needs direct textual/terminology support,src/data/learn.ts,Buddhist-studies review
+/learn/buddhist-dictionary/pali-canon/,SOURCE VERIFICATION REQUIRED,High,Planned,Pali Canon history/divisions need direct source support and careful qualification,src/data/learn.ts,Buddhist-studies review
+/meditation/10-minute-meditation-practice/,MINOR EDIT,High,Planned,Needs stronger adapt/shorten/alternate-anchor language,src/data/learn.ts,Meditation safety review
+/meditation/meditation-posture-for-beginners/,MINOR EDIT,High,Planned,Needs fuller accessibility and physical-safety caveats,src/data/learn.ts,Safety/medical review if expanded
+/meditation/when-meditation-feels-hard/,MINOR EDIT,High,Planned,Needs clearer distinction between ordinary difficulty and intense distress,src/data/learn.ts,Meditation safety review
+/articles/mindful-email-and-texting/,SUBSTANTIVE CONTENT IMPROVEMENT,High,Planned,Needs more unique digital scenarios and privacy/group-chat handling,src/data/site.ts,None
+/articles/compassion-with-boundaries/,SUBSTANTIVE CONTENT IMPROVEMENT,High,Planned,Needs stronger accountability/refusal/external-help language and differentiation,src/data/site.ts; src/data/editorialGovernance.ts,Human review for severe relationship harm
