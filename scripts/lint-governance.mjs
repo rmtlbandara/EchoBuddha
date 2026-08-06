@@ -58,6 +58,9 @@ if (!ads.includes('publisherId: "ca-pub-3911157640549350"')) {
 if (!ads.includes("manualSlotsEnabled: false")) {
   failures.push("Manual AdSense slots must remain disabled until exact placements and slot IDs are approved.");
 }
+if (!ads.includes("verificationExactPaths") || !ads.includes('"/"')) {
+  failures.push("AdSense site verification must remain available on the homepage.");
+}
 for (const protectedPath of [
   "/privacy-policy/",
   "/quote-attribution-policy/",
@@ -67,6 +70,11 @@ for (const protectedPath of [
   "/meditation/"
 ]) {
   if (!ads.includes(protectedPath)) failures.push(`AdSense route gate is missing protected path ${protectedPath}.`);
+}
+
+const robots = read("public/robots.txt");
+if (!robots.includes("User-agent: Mediapartners-Google") || !robots.includes("Allow: /")) {
+  failures.push("robots.txt must explicitly allow the Google AdSense crawler.");
 }
 
 const publicFiles = walk(path.join(root, "public"), () => true);

@@ -9,3 +9,6 @@ npm run audit:dependencies	PASS	0 critical and 0 high vulnerabilities
 npm run validate:release	PASS	Release validation passed
 npm run audit:browser	PASS	Browser readiness check passed
 npm run audit:lighthouse	PASS	Lighthouse readiness check completed
+dist/index.html AdSense script check	PASS	Homepage contains exactly one owner publisher script for AdSense site verification
+dist protected-page AdSense script check	PASS	Privacy, search, daily reflection, quote, meditation, anxiety, Dhammapada, and Five Hindrances samples contain no AdSense publisher script
+dist/robots.txt AdSense crawler check	PASS	Source-controlled robots output explicitly allows Mediapartners-Google

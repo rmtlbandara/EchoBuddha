@@ -31,8 +31,10 @@ test("AdSense is route-gated away from sensitive and trust pages when built", ()
     return;
   }
 
+  const homepage = read("dist/index.html");
   const allowedArticle = read("dist/articles/four-noble-truths-explained-simply/index.html");
   const allowedLearn = read("dist/learn/buddhism-101/what-is-mindfulness/index.html");
+  assert.match(homepage, /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-3911157640549350/);
   assert.match(allowedArticle, /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-3911157640549350/);
   assert.match(allowedLearn, /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-3911157640549350/);
 
@@ -74,6 +76,8 @@ test("robots manifest and security headers are source-controlled", () => {
   const manifest = JSON.parse(read("public/site.webmanifest"));
   const headers = read("public/_headers");
   assert.match(robots, /Sitemap: https:\/\/echobuddha\.com\/sitemap\.xml/);
+  assert.match(robots, /User-agent:\s*Mediapartners-Google/);
+  assert.match(robots, /User-agent:\s*Mediapartners-Google\s+Allow:\s*\//);
   assert.equal(manifest.name, "Echo Buddha");
   assert.equal(manifest.start_url, "/");
   assert.ok(manifest.icons.length >= 3);

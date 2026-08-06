@@ -10,6 +10,8 @@ Publisher ID: `ca-pub-3911157640549350`
 
 This change activates the AdSense publisher script conservatively. It does not add manual ad unit slot IDs, does not add manual ad placements, does not enable ads on protected page families, and does not claim AdSense approval, earnings, indexing, ranking, or policy/legal compliance guarantees.
 
+Follow-up verification fix: after Google AdSense reported that it could not verify the site, the route gate was adjusted so the publisher script is also present on the homepage. This makes the script accessible at the site root while keeping protected content families blocked.
+
 ## Implementation
 
 Files changed:
@@ -26,13 +28,13 @@ Files changed:
 
 AdSense script is allowed only on:
 
+- Homepage `/`, for AdSense site verification.
 - Low-sensitivity article detail pages, excluding sensitive wellbeing, meditation, boundary, forgiveness, and Dhammapada/source-attribution pages.
 - Buddhism 101 learning detail pages, excluding Five Hindrances because of meditation-obstacle sensitivity.
 - Core Learn pages: `/learn/buddhism-for-beginners/`, `/learn/eightfold-path/`, and `/learn/four-noble-truths/`.
 
 AdSense script remains blocked on:
 
-- Homepage.
 - Search.
 - 404.
 - Tools.
@@ -48,7 +50,7 @@ AdSense script remains blocked on:
 Local build evidence:
 
 - Built HTML pages: 336.
-- Pages with the AdSense publisher script: 55.
+- Pages with the AdSense publisher script after the homepage verification fix: 56.
 - Protected sample pages checked without script: privacy policy, search, today's reflection, quote category, quote story, meditation page, anxiety meditation article, Dhammapada Verse 1 article, and Five Hindrances learning page.
 
 ## Consent And Placement

@@ -4,8 +4,11 @@ export const ADSENSE = {
   manualSlotsEnabled: false
 };
 
+const verificationExactPaths = new Set([
+  "/"
+]);
+
 const neverAdExactPaths = new Set([
-  "/",
   "/404.html",
   "/about/",
   "/authors/echo-buddha-editorial/",
@@ -68,6 +71,7 @@ export function isAdSenseAllowedPath(pathname: string, noindex = false) {
   if (noindex) return false;
 
   const normalized = normalizePath(pathname);
+  if (verificationExactPaths.has(normalized)) return true;
   if (neverAdExactPaths.has(normalized)) return false;
   if (neverAdPrefixes.some((prefix) => normalized.startsWith(prefix))) return false;
   if (sensitiveArticlePaths.has(normalized)) return false;
