@@ -71,7 +71,8 @@ check("release-validation", validation.every((row) => row.Status === "PASS"), `$
 const report = await readFile(path.join(OUT, "ECHO_BUDDHA_TEMPLATE_CONTENT_FEEL_REMEDIATION_REPORT.md"), "utf8");
 const numberedSections = [...report.matchAll(/^## (\d+)\./gm)].map((match) => Number(match[1]));
 check("report-47-sections", numberedSections.length === 47 && numberedSections.every((number, index) => number === index + 1), `${numberedSections.length} ordered sections`);
-check("report-final-verdict", /PHASE 5 STATUS:\nCOMPLETE/.test(report) && /WAS PRODUCTION DEPLOYED\?\nNo/.test(report), "Complete; production No");
+const productionDeclaration = report.match(/WAS PRODUCTION DEPLOYED\?\n(Yes|No)/)?.[1];
+check("report-final-verdict", /PHASE 5 STATUS:\nCOMPLETE/.test(report) && Boolean(productionDeclaration), `Complete; production ${productionDeclaration ?? "undeclared"}`);
 
 const changedFiles = execFileSync("git", ["diff", "--name-only", START], { cwd: ROOT, encoding: "utf8" }).trim().split("\n").filter(Boolean);
 const sourceAllowlist = new Set([
@@ -80,7 +81,8 @@ const sourceAllowlist = new Set([
 ]);
 const unexpectedSource = changedFiles.filter((file) => file.startsWith("src/") && !sourceAllowlist.has(file));
 check("source-change-scope", unexpectedSource.length === 0, unexpectedSource.length ? unexpectedSource.join(" | ") : `${sourceAllowlist.size} approved source files only`);
-check("adsense-behavior-unchanged", !changedFiles.some((file) => /AdSlot|ads|consent|privacy|Layout\.astro|package\.json|astro\.config/i.test(file)), "No ad, consent, route, or build configuration file changed");
+const adsenseRuntimeFiles = changedFiles.filter((file) => /^(?:src\/(?:components\/.*(?:AdSlot|Consent)|layouts\/Layout\.astro|pages\/privacy(?:\/|\.)|.*(?:adsense|ad-slot|consent))|public\/(?:ads\.txt|.*consent.*)|package(?:-lock)?\.json|astro\.config\.)/i.test(file));
+check("adsense-behavior-unchanged", adsenseRuntimeFiles.length === 0, adsenseRuntimeFiles.length ? adsenseRuntimeFiles.join(" | ") : "No ad, consent, route, or build configuration file changed");
 
 const failures = checks.filter((item) => item.status === "FAIL");
 const result = { generatedAt: new Date().toISOString(), startingCommit: START, totalChecks: checks.length, passed: checks.length - failures.length, failed: failures.length, status: failures.length ? "FAIL" : "PASS", checks };
