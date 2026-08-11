@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Privacy Policy";
 const description = "Read how Echo Buddha handles analytics, cookies, advertising technologies, email messages, and privacy choices.";
@@ -12,9 +13,7 @@ const jsonLd = {
   description,
   url: `${SITE.url}${canonicalPath}`,
   publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url,
+    ...PUBLISHER_SCHEMA,
     email: SITE.email
   }
 };

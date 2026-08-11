@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Quote Attribution Policy";
 const description =
@@ -12,11 +13,7 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url
-  }
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -41,6 +38,15 @@ const jsonLd = {
         page clearly says otherwise. They are inspired by Buddhist practice themes, but they are not direct scripture
         translations or verified historical sayings.
       </p>
+
+      <h2>Five Attribution Classes</h2>
+      <ol>
+        <li><strong>Original Echo Buddha writing:</strong> site-created wording labeled as an original reflection.</li>
+        <li><strong>Canonical or scriptural quotation:</strong> exact wording with collection, passage, translator or edition, and rights context where needed.</li>
+        <li><strong>Named modern quotation:</strong> exact wording linked to a verifiable work, recording, or first-party source.</li>
+        <li><strong>Paraphrase or adaptation:</strong> new wording that identifies the underlying source or clearly states that it is an adaptation.</li>
+        <li><strong>Unverified or unpublishable attribution:</strong> wording held back, rewritten as an original reflection, or published only with explicit uncertainty when that uncertainty is itself useful and not misleading.</li>
+      </ol>
       <p>
         A quote should not be called a Buddha quote, Dhammapada quote, scripture translation, sutta quote, or
         named-person quote unless the origin has been checked against a reliable source.

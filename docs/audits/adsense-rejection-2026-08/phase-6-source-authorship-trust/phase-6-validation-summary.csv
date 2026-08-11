@@ -1,0 +1,13 @@
+Stage,Command / check,Status,Result,Evidence
+TARGETED,npm run build,PASS,336 static pages,Phase 6 terminal run and generated registers
+TARGETED,npm run typecheck,PASS,Astro sync and TypeScript passed,Phase 6 terminal run and generated registers
+TARGETED,npm run lint,PASS,Governance lint passed,Phase 6 terminal run and generated registers
+FINAL,npm test,PASS,7/7 tests passed,Phase 6 terminal run and generated registers
+FINAL,npm run audit:seo,PASS,SEO audit passed,Phase 6 terminal run and generated registers
+FINAL,npm run audit:content,PASS,Content remediation audit passed,Phase 6 terminal run and generated registers
+FINAL,npm run audit:dependencies,PASS,0 critical and 0 high vulnerabilities,Phase 6 terminal run and generated registers
+FINAL,npm run validate,PASS,All standard validation gates passed,Phase 6 terminal run and generated registers
+FINAL,npm run validate:release,PASS,Standard and dependency gates passed,Phase 6 terminal run and generated registers
+FINAL,Phase 6 custom validator,PASS,29/29 checks passed,Phase 6 terminal run and generated registers
+FINAL,Browser QA,PASS,38/38 Phase 6 viewport runs plus standard 17-route accessibility/consent suite,Phase 6 terminal run and generated registers
+FINAL,Lighthouse,PASS,"20/20 runs; mobile performance minimum 0.99, accessibility 1.00, max LCP 1097.9ms, max CLS 0; desktop performance/accessibility minimum 1.00, max LCP 451.4ms, max CLS 0.0004",Phase 6 terminal run and generated registers

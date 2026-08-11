@@ -2,9 +2,10 @@
 import Layout from "../../layouts/Layout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import { SITE, fullArticles } from "../../data/site";
+import { EDITORIAL_AUTHOR_SCHEMA, EDITORIAL_IDENTITY, PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
 const title = "Echo Buddha Editorial";
-const description = "Meet the Echo Buddha Editorial voice behind accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.";
+const description = "Understand the organizational Echo Buddha Editorial byline used for accessible Buddhist-inspired education, reflection, and meditation guidance.";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
@@ -12,12 +13,12 @@ const jsonLd = {
   description,
   url: `${SITE.url}/authors/echo-buddha-editorial/`,
   mainEntity: {
-    "@type": "Organization",
-    name: SITE.author,
+    ...EDITORIAL_AUTHOR_SCHEMA,
     description:
-      "The editorial voice of Echo Buddha, focused on accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.",
-    url: `${SITE.url}/authors/echo-buddha-editorial/`
-  }
+      "The organizational publication byline used for original educational and reflective material published by Echo Buddha. It is not a named person or professional credential.",
+    parentOrganization: PUBLISHER_SCHEMA
+  },
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -27,23 +28,31 @@ const jsonLd = {
       <span class="eyebrow">Editorial profile</span>
       <h1>Echo Buddha Editorial</h1>
       <p class="lede">
-        The shared editorial voice behind Echo Buddha's original articles, quote reflections, and meditation guidance.
+        The organizational publication byline used for original articles, quote reflections, and meditation guidance
+        published by Echo Buddha.
       </p>
     </div>
   </section>
 
   <section class="section section--tight">
     <div class="container prose">
-      <h2>About the Editorial Voice</h2>
+      <h2>What This Byline Means</h2>
       <p>
-        Echo Buddha Editorial focuses on clear, respectful introductions to Buddhist-inspired wisdom, mindfulness,
-        compassion, reflection, and meditation practice. Content is written for general readers and avoids claims of
-        monastic status, religious rank, clinical expertise, or personal spiritual authority.
+        “Echo Buddha Editorial” is a publication label, not the name of a person, a claim that a multi-person editorial
+        team exists, or a professional credential. It identifies material published under the Echo Buddha name.
+        Echo Buddha remains responsible for publication decisions and corrections through its public contact at
+        <a href={`mailto:${EDITORIAL_IDENTITY.contactEmail}`}>{EDITORIAL_IDENTITY.contactEmail}</a>.
       </p>
       <p>
-        The aim is to translate contemplative themes into practical language while acknowledging the depth and
-        diversity of Buddhist traditions. Readers seeking formal religious instruction are encouraged to learn from
-        qualified teachers and established communities.
+        The publication focuses on clear, respectful introductions to Buddhist-inspired wisdom, mindfulness,
+        compassion, reflection, and meditation practice. It does not claim monastic status, religious rank, academic
+        endorsement, clinical expertise, or personal spiritual authority. An internal source, safety, editorial, or
+        technical check is not external expert certification.
+      </p>
+      <p>
+        The aim is to put contemplative themes into practical language while acknowledging the depth and diversity of
+        Buddhist traditions. Readers seeking formal religious instruction should learn from appropriately qualified
+        teachers and established communities.
       </p>
       <p>
         Review the <a href="/editorial-policy/">Editorial Policy</a> or

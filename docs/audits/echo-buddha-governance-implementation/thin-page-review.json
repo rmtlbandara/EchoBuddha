@@ -8,7 +8,7 @@
   {
     "path": "/contact/",
     "type": "policy",
-    "words": 266,
+    "words": 291,
     "decision": "Keep with documented navigational/trust purpose unless product owner chooses expansion."
   }
 ]

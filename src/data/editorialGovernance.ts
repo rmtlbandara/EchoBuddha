@@ -74,6 +74,74 @@ export type SourceReference = {
 
 export const REVIEWED_AT = "2026-07-21";
 
+export const EDITORIAL_IDENTITY = {
+  publicationName: SITE.name,
+  bylineName: SITE.author,
+  bylineUrl: `${SITE.url}/authors/echo-buddha-editorial/`,
+  bylineId: `${SITE.url}/authors/echo-buddha-editorial/#editorial-author`,
+  publisherId: `${SITE.url}/#organization`,
+  contactEmail: SITE.email,
+  publicModel:
+    "Echo Buddha Editorial is the organizational publication byline used for material published under the Echo Buddha name.",
+  accountability:
+    "Echo Buddha is responsible for publication decisions and corrections through its public publisher contact.",
+  reviewBoundary:
+    "An internal editorial, source, safety, or technical check is not a claim of external expert, monastic, academic, legal, medical, or clinical review.",
+  namedPersonPublished: false,
+  verifiedCredentials: [] as string[],
+  externalReviewers: [] as string[]
+} as const;
+
+export const PUBLISHER_SCHEMA = {
+  "@type": "Organization",
+  "@id": EDITORIAL_IDENTITY.publisherId,
+  name: SITE.name,
+  url: SITE.url
+} as const;
+
+export const EDITORIAL_AUTHOR_SCHEMA = {
+  "@type": "Organization",
+  "@id": EDITORIAL_IDENTITY.bylineId,
+  name: SITE.author,
+  url: EDITORIAL_IDENTITY.bylineUrl
+} as const;
+
+export const TRUST_PATHS = {
+  about: "/about/",
+  author: "/authors/echo-buddha-editorial/",
+  editorialPolicy: "/editorial-policy/",
+  contentProcess: "/how-echo-buddha-creates-content/",
+  sources: "/buddhist-sources-and-citations/",
+  quoteAttribution: "/quote-attribution-policy/",
+  corrections: "/corrections/",
+  contact: "/contact/",
+  meditationSafety: "/meditation-safety/",
+  disclaimer: "/disclaimer/"
+} as const;
+
+export const SOURCE_HIERARCHY = [
+  {
+    level: 1,
+    label: "Canonical text and direct textual context",
+    use: "Identify the relevant discourse, verse, collection, or textual passage when a page makes a source-sensitive doctrinal claim."
+  },
+  {
+    level: 2,
+    label: "Reputable translation or Buddhist institution",
+    use: "Compare translation choices and practice context without treating one English rendering as the original text."
+  },
+  {
+    level: 3,
+    label: "Scholarly or academic context",
+    use: "Use for history, language, disputed interpretation, and tradition-specific nuance when it materially helps the reader."
+  },
+  {
+    level: 4,
+    label: "Reliable contextual source",
+    use: "Use for current health, safety, policy, or practical context only when the source is authoritative for that claim."
+  }
+] as const;
+
 export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Beginner Buddhism",
@@ -969,9 +1037,9 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
   ],
   "/articles/what-is-karma-in-buddhism/": [
     {
-      label: "Access to Insight: Kalama Sutta",
-      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
-      note: "Reference for intention, action, and observable consequences."
+      label: "SuttaCentral: Nibbedhika Sutta (AN 6.63)",
+      href: "https://suttacentral.net/an6.63/en/sujato",
+      note: "Direct early-discourse source for the definition of kamma as intentional action; the page's daily-life examples remain Echo Buddha editorial application."
     }
   ],
   "/articles/three-poisons-buddhism-explained/": [

@@ -10,6 +10,7 @@ import {
   type DailyReflection
 } from "../../data/dailyReflections";
 import { SITE } from "../../data/site";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return dailyReflections.map((reflection) => ({
@@ -49,8 +50,8 @@ const jsonLd = [
     name: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
-    author: { "@type": "Organization", name: SITE.author, url: `${SITE.url}/authors/echo-buddha-editorial/` },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA,
     about: { "@type": "Thing", name: reflection.relatedIdea },
     learningResourceType: details?.form ?? "daily reflection",
     isPartOf: {

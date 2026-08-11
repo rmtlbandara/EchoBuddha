@@ -1,5 +1,6 @@
 ---
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 type Props = {
   title: string;
@@ -66,10 +67,8 @@ const globalJsonLd = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    ...PUBLISHER_SCHEMA,
     "@id": organizationUrl,
-    name: SITE.name,
-    url: SITE.url,
     logo: {
       "@type": "ImageObject",
       url: new URL("/images/buddha-brand-icon.png", SITE.url).toString()

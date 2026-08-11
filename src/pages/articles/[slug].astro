@@ -16,7 +16,12 @@ import {
   quotes,
   slugify
 } from "../../data/site";
-import { getSourceReferencesForRoute, getTopicRole } from "../../data/editorialGovernance";
+import {
+  EDITORIAL_AUTHOR_SCHEMA,
+  PUBLISHER_SCHEMA,
+  getSourceReferencesForRoute,
+  getTopicRole
+} from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return fullArticles.map((article) => ({
@@ -356,15 +361,9 @@ const jsonLd = [
     timeRequired: `PT${Number.parseInt(readTime, 10)}M`,
     inLanguage: "en",
     image: articleImageUrl,
-    author: {
-      "@type": "Organization",
-      name: article.author,
-      url: `${SITE.url}/authors/echo-buddha-editorial/`
-    },
+    author: { ...EDITORIAL_AUTHOR_SCHEMA, name: article.author },
     publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url,
+      ...PUBLISHER_SCHEMA,
       logo: {
         "@type": "ImageObject",
         url: `${SITE.url}/og-default.svg`

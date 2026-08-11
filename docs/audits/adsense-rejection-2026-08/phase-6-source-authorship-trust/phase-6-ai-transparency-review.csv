@@ -1,0 +1,9 @@
+Activity,Actual use statement,Published disclosure,Boundary,Publisher accountable?,Per-page badge required?,Status
+Research organization,May assist,Site-level content process and editorial policy,Does not make a source authoritative,Yes,No,PASS
+Outlining,May assist,Site-level content process and editorial policy,No authorship/credential claim,Yes,No,PASS
+Draft support,May assist,Site-level content process and editorial policy,Publisher remains responsible for wording and claims,Yes,No,PASS
+Editorial consistency analysis,May assist,Site-level content process and editorial policy,Not external review,Yes,No,PASS
+Duplication checks,May assist,Site-level content process and editorial policy,Not a quality guarantee,Yes,No,PASS
+Source/link record checks,May assist,Site-level content process and editorial policy,Requires evidence verification,Yes,No,PASS
+Technical validation,May assist,Site-level content process and editorial policy,Not production approval,Yes,No,PASS
+Fabrication,Prohibited,Site-level content process and editorial policy,"No invented source, quote, person, reviewer, credential, authority, or result",Yes,No,PASS

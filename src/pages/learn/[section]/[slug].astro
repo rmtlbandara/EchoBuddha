@@ -13,7 +13,7 @@ import {
   type LearningPage
 } from "../../../data/learn";
 import { SITE } from "../../../data/site";
-import { getTopicRole } from "../../../data/editorialGovernance";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA, getTopicRole } from "../../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return getAllLearningPages().map((page) => ({
@@ -52,16 +52,8 @@ const articleJsonLd = [
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
     inLanguage: "en",
-    author: {
-      "@type": "Organization",
-      name: SITE.author,
-      url: `${SITE.url}/authors/echo-buddha-editorial/`
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url
-    },
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA,
     articleSection: section?.title ?? "Learn"
   },
   getBreadcrumbJsonLd(breadcrumbs)

@@ -221,9 +221,9 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "buddhist-dictionary/karma": [
     {
-      label: "Kalama Sutta (AN 3.65)",
-      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
-      note: "Supports the focus on intention, skillful action, and observable results."
+      label: "Nibbedhika Sutta (AN 6.63)",
+      href: "https://suttacentral.net/an6.63/en/sujato",
+      note: "Direct early-discourse source for explaining kamma as intentional action; Echo Buddha's practical examples are modern editorial application."
     }
   ],
   "buddhist-dictionary/dhamma": [

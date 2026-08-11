@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "How Echo Buddha Creates Content";
 const description =
@@ -12,11 +13,8 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url
-  }
+  author: EDITORIAL_AUTHOR_SCHEMA,
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -62,6 +60,17 @@ const jsonLd = {
         Pages are reviewed for clarity, usefulness, tone, duplicate intent, unsupported claims, internal links,
         source notes, and whether the page fits Echo Buddha's role as a Buddhist wisdom and daily reflection companion.
       </p>
+
+      <h2>Publication Workflow</h2>
+      <ol>
+        <li>Define the reader need and confirm which page owns that search intent.</li>
+        <li>Identify source-sensitive claims and collect the most direct suitable source context.</li>
+        <li>Prepare original explanation, examples, or reflection in the site's own language.</li>
+        <li>Check source-to-claim fit, attribution, translation boundaries, terminology, and tradition-specific limits.</li>
+        <li>Apply safety and scope checks for meditation, wellbeing, relationship, legal, or health-adjacent material.</li>
+        <li>Check usefulness, duplication, internal links, template fit, structured data, and technical behavior.</li>
+        <li>Publish under the organizational byline and correct material issues when they are found.</li>
+      </ol>
       <p>
         Doctrinal pages receive source-aware review. Quote pages receive origin review. Meditation and wellbeing pages
         receive safety review. These reviews are editorial checks, not claims of academic, monastic, clinical, legal,
@@ -81,13 +90,22 @@ const jsonLd = {
 
       <h2>AI and Automation Boundaries</h2>
       <p>
-        Automation may help with route inventories, validation, draft organization, technical checks, and consistency
-        audits. It does not replace source verification, owner review, Buddhist studies review where needed, safety
-        review, or correction handling.
+        AI-assisted and automated tools may help organize research, prepare outlines, support drafting, analyze
+        editorial consistency, detect duplicated language, check source and link records, and run technical
+        validation. This assistance does not become a credential or source. Echo Buddha remains accountable for the
+        final selection, claims, wording, publishing decision, and correction handling.
       </p>
       <p>
         Echo Buddha should not use automation to fabricate Buddhist sources, invented reviewers, credentials,
         translations, quote origins, medical claims, traffic claims, or AdSense approval claims.
+      </p>
+
+      <h2>Who Is Responsible</h2>
+      <p>
+        “Echo Buddha Editorial” is the organizational publication byline, not a named person or a claim that a hidden
+        team or expert panel exists. Echo Buddha is responsible for published material through the contact and
+        corrections channels on this site. Internal review is not outside certification unless a page explicitly
+        names a verified reviewer and defines the review scope.
       </p>
 
       <h2>Corrections and Updates</h2>

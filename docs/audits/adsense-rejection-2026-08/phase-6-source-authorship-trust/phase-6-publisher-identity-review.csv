@@ -1,0 +1,5 @@
+Item,Current value,Evidence,Verified,Safe public wording,Owner input?,Status
+Publisher name,Echo Buddha,SITE.name and visible site identity,Yes,Echo Buddha is the publisher responsible for the site,No,PASS
+Organizational byline,Echo Buddha Editorial,SITE.author and visible article bylines,Yes,Organizational publication byline; not a named person or credential,No,PASS
+Named person/legal entity,Not established,No approved owner evidence,No,Do not publish,Yes,WITHHELD
+Accountability contact,info.echobuddha@gmail.com,SITE.email and live mailto,Yes,Publisher and correction contact,No,PASS

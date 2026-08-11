@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Corrections and Editorial Updates";
 const description =
@@ -12,11 +13,7 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url
-  }
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -48,6 +45,19 @@ const jsonLd = {
       <p>
         Useful reports include source or citation concerns, quote attribution issues, typos, broken links, unclear
         wording, safety concerns, accessibility issues, outdated page information, and duplicate-topic confusion.
+      </p>
+
+      <h2>How a Report Is Handled</h2>
+      <ol>
+        <li>The publisher records the page, passage, and reported concern.</li>
+        <li>The issue is checked against the page's sources, attribution records, safety rules, and intended meaning.</li>
+        <li>The issue is classified as a minor clarity update, a substantive correction, or unsupported.</li>
+        <li>A supported correction is made with its source, label, safety language, metadata, or reviewed date updated as appropriate.</li>
+        <li>A public correction note is added when the change materially affects what a reader would understand or trust.</li>
+      </ol>
+      <p>
+        Echo Buddha is responsible for this process through the contact above. No response time or individual reply is
+        promised, but correction evidence is evaluated on its merits.
       </p>
 
       <h2>Clarity Updates</h2>

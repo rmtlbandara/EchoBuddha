@@ -17,7 +17,7 @@
     "title": "About Echo Buddha | Echo Buddha",
     "description": "Learn about Echo Buddha",
     "canonical": "https://echobuddha.com/about/",
-    "words": 478,
+    "words": 542,
     "h1Count": 1,
     "schemaTypes": [
       "AboutPage"
@@ -835,7 +835,7 @@
     "title": "How Karma Shapes Daily Choices in Buddhist Practice | Echo Buddha",
     "description": "Explore how karma relates to everyday choices, speech, intention, habits, and mindful living in Buddhist practice.",
     "canonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
-    "words": 1812,
+    "words": 1825,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -865,7 +865,7 @@
     "title": "Echo Buddha Editorial | Echo Buddha",
     "description": "Meet the Echo Buddha Editorial voice behind accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.",
     "canonical": "https://echobuddha.com/authors/echo-buddha-editorial/",
-    "words": 416,
+    "words": 478,
     "h1Count": 1,
     "schemaTypes": [
       "ProfilePage"
@@ -878,7 +878,7 @@
     "title": "Buddhist Sources and Citations | Echo Buddha",
     "description": "How Echo Buddha references Buddhist teachings, translations, paraphrases, scripture, commentary, and further reading.",
     "canonical": "https://echobuddha.com/buddhist-sources-and-citations/",
-    "words": 485,
+    "words": 670,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"
@@ -891,7 +891,7 @@
     "title": "Contact | Echo Buddha",
     "description": "Contact Echo Buddha with questions, suggestions, article ideas, or general feedback about the website.",
     "canonical": "https://echobuddha.com/contact/",
-    "words": 266,
+    "words": 291,
     "h1Count": 1,
     "schemaTypes": [
       "ContactPage"
@@ -904,7 +904,7 @@
     "title": "Corrections and Editorial Updates | Echo Buddha",
     "description": "How to report Echo Buddha source, quote, typo, safety, clarity, and editorial update concerns.",
     "canonical": "https://echobuddha.com/corrections/",
-    "words": 366,
+    "words": 472,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"
@@ -1379,7 +1379,7 @@
     "title": "Editorial Policy | Echo Buddha",
     "description": "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.",
     "canonical": "https://echobuddha.com/editorial-policy/",
-    "words": 761,
+    "words": 962,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"
@@ -1392,7 +1392,7 @@
     "title": "How Echo Buddha Creates Content | Echo Buddha",
     "description": "Learn how Echo Buddha creates original Buddhist-inspired articles, quotes, reflections, and meditation guidance with source-aware review.",
     "canonical": "https://echobuddha.com/how-echo-buddha-creates-content/",
-    "words": 512,
+    "words": 676,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"
@@ -1807,7 +1807,7 @@
     "title": "Karma Meaning in Buddhism: Intention, Action, and Consequences | Echo Buddha",
     "description": "Learn the Buddhist meaning of karma as intentional action and the way choices shape habits and consequences.",
     "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
-    "words": 450,
+    "words": 458,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2404,7 +2404,7 @@
     "title": "Quote Attribution Policy | Echo Buddha",
     "description": "How Echo Buddha labels original quote reflections, verified quotes, paraphrases, popular sayings, and quote corrections.",
     "canonical": "https://echobuddha.com/quote-attribution-policy/",
-    "words": 428,
+    "words": 518,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"

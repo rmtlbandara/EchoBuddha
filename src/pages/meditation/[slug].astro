@@ -11,7 +11,12 @@ import {
   getTermLinks,
   type LearningPage
 } from "../../data/learn";
-import { getMeditationSafetyNotice, getTopicRole } from "../../data/editorialGovernance";
+import {
+  EDITORIAL_AUTHOR_SCHEMA,
+  PUBLISHER_SCHEMA,
+  getMeditationSafetyNotice,
+  getTopicRole
+} from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return allMeditationPages.map((page) => ({
@@ -35,16 +40,8 @@ const jsonLd = [
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
     articleSection: "Meditation",
-    author: {
-      "@type": "Organization",
-      name: SITE.author,
-      url: `${SITE.url}/authors/echo-buddha-editorial/`
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url
-    }
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA
   },
   getBreadcrumbJsonLd([
     { name: "Home", href: "/" },

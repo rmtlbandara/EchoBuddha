@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "About Echo Buddha";
 const description = "Learn about Echo Buddha's purpose, educational approach, editorial standards, and respectful Buddhist-inspired content.";
@@ -11,9 +12,7 @@ const jsonLd = {
   description,
   url: `${SITE.url}/about/`,
   mainEntity: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url,
+    ...PUBLISHER_SCHEMA,
     email: SITE.email
   }
 };
@@ -31,7 +30,7 @@ const jsonLd = {
   </section>
   <section class="section section--tight">
     <div class="container prose">
-      <h2>Our Purpose</h2>
+      <h2>Purpose</h2>
       <p>
         The project is designed for readers who want simple, respectful reflections on mindfulness, compassion,
         patience, and daily practice. The content is educational and introductory, written in plain language for
@@ -68,6 +67,13 @@ const jsonLd = {
         <a href="/how-echo-buddha-creates-content/">How Echo Buddha Creates Content</a>, or read about
         <a href="/authors/echo-buddha-editorial/">Echo Buddha Editorial</a>.
       </p>
+      <h2>Publisher and Authorship</h2>
+      <p>
+        Echo Buddha is the publisher responsible for this website. “Echo Buddha Editorial” is the organizational
+        publication byline used on site-authored material; it is not a named person, a professional credential, or a
+        claim that an expert review board exists. Internal editorial checks do not mean outside monastic, academic,
+        medical, clinical, or legal approval.
+      </p>
       <p>
         Current quote and reflection pages are intended as original Echo Buddha writing unless a page clearly identifies
         a traditional, historical, or named source. Traditional Buddhist terms and teachings are introduced with source
@@ -80,6 +86,9 @@ const jsonLd = {
         Please review the <a href="/disclaimer/">Disclaimer</a> for important limitations, the
         <a href="/privacy-policy/">Privacy Policy</a> for information about analytics and advertising, or
         <a href="/corrections/">Corrections and Editorial Updates</a> to report a concern.
+      </p>
+      <p>
+        Publisher and correction contact: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
       </p>
     </div>
   </section>

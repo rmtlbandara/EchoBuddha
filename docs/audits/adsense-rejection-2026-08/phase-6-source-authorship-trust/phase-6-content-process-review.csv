@@ -1,0 +1,12 @@
+Order,Step,Publicly described?,Repository-supported?,AI/tool role,Human/publisher responsibility,False authority risk,Status
+1,Reader need and owner,Yes,Yes,Publisher decision,Echo Buddha retains final responsibility,None,PASS
+2,Source-sensitive claim identification,Yes,Yes,May assist,Echo Buddha retains final responsibility,None,PASS
+3,Source research,Yes,Yes,May assist,Echo Buddha retains final responsibility,None,PASS
+4,Original explanation/draft support,Yes,Yes,May assist,Echo Buddha retains final responsibility,None,PASS
+5,Source/attribution/translation check,Yes,Yes,Publisher decision,Echo Buddha retains final responsibility,None,PASS
+6,Safety/scope check,Yes,Yes,Publisher decision,Echo Buddha retains final responsibility,None,PASS
+7,Usefulness and duplication check,Yes,Yes,May assist,Echo Buddha retains final responsibility,None,PASS
+8,Internal-link/template/schema check,Yes,Yes,May assist,Echo Buddha retains final responsibility,None,PASS
+9,Technical validation,Yes,Yes,May assist,Echo Buddha retains final responsibility,None,PASS
+10,Publication,Yes,Yes,Publisher decision,Echo Buddha retains final responsibility,None,PASS
+11,Correction/maintenance,Yes,Yes,Publisher decision,Echo Buddha retains final responsibility,None,PASS

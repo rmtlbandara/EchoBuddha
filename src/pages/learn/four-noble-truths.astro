@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import { SITE, fullArticles } from "../../data/site";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
 const title = "Four Noble Truths Explained for Beginners";
 const description =
@@ -58,8 +59,8 @@ const jsonLd = [
     headline: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
-    author: { "@type": "Organization", name: SITE.author },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url }
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA
   },
   {
     "@context": "https://schema.org",
