@@ -69,7 +69,7 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose">
         <aside class="surface key-box">
-          <h2>Key Takeaway</h2>
+          <h2>Practice in Brief</h2>
           <p>{page.takeaway}</p>
         </aside>
         <aside class="surface safety-box" aria-labelledby="meditation-safety-heading">
@@ -82,7 +82,7 @@ const jsonLd = [
         </aside>
         {qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-meditation-matters-heading">
-            <h2 id="why-this-meditation-matters-heading">Why This Matters</h2>
+            <h2 id="why-this-meditation-matters-heading">Purpose of This Practice</h2>
             <p>{qualityNote.why}</p>
           </section>
         )}
@@ -107,19 +107,19 @@ const jsonLd = [
         </section>
 	        {qualityNote && (
           <aside class="surface key-box">
-            <h2>A Helpful Clarification</h2>
+            <h2>A Difficulty to Expect</h2>
             <p>{qualityNote.clarification}</p>
           </aside>
         )}
         {page.practice && (
           <aside class="surface key-box">
-            <h2>Practice Today</h2>
+            <h2>Try One Session</h2>
             <p>{page.practice}</p>
           </aside>
         )}
         {qualityNote && (
           <aside class="surface key-box">
-            <h2>Reflection Question</h2>
+            <h2>After the Session</h2>
             <p>{qualityNote.question}</p>
           </aside>
         )}

@@ -2084,6 +2084,21 @@ const reflectionPrompts = [
   "Where is the smallest believable place to practice this without forcing a dramatic change?"
 ];
 
+// Quote reflections share attribution controls, but their editorial movement follows
+// the subject of the quote rather than a site-wide story/application/practice shell.
+const quoteReflectionHeadings: Record<string, [string, string, string]> = {
+  Mindfulness: ["Where Attention Was Lost", "What Awareness Changed", "One Moment to Practice"],
+  Compassion: ["When Care Met a Limit", "What Compassion Required", "A Boundaried Response"],
+  Patience: ["The Moment Before Reaction", "What Waiting Made Possible", "Try It During Friction"],
+  Awareness: ["What Had Gone Unnoticed", "Seeing the Pattern Clearly", "Return to Direct Experience"],
+  Practice: ["Where Intention Met Habit", "What Repetition Taught", "The Next Honest Repetition"],
+  "Letting Go": ["What Could Not Be Controlled", "Care Without the Grip", "Release After Wise Action"],
+  Meditation: ["What Happened on the Cushion", "Returning as the Method", "Use It in the Next Session"],
+  Renewal: ["What Needed Repair", "Beginning Without Denial", "The Next Different Action"],
+  Wisdom: ["The Narrow View", "What the Wider Context Revealed", "Choose With Consequences in View"],
+  Impermanence: ["What Was Already Changing", "Attention Without Holding", "Meet One Change Directly"]
+};
+
 function getQuoteTextSlug(quote: Quote) {
   return slugify(quote.text).split("-").slice(0, 9).join("-");
 }
@@ -2155,6 +2170,7 @@ export function getQuoteStory(quote: Quote) {
   const status = getQuoteStatus(quote);
   if (quote.story) {
     const frame = storyFrames[quote.theme];
+    const headings = quoteReflectionHeadings[quote.theme];
 
     return {
       slug: getQuoteSlug(quote),
@@ -2162,7 +2178,10 @@ export function getQuoteStory(quote: Quote) {
       description: quote.story.description,
       articleCategory: frame.articleCategory,
       intro: quote.story.intro,
-      sections: quote.story.sections,
+      sections: quote.story.sections.map((section, index) => ({
+        ...section,
+        heading: headings?.[index] ?? section.heading
+      })),
       reflectionQuestion: quote.story.reflectionQuestion,
       status,
       dailyLifeExample: `${quote.theme} practice is most honest when "${quote.text}" is tested in a real situation rather than kept as decoration.`,
@@ -2182,6 +2201,7 @@ export function getQuoteStory(quote: Quote) {
   const practiceSituation = practiceSituations[(themeIndex * 3 + quote.theme.length) % practiceSituations.length];
   const reflectionQuestion = reflectionPrompts[(themeIndex + quote.text.split(" ").length) % reflectionPrompts.length];
   const titleStart = quote.text.split(" ").slice(0, 5).join(" ");
+  const headings = quoteReflectionHeadings[quote.theme];
 
   return {
     slug: getQuoteSlug(quote),
@@ -2196,21 +2216,21 @@ export function getQuoteStory(quote: Quote) {
     sourceNote: status.note,
     sections: [
       {
-        heading: "A Specific Moment",
+        heading: headings?.[0] ?? "A Specific Moment",
         paragraphs: [
           `${character} was at ${place} and ${frame.struggle}. In that ordinary setting, ${detail} drew attention away from the old reaction and back toward what was actually happening.`,
           `The quote, "${quote.text}", did not solve the situation from the outside. It gave ${character} a way to hold the tension without adding another careless word, demand, or story.`
         ]
       },
       {
-        heading: "What the Quote Is Asking",
+        heading: headings?.[1] ?? "What the Quote Is Asking",
         paragraphs: [
           `${angle} For this page, the important movement is ${frame.promise}.`,
           `${frame.action.charAt(0).toUpperCase()}${frame.action.slice(1)}. ${frame.change}`
         ]
       },
       {
-        heading: "How to Carry It",
+        heading: headings?.[2] ?? "How to Carry It",
         paragraphs: [
           `Keep "${quote.text}" close to ${practiceSituation}. If it helps, write this quote in plain language and name the exact moment where it could change a response.`,
           `The point is not to perform ${quote.theme.toLowerCase()}. It is to let "${quote.text}" become small enough to practice honestly.`

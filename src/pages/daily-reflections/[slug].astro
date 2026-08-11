@@ -23,6 +23,18 @@ const canonicalPath = getDailyReflectionPath(reflection);
 const title = `${reflection.title} - Daily Buddhist Reflection`;
 const description = `${reflection.reflection} Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.`;
 const details = getDailyReflectionDetails(reflection);
+const reflectionModel = {
+  "ethical decision": { insight: "The Choice in View", situation: "Where the Choice Appears", practice: "A Response to Test" },
+  "short contemplative exercise": { insight: "The Experience to Notice", situation: "When to Pause", practice: "Try the Exercise" },
+  "contemplative exercise": { insight: "The Experience to Notice", situation: "Where the Grip Appears", practice: "Try the Exercise" },
+  "relationship practice": { insight: "Where Relationship Becomes Practice", situation: "The Human Situation", practice: "A Relational Response" },
+  observation: { insight: "What to Watch Changing", situation: "Where It Becomes Visible", practice: "Observe It Directly" },
+  "mindful activity": { insight: "Attention in Motion", situation: "An Ordinary Place to Begin", practice: "Use the Activity" },
+  "one-sentence reminder plus practice": { insight: "The Reminder", situation: "When to Remember It", practice: "Keep It Small" },
+  "question-led reflection": { insight: "The Question Beneath the Reaction", situation: "Where the Question Opens", practice: "Stay With the Question" },
+  "morning intention": { insight: "Before the Day Chooses for You", situation: "The First Point of Contact", practice: "Set the Intention" },
+  "evening review": { insight: "What the Day Can Teach", situation: "At the End of the Day", practice: "Review Without a Trial" }
+}[details?.form ?? ""] ?? { insight: "What This Reflection Notices", situation: "Where It Appears", practice: "Practice for Today" };
 const dailyLifeExample = getDailyReflectionExample(reflection);
 const relatedQuoteLinks = getDailyReflectionQuoteLinks(reflection);
 const continueLinks = [
@@ -74,30 +86,19 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose reflection-body">
         <section class="surface reflection-summary">
-          {details && (
-            <>
-              <h2>Central Observation</h2>
-              <p>{details.centralObservation}</p>
-            </>
-          )}
-          <h2>Simple Meaning</h2>
+          <h2>{reflectionModel.insight}</h2>
+          {details && <p>{details.centralObservation}</p>}
           <p>{reflection.meaning}</p>
         </section>
 
-        <h2>Daily-Life Example</h2>
+        <h2>{reflectionModel.situation}</h2>
         <p>{dailyLifeExample}</p>
+        {details && <p class="next-step"><strong>One next step:</strong> {details.nextStep}</p>}
 
-        <h2>Practice for Today</h2>
+        <h2>{reflectionModel.practice}</h2>
         <p>{reflection.practice}</p>
 
-        {details && (
-          <>
-            <h2>Natural Next Step</h2>
-            <p>{details.nextStep}</p>
-          </>
-        )}
-
-        <h2>Journal Question</h2>
+        <h2>A Question to Keep</h2>
         <p>{reflection.journalQuestion}</p>
 
 	        <h2>Related Buddhist Idea</h2>

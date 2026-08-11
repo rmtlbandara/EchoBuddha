@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T05:22:24.476Z",
+  "generatedAt": "2026-08-11T06:02:51.317Z",
   "repositorySafeRemediationDate": "2026-07-21",
   "targetedRemediationPhaseDate": "2026-07-21",
   "totalHtmlPages": 336,
@@ -23,8 +23,8 @@
   "dailyReflectionReviewItems": 31,
   "dailyReflectionIndexabilityChanges": 0,
   "expertReviewItems": 0,
-  "similarityPairs": 839,
-  "highSimilarityPairs": 663,
+  "similarityPairs": 657,
+  "highSimilarityPairs": 595,
   "unresolvedSimilarityPairs": 0,
   "unresolvedHighSimilarityPairs": 0,
   "internalLinkOpportunities": 5,

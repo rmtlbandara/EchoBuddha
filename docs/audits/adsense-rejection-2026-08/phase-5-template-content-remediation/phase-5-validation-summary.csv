@@ -1,0 +1,17 @@
+Stage,Command / check,Status,Result,Evidence
+FINAL,npm run build,PASS,336 static pages built,Phase 5 terminal run and machine-readable registers
+FINAL,npm run typecheck,PASS,Astro sync and TypeScript noEmit passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run lint,PASS,Governance lint passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm test,PASS,7/7 tests passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:seo,PASS,SEO audit passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:content,PASS,Content remediation audit passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:dependencies,PASS,0 critical and 0 high vulnerabilities,Phase 5 terminal run and machine-readable registers
+FINAL,npm run validate,PASS,All standard release checks passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run validate:release,PASS,Standard and dependency gates passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:browser,PASS,Browser readiness route checks passed,Phase 5 terminal run and machine-readable registers
+FINAL,Phase 5 template diagnostic,PASS,0 high and 0 critical after edits,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:lighthouse,PASS,"20/20 desktop/mobile runs; mobile performance minimum 0.99, accessibility minimum 1.00, maximum LCP 1361.7ms, maximum CLS 0.0000",Phase 5 terminal run and machine-readable registers
+FINAL,Ownership preservation,PASS,"No titles, H1s, roles, or owner relationships changed",Phase 5 terminal run and machine-readable registers
+FINAL,Index/canonical preservation,PASS,0 unexpected differences across 336 pages,Phase 5 terminal run and machine-readable registers
+FINAL,Internal-link validation,PASS,0 changed pages with broken internal targets,Phase 5 terminal run and machine-readable registers
+FINAL,Source/safety preservation,PASS,Protected wording and links unchanged,Phase 5 terminal run and machine-readable registers

@@ -70,7 +70,7 @@
     "decisions": {
       "Pass": 30
     },
-    "averageWords": 483
+    "averageWords": 488
   },
   "todayReflection": {
     "total": 1,
@@ -106,7 +106,7 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 719
+    "averageWords": 723
   },
   "quoteCategory": {
     "total": 10,
@@ -125,6 +125,6 @@
       "Minor improvement": 43,
       "Pass": 110
     },
-    "averageWords": 912
+    "averageWords": 834
   }
 }
