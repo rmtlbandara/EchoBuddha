@@ -135,15 +135,15 @@ The public route-gated script and publisher ID remain unchanged on 56 routes; ma
 
 ## 30. Current Production Parity
 
-Production fully matches the forensic build on 336/336 pages. It fully matches the current repository on 211/336. The 125 expected differences consist of current Phase 3 index metadata and programme/Phase 4 rendered-content changes. Parity is **PARTIAL BY DESIGN, FULLY EXPLAINED**, and does not prevent repository-only Phase 5 work; production deployment remains a separate owner decision.
+Production deployment was authorized and completed on 2026-08-11 as Cloudflare version `2ecb3c51-ed75-4195-84bf-232c6563cfde` from release commit `89656e506f1fbfa6de000921f7c356ffc24778c3`. Post-deploy validation fetched all 336 generated HTML routes: 336/336 returned 200 and fully matched the committed repository in rendered text, title, H1, robots, and canonical. Production now has 193 indexable pages, 143 noindex pages, and an exact 193-URL sitemap. Parity is **PASS**.
 
 ## 31. Validation Results
 
-Pre-reconciliation build/type/lint/test/SEO/content/validate/browser passed; release failed only on two high dependency advisories. The dependency lock was stabilized to zero high/critical. Final build, typecheck, lint, tests, SEO, content, dependency, validate, release, browser, Lighthouse, and custom reconciliation checks pass and are recorded in `phase-0-4-validation-summary.csv`. The final full Lighthouse run contained one intermittent mobile topic-hub outlier; a five-run targeted sample passed by median (performance 1.00, LCP 1.055s) while retaining two slow samples for Phase 8/9 monitoring.
+Pre-reconciliation build/type/lint/test/SEO/content/validate/browser passed; release failed only on two high dependency advisories. The dependency lock was stabilized to zero high/critical. Final build, typecheck, lint, tests, SEO, content, dependency, validate, release, browser, Lighthouse, and custom reconciliation checks pass and are recorded in `phase-0-4-validation-summary.csv`. The final local Lighthouse run contained one intermittent mobile topic-hub outlier; a five-run targeted sample passed by median (performance 1.00, LCP 1.055s). Post-deploy live Lighthouse passed accessibility and desktop checks but found reproducible mobile performance/LCP weakness on the unchanged homepage and cornerstone article. That material existing-condition follow-up is retained for Phase 8/9 and does not require release rollback.
 
 ## 32. Visual QA
 
-Twenty required route types were checked at desktop and mobile (40 local visits). H1, main landmark, navigation, overflow, images, link labels, headings, breadcrumbs, source/safety presentation, cards, long headings, and mobile readability passed with zero failures. Three production pages rendered without visual failure. The live empty 404 body is a documented Phase 8 issue.
+Twenty required route types were checked at desktop and mobile (40 local visits). H1, main landmark, navigation, overflow, images, link labels, headings, breadcrumbs, source/safety presentation, cards, long headings, and mobile readability passed with zero failures. After deployment, nine representative production routes passed at exact 1440×900 and 390×844 viewports (18/18 visits). The live empty 404 body is a documented Phase 8 issue.
 
 ## 33. Remaining Human / Owner Review Items
 
@@ -167,11 +167,11 @@ Phase 5 must not mass reindex/noindex, merge or redirect the seven holds, change
 
 ## 38. Remaining Blockers
 
-Pre-Phase-5 Phase 0–4 blockers: **0**. Production deployment is pending but not required to begin repository-only Phase 5 because the drift is complete, deterministic, and protected. Future AdSense reapplication remains blocked by later phases and owner/account evidence.
+Pre-Phase-5 Phase 0–4 blockers: **0**. Production deployment and full repository parity are complete. The reproducible live mobile performance finding is assigned to Phase 8/9 and must be addressed before AdSense reapplication, but it does not require rollback or block protected repository-only Phase 5 work. Future AdSense reapplication remains blocked by later phases and owner/account evidence.
 
 ## 39. Pre-Phase-5 Go / No-Go Decision
 
-**GO FOR PHASE 5** at repository level, subject to the authoritative master page register, protection register, and clean Phase 5 handoff. Do not deploy or request AdSense review as part of this decision.
+**GO FOR PHASE 5** at repository level, subject to the authoritative master page register, protection register, and clean Phase 5 handoff. Phase 0–4 production deployment is complete. Do not request AdSense review as part of this decision.
 
 ## 40. Final Verdict
 
@@ -266,7 +266,7 @@ UNRESOLVED PHASE 4 SUBSTANTIVE FAILURES:
 0
 
 PRODUCTION / REPOSITORY PARITY:
-PARTIAL
+PASS — 336/336
 
 ADSENSE VERIFICATION IMPLEMENTATION:
 PASS
@@ -278,7 +278,7 @@ BROWSER QA:
 PASS
 
 LIGHTHOUSE:
-PASS
+PASS WITH MATERIAL EXISTING MOBILE PERFORMANCE FOLLOW-UP
 
 WAS PHASE 5 SYSTEMATIC WORK PERFORMED?
 No
@@ -296,7 +296,7 @@ WAS ADSENSE BEHAVIOR EXPANDED?
 No
 
 WAS PRODUCTION DEPLOYED?
-No
+Yes — Cloudflare version `2ecb3c51-ed75-4195-84bf-232c6563cfde`
 
 PRE-PHASE-5 DECISION:
 GO FOR PHASE 5
