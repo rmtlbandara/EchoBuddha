@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-08-11T07:20:32Z",
+  "status": "PASS",
+  "repository": "https://github.com/rmtlbandara/EchoBuddha.git",
+  "branch": "codex/phase-5-template-differentiation",
+  "pullRequest": {
+    "number": 1,
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/1",
+    "state": "OPEN",
+    "draft": true,
+    "base": "main"
+  },
+  "release": {
+    "deployedCommit": "15508c67ed0a3bac523d29f336d0aca8efad4cbd",
+    "phase5ImplementationCommit": "741943067bacd22fb62fbe536bef3a3c20b023e0",
+    "distManifestHash": "46e016471048f2c79d4da6c066f1511302e65f1ec19e5c317dcfd3ba4be45c7c",
+    "assetsPackaged": 737,
+    "pagesBuilt": 336
+  },
+  "deployment": {
+    "provider": "Cloudflare Workers",
+    "service": "echobuddha",
+    "workersDevUrl": "https://echobuddha.rmtlbandara.workers.dev",
+    "productionUrl": "https://echobuddha.com",
+    "deploymentId": "8a8fe411-52a9-4831-afd7-f036e50061ee",
+    "versionId": "32882fcf-b1ca-4195-891b-e3f89d4147c8",
+    "trafficPercentage": 100,
+    "deployedAt": "2026-08-11T07:06:46.981717Z"
+  },
+  "rollback": {
+    "deploymentId": "a827b410-0c21-4478-a88c-6da67bc7e1ea",
+    "versionId": "2ecb3c51-ed75-4195-84bf-232c6563cfde",
+    "previousTrafficPercentage": 100,
+    "capturedBeforeDeployment": true
+  },
+  "verification": {
+    "fullRouteParity": "336/336",
+    "indexablePages": 193,
+    "noindexPages": 143,
+    "sitemapUrls": 193,
+    "sitemapExactMatch": true,
+    "browserRoutesPassed": "16/16",
+    "consentScenariosPassed": "5/5",
+    "criticalAccessibilityViolations": 0,
+    "seriousAccessibilityViolations": 0,
+    "securityHeaderRoutesPassed": "10/10",
+    "lighthouseRunsCompleted": "20/20",
+    "lighthouseAccessibilityMinimum": 1,
+    "desktopPerformanceMinimum": 0.98,
+    "mobilePerformanceMinimum": 0.6,
+    "mobilePerformanceAdvisory": "Public-edge mobile lab results varied on image-heavy and interactive routes; Phase 5 changed no performance, analytics, consent, image, or asset-delivery code. Preserve for later performance/measurement review."
+  },
+  "scopeGuardrails": {
+    "mainMerged": false,
+    "phase6Started": false,
+    "adsenseBehaviorExpanded": false,
+    "manualAdsEnabled": false,
+    "adsenseReviewRequested": false
+  }
+}

@@ -5,7 +5,9 @@ import { spawn } from "node:child_process";
 import { chromium } from "playwright-core";
 
 const root = process.cwd();
-const outDir = path.join(root, "docs/audits/final-readiness-remediation");
+const outDir = process.env.AUDIT_OUT_DIR
+  ? path.resolve(root, process.env.AUDIT_OUT_DIR)
+  : path.join(root, "docs/audits/final-readiness-remediation");
 fs.mkdirSync(outDir, { recursive: true });
 
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
@@ -32,7 +34,7 @@ const pages = [
   "/editorial-policy/",
   "/privacy-policy/",
   "/missing-audit-url/"
-];
+].filter((pagePath) => !(process.env.AUDIT_SKIP_EXPECTED_404 && pagePath === "/missing-audit-url/"));
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -222,8 +224,10 @@ async function runAccessibilityChecks(browser) {
 
 let preview;
 try {
-  preview = startPreview();
-  await waitForPreview();
+  if (!process.env.AUDIT_BASE_URL) {
+    preview = startPreview();
+    await waitForPreview();
+  }
   const { consentResults, accessibilityResults } = await withBrowser(async (browser) => ({
     consentResults: await runConsentChecks(browser),
     accessibilityResults: await runAccessibilityChecks(browser)

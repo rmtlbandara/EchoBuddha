@@ -18,7 +18,7 @@ Protected state included 193 indexable and 143 noindex pages, 193 sitemap entrie
 
 ## 5. Git / Repository Baseline
 
-Branch: **codex/phase-5-template-differentiation**. Starting HEAD: **4bbeef7a85d071752f9c1d0ec23e0ce1ff348505**. The branch began clean and two commits ahead of **origin/main**. No merge, push, or deployment was performed in Phase 5.
+Branch: **codex/phase-5-template-differentiation**. Starting HEAD: **4bbeef7a85d071752f9c1d0ec23e0ce1ff348505**. The branch began clean and two commits ahead of **origin/main**. At initial Phase 5 completion, no merge, push, or deployment had been performed; the later owner-authorized release is recorded in section 45 and the production deployment report.
 
 ## 6. Phase 5 Methodology
 
@@ -158,7 +158,7 @@ Build, typecheck, lint, 7 tests, SEO, content, dependencies, validate, validate:
 
 ## 40. Visual QA
 
-All 20 required route roles received direct 1280px browser inspection with zero heading skips, overflow, empty sections, broken images, or unlabeled links. Mobile Lighthouse directly covered ten representatives spanning every changed renderer and global shell; the remaining roles use the same verified responsive family layouts. Mobile minimum performance was 0.99, accessibility 1.00, maximum LCP 1361.7ms, and maximum CLS 0.0000. Production was not used or changed.
+All 20 required route roles received direct 1280px browser inspection with zero heading skips, overflow, empty sections, broken images, or unlabeled links. Pre-deployment mobile Lighthouse directly covered ten representatives spanning every changed renderer and global shell; the remaining roles use the same verified responsive family layouts. Pre-deployment mobile minimum performance was 0.99, accessibility 1.00, maximum LCP 1361.7ms, and maximum CLS 0.0000. After deployment, 16 live browser targets passed consent, keyboard, mobile-navigation, and WCAG checks; a 20-run public-edge Lighthouse matrix retained 1.00 accessibility on every run and is preserved with the deployment evidence.
 
 ## 41. Remaining Phase 6 Issues
 
@@ -166,11 +166,11 @@ Verified human/editorial accountability remains owner-supplied work. Phase 5 did
 
 ## 42. Remaining Phase 7+ Issues
 
-Navigation choice load, production 404 behavior, intermittent lab variance, ads.txt, CMP/legal readiness, deployment traceability, measurement, and account-specific AdSense evidence remain assigned to their reconciled future phases.
+Navigation choice load, intermittent public-edge mobile lab variance, ads.txt, CMP/legal readiness, measurement, and account-specific AdSense evidence remain assigned to their reconciled future phases. Production 404 behavior and Phase 5 deployment traceability are now verified and closed.
 
 ## 43. Human / Owner Review Items
 
-Owner approval is required before merge or deployment. Existing Phase 4 deferred consolidation decisions and external account/legal evidence requests remain open but do not invalidate Phase 5 repository completion.
+The owner authorized the Phase 5 commit and production deployment on 2026-08-11. Existing Phase 4 deferred consolidation decisions and external account/legal evidence requests remain open but do not invalidate Phase 5 repository or production completion.
 
 ## 44. Protected State for Phase 6
 
@@ -178,7 +178,7 @@ Owner approval is required before merge or deployment. Existing Phase 4 deferred
 
 ## 45. Deployment Status
 
-Production deployment was not authorized in the Phase 5 instruction and was not performed. No merge, push, AdSense expansion, manual-ad enablement, or review request occurred.
+The owner subsequently authorized production release. Commit `15508c67ed0a3bac523d29f336d0aca8efad4cbd` was pushed to `codex/phase-5-template-differentiation` and deployed through the repository's Cloudflare Workers workflow on 2026-08-11. Active deployment `8a8fe411-52a9-4831-afd7-f036e50061ee` serves version `32882fcf-b1ca-4195-891b-e3f89d4147c8` at 100%. The preserved rollback target is deployment `a827b410-0c21-4478-a88c-6da67bc7e1ea`, version `2ecb3c51-ed75-4195-84bf-232c6563cfde`. All 336 production pages match the validated build for status, title, H1, robots, canonical, rendered text, structured data, and internal links. No merge to `main`, AdSense expansion, manual-ad enablement, review request, or Phase 6 work occurred.
 
 ## 46. Phase 6 Handoff
 
@@ -298,10 +298,10 @@ WAS ADSENSE BEHAVIOR EXPANDED?
 No
 
 WAS PRODUCTION DEPLOYED?
-No
+Yes
 
 IS PHASE 6 READY TO BEGIN?
-After owner review
+Yes — on a separate owner instruction
 
 NEXT PHASE:
 

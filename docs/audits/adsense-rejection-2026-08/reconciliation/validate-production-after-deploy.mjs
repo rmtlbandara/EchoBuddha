@@ -4,8 +4,11 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const DIST = path.join(ROOT, "dist");
-const OUT = path.join(ROOT, "docs/audits/adsense-rejection-2026-08/reconciliation");
-const BASE = "https://echobuddha.com";
+const OUT = process.env.PRODUCTION_VALIDATION_OUT
+  ? path.resolve(ROOT, process.env.PRODUCTION_VALIDATION_OUT)
+  : path.join(ROOT, "docs/audits/adsense-rejection-2026-08/reconciliation");
+const OUTPUT_PREFIX = process.env.PRODUCTION_VALIDATION_PREFIX ?? "phase-0-4-post-deploy-production";
+const BASE = process.env.PRODUCTION_VALIDATION_BASE_URL ?? "https://echobuddha.com";
 const USER_AGENT = "EchoBuddha-PostDeploy-Validation/1.0 (+site-owner validation)";
 
 const csvEscape = (value) => {
@@ -58,13 +61,22 @@ const routeForFile = (file) => {
   return `/${relative}`;
 };
 
-const documentFields = (html) => ({
-  title: first(html, /<title[^>]*>([\s\S]*?)<\/title>/i),
-  h1: first(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i),
-  robots: first(html, /<meta\s+name=["']robots["'][^>]+content=["']([^"']+)["']/i) || "index, follow (implicit)",
-  canonical: first(html, /<link\s+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i),
-  textHash: sha256(cleanText(html)),
-});
+const documentFields = (html) => {
+  const structuredData = [...html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
+    .map((match) => match[1].trim());
+  const internalLinks = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)]
+    .map((match) => match[1])
+    .filter((href) => href.startsWith("/") || href.startsWith(BASE));
+  return {
+    title: first(html, /<title[^>]*>([\s\S]*?)<\/title>/i),
+    h1: first(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i),
+    robots: first(html, /<meta\s+name=["']robots["'][^>]+content=["']([^"']+)["']/i) || "index, follow (implicit)",
+    canonical: first(html, /<link\s+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i),
+    textHash: sha256(cleanText(html)),
+    structuredDataHash: sha256(JSON.stringify(structuredData)),
+    internalLinksHash: sha256(JSON.stringify(internalLinks)),
+  };
+};
 
 const htmlFiles = (await walk(DIST)).filter((file) => file.endsWith(".html")).sort();
 const local = new Map();
@@ -87,6 +99,8 @@ const fetchRoute = async (route) => {
       && fields.robots === expected.robots
       && fields.canonical === expected.canonical;
     const textMatches = fields.textHash === expected.textHash;
+    const structuredDataMatches = fields.structuredDataHash === expected.structuredDataHash;
+    const internalLinksMatch = fields.internalLinksHash === expected.internalLinksHash;
     return {
       URL: requestedUrl,
       Route: route,
@@ -94,7 +108,9 @@ const fetchRoute = async (route) => {
       "Final URL": response.url,
       "Title/H1/robots/canonical match": fieldsMatch ? "Yes" : "No",
       "Rendered text matches": textMatches ? "Yes" : "No",
-      "Full parity": response.status === 200 && fieldsMatch && textMatches ? "Yes" : "No",
+      "Structured data matches": structuredDataMatches ? "Yes" : "No",
+      "Internal links match": internalLinksMatch ? "Yes" : "No",
+      "Full parity": response.status === 200 && fieldsMatch && textMatches && structuredDataMatches && internalLinksMatch ? "Yes" : "No",
       "Production robots": fields.robots,
       "Expected robots": expected.robots,
       "Production canonical": fields.canonical,
@@ -110,6 +126,8 @@ const fetchRoute = async (route) => {
       "Final URL": "",
       "Title/H1/robots/canonical match": "No",
       "Rendered text matches": "No",
+      "Structured data matches": "No",
+      "Internal links match": "No",
       "Full parity": "No",
       "Production robots": "",
       "Expected robots": local.get(route).robots,
@@ -131,7 +149,7 @@ for (let offset = 0; offset < routes.length; offset += concurrency) {
 const specialTargets = [
   "http://echobuddha.com/",
   "https://www.echobuddha.com/",
-  `${BASE}/this-route-must-not-exist-phase-0-4/`,
+  `${BASE}/this-route-must-not-exist-production-validation/`,
   `${BASE}/robots.txt`,
   `${BASE}/sitemap.xml`,
   `${BASE}/ads.txt`,
@@ -190,7 +208,7 @@ summary.status = summary.status200 === summary.routesExpected
   ? "PASS"
   : "FAIL";
 
-await writeCsv("phase-0-4-post-deploy-production-parity.csv", rows);
-await writeFile(path.join(OUT, "phase-0-4-post-deploy-production-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
+await writeCsv(`${OUTPUT_PREFIX}-parity.csv`, rows);
+await writeFile(path.join(OUT, `${OUTPUT_PREFIX}-summary.json`), `${JSON.stringify(summary, null, 2)}\n`);
 console.log(JSON.stringify(summary, null, 2));
 if (summary.status !== "PASS") process.exitCode = 1;

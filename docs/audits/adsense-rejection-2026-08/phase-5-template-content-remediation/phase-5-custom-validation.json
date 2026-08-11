@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T07:04:57.042Z",
+  "generatedAt": "2026-08-11T07:22:57.895Z",
   "startingCommit": "4bbeef7a85d071752f9c1d0ec23e0ce1ff348505",
   "totalChecks": 19,
   "passed": 19,
@@ -89,7 +89,7 @@
     {
       "name": "report-final-verdict",
       "status": "PASS",
-      "evidence": "Complete; production No"
+      "evidence": "Complete; production Yes"
     },
     {
       "name": "source-change-scope",

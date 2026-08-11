@@ -3,7 +3,9 @@ import path from "node:path";
 import { spawn, spawnSync } from "node:child_process";
 
 const root = process.cwd();
-const outDir = path.join(root, "docs/audits/final-readiness-remediation");
+const outDir = process.env.AUDIT_OUT_DIR
+  ? path.resolve(root, process.env.AUDIT_OUT_DIR)
+  : path.join(root, "docs/audits/final-readiness-remediation");
 fs.mkdirSync(outDir, { recursive: true });
 
 const baseUrl = process.env.AUDIT_BASE_URL || "http://127.0.0.1:4321";
@@ -85,8 +87,10 @@ function runLighthouse(url, formFactor) {
 
 let preview;
 try {
-  preview = startPreview();
-  await waitForPreview();
+  if (!process.env.AUDIT_BASE_URL) {
+    preview = startPreview();
+    await waitForPreview();
+  }
   const mobile = [];
   const desktop = [];
   for (const [pagePath, label] of pages) {
