@@ -13,3 +13,6 @@ docs/audits/final-readiness-remediation/
 
 # Reproducible Phase 6 browser screenshots; CSV/JSON results remain source-controlled.
 docs/audits/adsense-rejection-2026-08/phase-6-source-authorship-trust/browser-qa-screenshots/
+
+# Reproducible Phase 7 visual QA screenshots; JSON/CSV results remain source-controlled.
+docs/audits/adsense-rejection-2026-08/phase-7-ux-navigation/browser-qa-screenshots/

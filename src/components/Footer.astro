@@ -8,22 +8,37 @@ const year = new Date().getFullYear();
       <a class="footer-brand" href="/">Echo Buddha</a>
       <p>Original Buddhist-inspired wisdom, meditation guidance, and educational reflections for steady daily practice.</p>
     </div>
-    <nav aria-label="Footer navigation">
-      <a href="/about/">About</a>
-      <a href="/start-here/">Start Here</a>
-      <a href="/learn/">Learn</a>
-      <a href="/daily-reflections/">Daily Reflections</a>
-      <a href="/tools/">Tools</a>
-      <a href="/articles/">Articles</a>
-      <a href="/editorial-policy/">Editorial Policy</a>
-      <a href="/privacy-policy/">Privacy Policy</a>
-      <button type="button" data-privacy-settings>Privacy Settings</button>
-      <a href="/terms-of-use/">Terms of Use</a>
-      <a href="/disclaimer/">Disclaimer</a>
-      <a href="/corrections/">Corrections</a>
-      <a href="/contact/">Contact</a>
-      <a href="/sitemap.xml">Sitemap</a>
-    </nav>
+    <div class="footer-links">
+      <nav aria-labelledby="footer-explore-heading">
+        <h2 id="footer-explore-heading">Explore</h2>
+        <a href="/start-here/">Start Here</a>
+        <a href="/learn/">Learn</a>
+        <a href="/meditation/">Meditation</a>
+        <a href="/articles/">Articles</a>
+        <a href="/daily-reflections/">Daily Reflections</a>
+        <a href="/quotes/">Quotes</a>
+        <a href="/tools/">Tools</a>
+        <a href="/search/">Search</a>
+      </nav>
+      <nav aria-labelledby="footer-trust-heading">
+        <h2 id="footer-trust-heading">About & Trust</h2>
+        <a href="/about/">About</a>
+        <a href="/authors/echo-buddha-editorial/">Echo Buddha Editorial</a>
+        <a href="/editorial-policy/">Editorial Policy</a>
+        <a href="/how-echo-buddha-creates-content/">Content Process</a>
+        <a href="/buddhist-sources-and-citations/">Sources & Citations</a>
+        <a href="/corrections/">Corrections</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+      <nav aria-labelledby="footer-legal-heading">
+        <h2 id="footer-legal-heading">Legal & Settings</h2>
+        <a href="/privacy-policy/">Privacy Policy</a>
+        <button type="button" data-privacy-settings>Privacy Settings</button>
+        <a href="/terms-of-use/">Terms of Use</a>
+        <a href="/disclaimer/">Disclaimer</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </div>
   </div>
   <div class="container footer-bottom">
     <small>&copy; {year} Echo Buddha. All rights reserved.</small>
@@ -42,7 +57,7 @@ const year = new Date().getFullYear();
   .footer-grid {
     align-items: start;
     display: grid;
-    gap: 1.25rem;
+    gap: 1.5rem;
   }
 
   .footer-brand {
@@ -62,10 +77,24 @@ const year = new Date().getFullYear();
     max-width: 480px;
   }
 
+  .footer-links {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .site-footer nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 1rem;
+    align-content: start;
+    display: grid;
+    gap: 0.38rem;
+  }
+
+  .site-footer nav h2 {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.15rem;
+    text-transform: uppercase;
   }
 
   .site-footer nav a,
@@ -79,6 +108,7 @@ const year = new Date().getFullYear();
     font-weight: 700;
     line-height: 1.35;
     padding: 0;
+    text-align: left;
     text-decoration: none;
   }
 
@@ -89,18 +119,23 @@ const year = new Date().getFullYear();
 
   .footer-bottom {
     border-top: 1px solid var(--color-line);
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
     padding-top: 0.75rem;
   }
 
   @media (min-width: 720px) {
     .footer-grid {
-      grid-template-columns: minmax(16rem, 1fr) minmax(22rem, 38rem);
+      grid-template-columns: minmax(12rem, 0.65fr) minmax(0, 1.35fr);
     }
 
-    .site-footer nav {
-      justify-content: flex-end;
-      text-align: right;
+    .footer-links {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 420px) {
+    .footer-links {
+      grid-template-columns: 1fr;
     }
   }
 </style>

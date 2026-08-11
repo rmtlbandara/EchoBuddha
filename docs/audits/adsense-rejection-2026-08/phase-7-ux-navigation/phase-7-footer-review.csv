@@ -1,0 +1,4 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Grouping,Longer mixed link list,Hierarchy and trust scanning,Explore / About & Trust / Legal & Settings,Clear role groups,Browser QA,PASS,Owner review
+Secondary routes,Quotes and Tools top-level,Primary navigation crowding,Preserved in Explore and homepage return panel,No orphaning,Click-path review,PASS,No
+Responsive grid,Initial Phase 7 grid overflowed at tablet,Horizontal overflow,Adjusted minmax columns,No overflow at five viewports,135/135 matrix,PASS,No

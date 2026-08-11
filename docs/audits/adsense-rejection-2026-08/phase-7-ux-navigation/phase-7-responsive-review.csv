@@ -1,0 +1,5 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Page matrix,Responsive behavior required sampling,Hidden overflow or wrapping regressions,Tested 27 pages at 360/390/768/1024/1440,135/135 combinations pass,phase-7-browser-qa.json,PASS,No
+Header,Seven links increased crowding,Tablet/desktop compression,Five primary links and mobile enhancement,No overflow; toggle behavior verified,Visual QA,PASS,Owner visual review
+Footer,First implementation exposed tablet overflow,Horizontal scroll,Corrected flexible grid,No overflow,Full rerun,PASS,No
+Long terms,Pali/Buddhist terms can be long,Small-screen wrapping,Existing global wrapping retained,No visual overflow detected,Five viewport matrix,PASS,No

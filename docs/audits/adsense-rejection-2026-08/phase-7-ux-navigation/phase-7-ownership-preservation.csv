@@ -1,0 +1,6 @@
+Topic / task,Primary owner,Supporting surfaces,Phase 7 hierarchy,Regression?,Evidence,Result
+Beginner Buddhism,/learn/buddhism-for-beginners/,/start-here/; /learn/,Owner is direct first learning step,No,Journey and link validation,PASS
+Structured learning,/learn/,/articles/; Search,Learn remains primary and top-level,No,Navigation review,PASS
+Meditation,/meditation/,/tools/; supporting articles,Meditation remains primary; tools secondary,No,Navigation/journey review,PASS
+Editorial reading,/articles/,/learn/; homepage,Articles role explicitly differentiated,No,Hub review,PASS
+Daily reflection,/daily-reflections/,/; footer,Primary repeat route remains top-level,No,Navigation review,PASS

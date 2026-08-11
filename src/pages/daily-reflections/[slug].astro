@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import {
   dailyReflections,
   getDailyReflectionDetails,
@@ -76,7 +77,11 @@ const jsonLd = [
   <article>
     <header class="page-hero">
       <div class="container prose">
-        <a class="back-link" href="/daily-reflections/">Daily Reflections</a>
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Daily Reflections", href: "/daily-reflections/" },
+          { label: reflection.title }
+        ]} />
         <span class="eyebrow">{reflection.relatedIdea}</span>
         <h1>{reflection.title}</h1>
         <blockquote>{reflection.reflection}</blockquote>
@@ -170,13 +175,6 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .back-link {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
   blockquote {
     border-left: 3px solid var(--color-gold);
     color: var(--color-brown);

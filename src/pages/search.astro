@@ -66,8 +66,8 @@ const noResultLinks = [
         </div>
       </form>
 
-      <div class="search-page-meta">
-        <span data-search-count aria-live="polite"></span>
+      <div class="search-page-meta" role="status" aria-live="polite">
+        <span data-search-count></span>
       </div>
 
       <div class="surface search-page-state" data-search-empty>
@@ -83,13 +83,14 @@ const noResultLinks = [
 
       <div class="surface search-page-state" data-search-no-results hidden>
         <h2>No results found</h2>
-        <p>Try searching for mindfulness, metta, karma, meditation, or compassion.</p>
+        <p>Try fewer words, check the spelling, or clear the query and browse a section below.</p>
+        <button type="button" class="restart-search" data-search-clear>Clear this search</button>
         <nav class="no-result-links" aria-label="Helpful search alternatives">
           {noResultLinks.map((link) => <a href={link.href}>{link.label}</a>)}
         </nav>
       </div>
 
-      <ol class="search-page-results" data-search-results aria-label="Search results"></ol>
+      <ol class="search-page-results" data-search-results aria-label="Search results" aria-busy="false"></ol>
     </div>
   </section>
 </Layout>
@@ -199,6 +200,18 @@ const noResultLinks = [
 
   .popular-searches button {
     cursor: pointer;
+  }
+
+  .restart-search {
+    background: transparent;
+    border: 0;
+    color: var(--color-green);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 800;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 0.22em;
   }
 
   .no-result-links a:hover,

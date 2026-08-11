@@ -1,0 +1,6 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Progressive enhancement,Collapsed navigation depended on client state,Navigation could be hidden if JavaScript failed,Keep nav visible until enhanced and reveal toggle only after readiness,All five links remain available without JavaScript,No-JS browser scenario,PASS,No
+Focus entry,Opening did not deliberately position focus,Keyboard users could lose context,Focus current or first menu link on open,Predictable entry,Mobile menu interaction,PASS,No
+Focus return,Close behavior was inconsistent,Focus could remain in a hidden region,Return focus to toggle on Escape,Predictable close,Escape scenario,PASS,No
+State and current page,No explicit active link,Weak orientation,aria-current plus visible active state,Current route is announced and visible,Header validation,PASS,Owner visual review
+Touch and overflow,Seven links increased vertical choice load,Crowding on small screens,Five primary links; full-width targets,No horizontal overflow at 360/390,135 page-viewport matrix,PASS,No

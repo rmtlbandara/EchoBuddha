@@ -1,0 +1,6 @@
+Trust item,Pre-Phase 7 state,Phase 7 action,Visibility after,Content changed?,Evidence,Result
+Author/publisher,Visible on governed content,Preserved and linked in footer,Visible,No substantive change,Trust validator,PASS
+Source notes,Visible on governed pages,Preserved; Sources grouped in footer/homepage,Visible,No,Protected-file diff,PASS
+Correction route,Published route,Homepage/footer discovery strengthened,Visible,No,Route check,PASS
+Meditation safety,Visible safety guidance,Preserved in hub/detail,Visible,No,Safety validator,PASS
+Quote attribution,Published attribution,Preserved,Visible,No,Template diff,PASS

@@ -1,0 +1,9 @@
+Navigation item,Current label,Current destination,Current order,Primary user goal,Beginner clarity,Mobile clarity,Overlap with other nav item,Importance,Keep?,Move?,Rename?,Remove from top-level?,Alternative discovery path,Reason,Human review?,Final state
+Beginner orientation,Start Here,/start-here/,1,Choose a first learning or practice action,High,High,Distinct from Learn,Primary,Yes,No,No,No,Homepage hero,Direct first-visit route,Yes,Top-level #1
+Structured learning,Learn,/learn/,2,Follow a learning progression,High,High,Articles separated by purpose,Primary,Yes,No,No,No,Homepage Learn path,Primary topic-owner hub,Yes,Top-level #2
+Practice,Meditation,/meditation/,3,Begin or choose a safe practice,High,High,Distinct from reading,Primary,Yes,No,No,No,Homepage Practice path,Primary practice owner,Yes,Top-level #3
+Editorial reading,Articles,/articles/,4,Browse contextual editorial reading,High,High,Separated from Learn,Primary,Yes,No,No,No,Homepage recent articles,Editorial discovery without replacing curricula,Yes,Top-level #4
+Return visit,Daily Reflection,/daily-reflections/,5,Reach a short recurring reflection,High,High,Distinct repeat-use goal,Primary,Yes,No,No,No,Homepage Today action,Supports returning visitors,Yes,Top-level #5
+Quote browsing,Quotes,/quotes/,6,Browse quotations and stories,Medium,Medium,Overlap with reflection use,Secondary,Yes,Yes,No,Yes,Homepage return panel and footer,Reduces top-level competition while preserving discovery,Yes,Secondary
+Utility,Tools,/tools/,7,Open lightweight practice tools,Medium,Medium,Overlap with Meditation support,Secondary,Yes,Yes,No,Yes,Homepage return panel and footer,"Utility is supporting, not primary hierarchy",Yes,Secondary
+Find content,Search,/search/,Utility,Search across page families,High,High,Supports all routes,Utility,Yes,No,No,No,Header search control,Search supports rather than replaces navigation,Yes,Separate utility control

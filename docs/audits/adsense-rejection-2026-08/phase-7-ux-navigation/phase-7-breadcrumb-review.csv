@@ -1,0 +1,7 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Article,Visible and schema breadcrumbs already present,Regression risk,Preserved,Visible/schema coherent,Custom validator,PASS,No
+Learn detail,Visible and schema breadcrumbs already present,Regression risk,Preserved,Visible/schema coherent,Custom validator,PASS,No
+Meditation detail,Schema context without shared visible trail,Weak parent recovery,Added shared visible trail,Home / Meditation / current,Custom validator,PASS,No
+Daily reflection detail,No visible shared trail,Weak parent recovery,Added shared visible trail,Home / Daily Reflections / current,Custom validator,PASS,No
+Quote category,Schema hierarchy stronger than visible orientation,Weak parent recovery,Added shared visible trail,Home / Quotes / current,Custom validator,PASS,No
+Quote story,Schema hierarchy stronger than visible orientation,Weak category recovery,Added shared visible trail,Home / Quotes / category / current,Custom validator,PASS,No

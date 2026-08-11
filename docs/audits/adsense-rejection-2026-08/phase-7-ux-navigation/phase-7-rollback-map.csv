@@ -1,0 +1,10 @@
+URL / Component,File,Starting behavior,New behavior,Reason,Affected user journey,Protected dependencies,Rollback action,Risk,Validation
+Header,src/components/Header.astro,Seven primary links,"Five links, active state, enhanced mobile focus",Reduce decision load,All,Stable destinations and Search,Revert Phase 7 header diff only,Medium: loses mobile/a11y improvements,Rerun custom/browser tests
+Footer,src/components/Footer.astro,Mixed groups,Three role groups,Trust and secondary discovery,Trust/return,All route destinations,Revert footer diff only,Low,Responsive matrix
+Homepage,src/pages/index.astro,Repeated catalogues,Purpose-led staged hierarchy,First-visit clarity,First-time/returning,Metadata/FAQ/AdSense boundary,Revert page diff only,Medium,Build/custom/Lighthouse
+Start Here,src/pages/start-here.astro,Broad catalogue,Orientation sequence,Beginner clarity,First-time/beginner,Deep routes,Revert page diff only,Low,SEO/link checks
+Learn,src/pages/learn/index.astro,Flat topic collection,Four staged groups,Learning progression,Learner/topic lookup,Topic ownership,Revert page diff only,Medium,SEO/ownership checks
+Meditation,src/pages/meditation/index.astro,Many equal options,Start/Choose/Adapt,Safe practice path,New meditator,Safety/source notes,Revert page diff only,Medium,Safety/browser checks
+Breadcrumbs,src/components/Breadcrumbs.astro and four templates,No shared visible breadcrumb,Semantic visible trail,Orientation,Detail browsing,Schema/canonical,Remove component imports/usages and file,Low,Build/schema validator
+Search,public/search.js and search components/page,Generic status/recovery,Live/busy state and clear action,Search accessibility,Topic lookup/recovery,315-item index/noindex,Revert three search diffs,Low,Search interactions
+404,src/pages/404.astro,Limited recovery,Five goal-based paths,Dead-end prevention,Recovery,noindex/canonical false,Revert 404 diff,Low,Actual 404 scenario

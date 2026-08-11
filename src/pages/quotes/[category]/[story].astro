@@ -4,6 +4,7 @@ import QuoteCard from "../../../components/QuoteCard.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import AdSlot from "../../../components/AdSlot.astro";
 import ArticleShare from "../../../components/ArticleShare.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
 import {
   SITE,
   getArticlesForQuoteTheme,
@@ -121,7 +122,12 @@ const jsonLd = [
   <article>
     <header class="page-hero story-hero">
       <div class="container prose">
-        <a class="back-link" href={`/quotes/${category.slug}/`}>All {quote.theme} Quotes</a>
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Quotes", href: "/quotes/" },
+          { label: quote.theme, href: `/quotes/${category.slug}/` },
+          { label: story.title }
+        ]} />
         <span class="eyebrow">{quote.theme} Reflection Story</span>
         <h1>{story.title}</h1>
         <blockquote>{quote.text}</blockquote>
@@ -251,13 +257,6 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .back-link {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
   .story-hero blockquote {
     border-left: 3px solid var(--color-gold);
     color: var(--color-brown);

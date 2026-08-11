@@ -1,0 +1,4 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Role,Broad catalogue overlapped Learn,Beginners had to self-design a route,Three first actions and four first learning steps,Orientation page precedes the curriculum,Journey QA,PASS,Owner copy review
+Progression,Many equal links,Decision depth and scanning,"Begin, practice or do one thing today; deeper topics later",First action is explicit,Click-path review,PASS,No
+Discoverability,Catalogue links were prominent,Simplification could orphan specific pages,Moved specific lessons to a later contextual group,No low-inbound warnings,SEO audit,PASS,No

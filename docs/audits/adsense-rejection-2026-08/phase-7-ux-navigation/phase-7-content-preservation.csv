@@ -1,0 +1,6 @@
+Page / family,Phase 4 substantive value,Purpose preserved,Key content visible,Truncated?,Next-step load,Evidence,Result
+Homepage,FAQ truth and publisher explanation preserved,Yes,Yes,No,Reduced,Custom validator and page review,PASS
+Start Here,Existing destinations remain discoverable,Yes,Yes,No,Staged,SEO low-inbound 0,PASS
+Learn hub,Learning pages and definitions preserved,Yes,Yes,No,Staged,Search index 315; internal links valid,PASS
+Meditation hub,"Practices, safety and source notes preserved",Yes,Yes,No,Staged,Safety validator,PASS
+All substantive data/detail content,Data files and article/detail bodies unchanged,Yes,Yes,No,Unchanged,Git diff scope,PASS

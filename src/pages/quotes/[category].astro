@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import AdSlot from "../../components/AdSlot.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { SITE, getArticlesForQuoteTheme, quoteCategories, quotes } from "../../data/site";
 
 export function getStaticPaths() {
@@ -157,7 +158,11 @@ const jsonLd = [
 <Layout title={title} description={category.description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
-      <a class="back-link" href="/quotes/">All Quotes</a>
+      <Breadcrumbs items={[
+        { label: "Home", href: "/" },
+        { label: "Quotes", href: "/quotes/" },
+        { label: category.name }
+      ]} />
       <span class="eyebrow">Quote Category</span>
       <h1>Original {category.name} Quotes</h1>
       <p class="lede">{category.introduction}</p>
@@ -226,13 +231,6 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .back-link {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
   .quote-count {
     color: var(--color-green);
     font-size: 0.9rem;

@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import LearningCard from "../components/LearningCard.astro";
 import DailyReflectionCard from "../components/DailyReflectionCard.astro";
 import { dailyReflections } from "../data/dailyReflections";
 import { SITE } from "../data/site";
@@ -9,82 +8,69 @@ const title = "Start Here - Begin Your Buddhist Wisdom and Mindfulness Journey";
 const description =
   "New to Echo Buddha? Start with simple Buddhist teachings, beginner meditation, daily reflections, and practical mindfulness guidance.";
 const canonicalPath = "/start-here/";
-const sevenStepPath = [
-  { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/", description: "Understand Buddhism as a path of wisdom, ethics, meditation, and compassion." },
-  { label: "The Four Noble Truths", href: "/learn/four-noble-truths/", description: "Learn the core teaching on suffering, causes, release, and the path." },
-  { label: "The Noble Eightfold Path", href: "/learn/eightfold-path/", description: "See how Buddhist practice enters speech, work, effort, and attention." },
-  { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/", description: "Practice awareness in simple daily moments." },
-  { label: "Impermanence", href: "/learn/buddhism-101/what-is-impermanence/", description: "Meet change with less clinging and more care." },
-  { label: "Compassion", href: "/learn/buddhist-dictionary/compassion/", description: "Learn warm, clear, non-harming care for yourself and others." },
-  { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/", description: "Begin with breath, posture, and gentle returning." }
-];
-const startingNeeds = [
-  { label: "New to Buddhism?", href: "/learn/buddhism-for-beginners/", description: "Start with beginner explanations and a calm order of study." },
-  { label: "Want to start meditation?", href: "/meditation/", description: "Choose a short beginner guide and practice gently." },
-  { label: "Looking for daily peace?", href: "/daily-reflections/today/", description: "Read today's reflection, practice, and journal question." },
-  { label: "Want quote meanings?", href: "/quotes/", description: "Explore original quotes with reflection stories and related teachings." },
-  { label: "Need practical mindfulness?", href: "/mindful-living/", description: "Bring awareness into work, speech, home, and relationships." },
-  { label: "Prefer simple tools?", href: "/tools/", description: "Use timers, reflection tools, quote prompts, and a 7-day challenge." }
-];
-const sourceStudyLinks = [
-  { label: "Dhammapada Verse 1 Meaning", href: "/articles/dhammapada-verse-1-meaning/" },
-  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
-  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" },
-  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
-  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" }
-];
-const pathwayGroups = [
+
+const startingPaths = [
   {
-    title: "First-Week Beginner Path",
-    description: "Use this if you are new to Buddhism and want a calm order without turning Start Here into another Learn article.",
-    links: [
-      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
-      { label: "First Week Buddhist Practice", href: "/articles/first-week-buddhist-practice/" },
-      { label: "Buddhism 101", href: "/learn/buddhism-101/" },
-      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
-    ]
+    title: "I am new to Buddhism",
+    description: "Learn what Buddhism is, then follow the foundations in a calm order.",
+    href: "/learn/buddhism-for-beginners/",
+    action: "Begin with Buddhism for Beginners"
   },
   {
-    title: "Daily Practice Path",
-    description: "Use this when you want one repeatable practice today: reflection, meditation, and mindful conduct.",
-    links: [
-      { label: "Today's Reflection", href: "/daily-reflections/today/" },
-      { label: "Meditation Hub", href: "/meditation/" },
-      { label: "Mindful Living", href: "/mindful-living/" }
-    ]
+    title: "I want to practice",
+    description: "Choose a short, gentle meditation by experience, method, or difficulty.",
+    href: "/meditation/",
+    action: "Choose a meditation"
   },
   {
-    title: "Source-Aware Study Path",
-    description: "Use this when you want careful context for Buddhist terms, Dhammapada notes, sutta themes, and sources.",
-    links: [
-      { label: "Learn Library", href: "/learn/" },
-      { label: "Dhamma vs Dharma", href: "/articles/dhamma-vs-dharma/" },
-      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
-      { label: "Buddhist Sources and Citations", href: "/buddhist-sources-and-citations/" }
-    ]
+    title: "I want one thing for today",
+    description: "Read a brief reflection with one practice and one journal question.",
+    href: "/daily-reflections/today/",
+    action: "Read today's reflection"
   }
 ];
+
+const firstLearningSteps = [
+  { label: "Understand what Buddhism is", href: "/learn/buddhism-101/what-is-buddhism/" },
+  { label: "Learn the Four Noble Truths", href: "/learn/four-noble-truths/" },
+  { label: "See the Noble Eightfold Path", href: "/learn/eightfold-path/" },
+  { label: "Try meditation for beginners", href: "/meditation/meditation-for-beginners/" }
+];
+
+const laterPaths = [
+  { label: "Look up a Buddhist term", href: "/learn/buddhist-dictionary/" },
+  { label: "Read Dhammapada reflections", href: "/learn/dhammapada-reflections/" },
+  { label: "Study a sutta in daily-life context", href: "/learn/sutta-for-daily-life/" },
+  { label: "Read the first teaching context", href: "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/" },
+  { label: "Read the Eightfold Path source note", href: "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/" },
+  { label: "Set up a comfortable meditation posture", href: "/meditation/meditation-posture-for-beginners/" },
+  { label: "Try a 10-minute meditation", href: "/meditation/10-minute-meditation-practice/" },
+  { label: "Search for a specific topic", href: "/search/" }
+];
+
 const faqItems = [
   {
-    question: "Do I need to be Buddhist to use Echo Buddha?",
-    answer: "No. Echo Buddha is written for beginners and mindful readers who want respectful, practical Buddhist-inspired education and reflection."
+    question: "Do I need prior Buddhist knowledge?",
+    answer: "No. Start Here is an orientation page, and the beginner learning path explains terms as they appear."
   },
   {
-    question: "Where should I begin if I only have five minutes?",
-    answer: "Read today's daily reflection or try the 5-minute meditation guide. One sincere practice is enough for a beginning."
+    question: "Is Start Here the same as Buddhism for Beginners?",
+    answer: "No. Start Here helps you choose what to do on Echo Buddha. Buddhism for Beginners teaches what to learn first about Buddhism."
   },
   {
-    question: "Is this medical or mental health advice?",
-    answer: "No. Echo Buddha offers educational reflection and gentle mindfulness guidance. It is not a replacement for professional support."
+    question: "Can I begin with meditation instead?",
+    answer: "Yes. Choose a short beginner practice and use the linked safety guidance whenever you need to shorten, adapt, pause, or seek qualified support."
   }
 ];
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
+    "@type": "WebPage",
     name: title,
     description,
-    url: `${SITE.url}${canonicalPath}`
+    url: `${SITE.url}${canonicalPath}`,
+    isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url }
   },
   {
     "@context": "https://schema.org",
@@ -109,89 +95,68 @@ const jsonLd = [
 <Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
-      <span class="eyebrow">Start here</span>
+      <span class="eyebrow">New to Echo Buddha</span>
       <h1>Begin Your Buddhist Wisdom and Mindfulness Journey</h1>
       <p class="lede">
-        Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful
-        living. This page helps you choose a path; the fuller learning library remains at Learn.
+        You do not need to understand every section of the site. Choose the reason you came, take one useful step,
+        and return when you are ready.
       </p>
-      <div class="hero-actions">
-        <a class="button" href="/learn/buddhism-for-beginners/">Start Learning</a>
-        <a class="button button--secondary" href="/daily-reflections/today/">Read Today's Reflection</a>
-      </div>
+      <a class="button" href="/learn/buddhism-for-beginners/">Start learning about Buddhism</a>
     </div>
   </section>
 
   <section class="section section--tight">
     <div class="container">
-      <span class="eyebrow">Choose your path</span>
-      <h2>Three Calm Ways to Begin</h2>
-      <div class="pathway-grid">
-        {pathwayGroups.map((group) => (
-          <section class="surface pathway-card">
-            <h3>{group.title}</h3>
-            <p>{group.description}</p>
-            <ul>
-              {group.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
-            </ul>
-          </section>
+      <span class="eyebrow">Choose your first action</span>
+      <h2>What Would Help Today?</h2>
+      <div class="path-grid">
+        {startingPaths.map((path) => (
+          <a class="surface path-card" href={path.href}>
+            <h3>{path.title}</h3>
+            <p>{path.description}</p>
+            <strong>{path.action}</strong>
+          </a>
         ))}
-      </div>
-      <span class="eyebrow doorway-eyebrow">Quick doorway</span>
-      <h2 class="doorway-heading">If You Already Know What You Need</h2>
-      <div class="grid grid--3">
-        {startingNeeds.map((item) => <LearningCard item={item} />)}
       </div>
     </div>
   </section>
 
   <section class="section section-band">
-    <div class="container">
-      <span class="eyebrow">Recommended path</span>
-      <h2>A Gentle 7-Step Beginning</h2>
-      <div class="path-list">
-        {sevenStepPath.map((item, index) => (
-          <a class="surface path-item" href={item.href}>
-            <span>{index + 1}</span>
-            <div>
-              <h3>{item.label}</h3>
-              <p>{item.description}</p>
-            </div>
-          </a>
-        ))}
-      </div>
-      <div class="source-study surface">
-        <h3>Source-Aware Reading Next</h3>
-        <p>
-          When the first path feels familiar, continue with short Dhammapada and sutta notes that connect classic
-          Buddhist themes with careful daily-life reflection.
-        </p>
-        <ul>
-          {sourceStudyLinks.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
     <div class="container split">
       <div>
-        <span class="eyebrow">Daily companion</span>
-        <h2>Return for One Reflection Each Day</h2>
+        <span class="eyebrow">If you are a complete newcomer</span>
+        <h2>Four First Steps</h2>
         <p class="lede">
-          Echo Buddha is designed as a daily Buddhist wisdom and mindfulness companion. Read a short reflection, try
-          one simple practice, and carry one question into the day.
+          Learn one foundation at a time. These pages explain the path; Start Here only gives you the order.
         </p>
-        <a class="button" href="/daily-reflections/">Open daily reflections</a>
+        <ol class="first-steps">
+          {firstLearningSteps.map((step) => <li><a href={step.href}>{step.label}</a></li>)}
+        </ol>
       </div>
       <DailyReflectionCard reflection={dailyReflections[0]} compact />
     </div>
   </section>
 
+  <section class="section">
+    <div class="container later-grid">
+      <div>
+        <span class="eyebrow">When you know what you need</span>
+        <h2>Go Deeper Without Starting Over</h2>
+        <p>
+          Dictionary and source-study pages are available when a term or teaching needs more context. They do not
+          need to be part of your first visit.
+        </p>
+      </div>
+      <nav class="later-links surface" aria-label="Later learning and search paths">
+        {laterPaths.map((path) => <a href={path.href}>{path.label}</a>)}
+      </nav>
+    </div>
+  </section>
+
   <section class="section section--tight">
     <div class="container">
-      <span class="eyebrow">Beginner questions</span>
-      <h2>Helpful Notes Before You Begin</h2>
+      <span class="eyebrow">Before you begin</span>
+      <h2>Helpful Questions</h2>
       <div class="faq-list">
         {faqItems.map((item) => (
           <details class="surface faq-item">
@@ -205,11 +170,33 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .hero-actions {
+  .path-grid,
+  .faq-list {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: 1.25rem;
+  }
+
+  .path-card {
+    color: var(--color-ink);
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-top: 1.5rem;
+    flex-direction: column;
+    padding: 1.25rem;
+    text-decoration: none;
+  }
+
+  .path-card p {
+    color: var(--color-muted);
+  }
+
+  .path-card strong {
+    color: var(--color-green);
+    margin-top: auto;
+  }
+
+  .path-card:hover,
+  .path-card:focus-visible {
+    border-color: var(--color-green);
   }
 
   .section-band {
@@ -217,112 +204,63 @@ const jsonLd = [
     border-block: 1px solid var(--color-line);
   }
 
-  .path-list,
-  .pathway-grid,
-  .source-study,
-  .faq-list {
+  .first-steps {
     display: grid;
-    gap: 0.85rem;
-    margin-top: 1.25rem;
+    gap: 0.65rem;
+    padding-left: 1.25rem;
   }
 
-  .pathway-card {
-    padding: 1.15rem;
+  .first-steps a,
+  .later-links a {
+    font-weight: 800;
   }
 
-  .pathway-card h3 {
-    font-size: 1.22rem;
+  .later-grid {
+    display: grid;
+    gap: 1.25rem 2rem;
   }
 
-  .pathway-card p {
+  .later-grid p {
     color: var(--color-muted);
-    margin-bottom: 0.85rem;
   }
 
-  .pathway-card ul {
+  .later-links {
     display: grid;
-    gap: 0.45rem;
-    margin-bottom: 0;
-    padding-left: 1.15rem;
+    gap: 0;
+    padding: 0.5rem 1.1rem;
   }
 
-  .doorway-eyebrow {
-    display: inline-block;
-    margin-top: 2rem;
+  .later-links a {
+    padding: 0.7rem 0;
   }
 
-  .doorway-heading {
-    font-size: clamp(1.55rem, 3vw, 2rem);
-  }
-
-  .path-item {
-    align-items: start;
-    color: var(--color-ink);
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: auto minmax(0, 1fr);
-    padding: 1rem;
-    text-decoration: none;
-  }
-
-  .path-item > span {
-    align-items: center;
-    background: var(--color-green-soft);
-    border-radius: 50%;
-    color: var(--color-green);
-    display: inline-flex;
-    font-weight: 900;
-    height: 2.25rem;
-    justify-content: center;
-    width: 2.25rem;
-  }
-
-  .path-item h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.25rem;
-  }
-
-  .path-item p,
-  .source-study p,
-  .faq-item p {
-    color: var(--color-muted);
-    margin-bottom: 0;
-  }
-
-  .source-study {
-    padding: 1.1rem 1.25rem;
-  }
-
-  .source-study h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0;
-  }
-
-  .source-study ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem 1rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .later-links a + a {
+    border-top: 1px solid var(--color-line);
   }
 
   .faq-item {
-    padding: 1rem 1.15rem;
+    padding: 1rem 1.1rem;
   }
 
   .faq-item summary {
     cursor: pointer;
-    font-weight: 800;
+    font-family: var(--font-serif);
+    font-weight: 700;
   }
 
-  @media (min-width: 760px) {
-    .path-list {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+  .faq-item p {
+    color: var(--color-muted);
+    margin: 0.75rem 0 0;
+  }
+
+  @media (min-width: 720px) {
+    .path-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    .pathway-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+    .later-grid {
+      align-items: start;
+      grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.8fr);
     }
   }
 </style>

@@ -88,7 +88,7 @@
     const results = root.querySelector("[data-search-results]");
     const empty = root.querySelector("[data-search-empty]");
     const noResults = root.querySelector("[data-search-no-results]");
-    const clear = root.querySelector("[data-search-clear]");
+    const clearButtons = root.querySelectorAll("[data-search-clear]");
     const count = root.querySelector("[data-search-count]");
     const form = root.querySelector("[data-search-form]");
     const mode = root.dataset.searchMode || "page";
@@ -99,12 +99,14 @@
     function render(query, updateUrl = false) {
       const trimmed = query.trim();
       window.clearTimeout(debounceTimer);
+      results.setAttribute("aria-busy", trimmed ? "true" : "false");
       debounceTimer = window.setTimeout(async () => {
         if (!trimmed) {
           results.innerHTML = "";
           setVisible(empty, true);
           setVisible(noResults, false);
           if (count) count.textContent = "";
+          results.setAttribute("aria-busy", "false");
           if (updateUrl && mode === "page") history.replaceState(null, "", "/search/");
           return;
         }
@@ -114,7 +116,10 @@
         results.innerHTML = matches.map(resultMarkup).join("");
         setVisible(empty, false);
         setVisible(noResults, matches.length === 0);
-        if (count) count.textContent = matches.length ? `${matches.length} result${matches.length === 1 ? "" : "s"}` : "";
+        if (count) count.textContent = matches.length
+          ? `${matches.length} result${matches.length === 1 ? "" : "s"} for “${trimmed}”`
+          : `No results for “${trimmed}”`;
+        results.setAttribute("aria-busy", "false");
         if (updateUrl && mode === "page") history.replaceState(null, "", `/search/?q=${encodeURIComponent(trimmed)}`);
       }, 140);
     }
@@ -131,10 +136,12 @@
       }
     });
 
-    clear?.addEventListener("click", () => {
-      input.value = "";
-      input.focus();
-      render("", true);
+    clearButtons.forEach((clear) => {
+      clear.addEventListener("click", () => {
+        input.value = "";
+        input.focus();
+        render("", true);
+      });
     });
 
     root.querySelectorAll("[data-popular-search]").forEach((button) => {

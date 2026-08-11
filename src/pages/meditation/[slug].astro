@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { SITE } from "../../data/site";
 import {
   allMeditationPages,
@@ -55,7 +56,11 @@ const jsonLd = [
   <article>
     <header class="page-hero">
       <div class="container prose">
-        <a class="back-link" href="/meditation/">Meditation</a>
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Meditation", href: "/meditation/" },
+          { label: page.title }
+        ]} />
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
@@ -179,13 +184,6 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .back-link {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
   .key-box,
   .safety-box {
     margin-bottom: 2rem;

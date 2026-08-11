@@ -1,0 +1,7 @@
+Page / Component,Keyboard,Focus,Semantics,Heading hierarchy,Labels,Touch targets,Contrast,Reduced motion,Mobile zoom,Screen-reader concern,Automated result,Manual result,Issue,Severity,Action,Validation
+Global header,PASS,Entry/return PASS,nav/button/aria-current,N/A,Menu and Search labelled,PASS,PASS,Existing behavior preserved,Allowed,None found,0 critical/serious,PASS,None,None,Focus management and progressive enhancement,PASS
+Search overlay,PASS,Input/close/return PASS,dialog/search/live status,PASS,Close and query labelled,PASS,PASS,Preserved,Allowed,Result update announcement,0 critical/serious,PASS,Previous status feedback weak,P2,aria-live and aria-busy,PASS
+Homepage,PASS,Visible,Landmarks/links,PASS,Purposeful CTA labels,PASS,PASS,Preserved,Allowed,None found,0 issues,PASS,None,None,Semantic restructure,PASS
+Breadcrumbs,PASS,Visible,nav aria-label/list/aria-current,N/A,Breadcrumb labelled,PASS,PASS,N/A,Allowed,Current page announced,0 issues,PASS,None,None,Shared semantic component,PASS
+404,PASS,Visible,main and links,PASS,Descriptive recovery labels,PASS,PASS,Preserved,Allowed,None found,0 issues,PASS,None,None,Expanded recovery,PASS
+17-page representative matrix,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,No automated concern,critical 0; serious 0; moderate 0; minor 0,PASS,None,None,axe/browser suite,PASS

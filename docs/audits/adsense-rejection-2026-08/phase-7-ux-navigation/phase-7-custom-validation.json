@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-08-11T10:47:52.693Z",
+  "startingHead": "071deba4e6106f6597b4524d2a6deb99e344e26b",
+  "branch": "codex/phase-7-ux-navigation",
+  "totalChecks": 21,
+  "passed": 21,
+  "failed": 0,
+  "pass": true,
+  "counts": {
+    "builtRoutes": 336,
+    "htmlPages": 336,
+    "sitemapUrls": 193,
+    "searchItems": 315,
+    "brokenInternalLinks": 0,
+    "indexabilityRegressions": 0,
+    "breadcrumbFailures": 0
+  },
+  "checks": [
+    {
+      "area": "Navigation",
+      "name": "Primary navigation contains the approved five destinations",
+      "pass": true,
+      "evidence": "/start-here/ | /learn/ | /meditation/ | /articles/ | /daily-reflections/"
+    },
+    {
+      "area": "Navigation",
+      "name": "Primary navigation order matches the user-goal model",
+      "pass": true,
+      "evidence": "/start-here/ -> /learn/ -> /meditation/ -> /articles/ -> /daily-reflections/"
+    },
+    {
+      "area": "Navigation",
+      "name": "All global navigation links resolve",
+      "pass": true,
+      "evidence": "/start-here/ | /learn/ | /meditation/ | /articles/ | /daily-reflections/"
+    },
+    {
+      "area": "Mobile navigation",
+      "name": "Menu uses aria-expanded",
+      "pass": true,
+      "evidence": "aria-expanded=\"false\""
+    },
+    {
+      "area": "Mobile navigation",
+      "name": "Escape closes and restores focus",
+      "pass": true,
+      "evidence": "setMenu(false, true)"
+    },
+    {
+      "area": "Mobile navigation",
+      "name": "Outside click closes the menu",
+      "pass": true,
+      "evidence": "document.addEventListener(\"pointerdown\""
+    },
+    {
+      "area": "Mobile navigation",
+      "name": "Open menu moves focus",
+      "pass": true,
+      "evidence": "target?.focus()"
+    },
+    {
+      "area": "Mobile navigation",
+      "name": "No-JS mobile navigation remains available",
+      "pass": true,
+      "evidence": "Navigation is hidden only after enhancement is ready"
+    },
+    {
+      "area": "Internal links",
+      "name": "Broken internal links equal zero",
+      "pass": true,
+      "evidence": "0 broken links"
+    },
+    {
+      "area": "Search",
+      "name": "Every search result URL resolves",
+      "pass": true,
+      "evidence": "315 indexed results; 0 invalid"
+    },
+    {
+      "area": "Search",
+      "name": "Metta results distinguish definition, meditation, and article families",
+      "pass": true,
+      "evidence": "Article | Buddhism 101 | Buddhist Term | Daily Reflection | Dictionary | Learning Hub | Meditation Guide | Sutta Guide"
+    },
+    {
+      "area": "Search",
+      "name": "Search retains explicit type labels",
+      "pass": true,
+      "evidence": "All results include type, title, and URL"
+    },
+    {
+      "area": "Breadcrumbs",
+      "name": "Representative visible breadcrumbs match structured hierarchy",
+      "pass": true,
+      "evidence": "6/6 pass"
+    },
+    {
+      "area": "Indexability",
+      "name": "Phase 6 index/canonical/sitemap state is unchanged",
+      "pass": true,
+      "evidence": "336/336 routes match"
+    },
+    {
+      "area": "Sitemap",
+      "name": "Sitemap remains at the protected count",
+      "pass": true,
+      "evidence": "193 sitemap URLs"
+    },
+    {
+      "area": "Routes",
+      "name": "HTML page count remains at the protected count",
+      "pass": true,
+      "evidence": "336 built pages"
+    },
+    {
+      "area": "Trust",
+      "name": "Core Phase 6 trust routes are grouped in the footer",
+      "pass": true,
+      "evidence": "/about/ | /authors/echo-buddha-editorial/ | /editorial-policy/ | /how-echo-buddha-creates-content/ | /buddhist-sources-and-citations/ | /corrections/ | /contact/"
+    },
+    {
+      "area": "Safety",
+      "name": "Meditation hub and detail pages retain safety paths",
+      "pass": true,
+      "evidence": "Hub and representative detail link Meditation Safety"
+    },
+    {
+      "area": "AdSense",
+      "name": "AdSense and consent implementation files are unchanged",
+      "pass": true,
+      "evidence": "No protected implementation diff"
+    },
+    {
+      "area": "Content",
+      "name": "Substantive content and governance data are unchanged",
+      "pass": true,
+      "evidence": "No substantive data/detail-template diff"
+    },
+    {
+      "area": "404",
+      "name": "404 remains noindex and offers Home, Search, and Start Here",
+      "pass": true,
+      "evidence": "Recovery paths present; noindex retained"
+    }
+  ],
+  "failures": {
+    "brokenInternalLinks": [],
+    "invalidSearchUrls": [],
+    "breadcrumbFailures": [],
+    "preservationFailures": []
+  }
+}

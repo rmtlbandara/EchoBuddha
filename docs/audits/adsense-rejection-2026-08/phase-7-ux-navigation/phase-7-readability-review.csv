@@ -1,0 +1,5 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Homepage density,Repeated catalogues and six recent articles,Scanning burden,"Three paths, four beginner steps, three recent items, compact return/trust panels",Clear section sequence,Visual QA,PASS,Owner visual review
+Start Here,Many equivalent routes,High cognitive load,First actions precede deeper study,Beginner language and staged choices,Journey QA,PASS,Owner copy review
+Learn,Flat topic inventory,Progression unclear,Four named learning roles,Predictable progression,Browser QA,PASS,Owner copy review
+Meditation,Many practices together,Choice overload,Start / Choose / Adapt,Safety and support remain readable,Browser QA,PASS,Owner copy review

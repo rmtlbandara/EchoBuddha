@@ -1,0 +1,5 @@
+Test case,Query,Expected result type,Actual result,Result clarity,Duplicate results?,Retired URL present?,Noindex internal-search behavior correct?,Keyboard behavior,Mobile behavior,No-results behavior,Issue,Action,Validation
+Known definition,metta,Definition and relevant content families,Relevant Learn/Article/Meditation families returned,Clear family labels,No,No,Yes,Dialog focuses input; Escape closes,PASS,Not applicable,None,Added live/busy result status,PASS
+Known practice,breathing meditation,Meditation pages,Valid meditation results,Clear,No,No,Yes,Keyboard operable,PASS,Not applicable,None,Preserved index and improved announcements,PASS
+No result,zzzz-no-match,Recovery state,Query-specific no-result message and clear action,Clear,No,No,Yes,Clear action keyboard operable,PASS,Clear query and browse suggestions,Previous recovery was weak,Added live message and clearing,PASS
+Index integrity,all,Valid current URLs,315 items; zero invalid URLs,Family labels retained,No invalid duplicates detected,No,Yes,Not applicable,Not applicable,Not applicable,None,Programmatic index validation,PASS

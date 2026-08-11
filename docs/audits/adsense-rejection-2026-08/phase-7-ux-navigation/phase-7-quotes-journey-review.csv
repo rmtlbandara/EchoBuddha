@@ -1,0 +1,3 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Discovery,Top-level navigation plus homepage collections,Competed with primary learning/practice goals,Moved to return panel/footer while preserving hub/category/story routes,Quotes are secondary but reachable,Click-depth and route checks,PASS,Owner review
+Orientation,Category and story hierarchy primarily schema-based,Visible context was weaker,Added visible breadcrumbs to category and story,Users can return to Quotes/category,Breadcrumb validator,PASS,No
