@@ -3,7 +3,7 @@
 Generated: 2026-08-11
 Phase: 7 — UX, Navigation & User-Journey Improvement
 Repository status: **REPOSITORY PHASE 7 COMPLETE**
-Production status: **PRODUCTION UNCHANGED / DEPLOYMENT PENDING**
+Production status: **DEPLOYED AND VERIFIED**
 
 ## 1. Executive Summary
 
@@ -19,7 +19,7 @@ Validation passed: the release suite, 21/21 custom checks, 17-page automated acc
 
 Phase 6 is complete. Its release validation and production verification passed with zero unresolved P0/P1 trust, source or authorship defects. The Phase 6 report required owner review before Phase 7; the owner's explicit instruction to proceed with Phase 7 satisfies that gate.
 
-Phase 6 production baseline remains deployment `7aa46f83-4fd2-4f66-a6c3-072769f12efc`, version `829cd28e-950c-4cca-a7d9-e1ec5a6a280d` at 100%.
+The Phase 6 production baseline was deployment `7aa46f83-4fd2-4f66-a6c3-072769f12efc`, version `829cd28e-950c-4cca-a7d9-e1ec5a6a280d`. It is retained as the immediate rollback target. Phase 7 is active as deployment `c784aaa1-bfed-4fa1-a7a6-c91bc6284d58`, version `23d6d780-5174-43c2-86d1-09fd2e574cce` at 100%.
 
 ## 3. Phase 0–6 Inputs
 
@@ -38,10 +38,11 @@ Protected state included stable URLs, ownership, indexability, canonical behavio
 ## 5. Git / Repository Baseline
 
 - Working branch: `codex/phase-7-ux-navigation`
-- Starting and current HEAD: `071deba4e6106f6597b4524d2a6deb99e344e26b`
+- Starting HEAD: `071deba4e6106f6597b4524d2a6deb99e344e26b`
+- Deployed implementation commit: `4109b429394f4e2c02fdd2b817cc970fbb6e8037`
 - `origin/main` observed baseline: `a1cd457345587670133bfc58af1cafd80d038e6e`
-- Worktree: intentionally modified and uncommitted
-- Commit, push and production deployment: not performed; Phase 7 prompt prohibited them without separate authorization
+- Review trail: GitHub draft pull request #3
+- Commit, push and production deployment: performed after separate owner authorization
 - Framework: Astro static architecture retained
 
 ## 6. Current Official Guidance Reviewed
@@ -233,7 +234,7 @@ Publisher script behavior, manual-slot-disabled policy, route exclusions and exi
 
 No framework, dependency, image system or hydration layer was added. Global CSS remains 5,846 bytes; Search JavaScript added 312 bytes for accessible state/recovery. Desktop Lighthouse performance scored 1.0 for all ten routes; nine non-home mobile routes scored 0.98–1.0.
 
-The matrix homepage mobile sample scored 0.83 with sub-second LCP but elevated CPU blocking; an independent sample scored 0.72 and attributed the longest work to unchanged Google AdSense and Analytics scripts, with local page work smaller. The Phase 6 local homepage sample was 0.99, while the Phase 6 production sample was 0.60, demonstrating synthetic third-party variability. Because protected scripts are unchanged and the structural payload did not introduce a significant client cost, no Phase 7-attributable regression is recorded. Field CWV and production parity remain explicit Phase 8 work.
+The local matrix homepage mobile sample scored 0.83 with sub-second LCP but elevated CPU blocking; an independent sample scored 0.72 and attributed the longest work to unchanged Google AdSense and Analytics scripts, with local page work smaller. The Phase 6 local homepage sample was 0.99, while its production sample was 0.60. Phase 7 production again scored 0.60 on the homepage; the full public-edge mobile matrix ranged from 0.60–0.85, desktop from 0.99–1.00, accessibility remained 1.00 and CLS remained effectively zero. Because protected scripts are unchanged and the structural payload did not introduce a significant client cost, no Phase 7-attributable regression is recorded. Field CWV and third-party cost remain explicit Phase 8 work.
 
 ## 48. Validation Results
 
@@ -249,6 +250,10 @@ The matrix homepage mobile sample scored 0.83 with sub-second LCP but elevated C
 - Sitemap: 193 URLs; 0 regression
 - Index/canonical regression: 0
 - Trust/safety/ownership/AdSense protected-state regression: 0
+- Production parity: 336/336 generated pages
+- Production sitemap: exact 193/193 match
+- Production Search index: exact 315/315 match
+- Production security headers: 8/8 representative routes
 
 ## 49. Browser / Visual QA
 
@@ -260,6 +265,11 @@ The matrix homepage mobile sample scored 0.83 with sub-second LCP but elevated C
 - Browser QA: PASS
 - Lighthouse: PASS WITH DOCUMENTED THIRD-PARTY HOMEPAGE VARIANCE
 - Screenshots: 24 local QA images, intentionally ignored from Git; machine-readable JSON/CSV is retained
+- Production responsive page–viewport checks: 135/135 PASS
+- Production interactions: 6/6 PASS
+- Production journeys: 8/8 PASS
+- Production accessibility: 16 pages; zero findings
+- Production consent scenarios: 5/5 PASS
 
 ## 50. Human UX Review
 
@@ -275,8 +285,8 @@ Phase 9 should formalize CI/Git/deployment governance and rollback approval. Pha
 
 ## 53. Human / Owner Review Items
 
-1. Confirm navigation labels/order and homepage copy/visual emphasis.
-2. Decide whether to authorize commit, push and production deployment.
+1. The owner authorized the navigation release, commit, push and production deployment.
+2. Draft pull request #3 remains available for non-blocking visual/copy review.
 3. In Phase 8, obtain owner/legal review for consent, analytics and AdSense readiness.
 
 There are zero unresolved P0/P1 Phase 7 UX defects.
@@ -288,13 +298,13 @@ Phase 8 must preserve the five-link navigation hierarchy, separate Search utilit
 ## 55. Deployment Status
 
 **REPOSITORY PHASE 7 COMPLETE**
-**PRODUCTION UNCHANGED / DEPLOYMENT PENDING**
+**PRODUCTION PHASE 7 DEPLOYED AND VERIFIED**
 
-No commit, push or deployment was performed. Production still serves the Phase 6 deployment/version recorded in Section 2. This report does not claim that production has improved.
+The implementation commit `4109b429394f4e2c02fdd2b817cc970fbb6e8037` is pushed on `codex/phase-7-ux-navigation` and deployed through Cloudflare Workers as deployment `c784aaa1-bfed-4fa1-a7a6-c91bc6284d58`, version `23d6d780-5174-43c2-86d1-09fd2e574cce` at 100%. All 336 generated pages match the committed distribution. The Phase 6 deployment/version remains the rollback target.
 
 ## 56. Phase 8 Handoff
 
-The structured handoff is `phase-7-phase8-handoff.csv`. Phase 8 may begin only after owner review of Phase 7 and must not silently alter the protected journeys. A deployment decision is separate from the Phase 8 technical scope and requires explicit authorization.
+The structured handoff is `phase-7-phase8-handoff.csv`. The owner's deployment authorization completes the Phase 7 review gate, so Phase 8 may begin under a separate instruction. Phase 8 must not silently alter the protected journeys.
 
 ## 57. Final Phase 7 Verdict
 
@@ -348,6 +358,6 @@ PHASE 2 OWNERSHIP PRESERVED: **YES**
 PHASE 3 INDEXABILITY PRESERVED: **YES**
 URLS CHANGED: **NO**
 ADSENSE BEHAVIOR EXPANDED: **NO**
-PRODUCTION DEPLOYED: **NO**
-IS PHASE 8 READY TO BEGIN?: **AFTER OWNER REVIEW**
+PRODUCTION DEPLOYED: **YES — DEPLOYMENT AND PARITY VERIFIED**
+IS PHASE 8 READY TO BEGIN?: **YES — DO NOT BEGIN WITHOUT A SEPARATE OWNER INSTRUCTION**
 NEXT PHASE: **PHASE 8 — TECHNICAL, ADSENSE, PRIVACY & PRODUCTION HARDENING**

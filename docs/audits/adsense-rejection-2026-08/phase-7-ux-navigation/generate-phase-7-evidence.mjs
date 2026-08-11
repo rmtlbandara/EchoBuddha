@@ -261,8 +261,8 @@ writeCsv("phase-7-performance-regression-review.csv", ["Surface / asset", "Phase
 ]);
 
 writeCsv("phase-7-human-review-items.csv", ["Priority", "Item", "Decision needed", "Blocking Phase 7 completion?", "Blocking deployment?", "Evidence", "Recommendation", "Status"], [
-  ["P2", "Owner visual/copy review", "Confirm final five-link labels and homepage voice", "No", "Yes", "Visual screenshots and report", "Review before commit/deploy", "OPEN OWNER REVIEW"],
-  ["P2", "Production authorization", "Explicitly authorize commit/push/deploy", "No", "Yes", "Prompt prohibits deployment by default", "Keep production unchanged", "OPEN"],
+  ["P2", "Owner visual/copy review", "Confirm final five-link labels and homepage voice", "No", "No", "Owner authorized commit/deploy; visual screenshots and report retained", "Continue review through draft PR #3", "NON-BLOCKING"],
+  ["P2", "Production authorization", "Explicitly authorize commit/push/deploy", "No", "No", "Owner authorization received; deployment and parity complete", "No further Phase 7 action", "COMPLETE"],
   ["P3", "Mobile homepage field performance", "Review real-user CWV after deployment", "No", "No", "Synthetic third-party variance", "Phase 8 field measurement", "HANDOFF"],
   ["P3", "Consent/analytics behavior", "Legal/owner validation in Phase 8", "No", "No", "Existing model deliberately preserved", "Do not change in Phase 7", "HANDOFF"]
 ]);
@@ -271,7 +271,7 @@ writeCsv("phase-7-phase8-handoff.csv",
   ["Priority", "URL / Component", "Issue", "UX impact", "Technical impact", "AdSense impact", "Privacy impact", "Current behavior", "Desired Phase 8 outcome", "Phase 7 workaround applied?", "Protected Phase 7 behavior", "Evidence", "Human/legal review?"], [
   ["P1", "ConsentManager / analytics", "Existing default-accepted analytics model requires technical/legal review", "Privacy setting clarity", "Consent state and tag loading", "Policy readiness", "High", "Phase 6 behavior preserved", "Owner/legal-approved consent architecture and tests", "No", "Keyboard access and settings recovery", "Consent browser results", "Yes"],
   ["P1", "AdSense integration", "Technical production verification remains", "Future ad-safe layout", "Publisher script/routes", "High", "Medium", "Single existing behavior; manual slots disabled", "Verify script, exclusions, CMP and placement safety", "No", "No ad expansion and user-goal-first layout", "Custom protected-file validation", "Yes"],
-  ["P1", "Production parity", "Phase 7 not deployed", "Users do not yet receive Phase 7", "Build/edge parity", "Medium", "Low", "Production remains Phase 6", "Authorized deploy plus production validation", "No", "All Phase 7 journeys and routes", "Deployment status", "Yes"],
+  ["P1", "Production parity", "Continue guarding deployed Phase 7 behavior during technical hardening", "Production journeys are now live", "Build/edge parity", "Medium", "Low", "Phase 7 deployed; 336/336 pages match and live QA passes", "Retain parity after every Phase 8 change", "No", "All Phase 7 journeys and routes", "Post-deploy parity, browser and Lighthouse evidence", "Yes"],
   ["P2", "Security headers / CSP", "Production hardening outside Phase 7", "Low direct", "Headers and third-party allowlists", "Medium", "Medium", "Current configuration preserved", "Review Cloudflare headers/CSP", "No", "Search, menu, analytics and AdSense functionality", "Phase boundary", "Yes"],
   ["P2", "Field performance / CWV", "Synthetic homepage variance from third parties", "Potential mobile delay", "RUM/field telemetry", "Medium", "Low", "Synthetic results recorded", "Assess field LCP/INP/CLS and third-party cost", "No", "No framework migration; minimal Phase 7 JS", "Performance register", "No"],
   ["P2", "Cloudflare behavior", "Edge-specific cache/runtime parity not retested for un-deployed work", "Production fidelity", "Worker/cache/redirect behavior", "Medium", "Low", "Phase 6 production remains healthy", "Post-deploy route, redirect, consent and accessibility checks", "No", "Stable URLs, canonical/index state", "Release/browser evidence", "No"]
@@ -290,7 +290,11 @@ writeCsv("phase-7-validation-summary.csv", ["Validation", "Scope", "Result", "Co
   ["Interaction QA", "Menu/search/skip/no-JS/404", "PASS", "6/6", "phase-7-browser-qa.json", "Keyboard and recovery included"],
   ["Journey QA", "Eight primary journeys", "PASS", "8/8", "phase-7-browser-qa.json", "No dead-end primary journey"],
   ["Lighthouse accessibility", "10 representative routes, mobile + desktop", "PASS", "20/20 at 1.0", "post-edit-lighthouse", "Automated result"],
-  ["Lighthouse performance", "10 representative routes, mobile + desktop", "PASS WITH DOCUMENTED VARIANCE", "Desktop 10/10 at 1.0; mobile non-home 0.98–1.0", "performance-summary.csv", "Homepage samples affected by protected third-party scripts; Phase 8 field follow-up"]
+  ["Lighthouse performance", "10 representative routes, mobile + desktop", "PASS WITH DOCUMENTED VARIANCE", "Local desktop 10/10 at 1.0; mobile non-home 0.98–1.0", "post-edit-lighthouse/performance-summary.csv", "Homepage samples affected by protected third-party scripts; Phase 8 field follow-up"],
+  ["Production parity", "All built HTML, sitemap, navigation, Search and headers", "PASS", "336/336 pages; sitemap 193/193; Search 315/315; headers 8/8", "phase-7-post-deploy-production-summary.json", "Exact committed-build parity"],
+  ["Production browser QA", "27 pages x 5 viewports plus interactions and journeys", "PASS", "135/135; 6/6; 8/8", "phase-7-post-deploy-browser-qa.json", "Public apex"],
+  ["Production accessibility and consent", "16 live pages and five consent scenarios", "PASS", "0 accessibility findings; 5/5 consent", "post-deploy-browser", "Existing consent model preserved"],
+  ["Production Lighthouse", "10 routes, mobile + desktop", "PASS WITH DOCUMENTED VARIANCE", "Accessibility 20/20 at 1.0; desktop 0.99–1.0; mobile 0.60–0.85", "post-deploy-lighthouse/performance-summary.csv", "Matches known public-edge variability; field CWV remains Phase 8"]
 ]);
 
 writeCsv("phase-7-rollback-map.csv",

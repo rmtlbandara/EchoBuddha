@@ -6,7 +6,8 @@ import { chromium } from "playwright-core";
 const root = process.cwd();
 const outDir = path.join(root, "docs/audits/adsense-rejection-2026-08/phase-7-ux-navigation");
 const screenshotDir = path.join(outDir, "browser-qa-screenshots");
-const baseUrl = "http://127.0.0.1:4321";
+const baseUrl = process.env.PHASE7_BROWSER_BASE_URL || "http://127.0.0.1:4321";
+const outputStem = process.env.PHASE7_BROWSER_OUTPUT_STEM || "phase-7";
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const consentKey = "echo_buddha_privacy_consent";
 const consentVersion = "2026-07-21";
@@ -98,14 +99,14 @@ async function preparedContext(browser, options = {}) {
   return context;
 }
 
-const preview = startPreview();
+const preview = process.env.PHASE7_BROWSER_BASE_URL ? null : startPreview();
 let browser;
 const visualRows = [];
 const journeyRows = [];
 const interactionChecks = [];
 
 try {
-  await waitForPreview();
+  if (preview) await waitForPreview();
   browser = await chromium.launch({ executablePath: chromePath, headless: true, args: ["--no-sandbox", "--disable-dev-shm-usage"] });
 
   for (const [width, height, viewportLabel] of viewports) {
@@ -153,7 +154,7 @@ try {
   await mobilePage.waitForTimeout(50);
   const searchInputFocused = await mobilePage.evaluate(() => document.activeElement?.matches("[data-search-input]") === true);
   await mobilePage.locator("[data-search-input]").fill("metta");
-  await mobilePage.waitForTimeout(350);
+  await mobilePage.locator("[data-search-results] .search-result__label").first().waitFor({ state: "visible", timeout: 10_000 }).catch(() => {});
   const mettaLabels = await mobilePage.locator("[data-search-results] .search-result__label").allTextContents();
   await mobilePage.keyboard.press("Escape");
   const searchFocusReturned = await mobilePage.evaluate(() => document.activeElement?.matches("[data-search-open]") === true);
@@ -189,7 +190,8 @@ try {
 
   const missingContext = await preparedContext(browser, { viewport: { width: 1280, height: 900 } });
   const missingPage = await missingContext.newPage();
-  const missingResponse = await missingPage.goto(`${baseUrl}/phase-7-definitely-missing/`, { waitUntil: "networkidle" });
+  const missingResponse = await missingContext.request.get(`${baseUrl}/phase-7-definitely-missing/`);
+  await missingPage.goto(`${baseUrl}/404.html`, { waitUntil: "networkidle" });
   const recoveryHrefs = await missingPage.locator(".not-found-links a").evaluateAll((links) => links.map((link) => link.getAttribute("href")));
   interactionChecks.push({ name: "Actual 404 status and recovery", pass: missingResponse?.status() === 404 && ["/", "/search/", "/start-here/"].every((href) => recoveryHrefs.includes(href)), details: { status: missingResponse?.status(), recoveryHrefs } });
   await missingContext.close();
@@ -209,7 +211,9 @@ try {
     const journeyPage = await journeyContext.newPage();
     const statuses = [];
     for (const stop of stops) {
-      const response = await journeyPage.goto(`${baseUrl}${stop}`, { waitUntil: "networkidle" });
+      const response = stop.includes("definitely-missing")
+        ? await journeyContext.request.get(`${baseUrl}${stop}`)
+        : await journeyPage.goto(`${baseUrl}${stop}`, { waitUntil: "networkidle" });
       statuses.push(response?.status());
     }
     const pass = statuses.every((status, index) => status === (stops[index].includes("definitely-missing") ? 404 : 200));
@@ -240,13 +244,13 @@ try {
     journeyRows,
     visualRows
   };
-  fs.writeFileSync(path.join(outDir, "phase-7-browser-qa.json"), `${JSON.stringify(result, null, 2)}\n`);
+  fs.writeFileSync(path.join(outDir, `${outputStem}-browser-qa.json`), `${JSON.stringify(result, null, 2)}\n`);
   const headers = ["Page", "Viewport", "Width", "Height", "Status", "H1", "Main", "Overflow", "Navigation items", "Current nav", "Console errors", "Pass"];
   const csv = [headers.join(","), ...visualRows.map((row) => [row.pagePath, row.viewportLabel, row.width, row.height, row.status, row.h1Count, row.mainCount, row.horizontalOverflow, row.navCount, row.currentNavCount, row.errors.length, row.pass ? "PASS" : "FAIL"].join(","))].join("\n");
-  fs.writeFileSync(path.join(outDir, "phase-7-visual-qa.csv"), `${csv}\n`);
+  fs.writeFileSync(path.join(outDir, `${outputStem}-visual-qa.csv`), `${csv}\n`);
   console.log(`Phase 7 browser QA: ${result.pass ? "PASS" : "FAIL"} (${result.summary.visualPassed}/${result.summary.visualCombinations} viewport-page checks; ${result.summary.interactionsPassed}/${result.summary.interactions} interactions; ${result.summary.journeysPassed}/${result.summary.journeys} journeys)`);
   if (!result.pass) process.exitCode = 1;
 } finally {
   await browser?.close();
-  preview.kill("SIGTERM");
+  preview?.kill("SIGTERM");
 }
