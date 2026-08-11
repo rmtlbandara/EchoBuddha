@@ -1,0 +1,153 @@
+Status,File,Classification,Protected
+ M,docs/audits/content-audit/content-decision-matrix.csv,MODIFIED,Yes
+ M,docs/audits/content-audit/content-family-summary.json,MODIFIED,Yes
+ M,docs/audits/content-audit/content-inventory.csv,MODIFIED,Yes
+ M,docs/audits/content-audit/daily-reflection-review.csv,MODIFIED,Yes
+ M,docs/audits/content-audit/post-remediation-summary.json,MODIFIED,Yes
+ M,docs/audits/content-audit/quote-origin-register.csv,MODIFIED,Yes
+ M,docs/audits/content-audit/source-register.csv,MODIFIED,Yes
+ M,docs/audits/echo-buddha-governance-implementation/final-validation-summary.json,MODIFIED,Yes
+ M,docs/audits/echo-buddha-governance-implementation/url-inventory.json,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_ARCHITECTURE_DISCOVERY.json,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_FINAL_AUDIT_REPORT.md,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_PRESERVATION_BASELINE.json,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_ROUTE_EVALUATION.json,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_ROUTE_INVENTORY.csv,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_ROUTE_INVENTORY.json,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_SIMILARITY_AND_TEMPLATE_RISK.json,MODIFIED,Yes
+ M,docs/audits/non-articles/ECHOBUDDHA_NON_ARTICLE_SOURCE_PLAN.json,MODIFIED,Yes
+ M,docs/audits/non-articles/implementation/phase-2/PHASE_2_QUALITY_GATE_RESULTS.json,MODIFIED,Yes
+ M,scripts/validate-non-article-quality-gates.mjs,MODIFIED,Yes
+ M,src/data/learn.ts,MODIFIED,Yes
+ M,src/data/site.ts,MODIFIED,Yes
+ M,src/pages/daily-reflections/[slug].astro,MODIFIED,Yes
+ M,src/pages/learn/buddhism-for-beginners.astro,MODIFIED,Yes
+ M,src/pages/learn/eightfold-path.astro,MODIFIED,Yes
+ M,src/pages/learn/four-noble-truths.astro,MODIFIED,Yes
+ M,src/pages/sitemap.xml.ts,MODIFIED,Yes
+ M,tests/governance.test.mjs,MODIFIED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-0-retroactive-baseline/capture-phase-0-current-baseline.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/ECHO_BUDDHA_ADSENSE_REJECTION_ROOT_CAUSE_AUDIT.md,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/adsense-root-cause-confidence-matrix.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/adsense-script-route-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/all-indexable-pages-quality-matrix.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/audit-validation-summary.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/content-family-risk-summary.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/daily-reflection-quality-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/editorial-structure-similarity-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/generate-phase-1-evidence.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/high-overlap-cluster-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/hub-category-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/learn-quality-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/meditation-wellbeing-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/monetization-suitability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/navigation-ux-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/owner-expert-review-items.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/page-decision-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/page-value-scorecard.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/phase-1-generated-summary.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/primary-intent-owner-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/production-repository-parity.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/quote-story-quality-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/source-claim-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/template-language-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/topic-overlap-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-1-root-cause/trust-page-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/ECHOBUDDHA_MASTER_TOPIC_OWNERSHIP_MAP.md,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/audience-stage-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/cluster-ownership-risk-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/content-expansion-hold-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/daily-reflection-role-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/dictionary-vs-article-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/future-page-approval-template.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/generate-phase-2-registers.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/hub-ownership-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/human-owner-review-items.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/information-gain-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/master-page-role-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/meditation-role-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/page-does-not-own-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/phase-2-generated-summary.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/phase-2-validation-summary.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/phase-3-handoff-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/pillar-vs-article-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/potential-cannibalization-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/primary-support-page-map.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/primary-topic-owner-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/quote-ownership-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/search-intent-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/source-study-vs-general-page-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/supporting-page-role-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/topic-overlap-resolution-matrix.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-2-search-intent-ownership/why-this-page-exists-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/ECHO_BUDDHA_INDEX_QUALITY_REMEDIATION_REPORT.md,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/generate-phase-3-evidence.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-adsense-route-compatibility-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-before-after-metrics.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-canonical-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-category-hub-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-command-validation.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-consolidation-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-daily-reflection-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-deferred-consolidation-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-dictionary-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-full-crawl-validation.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-generated-summary.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-human-review-items.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-indexability-decision-matrix.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-internal-link-update-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-internal-search-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-learn-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-meditation-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-noindex-implementation.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-page-action-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-page-family-index-policy.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-phase4-handoff.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-pre-implementation-snapshot.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-quote-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-redirect-map.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-removal-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-robots-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-rollback-map.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-route-inventory.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-sitemap-diff.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-source-study-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-trust-utility-indexability-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/phase-3-validation-summary.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-3-index-quality-remediation/validate-phase-3-crawl.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/ECHO_BUDDHA_HIGH_VALUE_CONTENT_REMEDIATION_REPORT.md,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/generate-phase-4-evidence.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-before-after-quality-scores.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-browser-qa.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-buddhist-foundation-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-command-validation.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-completed-merge-content-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-content-validation.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-deferred-merge-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-dictionary-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-faq-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-generated-summary.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-high-overlap-cluster-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-human-review-items.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-indexability-preservation-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-information-gain-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-internal-link-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-meditation-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-metadata-change-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-page-change-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-page-specifications.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-phase5-handoff.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-phase6-handoff.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-pre-edit-snapshot.json,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-relationship-boundary-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-remediation-queue.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-rollback-map.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-source-claim-matrix.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-source-register.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-source-study-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-topic-owner-preservation.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-validation-summary.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/phase-4-wellbeing-safety-review.csv,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/prepare-phase-4-specifications.mjs,UNTRACKED,Yes
+??,docs/audits/adsense-rejection-2026-08/phase-4-high-value-content-remediation/validate-phase-4-content.mjs,UNTRACKED,Yes

@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-08-11T05:10:00Z",
+  "fullRunCommandStatus": "PASS_EXIT_0",
+  "fullRunRoutes": 20,
+  "fullRunAccessibilityMinimum": 1,
+  "fullRunFinding": {
+    "route": "/quotes/mindfulness/",
+    "formFactor": "mobile",
+    "performance": 0.88,
+    "lcpMs": 3826.7619,
+    "classification": "INTERMITTENT_OUTLIER_REQUIRING_TARGETED_REPEAT"
+  },
+  "targetedMobileSamples": [
+    { "run": 1, "performance": 1, "accessibility": 1, "lcpMs": 1054.8583, "tbtMs": 30, "cls": 0 },
+    { "run": 2, "performance": 0.84, "accessibility": 1, "lcpMs": 4051.3546, "tbtMs": 171, "cls": 0 },
+    { "run": 3, "performance": 0.88, "accessibility": 1, "lcpMs": 3731.7239, "tbtMs": 114, "cls": 0 },
+    { "run": 4, "performance": 1, "accessibility": 1, "lcpMs": 988.9225, "tbtMs": 76.8489, "cls": 0 },
+    { "run": 5, "performance": 1, "accessibility": 1, "lcpMs": 1054.6754, "tbtMs": 49.5, "cls": 0 }
+  ],
+  "targetedMedian": {
+    "performance": 1,
+    "accessibility": 1,
+    "lcpMs": 1054.8583,
+    "tbtMs": 76.8489,
+    "cls": 0
+  },
+  "result": "PASS_WITH_INTERMITTENT_LAB_VARIANCE",
+  "phase5Blocker": false,
+  "futureAction": "Track the mobile topic-hub variance in Phase 8/9 performance and validation hardening; do not attribute the variance to a Phase 1–4 content/index defect without field evidence.",
+  "notes": "The LCP element is the static H1. TTFB and transfer size remain small; the slow samples were render-delay lab variance. Three of five targeted samples passed at 1.0 and the targeted median passed. Individual outliers are retained rather than discarded."
+}

@@ -2097,7 +2097,10 @@ export function getQuoteStoryPath(quote: Quote) {
   return `/quotes/${category.slug}/${getQuoteSlug(quote)}/`;
 }
 
-export const INDEXABLE_GENERATED_QUOTES_PER_THEME = 6;
+// Phase 3 index-quality policy: generated quote stories remain useful, crawlable
+// reflection pages but do not compete as independent search results. Explicitly
+// authored/reviewed stories keep their page-level `isIndexable` decision.
+export const INDEXABLE_GENERATED_QUOTES_PER_THEME = 0;
 
 export function getQuoteStatus(quote: Quote) {
   if (quote.status) return quote.status;
@@ -3915,6 +3918,13 @@ export const articles: Article[] = [
         ]
       },
       {
+        heading: "Use an Anger Map: Signal, Story, Urge, Aim",
+        paragraphs: [
+          "Separate four parts that often arrive together. The signal is what the body feels. The story is the mind's explanation of what happened. The urge is what anger wants to do immediately. The aim is what actually needs protection, repair, or change. This separation creates choices without pretending the anger is unreal.",
+          "Suppose a colleague criticizes you in a meeting. The signal may be heat and a clenched jaw; the story may be that they always disrespect you; the urge may be to embarrass them; the aim may be accurate feedback and respectful treatment. The aim can guide a private correction or a clear boundary after the first wave settles."
+        ]
+      },
+      {
         heading: "Do Not Feed the Inner Argument",
         paragraphs: [
           "The mind often keeps anger alive by repeating the offense, imagining future confrontations, and collecting evidence. During the first wave, postpone the courtroom. Return attention to the body and avoid sending the message you may regret.",
@@ -3933,6 +3943,19 @@ export const articles: Article[] = [
         paragraphs: [
           "You may need to say no, leave a situation, correct an injustice, or have a difficult conversation. Try to describe the behavior and its impact without attacking the entire person. Be specific about the boundary or repair you need.",
           "Afterward, reflect on what reduced suffering and what increased it. Every episode of anger can become a teacher when met with honesty, responsibility, and the willingness to practice again."
+        ]
+      },
+      {
+        heading: "When a Pause Is Not Enough",
+        paragraphs: [
+          "Mindfulness is not a substitute for safety planning, medical care, or mental-health support. If anger includes threats, violence, loss of control, self-harm, harm toward others, or fear for anyone's safety, leave the immediate situation where possible and use qualified local or emergency support.",
+          "The Buddhist contribution here is ethical training: do not hand the next action to hatred. It is not a claim that attention alone can resolve trauma, abuse, psychiatric symptoms, or a dangerous environment."
+        ]
+      },
+      {
+        heading: "Teaching and Editorial Scope",
+        paragraphs: [
+          "Early Buddhist texts repeatedly treat non-hatred and restraint as qualities to cultivate; the <a href=\"https://suttacentral.net/dhp1-20/en/sujato\">opening verses of the Dhammapada</a> are one familiar source context. The four-part anger map and modern scenarios above are Echo Buddha's practical editorial framework, not a translation or a claim that one ancient discourse presents those exact steps."
         ]
       }
     ]
@@ -5010,7 +5033,8 @@ export const articles: Article[] = [
         heading: "Right Speech Buddhism: The Basic Teaching",
         paragraphs: [
           "Traditional Buddhist teaching often describes Right Speech by naming what to avoid: false speech, divisive speech, harsh speech, and idle or careless speech. In positive language, this means speaking truthfully, creating harmony where possible, using words with respect, and choosing speech that has purpose.",
-          "These guidelines are simple, but not easy. The difficult moment usually arrives quickly: criticism from a manager, a tense family dinner, a message that feels unfair, or a rumor that would be satisfying to repeat. Practice begins in the pause before words leave the mouth or the screen."
+          "These four abstentions appear in the <a href=\"https://suttacentral.net/sn45.8/en/sujato\">Magga-vibhaṅga Sutta (SN 45.8)</a> as part of the Noble Eightfold Path. The positive filters used on this page are a practical editorial restatement, not a quotation or a claim that every tradition uses exactly the same four-question checklist.",
+          "The guidelines are simple, but not easy. The difficult moment usually arrives quickly: criticism from a manager, a tense family dinner, a message that feels unfair, or a rumor that would be satisfying to repeat. Practice begins in the pause before words leave the mouth or the screen."
         ]
       },
       {
@@ -5054,6 +5078,13 @@ export const articles: Article[] = [
         paragraphs: [
           "Choose one communication habit for a week. You might stop exaggerating when upset, avoid gossip at work, pause before replying to criticism, or ask one clarifying question before disagreeing. Keep the practice small enough to remember. This is also a practical way to train the fourth precept around truthful and careful speech.",
           "Before a difficult conversation, write your intention in one sentence: “I want to understand,” “I need to set a boundary,” or “I want to repair trust.” This keeps speech connected to purpose. If compassion feels difficult, the <a href=\"/articles/loving-kindness-meditation-beginners/\">Loving-Kindness Meditation</a> article can support a warmer inner tone."
+        ]
+      },
+      {
+        heading: "A Message-Repair Example",
+        paragraphs: [
+          "Imagine receiving a short message that sounds dismissive. The first draft—“You clearly do not respect my time”—turns an interpretation into an accusation. A more careful reply might be: “I read the change as urgent and felt caught off guard. Can you confirm the deadline and whether the earlier plan still applies?” It names impact, checks the facts, and asks for what is needed.",
+          "If your first words already caused harm, Right Speech includes repair. Name what you said without excuses, acknowledge its likely effect, correct any false claim, and say what you will do differently. An apology is stronger when it does not demand immediate forgiveness."
         ]
       },
       {

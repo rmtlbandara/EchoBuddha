@@ -1,0 +1,316 @@
+URL,Type,Current index state,Internal search state,Stale redirected/removed route?,Noindex retained intentionally?,Result
+https://echobuddha.com/,Home,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/about/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/authors/echo-buddha-editorial/,Author,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/contact/,Contact,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/editorial-policy/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/how-echo-buddha-creates-content/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/buddhist-sources-and-citations/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quote-attribution-policy/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation-safety/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/corrections/,Trust,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/,Learning Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/,Learning Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/,Dictionary,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/dhammapada-reflections/,Learning Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/,Learning Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/,Meditation Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation-guide/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/start-here/,Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/daily-reflections/,Daily Reflection,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/daily-reflections/today/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/tools/,Tool,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/mindful-living/,Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/,Quote Hub,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-for-beginners/,Learning Page,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/four-noble-truths/,Learning Page,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/eightfold-path/,Learning Page,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/mindful-email-and-texting/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/compassion-with-boundaries/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/dhamma-vs-dharma/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/first-week-buddhist-practice/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/non-attachment-in-relationships/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/right-speech-examples/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/dhammapada-verse-1-meaning/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/three-poisons-buddhism-explained/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/equanimity-in-buddhism/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/five-precepts-in-daily-life/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/right-livelihood-modern-life/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/what-is-sangha-buddhist-community/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/buddhist-gratitude-practice/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/four-noble-truths-explained-simply/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/how-to-meditate-for-beginners/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/mindfulness-of-breathing-guide/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/loving-kindness-meditation-guide/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/eightfold-path-explained/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/right-speech-buddhism/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/impermanence-in-buddhism/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/what-is-karma-in-buddhism/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/four-noble-truths-explained/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/mindfulness-vs-meditation/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/metta-meditation-script/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/how-to-meditate-for-anxiety/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/loving-kindness-meditation-beginners/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/eightfold-path-explained-daily-life/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/mindfulness-morning-routine/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/walking-meditation-step-by-step/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/buddhist-approach-to-anger/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/mindfulness-for-better-sleep/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/how-to-practice-non-attachment/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/compassion-as-a-daily-discipline/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/letting-go-without-giving-up/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/three-ways-to-practice-patience/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/mindful-listening-in-everyday-life/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,Article,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/daily-reflections/patience-before-anger-speaks/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/one-honest-breath/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/kindness-with-boundaries/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/impermanence-softens-clinging/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/listen-before-answering/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/let-the-feeling-pass/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/begin-again-without-shame/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/notice-before-fixing/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/compassion-begins-nearby/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/one-step-on-the-path/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/gratitude-notices-enough/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/anger-as-a-signal/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/letting-go-keeps-care/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/soften-the-inner-argument/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/thoughts-are-visitors/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/walking-as-practice/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/see-the-conditions/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/morning-intention/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/rest-without-escape/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/forgiveness-without-approval/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/enough-for-this-moment/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/the-first-truth-is-kind/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/mindful-work/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/family-patience/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/simple-goodwill/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/evening-release/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/daily-reflections/gratitude-for-change/,Daily Reflection,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/bring-the-teaching-into-the-place-where-you-are/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/,Quote,noindex,PRESENT,No,Yes — internal discovery is independent of Google indexability,PASS
+https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/meditation/one-honest-breath/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/meditation/meditation-is-returning/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/meditation/few-quiet-minutes/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/compassion/gentle-self-compassion/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/patience/patience-softens-the-wait/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/letting-go/caring-without-clinging/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/impermanence/meet-change-softly/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/wise-silence/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/mindfulness/listen-before-answering/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/letting-go/soften-around-stress/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/renewal/evening-release-reflection/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/letting-go/where-attachment-begins/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/renewal/begin-again-without-shame/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/patience/family-kindness-and-patience/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,Quote,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/,Buddhism 101,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/anicca/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/dukkha/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/anatta/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/metta/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/karuna/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/sati/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/karma/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/dhamma/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/sangha/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/nirvana/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/compassion/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/sutta/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-dictionary/pali-canon/,Buddhist Term,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,Dhammapada Reflection,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,Dhammapada Reflection,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,Dhammapada Reflection,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,Dhammapada Reflection,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,Dhammapada Reflection,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,Sutta Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/meditation-for-beginners/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/breathing-meditation/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/loving-kindness-meditation/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/walking-meditation/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/mindfulness-in-daily-life/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/5-minute-meditation-practice/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/10-minute-meditation-practice/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/meditation-posture-for-beginners/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/meditation/when-meditation-feels-hard/,Meditation Guide,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/questions-about-buddhism/,FAQ,indexable,PRESENT,No,N/A,PASS
+https://echobuddha.com/learn/buddhist-resources/,Resource,indexable,PRESENT,No,N/A,PASS

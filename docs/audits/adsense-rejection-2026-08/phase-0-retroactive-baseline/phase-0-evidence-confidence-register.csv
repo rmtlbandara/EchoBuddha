@@ -1,0 +1,10 @@
+Fact,Evidence,Confidence,Classification
+Reconciliation-start repository state,"Phase 0 manifest, Git status, hashes",High,PRIMARY_REPOSITORY_EVIDENCE
+Forensic committed pre-Phase-1 baseline is a1cd457,"Reflog, branch refs, artifact timestamps, isolated build",High,PRIMARY_GIT_AND_BUILD_EVIDENCE
+Uncommitted working state immediately before Phase 1,Git cannot recover uncommitted historical state,None,NOT_FULLY_RECOVERABLE
+Current live content equals forensic build,336/336 normalized page text plus metadata comparison,High,PRIMARY_LIVE_HTTP_OBSERVATION
+Historical production SHA,Cloudflare records omit Git SHA; no GitHub deployment records,Low,NOT_FULLY_RECOVERABLE
+Phase 1 page population/counts,283-row matrix equals isolated historical 283-indexable build,High,PRIMARY_ARTIFACT_AND_BUILD_EVIDENCE
+Phase 2 ownership state,283 mapped pages; 40 unique owners; every owner current-indexable,High,PRIMARY_REGISTER_AND_BUILD_EVIDENCE
+Phase 3 current index state,"336-page current crawl; 193 indexable, 143 noindex, 193 sitemap",High,PRIMARY_BUILD_EVIDENCE
+Exact AdSense account rejection reason,Primary account artifact absent,Low,SECONDARY_TRANSCRIPTION_ONLY

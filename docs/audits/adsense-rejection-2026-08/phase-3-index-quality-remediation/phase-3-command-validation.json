@@ -1,0 +1,72 @@
+[
+  {
+    "Check": "npm run build",
+    "Status": "PASS",
+    "Evidence": "Astro built 336 HTML documents successfully."
+  },
+  {
+    "Check": "npm run typecheck",
+    "Status": "PASS",
+    "Evidence": "astro sync and tsc --noEmit completed without errors."
+  },
+  {
+    "Check": "npm run lint",
+    "Status": "PASS",
+    "Evidence": "Governance lint passed."
+  },
+  {
+    "Check": "npm test",
+    "Status": "PASS",
+    "Evidence": "7/7 tests passed, including the Phase 3 quote/daily index-policy regression test."
+  },
+  {
+    "Check": "npm run audit:seo",
+    "Status": "PASS",
+    "Evidence": "SEO audit passed with 193 indexable, 143 noindex, and 193 sitemap documents."
+  },
+  {
+    "Check": "npm run audit:content",
+    "Status": "PASS",
+    "Evidence": "Content remediation audit passed."
+  },
+  {
+    "Check": "node scripts/validate-non-article-quality-gates.mjs",
+    "Status": "PASS",
+    "Evidence": "14 gates; 0 errors; 1 documented residual-template-similarity warning for Phase 4."
+  },
+  {
+    "Check": "Phase 3 full crawl",
+    "Status": "PASS",
+    "Evidence": "335/335 public routes returned 200; missing route returned 404; 0 redirects, broken internal links, canonical defects, or robots/sitemap conflicts; all 140 applicable noindex content records remain in internal search."
+  },
+  {
+    "Check": "Browser and accessibility readiness",
+    "Status": "PASS",
+    "Evidence": "17 representative routes; consent interactions passed; Axe found 0 critical, serious, moderate, minor, or unknown violations."
+  },
+  {
+    "Check": "Manual visual QA",
+    "Status": "PASS",
+    "Evidence": "Desktop homepage, desktop generated quote, and 390x844 daily reflection rendered correctly; self canonicals and intended robots observed; no horizontal overflow."
+  },
+  {
+    "Check": "Lighthouse readiness",
+    "Status": "WARN",
+    "Evidence": "10 routes in mobile and desktop: accessibility 1.00 throughout; desktop performance 0.95-1.00; mobile homepage performance 0.53 with 8.17s lab LCP requires remediation before deployment."
+  },
+  {
+    "Check": "npm run audit:dependencies",
+    "Status": "FAIL",
+    "Evidence": "0 critical and 2 high advisories: js-yaml and nanoid. Dependency remediation is outside Phase 3 and blocks production deployment."
+  },
+  {
+    "Check": "git diff --check",
+    "Status": "PASS",
+    "Evidence": "No whitespace errors."
+  },
+  {
+    "Check": "Production deployment",
+    "Status": "NOT RUN",
+    "Evidence": "Explicitly prohibited without owner authorization; no deploy, push, merge, or AdSense review request was performed."
+  }
+]

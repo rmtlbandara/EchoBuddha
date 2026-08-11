@@ -1,0 +1,14 @@
+Page family,Indexable count,Average score,Score range,Decision counts,Primary risk,Indexability suitability,Monetization suitability,Risk level
+article,50,78.5,76-82,IMPROVE:33; CONSOLIDATE:7; KEEP:7; HUMAN REVIEW:3,Focused review,Generally suitable with page decisions,Potentially suitable after remediation,Low/medium
+article category,5,69.8,68-72,IMPROVE:5,Archive/list-led value,Generally suitable with page decisions,Potentially suitable after remediation,Medium
+author/trust,1,70.0,70-70,HUMAN REVIEW:1,Focused review,Generally suitable with page decisions,Potentially suitable after remediation,Low/medium
+daily reflection,30,37.0,37-37,NOINDEX:30,Repeated structure and weak independent search intent,Family requires page-level reduction review,Keep excluded pending later review,High
+homepage,1,80.0,80-80,KEEP:1,Focused review,Generally suitable with page decisions,Potentially suitable after remediation,Low/medium
+hub/utility,8,70.6,70-71,IMPROVE:8,Focused review,Generally suitable with page decisions,Potentially suitable after remediation,Low/medium
+learn detail,45,65.3,61-74,IMPROVE:30; SUBSTANTIAL REWRITE:6; HUMAN REVIEW:9,Topic ownership and page-specific sourcing,Generally suitable with page decisions,Potentially suitable after remediation,Medium
+learn hub,9,69.9,68-72,IMPROVE:9,Topic ownership and page-specific sourcing,Generally suitable with page decisions,Potentially suitable after remediation,Medium
+meditation detail,9,60.2,58-63,IMPROVE:9,Focused review,Generally suitable with page decisions,Keep excluded pending later review,Medium
+other,1,78.0,78-78,IMPROVE:1,Focused review,Generally suitable with page decisions,Potentially suitable after remediation,Low/medium
+quote category,10,65.8,63-71,SUBSTANTIAL REWRITE:6; IMPROVE:4,Archive/list-led value,Generally suitable with page decisions,Potentially suitable after remediation,Medium
+quote story,103,50.7,46-56,IMPROVE:43; NOINDEX:60,Repeated structure and weak independent search intent,Family requires page-level reduction review,Keep excluded pending later review,High
+trust/policy,11,70.3,68-72,HUMAN REVIEW:1; IMPROVE:10,Focused review,Generally suitable with page decisions,Keep excluded pending later review,Low/medium

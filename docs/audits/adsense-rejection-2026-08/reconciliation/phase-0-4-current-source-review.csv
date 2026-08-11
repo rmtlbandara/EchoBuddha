@@ -1,0 +1,337 @@
+URL,External source count,External sources,Phase 1 source risk,Phase 4 source-sensitive?,Current source status,Critical unresolved issue?
+https://echobuddha.com/404.html,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/about/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,2,https://suttacentral.net/sn56.11/en/sujato | https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/buddhist-approach-to-anger/,2,https://suttacentral.net/dhp1-20/en/sujato | https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/articles/buddhist-gratitude-practice/,2,https://www.dhammatalks.org/suttas/KN/Khp/khp5.html | https://www.dhammatalks.org/suttas/AN/AN4_28.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/category/buddhist-wisdom/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/category/meditation/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/category/mindfulness/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/category/practice/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/category/reflection/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/compassion-as-a-daily-discipline/,1,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/,1,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/compassion-with-boundaries/,2,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html | https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel006.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/dhamma-vs-dharma/,3,https://suttacentral.net/define/dhamma | https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html | https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,0,,High,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/dhammapada-verse-1-meaning/,2,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html | https://suttacentral.net/edition/dhp/en/sujato/introduction,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/eightfold-path-explained-daily-life/,1,https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/eightfold-path-explained/,1,https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/equanimity-in-buddhism/,1,https://www.dhammatalks.org/suttas/AN/AN8_6.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/first-week-buddhist-practice/,3,https://suttacentral.net/sn56.11/en/sujato | https://www.dhammatalks.org/suttas/SN/SN45_8.html | https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/five-precepts-in-daily-life/,1,https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/four-noble-truths-explained-simply/,1,https://suttacentral.net/sn56.11/en/sujato,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/four-noble-truths-explained/,2,https://suttacentral.net/sn56.11/en/sujato | https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/how-to-meditate-for-anxiety/,1,https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/how-to-meditate-for-beginners/,2,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/how-to-practice-non-attachment/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/impermanence-in-buddhism/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/letting-go-without-giving-up/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/loving-kindness-meditation-beginners/,2,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/articles/loving-kindness-meditation-guide/,2,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/metta-meditation-script/,2,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/mindful-email-and-texting/,2,https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html | https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/mindful-listening-in-everyday-life/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/mindfulness-for-better-sleep/,1,https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/mindfulness-morning-routine/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/mindfulness-of-breathing-guide/,2,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/mindfulness-vs-meditation/,2,https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,1,https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/non-attachment-in-relationships/,2,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html | https://suttacentral.net/sn56.11/en/sujato,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/right-livelihood-modern-life/,2,https://www.dhammatalks.org/suttas/SN/SN45_8.html | https://www.accesstoinsight.org/tipitaka/dn/dn.31.0.ksw0.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/right-speech-buddhism/,3,https://suttacentral.net/sn45.8/en/sujato | https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html | https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/articles/right-speech-examples/,2,https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html | https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/three-poisons-buddhism-explained/,1,https://www.accesstoinsight.org/tipitaka/an/an03/an03.069.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/three-ways-to-practice-patience/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/,4,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html | https://www.dhammatalks.org/suttas/SN/SN45_2.html | https://amaravati.org/visiting/frequently-asked-questions/ | https://bswa.org/bswp/wp-content/uploads/2022/08/Buddhist-Etiquette-BSWA.pdf,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/walking-meditation-step-by-step/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,2,https://suttacentral.net/sn56.11/en/sujato | https://www.dhammatalks.org/suttas/SN/SN45_8.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/what-is-karma-in-buddhism/,1,https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/articles/what-is-sangha-buddhist-community/,2,https://www.dhammatalks.org/suttas/SN/SN45_2.html | https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/authors/echo-buddha-editorial/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/buddhist-sources-and-citations/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/contact/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/corrections/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/anger-as-a-signal/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/begin-again-without-shame/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/compassion-begins-nearby/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/enough-for-this-moment/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/evening-release/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/family-patience/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/forgiveness-without-approval/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/gratitude-for-change/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/gratitude-notices-enough/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/impermanence-softens-clinging/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/kindness-with-boundaries/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/let-the-feeling-pass/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/letting-go-keeps-care/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/listen-before-answering/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/mindful-work/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/morning-intention/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/notice-before-fixing/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/one-honest-breath/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/one-step-on-the-path/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/patience-before-anger-speaks/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/rest-without-escape/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/see-the-conditions/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/simple-goodwill/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/soften-the-inner-argument/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/the-first-truth-is-kind/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/thoughts-are-visitors/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/today/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/daily-reflections/walking-as-practice/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/disclaimer/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/editorial-policy/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/how-echo-buddha-creates-content/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,1,https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,1,https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.002.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,1,https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.048.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/,1,https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel026.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/,1,https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/,2,https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel006.html | https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,1,https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/,2,https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html | https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/,1,https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/,2,https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html | https://www.accesstoinsight.org/tipitaka/an/an05/an05.177.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,1,https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,1,https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,2,https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html | https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/,2,https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html | https://www.accesstoinsight.org/lib/authors/nyanasatta/wheel019.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,2,https://suttacentral.net/sn56.11/en/sujato | https://suttacentral.net/sn45.8/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,1,https://suttacentral.net/dhp273-289/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/,1,https://suttacentral.net/an6.63/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/,1,https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,1,https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhism-for-beginners/,2,https://suttacentral.net/sn56.11/en/sujato | https://suttacentral.net/sn45.8/en/sujato,Medium,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/buddhist-dictionary/anatta/,1,https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/anicca/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/compassion/,1,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/dhamma/,2,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html | https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/dukkha/,1,https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/,2,https://www.accesstoinsight.org/glossary.html | https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/karma/,1,https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/karuna/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/metta/,1,https://suttacentral.net/snp1.8/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,1,https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/nirvana/,1,https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/pali-canon/,4,https://www.accesstoinsight.org/tipitaka/index.html | https://www.accesstoinsight.org/tipitaka/sutta.html | https://www.accesstoinsight.org/tipitaka/vin/ | https://www.accesstoinsight.org/tipitaka/abhi/index.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/sangha/,2,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html | https://www.dhammatalks.org/suttas/SN/SN45_2.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/sati/,1,https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-dictionary/sutta/,2,https://suttacentral.net/define/sutta | https://www.accesstoinsight.org/tipitaka/sutta.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/buddhist-resources/,12,https://suttacentral.net/ | https://www.accesstoinsight.org/ | https://www.dharma.org/ | https://www.thebuddhistsociety.org/ | https://palitextsociety.org/ | https://www.wisdomlib.org/ | https://tricycle.org/beginners/ | https://www.lionsroar.com/ | https://www.bps.lk/ | https://www.bpu.ac.lk/ | https://84000.co/ | https://www.buddhanet.net/,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.08.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/dhammapada-reflections/,2,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html | https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.03.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/eightfold-path/,2,https://suttacentral.net/sn45.8/en/sujato | https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/four-noble-truths/,2,https://suttacentral.net/sn56.11/en/sujato | https://suttacentral.net/sn45.8/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/learn/questions-about-buddhism/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,1,https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,1,https://suttacentral.net/sn56.11/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/sutta-for-daily-life/,2,https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html | https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,1,https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,1,https://suttacentral.net/sn45.8/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,1,https://suttacentral.net/snp1.8/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,1,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,1,https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation-guide/,3,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html | https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html | https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation-safety/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/meditation/10-minute-meditation-practice/,3,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety | https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation/5-minute-meditation-practice/,1,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation/breathing-meditation/,2,https://suttacentral.net/mn118/en/sujato | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/meditation/,2,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html | https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation/loving-kindness-meditation/,2,https://suttacentral.net/snp1.8/en/sujato | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/meditation/meditation-for-beginners/,1,https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation/meditation-posture-for-beginners/,2,https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/meditation/mindfulness-in-daily-life/,1,https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/meditation/walking-meditation/,2,https://suttacentral.net/an5.29/en/bodhi | https://suttacentral.net/mn10/en/sujato,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/meditation/when-meditation-feels-hard/,3,https://suttacentral.net/mn118/en/sujato | https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety | https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/,Low,Yes,VERIFIED_AUTHORITATIVE_LINKS_AND_BOUNDARIES,No
+https://echobuddha.com/mindful-living/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/privacy-policy/,1,https://adssettings.google.com/,Low,No,LINKS_PRESENT_NOT_REVALIDATED_IN_PHASE4,No
+https://echobuddha.com/quote-attribution-policy/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/gentle-self-compassion/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/meet-change-softly/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/caring-without-clinging/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/soften-around-stress/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/where-attachment-begins/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/few-quiet-minutes/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/meditation-is-returning/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/one-honest-breath/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/listen-before-answering/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/family-kindness-and-patience/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/patience-softens-the-wait/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/bring-the-teaching-into-the-place-where-you-are/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/begin-again-without-shame/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/evening-release-reflection/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/quotes/wisdom/wise-silence/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/search/,0,,NOT_PHASE1_INDEXABLE,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/start-here/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/terms-of-use/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No
+https://echobuddha.com/tools/,0,,Medium,No,NO_EXTERNAL_SOURCE_REQUIRED_OR_PRESENT,No

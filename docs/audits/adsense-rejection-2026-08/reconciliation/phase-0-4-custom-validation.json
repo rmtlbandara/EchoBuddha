@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-08-11T05:22:32.626Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "Check": "Required Phase 0 artifacts",
+      "Status": "PASS",
+      "Details": "15 required"
+    },
+    {
+      "Check": "Required reconciliation artifacts",
+      "Status": "PASS",
+      "Details": "47 required"
+    },
+    {
+      "Check": "HTML count",
+      "Status": "PASS",
+      "Details": "336"
+    },
+    {
+      "Check": "Indexable count",
+      "Status": "PASS",
+      "Details": "193"
+    },
+    {
+      "Check": "Noindex count",
+      "Status": "PASS",
+      "Details": "143"
+    },
+    {
+      "Check": "Sitemap count",
+      "Status": "PASS",
+      "Details": "193"
+    },
+    {
+      "Check": "Noindex URLs in sitemap",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Indexable URLs absent sitemap",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Canonical errors",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Duplicate canonical targets",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Duplicate indexable titles",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Duplicate indexable descriptions",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Invalid JSON-LD",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Broken internal links",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Exactly one H1 per document",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Master register coverage",
+      "Status": "PASS",
+      "Details": "336/336"
+    },
+    {
+      "Check": "Primary owner integrity",
+      "Status": "PASS",
+      "Details": "40 owners; 0 conflicts"
+    },
+    {
+      "Check": "Phase 3 intended/actual drift",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Phase 4 score coverage/improvement",
+      "Status": "PASS",
+      "Details": "16 rows"
+    },
+    {
+      "Check": "Phase 4 ownership preservation",
+      "Status": "PASS",
+      "Details": "32 rows"
+    },
+    {
+      "Check": "Phase 4 index preservation",
+      "Status": "PASS",
+      "Details": "32 rows"
+    },
+    {
+      "Check": "Critical source issues",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Critical safety issues",
+      "Status": "PASS",
+      "Details": "0"
+    },
+    {
+      "Check": "Production forensic parity",
+      "Status": "PASS",
+      "Details": "336/336"
+    },
+    {
+      "Check": "Production current parity documented",
+      "Status": "PASS",
+      "Details": "211/336"
+    },
+    {
+      "Check": "Phase 5 handoff nonempty and protected",
+      "Status": "PASS",
+      "Details": "191"
+    },
+    {
+      "Check": "Phase 0 report sections",
+      "Status": "PASS",
+      "Details": "27"
+    },
+    {
+      "Check": "Master report sections",
+      "Status": "PASS",
+      "Details": "40"
+    },
+    {
+      "Check": "Final verdict present",
+      "Status": "PASS",
+      "Details": "Exact verdict fields found"
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "html": 336,
+    "indexable": 193,
+    "noindex": 143,
+    "sitemap": 193,
+    "brokenLinks": 0,
+    "invalidJsonLd": 0,
+    "ownerConflicts": 0,
+    "criticalSources": 0,
+    "criticalSafety": 0,
+    "phase4SubstantiveFailures": 0,
+    "productionFullCurrent": 211,
+    "productionFullForensic": 336
+  }
+}

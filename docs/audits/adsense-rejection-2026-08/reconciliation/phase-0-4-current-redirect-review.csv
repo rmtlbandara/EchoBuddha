@@ -1,0 +1,8 @@
+Requested URL,Status,Final URL / Location,Category,Result
+https://echobuddha.com/404.html,200,https://echobuddha.com/404,HTML_ROUTE_FOLLOWED_REDIRECT,REVIEW
+http://echobuddha.com/,301,https://echobuddha.com/,SPECIAL_ROUTE_MANUAL_REDIRECT_CHECK,PASS_REDIRECT
+https://www.echobuddha.com/,301,https://echobuddha.com/,SPECIAL_ROUTE_MANUAL_REDIRECT_CHECK,PASS_REDIRECT
+https://echobuddha.com/this-route-must-not-exist-phase-0-4/,404,,SPECIAL_ROUTE_MANUAL_REDIRECT_CHECK,PASS_404
+https://echobuddha.com/robots.txt,200,,SPECIAL_ROUTE_MANUAL_REDIRECT_CHECK,PASS_RESOURCE_RESPONSE_RECORDED
+https://echobuddha.com/sitemap.xml,200,,SPECIAL_ROUTE_MANUAL_REDIRECT_CHECK,PASS_RESOURCE_RESPONSE_RECORDED
+https://echobuddha.com/ads.txt,404,,SPECIAL_ROUTE_MANUAL_REDIRECT_CHECK,PASS_RESOURCE_RESPONSE_RECORDED

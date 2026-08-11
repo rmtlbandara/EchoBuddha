@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-08-11T03:21:19.778Z",
+  "builtHtmlDocuments": 336,
+  "before": {
+    "indexable": 283,
+    "noindex": 53,
+    "sitemapUrls": 283
+  },
+  "after": {
+    "indexable": 193,
+    "noindex": 143,
+    "sitemapUrls": 193
+  },
+  "actions": {
+    "CONSOLIDATE_AFTER_PHASE_4": 7,
+    "HUMAN_REVIEW": 24,
+    "IMPROVE_LATER_PHASE": 85,
+    "KEEP_INDEXED": 77,
+    "KEEP_NOINDEXED": 53,
+    "NOINDEX": 90
+  },
+  "newlyNoindexed": 90,
+  "completedConsolidations": 0,
+  "deferredConsolidations": 7,
+  "redirects": 0,
+  "removals": 0,
+  "internalSearchRecordsReviewed": 184,
+  "phase4Handoff": 116,
+  "humanReviewItems": 16,
+  "quoteStories": {
+    "total": 153,
+    "indexable": 43,
+    "noindex": 110
+  },
+  "dailyReflectionDetails": {
+    "total": 30,
+    "indexable": 0,
+    "noindex": 30
+  }
+}

@@ -1,0 +1,10 @@
+Check,Status,Result
+Reconciliation-start snapshot captured before correction,PASS,2026-08-11T04:26:01.414Z; 27 modified; 125 untracked; lock SHA recorded
+Forensic isolated npm ci/build/type/lint/test/SEO/content,PASS,336 pages; 283 indexable; 53 noindex; 283 sitemap; 6 historical tests
+Current pre-reconciliation validate,PASS,336 pages; current tests 7/7
+Current pre-reconciliation dependencies,FAIL,2 high: js-yaml 4.3.0 and nanoid 3.3.16
+Current pre-reconciliation validate:release,FAIL,Dependency gate only
+Current pre-reconciliation browser audit,PASS,17 route automated browser readiness audit
+Current pre-reconciliation Lighthouse,PASS,"20/20 runs; mobile min performance 0.99, accessibility 1.00; desktop performance/accessibility 1.00"
+Full production page parity capture,PASS,336/336 responses; live rendered content matches forensic a1cd457
+Dependency lock stabilization,PASS,0 high/critical after transitive patch resolutions

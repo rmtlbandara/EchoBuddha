@@ -102,6 +102,33 @@ test("sitemap output aligns with canonical site when built", () => {
   assert.equal(urls.some((url) => url.includes("/daily-reflections/today/")), false);
 });
 
+test("Phase 3 keeps recurring and generated content usable while curating Google indexability", () => {
+  if (!fs.existsSync("dist/sitemap.xml")) {
+    console.warn("dist HTML is missing; run npm run build before this full validation test.");
+    return;
+  }
+
+  const sitemap = read("dist/sitemap.xml");
+  const searchIndex = read("dist/search-index.json");
+  const generatedQuotePath = "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/";
+  const authoredQuotePath = "/quotes/mindfulness/begin-the-day-with-awareness/";
+  const dailyPath = "/daily-reflections/one-honest-breath/";
+  const generatedQuote = read(`dist${generatedQuotePath}index.html`);
+  const authoredQuote = read(`dist${authoredQuotePath}index.html`);
+  const daily = read(`dist${dailyPath}index.html`);
+
+  assert.match(generatedQuote, /<meta name="robots" content="noindex, follow"/);
+  assert.doesNotMatch(authoredQuote, /<meta name="robots" content="noindex/);
+  assert.match(daily, /<meta name="robots" content="noindex, follow"/);
+  assert.match(generatedQuote, new RegExp(`<link rel="canonical" href="https://echobuddha.com${generatedQuotePath}"`));
+  assert.match(daily, new RegExp(`<link rel="canonical" href="https://echobuddha.com${dailyPath}"`));
+  assert.equal(sitemap.includes(`https://echobuddha.com${generatedQuotePath}`), false);
+  assert.equal(sitemap.includes(`https://echobuddha.com${dailyPath}`), false);
+  assert.equal(sitemap.includes(`https://echobuddha.com${authoredQuotePath}`), true);
+  assert.equal(searchIndex.includes(generatedQuotePath), true);
+  assert.equal(searchIndex.includes(dailyPath), true);
+});
+
 test("content remediation governance assets remain present", () => {
   const governance = read("src/data/editorialGovernance.ts");
   assert.match(governance, /quoteId/);

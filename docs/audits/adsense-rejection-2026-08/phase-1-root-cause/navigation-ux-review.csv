@@ -1,0 +1,9 @@
+Surface,Observed state,Finding,Priority,Evidence
+Desktop header,7 primary links plus search,All content types compete at one level; four target user journeys are not explicit,P2,src/components/Header.astro navItems
+Mobile menu,Same 7 destinations in a two-column disclosure menu,Mechanically usable; still presents equal-priority choice load,P2,src/components/Header.astro mobile CSS and menu script
+Footer,14 links plus privacy settings and sitemap,Comprehensive and trustworthy but dense,P3,src/components/Footer.astro
+Start Here,Dedicated beginner route,Strong direct beginner pathway,PASS,/start-here/
+Search,Overlay and noindex result page,Discoverable and keyboard-oriented; production route is reachable,PASS,src/components/SearchOverlay.astro; /search/
+404,Built custom page exists; production nonexistent route body is empty,Confirmed production UX/parity defect,P2,dist/404.html versus production nonexistent URL checked 2026-08-11
+Breadcrumbs/related links,Present across detail templates,Strong baseline; relevance requires editorial rather than count-only review,PASS,Generated detail pages
+Four primary intentions,"Start Here, Learn, Meditation, Articles/Reflections exist",Architecture contains the journeys but header labels do not group them clearly,P2,Header and hub routes

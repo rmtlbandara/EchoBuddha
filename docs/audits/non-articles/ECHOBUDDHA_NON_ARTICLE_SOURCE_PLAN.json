@@ -48,10 +48,34 @@
     "recommendation": "Maintain source-aware editorial distinction."
   },
   {
+    "route": "/buddhist-sources-and-citations/",
+    "family": "Supporting and technical public pages",
+    "subtype": "other",
+    "h1": "Buddhist Sources and Citations",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": false,
+    "externalSourceLinks": [],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
     "route": "/contact/",
     "family": "Trust and institutional content",
     "subtype": "contact",
     "h1": "Contact Echo Buddha",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": false,
+    "externalSourceLinks": [],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/corrections/",
+    "family": "Supporting and technical public pages",
+    "subtype": "other",
+    "h1": "Corrections and Editorial Updates",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -423,7 +447,7 @@
     "route": "/daily-reflections/today/",
     "family": "Daily reflections",
     "subtype": "today-rotating-route",
-    "h1": "Today's Buddhist Reflection",
+    "h1": "Today's Buddhist Reflection Prompt",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -468,6 +492,18 @@
     "recommendation": "Maintain source-aware editorial distinction."
   },
   {
+    "route": "/how-echo-buddha-creates-content/",
+    "family": "Supporting and technical public pages",
+    "subtype": "other",
+    "h1": "How Echo Buddha Creates Content",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": false,
+    "externalSourceLinks": [],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
     "route": "/learn/",
     "family": "Learning content",
     "subtype": "learn-hub",
@@ -486,7 +522,10 @@
     "h1": "Buddhism 101",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -498,7 +537,9 @@
     "h1": "A Simple Daily Buddhist Practice",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -510,10 +551,12 @@
     "h1": "Dependent Origination Explained",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.002.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/five-aggregates-buddhism/",
@@ -522,10 +565,26 @@
     "h1": "The Five Aggregates in Buddhism",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.048.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/buddhism-101/five-hindrances-in-buddhism/",
+    "family": "Learning content",
+    "subtype": "learning-page",
+    "h1": "The Five Hindrances in Buddhism",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel026.html"
+    ],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/five-precepts-buddhism/",
@@ -534,10 +593,27 @@
     "h1": "The Five Precepts in Buddhism",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/buddhism-101/four-brahmaviharas/",
+    "family": "Learning content",
+    "subtype": "learning-page",
+    "h1": "The Four Brahmaviharas",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/lib/authors/nyanaponika/wheel006.html",
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+    ],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
@@ -546,7 +622,23 @@
     "h1": "How to Practice Buddhism at Home",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/ptf/dhamma/sila/pancasila.html"
+    ],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/buddhism-101/middle-way-explained-for-beginners/",
+    "family": "Learning content",
+    "subtype": "learning-page",
+    "h1": "The Middle Way Explained for Beginners",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -558,10 +650,13 @@
     "h1": "Right Livelihood in Buddhism",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html",
+      "https://www.accesstoinsight.org/tipitaka/an/an05/an05.177.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/the-four-noble-truths-explained/",
@@ -570,10 +665,12 @@
     "h1": "The Four Noble Truths Explained",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/",
@@ -582,10 +679,12 @@
     "h1": "The Noble Eightfold Path Explained",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/the-three-jewels-explained/",
@@ -594,7 +693,9 @@
     "h1": "The Three Jewels Explained",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -606,7 +707,25 @@
     "h1": "The Three Marks of Existence",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html",
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html"
+    ],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+    "family": "Learning content",
+    "subtype": "learning-page",
+    "h1": "The Threefold Training: Sila, Samadhi, and Panna",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      "https://www.accesstoinsight.org/lib/authors/nyanasatta/wheel019.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -618,7 +737,10 @@
     "h1": "What Is Buddhism?",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -630,7 +752,9 @@
     "h1": "What Is Impermanence?",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -642,10 +766,12 @@
     "h1": "What Is Karma in Buddhism?",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/what-is-mindfulness/",
@@ -654,10 +780,12 @@
     "h1": "What Is Mindfulness?",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhism-101/who-was-the-buddha/",
@@ -666,7 +794,9 @@
     "h1": "Who Was the Buddha?",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
     "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
     "recommendation": "Maintain source-aware editorial distinction."
@@ -690,10 +820,13 @@
     "h1": "Buddhist Dictionary",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": false,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/glossary.html",
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/anatta/",
@@ -702,10 +835,12 @@
     "h1": "Anatta",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/anicca/",
@@ -714,10 +849,12 @@
     "h1": "Anicca",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/compassion/",
@@ -726,10 +863,12 @@
     "h1": "Compassion",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/dhamma/",
@@ -738,10 +877,13 @@
     "h1": "Dhamma",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/dukkha/",
@@ -750,10 +892,12 @@
     "h1": "Dukkha",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/karma/",
@@ -762,10 +906,12 @@
     "h1": "Karma",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/karuna/",
@@ -774,10 +920,12 @@
     "h1": "Karuna",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/metta/",
@@ -786,10 +934,12 @@
     "h1": "Metta",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/mindfulness/",
@@ -798,10 +948,12 @@
     "h1": "Mindfulness",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/nirvana/",
@@ -810,10 +962,29 @@
     "h1": "Nirvana",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/buddhist-dictionary/pali-canon/",
+    "family": "Buddhist dictionary",
+    "subtype": "term-page",
+    "h1": "Pali Canon",
+    "sourceTier": "TIER 1 - strong doctrinal sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/index.html",
+      "https://www.accesstoinsight.org/tipitaka/sutta.html",
+      "https://www.accesstoinsight.org/tipitaka/vin/",
+      "https://www.accesstoinsight.org/tipitaka/abhi/index.html"
+    ],
+    "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
+    "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/sangha/",
@@ -822,10 +993,13 @@
     "h1": "Sangha",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+      "https://www.dhammatalks.org/suttas/SN/SN45_2.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-dictionary/sati/",
@@ -834,10 +1008,27 @@
     "h1": "Sati",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/buddhist-dictionary/sutta/",
+    "family": "Buddhist dictionary",
+    "subtype": "term-page",
+    "h1": "Sutta",
+    "sourceTier": "TIER 1 - strong doctrinal sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://suttacentral.net/define/sutta",
+      "https://www.accesstoinsight.org/tipitaka/sutta.html"
+    ],
+    "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
+    "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/buddhist-resources/",
@@ -871,10 +1062,13 @@
     "h1": "Dhammapada Reflections",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": false,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
@@ -883,10 +1077,12 @@
     "h1": "Avoid Evil, Do Good, Purify the Mind",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
@@ -895,10 +1091,12 @@
     "h1": "Better Than a Thousand Empty Words",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.08.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
@@ -907,10 +1105,12 @@
     "h1": "Hatred Is Not Ended by Hatred",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
@@ -919,10 +1119,12 @@
     "h1": "Peace Comes from a Trained Mind",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.03.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/dhammapada-reflections/the-mind-leads-all-things/",
@@ -931,10 +1133,12 @@
     "h1": "The Mind Leads All Things",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/eightfold-path/",
@@ -943,10 +1147,13 @@
     "h1": "The Noble Eightfold Path for Daily Life",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-ajivo/index.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/four-noble-truths/",
@@ -955,10 +1162,13 @@
     "h1": "The Four Noble Truths Explained for Beginners",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/questions-about-buddhism/",
@@ -979,10 +1189,13 @@
     "h1": "Sutta for Daily Life",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": false,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+      "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
@@ -991,10 +1204,27 @@
     "h1": "The Buddha's Teaching on Patience",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+    "family": "Sutta and Dhammapada content",
+    "subtype": "sutta-page",
+    "h1": "Dhammacakkappavattana Sutta: Four Noble Truths in Context",
+    "sourceTier": "TIER 1 - strong doctrinal sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "https://suttacentral.net/sn56.11/en/sujato"
+    ],
+    "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
+    "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
@@ -1003,10 +1233,27 @@
     "h1": "The Kalama Sutta and Wise Thinking",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+    "family": "Sutta and Dhammapada content",
+    "subtype": "sutta-page",
+    "h1": "Magga-vibhanga Sutta: Eightfold Path Explained Simply",
+    "sourceTier": "TIER 1 - strong doctrinal sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      "https://www.dhammatalks.org/suttas/SN/SN45_8.html"
+    ],
+    "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
+    "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
@@ -1015,10 +1262,12 @@
     "h1": "The Metta Sutta Explained for Daily Life",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
@@ -1027,10 +1276,12 @@
     "h1": "Mindfulness of Breathing Explained Simply",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
@@ -1039,10 +1290,12 @@
     "h1": "Right Speech in Daily Life",
     "sourceTier": "TIER 1 - strong doctrinal sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html"
+    ],
     "claimsLikelyNeedingSupport": "Core Buddhist doctrine, terminology, sutta/Dhammapada framing, translation/paraphrase status, tradition scope.",
     "recommendedSourceType": "Named reputable translation or primary text reference plus tradition-aware secondary explanation.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation-guide/",
@@ -1051,10 +1304,26 @@
     "h1": "Meditation Guide for Beginners",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/meditation-safety/",
+    "family": "Supporting and technical public pages",
+    "subtype": "other",
+    "h1": "Meditation Safety and Gentle Practice",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": false,
+    "externalSourceLinks": [],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/",
@@ -1063,10 +1332,29 @@
     "h1": "Beginner Meditation Guides and Mindfulness Practices",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": false,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/meditation/10-minute-meditation-practice/",
+    "family": "Meditation content",
+    "subtype": "method-page",
+    "h1": "10-Minute Meditation Practice",
+    "sourceTier": "TIER 2 - practice-method sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/"
+    ],
+    "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
+    "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/5-minute-meditation-practice/",
@@ -1075,10 +1363,12 @@
     "h1": "5-Minute Meditation Practice",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/breathing-meditation/",
@@ -1087,10 +1377,12 @@
     "h1": "Breathing Meditation",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/loving-kindness-meditation/",
@@ -1099,10 +1391,12 @@
     "h1": "Loving-Kindness Meditation",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/meditation-for-beginners/",
@@ -1111,10 +1405,27 @@
     "h1": "Meditation for Beginners",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/meditation/meditation-posture-for-beginners/",
+    "family": "Meditation content",
+    "subtype": "method-page",
+    "h1": "Meditation Posture for Beginners",
+    "sourceTier": "TIER 2 - practice-method sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
+      "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety"
+    ],
+    "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
+    "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/mindfulness-in-daily-life/",
@@ -1123,10 +1434,12 @@
     "h1": "Mindfulness in Daily Life",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/meditation/walking-meditation/",
@@ -1135,10 +1448,28 @@
     "h1": "Walking Meditation",
     "sourceTier": "TIER 2 - practice-method sourcing required",
     "visibleSourceOrSafetySection": true,
-    "externalSourceLinks": [],
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+    ],
     "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
     "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
-    "recommendation": "High priority source review before major SEO expansion."
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
+    "route": "/meditation/when-meditation-feels-hard/",
+    "family": "Meditation content",
+    "subtype": "method-page",
+    "h1": "What to Do When Meditation Feels Hard",
+    "sourceTier": "TIER 2 - practice-method sourcing required",
+    "visibleSourceOrSafetySection": true,
+    "externalSourceLinks": [
+      "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
+      "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/"
+    ],
+    "claimsLikelyNeedingSupport": "Practice method, safety limits, expected outcomes, tradition/source lineage for meditation instructions.",
+    "recommendedSourceType": "Practice-method source, qualified teacher/lineage explanation, and clear safety disclaimer where relevant.",
+    "recommendation": "Maintain source-aware editorial distinction."
   },
   {
     "route": "/mindful-living/",
@@ -1167,10 +1498,22 @@
     "recommendation": "Maintain source-aware editorial distinction."
   },
   {
+    "route": "/quote-attribution-policy/",
+    "family": "Supporting and technical public pages",
+    "subtype": "other",
+    "h1": "Quote Attribution Policy",
+    "sourceTier": "TIER 3 - source-aware editorial review",
+    "visibleSourceOrSafetySection": false,
+    "externalSourceLinks": [],
+    "claimsLikelyNeedingSupport": "Editorial reflection status, wellbeing limits, fiction/original labels, privacy/tool behavior where relevant.",
+    "recommendedSourceType": "Transparent Echo Buddha original/reflection label; no invented scriptural or historical attribution.",
+    "recommendation": "Maintain source-aware editorial distinction."
+  },
+  {
     "route": "/quotes/",
     "family": "Quotes content",
     "subtype": "quote-hub",
-    "h1": "Buddhist Quotes",
+    "h1": "Original Buddhist-Inspired Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -1182,7 +1525,7 @@
     "route": "/quotes/awareness/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Awareness Buddhist Quotes",
+    "h1": "Original Awareness Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -1206,7 +1549,7 @@
     "route": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Anger asks for speed;...",
+    "h1": "Original Awareness Reflection: Anger asks for speed; awareness...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1218,7 +1561,7 @@
     "route": "/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Awareness does not remove...",
+    "h1": "Original Awareness Reflection: Awareness does not remove the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1230,7 +1573,7 @@
     "route": "/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Clear seeing begins with...",
+    "h1": "Original Awareness Reflection: Clear seeing begins with the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1242,7 +1585,7 @@
     "route": "/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Feelings are honest about...",
+    "h1": "Original Awareness Reflection: Feelings are honest about their...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1266,7 +1609,7 @@
     "route": "/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Look beneath the reaction...",
+    "h1": "Original Awareness Reflection: Look beneath the reaction and...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1278,7 +1621,7 @@
     "route": "/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Name the feeling gently,...",
+    "h1": "Original Awareness Reflection: Name the feeling gently, and...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1290,7 +1633,7 @@
     "route": "/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Notice the habit before...",
+    "h1": "Original Awareness Reflection: Notice the habit before trying...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1314,7 +1657,7 @@
     "route": "/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: Small acts of attention...",
+    "h1": "Original Awareness Reflection: Small acts of attention can...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1326,7 +1669,7 @@
     "route": "/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: The body often knows...",
+    "h1": "Original Awareness Reflection: The body often knows you...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1362,7 +1705,7 @@
     "route": "/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: What you can observe...",
+    "h1": "Original Awareness Reflection: What you can observe clearly...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1374,7 +1717,7 @@
     "route": "/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Awareness Story: When the mind tightens,...",
+    "h1": "Original Awareness Reflection: When the mind tightens, let...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1386,7 +1729,7 @@
     "route": "/quotes/compassion/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Compassion Buddhist Quotes",
+    "h1": "Original Compassion Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -1398,7 +1741,7 @@
     "route": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: A gentle response can...",
+    "h1": "Original Compassion Reflection: A gentle response can end...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1410,7 +1753,7 @@
     "route": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Before judging another life,...",
+    "h1": "Original Compassion Reflection: Before judging another life, remember...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1422,7 +1765,7 @@
     "route": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Compassion asks what hurts...",
+    "h1": "Original Compassion Reflection: Compassion asks what hurts before...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1434,7 +1777,7 @@
     "route": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Compassion grows where judgment...",
+    "h1": "Original Compassion Reflection: Compassion grows where judgment loosens...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1482,7 +1825,7 @@
     "route": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Kindness does not need...",
+    "h1": "Original Compassion Reflection: Kindness does not need an...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1494,7 +1837,7 @@
     "route": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Let kindness be the...",
+    "h1": "Original Compassion Reflection: Let kindness be the echo...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1506,7 +1849,7 @@
     "route": "/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Let your boundaries be...",
+    "h1": "Original Compassion Reflection: Let your boundaries be clear...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1530,7 +1873,7 @@
     "route": "/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Offer others the patience...",
+    "h1": "Original Compassion Reflection: Offer others the patience you...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1542,7 +1885,7 @@
     "route": "/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: Small kindnesses often reach...",
+    "h1": "Original Compassion Reflection: Small kindnesses often reach places...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1554,7 +1897,7 @@
     "route": "/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: The heart becomes spacious...",
+    "h1": "Original Compassion Reflection: The heart becomes spacious each...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1566,7 +1909,7 @@
     "route": "/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: To understand someone is...",
+    "h1": "Original Compassion Reflection: To understand someone is not...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1578,7 +1921,7 @@
     "route": "/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Compassion Story: When you cannot remove...",
+    "h1": "Original Compassion Reflection: When you cannot remove another's...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1590,7 +1933,7 @@
     "route": "/quotes/impermanence/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Impermanence Buddhist Quotes",
+    "h1": "Original Impermanence Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -1602,7 +1945,7 @@
     "route": "/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: Acceptance begins where the...",
+    "h1": "Original Impermanence Reflection: Acceptance begins where the argument...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1614,7 +1957,7 @@
     "route": "/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: Because this moment will...",
+    "h1": "Original Impermanence Reflection: Because this moment will pass,...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1638,7 +1981,7 @@
     "route": "/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: Change takes nothing personally;...",
+    "h1": "Original Impermanence Reflection: Change takes nothing personally; it...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1650,7 +1993,7 @@
     "route": "/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: Everything changes, including the...",
+    "h1": "Original Impermanence Reflection: Everything changes, including the part...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1662,7 +2005,7 @@
     "route": "/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: Hold each day carefully,...",
+    "h1": "Original Impermanence Reflection: Hold each day carefully, knowing...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1686,7 +2029,7 @@
     "route": "/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: No season is asked...",
+    "h1": "Original Impermanence Reflection: No season is asked to...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1698,7 +2041,7 @@
     "route": "/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: The fading flower does...",
+    "h1": "Original Impermanence Reflection: The fading flower does not...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1710,7 +2053,7 @@
     "route": "/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: The passing of joy...",
+    "h1": "Original Impermanence Reflection: The passing of joy teaches...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1722,7 +2065,7 @@
     "route": "/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: Today's certainty may become...",
+    "h1": "Original Impermanence Reflection: Today's certainty may become tomorrow's...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1734,7 +2077,7 @@
     "route": "/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Impermanence Story: What changes is not...",
+    "h1": "Original Impermanence Reflection: What changes is not always...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1746,7 +2089,7 @@
     "route": "/quotes/letting-go/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Letting Go Buddhist Quotes",
+    "h1": "Original Letting Go Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -1758,7 +2101,7 @@
     "route": "/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: An open hand can...",
+    "h1": "Original Letting Go Reflection: An open hand can care...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1794,7 +2137,7 @@
     "route": "/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: Freedom often sounds like...",
+    "h1": "Original Letting Go Reflection: Freedom often sounds like the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1806,7 +2149,7 @@
     "route": "/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: Let the feeling pass...",
+    "h1": "Original Letting Go Reflection: Let the feeling pass through...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1818,7 +2161,7 @@
     "route": "/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: Letting go begins by...",
+    "h1": "Original Letting Go Reflection: Letting go begins by admitting...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1842,7 +2185,7 @@
     "route": "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: Peace enters when control...",
+    "h1": "Original Letting Go Reflection: Peace enters when control is...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1854,7 +2197,7 @@
     "route": "/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: Release the need to...",
+    "h1": "Original Letting Go Reflection: Release the need to replay...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1866,7 +2209,7 @@
     "route": "/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: Release the outcome, but...",
+    "h1": "Original Letting Go Reflection: Release the outcome, but keep...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1890,7 +2233,7 @@
     "route": "/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: What leaves your life...",
+    "h1": "Original Letting Go Reflection: What leaves your life may...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1914,7 +2257,7 @@
     "route": "/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: You can honor the...",
+    "h1": "Original Letting Go Reflection: You can honor the past...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1926,7 +2269,7 @@
     "route": "/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: You do not betray...",
+    "h1": "Original Letting Go Reflection: You do not betray a...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1938,7 +2281,7 @@
     "route": "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Letting Go Story: You do not need...",
+    "h1": "Original Letting Go Reflection: You do not need to...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1950,7 +2293,7 @@
     "route": "/quotes/meditation/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Meditation Buddhist Quotes",
+    "h1": "Original Meditation Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -1962,7 +2305,7 @@
     "route": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: A short sincere practice...",
+    "h1": "Original Meditation Reflection: A short sincere practice can...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1974,7 +2317,7 @@
     "route": "/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Do not search meditation...",
+    "h1": "Original Meditation Reflection: Do not search meditation for...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -1986,7 +2329,7 @@
     "route": "/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Every return from distraction...",
+    "h1": "Original Meditation Reflection: Every return from distraction strengthens...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2010,7 +2353,7 @@
     "route": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Follow the breath lightly,...",
+    "h1": "Original Meditation Reflection: Follow the breath lightly, as...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2022,7 +2365,7 @@
     "route": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Meditation is not leaving...",
+    "h1": "Original Meditation Reflection: Meditation is not leaving life;...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2058,7 +2401,7 @@
     "route": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Silence is not empty...",
+    "h1": "Original Meditation Reflection: Silence is not empty when...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2070,7 +2413,7 @@
     "route": "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Sit with the day...",
+    "h1": "Original Meditation Reflection: Sit with the day as...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2082,7 +2425,7 @@
     "route": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: Sit without demanding silence,...",
+    "h1": "Original Meditation Reflection: Sit without demanding silence, and...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2094,7 +2437,7 @@
     "route": "/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: The bell fades, but...",
+    "h1": "Original Meditation Reflection: The bell fades, but careful...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2106,7 +2449,7 @@
     "route": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: The cushion is a...",
+    "h1": "Original Meditation Reflection: The cushion is a place...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2118,7 +2461,7 @@
     "route": "/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Meditation Story: When stillness feels impossible,...",
+    "h1": "Original Meditation Reflection: When stillness feels impossible, begin...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2130,7 +2473,7 @@
     "route": "/quotes/mindfulness/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Mindfulness Buddhist Quotes",
+    "h1": "Original Mindfulness Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -2142,7 +2485,7 @@
     "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: A peaceful mind begins...",
+    "h1": "Original Mindfulness Reflection: A peaceful mind begins with...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2154,7 +2497,7 @@
     "route": "/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: A wandering mind is...",
+    "h1": "Original Mindfulness Reflection: A wandering mind is not...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2166,7 +2509,7 @@
     "route": "/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: Awareness begins when hurry...",
+    "h1": "Original Mindfulness Reflection: Awareness begins when hurry loosens...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2190,7 +2533,7 @@
     "route": "/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: Give one ordinary task...",
+    "h1": "Original Mindfulness Reflection: Give one ordinary task the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2238,7 +2581,7 @@
     "route": "/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: Listen to the moment...",
+    "h1": "Original Mindfulness Reflection: Listen to the moment before...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2250,7 +2593,7 @@
     "route": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: Notice what is here...",
+    "h1": "Original Mindfulness Reflection: Notice what is here before...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2262,7 +2605,7 @@
     "route": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: One mindful pause can...",
+    "h1": "Original Mindfulness Reflection: One mindful pause can change...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2286,7 +2629,7 @@
     "route": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: Peace grows when attention...",
+    "h1": "Original Mindfulness Reflection: Peace grows when attention stops...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2310,7 +2653,7 @@
     "route": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: Return to the breath...",
+    "h1": "Original Mindfulness Reflection: Return to the breath before...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2322,7 +2665,7 @@
     "route": "/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: The more clearly you...",
+    "h1": "Original Mindfulness Reflection: The more clearly you notice...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2334,7 +2677,7 @@
     "route": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Mindfulness Story: The present moment asks...",
+    "h1": "Original Mindfulness Reflection: The present moment asks for...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2346,7 +2689,7 @@
     "route": "/quotes/patience/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Patience Buddhist Quotes",
+    "h1": "Original Patience Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -2358,7 +2701,7 @@
     "route": "/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: A difficult moment becomes...",
+    "h1": "Original Patience Reflection: A difficult moment becomes heavier...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2370,7 +2713,7 @@
     "route": "/quotes/patience/be-patient-with-the-part-of-you-that-is/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Be patient with the...",
+    "h1": "Original Patience Reflection: Be patient with the part...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2394,7 +2737,7 @@
     "route": "/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Growth is quiet work,...",
+    "h1": "Original Patience Reflection: Growth is quiet work, often...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2406,7 +2749,7 @@
     "route": "/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Not every delay is...",
+    "h1": "Original Patience Reflection: Not every delay is an...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2418,7 +2761,7 @@
     "route": "/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Patience is the strength...",
+    "h1": "Original Patience Reflection: Patience is the strength to...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2430,7 +2773,7 @@
     "route": "/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Patience makes room for...",
+    "h1": "Original Patience Reflection: Patience makes room for truth...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2454,7 +2797,7 @@
     "route": "/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Some answers become clear...",
+    "h1": "Original Patience Reflection: Some answers become clear only...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2466,7 +2809,7 @@
     "route": "/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Stay gentle with beginnings;...",
+    "h1": "Original Patience Reflection: Stay gentle with beginnings; they...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2478,7 +2821,7 @@
     "route": "/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: The path unfolds at...",
+    "h1": "Original Patience Reflection: The path unfolds at the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2490,7 +2833,7 @@
     "route": "/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: Wait long enough for...",
+    "h1": "Original Patience Reflection: Wait long enough for the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2502,7 +2845,7 @@
     "route": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Patience Story: When anger rises, pause...",
+    "h1": "Original Patience Reflection: When anger rises, pause long...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2514,7 +2857,7 @@
     "route": "/quotes/practice/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Practice Buddhist Quotes",
+    "h1": "Original Practice Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -2526,7 +2869,7 @@
     "route": "/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: A peaceful life is...",
+    "h1": "Original Practice Reflection: A peaceful life is built...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2538,7 +2881,7 @@
     "route": "/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Begin with what is...",
+    "h1": "Original Practice Reflection: Begin with what is possible,...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2550,7 +2893,7 @@
     "route": "/quotes/practice/bring-the-teaching-into-the-place-where-you-are/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Bring the teaching into...",
+    "h1": "Original Practice Reflection: Bring the teaching into the...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2562,7 +2905,7 @@
     "route": "/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Daily practice turns understanding...",
+    "h1": "Original Practice Reflection: Daily practice turns understanding from...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2574,7 +2917,7 @@
     "route": "/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Do not wait to...",
+    "h1": "Original Practice Reflection: Do not wait to feel...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2610,7 +2953,7 @@
     "route": "/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Practice becomes real when...",
+    "h1": "Original Practice Reflection: Practice becomes real when it...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2646,7 +2989,7 @@
     "route": "/quotes/practice/the-path-is-not-far-away-it-is-the/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: The path is not...",
+    "h1": "Original Practice Reflection: The path is not far...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2658,7 +3001,7 @@
     "route": "/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: The path is shaped...",
+    "h1": "Original Practice Reflection: The path is shaped by...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2670,7 +3013,7 @@
     "route": "/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: The smallest wholesome action...",
+    "h1": "Original Practice Reflection: The smallest wholesome action is...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2682,7 +3025,7 @@
     "route": "/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Walk slowly enough to...",
+    "h1": "Original Practice Reflection: Walk slowly enough to notice...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2694,7 +3037,7 @@
     "route": "/quotes/practice/your-next-response-is-always-part-of-the-path/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Practice Story: Your next response is...",
+    "h1": "Original Practice Reflection: Your next response is always...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2706,7 +3049,7 @@
     "route": "/quotes/renewal/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Renewal Buddhist Quotes",
+    "h1": "Original Renewal Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -2718,7 +3061,7 @@
     "route": "/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: A mistake becomes a...",
+    "h1": "Original Renewal Reflection: A mistake becomes a teacher...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2730,7 +3073,7 @@
     "route": "/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: A new direction can...",
+    "h1": "Original Renewal Reflection: A new direction can start...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2742,7 +3085,7 @@
     "route": "/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Begin again gently; the...",
+    "h1": "Original Renewal Reflection: Begin again gently; the breath...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2766,7 +3109,7 @@
     "route": "/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Begin again without turning...",
+    "h1": "Original Renewal Reflection: Begin again without turning yesterday...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2778,7 +3121,7 @@
     "route": "/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Do not confuse an...",
+    "h1": "Original Renewal Reflection: Do not confuse an old...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2790,7 +3133,7 @@
     "route": "/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Each conscious breath is...",
+    "h1": "Original Renewal Reflection: Each conscious breath is a...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2826,7 +3169,7 @@
     "route": "/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Hope can be quiet...",
+    "h1": "Original Renewal Reflection: Hope can be quiet and...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2838,7 +3181,7 @@
     "route": "/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Morning is not the...",
+    "h1": "Original Renewal Reflection: Morning is not the only...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2862,7 +3205,7 @@
     "route": "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: Repair what you can,...",
+    "h1": "Original Renewal Reflection: Repair what you can, forgive...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2874,7 +3217,7 @@
     "route": "/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: The path welcomes your...",
+    "h1": "Original Renewal Reflection: The path welcomes your return...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2886,7 +3229,7 @@
     "route": "/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Renewal Story: You are allowed to...",
+    "h1": "Original Renewal Reflection: You are allowed to learn...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2898,7 +3241,7 @@
     "route": "/quotes/wisdom/",
     "family": "Quotes content",
     "subtype": "quote-category",
-    "h1": "Wisdom Buddhist Quotes",
+    "h1": "Original Wisdom Quotes",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": false,
     "externalSourceLinks": [],
@@ -2910,7 +3253,7 @@
     "route": "/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: A clear mind can...",
+    "h1": "Original Wisdom Reflection: A clear mind can hold...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2922,7 +3265,7 @@
     "route": "/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: A useful truth is...",
+    "h1": "Original Wisdom Reflection: A useful truth is carried...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2970,7 +3313,7 @@
     "route": "/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: Knowing when not to...",
+    "h1": "Original Wisdom Reflection: Knowing when not to speak...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -2982,7 +3325,7 @@
     "route": "/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: Learn from discomfort without...",
+    "h1": "Original Wisdom Reflection: Learn from discomfort without turning...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3006,7 +3349,7 @@
     "route": "/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: See the conditions behind...",
+    "h1": "Original Wisdom Reflection: See the conditions behind an...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3030,7 +3373,7 @@
     "route": "/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: The lesson repeats until...",
+    "h1": "Original Wisdom Reflection: The lesson repeats until attention...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3042,7 +3385,7 @@
     "route": "/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: The wise heart changes...",
+    "h1": "Original Wisdom Reflection: The wise heart changes course...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3066,7 +3409,7 @@
     "route": "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: What feels urgent is...",
+    "h1": "Original Wisdom Reflection: What feels urgent is not...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3078,7 +3421,7 @@
     "route": "/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: Wisdom is less interested...",
+    "h1": "Original Wisdom Reflection: Wisdom is less interested in...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3090,7 +3433,7 @@
     "route": "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: Wisdom is the art...",
+    "h1": "Original Wisdom Reflection: Wisdom is the art of...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],
@@ -3114,7 +3457,7 @@
     "route": "/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
     "family": "Quotes content",
     "subtype": "quote-story",
-    "h1": "A Wisdom Story: Wisdom sees the whole...",
+    "h1": "Original Wisdom Reflection: Wisdom sees the whole fire,...",
     "sourceTier": "TIER 3 - source-aware editorial review",
     "visibleSourceOrSafetySection": true,
     "externalSourceLinks": [],

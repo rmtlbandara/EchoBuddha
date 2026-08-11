@@ -18,14 +18,31 @@ const pathFactors = [
   { label: "Right Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/", description: "Remember awareness in body, feeling, mind, and daily life." },
   { label: "Right Concentration", href: "/meditation/meditation-for-beginners/", description: "Train steadiness through meditation and gentle returning." }
 ];
+const trainingGroups = [
+  {
+    label: "Wisdom",
+    factors: "Right view and right intention",
+    description: "Understand suffering and its causes, then orient the mind toward letting go, goodwill, and non-harming."
+  },
+  {
+    label: "Ethical conduct",
+    factors: "Right speech, right action, and right livelihood",
+    description: "Train the outward choices that protect life, trust, relationships, and the conditions needed for a less burdened mind."
+  },
+  {
+    label: "Cultivation of mind",
+    factors: "Right effort, right mindfulness, and right concentration",
+    description: "Prevent and release unhelpful states, cultivate helpful ones, remember the field of experience, and develop steadiness."
+  }
+];
 const relatedArticles = ["noble-eightfold-path-practical-guide", "eightfold-path-explained", "eightfold-path-explained-daily-life", "right-speech-buddhism"]
   .map((slug) => fullArticles.find((article) => article.slug === slug))
   .filter(Boolean);
 const sourceLinks = [
   {
     label: "Magga-vibhanga Sutta (SN 45.8)",
-    href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
-    note: "Traditional source defining right view, intention, speech, action, livelihood, effort, mindfulness, and concentration."
+    href: "https://suttacentral.net/sn45.8/en/sujato",
+    note: "An early-discourse analysis of right view, intention, speech, action, livelihood, effort, mindfulness, and concentration."
   },
   {
     label: "Right Livelihood overview",
@@ -79,19 +96,52 @@ const jsonLd = [
 
     <section class="section section-band">
       <div class="container prose">
-        <h2>Use This as a Practice Map</h2>
+        <h2>One Path, Three Areas of Training</h2>
         <p>
-          The path factors are not eight separate achievements. They support one another. Clearer view shapes intention,
-          intention shapes speech and action, and mindfulness helps the whole path remain alive in ordinary moments.
+          A common teaching arrangement groups the factors as wisdom, ethical conduct, and cultivation of mind. The
+          grouping is a study aid, not a sequence in which ethics can be skipped until meditation is mastered. Conduct
+          affects the mind; view affects conduct; attention helps us notice both.
         </p>
-        <h2>Practice Today</h2>
+        <div class="training-groups">
+          {trainingGroups.map((group) => (
+            <div>
+              <h3>{group.label}</h3>
+              <strong>{group.factors}</strong>
+              <p>{group.description}</p>
+            </div>
+          ))}
+        </div>
+        <h2>What “Right” Means Here</h2>
         <p>
-          Choose one path factor before the day ends. Let it guide a real sentence, task, or response.
+          “Right” translates <em>sammā</em> in the factor names. It does not mean declaring oneself morally superior or
+          finding whatever feels right personally. The factors are oriented toward the ending of dukkha and away from
+          greed, ill will, cruelty, deception, and heedlessness. Translators sometimes choose terms such as right,
+          skillful, or appropriate; no single English substitute carries every shade of the Pali term.
+        </p>
+        <h2>A Worked Example: Before Sending a Harsh Reply</h2>
+        <p>
+          A message arrives that feels unfair. Right view notices both the facts and the suffering being produced. Right
+          intention checks whether the aim is clarification or retaliation. Right speech rules out lying, abuse, and
+          deliberate division. Right action may mean documenting the issue or seeking help rather than escalating.
+          Right effort stops rehearsing the cruelest response and develops a useful one. Right mindfulness keeps body,
+          feeling, and aim in view. Right concentration supplies enough steadiness to finish the response without being
+          pulled into every angry thought. Livelihood matters when the exchange is part of work and power.
+        </p>
+        <p>
+          This is an editorial application, not a claim that one email completes the path. It shows how several factors
+          can cooperate in one ordinary decision.
+        </p>
+        <h2>A Focused Practice</h2>
+        <p>
+          Choose one consequential conversation. Before it begins, write the three factors most relevant to it and a
+          behavior that would express each one. Afterward, review the result without turning the path into a scorecard.
+          The aim is to see conditions more clearly and train the next response.
         </p>
         <h2>Source Notes</h2>
         <p>
-          This is original Echo Buddha educational writing on a central Buddhist teaching. For deeper formal study,
-          compare reputable translations, study communities, and qualified teachers.
+          SN 45.8 supplies the factor definitions. The threefold grouping, modern scenario, and practice are explanatory
+          and editorial. Translation terms differ, especially for intention/purpose and concentration/immersion; readers
+          doing formal study should compare translations and learn with a reputable teacher or community.
         </p>
         <ul class="source-list">
           {sourceLinks.map((source) => (
@@ -146,5 +196,31 @@ const jsonLd = [
     display: block;
     font-size: 0.94rem;
     margin-top: 0.15rem;
+  }
+
+  .training-groups {
+    display: grid;
+    gap: 0.9rem;
+    margin-block: 1.5rem;
+  }
+
+  .training-groups > div {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 1rem;
+  }
+
+  .training-groups h3 {
+    margin-bottom: 0.2rem;
+  }
+
+  .training-groups strong {
+    color: var(--color-green);
+    display: block;
+    font-size: 0.92rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .training-groups p {
+    margin: 0;
   }
 </style>

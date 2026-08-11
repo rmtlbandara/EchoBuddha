@@ -1,0 +1,7 @@
+Item,Status,Owner/action,Impact
+Exact pre-Phase-1 uncommitted working tree,NOT FULLY RECOVERABLE,None unless an external snapshot exists,Committed baseline remains high confidence
+Historical production Git SHA,NOT FULLY RECOVERABLE,Improve deployment metadata in Phase 9,Live content equivalence is proven; SHA attribution is not
+Primary AdSense rejection screenshot/account state,OWNER REQUIRED,Provide screenshot/export in later AdSense phase,Specific rejection cause cannot be claimed
+Certified CMP/legal status,OWNER/LEGAL REQUIRED,Phase 8 review,No consent readiness claim
+Duplicate AdSense account/traffic source/account Policy Center state,OWNER REQUIRED,Later account audit,Not used in Phase 1–4 decisions
+Fresh Search Console/analytics evidence,STALE_OR_INSUFFICIENT,Phase 10 measurement,No traffic-only index/content decision made

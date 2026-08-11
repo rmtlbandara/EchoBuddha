@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-08-11T02:17:46.273Z",
+  "totalHtmlPages": 336,
+  "indexablePages": 283,
+  "noindexOrErrorPages": 53,
+  "sitemapUrls": 283,
+  "familyCounts": {
+    "article": {
+      "total": 50,
+      "indexable": 50
+    },
+    "article category": {
+      "total": 5,
+      "indexable": 5
+    },
+    "author/trust": {
+      "total": 1,
+      "indexable": 1
+    },
+    "daily reflection": {
+      "total": 30,
+      "indexable": 30
+    },
+    "error": {
+      "total": 1,
+      "indexable": 0
+    },
+    "homepage": {
+      "total": 1,
+      "indexable": 1
+    },
+    "hub/utility": {
+      "total": 8,
+      "indexable": 8
+    },
+    "learn detail": {
+      "total": 45,
+      "indexable": 45
+    },
+    "learn hub": {
+      "total": 9,
+      "indexable": 9
+    },
+    "meditation detail": {
+      "total": 9,
+      "indexable": 9
+    },
+    "other": {
+      "total": 2,
+      "indexable": 1
+    },
+    "quote category": {
+      "total": 10,
+      "indexable": 10
+    },
+    "quote story": {
+      "total": 153,
+      "indexable": 103
+    },
+    "today utility": {
+      "total": 1,
+      "indexable": 0
+    },
+    "trust/policy": {
+      "total": 11,
+      "indexable": 11
+    }
+  },
+  "decisionCounts": {
+    "HUMAN REVIEW": 14,
+    "IMPROVE": 152,
+    "CONSOLIDATE": 7,
+    "KEEP": 8,
+    "NOINDEX": 90,
+    "SUBSTANTIAL REWRITE": 12
+  },
+  "priorityPageCounts": {
+    "OWNER / EXPERT REVIEW": 14,
+    "P3": 42,
+    "P1": 109,
+    "P2": 118
+  },
+  "rootCauseSeverityCounts": {
+    "P3": 8,
+    "P1": 10,
+    "P2": 7,
+    "OWNER / EXPERT REVIEW": 3
+  },
+  "parity": {
+    "checked": 26,
+    "pass": 26,
+    "mismatch": 0
+  },
+  "repeatedStructureGroups": 27,
+  "largestRepeatedStructureGroup": 30
+}

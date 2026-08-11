@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-11T04:06:19.468Z",
+  "branch": "codex/phase-4-high-value-content-remediation",
+  "startingHead": "a1cd457345587670133bfc58af1cafd80d038e6e",
+  "pagesReviewed": 32,
+  "pagesRemediated": 16,
+  "noChangeRequired": 9,
+  "humanReview": 7,
+  "partial": 0,
+  "mergesCompleted": 0,
+  "mergesDeferred": 7,
+  "averageScoreChange": 13.7,
+  "medianScoreChange": 14,
+  "ownershipConflicts": 0,
+  "indexabilityRegressions": 0,
+  "metadataChanges": 0,
+  "urlsChanged": 0,
+  "canonicalsChanged": 0
+}

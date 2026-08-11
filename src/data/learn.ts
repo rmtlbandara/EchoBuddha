@@ -67,12 +67,12 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   "buddhism-101/what-is-buddhism": [
     {
       label: "Dhammacakkappavattana Sutta (SN 56.11)",
-      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
       note: "Supports the framing of Buddhism around dukkha, its cause, cessation, and a path of practice."
     },
     {
       label: "Magga-vibhanga Sutta (SN 45.8)",
-      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      href: "https://suttacentral.net/sn45.8/en/sujato",
       note: "Gives a compact early-discourse analysis of the Noble Eightfold Path."
     }
   ],
@@ -118,9 +118,9 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "buddhism-101/what-is-karma-in-buddhism": [
     {
-      label: "Kalama Sutta (AN 3.65)",
-      href: "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
-      note: "Supports careful attention to greed, aversion, delusion, and the results of actions."
+      label: "Nibbedhika Sutta (AN 6.63)",
+      href: "https://suttacentral.net/an6.63/en/sujato",
+      note: "A direct early-discourse source for identifying intention as central to kamma/action."
     }
   ],
   "buddhism-101/dependent-origination-explained": [
@@ -140,7 +140,7 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   "buddhism-101/what-is-impermanence": [
     {
       label: "Dhammapada, Maggavagga (Dhp 277)",
-      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+      href: "https://suttacentral.net/dhp273-289/en/sujato",
       note: "A concise traditional verse source for impermanence as a path insight."
     }
   ],
@@ -201,8 +201,8 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   "buddhist-dictionary/metta": [
     {
       label: "Karaniya Metta Sutta (Sn 1.8)",
-      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
-      note: "Traditional source for mettā/goodwill and care for all beings."
+      href: "https://suttacentral.net/snp1.8/en/sujato",
+      note: "Traditional source for mettā/goodwill, ethical preparation, and an unrestricted intention toward beings."
     }
   ],
   "buddhist-dictionary/karuna": [
@@ -309,8 +309,8 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   "sutta-for-daily-life/metta-sutta-explained-for-daily-life": [
     {
       label: "Karaniya Metta Sutta (Sn 1.8)",
-      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
-      note: "Traditional source for mettā/goodwill practice and the phrase 'may all beings be happy at heart.'"
+      href: "https://suttacentral.net/snp1.8/en/sujato",
+      note: "Direct canonical reference for the Metta Sutta; Echo Buddha summarizes its themes without reproducing the translation."
     }
   ],
   "sutta-for-daily-life/kalama-sutta-and-wise-thinking": [
@@ -381,26 +381,16 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths": [
     {
-      label: "Dhammacakkappavattana Sutta (SN 56.11)",
-      href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
-      note: "Thanissaro Bhikkhu translation of SN 56.11, a traditional source for the two extremes, Middle Way, Four Noble Truths, and path."
-    },
-    {
       label: "SuttaCentral: SN 56.11",
       href: "https://suttacentral.net/sn56.11/en/sujato",
-      note: "Bhikkhu Sujato translation reference for comparison and canonical location."
+      note: "Direct canonical reference for the two extremes, Middle Way, Four Noble Truths, and their tasks."
     }
   ],
   "sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path": [
     {
-      label: "Magga-vibhanga Sutta (SN 45.8)",
-      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
-      note: "Thanissaro Bhikkhu translation of SN 45.8, a traditional source that analyzes all eight path factors."
-    },
-    {
-      label: "Dhammatalks: SN 45.8",
-      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
-      note: "Current Dhammatalks reference for the same translation and notes on path-factor wording."
+      label: "SuttaCentral: SN 45.8",
+      href: "https://suttacentral.net/sn45.8/en/sujato",
+      note: "Direct canonical reference for the discourse's analysis of the eight path factors."
     }
   ],
   "buddhist-dictionary/sutta": [
@@ -447,22 +437,37 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   "meditation/breathing-meditation": [
     {
       label: "Anapanasati Sutta (MN 118)",
-      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
-      note: "Primary source for mindfulness of breathing in the Pali canon."
+      href: "https://suttacentral.net/mn118/en/sujato",
+      note: "Primary Pali-canon source for mindfulness of breathing; this page offers a deliberately modest beginner adaptation."
+    },
+    {
+      label: "NCCIH: Meditation and Mindfulness",
+      href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      note: "Institutional safety context for avoiding guaranteed health outcomes and acknowledging adverse experiences."
     }
   ],
   "meditation/loving-kindness-meditation": [
     {
       label: "Karaniya Metta Sutta (Sn 1.8)",
-      href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
-      note: "Traditional source for mettā/goodwill practice."
+      href: "https://suttacentral.net/snp1.8/en/sujato",
+      note: "Canonical source for mettā or goodwill; the practice sequence on this page is a modern beginner format."
+    },
+    {
+      label: "NCCIH: Meditation and Mindfulness",
+      href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      note: "Institutional safety context for presenting meditation without guaranteed outcomes."
     }
   ],
   "meditation/walking-meditation": [
     {
-      label: "Maha-satipatthana Sutta (DN 22)",
-      href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
-      note: "Includes mindfulness while walking, standing, sitting, and lying down."
+      label: "Benefits of Walking Meditation (AN 5.29)",
+      href: "https://suttacentral.net/an5.29/en/bodhi",
+      note: "A short canonical discourse specifically concerning walking meditation."
+    },
+    {
+      label: "Mindfulness Meditation (MN 10)",
+      href: "https://suttacentral.net/mn10/en/sujato",
+      note: "Canonical context for clearly knowing bodily posture, including walking."
     }
   ],
   "meditation/mindfulness-in-daily-life": [
@@ -511,8 +516,8 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   "meditation/when-meditation-feels-hard": [
     {
       label: "Anapanasati Sutta (MN 118)",
-      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html",
-      note: "Classical background for returning to breathing with patience and continuity."
+      href: "https://suttacentral.net/mn118/en/sujato",
+      note: "Classical background for breath awareness; the troubleshooting and safety guidance here is modern editorial guidance."
     },
     {
       label: "NCCIH: Meditation and Mindfulness",
@@ -888,35 +893,50 @@ export const buddhism101Pages: LearningPage[] = [
       "Buddhism is a diverse spiritual tradition and practical path that helps people understand suffering and cultivate wisdom, compassion, and freedom.",
     sections: [
       {
-        heading: "A Path of Practice",
+        heading: "A Living and Diverse Tradition",
         paragraphs: [
-          "Buddhism includes temples, rituals, communities, scriptures, meditation methods, ethics, philosophy, and devotional traditions. It is lived differently across cultures. Still, a simple thread runs through many Buddhist teachings: look carefully at experience, understand suffering, reduce harmful habits, and cultivate the mind.",
-          "For beginners, Buddhism can be approached as a path of practice. It asks how we speak, how we think, how we respond to pain, and how we relate to change. It is not only something to believe; it is something to explore through daily life."
+          "Buddhism includes monastic and lay communities, ethics, meditation, philosophy, ritual, devotion, art, pilgrimage, study, and service. Theravada, Mahayana, and Vajrayana traditions contain further schools and regional forms. A short introduction should not turn this diversity into the claim that all Buddhists believe or practice in one identical way.",
+          "A useful beginner thread is narrower: Buddhist paths investigate dukkha, its conditions, and release; train conduct so actions cause less harm; and cultivate qualities such as mindfulness, wisdom, compassion, and steadiness. Traditions explain the path through different texts, practices, languages, and institutions."
         ]
       },
       {
-        heading: "Wisdom, Ethics, and Meditation",
+        heading: "Teaching, Practice, and Community",
         paragraphs: [
-          "Buddhist practice is often described through wisdom, ethical conduct, and mental cultivation. Wisdom helps us see impermanence, craving, and interdependence. Ethics helps us reduce regret and harm. Meditation steadies attention so inner habits become easier to see.",
-          "These parts support each other. A quiet mind helps speech become more careful. Kind speech helps meditation feel less burdened by regret. Clear seeing helps compassion become wiser."
+          "Buddhism is sometimes reduced to meditation, but meditation is not the whole tradition. The Buddha, Dhamma, and Sangha point toward an awakened teacher, teaching/practice, and community. The Five Precepts place non-harming and heedfulness in ordinary conduct. The Noble Eightfold Path connects view and intention with speech, action, livelihood, effort, mindfulness, and concentration.",
+          "These parts correct one another. Meditation without ethical reflection can become a private calming project. Ethics without careful understanding can harden into rule-following or judgment. Study without practice can leave greed, hostility, and confusion untouched. Community can offer correction and support that solitary reading cannot supply."
         ]
       },
       {
-        heading: "A Daily Life Example",
+        heading: "What Buddhism Is Not Reduced To",
         paragraphs: [
-          "If someone criticizes you, Buddhism does not simply tell you to be calm. It invites you to notice the hurt, see the urge to react, consider the consequences of your words, and choose a response that reduces unnecessary harm. That ordinary moment becomes the path."
+          "Buddhism is not accurately summarized as 'just be peaceful,' 'empty the mind,' or 'everything happens for a karmic reason.' Peace is not passive compliance, meditation does not require a blank mind, and karma should not be used to blame illness, poverty, abuse, or tragedy on the person suffering.",
+          "Nor is Buddhism only a modern wellbeing system. Buddhist traditions make claims about awakening, liberation, karma, rebirth, devotion, cosmology, and the nature of experience. A beginner may need time to understand those claims, but removing them entirely would misrepresent the traditions."
+        ]
+      },
+      {
+        heading: "A Daily-Life Test of the Path",
+        paragraphs: [
+          "Suppose someone criticizes your work. The path does not simply instruct you to feel calm. It asks what is painful, which story is intensifying the pain, what intention is forming, whether a reply would be truthful and non-harming, and what action protects both accountability and dignity. You may still disagree, set a boundary, or correct the record.",
+          "The Buddhist value of the moment lies in investigation and training: can hurt be known without becoming cruelty, and can action address the problem without pretending the hurt is absent? That is more specific than using mindfulness to avoid conflict."
+        ]
+      },
+      {
+        heading: "How to Continue Without Collecting Labels",
+        paragraphs: [
+          "Begin with the <a href='/learn/four-noble-truths/'>Four Noble Truths</a> and <a href='/learn/eightfold-path/'>Noble Eightfold Path</a>, then study the <a href='/learn/buddhism-101/the-three-jewels-explained/'>Three Jewels</a> and Five Precepts. Try one practice long enough to observe it, and compare reputable teachers and translations when a claim matters.",
+          "This page gives an orientation, not a verdict about every Buddhist school. Echo Buddha's modern examples are editorial applications. The linked early discourses anchor two central frameworks but do not by themselves represent the full range of Buddhist tradition."
         ]
       }
     ],
     takeaway: "Buddhism is a living path of understanding suffering and practicing wisdom, compassion, and mindful action.",
-    practice: "Choose one ordinary moment today and treat it as practice: a reply, a meal, a chore, or a pause.",
+    practice: "Choose one decision today and examine it through view, intention, and likely harm. Then act; do not use reflection to postpone a necessary boundary or repair.",
     relatedLinks: [
       { label: "Noble Eightfold Path", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
       { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
       { label: "Daily Buddhist Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
     ],
     sourceNote:
-      "Source note: This page is an original Echo Buddha explanation of Buddhism as a path of wisdom, ethical conduct, meditation, and compassion. It is simplified for beginners and should be compared with reputable Buddhist teachers and study communities for deeper learning.",
+      "Source note: SN 56.11 and SN 45.8 anchor the Four Noble Truths and Noble Eightfold Path framing. Echo Buddha's tradition overview, misconceptions, workplace example, and reading sequence are editorial explanation, not translated scripture or a complete account of every Buddhist school.",
     terms: ["Dhamma", "Karma", "Mindfulness"]
   },
   {
@@ -1258,28 +1278,43 @@ export const buddhism101Pages: LearningPage[] = [
       "This beginner guide explains karma as intentional action, not fate or cosmic punishment. It gives new readers a clear foundation before exploring practical daily-life applications.",
     sections: [
       {
-        heading: "Karma Is Not Simple Fate",
+        heading: "Karma Means Intentional Action",
         paragraphs: [
-          "Karma is often misunderstood as a system of reward and punishment. A more careful beginner-friendly explanation is that intentional actions have consequences. These consequences may appear in the mind, relationships, habits, and future conditions.",
-          "This does not mean every painful event is someone's fault. Life is shaped by many causes. Karma invites responsibility for the intentions and actions that are actually ours."
+          "Karma is the Sanskrit form; kamma is the Pali form. Both literally concern action, but early Buddhist explanations give intention a central role: after intending, a person acts through body, speech, or mind. This makes karma more specific than the slogan 'everything happens for a reason.'",
+          "Intention matters without making consequences disappear. A careless remark can hurt even if harm was not the aim. Practice asks two questions together: what moved the action, and what effects now require acknowledgement or repair?"
         ]
       },
       {
-        heading: "Meaning in Daily Life",
+        heading: "Karma Is Not Fate or Cosmic Punishment",
         paragraphs: [
-          "If we repeatedly speak with anger, anger becomes easier to repeat. If we practice pausing, honesty, and kindness, those qualities also become more available. Karma is seen in the way small actions train the mind.",
-          "This makes daily life meaningful. A single kind word, sincere apology, or restrained reply can plant a different seed."
+          "Buddhist traditions discuss karma across lives in ways this beginner page cannot settle or compress into one formula. What it can say safely is that karma is not a license to claim every event was deserved or fixed in advance. Physical events, social systems, other people's choices, and many unknown conditions also shape experience.",
+          "Speculating that another person's illness, poverty, abuse, disability, or disaster is their karma replaces compassion with a claim we are not in a position to verify. The useful field of practice is our own present intention and action, not a confident story about why someone else suffers."
         ]
       },
       {
-        heading: "A Daily Life Example",
+        heading: "How Repeated Choices Train the Mind",
         paragraphs: [
-          "Before criticizing someone, you might notice the intention beneath the words. Do you want to help, or do you want to hurt? The outer sentence may be similar, but the karmic direction of the heart is different."
+          "Actions do more than produce outward results; repetition makes some responses easier to enter. Rehearsing contempt prepares more contempt. Repeated generosity makes releasing a little more familiar. This does not mean a single kind act guarantees reward. It means choices participate in the conditions of character and relationship.",
+          "A person can also act from mixed motives. A gift may contain care and a wish to be admired. Honest practice does not wait for perfect purity; it notices the mixture and strengthens the intention that reduces greed, hostility, and confusion."
+        ]
+      },
+      {
+        heading: "A Worked Example: Correcting Someone Without Punishing Them",
+        paragraphs: [
+          "A coworker makes a serious mistake that must be addressed. Silence might protect your comfort rather than help. A humiliating public correction might satisfy anger while creating unnecessary harm. A private, accurate explanation with a clear repair step can serve accountability without turning correction into revenge.",
+          "The karmic inquiry is not 'How do I avoid every unpleasant result?' It is: What am I intending? What am I choosing through speech and action? What conditions is this likely to strengthen? What repair will I make if the effect differs from my aim?"
+        ]
+      },
+      {
+        heading: "Responsibility Without Shame",
+        paragraphs: [
+          "Karma supports responsibility, but a fixed identity—'I am permanently bad'—can obstruct honest repair. Name the harmful action precisely, acknowledge its effect, change the conditions that made repetition likely, and practice a different response. This is more demanding and more useful than either self-condemnation or excuse-making.",
+          "The practical application here is Echo Buddha's editorial explanation. AN 6.63 supports the intention/action claim; it does not supply the workplace example or a complete doctrine of karmic results."
         ]
       }
     ],
     takeaway: "Karma points to intentional action and the way choices shape habits, relationships, and future conditions.",
-    practice: "Before one important action today, ask, “What intention is leading this?” Adjust gently if needed.",
+    practice: "Before one consequential action, name the intention, likely effect, and repair you would owe if harm occurs. Then choose the least harmful honest action available.",
     relatedLinks: [
       { label: "Daily Karma Practice Article", href: "/articles/what-is-karma-in-buddhism/" },
       { label: "Karma Dictionary Term", href: "/learn/buddhist-dictionary/karma/" },
@@ -1287,7 +1322,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Karma Quote", href: "/quotes/wisdom/karma-begins-in-intention/" }
     ],
     sourceNote:
-      "Source note: This page is original Echo Buddha educational writing about karma as intention, action, habit, and consequence. It avoids using karma to blame people for suffering and encourages compassionate, careful study.",
+      "Source note: AN 6.63 directly supports intention as central to kamma/action. The examples about habit, correction, accountability, and repair are Echo Buddha editorial application. This page does not claim to resolve tradition-specific teachings about rebirth or the full timing of karmic results.",
     terms: ["Karma", "Dhamma", "Compassion"]
   },
   {
@@ -1492,28 +1527,43 @@ export const buddhism101Pages: LearningPage[] = [
       "Impermanence means that all conditioned things change. Seeing this clearly can soften clinging and deepen appreciation.",
     sections: [
       {
-        heading: "Everything Is Changing",
+        heading: "Anicca: Change in Conditioned Experience",
         paragraphs: [
-          "In Buddhism, impermanence is often called anicca. It points to the changing nature of bodies, feelings, thoughts, relationships, seasons, possessions, and plans. Nothing made of conditions stays exactly the same forever.",
-          "This teaching is not meant to make life cold. It can make life more tender. When we know a moment will not last, we may meet it with more care."
+          "Anicca is commonly translated as impermanence or inconstancy. It points to the fact that conditioned experiences arise, alter, and cease because the conditions supporting them do not remain fixed. Bodies, feelings, perceptions, roles, relationships, institutions, and mental states cannot be made permanently reliable by wanting them to be.",
+          "The teaching is more than the obvious statement that clocks move and flowers fade. It asks whether something changing can provide the lasting security the mind demands from it. That question connects impermanence with dukkha and with the practice of loosening clinging."
         ]
       },
       {
-        heading: "Meaning in Daily Life",
+        heading: "Impermanence Does Not Mean Nothing Matters",
         paragraphs: [
-          "Impermanence helps us understand why clinging hurts. We want a feeling, person, role, or situation to remain fixed, but life keeps moving. The practice is not to stop caring. It is to care with open hands.",
-          "Change can include loss, but it also includes growth, repair, learning, forgiveness, and new beginnings."
+          "If everything changes, care is not pointless. A meal nourishes even though it ends. An apology matters even though one conversation cannot secure a relationship forever. A boundary can protect someone in changing conditions. Impermanence removes the promise of control, not the value of wise action.",
+          "Nor does the teaching require quick acceptance of loss. Grief, anger, and confusion also change at their own pace. Telling a grieving person 'everything is impermanent' can be spiritually careless when what they need is presence, practical help, or time."
         ]
       },
       {
-        heading: "A Daily Life Example",
+        heading: "Three Scales of Change",
         paragraphs: [
-          "A child grows, a friendship changes, a mood lifts, a flower fades. Each example can become a teacher. Instead of asking life never to change, we learn to meet change with steadiness."
+          "Some change is momentary: a sound fades or a sensation moves. Some is gradual: a skill develops, a body ages, or trust is rebuilt. Some is disruptive: a job ends, a relationship changes, or illness alters daily life. Practice should not pretend these scales feel the same.",
+          "Beginning with small observable change can train perception without forcing a lesson onto major loss. Watching one breath end is not an explanation for bereavement; it is a modest way to see arising and passing directly."
+        ]
+      },
+      {
+        heading: "A Worked Example: Praise Turning Into Criticism",
+        paragraphs: [
+          "A manager praises your work one month and criticizes it the next. Impermanence is visible in the feedback, your confidence, the project, and the relationship. Clinging says the praise must define you permanently or the criticism has destroyed that identity. Clearer seeing treats both as conditioned information rather than a fixed self.",
+          "That does not require passivity. You can examine the criticism, correct an error, challenge an unfair claim, and protect your work. The practice is to act without demanding that approval remain unchanged."
+        ]
+      },
+      {
+        heading: "Traditional Teaching and Modern Application",
+        paragraphs: [
+          "Dhammapada 277 presents impermanence as an insight to be understood with wisdom. Echo Buddha's examples about work, grief, and care are modern editorial applications, not translated verses. Different Buddhist traditions connect anicca with meditation and liberation through their own teachings and methods.",
+          "A focused practice is to choose one neutral experience—a sound, temperature, or bodily sensation—and notice its beginning, alteration, and ending. If observation becomes distressing, return to an external object, open the eyes, shorten the practice, or stop."
         ]
       }
     ],
     takeaway: "Impermanence teaches that change is part of life and can guide gratitude, patience, and letting go.",
-    practice: "Notice three small changes today: a sound fading, light shifting, or a feeling moving. Say gently, “Changing.”",
+    practice: "Choose one neutral sound or sensation. Notice beginning, alteration, and ending without using the exercise to minimize a major loss.",
     relatedLinks: [
       { label: "Anicca Dictionary Term", href: "/learn/buddhist-dictionary/anicca/" },
       { label: "Three Marks of Existence", href: "/learn/buddhism-101/three-marks-of-existence/" },
@@ -1521,7 +1571,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Impermanence Quotes", href: "/quotes/impermanence/" }
     ],
     sourceNote:
-      "Source note: This page is an original Echo Buddha explanation of impermanence, or anicca, written in plain language for general Buddhist education and daily reflection.",
+      "Source note: Dhammapada 277 anchors impermanence as a wisdom insight. The three scales of change, workplace example, grief caution, and observation practice are original editorial explanation, not a scripture translation.",
     terms: ["Anicca", "Letting Go", "Dukkha"]
   },
   {
@@ -2070,33 +2120,49 @@ export const dictionaryPages: LearningPage[] = [
       "Metta means loving-kindness or goodwill. It is the sincere wish for beings, including oneself, to be safe and free from unnecessary suffering.",
     sections: [
       {
-        heading: "Simple Meaning",
+        heading: "Meaning and Language",
         paragraphs: [
-          "Metta is not sentimental affection. It is a steady intention of goodwill. It can be practiced toward oneself, loved ones, neutral people, difficult people, and all beings.",
-          "The practice often uses simple phrases such as wishes for safety, ease, health, and peace. The words are not magic; they train the direction of the heart."
+          "Mettā is a Pali term commonly translated as loving-kindness, goodwill, friendliness, or love. Each English choice has limits. Goodwill usefully emphasizes an intention that beings fare well; loving-kindness emphasizes warmth; love can be confused with romance or attachment unless the context is clear.",
+          "Metta is not a mood a practitioner must manufacture. It is a direction of intention that can be cultivated even when affection is absent. The Karaniya Metta Sutta (Snp 1.8) links this cultivation with ethical qualities such as honesty, gentleness, contentment, and not wishing harm."
         ]
       },
       {
-        heading: "Meaning in Daily Life",
+        heading: "What Metta Is Not",
         paragraphs: [
-          "Metta appears when we choose not to add harm, speak with care, or remember that another person also wants to be free from pain. It can coexist with boundaries."
+          "Metta is not compulsory affection, approval, reconciliation, or access. Wishing that a harmful person be free from hatred does not require meeting them, trusting them, abandoning accountability, or remaining in danger. Goodwill can support a firm boundary because preventing further harm matters for everyone involved.",
+          "It is also not a guarantee that repeating phrases will produce warmth. Numbness, irritation, grief, or resistance may be present. The practice is to notice these honestly and avoid turning the phrases into a demand for a special feeling."
         ]
       },
       {
-        heading: "Related Teaching",
+        heading: "How the Term Is Used in Practice",
         paragraphs: [
-          "Metta is closely related to karuna, compassion. Loving-kindness wishes well; compassion responds to suffering."
+          "A common modern metta practice offers simple wishes to oneself, a benefactor or friend, a neutral person, a difficult person, and eventually all beings. Sequences vary by teacher and tradition. The essential distinction from breath meditation is the object: metta trains the intention of goodwill rather than sustaining attention on respiration.",
+          "For a complete method with adaptation and safety notes, use <a href='/meditation/loving-kindness-meditation/'>Loving-Kindness Meditation</a>. The dictionary page owns the meaning of the term; it does not replace practice instruction."
+        ]
+      },
+      {
+        heading: "Related Terms",
+        paragraphs: [
+          "Karuna (compassion) responds to suffering. Mudita appreciates wellbeing and goodness. Upekkha steadies care when outcomes cannot be controlled. These four are often taught together as the brahmaviharas, while each keeps a distinct emphasis.",
+          "Metta also differs from attachment. Attachment demands that another person supply a preferred feeling or outcome. Goodwill can care about someone while releasing that demand."
+        ]
+      },
+      {
+        heading: "A Daily-Life Example",
+        paragraphs: [
+          "After a tense exchange, metta may mean refusing to rehearse dehumanizing labels while still documenting what happened and setting a boundary. A workable wish might be: 'May neither of us be ruled by hostility; may the next action reduce harm.' This is an Echo Buddha editorial example, not a translated line from Snp 1.8."
         ]
       }
     ],
     takeaway: "Metta is loving-kindness, a trainable intention of goodwill toward oneself and others.",
-    practice: "Silently repeat: “May I meet this moment with kindness. May others meet this moment with kindness.”",
+    practice: "Choose a person for whom goodwill is currently manageable. Offer one plain wish for their safety or freedom from hostility. If the phrases increase distress, return to a neutral person or stop.",
     relatedLinks: [
       { label: "Loving-Kindness Meditation", href: "/meditation/loving-kindness-meditation/" },
       { label: "Metta Sutta Explained", href: "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/" },
       { label: "Loving-Kindness Article", href: "/articles/loving-kindness-meditation-beginners/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote:
+      "Source note: Snp 1.8 anchors metta in ethical conduct and an unrestricted intention toward beings. Translation choices include love, loving-kindness, friendliness, and goodwill. Echo Buddha paraphrases the concept and labels its boundary/example language as modern editorial application.",
     terms: ["Karuna", "Compassion", "Meditation"]
   },
   {
@@ -2750,26 +2816,34 @@ export const suttaPages: LearningPage[] = [
       "A simple, practical explanation of the Metta Sutta and how loving-kindness can shape speech, family life, and daily practice.",
     eyebrow: "Sutta for Daily Life",
     intro:
-      "The Metta Sutta is loved for its teaching on goodwill. This page explains its daily meaning in original, beginner-friendly language.",
+      "The Karaṇīyametta Sutta (Snp 1.8) is loved for its teaching on goodwill. This source-study page explains its structure and daily meaning in original, beginner-friendly language without reproducing a modern translation.",
     sections: [
       {
-        heading: "Simple Background",
+        heading: "Text, Setting, and Scope",
         paragraphs: [
-          "The Metta Sutta is a well-known Buddhist discourse on loving-kindness. It encourages a heart of goodwill, humility, contentment, ethical care, and wishes of safety for living beings.",
-          "Rather than treating metta as a sentimental mood, the teaching presents goodwill as a way of living."
+          "The discourse is preserved in the Sutta Nipāta and Khuddakapāṭha of the Pali canon. Its title is often rendered as the Discourse on Loving-Kindness or Goodwill, although English word choice varies across translators.",
+          "The text joins conduct and meditation: it begins with qualities such as integrity, gentleness, contentment, and restraint, then widens a boundless intention of welfare toward living beings. This page stays with that early-discourse structure rather than trying to represent every later mettā method."
         ]
       },
       {
-        heading: "Main Teaching",
+        heading: "Three Movements in the Teaching",
         paragraphs: [
-          "Metta asks us to cultivate the wish that beings be safe, peaceful, and free from unnecessary suffering. This includes oneself, loved ones, strangers, difficult people, and beings we will never meet.",
-          "The practice does not erase boundaries. Goodwill can remain clear and wise."
+          "First, the practitioner develops an ethical foundation: being capable, honest, easy to support, modest, and careful not to act in ways the wise would criticize. Goodwill is therefore connected to conduct, not only to a private feeling.",
+          "Second, the heart extends a wish for welfare without narrowing it to friends or convenient beings. Third, the discourse describes sustaining this expansive awareness and not falling back into grasping. These are paraphrased themes; readers should use the linked text for translation and line-level study."
         ]
       },
       {
-        heading: "Modern Daily Life",
+        heading: "A Daily-Life Reading",
         paragraphs: [
-          "Metta can shape how we write messages, speak to family, drive, work, and think about people we disagree with. It begins with the simple refusal to add more harm."
+          "Before a difficult message, ask two questions: what conduct would I respect afterward, and can I refuse to add needless hostility? This turns mettā into truthful restraint, a clear request, or a boundary spoken without humiliation.",
+          "Goodwill does not require approving harm, staying in contact, or feeling affection. A person can seek safety, accountability, or legal and professional help while refusing to cultivate hatred as an identity. That boundary clarification is Echo Buddha's application, not a verbatim sentence from the sutta."
+        ]
+      },
+      {
+        heading: "Study Without Borrowing a Translation",
+        paragraphs: [
+          "Read Snp 1.8 from a reputable edition and notice how a translator handles mettā, sukha, and the images of inclusiveness. Compare wording if a term carries too much modern emotional baggage. A source-study page should point back to the text, not replace it.",
+          "Echo Buddha uses short identifiers and original paraphrase here. It does not present a memorized English rendering as if it were public-domain scripture or as if one translator's choices were the Pali text itself."
         ]
       }
     ],
@@ -2932,10 +3006,24 @@ export const suttaPages: LearningPage[] = [
         ]
       },
       {
+        heading: "The Four Truths Also Carry Four Tasks",
+        paragraphs: [
+          "SN 56.11 presents more than four propositions. Dukkha is to be fully understood; its origin is to be given up; cessation is to be realized; and the path is to be developed. This task structure prevents the teaching from becoming a label placed on every unpleasant event.",
+          "In a conflict, for example, understanding may mean acknowledging hurt and uncertainty; giving up may mean not feeding the demand to win; realizing cessation may appear as a brief release of that demand; developing the path may mean truthful, non-harming speech. This example is an editorial application, not a line from the discourse."
+        ]
+      },
+      {
         heading: "What It Does Not Say",
         paragraphs: [
           "The teaching does not say that life is only pain, that every hardship is your fault, or that grief should be rushed. It does not invite blame. It invites understanding and practice.",
           "Use the full <a href='/learn/four-noble-truths/'>Four Noble Truths</a> hub for the broad beginner path, and this page for source-study context."
+        ]
+      },
+      {
+        heading: "How to Read the Source Carefully",
+        paragraphs: [
+          "Use the linked SN 56.11 text to distinguish what the discourse states from this site's explanations. Pay attention to the Middle Way, the truth-and-task pattern, and the repeated description of knowledge. Translation choices for dukkha, craving, and path factors deserve comparison rather than silent certainty.",
+          "Traditional accounts identify this as the first discourse and connect it with the five ascetics. That received context is important, while historical and textual scholarship may ask different questions. Echo Buddha marks that distinction instead of presenting every traditional detail as an uncontested modern historical claim."
         ]
       }
     ],
@@ -2977,10 +3065,24 @@ export const suttaPages: LearningPage[] = [
         ]
       },
       {
+        heading: "Notice What the Short Definitions Emphasize",
+        paragraphs: [
+          "The discourse defines right view through the Four Noble Truths and right intention through renunciation, goodwill, and harmlessness. It defines speech, action, and livelihood ethically, then treats effort, mindfulness, and immersion as trained qualities rather than generic productivity or concentration.",
+          "That pattern matters when applying the path at work. A focused employee is not automatically practicing right concentration if focus serves deception or harm. The factors check and support one another; this workplace example is Echo Buddha's interpretation of their integration."
+        ]
+      },
+      {
         heading: "What It Does Not Say",
         paragraphs: [
           "The word right should not be used as a weapon for harsh judgment. A safer beginner reading is wise, skillful, or leading away from harm.",
           "Different translators may choose different English words for the same path factors, so no single wording on this page should be treated as the only valid translation. The teaching also does not isolate meditation from ethics. If practice is sincere, it gradually touches emails, work, promises, attention, and repair."
+        ]
+      },
+      {
+        heading: "How to Use This Source Page",
+        paragraphs: [
+          "Read SN 45.8 beside the broad hub and select one factor whose definition challenges your current assumptions. Trace how it depends on the others—for example, how right effort needs view and intention, or how speech affects the mind brought into meditation.",
+          "The linked translation renders some technical terms differently from other editions. Treat those differences as an invitation to compare, not as evidence that one English label completely captures the Pali term. Echo Buddha paraphrases the structure and does not reproduce the translation."
         ]
       }
     ],
@@ -3088,25 +3190,34 @@ export const meditationGuidePages: LearningPage[] = [
       "Learn a simple breathing meditation practice for steady attention, mindful returning, and daily calm without forcing the breath.",
     eyebrow: "Meditation Practice",
     intro:
-      "Breathing meditation uses the natural breath as a steady place for attention to return.",
+      "Breathing meditation uses the natural breath as an anchor for attention. The aim is not to manufacture calm or breathe in a special way, but to know one breath and return when attention wanders.",
     sections: [
       {
-        heading: "Step-by-Step Practice",
+        heading: "Choose One Clear Breath Anchor",
         paragraphs: [
-          "Sit comfortably and notice where breathing is easiest to feel. Let the breath move naturally. Stay with one inhale and one exhale at a time.",
-          "When sounds, thoughts, or feelings pull attention away, acknowledge them and return to the next breath without criticism."
+          "Sit, stand, or lie in a stable position and let the eyes close or soften if that feels comfortable. Notice where breathing is easiest to feel: the air at the nostrils, movement in the chest, or rise and fall at the abdomen. Choose one place rather than searching the whole body.",
+          "Let breathing happen naturally. Know an in-breath as an in-breath and an out-breath as an out-breath. You do not need to add a commentary, change the rhythm, or wait for the breath to become pleasant."
         ]
       },
       {
-        heading: "Common Mistakes",
+        heading: "A Five-Minute Method",
         paragraphs: [
-          "Do not force the breath to become deep or peaceful. A tight breath can be known as tight. A shallow breath can be known as shallow. Honest awareness matters more than control."
+          "For the first minute, feel the posture and surroundings. For the next three minutes, stay near your chosen breath anchor. When attention moves to a thought, sound, sensation, or emotion, recognize that it moved and return to the next available breath. In the final minute, widen attention to the whole body and room before ending.",
+          "The moment of recognizing and returning is not a failed interruption; it is the repetition that trains attention. If counting helps, count each out-breath from one to ten and then begin again. Drop the count when it creates tension."
         ]
       },
       {
-        heading: "Daily Use",
+        heading: "Work With Common Difficulties",
         paragraphs: [
-          "One mindful breath before speaking, driving, working, or checking messages can reconnect the mind with the body."
+          "If the mind is busy, make the task smaller: feel just the beginning of the next inhale. If you become sleepy, open the eyes or practice standing. If breath sensations feel vague, place a hand lightly on the abdomen or use contact at the feet instead.",
+          "Do not force the breath to become deep or peaceful. A tight breath can be known as tight and a shallow breath as shallow. Honest awareness matters more than control, and calm is a possible effect rather than a promised result."
+        ]
+      },
+      {
+        heading: "Adapt or Stop When Needed",
+        paragraphs: [
+          "Breath focus can feel uncomfortable for some people. Open the eyes, feel the feet, listen to sounds, walk, shorten the practice, or stop. If meditation repeatedly brings panic, dissociation, traumatic re-experiencing, or intense distress, seek qualified support rather than pushing through alone.",
+          "For ordinary daily practice, one natural breath before speaking, starting work, or checking messages can reconnect attention with the body. Do not use closed-eye practice while driving or in any situation that requires full external attention."
         ]
       }
     ],
@@ -3129,25 +3240,34 @@ export const meditationGuidePages: LearningPage[] = [
       "Learn loving-kindness meditation with simple goodwill phrases, common difficulties, boundaries, and daily-life practice.",
     eyebrow: "Meditation Practice",
     intro:
-      "Loving-kindness meditation trains goodwill toward oneself and others through sincere, gentle phrases.",
+      "Loving-kindness meditation trains mettā: an intention of goodwill toward oneself and others. The phrases guide intention; they are not a demand to feel warm, forgive on command, or allow unsafe access.",
     sections: [
       {
-        heading: "Step-by-Step Practice",
+        heading: "Begin With an Honest Recipient",
         paragraphs: [
-          "Sit comfortably and begin with yourself or someone easy to care about. Silently repeat phrases such as: May I be safe. May I be peaceful. May I meet this day with kindness.",
-          "Then, if steady, extend goodwill to a friend, a neutral person, a difficult person, and all beings. Move slowly. There is no need to force emotion."
+          "Sit comfortably and begin with yourself, a trusted friend, a benefactor, or even an animal whose presence makes goodwill uncomplicated. Choose the starting point that produces the least inner argument.",
+          "Silently repeat two or three phrases at an unhurried pace: May I be safe. May I meet difficulty with care. May I live with ease where possible. Use words you can mean as an aspiration, not a prediction."
         ]
       },
       {
-        heading: "Common Mistakes",
+        heading: "Widen the Circle Gradually",
         paragraphs: [
-          "Do not use loving-kindness to deny hurt or remove boundaries. If a difficult person feels too hard, return to yourself or a neutral person. Goodwill can be gentle and honest."
+          "After several minutes, offer the same intention to an easy person, a neutral person, and—only if the practice remains steady—a mildly difficult person. You can end by widening goodwill to people beyond your immediate circle and to living beings generally.",
+          "The sequence is training, not a moral exam. Skip a category, return to an easier person, or stay with yourself for the entire session when that is wiser. The canonical Metta Sutta provides the traditional orientation toward expansive goodwill; this staged sequence is a modern practice format."
         ]
       },
       {
-        heading: "Daily Use",
+        heading: "Goodwill Does Not Cancel Boundaries",
         paragraphs: [
-          "Metta can be practiced before a family conversation, while reading difficult news, or when self-criticism becomes harsh."
+          "Mettā does not require liking someone, approving their behavior, reconciling, or remaining in contact. You can wish that a person not be governed by harmful states while reporting harm, saying no, or keeping distance.",
+          "Do not use loving-kindness to cover grief, anger, fear, or abuse. If a difficult person activates intense distress, leave them out of the practice. Direct care toward yourself and seek appropriate support."
+        ]
+      },
+      {
+        heading: "When the Phrases Feel Empty",
+        paragraphs: [
+          "If phrases feel mechanical, slow down and connect one phrase with a concrete meaning: safety may mean leaving a harmful conversation; ease may mean unclenching the jaw; kindness may mean not rehearsing an insult. Quiet intention is enough—strong emotion is not required.",
+          "Try one phrase before a family conversation, while reading difficult news, or when self-criticism becomes harsh. Stop or change practices if repetition increases distress or feels destabilizing."
         ]
       }
     ],
@@ -3169,25 +3289,34 @@ export const meditationGuidePages: LearningPage[] = [
       "A simple walking meditation guide for beginners, including step-by-step practice, common mistakes, and daily mindfulness.",
     eyebrow: "Meditation Practice",
     intro:
-      "Walking meditation brings awareness to standing, lifting, moving, placing, and the whole body in motion.",
+      "Walking meditation trains embodied awareness while the body is moving. It can be a formal practice on a short path or a brief return to the senses during ordinary walking.",
     sections: [
       {
-        heading: "Step-by-Step Practice",
+        heading: "Set Up a Safe Practice Path",
         paragraphs: [
-          "Choose a short path. Stand still and feel the feet. Walk slowly enough to notice lifting, moving, and placing each foot. Let the eyes rest softly ahead.",
-          "When the mind wanders, return to the feeling of the next step. You may use simple labels: lifting, moving, placing."
+          "Choose a level, clear path of about ten to twenty paces. Stand at one end, let the arms rest naturally, keep the eyes open, and feel the weight through both feet. Notice one breath and your intention to begin.",
+          "Walk a little slower than usual, but not so slowly that balance becomes strained. Keep enough visual and auditory awareness to avoid obstacles, traffic, people, and changes in the ground."
         ]
       },
       {
-        heading: "Common Mistakes",
+        heading: "Use the Feet as an Anchor",
         paragraphs: [
-          "Do not worry about looking spiritual. Walking meditation is not a performance. If very slow walking feels awkward, walk naturally and feel contact with the ground."
+          "Feel lifting, moving, and placing, or use the simpler pattern of contact and release. Quiet labels can help at first, but direct sensation is the practice: pressure, balance, movement, warmth, and the changing distribution of weight.",
+          "At the end of the path, stop, feel standing, turn in several deliberate movements, pause, and begin again. When the mind wanders, return to the sensation of the next step without reviewing how long you were distracted."
         ]
       },
       {
-        heading: "Daily Use",
+        heading: "Adjust Pace, Range, and Support",
         paragraphs: [
-          "Use walking meditation between tasks, from car to door, or during a short break. It can help reconnect the mind and body."
+          "Walking meditation is not a performance. If slow walking feels awkward or unstable, use a natural pace. A shorter path, supportive footwear, a mobility aid, standing weight shifts, or seated awareness of movement may be the safer practice for your body.",
+          "Pain, dizziness, breathlessness, or balance problems are signals to pause and adapt, not tests to overcome. This page is educational and cannot assess an individual medical or mobility condition."
+        ]
+      },
+      {
+        heading: "Bring It Into Daily Movement",
+        paragraphs: [
+          "Practice formally for five to fifteen minutes, or feel three complete steps between tasks, from a parked car, or during a break. In public, prioritize ordinary pace and situational awareness over internal focus.",
+          "The early Buddhist texts recognize walking as a posture for mindful practice, and AN 5.29 discusses specific benefits of walking meditation. The detailed pacing and labeling instructions here are contemporary teaching choices, not a claim that every Buddhist tradition uses one method."
         ]
       }
     ],
@@ -3638,24 +3767,31 @@ export const shortMeditationPages: LearningPage[] = [
       "Meditation sometimes feels hard. That does not mean you are failing; it means practice is meeting real conditions.",
     sections: [
       {
-        heading: "Name What Is Happening",
+        heading: "First Distinguish Difficulty From Distress",
         paragraphs: [
           "Hard practice may include restlessness, sleepiness, doubt, irritation, sadness, boredom, or pressure to get it right. Begin by naming the experience gently: restless, tired, doubtful, tight, sad, or trying too hard.",
-          "Naming is not a diagnosis. It is a way to stop being completely swallowed by the state. Ordinary distraction is different from intense distress, dissociation, traumatic re-experiencing, or feeling unsafe."
+          "Naming is not a diagnosis. It is a way to stop being completely swallowed by the state. Ordinary distraction or frustration may respond to a small adjustment. Intense distress, dissociation, traumatic re-experiencing, panic, or feeling unsafe calls for stopping and support—not stronger concentration."
         ]
       },
       {
-        heading: "Adjust the Practice",
+        heading: "Match the Adjustment to the Problem",
         paragraphs: [
-          "Shorten the session. Open the eyes. Feel the feet or hands. Use sounds instead of breath. Stand or walk slowly. Return to one simple phrase such as, \"This is hard, and I can be gentle.\"",
-          "If breath focus feels uncomfortable, do not force it. A different anchor can still support mindfulness."
+          "For restlessness, shorten the session or walk. For sleepiness, open the eyes, sit more upright, or stand. For harsh self-judgment, reduce the task to one kind return. For a vague or uncomfortable breath, feel the hands, feet, external sounds, or contact with the chair instead.",
+          "Change one variable at a time—duration, posture, anchor, or pace—so you can learn what supports steadiness. A different anchor is still valid mindfulness; forcing breath attention is not a requirement."
+        ]
+      },
+      {
+        heading: "Use a Grounding Exit",
+        paragraphs: [
+          "If intensity rises, end the formal practice. Open the eyes, name several things you can see, feel both feet or another stable contact point, and orient to the date, place, and people around you. Move gently, drink water, or contact someone trustworthy if that helps you reconnect with ordinary surroundings.",
+          "Grounding is not a guarantee that distress will resolve, and it is not a substitute for assessment or care. It is a simple way to exit the meditation rather than remaining trapped in an exercise that no longer feels safe."
         ]
       },
       {
         heading: "When to Stop or Seek Support",
         paragraphs: [
-          "If practice feels overwhelming, unsafe, dissociative, or connected with intense distress, stop and ground in ordinary surroundings. Look around the room, touch a stable object, contact a trusted person, or seek qualified support. Meditation can be helpful for many people, but it is not right for every person in every moment.",
-          "Meditation is not a replacement for medical or mental health care. The wisest practice is sometimes to stop."
+          "Stop when practice feels overwhelming, unsafe, dissociative, or connected with intense or persistent distress. Seek qualified medical or mental-health support when symptoms are severe, recurring, interfere with daily functioning, or raise concern for your safety. In an immediate crisis, use local emergency or crisis services.",
+          "Meditation can be helpful for many people, but evidence about adverse effects is still limited and it is not right for every person in every moment. It does not replace medical or mental-health care. The wisest practice is sometimes to stop."
         ]
       }
     ],

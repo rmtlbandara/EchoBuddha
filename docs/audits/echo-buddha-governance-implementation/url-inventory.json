@@ -60,7 +60,7 @@
     "title": "A Buddhist Approach to Anger | Echo Buddha",
     "description": "Learn a Buddhist-inspired approach to anger using mindful pause, body awareness, compassion, boundaries, and wise response.",
     "canonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
-    "words": 1589,
+    "words": 1862,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -730,7 +730,7 @@
     "title": "Right Speech in Buddhism: Meaning, Examples, and Practice | Echo Buddha",
     "description": "Understand Right Speech in Buddhism quickly, with examples for honesty, kindness, useful timing, silence, listening, anger, and the Five Precepts.",
     "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
-    "words": 1824,
+    "words": 1982,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -913,7 +913,7 @@
   {
     "path": "/daily-reflections/anger-as-a-signal/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Anger Can Become a Signal - Daily Buddhist Reflection | Echo Buddha",
     "description": "Anger asks for speed. Awareness asks for one more breath. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/anger-as-a-signal/",
@@ -927,7 +927,7 @@
   {
     "path": "/daily-reflections/begin-again-without-shame/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Begin Again Without Shame - Daily Buddhist Reflection | Echo Buddha",
     "description": "The path welcomes your return more often than pride wants to admit. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/begin-again-without-shame/",
@@ -941,7 +941,7 @@
   {
     "path": "/daily-reflections/compassion-begins-nearby/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Compassion Begins Nearby - Daily Buddhist Reflection | Echo Buddha",
     "description": "The person in front of you is not the only one who needs compassion. The person within you does too. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/compassion-begins-nearby/",
@@ -955,7 +955,7 @@
   {
     "path": "/daily-reflections/enough-for-this-moment/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Enough for This Moment - Daily Buddhist Reflection | Echo Buddha",
     "description": "The present moment asks for your attention, not your perfection. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/enough-for-this-moment/",
@@ -969,7 +969,7 @@
   {
     "path": "/daily-reflections/evening-release/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "End the Day by Releasing - Daily Buddhist Reflection | Echo Buddha",
     "description": "You can review the day without asking it to become perfect. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/evening-release/",
@@ -983,7 +983,7 @@
   {
     "path": "/daily-reflections/family-patience/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Patience at Home - Daily Buddhist Reflection | Echo Buddha",
     "description": "The path is tested in the rooms where we are most easily impatient. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/family-patience/",
@@ -997,7 +997,7 @@
   {
     "path": "/daily-reflections/forgiveness-without-approval/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Forgiveness Is Not Approval - Daily Buddhist Reflection | Echo Buddha",
     "description": "You can release the need to replay harm without calling the harm acceptable. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/forgiveness-without-approval/",
@@ -1011,7 +1011,7 @@
   {
     "path": "/daily-reflections/gratitude-for-change/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Gratitude for Change - Daily Buddhist Reflection | Echo Buddha",
     "description": "Change takes nothing personally. It simply continues. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/gratitude-for-change/",
@@ -1025,7 +1025,7 @@
   {
     "path": "/daily-reflections/gratitude-notices-enough/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Gratitude Notices Enough - Daily Buddhist Reflection | Echo Buddha",
     "description": "Contentment often begins when attention stops searching past what is already here. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/gratitude-notices-enough/",
@@ -1039,7 +1039,7 @@
   {
     "path": "/daily-reflections/impermanence-softens-clinging/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Impermanence Softens Clinging - Daily Buddhist Reflection | Echo Buddha",
     "description": "Because this moment will change, meet it carefully while it is here. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/impermanence-softens-clinging/",
@@ -1068,7 +1068,7 @@
   {
     "path": "/daily-reflections/kindness-with-boundaries/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Kindness Can Have Boundaries - Daily Buddhist Reflection | Echo Buddha",
     "description": "A kind heart does not need to say yes to everything. Clear boundaries can protect compassion from exhaustion. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/kindness-with-boundaries/",
@@ -1082,7 +1082,7 @@
   {
     "path": "/daily-reflections/let-the-feeling-pass/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Let the Feeling Pass Through - Daily Buddhist Reflection | Echo Buddha",
     "description": "A feeling can be real without becoming the whole story. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/let-the-feeling-pass/",
@@ -1096,7 +1096,7 @@
   {
     "path": "/daily-reflections/letting-go-keeps-care/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Letting Go Keeps the Care - Daily Buddhist Reflection | Echo Buddha",
     "description": "Release the outcome, but keep the care you bring to the work. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/letting-go-keeps-care/",
@@ -1110,7 +1110,7 @@
   {
     "path": "/daily-reflections/listen-before-answering/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Listen Before Answering - Daily Buddhist Reflection | Echo Buddha",
     "description": "Many conversations soften when listening becomes more important than winning. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/listen-before-answering/",
@@ -1124,7 +1124,7 @@
   {
     "path": "/daily-reflections/metta-for-a-difficult-person/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Metta Without Pretending - Daily Buddhist Reflection | Echo Buddha",
     "description": "Goodwill does not require pretending harm was harmless. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/",
@@ -1138,7 +1138,7 @@
   {
     "path": "/daily-reflections/mindful-work/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Work Can Carry Practice - Daily Buddhist Reflection | Echo Buddha",
     "description": "The way you earn, answer, decide, and repair can become part of the path. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/mindful-work/",
@@ -1152,7 +1152,7 @@
   {
     "path": "/daily-reflections/morning-intention/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Begin With Intention - Daily Buddhist Reflection | Echo Buddha",
     "description": "A day can begin before the phone begins speaking for it. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/morning-intention/",
@@ -1166,7 +1166,7 @@
   {
     "path": "/daily-reflections/notice-before-fixing/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Notice Before Fixing - Daily Buddhist Reflection | Echo Buddha",
     "description": "Sometimes the kindest first step is not to fix the moment, but to understand it. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/notice-before-fixing/",
@@ -1180,7 +1180,7 @@
   {
     "path": "/daily-reflections/one-honest-breath/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Return Through One Honest Breath - Daily Buddhist Reflection | Echo Buddha",
     "description": "The breath does not ask you to be perfect. It simply offers a place to begin again. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/one-honest-breath/",
@@ -1194,7 +1194,7 @@
   {
     "path": "/daily-reflections/one-step-on-the-path/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "The Path Is One Step - Daily Buddhist Reflection | Echo Buddha",
     "description": "The path is not far away. It is the next honest word, the next careful breath, the next kind choice. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/one-step-on-the-path/",
@@ -1208,7 +1208,7 @@
   {
     "path": "/daily-reflections/patience-before-anger-speaks/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Patience Begins Before Anger Speaks - Daily Buddhist Reflection | Echo Buddha",
     "description": "Before anger becomes words, there is a small moment of awareness. In that moment, patience can begin. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/patience-before-anger-speaks/",
@@ -1222,7 +1222,7 @@
   {
     "path": "/daily-reflections/rest-without-escape/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Rest Without Escape - Daily Buddhist Reflection | Echo Buddha",
     "description": "Rest can be a way of caring for practice, not a way of leaving it. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/rest-without-escape/",
@@ -1236,7 +1236,7 @@
   {
     "path": "/daily-reflections/see-the-conditions/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "See the Conditions - Daily Buddhist Reflection | Echo Buddha",
     "description": "What appears suddenly often has roots you have not yet seen. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/see-the-conditions/",
@@ -1250,7 +1250,7 @@
   {
     "path": "/daily-reflections/simple-goodwill/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Simple Goodwill Counts - Daily Buddhist Reflection | Echo Buddha",
     "description": "Small kindnesses often reach places that advice cannot. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/simple-goodwill/",
@@ -1264,7 +1264,7 @@
   {
     "path": "/daily-reflections/small-actions-shape-the-mind/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Small Actions Shape the Mind - Daily Buddhist Reflection | Echo Buddha",
     "description": "A life is shaped not only by large decisions, but by the small intentions repeated every day. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/",
@@ -1278,7 +1278,7 @@
   {
     "path": "/daily-reflections/soften-the-inner-argument/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Soften the Inner Argument - Daily Buddhist Reflection | Echo Buddha",
     "description": "Peace often begins when the mind stops arguing with what has already happened. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/soften-the-inner-argument/",
@@ -1292,7 +1292,7 @@
   {
     "path": "/daily-reflections/speech-can-reduce-suffering/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Speech Can Reduce Suffering - Daily Buddhist Reflection | Echo Buddha",
     "description": "A truthful sentence can still choose gentleness. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/",
@@ -1306,7 +1306,7 @@
   {
     "path": "/daily-reflections/the-first-truth-is-kind/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "The First Truth Is Kind - Daily Buddhist Reflection | Echo Buddha",
     "description": "Naming suffering honestly can be the first act of compassion. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/the-first-truth-is-kind/",
@@ -1320,7 +1320,7 @@
   {
     "path": "/daily-reflections/thoughts-are-visitors/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Thoughts Are Visitors - Daily Buddhist Reflection | Echo Buddha",
     "description": "You do not need to carry every thought that visits you. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/thoughts-are-visitors/",
@@ -1348,7 +1348,7 @@
   {
     "path": "/daily-reflections/walking-as-practice/",
     "type": "daily",
-    "noindex": false,
+    "noindex": true,
     "title": "Walking Can Be Practice - Daily Buddhist Reflection | Echo Buddha",
     "description": "Walk slowly enough to notice that the ground has been supporting you all along. Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.",
     "canonical": "https://echobuddha.com/daily-reflections/walking-as-practice/",
@@ -1632,7 +1632,7 @@
     "title": "What Is Buddhism? A Clear Beginner&#39;s Guide | Echo Buddha",
     "description": "A simple explanation of Buddhism as a path of wisdom, ethical living, meditation, compassion, and practical insight.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
-    "words": 609,
+    "words": 884,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1646,7 +1646,7 @@
     "title": "What Is Impermanence? | Echo Buddha",
     "description": "Understand impermanence in Buddhism and how noticing change can deepen gratitude, patience, and wise letting go.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
-    "words": 553,
+    "words": 855,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1660,7 +1660,7 @@
     "title": "What Is Karma in Buddhism? A Beginner&#39;s Guide | Echo Buddha",
     "description": "Learn what karma means in Buddhism, how intention shapes actions, and how beginners can understand karma in everyday life.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
-    "words": 545,
+    "words": 865,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1702,7 +1702,7 @@
     "title": "Buddhism for Beginners - Simple Buddhist Teachings | Echo Buddha",
     "description": "Start learning Buddhism with a calm 7-day path through the Buddha, Four Noble Truths, Eightfold Path, mindfulness, ethics, compassion, karma, and meditation.",
     "canonical": "https://echobuddha.com/learn/buddhism-for-beginners/",
-    "words": 601,
+    "words": 845,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -1837,7 +1837,7 @@
     "title": "Metta Meaning: Loving-Kindness in Buddhism | Echo Buddha",
     "description": "Learn Metta, or loving-kindness, as a Buddhist practice of goodwill toward oneself and others.",
     "canonical": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
-    "words": 499,
+    "words": 792,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2040,7 +2040,7 @@
     "title": "Noble Eightfold Path for Daily Life | Echo Buddha",
     "description": "Learn the Noble Eightfold Path as a practical Buddhist training in wisdom, ethical conduct, effort, mindfulness, and meditation.",
     "canonical": "https://echobuddha.com/learn/eightfold-path/",
-    "words": 496,
+    "words": 828,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2054,7 +2054,7 @@
     "title": "Four Noble Truths Explained for Beginners | Echo Buddha",
     "description": "Learn the Four Noble Truths in simple language: suffering, the causes of suffering, the possibility of release, and the path of practice.",
     "canonical": "https://echobuddha.com/learn/four-noble-truths/",
-    "words": 423,
+    "words": 822,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2110,7 +2110,7 @@
     "title": "Dhammacakkappavattana Sutta and the Four Noble Truths | Echo Buddha",
     "description": "A source-aware beginner guide to the Dhammacakkappavattana Sutta, the Middle Way, and the Four Noble Truths.",
     "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
-    "words": 572,
+    "words": 758,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2152,7 +2152,7 @@
     "title": "Magga-vibhanga Sutta and the Noble Eightfold Path | Echo Buddha",
     "description": "A simple source-aware guide to the Magga-vibhanga Sutta and the Noble Eightfold Path in daily life.",
     "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
-    "words": 570,
+    "words": 730,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2166,7 +2166,7 @@
     "title": "The Metta Sutta Explained for Daily Life | Echo Buddha",
     "description": "A simple, practical explanation of the Metta Sutta and how loving-kindness can shape speech, family life, and daily practice.",
     "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
-    "words": 480,
+    "words": 701,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2236,7 +2236,7 @@
     "title": "Breathing Meditation | Echo Buddha",
     "description": "Learn a simple breathing meditation practice for steady attention, mindful returning, and daily calm without forcing the breath.",
     "canonical": "https://echobuddha.com/meditation/breathing-meditation/",
-    "words": 589,
+    "words": 894,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2264,7 +2264,7 @@
     "title": "Loving-Kindness Meditation | Echo Buddha",
     "description": "Learn loving-kindness meditation with simple goodwill phrases, common difficulties, boundaries, and daily-life practice.",
     "canonical": "https://echobuddha.com/meditation/loving-kindness-meditation/",
-    "words": 594,
+    "words": 838,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2320,7 +2320,7 @@
     "title": "Walking Meditation | Echo Buddha",
     "description": "A simple walking meditation guide for beginners, including step-by-step practice, common mistakes, and daily mindfulness.",
     "canonical": "https://echobuddha.com/meditation/walking-meditation/",
-    "words": 556,
+    "words": 791,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2334,7 +2334,7 @@
     "title": "What to Do When Meditation Feels Hard | Echo Buddha",
     "description": "Gentle guidance for beginners when meditation feels restless, dull, discouraging, emotional, or overwhelming.",
     "canonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
-    "words": 690,
+    "words": 850,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2427,7 +2427,7 @@
   {
     "path": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Awareness Reflection: Anger asks for speed; awareness... | Echo Buddha",
     "description": "An original Echo Buddha reflection on awareness practice through the quote &quot;Anger asks for speed; awareness asks for one more breath.&quot;",
     "canonical": "https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
@@ -2441,7 +2441,7 @@
   {
     "path": "/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Awareness Reflection: Awareness does not remove the... | Echo Buddha",
     "description": "An original Echo Buddha reflection on awareness practice through the quote &quot;Awareness does not remove the storm; it keeps you from becoming every cloud.&quot;",
     "canonical": "https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
@@ -2511,7 +2511,7 @@
   {
     "path": "/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Awareness Reflection: Look beneath the reaction and... | Echo Buddha",
     "description": "An original Echo Buddha reflection on awareness practice through the quote &quot;Look beneath the reaction and you may find a need asking to be understood.&quot;",
     "canonical": "https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
@@ -2525,7 +2525,7 @@
   {
     "path": "/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Awareness Reflection: Name the feeling gently, and... | Echo Buddha",
     "description": "An original Echo Buddha reflection on awareness practice through the quote &quot;Name the feeling gently, and it may stop speaking for your whole life.&quot;",
     "canonical": "https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
@@ -2567,7 +2567,7 @@
   {
     "path": "/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Awareness Reflection: Small acts of attention can... | Echo Buddha",
     "description": "An original Echo Buddha reflection on awareness practice through the quote &quot;Small acts of attention can turn an ordinary day into a teacher.&quot;",
     "canonical": "https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
@@ -2581,7 +2581,7 @@
   {
     "path": "/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Awareness Reflection: The body often knows you... | Echo Buddha",
     "description": "An original Echo Buddha reflection on awareness practice through the quote &quot;The body often knows you are overwhelmed before the mind admits it.&quot;",
     "canonical": "https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
@@ -2651,7 +2651,7 @@
   {
     "path": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Compassion Reflection: A gentle response can end... | Echo Buddha",
     "description": "An original Echo Buddha reflection on compassion practice through the quote &quot;A gentle response can end suffering that anger would pass along.&quot;",
     "canonical": "https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
@@ -2665,7 +2665,7 @@
   {
     "path": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Compassion Reflection: Before judging another life, remember... | Echo Buddha",
     "description": "An original Echo Buddha reflection on compassion practice through the quote &quot;Before judging another life, remember how much of your own remains unseen.&quot;",
     "canonical": "https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
@@ -2679,7 +2679,7 @@
   {
     "path": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Compassion Reflection: Compassion asks what hurts before... | Echo Buddha",
     "description": "An original Echo Buddha reflection on compassion practice through the quote &quot;Compassion asks what hurts before it asks who is to blame.&quot;",
     "canonical": "https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
@@ -2693,7 +2693,7 @@
   {
     "path": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Compassion Reflection: Compassion grows where judgment loosens... | Echo Buddha",
     "description": "An original Echo Buddha reflection on compassion practice through the quote &quot;Compassion grows where judgment loosens its grip.&quot;",
     "canonical": "https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
@@ -2763,7 +2763,7 @@
   {
     "path": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Compassion Reflection: Kindness does not need an... | Echo Buddha",
     "description": "An original Echo Buddha reflection on compassion practice through the quote &quot;Kindness does not need an audience to become meaningful.&quot;",
     "canonical": "https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
@@ -2777,7 +2777,7 @@
   {
     "path": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Compassion Reflection: Let kindness be the echo... | Echo Buddha",
     "description": "An original Echo Buddha reflection on compassion practice through the quote &quot;Let kindness be the echo you leave in every room.&quot;",
     "canonical": "https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
@@ -2903,7 +2903,7 @@
   {
     "path": "/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Impermanence Reflection: Because this moment will pass,... | Echo Buddha",
     "description": "An original Echo Buddha reflection on impermanence practice through the quote &quot;Because this moment will pass, meet it while it is here.&quot;",
     "canonical": "https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
@@ -2931,7 +2931,7 @@
   {
     "path": "/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Impermanence Reflection: Change takes nothing personally; it... | Echo Buddha",
     "description": "An original Echo Buddha reflection on impermanence practice through the quote &quot;Change takes nothing personally; it simply continues.&quot;",
     "canonical": "https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
@@ -2945,7 +2945,7 @@
   {
     "path": "/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Impermanence Reflection: Everything changes, including the part... | Echo Buddha",
     "description": "An original Echo Buddha reflection on impermanence practice through the quote &quot;Everything changes, including the part of you that fears change.&quot;",
     "canonical": "https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
@@ -3015,7 +3015,7 @@
   {
     "path": "/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Impermanence Reflection: The fading flower does not... | Echo Buddha",
     "description": "An original Echo Buddha reflection on impermanence practice through the quote &quot;The fading flower does not make its blooming less beautiful.&quot;",
     "canonical": "https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
@@ -3029,7 +3029,7 @@
   {
     "path": "/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Impermanence Reflection: The passing of joy teaches... | Echo Buddha",
     "description": "An original Echo Buddha reflection on impermanence practice through the quote &quot;The passing of joy teaches gratitude; the passing of pain teaches hope.&quot;",
     "canonical": "https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
@@ -3043,7 +3043,7 @@
   {
     "path": "/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Impermanence Reflection: Today&#39;s certainty may become tomorrow&#39;s... | Echo Buddha",
     "description": "An original Echo Buddha reflection on impermanence practice through the quote &quot;Today",
     "canonical": "https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
@@ -3085,7 +3085,7 @@
   {
     "path": "/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Letting Go Reflection: An open hand can care... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;An open hand can care for what a clenched fist cannot.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
@@ -3169,7 +3169,7 @@
   {
     "path": "/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Letting Go Reflection: Letting go begins by admitting... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Letting go begins by admitting how tightly you are holding.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
@@ -3197,7 +3197,7 @@
   {
     "path": "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Letting Go Reflection: Peace enters when control is... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Peace enters when control is no longer the price of feeling safe.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
@@ -3211,7 +3211,7 @@
   {
     "path": "/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Letting Go Reflection: Release the need to replay... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;Release the need to replay what can no longer be changed.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
@@ -3281,7 +3281,7 @@
   {
     "path": "/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Letting Go Reflection: You can honor the past... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;You can honor the past without asking it to become your home.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
@@ -3309,7 +3309,7 @@
   {
     "path": "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Letting Go Reflection: You do not need to... | Echo Buddha",
     "description": "An original Echo Buddha reflection on letting go practice through the quote &quot;You do not need to carry every thought that visits you.&quot;",
     "canonical": "https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
@@ -3323,7 +3323,7 @@
   {
     "path": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Meditation Reflection: A short sincere practice can... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;A short sincere practice can steady a long and complicated day.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
@@ -3379,7 +3379,7 @@
   {
     "path": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Meditation Reflection: Follow the breath lightly, as... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Follow the breath lightly, as you would listen to rain.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
@@ -3407,7 +3407,7 @@
   {
     "path": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Meditation Reflection: Meditation is not leaving life;... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Meditation is not leaving life; it is learning how to be here.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
@@ -3449,7 +3449,7 @@
   {
     "path": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Meditation Reflection: Silence is not empty when... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Silence is not empty when the heart is listening.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
@@ -3477,7 +3477,7 @@
   {
     "path": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Meditation Reflection: Sit without demanding silence, and... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Sit without demanding silence, and the mind will teach you how it moves.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
@@ -3505,7 +3505,7 @@
   {
     "path": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Meditation Reflection: The cushion is a place... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;The cushion is a place to practice returning, not a place to perform calm.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
@@ -3533,7 +3533,7 @@
   {
     "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Mindfulness Reflection: A peaceful mind begins with... | Echo Buddha",
     "description": "An original Echo Buddha reflection on mindfulness practice through the quote &quot;A peaceful mind begins with one honest breath.&quot;",
     "canonical": "https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
@@ -3673,7 +3673,7 @@
   {
     "path": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Mindfulness Reflection: Notice what is here before... | Echo Buddha",
     "description": "An original Echo Buddha reflection on mindfulness practice through the quote &quot;Notice what is here before deciding what it means.&quot;",
     "canonical": "https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
@@ -3687,7 +3687,7 @@
   {
     "path": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Mindfulness Reflection: One mindful pause can change... | Echo Buddha",
     "description": "An original Echo Buddha reflection on mindfulness practice through the quote &quot;One mindful pause can change the direction of an entire day.&quot;",
     "canonical": "https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
@@ -3715,7 +3715,7 @@
   {
     "path": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Mindfulness Reflection: Peace grows when attention stops... | Echo Buddha",
     "description": "An original Echo Buddha reflection on mindfulness practice through the quote &quot;Peace grows when attention stops running ahead of the moment.&quot;",
     "canonical": "https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
@@ -3743,7 +3743,7 @@
   {
     "path": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Mindfulness Reflection: Return to the breath before... | Echo Buddha",
     "description": "An original Echo Buddha reflection on mindfulness practice through the quote &quot;Return to the breath before you return to the argument.&quot;",
     "canonical": "https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
@@ -3771,7 +3771,7 @@
   {
     "path": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Mindfulness Reflection: The present moment asks for... | Echo Buddha",
     "description": "An original Echo Buddha reflection on mindfulness practice through the quote &quot;The present moment asks for your attention, not your perfection.&quot;",
     "canonical": "https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
@@ -3799,7 +3799,7 @@
   {
     "path": "/quotes/patience/be-patient-with-the-part-of-you-that-is/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Patience Reflection: Be patient with the part... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Be patient with the part of you that is still learning what peace feels like.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/",
@@ -3827,7 +3827,7 @@
   {
     "path": "/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Patience Reflection: Growth is quiet work, often... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Growth is quiet work, often invisible until the season changes.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
@@ -3855,7 +3855,7 @@
   {
     "path": "/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Patience Reflection: Not every delay is an... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Not every delay is an obstacle; some are invitations to soften.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
@@ -3869,7 +3869,7 @@
   {
     "path": "/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Patience Reflection: Patience is the strength to... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Patience is the strength to remain present while life takes its time.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
@@ -3953,7 +3953,7 @@
   {
     "path": "/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Patience Reflection: Wait long enough for the... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;Wait long enough for the first reaction to become a wiser response.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
@@ -3967,7 +3967,7 @@
   {
     "path": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Patience Reflection: When anger rises, pause long... | Echo Buddha",
     "description": "An original Echo Buddha reflection on patience practice through the quote &quot;When anger rises, pause long enough to see the pain beneath it.&quot;",
     "canonical": "https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
@@ -4037,7 +4037,7 @@
   {
     "path": "/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Practice Reflection: Do not wait to feel... | Echo Buddha",
     "description": "An original Echo Buddha reflection on practice practice through the quote &quot;Do not wait to feel ready before choosing what is kind.&quot;",
     "canonical": "https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
@@ -4093,7 +4093,7 @@
   {
     "path": "/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Practice Reflection: Practice becomes real when it... | Echo Buddha",
     "description": "An original Echo Buddha reflection on practice practice through the quote &quot;Practice becomes real when it enters your speech and choices.&quot;",
     "canonical": "https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
@@ -4135,7 +4135,7 @@
   {
     "path": "/quotes/practice/the-path-is-not-far-away-it-is-the/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Practice Reflection: The path is not far... | Echo Buddha",
     "description": "An original Echo Buddha reflection on practice practice through the quote &quot;The path is not far away; it is the next mindful step.&quot;",
     "canonical": "https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/",
@@ -4163,7 +4163,7 @@
   {
     "path": "/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Practice Reflection: The smallest wholesome action is... | Echo Buddha",
     "description": "An original Echo Buddha reflection on practice practice through the quote &quot;The smallest wholesome action is larger than the finest untested intention.&quot;",
     "canonical": "https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
@@ -4177,7 +4177,7 @@
   {
     "path": "/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Practice Reflection: Walk slowly enough to notice... | Echo Buddha",
     "description": "An original Echo Buddha reflection on practice practice through the quote &quot;Walk slowly enough to notice where your life is actually happening.&quot;",
     "canonical": "https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
@@ -4191,7 +4191,7 @@
   {
     "path": "/quotes/practice/your-next-response-is-always-part-of-the-path/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Practice Reflection: Your next response is always... | Echo Buddha",
     "description": "An original Echo Buddha reflection on practice practice through the quote &quot;Your next response is always part of the path.&quot;",
     "canonical": "https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/",
@@ -4219,7 +4219,7 @@
   {
     "path": "/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Renewal Reflection: A new direction can start... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;A new direction can start with one different choice.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
@@ -4233,7 +4233,7 @@
   {
     "path": "/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Renewal Reflection: Begin again gently; the breath... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Begin again gently; the breath is always willing.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
@@ -4261,7 +4261,7 @@
   {
     "path": "/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Renewal Reflection: Begin again without turning yesterday... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Begin again without turning yesterday into a sentence.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
@@ -4359,7 +4359,7 @@
   {
     "path": "/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Renewal Reflection: Morning is not the only... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;Morning is not the only time a life can begin again.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
@@ -4401,7 +4401,7 @@
   {
     "path": "/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Renewal Reflection: The path welcomes your return... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;The path welcomes your return more often than pride allows.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
@@ -4415,7 +4415,7 @@
   {
     "path": "/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Renewal Reflection: You are allowed to learn... | Echo Buddha",
     "description": "An original Echo Buddha reflection on renewal practice through the quote &quot;You are allowed to learn slowly and still be changing.&quot;",
     "canonical": "https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
@@ -4429,7 +4429,7 @@
   {
     "path": "/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Wisdom Reflection: A clear mind can hold... | Echo Buddha",
     "description": "An original Echo Buddha reflection on wisdom practice through the quote &quot;A clear mind can hold two truths without rushing to make one disappear.&quot;",
     "canonical": "https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
@@ -4513,7 +4513,7 @@
   {
     "path": "/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Wisdom Reflection: Knowing when not to speak... | Echo Buddha",
     "description": "An original Echo Buddha reflection on wisdom practice through the quote &quot;Knowing when not to speak is also a form of honest speech.&quot;",
     "canonical": "https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
@@ -4583,7 +4583,7 @@
   {
     "path": "/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Wisdom Reflection: The lesson repeats until attention... | Echo Buddha",
     "description": "An original Echo Buddha reflection on wisdom practice through the quote &quot;The lesson repeats until attention replaces habit.&quot;",
     "canonical": "https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
@@ -4625,7 +4625,7 @@
   {
     "path": "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Wisdom Reflection: What feels urgent is not... | Echo Buddha",
     "description": "An original Echo Buddha reflection on wisdom practice through the quote &quot;What feels urgent is not always what matters most.&quot;",
     "canonical": "https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
@@ -4653,7 +4653,7 @@
   {
     "path": "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Wisdom Reflection: Wisdom is the art of... | Echo Buddha",
     "description": "An original Echo Buddha reflection on wisdom practice through the quote &quot;Wisdom is the art of meeting life without adding unnecessary suffering.&quot;",
     "canonical": "https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
@@ -4681,7 +4681,7 @@
   {
     "path": "/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
     "type": "quoteStory",
-    "noindex": false,
+    "noindex": true,
     "title": "Original Wisdom Reflection: Wisdom sees the whole fire,... | Echo Buddha",
     "description": "An original Echo Buddha reflection on wisdom practice through the quote &quot;Wisdom sees the whole fire, not only the spark that caused it.&quot;",
     "canonical": "https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",

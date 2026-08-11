@@ -1,0 +1,13 @@
+Item,Required decision/evidence,Owner,Priority,Status,Phase 1 treatment
+Publisher identity,Identify the real person or legal entity responsible for editorial oversight; do not invent credentials,Owner,P1,OPEN,Not inferred; no implementation
+AdSense rejection wording,Provide exact account Sites/Policy Center issue text and screenshot,Owner,P1,OPEN,Not inferred; no implementation
+Traffic integrity,Provide GA/Cloudflare traffic-source and invalid-traffic evidence,Owner,OWNER / EXPERT REVIEW,OPEN,Not inferred; no implementation
+Duplicate AdSense account,Confirm in the owner account,Owner,OWNER / EXPERT REVIEW,OPEN,Not inferred; no implementation
+Manual Actions / Security Issues,Provide fresh Search Console evidence,Owner,OWNER / EXPERT REVIEW,OPEN,Not inferred; no implementation
+Certified CMP and legal adequacy,Review EEA/UK/Swiss consent implementation and privacy disclosures,Owner/legal/privacy specialist,OWNER / EXPERT REVIEW,OPEN,Not inferred; no implementation
+Dhammapada wording and source claims,Review paraphrase/translation boundaries and source specificity,Buddhist-studies/source reviewer,P1,OPEN,Not inferred; no implementation
+Sutta and tradition-specific claims,"Review canonical references, tradition scope, and translation framing",Buddhist-studies/source reviewer,P1,OPEN,Not inferred; no implementation
+Sensitive wellbeing claims,"Review anxiety, sleep, distress, anger, forgiveness, and boundary pages",Qualified wellbeing/safety reviewer,P1,OPEN,Not inferred; no implementation
+Quote index decisions,Approve page-level preserve/noindex/rewrite decisions after editorial review,Owner/editor,P1,OPEN,Not inferred; no implementation
+Daily-reflection index decisions,Approve page-level preserve/noindex decisions; recurring-user value should remain,Owner/editor,P1,OPEN,Not inferred; no implementation
+Production deployment SHA,Confirm exact Cloudflare deployment identifier and SHA,Owner/deployment operator,P2,OPEN,Not inferred; no implementation

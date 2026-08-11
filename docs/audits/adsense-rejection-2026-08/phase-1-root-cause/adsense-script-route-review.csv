@@ -1,0 +1,11 @@
+Route,Index state,Publisher script in built HTML,Expected behavior,Manual slots enabled,Result,Evidence
+/,indexable,Yes,Allowed,No,PASS,src/data/ads.ts and generated HTML
+/learn/buddhism-for-beginners/,indexable,Yes,Allowed,No,PASS,src/data/ads.ts and generated HTML
+/learn/four-noble-truths/,indexable,Yes,Allowed,No,PASS,src/data/ads.ts and generated HTML
+/articles/four-noble-truths-explained/,indexable,Yes,Allowed,No,PASS,src/data/ads.ts and generated HTML
+/articles/how-to-meditate-for-anxiety/,indexable,No,Blocked,No,PASS,src/data/ads.ts and generated HTML
+/meditation/,indexable,No,Blocked,No,PASS,src/data/ads.ts and generated HTML
+/quotes/,indexable,No,Blocked,No,PASS,src/data/ads.ts and generated HTML
+/daily-reflections/,indexable,No,Blocked,No,PASS,src/data/ads.ts and generated HTML
+/search/,noindex,No,Blocked,No,PASS,src/data/ads.ts and generated HTML
+/privacy-policy/,indexable,No,Blocked,No,PASS,src/data/ads.ts and generated HTML

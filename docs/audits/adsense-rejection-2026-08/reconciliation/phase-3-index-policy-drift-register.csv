@@ -1,0 +1,337 @@
+URL,Phase 3 intended action,Phase 3 intended index,Current actual index,Phase 3 intended sitemap,Current actual sitemap,Drift?,Result
+https://echobuddha.com/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/404.html,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/about/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/buddhist-approach-to-anger/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/buddhist-gratitude-practice/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/category/buddhist-wisdom/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/category/meditation/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/category/mindfulness/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/category/practice/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/category/reflection/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/compassion-as-a-daily-discipline/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/compassion-with-boundaries/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/dhamma-vs-dharma/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/dhammapada-verse-1-meaning/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/eightfold-path-explained-daily-life/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/eightfold-path-explained/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/equanimity-in-buddhism/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/first-week-buddhist-practice/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/five-precepts-in-daily-life/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/four-noble-truths-explained-simply/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/four-noble-truths-explained/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/how-to-meditate-for-anxiety/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/how-to-meditate-for-beginners/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/how-to-practice-non-attachment/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/impermanence-in-buddhism/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/letting-go-without-giving-up/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/loving-kindness-meditation-beginners/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/loving-kindness-meditation-guide/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/metta-meditation-script/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/mindful-email-and-texting/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/mindful-listening-in-everyday-life/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/mindfulness-for-better-sleep/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/mindfulness-morning-routine/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/mindfulness-of-breathing-guide/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/mindfulness-vs-meditation/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,CONSOLIDATE_AFTER_PHASE_4,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/non-attachment-in-relationships/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/right-livelihood-modern-life/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/right-speech-buddhism/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/right-speech-examples/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/three-poisons-buddhism-explained/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/three-ways-to-practice-patience/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/walking-meditation-step-by-step/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/what-is-karma-in-buddhism/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/articles/what-is-sangha-buddhist-community/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/authors/echo-buddha-editorial/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/buddhist-sources-and-citations/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/contact/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/corrections/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/daily-reflections/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/daily-reflections/anger-as-a-signal/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/begin-again-without-shame/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/compassion-begins-nearby/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/enough-for-this-moment/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/evening-release/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/family-patience/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/forgiveness-without-approval/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/gratitude-for-change/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/gratitude-notices-enough/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/impermanence-softens-clinging/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/kindness-with-boundaries/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/let-the-feeling-pass/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/letting-go-keeps-care/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/listen-before-answering/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/mindful-work/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/morning-intention/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/notice-before-fixing/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/one-honest-breath/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/one-step-on-the-path/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/patience-before-anger-speaks/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/rest-without-escape/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/see-the-conditions/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/simple-goodwill/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/soften-the-inner-argument/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/the-first-truth-is-kind/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/thoughts-are-visitors/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/today/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/daily-reflections/walking-as-practice/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/disclaimer/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/editorial-policy/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/how-echo-buddha-creates-content/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhism-for-beginners/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/anatta/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/anicca/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/compassion/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/dhamma/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/dukkha/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/karma/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/karuna/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/metta/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/nirvana/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/pali-canon/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/sangha/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/sati/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-dictionary/sutta/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/buddhist-resources/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/dhammapada-reflections/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/eightfold-path/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/four-noble-truths/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/questions-about-buddhism/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,HUMAN_REVIEW,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation-guide/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation-safety/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/10-minute-meditation-practice/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/5-minute-meditation-practice/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/breathing-meditation/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/loving-kindness-meditation/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/meditation-for-beginners/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/meditation-posture-for-beginners/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/mindfulness-in-daily-life/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/walking-meditation/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/meditation/when-meditation-feels-hard/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/mindful-living/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/privacy-policy/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quote-attribution-policy/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/gentle-self-compassion/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/meet-change-softly/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/caring-without-clinging/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/soften-around-stress/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/where-attachment-begins/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/few-quiet-minutes/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/meditation-is-returning/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/one-honest-breath/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/listen-before-answering/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/family-kindness-and-patience/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/patience-softens-the-wait/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/bring-the-teaching-into-the-place-where-you-are/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/begin-again-without-shame/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/evening-release-reflection/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/,NOINDEX,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/quotes/wisdom/wise-silence/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/search/,KEEP_NOINDEXED,noindex,noindex,out of sitemap,out of sitemap,No,PASS
+https://echobuddha.com/start-here/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/terms-of-use/,IMPROVE_LATER_PHASE,indexable,indexable,in sitemap,in sitemap,No,PASS
+https://echobuddha.com/tools/,KEEP_INDEXED,indexable,indexable,in sitemap,in sitemap,No,PASS

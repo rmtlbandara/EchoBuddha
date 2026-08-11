@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-08-11T04:54:40Z",
+  "method": "In-app browser against current local Astro preview, with production spot checks",
+  "viewports": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "mobile", "width": 390, "height": 844 }
+  ],
+  "localRoutes": [
+    "/",
+    "/start-here/",
+    "/learn/",
+    "/learn/buddhism-for-beginners/",
+    "/learn/four-noble-truths/",
+    "/learn/eightfold-path/",
+    "/articles/",
+    "/articles/buddhism-for-beginners-simple-guide/",
+    "/meditation/",
+    "/meditation/breathing-meditation/",
+    "/learn/buddhist-dictionary/metta/",
+    "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+    "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+    "/quotes/",
+    "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+    "/daily-reflections/",
+    "/daily-reflections/evening-release/",
+    "/editorial-policy/",
+    "/search/",
+    "/404.html"
+  ],
+  "checksPerVisit": [
+    "exactly one H1",
+    "main landmark present",
+    "navigation present",
+    "no horizontal overflow",
+    "no broken rendered images",
+    "no unlabeled empty links",
+    "heading presence",
+    "breadcrumb/source/safety-note presence where applicable"
+  ],
+  "localVisits": 40,
+  "localFailures": 0,
+  "productionRenderedSpotChecks": [
+    "https://echobuddha.com/",
+    "https://echobuddha.com/learn/four-noble-truths/",
+    "https://echobuddha.com/meditation/breathing-meditation/"
+  ],
+  "productionRenderedSpotCheckFailures": 0,
+  "productionMissingRouteVisualResult": "Browser blocked the empty 404 response; independent HTTP audit recorded status 404 with an empty body.",
+  "result": "PASS",
+  "notes": "Desktop Four Noble Truths and mobile Breathing Meditation screenshots were manually inspected. Layout, typography, navigation, long headings, cards, source/safety content, and mobile readability were sound. Production remains the forensic baseline rather than the current Phase 1–4 working tree."
+}

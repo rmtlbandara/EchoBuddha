@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-11T04:06:19.715Z",
+  "status": "PASS",
+  "htmlDocuments": 336,
+  "indexableDocuments": 193,
+  "noindexDocuments": 143,
+  "sitemapUrls": 193,
+  "phase3UrlsCompared": 336,
+  "indexabilityRegressions": 0,
+  "canonicalErrors": 0,
+  "brokenInternalLinks": 0,
+  "duplicateIndexableTitles": 0,
+  "duplicateIndexableDescriptions": 0,
+  "invalidStructuredData": 0,
+  "sourcePagesChecked": 16,
+  "safetyPagesChecked": 5,
+  "adsenseBehaviorExpanded": false,
+  "failures": []
+}

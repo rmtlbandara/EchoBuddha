@@ -1,0 +1,2 @@
+Upstream correction,Affected scope,Phase 2 action,Owner changes,Downstream index changes,Result,Evidence
+Semantic/intent duplication labels were over-categorical,All 283 Phase 1 indexable URLs,Re-audit owners/roles,0,0,VALIDATED_NO_ARCHITECTURE_CHANGE,phase-0-4-current-topic-owner-review.csv; Phase 3 matrix

@@ -1,0 +1,31 @@
+{
+  "capturedAt": "2026-08-11T03:40:00.761Z",
+  "branch": "codex/phase-4-high-value-content-remediation",
+  "startingHead": "a1cd457345587670133bfc58af1cafd80d038e6e",
+  "dependencies": {
+    "phase1": true,
+    "phase2": true,
+    "phase3": true,
+    "phase4Handoff": true
+  },
+  "phase3Baseline": {
+    "htmlDocuments": 336,
+    "indexableDocuments": 193,
+    "noindexDocuments": 143,
+    "sitemapUrls": 193
+  },
+  "queue": {
+    "reviewed": 32,
+    "materialRemediation": 16,
+    "noChangeReview": 9,
+    "deferredMergeReview": 7,
+    "byBatch": {
+      "A": 9,
+      "B": 8,
+      "C": 6,
+      "D": 4,
+      "E": 4,
+      "F": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-08-11T04:37:30.353Z",
+  "forensicBaselineCommit": "a1cd457345587670133bfc58af1cafd80d038e6e",
+  "historical": {
+    "routes": 336,
+    "indexable": 283,
+    "noindex": 53,
+    "sitemapUrls": 283,
+    "adsenseRoutes": 56
+  },
+  "current": {
+    "routes": 336,
+    "indexable": 193,
+    "noindex": 143,
+    "sitemapUrls": 193,
+    "adsenseRoutes": 56,
+    "canonicalFailures": 0,
+    "sitemapFailures": 0,
+    "internalLinkReviewRows": 0
+  },
+  "comparison": {
+    "addedRoutes": [],
+    "removedRoutes": [],
+    "indexStateChanges": 90,
+    "renderedTextChanges": 35
+  }
+}

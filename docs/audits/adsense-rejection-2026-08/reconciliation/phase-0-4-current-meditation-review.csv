@@ -1,0 +1,11 @@
+URL,Current role,Current index state,Phase 4 status,Safety controls,Critical source issue,Critical safety issue,Reconciliation result
+https://echobuddha.com/meditation/10-minute-meditation-practice/,PRACTICE_GUIDE,indexable,NOT_IN_PHASE4_PRIORITY_QUEUE,EXISTING_SAFETY_LANGUAGE_PRESERVED,No,No,VALIDATED
+https://echobuddha.com/meditation/5-minute-meditation-practice/,PRACTICE_GUIDE,indexable,NOT_IN_PHASE4_PRIORITY_QUEUE,EXISTING_SAFETY_LANGUAGE_PRESERVED,No,No,VALIDATED
+https://echobuddha.com/meditation/breathing-meditation/,PRACTICE_GUIDE,indexable,REMEDIATED_VALIDATED,ADAPT_STOP_SUPPORT_BOUNDARY_REVALIDATED,No,No,VALIDATED
+https://echobuddha.com/meditation/,HUB,indexable,NOT_IN_PHASE4_PRIORITY_QUEUE,EXISTING_SAFETY_LANGUAGE_PRESERVED,No,No,VALIDATED
+https://echobuddha.com/meditation/loving-kindness-meditation/,PRACTICE_GUIDE,indexable,REMEDIATED_VALIDATED,ADAPT_STOP_SUPPORT_BOUNDARY_REVALIDATED,No,No,VALIDATED
+https://echobuddha.com/meditation/meditation-for-beginners/,PRACTICE_GUIDE,indexable,NO_CHANGE_REQUIRED_VALIDATED,EXISTING_SAFETY_LANGUAGE_PRESERVED,No,No,VALIDATED
+https://echobuddha.com/meditation/meditation-posture-for-beginners/,PRACTICE_GUIDE,indexable,NO_CHANGE_REQUIRED_VALIDATED,EXISTING_SAFETY_LANGUAGE_PRESERVED,No,No,VALIDATED
+https://echobuddha.com/meditation/mindfulness-in-daily-life/,PRACTICE_GUIDE,indexable,NOT_IN_PHASE4_PRIORITY_QUEUE,EXISTING_SAFETY_LANGUAGE_PRESERVED,No,No,VALIDATED
+https://echobuddha.com/meditation/walking-meditation/,PRACTICE_GUIDE,indexable,REMEDIATED_VALIDATED,ADAPT_STOP_SUPPORT_BOUNDARY_REVALIDATED,No,No,VALIDATED
+https://echobuddha.com/meditation/when-meditation-feels-hard/,PRACTICE_GUIDE,indexable,REMEDIATED_VALIDATED,ADAPT_STOP_SUPPORT_BOUNDARY_REVALIDATED,No,No,VALIDATED

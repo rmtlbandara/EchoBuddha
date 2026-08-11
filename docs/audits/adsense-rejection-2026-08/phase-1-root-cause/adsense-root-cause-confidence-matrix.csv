@@ -1,0 +1,29 @@
+Cause,Classification,Severity,Evidence,Phase 2+ implication
+Insufficient overall page count,UNLIKELY,P3,336 built pages and 283 indexable pages; quantity alone is not deficient.,Review proportionally; no Phase 1 change
+Thin content,LIKELY,P1,Not primarily raw word count; some hubs/details are concise and many recurring pages have low independent information gain.,Review proportionally; no Phase 1 change
+Content quality,LIKELY,P1,Several large families are complete-looking but formulaic and insufficiently differentiated.,Review proportionally; no Phase 1 change
+Lack of unique value,LIKELY,P1,103 indexable quote stories and 30 indexable daily reflections often repeat the same editorial role and journey.,Review proportionally; no Phase 1 change
+Semantic duplication,CONFIRMED,P1,Conceptual and structural overlap persists; generated quote stories also emit the same interpretation-angle sentence twice in one section.,Review proportionally; no Phase 1 change
+Intent duplication,CONFIRMED,P1,"Four Noble Truths, Eightfold Path, beginner Buddhism, impermanence, metta, and meditation have multiple broad-intent pages.",Review proportionally; no Phase 1 change
+Template feel,CONFIRMED,P1,Daily-reflection headings are identical across all 30 detail pages; quote stories share repeated scaffolds.,Review proportionally; no Phase 1 change
+Scaled-content appearance,LIKELY,P1,The combined quote/reflection footprint creates a reviewer-visible repeated production pattern.,Review proportionally; no Phase 1 change
+Weak quote stories,LIKELY,P1,60 generated quote stories are indexable through a six-per-theme allowlist and use combinatorial frames; 43 individually authored stories are stronger but still share a heavy outer scaffold.,Review proportionally; no Phase 1 change
+Weak daily reflections,LIKELY,P1,"Strong recurring-user purpose, but weak case for 30 independent search results.",Review proportionally; no Phase 1 change
+Thin hubs/categories,POSSIBLE,P2,Some category hubs are list-led and need stronger standalone editorial purpose.,Review proportionally; no Phase 1 change
+Weak sources,POSSIBLE,P2,"Page-level source links exist across Learn content, but the source register is heavily concentrated in Theravada translations/archives and still requires claim-level tradition/translation review.",Review proportionally; no Phase 1 change
+Unclear editorial accountability,LIKELY,P1,"The publisher voice is visible, but the responsible real person and qualifications are not identified.",Review proportionally; no Phase 1 change
+Navigation,POSSIBLE,P2,Seven equal-priority header destinations compete with the four intended user journeys.,Review proportionally; no Phase 1 change
+UX,POSSIBLE,P2,"Rendering is clean, but choice overload and repeated page experiences weaken publication coherence.",Review proportionally; no Phase 1 change
+Crawlability,PASS,P3,"Static HTML, public routes, 200 responses, self-canonicals, and sitemap alignment are present.",Protect; do not disturb
+AdSense script,PASS,P3,Publisher script is present on the production homepage and conservatively route-gated; manual slots are disabled.,Protect; do not disturb
+Robots,PASS,P3,Production robots.txt is reachable and does not block Google/AdSense crawlers.,Protect; do not disturb
+SSL,PASS,P3,Production HTTPS is valid and reachable.,Protect; do not disturb
+Policy violations,UNLIKELY,P2,No direct prohibited-content or misrepresentation violation found; account Policy Center remains owner-only evidence.,Review proportionally; no Phase 1 change
+Traffic sources,POSSIBLE,OWNER / EXPERT REVIEW,No fresh analytics/server evidence; owner data required.,Review proportionally; no Phase 1 change
+Unsupported language,PASS,P3,Primary rendered content is English.,Protect; do not disturb
+Duplicate AdSense account,POSSIBLE,OWNER / EXPERT REVIEW,No repository evidence; owner account check required.,Review proportionally; no Phase 1 change
+Privacy/consent,POSSIBLE,OWNER / EXPERT REVIEW,"Ad consent defaults denied, but certified-CMP and legal readiness require owner/legal review.",Review proportionally; no Phase 1 change
+Production parity,PASS,P3,"Representative production pages match current route titles, H1s, canonicals, robots state, and script gating.",Protect; do not disturb
+Empty production 404 response,CONFIRMED,P2,A nonexistent production route returns HTTP 404 with an empty response rather than the built custom 404 page.,Review proportionally; no Phase 1 change
+Dependency release gate,UNLIKELY,P2,"validate:release currently fails on high-severity js-yaml and nanoid advisories; this is maintenance risk, not evidence of the rejection cause.",Review proportionally; no Phase 1 change
+Automated browser/Lighthouse baseline,POSSIBLE,P3,"The current harness failed on local network-idle timeout and a Lighthouse 404 load error; representative production HTTP/parity checks passed, so no UX failure is inferred from the harness alone.",Review proportionally; no Phase 1 change
