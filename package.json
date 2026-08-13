@@ -9,6 +9,7 @@
     "npm": "10.x"
   },
   "scripts": {
+    "prebuild": "node scripts/block-legacy-cloudflare-production-build.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
