@@ -99,7 +99,9 @@ Future ad work must review consent/CMP requirements, content quality, policy pag
 
 ## Deployment
 
-Production deployment is a separately authorized operation. The manual `deploy-production.yml` workflow accepts an exact 40-character commit SHA from `main`, validates it, builds once, verifies the immutable artifact, deploys it through the protected `production` environment, and runs smoke checks. Rollback uses the separately confirmed `rollback-production.yml` workflow and a recorded Cloudflare version ID.
+Production deployment is intended to be a separately authorized operation. The manual `deploy-production.yml` workflow accepts an exact 40-character commit SHA from `main`, validates it, builds once, verifies the immutable artifact, deploys it through the protected `production` environment, and runs smoke checks. Rollback uses the separately confirmed `rollback-production.yml` workflow and a recorded Cloudflare version ID.
+
+The legacy Cloudflare Git integration was observed auto-deploying `main` during the Phase 9 release. The owner must disable that automatic production trigger after configuring the GitHub `production` environment; until that external cutover is verified, merging to `main` can still deploy automatically.
 
 For an owner-authorized emergency local deployment only:
 
@@ -109,7 +111,7 @@ npm run build -- --outDir .release/dist
 npx wrangler deploy --assets .release/dist
 ```
 
-Normal releases MUST use the governed workflow. See `ECHO_BUDDHA_CI_GIT_DEPLOYMENT_GOVERNANCE.md`, `docs/deployments/PRODUCTION_DEPLOYMENT_CHECKLIST.md`, and `docs/deployments/ROLLBACK_RUNBOOK.md`. Do not deploy from audit or implementation tasks unless explicitly requested.
+After the external cutover, normal releases MUST use the governed workflow. See `ECHO_BUDDHA_CI_GIT_DEPLOYMENT_GOVERNANCE.md`, `docs/deployments/PRODUCTION_DEPLOYMENT_CHECKLIST.md`, and `docs/deployments/ROLLBACK_RUNBOOK.md`. Do not deploy from audit or implementation tasks unless explicitly requested.
 
 ## Contributor Workflow
 

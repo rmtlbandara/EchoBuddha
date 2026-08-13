@@ -222,7 +222,7 @@ Dependabot, deterministic install metadata and the existing advisory blocker pro
 
 ## 54. External Owner Actions Required
 
-Ten exact GitHub, Cloudflare and process actions are listed in phase-9-owner-action-items.csv. None is represented as complete before dashboard verification.
+Eleven exact GitHub, Cloudflare and process actions are listed in phase-9-owner-action-items.csv. The observed legacy Cloudflare automatic production trigger is explicitly included; no pending setting is represented as complete before dashboard verification.
 
 ## 55. Before / After Governance State
 
