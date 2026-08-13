@@ -44,6 +44,8 @@ Do not interpolate pull-request titles, branch names, issue bodies or other untr
 
 The selected model is manual production deployment after merge. The deploy workflow accepts a lowercase 40-character SHA only when it equals the current `origin/main` SHA. The SHA is checked before validation and again immediately before deploy, preventing a queued older release from overwriting a newer `main`.
 
+Transition warning: the Phase 9 merge proved that a pre-existing Cloudflare Git integration still builds and deploys every `main` merge independently of the governed workflow. Until the owner disables that automatic production trigger and completes the GitHub `production` environment, a `main` merge can reach production before all post-merge checks finish. Treat the manual workflow as the target model, not the exclusive live path, until the external cutover is verified.
+
 The validation job builds once, creates per-file SHA-256 evidence, and uploads an artifact named with SHA and workflow run ID. The deployment job verifies every digest and deploys that exact `dist`, not a rebuild. Production jobs share `echobuddha-production` concurrency with `cancel-in-progress: false`.
 
 Only the deploy step receives `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. They must be stored as production-environment secrets and scoped to the single required Cloudflare account/Worker. Current repository settings do not yet contain these secrets or a production environment.
@@ -74,7 +76,7 @@ Compact current governance JSON/CSV may be committed. Transient browser, Lightho
 
 ## External settings
 
-Repository code cannot enforce GitHub plan features, branch rules, required checks, environment review rules, action policies, security alerts or Cloudflare token scope. `phase-9-external-github-cloudflare-settings.csv` and `phase-9-owner-action-items.csv` are the truthful owner queue. No setting is considered active until verified.
+Repository code cannot enforce GitHub plan features, branch rules, required checks, environment review rules, action policies, security alerts, Cloudflare token scope or Cloudflare Git build triggers. `phase-9-external-github-cloudflare-settings.csv` and `phase-9-owner-action-items.csv` are the truthful owner queue. No setting is considered active until verified.
 
 ## Emergency path
 
