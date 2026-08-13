@@ -1,0 +1,2 @@
+"Control","Finding","State","Evidence"
+"Security","Enforced CSP and baseline headers protected; workflow secrets isolated","Implemented","public/_headers; workflow review"

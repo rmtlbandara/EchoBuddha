@@ -1,0 +1,2 @@
+"Control","Finding","State","Evidence"
+"Privacy/consent","Missing choice opens panel; Analytics and advertising storage denied by default","Implemented","ConsentManager.astro; browser audit"

@@ -1,0 +1,3 @@
+"Control","Cadence","Scope","Blocking policy","Auto-merge","State","Evidence"
+"Dependabot","Weekly","npm and GitHub Actions; bounded groups","High/critical audit blocks release","Disabled","Implemented",".github/dependabot.yml; audit:dependencies"
+"Dependency review action","PR","Not installed","Plan/feature availability unverified","N/A","Owner decision pending","Use only if private-repo feature is available"

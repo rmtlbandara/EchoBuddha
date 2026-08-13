@@ -13,11 +13,11 @@ Echo Buddha is a fast static Astro website for Buddhist-inspired wisdom, meditat
 ## Setup
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-The local dev server usually runs at `http://localhost:4321`.
+Use Node.js 22 and npm 10, as declared by `.node-version` and `package.json`. The local dev server usually runs at `http://localhost:4321`.
 
 ## Validation
 
@@ -35,6 +35,8 @@ The validation sequence runs:
 - `npm test`
 - `npm run audit:seo`
 - `npm run audit:content`
+- `npm run audit:phase8`
+- `npm run audit:phase9`
 - `npm run audit:dependencies`
 
 The SEO audit writes current generated-site evidence to `docs/audits/echo-buddha-governance-implementation/`.
@@ -48,7 +50,7 @@ npm run audit:browser
 npm run audit:lighthouse
 ```
 
-These commands use system Chrome through `playwright-core` and Lighthouse. They write consent, accessibility, and performance evidence to `docs/audits/final-readiness-remediation/`.
+These commands use system Chrome through `playwright-core` and Lighthouse. CI uploads their generated `.artifacts/` evidence; historical audit evidence remains under `docs/audits/final-readiness-remediation/`.
 
 ## Content Model
 
@@ -80,39 +82,40 @@ Header operating model: `public/_headers` defines Cloudflare Static Assets secur
 
 Google Analytics uses the property in `src/data/site.ts`, but it is consent-gated by `src/components/ConsentManager.astro`.
 
-Default behavior:
+Current behavior:
 
-- Google Analytics defaults accepted without auto-opening a popup, matching the current owner-approved behavior.
+- Analytics is denied until the visitor explicitly opts in.
 - Advertising consent types remain denied.
 - Users can accept, reject, reopen settings, or withdraw consent.
-- The owner-approved AdSense publisher script is available on the homepage for AdSense site verification and route-gated to conservative article and learning pages for content pages.
+- Missing preferences open the privacy choice interface; they never imply acceptance.
 
 The privacy policy must stay aligned with actual scripts and services.
 
 ## AdSense Status
 
-AdSense script loading is owner-approved and enabled through `src/components/AdSenseScript.astro` using the publisher ID in `src/data/ads.ts`.
-
-The script is available on `/` so the Google AdSense crawler can verify the site root. It remains route-gated away from search, 404, tools, trust/policy pages, quotes, daily reflections, meditation pages, source-study pages, dictionary pages, and sensitive wellbeing articles. Manual ad units remain disabled through `ADSENSE.manualSlotsEnabled`.
+The AdSense publisher ID is centralized in `src/data/ads.ts` and exposed only through verification metadata and `public/ads.txt`. Runtime AdSense script loading and manual ad slots remain disabled through `ADSENSE.runtimeScriptEnabled` and `ADSENSE.manualSlotsEnabled`.
 
 Future ad work must review consent/CMP requirements, content quality, policy pages, exact placement, mobile UX, accessibility, performance, and invalid-traffic risk.
 
 ## Deployment
 
-Build and deploy manually only after validation and owner approval:
+Production deployment is a separately authorized operation. The manual `deploy-production.yml` workflow accepts an exact 40-character commit SHA from `main`, validates it, builds once, verifies the immutable artifact, deploys it through the protected `production` environment, and runs smoke checks. Rollback uses the separately confirmed `rollback-production.yml` workflow and a recorded Cloudflare version ID.
+
+For an owner-authorized emergency local deployment only:
 
 ```bash
-npm run build
-npx wrangler deploy
+npm run validate:release
+npm run build -- --outDir .release/dist
+npx wrangler deploy --assets .release/dist
 ```
 
-This repository uses Cloudflare Workers Static Assets with `dist/` as the upload directory. Do not deploy from audit or implementation tasks unless explicitly requested.
+Normal releases MUST use the governed workflow. See `ECHO_BUDDHA_CI_GIT_DEPLOYMENT_GOVERNANCE.md`, `docs/deployments/PRODUCTION_DEPLOYMENT_CHECKLIST.md`, and `docs/deployments/ROLLBACK_RUNBOOK.md`. Do not deploy from audit or implementation tasks unless explicitly requested.
 
 ## Contributor Workflow
 
-1. Read `ECHO_BUDDHA_SEO_CONTENT_UX_GOVERNANCE.md`.
-2. Review `ECHO_BUDDHA_COMPLETE_GOVERNANCE_AUDIT.md` for active findings.
-3. Make scoped changes.
-4. Run `npm run validate:release`.
-5. Review generated route, sitemap, indexing, structured-data, accessibility, privacy, and content implications.
-6. Update documentation when architecture, policy, consent, or indexing behavior materially changes.
+1. Read `CONTRIBUTING.md`, `ECHO_BUDDHA_SEO_CONTENT_UX_GOVERNANCE.md`, and `ECHO_BUDDHA_CI_GIT_DEPLOYMENT_GOVERNANCE.md`.
+2. Review `ECHO_BUDDHA_COMPLETE_GOVERNANCE_AUDIT.md` and the Phase 9 protection registers for active findings.
+3. Make scoped changes on a dedicated branch and complete the pull-request template.
+4. Run `npm run validate:release` and `npm run audit:governance:changes`.
+5. Review generated route, sitemap, indexing, structured-data, accessibility, privacy, content, release, and rollback implications.
+6. Update documentation and approval registers when architecture, policy, consent, indexing, workflow, or release behavior materially changes.

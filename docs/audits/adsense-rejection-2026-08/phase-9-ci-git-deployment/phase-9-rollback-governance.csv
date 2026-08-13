@@ -1,0 +1,4 @@
+"Control","Policy","State","Evidence"
+"Known good","Recorded Cloudflare version with SHA and passing smoke","Defined","rollback runbook"
+"Trigger","Severe availability/security/privacy/delivery regression","Defined","rollback runbook"
+"Execution","Manual UUID plus ROLLBACK confirmation; serialized; smoke","Implemented","rollback workflow"

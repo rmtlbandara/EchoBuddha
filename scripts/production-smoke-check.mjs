@@ -1,0 +1,81 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const origin = process.env.PRODUCTION_ORIGIN || "https://echobuddha.com";
+const outDir = path.resolve(process.cwd(), process.env.SMOKE_OUT_DIR || ".artifacts/production-smoke");
+const expectedAdsTxt = "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0";
+const expectedHeaders = [
+  "content-security-policy",
+  "strict-transport-security",
+  "x-content-type-options",
+  "referrer-policy",
+  "x-frame-options",
+  "permissions-policy",
+  "x-permitted-cross-domain-policies",
+];
+const checks = [];
+const check = (name, pass, evidence) => checks.push({ name, pass: Boolean(pass), evidence });
+const get = (pathname, options = {}) => fetch(`${origin}${pathname}`, {
+  redirect: options.redirect || "follow",
+  headers: { "user-agent": "EchoBuddha-Phase9-Smoke/1.0" },
+});
+
+const homeResponse = await get("/");
+const home = await homeResponse.text();
+check("homepage", homeResponse.status === 200 && /<h1\b/i.test(home), `${homeResponse.status}; H1 ${/<h1\b/i.test(home)}`);
+check("consent", /data-consent-panel/.test(home) && /It stays off unless you accept/.test(home), "affirmative preference UI present");
+check("adsense-runtime", !/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js/.test(home) && !/class=["'][^"']*ad-slot/.test(home), "0 homepage runtime scripts/slots");
+check("verification-meta", /google-adsense-account["'] content=["']ca-pub-3911157640549350/.test(home), "publisher meta present");
+const missingHeaders = expectedHeaders.filter((header) => !homeResponse.headers.has(header));
+check("security-headers", missingHeaders.length === 0 && !homeResponse.headers.has("content-security-policy-report-only"), missingHeaders.length ? missingHeaders.join(" | ") : "enforced CSP + 6 baseline headers");
+
+const robotsResponse = await get("/robots.txt");
+const robots = await robotsResponse.text();
+check("robots", robotsResponse.status === 200 && /Sitemap: https:\/\/echobuddha\.com\/sitemap\.xml/.test(robots) && /Mediapartners-Google[\s\S]*Allow: \//.test(robots), `${robotsResponse.status}; crawler policy present`);
+
+const sitemapResponse = await get("/sitemap.xml");
+const sitemap = await sitemapResponse.text();
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((item) => item[1]);
+check("sitemap", sitemapResponse.status === 200 && sitemapUrls.length === 193 && sitemapUrls.every((url) => url.startsWith(`${origin}/`)), `${sitemapResponse.status}; ${sitemapUrls.length} URLs`);
+
+const ownerResponse = await get("/learn/four-noble-truths/");
+const owner = await ownerResponse.text();
+check("primary-owner", ownerResponse.status === 200 && !/noindex/i.test(owner.match(/<meta[^>]+name=["']robots["'][^>]*>/i)?.[0] || "") && /rel=["']canonical["'][^>]+https:\/\/echobuddha\.com\/learn\/four-noble-truths\//.test(owner), `${ownerResponse.status}; indexable self-canonical`);
+
+const noindexResponse = await get("/search/");
+const noindex = await noindexResponse.text();
+check("noindex-route", noindexResponse.status === 200 && /name=["']robots["'] content=["']noindex, follow/.test(noindex), `${noindexResponse.status}; noindex follow`);
+
+const searchResponse = await get("/search-index.json");
+const search = await searchResponse.json();
+check("search", searchResponse.status === 200 && search.length === 315, `${searchResponse.status}; ${search.length} items`);
+
+const adsResponse = await get("/ads.txt");
+const adsTxt = (await adsResponse.text()).trim();
+check("ads.txt", adsResponse.status === 200 && adsTxt === expectedAdsTxt, `${adsResponse.status}; exact ${adsTxt === expectedAdsTxt}`);
+
+const missingResponse = await get("/phase-9-smoke-missing/", { redirect: "manual" });
+check("404", missingResponse.status === 404, `${missingResponse.status}`);
+
+const httpResponse = await fetch("http://echobuddha.com/", { redirect: "manual" });
+check("https-redirect", [301, 302, 307, 308].includes(httpResponse.status) && httpResponse.headers.get("location") === `${origin}/`, `${httpResponse.status}; ${httpResponse.headers.get("location")}`);
+
+const workersResponse = await fetch("https://echobuddha.rmtlbandara.workers.dev/");
+check("preview-noindex", workersResponse.status === 200 && workersResponse.headers.get("x-robots-tag") === "noindex, nofollow", `${workersResponse.status}; ${workersResponse.headers.get("x-robots-tag")}`);
+
+const failures = checks.filter((item) => !item.pass);
+const result = {
+  generatedAt: new Date().toISOString(),
+  origin,
+  sha: process.env.RELEASE_SHA || "not-provided",
+  workflowRunId: process.env.GITHUB_RUN_ID || "local",
+  total: checks.length,
+  passed: checks.length - failures.length,
+  failed: failures.length,
+  pass: failures.length === 0,
+  checks,
+};
+fs.mkdirSync(outDir, { recursive: true });
+fs.writeFileSync(path.join(outDir, "production-smoke-results.json"), `${JSON.stringify(result, null, 2)}\n`);
+for (const item of checks) console.log(`${item.pass ? "PASS" : "FAIL"} ${item.name}: ${item.evidence}`);
+if (failures.length) process.exitCode = 1;

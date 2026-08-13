@@ -1,0 +1,6 @@
+"Workflow","Job","Trigger","Permission","Current level","Required level","Overprivileged?","Secret access?","Untrusted code risk?","Action","Validation","Evidence"
+"validate.yml","release-validation; browser-validation","PR/main/manual","contents","read","read","No","No","Low","Retain explicit least privilege","PASS","YAML parse and audit:phase9"
+"extended-validation.yml","extended","manual/monthly","contents","read","read","No","No","Low","Retain","PASS","YAML parse"
+"production-smoke.yml","smoke","manual/weekly","contents","read","read","No","No","Low","Retain","PASS","No secrets"
+"deploy-production.yml","validate; deploy","manual","contents","read","read","No","Deploy steps only","No PR trigger","Configure protected production environment","PASS repository / PENDING external","Environment secret references only"
+"rollback-production.yml","rollback","manual","contents","read","read","No","Rollback step only","No PR trigger","Configure protected production environment","PASS repository / PENDING external","Confirmation and environment gate"

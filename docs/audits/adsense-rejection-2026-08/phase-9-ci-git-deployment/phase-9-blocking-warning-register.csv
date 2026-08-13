@@ -1,0 +1,3 @@
+"Signal","Classification","Reason","Failure behavior","Human review","Evidence"
+"Broken build/link/schema; index/sitemap/canonical drift; source identity mismatch; consent or AdSense activation; unsafe workflow; artifact mismatch","Blocking","Objective and reproducible","Non-zero exit","Required to resolve or explicitly register supported governance change","validate:release"
+"Likely semantic overlap; repetitive structure; unusual thinness; source density; Lighthouse score variation","Warning","Contextual and prone to false certainty","Artifact/report only","Editor reviews in PR","audit:governance:changes and extended validation"

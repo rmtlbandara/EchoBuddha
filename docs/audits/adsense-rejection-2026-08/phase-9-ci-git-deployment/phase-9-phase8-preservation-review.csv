@@ -1,0 +1,6 @@
+"Protected item","Before","After","Changed?","Status","Evidence"
+"Routes/index/sitemap","336/193/193","336/193/193","No","PASS","release baseline"
+"AdSense","Verification only; runtime/manual off","Same","No","PASS","audit:phase9"
+"Consent","Explicit opt-in","Same","No","PASS","audit:browser and phase9"
+"Security headers","Enforced CSP and baseline","Same","No","PASS","protected hashes"
+"Production","fa751ad8-ebeb-45b3-983a-96703733631b","fa751ad8-ebeb-45b3-983a-96703733631b","No","PASS","No deploy performed"

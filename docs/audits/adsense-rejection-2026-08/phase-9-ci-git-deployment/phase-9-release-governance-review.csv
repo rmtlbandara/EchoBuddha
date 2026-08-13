@@ -1,0 +1,4 @@
+"Control","Before","After","State","Evidence"
+"Release source","Manual local working tree","Exact lowercase origin/main SHA","Implemented","deploy workflow"
+"Build","Potential rebuild at deploy","Build once and upload immutable artifact","Implemented","manifest scripts"
+"Authorization","Owner instruction","Separate workflow dispatch plus production environment","Repository complete / external pending","governance document"

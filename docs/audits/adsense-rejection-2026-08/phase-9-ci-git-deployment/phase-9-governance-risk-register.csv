@@ -1,0 +1,5 @@
+"Risk ID","Domain","Risk","Likelihood","Impact","Control","Residual risk","Owner"
+"R-01","Deployment","Wrong or stale revision reaches production","Medium","Critical","Manual exact-main-SHA input; build once; shared concurrency; manifest verification","Low after external environment setup","Repository owner"
+"R-02","Secrets","Untrusted PR accesses Cloudflare credentials","Low","Critical","PR validation has no secrets; production environment secrets are step scoped","Production environment is not yet configured","Repository owner"
+"R-03","Content/index","Protected URL or index state drifts","Medium","High","Release baseline plus explicit approvals and Phase 9 blocker","Semantic quality still requires review","Editorial owner"
+"R-04","External settings","Repository documentation is mistaken for active GitHub/Cloudflare protection","High","High","Truthful verified/pending registers and owner queue","Pending until dashboard actions are verified","Repository owner"

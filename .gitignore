@@ -4,6 +4,18 @@ dist/
 .DS_Store
 **/.DS_Store
 npm-debug.log*
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.artifacts/
+.release/
+playwright-report/
+test-results/
+lighthouse-report*.html
+lighthouse-report*.json
+*.log
 
 # Local final audit evidence kept off main/production.
 ECHO_BUDDHA_FINAL_PRODUCTION_ADSENSE_READINESS_AUDIT.md
@@ -16,3 +28,6 @@ docs/audits/adsense-rejection-2026-08/phase-6-source-authorship-trust/browser-qa
 
 # Reproducible Phase 7 visual QA screenshots; JSON/CSV results remain source-controlled.
 docs/audits/adsense-rejection-2026-08/phase-7-ux-navigation/browser-qa-screenshots/
+
+# Phase 9 keeps compact evidence in source; transient CI/browser output belongs in workflow artifacts.
+docs/audits/adsense-rejection-2026-08/phase-9-ci-git-deployment/browser-qa-screenshots/

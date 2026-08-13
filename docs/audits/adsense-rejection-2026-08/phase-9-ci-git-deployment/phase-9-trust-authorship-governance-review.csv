@@ -1,0 +1,2 @@
+"Control","Finding","State","Evidence"
+"Trust/authorship","Organization authorship protected; fabricated persons/reviewers/credentials blocked","Implemented","editorialGovernance.ts; JSON-LD audit"

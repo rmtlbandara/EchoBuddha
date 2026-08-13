@@ -1,0 +1,5 @@
+"Workflow","Action","Current ref","Publisher","Official/third-party","Mutable tag?","Immutable SHA?","Version represented","Required?","Security concern","Action","Validation"
+"All applicable","Dependabot-reviewed updates only","d23441a48e516b6c34aea4fa41551a30e30af803","GitHub","Official","No","Yes","v6","Yes","Repository checkout can affect every job","Dependabot-reviewed updates only","GitHub API ref resolved"
+"All applicable","Dependabot-reviewed updates only","249970729cb0ef3589644e2896645e5dc5ba9c38","GitHub","Official","No","Yes","v6","Yes","Runtime setup","Dependabot-reviewed updates only","GitHub API ref resolved"
+"Evidence jobs","Retain digest evidence and bounded retention","ea165f8d65b6e75b540449e92b4886f43607fa02","GitHub","Official","No","Yes","v4","Yes","Artifact upload","Retain digest evidence and bounded retention","GitHub API ref resolved"
+"Deploy","Verify per-file release manifest after download","634f93cb2916e3fdff6788551b99b062d0335ce0","GitHub","Official","No","Yes","v5","Yes","Artifact boundary","Verify per-file release manifest after download","GitHub API ref resolved"

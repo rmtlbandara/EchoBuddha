@@ -1,0 +1,5 @@
+"Setting","Desired state","Current state","Verified?","Repository-enforceable?","GitHub settings required?","Reason","Solo-maintainer impact","Action","Owner action required?"
+"Protect main","PR required; no force push/deletion","Unavailable on current private-repo plan","Yes: API 403 plan limitation","No","Yes","Prevent direct unvalidated change","Adds PR step","Upgrade plan or make public; then create ruleset","Yes"
+"Required checks","Release validation and Browser and consent validation","Not configured","Yes","No","Yes","Block failed objective gates","Waits for CI","Set exact required job names after first hosted run","Yes"
+"Action pinning policy","Require full SHA where GitHub setting supports it","sha_pinning_required=false","Yes","Partly: files are pinned","Yes","Defense in depth","Low","Enable repository/organization policy if available","Yes"
+"Default token permission","Read repository contents","Read","Yes","No","Already configured","Least privilege","None","Retain and reverify quarterly","Yes"

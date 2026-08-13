@@ -1,0 +1,4 @@
+"Item","Observed","Policy","State","Evidence"
+"Git database","About 144 MB; historical audit objects dominate","Do not rewrite history in Phase 9","Recorded","pre-edit diagnostic"
+"LFS","No Git LFS configuration/CLI","Use only for future necessary large binaries","No action",".gitattributes absent"
+"Generated artifacts","dist/node_modules/logs ignored","Keep transient evidence out of Git","Strengthened",".gitignore"
