@@ -39,4 +39,5 @@ jobs:
           name: production-smoke-${{ github.run_id }}
           path: .artifacts/production-smoke/
           if-no-files-found: error
+          include-hidden-files: true
           retention-days: 30

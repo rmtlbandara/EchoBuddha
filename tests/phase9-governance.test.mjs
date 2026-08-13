@@ -16,6 +16,8 @@ test("Phase 9 workflows parse, use least privilege, and pin every action", () =>
     const actions = [...workflow.text.matchAll(/uses:\s*([^\s#]+)/g)].map((item) => item[1]);
     assert.ok(actions.length > 0, `${workflow.name}: expected at least one action`);
     assert.deepEqual(actions.filter((action) => !/@[0-9a-f]{40}$/.test(action)), [], `${workflow.name}: mutable action ref`);
+    const artifactUploads = Object.values(workflow.yaml.jobs).flatMap((job) => job.steps || []).filter((step) => /actions\/upload-artifact@/.test(step.uses || ""));
+    for (const upload of artifactUploads) assert.equal(upload.with?.["include-hidden-files"], true, `${workflow.name}: hidden artifact path must be explicitly included`);
   }
 });
 

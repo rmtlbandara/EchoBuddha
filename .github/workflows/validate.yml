@@ -54,6 +54,7 @@ jobs:
           name: release-validation-${{ github.run_id }}
           path: .artifacts/
           if-no-files-found: error
+          include-hidden-files: true
           retention-days: 14
 
   browser-validation:
@@ -95,4 +96,5 @@ jobs:
           name: browser-validation-${{ github.run_id }}
           path: .artifacts/browser-validation/
           if-no-files-found: error
+          include-hidden-files: true
           retention-days: 14
