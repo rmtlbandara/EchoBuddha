@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-08-11T05:29:00Z",
+  "baseUrl": "https://echobuddha.com",
+  "viewports": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "mobile", "width": 390, "height": 844 }
+  ],
+  "routes": [
+    "/",
+    "/learn/buddhism-for-beginners/",
+    "/learn/four-noble-truths/",
+    "/learn/eightfold-path/",
+    "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+    "/daily-reflections/one-honest-breath/",
+    "/search/",
+    "/editorial-policy/",
+    "/meditation/breathing-meditation/"
+  ],
+  "visits": 18,
+  "checks": [
+    "exact viewport dimensions",
+    "one H1",
+    "nonempty rendered body",
+    "no horizontal overflow",
+    "self-canonical",
+    "expected index/noindex robots"
+  ],
+  "failures": [],
+  "empty404": {
+    "route": "/this-route-must-not-exist-phase-0-4/",
+    "browserResult": "ERR_BLOCKED_BY_CLIENT",
+    "httpResult": "404 with empty body",
+    "classification": "Known Phase 8 edge issue; verified through direct HTTP rather than visual QA"
+  },
+  "status": "PASS"
+}

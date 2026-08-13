@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { SITE } from "../../data/site";
 import {
   allMeditationPages,
@@ -11,7 +12,12 @@ import {
   getTermLinks,
   type LearningPage
 } from "../../data/learn";
-import { getMeditationSafetyNotice, getTopicRole } from "../../data/editorialGovernance";
+import {
+  EDITORIAL_AUTHOR_SCHEMA,
+  PUBLISHER_SCHEMA,
+  getMeditationSafetyNotice,
+  getTopicRole
+} from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return allMeditationPages.map((page) => ({
@@ -35,16 +41,8 @@ const jsonLd = [
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
     articleSection: "Meditation",
-    author: {
-      "@type": "Organization",
-      name: SITE.author,
-      url: `${SITE.url}/authors/echo-buddha-editorial/`
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url
-    }
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA
   },
   getBreadcrumbJsonLd([
     { name: "Home", href: "/" },
@@ -58,7 +56,11 @@ const jsonLd = [
   <article>
     <header class="page-hero">
       <div class="container prose">
-        <a class="back-link" href="/meditation/">Meditation</a>
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Meditation", href: "/meditation/" },
+          { label: page.title }
+        ]} />
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
@@ -69,7 +71,7 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose">
         <aside class="surface key-box">
-          <h2>Key Takeaway</h2>
+          <h2>Practice in Brief</h2>
           <p>{page.takeaway}</p>
         </aside>
         <aside class="surface safety-box" aria-labelledby="meditation-safety-heading">
@@ -82,7 +84,7 @@ const jsonLd = [
         </aside>
         {qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-meditation-matters-heading">
-            <h2 id="why-this-meditation-matters-heading">Why This Matters</h2>
+            <h2 id="why-this-meditation-matters-heading">Purpose of This Practice</h2>
             <p>{qualityNote.why}</p>
           </section>
         )}
@@ -107,19 +109,19 @@ const jsonLd = [
         </section>
 	        {qualityNote && (
           <aside class="surface key-box">
-            <h2>A Helpful Clarification</h2>
+            <h2>A Difficulty to Expect</h2>
             <p>{qualityNote.clarification}</p>
           </aside>
         )}
         {page.practice && (
           <aside class="surface key-box">
-            <h2>Practice Today</h2>
+            <h2>Try One Session</h2>
             <p>{page.practice}</p>
           </aside>
         )}
         {qualityNote && (
           <aside class="surface key-box">
-            <h2>Reflection Question</h2>
+            <h2>After the Session</h2>
             <p>{qualityNote.question}</p>
           </aside>
         )}
@@ -182,13 +184,6 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .back-link {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
   .key-box,
   .safety-box {
     margin-bottom: 2rem;

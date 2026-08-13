@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-08-13T10:47:16.807Z",
+  "baseUrl": "http://127.0.0.1:8787",
+  "analyticsId": "G-6QB396HNKN",
+  "model": "Basic consent mode: Analytics remains off until affirmative acceptance; ad storage and AdSense runtime remain off.",
+  "scenarios": [
+    {
+      "name": "first visit has no inferred consent and no Google network request",
+      "pass": true,
+      "details": {
+        "preference": null,
+        "panelOpen": "true",
+        "gtagScriptRequests": 0,
+        "analyticsCollectionRequests": 0,
+        "adsenseRequests": 0,
+        "analyticsCookieCount": 0
+      }
+    },
+    {
+      "name": "first visit explicit rejection",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-08-13T10:46:56.048Z\"}",
+        "googleRequests": 0
+      }
+    },
+    {
+      "name": "return visit after rejection",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-08-13T10:46:56.492Z\"}",
+        "analyticsRequests": 0,
+        "adsenseRequests": 0
+      }
+    },
+    {
+      "name": "accept analytics from privacy settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":true,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-08-13T10:46:57.124Z\"}",
+        "gtagScriptRequests": 1
+      }
+    },
+    {
+      "name": "keyboard withdrawal through reopened settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-08-13T10:46:57.855Z\"}",
+        "analyticsCookieCount": 0
+      }
+    },
+    {
+      "name": "mobile navigation and consent keyboard escape",
+      "pass": true,
+      "details": {
+        "navVisible": true,
+        "acceptFocused": true,
+        "closed": true
+      }
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,27 @@
+Stage,Command / check,Status,Result,Evidence
+PRE_RECONCILIATION,npm run build,PASS,336 HTML pages built,Terminal run before corrections
+PRE_RECONCILIATION,npm run typecheck,PASS,Astro sync and TypeScript noEmit pass,Terminal run before corrections
+PRE_RECONCILIATION,npm run lint,PASS,Governance lint passed,Terminal run before corrections
+PRE_RECONCILIATION,npm test,PASS,7/7 current tests passed,Terminal run before corrections
+PRE_RECONCILIATION,npm run audit:seo,PASS,SEO audit passed,Terminal run before corrections
+PRE_RECONCILIATION,npm run audit:content,PASS,Content audit passed,Terminal run before corrections
+PRE_RECONCILIATION,npm run audit:dependencies,FAIL,2 high transitive advisories: js-yaml and nanoid,Terminal run before lock stabilization
+PRE_RECONCILIATION,npm run validate,PASS,Build/type/lint/test/SEO/content passed,Terminal run before corrections
+PRE_RECONCILIATION,npm run validate:release,FAIL,Dependency gate only,Terminal run before lock stabilization
+PRE_RECONCILIATION,npm run audit:browser,PASS,17-route automated readiness check passed,Terminal run before corrections
+PRE_RECONCILIATION,npm run audit:lighthouse,PASS,20/20 runs; mobile minimum performance 0.99 and accessibility 1.00,Initial reconciliation baseline output
+FORENSIC_BASELINE,isolated npm ci + build/type/lint/test/SEO/content,PASS,336 pages; 283 indexable; 53 noindex; 283 sitemap; 6 historical tests,Isolated a1cd457 worktree
+PRODUCTION,336-route HTTP capture,PASS,336 status-200 pages; 336 fully match forensic build; 211 fully match current repository,phase-0-4-production-parity.csv
+BROWSER_VISUAL,20 routes x desktop/mobile,PASS,40 visits and zero H1/main/nav/overflow/image/link-label failures,phase-0-4-visual-qa.json
+FINAL,npm run build,PASS,336 pages built,Final terminal run 2026-08-11
+FINAL,npm run typecheck,PASS,Astro sync and TypeScript noEmit pass,Final terminal run 2026-08-11
+FINAL,npm run lint,PASS,Governance lint passed,Final terminal run 2026-08-11
+FINAL,npm test,PASS,7/7 tests passed,Final terminal run 2026-08-11
+FINAL,npm run audit:seo,PASS,SEO audit passed,Final terminal run 2026-08-11
+FINAL,npm run audit:content,PASS,Content remediation audit passed,Final terminal run 2026-08-11
+FINAL,npm run audit:dependencies,PASS,0 critical and 0 high vulnerabilities,Final terminal run 2026-08-11
+FINAL,npm run validate,PASS,All standard gates passed,Final terminal run 2026-08-11
+FINAL,npm run validate:release,PASS,All standard and dependency gates passed,Final terminal run 2026-08-11
+FINAL,npm run audit:browser,PASS,Browser readiness check passed,Final terminal run 2026-08-11
+FINAL,npm run audit:lighthouse,PASS_WITH_INTERMITTENT_LAB_VARIANCE,"Command exit 0; all accessibility 1.00; one full-run topic-hub outlier; targeted 5-run median performance 1.00 and LCP 1054.9ms",phase-0-4-lighthouse-reconciliation.json
+FINAL,custom reconciliation validator,PASS,29/29 consistency and artifact checks passed,phase-0-4-custom-validation.json

@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-08-11T07:22:57.895Z",
+  "startingCommit": "4bbeef7a85d071752f9c1d0ec23e0ce1ff348505",
+  "totalChecks": 19,
+  "passed": 19,
+  "failed": 0,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "required-artifacts",
+      "status": "PASS",
+      "evidence": "31/31 present"
+    },
+    {
+      "name": "pre-risk-page-count",
+      "status": "PASS",
+      "evidence": "336/336"
+    },
+    {
+      "name": "post-risk-page-count",
+      "status": "PASS",
+      "evidence": "336/336"
+    },
+    {
+      "name": "material-change-count",
+      "status": "PASS",
+      "evidence": "218/218"
+    },
+    {
+      "name": "content-quality-dual-gate",
+      "status": "PASS",
+      "evidence": "218 rows"
+    },
+    {
+      "name": "ownership-preserved",
+      "status": "PASS",
+      "evidence": "218 rows"
+    },
+    {
+      "name": "index-canonical-preserved",
+      "status": "PASS",
+      "evidence": "336 rows"
+    },
+    {
+      "name": "source-preserved",
+      "status": "PASS",
+      "evidence": "218 rows"
+    },
+    {
+      "name": "safety-preserved",
+      "status": "PASS",
+      "evidence": "218 rows"
+    },
+    {
+      "name": "structured-data-preserved",
+      "status": "PASS",
+      "evidence": "336 rows"
+    },
+    {
+      "name": "internal-links",
+      "status": "PASS",
+      "evidence": "218 changed routes"
+    },
+    {
+      "name": "pre-phase6-protection",
+      "status": "PASS",
+      "evidence": "336/336"
+    },
+    {
+      "name": "no-unresolved-high-critical",
+      "status": "PASS",
+      "evidence": "0 found"
+    },
+    {
+      "name": "urls-canonicals-index-unchanged",
+      "status": "PASS",
+      "evidence": "218 changed routes"
+    },
+    {
+      "name": "release-validation",
+      "status": "PASS",
+      "evidence": "0 failures"
+    },
+    {
+      "name": "report-47-sections",
+      "status": "PASS",
+      "evidence": "47 ordered sections"
+    },
+    {
+      "name": "report-final-verdict",
+      "status": "PASS",
+      "evidence": "Complete; production Yes"
+    },
+    {
+      "name": "source-change-scope",
+      "status": "PASS",
+      "evidence": "5 approved source files only"
+    },
+    {
+      "name": "adsense-behavior-unchanged",
+      "status": "PASS",
+      "evidence": "No ad, consent, route, or build configuration file changed"
+    }
+  ]
+}

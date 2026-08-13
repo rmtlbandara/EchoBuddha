@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-08-11T08:59:55.004Z",
+  "startingCommit": "6ee25e6e91a0730195b8850ea1a5d88ab42bbb3a",
+  "totalChecks": 29,
+  "passed": 29,
+  "failed": 0,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "required-artifacts",
+      "status": "PASS",
+      "evidence": "42/42 present"
+    },
+    {
+      "name": "authorship-model",
+      "status": "PASS",
+      "evidence": "Organizational label explicit; team implication absent"
+    },
+    {
+      "name": "publisher-accountability",
+      "status": "PASS",
+      "evidence": "Brand accountability and real contact present"
+    },
+    {
+      "name": "credential-protection",
+      "status": "PASS",
+      "evidence": "No named person, credential, or reviewer data"
+    },
+    {
+      "name": "source-correction-article",
+      "status": "PASS",
+      "evidence": "Article mapping uses AN 6.63"
+    },
+    {
+      "name": "source-correction-dictionary",
+      "status": "PASS",
+      "evidence": "Dictionary mapping uses AN 6.63"
+    },
+    {
+      "name": "ai-transparency",
+      "status": "PASS",
+      "evidence": "Actual assistance and accountability described"
+    },
+    {
+      "name": "attribution-policy",
+      "status": "PASS",
+      "evidence": "Five-class system published"
+    },
+    {
+      "name": "correction-workflow",
+      "status": "PASS",
+      "evidence": "Concrete intake/materiality/public-note workflow"
+    },
+    {
+      "name": "trust-pages",
+      "status": "PASS",
+      "evidence": "12/12 pass"
+    },
+    {
+      "name": "source-link-validation",
+      "status": "PASS",
+      "evidence": "55 URLs; 0 broken"
+    },
+    {
+      "name": "source-claim-traceability",
+      "status": "PASS",
+      "evidence": "164 relationships"
+    },
+    {
+      "name": "quote-attribution",
+      "status": "PASS",
+      "evidence": "153 original quote stories"
+    },
+    {
+      "name": "dhammapada-attribution",
+      "status": "PASS",
+      "evidence": "5/5 pass"
+    },
+    {
+      "name": "sutta-attribution",
+      "status": "PASS",
+      "evidence": "7/7 pass"
+    },
+    {
+      "name": "translation-boundary",
+      "status": "PASS",
+      "evidence": "12/12 pass"
+    },
+    {
+      "name": "structured-data-trust",
+      "status": "PASS",
+      "evidence": "336/336; no Person/credential/reviewer fields"
+    },
+    {
+      "name": "ownership-preservation",
+      "status": "PASS",
+      "evidence": "13 change groups"
+    },
+    {
+      "name": "index-canonical-preservation",
+      "status": "PASS",
+      "evidence": "336/336"
+    },
+    {
+      "name": "template-preservation",
+      "status": "PASS",
+      "evidence": "13 change groups"
+    },
+    {
+      "name": "safety-preservation",
+      "status": "PASS",
+      "evidence": "49 sensitive routes"
+    },
+    {
+      "name": "pre-phase7-protection",
+      "status": "PASS",
+      "evidence": "336/336"
+    },
+    {
+      "name": "no-fake-person-schema",
+      "status": "PASS",
+      "evidence": "No Person JSON-LD in built site"
+    },
+    {
+      "name": "no-fake-review-schema",
+      "status": "PASS",
+      "evidence": "No reviewer, credential, or sameAs construction"
+    },
+    {
+      "name": "visible-schema-organization",
+      "status": "PASS",
+      "evidence": "Stable author and publisher IDs present"
+    },
+    {
+      "name": "report-59-sections",
+      "status": "PASS",
+      "evidence": "59 ordered sections"
+    },
+    {
+      "name": "report-verdict",
+      "status": "PASS",
+      "evidence": "Complete; repository-only; Phase 7 after owner review"
+    },
+    {
+      "name": "change-scope",
+      "status": "PASS",
+      "evidence": "33 changed files in Phase 6 scope"
+    },
+    {
+      "name": "adsense-unchanged",
+      "status": "PASS",
+      "evidence": "No advertising, consent, dependency, or build-config mutation"
+    }
+  ]
+}

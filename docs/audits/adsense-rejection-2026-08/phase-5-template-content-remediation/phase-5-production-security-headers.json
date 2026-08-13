@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-08-11T07:20:00Z",
+  "baseUrl": "https://echobuddha.com",
+  "status": "PASS",
+  "routesChecked": 10,
+  "routesPassed": 10,
+  "routes": [
+    "/",
+    "/articles/four-noble-truths-explained-simply/",
+    "/learn/buddhism-101/what-is-mindfulness/",
+    "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+    "/daily-reflections/one-honest-breath/",
+    "/meditation/breathing-meditation/",
+    "/learn/buddhist-dictionary/dukkha/",
+    "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+    "/quotes/mindfulness/",
+    "/privacy-policy/"
+  ],
+  "requiredHeaders": {
+    "content-security-policy-report-only": "present",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "present",
+    "x-frame-options": "DENY"
+  }
+}

@@ -1,0 +1,6 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Purpose,Purpose competed with repeated collections,First action unclear,Concise purpose statement and one primary beginner action,Purpose and audience are immediately legible,Homepage visual QA,PASS,Owner copy review
+Pathways,Multiple repeated card groups,High decision load,"Three role-specific paths: Learn, Practice, Read & Reflect",Clear goal selection,Journey scenarios,PASS,Owner visual review
+Returning visitor,Return actions distributed across sections,Extra scanning,One compact Today / Quotes / Tools panel,Repeat actions remain discoverable,Homepage browser QA,PASS,No
+Trust,Trust context lower and diffuse,Publisher context easy to miss,Restrained About / Process / Sources / Corrections block,Trust remains discoverable without dominating,Trust route validator,PASS,No
+Protected behavior,"Metadata, FAQ and ad boundary established",UX edit could alter non-UX state,"Kept metadata, canonical, FAQ truth and AdSlot conditions","No index, canonical or AdSense expansion",Custom validator,PASS,No

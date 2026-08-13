@@ -1,0 +1,3 @@
+Phase,Priority,Area,Issue,Why deferred,Protected Phase 7 state,Evidence,Owner review?
+PHASE 9,P2,CI / Git / deployment governance,"Formalize branch, approval, deployment and rollback automation",Outside UX scope,Phase 7 validation and rollback evidence,Current branch/worktree,Yes
+PHASE 10,P2,Search Console / measurement,"Measure discovery, indexing and journey outcomes after release",Requires production data and time,Stable URLs/indexability,Indexability register,Yes

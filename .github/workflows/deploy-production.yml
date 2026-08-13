@@ -1,0 +1,143 @@
+name: Deploy Production
+
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: Full 40-character Git SHA; must equal the current origin/main SHA
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  validate-artifact:
+    name: Validate exact SHA and build artifact
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TARGET_SHA: ${{ inputs.sha }}
+      RELEASE_SHA: ${{ inputs.sha }}
+      RELEASE_REF: refs/heads/main
+      PHASE9_AUDIT_OUT: .artifacts/release-validation/phase-9-custom-validation.json
+    steps:
+      - name: Checkout requested SHA
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ inputs.sha }}
+          fetch-depth: 0
+
+      - name: Require exact current main SHA
+        run: |
+          if [[ ! "$TARGET_SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "The production ref must be a full lowercase Git SHA." >&2
+            exit 1
+          fi
+          git fetch --no-tags origin main
+          test "$(git rev-parse HEAD)" = "$TARGET_SHA"
+          git merge-base --is-ancestor "$TARGET_SHA" origin/main
+          test "$(git rev-parse origin/main)" = "$TARGET_SHA"
+
+      - name: Setup Node
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install deterministic dependencies
+        run: npm ci
+
+      - name: Validate exact release source
+        run: npm run validate:release
+
+      - name: Prepare immutable release artifact
+        run: |
+          mkdir -p .release
+          cp -R dist .release/dist
+          node scripts/create-release-manifest.mjs .release
+
+      - name: Upload exact release artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: production-dist-${{ inputs.sha }}-${{ github.run_id }}
+          path: .release/
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 30
+
+  deploy-production:
+    name: Deploy and verify production
+    needs: validate-artifact
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: production
+      url: https://echobuddha.com
+    concurrency:
+      group: echobuddha-production
+      cancel-in-progress: false
+    env:
+      TARGET_SHA: ${{ inputs.sha }}
+      RELEASE_SHA: ${{ inputs.sha }}
+      SMOKE_OUT_DIR: .artifacts/production-smoke
+    steps:
+      - name: Checkout deployment tooling at requested SHA
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ inputs.sha }}
+          fetch-depth: 0
+
+      - name: Recheck main immediately before deployment
+        run: |
+          git fetch --no-tags origin main
+          test "$(git rev-parse HEAD)" = "$TARGET_SHA"
+          test "$(git rev-parse origin/main)" = "$TARGET_SHA"
+
+      - name: Setup Node
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install deterministic deployment tooling
+        run: npm ci
+
+      - name: Download validated artifact
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: production-dist-${{ inputs.sha }}-${{ github.run_id }}
+          path: .release
+
+      - name: Verify artifact SHA and every file digest
+        run: node scripts/verify-release-manifest.mjs .release
+
+      - name: Deploy exact artifact to Cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy --assets ./.release/dist --strict --tag "git-${TARGET_SHA:0:12}" --message "Git SHA $TARGET_SHA; GitHub run $GITHUB_RUN_ID"
+
+      - name: Capture Cloudflare deployment metadata
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          mkdir -p .artifacts/deployment
+          npx wrangler deployments list --json > .artifacts/deployment/deployments.json
+          node scripts/capture-cloudflare-deployment.mjs .artifacts/deployment/deployments.json .artifacts/deployment/deployment-record.json
+
+      - name: Run production smoke gate
+        run: npm run audit:production-smoke
+
+      - name: Upload deployment and smoke evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: production-deployment-${{ inputs.sha }}-${{ github.run_id }}
+          path: |
+            .release/release-manifest.json
+            .artifacts/
+          if-no-files-found: warn
+          include-hidden-files: true
+          retention-days: 90

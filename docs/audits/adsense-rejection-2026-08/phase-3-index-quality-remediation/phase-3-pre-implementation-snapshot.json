@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-08-11T02:58:00.000Z",
+  "branch": "codex/phase-3-index-quality-remediation",
+  "head": "a1cd457345587670133bfc58af1cafd80d038e6e",
+  "totalGeneratedHtmlPages": 336,
+  "indexableHtmlPages": 283,
+  "noindexHtmlPages": 53,
+  "sitemapUrls": 283,
+  "articleUrls": 55,
+  "learnUrls": 54,
+  "meditationUrls": 10,
+  "quoteStoryUrls": 153,
+  "indexableQuoteStoryUrls": 103,
+  "noindexQuoteStoryUrls": 50,
+  "dailyReflectionDetailUrls": 30,
+  "indexableDailyReflectionDetailUrls": 30,
+  "noindexDailyReflectionDetailUrls": 0,
+  "indexableCategoryAndHubUrls": 33,
+  "configuredRedirects": 0,
+  "generatedInternalAnchorElements": 17572,
+  "uniqueCanonicalTargets": 335,
+  "evidence": "Fresh npm run build and complete dist HTML/sitemap scan on the Phase 3 starting branch. Counts are not copied from a historical report."
+}

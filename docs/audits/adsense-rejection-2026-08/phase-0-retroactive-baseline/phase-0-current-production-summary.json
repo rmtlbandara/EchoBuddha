@@ -1,0 +1,84 @@
+{
+  "capturedAt": "2026-08-11T04:55:30.896Z",
+  "routesRequested": 336,
+  "status200": 336,
+  "errors": 0,
+  "redirectedHtmlRoutes": 1,
+  "matchesCurrentRepositoryText": 301,
+  "matchesForensicBaselineText": 336,
+  "fullyMatchesCurrentRepository": 211,
+  "fullyMatchesForensicBaseline": 336,
+  "matchesCurrentAndForensic": 211,
+  "matchesCurrentOnly": 0,
+  "matchesForensicOnly": 125,
+  "structuralMatchTextDrift": 0,
+  "productionRepositoryDrift": 0,
+  "productionIndexable": 283,
+  "productionNoindex": 53,
+  "adsenseScriptRoutes": 56,
+  "publisherIds": [
+    "ca-pub-3911157640549350"
+  ],
+  "specialRoutes": [
+    {
+      "Requested URL": "http://echobuddha.com/",
+      "Status": 301,
+      "Location": "https://echobuddha.com/",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Body SHA-256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+      "Body bytes": 167,
+      "Body preview": "301 Moved Permanently 301 Moved Permanently cloudflare",
+      "Error": ""
+    },
+    {
+      "Requested URL": "https://www.echobuddha.com/",
+      "Status": 301,
+      "Location": "https://echobuddha.com/",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Body SHA-256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+      "Body bytes": 167,
+      "Body preview": "301 Moved Permanently 301 Moved Permanently cloudflare",
+      "Error": ""
+    },
+    {
+      "Requested URL": "https://echobuddha.com/this-route-must-not-exist-phase-0-4/",
+      "Status": 404,
+      "Location": "",
+      "Content-Type": "",
+      "Body SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "Body bytes": 0,
+      "Body preview": "",
+      "Error": ""
+    },
+    {
+      "Requested URL": "https://echobuddha.com/robots.txt",
+      "Status": 200,
+      "Location": "",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Body SHA-256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+      "Body bytes": 2139,
+      "Body preview": "# As a condition of accessing this website, you agree to abide by the following # content signals: # (a) If a Content-Signal = yes, you may collect content for the corresponding # use. # (b) If a Content-Signal = no, you may not collect con",
+      "Error": ""
+    },
+    {
+      "Requested URL": "https://echobuddha.com/sitemap.xml",
+      "Status": 200,
+      "Location": "",
+      "Content-Type": "application/xml",
+      "Body SHA-256": "17d0651082e1e974aa37326fe188a9449a0944f29624090c60cf1a48170d9fc4",
+      "Body bytes": 27723,
+      "Body preview": "https://echobuddha.com/ 2026-08-06 https://echobuddha.com/about/ https://echobuddha.com/start-here/ https://echobuddha.com/editorial-policy/ https://echobuddha.com/how-echo-buddha-creates-content/ https://echobuddha.com/buddhist-sources-and",
+      "Error": ""
+    },
+    {
+      "Requested URL": "https://echobuddha.com/ads.txt",
+      "Status": 404,
+      "Location": "",
+      "Content-Type": "",
+      "Body SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "Body bytes": 0,
+      "Body preview": "",
+      "Error": ""
+    }
+  ]
+}

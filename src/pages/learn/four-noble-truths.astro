@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import { SITE, fullArticles } from "../../data/site";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
 const title = "Four Noble Truths Explained for Beginners";
 const description =
@@ -14,19 +15,41 @@ const truthCards = [
   { label: "3. Release", href: "/learn/buddhist-dictionary/nirvana/", description: "The fires of greed, hatred, and delusion can cool." },
   { label: "4. Path", href: "/learn/eightfold-path/", description: "The Noble Eightfold Path trains wisdom, conduct, and the mind." }
 ];
+const truthTasks = [
+  {
+    truth: "Dukkha",
+    task: "Understand it",
+    explanation: "Recognize pain, stress, dissatisfaction, and the instability of what we depend on. The task is careful understanding, not pessimism or self-blame."
+  },
+  {
+    truth: "Origin",
+    task: "Abandon its cause",
+    explanation: "Notice craving that demands pleasure, continued existence, or escape. Craving is not a claim that every illness, loss, or injustice was caused by the sufferer."
+  },
+  {
+    truth: "Cessation",
+    task: "Realize it",
+    explanation: "The teaching points to the ending of craving and the release that follows. A pleasant break is welcome, but it is not the whole meaning of cessation."
+  },
+  {
+    truth: "Path",
+    task: "Develop it",
+    explanation: "Cultivate the Noble Eightfold Path. The path is an ongoing training in view, intention, conduct, effort, mindfulness, and collectedness—not one quick technique."
+  }
+];
 const relatedArticles = ["four-noble-truths-explained-simply", "four-noble-truths-explained", "what-is-buddhism-beginner-guide"]
   .map((slug) => fullArticles.find((article) => article.slug === slug))
   .filter(Boolean);
 const sourceLinks = [
   {
     label: "Dhammacakkappavattana Sutta (SN 56.11)",
-    href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
-    note: "Primary early-discourse source for the Four Noble Truths and the path leading beyond dukkha."
+    href: "https://suttacentral.net/sn56.11/en/sujato",
+    note: "An early-discourse source for the truths and for the distinct task associated with each truth."
   },
   {
     label: "Magga-vibhanga Sutta (SN 45.8)",
-    href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
-    note: "Supports the path card by defining the Noble Eightfold Path factors."
+    href: "https://suttacentral.net/sn45.8/en/sujato",
+    note: "Analyzes the Noble Eightfold Path that forms the fourth truth. Translation terminology varies by translator."
   }
 ];
 const jsonLd = [
@@ -36,8 +59,8 @@ const jsonLd = [
     headline: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
-    author: { "@type": "Organization", name: SITE.author },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url }
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA
   },
   {
     "@context": "https://schema.org",
@@ -75,20 +98,51 @@ const jsonLd = [
 
     <section class="section section-band">
       <div class="container prose">
-        <h2>Why This Teaching Matters</h2>
+        <h2>What the Four Truths Ask a Practitioner to Do</h2>
         <p>
-          The Four Noble Truths do not say that life is only suffering. They help us see how pain becomes heavier when
-          craving, resistance, and confusion take over. When causes are understood, practice becomes possible.
+          The truths are not merely four statements to agree with. In SN 56.11, each has a different task: dukkha is to
+          be understood, its origin is to be abandoned, cessation is to be realized, and the path is to be developed.
+          That distinction prevents a common mistake—trying to “get rid of” painful experience before understanding it.
         </p>
-        <h2>Practice Today</h2>
+        <div class="truth-tasks">
+          {truthTasks.map((item) => (
+            <div>
+              <span>{item.truth}</span>
+              <h3>{item.task}</h3>
+              <p>{item.explanation}</p>
+            </div>
+          ))}
+        </div>
+        <h2>Dukkha Is Broader Than Obvious Pain</h2>
         <p>
-          Choose one difficult moment and ask: what is unavoidable pain here, and what extra suffering is being added
-          by clinging, fear, or resistance?
+          Dukkha includes unmistakable pain, but it also includes the strain of depending on changing conditions for
+          lasting security. A pleasant experience can be enjoyable and still be unreliable: it ends, changes, or cannot
+          be held on command. The teaching does not ask a grieving or injured person to dismiss pain as “just
+          attachment.” It asks for an honest view of experience and of the craving that can add another layer of demand.
+        </p>
+        <h2>A Worked Example: Criticism at Work</h2>
+        <p>
+          Imagine receiving critical feedback on work you cared about. The first truth begins with what is present:
+          embarrassment, uncertainty, and a tightening body. The second looks for the demand beneath the reaction—“I
+          must be seen as competent” or “this feeling must disappear now.” The third does not promise that the feedback
+          vanishes; it points to the possibility of not feeding that demand. The fourth asks what to develop next:
+          accurate view, an intention not to retaliate, truthful speech, and enough mindfulness to hear what is useful.
+        </p>
+        <p>
+          This sequence is Echo Buddha's editorial application of the traditional framework, not wording from the
+          discourse. Its purpose is to show why the truths work together rather than turning them into four slogans.
+        </p>
+        <h2>A Focused Practice</h2>
+        <p>
+          With one manageable difficulty, write four short lines: what hurts; what the mind is demanding; what it would
+          mean not to feed that demand for one moment; and which path factor would support the next response. Do not use
+          the exercise to blame yourself for pain or to avoid action on injustice, illness, or unsafe conditions.
         </p>
         <h2>Source Notes</h2>
         <p>
-          This is an original Echo Buddha beginner explanation of a central Buddhist framework. For formal study,
-          compare reputable translations, study communities, and qualified teachers.
+          The framework and four tasks are grounded in SN 56.11. The definitions, workplace example, and practice are
+          concise paraphrase and original editorial explanation. No translation is reproduced here. For formal study,
+          compare translations and learn how different Buddhist traditions teach dukkha, cessation, and the path.
         </p>
         <ul class="source-list">
           {sourceLinks.map((source) => (
@@ -143,5 +197,31 @@ const jsonLd = [
     display: block;
     font-size: 0.94rem;
     margin-top: 0.15rem;
+  }
+
+  .truth-tasks {
+    display: grid;
+    gap: 0.9rem;
+    margin-block: 1.5rem;
+  }
+
+  .truth-tasks > div {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 1rem;
+  }
+
+  .truth-tasks span {
+    color: var(--color-green);
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .truth-tasks h3 {
+    margin: 0.2rem 0 0.35rem;
+  }
+
+  .truth-tasks p {
+    margin: 0;
   }
 </style>

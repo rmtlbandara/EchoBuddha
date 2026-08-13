@@ -1,0 +1,8 @@
+Priority,Area,Finding,Starting state,Phase 8 state,Risk,Owner/external dependency,Validation,Status
+P1,Consent,First visit inferred Analytics acceptance,Stored true and loaded GA,No stored choice; panel opens; no network before accept,Privacy/policy mismatch,Legal adequacy remains owner/legal,Browser 6/6,REMEDIATED
+P1,AdSense,Runtime script used only for verification,Route-gated third-party runtime,Meta + ads.txt; runtime disabled,CMP/performance,AdSense account/CMP,336/336 routes,REMEDIATED
+P1,ads.txt,Root returned 404,Absent,Correct public seller line live,Verification transparency,AdSense account crawl status,Exact live-value test,REMEDIATED LIVE
+P2,CSP,Report-only without endpoint,Non-enforcing broad policy,Enforced current-runtime allowlist live,Compatibility,None for Phase 8,Live headers + browser/a11y,REMEDIATED LIVE
+P2,Caching,No explicit immutable asset class,Revalidate broadly,Hashed assets immutable; machine files 1h live,Stale search/policy,None for Phase 8,Live cache headers,REMEDIATED LIVE
+P2,Preview indexing,workers.dev lacked source noindex,200 without X-Robots-Tag,"Host-specific noindex,nofollow live",Preview indexing,None for Phase 8,Live workers.dev header,REMEDIATED LIVE
+P2,Production parity,Phase 8 not deployed,Phase 7 current,Phase 8 exact live parity,Repository/live drift,Phase 9 governance,336-page post-deploy parity,REMEDIATED LIVE

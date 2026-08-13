@@ -1,0 +1,3 @@
+Area,Routes tested,Critical,Serious,Moderate,Minor,Keyboard,Mobile,Consent accessibility,Issue,Action,Validation
+Representative browser/axe,16,0,0,0,0,Consent focus/Escape/withdrawal pass,390x844 pass,Dialog labelled/described; all actions reachable,None detected,Preserve,PASS
+Lighthouse accessibility,20,N/A,N/A,N/A,N/A,Covered separately,10 mobile + 10 desktop,Fresh panel rendered,None,Preserve,PASS

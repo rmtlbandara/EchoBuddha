@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Disclaimer";
 const description = "Read the Echo Buddha disclaimer about educational content, meditation guidance, wellness topics, and spiritual study.";
@@ -11,11 +12,7 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url
-  }
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 

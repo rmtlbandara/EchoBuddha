@@ -1,0 +1,14 @@
+URL / family,File,Repeated trust boilerplate added?,Phase 5 differentiation preserved?,Page-specific content preserved?,Global trust content centralized?,Validation
+/,src/components/SEO.astro,No,Yes,Yes,Yes,PASS
+/authors/echo-buddha-editorial/,src/pages/authors/echo-buddha-editorial.astro,No,Yes,Yes,Yes,PASS
+/about/,src/pages/about.astro,No,Yes,Yes,Yes,PASS
+/editorial-policy/,src/pages/editorial-policy.astro,No,Yes,Yes,Yes,PASS
+/how-echo-buddha-creates-content/,src/pages/how-echo-buddha-creates-content.astro,No,Yes,Yes,Yes,PASS
+/buddhist-sources-and-citations/,src/pages/buddhist-sources-and-citations.astro,No,Yes,Yes,Yes,PASS
+/quote-attribution-policy/,src/pages/quote-attribution-policy.astro,No,Yes,Yes,Yes,PASS
+/corrections/,src/pages/corrections.astro,No,Yes,Yes,Yes,PASS
+/contact/,src/pages/contact.astro,No,Yes,Yes,Yes,PASS
+/articles/what-is-karma-in-buddhism/,src/data/editorialGovernance.ts,No,Yes,Yes,Yes,PASS
+/learn/buddhist-dictionary/karma/,src/data/learn.ts,No,Yes,Yes,Yes,PASS
+Authored page families,src/pages/articles/[slug].astro; src/pages/learn/[section]/[slug].astro; src/pages/meditation/[slug].astro; src/pages/quotes/[category]/[story].astro; src/pages/daily-reflections/[slug].astro,No,Yes,Yes,Yes,PASS
+Policy/hub families,src/pages/privacy-policy.astro; src/pages/terms-of-use.astro; src/pages/disclaimer.astro; src/pages/meditation-safety.astro; src/pages/articles/index.astro,No,Yes,Yes,Yes,PASS

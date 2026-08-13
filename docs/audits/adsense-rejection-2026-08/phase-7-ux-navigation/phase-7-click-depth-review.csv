@@ -1,0 +1,11 @@
+Target URL,Page family,Importance,From homepage,From Start Here,From Learn,From Meditation,From Articles,From Search,Current depth,Target depth if change required,Problem?,Action,Evidence
+/start-here/,Orientation,Primary,1,0,2,2,2,1,1,,No,Keep direct hero/header path,Link graph + header
+/learn/,Hub,Primary owner,1,1,0,2,2,1,1,,No,Keep direct path,Link graph + header
+/learn/buddhism-for-beginners/,Learning owner,Primary,2,1,1,3,3,1,1,,No,Prominent Start Here/Learn link,Link graph
+/meditation/,Hub,Primary owner,1,1,2,0,2,1,1,,No,Keep direct path,Link graph + header
+/meditation/meditation-for-beginners/,Practice,Primary,2,1,2,1,3,1,1,,No,Prominent Start Here/Meditation link,Link graph
+/articles/,Hub,Primary,1,2,2,2,0,1,1,,No,Keep direct path,Link graph + header
+/daily-reflections/,Repeat hub,Primary,1,1,2,2,2,1,1,,No,Keep header/Today path,Link graph + header
+/quotes/,Secondary hub,Secondary,1,2,2,2,2,1,1,,No,Homepage return panel/footer,Link graph
+/tools/,Utility,Secondary,1,2,2,2,2,1,1,,No,Homepage return panel/footer,Link graph
+/about/sources-and-references/,Trust,Supporting,1,2,2,2,2,1,1,,No,Homepage trust/footer,Link graph

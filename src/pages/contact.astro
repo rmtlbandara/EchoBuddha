@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Contact";
 const description = "Contact Echo Buddha with questions, suggestions, article ideas, or general feedback about the website.";
@@ -12,9 +13,7 @@ const jsonLd = {
   description,
   url: `${SITE.url}${canonicalPath}`,
   mainEntity: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url,
+    ...PUBLISHER_SCHEMA,
     email: SITE.email
   }
 };
@@ -35,7 +34,7 @@ const jsonLd = {
       <div class="surface contact-panel">
         <span class="eyebrow">Email</span>
         <h2>Write to Echo Buddha</h2>
-        <p>Contact the editorial team at:</p>
+        <p>Contact the Echo Buddha publisher at:</p>
         <p><a class="email-link" href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
         <p>
           Please include the page URL when reporting a correction. Personal medical, legal, or spiritual counseling
@@ -45,6 +44,10 @@ const jsonLd = {
           Echo Buddha reads messages for editorial feedback, correction requests, and topic suggestions. A reply is not
           guaranteed, but clear correction reports are reviewed carefully. Read
           <a href="/corrections/">Corrections and Editorial Updates</a> for what to include.
+        </p>
+        <p>
+          “Echo Buddha Editorial” is the site's organizational publication byline. It does not identify a named person
+          or claim that an expert review team exists.
         </p>
       </div>
       <div>

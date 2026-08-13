@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-08-13T10:57:05.725Z",
+  "baseUrl": "https://echobuddha.com",
+  "pagesTested": 16,
+  "counts": {
+    "critical": 0,
+    "serious": 0,
+    "moderate": 0,
+    "minor": 0,
+    "unknown": 0
+  },
+  "rows": [
+    {
+      "path": "/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/start-here/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/articles/four-noble-truths-explained-simply/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/learn/buddhism-101/what-is-mindfulness/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/learn/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/quotes/mindfulness/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/daily-reflections/one-honest-breath/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/daily-reflections/today/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/meditation/breathing-meditation/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/search/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/tools/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/about/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/contact/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/editorial-policy/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    },
+    {
+      "path": "/privacy-policy/",
+      "h1Count": 1,
+      "mainCount": 1,
+      "violations": []
+    }
+  ],
+  "pass": true
+}

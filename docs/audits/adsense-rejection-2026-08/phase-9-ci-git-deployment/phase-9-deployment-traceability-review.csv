@@ -1,0 +1,4 @@
+"Item","Before","After","Traceable","Evidence"
+"Git source","Historical manual record","Exact main SHA input and recheck","Yes","workflow inputs/log"
+"Artifact","dist not independently attested","Per-file SHA-256 manifest","Yes","release-manifest.json"
+"Cloudflare","Prior deployment/version recorded","Deployment list captured after release","Yes after authorized run","cloudflare-deployments.json"

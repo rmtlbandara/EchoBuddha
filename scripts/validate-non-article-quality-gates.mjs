@@ -48,6 +48,11 @@ function htmlForRoute(route) {
   return existsSync(file) ? readFileSync(file, "utf8") : "";
 }
 
+function hasNoindex(html) {
+  return /<meta\s+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html)
+    || /<meta\s+content=["'][^"']*noindex[^"']*["'][^>]+name=["']robots["']/i.test(html);
+}
+
 function gate(name, passed, details = {}, severity = "error") {
   return { name, passed, severity, details };
 }
@@ -55,6 +60,11 @@ function gate(name, passed, details = {}, severity = "error") {
 async function main() {
   if (!existsSync(DIST)) throw new Error("dist/ is missing. Run `npm run build` before quality gates.");
   mkdirSync(OUT_DIR, { recursive: true });
+
+  const sitemapXml = readFileSync(path.join(DIST, "sitemap.xml"), "utf8");
+  const currentSitemapRoutes = new Set(
+    [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => new URL(match[1]).pathname)
+  );
 
   const site = await importBundled("src/data/site.ts");
   const daily = await importBundled("src/data/dailyReflections.ts");
@@ -81,7 +91,7 @@ async function main() {
   const duplicateQuoteText = duplicateGroups(quoteRows, "text");
   gates.push(gate("Unique quote text", duplicateQuoteText.length === 0, { duplicateGroups: duplicateQuoteText }));
 
-  const missingQuoteRoutes = quoteRows.filter((row) => !row.inventory).map((row) => row.route);
+  const missingQuoteRoutes = quoteRows.filter((row) => !row.html).map((row) => row.route);
   gates.push(gate("Every quote record has a generated story route", missingQuoteRoutes.length === 0, { missingRoutes: missingQuoteRoutes }));
 
   const missingStatusLabels = quoteRows
@@ -91,12 +101,11 @@ async function main() {
 
   const quoteIndexingMismatches = quoteRows
     .map((row) => {
-      const routeInventory = row.inventory;
-      if (!routeInventory) return null;
-      const noindex = routeInventory.robots.includes("noindex");
+      const noindex = hasNoindex(row.html);
+      const inSitemap = currentSitemapRoutes.has(row.route);
       if (row.indexable && noindex) return { route: row.route, issue: "indexable quote story has noindex robots" };
-      if (!row.indexable && routeInventory.inSitemap) return { route: row.route, issue: "noindex quote story is present in sitemap" };
-      if (row.indexable && !routeInventory.inSitemap) return { route: row.route, issue: "indexable quote story missing from sitemap" };
+      if (!row.indexable && inSitemap) return { route: row.route, issue: "noindex quote story is present in sitemap" };
+      if (row.indexable && !inSitemap) return { route: row.route, issue: "indexable quote story missing from sitemap" };
       return null;
     })
     .filter(Boolean);
@@ -125,6 +134,17 @@ async function main() {
     ...duplicateGroups(reflectionRows.map((row) => ({ route: row.route, value: row.details?.nextStep ?? "" })), "value")
   ];
   gates.push(gate("Daily reflection differentiators are not duplicated", repeatedReflectionDetails.length === 0, { duplicateGroups: repeatedReflectionDetails }));
+
+  const reflectionIndexingMismatches = reflectionRows
+    .map((row) => {
+      const html = htmlForRoute(row.route);
+      if (!html) return { route: row.route, issue: "daily reflection detail route is missing" };
+      if (!hasNoindex(html)) return { route: row.route, issue: "daily reflection detail is missing noindex" };
+      if (currentSitemapRoutes.has(row.route)) return { route: row.route, issue: "noindex daily reflection detail is present in sitemap" };
+      return null;
+    })
+    .filter(Boolean);
+  gates.push(gate("Daily reflection robots and sitemap policy", reflectionIndexingMismatches.length === 0, { mismatches: reflectionIndexingMismatches }));
 
   const today = byRoute.get("/daily-reflections/today/");
   const todaySchemaOk = today?.structuredDataTypes?.includes("WebPage") && !today?.structuredDataTypes?.includes("Article");

@@ -1,0 +1,16 @@
+Page family,Total,Indexable,Noindex,Policy,Primary owner,Phase 4 consequence
+article category,5,5,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+article,50,50,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+author/trust,1,1,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+daily reflection utility,1,0,1,Index only utilities with independent search value.,https://echobuddha.com/daily-reflections/,Apply the Phase 2 differentiation/rewrite handoff.
+daily reflection,30,0,30,Noindex details; index the hub.,https://echobuddha.com/daily-reflections/,Improve user-facing experience without assuming automatic reindexing.
+error utility,1,0,1,Index only utilities with independent search value.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+homepage,1,1,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+hub/utility,9,8,1,Index only utilities with independent search value.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+learn detail,45,45,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+learn hub,9,9,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+meditation detail,9,9,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+other,1,1,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+quote category,10,10,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.
+quote story,153,43,110,Index only individually authored reflections; noindex generated stories.,https://echobuddha.com/quotes/,Improve user-facing experience without assuming automatic reindexing.
+trust/policy,11,11,0,Keep indexed unless route-specific evidence says otherwise.,Per Phase 2 ownership map,Apply the Phase 2 differentiation/rewrite handoff.

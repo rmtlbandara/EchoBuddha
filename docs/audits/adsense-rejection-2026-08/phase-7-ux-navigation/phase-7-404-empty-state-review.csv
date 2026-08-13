@@ -1,0 +1,4 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+404,Home plus limited guidance,Recovery choices weak,"Home, Search, Start Here, Learn and Meditation recovery",Goal-based recovery,Actual 404 status and route interaction,PASS,No
+404 SEO,noindex and canonical disabled,Could accidentally become indexable,Preserved,Still protected,Custom validator,PASS,No
+Search empty,Generic empty message,No direct reset,Query-specific status plus clear action,Immediate recovery,Browser interaction,PASS,No

@@ -1,0 +1,6 @@
+"Workflow","Trigger","Privileged?","Untrusted code path?","Production mutation?","Finding","Action","Validation"
+"validate.yml","pull_request; push main; manual","No","PR code runs without secrets","No","Safe","Make jobs required when available","No pull_request_target"
+"extended-validation.yml","manual; monthly","No","No","No","Safe","Retain","Parsed"
+"production-smoke.yml","manual; weekly","No","No","No","Safe public reads","Retain","Parsed"
+"deploy-production.yml","manual full SHA","Yes","No PR trigger","Yes","Correctly isolated","Configure environment approval","Exact main SHA verified twice"
+"rollback-production.yml","manual version UUID + confirmation","Yes","No PR trigger","Yes","Correctly isolated","Configure environment approval","Version and confirmation validated"

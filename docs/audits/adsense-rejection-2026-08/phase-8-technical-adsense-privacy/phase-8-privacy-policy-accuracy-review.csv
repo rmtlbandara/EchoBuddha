@@ -1,0 +1,6 @@
+Policy statement,Code behavior,Direction,Match?,Evidence,Issue,Action,Validation,Legal claim?
+Analytics loads only after acceptance,Fresh/reject: 0 GA requests; accept: loader created,POLICY → CODE,Yes,Browser consent results,None,Preserve,PASS,No
+Consent preference is first-party localStorage,Versioned explicit boolean,POLICY → CODE,Yes,ConsentManager,None,Preserve,PASS,No
+AdSense runtime and units are not served,0 scripts/0 slots on 336 routes,POLICY → CODE,Yes,Route scan,None,Preserve,PASS,No
+Meta + ads.txt verify ownership,Indexable HTML meta; root ads.txt,CODE → POLICY,Yes,Build/static file,Production exact live,Preserve deployed method,PASS LIVE,No
+Certified CMP needed where Google requires it before future ads,Runtime hard-disabled; no CMP fiction,CODE → POLICY,Yes,Config/policy,External owner action,Owner selects CMP before ads,PASS BOUNDARY,No compliance claim

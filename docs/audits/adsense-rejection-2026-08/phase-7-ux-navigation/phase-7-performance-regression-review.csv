@@ -1,0 +1,7 @@
+Surface / asset,Phase 6 reference,Phase 7 result,Delta,Attribution,Regression?,Action,Evidence,Result
+Desktop representative matrix,Phase 6 local scores up to 1.0,10/10 routes 1.0 performance and 1.0 accessibility,No adverse signal,Phase 7 build,No,None,post-edit Lighthouse,PASS
+Mobile non-home routes,Phase 6 local 0.99–1.0 typical,9/9 routes 0.98–1.0; accessibility 1.0,Within run variance,Phase 7 build,No,None,post-edit Lighthouse,PASS
+Mobile homepage sample,Phase 6 local 0.99; production Phase 6 0.60,Matrix sample 0.83 with sub-second LCP; independent sample 0.72 with third-party ad/analytics long tasks,Variable,Google AdSense/Analytics network and CPU timing dominate; protected scripts unchanged,No Phase 7 code regression established,Carry field CWV/production parity to Phase 8,Lighthouse long-task attribution and protected-file diff,PASS WITH THIRD-PARTY VARIANCE
+public/search.js,9017 bytes,9329 bytes,+312 bytes / +3.46%,"Live status, clear actions, busy state",No significant,Retain,wc byte count,PASS
+src/styles/global.css,5846 bytes,5846 bytes,0,No global CSS expansion,No,None,wc byte count,PASS
+Architecture,Astro static; minimal client JS,Unchanged,0 dependencies/frameworks,No migration/hydration framework,No,None,package/diff review,PASS

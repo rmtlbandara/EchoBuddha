@@ -1,0 +1,5 @@
+Scenario,Service,Expected requests,Actual requests,Cookies/storage,Consent state,Issue,Action,Validation
+Fresh visit,Google Analytics,0,0,0 GA cookies; no preference,unset,None,Preserve,PASS
+Rejected,Google Analytics,0,0,false preference; 0 GA cookies,denied,None,Preserve,PASS
+Accepted,Google Analytics,gtag loader + measurement,1 gtag loader observed,true preference,analytics granted; ad types denied,Live collect can vary in headless/local network,Reverify after deploy,PASS LOADER
+Any current route,Google AdSense,0,0,None from site code,No ad runtime,None,Preserve until certified CMP/account decision,PASS

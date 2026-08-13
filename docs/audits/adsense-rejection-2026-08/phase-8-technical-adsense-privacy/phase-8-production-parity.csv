@@ -1,0 +1,4 @@
+Area,Production baseline,Phase 8 repository/live,Parity,Reason,Evidence,Required next action,Owner approval
+Deployment,Phase 7 deployment c784aaa1 / version 23d6d780,Phase 8 deployment 891ac394 / version fa751ad8,PASS,Owner authorized commit and deploy,Wrangler deployment list + git + deployment record,Preserve Phase 7 rollback,Complete
+Routes/indexability,336 routes; 193 sitemap; 315 search; Phase 7 parity,336/193/315 exact live,PASS,No URL/index changes,Full post-deploy production parity,Protect in Phase 9,Complete
+Consent/AdSense/headers,Default Analytics; AdSense runtime; ads.txt 404; report-only CSP,Opt-in; no ad runtime; ads.txt 200; enforced CSP,PASS LIVE,Phase 8 hardening deployed,Production parity + browser/network QA,Keep ads off pending account/CMP/legal review,Complete for Phase 8

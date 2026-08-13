@@ -1,0 +1,14 @@
+Check,Status,Evidence,Regression?,Blocking,Timestamp
+Build,PASS,Astro built 336 pages successfully.,No,No,2026-08-11T04:06:19.465Z
+Typecheck,PASS,astro sync and tsc --noEmit passed.,No,No,2026-08-11T04:06:19.467Z
+Governance lint,PASS,Governance lint passed.,No,No,2026-08-11T04:06:19.467Z
+Tests,PASS,"7 of 7 Node tests passed, including AdSense route gating and Phase 3 indexability governance.",No,No,2026-08-11T04:06:19.467Z
+SEO audit,PASS,SEO audit passed.,No,No,2026-08-11T04:06:19.467Z
+Content audit,PASS,Content remediation audit passed.,No,No,2026-08-11T04:06:19.467Z
+Phase 4 custom crawl,PASS,"336 Phase 3 URLs compared; 193 indexable, 143 noindex, 193 sitemap URLs, 0 canonical errors, 0 broken links, 0 duplicate indexable titles/descriptions, 0 invalid structured data.",No,No,2026-08-11T04:06:19.467Z
+Dependency audit,FAIL,0 critical and 2 high advisories: js-yaml and nanoid.,No; inherited from earlier phases,Yes for production deployment,2026-08-11T04:06:19.467Z
+Full release validation,FAIL,All content/code gates passed; validate:release failed only at the dependency audit.,No Phase 4 content regression,Yes for production deployment,2026-08-11T04:06:19.467Z
+Automated browser readiness,PASS,17 routes passed with 0 Axe violations at all reported severities; all 5 consent/navigation scenarios passed.,No,No,2026-08-11T04:06:19.467Z
+Manual in-app browser QA,PASS,"Nine remediated routes checked at 1440x900 and 390x844: correct H1/main/canonical/source rendering, no horizontal overflow, mobile navigation passed, and no console errors.",No,No,2026-08-11T04:06:19.467Z
+Lighthouse,FAIL,19 of 20 page/form-factor runs scored 0.96-1.00 performance; mobile privacy policy scored 0.87 with 3.84s lab LCP. Accessibility was 1.00 for all 20 runs.,The earlier mobile-homepage weakness was not reproduced; one different mobile performance outlier remains.,Yes for production deployment until rerun/acceptance,2026-08-11T04:06:19.467Z
+Production deployment,NOT RUN,No deployment authorization was provided. Production remains unchanged.,No,Owner approval plus release blockers required,2026-08-11T04:06:19.467Z

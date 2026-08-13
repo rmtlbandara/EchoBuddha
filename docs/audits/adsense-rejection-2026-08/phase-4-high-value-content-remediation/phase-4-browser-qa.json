@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-08-11T04:03:00.000Z",
+  "status": "PASS",
+  "automated": {
+    "routesTested": 17,
+    "axeViolations": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0,
+      "unknown": 0
+    },
+    "consentAndNavigationScenarios": 5,
+    "scenariosPassed": 5
+  },
+  "manualRepresentativeRoutes": [
+    "/learn/buddhism-for-beginners/",
+    "/learn/four-noble-truths/",
+    "/learn/eightfold-path/",
+    "/learn/buddhist-dictionary/metta/",
+    "/meditation/breathing-meditation/",
+    "/meditation/walking-meditation/",
+    "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+    "/articles/right-speech-buddhism/",
+    "/articles/buddhist-approach-to-anger/"
+  ],
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "results": {
+    "singleH1AndMain": true,
+    "canonicalCorrect": true,
+    "sourceLinksRendered": true,
+    "horizontalOverflow": false,
+    "mobileNavigation": "PASS",
+    "consoleErrors": 0
+  },
+  "phase5Observation": "Article metadata labels and values render without ideal spacing on the sampled article template. This was pre-existing, not introduced by Phase 4, and belongs in the Phase 5 template-feel pass."
+}

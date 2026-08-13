@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "instructions": "Add an approved record only for a genuinely new indexable URL. Answer every field; do not use this as a keyword expansion queue.",
+  "approvals": []
+}

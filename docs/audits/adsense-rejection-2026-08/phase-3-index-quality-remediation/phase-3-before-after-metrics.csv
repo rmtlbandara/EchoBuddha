@@ -1,0 +1,10 @@
+Metric,Before,After,Change,Measurement basis
+Built HTML documents,336,336,0,Fresh dist crawl and Phase 1 pre-remediation inventory
+Indexable documents,283,193,-90,Fresh dist crawl and Phase 1 pre-remediation inventory
+Noindex documents,53,143,90,Fresh dist crawl and Phase 1 pre-remediation inventory
+Sitemap URLs,283,193,-90,Fresh dist crawl and Phase 1 pre-remediation inventory
+Quote stories indexable,103,43,-60,Fresh dist crawl and Phase 1 pre-remediation inventory
+Quote stories noindex,50,110,60,Fresh dist crawl and Phase 1 pre-remediation inventory
+Daily reflection details indexable,30,0,-30,Fresh dist crawl and Phase 1 pre-remediation inventory
+Routes redirected,0,0,0,Fresh dist crawl and Phase 1 pre-remediation inventory
+Routes removed,0,0,0,Fresh dist crawl and Phase 1 pre-remediation inventory

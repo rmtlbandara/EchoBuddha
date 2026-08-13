@@ -1,0 +1,3 @@
+Control,Analytics ID,Starting state,Phase 8 state,Consent dependency,Request behavior,Storage behavior,Policy match,Issue,Action,Validation,Owner check
+Collection,G-6QB396HNKN,Default accepted,Opt-in,Affirmative acceptance,0 before choice/reject; loader after accept,No default preference; versioned explicit choice,Yes,None,Preserve,PASS,Retention/data sharing settings
+Advertising signals,G-6QB396HNKN,Ad consent denied,Ad consent denied,No current ad choice,No AdSense,ad_storage denied,Yes,None,Do not enable,PASS,Before future ads

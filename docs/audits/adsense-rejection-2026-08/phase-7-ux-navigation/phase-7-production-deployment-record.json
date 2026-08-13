@@ -1,0 +1,48 @@
+{
+  "phase": 7,
+  "deployedAt": "2026-08-11T10:49:40.710557Z",
+  "productionUrl": "https://echobuddha.com",
+  "workersDevUrl": "https://echobuddha.rmtlbandara.workers.dev",
+  "repository": "https://github.com/rmtlbandara/EchoBuddha",
+  "branch": "codex/phase-7-ux-navigation",
+  "deployedCommit": "4109b429394f4e2c02fdd2b817cc970fbb6e8037",
+  "pullRequest": "https://github.com/rmtlbandara/EchoBuddha/pull/3",
+  "pullRequestDraft": true,
+  "distributionManifestSha256": "f29c984da1feeec89dc2d8fe80d66ea9243b23eeeedfaba009c0f3e2c2f739d8",
+  "assetsPackaged": 737,
+  "assetsUploaded": 339,
+  "deployment": {
+    "id": "c784aaa1-bfed-4fa1-a7a6-c91bc6284d58",
+    "versionId": "23d6d780-5174-43c2-86d1-09fd2e574cce",
+    "percentage": 100
+  },
+  "rollback": {
+    "phase": 6,
+    "deploymentId": "7aa46f83-4fd2-4f66-a6c3-072769f12efc",
+    "versionId": "829cd28e-950c-4cca-a7d9-e1ec5a6a280d"
+  },
+  "preDeploy": {
+    "releaseValidation": "PASS",
+    "customValidation": "PASS 21/21",
+    "wranglerDryRun": "PASS",
+    "localRemoteShaParity": true
+  },
+  "postDeploy": {
+    "generatedPages": "PASS 336/336",
+    "sitemap": "PASS 193/193 exact",
+    "searchIndex": "PASS 315/315 exact",
+    "securityHeaders": "PASS 8/8 representative routes",
+    "responsiveMatrix": "PASS 135/135",
+    "interactions": "PASS 6/6",
+    "journeys": "PASS 8/8",
+    "accessibility": "PASS 0 findings across 16 live routes",
+    "consent": "PASS 5/5",
+    "lighthouseAccessibility": "PASS 20/20 at 1.0",
+    "lighthousePerformance": "Desktop 0.99-1.00; mobile 0.60-0.85; public-edge variability documented"
+  },
+  "mainMerged": false,
+  "adsenseBehaviorExpanded": false,
+  "indexabilityChanged": false,
+  "urlsChanged": false,
+  "pass": true
+}

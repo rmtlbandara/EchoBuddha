@@ -3,9 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import AdSlot from "../components/AdSlot.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import DailyReflectionCard from "../components/DailyReflectionCard.astro";
-import QuoteCard from "../components/QuoteCard.astro";
 import { dailyReflections } from "../data/dailyReflections";
-import { FEATURES, SITE, fullArticles, quotes, type Quote } from "../data/site";
+import { FEATURES, SITE, fullArticles } from "../data/site";
 
 const title = "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life";
 const description =
@@ -22,120 +21,58 @@ const getPublishedTime = (date: string) => {
 
 const homepageArticles = [...fullArticles]
   .sort((a, b) => getPublishedTime(b.date) - getPublishedTime(a.date))
-  .slice(0, 6);
+  .slice(0, 3);
 
-const featuredQuoteThemes = [
-  "Mindfulness",
-  "Compassion",
-  "Patience",
-  "Awareness",
-  "Letting Go",
-  "Practice",
-  "Meditation",
-  "Wisdom"
-];
-
-const featuredQuotes = featuredQuoteThemes
-  .map((theme) => quotes.find((quote) => quote.theme === theme))
-  .filter((quote): quote is Quote => Boolean(quote));
-
-const guideCards = [
+const corePaths = [
   {
-    title: "Learn Buddhism",
-    href: "/learn/buddhism-for-beginners/",
-    description: "Start with clear beginner teachings, core ideas, and a gentle study path.",
-    tone: "wisdom"
+    eyebrow: "Understand",
+    title: "Learn Buddhist Teachings",
+    href: "/learn/",
+    description: "Begin with Buddhism, follow the foundations, learn key terms, or read source-aware text notes.",
+    linkLabel: "Choose a learning path"
   },
   {
-    title: "Daily Reflections",
-    href: "/daily-reflections/",
-    description: "Read a short reflection, daily practice, and journal question for mindful living.",
-    tone: "dhammapada"
-  },
-  {
-    title: "Buddhist Quotes & Meanings",
-    href: "/quotes/",
-    description: "Explore original quotes with reflection stories and related Buddhist ideas.",
-    tone: "dictionary"
-  },
-  {
-    title: "Meditation Practice",
+    eyebrow: "Practice",
+    title: "Choose a Meditation",
     href: "/meditation/",
-    description: "Start with breathing, walking, loving-kindness, and short mindful practice guides.",
-    tone: "meditation"
+    description: "Find a beginner, breathing, walking, loving-kindness, or short practice that fits today.",
+    linkLabel: "Find a suitable practice"
   },
   {
-    title: "Mindful Living",
-    href: "/mindful-living/",
-    description: "Apply Buddhist wisdom to speech, work, relationships, patience, and letting go.",
-    tone: "questions"
-  },
-  {
-    title: "Practice Tools",
-    href: "/tools/",
-    description: "Use simple timers, reflection prompts, quote tools, and a 7-day mindfulness path.",
-    tone: "articles"
+    eyebrow: "Read & reflect",
+    title: "Explore Everyday Wisdom",
+    href: "/articles/",
+    description: "Read editorial guidance on Buddhist ideas, mindful living, relationships, speech, and daily choices.",
+    linkLabel: "Browse practical articles"
   }
-];
-
-const readerNeedPaths = [
-  {
-    need: "New to Buddhism",
-    href: "/learn/buddhism-for-beginners/",
-    label: "Follow the beginner learning path",
-    note: "Core teachings, simple terms, and a first week of practice."
-  },
-  {
-    need: "I want to meditate",
-    href: "/meditation/",
-    label: "Choose a gentle practice",
-    note: "Breath, walking, loving-kindness, short sessions, and safety guidance."
-  },
-  {
-    need: "I need one daily reflection",
-    href: "/daily-reflections/",
-    label: "Return for today's prompt",
-    note: "A short teaching, practice, and journal question for ordinary life."
-  },
-  {
-    need: "I found a quote",
-    href: "/quotes/",
-    label: "Read quote meanings clearly",
-    note: "Original Echo Buddha reflections with attribution boundaries."
-  },
-  {
-    need: "I want daily-life practice",
-    href: "/mindful-living/",
-    label: "Bring Dhamma into the day",
-    note: "Speech, work, relationships, patience, letting go, and compassion."
-  }
-];
-
-const resourceLinks = [
-  { label: "Start Here", href: "/start-here/" },
-  { label: "Today's Reflection", href: "/daily-reflections/today/" },
-  { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
-  { label: "Eightfold Path", href: "/learn/eightfold-path/" },
-  { label: "Search Echo Buddha", href: "/search/" }
 ];
 
 const beginnerPath = [
   { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
   { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
   { label: "Noble Eightfold Path", href: "/learn/eightfold-path/" },
-  { label: "Mindfulness", href: "/learn/buddhism-101/what-is-mindfulness/" },
   { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/" }
 ];
 
-const featuredDailyReflection = dailyReflections[0];
-const featuredQuote = quotes.find((quote) => quote.theme === "Mindfulness") ?? quotes[0];
-
-const practiceSteps = [
-  "Sit comfortably and let the shoulders soften.",
-  "Notice one natural breath from beginning to end.",
-  "Return gently when the mind becomes distracted.",
-  "End with one kind intention for the day."
+const returnPaths = [
+  {
+    label: "Read Today's Reflection",
+    href: "/daily-reflections/today/",
+    description: "One short reflection, practice, and journal question."
+  },
+  {
+    label: "Browse Original Quotes",
+    href: "/quotes/",
+    description: "Clearly labelled Echo Buddha lines with fuller reflection stories."
+  },
+  {
+    label: "Open Practice Tools",
+    href: "/tools/",
+    description: "Use a timer, daily prompt, glossary, or simple seven-day practice."
+  }
 ];
+
+const featuredDailyReflection = dailyReflections[0];
 
 const faqItems = [
   {
@@ -214,24 +151,16 @@ const homepageJsonLd = [
       <div class="hero-copy">
         <span class="eyebrow">Buddhist wisdom for a calmer everyday life</span>
         <h1>Echo Buddha</h1>
-        <p class="hero-subtitle">
-          A daily Buddhist wisdom, meditation, and mindfulness companion for modern life.
-        </p>
+        <p class="hero-subtitle">Learn Buddhist teachings, practice meditation, and reflect in daily life.</p>
         <p class="lede">
-          Echo Buddha is a calm space for Buddhist wisdom, meditation, and mindful living. Explore simple teachings,
-          daily reflections, quote meanings, beginner meditation guides, and practical mindfulness for everyday life.
+          Clear, source-aware learning and gentle practices for beginners and returning readers—without requiring
+          prior Buddhist knowledge.
         </p>
-        <div class="hero-actions" aria-label="Homepage quick links">
-          <a class="button" href="/start-here/">Start Here</a>
-          <a class="button button--secondary" href="/daily-reflections/today/">Read Today's Reflection</a>
-          <a class="button button--secondary" href="/meditation/">Explore Meditation</a>
-          <a class="hero-text-link" href="/quotes/">Browse Quotes</a>
+        <div class="hero-actions" aria-label="Homepage starting points">
+          <a class="button" href="/start-here/">New here? Start here</a>
+          <a class="button button--secondary" href="/daily-reflections/today/">Today's Reflection</a>
+          <a class="hero-text-link" href="/meditation/">Choose a meditation</a>
         </div>
-        <ul class="hero-values" aria-label="Echo Buddha values">
-          <li>Original reflections</li>
-          <li>Beginner-friendly guides</li>
-          <li>Daily practice tools</li>
-        </ul>
       </div>
       <picture class="hero-visual">
         <source
@@ -252,83 +181,41 @@ const homepageJsonLd = [
     </div>
   </section>
 
-  <section class="section guide-section">
+  <section class="section pathway-section">
     <div class="container">
       <div class="section-intro">
-        <span class="eyebrow">Start gently</span>
-        <h2>Choose a Calm Place to Begin</h2>
-        <p>
-          Echo Buddha is organized around daily usefulness: simple teachings, reflections, quote meanings,
-          meditation, mindful living, and practice tools you can return to.
-        </p>
+        <span class="eyebrow">Choose by what you need</span>
+        <h2>Learn, Practice, or Read and Reflect</h2>
+        <p>Each path has a different purpose. You can begin with one and leave the rest for another day.</p>
       </div>
-      <nav class="need-path-grid" aria-label="Reader need pathways">
-        {
-          readerNeedPaths.map((item) => (
-            <a class="need-path surface" href={item.href}>
-              <span>{item.need}</span>
-              <strong>{item.label}</strong>
-              <small>{item.note}</small>
-            </a>
-          ))
-        }
+      <nav class="pathway-grid" aria-label="Core Echo Buddha pathways">
+        {corePaths.map((path) => (
+          <a class="pathway-card surface" href={path.href}>
+            <span class="eyebrow">{path.eyebrow}</span>
+            <h3>{path.title}</h3>
+            <p>{path.description}</p>
+            <strong>{path.linkLabel}</strong>
+          </a>
+        ))}
       </nav>
-      <div class="guide-grid">
-        {
-          guideCards.map((card) => (
-            <a class="guide-card surface" href={card.href}>
-              <span class:list={["guide-icon", `guide-icon--${card.tone}`]} aria-hidden="true">
-                <span></span>
-              </span>
-              <h3>{card.title}</h3>
-              <p>{card.description}</p>
-              <span class="guide-link">Begin here</span>
-            </a>
-          ))
-        }
-      </div>
-      <nav class="resource-links" aria-label="More learning resources">
-        {resourceLinks.map((item) => <a href={item.href}>{item.label}</a>)}
-      </nav>
-      <div class="search-callout surface">
-        <div>
-          <h3>New here?</h3>
-          <p>Follow a calm beginner path through Buddhism, mindfulness, meditation, and daily reflection.</p>
-        </div>
-        <a class="button button--secondary" href="/start-here/">Start here</a>
-      </div>
     </div>
   </section>
 
   <section class="section section-band">
     <div class="container split">
       <div>
-        <span class="eyebrow">Beginner learning path</span>
-        <h2>A Gentle First Path</h2>
+        <span class="eyebrow">A beginner's first steps</span>
+        <h2>Start With the Foundations</h2>
         <p class="lede">
-          Start with the foundations, then carry one small practice into the day. You do not need to learn everything
-          at once.
+          Start Here explains how to use Echo Buddha. When you are ready to learn, these four pages form a simple
+          first sequence.
         </p>
         <ol class="beginner-path">
           {beginnerPath.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
         </ol>
+        <a class="button button--secondary beginner-link" href="/start-here/">See the newcomer guide</a>
       </div>
       <DailyReflectionCard reflection={featuredDailyReflection} compact />
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container split">
-      <div>
-        <span class="eyebrow">Buddhist quotes & meanings</span>
-        <h2>One Short Line, One Daily Practice</h2>
-        <p class="lede">
-          Echo Buddha quotes are original Buddhist-inspired reflections. Each quote links to a fuller meaning, daily
-          life example, related teaching, and practice question.
-        </p>
-        <a class="button button--secondary" href="/quotes/">Browse quote meanings</a>
-      </div>
-      <QuoteCard quote={featuredQuote} />
     </div>
   </section>
 
@@ -338,86 +225,43 @@ const homepageJsonLd = [
     </div>
   )}
 
-  <section class="section section-band">
+  <section class="section">
     <div class="container">
       <div class="section-heading">
         <div>
-          <span class="eyebrow">Latest articles</span>
-          <h2>New Reflections</h2>
+          <span class="eyebrow">Editorial reading</span>
+          <h2>Recent Articles for Daily Life</h2>
           <p>
-            Beginner-friendly readings on Buddhist wisdom, mindful living, ethical speech, letting go,
-            and a steadier relationship with thought.
+            Practical articles explore situations and questions in more depth. For a structured sequence, use the
+            Learn section instead.
           </p>
         </div>
+        <a class="button button--secondary" href="/articles/">Browse all articles</a>
       </div>
-
       <div class="article-grid">
         {homepageArticles.map((article) => <ArticleCard article={article} />)}
-      </div>
-      <div class="section-end-link">
-        <a class="button button--secondary" href="/articles/">View all articles</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-heading section-heading--simple">
-        <div>
-          <span class="eyebrow">Featured quotes</span>
-          <h2>Small Lines for a Steady Day</h2>
-          <p>Short original reflections with story pages for quiet reading and gentle daily reminders.</p>
-        </div>
-      </div>
-      <div class="quote-grid">
-        {featuredQuotes.map((quote) => <QuoteCard quote={quote} />)}
-      </div>
-      <div class="section-end-link">
-        <a class="button button--secondary" href="/quotes/">View all quotes</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section meditation-section">
-    <div class="container split">
-      <div>
-        <span class="eyebrow">Meditation guidance</span>
-        <h2>Begin With One Breath</h2>
-        <p class="lede">
-          Meditation does not need to begin with a long session. A few quiet minutes can teach the mind to notice,
-          return, and meet the day with a softer kind of attention.
-        </p>
-        <a class="button" href="/meditation-guide/">Open the meditation guide</a>
-      </div>
-      <div class="practice-panel surface">
-        <h3>A Four-Step Starter Practice</h3>
-        <ol>
-          {practiceSteps.map((step) => <li>{step}</li>)}
-        </ol>
       </div>
     </div>
   </section>
 
   <section class="section section-band">
-    <div class="container split">
-      <div>
-        <span class="eyebrow">Practice tools</span>
-        <h2>Simple Tools for Returning Daily</h2>
-        <p class="lede">
-          Use a daily reflection generator, random quote tool, 5-minute meditation timer, breathing timer, 7-day
-          mindfulness challenge, and mini Buddhist glossary. Everything works fully in the browser.
+    <div class="container return-grid">
+      <div class="return-intro">
+        <span class="eyebrow">For a quiet return</span>
+        <h2>Come Back for One Useful Moment</h2>
+        <p>
+          You do not need to follow a long path each time. Read one reflection, sit for a few minutes, or keep one
+          original line with you through the day.
         </p>
-        <a class="button" href="/tools/">Open practice tools</a>
       </div>
-      <div class="practice-panel surface">
-        <h3>Today Could Be Simple</h3>
-        <ol>
-          <li>Read one reflection.</li>
-          <li>Take three natural breaths.</li>
-          <li>Choose one kinder response.</li>
-          <li>Return tomorrow without pressure.</li>
-        </ol>
-      </div>
+      <nav class="return-links" aria-label="Returning visitor paths">
+        {returnPaths.map((path) => (
+          <a href={path.href}>
+            <strong>{path.label}</strong>
+            <span>{path.description}</span>
+          </a>
+        ))}
+      </nav>
     </div>
   </section>
 
@@ -425,22 +269,23 @@ const homepageJsonLd = [
     <div class="container about-grid">
       <div>
         <span class="eyebrow">About Echo Buddha</span>
-        <h2>Why Echo Buddha Exists</h2>
+        <h2>A Calm, Accountable Publication</h2>
       </div>
       <div class="about-copy">
         <p>
           Echo Buddha publishes original Buddhist-inspired educational reflections for readers who want calm,
-          practical wisdom in daily life. The writing is designed to be clear, respectful, and useful rather
-          than loud or commercial.
+          practical wisdom in daily life. The writing is designed to be clear, respectful, and useful rather than loud
+          or commercial.
         </p>
         <p>
-          Readers can learn through articles, quote stories, meditation guidance, and simple paths through
-          Buddhist ideas without needing to rush.
+          Sources, editorial responsibility, quote origins, correction paths, and meditation-safety boundaries remain
+          available for readers who want to verify how the publication works.
         </p>
-        <div class="about-links" aria-label="Trust and contact links">
+        <div class="about-links" aria-label="Publisher and editorial trust links">
           <a href="/about/">About</a>
-          <a href="/editorial-policy/">Editorial Policy</a>
-          <a href="/contact/">Contact</a>
+          <a href="/how-echo-buddha-creates-content/">Content Process</a>
+          <a href="/buddhist-sources-and-citations/">Sources & Citations</a>
+          <a href="/corrections/">Corrections</a>
         </div>
       </div>
     </div>
@@ -453,14 +298,12 @@ const homepageJsonLd = [
         <h2>Beginner FAQ</h2>
       </div>
       <div class="faq-list">
-        {
-          faqItems.map((item) => (
-            <details class="faq-item surface">
-              <summary>{item.question}</summary>
-              <p>{item.answer}</p>
-            </details>
-          ))
-        }
+        {faqItems.map((item) => (
+          <details class="faq-item surface">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
       </div>
     </div>
   </section>
@@ -489,6 +332,7 @@ const homepageJsonLd = [
     font-size: 1.45rem;
     line-height: 1.32;
     margin-bottom: 1rem;
+    max-width: 42rem;
   }
 
   .hero-actions {
@@ -500,42 +344,12 @@ const homepageJsonLd = [
   }
 
   .hero-text-link {
+    align-items: center;
     color: var(--color-green);
     display: inline-flex;
     font-weight: 800;
     min-height: 2.75rem;
-    align-items: center;
     padding: 0.55rem 0.25rem;
-  }
-
-  .hero-values {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    list-style: none;
-    margin: 1.35rem 0 0;
-    padding: 0;
-  }
-
-  .hero-values li {
-    background: rgba(255, 253, 248, 0.82);
-    border: 1px solid var(--color-line);
-    border-radius: 999px;
-    color: var(--color-muted);
-    font-size: 0.88rem;
-    font-weight: 700;
-    padding: 0.48rem 0.72rem;
-  }
-
-  .beginner-path {
-    display: grid;
-    gap: 0.55rem;
-    margin: 1.25rem 0 0;
-    padding-left: 1.25rem;
-  }
-
-  .beginner-path a {
-    font-weight: 800;
   }
 
   .hero-visual {
@@ -555,193 +369,64 @@ const homepageJsonLd = [
   }
 
   .section-intro {
-    max-width: 46rem;
     margin-bottom: 1.5rem;
+    max-width: 46rem;
   }
 
   .section-intro p,
-  .section-heading p {
+  .section-heading p,
+  .pathway-card p,
+  .return-intro p,
+  .about-copy {
     color: var(--color-muted);
-    margin-bottom: 0;
   }
 
-  .guide-section {
+  .pathway-section {
     padding-top: 2rem;
   }
 
-  .guide-grid,
-  .article-grid,
-  .quote-grid {
+  .pathway-grid,
+  .article-grid {
     display: grid;
     gap: 1.15rem;
   }
 
-  .need-path-grid {
-    display: grid;
-    gap: 0.75rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .need-path {
-    color: var(--color-ink);
-    display: grid;
-    gap: 0.25rem;
-    padding: 1rem;
-    text-decoration: none;
-  }
-
-  .need-path span,
-  .need-path small {
-    color: var(--color-muted);
-    font-size: 0.86rem;
-  }
-
-  .need-path strong {
-    color: var(--color-green);
-    font-family: var(--font-serif);
-    font-size: 1.04rem;
-    line-height: 1.25;
-  }
-
-  .guide-card {
+  .pathway-card {
     color: var(--color-ink);
     display: flex;
     flex-direction: column;
-    min-height: 13.25rem;
-    padding: 1.35rem;
+    min-height: 15rem;
+    padding: 1.4rem;
     text-decoration: none;
-    transition:
-      border-color 160ms ease,
-      transform 160ms ease,
-      box-shadow 160ms ease;
   }
 
-  .guide-card:hover,
-  .guide-card:focus-visible {
-    border-color: rgba(95, 127, 98, 0.42);
-    box-shadow: 0 18px 42px rgba(74, 55, 31, 0.1);
-    transform: translateY(-2px);
+  .pathway-card h3 {
+    font-size: 1.45rem;
   }
 
-  .guide-card h3 {
-    font-size: 1.25rem;
-    margin-top: 1rem;
-  }
-
-  .guide-card p {
-    color: var(--color-muted);
-    margin-bottom: 1rem;
-  }
-
-  .guide-icon {
-    align-items: center;
-    background: rgba(185, 133, 36, 0.1);
-    border: 1px solid rgba(185, 133, 36, 0.18);
-    border-radius: 50%;
-    display: inline-flex;
-    height: 3rem;
-    justify-content: center;
-    width: 3rem;
-  }
-
-  .guide-icon span {
-    background: var(--color-gold);
-    border-radius: 50%;
-    box-shadow:
-      0 0.58rem 0 rgba(95, 127, 98, 0.45),
-      0.58rem 0 0 rgba(151, 93, 47, 0.34),
-      -0.58rem 0 0 rgba(151, 93, 47, 0.28);
-    display: block;
-    height: 0.72rem;
-    width: 0.72rem;
-  }
-
-  .guide-icon--meditation {
-    background: rgba(95, 127, 98, 0.12);
-    border-color: rgba(95, 127, 98, 0.2);
-  }
-
-  .guide-icon--meditation span,
-  .guide-icon--questions span {
-    background: var(--color-green);
-  }
-
-  .guide-icon--dictionary span,
-  .guide-icon--dhammapada span {
-    background: var(--color-brown);
-  }
-
-  .guide-icon--articles {
-    background: rgba(151, 93, 47, 0.1);
-    border-color: rgba(151, 93, 47, 0.18);
-  }
-
-  .guide-link {
+  .pathway-card strong {
     color: var(--color-green);
-    display: inline-block;
-    font-weight: 800;
     margin-top: auto;
   }
 
-  .resource-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.7rem;
-    margin-top: 1.25rem;
+  .pathway-card:hover,
+  .pathway-card:focus-visible {
+    border-color: rgba(79, 111, 82, 0.42);
   }
 
-  .resource-links a {
-    background: rgba(255, 253, 248, 0.72);
-    border: 1px solid var(--color-line);
-    border-radius: 999px;
-    color: var(--color-brown);
-    font-size: 0.9rem;
-    font-weight: 800;
-    padding: 0.5rem 0.75rem;
-    text-decoration: none;
-  }
-
-  .resource-links a:hover,
-  .resource-links a:focus-visible {
-    border-color: rgba(95, 127, 98, 0.4);
-    color: var(--color-green);
-  }
-
-  .search-callout {
-    align-items: center;
+  .beginner-path {
     display: grid;
-    gap: 1rem;
-    margin-top: 1.25rem;
-    padding: 1.2rem;
+    gap: 0.55rem;
+    margin: 1.25rem 0;
+    padding-left: 1.25rem;
   }
 
-  .search-callout h3 {
-    font-size: 1.25rem;
+  .beginner-path a {
+    font-weight: 800;
   }
 
-  .search-callout p {
-    color: var(--color-muted);
-    margin-bottom: 0;
-  }
-
-  .search-callout .button {
-    width: 100%;
-  }
-
-  .ad-placement {
-    padding: 0.5rem 0;
-  }
-
-  .ad-placement :global(.ad-slot) {
-    background: rgba(255, 255, 255, 0.46);
-    border: 1px solid var(--color-line);
-    border-radius: var(--radius);
-    margin: 0.25rem 0;
-    min-height: 4.75rem;
-  }
-
-  .ad-placement--lower :global(.ad-slot) {
-    margin: 0.25rem 0 1.75rem;
+  .beginner-link {
+    margin-top: 0.25rem;
   }
 
   .section-band {
@@ -762,120 +447,47 @@ const homepageJsonLd = [
     max-width: 46rem;
   }
 
-  .section-heading--simple {
-    align-items: start;
-  }
-
-  .article-grid :global(.article-card),
-  .quote-grid :global(.quote-card) {
+  .article-grid :global(.article-card) {
     height: 100%;
-    transition:
-      border-color 160ms ease,
-      box-shadow 160ms ease,
-      transform 160ms ease;
   }
 
-  .article-grid :global(.article-card:hover),
-  .article-grid :global(.article-card:focus-within),
-  .quote-grid :global(.quote-card:hover),
-  .quote-grid :global(.quote-card:focus-within) {
-    border-color: rgba(95, 127, 98, 0.38);
-    box-shadow: 0 18px 42px rgba(74, 55, 31, 0.1);
-    transform: translateY(-2px);
-  }
-
-  .article-grid :global(.article-body > p:not(.article-kicker)) {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-  }
-
-  .article-grid :global(.article-body h3) {
-    line-height: 1.2;
-  }
-
-  .quote-grid :global(.quote-card) {
-    display: flex;
-    flex-direction: column;
-    min-height: 12.25rem;
-    overflow: hidden;
-    padding: 1.35rem;
-  }
-
-  .quote-grid :global(.quote-card::before) {
-    color: rgba(185, 133, 36, 0.14);
-    font-size: 3.1rem;
-    top: 0.55rem;
-  }
-
-  .quote-grid :global(.quote-card blockquote) {
-    font-size: 1.18rem;
-    line-height: 1.5;
-    margin: 1rem 0 1.1rem;
-  }
-
-  .quote-grid :global(.quote-card figcaption) {
-    border-top: 1px solid rgba(232, 223, 210, 0.84);
-    margin-top: auto;
-    padding-top: 0.85rem;
-  }
-
-  .quote-grid :global(.quote-card .story-link) {
-    color: var(--color-brown);
-    font-weight: 800;
-  }
-
-  .section-end-link {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 1.35rem;
-  }
-
-  .meditation-section {
-    background:
-      linear-gradient(180deg, rgba(255, 253, 248, 0) 0%, rgba(247, 240, 229, 0.5) 100%);
-  }
-
-  .practice-panel {
-    padding: 1.5rem;
-  }
-
-  .practice-panel h3 {
-    font-size: 1.35rem;
-  }
-
-  .practice-panel ol {
-    counter-reset: step;
+  .return-grid {
     display: grid;
-    gap: 0.75rem;
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
+    gap: 1.5rem 2.5rem;
   }
 
-  .practice-panel li {
-    align-items: start;
-    color: var(--color-muted);
+  .return-intro {
+    max-width: 35rem;
+  }
+
+  .return-links {
     display: grid;
-    gap: 0.75rem;
-    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.65rem;
   }
 
-  .practice-panel li::before {
-    align-items: center;
-    background: rgba(95, 127, 98, 0.12);
-    border: 1px solid rgba(95, 127, 98, 0.22);
-    border-radius: 50%;
+  .return-links a {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    color: var(--color-ink);
+    display: grid;
+    gap: 0.18rem;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+  }
+
+  .return-links a:hover,
+  .return-links a:focus-visible {
+    border-color: var(--color-green);
+  }
+
+  .return-links strong {
     color: var(--color-green);
-    content: counter(step);
-    counter-increment: step;
-    display: inline-flex;
-    font-size: 0.84rem;
-    font-weight: 800;
-    height: 1.75rem;
-    justify-content: center;
-    width: 1.75rem;
+  }
+
+  .return-links span {
+    color: var(--color-muted);
+    font-size: 0.9rem;
   }
 
   .about-section {
@@ -886,10 +498,6 @@ const homepageJsonLd = [
   .about-grid {
     display: grid;
     gap: 1rem;
-  }
-
-  .about-copy {
-    color: var(--color-muted);
   }
 
   .about-links {
@@ -926,23 +534,26 @@ const homepageJsonLd = [
     margin: 0.75rem 0 0;
   }
 
+  .ad-placement {
+    padding: 0.5rem 0;
+  }
+
+  .ad-placement :global(.ad-slot) {
+    background: rgba(255, 255, 255, 0.46);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    margin: 0.25rem 0;
+    min-height: 4.75rem;
+  }
+
+  .ad-placement--lower :global(.ad-slot) {
+    margin: 0.25rem 0 1.75rem;
+  }
+
   @media (min-width: 640px) {
-    .need-path-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .guide-grid,
-    .article-grid,
-    .quote-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .search-callout {
-      grid-template-columns: minmax(0, 1fr) auto;
-    }
-
-    .search-callout .button {
-      width: auto;
+    .pathway-grid,
+    .article-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
@@ -959,37 +570,12 @@ const homepageJsonLd = [
       display: none;
     }
 
-    .hero-subtitle {
-      margin-bottom: 0.85rem;
-    }
-
-    .hero-actions {
-      margin-top: 1.25rem;
-    }
-
     .hero-actions .button {
       min-height: 3rem;
-      padding-inline: 1rem;
     }
 
-    .hero-values {
-      margin-top: 1.15rem;
-    }
-
-    .guide-section {
-      padding-top: 1.25rem;
-    }
-
-    .guide-card,
-    .search-callout,
-    .practice-panel,
-    .faq-item {
-      padding: 1.15rem;
-    }
-
-    .quote-grid :global(.quote-card) {
+    .pathway-card {
       min-height: 0;
-      padding: 1.2rem;
     }
   }
 
@@ -999,33 +585,21 @@ const homepageJsonLd = [
     }
 
     .hero-grid {
-      grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.78fr);
       gap: 3rem;
+      grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.78fr);
     }
 
     .hero-subtitle {
       font-size: 1.8rem;
     }
 
-    .need-path-grid {
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-    }
-
-    .guide-grid,
-    .article-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .quote-grid {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+    .return-grid {
+      align-items: start;
+      grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
     }
 
     .about-grid {
       grid-template-columns: minmax(12rem, 0.8fr) minmax(0, 1.3fr);
-    }
-
-    .section-end-link {
-      justify-content: flex-end;
     }
   }
 </style>

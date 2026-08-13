@@ -1,0 +1,7 @@
+Resource class,Starting production cache,Phase 8 repository cache,Reason,Staleness risk,Cloudflare behavior,Issue,Action,Validation
+HTML,"public, max-age=0, must-revalidate",unchanged default,Fresh policy/content,Low,HTML not cached by default,None,Preserve,PASS BASELINE
+Fingerprint /_astro/*,No explicit source rule,"public, max-age=31536000, immutable",Content-addressed assets,Low,Static asset cacheable,Live exact-match verified,Add,PASS LIVE
+search-index.json,max-age=0/revalidate or edge default,"public, max-age=3600, must-revalidate",Balance freshness and crawl/request cost,At most one hour absent revalidation,Cache-Control respected,Live exact-match verified,Add explicit class,PASS LIVE
+robots.txt,max-age=0/revalidate or edge default,"public, max-age=3600, must-revalidate",Balance freshness and crawl/request cost,At most one hour absent revalidation,Cache-Control respected,Live exact-match verified,Add explicit class,PASS LIVE
+sitemap.xml,max-age=0/revalidate or edge default,"public, max-age=3600, must-revalidate",Balance freshness and crawl/request cost,At most one hour absent revalidation,Cache-Control respected,Live exact-match verified,Add explicit class,PASS LIVE
+ads.txt,404,"public, max-age=3600, must-revalidate",Balance freshness and crawl/request cost,At most one hour absent revalidation,Cache-Control respected,Live exact-match verified,Add explicit class,PASS LIVE

@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "packageManager": "npm@10.9.8",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -13,10 +18,14 @@
     "audit:dependencies": "node scripts/audit-dependencies.mjs",
     "audit:browser": "node scripts/browser-readiness-check.mjs",
     "audit:lighthouse": "node scripts/lighthouse-readiness.mjs",
+    "audit:phase8": "node scripts/validate-phase-8.mjs",
+    "audit:phase9": "node scripts/validate-phase-9.mjs",
+    "audit:governance:changes": "node scripts/report-governance-changes.mjs",
+    "audit:production-smoke": "node scripts/production-smoke-check.mjs",
     "test": "node --test tests/*.test.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
     "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content",
-    "validate:release": "npm run validate && npm run audit:dependencies"
+    "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:dependencies"
   },
   "dependencies": {
     "astro": "^7.1.3"
@@ -26,7 +35,8 @@
     "lighthouse": "^13.4.1",
     "playwright-core": "^1.61.1",
     "typescript": "^5.8.3",
-    "wrangler": "4.118.0"
+    "wrangler": "4.118.0",
+    "yaml": "2.9.0"
   },
   "overrides": {
     "postcss": "^8.5.25",

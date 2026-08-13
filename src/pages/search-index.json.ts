@@ -213,11 +213,11 @@ const hubItems: SearchIndexItem[] = [
     title: "Echo Buddha Editorial",
     url: "/authors/echo-buddha-editorial/",
     type: "Author",
-    excerpt: "Meet the editorial voice behind Echo Buddha's Buddhist-inspired wisdom, mindfulness, reflection, and meditation education.",
+    excerpt: "Understand the organizational publication byline used for Echo Buddha's Buddhist-inspired educational and reflective content.",
     category: "Editorial",
     section: "Trust",
     keywords: ["author", "editorial", "Echo Buddha Editorial"],
-    content: "Echo Buddha Editorial author profile editorial voice accessible Buddhist inspired wisdom mindfulness meditation education"
+    content: "Echo Buddha Editorial organizational publication byline publisher accountability accessible Buddhist inspired wisdom mindfulness meditation education"
   },
   {
     title: "Contact Echo Buddha",
@@ -227,7 +227,7 @@ const hubItems: SearchIndexItem[] = [
     category: "Contact",
     section: "Trust",
     keywords: ["contact", "corrections", "feedback", "suggestions"],
-    content: "contact Echo Buddha corrections feedback suggestions topic ideas editorial team email"
+    content: "contact Echo Buddha publisher corrections feedback suggestions topic ideas email"
   },
   {
     title: "Editorial Policy",

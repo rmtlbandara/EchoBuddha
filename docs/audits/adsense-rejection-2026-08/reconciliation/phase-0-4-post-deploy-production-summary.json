@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-08-11T05:27:00.087Z",
+  "baseUrl": "https://echobuddha.com",
+  "routesExpected": 336,
+  "status200": 336,
+  "fullParity": 336,
+  "parityFailures": [],
+  "productionIndexable": 193,
+  "productionNoindex": 143,
+  "productionSitemapUrls": 193,
+  "localSitemapUrls": 193,
+  "sitemapExactMatch": true,
+  "special": [
+    {
+      "requestedUrl": "http://echobuddha.com/",
+      "status": 301,
+      "location": "https://echobuddha.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyHash": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+      "bodyBytes": 167
+    },
+    {
+      "requestedUrl": "https://www.echobuddha.com/",
+      "status": 301,
+      "location": "https://echobuddha.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyHash": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+      "bodyBytes": 167
+    },
+    {
+      "requestedUrl": "https://echobuddha.com/this-route-must-not-exist-phase-0-4/",
+      "status": 404,
+      "location": "",
+      "contentType": "",
+      "bodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyBytes": 0
+    },
+    {
+      "requestedUrl": "https://echobuddha.com/robots.txt",
+      "status": 200,
+      "location": "",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyHash": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+      "bodyBytes": 2139
+    },
+    {
+      "requestedUrl": "https://echobuddha.com/sitemap.xml",
+      "status": 200,
+      "location": "",
+      "contentType": "application/xml",
+      "bodyHash": "ca2c92ed38dc5577902d4bdfdbe02475918b290407e884a0a7cbbdc4c3f058ba",
+      "bodyBytes": 18223
+    },
+    {
+      "requestedUrl": "https://echobuddha.com/ads.txt",
+      "status": 404,
+      "location": "",
+      "contentType": "",
+      "bodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyBytes": 0
+    }
+  ],
+  "status": "PASS"
+}

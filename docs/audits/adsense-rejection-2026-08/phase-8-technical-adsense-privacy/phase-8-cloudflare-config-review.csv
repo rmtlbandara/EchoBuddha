@@ -1,0 +1,6 @@
+Control,File/dashboard,Starting state,Phase 8 state,Risk,Action,Validation,Owner/dashboard check
+Static assets binding,wrangler.jsonc,./dist,unchanged,Low,Preserve,PASS,None
+Compatibility date,wrangler.jsonc,2026-06-24,unchanged,Low,No speculative change,PASS,Review routinely
+Headers/cache/preview noindex,public/_headers,Global report-only headers,Enforced CSP + cache classes + preview noindex,Medium until live,Post-deploy header smoke,PASS REPOSITORY,Verify no conflicting transform/cache rules
+Canonical redirects,Cloudflare dashboard/DNS,Live edge redirect,Preserved; no invalid static hostname rule emitted,External configuration drift,Post-deploy chain and dashboard check,PASS PRODUCTION BASELINE,Confirm redirect rules remain single-hop
+Bot/WAF/managed robots,Cloudflare dashboard,Not fully observable from repo,No crawler weakening,Unknown external,Owner verifies Mediapartners-Google/Googlebot not challenged,OWNER CHECK,Required

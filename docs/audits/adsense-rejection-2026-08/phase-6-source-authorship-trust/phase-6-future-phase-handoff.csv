@@ -1,0 +1,4 @@
+Phase,Scope,Issue,Phase 6 action,Status
+PHASE 8,AdSense/privacy/CMP/consent/technical hardening,"Revalidate monetization, privacy, and consent only in its authorized phase",None; behavior preserved,HANDOFF
+PHASE 9,CI/Git/deployment governance,Automate trust/source/index/template preservation gates,Repository validator supplied; no CI/deploy mutation,HANDOFF
+PHASE 10,Search Console/measurement,Measure discoverability and search outcomes after authorized release,No measurement claim or Search Console action,HANDOFF

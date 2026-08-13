@@ -1,0 +1,62 @@
+name: Extended Validation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 1 * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: extended-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  extended-validation:
+    name: Browser and Lighthouse evidence
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PHASE9_AUDIT_OUT: .artifacts/release-validation/phase-9-custom-validation.json
+      AUDIT_OUT_DIR: .artifacts/extended-validation
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Setup Node
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install deterministic dependencies
+        run: npm ci
+
+      - name: Install isolated Chromium
+        run: npx playwright-core install --with-deps chromium
+
+      - name: Resolve Chromium path
+        run: |
+          CHROME_PATH_VALUE=$(node -e "import('playwright-core').then(({ chromium }) => console.log(chromium.executablePath()))")
+          echo "CHROME_EXECUTABLE_PATH=$CHROME_PATH_VALUE" >> "$GITHUB_ENV"
+          echo "CHROME_PATH=$CHROME_PATH_VALUE" >> "$GITHUB_ENV"
+
+      - name: Run deterministic release gate
+        run: npm run validate:release
+
+      - name: Run consent and accessibility validation
+        run: npm run audit:browser
+
+      - name: Run non-blocking-threshold Lighthouse evidence
+        run: npm run audit:lighthouse
+
+      - name: Upload extended evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: extended-validation-${{ github.run_id }}
+          path: .artifacts/
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 14

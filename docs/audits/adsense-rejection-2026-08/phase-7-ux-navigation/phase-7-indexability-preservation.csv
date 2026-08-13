@@ -1,0 +1,6 @@
+Surface,Before,After,Change approved?,Canonical change,URL change,Sitemap change,Evidence,Result
+Indexable route inventory,Phase 6 baseline,Identical states,Not required,0,0,0,Custom before/after validator,PASS
+Canonical inventory,Phase 6 baseline,Identical,Not required,0,0,0,Custom validator,PASS
+Sitemap,193 URLs,193 URLs,Not required,0,0,0,Built sitemap count,PASS
+Search,noindex internal search,noindex unchanged,Not required,0,0,0,Search review,PASS
+404,noindex; canonical false,Unchanged,Not required,0,0,0,Custom validator,PASS

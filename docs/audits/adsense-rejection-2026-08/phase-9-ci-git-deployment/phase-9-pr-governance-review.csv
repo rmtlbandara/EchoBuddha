@@ -1,0 +1,2 @@
+"Control","Finding","State","Evidence"
+"Pull requests","Template requires scope, risk domains, tests, owner approvals, deployment declaration","Implemented",".github/pull_request_template.md"

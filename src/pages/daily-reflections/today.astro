@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import DailyReflectionCard from "../../components/DailyReflectionCard.astro";
 import { dailyReflections, getDailyReflectionForDate, getDailyReflectionPath } from "../../data/dailyReflections";
 import { SITE } from "../../data/site";
+import { PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
 const title = "Today's Buddhist Reflection Prompt";
 const description =
@@ -18,7 +19,7 @@ const jsonLd = [
     name: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    publisher: PUBLISHER_SCHEMA,
     isPartOf: {
       "@type": "CollectionPage",
       name: "Daily Buddhist Reflections",

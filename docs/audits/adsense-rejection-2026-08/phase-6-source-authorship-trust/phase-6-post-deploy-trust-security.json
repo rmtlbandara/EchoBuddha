@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-08-11T09:24:18Z",
+  "baseUrl": "https://echobuddha.com",
+  "status": "PASS",
+  "requiredHeaders": [
+    "content-security-policy-report-only",
+    "x-content-type-options",
+    "referrer-policy",
+    "permissions-policy",
+    "strict-transport-security",
+    "x-frame-options"
+  ],
+  "routes": [
+    { "route": "/authors/echo-buddha-editorial/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/about/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/editorial-policy/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/how-echo-buddha-creates-content/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/buddhist-sources-and-citations/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/quote-attribution-policy/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/corrections/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/contact/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/articles/what-is-karma-in-buddhism/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" },
+    { "route": "/learn/buddhist-dictionary/karma/", "status": 200, "phase6Wording": "PASS", "securityHeaders": "6/6" }
+  ]
+}

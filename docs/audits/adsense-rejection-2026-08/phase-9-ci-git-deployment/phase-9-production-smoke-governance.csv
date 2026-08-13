@@ -1,0 +1,4 @@
+"Check","Endpoint","Blocking on deploy","Scheduled","State","Evidence"
+"Homepage","https://echobuddha.com/","Yes","Weekly","Implemented","status; canonical; CSP; no ad runtime"
+"Sitemap","https://echobuddha.com/sitemap.xml","Yes","Weekly","Implemented","status and production origin"
+"Robots","https://echobuddha.com/robots.txt","Yes","Weekly","Implemented","status and sitemap reference"

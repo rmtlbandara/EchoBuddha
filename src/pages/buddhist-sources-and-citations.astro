@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA, SOURCE_HIERARCHY } from "../data/editorialGovernance";
 
 const title = "Buddhist Sources and Citations";
 const description =
@@ -12,11 +13,7 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url
-  }
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -41,6 +38,19 @@ const jsonLd = {
         Buddhist teaching, source notes and further reading links may point to reputable translations, Buddhist study
         resources, recognized institutions, teachers, or practice communities.
       </p>
+
+      <h2>Source Hierarchy</h2>
+      <ol>
+        {SOURCE_HIERARCHY.map((source) => (
+          <li><strong>{source.label}:</strong> {source.use}</li>
+        ))}
+      </ol>
+      <p>
+        Source quality is judged by how directly a source supports the particular claim, not by adding a large list of
+        links. A canonical reference can identify textual context; a reputable translation helps readers compare
+        wording; scholarly context can explain disputed history or terminology; and a health or safety claim needs an
+        authority suited to that claim.
+      </p>
       <p>
         A source link is not a claim that every view on an external website is endorsed. It is a starting point for
         checking context, comparing translation choices, and continuing study.
@@ -64,6 +74,11 @@ const jsonLd = {
         passages from modern translations unless rights and attribution are clear. When a public-domain or freely
         available source is referenced, the page should still avoid overquoting and should give readers a link for
         further reading where possible.
+      </p>
+      <p>
+        A link to a translation identifies source context; it does not make Echo Buddha's surrounding explanation a
+        translation. Exact wording, translator, edition, and reuse terms must be recorded when quoted wording is used.
+        Otherwise the site uses original explanation or a clearly labeled paraphrase.
       </p>
       <p>
         If a translation, edition, or source is uncertain, the page should use cautious language or remain unpublished

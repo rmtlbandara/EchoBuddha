@@ -1,91 +1,82 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import LearningCard from "../../components/LearningCard.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import { SITE } from "../../data/site";
-import { learnHubCards, popularLearningPaths, getBreadcrumbJsonLd } from "../../data/learn";
+import { getBreadcrumbJsonLd } from "../../data/learn";
 
 const title = "Learn Buddhist Wisdom for Daily Life";
 const description =
   "Explore Echo Buddha's calm learning library with beginner-friendly Buddhist teachings, dictionary terms, meditation guidance, Dhammapada reflections, sutta notes, and practical daily wisdom.";
 const canonicalPath = "/learn/";
-const textStudyLinks = [
-  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
-  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" },
-  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
-  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" },
-  { label: "Dhammacakkappavattana Sutta", href: "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/" },
-  { label: "Magga-vibhanga Sutta", href: "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/" },
-  { label: "Buddha's Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" },
-  { label: "Mindfulness of Breathing Explained Simply", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/" }
-];
-const learningPathways = [
+
+const learningGroups = [
   {
-    title: "Buddhism 101",
-    description: "Beginner lessons on the Buddha, Four Noble Truths, Eightfold Path, precepts, karma, mindfulness, and impermanence.",
+    eyebrow: "Begin",
+    title: "New to Buddhism",
+    description: "Start with orientation and the core foundations in a useful order.",
     links: [
       { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
-      { label: "First Week Buddhist Practice", href: "/articles/first-week-buddhist-practice/" },
-      { label: "The Middle Way", href: "/learn/buddhism-101/middle-way-explained-for-beginners/" },
-      { label: "Threefold Training", href: "/learn/buddhism-101/threefold-training-sila-samadhi-panna/" },
-      { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
-      { label: "Eightfold Path", href: "/learn/eightfold-path/" }
+      { label: "Buddhism 101", href: "/learn/buddhism-101/" },
+      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ]
   },
   {
-    title: "Buddhist Dictionary",
-    description: "Plain-language terms without creating duplicate broad explainers.",
+    eyebrow: "Foundations",
+    title: "Understand the Core Teachings",
+    description: "Follow the broad learning owners before narrower examples and articles.",
     links: [
-      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
-      { label: "Dhamma vs Dharma", href: "/articles/dhamma-vs-dharma/" },
-      { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" },
-      { label: "Sutta", href: "/learn/buddhist-dictionary/sutta/" },
-      { label: "Pali Canon", href: "/learn/buddhist-dictionary/pali-canon/" }
+      { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
+      { label: "Noble Eightfold Path", href: "/learn/eightfold-path/" },
+      { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/" }
     ]
   },
   {
-    title: "Text Study",
-    description: "Dhammapada and sutta notes with source-aware context for careful reading.",
+    eyebrow: "Clarify",
+    title: "Look Up a Buddhist Term",
+    description: "Use plain-language definitions when a teaching introduces an unfamiliar word.",
+    links: [
+      { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
+      { label: "Dhamma", href: "/learn/buddhist-dictionary/dhamma/" },
+      { label: "Karma", href: "/learn/buddhist-dictionary/karma/" },
+      { label: "Mettā", href: "/learn/buddhist-dictionary/metta/" }
+    ]
+  },
+  {
+    eyebrow: "Study sources",
+    title: "Read Texts With Context",
+    description: "Move into source-aware Dhammapada and sutta notes when you want deeper study.",
     links: [
       { label: "Dhammapada Reflections", href: "/learn/dhammapada-reflections/" },
-      { label: "Dhammapada Verse 1", href: "/articles/dhammapada-verse-1-meaning/" },
       { label: "Sutta for Daily Life", href: "/learn/sutta-for-daily-life/" },
-      { label: "First Teaching Context", href: "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/" },
-      { label: "Eightfold Path Source", href: "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/" },
-      { label: "Buddhist Sources", href: "/buddhist-sources-and-citations/" }
-    ]
-  },
-  {
-    title: "Practice at Home",
-    description: "Bring Buddhist training into one ordinary day through conduct, attention, and reflection.",
-    links: [
-      { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
-      { label: "How to Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" },
-      { label: "Meditation Hub", href: "/meditation/" }
-    ]
-  },
-  {
-    title: "Beginner Questions",
-    description: "Use questions when you need orientation before choosing a deeper page.",
-    links: [
-      { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" },
-      { label: "Start Here", href: "/start-here/" },
-      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" }
-    ]
-  },
-  {
-    title: "Core Teachings",
-    description: "Keep broad intent with existing pillars before reading supporting articles.",
-    links: [
-      { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
-      { label: "Five Hindrances", href: "/learn/buddhism-101/five-hindrances-in-buddhism/" },
-      { label: "Four Brahmaviharas", href: "/learn/buddhism-101/four-brahmaviharas/" },
-      { label: "Right Speech", href: "/articles/right-speech-buddhism/" },
-      { label: "Right Speech Examples", href: "/articles/right-speech-examples/" },
-      { label: "Three Poisons", href: "/articles/three-poisons-buddhism-explained/" }
+      { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
+      { label: "How Sources and Citations Work", href: "/buddhist-sources-and-citations/" }
     ]
   }
 ];
+
+const deeperLearning = [
+  {
+    title: "Continue through the foundations",
+    links: [
+      { label: "The Middle Way", href: "/learn/buddhism-101/middle-way-explained-for-beginners/" },
+      { label: "The Threefold Training", href: "/learn/buddhism-101/threefold-training-sila-samadhi-panna/" },
+      { label: "The Four Brahmavihāras", href: "/learn/buddhism-101/four-brahmaviharas/" }
+    ]
+  },
+  {
+    title: "Read selected text notes",
+    links: [
+      { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
+      { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" },
+      { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
+      { label: "Kālāma Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" },
+      { label: "First Teaching Context", href: "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/" },
+      { label: "Eightfold Path Source Note", href: "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/" }
+    ]
+  }
+];
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -93,11 +84,7 @@ const jsonLd = [
     name: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
-    isPartOf: {
-      "@type": "WebSite",
-      name: SITE.name,
-      url: SITE.url
-    }
+    isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url }
   },
   getBreadcrumbJsonLd([
     { name: "Home", href: "/" },
@@ -109,204 +96,134 @@ const jsonLd = [
 <Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
   <section class="page-hero">
     <div class="container prose">
-      <span class="eyebrow">Learning Library</span>
+      <span class="eyebrow">Structured learning</span>
       <h1>Learn Buddhist Wisdom for Daily Life</h1>
       <p class="lede">
-        A peaceful learning library for readers who want to understand Buddhist wisdom slowly and usefully. Start with
-        simple teachings, learn key terms, read reflective Dhammapada and sutta notes, and bring the practice into
-        speech, attention, kindness, and ordinary daily choices.
+        Begin with the foundations, clarify unfamiliar terms, and move into source study when you are ready. Articles
+        explore situations; Learn keeps the teaching sequence clear.
       </p>
+      <a class="button" href="/learn/buddhism-for-beginners/">Begin with Buddhism for Beginners</a>
     </div>
   </section>
 
   <section class="section section--tight">
     <div class="container">
-      <section class="pathway-section" aria-labelledby="learning-pathways-heading">
-        <span class="eyebrow">Learning pathways</span>
-        <h2 id="learning-pathways-heading">Choose the Right Learning Shelf</h2>
-        <p>
-          The Learn hub keeps one pillar per broad intent. Use these paths to find the current owner before moving into
-          narrower articles, dictionary terms, quote reflections, or practice notes.
-        </p>
-        <div class="pathway-grid">
-          {learningPathways.map((path) => (
-            <section class="surface pathway-card">
-              <h3>{path.title}</h3>
-              <p>{path.description}</p>
+      <span class="eyebrow">Choose your learning need</span>
+      <h2>Four Ways Into the Learning Library</h2>
+      <div class="learning-grid">
+        {learningGroups.map((group) => (
+          <section class="surface learning-group">
+            <span class="eyebrow">{group.eyebrow}</span>
+            <h3>{group.title}</h3>
+            <p>{group.description}</p>
+            <ul>
+              {group.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+            </ul>
+          </section>
+        ))}
+      </div>
+      <div class="search-entry surface">
+        <div>
+          <h2>Know What You Want?</h2>
+          <p>Search by teaching, term, sutta, Dhammapada theme, meditation, or everyday question.</p>
+        </div>
+        <a class="button button--secondary" href="/search/">Search Echo Buddha</a>
+      </div>
+      <section class="deeper-learning" aria-labelledby="deeper-learning-heading">
+        <span class="eyebrow">Continue when ready</span>
+        <h2 id="deeper-learning-heading">Specific Lessons Beyond the Starting Path</h2>
+        <div class="deeper-grid">
+          {deeperLearning.map((group) => (
+            <section>
+              <h3>{group.title}</h3>
               <ul>
-                {path.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+                {group.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
               </ul>
             </section>
           ))}
         </div>
       </section>
-      <div class="grid grid--3">
-        {learnHubCards.map((item) => <LearningCard item={item} />)}
-      </div>
-      <div class="search-entry surface">
-        <div>
-          <h2>Search the Learning Library</h2>
-          <p>
-            Find Buddhist terms, beginner lessons, Dhammapada reflections, sutta notes, meditation guides, articles,
-            and quotes from one calm search page.
-          </p>
-        </div>
-        <a class="button button--secondary" href="/search/">Search learning content</a>
-      </div>
-      <section class="text-study surface" aria-labelledby="text-study-heading">
-        <div>
-          <span class="eyebrow">Text study pathways</span>
-          <h2 id="text-study-heading">Dhammapada and Sutta Notes Worth Reading Next</h2>
-          <p>
-            These short guides connect classic Buddhist themes with careful modern reflection. Use them when you want
-            source-aware reading beyond a dictionary definition or quote card.
-          </p>
-        </div>
-        <ul>
-          {textStudyLinks.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
-        </ul>
-      </section>
+      <AdSlot />
     </div>
   </section>
-
-  <div class="container">
-    <AdSlot />
-  </div>
 
   <section class="section section-band">
     <div class="container split">
       <div>
-        <span class="eyebrow">Start here</span>
-        <h2>New to Buddhist Wisdom?</h2>
+        <span class="eyebrow">A simple progression</span>
+        <h2>Learn, Then Test One Teaching in Life</h2>
         <p class="lede">
-          Begin with the Buddha's life, the Four Noble Truths, the Noble Eightfold Path, and one simple daily
-          practice. You do not need to master every term at once. Let each page answer one question, then carry one
-          small practice into the day. Learning is most useful when it becomes kinder speech, steadier attention, and
-          less harm.
+          Understanding becomes useful when it shapes attention, speech, conduct, and care. You do not need to read
+          the library as a checklist.
         </p>
-        <a class="button" href="/learn/buddhism-101/">Open Buddhism 101</a>
       </div>
-      <div class="surface start-panel">
-          <h3>A Gentle First Path</h3>
-        <ol>
-          <li><a href="/learn/buddhism-101/what-is-buddhism/">Understand what Buddhism is</a></li>
-          <li><a href="/learn/buddhism-101/the-four-noble-truths-explained/">Learn the Four Noble Truths</a></li>
-          <li><a href="/meditation/meditation-for-beginners/">Try beginner meditation</a></li>
-          <li><a href="/learn/questions-about-buddhism/">Read beginner questions</a></li>
-          <li><a href="/daily-reflections/today/">Read one daily reflection</a></li>
-        </ol>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <span class="eyebrow">Popular learning paths</span>
-      <h2>Choose a Direction</h2>
-      <div class="path-grid">
-        {popularLearningPaths.map((path) => (
-          <section class="surface path-card">
-            <h3>{path.title}</h3>
-            <ul>
-              {path.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
-            </ul>
-          </section>
-        ))}
-      </div>
+      <ol class="progression surface">
+        <li><a href="/learn/buddhism-101/what-is-buddhism/">Understand what Buddhism is</a></li>
+        <li><a href="/learn/four-noble-truths/">Learn the Four Noble Truths</a></li>
+        <li><a href="/learn/eightfold-path/">See how the path is practiced</a></li>
+        <li><a href="/meditation/meditation-for-beginners/">Try a beginner meditation</a></li>
+      </ol>
     </div>
   </section>
 
   <section class="section section--tight">
-    <div class="container split">
+    <div class="container next-choice">
       <div>
-        <span class="eyebrow">Continue daily wisdom</span>
-        <h2>Read, Reflect, Practice</h2>
+        <span class="eyebrow">Different purpose</span>
+        <h2>Looking for Application Rather Than a Sequence?</h2>
         <p>
-          Explore short original <a href="/quotes/">Buddhist-inspired quotes</a>, practical
-          <a href="/articles/">articles</a>, the <a href="/learn/buddhist-dictionary/">Buddhist dictionary</a>, and
-          the full <a href="/meditation-guide/">meditation guide</a>. Echo Buddha provides Buddhist-inspired
-          educational and reflective content. It is not a substitute for professional medical, psychological, legal, or
-          religious authority guidance.
+          Use Articles for practical situations and Daily Reflections for one brief recurring prompt. These sections
+          support Learn without replacing its foundational owners.
         </p>
       </div>
-      <div class="hero-actions">
-        <a class="button" href="/quotes/">Explore daily wisdom</a>
-        <a class="button button--secondary" href="/meditation/">Start meditation</a>
-      </div>
+      <nav aria-label="Learning support sections">
+        <a href="/articles/">Read practical articles</a>
+        <a href="/daily-reflections/today/">Read today's reflection</a>
+        <a href="/meditation/">Choose a practice</a>
+      </nav>
     </div>
   </section>
 </Layout>
 
 <style>
-  .start-panel,
-  .path-card,
-  .pathway-card {
-    padding: 1.35rem;
+  .learning-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.25rem;
   }
 
-  .start-panel h3,
-  .path-card h3,
-  .pathway-card h3 {
+  .learning-group {
+    padding: 1.25rem;
+  }
+
+  .learning-group h3 {
     font-size: 1.35rem;
   }
 
-  .start-panel ol,
-  .path-card ul,
-  .pathway-card ul {
-    margin-bottom: 0;
-    padding-left: 1.25rem;
-  }
-
-  .path-grid,
-  .pathway-grid {
-    display: grid;
-    gap: 1.25rem;
-  }
-
-  .pathway-section {
-    margin-bottom: 1.5rem;
-  }
-
-  .pathway-section > p,
-  .pathway-card p {
+  .learning-group p {
     color: var(--color-muted);
-    margin-bottom: 1rem;
+  }
+
+  .learning-group ul,
+  .progression {
+    display: grid;
+    gap: 0.55rem;
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+  }
+
+  .learning-group a,
+  .progression a,
+  .next-choice nav a {
+    font-weight: 800;
   }
 
   .search-entry {
     align-items: center;
     display: grid;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     padding: 1.25rem;
-  }
-
-  .text-study {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    padding: 1.25rem;
-  }
-
-  .text-study h2 {
-    font-size: 1.45rem;
-  }
-
-  .text-study p {
-    color: var(--color-muted);
-    margin-bottom: 0;
-  }
-
-  .text-study ul {
-    display: grid;
-    gap: 0.55rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .text-study a {
-    font-weight: 800;
   }
 
   .search-entry h2 {
@@ -318,34 +235,95 @@ const jsonLd = [
     margin-bottom: 0;
   }
 
-  .hero-actions {
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
+  .deeper-learning {
+    border-top: 1px solid var(--color-line);
+    margin-top: 2rem;
+    padding-top: 2rem;
   }
 
-  @media (min-width: 760px) {
-    .path-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+  .deeper-learning h2 {
+    font-size: 1.7rem;
+  }
 
-    .pathway-grid {
+  .deeper-grid {
+    display: grid;
+    gap: 1.25rem 2rem;
+    margin-top: 1rem;
+  }
+
+  .deeper-grid h3 {
+    font-size: 1.15rem;
+  }
+
+  .deeper-grid ul {
+    display: grid;
+    gap: 0.45rem;
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+  }
+
+  .deeper-grid a {
+    font-weight: 750;
+  }
+
+  .section-band {
+    background: rgba(247, 240, 229, 0.64);
+    border-block: 1px solid var(--color-line);
+  }
+
+  .progression {
+    counter-reset: learning-step;
+    list-style: none;
+    padding: 1.25rem;
+  }
+
+  .progression li {
+    align-items: start;
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .progression li::before {
+    align-items: center;
+    background: var(--color-green-soft);
+    border-radius: 50%;
+    color: var(--color-green);
+    content: counter(learning-step);
+    counter-increment: learning-step;
+    display: inline-flex;
+    font-weight: 800;
+    height: 1.8rem;
+    justify-content: center;
+    width: 1.8rem;
+  }
+
+  .next-choice {
+    display: grid;
+    gap: 1rem 2rem;
+  }
+
+  .next-choice p {
+    color: var(--color-muted);
+  }
+
+  .next-choice nav {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  @media (min-width: 720px) {
+    .learning-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .search-entry {
+    .search-entry,
+    .next-choice {
       grid-template-columns: minmax(0, 1fr) auto;
     }
 
-    .text-study {
-      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
-    }
-  }
-
-  @media (min-width: 1040px) {
-    .pathway-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+    .deeper-grid {
+      grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
     }
   }
 </style>

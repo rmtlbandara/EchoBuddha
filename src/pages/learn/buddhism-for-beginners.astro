@@ -29,6 +29,32 @@ const firstPath = [
   { day: "Day 6", label: "Try Beginner Meditation", href: "/meditation/meditation-for-beginners/", note: "Keep it short and gentle; stop or adapt if needed." },
   { day: "Day 7", label: "Choose One Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/", note: "Repeat one small action instead of collecting more ideas." }
 ];
+const practiceMap = [
+  {
+    label: "Understand",
+    description: "Learn how dukkha, change, intention, and clinging are described. Understanding gives practice a direction; it is not a demand to accept every claim without examination."
+  },
+  {
+    label: "Live ethically",
+    description: "Use the Five Precepts and path factors such as right speech and right action to reduce avoidable harm. Ethics is part of the training, not a preliminary that meditation replaces."
+  },
+  {
+    label: "Train attention",
+    description: "Meditation and mindfulness help reveal habits as they form. The point is not to force a blank or permanently calm mind, but to see experience with more steadiness and less automatic reaction."
+  }
+];
+const sourceLinks = [
+  {
+    label: "Dhammacakkappavattana Sutta (SN 56.11)",
+    href: "https://suttacentral.net/sn56.11/en/sujato",
+    note: "An early-discourse source for the middle way, the Four Noble Truths, and the tasks associated with them."
+  },
+  {
+    label: "Analysis of the Eightfold Path (SN 45.8)",
+    href: "https://suttacentral.net/sn45.8/en/sujato",
+    note: "An early-discourse analysis of the eight path factors. Translation choices vary, so Echo Buddha paraphrases rather than reproducing the text."
+  }
+];
 const faqItems = [
   {
     question: "What should a beginner learn first in Buddhism?",
@@ -95,16 +121,25 @@ const jsonLd = [
 
   <section class="section section-band">
     <div class="container prose">
-      <span class="eyebrow">How to begin</span>
-      <h2>Learn Slowly, Practice Simply</h2>
+      <span class="eyebrow">A usable map</span>
+      <h2>What a Beginner Is Actually Learning to Do</h2>
       <p>
-        A beginner does not need to memorize every term. Start by understanding suffering, change, intention, mindful
-        awareness, and non-harming. Then choose one practice you can repeat: one breath, one careful sentence, one
-        moment of patience, or one act of compassion.
+        Buddhism is not only a set of ideas and not only a meditation technique. Across Buddhist traditions, learning,
+        ethical conduct, and cultivation of the mind support one another. A beginner can use these three activities as
+        a map without pretending that every Buddhist school explains or practices them in exactly the same way.
       </p>
+      <div class="practice-map">
+        {practiceMap.map((item) => (
+          <div>
+            <h3>{item.label}</h3>
+            <p>{item.description}</p>
+          </div>
+        ))}
+      </div>
       <p>
-        Echo Buddha's beginner pages are original educational explanations. For formal study, compare reputable
-        teachers, translations, and practice communities.
+        These are directions for training, not a test of whether someone is a “good Buddhist.” If a teaching is new,
+        first understand how the tradition uses it. Then notice what happens when it is applied to speech, attention,
+        consumption, conflict, or care. Questions and gradual learning are more useful than collecting unfamiliar terms.
       </p>
     </div>
   </section>
@@ -145,6 +180,21 @@ const jsonLd = [
         honest sentence, a pause before anger, a kinder response to suffering, or a few steady breaths. When a topic
         becomes important to your life, compare teachers, translations, and communities with care.
       </p>
+      <h2>Source and Interpretation Boundary</h2>
+      <p>
+        The traditional sources below anchor two central frameworks used throughout this learning path. The surrounding
+        explanations, examples, sequence, and seven-day plan are Echo Buddha's modern editorial application. They are
+        not presented as a translation, a complete account of all Buddhist traditions, or a substitute for a teacher or
+        practice community.
+      </p>
+      <ul class="source-list">
+        {sourceLinks.map((source) => (
+          <li>
+            <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+            <span>{source.note}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   </section>
 </Layout>
@@ -167,6 +217,44 @@ const jsonLd = [
     font-size: 0.95rem;
     font-weight: 700;
     margin-top: 0.9rem;
+  }
+
+  .practice-map {
+    display: grid;
+    gap: 1rem;
+    margin-block: 1.5rem;
+  }
+
+  .practice-map > div {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 1rem;
+  }
+
+  .practice-map h3 {
+    margin-bottom: 0.35rem;
+  }
+
+  .practice-map p {
+    margin: 0;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 0.75rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.85rem;
+  }
+
+  .source-list span {
+    color: var(--color-muted);
+    display: block;
+    font-size: 0.94rem;
+    margin-top: 0.15rem;
   }
 
   .section-heading {

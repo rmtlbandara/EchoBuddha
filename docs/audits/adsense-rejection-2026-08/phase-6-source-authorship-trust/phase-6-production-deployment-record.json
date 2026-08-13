@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-08-11T09:32:11Z",
+  "status": "PASS",
+  "repository": "https://github.com/rmtlbandara/EchoBuddha.git",
+  "branch": "codex/phase-6-source-authorship-trust",
+  "pullRequest": {
+    "number": 2,
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/2",
+    "state": "OPEN",
+    "draft": true,
+    "base": "main"
+  },
+  "release": {
+    "deployedCommit": "af91291b13fa7937cca1a8bfca4379200ce618e7",
+    "distManifestHash": "c7f2008500ab48fdb58341d00637fdb36a5bc05ee5b4f6d26f3da2588faa0724",
+    "assetsPackaged": 737,
+    "pagesBuilt": 336
+  },
+  "deployment": {
+    "provider": "Cloudflare Workers",
+    "service": "echobuddha",
+    "workersDevUrl": "https://echobuddha.rmtlbandara.workers.dev",
+    "productionUrl": "https://echobuddha.com",
+    "deploymentId": "7aa46f83-4fd2-4f66-a6c3-072769f12efc",
+    "versionId": "829cd28e-950c-4cca-a7d9-e1ec5a6a280d",
+    "trafficPercentage": 100,
+    "deployedAt": "2026-08-11T09:22:13.958378Z"
+  },
+  "rollback": {
+    "deploymentId": "8a8fe411-52a9-4831-afd7-f036e50061ee",
+    "versionId": "32882fcf-b1ca-4195-891b-e3f89d4147c8",
+    "previousTrafficPercentage": 100,
+    "capturedBeforeDeployment": true
+  },
+  "verification": {
+    "fullRouteParity": "336/336",
+    "indexablePages": 193,
+    "noindexPages": 143,
+    "sitemapUrls": 193,
+    "sitemapExactMatch": true,
+    "phase6TrustRoutesPassed": "10/10",
+    "securityHeaderRoutesPassed": "10/10",
+    "browserRoutesPassed": "16/16",
+    "consentScenariosPassed": "5/5",
+    "criticalAccessibilityViolations": 0,
+    "seriousAccessibilityViolations": 0,
+    "moderateAccessibilityViolations": 0,
+    "minorAccessibilityViolations": 0,
+    "lighthouseRunsCompleted": "20/20",
+    "lighthouseAccessibilityMinimum": 1,
+    "desktopPerformanceMinimum": 0.96,
+    "mobilePerformanceMinimum": 0.6,
+    "mobilePerformanceMaximum": 0.98,
+    "mobilePerformanceAdvisory": "Public-edge mobile lab results varied on image-heavy routes; Phase 6 changed no performance, analytics, consent, image, CSS, JavaScript, or asset-delivery behavior. Preserve for later performance/measurement review."
+  },
+  "scopeGuardrails": {
+    "mainMerged": false,
+    "phase7Started": false,
+    "adsenseBehaviorExpanded": false,
+    "manualAdsEnabled": false,
+    "adsenseReviewRequested": false,
+    "fictionalIdentityOrAuthorityAdded": false
+  }
+}

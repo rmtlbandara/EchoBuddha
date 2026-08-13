@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-08-11T05:37:00Z",
+  "baseUrl": "https://echobuddha.com",
+  "matrix": {
+    "routes": 10,
+    "formFactors": ["mobile", "desktop"],
+    "audits": 20,
+    "accessibilityMinimum": 1,
+    "desktopPerformanceMinimum": 0.98,
+    "desktopPerformanceMaximum": 1,
+    "mobilePerformanceMinimum": 0.59,
+    "mobilePerformanceMaximum": 0.85
+  },
+  "targetedMobileRepeats": {
+    "homepage": {
+      "path": "/",
+      "samples": [
+        { "performance": 0.60, "accessibility": 1, "fcpMs": 4597.035, "lcpMs": 7249.89925, "cls": 0, "tbtMs": 53, "totalBytes": 516132 },
+        { "performance": 0.61, "accessibility": 1, "fcpMs": 4558.19675, "lcpMs": 7209.2355, "cls": 0, "tbtMs": 21.5, "totalBytes": 516199 },
+        { "performance": 0.59, "accessibility": 1, "fcpMs": 4579.03225, "lcpMs": 7419.521, "cls": 0, "tbtMs": 67.5, "totalBytes": 516038 }
+      ],
+      "median": { "performance": 0.60, "lcpMs": 7249.89925 }
+    },
+    "cornerstoneArticle": {
+      "path": "/articles/four-noble-truths-explained-simply/",
+      "samples": [
+        { "performance": 0.57, "accessibility": 1, "fcpMs": 4512.64425, "lcpMs": 7576.438, "cls": 0, "tbtMs": 194.5, "totalBytes": 516299 },
+        { "performance": 0.72, "accessibility": 1, "fcpMs": 3245.9785, "lcpMs": 5609.4875, "cls": 0, "tbtMs": 68, "totalBytes": 515516 },
+        { "performance": 0.61, "accessibility": 1, "fcpMs": 4472.398, "lcpMs": 7241.9995, "cls": 0, "tbtMs": 21, "totalBytes": 516194 }
+      ],
+      "median": { "performance": 0.61, "lcpMs": 7241.9995 }
+    }
+  },
+  "changeAttribution": {
+    "homepageChangedByPhase0To4": false,
+    "cornerstoneArticleChangedByPhase0To4": false,
+    "sharedLayoutChangedByPhase0To4": false,
+    "adsenseConfigurationChangedByPhase0To4": false,
+    "evidence": "No matching paths in a1cd457..89656e5; src/data/ads.ts has identical SHA-256 in both commits."
+  },
+  "classification": "PASS_WITH_MATERIAL_EXISTING_MOBILE_PERFORMANCE_FOLLOW_UP",
+  "rollbackRequired": false,
+  "phase5Blocker": false,
+  "futureAction": "Investigate live mobile transfer/render cost and third-party loading in Phase 8/9, then validate with field data before AdSense reapplication."
+}

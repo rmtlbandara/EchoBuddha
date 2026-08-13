@@ -1,0 +1,12 @@
+Command,Status,Checked at UTC,Duration,Important result,Log location
+npm run build,PASS,2026-08-11T02:17:46.273Z,<2 seconds,336 HTML pages built; 283 indexable; 53 noindex/error,Terminal output; counts independently regenerated here
+npm run typecheck,PASS,2026-08-11T02:17:46.273Z,Included in validate:release,Astro sync and TypeScript no-emit check passed,Terminal output; Phase 1 report
+npm run lint,PASS,2026-08-11T02:17:46.273Z,Included in validate:release,Governance lint passed,Terminal output; Phase 1 report
+npm test,PASS,2026-08-11T02:17:46.273Z,Included in validate:release,6 tests passed,Terminal output; Phase 1 report
+npm run audit:seo,PASS,2026-08-11T02:17:46.273Z,Included in validate:release,SEO audit passed,Terminal output; generated governance evidence
+npm run audit:content,PASS WITH LIMITATION,2026-08-11T02:17:46.273Z,Included in validate:release,"Existing content audit passed, but Phase 1 manual review found structural/value risks its decision rules do not fail",Terminal output; Phase 1 report
+npm run audit:dependencies,FAIL,2026-08-11T02:17:46.273Z,Included in validate:release,0 critical; 2 high advisories: js-yaml and nanoid,Terminal output; Phase 1 report
+npm run validate,PASS,2026-08-11T02:17:46.273Z,Included in validate:release,"Build, typecheck, lint, tests, SEO, and content checks passed",Terminal output; Phase 1 report
+npm run validate:release,FAIL,2026-08-11T02:17:46.273Z,~8 seconds,Failed only at dependency audit,Terminal output; Phase 1 report
+npm run audit:browser,FAIL / NOT CONCLUSIVE,2026-08-11T02:17:46.273Z,~31 seconds,Local homepage networkidle timeout; no application conclusion inferred,Terminal output; Phase 1 report
+npm run audit:lighthouse,FAIL / NOT CONCLUSIVE,2026-08-11T02:17:46.273Z,~110 seconds,Lighthouse local load error with status 404; no score produced,Terminal output; Phase 1 report

@@ -1,0 +1,4 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Repeat access,One of seven primary links,Crowded nav but useful recurring action,Kept as one of five and added Today action on homepage,Strong recurring journey,Header/homepage QA,PASS,Owner review
+Detail orientation,Detail lacked visible breadcrumb,Return route less obvious,Added Daily Reflections breadcrumb,Clear parent recovery,Breadcrumb validator,PASS,No
+Monetization boundary,Daily reflections excluded from expansion,UX edit could introduce ad UI,No ad component or policy changes,Boundary unchanged,Protected-file and route validation,PASS,No

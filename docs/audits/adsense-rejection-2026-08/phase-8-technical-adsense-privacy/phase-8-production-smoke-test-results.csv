@@ -1,0 +1,7 @@
+Test,Route/resource,Expected,Repository/local result,Production result,Status,Evidence,Required after deployment
+Homepage/core routes,/ + representative journeys,200 and usable,PASS,PASS 336/336 full parity,PASS,Production parity CSV,None
+ads.txt,/ads.txt,200 exact Google line,PASS,PASS 200 exact body,PASS,Production summary,None; owner checks account crawl state
+Fresh consent,/,0 Google requests until choice,PASS,PASS 6/6 live scenarios,PASS,Post-deploy browser results,None
+Security/cache,"/, /_astro/*, machine files",Enforced CSP; intended cache classes,PASS CONFIG,PASS exact live headers,PASS,Production summary,None
+Preview noindex,workers.dev,"X-Robots-Tag noindex,nofollow",PASS CONFIG,PASS live,PASS,Production summary,None
+Ad runtime,All generated routes,0 AdSense runtime/slots,PASS 336/336,PASS 336/336,PASS,Full production parity,Keep disabled until account/CMP/legal approval

@@ -2,14 +2,22 @@
 import SearchOverlay from "./SearchOverlay.astro";
 
 const navItems = [
-  { href: "/start-here/", label: "Start Here" },
-  { href: "/learn/", label: "Learn" },
-  { href: "/daily-reflections/", label: "Daily Reflections" },
-  { href: "/meditation/", label: "Meditation" },
-  { href: "/quotes/", label: "Quotes" },
-  { href: "/tools/", label: "Tools" },
-  { href: "/articles/", label: "Articles" }
+  { href: "/start-here/", label: "Start Here", matches: ["/start-here/"] },
+  { href: "/learn/", label: "Learn", matches: ["/learn/"] },
+  { href: "/meditation/", label: "Meditation", matches: ["/meditation/", "/meditation-guide/", "/meditation-safety/"] },
+  { href: "/articles/", label: "Articles", matches: ["/articles/", "/mindful-living/"] },
+  { href: "/daily-reflections/", label: "Daily Reflection", matches: ["/daily-reflections/"] }
 ];
+
+const currentPath = Astro.url.pathname;
+const navState = navItems.map((item) => {
+  const active = item.matches.some((prefix) => currentPath === prefix || currentPath.startsWith(prefix));
+  return {
+    ...item,
+    active,
+    current: active ? (currentPath === item.href ? "page" : "location") : undefined
+  };
+});
 ---
 
 <header class="site-header">
@@ -20,7 +28,9 @@ const navItems = [
       <span>Echo Buddha</span>
     </a>
     <nav id="main-navigation" class="main-nav" aria-label="Main navigation" data-main-nav>
-      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+      {navState.map((item) => (
+        <a class:list={{ active: item.active }} href={item.href} aria-current={item.current}>{item.label}</a>
+      ))}
     </nav>
     <div class="header-actions">
       <SearchOverlay />
@@ -110,11 +120,16 @@ const navItems = [
     color: var(--color-muted);
     font-size: 0.93rem;
     font-weight: 750;
-    padding: 0.4rem 0.35rem;
+    padding: 0.4rem 0.5rem;
     text-decoration: none;
   }
 
   .main-nav a:hover {
+    color: var(--color-green);
+  }
+
+  .main-nav a.active {
+    background: var(--color-green-soft);
     color: var(--color-green);
   }
 
@@ -159,14 +174,14 @@ const navItems = [
       margin-left: auto;
     }
 
-    .menu-toggle {
+    .site-header[data-menu-ready="true"] .menu-toggle {
       display: inline-flex;
     }
 
     .main-nav {
       background: rgba(255, 253, 248, 0.96);
       border-top: 1px solid var(--color-line);
-      display: none;
+      display: grid;
       gap: 0.35rem;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       order: 3;
@@ -174,8 +189,8 @@ const navItems = [
       width: 100%;
     }
 
-    .site-header[data-nav-open="true"] .main-nav {
-      display: grid;
+    .site-header[data-menu-ready="true"][data-nav-open="false"] .main-nav {
+      display: none;
     }
 
     .main-nav a {
@@ -185,6 +200,11 @@ const navItems = [
       display: inline-flex;
       min-height: 2.75rem;
       padding: 0.55rem 0.7rem;
+    }
+
+    .main-nav a.active {
+      background: var(--color-green-soft);
+      border-color: rgba(79, 111, 82, 0.32);
     }
   }
 
@@ -212,27 +232,46 @@ const navItems = [
 <script is:inline>
   const header = document.querySelector(".site-header");
   const menuToggle = header?.querySelector("[data-menu-toggle]");
+  const mainNavigation = header?.querySelector("[data-main-nav]");
+  const mobileQuery = window.matchMedia("(max-width: 860px)");
 
-	  menuToggle?.addEventListener("click", () => {
-	    const isOpen = header?.dataset.navOpen === "true";
-	    header.dataset.navOpen = isOpen ? "false" : "true";
-	    menuToggle.setAttribute("aria-expanded", String(!isOpen));
-	    menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
-	  });
+  const setMenu = (open, returnFocus = false) => {
+    if (!header || !menuToggle) return;
+    header.dataset.navOpen = String(open);
+    menuToggle.setAttribute("aria-expanded", String(open));
+    menuToggle.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
+    if (open) {
+      const target = mainNavigation?.querySelector("a[aria-current], a");
+      target?.focus();
+    } else if (returnFocus) {
+      menuToggle.focus();
+    }
+  };
 
-  header?.querySelectorAll("[data-main-nav] a").forEach((link) => {
-    link.addEventListener("click", () => {
-      header.dataset.navOpen = "false";
-      menuToggle?.setAttribute("aria-expanded", "false");
-      menuToggle?.setAttribute("aria-label", "Open navigation menu");
-    });
+  if (header && menuToggle) {
+    header.dataset.menuReady = "true";
+    setMenu(false);
+  }
+
+  menuToggle?.addEventListener("click", () => {
+    setMenu(header?.dataset.navOpen !== "true");
+  });
+
+  mainNavigation?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => setMenu(false));
+  });
+
+  document.addEventListener("pointerdown", (event) => {
+    if (header?.dataset.navOpen !== "true" || header.contains(event.target)) return;
+    setMenu(false);
   });
 
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape" || header?.dataset.navOpen !== "true") return;
-    header.dataset.navOpen = "false";
-    menuToggle?.setAttribute("aria-expanded", "false");
-    menuToggle?.setAttribute("aria-label", "Open navigation menu");
-    menuToggle?.focus();
+    setMenu(false, true);
+  });
+
+  mobileQuery.addEventListener("change", (event) => {
+    if (!event.matches) setMenu(false);
   });
 </script>

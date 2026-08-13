@@ -1,0 +1,5 @@
+Check,Expected,Actual,Issue count,Action,Validation
+Canonical URL count,193,193,0,Preserve Phase 3 set,PASS
+Noindex URLs included,0,0,0,None,PASS
+Noncanonical host URLs,0,0,0,None,PASS
+Redirect URLs included,0,0,0,None,PASS

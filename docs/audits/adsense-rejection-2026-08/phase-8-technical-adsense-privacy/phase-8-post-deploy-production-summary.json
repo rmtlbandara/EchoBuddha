@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-08-13T10:56:09.860Z",
+  "origin": "https://echobuddha.com",
+  "pages": {
+    "expected": 336,
+    "status200": 336,
+    "fullParity": 336,
+    "failures": 0
+  },
+  "sitemap": {
+    "status": 200,
+    "expectedCount": 193,
+    "productionCount": 193,
+    "exactMatch": true
+  },
+  "navigation": {
+    "expected": [
+      [
+        "/start-here/",
+        "Start Here"
+      ],
+      [
+        "/learn/",
+        "Learn"
+      ],
+      [
+        "/meditation/",
+        "Meditation"
+      ],
+      [
+        "/articles/",
+        "Articles"
+      ],
+      [
+        "/daily-reflections/",
+        "Daily Reflection"
+      ]
+    ],
+    "actual": [
+      [
+        "/start-here/",
+        "Start Here"
+      ],
+      [
+        "/learn/",
+        "Learn"
+      ],
+      [
+        "/meditation/",
+        "Meditation"
+      ],
+      [
+        "/articles/",
+        "Articles"
+      ],
+      [
+        "/daily-reflections/",
+        "Daily Reflection"
+      ]
+    ],
+    "pass": true
+  },
+  "search": {
+    "status": 200,
+    "expectedItems": 315,
+    "productionItems": 315,
+    "exactMatch": true
+  },
+  "security": {
+    "routes": 8,
+    "passed": 8,
+    "expectedHeaders": [
+      "x-content-type-options",
+      "referrer-policy",
+      "x-frame-options",
+      "permissions-policy",
+      "strict-transport-security",
+      "content-security-policy",
+      "x-permitted-cross-domain-policies"
+    ],
+    "rows": [
+      {
+        "route": "/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/start-here/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/learn/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/meditation/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/articles/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/search/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/about/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      },
+      {
+        "route": "/privacy-policy/",
+        "status": 200,
+        "missing": [],
+        "pass": true
+      }
+    ]
+  },
+  "adsense": {
+    "runtimeScripts": 0,
+    "manualSlots": 0,
+    "adsTxtStatus": 200,
+    "adsTxtExact": true
+  },
+  "cache": {
+    "adsTxt": "public, max-age=3600, must-revalidate",
+    "searchIndex": "public, max-age=3600, must-revalidate",
+    "astroAsset": "public, max-age=31536000, immutable"
+  },
+  "edge": {
+    "missingStatus": 404,
+    "httpStatus": 301,
+    "httpLocation": "https://echobuddha.com/",
+    "wwwStatus": 301,
+    "wwwLocation": "https://echobuddha.com/",
+    "robotsStatus": 200,
+    "workersRobots": "noindex, nofollow"
+  },
+  "pass": true
+}

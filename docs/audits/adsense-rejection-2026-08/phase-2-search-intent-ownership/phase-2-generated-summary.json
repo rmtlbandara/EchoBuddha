@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-11T02:57:20.421Z",
+  "phase1RowsLoaded": 283,
+  "pagesRoleMapped": 283,
+  "clustersReviewed": 40,
+  "confirmedPrimaryOwners": 40,
+  "supportingPagesWithClearDistinctRoles": 135,
+  "conflictCases": {
+    "MEDIUM": 12,
+    "HIGH": 11,
+    "CRITICAL": 0
+  },
+  "futureActions": {
+    "CONSOLIDATE_REVIEW": 7,
+    "HUMAN_REVIEW": 14,
+    "IMPROVE": 136,
+    "KEEP": 36,
+    "NOINDEX_REVIEW": 90
+  },
+  "roleCounts": {
+    "BEGINNER_FOUNDATION": 11,
+    "CATEGORY": 15,
+    "COMPARISON_PAGE": 2,
+    "DICTIONARY_DEFINITION": 12,
+    "HUB": 14,
+    "PRACTICAL_APPLICATION": 15,
+    "PRACTICE_GUIDE": 13,
+    "PRIMARY_PILLAR": 21,
+    "QUOTE_REFLECTION": 103,
+    "RECURRING_USER_CONTENT": 30,
+    "SCENARIO_GUIDE": 9,
+    "SOURCE_STUDY": 15,
+    "SUPPORTING_EXPLANATION": 10,
+    "TRUST_POLICY": 12,
+    "UTILITY": 1
+  },
+  "contentExpansionHolds": 13,
+  "humanOwnerReviewItems": 12,
+  "searchEvidenceFreshness": "STALE / INSUFFICIENT",
+  "applicationFilesChangedByGenerator": 0,
+  "destructiveActionsPerformed": 0,
+  "deployed": false
+}

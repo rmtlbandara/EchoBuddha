@@ -1,0 +1,21 @@
+formFactor,label,path,performanceScore,accessibilityScore,fcpMs,lcpMs,cls,tbtMs,speedIndexMs,totalByteWeight
+mobile,Homepage,/,0.83,1,936.8621,987.077625,0,676.5689500000001,1468.870400979979,570926
+mobile,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,917.3451,967.3451,0,64,1287.584190410752,497081
+mobile,Learning page,/learn/buddhism-101/what-is-mindfulness/,0.98,1,756.1412,906.1412,0,171,1050.6034270670045,489295
+mobile,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,1024.0142,1024.0142,0,51,1024.0142,210330
+mobile,Daily reflection,/daily-reflections/one-honest-breath/,1,1,760.8269,1060.8269,0,27.5,760.8269,207657
+mobile,Meditation page,/meditation/breathing-meditation/,1,1,764.0935999999999,1064.0936,0,45.5,764.0935999999999,209023
+mobile,Topic hub,/quotes/mindfulness/,0.99,1,769.4649,1045.4649,0.001734273664773513,133.0192750000001,769.4649,210268
+mobile,Search,/search/,0.98,1,1076.2916,1076.2916,0,142.34559999999988,1076.2916,206285
+mobile,Tools,/tools/,1,1,1064.3547,1131.3547,0.001734273664773513,51.5,1064.3547,220700
+mobile,Privacy,/privacy-policy/,1,1,756.3823,999.3823,0.001734273664773513,29,756.3823,206463
+desktop,Homepage,/,1,1,303.7222,483.72219999999993,0.0003632681237862187,0,534.8539142276311,655050
+desktop,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,257.1495,268.1495,0.0003632681237862187,0,446.5780702823207,496384
+desktop,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,207.54070000000002,259.5407,0.0003632681237862187,0,413.5954438242331,489473
+desktop,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,204.67680000000001,244.67680000000001,0,0,204.67680000000001,296440
+desktop,Daily reflection,/daily-reflections/one-honest-breath/,1,1,259.8815,259.8815,0,0,259.8815,207657
+desktop,Meditation page,/meditation/breathing-meditation/,1,1,239.68240000000003,300.68240000000003,0.0003632681237862187,0,357.30416408686494,209013
+desktop,Topic hub,/quotes/mindfulness/,1,1,209.6633,309.6633,0.0003632681237862187,0,209.6633,337736
+desktop,Search,/search/,1,1,224.61335,303.2267,0,0,294.50814242546903,206285
+desktop,Tools,/tools/,1,1,285.0283,330.0283,0.0003632681237862187,0,285.0283,220765
+desktop,Privacy,/privacy-policy/,1,1,203.6327,277.6327,0.0003632681237862187,5,210.447082360453,206469

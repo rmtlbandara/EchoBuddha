@@ -1,0 +1,6 @@
+"Workflow","File","Trigger","Purpose","Secrets","Environment","Concurrency","Blocking role","State"
+"Release validation",".github/workflows/validate.yml","pull_request main; push main; manual","Release and browser gates","None","None","Per ref; superseded validation cancels","Required PR/main checks when branch rules become available","Implemented"
+"Extended validation",".github/workflows/extended-validation.yml","manual; monthly","Browser and Lighthouse evidence","None","None","Per ref","Informational/warning","Implemented"
+"Production smoke",".github/workflows/production-smoke.yml","manual; weekly","Read-only public verification","None","None","Single smoke group","Monitoring","Implemented"
+"Deploy production",".github/workflows/deploy-production.yml","manual exact SHA","Validate/build once/deploy/smoke","Cloudflare token and account ID","production","echobuddha-production; no cancellation","Production blocker","Repository complete; external environment pending"
+"Rollback production",".github/workflows/rollback-production.yml","manual version UUID and ROLLBACK confirmation","Known-version rollback and smoke","Cloudflare token and account ID","production","echobuddha-production; no cancellation","Recovery control","Repository complete; external environment pending"

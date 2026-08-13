@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-08-11T04:04:00.000Z",
+  "checks": [
+    {
+      "check": "Build",
+      "status": "PASS",
+      "evidence": "Astro built 336 pages successfully.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Typecheck",
+      "status": "PASS",
+      "evidence": "astro sync and tsc --noEmit passed.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Governance lint",
+      "status": "PASS",
+      "evidence": "Governance lint passed.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Tests",
+      "status": "PASS",
+      "evidence": "7 of 7 Node tests passed, including AdSense route gating and Phase 3 indexability governance.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "SEO audit",
+      "status": "PASS",
+      "evidence": "SEO audit passed.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Content audit",
+      "status": "PASS",
+      "evidence": "Content remediation audit passed.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Phase 4 custom crawl",
+      "status": "PASS",
+      "evidence": "336 Phase 3 URLs compared; 193 indexable, 143 noindex, 193 sitemap URLs, 0 canonical errors, 0 broken links, 0 duplicate indexable titles/descriptions, 0 invalid structured data.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Dependency audit",
+      "status": "FAIL",
+      "evidence": "0 critical and 2 high advisories: js-yaml and nanoid.",
+      "regression": "No; inherited from earlier phases",
+      "blocking": "Yes for production deployment"
+    },
+    {
+      "check": "Full release validation",
+      "status": "FAIL",
+      "evidence": "All content/code gates passed; validate:release failed only at the dependency audit.",
+      "regression": "No Phase 4 content regression",
+      "blocking": "Yes for production deployment"
+    },
+    {
+      "check": "Automated browser readiness",
+      "status": "PASS",
+      "evidence": "17 routes passed with 0 Axe violations at all reported severities; all 5 consent/navigation scenarios passed.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Manual in-app browser QA",
+      "status": "PASS",
+      "evidence": "Nine remediated routes checked at 1440x900 and 390x844: correct H1/main/canonical/source rendering, no horizontal overflow, mobile navigation passed, and no console errors.",
+      "regression": "No",
+      "blocking": "No"
+    },
+    {
+      "check": "Lighthouse",
+      "status": "FAIL",
+      "evidence": "19 of 20 page/form-factor runs scored 0.96-1.00 performance; mobile privacy policy scored 0.87 with 3.84s lab LCP. Accessibility was 1.00 for all 20 runs.",
+      "regression": "The earlier mobile-homepage weakness was not reproduced; one different mobile performance outlier remains.",
+      "blocking": "Yes for production deployment until rerun/acceptance"
+    },
+    {
+      "check": "Production deployment",
+      "status": "NOT RUN",
+      "evidence": "No deployment authorization was provided. Production remains unchanged.",
+      "regression": "No",
+      "blocking": "Owner approval plus release blockers required"
+    }
+  ]
+}

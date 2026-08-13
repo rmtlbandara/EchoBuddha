@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import { SITE, articleCategories, fullArticles } from "../../data/site";
+import { PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
 const title = "Articles and Blog";
 const description = "Browse Echo Buddha articles on mindfulness, meditation, compassion, patience, and Buddhist-inspired daily reflection.";
@@ -14,11 +15,7 @@ const jsonLd = [
     url: `${SITE.url}/articles/`,
     description,
     inLanguage: "en",
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url
-    }
+    publisher: PUBLISHER_SCHEMA
   },
   {
     "@context": "https://schema.org",

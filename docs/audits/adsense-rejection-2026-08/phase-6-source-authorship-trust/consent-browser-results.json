@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-08-11T08:35:03.789Z",
+  "baseUrl": "http://127.0.0.1:4321",
+  "analyticsId": "G-6QB396HNKN",
+  "model": "Analytics defaults accepted without auto-opening the popup, matching current owner-approved repository behavior.",
+  "scenarios": [
+    {
+      "name": "first visit default accepted",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":true,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T08:16:58.527Z\"}",
+        "panelOpen": "false",
+        "gtagScriptRequests": 1,
+        "analyticsCollectionRequests": 1,
+        "adsenseRequests": 4,
+        "analyticsCookieCount": 2
+      }
+    },
+    {
+      "name": "return visit after rejection",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T08:17:03.270Z\"}",
+        "analyticsRequests": 0,
+        "adsenseRequests": 0
+      }
+    },
+    {
+      "name": "accept analytics from privacy settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":true,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T08:17:03.938Z\"}",
+        "gtagScriptRequests": 1
+      }
+    },
+    {
+      "name": "keyboard withdrawal through reopened settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T08:17:04.668Z\"}",
+        "analyticsCookieCount": 0
+      }
+    },
+    {
+      "name": "mobile navigation and consent keyboard escape",
+      "pass": true,
+      "details": {
+        "navVisible": true,
+        "acceptFocused": true,
+        "closed": true
+      }
+    }
+  ],
+  "pass": true
+}

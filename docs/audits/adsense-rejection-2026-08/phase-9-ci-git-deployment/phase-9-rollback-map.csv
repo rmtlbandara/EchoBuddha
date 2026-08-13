@@ -1,0 +1,4 @@
+"Scenario","Preferred response","Target","Authorization","Validation","Record"
+"Severe availability/security/privacy regression","Rollback","Last recorded known-good Cloudflare version","Owner + production environment","Production smoke","Rollback artifact + incident record"
+"Editorial typo/minor issue","Fix forward","New exact main SHA","Normal PR/release authorization","Full release + smoke","Deployment record"
+"Unknown external outage","Investigate first","No immediate mutation","Owner decision","Cloudflare/status evidence","Incident notes"

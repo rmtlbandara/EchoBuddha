@@ -1,0 +1,5 @@
+Priority,Item,Decision needed,Blocking Phase 7 completion?,Blocking deployment?,Evidence,Recommendation,Status
+P2,Owner visual/copy review,Confirm final five-link labels and homepage voice,No,No,Owner authorized commit/deploy; visual screenshots and report retained,Continue review through draft PR #3,NON-BLOCKING
+P2,Production authorization,Explicitly authorize commit/push/deploy,No,No,Owner authorization received; deployment and parity complete,No further Phase 7 action,COMPLETE
+P3,Mobile homepage field performance,Review real-user CWV after deployment,No,No,Synthetic third-party variance,Phase 8 field measurement,HANDOFF
+P3,Consent/analytics behavior,Legal/owner validation in Phase 8,No,No,Existing model deliberately preserved,Do not change in Phase 7,HANDOFF

@@ -14,7 +14,6 @@ import {
   quoteCategories,
   quotes
 } from "../data/site";
-import { dailyReflections, getDailyReflectionPath } from "../data/dailyReflections";
 
 type SitemapEntry = {
   path: string;
@@ -80,9 +79,6 @@ export const GET: APIRoute = () => {
       path: getQuoteStoryPath(quote),
       lastmod: quote.story?.updatedDate
     }));
-  const dailyReflectionPaths: SitemapEntry[] = dailyReflections.map((reflection) => ({
-    path: getDailyReflectionPath(reflection)
-  }));
   const learningSectionPaths: SitemapEntry[] = learningSections.map((section) => ({
     path: section.href
   }));
@@ -104,8 +100,7 @@ export const GET: APIRoute = () => {
     ...articlePaths,
     ...articleCategoryPaths,
     ...quoteCategoryPaths,
-    ...quoteStoryPaths,
-    ...dailyReflectionPaths
+    ...quoteStoryPaths
   ]);
   const urls = entries
     .map((entry) => {

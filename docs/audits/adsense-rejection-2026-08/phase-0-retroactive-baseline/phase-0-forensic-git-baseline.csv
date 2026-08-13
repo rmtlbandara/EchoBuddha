@@ -1,0 +1,7 @@
+Evidence,Value,Confidence,Reason
+FORENSIC_BASELINE_COMMIT,a1cd457345587670133bfc58af1cafd80d038e6e,High,All post-rejection Phase 1–4 branches were created from this commit; reflog records only branch checkouts on 2026-08-11 and no later commits.
+ORIGIN_MAIN_AT_RECONCILIATION_START,a1cd457345587670133bfc58af1cafd80d038e6e,High,Direct git rev-parse of origin/main.
+CURRENT_BRANCH,codex/reconciliation-phase-0-4-stabilization,High,Direct git branch query.
+AHEAD_BEHIND,0/0,High,Direct origin/main...HEAD comparison.
+HISTORICAL_PRODUCTION_SHA,UNVERIFIED,None,A main-branch commit is not proof of a deployment; deployment records must be checked separately.
+PRE_PHASE_1_WORKING_TREE,NOT FULLY RECOVERABLE,Medium,"Commit is recoverable, but any uncommitted state present immediately before Phase 1 cannot be proven from Git."

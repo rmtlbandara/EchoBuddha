@@ -1,0 +1,5 @@
+Area,Before,Risk / friction,Action,After,Evidence,Result,Human review?
+Homepage,Trust links diffuse,Publisher context easy to miss,Added compact About/Process/Sources/Corrections panel,Trust visible near end of journey,Route checks,PASS,No
+Footer,Trust routes mixed with general links,Weak grouping,Created About & Trust group,"Author, editorial, process, sources, corrections and contact grouped",Footer browser QA,PASS,No
+Content templates,Phase 6 author/source/correction behavior,UX work could hide evidence,No substantive trust template changes,"Bylines, sources, correction and attribution preserved",Protected-file diff and custom validator,PASS,No
+Meditation safety,Visible safety guidance,Could be displaced by simplification,Retained safety links and notes,Safety remains visible,Safety validator,PASS,No

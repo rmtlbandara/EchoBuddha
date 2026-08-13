@@ -1,6 +1,9 @@
 export const ADSENSE = {
   enabled: true,
   publisherId: "ca-pub-3911157640549350",
+  adsTxtPublisherId: "pub-3911157640549350",
+  verificationMethod: "meta-and-ads-txt",
+  runtimeScriptEnabled: false,
   manualSlotsEnabled: false
 };
 

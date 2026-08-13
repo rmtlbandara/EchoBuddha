@@ -36,11 +36,11 @@ for (const consentType of ["ad_storage", "ad_user_data", "ad_personalization", "
 if (!consent.includes("analytics_storage: \"denied\"")) {
   failures.push("ConsentManager must still support denying analytics storage.");
 }
-if (!consent.includes("writePreference(true)")) {
-  failures.push("ConsentManager must default missing analytics preferences to accepted.");
+if (!/else \{\s*openPanel\(\);\s*\}/.test(consent)) {
+  failures.push("ConsentManager must open the preference panel when no stored choice exists.");
 }
-if (consent.includes("window.setTimeout(openPanel")) {
-  failures.push("ConsentManager must not auto-open the analytics popup for missing preferences.");
+if (/if \(!preference\) writePreference\(true\)/.test(consent)) {
+  failures.push("ConsentManager must not infer Analytics acceptance on first visit.");
 }
 if (!consent.includes(".consent-panel[hidden]")) {
   failures.push("ConsentManager must explicitly hide the panel when the hidden attribute is set.");
@@ -48,7 +48,7 @@ if (!consent.includes(".consent-panel[hidden]")) {
 
 const site = read("src/data/site.ts");
 if (!site.includes("adsEnabled: true")) {
-  failures.push("Owner-approved AdSense script activation must remain explicit in src/data/site.ts.");
+  failures.push("AdSense verification feature availability must remain centralized in src/data/site.ts.");
 }
 
 const ads = read("src/data/ads.ts");
@@ -57,6 +57,9 @@ if (!ads.includes('publisherId: "ca-pub-3911157640549350"')) {
 }
 if (!ads.includes("manualSlotsEnabled: false")) {
   failures.push("Manual AdSense slots must remain disabled until exact placements and slot IDs are approved.");
+}
+if (!ads.includes("runtimeScriptEnabled: false")) {
+  failures.push("AdSense runtime must remain disabled pending account, CMP, and legal approval.");
 }
 if (!ads.includes("verificationExactPaths") || !ads.includes('"/"')) {
   failures.push("AdSense site verification must remain available on the homepage.");
@@ -97,9 +100,12 @@ if (!fs.existsSync(path.join(root, "public/_headers"))) {
     "X-Content-Type-Options: nosniff",
     "Referrer-Policy: strict-origin-when-cross-origin",
     "X-Frame-Options: DENY",
-    "Content-Security-Policy-Report-Only:"
+    "Content-Security-Policy:"
   ]) {
     if (!headers.includes(required)) failures.push(`Missing required security header: ${required}`);
+  }
+  if (headers.includes("Content-Security-Policy-Report-Only:")) {
+    failures.push("Phase 8 requires an enforced CSP rather than a report-only policy without a reporting endpoint.");
   }
 }
 

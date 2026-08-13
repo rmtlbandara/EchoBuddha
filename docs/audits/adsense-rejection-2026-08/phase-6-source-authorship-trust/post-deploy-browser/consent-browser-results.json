@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-08-11T09:23:44.129Z",
+  "baseUrl": "https://echobuddha.com",
+  "analyticsId": "G-6QB396HNKN",
+  "model": "Analytics defaults accepted without auto-opening the popup, matching current owner-approved repository behavior.",
+  "scenarios": [
+    {
+      "name": "first visit default accepted",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":true,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T09:23:04.223Z\"}",
+        "panelOpen": "false",
+        "gtagScriptRequests": 1,
+        "analyticsCollectionRequests": 1,
+        "adsenseRequests": 4,
+        "analyticsCookieCount": 2
+      }
+    },
+    {
+      "name": "return visit after rejection",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T09:23:08.118Z\"}",
+        "analyticsRequests": 0,
+        "adsenseRequests": 0
+      }
+    },
+    {
+      "name": "accept analytics from privacy settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":true,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T09:23:09.053Z\"}",
+        "gtagScriptRequests": 1
+      }
+    },
+    {
+      "name": "keyboard withdrawal through reopened settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-07-21\",\"updatedAt\":\"2026-08-11T09:23:09.797Z\"}",
+        "analyticsCookieCount": 0
+      }
+    },
+    {
+      "name": "mobile navigation and consent keyboard escape",
+      "pass": true,
+      "details": {
+        "navVisible": true,
+        "acceptFocused": true,
+        "closed": true
+      }
+    }
+  ],
+  "pass": true
+}

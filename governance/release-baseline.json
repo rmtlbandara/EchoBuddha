@@ -1,0 +1,2548 @@
+{
+  "version": 1,
+  "capturedAt": "2026-08-13",
+  "sourceCommit": "e01071b114cd3615840dfa630f5ee03c1348a570",
+  "production": {
+    "implementationCommit": "8de969c74139a68b88849f2404e3dc7c353e6a12",
+    "deployedAt": "2026-08-13T10:54:18.802821Z",
+    "deploymentId": "891ac394-206e-4c9a-ba55-811b397fb6a4",
+    "versionId": "fa751ad8-ebeb-45b3-983a-96703733631b",
+    "previousGoodVersionId": "23d6d780-5174-43c2-86d1-09fd2e574cce"
+  },
+  "counts": {
+    "html": 336,
+    "indexable": 193,
+    "noindexOrError": 143,
+    "sitemap": 193,
+    "search": 315,
+    "primaryOwners": 40
+  },
+  "origin": "https://echobuddha.com",
+  "routes": [
+    {
+      "route": "/404.html",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "",
+      "inSitemap": false
+    },
+    {
+      "route": "/about/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/about/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/beginning-a-daily-mindfulness-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/buddhism-for-beginners-simple-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/buddhist-approach-to-anger/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/buddhist-gratitude-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-forgiveness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-impermanence/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/buddhist-wisdom-for-overthinking/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/category/meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/category/mindfulness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/category/practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/category/practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/category/reflection/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/compassion-as-a-daily-discipline/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/compassion-in-buddhism-beginner-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/creating-a-peaceful-corner-at-home/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/dhamma-vs-dharma/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/dhammapada-reflection-trained-mind/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/dhammapada-reflection-what-we-think/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/dhammapada-verse-1-meaning/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/eightfold-path-explained-daily-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/eightfold-path-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/equanimity-in-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/first-week-buddhist-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/five-precepts-in-daily-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/four-noble-truths-explained-simply/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/four-noble-truths-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/how-to-meditate-for-anxiety/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/how-to-meditate-for-beginners/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/how-to-practice-non-attachment/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/how-to-practice-non-attachment/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism-letting-go/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/letting-go-without-giving-up/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/letting-go-without-giving-up/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-beginners/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/metta-meditation-script/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/metta-meditation-script/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/mindful-email-and-texting/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/mindful-listening-in-everyday-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/mindfulness-for-better-sleep/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/mindfulness-morning-routine/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/mindfulness-of-breathing-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/mindfulness-vs-meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/noble-eightfold-path-practical-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/non-attachment-in-relationships/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/right-livelihood-modern-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/right-speech-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/right-speech-examples/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/right-speech-examples/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/three-poisons-buddhism-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/three-ways-to-practice-patience/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/visiting-a-buddhist-temple-respectfully/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/walking-meditation-step-by-step/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/what-is-buddhism-beginner-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/what-is-karma-in-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/articles/what-is-sangha-buddhist-community/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "inSitemap": true
+    },
+    {
+      "route": "/authors/echo-buddha-editorial/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "inSitemap": true
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "inSitemap": true
+    },
+    {
+      "route": "/contact/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/contact/",
+      "inSitemap": true
+    },
+    {
+      "route": "/corrections/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/corrections/",
+      "inSitemap": true
+    },
+    {
+      "route": "/daily-reflections/anger-as-a-signal/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/anger-as-a-signal/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/begin-again-without-shame/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/begin-again-without-shame/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/compassion-begins-nearby/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/compassion-begins-nearby/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/enough-for-this-moment/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/enough-for-this-moment/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/evening-release/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/evening-release/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/family-patience/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/family-patience/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/forgiveness-without-approval/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/forgiveness-without-approval/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/gratitude-for-change/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/gratitude-for-change/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/gratitude-notices-enough/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/gratitude-notices-enough/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/impermanence-softens-clinging/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/impermanence-softens-clinging/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/daily-reflections/",
+      "inSitemap": true
+    },
+    {
+      "route": "/daily-reflections/kindness-with-boundaries/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/kindness-with-boundaries/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/let-the-feeling-pass/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/let-the-feeling-pass/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/letting-go-keeps-care/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/letting-go-keeps-care/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/listen-before-answering/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/listen-before-answering/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/metta-for-a-difficult-person/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/mindful-work/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/mindful-work/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/morning-intention/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/morning-intention/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/notice-before-fixing/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/notice-before-fixing/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/one-honest-breath/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/one-honest-breath/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/one-step-on-the-path/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/one-step-on-the-path/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/patience-before-anger-speaks/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/patience-before-anger-speaks/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/rest-without-escape/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/rest-without-escape/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/see-the-conditions/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/see-the-conditions/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/simple-goodwill/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/simple-goodwill/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/small-actions-shape-the-mind/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/soften-the-inner-argument/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/soften-the-inner-argument/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/speech-can-reduce-suffering/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/the-first-truth-is-kind/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/the-first-truth-is-kind/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/thoughts-are-visitors/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/thoughts-are-visitors/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/today/",
+      "inSitemap": false
+    },
+    {
+      "route": "/daily-reflections/walking-as-practice/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/daily-reflections/walking-as-practice/",
+      "inSitemap": false
+    },
+    {
+      "route": "/disclaimer/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/disclaimer/",
+      "inSitemap": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/editorial-policy/",
+      "inSitemap": true
+    },
+    {
+      "route": "/how-echo-buddha-creates-content/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "inSitemap": true
+    },
+    {
+      "route": "/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/dependent-origination-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/five-aggregates-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/four-brahmaviharas/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/right-livelihood-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/the-four-noble-truths-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/the-three-jewels-explained/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-mindfulness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-101/who-was-the-buddha/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhism-for-beginners/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anatta/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anicca/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/compassion/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/dhamma/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/dukkha/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karma/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karuna/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/metta/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/mindfulness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/nirvana/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/pali-canon/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sangha/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sati/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sutta/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/buddhist-resources/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/eightfold-path/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/eightfold-path/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/four-noble-truths/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/four-noble-truths/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "inSitemap": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation-guide/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation-guide/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation-safety/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation-safety/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/breathing-meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/breathing-meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/loving-kindness-meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/meditation-for-beginners/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/mindfulness-in-daily-life/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/walking-meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/walking-meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/meditation/when-meditation-feels-hard/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "inSitemap": true
+    },
+    {
+      "route": "/mindful-living/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/mindful-living/",
+      "inSitemap": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/privacy-policy/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quote-attribution-policy/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quote-attribution-policy/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/acceptance-before-next-step/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/awareness/acceptance-before-next-step/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/feelings-without-the-wheel/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/awareness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/one-breath-before-anger-replies/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/thoughts-are-visitors/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/awareness/thoughts-are-visitors/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/thoughts-pass-without-commanding-you/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/compassion-sees-pain-clearly/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/compassion/gentle-self-compassion/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/compassion/gentle-self-compassion/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/compassion/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/compassion/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/compassion/kindness-as-quiet-practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/loving-kindness-without-harm/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/change-is-how-life-continues/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/impermanence/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/impermanence/meet-change-softly/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/impermanence/meet-change-softly/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/caring-without-clinging/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/letting-go/caring-without-clinging/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/forgiveness-without-approving-harm/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/letting-go/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/open-hands-non-attachment/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/soften-around-stress/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/letting-go/soften-around-stress/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/where-attachment-begins/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/letting-go/where-attachment-begins/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/few-quiet-minutes/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/meditation/few-quiet-minutes/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/meditation/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/meditation-is-returning/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/meditation/meditation-is-returning/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/meditation/one-honest-breath/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/meditation/one-honest-breath/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/begin-the-day-with-awareness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/gratitude-notices-enough/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/ground-yourself-gently/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/listen-before-answering/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/listen-before-answering/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/peace-begins-with-attention/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/present-moment-one-step/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/present-moment-one-step/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/be-patient-with-the-part-of-you-that-is/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/family-kindness-and-patience/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/patience/family-kindness-and-patience/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/patience/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/patience-softens-the-wait/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/patience/patience-softens-the-wait/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/bring-the-teaching-into-the-place-where-you-are/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/bring-the-teaching-into-the-place-where-you-are/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/eightfold-path-daily-choices/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/practice/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/practice/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/practice/mindfulness-at-work-breath/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/right-intention-turns-the-heart/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/practice/small-actions-shape-the-mind/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/practice/the-path-is-not-far-away-it-is-the/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/practice/your-next-response-is-always-part-of-the-path/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-shame/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/renewal/begin-again-without-shame/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/evening-release-reflection/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/renewal/evening-release-reflection/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/renewal/gentle-hope-keeps-walking/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/renewal/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/one-calm-morning-intention/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/renewal/one-calm-morning-intention/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/contentment-with-what-is-here/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/difficult-people-and-boundaries/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/karma-begins-in-intention/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/right-speech-with-kindness/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/simplicity-clears-the-room/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/understanding-suffering-honestly/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-sees-clearly/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/",
+      "inSitemap": true
+    },
+    {
+      "route": "/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
+      "inSitemap": false
+    },
+    {
+      "route": "/quotes/wisdom/wise-silence/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/quotes/wisdom/wise-silence/",
+      "inSitemap": true
+    },
+    {
+      "route": "/search/",
+      "indexable": false,
+      "robots": "noindex, follow",
+      "canonical": "https://echobuddha.com/search/",
+      "inSitemap": false
+    },
+    {
+      "route": "/start-here/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/start-here/",
+      "inSitemap": true
+    },
+    {
+      "route": "/terms-of-use/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/terms-of-use/",
+      "inSitemap": true
+    },
+    {
+      "route": "/tools/",
+      "indexable": true,
+      "robots": "index, follow (implicit)",
+      "canonical": "https://echobuddha.com/tools/",
+      "inSitemap": true
+    }
+  ],
+  "primaryOwners": [
+    {
+      "topic": "Anger",
+      "ownerUrl": "https://echobuddha.com/articles/buddhist-approach-to-anger/"
+    },
+    {
+      "topic": "Anxiety / Overthinking",
+      "ownerUrl": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/"
+    },
+    {
+      "topic": "Article Discovery",
+      "ownerUrl": "https://echobuddha.com/articles/"
+    },
+    {
+      "topic": "Attachment / Non-Attachment / Letting Go",
+      "ownerUrl": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/"
+    },
+    {
+      "topic": "Beginner Buddhism",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-for-beginners/"
+    },
+    {
+      "topic": "Brahmaviharas",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/"
+    },
+    {
+      "topic": "Breath / Mindfulness of Breathing",
+      "ownerUrl": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/"
+    },
+    {
+      "topic": "Buddhist Dictionary",
+      "ownerUrl": "https://echobuddha.com/learn/buddhist-dictionary/"
+    },
+    {
+      "topic": "Buddhist Foundations",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/"
+    },
+    {
+      "topic": "Buddhist Practice",
+      "ownerUrl": "https://echobuddha.com/articles/category/practice/"
+    },
+    {
+      "topic": "Compassion",
+      "ownerUrl": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/"
+    },
+    {
+      "topic": "Daily Reflections",
+      "ownerUrl": "https://echobuddha.com/daily-reflections/"
+    },
+    {
+      "topic": "Dhamma / Dharma",
+      "ownerUrl": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/"
+    },
+    {
+      "topic": "Dhammapada",
+      "ownerUrl": "https://echobuddha.com/learn/dhammapada-reflections/"
+    },
+    {
+      "topic": "Equanimity",
+      "ownerUrl": "https://echobuddha.com/articles/equanimity-in-buddhism/"
+    },
+    {
+      "topic": "Five Precepts",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/"
+    },
+    {
+      "topic": "Forgiveness",
+      "ownerUrl": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/"
+    },
+    {
+      "topic": "Four Noble Truths",
+      "ownerUrl": "https://echobuddha.com/learn/four-noble-truths/"
+    },
+    {
+      "topic": "Gratitude",
+      "ownerUrl": "https://echobuddha.com/articles/buddhist-gratitude-practice/"
+    },
+    {
+      "topic": "Impermanence",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/"
+    },
+    {
+      "topic": "Karma",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/"
+    },
+    {
+      "topic": "Learn Navigation",
+      "ownerUrl": "https://echobuddha.com/learn/"
+    },
+    {
+      "topic": "Loving-Kindness / Metta",
+      "ownerUrl": "https://echobuddha.com/learn/buddhist-dictionary/metta/"
+    },
+    {
+      "topic": "Meditation",
+      "ownerUrl": "https://echobuddha.com/meditation/"
+    },
+    {
+      "topic": "Mindful Living",
+      "ownerUrl": "https://echobuddha.com/mindful-living/"
+    },
+    {
+      "topic": "Mindfulness",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/"
+    },
+    {
+      "topic": "Newcomer Orientation",
+      "ownerUrl": "https://echobuddha.com/start-here/"
+    },
+    {
+      "topic": "Noble Eightfold Path",
+      "ownerUrl": "https://echobuddha.com/learn/eightfold-path/"
+    },
+    {
+      "topic": "Patience",
+      "ownerUrl": "https://echobuddha.com/articles/three-ways-to-practice-patience/"
+    },
+    {
+      "topic": "Quotes",
+      "ownerUrl": "https://echobuddha.com/quotes/"
+    },
+    {
+      "topic": "Right Livelihood",
+      "ownerUrl": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/"
+    },
+    {
+      "topic": "Right Speech",
+      "ownerUrl": "https://echobuddha.com/articles/right-speech-buddhism/"
+    },
+    {
+      "topic": "Sangha",
+      "ownerUrl": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/"
+    },
+    {
+      "topic": "Site Discovery",
+      "ownerUrl": "https://echobuddha.com/"
+    },
+    {
+      "topic": "Sleep",
+      "ownerUrl": "https://echobuddha.com/articles/mindfulness-for-better-sleep/"
+    },
+    {
+      "topic": "Sutta Study",
+      "ownerUrl": "https://echobuddha.com/learn/sutta-for-daily-life/"
+    },
+    {
+      "topic": "Three Poisons",
+      "ownerUrl": "https://echobuddha.com/articles/three-poisons-buddhism-explained/"
+    },
+    {
+      "topic": "Trust / Policy",
+      "ownerUrl": "https://echobuddha.com/about/"
+    },
+    {
+      "topic": "Utility",
+      "ownerUrl": "https://echobuddha.com/tools/"
+    },
+    {
+      "topic": "Walking Meditation",
+      "ownerUrl": "https://echobuddha.com/meditation/walking-meditation/"
+    }
+  ],
+  "protectedFileHashes": {
+    "public/robots.txt": "5b008327987cf7fe7dca610b4f3e76e48bdbc11c765a1c322b99929d9ba22172",
+    "public/_headers": "038bbd47bc09b3697e11de19bb57f506fe271e780bee11e7309d4b8be083c690",
+    "public/ads.txt": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+    "src/data/ads.ts": "99ce5b05fb3190b4d93e62043dcf5f3e5201976083f59f14b663703d35414a03",
+    "src/components/ConsentManager.astro": "e3915103393dda3f298018657a12651cb10c3aaaa903b47a7078cfdf9879e033",
+    "src/data/editorialGovernance.ts": "7da8eee4901572b2465aa759b07fb9a0d162f989891dd041f3de2d5add857ae5",
+    "src/components/Header.astro": "b1979b33947f70e564183ed16cbd00bff02c68f24952f43bf7f5ff0bdba22d58",
+    "src/pages/privacy-policy.astro": "bfd60ed36545f8a294ead9e9f99a615355585a6f5e06b7f56d1140a409d3ad39",
+    "wrangler.jsonc": "ae2e54aab259b8449b16a40eec902aa962675abcf4041cac22daac3044229381"
+  }
+}

@@ -13,7 +13,7 @@ import {
   type LearningPage
 } from "../../../data/learn";
 import { SITE } from "../../../data/site";
-import { getTopicRole } from "../../../data/editorialGovernance";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA, getTopicRole } from "../../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return getAllLearningPages().map((page) => ({
@@ -31,6 +31,13 @@ const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
 const learningRole = getTopicRole(canonicalPath);
+const isDictionary = page.section === "buddhist-dictionary";
+const isSourceStudy = ["dhammapada-reflections", "sutta-for-daily-life"].includes(page.section);
+const editorialLabels = isDictionary
+  ? { takeaway: "Concise Definition", why: "Why the Term Matters", clarification: "Nuance and Usage", practice: "Use the Term in Context", question: "Check Your Understanding", source: "Reference Boundaries" }
+  : isSourceStudy
+    ? { takeaway: "Study Focus", why: "Why This Passage Matters", clarification: "Interpretive Boundary", practice: "Modern Reflection", question: "Study Question", source: "Text and Source Notes" }
+    : { takeaway: "Key Takeaway", why: "Why This Matters", clarification: "A Helpful Clarification", practice: "Practice Today", question: "Reflection Question", source: "Further Reading / Source Note" };
 const sourceNoteText =
   page.section === "buddhist-dictionary"
     ? `${page.title} is explained in simplified language for general readers. Compare this definition with reputable Buddhist teachers, translations, and study communities for deeper tradition-specific learning.`
@@ -45,16 +52,8 @@ const articleJsonLd = [
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
     inLanguage: "en",
-    author: {
-      "@type": "Organization",
-      name: SITE.author,
-      url: `${SITE.url}/authors/echo-buddha-editorial/`
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url
-    },
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA,
     articleSection: section?.title ?? "Learn"
   },
   getBreadcrumbJsonLd(breadcrumbs)
@@ -106,13 +105,13 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
     <div class="container article-shell">
       <div class="prose learning-body">
         <aside class="surface key-box">
-          <h2>Key Takeaway</h2>
+          <h2>{editorialLabels.takeaway}</h2>
           <p>{page.takeaway}</p>
         </aside>
 
         {qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-matters-heading">
-            <h2 id="why-this-matters-heading">Why This Matters</h2>
+            <h2 id="why-this-matters-heading">{editorialLabels.why}</h2>
             <p>{qualityNote.why}</p>
           </section>
         )}
@@ -127,28 +126,28 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 
         {qualityNote && (
           <aside class="surface clarification-box">
-            <h2>A Helpful Clarification</h2>
+            <h2>{editorialLabels.clarification}</h2>
             <p>{qualityNote.clarification}</p>
           </aside>
         )}
 
         {page.practice && (
           <aside class="surface practice-box">
-            <h2>Practice Today</h2>
+            <h2>{editorialLabels.practice}</h2>
             <p>{page.practice}</p>
           </aside>
         )}
 
         {qualityNote && (
           <aside class="surface reflection-box">
-            <h2>Reflection Question</h2>
+            <h2>{editorialLabels.question}</h2>
             <p>{qualityNote.question}</p>
           </aside>
         )}
 
         {sourceNoteText && (
           <section>
-            <h2>Further Reading / Source Note</h2>
+            <h2>{editorialLabels.source}</h2>
             <p>{sourceNoteText}</p>
             {learningRole && (
               <p>

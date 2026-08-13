@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-08-11T03:18:00.011Z",
+  "baseUrl": "http://127.0.0.1:4321",
+  "summary": {
+    "htmlDocuments": 336,
+    "publicRoutes": 335,
+    "indexableDocuments": 193,
+    "noindexDocuments": 143,
+    "sitemapUrls": 193,
+    "fetched200": 335,
+    "statusIssues": 0,
+    "redirectResponses": 0,
+    "missingRouteStatus": 404,
+    "canonicalIssues": 0,
+    "robotsSitemapIssues": 0,
+    "brokenInternalLinks": 0,
+    "noindexContentRoutesCheckedInSearch": 140,
+    "missingFromInternalSearch": 0
+  },
+  "passed": true,
+  "issues": {
+    "statusIssues": [],
+    "redirectResponses": [],
+    "canonicalIssues": [],
+    "robotsSitemapIssues": [],
+    "brokenInternalLinks": [],
+    "missingFromInternalSearch": []
+  }
+}

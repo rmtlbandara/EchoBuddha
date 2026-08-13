@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Privacy Policy";
 const description = "Read how Echo Buddha handles analytics, cookies, advertising technologies, email messages, and privacy choices.";
@@ -12,9 +13,7 @@ const jsonLd = {
   description,
   url: `${SITE.url}${canonicalPath}`,
   publisher: {
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url,
+    ...PUBLISHER_SCHEMA,
     email: SITE.email
   }
 };
@@ -25,7 +24,7 @@ const jsonLd = {
     <div class="container prose">
       <span class="eyebrow">Policy</span>
       <h1>Privacy Policy</h1>
-      <p class="lede">Last updated: August 6, 2026</p>
+      <p class="lede">Last updated: August 13, 2026</p>
     </div>
   </section>
   <section class="section section--tight">
@@ -55,14 +54,15 @@ const jsonLd = {
       <button class="button button--secondary" type="button" data-privacy-settings>Manage privacy settings</button>
       <h2>Advertising and Google AdSense</h2>
       <p>
-        Echo Buddha may load the Google AdSense publisher script on the homepage for site verification and on a limited
-        set of article and learning pages. The script is not intentionally loaded on search, error, tools, policy, trust,
-        quote, daily reflection, meditation, source-study, dictionary, or sensitive wellbeing pages.
+        Echo Buddha is configured with a Google AdSense publisher account, but it does not currently serve ad units or
+        load the AdSense runtime script. Site-ownership verification uses a publisher-account meta tag and the public
+        <a href="/ads.txt">ads.txt</a> seller-authorization file; neither method sets advertising cookies by itself.
       </p>
       <p>
-        Manual ad units are not currently used. If manual ad placements are introduced later, they should appear only as
-        clearly labeled Advertisement areas and should stay away from meditation instructions, safety notes, quote text,
-        navigation, buttons, tools, and other sensitive page elements.
+        Manual ad units and Auto ads are not enabled by this website code. Before any future ad delivery, Echo Buddha
+        must complete the applicable AdSense account choices and provide a Google-certified consent-management path
+        where Google requires one. Choices about personalized or non-personalized ads are account and legal decisions;
+        this policy does not claim that either mode is currently active.
       </p>
       <p>
         Visitors can learn about or manage Google ad personalization through

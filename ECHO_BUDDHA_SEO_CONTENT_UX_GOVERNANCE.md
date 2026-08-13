@@ -7,9 +7,9 @@
 | Project name | Echo Buddha |
 | File purpose | Permanent project-wide governance standard for SEO, content quality, UX, accessibility, crawling, indexing, analytics, privacy, performance, AdSense readiness, and repository change control. |
 | Status | Active governance baseline for future audits and changes |
-| Version | 1.3.0 |
+| Version | 2.0.0 |
 | Created date | 2026-07-21 |
-| Last reviewed date | 2026-07-22 |
+| Last reviewed date | 2026-08-13 |
 | Governance owner | TBD project owner / Echo Buddha editorial and technical owner |
 | Review frequency | At least quarterly, and before any major audit, domain/routing change, advertising launch, analytics/privacy change, or policy-sensitive content expansion. |
 | Scope | The Echo Buddha Astro codebase, generated static website, production domain where verified, editorial content model, SEO implementation, future audit process, and future AdSense-readiness decisions. |
@@ -136,9 +136,9 @@ This section records verified facts from the repository and limited production c
 | Search | `src/pages/search.astro` is a visible search page with `noindex`; `public/search.js` powers client-side search against `src/pages/search-index.json.ts`. Header includes a search overlay. |
 | Analytics | Google Analytics configuration is centralized in `src/data/site.ts`. `src/components/ConsentManager.astro` loads Google Analytics only after explicit analytics consent and does not grant advertising consent. |
 | Consent handling | A global privacy-first consent interface lets users accept analytics, reject optional cookies, reopen settings, and withdraw analytics consent. Legal adequacy remains subject to qualified jurisdiction-specific review. |
-| Advertising / AdSense | `FEATURES.adsEnabled` is `false` in `src/data/site.ts`. `AdSlot.astro` renders only when that flag is true. README states no AdSense publisher ID or ad-serving code is included. |
-| Deployment model | `wrangler.jsonc` configures Cloudflare Workers Static Assets using `./dist`. README also describes deployment to static hosts and `npx wrangler deploy`. |
-| Testing and CI | `package.json` exposes `dev`, `build`, and `preview` only. No `.github` CI workflows were found. Several historical audit/validation scripts exist in `scripts/`, but they are not wired into package scripts. |
+| Advertising / AdSense | The publisher ID is centralized in `src/data/ads.ts` and exposed through verification metadata and `public/ads.txt`; runtime script loading and manual ad slots remain disabled. |
+| Deployment model | `wrangler.jsonc` configures Cloudflare Workers Static Assets. Governed production deployment builds once from an exact `main` SHA, verifies the artifact, deploys through the GitHub `production` environment, captures evidence, and runs smoke checks. |
+| Testing and CI | Pull requests and `main` pushes run release and browser gates. Separate workflows cover extended validation, scheduled/manual production smoke tests, exact-SHA production deployment, and confirmed version-based rollback. Actions are immutable-SHA pinned with least-privilege workflow permissions. |
 | Existing policy/trust pages | About, Contact, Editorial Policy, Privacy Policy, Terms of Use, Disclaimer, and an editorial author profile exist in `src/pages`. |
 | Existing author/editorial info | Content uses organization-style authorship, primarily `Echo Buddha Editorial`, with `/authors/echo-buddha-editorial/`. No named human author credentials were verified. |
 | Existing documentation | README, Search Console checklist, content cluster map, and historical audit artifacts exist under `docs/`. No prior root governance document matching this file was found. |
@@ -669,7 +669,7 @@ AdSense compliance and readiness do not guarantee approval.
 
 ## 28. Privacy, Analytics, and Consent
 
-Current implementation uses a first-party consent preference. Analytics defaults to accepted without auto-opening a popup, matching the current owner-approved behavior. Users can reject analytics, accept analytics from privacy settings, reopen settings, and withdraw analytics. The property ID is centralized in `src/data/site.ts`. Advertising storage, ad user data, and ad personalization remain denied. The owner-approved AdSense publisher script is enabled through the conservative route gate in `src/data/ads.ts`, with homepage access retained for AdSense site verification; manual ad units remain disabled.
+Current implementation uses a first-party consent preference. Analytics is denied until the visitor explicitly opts in; a missing preference opens the privacy choice interface and never implies acceptance. Users can reject analytics, accept analytics from privacy settings, reopen settings, and withdraw analytics. The property ID is centralized in `src/data/site.ts`. Advertising storage, ad user data, and ad personalization remain denied. AdSense verification metadata and `public/ads.txt` are present, while runtime AdSense script loading and manual ad units remain disabled.
 
 Rules:
 
@@ -739,13 +739,16 @@ Current validation commands are:
 - `npm test`
 - `npm run audit:seo`
 - `npm run audit:content`
+- `npm run audit:phase8`
+- `npm run audit:phase9`
+- `npm run audit:governance:changes`
 - `npm run audit:dependencies`
 - `npm run audit:browser`
 - `npm run audit:lighthouse`
 - `npm run validate`
 - `npm run validate:release`
 
-The CI workflow in `.github/workflows/validate.yml` runs `npm run validate:release` without deployment. The release gate runs the existing validation sequence and fails on high or critical dependency advisories.
+The pull-request CI workflow runs `npm run validate:release` without deployment. Phase 9 makes route/indexability, topic-owner, source/trust, template, consent, security-header, AdSense-disabled-state, dependency, workflow-safety, and governance-document checks part of the release gate. Extended browser/Lighthouse checks and read-only production smoke checks run in separate workflows. Production deployment and rollback remain manual, separately authorized, environment-gated operations governed by `ECHO_BUDDHA_CI_GIT_DEPLOYMENT_GOVERNANCE.md`.
 
 Future contributors and coding agents MUST:
 
@@ -942,6 +945,7 @@ Maintenance rules:
 | 1.1.0 | 2026-07-21 | Stage B implementation update: consent-gated analytics, validation scripts, CI, SEO audit automation, structured-data simplification, robots operating model, and AdSense-readiness workflow. |
 | 1.2.0 | 2026-07-21 | Content audit remediation update: quote-origin register, source register, meditation safety checklist, page-role map, content re-audit command, URL decision map, and AdSense page-type suitability matrix. |
 | 1.3.0 | 2026-07-22 | Final readiness remediation update: dependency audit gate, Astro/Wrangler security upgrade path, source-controlled Cloudflare headers, browser consent/accessibility checks, Lighthouse evidence, and release validation gate. |
+| 2.0.0 | 2026-08-13 | Phase 9 governance update: immutable action pins, least-privilege CI, exact-SHA build-once deployment, environment/concurrency controls, version-based rollback, production smoke checks, governance baselines, and mandatory release evidence. |
 
 ## 38. Content Audit Remediation Governance
 

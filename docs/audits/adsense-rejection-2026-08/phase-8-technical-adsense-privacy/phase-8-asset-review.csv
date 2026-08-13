@@ -1,0 +1,8 @@
+Asset class,Count,Total bytes,Largest bytes,Largest file,Cache policy,Source maps,Issue,Action,Validation
+css,5,36972,15056,dist/_astro/Layout.DHdF79tk.css,1y immutable,0,None material in scope,Preserve/no framework migration,PASS
+js,1,9329,9329,dist/search.js,Explicit/Cloudflare default by route,0,None material in scope,Preserve/no framework migration,PASS
+image,51,1360593,73662,dist/images/articles/eightfold-path-explained.webp,Explicit/Cloudflare default by route,0,None material in scope,Preserve/no framework migration,PASS
+font,0,0,0,,Explicit/Cloudflare default by route,0,None material in scope,Preserve/no framework migration,PASS
+json,1,878452,878452,dist/search-index.json,Explicit/Cloudflare default by route,0,None material in scope,Preserve/no framework migration,PASS
+xml,1,18223,18223,dist/sitemap.xml,Explicit/Cloudflare default by route,0,None material in scope,Preserve/no framework migration,PASS
+other,4,2366,1269,dist/_headers,Explicit/Cloudflare default by route,0,None material in scope,Preserve/no framework migration,PASS

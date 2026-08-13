@@ -1,0 +1,4 @@
+"Artifact","Location","Retention","Contains secrets","Policy","State"
+"CI evidence","GitHub artifact","30 days","No","Do not commit transient logs","Implemented"
+"Deployment/rollback evidence","GitHub artifact","90 days","No","Durable record via reviewed template","Implemented"
+"Local browser/Lighthouse",".artifacts","Ephemeral","No","Ignored","Implemented"

@@ -1,0 +1,13 @@
+Validation,Scope,Result,Count / metric,Evidence,Notes
+npm run validate:release,Build/typecheck/lint/tests/SEO/content/dependencies,PASS,336 built pages; 7/7 tests; 0 critical/high dependencies,Release command output,No tests weakened
+Post-edit browser audit,Accessibility and consent,PASS,17 pages; 0 critical/serious/moderate/minor; 5/5 consent scenarios,post-edit-browser JSON,Existing consent model preserved
+Phase 7 custom validation,Navigation/search/links/breadcrumbs/index/trust/safety/AdSense,PASS,21/21 checks; 0 broken links; 315 valid search items,phase-7-custom-validation.json,193 sitemap URLs; 336 pages
+Responsive visual QA,27 pages x 5 viewports,PASS,135/135,phase-7-browser-qa.json,360–1440px
+Interaction QA,Menu/search/skip/no-JS/404,PASS,6/6,phase-7-browser-qa.json,Keyboard and recovery included
+Journey QA,Eight primary journeys,PASS,8/8,phase-7-browser-qa.json,No dead-end primary journey
+Lighthouse accessibility,"10 representative routes, mobile + desktop",PASS,20/20 at 1.0,post-edit-lighthouse,Automated result
+Lighthouse performance,"10 representative routes, mobile + desktop",PASS WITH DOCUMENTED VARIANCE,Local desktop 10/10 at 1.0; mobile non-home 0.98–1.0,post-edit-lighthouse/performance-summary.csv,Homepage samples affected by protected third-party scripts; Phase 8 field follow-up
+Production parity,"All built HTML, sitemap, navigation, Search and headers",PASS,336/336 pages; sitemap 193/193; Search 315/315; headers 8/8,phase-7-post-deploy-production-summary.json,Exact committed-build parity
+Production browser QA,27 pages x 5 viewports plus interactions and journeys,PASS,135/135; 6/6; 8/8,phase-7-post-deploy-browser-qa.json,Public apex
+Production accessibility and consent,16 live pages and five consent scenarios,PASS,0 accessibility findings; 5/5 consent,post-deploy-browser,Existing consent model preserved
+Production Lighthouse,"10 routes, mobile + desktop",PASS WITH DOCUMENTED VARIANCE,Accessibility 20/20 at 1.0; desktop 0.99–1.0; mobile 0.60–0.85,post-deploy-lighthouse/performance-summary.csv,Matches known public-edge variability; field CWV remains Phase 8

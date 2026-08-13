@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-07-15T07:14:29.790Z",
+  "checkedAt": "2026-08-11T03:08:46.736Z",
   "passed": true,
   "summary": {
-    "gates": 13,
+    "gates": 14,
     "errors": 0,
     "warnings": 1,
     "quoteRecords": 153,
     "dailyReflections": 30,
-    "indexableQuoteStories": 103,
-    "noindexQuoteStories": 50
+    "indexableQuoteStories": 43,
+    "noindexQuoteStories": 110
   },
   "gates": [
     {
@@ -83,6 +83,14 @@
       "severity": "error",
       "details": {
         "duplicateGroups": []
+      }
+    },
+    {
+      "name": "Daily reflection robots and sitemap policy",
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "mismatches": []
       }
     },
     {

@@ -1,0 +1,4 @@
+Evidence,Classification,Availability,Account-specific?,Confidence,Permitted use,Prohibited inference
+Owner-supplied wording transcribed in Phase 1 brief/report,SECONDARY_TRANSCRIPTION,Present in Phase 1 report,Reported as account/email wording but primary artifact absent,Medium,Supports a content-value working hypothesis only,"Do not claim Google named a specific family, URL, duplication, AI, traffic, or navigation cause"
+AdSense screenshot/email/Policy Center export,PRIMARY_ACCOUNT_EVIDENCE,NOT FOUND,Yes,None,Owner may supply later,Do not reconstruct exact wording/status
+Official AdSense/Publisher/Search guidance,GENERIC_GOOGLE_HELP_GUIDANCE,Verified current 2026-08-11,No,High for generic policy,Evaluate site readiness and policy categories,Do not present as personalized rejection reason

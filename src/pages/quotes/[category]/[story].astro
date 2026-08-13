@@ -4,6 +4,7 @@ import QuoteCard from "../../../components/QuoteCard.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import AdSlot from "../../../components/AdSlot.astro";
 import ArticleShare from "../../../components/ArticleShare.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
 import {
   SITE,
   getArticlesForQuoteTheme,
@@ -13,7 +14,7 @@ import {
   isQuoteStoryIndexable,
   quotes
 } from "../../../data/site";
-import { getQuoteOriginRecord } from "../../../data/editorialGovernance";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA, getQuoteOriginRecord } from "../../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return quotes.map((quote) => {
@@ -59,16 +60,8 @@ const jsonLd = [
     name: story.title,
     description: story.description,
     url: quoteUrl,
-    author: {
-      "@type": "Organization",
-      name: SITE.author,
-      url: `${SITE.url}/authors/echo-buddha-editorial/`
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url
-    },
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA,
     about: {
       "@type": "Thing",
       name: quote.theme
@@ -129,7 +122,12 @@ const jsonLd = [
   <article>
     <header class="page-hero story-hero">
       <div class="container prose">
-        <a class="back-link" href={`/quotes/${category.slug}/`}>All {quote.theme} Quotes</a>
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Quotes", href: "/quotes/" },
+          { label: quote.theme, href: `/quotes/${category.slug}/` },
+          { label: story.title }
+        ]} />
         <span class="eyebrow">{quote.theme} Reflection Story</span>
         <h1>{story.title}</h1>
         <blockquote>{quote.text}</blockquote>
@@ -148,7 +146,8 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose story-body">
         <aside class="surface meaning-box">
-          <h2>Quote Origin and Review Status</h2>
+          <h2>Origin, Context, and Practice</h2>
+          <h3>Quote origin and review status</h3>
           <p>{story.status.note}</p>
           <dl class="origin-details">
             <div>
@@ -164,16 +163,16 @@ const jsonLd = [
               <dd>{quoteOriginRecord.canonicalTextReference}</dd>
             </div>
           </dl>
-          <h2>Meaning of This Quote</h2>
+          <h3>What this line means here</h3>
           <p>{story.description}</p>
-          <h2>Daily-Life Example</h2>
+          <h3>A situation where it matters</h3>
           <p>{dailyLifeExample}</p>
-          <h2>Related Buddhist Teaching</h2>
+          <h3>Buddhist teaching in view</h3>
           <p>
             This reflection connects with <a href={relatedTeaching.href}>{relatedTeaching.label}</a>, a practical way
             to bring Buddhist wisdom into ordinary life.
           </p>
-          <h2>Practice Suggestion</h2>
+          <h3>One way to test it</h3>
           <p>{practiceSuggestion}</p>
         </aside>
 
@@ -198,16 +197,6 @@ const jsonLd = [
 
         <h2>Reflection Question</h2>
         <p>{reflectionQuestion}</p>
-
-        <h2>A Quiet Reflection</h2>
-        <p>
-          Let this quote stay connected to its real context: {dailyLifeExample} If the line remains only decorative,
-          "{quote.text}" has not yet become practice.
-        </p>
-        <p>
-          The useful question is not whether "{quote.text}" sounds peaceful. It is whether the line helps one response
-          become more honest, less harmful, and more connected to {quote.theme.toLowerCase()}.
-        </p>
 
         <section class="source-note">
           <h2>Source Note</h2>
@@ -268,13 +257,6 @@ const jsonLd = [
 </Layout>
 
 <style>
-  .back-link {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
   .story-hero blockquote {
     border-left: 3px solid var(--color-gold);
     color: var(--color-brown);

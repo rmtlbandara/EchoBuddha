@@ -1,0 +1,23 @@
+Stage,Command / check,Status,Result,Evidence
+FINAL,npm run build,PASS,336 static pages built,Phase 5 terminal run and machine-readable registers
+FINAL,npm run typecheck,PASS,Astro sync and TypeScript noEmit passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run lint,PASS,Governance lint passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm test,PASS,7/7 tests passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:seo,PASS,SEO audit passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:content,PASS,Content remediation audit passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:dependencies,PASS,0 critical and 0 high vulnerabilities,Phase 5 terminal run and machine-readable registers
+FINAL,npm run validate,PASS,All standard release checks passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run validate:release,PASS,Standard and dependency gates passed,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:browser,PASS,Browser readiness route checks passed,Phase 5 terminal run and machine-readable registers
+FINAL,Phase 5 template diagnostic,PASS,0 high and 0 critical after edits,Phase 5 terminal run and machine-readable registers
+FINAL,npm run audit:lighthouse,PASS,"20/20 desktop/mobile runs; mobile performance minimum 0.99, accessibility minimum 1.00, maximum LCP 1361.7ms, maximum CLS 0.0000",Phase 5 terminal run and machine-readable registers
+FINAL,Ownership preservation,PASS,"No titles, H1s, roles, or owner relationships changed",Phase 5 terminal run and machine-readable registers
+FINAL,Index/canonical preservation,PASS,0 unexpected differences across 336 pages,Phase 5 terminal run and machine-readable registers
+FINAL,Internal-link validation,PASS,0 changed pages with broken internal targets,Phase 5 terminal run and machine-readable registers
+FINAL,Source/safety preservation,PASS,Protected wording and links unchanged,Phase 5 terminal run and machine-readable registers
+POST_DEPLOY,Cloudflare production deployment,PASS,Version 32882fcf-b1ca-4195-891b-e3f89d4147c8 active at 100%,phase-5-production-deployment-record.json
+POST_DEPLOY,Production full-route parity,PASS,"336/336 status, title, H1, robots, canonical, rendered text, structured data, and internal links match",phase-5-post-deploy-production-summary.json and phase-5-post-deploy-production-parity.csv
+POST_DEPLOY,Production browser readiness,PASS,"16/16 routes and 5/5 consent/mobile/keyboard scenarios passed; 0 critical or serious accessibility violations",accessibility-browser-results.json and consent-browser-results.json
+POST_DEPLOY,Production Lighthouse evidence capture,PASS,"20/20 public-edge audits completed; accessibility 1.00 throughout; desktop performance 0.98–1.00; mobile performance advisory retained",lighthouse-mobile.json lighthouse-desktop.json and performance-summary.csv
+POST_DEPLOY,Production security headers,PASS,10/10 representative content-family routes expose all six required headers,phase-5-production-security-headers.json
+POST_DEPLOY,Rollback readiness,PASS,Previous production version and deployment IDs preserved,phase-5-production-deployment-record.json

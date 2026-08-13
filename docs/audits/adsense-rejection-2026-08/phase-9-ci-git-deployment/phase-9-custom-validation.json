@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-08-13T12:02:00.587Z",
+  "totalChecks": 26,
+  "passed": 26,
+  "failed": 0,
+  "pass": true,
+  "checks": [
+    {
+      "area": "Baseline",
+      "name": "Phase 8 production baseline is exact and complete",
+      "pass": true,
+      "evidence": "336/193/143 routes; 193 sitemap; 315 search; 40 owners"
+    },
+    {
+      "area": "Routes",
+      "name": "No protected URL disappears without explicit approval",
+      "pass": true,
+      "evidence": "0 silent removals"
+    },
+    {
+      "area": "Routes",
+      "name": "Every new indexable URL has complete human approval metadata",
+      "pass": true,
+      "evidence": "0 new indexable URL(s); all approved"
+    },
+    {
+      "area": "Indexability",
+      "name": "Protected index and canonical state cannot drift silently",
+      "pass": true,
+      "evidence": "0 unapproved index/canonical changes"
+    },
+    {
+      "area": "Sitemap",
+      "name": "Sitemap contains only current indexable self-canonical routes",
+      "pass": true,
+      "evidence": "193 valid routes; 0 noindex/redirect/unknown URLs"
+    },
+    {
+      "area": "Canonical",
+      "name": "All public pages retain self canonicals and 404 retains none",
+      "pass": true,
+      "evidence": "335 self canonicals; 404 canonical absent"
+    },
+    {
+      "area": "Internal links",
+      "name": "Every source-controlled internal HTML link resolves",
+      "pass": true,
+      "evidence": "0 broken internal links"
+    },
+    {
+      "area": "Ownership",
+      "name": "Primary topic owners remain unique, indexable and in sitemap",
+      "pass": true,
+      "evidence": "40/40 unique owners protected"
+    },
+    {
+      "area": "Structured data",
+      "name": "JSON-LD parses and cannot fabricate people, reviewers or credentials",
+      "pass": true,
+      "evidence": "334 blocks; 0 invalid/fabricated trust entities"
+    },
+    {
+      "area": "Trust",
+      "name": "Central organizational identity and trust routes remain available",
+      "pass": true,
+      "evidence": "9/9 trust/safety routes; no named expert/reviewer"
+    },
+    {
+      "area": "Template",
+      "name": "No two pages collapse to identical full visible content",
+      "pass": true,
+      "evidence": "0 exact full-page visible-content duplicates; similarity remains a warning"
+    },
+    {
+      "area": "AdSense",
+      "name": "Phase 8 no-runtime and no-manual-slot state is immutable by default",
+      "pass": true,
+      "evidence": "0 runtime scripts/slots across 336 pages; exact meta + ads.txt"
+    },
+    {
+      "area": "Consent",
+      "name": "Analytics remains affirmative opt-in with advertising storage denied",
+      "pass": true,
+      "evidence": "no inferred choice; no alternate global Analytics loader; ad types denied"
+    },
+    {
+      "area": "Security",
+      "name": "Repository security, cache and preview policies remain protected",
+      "pass": true,
+      "evidence": "enforced CSP; baseline headers; immutable assets; preview noindex"
+    },
+    {
+      "area": "Protected files",
+      "name": "Phase 8 sensitive files cannot drift without explicit approval",
+      "pass": true,
+      "evidence": "9 protected file hashes unchanged"
+    },
+    {
+      "area": "CI",
+      "name": "All workflow YAML parses and uses explicit least privilege",
+      "pass": true,
+      "evidence": "5 workflows; contents read; 0 unexplained writes"
+    },
+    {
+      "area": "CI",
+      "name": "Workflows contain no privileged pull_request_target or direct event-shell interpolation",
+      "pass": true,
+      "evidence": "0 unsafe privileged PR workflows; 0 event payload shell interpolation"
+    },
+    {
+      "area": "Supply chain",
+      "name": "Every workflow action is pinned to a full immutable SHA",
+      "pass": true,
+      "evidence": "22 action uses; all immutable SHA pinned"
+    },
+    {
+      "area": "Validation workflow",
+      "name": "Required CI runs deterministic release and browser gates",
+      "pass": true,
+      "evidence": "PR/main release-validation + browser-validation; cancellation and timeouts"
+    },
+    {
+      "area": "Deployment",
+      "name": "Production workflow is manual, exact-main-SHA, serialized and smoke-tested",
+      "pass": true,
+      "evidence": "manual only; current main SHA; build-once artifact; serialized deploy; smoke"
+    },
+    {
+      "area": "Rollback",
+      "name": "Rollback workflow is manual, exact-version guarded and smoke-tested",
+      "pass": true,
+      "evidence": "manual exact Cloudflare version; confirmation; shared concurrency; smoke"
+    },
+    {
+      "area": "Runtime",
+      "name": "Node, npm and lockfile reproducibility are aligned",
+      "pass": true,
+      "evidence": "Node 22; npm 10; lockfile v3; npm ci"
+    },
+    {
+      "area": "Secrets",
+      "name": "Tracked and pending source contains no recognized high-confidence secret value",
+      "pass": true,
+      "evidence": "0 private-key/token matches; public GA/AdSense identifiers correctly exempt"
+    },
+    {
+      "area": "Dependency governance",
+      "name": "Weekly bounded npm and Actions update policy exists",
+      "pass": true,
+      "evidence": "weekly npm + GitHub Actions; bounded PR count; CI required"
+    },
+    {
+      "area": "Evidence",
+      "name": "All mandatory Phase 9 deliverables exist and are non-empty",
+      "pass": true,
+      "evidence": "38/38 mandatory artifacts"
+    },
+    {
+      "area": "Documentation",
+      "name": "Contributor, governance, deployment and rollback instructions exist",
+      "pass": true,
+      "evidence": "6/6 durable governance documents"
+    }
+  ]
+}

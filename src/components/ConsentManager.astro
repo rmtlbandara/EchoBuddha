@@ -23,14 +23,15 @@ const isProduction = import.meta.env.PROD;
       <p class="eyebrow">Privacy choices</p>
       <h2 id="consent-heading">Optional Analytics</h2>
       <p id="consent-description">
-        Echo Buddha uses Google Analytics to understand which pages are useful. Analytics is accepted by default, and
-        rejecting optional analytics keeps the site fully usable.
+        May Echo Buddha use Google Analytics to understand which pages are useful? It stays off unless you accept, and
+        rejecting it keeps every article, meditation, search, and tool fully usable. Read the
+        <a href="/privacy-policy/">Privacy Policy</a>.
       </p>
     </div>
     <div class="consent-actions" aria-label="Analytics consent choices">
       <button type="button" data-consent-accept>Accept analytics</button>
-      <button type="button" data-consent-reject>Reject optional cookies</button>
-      <button type="button" data-consent-close>Close</button>
+      <button type="button" data-consent-reject>Reject analytics</button>
+      <button class="consent-close" type="button" data-consent-close>Decide later</button>
     </div>
   </section>
 )}
@@ -55,18 +56,6 @@ const isProduction = import.meta.env.PROD;
       const focusableSelector = "button, [href], input, select, textarea, [tabindex]:not([tabindex='-1'])";
       let analyticsLoaded = false;
       let lastFocus = null;
-
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = window.gtag || function gtag() {
-        window.dataLayer.push(arguments);
-      };
-
-      window.gtag("consent", "default", {
-        ad_storage: "denied",
-        ad_user_data: "denied",
-        ad_personalization: "denied",
-        analytics_storage: "denied"
-      });
 
       const readPreference = () => {
         try {
@@ -121,17 +110,28 @@ const isProduction = import.meta.env.PROD;
       const loadAnalytics = () => {
         if (analyticsLoaded || !isProduction) return;
         analyticsLoaded = true;
-        const script = document.createElement("script");
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analyticsId)}`;
-        document.head.appendChild(script);
-        window.gtag("js", new Date());
+        window[`ga-disable-${analyticsId}`] = false;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function gtag() {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag("consent", "default", {
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          analytics_storage: "denied"
+        });
         window.gtag("consent", "update", {
           analytics_storage: "granted",
           ad_storage: "denied",
           ad_user_data: "denied",
           ad_personalization: "denied"
         });
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analyticsId)}`;
+        document.head.appendChild(script);
+        window.gtag("js", new Date());
         window.gtag("config", analyticsId, { anonymize_ip: true });
       };
 
@@ -143,12 +143,15 @@ const isProduction = import.meta.env.PROD;
 
       const rejectAnalytics = () => {
         writePreference(false);
-        window.gtag("consent", "update", {
-          analytics_storage: "denied",
-          ad_storage: "denied",
-          ad_user_data: "denied",
-          ad_personalization: "denied"
-        });
+        window[`ga-disable-${analyticsId}`] = true;
+        if (typeof window.gtag === "function") {
+          window.gtag("consent", "update", {
+            analytics_storage: "denied",
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied"
+          });
+        }
         clearAnalyticsCookies();
         closePanel();
       };
@@ -193,9 +196,10 @@ const isProduction = import.meta.env.PROD;
       const preference = readPreference();
       if (preference?.analytics === false) {
         clearAnalyticsCookies();
-      } else {
-        if (!preference) writePreference(true);
+      } else if (preference?.analytics === true) {
         loadAnalytics();
+      } else {
+        openPanel();
       }
     })();
   </script>
@@ -232,6 +236,11 @@ const isProduction = import.meta.env.PROD;
     margin-bottom: 0;
   }
 
+  .consent-panel a {
+    color: var(--color-brown);
+    font-weight: 700;
+  }
+
   .consent-actions {
     display: grid;
     gap: 0.6rem;
@@ -249,9 +258,14 @@ const isProduction = import.meta.env.PROD;
     padding: 0.7rem 0.9rem;
   }
 
-  .consent-actions button:first-child {
+  .consent-actions button:not(.consent-close) {
     background: var(--color-brown);
     color: #fffaf1;
+  }
+
+  .consent-actions .consent-close {
+    border-color: transparent;
+    text-decoration: underline;
   }
 
   .consent-actions button:hover {
@@ -262,12 +276,21 @@ const isProduction = import.meta.env.PROD;
 
   @media (min-width: 720px) {
     .consent-panel {
+      left: 50%;
+      max-width: 58rem;
+      right: auto;
+      transform: translateX(-50%);
+      width: calc(100% - 2rem);
       grid-template-columns: minmax(0, 1fr) auto;
     }
 
     .consent-actions {
       align-content: center;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: repeat(2, minmax(9.5rem, auto));
+    }
+
+    .consent-actions .consent-close {
+      grid-column: 1 / -1;
     }
   }
 </style>

@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA, SOURCE_HIERARCHY } from "../data/editorialGovernance";
 
 const title = "Editorial Policy";
 const description = "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.";
@@ -37,11 +38,8 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}/editorial-policy/`,
-  author: {
-    "@type": "Organization",
-    name: SITE.author,
-    url: `${SITE.url}/authors/echo-buddha-editorial/`
-  }
+  author: EDITORIAL_AUTHOR_SCHEMA,
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -75,6 +73,14 @@ const jsonLd = {
         Echo Buddha publishes accessible Buddhist-inspired reflections, original quotes, meditation guidance, and
         practical mindfulness education. The purpose is to support thoughtful learning and daily reflection without
         presenting the website as a religious authority.
+      </p>
+
+      <h2>Publisher Accountability and Byline</h2>
+      <p>
+        Echo Buddha is accountable for publication and correction decisions through the public contact shown on this
+        site. “Echo Buddha Editorial” is an organizational publication byline. It is not a named person, an expert
+        credential, or evidence of an external review board. Echo Buddha does not publish a person's identity,
+        qualifications, affiliation, or review role without verification and permission.
       </p>
 
       <h2>Originality</h2>
@@ -113,6 +119,11 @@ const jsonLd = {
         author information, source notes, and whether the page gives readers enough practical value to stand on its
         own.
       </p>
+      <p>
+        “Reviewed” means an internal publication check under this process. Unless a page specifically identifies a
+        verified reviewer and scope, it does not mean independent monastic, academic, medical, clinical, legal, or
+        institutional review.
+      </p>
 
       <h2>Sources and Learning Context</h2>
       <p>
@@ -121,9 +132,16 @@ const jsonLd = {
         Sanskrit terms are simplified for general readers, so formal study may require more precise tradition-specific
         guidance. Read <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a> for more detail.
       </p>
+      <ol>
+        {SOURCE_HIERARCHY.map((source) => (
+          <li><strong>{source.label}:</strong> {source.use}</li>
+        ))}
+      </ol>
       <p>
-        Automation may assist with audits, organization, code, and editorial checks. It does not replace source
-        verification, Buddhist studies review, safety review, owner review, or legal review where those are needed.
+        AI-assisted and automated tools may help organize research, outline or support drafts, analyze editorial
+        consistency, detect duplication, check source and link records, and run technical validation. Echo Buddha
+        remains responsible for what is published. Tools do not supply authority, fabricate evidence, or replace
+        human verification and qualified external guidance where it is actually needed.
         Read <a href="/how-echo-buddha-creates-content/">How Echo Buddha Creates Content</a> for the fuller process.
       </p>
 

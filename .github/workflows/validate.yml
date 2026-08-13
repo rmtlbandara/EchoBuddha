@@ -2,25 +2,99 @@ name: Validate
 
 on:
   pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  validate:
+  release-validation:
+    name: Release validation
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PHASE9_AUDIT_OUT: .artifacts/release-validation/phase-9-custom-validation.json
+      GOVERNANCE_REPORT_DIR: .artifacts/governance
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout exact change
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version-file: .node-version
           cache: npm
 
-      - name: Install dependencies
+      - name: Install deterministic dependencies
         run: npm ci
 
-      - name: Validate release gate
+      - name: Run deterministic release gate
         run: npm run validate:release
+
+      - name: Produce human-review change warnings
+        env:
+          GOVERNANCE_BASE_REF: origin/${{ github.base_ref || 'main' }}
+        run: npm run audit:governance:changes
+
+      - name: Upload compact validation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: release-validation-${{ github.run_id }}
+          path: .artifacts/
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 14
+
+  browser-validation:
+    name: Browser and consent validation
+    needs: release-validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      AUDIT_OUT_DIR: .artifacts/browser-validation
+    steps:
+      - name: Checkout exact change
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Setup Node
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install deterministic dependencies
+        run: npm ci
+
+      - name: Install isolated Chromium
+        run: npx playwright-core install --with-deps chromium
+
+      - name: Resolve Chromium path
+        run: echo "CHROME_EXECUTABLE_PATH=$(node -e "import('playwright-core').then(({ chromium }) => console.log(chromium.executablePath()))")" >> "$GITHUB_ENV"
+
+      - name: Build site
+        run: npm run build
+
+      - name: Run consent and accessibility browser gate
+        run: npm run audit:browser
+
+      - name: Upload browser evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: browser-validation-${{ github.run_id }}
+          path: .artifacts/browser-validation/
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 14

@@ -1,0 +1,8 @@
+Source URL,Target URL,Source role,Target role,Current anchor,Context,Relevant?,Ownership-aligned?,Journey value,Keep,Remove,Replace,New anchor,Reason,Validation
+/,/start-here/,Orientation entry,Beginner orientation,New here? Start here,Hero,Yes,Yes,Primary,Yes,No,No,,Direct first action,PASS
+/,/learn/,Site entry,Learning owner,Learn the foundations,Three paths,Yes,Yes,Primary,Yes,No,No,,Separates structured study,PASS
+/,/meditation/,Site entry,Practice owner,Begin a practice,Three paths,Yes,Yes,Primary,Yes,No,No,,Separates practice,PASS
+/start-here/,/learn/buddhism-for-beginners/,Orientation,Broad beginner owner,Buddhism for Beginners,First learning step,Yes,Yes,High,Yes,No,No,,Ownership-aligned beginner route,PASS
+/meditation/,/meditation/meditation-for-beginners/,Practice hub,Beginner practice,Start with meditation for beginners,Start group,Yes,Yes,High,Yes,No,No,,Safe first practice,PASS
+/,/about/sources-and-references/,Site entry,Trust evidence,Sources,Trust block,Yes,Yes,Supporting,Yes,No,No,,Trust remains discoverable,PASS
+/404/,/search/,Recovery,Search utility,Search Echo Buddha,Error recovery,Yes,Yes,High,Yes,No,No,,Useful fallback,PASS

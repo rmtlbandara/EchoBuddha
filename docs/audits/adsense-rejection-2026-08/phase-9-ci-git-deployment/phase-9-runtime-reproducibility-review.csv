@@ -1,0 +1,5 @@
+"Item","Before","After","Deterministic?","Control","Validation"
+"Node",".node-version 22.16.0","Node 22.x plus .node-version","Yes","setup-node uses node-version-file","npm ci/build"
+"npm","Implicit local npm","npm 10.x; packageManager npm@10.9.8","Yes","engines and packageManager","npm ci"
+"Dependencies","lockfile v3","lockfile v3 and npm ci","Yes","No npm install in CI","npm ci"
+"Actions","Mutable v4 tags","Full 40-character SHAs","Yes","Phase 9 supply-chain gate","audit:phase9"
