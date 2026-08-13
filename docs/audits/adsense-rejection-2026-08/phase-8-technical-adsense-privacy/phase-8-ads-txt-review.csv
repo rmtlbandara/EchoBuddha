@@ -1,2 +1,2 @@
 URL,Starting production status,Repository state,Expected line,Publisher ID correct?,Crawler access,Issue,Action,Validation,Owner check
-https://echobuddha.com/ads.txt,404,Present,"google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0",Yes,Allowed,Production still 404 until deployment,Deploy then verify 200 exact body,PASS REPOSITORY,AdSense account crawl/recheck status
+https://echobuddha.com/ads.txt,404,Present,"google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0",Yes,Allowed,Starting 404 remediated live,Preserve exact root file,PASS LIVE 200 EXACT,AdSense account crawl/recheck status

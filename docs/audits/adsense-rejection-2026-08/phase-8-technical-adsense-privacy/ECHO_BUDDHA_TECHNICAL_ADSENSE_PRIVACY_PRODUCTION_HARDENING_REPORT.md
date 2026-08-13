@@ -8,7 +8,7 @@ Starting HEAD: `a87a790a8ec6279ae9565315fba3052d8bc0aa13`
 
 ## 1. Executive Summary
 
-Phase 8 repository hardening is complete. The first-visit Analytics defect was corrected to affirmative opt-in, AdSense verification no longer requires a third-party runtime call, ads.txt was added, security/cache/preview controls were strengthened, and all protected content/index/UX states were preserved. Production was not deployed because the prompt requires separate owner approval.
+Phase 8 repository hardening is complete. The first-visit Analytics defect was corrected to affirmative opt-in, AdSense verification no longer requires a third-party runtime call, ads.txt was added, security/cache/preview controls were strengthened, and all protected content/index/UX states were preserved. The owner subsequently supplied separate production approval. The validated implementation was committed, pushed, deployed and fully reconciled with the live site.
 
 ## 2. Phase 8 Preconditions
 
@@ -28,7 +28,7 @@ Branch codex/phase-8-technical-adsense-privacy; starting HEAD a87a790a8ec6279ae9
 
 ## 6. Production Baseline
 
-Phase 7 deployment c784aaa1 / version 23d6d780 at 100%; canonical host reachable; production still reflects legacy consent/ad-runtime/header state.
+The starting production baseline was Phase 7 deployment c784aaa1 / version 23d6d780. Phase 8 is now live as deployment 891ac394 / version fa751ad8 at 100%.
 
 ## 7. Current Official Google Guidance Reviewed
 
@@ -85,7 +85,7 @@ No duplicate canonical tags; every non-404 route retains the canonical productio
 
 ## 17. Redirect Findings
 
-Zero known chains/loops in canonical host rules; live post-deploy recheck pending.
+Zero chains or loops; live HTTP and www requests redirect once to the HTTPS apex.
 
 ## 18. 404 Findings
 
@@ -117,7 +117,7 @@ manualSlotsEnabled remains false; zero rendered placeholders.
 
 ## 25. ads.txt Findings
 
-Repository exact line passes. Starting production was 404; live result awaits deployment.
+Repository and production both pass: /ads.txt returns HTTP 200 with the exact publisher line and intended cache policy.
 
 ## 26. AdSense Crawler Findings
 
@@ -209,7 +209,7 @@ No image/content campaign; emitted asset inventory recorded; no source maps emit
 
 ## 48. Production/Repository Parity
 
-PARTIAL: protected routes/indexability match; the intended Phase 8 behavior is not live because deployment awaits explicit approval.
+PASS: all 336 live HTML pages match the committed build, with exact 193-URL sitemap and 315-item Search parity.
 
 ## 49. Implementation — Crawlability
 
@@ -277,7 +277,7 @@ Six consent scenarios pass; no pre-consent Google traffic; mobile/keyboard and 1
 
 ## 65. Production Smoke Tests
 
-Plan exists; results intentionally PENDING because Phase 8 production deployment was not authorized.
+PASS: 336/336 full page parity, exact sitemap/Search/navigation, live consent 6/6, accessibility 0 findings, edge/header/cache controls and 20/20 Lighthouse runs.
 
 ## 66. Human / Owner / Legal Review Items
 
@@ -285,7 +285,7 @@ AdSense account issue/status, Auto ads, certified CMP/message, personalization c
 
 ## 67. Remaining Phase 9 Issues
 
-Formal CI/PR enforcement, browser gate, deployment SHA/ID recording, post-deploy parity and environment checks.
+Formal CI/PR enforcement and durable automated browser/deployment environment gates. Phase 8 SHA/ID recording and post-deploy parity are complete.
 
 ## 68. Remaining Phase 10 Issues
 
@@ -297,15 +297,15 @@ MASTER_PRE_PHASE9_PROTECTION_REGISTER.csv defines the non-regression contract.
 
 ## 70. Deployment Status
 
-REPOSITORY HARDENING COMPLETE / PRODUCTION DEPLOYMENT / FINAL PARITY VERIFICATION PENDING OWNER APPROVAL.
+COMPLETE — COMMITTED, PUSHED, DEPLOYED AND FULLY RECONCILED WITH PRODUCTION.
 
 ## 71. Phase 9 Handoff
 
-Phase 9 may begin after owner review of Phase 8 and the deliberate decision whether to deploy/verify first. Phase 8 does not begin Phase 9.
+Phase 9 is ready to begin under a separate instruction. Phase 8 does not begin Phase 9.
 
 ## 72. Final Phase 8 Verdict
 
-PHASE 8 STATUS: COMPLETE — PRODUCTION DEPLOYMENT PENDING
+PHASE 8 STATUS: COMPLETE — PRODUCTION DEPLOYED AND VERIFIED
 
 PHASE 7 PRECONDITION VERIFIED: Yes
 CURRENT PRODUCTION REACHABLE: Yes
@@ -325,7 +325,7 @@ ADSENSE VERIFICATION SCRIPT: PASS — NOT USED; META + ADS.TXT
 DUPLICATE ADSENSE SCRIPT: 0
 MANUAL AD SLOTS ENABLED: No
 UNINTENDED AD PLACEHOLDERS: 0
-ADS.TXT: PASS REPOSITORY / PRODUCTION PENDING
+ADS.TXT: PASS LIVE — 200 EXACT
 ADSENSE CRAWLER ACCESS: PASS REPOSITORY / DASHBOARD OWNER CHECK
 ACCOUNT-SPECIFIC ADSENSE ISSUE VERIFIED: Owner action required
 CONSENT ARCHITECTURE: PASS
@@ -340,15 +340,15 @@ CONSENT PREFERENCE REOPEN: PASS
 CMP REQUIREMENT: OWNER ACTION / LEGAL REVIEW BEFORE AD SERVING
 PRIVACY POLICY MATCHES IMPLEMENTATION: Yes
 THIRD-PARTY SERVICES INVENTORIED: Yes
-SECURITY HEADERS: PASS REPOSITORY / PRODUCTION PENDING
-CSP: PASS REPOSITORY / PRODUCTION PENDING
+SECURITY HEADERS: PASS LIVE — 8/8 ROUTES
+CSP: PASS LIVE — ENFORCED
 HSTS: PASS
 X-CONTENT-TYPE-OPTIONS: PASS
 REFERRER POLICY: PASS
 PERMISSIONS POLICY: PASS
 SECRET EXPOSURE: PASS
 CLOUDFLARE CONFIGURATION: PASS REPOSITORY / DASHBOARD OWNER CHECK
-CACHE STRATEGY: PASS REPOSITORY / PRODUCTION PENDING
+CACHE STRATEGY: PASS LIVE
 CLEAN BUILD: PASS
 DEPENDENCY AUDIT: PASS
 LIGHTHOUSE: PASS
@@ -363,7 +363,7 @@ TOPIC-OWNER REGRESSIONS: 0
 INDEXABILITY REGRESSIONS: 0
 RELEASE VALIDATION: PASS
 BROWSER QA: PASS
-PRODUCTION / REPOSITORY PARITY: PARTIAL
+PRODUCTION / REPOSITORY PARITY: PASS — 336/336
 WAS ADSENSE COVERAGE EXPANDED? No
 WERE MANUAL ADS ENABLED? No
 WAS AUTO ADS ENABLED BY THIS PHASE? No
@@ -372,8 +372,8 @@ WERE INDEXABILITY RULES CHANGED WITHOUT RECONCILIATION? No
 WAS PRIVACY/CONSENT BEHAVIOR MATERIALLY IMPROVED WHERE REQUIRED? Yes
 WAS SECURITY MATERIALLY HARDENED WHERE REQUIRED? Yes
 WAS PERFORMANCE PRESERVED OR IMPROVED? Yes
-WAS PRODUCTION DEPLOYED? No
-IF DEPLOYED, DEPLOYMENT SHA: N/A
-IF DEPLOYED, CLOUDFLARE DEPLOYMENT ID: N/A
-IS PHASE 9 READY TO BEGIN? After owner review
+WAS PRODUCTION DEPLOYED? Yes
+IF DEPLOYED, DEPLOYMENT SHA: 8de969c74139a68b88849f2404e3dc7c353e6a12
+IF DEPLOYED, CLOUDFLARE DEPLOYMENT ID: 891ac394-206e-4c9a-ba55-811b397fb6a4
+IS PHASE 9 READY TO BEGIN? Yes — under a separate instruction
 NEXT PHASE: PHASE 9 — CI, GIT & DEPLOYMENT GOVERNANCE

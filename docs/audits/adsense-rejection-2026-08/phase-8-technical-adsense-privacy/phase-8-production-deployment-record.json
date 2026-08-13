@@ -1,0 +1,68 @@
+{
+  "phase": 8,
+  "deployedAt": "2026-08-13T10:54:18.802821Z",
+  "productionUrl": "https://echobuddha.com",
+  "workersDevUrl": "https://echobuddha.rmtlbandara.workers.dev",
+  "repository": "https://github.com/rmtlbandara/EchoBuddha",
+  "branch": "codex/phase-8-technical-adsense-privacy",
+  "deployedCommit": "8de969c74139a68b88849f2404e3dc7c353e6a12",
+  "deployment": {
+    "id": "891ac394-206e-4c9a-ba55-811b397fb6a4",
+    "versionId": "fa751ad8-ebeb-45b3-983a-96703733631b",
+    "percentage": 100
+  },
+  "rollback": {
+    "phase": 7,
+    "deploymentId": "c784aaa1-bfed-4fa1-a7a6-c91bc6284d58",
+    "versionId": "23d6d780-5174-43c2-86d1-09fd2e574cce"
+  },
+  "preDeploy": {
+    "releaseValidation": "PASS",
+    "customValidation": "PASS 17/17",
+    "localLighthouse": "PASS 20/20 performance and accessibility at 1.00",
+    "localConsent": "PASS 6/6",
+    "localAccessibility": "PASS 0 violations across 16 pages",
+    "dependencyAudit": "PASS 0 critical/high",
+    "localRemoteShaParity": true
+  },
+  "postDeploy": {
+    "generatedPages": "PASS 336/336 full HTML parity",
+    "sitemap": "PASS 193/193 exact",
+    "searchIndex": "PASS 315/315 exact",
+    "navigation": "PASS approved five destinations exact",
+    "securityHeaders": "PASS 8/8 representative routes",
+    "consent": "PASS 6/6; zero Google requests before acceptance",
+    "accessibility": "PASS 0 findings across 16 live routes",
+    "adsense": "PASS 0 runtime scripts; 0 manual slots; ads.txt 200 exact",
+    "edge": "PASS 404, HTTPS/www redirects, robots and workers.dev noindex",
+    "cache": "PASS immutable hashed assets and one-hour machine files",
+    "lighthouse": {
+      "mobile": {
+        "runs": 10,
+        "performanceMin": 0.97,
+        "performanceAverage": 0.985,
+        "accessibilityMin": 1,
+        "lcpMaxMs": 1880.5,
+        "clsMax": 0,
+        "tbtMaxMs": 0
+      },
+      "desktop": {
+        "runs": 10,
+        "performanceMin": 0.92,
+        "performanceAverage": 0.99,
+        "accessibilityMin": 1,
+        "lcpMaxMs": 836.0619999999999,
+        "clsMax": 0,
+        "tbtMaxMs": 0
+      }
+    }
+  },
+  "mainMerged": false,
+  "pullRequestCreated": false,
+  "adsenseRuntimeEnabled": false,
+  "manualAdsEnabled": false,
+  "indexabilityChanged": false,
+  "urlsChanged": false,
+  "accountAndLegalReviewStillRequiredBeforeAdServing": true,
+  "pass": true
+}
