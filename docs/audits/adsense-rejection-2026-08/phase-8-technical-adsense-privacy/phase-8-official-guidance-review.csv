@@ -1,0 +1,16 @@
+Provider,Topic,URL,Phase 8 application,Accessed
+Google,AdSense CMP requirements,https://support.google.com/adsense/answer/13554020?hl=en-GB,Certified CMP required for ad serving in EEA/UK/Switzerland; Google does not certify legal compliance,2026-08-13
+Google,IAB TCF integration,https://support.google.com/adsense/answer/9804260?hl=en,Current TCF v2.3 and no ad-tag call without Purpose 1 consent,2026-08-13
+Google,Connect site to AdSense,https://support.google.com/adsense/answer/7584263?hl=en,"Code, ads.txt or meta are supported ownership verification methods",2026-08-13
+Google,Consent Mode concepts/setup,https://developers.google.com/tag-platform/security/concepts/consent-mode?hl=en,Basic mode blocks Google tags until interaction,2026-08-13
+Google,Consent Mode implementation,https://developers.google.com/tag-platform/security/guides/consent,Set defaults before measurement; v2 consent types,2026-08-13
+Google,ads.txt,https://support.google.com/adsense/answer/12171612?hl=en-GB,Root seller declaration format,2026-08-13
+Google,Publisher privacy policies,https://support.google.com/adsense/answer/10502938?hl=en,Disclose data/cookie consequences of Google services,2026-08-13
+Google,Structured data guidelines,https://developers.google.com/search/docs/appearance/structured-data/sd-policies,"Markup must remain truthful, visible, relevant and accurate",2026-08-13
+Google,Canonical guidance,https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls,Redirect/canonical are strong signals; sitemap weaker,2026-08-13
+Google,Sitemap guidance,https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=en,Use absolute canonical intended URLs,2026-08-13
+Web.dev,Web Vitals,https://web.dev/articles/vitals,Lab thresholds interpreted without claiming field pass,2026-08-13
+Cloudflare,Static asset headers,https://developers.cloudflare.com/workers/static-assets/headers/,_headers supports security/cache and host-specific headers,2026-08-13
+Cloudflare,Static redirects,https://developers.cloudflare.com/workers/static-assets/redirects/,"Static _redirects supports relative source paths, not absolute hostname matching; canonical host redirects remain external",2026-08-13
+Cloudflare,Default cache behavior,https://developers.cloudflare.com/cache/concepts/default-cache-behavior/,HTML not cached by default; Cache-Control respected,2026-08-13
+Cloudflare,Cache introduction,https://developers.cloudflare.com/cache/get-started/,Static CSS/JS/images are cache candidates,2026-08-13

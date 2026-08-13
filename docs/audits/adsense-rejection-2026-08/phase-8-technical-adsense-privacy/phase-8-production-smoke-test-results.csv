@@ -1,0 +1,7 @@
+Test,Route/resource,Expected,Repository/local result,Production result,Status,Evidence,Required after deployment
+Homepage/core routes,/ + representative journeys,200 and usable,PASS,Phase 7 baseline PASS,PENDING PHASE 8 DEPLOY,Build/browser,Repeat browser smoke
+ads.txt,/ads.txt,200 exact Google line,PASS,404 at pre-edit baseline,PENDING,curl + public file,curl exact body/cache
+Fresh consent,/,0 Google requests until choice,PASS,Legacy default acceptance,PENDING,browser results,Fresh context network/storage
+Security/cache,"/, /_astro/*, machine files",Enforced CSP; intended cache classes,PASS CONFIG,Report-only/generic baseline,PENDING,_headers,curl headers twice
+Preview noindex,workers.dev,"X-Robots-Tag noindex,nofollow",PASS CONFIG,Absent baseline,PENDING,_headers,curl preview host
+Ad runtime,All representative eligible/excluded routes,0 AdSense runtime/slots,PASS 336/336,Legacy runtime on eligible routes,PENDING,route test,Network/source scan

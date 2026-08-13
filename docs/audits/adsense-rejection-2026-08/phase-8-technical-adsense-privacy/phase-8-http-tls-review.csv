@@ -1,0 +1,4 @@
+URL,Protocol,Observed baseline status,Redirect target,TLS/HTTP evidence,HSTS,Issue,Action,Phase 8 validation
+https://echobuddha.com/,HTTPS,200,N/A,HTTP/2; HTTP/3 advertised via alt-svc,max-age=31536000,None,Preserve,PASS BASELINE
+https://www.echobuddha.com/,HTTPS,301,https://echobuddha.com/,HTTP/2,Redirect response dashboard-controlled,Hostname redirect is dashboard/DNS behavior; static _redirects cannot match absolute source hosts,Preserve and verify dashboard rule,PASS PRODUCTION BASELINE / OWNER DASHBOARD CHECK
+http://echobuddha.com/,HTTP,301,https://echobuddha.com/,HTTP/1.1 redirect,N/A,Hostname/protocol redirect is dashboard/DNS behavior,Preserve and verify dashboard rule,PASS PRODUCTION BASELINE / OWNER DASHBOARD CHECK

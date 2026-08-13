@@ -13,6 +13,7 @@
     "audit:dependencies": "node scripts/audit-dependencies.mjs",
     "audit:browser": "node scripts/browser-readiness-check.mjs",
     "audit:lighthouse": "node scripts/lighthouse-readiness.mjs",
+    "audit:phase8": "node scripts/validate-phase-8.mjs",
     "test": "node --test tests/*.test.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
     "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content",

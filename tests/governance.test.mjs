@@ -4,53 +4,45 @@ import test from "node:test";
 
 const read = (file) => fs.readFileSync(file, "utf8");
 
-test("analytics defaults accepted without auto-opening the popup and ad consent remains denied", () => {
+test("analytics requires affirmative consent and advertising storage remains denied", () => {
   const layout = read("src/layouts/Layout.astro");
   const consent = read("src/components/ConsentManager.astro");
   const site = read("src/data/site.ts");
   const ads = read("src/data/ads.ts");
 
   assert.equal(layout.includes("googletagmanager.com/gtag/js"), false);
-  assert.match(consent, /writePreference\(true\)/);
-  assert.equal(consent.includes("window.setTimeout(openPanel"), false);
+  assert.match(consent, /else \{\s*openPanel\(\);\s*\}/);
+  assert.doesNotMatch(consent, /if \(!preference\) writePreference\(true\)/);
+  assert.match(consent, /It stays off unless you accept/);
   assert.match(consent, /\.consent-panel\[hidden\]/);
   assert.match(consent, /analytics_storage:\s*"denied"/);
   assert.match(consent, /ad_storage:\s*"denied"/);
   assert.match(consent, /ad_user_data:\s*"denied"/);
   assert.match(consent, /ad_personalization:\s*"denied"/);
+  assert.match(consent, /ga-disable-\$\{analyticsId\}/);
   assert.match(site, /adsEnabled:\s*true/);
   assert.match(ads, /enabled:\s*true/);
   assert.match(ads, /publisherId:\s*"ca-pub-3911157640549350"/);
+  assert.match(ads, /runtimeScriptEnabled:\s*false/);
   assert.match(ads, /manualSlotsEnabled:\s*false/);
   assert.match(layout, /AdSenseScript/);
 });
 
-test("AdSense is route-gated away from sensitive and trust pages when built", () => {
+test("AdSense uses no-network verification and the runtime script is absent from every built page", () => {
   if (!fs.existsSync("dist/articles/four-noble-truths-explained-simply/index.html")) {
     console.warn("dist HTML is missing; run npm run build before this full validation test.");
     return;
   }
 
-  const homepage = read("dist/index.html");
-  const allowedArticle = read("dist/articles/four-noble-truths-explained-simply/index.html");
-  const allowedLearn = read("dist/learn/buddhism-101/what-is-mindfulness/index.html");
-  assert.match(homepage, /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-3911157640549350/);
-  assert.match(allowedArticle, /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-3911157640549350/);
-  assert.match(allowedLearn, /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-3911157640549350/);
-
-  for (const file of [
-    "dist/privacy-policy/index.html",
-    "dist/search/index.html",
-    "dist/daily-reflections/today/index.html",
-    "dist/quotes/mindfulness/index.html",
-    "dist/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/index.html",
-    "dist/meditation/breathing-meditation/index.html",
-    "dist/articles/how-to-meditate-for-anxiety/index.html",
-    "dist/articles/dhammapada-verse-1-meaning/index.html",
-    "dist/learn/buddhism-101/five-hindrances-in-buddhism/index.html"
-  ]) {
-    assert.equal(read(file).includes("pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"), false, `${file} should not load AdSense`);
+  const htmlFiles = fs.readdirSync("dist", { recursive: true })
+    .filter((file) => String(file).endsWith(".html"))
+    .map((file) => `dist/${file}`);
+  assert.ok(htmlFiles.length >= 300);
+  for (const file of htmlFiles) {
+    assert.equal(read(file).includes("pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"), false, `${file} must not load the AdSense runtime`);
   }
+  assert.match(read("dist/index.html"), /<meta name="google-adsense-account" content="ca-pub-3911157640549350"/);
+  assert.equal(read("public/ads.txt").trim(), "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0");
 });
 
 test("required validation scripts are present", () => {
@@ -84,9 +76,12 @@ test("robots manifest and security headers are source-controlled", () => {
   assert.match(headers, /X-Content-Type-Options:\s*nosniff/);
   assert.match(headers, /Referrer-Policy:\s*strict-origin-when-cross-origin/);
   assert.match(headers, /X-Frame-Options:\s*DENY/);
-  assert.match(headers, /Content-Security-Policy-Report-Only:/);
+  assert.match(headers, /Content-Security-Policy:/);
   assert.match(headers, /frame-ancestors 'none'/);
-  assert.match(headers, /pagead2\.googlesyndication\.com/);
+  assert.doesNotMatch(headers, /pagead2\.googlesyndication\.com/);
+  assert.match(headers, /\/_astro\/\*/);
+  assert.match(headers, /max-age=31536000, immutable/);
+  assert.match(headers, /workers\.dev\/\*/);
 });
 
 test("sitemap output aligns with canonical site when built", () => {

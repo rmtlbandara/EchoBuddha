@@ -1,0 +1,8 @@
+Classification,Priority,Item,Why repository cannot verify,Current safe state,Owner action,Legal review,Blocks repository completion?,Blocks ad serving?,Evidence/status
+GOOGLE ACCOUNT CHECK,P1,AdSense site/review/account issue status,Account UI external,Meta + ads.txt; no runtime,Verify site method/status after deploy,No,No,Yes,OWNER ACTION
+GOOGLE ACCOUNT CHECK,P1,Auto ads disabled,Account-level setting,No code enablement/slots,Confirm Auto ads off,No,No,Yes until confirmed,OWNER ACTION
+OWNER ACCOUNT CHECK,P1,Google-certified CMP/privacy message,AdSense account/CMP provider setup,Ad runtime disabled,Select Google CMP or certified third party before ads,Yes,No,Yes in applicable regions,OWNER + LEGAL ACTION
+LEGAL REVIEW,P1,Consent/policy jurisdictional adequacy and personalized/non-personalized ads,Legal/business decision,Analytics opt-in; ads disabled; no compliance claim,Obtain qualified review before ads,Required,No,Yes,LEGAL REVIEW
+GOOGLE ACCOUNT CHECK,P2,"Analytics retention, sharing, signals and filters",GA account settings,Tag opt-in only,Review account settings,As applicable,No,No,OWNER ACTION
+CLOUDFLARE DASHBOARD CHECK,P2,WAF/bot/cache/transform conflicts,Dashboard rules external,No crawler weakening; source headers explicit,Confirm Googlebot/Mediapartners allowed and no conflicting rules,No,No,Could,OWNER ACTION
+GOOGLE ACCOUNT CHECK,P2,Search Console Manual Actions/Security Issues,Search Console external,Crawl/index infrastructure passes,Review account screens in Phase 10,No,No,No direct,PHASE 10

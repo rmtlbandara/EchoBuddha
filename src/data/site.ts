@@ -16,7 +16,7 @@ export const FEATURES = {
 export const ANALYTICS = {
   googleAnalyticsId: "G-6QB396HNKN",
   consentPreferenceKey: "echo_buddha_privacy_consent",
-  consentVersion: "2026-07-21"
+  consentVersion: "2026-08-13"
 };
 
 export type QuoteOriginStatus =

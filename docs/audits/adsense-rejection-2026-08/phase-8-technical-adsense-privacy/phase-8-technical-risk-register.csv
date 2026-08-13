@@ -1,0 +1,8 @@
+Priority,Area,Finding,Starting state,Phase 8 state,Risk,Owner/external dependency,Validation,Status
+P1,Consent,First visit inferred Analytics acceptance,Stored true and loaded GA,No stored choice; panel opens; no network before accept,Privacy/policy mismatch,Legal adequacy remains owner/legal,Browser 6/6,REMEDIATED
+P1,AdSense,Runtime script used only for verification,Route-gated third-party runtime,Meta + ads.txt; runtime disabled,CMP/performance,AdSense account/CMP,336/336 routes,REMEDIATED
+P1,ads.txt,Root returned 404,Absent,Correct public seller line,Verification transparency,Production deploy,Exact-value test,REMEDIATED IN REPOSITORY
+P2,CSP,Report-only without endpoint,Non-enforcing broad policy,Enforced current-runtime allowlist,Compatibility,Production deploy,Browser/a11y/static,REMEDIATED IN REPOSITORY
+P2,Caching,No explicit immutable asset class,Revalidate broadly,Hashed assets immutable; machine files 1h,Stale search/policy,Production deploy,Header rules,REMEDIATED IN REPOSITORY
+P2,Preview indexing,workers.dev lacked source noindex,200 without X-Robots-Tag,"Host-specific noindex,nofollow",Preview indexing,Production deploy/dashboard,Header rule,REMEDIATED IN REPOSITORY
+P2,Production parity,Phase 8 not deployed,Phase 7 current,Repository ahead of production,Production lacks Phase 8 fixes,Explicit deploy approval,Post-deploy smoke plan,OWNER APPROVAL REQUIRED

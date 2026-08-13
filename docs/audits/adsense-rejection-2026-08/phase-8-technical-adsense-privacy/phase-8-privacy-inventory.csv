@@ -1,0 +1,6 @@
+Data/technology,Provider,Purpose,Essential?,Default state,Consent dependency,Storage/network,Retention/control,Disclosure,Owner/legal review,Validation
+Consent preference,Echo Buddha,Remember Analytics choice,Preference storage,Absent,Written only after accept/reject,localStorage echo_buddha_privacy_consent; no network,Versioned; browser clear; settings overwrite,Privacy Policy,Legal classification,PASS
+Google Analytics,Google,Aggregate site usage and technical improvement,No,Off,Affirmative Analytics acceptance,gtag + GA endpoints and possible _ga cookies,Google account settings; withdraw and known-cookie clearing,Privacy Policy,Account retention/data sharing,PASS CODE
+AdSense ownership meta,Google,Publisher/site ownership verification,No cookie,Static metadata on indexable pages,None; no request,HTML metadata only,Source-controlled,Privacy Policy,Account verification status,PASS
+ads.txt,IAB/Google seller declaration,Authorize public seller ID,Public machine file,Available after deploy,None,Crawler HTTP request,Source-controlled,Privacy Policy links file,Account crawl status,PASS REPOSITORY
+AdSense runtime/ads,Google,Advertising,No,Disabled,Certified CMP/account decisions before future enablement,None current,N/A current,Privacy Policy,Required before serving,PASS DISABLED

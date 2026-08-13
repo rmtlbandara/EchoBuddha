@@ -1,29 +1,17 @@
 ---
-import { ADSENSE, isAdSenseAllowedPath } from "../data/ads";
+import { ADSENSE } from "../data/ads";
 
 type Props = {
   noindex?: boolean;
 };
 
 const { noindex = false } = Astro.props;
-const shouldLoadAdSense = ADSENSE.enabled && isAdSenseAllowedPath(Astro.url.pathname, noindex);
-const adSenseScriptSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.publisherId}`;
+const shouldVerifyOwnership = ADSENSE.enabled && !noindex;
 ---
 
-{shouldLoadAdSense && (
-  <>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = window.gtag || function gtag() {
-        window.dataLayer.push(arguments);
-      };
-      window.gtag("consent", "default", {
-        ad_storage: "denied",
-        ad_user_data: "denied",
-        ad_personalization: "denied",
-        analytics_storage: "denied"
-      });
-    </script>
-    <script is:inline async src={adSenseScriptSrc} crossorigin="anonymous"></script>
-  </>
-)}
+<!--
+  Ownership verification uses Google's no-network meta method plus /ads.txt.
+  Runtime ad delivery stays disabled until the owner completes the AdSense,
+  certified-CMP and regional ad-personalization decisions documented in Phase 8.
+-->
+{shouldVerifyOwnership && <meta name="google-adsense-account" content={ADSENSE.publisherId} />}

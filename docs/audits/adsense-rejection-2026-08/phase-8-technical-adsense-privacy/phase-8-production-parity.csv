@@ -1,0 +1,4 @@
+Area,Production baseline,Phase 8 repository,Parity,Reason,Evidence,Required next action,Owner approval
+Deployment,Phase 7 deployment c784aaa1 / version 23d6d780,Uncommitted Phase 8 branch,PARTIAL,Prompt prohibits deploy without explicit approval,Wrangler deployment list + git,"Owner review, commit/deploy separately, run smoke plan",Required
+Routes/indexability,336 routes; 193 sitemap; 315 search; Phase 7 parity,336/193/315 unchanged,PASS FOR PROTECTED STATE,No URL/index changes,Build/evidence,Post-deploy spot/full parity,Required for deploy
+Consent/AdSense/headers,Default Analytics; AdSense runtime; ads.txt 404; report-only CSP,Opt-in; no ad runtime; ads.txt; enforced CSP,INTENTIONALLY NOT YET EQUAL,Phase 8 hardening not deployed,Production curl + local QA,Deploy and smoke test,Required

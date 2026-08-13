@@ -1,0 +1,4 @@
+Source,Expected target,Status,Chain hops,Loop,Source controlled?,Issue,Action,Validation
+http://echobuddha.com/*,https://echobuddha.com/:splat,301,1,No,Yes,None,Preserve,PASS BASELINE / DEPLOY PENDING
+http://www.echobuddha.com/*,https://echobuddha.com/:splat,301,1,No,Yes,None,Preserve,PASS REPOSITORY
+https://www.echobuddha.com/*,https://echobuddha.com/:splat,301,1,No,Yes,None,Preserve,PASS BASELINE / DEPLOY PENDING

@@ -2,13 +2,13 @@
   {
     "path": "/terms-of-use/",
     "type": "policy",
-    "words": 253,
+    "words": 288,
     "decision": "Keep with documented navigational/trust purpose unless product owner chooses expansion."
   },
   {
     "path": "/contact/",
     "type": "policy",
-    "words": 291,
+    "words": 326,
     "decision": "Keep with documented navigational/trust purpose unless product owner chooses expansion."
   }
 ]

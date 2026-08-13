@@ -1,0 +1,4 @@
+Resource,User agent,Directive,Current repository,Production baseline,Desired,Crawler impact,Issue,Action,Validation
+/robots.txt,Mediapartners-Google,Allow: /,Present,200,Allow,AdSense crawler allowed,None,Preserve,PASS
+/robots.txt,*,Allow: /,Present,200,Allow,Search crawling allowed,None,Preserve,PASS
+/robots.txt,*,Sitemap canonical URL,Present,Present,https://echobuddha.com/sitemap.xml,Discovery,None,Preserve,PASS

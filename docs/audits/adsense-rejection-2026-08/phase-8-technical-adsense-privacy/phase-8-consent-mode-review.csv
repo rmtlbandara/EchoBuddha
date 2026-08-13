@@ -1,0 +1,5 @@
+Consent type,Default/current before acceptance,After Analytics accept,After reject/withdraw,Tag-loading model,Issue,Action,Validation
+analytics_storage,No Google tag loaded,granted,denied/no initial tag,Basic,None,Preserve,PASS
+ad_storage,No ad tag loaded,denied,denied/no ad tag,Runtime advertising disabled,None,Preserve until certified CMP/account choice,PASS
+ad_user_data,No ad tag loaded,denied,denied/no ad tag,Runtime advertising disabled,None,Preserve until certified CMP/account choice,PASS
+ad_personalization,No ad tag loaded,denied,denied/no ad tag,Runtime advertising disabled,None,Preserve until certified CMP/account choice,PASS

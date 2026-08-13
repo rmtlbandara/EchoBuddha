@@ -1,0 +1,6 @@
+Directive,Starting value,Phase 8 value,Required by,Removed origins,Compatibility evidence,Risk,Validation
+default-src,'self','self',site,None,Browser QA,Low,PASS
+script-src,self inline GTM + AdSense,self inline GTM,site scripts + opt-in GA,googlesyndication,336 build + browser QA,Ad runtime blocked by design,PASS
+connect-src,self GA + ad domains,self + GA,opt-in Analytics,ads/doubleclick/google wildcard,Consent browser,Low,PASS
+frame-src,ad domains,none,no current frames,all ad frames,Browser QA,Future ads require reviewed change,PASS
+upgrade-insecure-requests,Absent,Present,HTTPS hardening,N/A,All first-party URLs relative/HTTPS,Low,PASS

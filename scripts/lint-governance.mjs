@@ -97,9 +97,12 @@ if (!fs.existsSync(path.join(root, "public/_headers"))) {
     "X-Content-Type-Options: nosniff",
     "Referrer-Policy: strict-origin-when-cross-origin",
     "X-Frame-Options: DENY",
-    "Content-Security-Policy-Report-Only:"
+    "Content-Security-Policy:"
   ]) {
     if (!headers.includes(required)) failures.push(`Missing required security header: ${required}`);
+  }
+  if (headers.includes("Content-Security-Policy-Report-Only:")) {
+    failures.push("Phase 8 requires an enforced CSP rather than a report-only policy without a reporting endpoint.");
   }
 }
 

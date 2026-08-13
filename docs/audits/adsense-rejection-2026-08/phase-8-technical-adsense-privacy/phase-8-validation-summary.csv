@@ -1,0 +1,11 @@
+Validation,Command/evidence,Scope,Result,Key metric,Production?,Notes
+Clean build,npm run build,Static output,PASS,336 pages,No,Local repository
+Typecheck,npm run typecheck,Astro/TypeScript,PASS,0 errors,No,Local repository
+Governance tests,npm test,Consent/AdSense/SEO/protection,PASS,7 tests,No,Includes 336-route AdSense scan
+SEO/content,npm run audit:seo + audit:content,SEO/content preservation,PASS,0 reported failures,No,Full validate
+Dependency,npm run audit:dependencies,npm vulnerabilities,PASS,0 critical/high,No,437 dependencies
+Consent/browser,browser-validation/consent-browser-results.json,Fresh/reject/accept/withdraw/mobile,PASS,6/6,No,0 pre-consent Google requests
+Accessibility,browser-validation/accessibility-browser-results.json,16 representative pages,PASS,0 violations,No,axe tested rule set through Cloudflare local runtime
+Lighthouse,post-edit-lighthouse,10 routes x 2 viewports,PASS,"20/20 perf ≥0.90, a11y 1.00",No,Lab only
+Production baseline,curl/wrangler before edit,Host/headers/resources/deployment,PASS WITH FINDINGS,Phase 7 reachable,Yes,Phase 8 parity pending deploy
+Phase 8 custom,npm run audit:phase8,Crawl/AdSense/privacy/security/evidence,PASS,17/17,No,See phase-8-custom-validation.json

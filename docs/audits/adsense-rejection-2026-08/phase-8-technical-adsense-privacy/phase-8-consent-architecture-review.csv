@@ -1,0 +1,5 @@
+Control,Starting behavior,Phase 8 behavior,Google Consent Mode,Ad consent,Analytics consent,Evidence,Result,Owner/legal review
+Default,Inferred analytics=true,No inferred choice; UI opens; no Google tag,Basic,Not requested; runtime off,Required,Browser fresh visit,PASS,Legal adequacy not claimed
+Accept,Already loaded,Consent defaults denied then analytics update granted before gtag load,Basic v2 types,Denied,Granted,1 loader request,PASS,Analytics account settings
+Reject/withdraw,Opt-out,No initial tag; future requests denied; known cookies cleared,Basic,Denied,Denied,0 requests/0 cookies,PASS,None for code
+Future advertising,Runtime loaded with ad types denied,Runtime fully disabled,Not sufficient alone,Requires certified CMP where applicable,Separate,336 route scan,OWNER ACTION,CMP and personalization selection

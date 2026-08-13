@@ -1,0 +1,5 @@
+Priority,Measurement area,Current evidence,Why deferred,Required source,Suggested observation window,Protected Phase 8 state,Owner action,Do not infer
+P1,Field CWV,Lab only; 20 Lighthouse cases,Needs deployed real-user data,CrUX/PSI/Search Console,28 days after deploy,No lab regression; third-party cost reduced,Monitor Phase 10,Real-user CWV pass
+P1,GSC indexing/sitemap,193 canonical sitemap locally,Search Console external and lagged,GSC sitemap/Page indexing/URL inspection,After deploy and recrawl,0 indexability changes,Export/review,Index coverage from local build
+P2,Consent Analytics,Browser loader behavior,Needs production accepted sessions/account,GA DebugView/realtime/network,Immediately + 7 days,No request before accept,Verify without synthetic traffic pollution,Traffic quality/consent rates
+P2,Search/security account,Technical scan only,Account UI,GSC Manual Actions/Security Issues,Owner review,No crawler/security weakening,Check screens,No account action from repo

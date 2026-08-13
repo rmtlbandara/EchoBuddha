@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-08-13T10:47:27.764Z",
+  "totalChecks": 17,
+  "passed": 17,
+  "failed": 0,
+  "pass": true,
+  "checks": [
+    {
+      "area": "Build",
+      "name": "Protected route count",
+      "pass": true,
+      "evidence": "336 HTML pages"
+    },
+    {
+      "area": "Sitemap",
+      "name": "Protected sitemap count and canonical host",
+      "pass": true,
+      "evidence": "193 canonical URLs"
+    },
+    {
+      "area": "Search",
+      "name": "Protected search index count",
+      "pass": true,
+      "evidence": "315 search records"
+    },
+    {
+      "area": "Canonical",
+      "name": "Every HTML document has at most one canonical",
+      "pass": true,
+      "evidence": "0 duplicate canonicals"
+    },
+    {
+      "area": "Structured data",
+      "name": "Every emitted JSON-LD block parses",
+      "pass": true,
+      "evidence": "334 JSON-LD blocks parsed"
+    },
+    {
+      "area": "AdSense",
+      "name": "Runtime script is absent from every route",
+      "pass": true,
+      "evidence": "0 runtime scripts"
+    },
+    {
+      "area": "AdSense",
+      "name": "No manual ad placeholder is rendered",
+      "pass": true,
+      "evidence": "0 rendered manual slots"
+    },
+    {
+      "area": "AdSense",
+      "name": "No-network ownership verification is correct",
+      "pass": true,
+      "evidence": "meta + ads.txt"
+    },
+    {
+      "area": "Privacy",
+      "name": "First visit is affirmative opt-in",
+      "pass": true,
+      "evidence": "no inferred acceptance"
+    },
+    {
+      "area": "Privacy",
+      "name": "Privacy policy matches no-ad-runtime state",
+      "pass": true,
+      "evidence": "policy-to-code alignment present"
+    },
+    {
+      "area": "Security",
+      "name": "CSP is enforced and excludes disabled ad runtime",
+      "pass": true,
+      "evidence": "enforced least-current-privilege CSP"
+    },
+    {
+      "area": "Caching",
+      "name": "Fingerprint and machine-file cache policies exist",
+      "pass": true,
+      "evidence": "5 explicit cache classes"
+    },
+    {
+      "area": "Preview",
+      "name": "workers.dev is protected from indexing",
+      "pass": true,
+      "evidence": "X-Robots-Tag noindex, nofollow"
+    },
+    {
+      "area": "Redirects",
+      "name": "No invalid static hostname redirect file is emitted",
+      "pass": true,
+      "evidence": "canonical hostname redirects remain verified Cloudflare dashboard/DNS behavior"
+    },
+    {
+      "area": "Exposure",
+      "name": "No source maps or private dotfiles are emitted",
+      "pass": true,
+      "evidence": "0 exposed source maps/private dotfiles"
+    },
+    {
+      "area": "Secrets",
+      "name": "Tracked source has no recognized high-confidence secret material",
+      "pass": true,
+      "evidence": "0 high-confidence matches"
+    },
+    {
+      "area": "Evidence",
+      "name": "All mandatory Phase 8 deliverables exist and are non-empty",
+      "pass": true,
+      "evidence": "48 required artifacts"
+    }
+  ]
+}

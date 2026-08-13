@@ -13,7 +13,7 @@ fs.mkdirSync(outDir, { recursive: true });
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const baseUrl = process.env.AUDIT_BASE_URL || "http://127.0.0.1:4321";
 const consentKey = "echo_buddha_privacy_consent";
-const consentVersion = "2026-07-21";
+const consentVersion = "2026-08-13";
 const analyticsId = "G-6QB396HNKN";
 
 const pages = [
@@ -80,7 +80,7 @@ async function withBrowser(callback) {
 
 async function runConsentChecks(browser) {
   const results = {
-    model: "Analytics defaults accepted without auto-opening the popup, matching current owner-approved repository behavior.",
+    model: "Basic consent mode: Analytics remains off until affirmative acceptance; ad storage and AdSense runtime remain off.",
     scenarios: []
   };
 
@@ -93,8 +93,9 @@ async function runConsentChecks(browser) {
   const panelOpen = await firstPage.locator("[data-consent-panel]").evaluate((node) => node.dataset.open);
   const firstCookies = await firstContext.cookies();
   results.scenarios.push({
-    name: "first visit default accepted",
-    pass: Boolean(firstPreference?.includes('"analytics":true')) && panelOpen === "false",
+    name: "first visit has no inferred consent and no Google network request",
+    pass: firstPreference === null && panelOpen === "true" &&
+      firstRequests.filter((url) => ["gtag-script", "ga-collect", "adsense"].includes(requestKind(url))).length === 0,
     details: {
       preference: firstPreference,
       panelOpen,
@@ -102,6 +103,17 @@ async function runConsentChecks(browser) {
       analyticsCollectionRequests: firstRequests.filter((url) => requestKind(url) === "ga-collect").length,
       adsenseRequests: firstRequests.filter((url) => requestKind(url) === "adsense").length,
       analyticsCookieCount: firstCookies.filter((cookie) => cookie.name.startsWith("_ga") || cookie.name === "_gid").length
+    }
+  });
+  await firstPage.locator("[data-consent-reject]").click();
+  const firstRejectPreference = await firstPage.evaluate((key) => localStorage.getItem(key), consentKey);
+  results.scenarios.push({
+    name: "first visit explicit rejection",
+    pass: Boolean(firstRejectPreference?.includes('"analytics":false')) &&
+      firstRequests.filter((url) => ["gtag-script", "ga-collect", "adsense"].includes(requestKind(url))).length === 0,
+    details: {
+      preference: firstRejectPreference,
+      googleRequests: firstRequests.filter((url) => ["gtag-script", "ga-collect", "adsense"].includes(requestKind(url))).length
     }
   });
   await firstContext.close();

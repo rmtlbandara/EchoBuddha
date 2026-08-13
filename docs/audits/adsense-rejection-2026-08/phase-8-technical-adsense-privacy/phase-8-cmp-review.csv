@@ -1,0 +1,3 @@
+Region/scope,Current ad-serving state,Google requirement reviewed,Repository CMP,Certified?,Current result,Owner/account action,Legal review,Runtime gate,Evidence
+"EEA, UK, Switzerland",Disabled,Google-certified CMP integrating IAB TCF for ad serving; current TCF v2.3,None,No,"No ad tag/no ads; requirement deferred, not claimed satisfied",Select Google CMP or certified third party before runtime enablement,Required for adequacy,ADSENSE.runtimeScriptEnabled=false,Official Google guidance accessed 2026-08-13
+Other regions,Disabled,Consent and disclosure obligations may vary,Analytics-only preference UI,Not an ad CMP,No ads,Determine future applicable model,Required before serving,Disabled,Code and network scan

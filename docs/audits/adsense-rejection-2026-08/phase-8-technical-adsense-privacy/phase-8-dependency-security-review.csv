@@ -1,0 +1,4 @@
+Area,Tool/evidence,Critical,High,Moderate,Low,Total dependencies,Issue,Action,Validation,Boundary
+npm dependency tree,npm audit --json 2026-08-13,0,0,0,0,437,None reported,No package churn,PASS,Phase 8 project-relevant security only
+Public IDs,Source review,N/A,N/A,N/A,N/A,N/A,"GA and AdSense publisher IDs are public identifiers, not secrets",Keep classified as public,PASS,Do not redact required public IDs
+Secret patterns,Tracked-file high-confidence scan,0,0,N/A,N/A,N/A,No recognized private key/AWS/GitHub/Stripe live secret match,Preserve secret hygiene,PASS,Pattern scan is not a credential-provider audit

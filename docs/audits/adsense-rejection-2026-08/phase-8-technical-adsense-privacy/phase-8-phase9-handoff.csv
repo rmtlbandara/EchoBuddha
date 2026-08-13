@@ -1,0 +1,5 @@
+Priority,Area,Current technical control,Missing governance,Regression risk,Required CI/PR enforcement,Protected Phase 8 state,Suggested Phase 9 action,Evidence
+P1,Privacy regression,Static + browser opt-in tests,CI browser execution,Default acceptance returns,"Run build, audit:phase8, browser scenarios",0 Google requests before accept,Add CI artifact/gate,browser-validation
+P1,AdSense regression,336-route runtime/slot scan,PR gate for ad config,Runtime or slots re-enabled without CMP,Fail on runtime/manual slot,meta + ads.txt; runtime false,Require owner review label/check,route matrices
+P2,Headers/deploy,Static CSP/cache/noindex checks,Post-deploy header/parity job,Source/live mismatch,Record SHA/deployment and smoke results,enforced CSP and explicit cache,Formal release gate,smoke plan
+P2,Environment,Canonical/redirect/preview rules,Preview-vs-production assertion,Preview indexing,Verify workers.dev X-Robots-Tag,preview noindex,Add environment check,_headers
