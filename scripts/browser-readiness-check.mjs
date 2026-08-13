@@ -37,6 +37,17 @@ const pages = [
 ].filter((pagePath) => !(process.env.AUDIT_SKIP_EXPECTED_404 && pagePath === "/missing-audit-url/"));
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const googleRequestPattern = /https:\/\/(?:www\.googletagmanager\.com|(?:[^/]+\.)?google-analytics\.com|pagead2\.googlesyndication\.com)\//;
+
+async function makeExternalGoogleRequestsDeterministic(context) {
+  await context.route(googleRequestPattern, (route) => route.abort("blockedbyclient"));
+}
+
+async function loadAuditPage(page, url) {
+  page.setDefaultNavigationTimeout(15_000);
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+  await page.waitForLoadState("networkidle", { timeout: 3_000 }).catch(() => {});
+}
 
 async function waitForPreview() {
   for (let i = 0; i < 80; i += 1) {
@@ -85,10 +96,11 @@ async function runConsentChecks(browser) {
   };
 
   const firstContext = await browser.newContext();
+  await makeExternalGoogleRequestsDeterministic(firstContext);
   const firstRequests = [];
   const firstPage = await firstContext.newPage();
   firstPage.on("request", (request) => firstRequests.push(request.url()));
-  await firstPage.goto(`${baseUrl}/`, { waitUntil: "networkidle" });
+  await loadAuditPage(firstPage, `${baseUrl}/`);
   const firstPreference = await firstPage.evaluate((key) => localStorage.getItem(key), consentKey);
   const panelOpen = await firstPage.locator("[data-consent-panel]").evaluate((node) => node.dataset.open);
   const firstCookies = await firstContext.cookies();
@@ -119,13 +131,14 @@ async function runConsentChecks(browser) {
   await firstContext.close();
 
   const rejectContext = await browser.newContext();
+  await makeExternalGoogleRequestsDeterministic(rejectContext);
   await rejectContext.addInitScript(({ key, version }) => {
     localStorage.setItem(key, JSON.stringify({ analytics: false, version, updatedAt: new Date().toISOString() }));
   }, { key: consentKey, version: consentVersion });
   const rejectRequests = [];
   const rejectPage = await rejectContext.newPage();
   rejectPage.on("request", (request) => rejectRequests.push(request.url()));
-  await rejectPage.goto(`${baseUrl}/privacy-policy/`, { waitUntil: "networkidle" });
+  await loadAuditPage(rejectPage, `${baseUrl}/privacy-policy/`);
   const rejectPreference = await rejectPage.evaluate((key) => localStorage.getItem(key), consentKey);
   results.scenarios.push({
     name: "return visit after rejection",
@@ -166,11 +179,12 @@ async function runConsentChecks(browser) {
   await rejectContext.close();
 
   const mobileContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
+  await makeExternalGoogleRequestsDeterministic(mobileContext);
   await mobileContext.addInitScript(({ key, version }) => {
     localStorage.setItem(key, JSON.stringify({ analytics: false, version, updatedAt: new Date().toISOString() }));
   }, { key: consentKey, version: consentVersion });
   const mobilePage = await mobileContext.newPage();
-  await mobilePage.goto(`${baseUrl}/`, { waitUntil: "networkidle" });
+  await loadAuditPage(mobilePage, `${baseUrl}/`);
   await mobilePage.locator("[data-menu-toggle]").click();
   const navVisible = await mobilePage.locator("#main-navigation").isVisible();
   await mobilePage.locator("[data-privacy-settings]").first().click();
@@ -191,14 +205,16 @@ async function runConsentChecks(browser) {
 async function runAccessibilityChecks(browser) {
   const rows = [];
   for (const pagePath of pages) {
+    console.log(`Accessibility audit: ${pagePath}`);
     const context = await browser.newContext({
       viewport: pagePath === "/" ? { width: 390, height: 844 } : { width: 1280, height: 900 }
     });
+    await makeExternalGoogleRequestsDeterministic(context);
     await context.addInitScript(({ key, version }) => {
       localStorage.setItem(key, JSON.stringify({ analytics: false, version, updatedAt: new Date().toISOString() }));
     }, { key: consentKey, version: consentVersion });
     const page = await context.newPage();
-    await page.goto(`${baseUrl}${pagePath}`, { waitUntil: "networkidle" });
+    await loadAuditPage(page, `${baseUrl}${pagePath}`);
     await page.addScriptTag({ content: axeSource.source });
     const result = await page.evaluate(async () => window.axe.run(document, {
       resultTypes: ["violations"],
