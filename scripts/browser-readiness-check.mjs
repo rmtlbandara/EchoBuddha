@@ -46,7 +46,7 @@ async function makeExternalGoogleRequestsDeterministic(context) {
 async function loadAuditPage(page, url) {
   page.setDefaultNavigationTimeout(15_000);
   await page.goto(url, { waitUntil: "domcontentloaded" });
-  await page.waitForLoadState("networkidle", { timeout: 3_000 }).catch(() => {});
+  await page.waitForTimeout(100);
 }
 
 async function waitForPreview() {
@@ -203,8 +203,7 @@ async function runConsentChecks(browser) {
 }
 
 async function runAccessibilityChecks(browser) {
-  const rows = [];
-  for (const pagePath of pages) {
+  const auditPage = async (pagePath) => {
     console.log(`Accessibility audit: ${pagePath}`);
     const context = await browser.newContext({
       viewport: pagePath === "/" ? { width: 390, height: 844 } : { width: 1280, height: 900 }
@@ -222,7 +221,7 @@ async function runAccessibilityChecks(browser) {
     }));
     const h1Count = await page.locator("h1").count();
     const mainCount = await page.locator("main").count();
-    rows.push({
+    const row = {
       path: pagePath,
       h1Count,
       mainCount,
@@ -232,8 +231,14 @@ async function runAccessibilityChecks(browser) {
         nodes: violation.nodes.length,
         help: violation.help
       }))
-    });
+    };
     await context.close();
+    return row;
+  };
+
+  const rows = [];
+  for (let index = 0; index < pages.length; index += 4) {
+    rows.push(...await Promise.all(pages.slice(index, index + 4).map(auditPage)));
   }
 
   const counts = { critical: 0, serious: 0, moderate: 0, minor: 0, unknown: 0 };
