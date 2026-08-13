@@ -63,10 +63,21 @@ async function waitForPreview() {
 }
 
 function startPreview() {
-  return spawn("npm", ["run", "preview", "--", "--host", "127.0.0.1", "--port", "4321"], {
+  return spawn(process.execPath, [path.join(root, "node_modules/astro/bin/astro.mjs"), "preview", "--host", "127.0.0.1", "--port", "4321"], {
     cwd: root,
-    stdio: ["ignore", "ignore", "pipe"]
+    stdio: ["ignore", "ignore", "inherit"]
   });
+}
+
+async function stopPreview(processToStop) {
+  if (!processToStop || processToStop.exitCode !== null) return;
+  const exited = new Promise((resolve) => processToStop.once("exit", resolve));
+  processToStop.kill("SIGTERM");
+  await Promise.race([exited, sleep(3_000)]);
+  if (processToStop.exitCode === null) {
+    processToStop.kill("SIGKILL");
+    await exited;
+  }
 }
 
 function requestKind(url) {
@@ -284,5 +295,5 @@ try {
   }
   console.log("Browser readiness check passed.");
 } finally {
-  preview?.kill("SIGTERM");
+  await stopPreview(preview);
 }
