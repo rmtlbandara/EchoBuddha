@@ -1,0 +1,7 @@
+"Category","Count","Basis","Interpretation","Action"
+"Current indexable + receiving impressions","92","Latest Page rows intersect current master register","Search-visible current intended pages","Protect / observe"
+"Current indexable + zero reported impressions","101","193 current indexable minus latest search-visible current pages","Not failure; may be niche/new/support","No mass change"
+"Current noindex + historical/latest impressions","22","Latest Page rows intersect current noindex state","Possible historical/GSC lag","Inspect examples; preserve intent"
+"Redirect + historical impressions","7","GSC reason aggregate","URLs not supplied","Owner export required"
+"Removed/404 + historical","1","GSC reason aggregate","URL not supplied","Classify exact URL; never blanket redirect"
+"Unknown/stale","26","GSC not-indexed snapshot Aug 7","Predates current production","Refresh after recrawl"

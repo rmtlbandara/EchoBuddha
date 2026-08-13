@@ -1,0 +1,8 @@
+"Validation","Command/method","State","Result","Evidence"
+"Source CSV integrity","Phase 10 generator parse/number/date/range/hash checks","Complete","PASS","dataset inventory + generation assertions"
+"Duplicate handling","SHA-256 inventory; single top-target file included","Complete","PASS","No duplicate counted"
+"Aggregate separation","Property totals only from Chart/Device/Country; page/query labeled","Complete","PASS","property and family registers"
+"Repository release","npm run validate:release","Complete","PASS","Phase 10 final command log"
+"Production output diff","deterministic dist aggregate before/after","Complete","ZERO DIFF","local SHA-256 comparison"
+"Read-only production smoke","RELEASE_SHA=<current> npm run audit:production-smoke","Complete","PASS 14/14","homepage, consent, AdSense absence, headers, robots, sitemap, owner/noindex routes, search, ads.txt, 404, HTTPS and preview"
+"Production mutation","Git scope + no deploy command","Complete","NONE","docs/scripts/source-data only"

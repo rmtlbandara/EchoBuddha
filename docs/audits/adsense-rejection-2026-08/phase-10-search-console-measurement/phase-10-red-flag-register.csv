@@ -1,0 +1,5 @@
+"ID","Severity","Area","Finding","Evidence","Production defect proven?","Action","Status"
+"RF-01","P2","Indexing evidence","1 crawled-not-indexed and 8 discovered-not-indexed URLs lack examples","GSC Coverage aggregate through Aug 7","No","Owner exports URLs and URL Inspection; no rewrite","OPEN EVIDENCE GAP"
+"RF-02","P2","Deployment attribution","0 supplied GSC days after final Phase 8/9 production","Performance ends Aug 11; final production Aug 13","No","Observe; refresh exports","EXPECTED MATURITY GAP"
+"RF-03","P1 evidence gap","Manual/Security","Actual report states not supplied","Dataset inventory","No","Owner verifies both reports before clean Phase 11 conclusion","OWNER ACTION"
+"RF-04","P2","Cloudflare governance","Legacy main auto-deploy remains documented","Phase 9 external settings register","Governance path issue, not site-output defect","Complete Phase 9 owner cutover separately","UPSTREAM OWNER ACTION"

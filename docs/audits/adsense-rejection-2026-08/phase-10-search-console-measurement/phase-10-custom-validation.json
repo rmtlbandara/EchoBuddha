@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-13T13:35:58.558Z",
+  "totalChecks": 19,
+  "passed": 19,
+  "failed": 0,
+  "pass": true,
+  "checks": [
+    {
+      "name": "Deliverables",
+      "detail": "All 37 mandatory CSVs and report exist",
+      "pass": true
+    },
+    {
+      "name": "Report",
+      "detail": "Exactly 88 numbered sections and final qualified verdict",
+      "pass": true
+    },
+    {
+      "name": "Source snapshots",
+      "detail": "44 CSVs are preserved under source-data",
+      "pass": true
+    },
+    {
+      "name": "Dataset inventory",
+      "detail": "Every source has a SHA-256 row",
+      "pass": true
+    },
+    {
+      "name": "Property metrics",
+      "detail": "Latest/previous property baselines are exact",
+      "pass": true
+    },
+    {
+      "name": "Privacy",
+      "detail": "Visible-query coverage and limitation are explicit",
+      "pass": true
+    },
+    {
+      "name": "Aggregate separation",
+      "detail": "Page aggregates are never represented as property totals",
+      "pass": true
+    },
+    {
+      "name": "Daily history",
+      "detail": "50 actual daily rows and rolling metrics exist",
+      "pass": true
+    },
+    {
+      "name": "Page register",
+      "detail": "114 latest search-visible pages are classified",
+      "pass": true
+    },
+    {
+      "name": "Query map",
+      "detail": "263 visible queries are mapped without claiming observed page intersection",
+      "pass": true
+    },
+    {
+      "name": "Owner scorecard",
+      "detail": "All 40 authoritative owners are scorecarded",
+      "pass": true
+    },
+    {
+      "name": "Cannibalization",
+      "detail": "No unsupported HIGH/CRITICAL case is asserted",
+      "pass": true
+    },
+    {
+      "name": "Index coverage",
+      "detail": "322/26 aggregate and all six reasons are retained",
+      "pass": true
+    },
+    {
+      "name": "External evidence",
+      "detail": "Sitemap, inspection, CWV, Manual Actions and Security remain owner-required",
+      "pass": true
+    },
+    {
+      "name": "HTTPS and enhancement",
+      "detail": "Supplied clean states are scoped correctly",
+      "pass": true
+    },
+    {
+      "name": "Links",
+      "detail": "GSC lag and zero-external-row limitations are explicit",
+      "pass": true
+    },
+    {
+      "name": "Protection",
+      "detail": "All 336 routes are frozen before Phase 11",
+      "pass": true
+    },
+    {
+      "name": "No production remediation",
+      "detail": "Report forbids and records zero production changes",
+      "pass": true
+    },
+    {
+      "name": "No causal overclaim",
+      "detail": "Deployment chronology and recrawl limits are explicit",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+"Area","Supplied evidence","Status","Can infer from traffic?","Severity if issue","Owner action","Blocks Phase 10?","Blocks clean Phase 11 readiness?"
+"Manual Actions","None","OWNER GSC CHECK REQUIRED","No","P0","Open Manual Actions report and record exact state/date","No - measurement can complete with gap","Yes; Phase 11 must retain pending status"
+"Security Issues","None","OWNER GSC CHECK REQUIRED","No","P0","Open Security Issues report and record exact state/date","No - measurement can complete with gap","Yes; Phase 11 must retain pending status"

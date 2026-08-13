@@ -1,0 +1,3 @@
+"Device","Good URLs","Needs improvement URLs","Poor URLs","URL groups","Issue","State","Evidence","Lab comparison rule","Owner action"
+"Mobile","Not supplied","Not supplied","Not supplied","Not supplied","Not supplied","OWNER EVIDENCE REQUIRED / INSUFFICIENT","No GSC CWV export supplied","Phase 8 Lighthouse is lab evidence and is not merged with field data","Export the GSC CWV overview and device detail, including insufficient-data state if shown"
+"Desktop","Not supplied","Not supplied","Not supplied","Not supplied","Not supplied","OWNER EVIDENCE REQUIRED / INSUFFICIENT","No GSC CWV export supplied","Phase 8 Lighthouse is lab evidence and is not merged with field data","Export the GSC CWV overview and device detail, including insufficient-data state if shown"

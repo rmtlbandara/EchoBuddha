@@ -1,0 +1,5 @@
+"Period","Start date","End date","Actual days","Clicks","Impressions","CTR","Average position","Source","Property total basis","Maturity/attribution"
+"Latest 28 days","2026-07-15","2026-08-11","28","15","1375","1.09%","32.38","Chart.csv","Property-level daily rows","Pre/final-day transition; not post-Phase 8/9"
+"Previous 28 days","2026-06-17","2026-07-14","28","9","230","3.91%","42.93","Devices comparison","Property device totals","Early discovery"
+"Last 3 months filter - actual activity","2026-06-23","2026-08-11","50","24","1605","1.50%","33.89","Chart.csv","Property-level daily rows","Only 50 days, not 3 full months"
+"Last 6 months filter - actual activity","2026-06-23","2026-08-11","50","24","1605","1.50%","33.89","Comparison device export","Property device totals","Same measurable 50-day footprint"
