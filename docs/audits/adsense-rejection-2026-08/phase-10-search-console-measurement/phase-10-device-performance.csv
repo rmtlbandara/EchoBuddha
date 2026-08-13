@@ -1,0 +1,4 @@
+"Period","Device","Clicks","Impressions","CTR","Position","Click share","Impression share","Finding","Limitation"
+"Latest 28 days","Mobile","9","261","3.45%","9.77","60.00%","18.98%","Materially stronger position and CTR with smaller impression base","No supplied query x page x device intersection"
+"Latest 28 days","Desktop","5","1105","0.45%","37.94","33.33%","80.36%","Most discovery impressions occur at weaker positions; no metadata rewrite authorized","No supplied query x page x device intersection"
+"Latest 28 days","Tablet","1","9","11.11%","6.22","6.67%","0.65%","Tiny sample","No supplied query x page x device intersection"

@@ -9,6 +9,7 @@
     "npm": "10.x"
   },
   "scripts": {
+    "prebuild": "node scripts/block-legacy-cloudflare-production-build.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -20,12 +21,13 @@
     "audit:lighthouse": "node scripts/lighthouse-readiness.mjs",
     "audit:phase8": "node scripts/validate-phase-8.mjs",
     "audit:phase9": "node scripts/validate-phase-9.mjs",
+    "audit:phase10": "node scripts/validate-phase-10.mjs",
     "audit:governance:changes": "node scripts/report-governance-changes.mjs",
     "audit:production-smoke": "node scripts/production-smoke-check.mjs",
     "test": "node --test tests/*.test.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
     "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content",
-    "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:dependencies"
+    "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:phase10 && npm run audit:dependencies"
   },
   "dependencies": {
     "astro": "^7.1.3"
