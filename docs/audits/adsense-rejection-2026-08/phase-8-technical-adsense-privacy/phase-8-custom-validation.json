@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:05:33.383Z",
+  "generatedAt": "2026-08-21T07:05:38.298Z",
   "totalChecks": 17,
   "passed": 17,
   "failed": 0,
@@ -9,19 +9,19 @@
       "area": "Build",
       "name": "Protected route count",
       "pass": true,
-      "evidence": "336 HTML pages"
+      "evidence": "337 HTML pages (336 protected baseline + 1 approved additions)"
     },
     {
       "area": "Sitemap",
       "name": "Protected sitemap count and canonical host",
       "pass": true,
-      "evidence": "193 canonical URLs"
+      "evidence": "194 canonical URLs (193 protected baseline + 1 approved additions)"
     },
     {
       "area": "Search",
       "name": "Protected search index count",
       "pass": true,
-      "evidence": "315 search records"
+      "evidence": "316 search records (315 protected baseline + 1 approved additions)"
     },
     {
       "area": "Canonical",
@@ -33,7 +33,7 @@
       "area": "Structured data",
       "name": "Every emitted JSON-LD block parses",
       "pass": true,
-      "evidence": "334 JSON-LD blocks parsed"
+      "evidence": "335 JSON-LD blocks parsed"
     },
     {
       "area": "AdSense",

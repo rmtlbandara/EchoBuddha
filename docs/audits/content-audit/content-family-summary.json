@@ -88,16 +88,16 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 743
+    "averageWords": 748
   },
   "learningDetail": {
-    "total": 45,
-    "indexable": 45,
+    "total": 46,
+    "indexable": 46,
     "noindex": 0,
     "decisions": {
-      "Pass": 45
+      "Pass": 46
     },
-    "averageWords": 684
+    "averageWords": 707
   },
   "meditationDetail": {
     "total": 9,

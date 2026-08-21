@@ -1,5 +1,14 @@
 {
   "version": 1,
   "instructions": "Explicitly record approved removals, index-state changes, canonical changes, redirects, or primary-owner changes. Routine prose edits do not belong here.",
-  "changes": []
+  "changes": [
+    {
+      "type": "protected-file",
+      "target": "src/data/editorialGovernance.ts",
+      "approved": true,
+      "reason": "Register the approved Source Literacy topic role for the new how-to-read-a-sutta page without changing any existing topic owner.",
+      "owner": "Echo Buddha project owner via the 2026-08-21 growth-preserving expansion request",
+      "date": "2026-08-21"
+    }
+  ]
 }

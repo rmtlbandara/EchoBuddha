@@ -62,6 +62,7 @@ if (!fs.existsSync(path.join(dist, "index.html"))) throw new Error("Phase 9 vali
 const baseline = JSON.parse(read("governance/release-baseline.json"));
 const pageApprovals = JSON.parse(read("governance/indexable-page-approvals.json")).approvals;
 const changeApprovals = JSON.parse(read("governance/release-change-approvals.json")).changes;
+const approvedNewRoutes = pageApprovals.filter((approval) => approval.status === "Approved").map((approval) => approval.route);
 const htmlFiles = walk(dist).filter((file) => file.endsWith(".html")).sort();
 const currentRoutes = htmlFiles.map((file) => {
   const route = routeFor(file);
@@ -117,8 +118,9 @@ check("Sitemap", "Sitemap contains only current indexable self-canonical routes"
     return !page || !page.indexable || page.canonical !== `${origin}${route}`;
   });
   assert.deepEqual(failures, []);
-  assert.equal(sitemapRoutes.size, baseline.counts.sitemap);
-  return `${sitemapRoutes.size} valid routes; 0 noindex/redirect/unknown URLs`;
+  assert.equal(sitemapRoutes.size, baseline.counts.sitemap + approvedNewRoutes.length);
+  assert.ok(approvedNewRoutes.every((route) => sitemapRoutes.has(route)));
+  return `${sitemapRoutes.size} valid routes (${baseline.counts.sitemap} protected baseline + ${approvedNewRoutes.length} approved additions); 0 noindex/redirect/unknown URLs`;
 });
 
 check("Canonical", "All public pages retain self canonicals and 404 retains none", () => {
@@ -314,7 +316,7 @@ check("Secrets", "Tracked and pending source contains no recognized high-confide
   const patterns = [/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/, /AKIA[0-9A-Z]{16}/, /gh[pousr]_[A-Za-z0-9]{36,}/, /sk_live_[A-Za-z0-9]{20,}/, /CF_API_TOKEN\s*=\s*[A-Za-z0-9_-]{20,}/];
   const failures = files.filter((file) => {
     const full = path.join(root, file);
-    if (!fs.existsSync(full) || fs.statSync(full).size > 5_000_000) return false;
+    if (!fs.existsSync(full) || !fs.statSync(full).isFile() || fs.statSync(full).size > 5_000_000) return false;
     const value = fs.readFileSync(full, "utf8");
     return patterns.some((pattern) => pattern.test(value));
   });

@@ -1,5 +1,26 @@
 {
   "version": 1,
   "instructions": "Add an approved record only for a genuinely new indexable URL. Answer every field; do not use this as a keyword expansion queue.",
-  "approvals": []
+  "approvals": [
+    {
+      "route": "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "topicCluster": "Source Literacy",
+      "pageRole": "Source-literacy guide",
+      "primaryOwner": "/learn/sutta-for-daily-life/",
+      "userNeed": "A beginner who knows what a sutta is still needs a practical method for identifying the source, reading its setting and structure, handling repetition, comparing translations, and forming a careful practice question.",
+      "intendedReader": "Source-curious beginner moving from Buddhist summaries to direct sutta reading.",
+      "closestExistingPage": "/learn/buddhist-dictionary/sutta/",
+      "whyNotImproveExisting": "The dictionary page owns concise definition intent. Turning it into a reading-method guide would blur its role, disturb an emerging query owner, and make the dictionary entry less concise.",
+      "uniqueValue": "A reusable three-pass reading method, reference decoder, translation/commentary boundary, worked structural example, common-mistake review, and seven-question reading card.",
+      "sourceRequirements": "Use SuttaCentral's introduction, getting-started material, reader guide, and SN 56.11 plus Access to Insight's Befriending the Suttas. Reproduce no modern translation and label Echo Buddha summaries and applications.",
+      "safetyRequirements": "Educational source study only. Make no health, treatment, diagnosis, guaranteed-benefit, or personal-experience claims.",
+      "indexIntent": "index, follow; self-canonical; include in sitemap and internal search through the existing Learn architecture.",
+      "monetizationSuitability": "Suitable only under existing learning-page controls; no ad insertion inside source notes or study steps and AdSense runtime remains disabled.",
+      "nextStep": "Continue to the sutta definition, Pali Canon definition, or one named source-study page and read the linked source beside the guide.",
+      "independentValueWithoutSearchOrAds": "Yes. It gives existing Echo Buddha readers a practical way to verify and deepen the source-aware learning path even if the page receives no search traffic and carries no ads.",
+      "owner": "Echo Buddha project owner via the 2026-08-21 growth-preserving expansion request",
+      "approvedAt": "2026-08-21",
+      "status": "Approved"
+    }
+  ]
 }

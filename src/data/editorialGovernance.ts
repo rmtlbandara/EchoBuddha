@@ -584,6 +584,14 @@ export const topicRoleMap: TopicRole[] = [
     reviewStatus: "external-review-pending"
   },
   {
+    cluster: "Source Literacy",
+    href: "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+    role: "source-study page",
+    primary: false,
+    publicSummary: "Use this page for a practical method of reading a sutta; dictionary pages keep definition ownership and named source studies keep discourse-specific ownership.",
+    reviewStatus: "external-review-pending"
+  },
+  {
     cluster: "Phase 5 Source Study",
     href: "/learn/buddhist-dictionary/sutta/",
     role: "dictionary definition",
