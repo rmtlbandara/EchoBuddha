@@ -2,7 +2,15 @@ import fs from "node:fs";
 import path from "node:path";
 
 const origin = process.env.PRODUCTION_ORIGIN || "https://echobuddha.com";
-const outDir = path.resolve(process.cwd(), process.env.SMOKE_OUT_DIR || ".artifacts/production-smoke");
+const root = process.cwd();
+const outDir = path.resolve(root, process.env.SMOKE_OUT_DIR || ".artifacts/production-smoke");
+const releaseBaseline = JSON.parse(fs.readFileSync(path.join(root, "governance/release-baseline.json"), "utf8"));
+const indexableApprovals = JSON.parse(fs.readFileSync(path.join(root, "governance/indexable-page-approvals.json"), "utf8"));
+const approvedRoutes = indexableApprovals.approvals
+  .filter((approval) => approval.status === "Approved")
+  .map((approval) => approval.route);
+const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length;
+const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length;
 const expectedAdsTxt = "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0";
 const expectedHeaders = [
   "content-security-policy",
@@ -36,7 +44,13 @@ check("robots", robotsResponse.status === 200 && /Sitemap: https:\/\/echobuddha\
 const sitemapResponse = await get("/sitemap.xml");
 const sitemap = await sitemapResponse.text();
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((item) => item[1]);
-check("sitemap", sitemapResponse.status === 200 && sitemapUrls.length === 193 && sitemapUrls.every((url) => url.startsWith(`${origin}/`)), `${sitemapResponse.status}; ${sitemapUrls.length} URLs`);
+const sitemapRoutes = new Set(sitemapUrls.map((url) => new URL(url).pathname));
+check(
+  "sitemap",
+  sitemapResponse.status === 200 && sitemapUrls.length === expectedSitemapCount &&
+    sitemapUrls.every((url) => url.startsWith(`${origin}/`)) && approvedRoutes.every((route) => sitemapRoutes.has(route)),
+  `${sitemapResponse.status}; ${sitemapUrls.length}/${expectedSitemapCount} URLs; ${approvedRoutes.length} approved additions present`
+);
 
 const ownerResponse = await get("/learn/four-noble-truths/");
 const owner = await ownerResponse.text();
@@ -48,7 +62,12 @@ check("noindex-route", noindexResponse.status === 200 && /name=["']robots["'] co
 
 const searchResponse = await get("/search-index.json");
 const search = await searchResponse.json();
-check("search", searchResponse.status === 200 && search.length === 315, `${searchResponse.status}; ${search.length} items`);
+const searchRoutes = new Set(search.map((entry) => entry.url));
+check(
+  "search",
+  searchResponse.status === 200 && search.length === expectedSearchCount && approvedRoutes.every((route) => searchRoutes.has(route)),
+  `${searchResponse.status}; ${search.length}/${expectedSearchCount} items; ${approvedRoutes.length} approved additions present`
+);
 
 const adsResponse = await get("/ads.txt");
 const adsTxt = (await adsResponse.text()).trim();
