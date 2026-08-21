@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-08-21T04:57:06.656Z",
+  "preIndexableCount": 193,
+  "postIndexableCount": 194,
+  "removedCount": 0,
+  "addedCount": 1,
+  "existingFieldChangeCount": 2,
+  "changes": [
+    {
+      "url": "https://echobuddha.com/learn/buddhist-resources/",
+      "changeType": "CHANGED",
+      "field": "contentHash",
+      "before": "99eb4ea804ed9674c2eda4ab6babca4b11b5ef9d91f1268368f78a4393783a95",
+      "after": "7c8d7e46cc7637560a7fc5bf69a0ebc290ea792fb6871b8181255d6ac20cbd9b"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "changeType": "CHANGED",
+      "field": "contentHash",
+      "before": "22e762d39029d98937728025ff279983c897e674adf3292d46473ceeb1f7362b",
+      "after": "6430159517a33844551347fbb10d161787b61bbd8d44bf202aabf0d67f8f6042"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "changeType": "ADDED",
+      "field": "url",
+      "before": "",
+      "after": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/"
+    }
+  ]
+}

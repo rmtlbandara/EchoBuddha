@@ -26,19 +26,38 @@ const html = htmlFiles.map((file) => fs.readFileSync(file, "utf8"));
 const sitemap = read("dist/sitemap.xml");
 const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
 const searchIndex = JSON.parse(read("dist/search-index.json"));
+const releaseBaseline = JSON.parse(read("governance/release-baseline.json"));
+const indexableApprovals = JSON.parse(read("governance/indexable-page-approvals.json"));
+const approvedRoutes = indexableApprovals.approvals
+  .filter((approval) => approval.status === "Approved")
+  .map((approval) => approval.route);
+const expectedHtmlCount = releaseBaseline.counts.html + approvedRoutes.length;
+const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length;
+const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length;
+const builtRoutes = new Set(htmlFiles.map((file) => {
+  const relative = path.relative(path.join(root, "dist"), file).split(path.sep).join("/");
+  if (relative === "index.html") return "/";
+  if (relative.endsWith("/index.html")) return `/${relative.slice(0, -"index.html".length)}`;
+  return `/${relative}`;
+}));
+const sitemapRoutes = new Set(sitemapUrls.map((url) => new URL(url).pathname));
+const searchRoutes = new Set(searchIndex.map((entry) => entry.url));
 
 check("Build", "Protected route count", () => {
-  assert.equal(htmlFiles.length, 336);
-  return `${htmlFiles.length} HTML pages`;
+  assert.equal(htmlFiles.length, expectedHtmlCount);
+  assert.ok(approvedRoutes.every((route) => builtRoutes.has(route)));
+  return `${htmlFiles.length} HTML pages (${releaseBaseline.counts.html} protected baseline + ${approvedRoutes.length} approved additions)`;
 });
 check("Sitemap", "Protected sitemap count and canonical host", () => {
-  assert.equal(sitemapUrls.length, 193);
+  assert.equal(sitemapUrls.length, expectedSitemapCount);
   assert.ok(sitemapUrls.every((url) => url.startsWith("https://echobuddha.com/")));
-  return `${sitemapUrls.length} canonical URLs`;
+  assert.ok(approvedRoutes.every((route) => sitemapRoutes.has(route)));
+  return `${sitemapUrls.length} canonical URLs (${releaseBaseline.counts.sitemap} protected baseline + ${approvedRoutes.length} approved additions)`;
 });
 check("Search", "Protected search index count", () => {
-  assert.equal(searchIndex.length, 315);
-  return `${searchIndex.length} search records`;
+  assert.equal(searchIndex.length, expectedSearchCount);
+  assert.ok(approvedRoutes.every((route) => searchRoutes.has(route)));
+  return `${searchIndex.length} search records (${releaseBaseline.counts.search} protected baseline + ${approvedRoutes.length} approved additions)`;
 });
 check("Canonical", "Every HTML document has at most one canonical", () => {
   const failures = htmlFiles.filter((file, index) => (html[index].match(/rel="canonical"/g) || []).length > 1);

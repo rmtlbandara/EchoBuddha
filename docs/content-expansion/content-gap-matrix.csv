@@ -1,0 +1,16 @@
+topic,current_coverage,reader_importance,gsc_evidence,intent_uniqueness,authority_value,source_availability,original_value_potential,cannibalization_risk,scaled_content_risk,doctrinal_sensitivity,effort,priority,recommendation,confidence
+How to read a Buddhist sutta,Definitions and named source studies exist but no reading method,High,Indirect support from sutta and Pali Canon queries,High,High,High,High,Low,Low,Medium,Medium,P1,Create one source-literacy learning page,High
+Taking refuge for beginners,Three Jewels lesson explains refuge with examples,High,Low,Low,Medium,High,Low,High,Low,Medium,Low,REJECT,Existing page is adequate,High
+Craving versus desire,Attachment cornerstone and Four Truths pages explain preference craving and clinging,High,Low,Low,High,High,Medium,High,Medium,High,Medium,REJECT,Do not create competing general page,High
+Clinging / upadana,Attachment cornerstone covers clinging but not a term study,Medium,Low,Medium,Medium,High,Medium,Medium,Medium,High,Medium,P3,Observe; consider dictionary term only with evidence,Medium
+Generosity / dana,Scattered mentions without a dedicated owner,High,None visible,High,High,High,High,Low,Low,Medium,Medium,P2,Research for a later foundational wave,Medium
+Mudita / appreciative joy,Integrated Brahmavihara lesson only,Medium,Low,Medium,Medium,Medium,Medium,Medium,Medium,High,Medium,P2,Defer pending stronger intent evidence,Medium
+Equanimity versus indifference,Dedicated article already owns this misconception,High,Low,Low,Medium,High,Low,High,Low,Medium,Low,REJECT,Existing owner adequate,High
+Pali Canon beginner guide,Dictionary page and resources hub cover definition and scope,Medium,7 visible query impressions,Low,Medium,High,Low,High,Medium,High,Medium,REJECT,Protect dictionary definition,High
+Threefold Training relationship to Eightfold Path,Current lesson already explains grouping and links path factors,Medium,Strong exact query winner,Low,Medium,High,Low,High,Medium,High,Medium,REJECT,Protect existing Class A page,High
+Right Speech source teaching,Practical owner source study and examples page exist,High,Strong current cluster demand,Low,High,High,Low,High,Medium,High,Medium,REJECT,Support existing architecture only,High
+Responsible Buddhist quotation use,Attribution policy and source/citation trust pages exist,Medium,Attribution queries around Dhammapada,Low,High,High,Low,High,Medium,Medium,Low,REJECT,Trust pages already satisfy policy intent,High
+Five Aggregates,One learning reference exists,Medium,3 visible query impressions,Low,Medium,High,Medium,Medium,Low,High,Medium,P3,Observe current page before expansion,Medium
+Brahmaviharas integrated framework,One concise learning owner plus metta compassion and equanimity support,High,8 visible query impressions,Low,High,High,Medium,Medium,Medium,High,Medium,P2,Strengthen only if later demand shows a gap,Medium
+Meditation difficulty,Dedicated when-meditation-feels-hard practice exists,High,No meaningful gap signal,Low,Medium,High,Low,High,Low,High,Low,REJECT,Existing safety-aware page adequate,High
+Generic Buddhist productivity or wellness,Outside the site's bounded purpose,Low,None,Low,Low,Low,Low,High,High,High,Medium,REJECT,Do not publish generic self-help,High

@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-08-13T15:22:14.861Z",
+  "origin": "https://echobuddha.com",
+  "sha": "b6255aaea1b76b3983468dd7f399c27c90820b3d",
+  "workflowRunId": "local",
+  "total": 14,
+  "passed": 14,
+  "failed": 0,
+  "pass": true,
+  "checks": [
+    {
+      "name": "homepage",
+      "pass": true,
+      "evidence": "200; H1 true"
+    },
+    {
+      "name": "consent",
+      "pass": true,
+      "evidence": "affirmative preference UI present"
+    },
+    {
+      "name": "adsense-runtime",
+      "pass": true,
+      "evidence": "0 homepage runtime scripts/slots"
+    },
+    {
+      "name": "verification-meta",
+      "pass": true,
+      "evidence": "publisher meta present"
+    },
+    {
+      "name": "security-headers",
+      "pass": true,
+      "evidence": "enforced CSP + 6 baseline headers"
+    },
+    {
+      "name": "robots",
+      "pass": true,
+      "evidence": "200; crawler policy present"
+    },
+    {
+      "name": "sitemap",
+      "pass": true,
+      "evidence": "200; 193 URLs"
+    },
+    {
+      "name": "primary-owner",
+      "pass": true,
+      "evidence": "200; indexable self-canonical"
+    },
+    {
+      "name": "noindex-route",
+      "pass": true,
+      "evidence": "200; noindex follow"
+    },
+    {
+      "name": "search",
+      "pass": true,
+      "evidence": "200; 315 items"
+    },
+    {
+      "name": "ads.txt",
+      "pass": true,
+      "evidence": "200; exact true"
+    },
+    {
+      "name": "404",
+      "pass": true,
+      "evidence": "404"
+    },
+    {
+      "name": "https-redirect",
+      "pass": true,
+      "evidence": "301; https://echobuddha.com/"
+    },
+    {
+      "name": "preview-noindex",
+      "pass": true,
+      "evidence": "200; noindex, nofollow"
+    }
+  ]
+}

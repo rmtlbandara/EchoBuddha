@@ -1,0 +1,4 @@
+"Changed item","Public build impact","Rollback method","Production deploy required","Risk","Decision"
+"Phase 11 audit Markdown/CSV artifacts","None","Revert the future audit-artifact commit if correction is needed","No","Low","Do not deploy"
+"Phase 11 generator/validator/package scripts","None; dist hash remains protected","Revert the future tooling commit if validator is defective","No","Low","Do not deploy"
+"Production","No Phase 11 change","Existing deployment 602d2a90-2705-42cb-87ce-23905dd46d81 / version ad82bc9d-2120-4e97-825f-eb9656370f3d remains active","No","None","No rollback action needed"

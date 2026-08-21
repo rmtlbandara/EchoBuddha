@@ -1942,7 +1942,7 @@
     "title": "Buddhist Resources | Echo Buddha",
     "description": "A curated Echo Buddha resource page for Buddhist texts, meditation learning, dictionaries, beginner Buddhism, Sri Lankan resources, and global Buddhist study.",
     "canonical": "https://echobuddha.com/learn/buddhist-resources/",
-    "words": 661,
+    "words": 676,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -2118,13 +2118,27 @@
     ]
   },
   {
+    "path": "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+    "type": "learning",
+    "noindex": false,
+    "title": "How to Read a Buddhist Sutta: A Beginner&#39;s Guide | Echo Buddha",
+    "description": "Learn a source-aware way to read a Buddhist sutta: decode references, notice context and repetition, compare translations, and reflect carefully.",
+    "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+    "words": 1739,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
     "path": "/learn/sutta-for-daily-life/",
     "type": "learningHub",
     "noindex": false,
     "title": "Sutta for Daily Life | Echo Buddha",
     "description": "Simple explanations of Buddhist teachings from sutta themes, written for ordinary readers.",
     "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/",
-    "words": 490,
+    "words": 520,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",

@@ -393,6 +393,33 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       note: "Direct canonical reference for the discourse's analysis of the eight path factors."
     }
   ],
+  "sutta-for-daily-life/how-to-read-a-buddhist-sutta": [
+    {
+      label: "SuttaCentral: Introduction",
+      href: "https://suttacentral.net/introduction",
+      note: "Explains early Buddhist text collections, translations, parallels, and SuttaCentral's navigation structure."
+    },
+    {
+      label: "SuttaCentral: Getting Started",
+      href: "https://suttacentral.net/start",
+      note: "Offers several responsible ways to begin reading suttas, including teachers, courses, reading groups, and direct exploration."
+    },
+    {
+      label: "A Reader's Guide to the Pali Suttas",
+      href: "https://suttacentral.net/edition/dn/en/sujato/general_introduction",
+      note: "Bhikkhu Sujato's guide to translation choices, collection references, structure, language, and reading routes."
+    },
+    {
+      label: "Access to Insight: Befriending the Suttas",
+      href: "https://www.accesstoinsight.org/befriending.html",
+      note: "A Theravada-oriented introduction to choosing, studying, reflecting on, and putting sutta teachings into practice."
+    },
+    {
+      label: "SuttaCentral: SN 56.11",
+      href: "https://suttacentral.net/sn56.11/en/sujato",
+      note: "The worked example uses this source's identifier and overall structure without reproducing its translation."
+    }
+  ],
   "buddhist-dictionary/sutta": [
     {
       label: "SuttaCentral: sutta definition",
@@ -791,6 +818,13 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
     clarification:
       "Patience is not allowing harm to continue. It is the strength to respond from clarity rather than panic, resentment, or pride.",
     question: "What would patience protect in this situation?"
+  },
+  "sutta-for-daily-life/how-to-read-a-buddhist-sutta": {
+    why:
+      "Source literacy helps a beginner meet a Buddhist text as a situated teaching rather than a detached quote. Context, structure, translation, and practice all shape responsible understanding.",
+    clarification:
+      "This method focuses on early Buddhist and Pali sutta reading. Other Buddhist traditions preserve different canons, genres, languages, and study practices, so one method should not be presented as universal.",
+    question: "What changes when you read a teaching in its full setting instead of carrying away only one sentence?"
   },
   "meditation/meditation-for-beginners": {
     why:
@@ -2808,6 +2842,97 @@ export const dhammapadaPages: LearningPage[] = [
 ];
 
 export const suttaPages: LearningPage[] = [
+  {
+    section: "sutta-for-daily-life",
+    slug: "how-to-read-a-buddhist-sutta",
+    title: "How to Read a Buddhist Sutta: A Beginner's Guide",
+    description:
+      "Learn a source-aware way to read a Buddhist sutta: decode references, notice context and repetition, compare translations, and reflect carefully.",
+    eyebrow: "Sutta Study Skills",
+    intro:
+      "Opening a Buddhist sutta can feel unfamiliar: the title has letters and numbers, the setting is ancient, ideas repeat, and two translations may not use the same English words. A simple reading method makes that unfamiliarity workable without pretending a short guide can replace teachers, traditions, or the texts themselves.",
+    sections: [
+      {
+        heading: "Know What Kind of Page You Opened",
+        paragraphs: [
+          "A <a href='/learn/buddhist-dictionary/sutta/'>sutta</a> is a discourse or teaching text. In Pali collections, many suttas present the Buddha or a disciple speaking to a particular person or community in a particular situation. Sanskrit and other Buddhist contexts often use the word <em>sutra</em>, and different traditions preserve different canons and genres.",
+          "This guide focuses on early Buddhist and Pali sutta reading. It is not a universal key to every Theravada, Mahayana, or Vajrayana scripture. Begin by noticing the collection, translator, and page label so that a translation, commentary, paraphrase, and modern reflection do not blur together."
+        ]
+      },
+      {
+        heading: "Decode the Reference Without Feeling Tested",
+        paragraphs: [
+          "Common abbreviations tell you where a discourse is found. <strong>DN</strong> names the Digha Nikaya or Long Discourses, and <strong>MN</strong> the Majjhima Nikaya or Middle Discourses. <strong>SN</strong> identifies the Samyutta Nikaya or Linked Discourses, where the first number usually points to a connected group and the second to a discourse. <strong>AN</strong> identifies the Anguttara Nikaya or Numbered Discourses, organized by numbered themes.",
+          "So <strong>SN 56.11</strong> means discourse 11 in connected group 56 of the Linked Discourses. A reference such as <strong>MN 21</strong> means discourse 21 of the Middle Discourses. Other collections, including the Dhammapada and Sutta Nipata, use their own abbreviations and numbering. You do not need to memorize the system; use the reference as a stable address that lets you find and compare the same text."
+        ]
+      },
+      {
+        heading: "First Pass: Orient to the Conversation",
+        paragraphs: [
+          "On the first reading, resist the urge to solve every technical term. Ask four ordinary questions: Who is speaking? Who is listening? What situation or question brought the teaching forward? What seems to change by the end?",
+          "Audience matters. Advice to a monastic community, a ruler, a grieving person, or a skeptical visitor may share Buddhist principles while answering different immediate needs. Setting does not make a teaching irrelevant; it helps you avoid pulling one sentence away from the problem it was addressing.",
+          "After this pass, write a one-sentence orientation in your own words, clearly labeled as your summary. If you cannot do that yet, reread the opening and closing before searching for a simplified explanation."
+        ]
+      },
+      {
+        heading: "Second Pass: Trace the Shape of the Teaching",
+        paragraphs: [
+          "Now look for movement. A sutta may define a term, contrast two ways of living, build a numbered list, answer objections, develop a simile, or repeat a formula while changing one important detail. Mark the turn from problem to diagnosis, from diagnosis to practice, or from a question to its answer.",
+          "Repetition is common because these texts grew within oral and communal recitation traditions and because repeated patterns make relationships visible. Once you understand a repeated formula, you may read recurring passages more lightly, but first notice what changes inside the pattern. The changing word is often the point.",
+          "Lists are not merely facts to collect. Ask how the items relate. Are they a sequence, a set of alternatives, different aspects of one training, or consequences that unfold from a cause?"
+        ]
+      },
+      {
+        heading: "Third Pass: Separate Text, Translation, and Application",
+        paragraphs: [
+          "Every English version is a translation. When a word carries much of the argument—such as <em>dukkha</em>, <em>dhamma</em>, <em>sati</em>, or a path factor—compare another reputable translation or consult a glossary. Different English wording does not automatically mean one translator is careless; it may expose a real choice about context and range.",
+          "Keep three layers distinct in your notes: what the translation says, what a translator or teacher explains, and what you think it might mean in your life. Echo Buddha source-study pages follow the same boundary: linked texts provide the source, while the site's plain-English summaries and examples are modern editorial explanation.",
+          "Application should remain proportionate. Instead of forcing an ancient passage to answer every modern problem, choose one question the text genuinely raises: What intention is being trained? What harm is being reduced? What view is being corrected? What practice is being developed?"
+        ]
+      },
+      {
+        heading: "Worked Example: Reading the Shape of SN 56.11",
+        paragraphs: [
+          "The reference <strong>SN 56.11</strong> locates a discourse in connected group 56 of the Samyutta Nikaya. The existing <a href='/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/'>Dhammacakkappavattana Sutta source-study page</a> explains its topic; here the text is used only to demonstrate method.",
+          "First orient: notice the traditional setting, speaker, audience, and the movement away from two extremes. Then trace: the discourse introduces a middle way, presents four truths, assigns a task to each truth, and repeats a pattern describing understanding. Finally separate layers: read the linked translation for the text, use Echo Buddha's page as commentary, and write your own practice question without calling it scripture.",
+          "A bounded daily-life question might be: Which part of a difficulty needs understanding, which reaction can be released, and which path factor can be developed now? That question is an Echo Buddha application of the structure, not a quotation from SN 56.11."
+        ]
+      },
+      {
+        heading: "Five Mistakes That Make Sutta Reading Harder",
+        paragraphs: [
+          "First, do not quote-mine: a striking sentence may change meaning when its audience and argument disappear. Second, do not call a summary a translation. Third, do not assume a Pali-canon explanation represents every Buddhist tradition.",
+          "Fourth, do not treat unfamiliar cosmology, social conditions, or repetition as proof that nothing is useful. Pause, seek context, and allow some questions to remain open. Fifth, do not collect references only to sound authoritative. Source reading should make understanding more honest and conduct more careful, not merely make an argument look impressive."
+        ]
+      },
+      {
+        heading: "Use a Seven-Question Reading Card",
+        paragraphs: [
+          "Keep the method small enough to repeat. Ask: What is the source address? Which collection and translation am I reading? Who speaks to whom? What problem or question organizes the text? What structure, list, contrast, or refrain carries the teaching? Which word or passage deserves comparison? What one practice question follows without pretending my application is the text?",
+          "You do not need a perfect answer to all seven. The card is a guardrail against haste. A short sutta read twice with these questions may teach more than several texts skimmed only for memorable lines."
+        ]
+      },
+      {
+        heading: "Choose a Manageable Next Text",
+        paragraphs: [
+          "Begin with a question you already care about and a text short enough to revisit. Echo Buddha's source-study pages offer guided entries into goodwill, wise inquiry, right speech, mindfulness of breathing, patience, the Four Noble Truths, and the Eightfold Path. Read the source beside the guide rather than using the guide as a substitute.",
+          "The <a href='/learn/buddhist-dictionary/pali-canon/'>Pali Canon definition</a> explains the wider collection and its Theravada context. The <a href='/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/'>Magga-vibhanga Sutta guide</a> is a useful next example because its short definitions show how path factors support one another. If a passage remains confusing or important, compare translations and learn with a qualified teacher or study community."
+        ]
+      }
+    ],
+    takeaway:
+      "Read a sutta in three passes: orient to the conversation, trace the teaching's structure, then form one careful practice question while keeping text, translation, commentary, and application distinct.",
+    practice:
+      "Open one short sutta. Record its reference, speaker, audience, central question, repeated structure, one translation choice, and one bounded practice question. Label your notes as your own summary.",
+    relatedLinks: [
+      { label: "Sutta Meaning", href: "/learn/buddhist-dictionary/sutta/", description: "Define the term before beginning source study." },
+      { label: "Pali Canon", href: "/learn/buddhist-dictionary/pali-canon/", description: "See where Pali suttas sit within the Tipitaka." },
+      { label: "Four Noble Truths Source Study", href: "/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/", description: "Apply the reading method to SN 56.11." }
+    ],
+    sourceNote:
+      "This page is original Echo Buddha source-literacy guidance based on the linked reading resources. It focuses on early Buddhist and Pali sutta study, does not reproduce a modern translation, and does not claim one method or English wording is universal across Buddhist traditions.",
+    terms: ["Sutta", "Pali Canon", "Dhamma"]
+  },
   {
     section: "sutta-for-daily-life",
     slug: "metta-sutta-explained-for-daily-life",

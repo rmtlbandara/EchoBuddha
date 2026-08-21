@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-13T10:46:28.864Z",
-  "pageCount": 336,
-  "indexableCount": 193,
+  "generatedAt": "2026-08-21T07:05:35.226Z",
+  "pageCount": 337,
+  "indexableCount": 194,
   "noindexCount": 143,
-  "sitemapCount": 193,
+  "sitemapCount": 194,
   "pageTypeCounts": {
     "other": 9,
     "policy": 7,
@@ -11,7 +11,7 @@
     "articleCategory": 5,
     "hub": 9,
     "daily": 30,
-    "learning": 45,
+    "learning": 46,
     "learningHub": 9,
     "meditation": 9,
     "quoteStory": 153,
@@ -20,7 +20,7 @@
   "schemaCounts": {
     "AboutPage": 1,
     "BlogPosting+Article": 50,
-    "BreadcrumbList": 322,
+    "BreadcrumbList": 323,
     "FAQPage": 57,
     "CollectionPage": 27,
     "Blog": 1,
@@ -30,14 +30,16 @@
     "ContactPage": 1,
     "WebSite": 1,
     "Organization": 1,
-    "Article": 56,
+    "Article": 57,
     "DefinedTerm": 14,
     "DefinedTermSet": 1,
     "HowTo": 1,
     "PrivacyPolicy": 1
   },
-  "lowInboundCount": 0,
+  "lowInboundCount": 1,
   "thinReviewCount": 2,
   "failures": [],
-  "warnings": []
+  "warnings": [
+    "1 indexable pages have two or fewer detected inbound static links."
+  ]
 }

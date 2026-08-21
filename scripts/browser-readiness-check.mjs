@@ -21,6 +21,7 @@ const pages = [
   "/start-here/",
   "/articles/four-noble-truths-explained-simply/",
   "/learn/buddhism-101/what-is-mindfulness/",
+  "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
   "/learn/",
   "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
   "/quotes/mindfulness/",
