@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-08-24T03:26:15.950Z",
+  "phase_0_status": "PASS",
+  "phase_1_status": "PASS",
+  "frozen_baseline_sha": "83a685bcf942349e632ae043a1327b3ed53549df",
+  "current_repository_sha": "55872f8d03271fb97cc047d7e6edefc375aabc87",
+  "current_head_is_audit_only_child": true,
+  "live_sitemap_sha256": "35645afd0ee76702af954c6bab2674736f1dd1e4ffa77786ddb3ed7a7fa891b9",
+  "phase_0_sitemap_sha256": "35645afd0ee76702af954c6bab2674736f1dd1e4ffa77786ddb3ed7a7fa891b9",
+  "live_sitemap_url_count": 194,
+  "live_sitemap_unique_url_count": 194,
+  "live_robots_sha256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+  "baseline_robots_sha256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+  "production_source_diff_detected": false,
+  "baseline_drift_detected": false,
+  "evaluated_state": "Frozen Phase 1 inventory at production SHA 83a685bcf942349e632ae043a1327b3ed53549df; current repository HEAD differs only by private audit evidence.",
+  "google_policy_sources_accessible": 5,
+  "external_sources_accessible": 42,
+  "external_sources_total": 42
+}

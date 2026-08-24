@@ -1,0 +1,422 @@
+queue,URL,page_family,value_score,SEO_equity_level,rationale
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,ARTICLE,58,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,ARTICLE,58,LOW,Independent purpose raw score ≤2.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,ARTICLE,58,LOW,Editorial/source review required.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,ARTICLE,60,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,ARTICLE,60,LIMITED,Independent purpose raw score ≤2.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/buddhist-approach-to-anger/,ARTICLE,70,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,ARTICLE,63,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,ARTICLE,63,LIMITED,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,ARTICLE,66,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,ARTICLE,66,LIMITED,Editorial/source review required.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/category/buddhist-wisdom/,ARTICLE_CATEGORY,50,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/articles/category/buddhist-wisdom/,ARTICLE_CATEGORY,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/category/meditation/,ARTICLE_CATEGORY,49,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/articles/category/meditation/,ARTICLE_CATEGORY,49,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/category/mindfulness/,ARTICLE_CATEGORY,49,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/articles/category/mindfulness/,ARTICLE_CATEGORY,49,LIMITED,Repeated-template/boilerplate structural remediation input.
+G_TEMPLATE_RISK,https://echobuddha.com/articles/category/practice/,ARTICLE_CATEGORY,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/category/reflection/,ARTICLE_CATEGORY,49,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/articles/category/reflection/,ARTICLE_CATEGORY,49,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/compassion-as-a-daily-discipline/,ARTICLE,63,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/compassion-as-a-daily-discipline/,ARTICLE,63,LIMITED,Independent purpose raw score ≤2.
+A_STRONG_PROTECTION,https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/,ARTICLE,77,MODERATE,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/compassion-with-boundaries/,ARTICLE,68,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,ARTICLE,71,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,ARTICLE,71,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,ARTICLE,71,LOW,Editorial/source review required.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/articles/dhamma-vs-dharma/,ARTICLE,63,HIGH,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/dhamma-vs-dharma/,ARTICLE,63,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/dhamma-vs-dharma/,ARTICLE,63,HIGH,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,ARTICLE,58,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,ARTICLE,58,LIMITED,Independent purpose raw score ≤2.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,ARTICLE,58,LIMITED,Editorial/source review required.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,ARTICLE,65,MODERATE,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,ARTICLE,65,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,ARTICLE,65,MODERATE,Independent purpose raw score ≤2.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/articles/dhammapada-verse-1-meaning/,ARTICLE,65,MODERATE,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/dhammapada-verse-1-meaning/,ARTICLE,65,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/dhammapada-verse-1-meaning/,ARTICLE,65,MODERATE,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/eightfold-path-explained/,ARTICLE,64,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/eightfold-path-explained/,ARTICLE,64,LIMITED,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/eightfold-path-explained-daily-life/,ARTICLE,68,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/equanimity-in-buddhism/,ARTICLE,70,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/first-week-buddhist-practice/,ARTICLE,70,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/first-week-buddhist-practice/,ARTICLE,70,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/articles/five-precepts-in-daily-life/,ARTICLE,73,HIGH,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/five-precepts-in-daily-life/,ARTICLE,73,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/four-noble-truths-explained/,ARTICLE,63,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/four-noble-truths-explained/,ARTICLE,63,LIMITED,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/four-noble-truths-explained-simply/,ARTICLE,61,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/four-noble-truths-explained-simply/,ARTICLE,61,LIMITED,Independent purpose raw score ≤2.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,ARTICLE,71,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,ARTICLE,71,LIMITED,Editorial/source review required.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/how-to-meditate-for-anxiety/,ARTICLE,75,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/how-to-meditate-for-beginners/,ARTICLE,69,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/how-to-practice-non-attachment/,ARTICLE,59,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/how-to-practice-non-attachment/,ARTICLE,59,LIMITED,Independent purpose raw score ≤2.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/how-to-practice-non-attachment/,ARTICLE,59,LIMITED,Editorial/source review required.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/impermanence-in-buddhism/,ARTICLE,63,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/impermanence-in-buddhism/,ARTICLE,63,LIMITED,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,ARTICLE,64,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,ARTICLE,64,LIMITED,Independent purpose raw score ≤2.
+G_TEMPLATE_RISK,https://echobuddha.com/articles/,ARTICLE_HUB,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/letting-go-without-giving-up/,ARTICLE,58,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/letting-go-without-giving-up/,ARTICLE,58,LOW,Independent purpose raw score ≤2.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/letting-go-without-giving-up/,ARTICLE,58,LOW,Editorial/source review required.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/loving-kindness-meditation-beginners/,ARTICLE,63,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/loving-kindness-meditation-beginners/,ARTICLE,63,LOW,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/loving-kindness-meditation-guide/,ARTICLE,63,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/loving-kindness-meditation-guide/,ARTICLE,63,LIMITED,Independent purpose raw score ≤2.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/metta-meditation-script/,ARTICLE,70,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/metta-meditation-script/,ARTICLE,70,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/mindful-email-and-texting/,ARTICLE,68,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/mindful-listening-in-everyday-life/,ARTICLE,65,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/mindful-listening-in-everyday-life/,ARTICLE,65,LIMITED,Editorial/source review required.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/mindfulness-for-better-sleep/,ARTICLE,75,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/mindfulness-morning-routine/,ARTICLE,65,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/mindfulness-morning-routine/,ARTICLE,65,LOW,Editorial/source review required.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/articles/mindfulness-of-breathing-guide/,ARTICLE,75,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/mindfulness-vs-meditation/,ARTICLE,63,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/mindfulness-vs-meditation/,ARTICLE,63,LOW,Independent purpose raw score ≤2.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,ARTICLE,63,HIGH,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,ARTICLE,63,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,ARTICLE,63,HIGH,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/non-attachment-in-relationships/,ARTICLE,67,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/right-livelihood-modern-life/,ARTICLE,63,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/right-livelihood-modern-life/,ARTICLE,63,LIMITED,Independent purpose raw score ≤2.
+A_STRONG_PROTECTION,https://echobuddha.com/articles/right-speech-buddhism/,ARTICLE,78,HIGH,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/right-speech-examples/,ARTICLE,60,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/right-speech-examples/,ARTICLE,60,LIMITED,Independent purpose raw score ≤2.
+A_STRONG_PROTECTION,https://echobuddha.com/articles/three-poisons-buddhism-explained/,ARTICLE,72,HIGH,High/strong value plus meaningful Search evidence.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/three-ways-to-practice-patience/,ARTICLE,65,LIMITED,Editorial/source review required.
+A_STRONG_PROTECTION,https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/,ARTICLE,72,MODERATE,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/,ARTICLE,72,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/walking-meditation-step-by-step/,ARTICLE,65,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/articles/walking-meditation-step-by-step/,ARTICLE,65,LIMITED,Editorial/source review required.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,ARTICLE,61,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,ARTICLE,61,LIMITED,Independent purpose raw score ≤2.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/articles/what-is-karma-in-buddhism/,ARTICLE,64,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/articles/what-is-karma-in-buddhism/,ARTICLE,64,LIMITED,Independent purpose raw score ≤2.
+A_STRONG_PROTECTION,https://echobuddha.com/articles/what-is-sangha-buddhist-community/,ARTICLE,77,MODERATE,High/strong value plus meaningful Search evidence.
+A_STRONG_PROTECTION,https://echobuddha.com/daily-reflections/,DAILY_REFLECTION_HUB,73,HIGH,High/strong value plus meaningful Search evidence.
+G_TEMPLATE_RISK,https://echobuddha.com/daily-reflections/,DAILY_REFLECTION_HUB,73,HIGH,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/,HOME,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,BUDDHISM_101,73,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,BUDDHISM_101,73,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/,BUDDHISM_101,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/,BUDDHISM_101,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,BUDDHISM_101,80,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,BUDDHISM_101,80,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/,BUDDHISM_101,80,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/,BUDDHISM_101,73,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/,BUDDHISM_101,73,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/,BUDDHISM_101,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,BUDDHISM_101,73,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,BUDDHISM_101,73,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/,BUDDHISM_101,74,MODERATE,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/,BUDDHISM_101,74,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,BUDDHISM_101,84,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/,BUDDHISM_101,84,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/,BUDDHISM_101,85,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,BUDDHISM_101,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,BUDDHISM_101,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/buddhism-for-beginners/,LEARN_GUIDE,90,HIGH,High/strong value plus meaningful Search evidence.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/anatta/,DICTIONARY_ENTRY,78,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/anatta/,DICTIONARY_ENTRY,78,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/anicca/,DICTIONARY_ENTRY,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/anicca/,DICTIONARY_ENTRY,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/compassion/,DICTIONARY_ENTRY,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/compassion/,DICTIONARY_ENTRY,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/buddhist-dictionary/dhamma/,DICTIONARY_ENTRY,81,HIGH,High/strong value plus meaningful Search evidence.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/dukkha/,DICTIONARY_ENTRY,73,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/dukkha/,DICTIONARY_ENTRY,73,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/karma/,DICTIONARY_ENTRY,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/karma/,DICTIONARY_ENTRY,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/karuna/,DICTIONARY_ENTRY,72,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/karuna/,DICTIONARY_ENTRY,72,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/metta/,DICTIONARY_ENTRY,85,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,DICTIONARY_ENTRY,72,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,DICTIONARY_ENTRY,72,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/nirvana/,DICTIONARY_ENTRY,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/nirvana/,DICTIONARY_ENTRY,79,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/pali-canon/,DICTIONARY_ENTRY,73,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/pali-canon/,DICTIONARY_ENTRY,73,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-dictionary/sangha/,DICTIONARY_ENTRY,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/sangha/,DICTIONARY_ENTRY,79,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/buddhist-dictionary/sati/,DICTIONARY_ENTRY,75,HIGH,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/sati/,DICTIONARY_ENTRY,75,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/buddhist-dictionary/sutta/,DICTIONARY_ENTRY,74,MODERATE,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-dictionary/sutta/,DICTIONARY_ENTRY,74,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/buddhist-resources/,LEARN_GUIDE,81,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/buddhist-resources/,LEARN_GUIDE,81,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,LEARN_GUIDE,79,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,LEARN_GUIDE,79,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,LEARN_GUIDE,78,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,LEARN_GUIDE,78,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,LEARN_GUIDE,78,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,LEARN_GUIDE,78,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/dhammapada-reflections/,LEARN_GUIDE,88,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,LEARN_GUIDE,78,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,LEARN_GUIDE,78,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,LEARN_GUIDE,78,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,LEARN_GUIDE,78,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/eightfold-path/,LEARN_GUIDE,89,MODERATE,High/strong value plus meaningful Search evidence.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/four-noble-truths/,LEARN_GUIDE,88,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/questions-about-buddhism/,LEARN_GUIDE,75,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/questions-about-buddhism/,LEARN_GUIDE,75,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/learn/questions-about-buddhism/,LEARN_GUIDE,75,LIMITED,Editorial/source review required.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,LEARN_GUIDE,83,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,LEARN_GUIDE,83,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,LEARN_GUIDE,82,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,LEARN_GUIDE,82,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/,LEARN_GUIDE,88,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/,LEARN_GUIDE,88,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/,LEARN_GUIDE,89,LOW,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,LEARN_GUIDE,82,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,LEARN_GUIDE,82,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,LEARN_GUIDE,84,MODERATE,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,LEARN_GUIDE,84,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,LEARN_GUIDE,91,HIGH,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,LEARN_GUIDE,91,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,LEARN_GUIDE,82,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,LEARN_GUIDE,82,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,LEARN_GUIDE,82,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,LEARN_GUIDE,82,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/10-minute-meditation-practice/,MEDITATION_GUIDE,76,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/10-minute-meditation-practice/,MEDITATION_GUIDE,76,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/meditation/10-minute-meditation-practice/,MEDITATION_GUIDE,76,LIMITED,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/5-minute-meditation-practice/,MEDITATION_GUIDE,76,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/5-minute-meditation-practice/,MEDITATION_GUIDE,76,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/meditation/5-minute-meditation-practice/,MEDITATION_GUIDE,76,LIMITED,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/breathing-meditation/,MEDITATION_GUIDE,74,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/breathing-meditation/,MEDITATION_GUIDE,74,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/loving-kindness-meditation/,MEDITATION_GUIDE,71,LOW,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/loving-kindness-meditation/,MEDITATION_GUIDE,71,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/meditation-for-beginners/,MEDITATION_GUIDE,69,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/meditation/meditation-for-beginners/,MEDITATION_GUIDE,69,LIMITED,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/meditation-posture-for-beginners/,MEDITATION_GUIDE,76,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/meditation-posture-for-beginners/,MEDITATION_GUIDE,76,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/meditation/meditation-posture-for-beginners/,MEDITATION_GUIDE,76,LIMITED,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/mindfulness-in-daily-life/,MEDITATION_GUIDE,70,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/mindfulness-in-daily-life/,MEDITATION_GUIDE,70,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/meditation/mindfulness-in-daily-life/,MEDITATION_GUIDE,70,LIMITED,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/walking-meditation/,MEDITATION_GUIDE,84,LOW,Strong value with limited Search evidence; do not prematurely remove.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/meditation/when-meditation-feels-hard/,MEDITATION_GUIDE,81,LIMITED,Strong value with limited Search evidence; do not prematurely remove.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation/when-meditation-feels-hard/,MEDITATION_GUIDE,81,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+A_STRONG_PROTECTION,https://echobuddha.com/meditation-guide/,MEDITATION_GUIDE,83,MODERATE,High/strong value plus meaningful Search evidence.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/meditation-guide/,MEDITATION_GUIDE,83,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/mindful-living/,TOPIC_HUB,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/quotes/awareness/,QUOTE_CATEGORY,51,MODERATE,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/awareness/,QUOTE_CATEGORY,51,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/awareness/,QUOTE_CATEGORY,51,MODERATE,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/compassion/gentle-self-compassion/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/compassion/gentle-self-compassion/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/compassion/gentle-self-compassion/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/compassion/gentle-self-compassion/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/quotes/compassion/,QUOTE_CATEGORY,51,MODERATE,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/compassion/,QUOTE_CATEGORY,51,MODERATE,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/compassion/,QUOTE_CATEGORY,51,MODERATE,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,QUOTE_STORY,44,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,QUOTE_STORY,44,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,QUOTE_STORY,44,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,QUOTE_STORY,44,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/impermanence/,QUOTE_CATEGORY,49,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/impermanence/,QUOTE_CATEGORY,49,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/impermanence/meet-change-softly/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/impermanence/meet-change-softly/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/impermanence/meet-change-softly/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/impermanence/meet-change-softly/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/quotes/,QUOTE_HUB,51,MODERATE,Search evidence requires surgical Phase 3 protection before quality action.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/,QUOTE_HUB,51,MODERATE,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/letting-go/caring-without-clinging/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/letting-go/caring-without-clinging/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/letting-go/caring-without-clinging/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/letting-go/caring-without-clinging/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/quotes/letting-go/,QUOTE_CATEGORY,52,HIGH,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/letting-go/,QUOTE_CATEGORY,52,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/letting-go/,QUOTE_CATEGORY,52,HIGH,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/letting-go/soften-around-stress/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/letting-go/soften-around-stress/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/letting-go/soften-around-stress/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/letting-go/soften-around-stress/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/letting-go/where-attachment-begins/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/letting-go/where-attachment-begins/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/letting-go/where-attachment-begins/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/letting-go/where-attachment-begins/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/meditation/few-quiet-minutes/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/meditation/few-quiet-minutes/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/meditation/few-quiet-minutes/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/meditation/few-quiet-minutes/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/meditation/,QUOTE_CATEGORY,50,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/meditation/,QUOTE_CATEGORY,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/meditation/meditation-is-returning/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/meditation/meditation-is-returning/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/meditation/meditation-is-returning/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/meditation/meditation-is-returning/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/meditation/one-honest-breath/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/meditation/one-honest-breath/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/meditation/one-honest-breath/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/meditation/one-honest-breath/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,QUOTE_STORY,45,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,QUOTE_STORY,45,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,QUOTE_STORY,45,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,QUOTE_STORY,45,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/quotes/mindfulness/,QUOTE_CATEGORY,52,HIGH,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/,QUOTE_CATEGORY,52,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/,QUOTE_CATEGORY,52,HIGH,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/listen-before-answering/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/mindfulness/listen-before-answering/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/mindfulness/listen-before-answering/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/listen-before-answering/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/patience/family-kindness-and-patience/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/patience/family-kindness-and-patience/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/patience/family-kindness-and-patience/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/patience/family-kindness-and-patience/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+C_SEARCH_EQUITY_QUALITY_PROBLEM,https://echobuddha.com/quotes/patience/,QUOTE_CATEGORY,52,HIGH,Search evidence requires surgical Phase 3 protection before quality action.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/patience/,QUOTE_CATEGORY,52,HIGH,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/patience/,QUOTE_CATEGORY,52,HIGH,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/patience/patience-softens-the-wait/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/patience/patience-softens-the-wait/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/patience/patience-softens-the-wait/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/patience/patience-softens-the-wait/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/practice/,QUOTE_CATEGORY,50,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/practice/,QUOTE_CATEGORY,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/renewal/begin-again-without-shame/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/renewal/begin-again-without-shame/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/renewal/begin-again-without-shame/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/renewal/begin-again-without-shame/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/renewal/evening-release-reflection/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/renewal/evening-release-reflection/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/renewal/evening-release-reflection/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/renewal/evening-release-reflection/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,QUOTE_STORY,50,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,QUOTE_STORY,50,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,QUOTE_STORY,50,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/renewal/,QUOTE_CATEGORY,49,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/renewal/,QUOTE_CATEGORY,49,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,QUOTE_STORY,50,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,QUOTE_STORY,50,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,QUOTE_STORY,50,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,QUOTE_STORY,47,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,QUOTE_STORY,47,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,QUOTE_STORY,47,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/,QUOTE_CATEGORY,50,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/,QUOTE_CATEGORY,50,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,QUOTE_STORY,44,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,QUOTE_STORY,44,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,QUOTE_STORY,44,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,QUOTE_STORY,44,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,QUOTE_STORY,43,LOW,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,QUOTE_STORY,43,LOW,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,QUOTE_STORY,43,LOW,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,QUOTE_STORY,43,LOW,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,QUOTE_STORY,43,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,QUOTE_STORY,43,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,QUOTE_STORY,43,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,QUOTE_STORY,43,LIMITED,Repeated-template/boilerplate structural remediation input.
+D_HIGH_INTERNAL_OVERLAP,https://echobuddha.com/quotes/wisdom/wise-silence/,QUOTE_STORY,40,LIMITED,Similarity and/or owner-support evidence requires Phase 4 consolidation analysis.
+E_WEAK_INDEPENDENT_PURPOSE,https://echobuddha.com/quotes/wisdom/wise-silence/,QUOTE_STORY,40,LIMITED,Independent purpose raw score ≤2.
+F_QUOTE_STORY_RISK,https://echobuddha.com/quotes/wisdom/wise-silence/,QUOTE_STORY,40,LIMITED,Dedicated quote ecosystem review.
+G_TEMPLATE_RISK,https://echobuddha.com/quotes/wisdom/wise-silence/,QUOTE_STORY,40,LIMITED,Repeated-template/boilerplate structural remediation input.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/start-here/,LEARN_GUIDE,76,LOW,Strong value with limited Search evidence; do not prematurely remove.
+H_TRUST_SOURCING_GAP,https://echobuddha.com/start-here/,LEARN_GUIDE,76,LOW,Editorial/source review required.
+B_STRONG_CONTENT_WEAK_SEARCH,https://echobuddha.com/tools/,TOOL,76,LIMITED,Strong value with limited Search evidence; do not prematurely remove.

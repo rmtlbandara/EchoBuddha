@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-24T03:26:15.950Z",
+  "method_version": "phase2-publisher-value-v1",
+  "command": "node docs/audits/adsense-recovery-phase-2-2026-08-24/generate-phase-2-url-value-audit.mjs",
+  "node": "v22.23.1",
+  "repository_baseline": "83a685bcf942349e632ae043a1327b3ed53549df",
+  "current_repository_head": "55872f8d03271fb97cc047d7e6edefc375aabc87",
+  "evaluated_state": "Frozen Phase 1 inventory at production SHA 83a685bcf942349e632ae043a1327b3ed53549df; current repository HEAD differs only by private audit evidence.",
+  "privacy": "Private local analysis; public sources fetched without transmitting EchoBuddha content.",
+  "deterministic_methods": [
+    "Fixed 10-dimension weights",
+    "integer 0–5 raw rubric",
+    "Phase 1 similarity/boilerplate/owner/GSC joins",
+    "SHA-256 deterministic 10% QA sample",
+    "fixed intent→benchmark registry"
+  ],
+  "judgment_method": "Evidence-guided family/role calibration with page-level modifiers and independent rule-separated second pass; no semantic content sent to external APIs.",
+  "inputs": [
+    "Phase 0 baseline/freeze/counts/GSC snapshot",
+    "All Phase 1 forensic artifacts",
+    "Current production sitemap and robots",
+    "Current official Google policy pages",
+    "Current authoritative benchmark metadata snapshot"
+  ],
+  "limitations": [
+    "No GSC query×page join",
+    "No backlink export",
+    "No claim-level expert review",
+    "Historical drafting/review method not fully verified",
+    "External originality targeted rather than corpus-wide"
+  ],
+  "artifact_sha256": {
+    "ECHO_BUDDHA_URL_VALUE_SCORES.csv": "4fc6f63a3c5f43f70dc3b9ff98b328a364260cf3db142fac4df74b8018b9b488",
+    "ECHO_BUDDHA_SCORING_METHODOLOGY.md": "166cb16e608280219fd08bd0c9a3468b2288f3eec6fddfe528871da36d347e62",
+    "ECHO_BUDDHA_SCORING_CALIBRATION.md": "37a6f01344ed85d8cfafdee639f3204291db2fb69d9160d2d75f4aa5e49f6819",
+    "ECHO_BUDDHA_EXTERNAL_VALUE_BENCHMARK.csv": "15cff68daaadcf49a5149cdea2d57560b7a942e94ba3484c00cc398e9bb97871",
+    "ECHO_BUDDHA_POLICY_RISK_MATRIX.csv": "189a63cf347d7f04d7a293b26e83d38f642ddf70019d4febe6479085a42029a3",
+    "ECHO_BUDDHA_SCORE_DISTRIBUTION.md": "5068da398b4f49ff678332b0b7ceeb34901d03b54a5c9fb4657ce4d381d3029c",
+    "ECHO_BUDDHA_CONTENT_FAMILY_VALUE_REPORT.md": "bea6fb0a4369ce55357bba58321a15338a8db7f312581da1a59cc59503034926",
+    "ECHO_BUDDHA_INTENT_CLUSTER_SCORECARD.md": "7697e47b866263c94025c37030af1e23d9c9afa4d2a53605e7086a30d1ae6121",
+    "ECHO_BUDDHA_QUOTE_VALUE_SCORECARD.md": "9cd2c1025d1e3ccc86acaedb620b0770f0b8f34c12323912495b95b033fd0151",
+    "ECHO_BUDDHA_SEO_EQUITY_QUALITY_CONFLICTS.csv": "0a0f684c1f1f37c8c586e09bf9936982443696d6af7646bc4d007325bfd2b47f",
+    "ECHO_BUDDHA_LOW_VALUE_RISK_MAP.md": "c1fb846262d311a14f05e3b98228d6f5de7976cd4e8fb92a9a465c03f3f81308",
+    "ECHO_BUDDHA_BORDERLINE_URL_REVIEW.md": "2e994c8fb57e59de4188af45f607df13eb5087a77506110187464cf530f1f6e2",
+    "ECHO_BUDDHA_NON_CONTENT_SURFACE_ASSESSMENT.md": "a7d6800145eccb75dc2653b93c3bc917246216b45537fe212dca5e3107fb3d20",
+    "ECHO_BUDDHA_PHASE_2_URL_VALUE_AUDIT.md": "ca46d6b7347af4084ad766e58a8def804b07fd9086e05901b95895c53dc727a2",
+    "ECHO_BUDDHA_PHASE_2_INPUT_INTEGRITY.json": "ae13cf09a368800b3a3a251a8b7fa9e555bbc87961b60fa4196442293e70b045",
+    "ECHO_BUDDHA_PHASE_2_EXTERNAL_SOURCE_SNAPSHOT.json": "a46f13a759298ced38b0c217cf140a2caeafade42b87d63e65a81d6d9221b919",
+    "ECHO_BUDDHA_SECOND_PASS_REVIEW.csv": "6fa03366b800c12495ec45c35359e340ff5241ac97f28680faaeba0c6693d019",
+    "ECHO_BUDDHA_PROVISIONAL_REVIEW_QUEUES.csv": "0172cfefd1cd7e929ac18eadef6851344248f6c10d394144a6ac043ffbe37a36",
+    "ECHO_BUDDHA_PHASE_2_VALIDATION.json": "062be055483227ba1b601d29041c3f8d64552f4a57a120a9b4c772fb431385c1",
+    "capture-phase-2-external-sources.mjs": "23dd68db20ddc11f34d9f1747733d8acd7c0f38a331631119aa9610a42c49481",
+    "generate-phase-2-url-value-audit.mjs": "40c931c15f9555546c79616db14ff291477d013550bb683aa87c68e6863155fa",
+    "validate-phase-2-url-value-audit.mjs": "2b4f6aa53a64770dd5b4c494b6632c04788243eec6bc84de23ec82adb4a20c3c"
+  }
+}
