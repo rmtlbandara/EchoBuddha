@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "baselineTimestamp": "2026-08-24T07:45:55+05:30",
+  "privacy": "private repository evidence; no secret values recorded",
+  "repository": {
+    "head": "83a685bcf942349e632ae043a1327b3ed53549df",
+    "branch": "main",
+    "initialState": "clean",
+    "packageLockSha256": "b2060758a95c6b9e0b5dd0b96a6ba624679c5236ec93421483a9e5aa8d7d0616",
+    "existingUrlInventory": {
+      "path": "docs/audits/echo-buddha-governance-implementation/url-inventory.json",
+      "sha256": "062e4919acf6771d8813ba533007cb7aadc3d79728c0e0cab1742173ddb79f06"
+    },
+    "existingReleaseBaseline": {
+      "path": "governance/release-baseline.json",
+      "sha256": "eb11cf7506e3427c74d221b7389b861b9b6b7b3b908c6c46404da2e650e10ffc"
+    }
+  },
+  "production": {
+    "sitemapUrl": "https://echobuddha.com/sitemap.xml",
+    "sitemapSha256": "35645afd0ee76702af954c6bab2674736f1dd1e4ffa77786ddb3ed7a7fa891b9",
+    "robotsUrl": "https://echobuddha.com/robots.txt",
+    "robotsSha256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+    "productionReleaseEvidence": "/Users/tharindu/Downloads/EchoBuddha-production-deployment-2026-08-21/",
+    "releaseManifestAggregateSha256": "ebd67d4d7cecbea130b88f04ac59df8e3f91e7650b799ed62ac57b45b0864479"
+  },
+  "searchConsole": {
+    "source": "source-evidence/gsc-snapshot-2026-08-21.json",
+    "originalSource": "/Users/tharindu/Downloads/EchoBuddha-private-gsc-snapshot-2026-08-21.json",
+    "sha256": "f33c863cc1065936498d8d52760aa8f597d5204a3ae7eb6307dfad08b4c69328",
+    "summaryStoredIn": "ADSENSE_RECOVERY_BASELINE_COUNTS.json"
+  },
+  "screenshots": [
+    { "path": "screenshots/about-desktop.png", "sha256": "13c66d786a603efa88275655209e505d694d469ca78227fa6267367a1050763e" },
+    { "path": "screenshots/article-desktop.png", "sha256": "814be15c5b932cc812a89cdd24262d21dee2e23c99adeb737d47b074cd6819f3" },
+    { "path": "screenshots/articles-desktop.png", "sha256": "a03500ed27dcede5ba6a6e2ff8fa38a14256bbc31f976dbd0ec92a48a1bcd2c7" },
+    { "path": "screenshots/daily-reflections-desktop.png", "sha256": "ca1d13f4c6878a7c0211effd682ae3e2b19090d02aefc7702979b8709c36d6ee" },
+    { "path": "screenshots/dictionary-desktop.png", "sha256": "2899bf4b1e7821b1a0d8600fe91bd37ecb02b0cd1e222cae59e15a17b86e19ff" },
+    { "path": "screenshots/homepage-desktop.png", "sha256": "dc7c013b68241eaddf940cb6f1441b7e69969a94a9217319faa49ddb26a40ea7" },
+    { "path": "screenshots/homepage-mobile.png", "sha256": "753fa8c88cb3af09570127fc98b930b3ae27e3ab58eab969744d9fe56e17a1d8" },
+    { "path": "screenshots/learn-desktop.png", "sha256": "c57825e2b8d484b1f2eccc550af14da9a3cf464ce89779d53d0fa876e8816414" },
+    { "path": "screenshots/mobile-consent-panel.png", "sha256": "769116f8ecc8ccd277dfd5f52c0f6077d7e1cdfc7f519fce7e3265937b97fef2" },
+    { "path": "screenshots/mobile-navigation-open.png", "sha256": "35d05af57fcc16d798c9835a0d8018cfe185e8446f07faab3a51cc649aa2f1dd" },
+    { "path": "screenshots/quote-category-desktop.png", "sha256": "f1de7c6cdc7500be4c01502eef3ca04a64155bb2ec8fd5ac1285b19e5b4a79ea" },
+    { "path": "screenshots/quote-story-desktop.png", "sha256": "29984e51838e09c9b3dc3f19e629be5e7b2ecca4833a40d320c37bbd167ee150" },
+    { "path": "screenshots/quotes-desktop.png", "sha256": "7ef9ac16b4f720d155d5af3f3ed8c7c42dc703d9729fef6649ce8eaf98a5304c" }
+  ]
+}

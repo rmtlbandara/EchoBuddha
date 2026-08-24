@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "baselineTimestamp": "2026-08-24T07:45:55+05:30",
+  "repository": {
+    "branch": "main",
+    "head": "83a685bcf942349e632ae043a1327b3ed53549df",
+    "headCommittedAt": "2026-08-21T12:56:34+05:30",
+    "initialWorkingTree": "clean",
+    "packageLockSha256": "b2060758a95c6b9e0b5dd0b96a6ba624679c5236ec93421483a9e5aa8d7d0616",
+    "urlInventorySha256": "062e4919acf6771d8813ba533007cb7aadc3d79728c0e0cab1742173ddb79f06"
+  },
+  "production": {
+    "origin": "https://echobuddha.com",
+    "repositoryParity": "verified",
+    "sitemapSha256": "35645afd0ee76702af954c6bab2674736f1dd1e4ffa77786ddb3ed7a7fa891b9",
+    "productionRobotsSha256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+    "sourceRobotsSha256": "5b008327987cf7fe7dca610b4f3e76e48bdbc11c765a1c322b99929d9ba22172",
+    "builtHtmlRoutes": 337,
+    "liveStatus200": 336,
+    "liveEdgeRedirects": 1,
+    "indexableRoutes": 194,
+    "intentionalNoindexOrErrorRoutes": 143,
+    "sitemapUrls": 194,
+    "sitemapStatus200": 194,
+    "sitemapSelfCanonical": 194,
+    "sitemapSingleH1": 194,
+    "sitemapUnexpectedNoindex": 0,
+    "sitemapDuplicateTitleGroups": 0,
+    "sitemapByteExactWithHead": 194,
+    "allRouteByteExactWithHead": 335,
+    "runtimeExpectedDifferences": [
+      "/daily-reflections/today/",
+      "/404.html"
+    ]
+  },
+  "pageFamilies": {
+    "homepage": { "total": 1, "indexable": 1 },
+    "articlesHub": { "total": 1, "indexable": 1 },
+    "articleCategories": { "total": 5, "indexable": 5 },
+    "articles": { "total": 50, "indexable": 50 },
+    "quotesHub": { "total": 1, "indexable": 1 },
+    "quoteCategories": { "total": 10, "indexable": 10 },
+    "quoteStories": { "total": 153, "indexable": 43, "noindex": 110 },
+    "dailyReflectionsHub": { "total": 1, "indexable": 1 },
+    "dailyReflectionEntries": { "total": 30, "indexable": 0, "noindex": 30 },
+    "dailyReflectionToday": { "total": 1, "indexable": 0, "noindex": 1 },
+    "learnHub": { "total": 1, "indexable": 1 },
+    "buddhism101Hub": { "total": 1, "indexable": 1 },
+    "buddhism101Entries": { "total": 19, "indexable": 19 },
+    "dictionaryHub": { "total": 1, "indexable": 1 },
+    "dictionaryEntries": { "total": 14, "indexable": 14 },
+    "dhammapadaHub": { "total": 1, "indexable": 1 },
+    "dhammapadaEntries": { "total": 5, "indexable": 5 },
+    "suttaHub": { "total": 1, "indexable": 1 },
+    "suttaEntries": { "total": 8, "indexable": 8 },
+    "otherCoreLearnPages": { "total": 5, "indexable": 5 },
+    "meditationHub": { "total": 1, "indexable": 1 },
+    "meditationEntries": { "total": 9, "indexable": 9 },
+    "trustEditorial": { "total": 8, "indexable": 8 },
+    "legal": { "total": 3, "indexable": 3 },
+    "otherStatic": { "total": 3, "indexable": 3 },
+    "utilitiesAndError": { "total": 4, "indexable": 2, "noindex": 2 }
+  },
+  "quoteData": {
+    "records": 153,
+    "categories": 10,
+    "recordsWithExpandedStoryData": 43,
+    "indexableStoryUrls": 43,
+    "noindexStoryUrls": 110,
+    "originClassification": {
+      "originalEchoBuddhaQuote": 153,
+      "attributedExternalQuotation": 0
+    }
+  },
+  "searchConsole": {
+    "sourceExportDate": "2026-08-21",
+    "performanceThrough": "2026-08-18",
+    "coverageThrough": "2026-08-17",
+    "latest28Days": {
+      "from": "2026-07-22",
+      "to": "2026-08-18",
+      "clicks": 14,
+      "impressions": 1757,
+      "ctr": 0.00796812749003984,
+      "impressionWeightedAveragePosition": 21.00529311326124
+    },
+    "available57Days": {
+      "from": "2026-06-23",
+      "to": "2026-08-18",
+      "clicks": 26,
+      "impressions": 2339,
+      "ctr": 0.011115861479264643,
+      "impressionWeightedAveragePosition": 29.177982043608374
+    },
+    "coverageLatest": {
+      "date": "2026-08-17",
+      "indexed": 294,
+      "notIndexed": 56
+    },
+    "sourceSha256": "f33c863cc1065936498d8d52760aa8f597d5204a3ae7eb6307dfad08b4c69328"
+  },
+  "validation": {
+    "node": "v22.23.1",
+    "npm": "10.9.8",
+    "npmCi": "pass",
+    "npmAuditVulnerabilities": 0,
+    "validateRelease": "pass",
+    "testsPassed": 17,
+    "testsFailed": 0,
+    "seoWarnings": 1,
+    "criticalVulnerabilities": 0,
+    "highVulnerabilities": 0
+  },
+  "freeze": {
+    "riskyPublication": "active",
+    "adsenseResubmission": "blocked"
+  }
+}

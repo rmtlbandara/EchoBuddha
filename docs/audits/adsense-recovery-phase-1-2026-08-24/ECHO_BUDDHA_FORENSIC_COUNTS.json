@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-24T03:01:37.618Z",
+  "method_version": "phase1-forensic-inventory-v1",
+  "repository_head": "83a685bcf942349e632ae043a1327b3ed53549df",
+  "phase_0_baseline_timestamp": "2026-08-24T07:45:55+05:30",
+  "url_universe": {
+    "total_discovered_first_party_urls": 340,
+    "total_first_party_html_routes": 337,
+    "non_html_service_endpoints": 3,
+    "status_200": 336,
+    "edge_redirects": 1,
+    "indexable": 194,
+    "noindex_or_error": 143,
+    "sitemap_urls": 194,
+    "sitemap_not_indexable": 0,
+    "indexable_absent_sitemap": 0,
+    "canonicalized_elsewhere": 0,
+    "orphan_candidates": 1,
+    "utility_navigation_legal_error": 28,
+    "content_pages": 299,
+    "declared_ad_eligible_surfaces": 56,
+    "rendered_ad_or_placeholder_surfaces": 0
+  },
+  "page_families": {
+    "ABOUT": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "ARTICLE": {
+      "total": 50,
+      "status200_expected": 50,
+      "indexable": 50,
+      "noindex_or_error": 0,
+      "sitemap": 50,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 34
+    },
+    "ARTICLE_CATEGORY": {
+      "total": 5,
+      "status200_expected": 5,
+      "indexable": 5,
+      "noindex_or_error": 0,
+      "sitemap": 5,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "ARTICLE_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "AUTHOR": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "BUDDHISM_101": {
+      "total": 20,
+      "status200_expected": 20,
+      "indexable": 20,
+      "noindex_or_error": 0,
+      "sitemap": 20,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 18
+    },
+    "CONTACT": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "CORRECTIONS": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "DAILY_REFLECTION_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "DICTIONARY_ENTRY": {
+      "total": 14,
+      "status200_expected": 14,
+      "indexable": 14,
+      "noindex_or_error": 0,
+      "sitemap": 14,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "DICTIONARY_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "DISCLAIMER": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "EDITORIAL_POLICY": {
+      "total": 3,
+      "status200_expected": 3,
+      "indexable": 3,
+      "noindex_or_error": 0,
+      "sitemap": 3,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "ERROR": {
+      "total": 1,
+      "status200_expected": 0,
+      "indexable": 0,
+      "noindex_or_error": 1,
+      "sitemap": 0,
+      "orphan_candidates": 1,
+      "declared_ad_eligible": 0
+    },
+    "HOME": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 1
+    },
+    "LEARN_GUIDE": {
+      "total": 21,
+      "status200_expected": 21,
+      "indexable": 21,
+      "noindex_or_error": 0,
+      "sitemap": 21,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 3
+    },
+    "LEARN_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "MEDITATION_GUIDE": {
+      "total": 10,
+      "status200_expected": 10,
+      "indexable": 10,
+      "noindex_or_error": 0,
+      "sitemap": 10,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "MEDITATION_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "PRIVACY": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "QUOTE_CATEGORY": {
+      "total": 10,
+      "status200_expected": 10,
+      "indexable": 10,
+      "noindex_or_error": 0,
+      "sitemap": 10,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "QUOTE_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "QUOTE_STORY": {
+      "total": 153,
+      "status200_expected": 153,
+      "indexable": 43,
+      "noindex_or_error": 110,
+      "sitemap": 43,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "REFLECTION": {
+      "total": 31,
+      "status200_expected": 31,
+      "indexable": 0,
+      "noindex_or_error": 31,
+      "sitemap": 0,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "SEARCH": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 0,
+      "noindex_or_error": 1,
+      "sitemap": 0,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "SOURCE_POLICY": {
+      "total": 2,
+      "status200_expected": 2,
+      "indexable": 2,
+      "noindex_or_error": 0,
+      "sitemap": 2,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "TERMS": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "TOOL": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    },
+    "TOPIC_HUB": {
+      "total": 1,
+      "status200_expected": 1,
+      "indexable": 1,
+      "noindex_or_error": 0,
+      "sitemap": 1,
+      "orphan_candidates": 0,
+      "declared_ad_eligible": 0
+    }
+  },
+  "content": {
+    "articles": 50,
+    "quote_records_and_story_routes": 153,
+    "indexable_quote_stories": 43,
+    "noindex_quote_stories": 110,
+    "dictionary_entries": 14,
+    "learn_and_meditation_surfaces": 53,
+    "reflection_practice_surfaces": 44,
+    "pages_with_visible_or_meta_authorship": 221,
+    "indexable_pages_with_source_signal": 172
+  },
+  "similarity": {
+    "exact_main_body_duplicate_clusters": 0,
+    "exact_quote_text_duplicate_clusters": 0,
+    "near_duplicate_candidate_pairs": 1169,
+    "high_lexical_candidate_pairs": 127,
+    "moderate_lexical_candidate_pairs": 824,
+    "repeated_block_clusters": 417,
+    "title_intent_overlap_pairs": 1240
+  },
+  "internal_links": {
+    "edges": 18518,
+    "unique_source_routes": 337,
+    "unique_target_routes": 338,
+    "internal_links_to_missing_build_targets": 0,
+    "links_to_noindex_targets": 2542
+  },
+  "search_console": {
+    "source_export_date": "2026-08-21",
+    "page_rows": 183,
+    "page_rows_matched": 183,
+    "page_rows_unmatched": 0,
+    "query_rows": 334,
+    "query_page_dimension_available": false
+  },
+  "review_queues": {
+    "A_similarity_review": 82,
+    "B_intent_overlap_review": 152,
+    "C_template_boilerplate_review": 25,
+    "D_quote_ecosystem_review": 153,
+    "E_search_equity_review": 43,
+    "F_authorship_trust_review": 63,
+    "G_source_accuracy_review": 13,
+    "H_indexability_review": 0,
+    "I_monetization_review": 84,
+    "J_production_integrity_review": 1
+  },
+  "coverage": {
+    "sitemap_urls_inventoried_percent": 100,
+    "repository_build_routes_inventoried_percent": 100,
+    "repository_route_records_matched_percent": 100,
+    "gsc_page_rows_reconciled_percent": 100,
+    "indexable_urls_with_canonical_percent": 100,
+    "html_routes_with_content_extraction_percent": 100,
+    "urls_with_page_family_percent": 100,
+    "inventory_coverage_percent": 100
+  },
+  "phase_0_comparison": {
+    "built_html_routes": {
+      "phase_0": 337,
+      "phase_1": 337
+    },
+    "indexable": {
+      "phase_0": 194,
+      "phase_1": 194
+    },
+    "sitemap": {
+      "phase_0": 194,
+      "phase_1": 194
+    },
+    "explanation": "Counts agree; Phase 1 rebuild used the same frozen HEAD."
+  }
+}
