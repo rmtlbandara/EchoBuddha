@@ -35,8 +35,14 @@ const approvedRoutes = indexableApprovals.approvals
 const retiredRoutes = releaseChanges.changes
   .filter((change) => change.approved && change.type === "redirect-and-content-consolidation")
   .map((change) => change.target.split(" -> ")[0]);
+const quoteIndexationChanges = releaseChanges.changes
+  .filter((change) => change.approved && change.type === "quote-indexation-remediation");
+const approvedQuoteNoindexCount = quoteIndexationChanges.reduce(
+  (total, change) => total + Number(change.expectedIndexableToNoindex || 0),
+  0
+);
 const expectedHtmlCount = releaseBaseline.counts.html + approvedRoutes.length - retiredRoutes.length;
-const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length - retiredRoutes.length;
+const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length - retiredRoutes.length - approvedQuoteNoindexCount;
 const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length - retiredRoutes.length;
 const builtRoutes = new Set(htmlFiles.map((file) => {
   const relative = path.relative(path.join(root, "dist"), file).split(path.sep).join("/");
@@ -58,7 +64,7 @@ check("Sitemap", "Protected sitemap count and canonical host", () => {
   assert.ok(sitemapUrls.every((url) => url.startsWith("https://echobuddha.com/")));
   assert.ok(approvedRoutes.every((route) => sitemapRoutes.has(route)));
   assert.ok(retiredRoutes.every((route) => !sitemapRoutes.has(route)));
-  return `${sitemapUrls.length} canonical URLs (${releaseBaseline.counts.sitemap} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations)`;
+  return `${sitemapUrls.length} canonical URLs (${releaseBaseline.counts.sitemap} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations - ${approvedQuoteNoindexCount} approved quote noindex decisions)`;
 });
 check("Search", "Protected search index count", () => {
   assert.equal(searchIndex.length, expectedSearchCount);

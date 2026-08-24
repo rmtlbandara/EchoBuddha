@@ -1,0 +1,55 @@
+URL,protection tier,surface type,expected indexable,actual indexable,canonical protected,sitemap protected,intent protected,query preservation,validation result
+https://echobuddha.com/quotes/,SEO_P1_HIGH,HUB,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/awareness/,SEO_P1_HIGH,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/compassion/,SEO_P1_HIGH,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/compassion/gentle-self-compassion/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/,SEO_P2_EMERGING,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,SEO_P2_EMERGING,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/impermanence/meet-change-softly/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/letting-go/,SEO_P0_CRITICAL,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/letting-go/caring-without-clinging/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/letting-go/soften-around-stress/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/letting-go/where-attachment-begins/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/,SEO_P2_EMERGING,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/meditation/,SEO_P1_HIGH,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/meditation/few-quiet-minutes/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/meditation/meditation-is-returning/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/meditation/one-honest-breath/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/mindfulness/,SEO_P1_HIGH,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/mindfulness/listen-before-answering/,SEO_P2_EMERGING,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/patience/,SEO_P1_HIGH,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/patience/family-kindness-and-patience/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/patience/patience-softens-the-wait/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/practice/,SEO_P1_HIGH,CATEGORY,true,true,true,true,YES,URL_AND_COLLECTION_INTENT_UNCHANGED,PASS
+https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/renewal/begin-again-without-shame/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/renewal/evening-release-reflection/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,SEO_P2_EMERGING,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/,SEO_P2_EMERGING,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS
+https://echobuddha.com/quotes/wisdom/wise-silence/,SEO_P3_LIMITED,STORY,false,false,true,true,YES,CATEGORY_RETAINS_THEME_INTENT; PERMALINK_RETAINS_EXACT_QUOTE_USER_UTILITY,PASS

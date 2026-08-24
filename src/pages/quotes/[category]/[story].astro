@@ -34,6 +34,7 @@ const story = getQuoteStory(quote);
 const canonicalPath = `/quotes/${category.slug}/${story.slug}/`;
 const quoteUrl = `${SITE.url}${canonicalPath}`;
 const isIndexable = isQuoteStoryIndexable(quote);
+const hasAuthoredReflection = Boolean(quote.story);
 const relatedQuotes = quotes.filter((item) => item.theme === quote.theme && item.text !== quote.text).slice(0, 3);
 const relatedArticles = getArticlesForQuoteTheme(quote.theme).slice(0, 2);
 const relatedTeaching = {
@@ -128,7 +129,7 @@ const jsonLd = [
           { label: quote.theme, href: `/quotes/${category.slug}/` },
           { label: story.title }
         ]} />
-        <span class="eyebrow">{quote.theme} Reflection Story</span>
+        <span class="eyebrow">{quote.theme} Quote Reflection</span>
         <h1>{story.title}</h1>
         <blockquote>{quote.text}</blockquote>
         <p class="quote-status">{story.status.label}</p>
@@ -146,8 +147,7 @@ const jsonLd = [
     <div class="container article-shell">
       <div class="prose story-body">
         <aside class="surface meaning-box">
-          <h2>Origin, Context, and Practice</h2>
-          <h3>Quote origin and review status</h3>
+          <h2>Origin and Practical Context</h2>
           <p>{story.status.note}</p>
           <dl class="origin-details">
             <div>
@@ -163,20 +163,14 @@ const jsonLd = [
               <dd>{quoteOriginRecord.canonicalTextReference}</dd>
             </div>
           </dl>
-          <h3>What this line means here</h3>
           <p>{story.description}</p>
-          <h3>A situation where it matters</h3>
-          <p>{dailyLifeExample}</p>
-          <h3>Buddhist teaching in view</h3>
           <p>
             This reflection connects with <a href={relatedTeaching.href}>{relatedTeaching.label}</a>, a practical way
             to bring Buddhist wisdom into ordinary life.
           </p>
-          <h3>One way to test it</h3>
-          <p>{practiceSuggestion}</p>
         </aside>
 
-        {story.intro ? (
+        {hasAuthoredReflection ? (
           <>
             <p class="lede" set:html={story.intro} />
             {story.sections.map((section) => (
@@ -187,10 +181,11 @@ const jsonLd = [
             ))}
           </>
         ) : (
-          <>
-            <h2>The Story</h2>
-            {story.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
-          </>
+          <section>
+            <h2>Use This Quote in One Real Moment</h2>
+            <p>{dailyLifeExample}</p>
+            <p>{practiceSuggestion}</p>
+          </section>
         )}
 
         <AdSlot />

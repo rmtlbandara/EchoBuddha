@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import QuoteCard from "../components/QuoteCard.astro";
 import AdSlot from "../components/AdSlot.astro";
-import { SITE, quoteCategories, quotes } from "../data/site";
+import { SITE, getQuoteSlug, quoteCategories, quotes } from "../data/site";
 
 const title = "Original Buddhist-Inspired Quotes";
 const description = "Read original Echo Buddha quotes inspired by Buddhist practice, with clear origin labels, reflection stories, and mindful browsing by theme.";
@@ -42,6 +42,15 @@ const quoteSourcePaths = [
     description: "Move from a short line into speech, patience, compassion, letting go, and daily-life practice."
   }
 ];
+const editorialStartingSlugs = new Set([
+  "begin-the-day-with-awareness",
+  "kindness-as-quiet-practice",
+  "patience-softens-the-wait",
+  "caring-without-clinging",
+  "one-honest-breath",
+  "difficult-people-and-boundaries"
+]);
+const editorialStartingQuotes = quotes.filter((quote) => editorialStartingSlugs.has(getQuoteSlug(quote)));
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -112,6 +121,22 @@ const jsonLd = [
           ))}
         </div>
       </section>
+      <section class="editorial-starting-points" aria-labelledby="editorial-starting-heading">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">A smaller place to begin</span>
+            <h2 id="editorial-starting-heading">Editorial Starting Points</h2>
+          </div>
+        </div>
+        <p>
+          This short selection offers different ways into attention, compassion, patience, non-attachment,
+          meditation, and wise boundaries. The full collection remains browsable below, but a quote does not need a
+          standalone Search page simply because it has a shareable permalink.
+        </p>
+        <div class="grid grid--3">
+          {editorialStartingQuotes.map((quote) => <QuoteCard quote={quote} />)}
+        </div>
+      </section>
       <div class="category-heading">
         <span class="eyebrow">Browse by category</span>
         <h2>Choose a Theme</h2>
@@ -164,6 +189,15 @@ const jsonLd = [
 
   .quote-pathways {
     margin-bottom: 1.5rem;
+  }
+
+  .editorial-starting-points {
+    margin: 2rem 0 2.5rem;
+  }
+
+  .editorial-starting-points > p {
+    color: var(--color-muted);
+    max-width: 52rem;
   }
 
   .quote-pathways h2 {

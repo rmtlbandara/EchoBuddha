@@ -1,0 +1,60 @@
+{
+  "phase": 5,
+  "generated_at": "2026-08-24T07:57:15.869Z",
+  "starting_checkpoint": {
+    "phase_4_status": "PASS",
+    "phase_4_commit": "b59e015aa7dca440b470b318a25dd58b4ef30941",
+    "branch": "codex/adsense-recovery-audit",
+    "phase_3_completion_commit": "2fb776a989aca32da70b8bbdf972a24da8b30fd0"
+  },
+  "inputs": [
+    "Phase 1 quote forensic inventory/template/duplication/originality evidence",
+    "Phase 2 URL value scores and Quote Value Scorecard",
+    "Phase 3 Query×Page, page performance, momentum, URL Inspection, internal authority, and quote protection evidence",
+    "Phase 4 PASS_WITH_EXPLICIT_HOLDS report and decision registry",
+    "Current source and local production build"
+  ],
+  "official_sources": [
+    {
+      "url": "https://support.google.com/adsense/answer/10015918",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    },
+    {
+      "url": "https://support.google.com/publisherpolicies/answer/11112688",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    },
+    {
+      "url": "https://support.google.com/publisherpolicies/answer/11190248",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    },
+    {
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    },
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    },
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "accessed": "2026-08-24",
+      "http_status_verified": 200
+    }
+  ],
+  "external_originality_method": "Four representative/high-risk exact phrases checked through targeted web search; absence of a returned match is not proof of originality. Phase 1 representative checks also preserved.",
+  "decision_method": "Two-pass evidence review: layer/intent/protection gate, then user-value/indexation/attribution/template challenge.",
+  "privacy": "Private repository; no OAuth file read, copied, uploaded, or committed; no raw Search Console data exposed outside repository artifacts.",
+  "production_modified": false,
+  "deployed": false,
+  "adsense_submitted": false
+}

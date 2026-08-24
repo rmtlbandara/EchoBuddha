@@ -27,7 +27,8 @@
     "audit:production-smoke": "node scripts/production-smoke-check.mjs",
     "test": "node --test tests/*.test.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
-    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content",
+    "audit:quotes": "node scripts/validate-quote-governance.mjs",
+    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes",
     "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:phase10 && npm run audit:phase11 && npm run audit:dependencies"
   },
   "dependencies": {

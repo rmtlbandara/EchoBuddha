@@ -97,7 +97,7 @@ test("sitemap output aligns with canonical site when built", () => {
   assert.equal(urls.some((url) => url.includes("/daily-reflections/today/")), false);
 });
 
-test("Phase 3 keeps recurring and generated content usable while curating Google indexability", () => {
+test("Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval", () => {
   if (!fs.existsSync("dist/sitemap.xml")) {
     console.warn("dist HTML is missing; run npm run build before this full validation test.");
     return;
@@ -113,13 +113,15 @@ test("Phase 3 keeps recurring and generated content usable while curating Google
   const daily = read(`dist${dailyPath}index.html`);
 
   assert.match(generatedQuote, /<meta name="robots" content="noindex, follow"/);
-  assert.doesNotMatch(authoredQuote, /<meta name="robots" content="noindex/);
+  assert.match(authoredQuote, /<meta name="robots" content="noindex, follow"/);
   assert.match(daily, /<meta name="robots" content="noindex, follow"/);
   assert.match(generatedQuote, new RegExp(`<link rel="canonical" href="https://echobuddha.com${generatedQuotePath}"`));
   assert.match(daily, new RegExp(`<link rel="canonical" href="https://echobuddha.com${dailyPath}"`));
   assert.equal(sitemap.includes(`https://echobuddha.com${generatedQuotePath}`), false);
   assert.equal(sitemap.includes(`https://echobuddha.com${dailyPath}`), false);
-  assert.equal(sitemap.includes(`https://echobuddha.com${authoredQuotePath}`), true);
+  assert.equal(sitemap.includes(`https://echobuddha.com${authoredQuotePath}`), false);
+  assert.equal(sitemap.includes("https://echobuddha.com/quotes/"), true);
+  assert.equal(sitemap.includes("https://echobuddha.com/quotes/letting-go/"), true);
   assert.equal(searchIndex.includes(generatedQuotePath), true);
   assert.equal(searchIndex.includes(dailyPath), true);
 });

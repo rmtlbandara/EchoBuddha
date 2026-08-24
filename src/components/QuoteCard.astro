@@ -13,14 +13,14 @@ const status = getQuoteStatus(quote);
 
 <figure class="quote-card surface">
   <blockquote>
-    <a href={storyPath} aria-label={`Read the story behind: ${quote.text}`}>{quote.text}</a>
+    <a href={storyPath} aria-label={`Open the quote reflection: ${quote.text}`}>{quote.text}</a>
   </blockquote>
   <figcaption>
     <span>
       <a href={`/quotes/${category.slug}/`} aria-label={`View all ${quote.theme} quotes`}>{quote.theme}</a>
       <small>{status.shortLabel}</small>
     </span>
-    <a class="story-link" href={storyPath}>Read story</a>
+    <a class="story-link" href={storyPath}>Open quote</a>
   </figcaption>
 </figure>
 

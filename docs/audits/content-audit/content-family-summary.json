@@ -33,7 +33,7 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1200
+    "averageWords": 1217
   },
   "article": {
     "total": 48,
@@ -115,16 +115,15 @@
     "decisions": {
       "Pass": 10
     },
-    "averageWords": 646
+    "averageWords": 685
   },
   "quoteStory": {
     "total": 153,
-    "indexable": 43,
-    "noindex": 110,
+    "indexable": 0,
+    "noindex": 153,
     "decisions": {
-      "Minor improvement": 43,
-      "Pass": 110
+      "Pass": 153
     },
-    "averageWords": 877
+    "averageWords": 641
   }
 }

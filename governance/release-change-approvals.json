@@ -33,6 +33,15 @@
       "reason": "Restore the exact legacy legal-route migration identified by GSC and git history with a relevant permanent one-hop redirect.",
       "owner": "Echo Buddha project owner via the 2026-08-24 Phase 4 inventory consolidation request",
       "date": "2026-08-24"
+    },
+    {
+      "type": "quote-indexation-remediation",
+      "target": "43 quote story URLs: index -> noindex, follow; exact URLs recorded in the Phase 5 decision registry",
+      "approved": true,
+      "expectedIndexableToNoindex": 43,
+      "reason": "Phase 5 found no P0/P1 quote story and no story with sufficient independent publisher value to justify standalone Search inventory. All 153 underlying quotes and user permalinks remain available; the protected hub and all ten differentiated categories remain indexable.",
+      "owner": "Echo Buddha project owner via the 2026-08-24 Phase 5 quote ecosystem remediation request",
+      "date": "2026-08-24"
     }
   ]
 }

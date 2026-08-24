@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:10:02.456Z",
+  "generatedAt": "2026-08-24T07:58:06.558Z",
   "totalChecks": 26,
   "passed": 26,
   "failed": 0,
@@ -27,13 +27,13 @@
       "area": "Indexability",
       "name": "Protected index and canonical state cannot drift silently",
       "pass": true,
-      "evidence": "0 unapproved index/canonical changes"
+      "evidence": "0 unapproved index/canonical changes; 43 approved quote noindex changes"
     },
     {
       "area": "Sitemap",
       "name": "Sitemap contains only current indexable self-canonical routes",
       "pass": true,
-      "evidence": "192 valid routes (193 protected baseline + 1 approved additions - 2 approved consolidations); 0 noindex/redirect/unknown URLs"
+      "evidence": "149 valid routes (193 protected baseline + 1 approved additions - 2 approved consolidations - 43 approved quote noindex decisions); 0 noindex/redirect/unknown URLs"
     },
     {
       "area": "Canonical",

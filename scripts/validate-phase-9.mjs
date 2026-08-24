@@ -66,6 +66,14 @@ const approvedNewRoutes = pageApprovals.filter((approval) => approval.status ===
 const approvedRetiredRoutes = changeApprovals
   .filter((approval) => approval.approved === true && approval.type === "redirect-and-content-consolidation")
   .map((approval) => approval.target.split(" -> ")[0]);
+const quoteRemediationApproval = changeApprovals.find(
+  (approval) => approval.approved === true && approval.type === "quote-indexation-remediation"
+);
+const phase5DecisionPath = path.join(root, "docs/audits/adsense-recovery-phase-5-2026-08-24/ECHO_BUDDHA_PHASE_5_QUOTE_DECISIONS.csv");
+const phase5Decisions = fs.existsSync(phase5DecisionPath) ? parseCsv(fs.readFileSync(phase5DecisionPath, "utf8")) : [];
+const approvedQuoteNoindexRoutes = new Set(phase5Decisions
+  .filter((row) => row.decision === "NOINDEX_USER_PERMALINK" && row["before indexability"] === "true" && row["new index state"] === "noindex, follow")
+  .map((row) => new URL(row["detail URL"]).pathname));
 const htmlFiles = walk(dist).filter((file) => file.endsWith(".html")).sort();
 const currentRoutes = htmlFiles.map((file) => {
   const route = routeFor(file);
@@ -109,11 +117,13 @@ check("Indexability", "Protected index and canonical state cannot drift silently
   for (const [route, previous] of baselineMap) {
     const current = routeMap.get(route);
     if (!current) continue;
-    if (current.indexable !== previous.indexable && !approvalFor("index-state", route)) drift.push(`${route}: index state`);
+    const approvedQuoteNoindex = quoteRemediationApproval && approvedQuoteNoindexRoutes.has(route) && previous.indexable && !current.indexable;
+    if (current.indexable !== previous.indexable && !approvalFor("index-state", route) && !approvedQuoteNoindex) drift.push(`${route}: index state`);
     if (current.canonical !== previous.canonical && !approvalFor("canonical", route)) drift.push(`${route}: canonical`);
   }
   assert.deepEqual(drift, []);
-  return "0 unapproved index/canonical changes";
+  assert.equal(approvedQuoteNoindexRoutes.size, Number(quoteRemediationApproval?.expectedIndexableToNoindex || 0));
+  return `0 unapproved index/canonical changes; ${approvedQuoteNoindexRoutes.size} approved quote noindex changes`;
 });
 
 check("Sitemap", "Sitemap contains only current indexable self-canonical routes", () => {
@@ -122,10 +132,11 @@ check("Sitemap", "Sitemap contains only current indexable self-canonical routes"
     return !page || !page.indexable || page.canonical !== `${origin}${route}`;
   });
   assert.deepEqual(failures, []);
-  assert.equal(sitemapRoutes.size, baseline.counts.sitemap + approvedNewRoutes.length - approvedRetiredRoutes.length);
+  assert.equal(sitemapRoutes.size, baseline.counts.sitemap + approvedNewRoutes.length - approvedRetiredRoutes.length - approvedQuoteNoindexRoutes.size);
   assert.ok(approvedNewRoutes.every((route) => sitemapRoutes.has(route)));
   assert.ok(approvedRetiredRoutes.every((route) => !sitemapRoutes.has(route)));
-  return `${sitemapRoutes.size} valid routes (${baseline.counts.sitemap} protected baseline + ${approvedNewRoutes.length} approved additions - ${approvedRetiredRoutes.length} approved consolidations); 0 noindex/redirect/unknown URLs`;
+  assert.ok([...approvedQuoteNoindexRoutes].every((route) => !sitemapRoutes.has(route) && routeMap.get(route)?.indexable === false));
+  return `${sitemapRoutes.size} valid routes (${baseline.counts.sitemap} protected baseline + ${approvedNewRoutes.length} approved additions - ${approvedRetiredRoutes.length} approved consolidations - ${approvedQuoteNoindexRoutes.size} approved quote noindex decisions); 0 noindex/redirect/unknown URLs`;
 });
 
 check("Canonical", "All public pages retain self canonicals and 404 retains none", () => {

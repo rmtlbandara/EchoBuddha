@@ -36,9 +36,23 @@ export type QuoteStatus = {
   note: string;
 };
 
+export type QuoteSearchIndexStatus = "index" | "noindex" | "redirect" | "retired";
+
+export type QuoteIndexApproval = {
+  reviewedBy: string;
+  reviewedDate: string;
+  independentPurpose: string;
+  originalEditorialValue: string;
+  differentiation: string;
+  categoryInsufficientReason: string;
+};
+
 export type Quote = {
   text: string;
   theme: string;
+  searchIndexStatus?: QuoteSearchIndexStatus;
+  indexApproval?: QuoteIndexApproval;
+  /** @deprecated Use searchIndexStatus plus indexApproval. */
   isIndexable?: boolean;
   status?: QuoteStatus;
   story?: {
@@ -51,6 +65,7 @@ export type Quote = {
       paragraphs: string[];
     }[];
     reflectionQuestion?: string;
+    /** @deprecated Use the quote-level searchIndexStatus plus indexApproval. */
     isIndexable?: boolean;
     updatedDate?: string;
   };
@@ -2112,10 +2127,11 @@ export function getQuoteStoryPath(quote: Quote) {
   return `/quotes/${category.slug}/${getQuoteSlug(quote)}/`;
 }
 
-// Phase 3 index-quality policy: generated quote stories remain useful, crawlable
-// reflection pages but do not compete as independent search results. Explicitly
-// authored/reviewed stories keep their page-level `isIndexable` decision.
-export const INDEXABLE_GENERATED_QUOTES_PER_THEME = 0;
+// Phase 5 governance: a quote can exist without becoming standalone Search
+// inventory. Every current permalink remains useful and crawlable, but new or
+// existing stories fail closed to noindex until a complete page-specific
+// editorial approval is present.
+export const DEFAULT_QUOTE_SEARCH_INDEX_STATUS: QuoteSearchIndexStatus = "noindex";
 
 export function getQuoteStatus(quote: Quote) {
   if (quote.status) return quote.status;
@@ -2134,20 +2150,28 @@ function quoteThemePhrase(theme: string) {
 }
 
 export function isQuoteStoryIndexable(quote: Quote) {
-  const explicitIndexing = quote.story?.isIndexable ?? quote.isIndexable;
-  if (typeof explicitIndexing === "boolean") return explicitIndexing;
+  const status = quote.searchIndexStatus ?? DEFAULT_QUOTE_SEARCH_INDEX_STATUS;
+  if (status !== "index") return false;
 
-  if (quote.story) return true;
+  const approval = quote.indexApproval;
+  const requiredApproval = approval && [
+    approval.reviewedBy,
+    approval.reviewedDate,
+    approval.independentPurpose,
+    approval.originalEditorialValue,
+    approval.differentiation,
+    approval.categoryInsufficientReason
+  ].every((value) => value.trim().length > 0);
 
-  const themeQuotes = quotes.filter((item) => item.theme === quote.theme);
-  const themeIndex = themeQuotes.findIndex((item) => item.text === quote.text);
-  return themeIndex >= 0 && themeIndex < INDEXABLE_GENERATED_QUOTES_PER_THEME;
+  if (!quote.story || !requiredApproval) {
+    throw new Error(`Quote story ${getQuoteStoryPath(quote)} requests indexation without a complete editorial approval.`);
+  }
+
+  return true;
 }
 
 export function getQuoteIndexabilityClass(quote: Quote) {
-  if (quote.story?.isIndexable === false || quote.isIndexable === false) return "retain-noindex-useful-internal-story";
-  if (quote.story?.isIndexable === true || quote.isIndexable === true) return "strong-indexable-story";
-  if (isQuoteStoryIndexable(quote)) return "indexable-after-generated-quality-improvement";
+  if (isQuoteStoryIndexable(quote)) return "approved-indexable-standalone-story";
   return "retain-noindex-useful-internal-story";
 }
 
@@ -2161,8 +2185,8 @@ export function getQuoteQualitySignals(quote: Quote) {
     indexabilityClass: getQuoteIndexabilityClass(quote),
     uniqueInterpretation: `${quote.theme} reflection ${themeIndex + 1}: ${storyFrames[quote.theme].promise}.`,
     reviewerNote: isQuoteStoryIndexable(quote)
-      ? "Indexable by existing theme allowlist after Phase 2 status and uniqueness improvements."
-      : "Retained as noindex, follow by default; useful for internal browsing without forcing search indexability."
+      ? "Indexable only through a complete page-specific editorial approval."
+      : "Retained as noindex, follow by default; useful for sharing and internal browsing without forcing standalone Search inventory."
   };
 }
 

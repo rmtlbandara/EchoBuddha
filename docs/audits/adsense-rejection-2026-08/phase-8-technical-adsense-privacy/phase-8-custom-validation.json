@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:10:00.612Z",
+  "generatedAt": "2026-08-24T07:58:04.884Z",
   "totalChecks": 17,
   "passed": 17,
   "failed": 0,
@@ -15,7 +15,7 @@
       "area": "Sitemap",
       "name": "Protected sitemap count and canonical host",
       "pass": true,
-      "evidence": "192 canonical URLs (193 protected baseline + 1 approved additions - 2 approved consolidations)"
+      "evidence": "149 canonical URLs (193 protected baseline + 1 approved additions - 2 approved consolidations - 43 approved quote noindex decisions)"
     },
     {
       "area": "Search",

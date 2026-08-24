@@ -4,7 +4,7 @@ import QuoteCard from "../../components/QuoteCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
-import { SITE, getArticlesForQuoteTheme, quoteCategories, quotes } from "../../data/site";
+import { SITE, getArticlesForQuoteTheme, getQuoteSlug, quoteCategories, quotes } from "../../data/site";
 
 export function getStaticPaths() {
   return quoteCategories.map((category) => ({
@@ -113,6 +113,36 @@ const categoryPracticePrompts: Record<string, string> = {
 };
 const categoryClarification = categoryClarifications[category.name];
 const categoryPracticePrompt = categoryPracticePrompts[category.name];
+const featuredQuoteSlugs: Record<string, string[]> = {
+  Mindfulness: ["begin-the-day-with-awareness", "present-moment-one-step", "gratitude-notices-enough"],
+  Compassion: ["loving-kindness-without-harm", "compassion-sees-pain-clearly", "kindness-as-quiet-practice"],
+  Patience: ["patience-softens-the-wait", "family-kindness-and-patience"],
+  Awareness: ["acceptance-before-next-step", "one-breath-before-anger-replies", "thoughts-are-visitors"],
+  Practice: ["right-intention-turns-the-heart", "eightfold-path-daily-choices", "small-actions-shape-the-mind"],
+  "Letting Go": ["caring-without-clinging", "forgiveness-without-approving-harm", "open-hands-non-attachment"],
+  Meditation: ["one-honest-breath", "meditation-is-returning", "few-quiet-minutes"],
+  Renewal: ["begin-again-without-shame", "one-calm-morning-intention", "gentle-hope-keeps-walking"],
+  Wisdom: ["karma-begins-in-intention", "right-speech-with-kindness", "difficult-people-and-boundaries"],
+  Impermanence: ["change-is-how-life-continues", "meet-change-softly"]
+};
+const featuredSet = new Set(featuredQuoteSlugs[category.name] ?? []);
+const featuredQuotes = categoryQuotes.filter((quote) => featuredSet.has(getQuoteSlug(quote)));
+const remainingQuotes = categoryQuotes.filter((quote) => !featuredSet.has(getQuoteSlug(quote)));
+const practiceQuotes = remainingQuotes.slice(0, Math.min(6, remainingQuotes.length));
+const furtherQuotes = remainingQuotes.slice(practiceQuotes.length);
+const categoryReadingPaths: Record<string, string> = {
+  Mindfulness: "Begin with direct attention, then move toward ordinary tasks, speech, and returning after distraction.",
+  Compassion: "Begin with care, then test how kindness works alongside truth, limits, and non-harming.",
+  Patience: "Begin at the pause before reaction, then explore waiting, family friction, and wise speech.",
+  Awareness: "Begin by naming experience, then notice bodily signals, habits, thoughts, and emotional momentum.",
+  Practice: "Begin with intention, then choose repeatable actions that bring the path into work and daily routines.",
+  "Letting Go": "Begin by separating care from control, then explore grief, memory, boundaries, and non-attachment.",
+  Meditation: "Begin with one honest breath, then explore returning, restlessness, posture, and steady repetition.",
+  Renewal: "Begin with repair rather than denial, then explore shame, hope, mornings, and the next different action.",
+  Wisdom: "Begin with intention and consequence, then explore speech, suffering, conflict, humility, and contentment.",
+  Impermanence: "Begin with observable change, then explore gratitude, release, uncertainty, and tender attention."
+};
+const categoryReadingPath = categoryReadingPaths[category.name];
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -189,6 +219,7 @@ const jsonLd = [
               <strong>Daily prompt:</strong> {categoryPracticePrompt}
             </p>
           )}
+          <p><strong>Editorial reading path:</strong> {categoryReadingPath}</p>
         </div>
         {relatedTeachingLinks.length > 0 && (
           <nav aria-label={`Related teachings for ${category.name} quotes`}>
@@ -197,9 +228,43 @@ const jsonLd = [
         )}
       </section>
 
-      <div class="grid grid--3">
-        {categoryQuotes.map((quote) => <QuoteCard quote={quote} />)}
-      </div>
+      <section class="curated-quote-group" aria-labelledby="featured-quotes-heading">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Editorial starting points</span>
+            <h2 id="featured-quotes-heading">Start With These {category.name} Reflections</h2>
+          </div>
+        </div>
+        <div class="grid grid--3">
+          {featuredQuotes.map((quote) => <QuoteCard quote={quote} />)}
+        </div>
+      </section>
+
+      <section class="curated-quote-group" aria-labelledby="practice-quotes-heading">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Bring the theme into life</span>
+            <h2 id="practice-quotes-heading">Practice With the Theme</h2>
+          </div>
+        </div>
+        <div class="grid grid--3">
+          {practiceQuotes.map((quote) => <QuoteCard quote={quote} />)}
+        </div>
+      </section>
+
+      {furtherQuotes.length > 0 && (
+        <section class="curated-quote-group" aria-labelledby="further-quotes-heading">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Continue selectively</span>
+              <h2 id="further-quotes-heading">Further {category.name} Reflections</h2>
+            </div>
+          </div>
+          <div class="grid grid--3">
+            {furtherQuotes.map((quote) => <QuoteCard quote={quote} />)}
+          </div>
+        </section>
+      )}
       <AdSlot />
 
       {relatedArticles.length > 0 && (
@@ -228,6 +293,12 @@ const jsonLd = [
     </div>
   </section>
 </Layout>
+
+<style>
+  .curated-quote-group + .curated-quote-group {
+    margin-top: 2.5rem;
+  }
+</style>
 
 <style>
   .quote-count {

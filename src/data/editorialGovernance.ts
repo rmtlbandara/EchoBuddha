@@ -1,4 +1,4 @@
-import { SITE, getQuoteSlug, type Quote } from "./site";
+import { SITE, getQuoteSlug, isQuoteStoryIndexable, type Quote } from "./site";
 
 export type EditorialReviewStatus =
   | "repository-reviewed"
@@ -1129,7 +1129,7 @@ export function getQuoteOriginRecord(quote: Quote, canonicalPath?: string): Quot
   const storySlug = quote.story?.slug ?? getQuoteSlug(quote);
   const categorySlug = quote.theme.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const publicPath = canonicalPath ?? `/quotes/${categorySlug}/${storySlug}/`;
-  const isIndexable = quote.story?.isIndexable ?? quote.isIndexable ?? true;
+  const isIndexable = isQuoteStoryIndexable(quote);
 
   return {
     quoteId: `${categorySlug}:${storySlug}`,
