@@ -29,7 +29,8 @@
     "audit:seo": "node scripts/audit-seo.mjs",
     "audit:quotes": "node scripts/validate-quote-governance.mjs",
     "audit:cornerstones": "node docs/audits/adsense-recovery-phase-6-2026-08-24/validate-phase-6-cornerstone-upgrades.mjs",
-    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:cornerstones",
+    "audit:trust": "node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs",
+    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:cornerstones && npm run audit:trust",
     "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:phase10 && npm run audit:phase11 && npm run audit:dependencies"
   },
   "dependencies": {

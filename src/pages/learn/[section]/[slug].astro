@@ -2,6 +2,7 @@
 import Layout from "../../../layouts/Layout.astro";
 import AdSlot from "../../../components/AdSlot.astro";
 import LearningCard from "../../../components/LearningCard.astro";
+import EditorialAttribution from "../../../components/EditorialAttribution.astro";
 import {
   getAllLearningPages,
   getBreadcrumbJsonLd,
@@ -13,7 +14,7 @@ import {
   type LearningPage
 } from "../../../data/learn";
 import { SITE } from "../../../data/site";
-import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA, getTopicRole } from "../../../data/editorialGovernance";
+import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../../../data/editorialGovernance";
 
 export function getStaticPaths() {
   return getAllLearningPages().map((page) => ({
@@ -30,7 +31,6 @@ const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: it
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
-const learningRole = getTopicRole(canonicalPath);
 const isDictionary = page.section === "buddhist-dictionary";
 const isSourceStudy = ["dhammapada-reflections", "sutta-for-daily-life"].includes(page.section);
 const editorialLabels = isDictionary
@@ -98,7 +98,7 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
-        {learningRole && <p class="page-role-note">{learningRole.publicSummary}</p>}
+        <EditorialAttribution />
       </div>
     </header>
 
@@ -149,13 +149,6 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           <section>
             <h2>{editorialLabels.source}</h2>
             <p>{sourceNoteText}</p>
-            {learningRole && (
-              <p>
-                This page serves as a <strong>{learningRole.role}</strong> in the {learningRole.cluster} topic
-                cluster. It is written as original Echo Buddha educational guidance and remains open to formal
-                Buddhist studies review where doctrine, translation, or tradition-specific interpretation matters.
-              </p>
-            )}
             <p>
               For source standards and correction requests, see the <a href="/editorial-policy/">Editorial Policy</a>,
               <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a>, and
@@ -219,13 +212,6 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 
   .breadcrumbs a {
     color: var(--color-muted);
-  }
-
-  .page-role-note {
-    color: var(--color-muted);
-    font-size: 0.95rem;
-    font-weight: 700;
-    margin-top: 0.9rem;
   }
 
   .key-box,

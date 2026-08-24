@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-08-24T09:20:29.667Z",
+  "reviewer": "Independent skeptical-visitor and adversarial rendered-output pass",
+  "status": "PASS",
+  "totalChecks": 25,
+  "passed": 25,
+  "failed": 0,
+  "secretScan": "PASS",
+  "sampleRoutes": [
+    "/",
+    "/about/",
+    "/editorial-policy/",
+    "/buddhist-sources-and-citations/",
+    "/corrections/",
+    "/contact/",
+    "/articles/right-speech-buddhism/",
+    "/articles/dhamma-vs-dharma/",
+    "/learn/buddhism-for-beginners/",
+    "/learn/buddhist-dictionary/dhamma/",
+    "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+    "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+    "/meditation/meditation-for-beginners/",
+    "/quotes/letting-go/",
+    "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+    "/daily-reflections/one-honest-breath/"
+  ],
+  "c0c1Routes": [
+    "/articles/right-speech-buddhism/",
+    "/articles/dhamma-vs-dharma/",
+    "/articles/dhammapada-verse-1-meaning/",
+    "/quotes/letting-go/",
+    "/articles/dhammapada-reflection-what-we-think/",
+    "/articles/noble-eightfold-path-practical-guide/",
+    "/articles/buddhist-wisdom-for-overthinking/",
+    "/articles/compassion-with-boundaries/"
+  ],
+  "checks": [
+    {
+      "id": "AUT-01",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "288/288 substantive pages visibly name the organizational author"
+    },
+    {
+      "id": "AUT-02",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "288/288 substantive pages use the stable author path"
+    },
+    {
+      "id": "AUT-03",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "300/300 applicable schema rows match visible authorship"
+    },
+    {
+      "id": "AUT-04",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "ProfilePage focuses on the visible Organization byline"
+    },
+    {
+      "id": "AUT-05",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "No fictitious Person schema on organizational profile"
+    },
+    {
+      "id": "AUT-06",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "Stable public-safe central author registry exists"
+    },
+    {
+      "id": "AUT-07",
+      "category": "authorship",
+      "status": "PASS",
+      "evidence": "No misleading default author identity leaks"
+    },
+    {
+      "id": "DAT-01",
+      "category": "dates",
+      "status": "PASS",
+      "evidence": "48/48 article date rows match stored, visible, schema and social metadata"
+    },
+    {
+      "id": "DAT-02",
+      "category": "dates",
+      "status": "PASS",
+      "evidence": "All stored article dates are explicit ISO editorial dates"
+    },
+    {
+      "id": "DAT-03",
+      "category": "dates",
+      "status": "PASS",
+      "evidence": "All modified dates are chronological and no later than the audit date"
+    },
+    {
+      "id": "DAT-04",
+      "category": "dates",
+      "status": "PASS",
+      "evidence": "Visible updated dates equal schema dateModified"
+    },
+    {
+      "id": "DAT-05",
+      "category": "dates",
+      "status": "PASS",
+      "evidence": "Article freshness cannot be generated from build time"
+    },
+    {
+      "id": "DAT-06",
+      "category": "dates",
+      "status": "PASS",
+      "evidence": "Representative P0 article uses truthful Updated UI"
+    },
+    {
+      "id": "COR-01",
+      "category": "cornerstones",
+      "status": "PASS",
+      "evidence": "8/8 C0/C1 routes build"
+    },
+    {
+      "id": "COR-02",
+      "category": "cornerstones",
+      "status": "PASS",
+      "evidence": "7/7 C0/C1 articles have author, correction, and source paths"
+    },
+    {
+      "id": "COR-03",
+      "category": "cornerstones",
+      "status": "PASS",
+      "evidence": "C0 quote hub keeps Phase 5 attribution and no forced article byline"
+    },
+    {
+      "id": "COR-04",
+      "category": "cornerstones",
+      "status": "PASS",
+      "evidence": "35/35 protected P0/P1 resources preserve title, H1, canonical, indexability, sitemap and intent"
+    },
+    {
+      "id": "IND-01",
+      "category": "independent",
+      "status": "PASS",
+      "evidence": "16/16 skeptical-visitor sample routes have clear main identity"
+    },
+    {
+      "id": "IND-02",
+      "category": "independent",
+      "status": "PASS",
+      "evidence": "Every substantive sampled page exposes the responsible entity"
+    },
+    {
+      "id": "IND-03",
+      "category": "independent",
+      "status": "PASS",
+      "evidence": "Every sampled visitor path exposes Corrections through page or footer"
+    },
+    {
+      "id": "IND-04",
+      "category": "independent",
+      "status": "PASS",
+      "evidence": "All sampled source-sensitive resources expose source or safety context"
+    },
+    {
+      "id": "IND-05",
+      "category": "independent",
+      "status": "PASS",
+      "evidence": "Skeptical review finds no exaggerated credential or reviewer"
+    },
+    {
+      "id": "IND-06",
+      "category": "independent",
+      "status": "PASS",
+      "evidence": "In-app browser mobile review passes article plus seven representative trust/byline routes at 390x844"
+    },
+    {
+      "id": "SEC-01",
+      "category": "security",
+      "status": "PASS",
+      "evidence": "0 credential/token/private-key/OAuth-path patterns detected in diff or artifacts"
+    },
+    {
+      "id": "SEC-02",
+      "category": "security",
+      "status": "PASS",
+      "evidence": "No environment-secret file content or path introduced"
+    }
+  ],
+  "challengeQuestions": [
+    "Who is responsible?",
+    "Does the identity destination explain what the author is?",
+    "Are role and credentials believable?",
+    "Where do source-sensitive claims come from?",
+    "Is interpretation distinct?",
+    "Are dates stored and material?",
+    "Is correction access functional?",
+    "Does visible content match schema?"
+  ],
+  "conclusion": "No material authorship, identity, source, date, correction, schema, protected-search, or secret red flag remains."
+}

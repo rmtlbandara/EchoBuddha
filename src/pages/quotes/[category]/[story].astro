@@ -5,6 +5,7 @@ import ArticleCard from "../../../components/ArticleCard.astro";
 import AdSlot from "../../../components/AdSlot.astro";
 import ArticleShare from "../../../components/ArticleShare.astro";
 import Breadcrumbs from "../../../components/Breadcrumbs.astro";
+import EditorialAttribution from "../../../components/EditorialAttribution.astro";
 import {
   SITE,
   getArticlesForQuoteTheme,
@@ -133,6 +134,7 @@ const jsonLd = [
         <h1>{story.title}</h1>
         <blockquote>{quote.text}</blockquote>
         <p class="quote-status">{story.status.label}</p>
+        <EditorialAttribution label="Editorial reflection by" />
         <div class="quote-share-row">
           <ArticleShare
             title={story.title}

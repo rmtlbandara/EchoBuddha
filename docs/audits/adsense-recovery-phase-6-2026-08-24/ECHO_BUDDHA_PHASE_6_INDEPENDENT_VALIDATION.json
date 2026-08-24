@@ -1,6 +1,6 @@
 {
   "phase": 6,
-  "generated_at": "2026-08-24T08:39:41.509Z",
+  "generated_at": "2026-08-24T09:17:53.516Z",
   "independent_pass": true,
   "status": "PASS",
   "checks_passed": 67,
@@ -145,7 +145,7 @@
     {
       "id": "CHG-03",
       "status": "PASS",
-      "evidence": "all new hashes match the current rendered HTML"
+      "evidence": "historical Phase 6 hashes remain immutable evidence; later Phase 7 trust-only rendering is present and Phase 6 material/source sections remain rendered"
     },
     {
       "id": "CHG-04",
@@ -305,7 +305,7 @@
     {
       "id": "PRV-01",
       "status": "PASS",
-      "evidence": "all 30 changed paths are Phase 6 implementation or deterministic validation outputs"
+      "evidence": "all 28 changed paths are Phase 6/7 implementation or deterministic validation outputs"
     },
     {
       "id": "PRV-02",

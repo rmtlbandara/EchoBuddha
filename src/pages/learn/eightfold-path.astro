@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
+import EditorialAttribution from "../../components/EditorialAttribution.astro";
 import { SITE, fullArticles } from "../../data/site";
 import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
@@ -84,6 +85,7 @@ const jsonLd = [
           The Noble Eightfold Path is a practical training in wisdom, ethical conduct, mindfulness, and meditation. It
           becomes real through speech, work, effort, attention, and daily choices.
         </p>
+        <EditorialAttribution />
       </div>
     </header>
 

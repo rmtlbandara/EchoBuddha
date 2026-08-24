@@ -238,6 +238,7 @@ h3 {
 .article-meta span {
   align-items: center;
   display: inline-flex;
+  gap: 0.25rem;
 }
 
 .visually-hidden {

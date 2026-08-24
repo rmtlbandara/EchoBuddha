@@ -1,0 +1,10 @@
+page family,byline expected?,author type,reviewer shown?,publication date?,modified date?,author link?,editorial-method link?,source note?,rationale
+Articles,YES,Organization,NO,YES,YES,YES,YES,YES,"Substantive long-form editorial pages need explicit responsibility, real stored dates, and source context."
+Learn / Buddhism 101,YES_SUBTLE,Organization,NO,NO_NOT_STORED,NO_NOT_STORED,YES,YES,YES,Curriculum resources use a compact organizational attribution without invented dates.
+Buddhist Dictionary,YES_SUBTLE,Organization,NO,NO_NOT_STORED,NO_NOT_STORED,YES,YES,YES,Concise reference entries identify the maintaining publication without biography clutter.
+Sutta and Dhammapada studies,YES_SUBTLE,Organization,NO,NO_NOT_STORED,NO_NOT_STORED,YES,YES,YES,"The byline identifies the explanation, never authorship of a canonical source or translation."
+Meditation resources,YES_SUBTLE,Organization,NO,NO_NOT_STORED,NO_NOT_STORED,YES,YES,YES,Practice guidance needs accountable authorship and safety/source links.
+Individual Quote stories,YES_QUALIFIED,Organization,NO,NO_NOT_STORED,NO_NOT_STORED,YES,YES,YES,Editorial-reflection authorship is separated from quote origin classification.
+Daily Reflections,YES_QUALIFIED,Organization,NO,NO_NOT_STORED,NO_NOT_STORED,YES,YES,YES,Original reflection writing has compact responsibility; pages remain noindex.
+Quote/category/content hubs,NO,None,NO,NO,NO,NO,YES_VIA_FOOTER,AS_RELEVANT,Collection navigation does not receive an article-style byline.
+Trust/legal/utility/system,NO,None,NO,NO,NO,NO,YES_VIA_FOOTER,NOT_APPLICABLE,Publisher ownership is clear without forcing authorship onto policies or utilities.

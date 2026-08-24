@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import EditorialAttribution from "../../components/EditorialAttribution.astro";
 import {
   dailyReflections,
   getDailyReflectionDetails,
@@ -86,6 +87,7 @@ const jsonLd = [
         <h1>{reflection.title}</h1>
         <blockquote>{reflection.reflection}</blockquote>
         {details && <p class="reflection-form">{details.form}</p>}
+        <EditorialAttribution label="Reflection by" />
       </div>
     </header>
 

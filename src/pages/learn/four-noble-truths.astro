@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
+import EditorialAttribution from "../../components/EditorialAttribution.astro";
 import { SITE, fullArticles } from "../../data/site";
 import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../../data/editorialGovernance";
 
@@ -85,6 +86,7 @@ const jsonLd = [
           The Four Noble Truths are a compassionate framework for understanding suffering, its causes, the possibility
           of release, and the path of practice.
         </p>
+        <EditorialAttribution />
       </div>
     </header>
 

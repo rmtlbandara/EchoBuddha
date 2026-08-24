@@ -92,11 +92,28 @@ export const EDITORIAL_IDENTITY = {
   externalReviewers: [] as string[]
 } as const;
 
+export const AUTHOR_REGISTRY = {
+  "echo-buddha-editorial": {
+    id: "echo-buddha-editorial",
+    displayName: SITE.author,
+    type: "organization",
+    profileUrl: "/authors/echo-buddha-editorial/",
+    role: "Organizational publication byline",
+    public: true,
+    sameAs: [] as string[]
+  }
+} as const;
+
 export const PUBLISHER_SCHEMA = {
   "@type": "Organization",
   "@id": EDITORIAL_IDENTITY.publisherId,
   name: SITE.name,
-  url: SITE.url
+  url: SITE.url,
+  description: SITE.description,
+  logo: {
+    "@type": "ImageObject",
+    url: `${SITE.url}/images/buddha-brand-icon.png`
+  }
 } as const;
 
 export const EDITORIAL_AUTHOR_SCHEMA = {
@@ -127,18 +144,23 @@ export const SOURCE_HIERARCHY = [
   },
   {
     level: 2,
-    label: "Reputable translation or Buddhist institution",
-    use: "Compare translation choices and practice context without treating one English rendering as the original text."
+    label: "Recognized translation or textual repository",
+    use: "Compare translation choices and textual context without treating one English rendering as the original text."
   },
   {
     level: 3,
-    label: "Scholarly or academic context",
+    label: "Academic or reference context",
     use: "Use for history, language, disputed interpretation, and tradition-specific nuance when it materially helps the reader."
   },
   {
     level: 4,
-    label: "Reliable contextual source",
-    use: "Use for current health, safety, policy, or practical context only when the source is authoritative for that claim."
+    label: "Established Buddhist organization or teacher",
+    use: "Use for practice or tradition context when the organization or teacher is a suitable authority for that particular claim."
+  },
+  {
+    level: 5,
+    label: "Reliable secondary or specialist context",
+    use: "Use for supporting explanation and for current health, safety, policy, or practical claims only when the source is authoritative for that claim."
   }
 ] as const;
 

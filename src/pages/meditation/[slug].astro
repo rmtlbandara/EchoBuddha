@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import EditorialAttribution from "../../components/EditorialAttribution.astro";
 import { SITE } from "../../data/site";
 import {
   allMeditationPages,
@@ -15,8 +16,7 @@ import {
 import {
   EDITORIAL_AUTHOR_SCHEMA,
   PUBLISHER_SCHEMA,
-  getMeditationSafetyNotice,
-  getTopicRole
+  getMeditationSafetyNotice
 } from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
@@ -31,7 +31,6 @@ const canonicalPath = `/meditation/${page.slug}/`;
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
-const meditationRole = getTopicRole(canonicalPath);
 const safetyNotice = getMeditationSafetyNotice();
 const jsonLd = [
   {
@@ -64,7 +63,7 @@ const jsonLd = [
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
-        {meditationRole && <p class="page-role-note">{meditationRole.publicSummary}</p>}
+        <EditorialAttribution />
       </div>
     </header>
 
@@ -129,12 +128,6 @@ const jsonLd = [
           <section>
             <h2>Safety Note</h2>
             <p>{page.sourceNote}</p>
-            {meditationRole && (
-              <p>
-                This page serves as a <strong>{meditationRole.role}</strong> in the {meditationRole.cluster} topic
-                cluster. Keep future advertising away from practice steps and safety guidance.
-              </p>
-            )}
             <p>
               Read the <a href="/meditation-safety/">Meditation Safety</a> and
               <a href="/disclaimer/">Disclaimer</a> for the site's meditation and wellbeing limitations, and the
@@ -202,13 +195,6 @@ const jsonLd = [
 
   .safety-box p {
     color: var(--color-muted);
-  }
-
-  .page-role-note {
-    color: var(--color-muted);
-    font-size: 0.95rem;
-    font-weight: 700;
-    margin-top: 0.9rem;
   }
 
 	  .learning-note {

@@ -1,0 +1,47 @@
+{
+  "reviewedAt": "2026-08-24T14:49:00+05:30",
+  "browser": "Codex in-app browser",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "status": "PASS",
+  "initialFinding": {
+    "status": "FIXED_AND_RETESTED",
+    "issue": "Article metadata labels and values visually touched because inline-flex child spans had no internal gap.",
+    "remediation": "Added a 0.25rem gap to .article-meta span; mobile retest rendered distinct By, Published, and Updated labels with their values."
+  },
+  "articleReview": {
+    "route": "/articles/right-speech-buddhism/",
+    "horizontalOverflow": false,
+    "authorVisible": true,
+    "authorFontSize": "15.2px",
+    "metadataWidthPx": 343,
+    "metadataHeightPx": 94,
+    "metadataInternalGapPx": 4,
+    "mainContentAboveFold": true,
+    "trustFooterLinksPresent": true,
+    "result": "PASS"
+  },
+  "representativeRoutes": [
+    "/learn/buddhist-dictionary/dhamma/",
+    "/meditation/meditation-for-beginners/",
+    "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+    "/daily-reflections/one-honest-breath/",
+    "/authors/echo-buddha-editorial/",
+    "/editorial-policy/",
+    "/corrections/"
+  ],
+  "representativeResults": {
+    "routesReviewed": 7,
+    "horizontalOverflowFailures": 0,
+    "missingH1": 0,
+    "missingExpectedAuthorLinks": 0,
+    "unexpectedTrustPageBylines": 0,
+    "missingTrustNavigation": 0,
+    "missingCorrectionsPath": 0,
+    "bodyFontSize": "16px",
+    "compactAttributionHeightPx": 24
+  },
+  "conclusion": "Trust and byline components remain compact, readable, accessible, and subordinate to the main content at mobile width."
+}

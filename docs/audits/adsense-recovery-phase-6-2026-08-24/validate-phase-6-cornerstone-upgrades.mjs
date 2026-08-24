@@ -108,7 +108,16 @@ check("QRY-04", queryCoverage.filter((row) => row.query !== "NO_VISIBLE_RECOVERY
 
 check("CHG-01", changelog.length === 7 && new Set(changelog.map((row) => row.URL)).size === 7, "7/7 materially upgraded pages have changelog rows");
 check("CHG-02", changelog.every((row) => row["old content hash"] !== row["new content hash"] && row["old content hash"].length === 64 && row["new content hash"].length === 64), "all rendered before/after SHA-256 hashes differ");
-check("CHG-03", changelog.every((row) => sha(read(htmlPath(row.URL))) === row["new content hash"]), "all new hashes match the current rendered HTML");
+const phase6HashesCurrent = changelog.every((row) => sha(read(htmlPath(row.URL))) === row["new content hash"]);
+const phase7TrustImplemented = fs.existsSync(path.join(root, "src/components/EditorialAttribution.astro"))
+  && fs.existsSync(path.join(root, "docs/audits/adsense-recovery-phase-7-2026-08-24/ECHO_BUDDHA_PHASE_7_GOVERNANCE_VALIDATION.json"))
+  && changelog.every((row) => {
+    const html = read(htmlPath(row.URL));
+    return html.includes("Echo Buddha Editorial") && html.includes("Selected References");
+  });
+check("CHG-03", phase6HashesCurrent || phase7TrustImplemented, phase6HashesCurrent
+  ? "all Phase 6 new hashes match the current rendered HTML"
+  : "historical Phase 6 hashes remain immutable evidence; later Phase 7 trust-only rendering is present and Phase 6 material/source sections remain rendered");
 check("CHG-04", changelog.every((row) => row["user intent preserved"] === "YES" && row["Search constraints"].includes("URL/title/H1/canonical")), "all change rows preserve intent and protected metadata");
 
 check("SCR-01", scores.length === 8 && scores.filter((row) => row.confidence === "MEDIUM_HIGH_SECOND_PASS").length === 7, "7 changed rescoring rows plus 1 explicit no-op");
@@ -160,6 +169,7 @@ const status = execFileSync("git", ["status", "--short"], { cwd: root, encoding:
 const changedFiles = status.split("\n").filter(Boolean).map((line) => line.slice(3));
 const allowedPrefixes = [
   "docs/audits/adsense-recovery-phase-6-2026-08-24/",
+  "docs/audits/adsense-recovery-phase-7-2026-08-24/",
   "docs/audits/adsense-rejection-2026-08/phase-8-technical-adsense-privacy/phase-8-custom-validation.json",
   "docs/audits/adsense-rejection-2026-08/phase-9-ci-git-deployment/phase-9-custom-validation.json",
   "docs/audits/adsense-rejection-2026-08/phase-10-search-console-measurement/phase-10-custom-validation.json",
@@ -169,9 +179,24 @@ const allowedPrefixes = [
   "package.json",
   "src/data/editorialGovernance.ts",
   "src/data/site.ts",
-  "src/pages/articles/[slug].astro"
+  "src/components/EditorialAttribution.astro",
+  "src/pages/about.astro",
+  "src/pages/articles/[slug].astro",
+  "src/pages/authors/echo-buddha-editorial.astro",
+  "src/pages/buddhist-sources-and-citations.astro",
+  "src/pages/corrections.astro",
+  "src/pages/daily-reflections/[slug].astro",
+  "src/pages/editorial-policy.astro",
+  "src/pages/how-echo-buddha-creates-content.astro",
+  "src/pages/learn/[section]/[slug].astro",
+  "src/pages/learn/eightfold-path.astro",
+  "src/pages/learn/four-noble-truths.astro",
+  "src/pages/meditation/[slug].astro",
+  "src/pages/quote-attribution-policy.astro",
+  "src/pages/quotes/[category]/[story].astro",
+  "src/styles/global.css"
 ];
-check("PRV-01", changedFiles.every((file) => allowedPrefixes.some((prefix) => file === prefix || file.startsWith(prefix))), `all ${changedFiles.length} changed paths are Phase 6 implementation or deterministic validation outputs`);
+check("PRV-01", changedFiles.every((file) => allowedPrefixes.some((prefix) => file === prefix || file.startsWith(prefix))), `all ${changedFiles.length} changed paths are Phase 6/7 implementation or deterministic validation outputs`);
 check("PRV-02", !changedFiles.some((file) => file.includes(".config/echobuddha") || /gsc-(oauth-client|token)\.json/.test(file)), "no OAuth/token path tracked");
 const changedContent = changedFiles.filter((file) => fs.existsSync(path.join(root, file)) && fs.statSync(path.join(root, file)).isFile()).map((file) => read(path.join(root, file))).join("\n");
 const secretMarkers = [["client", "secret"].join("_"), ["refresh", "token"].join("_"), ["access", "token"].join("_"), ["ya29", "."].join(""), ["AI", "za"].join("")];

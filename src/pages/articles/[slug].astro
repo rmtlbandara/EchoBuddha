@@ -19,8 +19,7 @@ import {
 import {
   EDITORIAL_AUTHOR_SCHEMA,
   PUBLISHER_SCHEMA,
-  getSourceReferencesForRoute,
-  getTopicRole
+  getSourceReferencesForRoute
 } from "../../data/editorialGovernance";
 
 export function getStaticPaths() {
@@ -303,7 +302,6 @@ const topicClusters = [
 ];
 const activeTopicCluster = topicClusters.find((cluster) => cluster.slugs.includes(article.slug));
 const topicClusterHub = activeTopicCluster && activeTopicCluster.href !== canonicalPath ? activeTopicCluster : undefined;
-const articleRole = getTopicRole(canonicalPath);
 const sourceReferences = getSourceReferencesForRoute(canonicalPath);
 const sourceNoteText =
   activeTopicCluster?.source ??
@@ -468,14 +466,11 @@ const jsonLd = [
         <h1>{article.title}</h1>
         <p class="lede">{article.description}</p>
         <div class="article-meta">
-          <span>By <a href="/authors/echo-buddha-editorial/">{article.author}</a></span>
+          <span>By <a href="/authors/echo-buddha-editorial/" rel="author">{article.author}</a></span>
           <span>Published <time datetime={article.date}>{formattedDate}</time></span>
-          <span>Reviewed <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
+          <span>Updated <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
           <span>{readTime}</span>
         </div>
-        {articleRole && (
-          <p class="page-role-note">{articleRole.publicSummary}</p>
-        )}
         <div class="article-share-row">
           <ArticleShare
             title={article.title}
@@ -553,15 +548,9 @@ const jsonLd = [
         <section class="source-note" aria-labelledby="source-note-heading">
           <h2 id="source-note-heading">Further Reading / Source Note</h2>
           <p>{sourceNoteText}</p>
-          {articleRole && (
-            <p>
-              In this topic cluster, this page serves as a <strong>{articleRole.role}</strong>. Its role is to support,
-              not replace, the primary learning route for the cluster.
-            </p>
-          )}
           {topicClusterHub && (
             <p>
-              For the broader topic cluster, continue with the
+              For a broader learning path, continue with the
               {" "}<a href={topicClusterHub.href}>{topicClusterHub.label}</a>.
             </p>
           )}
@@ -622,7 +611,7 @@ const jsonLd = [
           </ul>
         </div>
         <div class="surface author-card">
-          <span class="eyebrow">About the author</span>
+          <span class="eyebrow">About the editorial byline</span>
           <h2>Echo Buddha Editorial</h2>
           <p>
             Accessible Buddhist-inspired wisdom, mindfulness, reflection, and meditation education for general
@@ -691,13 +680,6 @@ const jsonLd = [
   .article-share-row {
     display: flex;
     margin-top: 1rem;
-  }
-
-  .page-role-note {
-    color: var(--color-muted);
-    font-size: 0.95rem;
-    font-weight: 700;
-    margin-top: 0.9rem;
   }
 
   .key-takeaways {

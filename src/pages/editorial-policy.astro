@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
-import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA, SOURCE_HIERARCHY } from "../data/editorialGovernance";
+import { PUBLISHER_SCHEMA, SOURCE_HIERARCHY } from "../data/editorialGovernance";
 
 const title = "Editorial Policy";
 const description = "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.";
@@ -38,7 +38,6 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}/editorial-policy/`,
-  author: EDITORIAL_AUTHOR_SCHEMA,
   publisher: PUBLISHER_SCHEMA
 };
 ---
@@ -103,7 +102,7 @@ const jsonLd = {
         Read the <a href="/quote-attribution-policy/">Quote Attribution Policy</a> for the current labeling standard.
       </p>
       <p>
-        If attribution is uncertain, the page should say so plainly or remain unpublished until the uncertainty is
+        If attribution is uncertain, the page says so plainly or remains unpublished until the uncertainty is
         resolved. Traditional Buddhist sources, translators, editions, and copyright or license notes are recorded for
         review when a page relies on them.
       </p>
@@ -120,14 +119,14 @@ const jsonLd = {
         own.
       </p>
       <p>
-        “Reviewed” means an internal publication check under this process. Unless a page specifically identifies a
+        An editorial check means an internal publication check under this process. Unless a page specifically identifies a
         verified reviewer and scope, it does not mean independent monastic, academic, medical, clinical, legal, or
         institutional review.
       </p>
 
       <h2>Sources and Learning Context</h2>
       <p>
-        Beginner explanations use original language and should be checked against primary Buddhist texts, reputable
+        Source-sensitive beginner explanations are checked against suitable primary Buddhist texts, reputable
         translations, recognized Buddhist institutions, teachers, and study communities where relevant. Pali and
         Sanskrit terms are simplified for general readers, so formal study may require more precise tradition-specific
         guidance. Read <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a> for more detail.
@@ -148,7 +147,8 @@ const jsonLd = {
       <h2>Corrections Policy</h2>
       <p>
         Substantive errors are corrected when identified. Minor wording, accessibility, linking, or formatting issues
-        may also be updated to improve clarity. Article pages display published and reviewed dates where appropriate.
+        may also be updated to improve clarity. Article pages display stored publication dates and material-update
+        dates where that metadata is available.
       </p>
       <p>
         To report an issue, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and include the page URL, the
@@ -164,6 +164,11 @@ const jsonLd = {
       <p>
         Ad areas are labeled as Advertisement. Echo Buddha does not publish paid claims inside educational content or
         create fake reviews, ratings, endorsements, or spiritual authority.
+      </p>
+      <p>
+        Echo Buddha does not currently publish affiliate links or sponsored editorial content. If a commercial
+        relationship is introduced later, it must be disclosed clearly where a reader can understand its relevance;
+        payment cannot purchase a source conclusion, quote attribution, or favorable review.
       </p>
 
       <h2>Limitations</h2>

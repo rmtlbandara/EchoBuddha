@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
-import { EDITORIAL_AUTHOR_SCHEMA, PUBLISHER_SCHEMA } from "../data/editorialGovernance";
+import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
 
 const title = "How Echo Buddha Creates Content";
 const description =
@@ -13,7 +13,6 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  author: EDITORIAL_AUTHOR_SCHEMA,
   publisher: PUBLISHER_SCHEMA
 };
 ---
@@ -48,7 +47,7 @@ const jsonLd = {
       <p>
         Echo Buddha content is written in original language for this site. Articles and quote stories may draw on
         Buddhist themes such as mindfulness, compassion, patience, impermanence, non-harming, and the path of practice,
-        but they should not copy other publishers or present paraphrase as translation.
+        and they do not copy other publishers or present paraphrase as translation.
       </p>
       <p>
         Current quote pages are original Echo Buddha reflections unless a page clearly says otherwise. The
@@ -81,7 +80,7 @@ const jsonLd = {
       <p>
         When Echo Buddha explains Buddhist teachings, the goal is to use respectful beginner language while pointing
         readers toward reputable source context where appropriate. Traditional texts, translations, commentaries,
-        paraphrases, and Echo Buddha explanations should remain visibly distinct.
+        paraphrases, and Echo Buddha explanations remain visibly distinct.
       </p>
       <p>
         Read <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a> for the source standards
@@ -96,7 +95,7 @@ const jsonLd = {
         final selection, claims, wording, publishing decision, and correction handling.
       </p>
       <p>
-        Echo Buddha should not use automation to fabricate Buddhist sources, invented reviewers, credentials,
+        Echo Buddha does not use automation to fabricate Buddhist sources, invented reviewers, credentials,
         translations, quote origins, medical claims, traffic claims, or AdSense approval claims.
       </p>
 
