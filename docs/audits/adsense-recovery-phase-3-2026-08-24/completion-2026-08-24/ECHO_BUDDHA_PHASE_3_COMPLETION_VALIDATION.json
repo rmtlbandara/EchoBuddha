@@ -1,0 +1,39 @@
+{
+  "validated_at": "2026-08-24T06:36:20.193Z",
+  "status": "PASS",
+  "phase_status": "PASS",
+  "checks_total": 41,
+  "checks_passed": 41,
+  "failures": [],
+  "observed": {
+    "tiers": {
+      "SEO_UNKNOWN": 4,
+      "SEO_P1_HIGH": 32,
+      "SEO_P3_LIMITED": 167,
+      "SEO_P2_EMERGING": 134,
+      "SEO_P0_CRITICAL": 3
+    },
+    "ownership_types": {
+      "PRIMARY_WITH_SUPPORT": 5,
+      "STRONG_SINGLE_OWNER": 321,
+      "UNSTABLE_OWNER": 8,
+      "SHARED_INTENT": 5,
+      "OWNERSHIP_CONFLICT": 2
+    },
+    "inspection_verdicts": {
+      "NEUTRAL": 61,
+      "PASS": 279
+    },
+    "survivor_confidence": {
+      "MEDIUM_CONFIDENCE": 21,
+      "HIGH_CONFIDENCE": 5,
+      "LOW_CONFIDENCE": 8
+    },
+    "readiness": {
+      "HIGH_RISK_REVIEW_REQUIRED": 112,
+      "READY_FOR_SURGICAL_IN_PLACE_IMPROVEMENT": 14,
+      "READY_FOR_CONSOLIDATION_DESIGN": 13,
+      "READY_FOR_NON_DESTRUCTIVE_EVALUATION": 5
+    }
+  }
+}

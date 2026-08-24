@@ -1,0 +1,24 @@
+{
+  "validated_at": "2026-08-24T06:27:11.316Z",
+  "status": "PASS_WITH_PHASE_STATUS_PARTIAL",
+  "phase_status": "PARTIAL",
+  "checks_total": 54,
+  "checks_passed": 54,
+  "failures": [],
+  "observed": {
+    "csv_files": 18,
+    "tier_counts": {
+      "SEO_UNKNOWN": 110,
+      "SEO_P1_HIGH": 26,
+      "SEO_P3_LIMITED": 63,
+      "SEO_P2_EMERGING": 138,
+      "SEO_P0_CRITICAL": 3
+    },
+    "readiness_counts": {
+      "MORE_DATA_REQUIRED": 60,
+      "DO_NOT_CHANGE_YET": 14,
+      "HIGH_RISK_REVIEW_REQUIRED": 70
+    },
+    "required_artifacts": 22
+  }
+}

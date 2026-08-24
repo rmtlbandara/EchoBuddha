@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-08-24T04:48:43.604Z",
+  "source_policy": "Official Google documentation only; no private repository or Search Console data transmitted.",
+  "accessible_count": 9,
+  "source_count": 9,
+  "confirmed_rules": {
+    "query_page_multiple_dimensions_supported": true,
+    "row_limit_maximum": 25000,
+    "start_row_pagination_supported": true,
+    "final_data_state_supported": true,
+    "search_analytics_top_rows_not_exhaustive": true,
+    "query_page_requests_are_high_load": true,
+    "url_inspection_site_quota_qpd": 2000,
+    "url_inspection_site_quota_qpm": 600,
+    "url_inspection_reports_indexed_version_not_live_test": true,
+    "links_report_is_sampled": true
+  },
+  "sources": [
+    {
+      "requested_url": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+      "final_url": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query?hl=de",
+      "status": 200,
+      "accessible": true,
+      "sha256": "1861b34668a78ffe9f66f7fd78f7a99b2ac15ce1b5ae53dbe92075a051e8721f",
+      "bytes": 100054
+    },
+    {
+      "requested_url": "https://developers.google.com/webmaster-tools/limits",
+      "final_url": "https://developers.google.com/webmaster-tools/limits?hl=bn",
+      "status": 200,
+      "accessible": true,
+      "sha256": "d2c54e312b1176c148d0f770a814c4d231a6f17456f7b7f443c4731396d35b33",
+      "bytes": 77430
+    },
+    {
+      "requested_url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect",
+      "final_url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect",
+      "status": 200,
+      "accessible": true,
+      "sha256": "8043e1644f3d23a40952d792c3b109074ecc90bd39a4bb105b8251270fd90e67",
+      "bytes": 72903
+    },
+    {
+      "requested_url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "final_url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "status": 200,
+      "accessible": true,
+      "sha256": "97e59f9a2d84a543e80a4bbd13ce1c68062859855ffb183dd7665c0cf664cf0b",
+      "bytes": 1589587
+    },
+    {
+      "requested_url": "https://support.google.com/webmasters/answer/17011259?hl=en",
+      "final_url": "https://support.google.com/webmasters/answer/17011259?hl=en",
+      "status": 200,
+      "accessible": true,
+      "sha256": "c114b5a6cf1e11eacc5c3d177d7a7d5da851a03a887a200358d13e2f371b97fc",
+      "bytes": 1609338
+    },
+    {
+      "requested_url": "https://support.google.com/webmasters/answer/17011364?hl=en",
+      "final_url": "https://support.google.com/webmasters/answer/17011364?hl=en",
+      "status": 200,
+      "accessible": true,
+      "sha256": "486488f4d1cfe684ec240872ced93c1eb0be27478ddc1780dc6213d5b68effd5",
+      "bytes": 1582336
+    },
+    {
+      "requested_url": "https://support.google.com/webmasters/answer/12919797?hl=en",
+      "final_url": "https://support.google.com/webmasters/answer/12919797?hl=en",
+      "status": 200,
+      "accessible": true,
+      "sha256": "f2b1196c215cc803276a0a82fc77b96cb2848ad2f356a9473f47529e858c14f2",
+      "bytes": 1574877
+    },
+    {
+      "requested_url": "https://support.google.com/webmasters/answer/7440203?hl=en",
+      "final_url": "https://support.google.com/webmasters/answer/7440203?hl=en",
+      "status": 200,
+      "accessible": true,
+      "sha256": "492aca84e3b2185d341e4aa13e221b5d9fe8f1899562230797845297abb09eed",
+      "bytes": 1668559
+    },
+    {
+      "requested_url": "https://support.google.com/webmasters/answer/9049606?hl=en",
+      "final_url": "https://support.google.com/webmasters/answer/9049606?hl=en",
+      "status": 200,
+      "accessible": true,
+      "sha256": "aa1fa2fa1b67037d53d7d2ac7c4ecc6337b9e6b4f92525ee9419a9da38f89199",
+      "bytes": 1603486
+    }
+  ]
+}

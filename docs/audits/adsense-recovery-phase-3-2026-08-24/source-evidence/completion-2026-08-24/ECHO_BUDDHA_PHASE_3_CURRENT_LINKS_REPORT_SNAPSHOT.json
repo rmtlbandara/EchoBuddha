@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-08-24T04:35:07Z",
+  "property": "sc-domain:echobuddha.com",
+  "source": "Authenticated Google Search Console Links UI and immediate XLSX exports",
+  "external_links_total_displayed": 0,
+  "top_linked_pages": "NO_DATA",
+  "top_linking_sites": "NO_DATA",
+  "top_linking_text": "NO_DATA",
+  "classification": "GSC_LINKS_REPORT_RETURNED_NO_USABLE_ROWS",
+  "interpretation": "A current first-party check returned no usable rows. This is not a claim that the site has zero backlinks.",
+  "exports": [
+    {
+      "filename": "echobuddha.com-Latest links-2026-08-24.xlsx",
+      "sha256": "674eb7282ee5b4ee6c4ce65937b75d8c4cd92e71f161e487a8f9a5fdafbe2aac",
+      "sheet": "Table",
+      "header": ["Linking page", "Last crawled"],
+      "data_rows": 0
+    },
+    {
+      "filename": "echobuddha.com-More sample links-2026-08-24.xlsx",
+      "sha256": "483e8f18b6ef835b252d3dabba416a71ae9a8f37e1d137e39b0313a6a93bb8b4",
+      "sheet": "Table",
+      "header": ["Linking page"],
+      "data_rows": 0
+    }
+  ]
+}

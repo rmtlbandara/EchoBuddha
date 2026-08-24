@@ -1,18 +1,38 @@
-# EchoBuddha Content-Family Search Protection
+# EchoBuddha Family Search Protection
 
-Generated: 2026-08-24T04:01:12.853Z
+Generated: 2026-08-24T06:36:19.124Z
 
-| Family | URLs | Clicks | Impressions | Click share | Impression share | P0 | P1 | P2 | P3 | Unknown | Emerging winners |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Articles | 56 | 6 | 1218 | 23.08% | 52.07% | 1 | 9 | 26 | 20 | 0 | 8 |
-| Quotes | 11 | 5 | 491 | 19.23% | 20.99% | 1 | 7 | 3 | 0 | 0 | 4 |
-| Learn | 42 | 1 | 378 | 3.85% | 16.16% | 0 | 4 | 38 | 0 | 0 | 2 |
-| Dictionary | 15 | 1 | 202 | 3.85% | 8.64% | 0 | 3 | 12 | 0 | 0 | 1 |
-| Quote Stories | 153 | 0 | 116 | 0% | 4.96% | 0 | 0 | 26 | 41 | 86 | 0 |
-| Trust / Utility / System | 17 | 0 | 50 | 0% | 2.14% | 0 | 1 | 10 | 1 | 5 | 0 |
-| Reflections | 32 | 1 | 37 | 3.85% | 1.58% | 0 | 1 | 12 | 0 | 19 | 0 |
-| Practice | 11 | 0 | 37 | 0% | 1.58% | 0 | 0 | 10 | 1 | 0 | 0 |
-| Hubs | 2 | 0 | 16 | 0% | 0.68% | 1 | 1 | 0 | 0 | 0 | 0 |
-| Tools | 1 | 0 | 6 | 0% | 0.26% | 0 | 0 | 1 | 0 | 0 | 0 |
+- ABOUT: 1 URLs
+- ADS_AUTHORIZATION: 1 URLs
+- ARTICLE: 50 URLs
+- ARTICLE_CATEGORY: 5 URLs
+- ARTICLE_HUB: 1 URLs
+- AUTHOR: 1 URLs
+- BUDDHISM_101: 20 URLs
+- CONTACT: 1 URLs
+- CORRECTIONS: 1 URLs
+- DAILY_REFLECTION_HUB: 1 URLs
+- DICTIONARY_ENTRY: 14 URLs
+- DICTIONARY_HUB: 1 URLs
+- DISCLAIMER: 1 URLs
+- EDITORIAL_POLICY: 3 URLs
+- ERROR: 1 URLs
+- HOME: 1 URLs
+- LEARN_GUIDE: 21 URLs
+- LEARN_HUB: 1 URLs
+- MEDITATION_GUIDE: 10 URLs
+- MEDITATION_HUB: 1 URLs
+- PRIVACY: 1 URLs
+- QUOTE_CATEGORY: 10 URLs
+- QUOTE_HUB: 1 URLs
+- QUOTE_STORY: 153 URLs
+- REFLECTION: 31 URLs
+- ROBOTS: 1 URLs
+- SEARCH: 1 URLs
+- SOURCE_POLICY: 2 URLs
+- TERMS: 1 URLs
+- TOOL: 1 URLs
+- TOPIC_HUB: 1 URLs
+- XML_SITEMAP: 1 URLs
 
-Page-family metrics use the current 57-day Page export and do not equal property totals where anonymized/aggregated rows are omitted. Query owners and backlinks remain unverified.
+Family labels organize review; they do not authorize redirects, noindex, removal, or rewriting.
