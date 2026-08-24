@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:05:39.995Z",
+  "generatedAt": "2026-08-24T07:10:02.456Z",
   "totalChecks": 26,
   "passed": 26,
   "failed": 0,
@@ -15,7 +15,7 @@
       "area": "Routes",
       "name": "No protected URL disappears without explicit approval",
       "pass": true,
-      "evidence": "0 silent removals"
+      "evidence": "0 silent removals; 2 approved consolidation source(s)"
     },
     {
       "area": "Routes",
@@ -33,13 +33,13 @@
       "area": "Sitemap",
       "name": "Sitemap contains only current indexable self-canonical routes",
       "pass": true,
-      "evidence": "194 valid routes (193 protected baseline + 1 approved additions); 0 noindex/redirect/unknown URLs"
+      "evidence": "192 valid routes (193 protected baseline + 1 approved additions - 2 approved consolidations); 0 noindex/redirect/unknown URLs"
     },
     {
       "area": "Canonical",
       "name": "All public pages retain self canonicals and 404 retains none",
       "pass": true,
-      "evidence": "336 self canonicals; 404 canonical absent"
+      "evidence": "334 self canonicals; 404 canonical absent"
     },
     {
       "area": "Internal links",
@@ -57,7 +57,7 @@
       "area": "Structured data",
       "name": "JSON-LD parses and cannot fabricate people, reviewers or credentials",
       "pass": true,
-      "evidence": "335 blocks; 0 invalid/fabricated trust entities"
+      "evidence": "333 blocks; 0 invalid/fabricated trust entities"
     },
     {
       "area": "Trust",
@@ -75,7 +75,7 @@
       "area": "AdSense",
       "name": "Phase 8 no-runtime and no-manual-slot state is immutable by default",
       "pass": true,
-      "evidence": "0 runtime scripts/slots across 337 pages; exact meta + ads.txt"
+      "evidence": "0 runtime scripts/slots across 335 pages; exact meta + ads.txt"
     },
     {
       "area": "Consent",

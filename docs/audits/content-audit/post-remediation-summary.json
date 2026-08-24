@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-21T07:05:36.439Z",
+  "generatedAt": "2026-08-24T07:09:58.395Z",
   "repositorySafeRemediationDate": "2026-07-21",
   "targetedRemediationPhaseDate": "2026-07-21",
-  "totalHtmlPages": 337,
-  "indexablePages": 194,
+  "totalHtmlPages": 335,
+  "indexablePages": 192,
   "noindexPages": 143,
-  "sitemapUrls": 194,
+  "sitemapUrls": 192,
   "quoteStories": 153,
   "indexableQuoteStories": 43,
   "dailyReflections": 30,
-  "articles": 50,
+  "articles": 48,
   "learningPages": 46,
   "meditationPages": 9,
   "decisionCounts": {
     "Pass": 282,
-    "Minor improvement": 54
+    "Minor improvement": 52
   },
   "quoteOriginPendingItems": 0,
   "sourceVerificationItems": 0,

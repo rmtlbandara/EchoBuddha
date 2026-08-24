@@ -1,0 +1,342 @@
+URL,before state,after branch state,Phase 4 decision,inventory effect,sitemap state,evidence
+https://echobuddha.com/404.html,NEUTRAL: URL is unknown to Google,UNCHANGED,HOLD,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/about/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/buddhist-approach-to-anger/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/buddhist-gratitude-practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/buddhist-teachings-on-impermanence/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/category/buddhist-wisdom/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/category/meditation/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/category/mindfulness/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/category/practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/category/reflection/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/compassion-as-a-daily-discipline/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/compassion-with-boundaries/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/dhamma-vs-dharma/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/dhammapada-reflection-trained-mind/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/dhammapada-reflection-what-we-think/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/dhammapada-verse-1-meaning/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/eightfold-path-explained/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/eightfold-path-explained-daily-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/equanimity-in-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/first-week-buddhist-practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/five-precepts-in-daily-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/four-noble-truths-explained/,NEUTRAL: Crawled - currently not indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/four-noble-truths-explained-simply/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,PASS: Submitted and indexed,INDEXABLE_200_STRENGTHENED_SURVIVOR,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/how-to-meditate-for-anxiety/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/how-to-meditate-for-beginners/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/how-to-practice-non-attachment/,PASS: Submitted and indexed,301_PERMANENT_REDIRECT_SOURCE,MERGE_AND_STRENGTHEN_SURVIVOR,REMOVE_FROM_CANONICAL_CONTENT_INVENTORY,REMOVED,Source route absent from build; redirect present
+https://echobuddha.com/articles/impermanence-in-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/letting-go-without-giving-up/,PASS: Submitted and indexed,301_PERMANENT_REDIRECT_SOURCE,MERGE_AND_STRENGTHEN_SURVIVOR,REMOVE_FROM_CANONICAL_CONTENT_INVENTORY,REMOVED,Source route absent from build; redirect present
+https://echobuddha.com/articles/loving-kindness-meditation-beginners/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/loving-kindness-meditation-guide/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/metta-meditation-script/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/mindful-email-and-texting/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/mindful-listening-in-everyday-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/mindfulness-for-better-sleep/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/mindfulness-morning-routine/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/mindfulness-of-breathing-guide/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/mindfulness-vs-meditation/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/noble-eightfold-path-practical-guide/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/non-attachment-in-relationships/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/right-livelihood-modern-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/right-speech-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/right-speech-examples/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/three-poisons-buddhism-explained/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/three-ways-to-practice-patience/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/walking-meditation-step-by-step/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/what-is-buddhism-beginner-guide/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/what-is-karma-in-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/articles/what-is-sangha-buddhist-community/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/authors/echo-buddha-editorial/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/buddhist-sources-and-citations/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/contact/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/corrections/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/anger-as-a-signal/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/begin-again-without-shame/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/compassion-begins-nearby/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/enough-for-this-moment/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/evening-release/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/family-patience/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/forgiveness-without-approval/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/gratitude-for-change/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/gratitude-notices-enough/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/impermanence-softens-clinging/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/kindness-with-boundaries/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/let-the-feeling-pass/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/letting-go-keeps-care/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/listen-before-answering/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/metta-for-a-difficult-person/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/mindful-work/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/morning-intention/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/notice-before-fixing/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/one-honest-breath/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/one-step-on-the-path/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/patience-before-anger-speaks/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/rest-without-escape/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/see-the-conditions/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/simple-goodwill/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/small-actions-shape-the-mind/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/soften-the-inner-argument/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/speech-can-reduce-suffering/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/the-first-truth-is-kind/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/thoughts-are-visitors/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/today/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/daily-reflections/walking-as-practice/,PASS: Submitted and indexed,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/disclaimer/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/editorial-policy/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/how-echo-buddha-creates-content/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/what-is-impermanence/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/,PASS: Submitted and indexed,UNCHANGED,RETAIN_AND_DIFFERENTIATE,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhism-for-beginners/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/anatta/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/anicca/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/compassion/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/dhamma/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/dukkha/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/karma/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/karuna/,NEUTRAL: URL is unknown to Google,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/metta/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/mindfulness/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/nirvana/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/pali-canon/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/sangha/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/sati/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-dictionary/sutta/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/buddhist-resources/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/dhammapada-reflections/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/,NEUTRAL: Discovered - currently not indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/eightfold-path/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/four-noble-truths/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/questions-about-buddhism/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/,NEUTRAL: Discovered - currently not indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/10-minute-meditation-practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/5-minute-meditation-practice/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/breathing-meditation/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/loving-kindness-meditation/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/meditation-for-beginners/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/meditation-posture-for-beginners/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/mindfulness-in-daily-life/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/walking-meditation/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation/when-meditation-feels-hard/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation-guide/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/meditation-safety/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/mindful-living/,PASS: Submitted and indexed,UNCHANGED,SURGICAL_IN_PLACE_IMPROVEMENT,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/privacy-policy/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quote-attribution-policy/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/acceptance-before-next-step/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/feelings-without-the-wheel/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/one-breath-before-anger-replies/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/thoughts-are-visitors/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/thoughts-pass-without-commanding-you/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/before-judging-another-life-remember-how-much-of-your/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/compassion-sees-pain-clearly/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/gentle-self-compassion/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/kindness-as-quiet-practice/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/loving-kindness-without-harm/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/change-is-how-life-continues/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/meet-change-softly/,NEUTRAL: Discovered - currently not indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/caring-without-clinging/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/forgiveness-without-approving-harm/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/open-hands-non-attachment/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/soften-around-stress/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/where-attachment-begins/,NEUTRAL: Discovered - currently not indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/few-quiet-minutes/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/meditation-is-returning/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/one-honest-breath/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/begin-the-day-with-awareness/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/gratitude-notices-enough/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/ground-yourself-gently/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/listen-before-answering/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/peace-begins-with-attention/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/present-moment-one-step/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/be-patient-with-the-part-of-you-that-is/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/family-kindness-and-patience/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/patience-is-the-strength-to-remain-present-while-life/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/patience-softens-the-wait/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/bring-the-teaching-into-the-place-where-you-are/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/eightfold-path-daily-choices/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/mindfulness-at-work-breath/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/right-intention-turns-the-heart/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/small-actions-shape-the-mind/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/the-path-is-not-far-away-it-is-the/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/practice/your-next-response-is-always-part-of-the-path/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/a-new-direction-can-start-with-one-different-choice/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/begin-again-gently-the-breath-is-always-willing/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/begin-again-without-shame/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/evening-release-reflection/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/gentle-hope-keeps-walking/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/morning-is-not-the-only-time-a-life-can/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/one-calm-morning-intention/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/contentment-with-what-is-here/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/difficult-people-and-boundaries/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/karma-begins-in-intention/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/right-speech-with-kindness/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/understanding-suffering-honestly/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/wisdom-sees-clearly/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/quotes/wisdom/wise-silence/,PASS: Submitted and indexed,UNCHANGED,DEFER_TO_PHASE_5_QUOTES,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/search/,NEUTRAL: Excluded by ‘noindex’ tag,UNCHANGED,NOINDEX_RETAIN_FOR_USERS,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/start-here/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/terms-of-use/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/tools/,PASS: Submitted and indexed,UNCHANGED,RETAIN,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/sitemap.xml/,NEUTRAL: URL is unknown to Google,UNCHANGED,HOLD,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/robots.txt/,NEUTRAL: URL is unknown to Google,UNCHANGED,HOLD,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/ads.txt/,NEUTRAL: URL is unknown to Google,UNCHANGED,HOLD,NONE,PRESERVED_PER_EXISTING_POLICY,Registry and build policy
+https://echobuddha.com/terms-and-conditions/,LEGACY_404,301_PERMANENT_REDIRECT_SOURCE,TECHNICAL_REDIRECT,LEGACY_RECOVERY_ROUTE_ADDED_NO_CANONICAL_PAGE,NOT_PRESENT,GSC exception + git rename history + exact legal target

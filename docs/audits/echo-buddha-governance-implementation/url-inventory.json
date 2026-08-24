@@ -75,7 +75,7 @@
     "title": "Buddhist Gratitude Practice Without Forced Positivity | Echo Buddha",
     "description": "A reflective Buddhist gratitude practice shaped by contentment, generosity, relationship, and impermanence without denying difficulty.",
     "canonical": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
-    "words": 1813,
+    "words": 1821,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -90,7 +90,7 @@
     "title": "Buddhist Teachings on Forgiveness and Letting Go | Echo Buddha",
     "description": "Explore Buddhist-inspired teachings on forgiveness, letting go of resentment, and finding peace without excusing harmful actions.",
     "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
-    "words": 1769,
+    "words": 1779,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -105,7 +105,7 @@
     "title": "Buddhist Teachings on Impermanence | Echo Buddha",
     "description": "Explore Buddhist teachings on impermanence, change, grief, gratitude, and daily ways to practice anicca with care.",
     "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
-    "words": 1674,
+    "words": 1670,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -120,7 +120,7 @@
     "title": "Buddhist Wisdom for Overthinking and a Busy Mind | Echo Buddha",
     "description": "Discover Buddhist-inspired ways to understand overthinking, calm a busy mind, return to the present moment, and respond to thoughts with awareness.",
     "canonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
-    "words": 1782,
+    "words": 1792,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -191,7 +191,7 @@
     "title": "Reflection Articles | Echo Buddha",
     "description": "Read Buddhist-inspired reflections about non-attachment, letting go, change, control, and living with greater freedom.",
     "canonical": "https://echobuddha.com/articles/category/reflection/",
-    "words": 548,
+    "words": 493,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -400,7 +400,7 @@
     "title": "The Four Noble Truths Explained Simply | Echo Buddha",
     "description": "A beginner-friendly explanation of the Four Noble Truths in Buddhism, including suffering, craving, freedom, and the path to a calmer life.",
     "canonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
-    "words": 1848,
+    "words": 1852,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -430,7 +430,7 @@
     "title": "How to Let Go of Attachment in Buddhism | Echo Buddha",
     "description": "Learn what attachment means in Buddhism, why clinging creates suffering, and how to practice letting go with mindfulness, patience, and compassion.",
     "canonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
-    "words": 1886,
+    "words": 2081,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -469,28 +469,13 @@
     ]
   },
   {
-    "path": "/articles/how-to-practice-non-attachment/",
-    "type": "article",
-    "noindex": false,
-    "title": "How to Practice Non-Attachment | Echo Buddha",
-    "description": "Learn how to practice non-attachment in everyday life while still caring deeply, acting wisely, and keeping healthy boundaries.",
-    "canonical": "https://echobuddha.com/articles/how-to-practice-non-attachment/",
-    "words": 1602,
-    "h1Count": 1,
-    "schemaTypes": [
-      "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
-    ]
-  },
-  {
     "path": "/articles/impermanence-in-buddhism/",
     "type": "article",
     "noindex": false,
     "title": "Impermanence in Buddhism: Accepting Change Peacefully | Echo Buddha",
     "description": "A beginner-friendly explanation of impermanence in Buddhism and how understanding change can help with letting go, grief, patience, and daily peace.",
     "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
-    "words": 1866,
+    "words": 1862,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -505,7 +490,7 @@
     "title": "Impermanence in Buddhism and How to Let Go Gently | Echo Buddha",
     "description": "Understand impermanence in Buddhism with gentle examples, common misunderstandings, and a practical reflection exercise.",
     "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
-    "words": 1671,
+    "words": 1670,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -520,27 +505,12 @@
     "title": "Articles and Blog | Echo Buddha",
     "description": "Browse Echo Buddha articles on mindfulness, meditation, compassion, patience, and Buddhist-inspired daily reflection.",
     "canonical": "https://echobuddha.com/articles/",
-    "words": 1782,
+    "words": 1727,
     "h1Count": 1,
     "schemaTypes": [
       "Blog",
       "ItemList",
       "BreadcrumbList"
-    ]
-  },
-  {
-    "path": "/articles/letting-go-without-giving-up/",
-    "type": "article",
-    "noindex": false,
-    "title": "Letting Go Without Giving Up | Echo Buddha",
-    "description": "Learn the difference between letting go and giving up through non-attachment, wise effort, boundaries, and daily reflection.",
-    "canonical": "https://echobuddha.com/articles/letting-go-without-giving-up/",
-    "words": 1618,
-    "h1Count": 1,
-    "schemaTypes": [
-      "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
     ]
   },
   {
@@ -700,7 +670,7 @@
     "title": "Non-Attachment in Relationships Without Becoming Cold | Echo Buddha",
     "description": "Learn how Buddhist non-attachment can support relationships through care, boundaries, impermanence, and less controlling love.",
     "canonical": "https://echobuddha.com/articles/non-attachment-in-relationships/",
-    "words": 1149,
+    "words": 1140,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
@@ -2390,7 +2360,7 @@
     "title": "Mindful Living with Buddhist Wisdom | Echo Buddha",
     "description": "Explore practical Buddhist-inspired mindfulness for daily life, work, speech, relationships, patience, compassion, and letting go.",
     "canonical": "https://echobuddha.com/mindful-living/",
-    "words": 758,
+    "words": 765,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -3117,7 +3087,7 @@
     "title": "Letting Go Buddhist Quote: Caring Without Clinging | Echo Buddha",
     "description": "A letting go Buddhist quote about caring deeply while loosening the need to control outcomes, people, or change.",
     "canonical": "https://echobuddha.com/quotes/letting-go/caring-without-clinging/",
-    "words": 857,
+    "words": 855,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3159,7 +3129,7 @@
     "title": "Original Letting Go Quotes Inspired by Buddhist Practice | Echo Buddha",
     "description": "Original letting go quotes about non-attachment, impermanence, releasing control, caring without clinging, and moving forward peacefully.",
     "canonical": "https://echobuddha.com/quotes/letting-go/",
-    "words": 720,
+    "words": 718,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -4587,7 +4557,7 @@
     "title": "Simple Living Buddhist Quote: Needing Less to See Clearly | Echo Buddha",
     "description": "A simple living Buddhist quote about needing less, clearing space, and seeing what truly matters with a quieter heart.",
     "canonical": "https://echobuddha.com/quotes/wisdom/simplicity-clears-the-room/",
-    "words": 854,
+    "words": 856,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",

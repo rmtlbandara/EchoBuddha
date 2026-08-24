@@ -1,0 +1,4 @@
+source URL,target URL,status,permanent,relevant,source asset absent,target asset exists,one hop,loop free,chain free,internal links to source,validation result
+https://echobuddha.com/articles/how-to-practice-non-attachment/,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,301,YES,EQUIVALENT_CONTENT_INTENT,YES,YES,YES,YES,YES,0_RENDERED,PASS_LOCAL_WRANGLER_HTTP_301_TO_200
+https://echobuddha.com/articles/letting-go-without-giving-up/,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,301,YES,EQUIVALENT_CONTENT_INTENT,YES,YES,YES,YES,YES,0_RENDERED,PASS_LOCAL_WRANGLER_HTTP_301_TO_200
+https://echobuddha.com/terms-and-conditions/,https://echobuddha.com/terms-of-use/,301,YES,EXACT_LEGAL_RENAME,YES,YES,YES,YES,YES,0_RENDERED,PASS_LOCAL_WRANGLER_HTTP_301_TO_200

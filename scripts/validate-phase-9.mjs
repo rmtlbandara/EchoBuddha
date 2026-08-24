@@ -63,6 +63,9 @@ const baseline = JSON.parse(read("governance/release-baseline.json"));
 const pageApprovals = JSON.parse(read("governance/indexable-page-approvals.json")).approvals;
 const changeApprovals = JSON.parse(read("governance/release-change-approvals.json")).changes;
 const approvedNewRoutes = pageApprovals.filter((approval) => approval.status === "Approved").map((approval) => approval.route);
+const approvedRetiredRoutes = changeApprovals
+  .filter((approval) => approval.approved === true && approval.type === "redirect-and-content-consolidation")
+  .map((approval) => approval.target.split(" -> ")[0]);
 const htmlFiles = walk(dist).filter((file) => file.endsWith(".html")).sort();
 const currentRoutes = htmlFiles.map((file) => {
   const route = routeFor(file);
@@ -84,9 +87,10 @@ check("Baseline", "Phase 8 production baseline is exact and complete", () => {
 });
 
 check("Routes", "No protected URL disappears without explicit approval", () => {
-  const removed = baseline.routes.filter((route) => !routeMap.has(route.route) && !approvalFor("remove-url", route.route));
+  const removed = baseline.routes.filter((route) => !routeMap.has(route.route) && !approvalFor("remove-url", route.route) && !approvedRetiredRoutes.includes(route.route));
   assert.deepEqual(removed, []);
-  return "0 silent removals";
+  assert.ok(approvedRetiredRoutes.every((route) => !routeMap.has(route)));
+  return `0 silent removals; ${approvedRetiredRoutes.length} approved consolidation source(s)`;
 });
 
 check("Routes", "Every new indexable URL has complete human approval metadata", () => {
@@ -118,9 +122,10 @@ check("Sitemap", "Sitemap contains only current indexable self-canonical routes"
     return !page || !page.indexable || page.canonical !== `${origin}${route}`;
   });
   assert.deepEqual(failures, []);
-  assert.equal(sitemapRoutes.size, baseline.counts.sitemap + approvedNewRoutes.length);
+  assert.equal(sitemapRoutes.size, baseline.counts.sitemap + approvedNewRoutes.length - approvedRetiredRoutes.length);
   assert.ok(approvedNewRoutes.every((route) => sitemapRoutes.has(route)));
-  return `${sitemapRoutes.size} valid routes (${baseline.counts.sitemap} protected baseline + ${approvedNewRoutes.length} approved additions); 0 noindex/redirect/unknown URLs`;
+  assert.ok(approvedRetiredRoutes.every((route) => !sitemapRoutes.has(route)));
+  return `${sitemapRoutes.size} valid routes (${baseline.counts.sitemap} protected baseline + ${approvedNewRoutes.length} approved additions - ${approvedRetiredRoutes.length} approved consolidations); 0 noindex/redirect/unknown URLs`;
 });
 
 check("Canonical", "All public pages retain self canonicals and 404 retains none", () => {

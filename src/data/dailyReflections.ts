@@ -400,7 +400,7 @@ export const dailyReflections: DailyReflection[] = [
     practice: "Do one task carefully, then let the result be unfinished for a while.",
     journalQuestion: "What outcome am I gripping too tightly?",
     relatedIdea: "Non-attachment",
-    relatedLinks: [coreLinks.lettingGo, { label: "Non-Attachment", href: "/articles/how-to-practice-non-attachment/" }]
+    relatedLinks: [coreLinks.lettingGo, { label: "Non-Attachment", href: "/articles/how-to-let-go-of-attachment-in-buddhism/" }]
   },
   {
     slug: "soften-the-inner-argument",

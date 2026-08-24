@@ -33,17 +33,17 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1206
+    "averageWords": 1200
   },
   "article": {
-    "total": 50,
-    "indexable": 50,
+    "total": 48,
+    "indexable": 48,
     "noindex": 0,
     "decisions": {
-      "Minor improvement": 11,
+      "Minor improvement": 9,
       "Pass": 39
     },
-    "averageWords": 1688
+    "averageWords": 1696
   },
   "articleCategory": {
     "total": 5,
@@ -52,7 +52,7 @@
     "decisions": {
       "Pass": 5
     },
-    "averageWords": 590
+    "averageWords": 579
   },
   "other": {
     "total": 7,

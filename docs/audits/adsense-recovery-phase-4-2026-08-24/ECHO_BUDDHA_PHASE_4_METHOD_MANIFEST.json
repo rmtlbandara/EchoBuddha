@@ -1,0 +1,78 @@
+{
+  "phase": 4,
+  "generated_at": "2026-08-24T07:10:10.404Z",
+  "starting_checkpoint": "2fb776a989aca32da70b8bbdf972a24da8b30fd0",
+  "repository_private_handling": true,
+  "production_modified": false,
+  "adsense_submitted": false,
+  "inventory_rows": 340,
+  "decision_counts": {
+    "DEFER_TO_PHASE_5_QUOTES": 164,
+    "HOLD": 4,
+    "MERGE_AND_STRENGTHEN_SURVIVOR": 2,
+    "NOINDEX_RETAIN_FOR_USERS": 32,
+    "RETAIN": 113,
+    "RETAIN_AND_DIFFERENTIATE": 16,
+    "SURGICAL_IN_PLACE_IMPROVEMENT": 9
+  },
+  "two_pass_gate": {
+    "pass_1": "semantic and intent review",
+    "pass_2": "search/canonical/content-preservation challenge",
+    "approved_destructive_content_changes": 2,
+    "approved_technical_redirects": 1
+  },
+  "quality_rescore": {
+    "survivor": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+    "phase_2_score": 71,
+    "phase_4_score": 78,
+    "framework": "Phase 2 weighted dimensions with conservative gains only for completeness, differentiation, and practical return value",
+    "google_score": false
+  },
+  "guidance_reviewed_2026_08_24": [
+    "https://support.google.com/adsense/answer/10015918",
+    "https://support.google.com/adsense/answer/10502938",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://developers.google.com/search/docs/essentials/spam-policies",
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+    "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "https://developers.google.com/crawling/docs/troubleshooting/http-status-codes",
+    "https://developers.cloudflare.com/workers/vite-plugin/reference/static-assets/"
+  ],
+  "inputs": [
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_SEARCH_PERFORMANCE_PROTECTION_MAP.csv",
+      "sha256": "2e8f92b2d6e49f75c7eb940ca680e688c7797b5ce4b16fc662d990c3d709ca18"
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_SEARCH_MOMENTUM.csv",
+      "sha256": "ecc3c00c09c6fb2a45cfd9975c46b8108d75134983a73adf4bcf3c1db9ac9fd3"
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_CANONICAL_EQUITY_MAP.csv",
+      "sha256": "875846f1a91b2e1e2602ca7445b447d65df0ca063904a1f448f362006732b8d4"
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_PROTECTED_URLS.csv",
+      "sha256": "e64a28d0fb951483f45985aa64562a14188d93ab33b9a832132371c0dcc80c12"
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_FUTURE_URL_MAPPING_PLAN.csv",
+      "sha256": "522252d49f07cf711df24ac54361d02a47f79a2a82f6ff534f7620c1e16a931d"
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_CONSOLIDATION_SURVIVOR_CANDIDATES.csv",
+      "sha256": "6d326ac5b5059582e98fb65db9d1a85effc981e99b748266d0bcc5a7bdc335f5"
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_HIGH_EQUITY_LOW_VALUE_URLS.csv",
+      "sha256": "13e24db3034f0b69b95b80dcdda02e0654308df410bec762bc4c3d5b05b2c876"
+    }
+  ],
+  "limitations": [
+    "No live Search query is used to judge branch changes",
+    "GSC Links no-row evidence is not a zero-backlink claim",
+    "Post-deployment recrawl validation belongs to a separately authorized later release",
+    "Quote ecosystem work is deferred to Phase 5"
+  ]
+}

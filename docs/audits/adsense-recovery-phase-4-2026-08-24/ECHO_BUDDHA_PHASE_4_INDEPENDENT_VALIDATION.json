@@ -1,0 +1,216 @@
+{
+  "phase": 4,
+  "generated_at": "2026-08-24T07:12:10.431Z",
+  "independent_pass": true,
+  "status": "PASS",
+  "summary": {
+    "passed": 37,
+    "failed": 0,
+    "total": 37
+  },
+  "checks": [
+    {
+      "id": "DEC-01",
+      "status": "PASS",
+      "evidence": "340/340 rows"
+    },
+    {
+      "id": "DEC-02",
+      "status": "PASS",
+      "evidence": "340 unique URLs"
+    },
+    {
+      "id": "DEC-03",
+      "status": "PASS",
+      "evidence": "all decisions use the controlled vocabulary"
+    },
+    {
+      "id": "DEC-04",
+      "status": "PASS",
+      "evidence": "two approved source decisions"
+    },
+    {
+      "id": "DEC-05",
+      "status": "PASS",
+      "evidence": "survivor strengthened in place"
+    },
+    {
+      "id": "DEC-06",
+      "status": "PASS",
+      "evidence": "all quote surfaces deferred"
+    },
+    {
+      "id": "DEC-07",
+      "status": "PASS",
+      "evidence": "all SEO-UNKNOWN URLs held"
+    },
+    {
+      "id": "DEC-08",
+      "status": "PASS",
+      "evidence": "no destructive P0 decision"
+    },
+    {
+      "id": "DEC-09",
+      "status": "PASS",
+      "evidence": "P1 URLs preserved except strengthened survivor"
+    },
+    {
+      "id": "MIG-01",
+      "status": "PASS",
+      "evidence": "3/3 migrations"
+    },
+    {
+      "id": "MIG-02",
+      "status": "PASS",
+      "evidence": "all migrations permanent and chain-free"
+    },
+    {
+      "id": "MIG-03",
+      "status": "PASS",
+      "evidence": "9 content decisions; unique elements migrated"
+    },
+    {
+      "id": "RED-01",
+      "status": "PASS",
+      "evidence": "3/3 local 301→200 tests recorded"
+    },
+    {
+      "id": "RED-02",
+      "status": "PASS",
+      "evidence": "article redirect rules exact"
+    },
+    {
+      "id": "RED-03",
+      "status": "PASS",
+      "evidence": "legacy legal redirect exact"
+    },
+    {
+      "id": "RED-04",
+      "status": "PASS",
+      "evidence": "no loops or redirect chains"
+    },
+    {
+      "id": "IDX-01",
+      "status": "PASS",
+      "evidence": "retired sources absent from sitemap"
+    },
+    {
+      "id": "IDX-02",
+      "status": "PASS",
+      "evidence": "survivor present in sitemap"
+    },
+    {
+      "id": "IDX-03",
+      "status": "PASS",
+      "evidence": "retired source assets absent"
+    },
+    {
+      "id": "IDX-04",
+      "status": "PASS",
+      "evidence": "survivor asset exists"
+    },
+    {
+      "id": "IDX-05",
+      "status": "PASS",
+      "evidence": "survivor self-canonical"
+    },
+    {
+      "id": "IDX-06",
+      "status": "PASS",
+      "evidence": "no new noindex; all prior non-indexable rows accounted for"
+    },
+    {
+      "id": "LNK-01",
+      "status": "PASS",
+      "evidence": "zero rendered internal links to retired sources"
+    },
+    {
+      "id": "LNK-02",
+      "status": "PASS",
+      "evidence": "rendered internal links reach final survivor"
+    },
+    {
+      "id": "CON-01",
+      "status": "PASS",
+      "evidence": "retired article route definitions removed"
+    },
+    {
+      "id": "CON-02",
+      "status": "PASS",
+      "evidence": "migrated survivor sections rendered"
+    },
+    {
+      "id": "CON-03",
+      "status": "PASS",
+      "evidence": "substantial survivor review date rendered in visible metadata and schema"
+    },
+    {
+      "id": "CON-04",
+      "status": "PASS",
+      "evidence": "retained differentiation decisions recorded"
+    },
+    {
+      "id": "PRO-01",
+      "status": "PASS",
+      "evidence": "37 protected/changed URLs pass"
+    },
+    {
+      "id": "PRO-02",
+      "status": "PASS",
+      "evidence": "Phase 3 completion 41/41 and original 54/54 checkpoints remain PASS"
+    },
+    {
+      "id": "PRO-03",
+      "status": "PASS",
+      "evidence": "Phase 3 completion independent validation remains 20/20 PASS"
+    },
+    {
+      "id": "PRV-01",
+      "status": "PASS",
+      "evidence": "scoped changed files: 38"
+    },
+    {
+      "id": "PRV-02",
+      "status": "PASS",
+      "evidence": "no OAuth/token path tracked"
+    },
+    {
+      "id": "PRV-03",
+      "status": "PASS",
+      "evidence": "no credential values or JSON secret keys in changed artifacts"
+    },
+    {
+      "id": "PRD-01",
+      "status": "PASS",
+      "evidence": "no production/deployment configuration changed"
+    },
+    {
+      "id": "PRD-02",
+      "status": "PASS",
+      "evidence": "no deployment or AdSense action marker"
+    },
+    {
+      "id": "ART-01",
+      "status": "PASS",
+      "evidence": "13/13 pre-validation artifacts present and non-empty"
+    }
+  ],
+  "production_unchanged": true,
+  "adsense_submission_unchanged": true,
+  "secret_scan": "PASS",
+  "artifact_sha256": {
+    "ECHO_BUDDHA_PHASE_4_CONSOLIDATION_REGISTRY.csv": "fad226f0626248b16099c1dd22172fa14f3026ed571c0e407c5eea5915470a81",
+    "ECHO_BUDDHA_PHASE_4_CLUSTER_DECISIONS.md": "b974271c9b7b8b46d7a88f3cc07ed17a4fcb9e5a85a76838931978885e668844",
+    "ECHO_BUDDHA_PHASE_4_URL_MIGRATION_MAP.csv": "64c5abd3bea69b5b45fcbde09a6fe2269877da686020b5aa7bffe4d84693fbce",
+    "ECHO_BUDDHA_PHASE_4_CONTENT_MIGRATION.csv": "707a021e1f13a7931ba066e588bb701373607604b1e9bc6f8de7409ce8c4501f",
+    "ECHO_BUDDHA_PHASE_4_RETAINED_DIFFERENTIATION.csv": "80add787404e747d4a544ecabf6c7991ada5190ae7c6c3a4eef90e3eb847b429",
+    "ECHO_BUDDHA_PHASE_4_INDEXATION_DECISIONS.csv": "99cd2652b2144b25d10560e3392d4f20be436ff00919855e32afedcdc4dfd862",
+    "ECHO_BUDDHA_PHASE_4_URL_INVENTORY_DIFF.csv": "abd6ab64658609d8837074cc7fb0d8964c11b6c176ae0a6536517c988c2a6df6",
+    "ECHO_BUDDHA_PHASE_4_REDIRECT_VALIDATION.csv": "c40df177edfd7fc3486a29d8045b2f33c666c54debf6f098058e76bb2a0d0224",
+    "ECHO_BUDDHA_PHASE_4_PROTECTED_URL_VALIDATION.csv": "ff5a07b1d7e5b11f829789d340d24caee7034a1a27c649d6d236eaf55eca4c6e",
+    "ECHO_BUDDHA_PHASE_4_SITEMAP_CANONICAL_VALIDATION.md": "3fef1df0271813c7351b503bec6b945af3246c2ab1850425f3c8614e29e9b690",
+    "ECHO_BUDDHA_PHASE_4_ROLLBACK_PLAN.md": "6bc6e4418af568965639b2bfe60dd55244bc3f513359bf5fd9987b39cc3d776d",
+    "ECHO_BUDDHA_PHASE_4_METHOD_MANIFEST.json": "dafd72cb92b4f1031a39fb17ed417923013f5120289de409adc6b297ca814334",
+    "ECHO_BUDDHA_PHASE_4_INVENTORY_CONSOLIDATION_REPORT.md": "0a316fbed05104e7b62aadd1786feb768c815e20c4bafc50dab724283f7d852a"
+  }
+}

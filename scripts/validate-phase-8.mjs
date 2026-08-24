@@ -28,12 +28,16 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => m
 const searchIndex = JSON.parse(read("dist/search-index.json"));
 const releaseBaseline = JSON.parse(read("governance/release-baseline.json"));
 const indexableApprovals = JSON.parse(read("governance/indexable-page-approvals.json"));
+const releaseChanges = JSON.parse(read("governance/release-change-approvals.json"));
 const approvedRoutes = indexableApprovals.approvals
   .filter((approval) => approval.status === "Approved")
   .map((approval) => approval.route);
-const expectedHtmlCount = releaseBaseline.counts.html + approvedRoutes.length;
-const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length;
-const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length;
+const retiredRoutes = releaseChanges.changes
+  .filter((change) => change.approved && change.type === "redirect-and-content-consolidation")
+  .map((change) => change.target.split(" -> ")[0]);
+const expectedHtmlCount = releaseBaseline.counts.html + approvedRoutes.length - retiredRoutes.length;
+const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length - retiredRoutes.length;
+const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length - retiredRoutes.length;
 const builtRoutes = new Set(htmlFiles.map((file) => {
   const relative = path.relative(path.join(root, "dist"), file).split(path.sep).join("/");
   if (relative === "index.html") return "/";
@@ -46,18 +50,21 @@ const searchRoutes = new Set(searchIndex.map((entry) => entry.url));
 check("Build", "Protected route count", () => {
   assert.equal(htmlFiles.length, expectedHtmlCount);
   assert.ok(approvedRoutes.every((route) => builtRoutes.has(route)));
-  return `${htmlFiles.length} HTML pages (${releaseBaseline.counts.html} protected baseline + ${approvedRoutes.length} approved additions)`;
+  assert.ok(retiredRoutes.every((route) => !builtRoutes.has(route)));
+  return `${htmlFiles.length} HTML pages (${releaseBaseline.counts.html} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations)`;
 });
 check("Sitemap", "Protected sitemap count and canonical host", () => {
   assert.equal(sitemapUrls.length, expectedSitemapCount);
   assert.ok(sitemapUrls.every((url) => url.startsWith("https://echobuddha.com/")));
   assert.ok(approvedRoutes.every((route) => sitemapRoutes.has(route)));
-  return `${sitemapUrls.length} canonical URLs (${releaseBaseline.counts.sitemap} protected baseline + ${approvedRoutes.length} approved additions)`;
+  assert.ok(retiredRoutes.every((route) => !sitemapRoutes.has(route)));
+  return `${sitemapUrls.length} canonical URLs (${releaseBaseline.counts.sitemap} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations)`;
 });
 check("Search", "Protected search index count", () => {
   assert.equal(searchIndex.length, expectedSearchCount);
   assert.ok(approvedRoutes.every((route) => searchRoutes.has(route)));
-  return `${searchIndex.length} search records (${releaseBaseline.counts.search} protected baseline + ${approvedRoutes.length} approved additions)`;
+  assert.ok(retiredRoutes.every((route) => !searchRoutes.has(route)));
+  return `${searchIndex.length} search records (${releaseBaseline.counts.search} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations)`;
 });
 check("Canonical", "Every HTML document has at most one canonical", () => {
   const failures = htmlFiles.filter((file, index) => (html[index].match(/rel="canonical"/g) || []).length > 1);
@@ -119,10 +126,16 @@ check("Preview", "workers.dev is protected from indexing", () => {
   assert.match(read("public/_headers"), /workers\.dev\/\*[\s\S]*X-Robots-Tag: noindex, nofollow/);
   return "X-Robots-Tag noindex, nofollow";
 });
-check("Redirects", "No invalid static hostname redirect file is emitted", () => {
-  assert.equal(fs.existsSync(path.join(root, "public/_redirects")), false);
-  assert.equal(fs.existsSync(path.join(root, "dist/_redirects")), false);
-  return "canonical hostname redirects remain verified Cloudflare dashboard/DNS behavior";
+check("Redirects", "Only approved permanent content and legacy redirects are emitted", () => {
+  const expected = [
+    "/articles/how-to-practice-non-attachment/ /articles/how-to-let-go-of-attachment-in-buddhism/ 301",
+    "/articles/letting-go-without-giving-up/ /articles/how-to-let-go-of-attachment-in-buddhism/ 301",
+    "/terms-and-conditions/ /terms-of-use/ 301"
+  ];
+  const normalize = (content) => content.split("\n").map((line) => line.trim()).filter((line) => line && !line.startsWith("#"));
+  assert.deepEqual(normalize(read("public/_redirects")), expected);
+  assert.deepEqual(normalize(read("dist/_redirects")), expected);
+  return "3/3 approved permanent one-hop redirects; no hostname rule added";
 });
 check("Exposure", "No source maps or private dotfiles are emitted", () => {
   const emitted = walk(path.join(root, "dist"));

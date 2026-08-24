@@ -9,6 +9,30 @@
       "reason": "Register the approved Source Literacy topic role for the new how-to-read-a-sutta page without changing any existing topic owner.",
       "owner": "Echo Buddha project owner via the 2026-08-21 growth-preserving expansion request",
       "date": "2026-08-21"
+    },
+    {
+      "type": "redirect-and-content-consolidation",
+      "target": "/articles/how-to-practice-non-attachment/ -> /articles/how-to-let-go-of-attachment-in-buddhism/",
+      "approved": true,
+      "reason": "Phase 4 human-quality review found equivalent attachment/non-attachment intent; unique practice material is migrated to the stronger P1 survivor before the permanent redirect.",
+      "owner": "Echo Buddha project owner via the 2026-08-24 Phase 4 inventory consolidation request",
+      "date": "2026-08-24"
+    },
+    {
+      "type": "redirect-and-content-consolidation",
+      "target": "/articles/letting-go-without-giving-up/ -> /articles/how-to-let-go-of-attachment-in-buddhism/",
+      "approved": true,
+      "reason": "Phase 4 human-quality review found equivalent letting-go intent; unique wise-effort and release material is migrated to the stronger P1 survivor before the permanent redirect.",
+      "owner": "Echo Buddha project owner via the 2026-08-24 Phase 4 inventory consolidation request",
+      "date": "2026-08-24"
+    },
+    {
+      "type": "technical-redirect",
+      "target": "/terms-and-conditions/ -> /terms-of-use/",
+      "approved": true,
+      "reason": "Restore the exact legacy legal-route migration identified by GSC and git history with a relevant permanent one-hop redirect.",
+      "owner": "Echo Buddha project owner via the 2026-08-24 Phase 4 inventory consolidation request",
+      "date": "2026-08-24"
     }
   ]
 }

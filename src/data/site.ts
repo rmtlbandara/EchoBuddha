@@ -935,7 +935,7 @@ export const quotes: Quote[] = [
         {
           "heading": "How This Applies in Daily Life",
           "paragraphs": [
-            "Letting go is one of the most misunderstood parts of Buddhist-inspired practice. It does not ask us to stop caring. It asks us to notice where care has turned into clinging. We can do our part, speak honestly, prepare carefully, and still release the outcome to changing conditions. Related articles include <a href=\"/articles/letting-go-without-giving-up/\">letting go without giving up</a> and <a href=\"/articles/how-to-practice-non-attachment/\">how to practice non-attachment</a>. Open-handed care is often steadier than anxious control."
+            "Letting go is one of the most misunderstood parts of Buddhist-inspired practice. It does not ask us to stop caring. It asks us to notice where care has turned into clinging. We can do our part, speak honestly, prepare carefully, and still release the outcome to changing conditions. The guide to <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">attachment and non-attachment in Buddhism</a> develops this practice. Open-handed care is often steadier than anxious control."
           ]
         },
         {
@@ -1400,7 +1400,7 @@ export const quotes: Quote[] = [
         {
           "heading": "How This Applies in Daily Life",
           "paragraphs": [
-            "Simple living in a Buddhist-inspired sense is not about rejecting beauty or comfort. It is about seeing how craving, comparison, and accumulation can cloud the mind. Simplicity may mean owning less, scheduling less, speaking less, or wanting less from a moment than it can give. It supports wisdom because attention is no longer scattered across so many demands. Readers may also appreciate <a href=\"/articles/how-to-practice-non-attachment/\">how to practice non-attachment</a>. The heart often hears more clearly when life is not overcrowded."
+            "Simple living in a Buddhist-inspired sense is not about rejecting beauty or comfort. It is about seeing how craving, comparison, and accumulation can cloud the mind. Simplicity may mean owning less, scheduling less, speaking less, or wanting less from a moment than it can give. It supports wisdom because attention is no longer scattered across so many demands. Readers may also appreciate the guide to <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">attachment and non-attachment</a>. The heart often hears more clearly when life is not overcrowded."
           ]
         },
         {
@@ -2702,7 +2702,7 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/how-to-practice-non-attachment.webp",
     imageAlt: "Open hands and a quiet path for non-attachment in relationships",
     tags: ["non-attachment", "relationships", "letting go"],
-    relatedSlugs: ["how-to-let-go-of-attachment-in-buddhism", "how-to-practice-non-attachment", "letting-go-without-giving-up"],
+    relatedSlugs: ["how-to-let-go-of-attachment-in-buddhism", "impermanence-in-buddhism", "compassion-with-boundaries"],
     content: [
       {
         paragraphs: [
@@ -3078,7 +3078,7 @@ export const articles: Article[] = [
     imageAlt: "Falling leaves beside a quiet bowl representing impermanence and gentle letting go",
     featured: true,
     tags: ["impermanence", "letting go", "Buddhist wisdom"],
-    relatedSlugs: ["buddhist-teachings-on-impermanence", "how-to-let-go-of-attachment-in-buddhism", "letting-go-without-giving-up"],
+    relatedSlugs: ["buddhist-teachings-on-impermanence", "how-to-let-go-of-attachment-in-buddhism", "non-attachment-in-relationships"],
     content: [
       {
         paragraphs: [
@@ -3104,7 +3104,7 @@ export const articles: Article[] = [
         heading: "Letting Go Is Not Rejection",
         paragraphs: [
           "Letting go is sometimes misunderstood as indifference. In Buddhist practice, letting go means releasing the extra clinging that turns love into control and preference into demand. A parent can love a child deeply while accepting that the child changes. A person can enjoy success without building identity entirely on it.",
-          "For a related angle, read <a href=\"/articles/letting-go-without-giving-up/\">letting go without giving up</a>. Gentle release can coexist with responsibility."
+          "For a related angle, read <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">how to let go of attachment in Buddhism</a>. Gentle release can coexist with responsibility."
         ]
       },
       {
@@ -4029,54 +4029,6 @@ export const articles: Article[] = [
     ]
   },
   {
-    slug: "how-to-practice-non-attachment",
-    title: "How to Practice Non-Attachment in Everyday Life",
-    description: "Learn what Buddhist non-attachment means and how to care deeply without clinging to people, plans, or outcomes.",
-    date: "2026-06-15",
-    author: SITE.author,
-    category: "Reflection",
-    readTime: "8 min read",
-    thumbnail: "/images/articles/how-to-practice-non-attachment.webp",
-    imageAlt: "An open hand beneath a floating leaf, representing care without clinging",
-    tags: ["non-attachment", "letting go", "Buddhist wisdom for daily life"],
-    content: [
-      {
-        paragraphs: [
-          "Non-attachment is one of the most misunderstood ideas associated with Buddhism. It can sound like emotional distance, a refusal to commit, or a strategy for avoiding grief. In practice, non-attachment is not the absence of love. It is the absence of the demand that what we love must never change.",
-          "We can care deeply, make plans, and work wholeheartedly. The daily question is whether care remains flexible and responsive, or hardens into control over people, possessions, roles, and outcomes."
-        ]
-      },
-      {
-        heading: "Learn to Recognize Clinging",
-        paragraphs: [
-          "Clinging often has a particular inner texture: tightness, repetition, bargaining, and the belief that peace depends on one outcome. It may gather around a relationship, an opinion, a possession, a role, or an image of the future.",
-          "When you notice that texture, pause before trying to get rid of it. Ask what you are afraid would happen if life did not follow the preferred script."
-        ]
-      },
-      {
-        heading: "Separate Commitment From Control",
-        paragraphs: [
-          "A gardener can water, weed, and protect a seedling, but cannot order it to grow on schedule. In the same way, wise effort attends carefully to causes and conditions while accepting that results are never entirely ours.",
-          "At work or in relationships, focus on the action available now: prepare honestly, listen closely, speak clearly, or repair a mistake. With possessions, care for what you use without turning it into proof of who you are. Let the future be influenced by your effort without pretending it can be owned."
-        ]
-      },
-      {
-        heading: "Hold Identity More Lightly",
-        paragraphs: [
-          "Attachment also forms around stories about who we are: the successful one, the helpful one, the person who never fails. These identities may guide us for a time, but they become painful when life asks us to change.",
-          "Try replacing \"this is who I am\" with \"this is a pattern or role present in my life right now.\" The softer language leaves room for learning."
-        ]
-      },
-      {
-        heading: "Practice Appreciation Instead of Possession",
-        paragraphs: [
-          "Spend a moment appreciating someone or something without mentally claiming it. Notice its qualities, its changing nature, and the conditions that brought it into your life. Let appreciation be active care rather than ownership.",
-          "Non-attachment does not make the heart smaller. It can make love more generous because attention is no longer consumed by fear and control. We care for what is here, make repeated choices that match our values, respond when change comes, and keep learning how to release the grip."
-        ]
-      }
-    ]
-  },
-  {
     slug: "beginning-a-daily-mindfulness-practice",
     title: "Beginning a Daily Mindfulness Practice",
     description: "A simple, respectful way to start a daily mindfulness habit with breath, attention, and patience.",
@@ -4170,55 +4122,6 @@ export const articles: Article[] = [
         paragraphs: [
           "Compassion becomes especially important when values conflict. Begin by describing the specific behavior or decision rather than attacking the other person's entire character. Listen for what matters beneath the position while remaining honest about your own concern.",
           "A compassionate disagreement may still be uncomfortable. Its measure is not whether everyone feels pleased, but whether truth and boundaries can be expressed without deliberately increasing humiliation or hatred."
-        ]
-      }
-    ]
-  },
-  {
-    slug: "letting-go-without-giving-up",
-    title: "Letting Go Without Giving Up",
-    description: "A gentle look at non-attachment, effort, and how to release what creates unnecessary suffering.",
-    date: "2026-04-27",
-    author: SITE.author,
-    category: "Reflection",
-    readTime: "7 min read",
-    thumbnail: "/images/articles/letting-go-without-giving-up.webp",
-    imageAlt: "Minimal circle and horizon artwork representing release and clarity",
-    featured: true,
-    tags: ["letting go", "non-attachment", "reflection"],
-    content: [
-      {
-        paragraphs: [
-          "Letting go is often misunderstood as becoming passive or indifferent. In Buddhist reflection, letting go means releasing the extra grasping that turns sincere effort into suffering.",
-          "We can care deeply, keep responsibility, and still loosen the demand that life obey our preferences. This is not coldness. It is wise effort without the fantasy of total control."
-        ]
-      },
-      {
-        heading: "Notice the Grip",
-        paragraphs: [
-          "The first step is to notice where the mind tightens. It may tighten around an outcome, an identity, a memory, or the need to be right.",
-          "There is no need to force release immediately. Simply seeing the grip clearly already changes the relationship to it."
-        ]
-      },
-      {
-        heading: "Keep the Wise Effort",
-        paragraphs: [
-          "Letting go does not mean abandoning responsibility. We can make plans, care for others, work carefully, speak honestly, repair harm, and hold boundaries. The release is in giving up the illusion of total control.",
-          "Wise effort does what can be done today. Attachment insists that peace must wait until everything goes exactly as imagined. Letting go keeps the next right action and releases the demand that the outcome be guaranteed."
-        ]
-      },
-      {
-        heading: "Return to What Is Real",
-        paragraphs: [
-          "The breath, the body, the next kind action, and the present conversation are all doorways back to reality. They help us leave the story of control and meet the life that is actually happening.",
-          "When the heart lets go even a little, there is more room for patience, humor, and compassion."
-        ]
-      },
-      {
-        heading: "Let Go in Small, Concrete Ways",
-        paragraphs: [
-          "Choose one small place where grasping is visible. It may be repeatedly checking for a reply after you have sent a clear message, rehearsing an old conversation after making an apology, or insisting that a plan unfold in only one acceptable way. Set a gentle boundary around the habit for a day.",
-          "Use the freed attention for something present and useful: rest, a direct conversation, careful work, or time with another person. Letting go becomes understandable when it is practiced as a concrete shift of attention and energy while wise effort continues."
         ]
       }
     ]
@@ -4475,7 +4378,7 @@ export const articles: Article[] = [
     relatedSlugs: [
       "buddhism-for-beginners-simple-guide",
       "eightfold-path-explained-daily-life",
-      "how-to-practice-non-attachment"
+      "how-to-let-go-of-attachment-in-buddhism"
     ],
     content: [
       {
@@ -4503,7 +4406,7 @@ export const articles: Article[] = [
         heading: "Second Noble Truth: Craving Feeds Suffering",
         paragraphs: [
           "The second truth points to craving, often called tanha. We crave pleasant experience, crave escape from unpleasant experience, and crave a stable identity that cannot be threatened. The problem is not having preferences. It is the tight demand that reality obey them before we can be at peace.",
-          "Suppose a friend does not answer a message. The silence may be inconvenient, but the mind quickly adds stories: they are angry, I am unimportant, this relationship is failing. Soon we are suffering not only from uncertainty but from the attempt to force certainty. <a href=\"/articles/how-to-practice-non-attachment/\">Non-attachment</a> helps distinguish care from that tightening grip."
+          "Suppose a friend does not answer a message. The silence may be inconvenient, but the mind quickly adds stories: they are angry, I am unimportant, this relationship is failing. Soon we are suffering not only from uncertainty but from the attempt to force certainty. <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">Non-attachment</a> helps distinguish care from that tightening grip."
         ]
       },
       {
@@ -4664,7 +4567,7 @@ export const articles: Article[] = [
     tags: ["Buddhist forgiveness", "Buddhist teachings on forgiveness", "letting go of resentment", "compassion and boundaries"],
     relatedSlugs: [
       "buddhist-approach-to-anger",
-      "letting-go-without-giving-up",
+      "how-to-let-go-of-attachment-in-buddhism",
       "compassion-as-a-daily-discipline"
     ],
     content: [
@@ -4728,7 +4631,7 @@ export const articles: Article[] = [
         heading: "How to Practice This in Daily Life",
         paragraphs: [
           "Separate three questions on paper: What happened? What boundary or repair is needed now? What part of the resentment am I ready to stop feeding today? The answers may be different. This separation prevents inner release from being confused with unsafe reconciliation.",
-          "When replay begins, choose one grounding action and one useful action. Grounding might be walking or breathing. Useful action might be speaking with a counselor, documenting an issue, or asking for a clear conversation. Read <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a> for more on releasing control while keeping wise effort."
+          "When replay begins, choose one grounding action and one useful action. Grounding might be walking or breathing. Useful action might be speaking with a counselor, documenting an issue, or asking for a clear conversation. Read <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a> for more on releasing control while keeping wise effort."
         ]
       },
       {
@@ -4944,15 +4847,13 @@ export const articles: Article[] = [
     date: "2026-06-26",
     author: SITE.author,
     category: "Reflection",
-    readTime: "9 min read",
+    readTime: "11 min read",
     thumbnail: "/images/articles/how-to-let-go-of-attachment-in-buddhism.webp",
     imageAlt: "An open hand releasing a small leaf, symbolizing letting go of attachment with care",
     featured: true,
     tags: ["buddhist attachment", "how to let go of attachment", "letting go", "non-attachment", "mindfulness"],
     relatedSlugs: [
       "non-attachment-in-relationships",
-      "how-to-practice-non-attachment",
-      "letting-go-without-giving-up",
       "impermanence-in-buddhism"
     ],
     content: [
@@ -4987,8 +4888,9 @@ export const articles: Article[] = [
       {
         heading: "Letting Go Is Not Giving Up",
         paragraphs: [
-          "A common fear is that letting go means abandoning effort. In Buddhist practice, letting go releases the demand for total control while keeping wise action. You can prepare for an interview, speak honestly in a relationship, or care for your health without pretending you control every result.",
-          "The difference is felt in the body. Clinging often feels tight, urgent, and repetitive. Wise effort feels steadier, even when the situation matters. If this distinction is difficult, <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a> explores the balance between release and responsibility."
+          "A common fear is that letting go means abandoning effort. In Buddhist practice, letting go releases the demand for total control while keeping wise action. You can prepare for an interview, speak honestly in a relationship, care for your health, repair harm, and hold boundaries without pretending you control every result.",
+          "A gardener can water, weed, and protect a seedling, but cannot order it to grow on schedule. Wise effort works carefully with causes and conditions. Attachment insists that peace must wait until everything unfolds exactly as imagined.",
+          "The difference is often felt in the body. Clinging can feel tight, urgent, and repetitive. Wise effort feels steadier, even when the situation matters: it keeps the next responsible action and releases the demand that the outcome be guaranteed."
         ]
       },
       {
@@ -5002,7 +4904,22 @@ export const articles: Article[] = [
         heading: "How to Practice This in Daily Life",
         paragraphs: [
           "Begin with one attachment that is small enough to study. Notice what triggers it. Is it praise, control, certainty, comfort, being right, or being needed? Then notice the body. Is there tightening in the chest, leaning forward, shallow breathing, or repeated checking?",
-          "Practice softening one step. Put the phone down for five minutes. Let someone finish speaking without correcting them. Do the work and release the need to be admired. Say quietly, “I can care without clinging.” Pair this with <a href=\"/articles/how-to-practice-non-attachment/\">How to Practice Non-Attachment</a> for a wider daily practice."
+          "Practice softening one step. Put the phone down for five minutes. Let someone finish speaking without correcting them. Do the work and release the need to be admired. Say quietly, “I can care without clinging.”",
+          "Attachment also forms around identity: the successful one, the helpful one, or the person who never fails. Try replacing “this is who I am” with “this is a role or pattern present right now.” The softer language keeps commitment while leaving room to learn and change."
+        ]
+      },
+      {
+        heading: "Practice Appreciation Instead of Possession",
+        paragraphs: [
+          "Spend a moment appreciating someone or something without mentally claiming it. Notice its qualities, its changing nature, and the conditions that brought it into your life. Let appreciation become active care rather than ownership.",
+          "Choose one small place where grasping is visible: repeatedly checking for a reply, replaying a conversation after making a repair, or insisting that a plan has only one acceptable outcome. Set a gentle boundary around the habit for a day, then use the freed attention for something present and useful."
+        ]
+      },
+      {
+        heading: "A Mine-to-Do and Not-Mine-to-Force Exercise",
+        paragraphs: [
+          "Write one sentence for the next honest action that belongs to you, and a second sentence for the outcome that depends on wider conditions. Take the available action, then practice releasing the second sentence for one breath at a time.",
+          "This is not resignation. If a boundary, repair, request for help, or practical plan is needed, keep it. The exercise releases the attempt to command timing, approval, certainty, or another person's response after wise effort has been made."
         ]
       },
       {
@@ -5132,7 +5049,7 @@ export const articles: Article[] = [
     relatedSlugs: [
       "how-to-meditate-for-anxiety",
       "beginning-a-daily-mindfulness-practice",
-      "letting-go-without-giving-up"
+      "how-to-let-go-of-attachment-in-buddhism"
     ],
     content: [
       {
@@ -5174,7 +5091,7 @@ export const articles: Article[] = [
         heading: "Let Thoughts Pass Without Building a Home for Them",
         paragraphs: [
           "A thought may appear: “I ruined everything.” The overthinking mind begins gathering evidence. A mindful response notices the thought and asks, “Is this the full truth, or a frightened interpretation?” That question does not deny responsibility. It prevents one thought from becoming an identity.",
-          "Letting thoughts pass does not mean ignoring practical problems. If action is needed, take action. Send the apology, make the plan, ask the question, rest, or seek support. After the useful action is chosen, practice releasing the extra replay. <a href=\"/articles/letting-go-without-giving-up/\">Letting Go Without Giving Up</a> is helpful here."
+          "Letting thoughts pass does not mean ignoring practical problems. If action is needed, take action. Send the apology, make the plan, ask the question, rest, or seek support. After the useful action is chosen, practice releasing the extra replay. <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a> is helpful here."
         ]
       },
       {
@@ -5216,7 +5133,7 @@ export const articles: Article[] = [
     relatedSlugs: [
       "buddhist-teachings-on-impermanence",
       "how-to-let-go-of-attachment-in-buddhism",
-      "letting-go-without-giving-up"
+      "non-attachment-in-relationships"
     ],
     content: [
       {
@@ -5714,7 +5631,7 @@ export const articles: Article[] = [
     thumbnail: "/images/articles/buddhist-gratitude-practice.svg",
     imageAlt: "Open hands receiving and releasing a leaf with a small warm light",
     tags: ["gratitude practice", "Buddhist reflection", "contentment", "non-attachment"],
-    relatedSlugs: ["impermanence-in-buddhism", "how-to-practice-non-attachment", "compassion-as-a-daily-discipline"],
+    relatedSlugs: ["impermanence-in-buddhism", "how-to-let-go-of-attachment-in-buddhism", "compassion-as-a-daily-discipline"],
     content: [
       {
         paragraphs: [
@@ -5743,7 +5660,7 @@ export const articles: Article[] = [
         heading: "Appreciation Without Ownership",
         paragraphs: [
           "Impermanence deepens gratitude because it reveals that what is received cannot be held still. A healthy body, a friendship, a season of work, a quiet morning, a teacher, a home, or a shared joke becomes more vivid when it is not treated as guaranteed. For a broader explanation, read <a href=\"/articles/impermanence-in-buddhism/\">Impermanence in Buddhism</a>.",
-          "This is where gratitude and non-attachment meet. Non-attachment does not say, 'Do not love this.' It says, 'Do not crush this by trying to own what changes.' The article on <a href=\"/articles/how-to-practice-non-attachment/\">how to practice non-attachment</a> explores that wider relationship.",
+          "This is where gratitude and non-attachment meet. Non-attachment does not say, 'Do not love this.' It says, 'Do not crush this by trying to own what changes.' The article on <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">how to let go of attachment in Buddhism</a> explores that wider relationship.",
           "A grateful person may therefore become more careful, not more clingy. Knowing that a friendship is changing can encourage a timely apology. Knowing that a body is not guaranteed can encourage rest and care. Knowing that a home depends on many conditions can encourage generosity toward those who make it possible."
         ]
       },
@@ -6232,7 +6149,7 @@ const week2ArticleUpgrades: Record<string, ArticleWeek2Upgrade> = {
     relatedSlugs: [
       "impermanence-in-buddhism",
       "how-to-let-go-of-attachment-in-buddhism",
-      "letting-go-without-giving-up"
+      "non-attachment-in-relationships"
     ],
     appendContent: [
       {
@@ -8205,7 +8122,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "how-to-let-go-of-attachment-in-buddhism": {
-    reviewedDate: "2026-06-26",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Buddhist attachment means clinging, not ordinary love or care.",
       "Attachment creates suffering when preference, craving, and clinging become demands for control or permanence.",
