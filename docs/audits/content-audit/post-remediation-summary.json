@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:58:02.767Z",
+  "generatedAt": "2026-08-24T08:36:53.666Z",
   "repositorySafeRemediationDate": "2026-07-21",
   "targetedRemediationPhaseDate": "2026-07-21",
   "totalHtmlPages": 335,
@@ -13,8 +13,8 @@
   "learningPages": 46,
   "meditationPages": 9,
   "decisionCounts": {
-    "Pass": 325,
-    "Minor improvement": 9
+    "Pass": 326,
+    "Minor improvement": 8
   },
   "quoteOriginPendingItems": 0,
   "sourceVerificationItems": 0,

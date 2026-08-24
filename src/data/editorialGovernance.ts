@@ -858,6 +858,16 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Dhammatalks: SN 45.8",
       href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
       note: "Primary-text reference for the Noble Eightfold Path structure."
+    },
+    {
+      label: "SuttaCentral: MN 44",
+      href: "https://suttacentral.net/mn44/en/sujato",
+      note: "Primary-text reference for grouping the path factors within ethics, immersion, and wisdom."
+    },
+    {
+      label: "Bhikkhu Bodhi: The Noble Eightfold Path",
+      href: "https://www.accesstoinsight.org/lib/authors/bodhi/waytoend.html",
+      note: "Detailed study reference for how the eight factors cooperate rather than form a rigid one-pass checklist."
     }
   ],
   "/articles/right-speech-examples/": [
@@ -981,6 +991,16 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Study reference for compassion and equanimity as related heart qualities; modern boundary applications remain Echo Buddha editorial guidance."
     },
     {
+      label: "SuttaCentral: SN 46.54",
+      href: "https://suttacentral.net/sn46.54/en/bodhi",
+      note: "Primary-text reference for cultivating compassion together with mindfulness, investigation, energy, calm, immersion, and equanimity."
+    },
+    {
+      label: "Tricycle: Healthy Boundaries",
+      href: "https://tricycle.org/magazine/healthy-boundaries/",
+      note: "Modern Buddhist discussion used to benchmark the application of compassion to boundaries; it is not treated as a canonical source."
+    },
+    {
       label: "Buddhist Sources and Citations",
       href: `${SITE.url}/buddhist-sources-and-citations/`,
       note: "Echo Buddha source and paraphrase standards for Buddhist teaching pages."
@@ -996,6 +1016,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Dhammatalks: SN 45.8",
       href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
       note: "Primary-text reference for the Noble Eightfold Path context that includes Right Speech."
+    },
+    {
+      label: "Access to Insight: MN 58",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.058.than.html",
+      note: "Primary-text reference for distinguishing truth, benefit, agreeability, and proper timing in speech."
     }
   ],
   "/articles/mindful-email-and-texting/": [
@@ -1015,6 +1040,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Dhammapada I",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
       note: "Traditional Dhammapada chapter source for mind-leading themes; article wording remains original reflection."
+    },
+    {
+      label: "SuttaCentral: Dhammapada translation introduction",
+      href: "https://suttacentral.net/edition/dhp/en/sujato/introduction",
+      note: "Translation-method reference supporting the distinction between a sourced translation, a popular paraphrase, and editorial reflection."
     }
   ],
   "/articles/dhammapada-verse-1-meaning/": [
@@ -1113,6 +1143,23 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Dhammatalks: SN 45.8",
       href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
       note: "Primary-text reference for the Noble Eightfold Path context often included when explaining Dhamma as practice."
+    },
+    {
+      label: "Tricycle: What's in a Word? Dharma",
+      href: "https://tricycle.org/magazine/dharma-meaning/",
+      note: "Secondary Buddhist reference used to benchmark the term's broad semantic range across contexts."
+    }
+  ],
+  "/articles/buddhist-wisdom-for-overthinking/": [
+    {
+      label: "SuttaCentral: MN 18",
+      href: "https://suttacentral.net/mn18/en/sujato",
+      note: "Primary-text reference for papañca and the movement from perception and thought toward proliferating categories and conflict."
+    },
+    {
+      label: "Dhammatalks: The Arrows of Thinking",
+      href: "https://www.dhammatalks.org/books/BeyondAllDirections/Section0013.html",
+      note: "Study reference for why papañca should not be reduced to the amount of thinking or treated as a simple synonym for modern overthinking."
     }
   ]
 };

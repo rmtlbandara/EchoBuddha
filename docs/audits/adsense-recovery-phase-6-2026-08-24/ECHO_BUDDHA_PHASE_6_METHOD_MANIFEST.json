@@ -1,0 +1,53 @@
+{
+  "phase": 6,
+  "status": "PASS",
+  "audit_date": "2026-08-24",
+  "scope": "Upgrade evidence-selected cornerstone content in place; do not begin Phase 7",
+  "starting_checkpoint": "39b90e885b353cce7f3b304e99812bcf253d8ab9",
+  "inputs": {
+    "phase_2_scores": "docs/audits/adsense-recovery-phase-2-2026-08-24/ECHO_BUDDHA_URL_VALUE_SCORES.csv",
+    "phase_3_protection": "docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_SEO_GROWTH_PROTECTION_REGISTRY.csv",
+    "phase_3_query_page": "docs/audits/adsense-recovery-phase-3-2026-08-24/completion-2026-08-24/ECHO_BUDDHA_QUERY_PAGE_PERFORMANCE.csv",
+    "phase_4_decisions": "docs/audits/adsense-recovery-phase-4-2026-08-24/ECHO_BUDDHA_PHASE_4_CONSOLIDATION_REGISTRY.csv",
+    "phase_5_checkpoint": "docs/audits/adsense-recovery-phase-5-2026-08-24/ECHO_BUDDHA_PHASE_5_QUOTE_ECOSYSTEM_REMEDIATION_REPORT.md"
+  },
+  "official_google_guidance": [
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://support.google.com/adsense/answer/10015918",
+    "https://support.google.com/adsense/answer/7299563",
+    "https://developers.google.com/search/docs/essentials/spam-policies",
+    "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+    "https://developers.google.com/search/docs/appearance/page-experience",
+    "https://developers.google.com/search/docs/appearance/title-link",
+    "https://developers.google.com/search/docs/appearance/structured-data/article"
+  ],
+  "selection": {
+    "C0_CRITICAL": 4,
+    "C1_HIGH": 4,
+    "C2_STRATEGIC": 8,
+    "NOT_PHASE_6_CORNERSTONE": 133,
+    "materially_upgraded": 7,
+    "explicit_holds": 1
+  },
+  "methods": [
+    "Phase 2 value/quality conflict join",
+    "Phase 3 query/protection preservation",
+    "Phase 4 survivor check",
+    "Phase 5 quote hold check",
+    "3-source external benchmark per changed intent",
+    "primary-source-first doctrinal verification",
+    "page-specific semantic edit",
+    "rendered diff and metadata validation",
+    "independent second-pass semantic review",
+    "deterministic C2 full sample"
+  ],
+  "score_notice": "All after scores are internal EchoBuddha provisional quality scores, not Google scores.",
+  "hash_scope": "Rendered dist HTML SHA-256 before and after the seven material upgrades",
+  "output_count": 14,
+  "production_modified": false,
+  "merged": false,
+  "deployed": false,
+  "adsense_submitted": false,
+  "phase_7_started": false,
+  "secret_handling": "No OAuth or token path read, copied, uploaded, committed, or included."
+}

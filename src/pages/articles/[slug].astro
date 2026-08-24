@@ -312,26 +312,51 @@ const sourceNoteText =
     : article.category === "Reflection"
       ? "This article is an original Echo Buddha reflection inspired by Buddhist themes and is not presented as a direct scripture translation."
       : "Echo Buddha articles are original educational reflections written for general readers. For deeper formal study, compare reputable Buddhist translations, teachers, and practice communities.");
-const practiceToday =
-  article.category === "Meditation"
+const cornerstonePracticePrompts: Record<string, string> = {
+  "right-speech-buddhism":
+    "Before one consequential message, write what is known, what is inferred, what benefit the message should serve, and whether this is the right time.",
+  "compassion-with-boundaries":
+    "Name one situation in three lines: what care requires, what capacity is available, and whose responsibility the next action truly is.",
+  "dhamma-vs-dharma":
+    "Open one Buddhist source you already use and note whether Dhamma or Dharma appears, what tradition or language frames it, and what the word is doing in that sentence.",
+  "dhammapada-verse-1-meaning":
+    "Compare Verse 1 and Verse 2 in one named translation; note the mental quality, the speech or action, and the consequence in each half of the pair.",
+  "dhammapada-reflection-what-we-think":
+    "Check one attributed quote for a verse reference, named translator, and matching source wording before you share it as scripture.",
+  "noble-eightfold-path-practical-guide":
+    "Review one choice through two neighboring path factors—for example, the intention behind a sentence and the mindfulness that noticed it.",
+  "buddhist-wisdom-for-overthinking":
+    "Ask whether the last five minutes produced new information, one available action, or only replay; then choose an action, a review time, or a deliberate stop."
+};
+const cornerstoneReflectionQuestions: Record<string, string> = {
+  "right-speech-buddhism": "Which necessary truth in your life needs better timing or less contempt—not greater avoidance?",
+  "compassion-with-boundaries": "Where would a clearer limit protect compassion from becoming resentment or unsafe availability?",
+  "dhamma-vs-dharma": "When you meet a Buddhist term in translation, what context would help you understand it without forcing one English equivalent?",
+  "dhammapada-verse-1-meaning": "What changes when Verse 1 is read as ethical causation alongside Verse 2 rather than as a promise that thoughts control events?",
+  "dhammapada-reflection-what-we-think": "What evidence would you need before presenting a popular English line as an exact canonical quotation?",
+  "noble-eightfold-path-practical-guide": "Which path factor became visible today because another factor supported it?",
+  "buddhist-wisdom-for-overthinking": "What repeated thought is still discovering something, and what thought has crossed into replay without new information?"
+};
+const practiceToday = cornerstonePracticePrompts[article.slug] ??
+  (article.category === "Meditation"
     ? "Pause for three natural breaths and return gently whenever attention wanders."
     : article.category === "Mindfulness"
       ? "Choose one ordinary task and give it your full attention for one minute."
       : article.category === "Practice"
         ? "Before one reply today, check whether your words are true, kind, useful, and timely."
-        : article.category === "Reflection"
-          ? "Notice one place where clinging tightens the body, then soften one breath around it."
-          : "Ask what action would reduce harm in one situation you meet today.";
-const reflectionQuestion =
-  article.category === "Meditation"
+      : article.category === "Reflection"
+        ? "Notice one place where clinging tightens the body, then soften one breath around it."
+        : "Ask what action would reduce harm in one situation you meet today.");
+const reflectionQuestion = cornerstoneReflectionQuestions[article.slug] ??
+  (article.category === "Meditation"
     ? "What did this practice help you notice about the mind or body today?"
     : article.category === "Mindfulness"
       ? "Where did awareness create even a small pause before habit took over?"
       : article.category === "Practice"
         ? "Which ordinary action could become part of your Buddhist practice this week?"
-        : article.category === "Reflection"
-          ? "What are you holding tightly that may be asking for a softer relationship?"
-          : "What would a wiser, less harmful response look like in one real situation?";
+      : article.category === "Reflection"
+        ? "What are you holding tightly that may be asking for a softer relationship?"
+        : "What would a wiser, less harmful response look like in one real situation?");
 const needsWellbeingNote = [
   "how-to-meditate-for-anxiety",
   "mindfulness-for-better-sleep",

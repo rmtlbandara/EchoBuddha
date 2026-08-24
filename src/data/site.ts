@@ -2552,6 +2552,20 @@ export const articles: Article[] = [
         ]
       },
       {
+        heading: "A Modern Boundary Is an Application, Not a Canonical Formula",
+        paragraphs: [
+          "Early Buddhist texts cultivate mettā, karuṇā, and upekkhā, but they do not provide a modern script for managing phone access, shared finances, workplace authority, or repeated digital contact. The boundary language on this page is Echo Buddha's practical application of non-harming, compassion, truthful speech, and equanimity—not a quotation attributed to the Buddha.",
+          "That distinction matters because a boundary should fit the real responsibility involved. Declining a late-night argument, documenting workplace misconduct, limiting a loan, and leaving an unsafe situation are not one identical practice. Each requires attention to harm, capacity, responsibility, and appropriate outside support."
+        ]
+      },
+      {
+        heading: "A Care–Capacity–Responsibility Check",
+        paragraphs: [
+          "First ask what care requires: listening, honesty, protection, repair, or distance. Then ask what capacity is actually available without resentment or danger. Finally ask what responsibility is truly yours and what belongs to another person, an institution, or qualified support.",
+          "A compassionate answer can be: \"I can listen for ten minutes, but I cannot continue while insults are used.\" It names available care, sets a limit, and leaves responsibility for respectful participation with both people. If safety is at stake, protection comes before a perfectly composed sentence."
+        ]
+      },
+      {
         heading: "A Small Practice for Today",
         paragraphs: [
           "Write one sentence that joins kindness with clarity: \"I care about this, and I am not available for harmful speech.\" Or: \"I want repair, and I need time before continuing.\"",
@@ -2586,6 +2600,20 @@ export const articles: Article[] = [
         paragraphs: [
           "Dhamma is the common Pali form. Dharma is the common Sanskrit form. Pali is often associated with Theravada and early Buddhist textual contexts, while Sanskrit appears in many Mahayana and broader Indian religious contexts. English readers may meet both forms depending on the source.",
           "A beginner does not need to treat the spellings as a contest. When a teacher, book, or temple uses Dhamma, listen in that context. When another uses Dharma, listen in that context. The important question is whether the teaching reduces greed, hatred, confusion, and harm in actual life."
+        ]
+      },
+      {
+        heading: "Language Family Does Not Create a Perfect Tradition Boundary",
+        paragraphs: [
+          "Pāli Dhamma and Sanskrit Dharma are corresponding language forms, but the labels Theravāda and Mahāyāna do not function as a perfect two-column spelling rule. English translations, multilingual communities, historical collections, and modern teachers may use vocabulary across those boundaries. The source in front of you is better evidence than a guess based on spelling alone.",
+          "A useful editorial rule is: preserve the term used by the source or community, identify the language when it helps, and avoid silently replacing one form as though the other were an error. Echo Buddha's preference for Dhamma in Pāli contexts is a house style, not a verdict on every Buddhist tradition."
+        ]
+      },
+      {
+        heading: "One Word Can Do Several Jobs",
+        paragraphs: [
+          "When English writing says \"the Dhamma\" or \"the Dharma,\" it often means the Buddha's teaching and the path of practice. In other contexts, dhamma or dharma can indicate a quality, principle, mental object, or phenomenon. Outside Buddhism, Sanskrit dharma also appears in other Indian traditions with additional ethical, social, and philosophical meanings.",
+          "This is why a one-word substitution such as \"religion\" or \"truth\" can mislead. Read the sentence around the term. Ask whether it is naming the teaching, a practice principle, or phenomena being analyzed. For the full lookup entry and related meanings, use the <a href=\"/learn/buddhist-dictionary/dhamma/\">Dhamma dictionary page</a>."
         ]
       },
       {
@@ -2851,6 +2879,20 @@ export const articles: Article[] = [
         ]
       },
       {
+        heading: "Read Verse 1 Together With Its Pair",
+        paragraphs: [
+          "Verse 1 opens the unskillful side of a pair: mind leads, speech or action follows, and suffering follows when the mind is corrupted. Verse 2 repeats the pattern with a clear or confident mind and a different result. Reading the pair protects the teaching from being reduced to the slogan that thoughts manufacture every external event.",
+          "The practical emphasis is ethical and causal. What kind of mind is being rehearsed, and what kind of speech or action is it preparing? The verses direct attention toward trainable intention without denying the many bodily, social, historical, and environmental conditions that also shape suffering."
+        ]
+      },
+      {
+        heading: "Why English Versions Differ",
+        paragraphs: [
+          "The opening Pāli contains compact terms—including mano and dhammā—whose range cannot be carried by one uncontested English phrase. Translators make different choices about mind, mental states, phenomena, leadership, and what it means for experience to be mind-made or mind-shaped.",
+          "Echo Buddha does not settle that translation debate by inventing a hybrid verse. The responsible reading method is to name the translator when quoting exact English wording, compare more than one reputable version when a word matters, and keep this page's explanation clearly labeled as explanation."
+        ]
+      },
+      {
         heading: "Translation, Paraphrase, and Reflection",
         paragraphs: [
           "A translation tries to render a source text into another language. A paraphrase restates the idea more freely. An original reflection uses the theme as a starting point for new writing. These should not be labeled as the same thing.",
@@ -3071,6 +3113,21 @@ export const articles: Article[] = [
         paragraphs: [
           "On a mindfulness-review day, write down one moment when you noticed the body, mood, or thought before acting. On a concentration-review day, notice one period when attention stayed with a task, conversation, or breath.",
           "A beginner can use <a href=\"/articles/mindfulness-of-breathing-guide/\">mindfulness of breathing</a> as a simple anchor, then record whether returning to the breath changed the next action."
+        ]
+      },
+      {
+        heading: "See the Eight Factors as Three Cooperating Trainings",
+        paragraphs: [
+          "A traditional grouping places Right View and Right Intention under wisdom; Right Speech, Right Action, and Right Livelihood under ethical conduct; and Right Effort, Right Mindfulness, and Right Concentration under mental cultivation. The grouping is a learning map, not three sealed departments.",
+          "The factors work together. Clearer view changes intention; intention shapes speech; ethical conduct reduces avoidable agitation; mindfulness notices the next choice; collected attention makes patterns easier to understand. Use the map to find relationships rather than to declare one factor permanently complete."
+        ],
+        visual: articleVisuals.eightfoldPath
+      },
+      {
+        heading: "One Situation Can Reveal Several Factors",
+        paragraphs: [
+          "Suppose a manager sends a vague correction. Right View checks what is known and unknown. Right Intention notices the urge to retaliate. Right Speech asks for a factual reply. Right Effort does not feed the imagined argument, and Right Mindfulness notices heat in the body before the message is sent.",
+          "A review can still focus on one factor, but it should record its neighbors. Write: \"My speech changed when mindfulness caught the defensive intention.\" That sentence teaches more than scoring Right Speech alone as pass or fail."
         ]
       },
       {
@@ -3472,6 +3529,13 @@ export const articles: Article[] = [
         paragraphs: [
           "A translation tries to render a source text into another language. A paraphrase restates an idea in fresh wording. A reflection uses a traditional theme as a doorway into practice. This article is the third kind: original reflection with source context.",
           "For a closer source-study path, visit <a href=\"/learn/dhammapada-reflections/the-mind-leads-all-things/\">The Mind Leads All Things</a>, <a href=\"/articles/dhammapada-verse-1-meaning/\">Dhammapada Verse 1 Meaning</a>, and the <a href=\"/learn/dhammapada-reflections/\">Dhammapada Reflections hub</a>. Those pages also avoid presenting Echo Buddha wording as scripture."
+        ]
+      },
+      {
+        heading: "A Provenance Check Readers Can Repeat",
+        paragraphs: [
+          "When a share image attributes a polished English sentence to the Buddha, look for three things before repeating it as scripture: a text or verse reference, a named translator or edition, and wording that can be found in that source. A thematic resemblance to a canonical passage is not enough to establish an exact quotation.",
+          "The reputable Verse 1 resources reviewed for this page use materially different English wording from \"what we think, we become.\" That finding does not prove that no translator has ever used the phrase. It supports the narrower editorial decision not to label the popular line as a verified exact translation without a specific source."
         ]
       },
       {
@@ -4991,7 +5055,7 @@ export const articles: Article[] = [
         ]
       },
       {
-        heading: "Right Speech Buddhism: The Basic Teaching",
+        heading: "The Basic Teaching: Four Kinds of Speech to Abandon",
         paragraphs: [
           "Traditional Buddhist teaching often describes Right Speech by naming what to avoid: false speech, divisive speech, harsh speech, and idle or careless speech. In positive language, this means speaking truthfully, creating harmony where possible, using words with respect, and choosing speech that has purpose.",
           "These four abstentions appear in the <a href=\"https://suttacentral.net/sn45.8/en/sujato\">Magga-vibhaṅga Sutta (SN 45.8)</a> as part of the Noble Eightfold Path. The positive filters used on this page are a practical editorial restatement, not a quotation or a claim that every tradition uses exactly the same four-question checklist.",
@@ -5005,6 +5069,13 @@ export const articles: Article[] = [
           "The filters are especially helpful when emotion is strong. If a sentence is true but meant to wound, it may need a different tone. If it is kind but not honest, it may create confusion later. If it is useful but badly timed, silence may serve better for now."
         ],
         visual: articleVisuals.rightSpeech
+      },
+      {
+        heading: "Two Source Tests That Should Not Be Flattened Into One",
+        paragraphs: [
+          "Two early-discourse passages answer different questions. SN 45.8 defines Right Speech through four kinds of conduct to abandon: false, divisive, harsh, and idle speech. MN 58 describes the Buddha's own discernment about whether words are factual, beneficial, and timely, including occasions when a necessary truth may be unwelcome.",
+          "The four-filter graphic on this page is therefore a memory aid, not a replacement translation. In particular, \"kind\" does not mean \"pleasant to hear.\" A warning, correction, boundary, or report of harm may be uncomfortable and still be truthful, beneficial, well-timed, and spoken without the wish to humiliate."
+        ]
       },
       {
         heading: "Honesty Without Cruelty",
@@ -5078,7 +5149,7 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Buddhist wisdom for overthinking begins with a gentle observation: thoughts are events in the mind, not commands that must be obeyed. A busy mind may replay conversations, predict failure, rehearse arguments, or search for certainty before sleep. Buddhism overthinking practices do not demand a blank mind. They help us relate to thought with more awareness.",
+          "Buddhist wisdom for overthinking begins with a gentle observation: thoughts are events in the mind, not commands that must be obeyed. A busy mind may replay conversations, predict failure, rehearse arguments, or search for certainty before sleep. Buddhist practice does not demand a blank mind. It helps us relate to thought with more awareness.",
           "Overthinking often tries to protect us. It wants to prevent mistakes, avoid rejection, or solve pain before it arrives. The trouble is that repeated thinking can become another form of suffering. The mind circles the same material without becoming wiser. Practice begins when we notice the circling."
         ]
       },
@@ -5094,6 +5165,20 @@ export const articles: Article[] = [
         paragraphs: [
           "Overthinking often appears when the mind wants certainty in a situation that remains uncertain. A conversation ended awkwardly. A work decision is unfinished. Someone's mood changed. The mind tries to close the open loop by replaying every detail.",
           "Sometimes reflection is useful. It helps us learn, apologize, prepare, or choose a wise next step. Overthinking is different. It repeats without fresh information. It tightens the body and narrows attention. A practical question can help: “Is this thought leading to a useful action, or is it asking for certainty I cannot have right now?”"
+        ]
+      },
+      {
+        heading: "Overthinking Is Not a Direct Translation of Papañca",
+        paragraphs: [
+          "MN 18 analyzes papañca, a difficult Pāli term often rendered as conceptual proliferation, objectification, or elaboration. The discourse traces how perception and thinking can multiply into categories that assail the mind and contribute to conflict. That is relevant to some repetitive mental spirals, but papañca is not simply an ancient clinical label for every experience now called overthinking.",
+          "This page therefore uses \"overthinking\" as ordinary modern language and draws a limited educational connection: notice when thought stops discovering and starts multiplying identity, accusation, prediction, or conflict. It does not diagnose a condition or claim that one Buddhist term explains every form of rumination."
+        ]
+      },
+      {
+        heading: "Reflection, Problem-Solving, or Replay?",
+        paragraphs: [
+          "Useful reflection produces something new: a fact to check, a decision, an apology, a plan, or a lesson. Problem-solving identifies an action and a stopping point. Replay repeats the same scene while demanding certainty that the available evidence cannot provide.",
+          "Try three questions: What new information appeared in the last five minutes? Is there one action available now? When will I intentionally revisit this if action must wait? If there is no new information and no present action, name the loop, record the concern once, and move attention to the next responsible part of the day."
         ]
       },
       {
@@ -7344,7 +7429,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "compassion-with-boundaries": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Compassion with boundaries is wise care, not people-pleasing or tolerance of harm.",
       "A boundary can reduce harm while keeping hatred from shaping the heart.",
@@ -7369,7 +7454,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhamma-vs-dharma": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Dhamma is usually the Pali form and Dharma is usually the Sanskrit form.",
       "The Dhamma dictionary page remains Echo Buddha's broad Dhamma meaning owner.",
@@ -7494,7 +7579,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhammapada-verse-1-meaning": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Dhammapada Verse 1 points to the mind as a forerunner of speech and action.",
       "Popular wording should be separated from exact translation, paraphrase, and original reflection.",
@@ -8183,7 +8268,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "right-speech-buddhism": {
-    reviewedDate: "2026-06-26",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Right Speech is a Buddhist practice of honest, kind, useful, and timely communication.",
       "The practice avoids lying, divisive speech, harsh speech, and careless speech.",
@@ -8220,7 +8305,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "buddhist-wisdom-for-overthinking": {
-    reviewedDate: "2026-06-26",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Buddhist-inspired practice sees thoughts as events in the mind, not commands.",
       "Overthinking often searches for certainty when uncertainty is still present.",
@@ -8966,7 +9051,7 @@ const week3ArticleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "noble-eightfold-path-practical-guide": {
-    reviewedDate: "2026-07-01",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "This practical guide uses the Eightfold Path as a weekly reflection map.",
       "One factor can be chosen in the morning and reviewed honestly at night.",
@@ -9188,7 +9273,7 @@ const week3ArticleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhammapada-reflection-what-we-think": {
-    reviewedDate: "2026-07-01",
+    reviewedDate: "2026-08-24",
     takeaways: [
       "Broad Dhammapada themes emphasize the role of mind and intention.",
       "Thoughts can be powerful without being completely true.",
