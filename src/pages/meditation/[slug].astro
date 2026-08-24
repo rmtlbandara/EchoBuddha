@@ -4,6 +4,7 @@ import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import EditorialAttribution from "../../components/EditorialAttribution.astro";
+import EditorialStandardsLinks from "../../components/EditorialStandardsLinks.astro";
 import { SITE } from "../../data/site";
 import {
   allMeditationPages,
@@ -94,18 +95,6 @@ const jsonLd = [
             {index === 1 && <AdSlot />}
           </>
 	        ))}
-        <section class="practice-context" aria-labelledby="practice-context-heading">
-          <h2 id="practice-context-heading">Before and After Practice</h2>
-          <p>
-            Before you begin, choose a length and posture that your body can sustain without strain. Buddhist meditation
-            is often taught with ethics and wisdom, so the aim is not to perform calm but to notice experience clearly
-            and respond with less harm.
-          </p>
-          <p>
-            Afterward, take a moment before returning to the day. Notice whether speech, attention, or intention feels a
-            little more workable. If practice feels agitating, shorten it, open your eyes, or return to ordinary grounding.
-          </p>
-        </section>
 	        {qualityNote && (
           <aside class="surface key-box">
             <h2>A Difficulty to Expect</h2>
@@ -128,11 +117,6 @@ const jsonLd = [
           <section>
             <h2>Safety Note</h2>
             <p>{page.sourceNote}</p>
-            <p>
-              Read the <a href="/meditation-safety/">Meditation Safety</a> and
-              <a href="/disclaimer/">Disclaimer</a> for the site's meditation and wellbeing limitations, and the
-              <a href="/editorial-policy/">Editorial Policy</a> for review standards.
-            </p>
             {sourceLinks.length > 0 && (
               <>
                 <h3>Practice Sources</h3>
@@ -148,6 +132,7 @@ const jsonLd = [
             )}
           </section>
         )}
+        <EditorialStandardsLinks includeDisclaimer includeMeditationSafety />
       </div>
       <aside>
         {termLinks.length > 0 && (
@@ -202,12 +187,6 @@ const jsonLd = [
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;
 	  }
-
-  .practice-context {
-    border-block: 1px solid var(--color-line);
-    margin: 2rem 0;
-    padding: 0.5rem 0 1rem;
-  }
 
   .source-list {
     display: grid;

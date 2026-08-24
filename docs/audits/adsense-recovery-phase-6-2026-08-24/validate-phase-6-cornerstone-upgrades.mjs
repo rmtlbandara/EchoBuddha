@@ -170,6 +170,7 @@ const changedFiles = status.split("\n").filter(Boolean).map((line) => line.slice
 const allowedPrefixes = [
   "docs/audits/adsense-recovery-phase-6-2026-08-24/",
   "docs/audits/adsense-recovery-phase-7-2026-08-24/",
+  "docs/audits/adsense-recovery-phase-8-2026-08-24/",
   "docs/audits/adsense-rejection-2026-08/phase-8-technical-adsense-privacy/phase-8-custom-validation.json",
   "docs/audits/adsense-rejection-2026-08/phase-9-ci-git-deployment/phase-9-custom-validation.json",
   "docs/audits/adsense-rejection-2026-08/phase-10-search-console-measurement/phase-10-custom-validation.json",
@@ -178,8 +179,10 @@ const allowedPrefixes = [
   "governance/release-change-approvals.json",
   "package.json",
   "src/data/editorialGovernance.ts",
+  "src/data/learn.ts",
   "src/data/site.ts",
   "src/components/EditorialAttribution.astro",
+  "src/components/EditorialStandardsLinks.astro",
   "src/pages/about.astro",
   "src/pages/articles/[slug].astro",
   "src/pages/authors/echo-buddha-editorial.astro",
@@ -196,7 +199,7 @@ const allowedPrefixes = [
   "src/pages/quotes/[category]/[story].astro",
   "src/styles/global.css"
 ];
-check("PRV-01", changedFiles.every((file) => allowedPrefixes.some((prefix) => file === prefix || file.startsWith(prefix))), `all ${changedFiles.length} changed paths are Phase 6/7 implementation or deterministic validation outputs`);
+check("PRV-01", changedFiles.every((file) => allowedPrefixes.some((prefix) => file === prefix || file.startsWith(prefix))), `all ${changedFiles.length} changed paths are governed Phase 6-8 implementation or deterministic validation outputs`);
 check("PRV-02", !changedFiles.some((file) => file.includes(".config/echobuddha") || /gsc-(oauth-client|token)\.json/.test(file)), "no OAuth/token path tracked");
 const changedContent = changedFiles.filter((file) => fs.existsSync(path.join(root, file)) && fs.statSync(path.join(root, file)).isFile()).map((file) => read(path.join(root, file))).join("\n");
 const secretMarkers = [["client", "secret"].join("_"), ["refresh", "token"].join("_"), ["access", "token"].join("_"), ["ya29", "."].join(""), ["AI", "za"].join("")];

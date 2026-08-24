@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-24T10:28:30.060Z",
+  "auditDate": "2026-08-24",
+  "phase": 8,
+  "startingCommit": "afdf4d553b8aa2c2b7d38d808321f3ea589ebf83",
+  "currentHead": "afdf4d553b8aa2c2b7d38d808321f3ea589ebf83",
+  "branch": "codex/adsense-recovery-audit",
+  "repositoryPrivacy": "PRIVATE_REPOSITORY_RULE_APPLIED",
+  "productionMutation": false,
+  "adsenseMutation": false,
+  "phase9Started": false,
+  "methods": [
+    "exact paragraph matching",
+    "trigram near-intro similarity",
+    "heading-sequence clustering",
+    "intro/conclusion clustering",
+    "rendered content hashes",
+    "metadata clustering",
+    "boilerplate ratio",
+    "manual family/intent review",
+    "blind/swap/delete/direct-user tests"
+  ],
+  "metricDisclaimer": "All template tiers and ratios are internal Echo Buddha diagnostics, not Google metrics or thresholds.",
+  "before": {
+    "totalPages": 335,
+    "substantivePages": 288,
+    "indexableSubstantivePages": 105,
+    "exactRepeatedSubstantiveParagraphs": 136,
+    "exactRepeatedSubstantiveParagraphInstances": 1277,
+    "nearIntroPairs": 0,
+    "repeatedStructureClusters": 25,
+    "exactIntroClusters": 2,
+    "exactConclusionClusters": 14,
+    "tiers": {
+      "T0_DISTINCT": 8,
+      "T1_LOW_TEMPLATE_RISK": 191,
+      "T2_MODERATE_TEMPLATE_RISK": 55,
+      "T3_HIGH_TEMPLATE_RISK": 4,
+      "T4_SEVERE_FORMULAIC_RISK": 30
+    }
+  },
+  "after": {
+    "totalPages": 335,
+    "substantivePages": 288,
+    "indexableSubstantivePages": 105,
+    "exactRepeatedSubstantiveParagraphs": 111,
+    "exactRepeatedSubstantiveParagraphInstances": 946,
+    "nearIntroPairs": 0,
+    "repeatedStructureClusters": 26,
+    "exactIntroClusters": 2,
+    "exactConclusionClusters": 12,
+    "tiers": {
+      "T0_DISTINCT": 51,
+      "T1_LOW_TEMPLATE_RISK": 214,
+      "T2_MODERATE_TEMPLATE_RISK": 23,
+      "T3_HIGH_TEMPLATE_RISK": 0,
+      "T4_SEVERE_FORMULAIC_RISK": 0
+    }
+  },
+  "changedPages": 133,
+  "changedIndexable": 103,
+  "changedProtected": 19,
+  "officialGuidance": [
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://developers.google.com/search/docs/essentials/spam-policies",
+    "https://support.google.com/adsense/answer/10015918",
+    "https://support.google.com/publisherpolicies/answer/11190248",
+    "https://developers.google.com/search/docs/appearance/title-link"
+  ],
+  "validationStatus": {
+    "governance": "PASS",
+    "independent": "PASS",
+    "responsive": "PASS",
+    "release": "PASS"
+  },
+  "status": "PASS"
+}

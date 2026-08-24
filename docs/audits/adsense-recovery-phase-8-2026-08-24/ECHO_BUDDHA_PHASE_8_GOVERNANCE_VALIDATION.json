@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-08-24T10:28:34.482Z",
+  "status": "PASS",
+  "totalChecks": 34,
+  "passed": 34,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "PRE-01",
+      "name": "Phase 7 PASS is the starting checkpoint",
+      "pass": true,
+      "evidence": "afdf4d553b8aa2c2b7d38d808321f3ea589ebf83"
+    },
+    {
+      "id": "PRE-02",
+      "name": "Phase 3 evidence closure remains in history",
+      "pass": true,
+      "evidence": "ancestor verified"
+    },
+    {
+      "id": "INV-01",
+      "name": "Complete 335-route inventory is unchanged",
+      "pass": true,
+      "evidence": "335/335 routes stable"
+    },
+    {
+      "id": "INV-02",
+      "name": "Sitemap remains at the approved 149 URL inventory",
+      "pass": true,
+      "evidence": "149 unique sitemap URLs"
+    },
+    {
+      "id": "INV-03",
+      "name": "Every substantive baseline URL retains canonical and indexability",
+      "pass": true,
+      "evidence": "288/288"
+    },
+    {
+      "id": "SEO-01",
+      "name": "Titles and H1s remain stable across substantive pages",
+      "pass": true,
+      "evidence": "288/288"
+    },
+    {
+      "id": "SEO-02",
+      "name": "All edited P0/P1 rows pass the preservation contract",
+      "pass": true,
+      "evidence": "19/19 edited P0/P1 pages"
+    },
+    {
+      "id": "SEO-03",
+      "name": "Daily Reflection descriptions are page-specific",
+      "pass": true,
+      "evidence": "30/30 unique descriptions"
+    },
+    {
+      "id": "ART-01",
+      "name": "Generic category article practice fallbacks are removed",
+      "pass": true,
+      "evidence": "7 explicit page-specific prompts; 41 fallbacks removed"
+    },
+    {
+      "id": "ART-02",
+      "name": "Generic category article reflection fallbacks are removed",
+      "pass": true,
+      "evidence": "7 explicit page-specific questions; 41 fallbacks removed"
+    },
+    {
+      "id": "ART-03",
+      "name": "Article takeaways and genuine FAQs remain",
+      "pass": true,
+      "evidence": "48 takeaways; 48 FAQ sections; 218 visible/schema-aligned questions"
+    },
+    {
+      "id": "LEARN-01",
+      "name": "Dictionary entries use concise reference structure",
+      "pass": true,
+      "evidence": "14/14"
+    },
+    {
+      "id": "LEARN-02",
+      "name": "Beginner lessons do not force reflection-question fields",
+      "pass": true,
+      "evidence": "19/19"
+    },
+    {
+      "id": "LEARN-03",
+      "name": "Source studies retain source-specific study structure",
+      "pass": true,
+      "evidence": "13/13"
+    },
+    {
+      "id": "MED-01",
+      "name": "Universal meditation before/after filler is removed",
+      "pass": true,
+      "evidence": "9/9"
+    },
+    {
+      "id": "MED-02",
+      "name": "Meditation safety infrastructure remains",
+      "pass": true,
+      "evidence": "9/9"
+    },
+    {
+      "id": "DR-01",
+      "name": "Repeated Daily Reflection instruction and policy filler is removed",
+      "pass": true,
+      "evidence": "30/30"
+    },
+    {
+      "id": "DR-02",
+      "name": "Daily Reflections retain page-specific substance and noindex",
+      "pass": true,
+      "evidence": "30/30"
+    },
+    {
+      "id": "TRUST-01",
+      "name": "Compact editorial standards infrastructure replaces policy prose",
+      "pass": true,
+      "evidence": "133 routes"
+    },
+    {
+      "id": "TRUST-02",
+      "name": "Phase 7 organizational authorship remains complete",
+      "pass": true,
+      "evidence": "288/288"
+    },
+    {
+      "id": "TRUST-03",
+      "name": "All JSON-LD remains parseable",
+      "pass": true,
+      "evidence": "333 blocks"
+    },
+    {
+      "id": "QUOTE-01",
+      "name": "Phase 5 quote indexation remains unchanged",
+      "pass": true,
+      "evidence": "153/153 noindex permalinks"
+    },
+    {
+      "id": "QUOTE-02",
+      "name": "Quote sitemap remains hub plus ten categories",
+      "pass": true,
+      "evidence": "11/11"
+    },
+    {
+      "id": "P6-01",
+      "name": "All C0/C1 resources remain rendered",
+      "pass": true,
+      "evidence": "8/8"
+    },
+    {
+      "id": "P6-02",
+      "name": "Phase 6 source and information-gain markers remain",
+      "pass": true,
+      "evidence": "7 changed cornerstone articles retain Selected References"
+    },
+    {
+      "id": "REP-01",
+      "name": "Exact repeated paragraph clusters materially decline",
+      "pass": true,
+      "evidence": "136->111; 1277->946"
+    },
+    {
+      "id": "REP-02",
+      "name": "No T3/T4 page remains",
+      "pass": true,
+      "evidence": "0 T3; 0 T4"
+    },
+    {
+      "id": "REP-03",
+      "name": "No fake synonym rewrite or mass prose rewrite occurred",
+      "pass": true,
+      "evidence": "Article/reflection corpora not mass-paraphrased"
+    },
+    {
+      "id": "GOV-01",
+      "name": "Optional-section and independent-purpose governance exists",
+      "pass": true,
+      "evidence": "durable governance present"
+    },
+    {
+      "id": "GOV-02",
+      "name": "Generator risk audit covers all material factories",
+      "pass": true,
+      "evidence": "6/6 areas"
+    },
+    {
+      "id": "EVID-01",
+      "name": "All 18 required Phase 8 artifacts are non-empty",
+      "pass": true,
+      "evidence": "16 generator artifacts present; 2 validation artifacts produced by this run"
+    },
+    {
+      "id": "EVID-02",
+      "name": "Primary report contains all 40 ordered sections",
+      "pass": true,
+      "evidence": "40/40"
+    },
+    {
+      "id": "PRIV-01",
+      "name": "No private credential path is tracked",
+      "pass": true,
+      "evidence": "0 tracked private credential paths"
+    },
+    {
+      "id": "SCOPE-01",
+      "name": "No production/deployment configuration changed",
+      "pass": true,
+      "evidence": "production configuration unchanged"
+    }
+  ]
+}

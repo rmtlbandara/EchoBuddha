@@ -3,6 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import AdSlot from "../../../components/AdSlot.astro";
 import LearningCard from "../../../components/LearningCard.astro";
 import EditorialAttribution from "../../../components/EditorialAttribution.astro";
+import EditorialStandardsLinks from "../../../components/EditorialStandardsLinks.astro";
 import {
   getAllLearningPages,
   getBreadcrumbJsonLd,
@@ -11,6 +12,7 @@ import {
   getLearningSection,
   getSourceLinks,
   getTermLinks,
+  DEFAULT_LEARNING_SOURCE_NOTE,
   type LearningPage
 } from "../../../data/learn";
 import { SITE } from "../../../data/site";
@@ -33,17 +35,20 @@ const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
 const isDictionary = page.section === "buddhist-dictionary";
 const isSourceStudy = ["dhammapada-reflections", "sutta-for-daily-life"].includes(page.section);
+const isBeginnerLesson = page.section === "buddhism-101";
 const editorialLabels = isDictionary
   ? { takeaway: "Concise Definition", why: "Why the Term Matters", clarification: "Nuance and Usage", practice: "Use the Term in Context", question: "Check Your Understanding", source: "Reference Boundaries" }
   : isSourceStudy
     ? { takeaway: "Study Focus", why: "Why This Passage Matters", clarification: "Interpretive Boundary", practice: "Modern Reflection", question: "Study Question", source: "Text and Source Notes" }
     : { takeaway: "Key Takeaway", why: "Why This Matters", clarification: "A Helpful Clarification", practice: "Practice Today", question: "Reflection Question", source: "Further Reading / Source Note" };
 const sourceNoteText =
-  page.section === "buddhist-dictionary"
-    ? `${page.title} is explained in simplified language for general readers. Compare this definition with reputable Buddhist teachers, translations, and study communities for deeper tradition-specific learning.`
-    : page.section === "meditation"
-      ? "This is educational meditation guidance based on general Buddhist practice themes. It is not medical or mental health advice; adapt gently and seek qualified support when needed."
-      : page.sourceNote;
+  page.sourceNote && page.sourceNote !== DEFAULT_LEARNING_SOURCE_NOTE
+    ? page.sourceNote
+    : undefined;
+const showWhy = Boolean(qualityNote) && !isDictionary;
+const showClarification = Boolean(qualityNote);
+const showPractice = Boolean(page.practice) && !isDictionary;
+const showQuestion = Boolean(qualityNote?.question) && isSourceStudy;
 const articleJsonLd = [
   {
     "@context": "https://schema.org",
@@ -109,7 +114,7 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           <p>{page.takeaway}</p>
         </aside>
 
-        {qualityNote && (
+        {showWhy && qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-matters-heading">
             <h2 id="why-this-matters-heading">{editorialLabels.why}</h2>
             <p>{qualityNote.why}</p>
@@ -124,37 +129,31 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           </>
         ))}
 
-        {qualityNote && (
+        {showClarification && qualityNote && (
           <aside class="surface clarification-box">
             <h2>{editorialLabels.clarification}</h2>
             <p>{qualityNote.clarification}</p>
           </aside>
         )}
 
-        {page.practice && (
+        {showPractice && page.practice && (
           <aside class="surface practice-box">
             <h2>{editorialLabels.practice}</h2>
             <p>{page.practice}</p>
           </aside>
         )}
 
-        {qualityNote && (
+        {showQuestion && qualityNote?.question && (
           <aside class="surface reflection-box">
             <h2>{editorialLabels.question}</h2>
             <p>{qualityNote.question}</p>
           </aside>
         )}
 
-        {sourceNoteText && (
+        {(sourceNoteText || sourceLinks.length > 0) && (
           <section>
             <h2>{editorialLabels.source}</h2>
             <p>{sourceNoteText}</p>
-            <p>
-              For source standards and correction requests, see the <a href="/editorial-policy/">Editorial Policy</a>,
-              <a href="/buddhist-sources-and-citations/">Buddhist Sources and Citations</a>, and
-              <a href="/corrections/">Corrections</a>. For study pathways beyond beginner summaries, visit
-              <a href="/learn/buddhist-resources/">Buddhist Resources</a>.
-            </p>
             {sourceLinks.length > 0 && (
               <>
                 <h3>Traditional References</h3>
@@ -170,6 +169,8 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
             )}
           </section>
         )}
+
+        <EditorialStandardsLinks />
       </div>
 
       <aside>

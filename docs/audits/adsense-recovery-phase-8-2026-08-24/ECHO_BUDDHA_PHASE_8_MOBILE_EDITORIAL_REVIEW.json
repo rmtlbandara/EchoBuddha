@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "reviewDate": "2026-08-24",
+  "browser": "Codex in-app browser",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scope": [
+    "/articles/mindful-email-and-texting/",
+    "/articles/right-speech-buddhism/",
+    "/learn/buddhist-dictionary/dhamma/",
+    "/learn/buddhism-101/what-is-mindfulness/",
+    "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+    "/meditation/meditation-for-beginners/",
+    "/daily-reflections/patience-before-anger-speaks/",
+    "/quotes/wisdom/",
+    "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/"
+  ],
+  "checks": {
+    "horizontalOverflow": "0/9 routes",
+    "emptyEditorialContainers": "0/9 routes",
+    "duplicateHeadings": "0/9 routes",
+    "singleH1": "9/9 routes",
+    "familySpecificSections": "PASS",
+    "compactTrustLinks": "PASS where applicable",
+    "indexabilityIntent": "PASS",
+    "visualReadability": "PASS"
+  },
+  "notes": [
+    "A non-cornerstone article does not render the generic Practice Today or Reflection Question fallbacks.",
+    "The protected cornerstone retains its explicitly authored Practice Today, Reflection Question, takeaways, FAQ, and selected references.",
+    "Dictionary, beginner, and source-study pages render different section systems appropriate to their intents.",
+    "Meditation safety remains while Before and After Practice filler is absent.",
+    "Daily Reflection retains unique reflection, action, practice, and question content; repeated use/editorial prose is absent.",
+    "Phase 5 quote category and noindex permalink behavior remains intact."
+  ]
+}

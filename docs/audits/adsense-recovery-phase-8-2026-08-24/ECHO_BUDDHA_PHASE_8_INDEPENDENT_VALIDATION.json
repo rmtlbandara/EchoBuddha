@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-08-24T10:28:41.155Z",
+  "reviewer": "Independent adversarial rendered-corpus and recovery-preservation pass",
+  "status": "PASS",
+  "totalChecks": 26,
+  "passed": 26,
+  "failed": 0,
+  "secretScan": "PASS",
+  "manualReviewCoverage": {
+    "baselineT3T4": "34/34",
+    "finalT2": "23/23",
+    "C0C1": "8/8",
+    "editedP0P1": "19/19"
+  },
+  "checks": [
+    {
+      "id": "IND-01",
+      "challenge": "All baseline T3/T4 pages received semantic change/review",
+      "pass": true,
+      "evidence": "34/34 baseline high-risk pages changed in place"
+    },
+    {
+      "id": "IND-02",
+      "challenge": "No T3/T4 remains after remediation",
+      "pass": true,
+      "evidence": "T2=23; T3=0; T4=0"
+    },
+    {
+      "id": "IND-03",
+      "challenge": "All final T2 pages are bounded to meditation/recurring reflection patterns",
+      "pass": true,
+      "evidence": "Final moderate risk is limited to reviewed family-coherent practice products"
+    },
+    {
+      "id": "IND-04",
+      "challenge": "Blind-page test does not find a generic article fallback",
+      "pass": true,
+      "evidence": "Generic noun-swappable fallback absent"
+    },
+    {
+      "id": "IND-05",
+      "challenge": "Swap test removes universal meditation prose",
+      "pass": true,
+      "evidence": "Nine-page swappable block absent"
+    },
+    {
+      "id": "IND-06",
+      "challenge": "Delete test removed Daily Reflection filler without losing unique fields",
+      "pass": true,
+      "evidence": "30/30 retain unique action; generic use prose deleted"
+    },
+    {
+      "id": "IND-07",
+      "challenge": "Direct-user test preserves useful page-specific takeaways and FAQs",
+      "pass": true,
+      "evidence": "Page-specific summaries/questions retained"
+    },
+    {
+      "id": "IND-08",
+      "challenge": "No word-count target or artificial expansion introduced",
+      "pass": true,
+      "evidence": "No word-count rule"
+    },
+    {
+      "id": "IND-09",
+      "challenge": "No mass AI paraphrase or synonym campaign",
+      "pass": true,
+      "evidence": "Large prose datasets unchanged"
+    },
+    {
+      "id": "IND-10",
+      "challenge": "No arbitrary visual or structural randomization",
+      "pass": true,
+      "evidence": "Global design system unchanged"
+    },
+    {
+      "id": "IND-11",
+      "challenge": "Doorway-like red-team finds no new/retargeted route",
+      "pass": true,
+      "evidence": "0 new routes; 0 retargeted substantive titles"
+    },
+    {
+      "id": "IND-12",
+      "challenge": "Scaled-content red-team finds fail-closed governance",
+      "pass": true,
+      "evidence": "Bulk generation cannot self-approve"
+    },
+    {
+      "id": "IND-13",
+      "challenge": "Phase 5 quote governance remains intact",
+      "pass": true,
+      "evidence": "153/153 noindex"
+    },
+    {
+      "id": "IND-14",
+      "challenge": "Phase 6 information gain remains intact",
+      "pass": true,
+      "evidence": "7/7 upgraded articles retain source-backed additions"
+    },
+    {
+      "id": "IND-15",
+      "challenge": "Phase 7 trust remains intact",
+      "pass": true,
+      "evidence": "288/288"
+    },
+    {
+      "id": "IND-16",
+      "challenge": "P0/P1 edited-page comparison passes",
+      "pass": true,
+      "evidence": "19/19"
+    },
+    {
+      "id": "IND-17",
+      "challenge": "Canonical and indexability remain stable",
+      "pass": true,
+      "evidence": "288/288 substantive routes"
+    },
+    {
+      "id": "IND-18",
+      "challenge": "Article FAQ schema remains visibly aligned",
+      "pass": true,
+      "evidence": "48/48"
+    },
+    {
+      "id": "IND-19",
+      "challenge": "Dictionary consistency is not falsely penalized",
+      "pass": true,
+      "evidence": "14/14 T0/T1"
+    },
+    {
+      "id": "IND-20",
+      "challenge": "Quote user permalinks are not overworked",
+      "pass": true,
+      "evidence": "Phase 5 quote rendering/data untouched"
+    },
+    {
+      "id": "IND-21",
+      "challenge": "Repeated substantive paragraph instances materially decline",
+      "pass": true,
+      "evidence": "1277->946"
+    },
+    {
+      "id": "IND-22",
+      "challenge": "Metadata boilerplate is reduced without protected title changes",
+      "pass": true,
+      "evidence": "30 unique recurring descriptions; 288 stable substantive titles"
+    },
+    {
+      "id": "IND-23",
+      "challenge": "Reusable trust links are explicitly classified, not hidden as editorial prose",
+      "pass": true,
+      "evidence": "Dedicated navigation component"
+    },
+    {
+      "id": "IND-24",
+      "challenge": "No unrelated production or deployment mutation",
+      "pass": true,
+      "evidence": "Production configuration unchanged"
+    },
+    {
+      "id": "IND-25",
+      "challenge": "No architecture reconsideration is required",
+      "pass": true,
+      "evidence": "0 architecture holds"
+    },
+    {
+      "id": "IND-26",
+      "challenge": "Secret scan passes",
+      "pass": true,
+      "evidence": "0 high-confidence secret values"
+    }
+  ]
+}

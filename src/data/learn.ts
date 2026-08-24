@@ -34,7 +34,7 @@ export type LearningPage = {
 export type LearningQualityNote = {
   why: string;
   clarification: string;
-  question: string;
+  question?: string;
 };
 
 export type TermLink = {
@@ -53,8 +53,10 @@ export type LearningSection = {
   items: LearningPage[];
 };
 
-const commonSourceNote =
+export const DEFAULT_LEARNING_SOURCE_NOTE =
   "Echo Buddha writes original, beginner-friendly explanations for general education and reflection. Readers who want formal study are encouraged to learn with qualified teachers and reputable translations.";
+
+const commonSourceNote = DEFAULT_LEARNING_SOURCE_NOTE;
 
 const sourceLinksByPage: Record<string, SourceLink[]> = {
   "buddhism-101/who-was-the-buddha": [

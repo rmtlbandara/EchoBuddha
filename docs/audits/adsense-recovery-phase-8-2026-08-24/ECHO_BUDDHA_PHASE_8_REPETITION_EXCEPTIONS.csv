@@ -1,0 +1,10 @@
+component/pattern,affected family,reason,user benefit,classification,reviewer
+Header/navigation/footer,ALL,Shared UI,Coherent navigation and accessibility,UI_SYSTEM,Echo Buddha Editorial
+Breadcrumbs,ALL,Hierarchy,Orientation and crawlable pathways,NAVIGATION,Echo Buddha Editorial
+Organizational byline,SUBSTANTIVE,Phase 7 trust,Truthful responsibility,TRUST_INFRASTRUCTURE,Echo Buddha Editorial
+Dictionary reference structure,BUDDHIST_DICTIONARY,Lookup usability,Predictable definition/context/related-term pattern,EDITORIAL_STRUCTURE,Echo Buddha Editorial
+Meditation safety notice,MEDITATION_RESOURCE,Safety,Consistent educational boundaries,TRUST_INFRASTRUCTURE,Echo Buddha Editorial
+Article takeaway/FAQ components,ARTICLE,Reader scanning and genuine questions,All prose is page-specific and retained after review,EDITORIAL_STRUCTURE,Echo Buddha Editorial
+Quote category structure,QUOTE_HUB,Phase 5 curation,Theme-specific reading paths within a coherent quote product,EDITORIAL_STRUCTURE,Echo Buddha Editorial
+Noindex quote permalink shell,QUOTE_STORY,Sharing/bookmarking,"User product, excluded from independent Search inventory",UI_SYSTEM,Echo Buddha Editorial
+Daily reflection shell,DAILY_REFLECTION,Recurring practice,"Stable product structure with unique reflection, situation, action and question",EDITORIAL_STRUCTURE,Echo Buddha Editorial

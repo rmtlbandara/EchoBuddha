@@ -1,0 +1,52 @@
+---
+type Props = {
+  includeDisclaimer?: boolean;
+  includeMeditationSafety?: boolean;
+  quoteContext?: boolean;
+};
+
+const {
+  includeDisclaimer = false,
+  includeMeditationSafety = false,
+  quoteContext = false
+} = Astro.props;
+---
+
+<nav class="editorial-standards-links" aria-label="Editorial standards and corrections">
+  <span>Editorial context</span>
+  {quoteContext ? (
+    <a href="/quote-attribution-policy/">Quote attribution</a>
+  ) : (
+    <>
+      <a href="/editorial-policy/">Editorial policy</a>
+      <a href="/buddhist-sources-and-citations/">Source method</a>
+    </>
+  )}
+  {includeMeditationSafety && <a href="/meditation-safety/">Meditation safety</a>}
+  {includeDisclaimer && <a href="/disclaimer/">Educational limits</a>}
+  <a href="/corrections/">Corrections</a>
+</nav>
+
+<style>
+  .editorial-standards-links {
+    align-items: center;
+    border-top: 1px solid var(--color-line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.85rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+
+  .editorial-standards-links span {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .editorial-standards-links a {
+    font-size: 0.9rem;
+  }
+</style>

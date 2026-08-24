@@ -1,0 +1,15 @@
+component,family,purpose,UI vs substantive,prevalence,safe to retain?,requires page-specific content?,removable?,action,reason
+Header / navigation / footer,ALL,Site orientation,UI_SYSTEM,335,YES,NO,NO,RETAIN,Coherent navigation is not editorial duplication
+Breadcrumbs,ALL_SUBSTANTIVE,Location and hierarchy,NAVIGATION,288,YES,NO,NO,RETAIN,Accessible hierarchy
+EditorialAttribution,ALL_SUBSTANTIVE,Accountable organizational authorship,TRUST_INFRASTRUCTURE,288,YES,NO,NO,RETAIN,Phase 7 requirement
+EditorialStandardsLinks,ARTICLES_LEARN_MEDITATION_REFLECTION,Compact source/correction/safety routes,TRUST_INFRASTRUCTURE,FAMILY_WIDE,YES,NO,NO,RETAIN_COMPACT,Replaces repeated policy prose
+Key Takeaways,ARTICLE,Page-specific summary,EDITORIAL_STRUCTURE,48,YES,YES,YES,RETAIN,Unique summary material; not a generic fallback
+FAQ,ARTICLE,Genuine page-specific reader questions,EDITORIAL_STRUCTURE,48,YES,YES,YES,RETAIN_REVIEWED,Questions are unique and match body intent
+Practice Today fallback,ARTICLE,Category-generated prompt,CONTENT_GENERATION_LOGIC,41_BEFORE_0_AFTER,NO,YES,YES,REMOVE,Same prompt crossed unrelated pages
+Reflection Question fallback,ARTICLE,Category-generated question,CONTENT_GENERATION_LOGIC,41_BEFORE_0_AFTER,NO,YES,YES,REMOVE,Same question crossed unrelated pages
+Learn intent shell,LEARN,Family-appropriate education,EDITORIAL_STRUCTURE,46,YES,YES,NO,SPLIT_BY_INTENT,"Dictionary, beginner, and source-study needs now differ"
+Meditation safety,MEDITATION,Safe practice boundaries,TRUST_INFRASTRUCTURE,9,YES,NO,NO,RETAIN,Safety consistency is deliberate
+Before and After Practice,MEDITATION,Universal generic context,EDITORIAL_PROSE,9_BEFORE_0_AFTER,NO,YES,YES,REMOVE,Duplicated prose added no page-specific instruction
+Quote category curation,QUOTE,Theme-specific reading paths,EDITORIAL_STRUCTURE,10,YES,YES,NO,RETAIN_PHASE_5,Deliberate Phase 5 curation
+Noindex quote permalink shell,QUOTE_STORY,Sharing and bookmarking,UI_SYSTEM,153,YES,YES_IF_AUTHORED,NO,RETAIN_PHASE_5,No independent Search inventory
+Daily reflection shell,DAILY_REFLECTION,Recurring practice product,EDITORIAL_STRUCTURE,30,YES,YES,NO,RETAIN_WITH_PROSE_REDUCTION,Page data is unique; policy filler removed

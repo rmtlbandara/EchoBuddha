@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import EditorialAttribution from "../../components/EditorialAttribution.astro";
+import EditorialStandardsLinks from "../../components/EditorialStandardsLinks.astro";
 import {
   dailyReflections,
   getDailyReflectionDetails,
@@ -24,8 +25,8 @@ export function getStaticPaths() {
 const { reflection } = Astro.props as { reflection: DailyReflection };
 const canonicalPath = getDailyReflectionPath(reflection);
 const title = `${reflection.title} - Daily Buddhist Reflection`;
-const description = `${reflection.reflection} Includes meaning, daily-life example, practice, journal question, and related Buddhist teachings.`;
 const details = getDailyReflectionDetails(reflection);
+const description = details?.centralObservation ?? reflection.meaning;
 const reflectionModel = {
   "ethical decision": { insight: "The Choice in View", situation: "Where the Choice Appears", practice: "A Response to Test" },
   "short contemplative exercise": { insight: "The Experience to Notice", situation: "When to Pause", practice: "Try the Exercise" },
@@ -109,42 +110,18 @@ const jsonLd = [
         <h2>A Question to Keep</h2>
         <p>{reflection.journalQuestion}</p>
 
-	        <h2>Related Buddhist Idea</h2>
-	        <p>
-	          This reflection connects with <strong>{reflection.relatedIdea}</strong>. Use the links below to continue with
-	          a fuller teaching or a quote category that supports the same practice.
-	        </p>
-
-        <section class="reflection-context" aria-labelledby="reflection-context-heading">
-          <h2 id="reflection-context-heading">How to Use This Reflection</h2>
-          <p>
-            Read this page as a small practice note rather than a rule for every situation. Echo Buddha reflections are
-            original educational writing inspired by Buddhist themes such as non-harming, mindfulness, compassion,
-            impermanence, and wise intention.
-          </p>
-          <p>
-            If the reflection names a difficult emotion or relationship, keep practical safety and boundaries in view.
-            A gentle pause can support clarity, but it should not replace qualified help, honest communication, or
-            necessary protection.
-          </p>
-        </section>
-
         <nav class="reflection-link-list" aria-label={`Related teachings for ${reflection.title}`}>
           {reflection.relatedLinks.map((link) => <a href={link.href}>{link.label}</a>)}
           {relatedQuoteLinks.map((link) => <a href={link.href}>{link.label}</a>)}
         </nav>
 
-        <section class="source-note">
-          <h2>Editorial Note</h2>
-          <p>
-            This is an original Echo Buddha reflection written for education and daily contemplation. It is not medical
-            advice, and mindfulness or meditation should be practiced gently according to your needs. Read the
-            <a href="/editorial-policy/">Editorial Policy</a> and <a href="/disclaimer/">Disclaimer</a> for the site's
-            review standards and limitations. Seek qualified professional support for serious, persistent, or unsafe
-            distress.
-          </p>
-          {details?.wellbeingNote && <p>{details.wellbeingNote}</p>}
-        </section>
+        {details?.wellbeingNote && (
+          <section class="source-note">
+            <h2>Safety Context</h2>
+            <p>{details.wellbeingNote}</p>
+          </section>
+        )}
+        <EditorialStandardsLinks includeDisclaimer includeMeditationSafety />
       </div>
 
       <aside>
@@ -221,12 +198,6 @@ const jsonLd = [
     gap: 0.55rem;
     margin: 1.25rem 0 2rem;
 	  }
-
-  .reflection-context {
-    border-block: 1px solid var(--color-line);
-    margin: 2rem 0;
-    padding: 0.5rem 0 1rem;
-  }
 
   .reflection-link-list a {
     background: var(--color-green-soft);

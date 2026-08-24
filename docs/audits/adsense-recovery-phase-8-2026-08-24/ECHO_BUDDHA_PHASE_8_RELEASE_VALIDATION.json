@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-08-24T10:28:06.271Z",
+  "status": "PASS",
+  "scope": "Phase 8 full local release gate; no production, merge, deployment, AdSense, or Phase 9 action",
+  "results": [
+    {
+      "name": "validate",
+      "command": "npm run validate",
+      "status": "PASS"
+    },
+    {
+      "name": "phase8",
+      "command": "npm run audit:phase8",
+      "status": "PASS"
+    },
+    {
+      "name": "dependencies",
+      "command": "npm run audit:dependencies",
+      "status": "PASS"
+    }
+  ]
+}

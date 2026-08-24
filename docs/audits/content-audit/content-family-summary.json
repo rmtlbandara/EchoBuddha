@@ -24,7 +24,7 @@
     "decisions": {
       "Pass": 7
     },
-    "averageWords": 534
+    "averageWords": 554
   },
   "hub": {
     "total": 8,
@@ -43,7 +43,7 @@
       "Minor improvement": 8,
       "Pass": 40
     },
-    "averageWords": 1732
+    "averageWords": 1659
   },
   "articleCategory": {
     "total": 5,
@@ -61,7 +61,7 @@
     "decisions": {
       "Pass": 7
     },
-    "averageWords": 698
+    "averageWords": 707
   },
   "dailyReflection": {
     "total": 30,
@@ -70,7 +70,7 @@
     "decisions": {
       "Pass": 30
     },
-    "averageWords": 528
+    "averageWords": 388
   },
   "todayReflection": {
     "total": 1,
@@ -88,7 +88,7 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 748
+    "averageWords": 749
   },
   "learningDetail": {
     "total": 46,
@@ -97,7 +97,7 @@
     "decisions": {
       "Pass": 46
     },
-    "averageWords": 707
+    "averageWords": 643
   },
   "meditationDetail": {
     "total": 9,
@@ -106,7 +106,7 @@
     "decisions": {
       "Pass": 9
     },
-    "averageWords": 762
+    "averageWords": 654
   },
   "quoteCategory": {
     "total": 10,
@@ -124,6 +124,6 @@
     "decisions": {
       "Pass": 153
     },
-    "averageWords": 641
+    "averageWords": 647
   }
 }
