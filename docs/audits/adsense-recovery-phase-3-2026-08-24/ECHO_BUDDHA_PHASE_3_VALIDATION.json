@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-24T04:01:12.853Z",
+  "status": "PARTIAL",
+  "completed_checks": {
+    "phase_0_baseline_verified": true,
+    "phase_1_inventory_verified": true,
+    "phase_2_scoring_verified": true,
+    "repository_private_treatment": true,
+    "current_google_guidance_reviewed": true,
+    "adsense_blocked_and_freeze_active": true,
+    "periods_and_aggregation_documented": true,
+    "search_visible_urls_reconciled": true,
+    "protection_tier_assigned_all_current_urls": true,
+    "all_tier_types_identified": true,
+    "search_momentum_analyzed": true,
+    "backlink_limitations_mapped": true,
+    "internal_authority_mapped": true,
+    "canonical_equity_mapped": true,
+    "legacy_equity_mapped": true,
+    "quality_growth_conflicts_mapped": true,
+    "quote_search_equity_mapped": true,
+    "survivor_candidates_generated": true,
+    "future_mappings_are_provisional_only": true,
+    "preservation_contracts_cover_p0_p1": true,
+    "monitoring_baseline_established": true,
+    "phase_4_readiness_assigned": true,
+    "required_artifacts_present_nonempty": true,
+    "no_production_source_changes": true,
+    "no_destructive_search_change": true,
+    "no_adsense_resubmission": true
+  },
+  "material_gaps_preventing_pass": {
+    "query_page_export_missing": true,
+    "verified_unique_query_owners_missing": true,
+    "usable_external_backlink_rows_missing": true,
+    "google_selected_canonical_and_last_crawl_missing": true,
+    "current_page_level_comparison_after_2026_08_11_missing": true,
+    "aggregate_coverage_exception_urls_missing": true
+  },
+  "counts": {
+    "current_urls": 340,
+    "current_gsc_page_rows": 183,
+    "current_urls_with_any_gsc_page_evidence": 182,
+    "current_urls_without_gsc_page_evidence": 158,
+    "current_query_rows": 334,
+    "verified_unique_query_owners": 0,
+    "tiers": {
+      "SEO_P0_CRITICAL": 3,
+      "SEO_P1_HIGH": 26,
+      "SEO_P2_EMERGING": 138,
+      "SEO_P3_LIMITED": 63,
+      "SEO_UNKNOWN": 110
+    },
+    "emerging_winners": 15,
+    "high_equity_low_value": 13,
+    "backlink_verified_urls": 0,
+    "canonical_overlap_rows": 189,
+    "survivor_clusters": 34,
+    "provisional_future_mappings": 73,
+    "phase_4_readiness_rows": 144,
+    "required_artifacts": 22
+  },
+  "pass_unlock_requirements": [
+    "Fresh query×page export with comparable periods",
+    "Usable GSC Links target/referring-page export or equivalent first-party backlink evidence",
+    "URL Inspection/Google-selected canonical and last-crawl evidence for P0/P1 and consolidation candidates",
+    "Coverage exception example URLs"
+  ]
+}

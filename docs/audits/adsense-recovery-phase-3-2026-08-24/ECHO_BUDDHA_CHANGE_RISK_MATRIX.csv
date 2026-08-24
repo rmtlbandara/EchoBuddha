@@ -1,0 +1,26 @@
+protection_tier,change_risk,examples,approval_requirement,deploy_principle
+SEO_P0_CRITICAL,SEO-R0_MINIMAL,Typo/factual/accessibility correction,Normal review and regression check,Normal controlled change
+SEO_P0_CRITICAL,SEO-R1_LOW,Add original value/citations; reduce boilerplate without changing intent,Preserve intent and verify rendering,Normal controlled change
+SEO_P0_CRITICAL,SEO-R2_MODERATE,"Major structural rewrite, title/H1 change, or broad internal-link adjustment",Impact plan plus pre/post monitoring,Normal controlled change
+SEO_P0_CRITICAL,SEO-R3_HIGH,"Merge, canonical/noindex change, or substantial intent shift","MANDATORY: explicit evidence, query map, backlink map, URL mapping, redirect plan, and post-change monitoring",Change one major system at a time; controlled batches
+SEO_P0_CRITICAL,SEO-R4_CRITICAL,"Delete, slug change, permanent redirect, or remove high-equity page","MANDATORY: explicit evidence, query map, backlink map, URL mapping, redirect plan, and post-change monitoring",Change one major system at a time; controlled batches
+SEO_P1_HIGH,SEO-R0_MINIMAL,Typo/factual/accessibility correction,Normal review and regression check,Normal controlled change
+SEO_P1_HIGH,SEO-R1_LOW,Add original value/citations; reduce boilerplate without changing intent,Preserve intent and verify rendering,Normal controlled change
+SEO_P1_HIGH,SEO-R2_MODERATE,"Major structural rewrite, title/H1 change, or broad internal-link adjustment",Impact plan plus pre/post monitoring,Normal controlled change
+SEO_P1_HIGH,SEO-R3_HIGH,"Merge, canonical/noindex change, or substantial intent shift","MANDATORY: explicit evidence, query map, backlink map, URL mapping, redirect plan, and post-change monitoring",Change one major system at a time; controlled batches
+SEO_P1_HIGH,SEO-R4_CRITICAL,"Delete, slug change, permanent redirect, or remove high-equity page","MANDATORY: explicit evidence, query map, backlink map, URL mapping, redirect plan, and post-change monitoring",Change one major system at a time; controlled batches
+SEO_P2_EMERGING,SEO-R0_MINIMAL,Typo/factual/accessibility correction,Normal review and regression check,Normal controlled change
+SEO_P2_EMERGING,SEO-R1_LOW,Add original value/citations; reduce boilerplate without changing intent,Preserve intent and verify rendering,Normal controlled change
+SEO_P2_EMERGING,SEO-R2_MODERATE,"Major structural rewrite, title/H1 change, or broad internal-link adjustment",Impact plan plus pre/post monitoring,Normal controlled change
+SEO_P2_EMERGING,SEO-R3_HIGH,"Merge, canonical/noindex change, or substantial intent shift","Query map, backlink map, survivor evidence, and explicit approval",Change one major system at a time; controlled batches
+SEO_P2_EMERGING,SEO-R4_CRITICAL,"Delete, slug change, permanent redirect, or remove high-equity page","Full URL mapping, relevant permanent redirect, internal/sitemap migration, explicit approval, and monitoring",Change one major system at a time; controlled batches
+SEO_P3_LIMITED,SEO-R0_MINIMAL,Typo/factual/accessibility correction,Normal review and regression check,Normal controlled change
+SEO_P3_LIMITED,SEO-R1_LOW,Add original value/citations; reduce boilerplate without changing intent,Preserve intent and verify rendering,Normal controlled change
+SEO_P3_LIMITED,SEO-R2_MODERATE,"Major structural rewrite, title/H1 change, or broad internal-link adjustment",Impact plan plus pre/post monitoring,Normal controlled change
+SEO_P3_LIMITED,SEO-R3_HIGH,"Merge, canonical/noindex change, or substantial intent shift","Query map, backlink map, survivor evidence, and explicit approval",Change one major system at a time; controlled batches
+SEO_P3_LIMITED,SEO-R4_CRITICAL,"Delete, slug change, permanent redirect, or remove high-equity page","Full URL mapping, relevant permanent redirect, internal/sitemap migration, explicit approval, and monitoring",Change one major system at a time; controlled batches
+SEO_UNKNOWN,SEO-R0_MINIMAL,Typo/factual/accessibility correction,Normal review and regression check,Normal controlled change
+SEO_UNKNOWN,SEO-R1_LOW,Add original value/citations; reduce boilerplate without changing intent,Preserve intent and verify rendering,Normal controlled change
+SEO_UNKNOWN,SEO-R2_MODERATE,"Major structural rewrite, title/H1 change, or broad internal-link adjustment",Impact plan plus pre/post monitoring,Normal controlled change
+SEO_UNKNOWN,SEO-R3_HIGH,"Merge, canonical/noindex change, or substantial intent shift",PROHIBITED UNTIL UNCERTAINTY RESOLVED,Change one major system at a time; controlled batches
+SEO_UNKNOWN,SEO-R4_CRITICAL,"Delete, slug change, permanent redirect, or remove high-equity page",PROHIBITED UNTIL UNCERTAINTY RESOLVED,Change one major system at a time; controlled batches

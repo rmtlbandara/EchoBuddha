@@ -1,0 +1,5 @@
+legacy_url,evidence_source,current_state,current_target,historical_clicks,historical_impressions,protection_implication,confidence
+https://echobuddha.com/404.html,Phase 1 current inventory,HTTP_307,https://echobuddha.com/404,0,0,PRESERVE_RELEVANT_WORKING_REDIRECT; VERIFY_TARGET,HIGH_FOR_CURRENT_STATE
+UNKNOWN_GSC_REDIRECT_SET,GSC coverage through 2026-08-17,8 page-with-redirect records; identities unavailable,NOT_AVAILABLE,NOT_AVAILABLE,NOT_AVAILABLE,DO_NOT_REMOVE_WORKING_REDIRECTS; obtain example URLs,LOW
+UNKNOWN_GSC_404,GSC coverage through 2026-08-17,1 not-found record; identity unavailable,NOT_AVAILABLE,NOT_AVAILABLE,NOT_AVAILABLE,CLASSIFY BEFORE ANY REDIRECT; avoid irrelevant homepage redirect,LOW
+UNKNOWN_GSC_ALTERNATE_CANONICAL,GSC coverage through 2026-08-17,1 alternate-canonical record; identity unavailable,NOT_AVAILABLE,NOT_AVAILABLE,NOT_AVAILABLE,VERIFY_GOOGLE_SELECTED_CANONICAL_BEFORE_CHANGE,LOW

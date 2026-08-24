@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-08-24T04:01:12.853Z",
+  "phase_0_verified": true,
+  "phase_1_status": "PASS",
+  "phase_2_status": "PASS",
+  "frozen_baseline_sha": "83a685bcf942349e632ae043a1327b3ed53549df",
+  "current_repository_sha": "0b8669f232ce8e45a85dbf424ba9e89e2532c9c1",
+  "current_head_source_equivalent_to_baseline": true,
+  "live_sitemap_sha256": "35645afd0ee76702af954c6bab2674736f1dd1e4ffa77786ddb3ed7a7fa891b9",
+  "phase_0_sitemap_sha256": "35645afd0ee76702af954c6bab2674736f1dd1e4ffa77786ddb3ed7a7fa891b9",
+  "live_sitemap_count": 194,
+  "live_robots_sha256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+  "phase_0_live_robots_sha256": "691c776441f7fcec265a7e28acffe92f3470dcc2ee1a726176bd553ab22290db",
+  "baseline_drift_detected": false,
+  "google_guidance_accessible": 9,
+  "gsc_current_export_date": "2026-08-21",
+  "gsc_current_performance_window": "2026-06-23 to 2026-08-18; Search type Web; property aggregate plus separate page/query tables",
+  "gsc_page_comparison_window": "2026-07-15 to 2026-08-11 versus 2026-06-17 to 2026-07-14; Search type Web; separate Page table",
+  "external_link_export_rows": 0,
+  "evaluated_state": "Frozen production source 83a685bcf942349e632ae043a1327b3ed53549df; current 0b8669f232ce8e45a85dbf424ba9e89e2532c9c1 contains private audit commits only."
+}

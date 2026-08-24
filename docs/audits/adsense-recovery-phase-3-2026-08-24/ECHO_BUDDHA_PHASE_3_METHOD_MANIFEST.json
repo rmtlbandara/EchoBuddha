@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-08-24T04:01:12.853Z",
+  "method_version": "phase3-google-growth-protection-v1",
+  "command": "node docs/audits/adsense-recovery-phase-3-2026-08-24/generate-phase-3-growth-protection.mjs",
+  "node": "v22.23.1",
+  "repository_baseline": "83a685bcf942349e632ae043a1327b3ed53549df",
+  "current_repository_head": "0b8669f232ce8e45a85dbf424ba9e89e2532c9c1",
+  "privacy": "Private/local first-party evidence joins; only public official Google pages fetched, without transmitting repository or GSC content.",
+  "input_windows": {
+    "current_gsc": "2026-06-23..2026-08-18",
+    "page_compare_current": "2026-07-15..2026-08-11",
+    "page_compare_previous": "2026-06-17..2026-07-14",
+    "links_export": "2026-08-13"
+  },
+  "methods": [
+    "Normalized canonical URL join",
+    "Relative multi-signal protection tiers",
+    "Absolute-plus-relative momentum rules",
+    "Rendered internal-link graph centrality",
+    "Declared-owner plus lexical connected-component survivor analysis",
+    "Explicit unknown/not-verified states"
+  ],
+  "limitations": [
+    "query_page_export_missing",
+    "verified_unique_query_owners_missing",
+    "usable_external_backlink_rows_missing",
+    "google_selected_canonical_and_last_crawl_missing",
+    "current_page_level_comparison_after_2026_08_11_missing",
+    "aggregate_coverage_exception_urls_missing"
+  ],
+  "artifact_sha256": {
+    "ECHO_BUDDHA_SEARCH_PERFORMANCE_PROTECTION_MAP.csv": "8addfcb3c5a79e4b520e7cf1a9651f96ed7063120a7e88b68533da3f2ad6151e",
+    "ECHO_BUDDHA_SEO_GROWTH_PROTECTION_REGISTRY.csv": "6993fd70bb8cbf758b8505c6cae06215f748ad6b3e4b1f67b961d7f8b3567b35",
+    "ECHO_BUDDHA_PROTECTED_URLS.csv": "6993fd70bb8cbf758b8505c6cae06215f748ad6b3e4b1f67b961d7f8b3567b35",
+    "ECHO_BUDDHA_QUALITY_GROWTH_MATRIX.csv": "87045276d7a23395ee1f9e1f977f90b1247af44a7f72788fe4afed901c81576e",
+    "ECHO_BUDDHA_HIGH_EQUITY_LOW_VALUE_URLS.csv": "52b7017e0c29fd6e57f8ccfc4d493b16efe9e400cdfde19cbb9cfc8374ed5d11",
+    "ECHO_BUDDHA_QUERY_OWNERSHIP_PROTECTION_MAP.csv": "c7e0ff967f41df9070006412c221eb24efdc2ed7b60aa51b9bfa760a7e2d7d46",
+    "ECHO_BUDDHA_SEARCH_MOMENTUM.csv": "bd887a284d9671c189017299532f27df709643fdc459a56da2938bc8f8e95870",
+    "ECHO_BUDDHA_BACKLINK_PROTECTION_MAP.csv": "fd217e6087527e4b67afa90785c5fd51d522e264f828946c4d66bf9254cdaff3",
+    "ECHO_BUDDHA_INTERNAL_AUTHORITY_PROTECTION_MAP.csv": "bcf30510a9d05e429ff1ab1cc2190c7668cd14371006a8e83f0a846b6ea22f3c",
+    "ECHO_BUDDHA_CANONICAL_EQUITY_MAP.csv": "05f141876e08142404424dd4c3ef9cb232c78f0dd4b40d8eae776ce98aa94742",
+    "ECHO_BUDDHA_LEGACY_URL_EQUITY.csv": "8b0ebd8a7e665e4ae47d32d544a06d8388afe5ea02e6d1b8db0166d96148744d",
+    "ECHO_BUDDHA_CONSOLIDATION_SURVIVOR_CANDIDATES.csv": "292adc8010f7f684ce448815f2ab9145fa8d30b019214bd2006975da013d0ad7",
+    "ECHO_BUDDHA_FUTURE_URL_MAPPING_PLAN.csv": "bbd19447a260fc479b3ab6e01f799c7a48ead9f3c2b42c8c162af33decec940a",
+    "ECHO_BUDDHA_SEARCH_VALUE_ELEMENT_MAP.csv": "e802eac0c3b171f7b1d44c981974514be82f2d70b898696b38c8dcfbcbb5b63c",
+    "ECHO_BUDDHA_SEO_PRESERVATION_CONTRACTS.md": "141a23e49575020b93e23fcd6248c3ae1c68660dab28fa87c1f21d05cd3718c3",
+    "ECHO_BUDDHA_CHANGE_RISK_MATRIX.csv": "5f10b436cb2b635ba4724e5388f345639b36f1e1beeba88cf0b56749c9e730e5",
+    "ECHO_BUDDHA_GROWTH_MONITORING_BASELINE.csv": "bb5a61afccccd4700674a2018133a7a087f28fd915f11de633931ce4c94455a7",
+    "ECHO_BUDDHA_POST_REMEDIATION_SEARCH_MONITORING.md": "18691ac0a3a650fb98818743c30cd0cb118b26b7a1fbe81d9b62ad8baa44052c",
+    "ECHO_BUDDHA_FAMILY_SEARCH_PROTECTION.md": "600e06a0ebf5f0d4e7bb6fd7407e38722132d91dc06cd26144bea5134b8d5bc1",
+    "ECHO_BUDDHA_QUOTE_SEARCH_EQUITY_PROTECTION.csv": "53877767a8921787826295e5fa67f6b469a20a2e3c3188cfc830acd001bf90b1",
+    "ECHO_BUDDHA_PHASE_4_CHANGE_READINESS.csv": "8f92cf34ca1ed874f8ba47eb59f1418463d70749675762edadc4277112052e8e",
+    "ECHO_BUDDHA_PHASE_3_GOOGLE_GROWTH_PROTECTION.md": "60cb6b8adc0cc7533563ebc30959bedf0c4acb376f9c4f3b21779b027ae571d7",
+    "ECHO_BUDDHA_PHASE_3_DATA_GAPS.md": "facbe0ec674e9c43bb6391bd1de5a9edfd565b60c4ea66cc62bf237e19b103cf",
+    "ECHO_BUDDHA_PHASE_3_INPUT_INTEGRITY.json": "1e0f276ac20a2f024f8743149699375e955b1840a6f55d58ef74483b1cea7cbb",
+    "ECHO_BUDDHA_PHASE_3_GOOGLE_GUIDANCE_SNAPSHOT.json": "ba45f707626692aa1b26f99239c73f189e1e592847a59afc87d98f129fcfeb5d",
+    "ECHO_BUDDHA_PHASE_3_VALIDATION.json": "a94e7f50d84b08fed8188d3928fabfdfddfd1336740f3488732139cb0df53ae4",
+    "capture-phase-3-google-guidance.mjs": "2f0f09f0c45edf9da6622b56e01d90b0ee44ffdd02f244aaa764030968bfc064",
+    "generate-phase-3-growth-protection.mjs": "aa8340f26ff9cb4fbac9d27a200e366f2580147e4dbe7e74129e19b9db4e5e0b",
+    "validate-phase-3-growth-protection.mjs": "a151d2c5da2e45ac06491ebf0db5dd17e88948338ec051107c07aefce7e2f0b8"
+  }
+}
