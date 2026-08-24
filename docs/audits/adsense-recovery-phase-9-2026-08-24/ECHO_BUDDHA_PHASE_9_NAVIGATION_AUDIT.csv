@@ -1,0 +1,12 @@
+component,page family,desktop,mobile,keyboard,accessibility,information scent,issue,remediation,final status
+Primary header,All,PASS: six major destinations fit at 1024/1280/1440,PASS: two-column/one-column progressive menu,PASS: native links; Escape returns focus,Current state and 44px mobile controls,Clear major destinations,Quotes absent before Phase 9,Added Quotes; tightened spacing without new JS,PASS
+Mobile menu,All,N/A,PASS at 320/375/640/768,PASS: first relevant link focused; Escape returns to toggle,aria-controls/expanded/label synchronized,Direct labels,None after test,Preserved working behavior,PASS
+Search dialog,All,PASS,PASS,"PASS: initial focus, Escape, restoration",Dialog semantics and focus trap,Search terms/examples,None after test,Preserved,PASS
+Article breadcrumb,Article,PASS,PASS with wrapping,Native links + current span,Breadcrumb label and current state,Home > Articles > category > page,Current page absent before,Shared breadcrumb with current page,PASS
+Learn breadcrumb,Learn detail,PASS,PASS with wrapping,Native links + current span,Breadcrumb label and current state,Home > Learn > section > page,Current page absent before,Shared breadcrumb with current page,PASS
+Quote breadcrumb,Quote topic/story,PASS,PASS with long labels wrapping,Native links + current span,Breadcrumb landmark,Home > Quotes > topic/story,Long current labels could truncate,Allow current label to wrap,PASS
+Article contents,Article,PASS sticky sidebar,PASS in content flow,Crawlable anchors,Descriptive section labels,Sticky header could obscure targets,Added global anchor offset,PASS,
+Hub cards,Learn/Articles/Quotes/Meditation,PASS,PASS,Native full-card/label links,Descriptive titles and copy,None material,Preserved,PASS,
+Footer,All,PASS three columns,PASS one column at 320,PASS,Minimum 28px link/control height,Grouped Explore/Trust/Legal,Small inline targets before,Raised target height,PASS
+Skip navigation,All,PASS,PASS,PASS: lands focus on main,Programmatic focus target,Skip to content,Main not explicitly focusable before,main tabindex=-1,PASS
+404 routes,Error,PASS,PASS,Native links,Noindex and useful recovery choices,Home/Learn/Articles/Search,None,Preserved,PASS

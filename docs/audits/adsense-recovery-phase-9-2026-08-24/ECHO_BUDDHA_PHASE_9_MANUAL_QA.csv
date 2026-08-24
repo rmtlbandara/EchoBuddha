@@ -1,0 +1,14 @@
+URL,browser,viewport,mouse,touch approximation,keyboard,zoom,responsive,visual,result
+/,Chromium,320x760,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/articles/dhamma-vs-dharma/,Chromium,320x760 + 1440x900,PASS,PASS approximation,PASS,640px reflow approximation,PASS,PASS,PASS
+/articles/dhammapada-verse-1-meaning/,Chromium,320x760 + 1440x900,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/articles/right-speech-buddhism/,Chromium,320x760 + 375x812 + 640x900 + 1440x900,PASS,PASS approximation,PASS,200% reflow approximation PASS,PASS,PASS,PASS
+/quotes/letting-go/,Chromium,320x760 + 375x812 + 768x900 + 1440x900,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/learn/buddhism-101/what-is-buddhism/,Chromium,320x760 + 768x900 + 1440x900,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/learn/buddhist-dictionary/anicca/,Chromium,320x760 + 1440x900,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/,Chromium,320x760 + 1440x900,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,Chromium,320x760 + 1440x900,PASS,PASS approximation,PASS,N/A,PASS,PASS,PASS
+/contact/,Chromium,320x760 + 640x900 + 1440x900,PASS,PASS approximation,PASS,200% reflow approximation PASS,PASS,PASS,PASS
+/404.html,Chromium,320x760 + 640x900 + 1440x900,PASS,PASS approximation,PASS,200% reflow approximation PASS,PASS,PASS,PASS
+Representative routes,Safari/WebKit,NOT_AVAILABLE,NOT_TESTED,NOT_TESTED,NOT_TESTED,NOT_TESTED,NOT_TESTED,NOT_TESTED,SAFARI_WEBKIT_VALIDATION_PENDING
+Representative routes,Firefox,NOT_AVAILABLE,NOT_TESTED,NOT_TESTED,NOT_TESTED,NOT_TESTED,NOT_TESTED,NOT_TESTED,FIREFOX_ENGINE_VALIDATION_PENDING

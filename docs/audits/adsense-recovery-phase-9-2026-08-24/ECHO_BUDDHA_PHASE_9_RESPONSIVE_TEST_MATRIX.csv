@@ -1,0 +1,19 @@
+URL,viewport,browser,horizontal overflow,navigation,content,breadcrumb,result
+https://echobuddha.com/,320x760 small mobile,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,NOT_APPLICABLE,PASS
+https://echobuddha.com/,1440x900 desktop,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,NOT_APPLICABLE,PASS
+https://echobuddha.com/articles/dhamma-vs-dharma/,320x760 small mobile,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/articles/dhamma-vs-dharma/,1440x900 desktop,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/articles/dhammapada-verse-1-meaning/,320x760 small mobile,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/articles/dhammapada-verse-1-meaning/,1440x900 desktop,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/articles/right-speech-buddhism/,320x760 small mobile,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/articles/right-speech-buddhism/,1440x900 desktop,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/quotes/letting-go/,320x760 small mobile,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/quotes/letting-go/,1440x900 desktop,Chromium in-app + Playwright Chromium,NONE,PASS,PASS,PASS_CURRENT_PAGE_PRESENT,PASS
+https://echobuddha.com/,375x812 standard mobile,Chromium in-app,NONE,PASS,PASS,NOT_APPLICABLE,PASS
+https://echobuddha.com/articles/right-speech-buddhism/,375x812 standard mobile,Chromium in-app,NONE,PASS,PASS,PASS,PASS
+https://echobuddha.com/quotes/letting-go/,768x900 tablet,Chromium in-app,NONE,PASS,PASS,PASS,PASS
+https://echobuddha.com/learn/buddhism-101/what-is-buddhism/,768x900 tablet,Chromium in-app,NONE,PASS,PASS,PASS,PASS
+https://echobuddha.com/contact/,1024x850 small desktop,Chromium in-app,NONE,PASS,PASS,NOT_APPLICABLE,PASS
+https://echobuddha.com/404.html,1280x850 standard desktop,Chromium in-app,NONE,PASS,PASS,NOT_APPLICABLE,PASS
+https://echobuddha.com/,640x900 200% reflow approximation,Chromium in-app,NONE,PASS,PASS,NOT_APPLICABLE,PASS
+https://echobuddha.com/articles/right-speech-buddhism/,640x900 200% reflow approximation,Chromium in-app,NONE,PASS,PASS,PASS,PASS

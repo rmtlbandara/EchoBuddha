@@ -11,6 +11,14 @@
       "date": "2026-08-21"
     },
     {
+      "type": "protected-file",
+      "target": "src/components/Header.astro",
+      "approved": true,
+      "reason": "Phase 9 exposes the established Quotes content family in primary navigation and slightly tightens desktop link spacing without changing routes, Search ownership, indexability, consent, or deployment behavior.",
+      "owner": "Echo Buddha project owner via the 2026-08-24 Phase 9 UX and navigation hardening request",
+      "date": "2026-08-24"
+    },
+    {
       "type": "redirect-and-content-consolidation",
       "target": "/articles/how-to-practice-non-attachment/ -> /articles/how-to-let-go-of-attachment-in-buddhism/",
       "approved": true,

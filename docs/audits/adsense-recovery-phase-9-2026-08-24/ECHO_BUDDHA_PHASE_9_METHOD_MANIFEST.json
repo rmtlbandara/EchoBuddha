@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-08-24T11:20:17.918Z",
+  "date": "2026-08-24",
+  "repositoryPrivacy": "TREATED_AS_PRIVATE",
+  "startingPhase8Commit": "e42d3cb89e48373206292bbcaf475a72562d37c6",
+  "phase3EvidenceCommit": "2fb776a",
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "productionModified": false,
+  "deployed": false,
+  "adsenseSubmitted": false,
+  "phase10Started": false,
+  "validation": {
+    "fullRepository": "PASS: build + typecheck + lint + 17 tests + SEO/content/quote/cornerstone/trust audits",
+    "technicalPhase9": "PASS 26/26",
+    "recoveryPhase9": "PASS 16/16",
+    "browser": "PASS 18 axe pages + 6 consent scenarios",
+    "lighthouse": "PASS 20 profiles",
+    "secretScan": "PASS"
+  },
+  "officialGuidance": [
+    "https://developers.google.com/search/docs/appearance/page-experience",
+    "https://web.dev/articles/vitals",
+    "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
+    "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+    "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb",
+    "https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials",
+    "https://support.google.com/adsense/answer/7299563",
+    "https://www.w3.org/TR/WCAG22/"
+  ],
+  "evidenceSources": [
+    "current dist route graph",
+    "Phase 3 first-party Search protection evidence",
+    "Phase 5–8 reports and registries",
+    "axe browser automation",
+    "Chromium hands-on responsive/keyboard QA",
+    "local Lighthouse before/after"
+  ],
+  "tools": [
+    "Astro production build",
+    "existing Playwright/axe browser readiness runner",
+    "existing Lighthouse runner",
+    "in-app Chromium browser",
+    "custom deterministic Phase 9 graph/evidence generator"
+  ],
+  "counts": {
+    "generatedPages": 335,
+    "nonErrorPages": 334,
+    "reachableNonError": 334,
+    "orphans": 0,
+    "deadEnds": 0,
+    "maxDepth": 3,
+    "protectedSearchRows": 19,
+    "protectedSearchPass": 19,
+    "axePages": 18,
+    "axeViolations": 0,
+    "lighthouseProfiles": 20
+  },
+  "holds": [
+    "FIELD_CWV_INSUFFICIENT_DATA",
+    "SAFARI_WEBKIT_VALIDATION_PENDING",
+    "FIREFOX_ENGINE_VALIDATION_PENDING",
+    "SCREEN_READER_MANUAL_TEST_PENDING",
+    "PHYSICAL_TOUCH_DEVICE_VALIDATION_PENDING"
+  ],
+  "limitations": [
+    "No field CWV/CrUX dataset used",
+    "No Safari/WebKit or Firefox engine available",
+    "No real screen reader or physical touch device available",
+    "TBT is reported only as a lab interactivity proxy and never as INP"
+  ]
+}

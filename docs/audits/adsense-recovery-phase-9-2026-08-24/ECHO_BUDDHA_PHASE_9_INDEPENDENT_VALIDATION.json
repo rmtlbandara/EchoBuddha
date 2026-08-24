@@ -1,0 +1,62 @@
+{
+  "phase": "AdSense recovery Phase 9 — UX and Navigation Hardening",
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "counts": {
+    "generatedPages": 335,
+    "nonErrorPages": 334,
+    "reachableNonError": 334,
+    "orphans": 0,
+    "deadEnds": 0,
+    "maxDepth": 3,
+    "protectedSearchRows": 19,
+    "protectedSearchPass": 19,
+    "axePages": 18,
+    "axeViolations": 0,
+    "lighthouseProfiles": 20
+  },
+  "holds": [
+    "FIELD_CWV_INSUFFICIENT_DATA",
+    "SAFARI_WEBKIT_VALIDATION_PENDING",
+    "FIREFOX_ENGINE_VALIDATION_PENDING",
+    "SCREEN_READER_MANUAL_TEST_PENDING",
+    "PHYSICAL_TOUCH_DEVICE_VALIDATION_PENDING"
+  ],
+  "navigation": {
+    "desktop": "PASS",
+    "mobile": "PASS",
+    "keyboard": "PASS",
+    "quotesPrimaryDestination": true
+  },
+  "journeys": {
+    "searchLanding": "PASS",
+    "beginner": "PASS",
+    "lookup": "PASS",
+    "quotes": "PASS",
+    "trustCorrections": "PASS"
+  },
+  "accessibility": {
+    "automated": "PASS",
+    "manual": "PASS_WITH_HOLDS",
+    "critical": 0,
+    "high": 0
+  },
+  "responsive": {
+    "smallMobile": "PASS",
+    "standardMobile": "PASS",
+    "tablet": "PASS",
+    "desktop": "PASS",
+    "zoomReflowApproximation": "PASS"
+  },
+  "pageExperience": {
+    "lab": "PASS",
+    "field": "FIELD_DATA_NOT_AVAILABLE",
+    "materialRegression": false
+  },
+  "searchPreservation": {
+    "urls": "PASS",
+    "internalLinks": "PASS",
+    "canonicals": "PASS",
+    "indexability": "PASS"
+  },
+  "independentConclusion": "No critical/high core UX or accessibility defect remains. Holds concern unavailable engines/devices/field evidence, not a broken journey."
+}

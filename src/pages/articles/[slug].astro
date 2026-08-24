@@ -5,6 +5,7 @@ import ArticleCard from "../../components/ArticleCard.astro";
 import ArticleShare from "../../components/ArticleShare.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import EditorialStandardsLinks from "../../components/EditorialStandardsLinks.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import {
   SITE,
   fullArticles,
@@ -434,13 +435,12 @@ const jsonLd = [
   <article>
     <header class="page-hero">
       <div class="container prose">
-        <nav class="breadcrumbs" aria-label="Breadcrumb">
-          <a href="/">Home</a>
-          <span aria-hidden="true">/</span>
-          <a href="/articles/">Articles</a>
-          <span aria-hidden="true">/</span>
-          <a href={`/articles/category/${category.slug}/`}>{article.category}</a>
-        </nav>
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Articles", href: "/articles/" },
+          { label: article.category, href: `/articles/category/${category.slug}/` },
+          { label: article.title }
+        ]} />
         <a class="eyebrow category-eyebrow" href={`/articles/category/${category.slug}/`}>{article.category}</a>
         <h1>{article.title}</h1>
         <p class="lede">{article.description}</p>

@@ -4,6 +4,7 @@ import AdSlot from "../../../components/AdSlot.astro";
 import LearningCard from "../../../components/LearningCard.astro";
 import EditorialAttribution from "../../../components/EditorialAttribution.astro";
 import EditorialStandardsLinks from "../../../components/EditorialStandardsLinks.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
 import {
   getAllLearningPages,
   getBreadcrumbJsonLd,
@@ -92,14 +93,10 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
   <article>
     <header class="page-hero">
       <div class="container prose">
-        <nav class="breadcrumbs" aria-label="Breadcrumb">
-          {breadcrumbs.slice(0, -1).map((item, index) => (
-            <>
-              {index > 0 && <span aria-hidden="true">/</span>}
-              <a href={item.href}>{item.name}</a>
-            </>
-          ))}
-        </nav>
+        <Breadcrumbs items={breadcrumbs.map((item, index) => ({
+          label: item.name,
+          href: index < breadcrumbs.length - 1 ? item.href : undefined
+        }))} />
         <span class="eyebrow">{page.eyebrow}</span>
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
@@ -201,20 +198,6 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 </Layout>
 
 <style>
-  .breadcrumbs {
-    align-items: center;
-    color: var(--color-muted);
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.86rem;
-    gap: 0.4rem;
-    margin-bottom: 1rem;
-  }
-
-  .breadcrumbs a {
-    color: var(--color-muted);
-  }
-
   .key-box,
   .practice-box,
   .clarification-box,
