@@ -93,7 +93,7 @@ The privacy policy must stay aligned with actual scripts and services.
 
 ## AdSense Status
 
-The AdSense publisher ID is centralized in `src/data/ads.ts` and exposed only through verification metadata and `public/ads.txt`. Runtime AdSense script loading and manual ad slots remain disabled through `ADSENSE.runtimeScriptEnabled` and `ADSENSE.manualSlotsEnabled`.
+The AdSense publisher ID is centralized in `src/data/ads.ts` and exposed only through verification metadata and `public/ads.txt`. Runtime AdSense script loading, Auto Ads, and manual ad slots remain disabled through independent approval, serving, runtime, Auto Ads, and manual-slot gates. `src/data/monetization.mjs` is the default-deny route and placement firewall; unknown routes and incomplete metadata cannot render ads.
 
 Future ad work must review consent/CMP requirements, content quality, policy pages, exact placement, mobile UX, accessibility, performance, and invalid-traffic risk.
 

@@ -2,7 +2,6 @@
 import Layout from "../../../layouts/Layout.astro";
 import QuoteCard from "../../../components/QuoteCard.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
-import AdSlot from "../../../components/AdSlot.astro";
 import ArticleShare from "../../../components/ArticleShare.astro";
 import Breadcrumbs from "../../../components/Breadcrumbs.astro";
 import EditorialAttribution from "../../../components/EditorialAttribution.astro";
@@ -190,7 +189,6 @@ const jsonLd = [
           </section>
         )}
 
-        <AdSlot />
 
         <h2>Reflection Question</h2>
         <p>{reflectionQuestion}</p>
@@ -213,7 +211,6 @@ const jsonLd = [
           <p>{category.introduction}</p>
           <a href={`/quotes/${category.slug}/`}>Explore all {quote.theme} quotes</a>
         </div>
-        <AdSlot size="box" />
       </aside>
     </div>
   </article>

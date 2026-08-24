@@ -1,6 +1,5 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import AdSlot from "../../components/AdSlot.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import EditorialAttribution from "../../components/EditorialAttribution.astro";
@@ -92,7 +91,6 @@ const jsonLd = [
 	          <>
             <h2>{section.heading}</h2>
             {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
-            {index === 1 && <AdSlot />}
           </>
 	        ))}
 	        {qualityNote && (
@@ -145,7 +143,6 @@ const jsonLd = [
             </ul>
           </div>
         )}
-        <AdSlot size="box" />
       </aside>
     </div>
   </article>

@@ -2,7 +2,6 @@
 import Layout from "../../layouts/Layout.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
-import AdSlot from "../../components/AdSlot.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { SITE, getArticlesForQuoteTheme, getQuoteSlug, quoteCategories, quotes } from "../../data/site";
 
@@ -265,7 +264,6 @@ const jsonLd = [
           </div>
         </section>
       )}
-      <AdSlot />
 
       {relatedArticles.length > 0 && (
         <section class="related-reading">

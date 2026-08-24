@@ -6,12 +6,12 @@ type Props = {
 };
 
 const { noindex = false } = Astro.props;
-const shouldVerifyOwnership = ADSENSE.enabled && !noindex;
+const shouldVerifyOwnership = ADSENSE.verificationMetaEnabled && !noindex;
 ---
 
 <!--
   Ownership verification uses Google's no-network meta method plus /ads.txt.
   Runtime ad delivery stays disabled until the owner completes the AdSense,
-  certified-CMP and regional ad-personalization decisions documented in Phase 8.
+  certified-CMP and regional ad-personalization decisions documented in Phase 10.
 -->
 {shouldVerifyOwnership && <meta name="google-adsense-account" content={ADSENSE.publisherId} />}

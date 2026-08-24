@@ -21,7 +21,10 @@ test("analytics requires affirmative consent and advertising storage remains den
   assert.match(consent, /ad_personalization:\s*"denied"/);
   assert.match(consent, /ga-disable-\$\{analyticsId\}/);
   assert.match(site, /adsEnabled:\s*true/);
-  assert.match(ads, /enabled:\s*true/);
+  assert.match(ads, /verificationMetaEnabled:\s*true/);
+  assert.match(ads, /siteApprovedForRendering:\s*false/);
+  assert.match(ads, /servingEnabled:\s*false/);
+  assert.match(ads, /autoAdsEnabled:\s*false/);
   assert.match(ads, /publisherId:\s*"ca-pub-3911157640549350"/);
   assert.match(ads, /runtimeScriptEnabled:\s*false/);
   assert.match(ads, /manualSlotsEnabled:\s*false/);

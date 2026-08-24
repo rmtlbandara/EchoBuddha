@@ -1,0 +1,342 @@
+{
+  "phase": 10,
+  "generated_at": "2026-08-24T16:19:16.901Z",
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "firewall_pass": true,
+  "checks_passed": 56,
+  "checks_failed": 0,
+  "checks_total": 56,
+  "checks": [
+    {
+      "id": "INV-01",
+      "status": "PASS",
+      "evidence": "335/335 unique HTML routes"
+    },
+    {
+      "id": "INV-02",
+      "status": "PASS",
+      "evidence": "335/335 built HTML files"
+    },
+    {
+      "id": "INV-02B",
+      "status": "PASS",
+      "evidence": "built HTML routes and exact registry keys reconcile bidirectionally"
+    },
+    {
+      "id": "INV-03",
+      "status": "PASS",
+      "evidence": "{\"NEVER_MONETIZE\":252,\"ELIGIBLE_CANDIDATE\":7,\"HOLD_MANUAL_REVIEW\":76}"
+    },
+    {
+      "id": "INV-04",
+      "status": "PASS",
+      "evidence": "149 indexable + 186 noindex/error = 335"
+    },
+    {
+      "id": "INV-05",
+      "status": "PASS",
+      "evidence": "all rows have exactly one valid state, family and reason"
+    },
+    {
+      "id": "INV-06",
+      "status": "PASS",
+      "evidence": "340 inventory records plus header"
+    },
+    {
+      "id": "INV-07",
+      "status": "PASS",
+      "evidence": "5/5 technical resources classified separately"
+    },
+    {
+      "id": "ELG-01",
+      "status": "PASS",
+      "evidence": "7 explicit page-level Phase 6 article candidates"
+    },
+    {
+      "id": "ELG-02",
+      "status": "PASS",
+      "evidence": "complete candidate context retains registry state"
+    },
+    {
+      "id": "ELG-03",
+      "status": "PASS",
+      "evidence": "missing metadata denies all candidates"
+    },
+    {
+      "id": "ELG-04",
+      "status": "PASS",
+      "evidence": "186/186 noindex/error routes denied"
+    },
+    {
+      "id": "ELG-05",
+      "status": "PASS",
+      "evidence": "required conservative deny matrix passes"
+    },
+    {
+      "id": "ELG-06",
+      "status": "PASS",
+      "evidence": "unapproved substantive Article and Learn routes held"
+    },
+    {
+      "id": "ELG-07",
+      "status": "PASS",
+      "evidence": "unknown, external and malformed routes fail closed"
+    },
+    {
+      "id": "ELG-08",
+      "status": "PASS",
+      "evidence": "query/fragment normalize to the exact registered page without changing state"
+    },
+    {
+      "id": "PLC-01",
+      "status": "PASS",
+      "evidence": "explicit candidate plus explicit semantic zone passes placement-only gate"
+    },
+    {
+      "id": "PLC-02",
+      "status": "PASS",
+      "evidence": "14/14 protected zones denied"
+    },
+    {
+      "id": "PLC-03",
+      "status": "PASS",
+      "evidence": "unknown zone denied"
+    },
+    {
+      "id": "PLC-04",
+      "status": "PASS",
+      "evidence": "safe zone cannot override page denial"
+    },
+    {
+      "id": "GAT-01",
+      "status": "PASS",
+      "evidence": "site approval gate false"
+    },
+    {
+      "id": "GAT-02",
+      "status": "PASS",
+      "evidence": "serving kill switch false"
+    },
+    {
+      "id": "GAT-03",
+      "status": "PASS",
+      "evidence": "Auto Ads flag false"
+    },
+    {
+      "id": "GAT-04",
+      "status": "PASS",
+      "evidence": "runtime flag false"
+    },
+    {
+      "id": "GAT-05",
+      "status": "PASS",
+      "evidence": "manual slots flag false"
+    },
+    {
+      "id": "GAT-05B",
+      "status": "PASS",
+      "evidence": "no manual slot ID is approved"
+    },
+    {
+      "id": "GAT-06",
+      "status": "PASS",
+      "evidence": "candidate cannot load or render while global gates are off"
+    },
+    {
+      "id": "BLD-01",
+      "status": "PASS",
+      "evidence": "0 AdSense runtimes/units in 335 built pages"
+    },
+    {
+      "id": "BLD-02",
+      "status": "PASS",
+      "evidence": "0 rendered ad-slot/placeholder elements"
+    },
+    {
+      "id": "BLD-03",
+      "status": "PASS",
+      "evidence": "0 direct raw ad units"
+    },
+    {
+      "id": "BLD-04",
+      "status": "PASS",
+      "evidence": "homepage ownership meta preserved"
+    },
+    {
+      "id": "BLD-05",
+      "status": "PASS",
+      "evidence": "no verification/ad metadata on noindex 404"
+    },
+    {
+      "id": "BLD-06",
+      "status": "PASS",
+      "evidence": "ads.txt exact valid repository record"
+    },
+    {
+      "id": "BLD-07",
+      "status": "PASS",
+      "evidence": "0 distributed template slot calls"
+    },
+    {
+      "id": "DOC-01",
+      "status": "PASS",
+      "evidence": "manifest status and 340-resource inventory reconcile"
+    },
+    {
+      "id": "DOC-02",
+      "status": "PASS",
+      "evidence": "11 official Google policy/help sources recorded"
+    },
+    {
+      "id": "DOC-03",
+      "status": "PASS",
+      "evidence": "primary report contains all 43 exact numbered sections"
+    },
+    {
+      "id": "DOC-04",
+      "status": "PASS",
+      "evidence": "required safety and scope outcomes stated"
+    },
+    {
+      "id": "DOC-05",
+      "status": "PASS",
+      "evidence": "owner/account blockers explicit"
+    },
+    {
+      "id": "DOC-06",
+      "status": "PASS",
+      "evidence": "CMP and sensitive-interest safeguards documented"
+    },
+    {
+      "id": "DOC-07",
+      "status": "PASS",
+      "evidence": "Auto Ads state and limitations documented"
+    },
+    {
+      "id": "DOC-08",
+      "status": "PASS",
+      "evidence": "13 template rows + central component + header"
+    },
+    {
+      "id": "DOC-09",
+      "status": "PASS",
+      "evidence": "desktop and 390x844 browser firewall review passes"
+    },
+    {
+      "id": "PRV-01",
+      "status": "PASS",
+      "evidence": "Phase 3 completion and original 54/54 preserved"
+    },
+    {
+      "id": "PRV-02",
+      "status": "PASS",
+      "evidence": "Phase 4 preserved"
+    },
+    {
+      "id": "PRV-03",
+      "status": "PASS",
+      "evidence": "Phase 5 preserved"
+    },
+    {
+      "id": "PRV-04",
+      "status": "PASS",
+      "evidence": "Phase 6 preserved"
+    },
+    {
+      "id": "PRV-05",
+      "status": "PASS",
+      "evidence": "Phase 7 preserved"
+    },
+    {
+      "id": "PRV-06",
+      "status": "PASS",
+      "evidence": "Phase 8 preserved"
+    },
+    {
+      "id": "PRV-07",
+      "status": "PASS",
+      "evidence": "Phase 9 preserved: PASS_WITH_EXPLICIT_HOLDS"
+    },
+    {
+      "id": "SCP-01",
+      "status": "PASS",
+      "evidence": "deployment and production configuration untouched"
+    },
+    {
+      "id": "SCP-02",
+      "status": "PASS",
+      "evidence": "no OAuth/token path tracked"
+    },
+    {
+      "id": "SCP-03",
+      "status": "PASS",
+      "evidence": "no credential JSON keys in changed files"
+    },
+    {
+      "id": "SCP-04",
+      "status": "PASS",
+      "evidence": "no high-confidence OAuth/API token values"
+    },
+    {
+      "id": "SCP-05",
+      "status": "PASS",
+      "evidence": "scope controls preserved"
+    },
+    {
+      "id": "ART-01",
+      "status": "PASS",
+      "evidence": "16/16 pre-validation artifacts present"
+    }
+  ],
+  "metrics": {
+    "html_inventory": 335,
+    "technical_non_html": 5,
+    "total_inventory": 340,
+    "NEVER_MONETIZE": 252,
+    "ELIGIBLE_CANDIDATE": 7,
+    "HOLD_MANUAL_REVIEW": 76,
+    "unclassified_html": 0,
+    "protected_zones": 14,
+    "real_ad_requests": 0,
+    "rendered_placeholders": 0,
+    "direct_raw_slots": 0
+  },
+  "global_gates": {
+    "siteApprovedForRendering": false,
+    "servingEnabled": false,
+    "autoAdsEnabled": false,
+    "runtimeScriptEnabled": false,
+    "manualSlotsEnabled": false
+  },
+  "owner_holds": [
+    "AUTO_ADS_ACCOUNT_STATE_OWNER_CONFIRMATION_PENDING",
+    "CMP_CONFIGURATION_REQUIRED_BEFORE_AD_SERVING",
+    "ADS_TXT_ACCOUNT_CONFIRMATION_PENDING",
+    "ADSENSE_SITE_APPROVAL_NOT_RECORDED",
+    "PRIVACY_AND_LEGAL_REVIEW_PENDING"
+  ],
+  "secret_scan": "PASS",
+  "production_modified": false,
+  "merged": false,
+  "deployed": false,
+  "adsense_submitted": false,
+  "phase_11_started": false,
+  "artifact_sha256": {
+    "ADSENSE_INTEGRATION_INVENTORY.csv": "79fe76cd21666a6fdc9d9ae150f8aa20cb80736a6fb69c8a047ef0d47b8f9136",
+    "INVENTORY_FIREWALL.csv": "fdf3c4cb5222c6e4f093380c07045d2da26faf0961335d9a41cc207d4bf198db",
+    "PAGE_FAMILY_POLICY.csv": "1a05c1cc41f014de3cf96b714d48fde184e8ae7d58efceacf1dacbef69b1ac7c",
+    "AD_ZONE_POLICY.csv": "fb4d50cafa999d02196f26c702cef59537b69886f352fec3a4ae250242b27ff6",
+    "AUTO_ADS_EXCLUSION_PLAN.csv": "addfdf80dc6dfbd13afcbfb3cac8c6977f044704253f23b2b0183f8ecf12b9a8",
+    "AD_PLACEHOLDER_AUDIT.csv": "1a8ccce1a5cf712885e7f90403dfb00616d9f7f643ebcccb96aca531f8a3f45c",
+    "AD_CODE_AUDIT.md": "60fca9ef4a7f66dae9223e7954da8a47327d261ac5a78bab2e39b37d7fff80f3",
+    "ADS_TXT_AUDIT.md": "1de653abaed417e3d3c2973df0245f53f2292fb164aabfc30eaf61d79618c7a5",
+    "VERIFICATION_VS_SERVING.md": "725fa97184bf4eb2fb2115194b4b7bdfc7e9f36cf976d263047ab7fbb4d55592",
+    "AD_PRIVACY_READINESS.md": "52ea150da241c5a7365236670632204059accd2e6ae95d4ad043ee14e9c2cdf0",
+    "ECHO_BUDDHA_ADVERTISING_GOVERNANCE.md": "2082487a630eeea020571fabc03cfdbc1682d0277d440f623f70b3bfeb875aa7",
+    "POST_APPROVAL_ACTIVATION_CHECKLIST.md": "c79149a75b467d878a17b2294463cf2392e184f4a6410c6d30268493d83a835a",
+    "ADSERVING_ROLLBACK_PLAN.md": "59e96864f3d58a502adcf943faa597e058b405314e723b5e4c7356543c168df2",
+    "OWNER_ACTION_REQUIRED.md": "165c29d1defa585bc020aecfb5ede8a4c02659038d5f6aaa4559e301a7422685",
+    "METHOD_MANIFEST.json": "be530a7d4b63642e3f860b696cd3177bc42b683b8fab5e9938ebc66d001fecc3",
+    "ADSENSE_INVENTORY_FIREWALL_REPORT.md": "af04df526bc783fcb4a5a986edfd24fc6e9dc246ed668c5cca7bc75daeab53be"
+  }
+}

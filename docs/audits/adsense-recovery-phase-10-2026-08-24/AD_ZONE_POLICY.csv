@@ -1,0 +1,17 @@
+zone,type,current_state,eligible_family,rule
+ARTICLE_AFTER_MEANINGFUL_SECTION,FUTURE_ALLOWLIST,OFF,ARTICLE_EXPLICIT_CANDIDATE_ONLY,after meaningful publisher content; never first viewport; manual review required
+LEARN_AFTER_MEANINGFUL_SECTION,FUTURE_ALLOWLIST,OFF,NONE_CURRENTLY,reserved; no current Learn candidate
+HEADER,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+PRIMARY_NAVIGATION,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+BREADCRUMBS,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+SEARCH,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+TABLE_OF_CONTENTS,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+SHARE_CONTROLS,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+COPY_CONTROLS,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+FORMS,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+RELATED_CONTENT,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+FOOTER,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+CONSENT_UI,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+FIRST_MOBILE_VIEWPORT,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+MULTI_STEP_INSTRUCTIONS,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone
+ERROR_UI,PROTECTED_DENY,OFF,NONE,never render an ad in or adjacent to this interaction/navigation/trust zone

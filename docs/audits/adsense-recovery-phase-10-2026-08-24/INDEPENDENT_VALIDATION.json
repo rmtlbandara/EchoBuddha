@@ -1,0 +1,275 @@
+{
+  "phase": 10,
+  "generated_at": "2026-08-24T16:19:16.689Z",
+  "reviewer": "independent adversarial deterministic pass",
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "independent_pass": true,
+  "attacks_total": 52,
+  "attacks_passed": 52,
+  "bypasses": 0,
+  "checks": [
+    {
+      "id": "RT-UNKNOWN",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/future-page/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-UNKNOWN-ARTICLE",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/articles/not-in-inventory/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-DYNAMIC",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/api/render/anything/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-EXTERNAL",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"https://example.com/articles/right-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-PROTOCOL-RELATIVE",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"//evil.example/path/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-TRAVERSAL",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/articles/../right-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-BACKSLASH",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/articles\\\\right-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-DOUBLE-SLASH",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/articles//right-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-ENCODED-SLASH",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/articles%2fright-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-WRONG-CASE",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/Articles/right-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-EMPTY",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"\" did not gain candidacy"
+    },
+    {
+      "id": "RT-NUL",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "\"/articles/\\u0000right-speech-buddhism/\" did not gain candidacy"
+    },
+    {
+      "id": "RT-QUERY",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "benign query/fragment maps to same exact registered route, not a new policy row"
+    },
+    {
+      "id": "RT-QUERY-NEVER",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "query cannot lift a denied page"
+    },
+    {
+      "id": "RT-NORMALIZE-HOST",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "canonical host normalizes consistently while serving remains gated"
+    },
+    {
+      "id": "CTX-MISSING-ALL",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "missing page evidence denied"
+    },
+    {
+      "id": "CTX-MISSING-INDEX",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "missing indexability denied"
+    },
+    {
+      "id": "CTX-MISSING-REVIEW",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "missing publisher-content review denied"
+    },
+    {
+      "id": "CTX-NOINDEX",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "runtime noindex overrides candidate registry"
+    },
+    {
+      "id": "CTX-FALSE-INDEX",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "false indexability denied"
+    },
+    {
+      "id": "PAGE-HOLD",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "allowlisted Learn zone cannot lift held page"
+    },
+    {
+      "id": "PAGE-NEVER",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "allowlisted zone cannot lift never page"
+    },
+    {
+      "id": "ZONE-UNKNOWN",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "unregistered zone denied"
+    },
+    {
+      "id": "ZONE-MISSING",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "missing zone denied"
+    },
+    {
+      "id": "ZONE-HEADER",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "HEADER protected"
+    },
+    {
+      "id": "ZONE-PRIMARY_NAVIGATION",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "PRIMARY_NAVIGATION protected"
+    },
+    {
+      "id": "ZONE-BREADCRUMBS",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "BREADCRUMBS protected"
+    },
+    {
+      "id": "ZONE-SEARCH",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "SEARCH protected"
+    },
+    {
+      "id": "ZONE-TABLE_OF_CONTENTS",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "TABLE_OF_CONTENTS protected"
+    },
+    {
+      "id": "ZONE-SHARE_CONTROLS",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "SHARE_CONTROLS protected"
+    },
+    {
+      "id": "ZONE-COPY_CONTROLS",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "COPY_CONTROLS protected"
+    },
+    {
+      "id": "ZONE-FORMS",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "FORMS protected"
+    },
+    {
+      "id": "ZONE-RELATED_CONTENT",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "RELATED_CONTENT protected"
+    },
+    {
+      "id": "ZONE-FOOTER",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "FOOTER protected"
+    },
+    {
+      "id": "ZONE-CONSENT_UI",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "CONSENT_UI protected"
+    },
+    {
+      "id": "ZONE-FIRST_MOBILE_VIEWPORT",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "FIRST_MOBILE_VIEWPORT protected"
+    },
+    {
+      "id": "ZONE-MULTI_STEP_INSTRUCTIONS",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "MULTI_STEP_INSTRUCTIONS protected"
+    },
+    {
+      "id": "ZONE-ERROR_UI",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "ERROR_UI protected"
+    },
+    {
+      "id": "GATE-RUNTIME",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "runtime cannot load"
+    },
+    {
+      "id": "GATE-RENDER",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "strongest candidate and safe zone still cannot render"
+    },
+    {
+      "id": "GATE-MISSING-POLICY",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "missing policy cannot render"
+    },
+    {
+      "id": "GATE-ALL-FALSE",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "all five global controls false"
+    },
+    {
+      "id": "REG-COMPLETE",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "335/335 HTML routes classified"
+    },
+    {
+      "id": "REG-NOINDEX",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "all 186 non-indexable rows denied"
+    },
+    {
+      "id": "REG-CANDIDATES",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "candidate set cannot expand implicitly"
+    },
+    {
+      "id": "REG-WEAKEST",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "every candidate, including weakest, has rendered references and accountability"
+    },
+    {
+      "id": "OUT-NETWORK",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "335 built pages contain zero real ad request code"
+    },
+    {
+      "id": "OUT-PLACEHOLDER",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "335 built pages contain zero empty slot elements"
+    },
+    {
+      "id": "OUT-VERIFY",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "verification remains network-free and noindex-aware"
+    },
+    {
+      "id": "OUT-SITEMAP",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "149-URL indexable inventory preserved"
+    },
+    {
+      "id": "SEC-TOKEN",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "no token/API-key value marker in audit artifacts"
+    },
+    {
+      "id": "SEC-PRIVATE-DATA",
+      "result": "PASS_DENIED_OR_CONTROLLED",
+      "evidence": "no private OAuth path in artifacts"
+    }
+  ],
+  "conclusion": "No attempted unknown-route, malformed-input, context, page, zone, output or gate bypass produced ad rendering.",
+  "current_ad_requests": 0,
+  "owner_holds_preserved": true
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:28:41.155Z",
+  "generatedAt": "2026-08-24T16:18:27.283Z",
   "reviewer": "Independent adversarial rendered-corpus and recovery-preservation pass",
   "status": "PASS",
   "totalChecks": 26,
@@ -71,7 +71,7 @@
       "id": "IND-10",
       "challenge": "No arbitrary visual or structural randomization",
       "pass": true,
-      "evidence": "Global design system unchanged"
+      "evidence": "Later Phase 9 UX changes carry their own governed validation"
     },
     {
       "id": "IND-11",
@@ -131,7 +131,7 @@
       "id": "IND-20",
       "challenge": "Quote user permalinks are not overworked",
       "pass": true,
-      "evidence": "Phase 5 quote rendering/data untouched"
+      "evidence": "Phase 10 only removes inactive ad placeholders; Phase 5 quote data and noindex state remain intact"
     },
     {
       "id": "IND-21",

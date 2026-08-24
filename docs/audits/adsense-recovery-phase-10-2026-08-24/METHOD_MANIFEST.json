@@ -1,0 +1,55 @@
+{
+  "phase": 10,
+  "generated_at": "2026-08-24T17:10:00+05:30",
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "scope": "AdSense inventory firewall only; no Phase 11, production, merge, deployment or AdSense submission",
+  "repository_treatment": "PRIVATE_REGARDLESS_OF_HOST_VISIBILITY",
+  "starting_checkpoint": "df8cd36757fac18f2ec08a1302fdebef1d15aee6",
+  "inventory": {
+    "html": 335,
+    "technical_non_html": 5,
+    "total": 340,
+    "NEVER_MONETIZE": 252,
+    "ELIGIBLE_CANDIDATE": 7,
+    "HOLD_MANUAL_REVIEW": 76,
+    "unclassified_html": 0
+  },
+  "global_gates": {
+    "siteApprovedForRendering": false,
+    "servingEnabled": false,
+    "autoAdsEnabled": false,
+    "runtimeScriptEnabled": false,
+    "manualSlotsEnabled": false,
+    "approvedManualSlotIds": []
+  },
+  "official_google_guidance": [
+    "https://support.google.com/publisherpolicies/answer/10502938",
+    "https://support.google.com/publisherpolicies/answer/11169917?hl=en-GB",
+    "https://support.google.com/adsense/answer/1346295?hl=en",
+    "https://support.google.com/publisherpolicies/answer/15101728?hl=en",
+    "https://support.google.com/adsense/answer/13554020?hl=en",
+    "https://support.google.com/adsense/answer/9804260?hl=en",
+    "https://support.google.com/adsense/answer/9262311?hl=en",
+    "https://support.google.com/adsense/answer/9261805?hl=en",
+    "https://support.google.com/adsense/answer/7584263?hl=en",
+    "https://support.google.com/adsense/answer/13996652?hl=en",
+    "https://support.google.com/adsense/answer/9785052?hl=en"
+  ],
+  "source_inputs": {
+    "phase_10_spec_sha256": "a94608c3399b7abe40668d68c9a31415583bdfaca1c4f60ccb1c24fab0c866e2",
+    "route_registry_sha256": "53e51cadefed5602ca075f84d55d023abb6bc6f6603b61eb017d641e4f3c82ed",
+    "resolver_sha256": "47c5e91cd173a4c9ecf03f153a1bb14064a496444f242817476695ab2157cd79"
+  },
+  "owner_holds": [
+    "AUTO_ADS_ACCOUNT_STATE_OWNER_CONFIRMATION_PENDING",
+    "CMP_CONFIGURATION_REQUIRED_BEFORE_AD_SERVING",
+    "ADS_TXT_ACCOUNT_CONFIRMATION_PENDING",
+    "ADSENSE_SITE_APPROVAL_NOT_RECORDED",
+    "PRIVACY_AND_LEGAL_REVIEW_PENDING"
+  ],
+  "production_modified": false,
+  "merged": false,
+  "deployed": false,
+  "adsense_submitted": false,
+  "phase_11_started": false
+}

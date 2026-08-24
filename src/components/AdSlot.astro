@@ -1,15 +1,30 @@
 ---
-import { ADSENSE, isAdSenseAllowedPath } from "../data/ads";
+import { canRenderAd, getMonetizationPolicy } from "../data/monetization.mjs";
 
 type Props = {
   size?: "wide" | "box";
+  zone?: string;
+  slotId?: string;
+  indexable?: boolean;
+  reviewedPublisherContent?: boolean;
 };
 
-const { size = "wide" } = Astro.props;
-const shouldRender = ADSENSE.enabled && ADSENSE.manualSlotsEnabled && isAdSenseAllowedPath(Astro.url.pathname);
+const {
+  size = "wide",
+  zone,
+  slotId,
+  indexable = false,
+  reviewedPublisherContent = false
+} = Astro.props;
+const policy = getMonetizationPolicy({
+  pathname: Astro.url.pathname,
+  indexable,
+  reviewedPublisherContent
+});
+const shouldRender = canRenderAd({ policy, zone, slotId });
 ---
 
-<!-- Manual ad units remain disabled until exact slot IDs and placements are approved. -->
+<!-- Missing page or zone metadata fails closed. Phase 10 keeps all rendering gates off. -->
 {shouldRender && (
   <aside class:list={["ad-slot", `ad-slot--${size}`]} aria-label="Advertisement">
     <span>Advertisement</span>

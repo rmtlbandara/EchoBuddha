@@ -1,0 +1,6 @@
+scope,exclusion,internal_control,account_state,limitation,activation_rule
+ENTIRE_SITE_CURRENTLY,Auto Ads disabled,autoAdsEnabled=false and no runtime script,OWNER_CONFIRMATION_PENDING,repository cannot prove AdSense-console state,keep disabled through first controlled manual rollout
+NEVER_MONETIZE_ROUTES,exact registry deny,runtime absent; resolver deny,NOT_APPLICABLE_WHILE_OFF,Google page exclusions do not support URL fragments or parameters,"account exclusions are defense-in-depth, never the primary control"
+HOLD_MANUAL_REVIEW_ROUTES,exact registry hold,page gate denies rendering,NOT_APPLICABLE_WHILE_OFF,prefix exclusions can drift as routes change,promote only through reviewed registry change
+PROTECTED_PAGE_AREAS,manual allowlisted zones only,protected-zone deny list,AUTO_ADS_AREA_CONTROLS_NOT_VERIFIED,account-side area exclusions can change with DOM/layout,do not use Auto Ads for initial activation
+OVERLAY_FORMATS,anchor vignette and side-rail unapproved,Auto Ads off,OWNER_CONFIRMATION_PENDING,overlay behavior is account-controlled,separate mobile/accessibility/privacy approval required

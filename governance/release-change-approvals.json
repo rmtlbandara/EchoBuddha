@@ -4,6 +4,14 @@
   "changes": [
     {
       "type": "protected-file",
+      "target": "src/data/ads.ts",
+      "approved": true,
+      "reason": "Phase 10 replaces broad route permission logic with explicit independent approval, serving, Auto Ads, runtime, and manual-slot kill switches while preserving verification metadata and ads.txt identity.",
+      "owner": "Echo Buddha project owner via the 2026-08-24 Phase 10 AdSense Inventory Firewall request",
+      "date": "2026-08-24"
+    },
+    {
+      "type": "protected-file",
       "target": "src/data/editorialGovernance.ts",
       "approved": true,
       "reason": "Register the approved Source Literacy topic role for the new how-to-read-a-sutta page without changing any existing topic owner.",

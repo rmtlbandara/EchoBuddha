@@ -1,5 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
+import { ADSENSE } from "../src/data/ads.ts";
+import { MONETIZATION_ROUTE_REGISTRY } from "../src/data/monetization-route-registry.mjs";
 
 const root = process.cwd();
 const failures = [];
@@ -55,13 +57,19 @@ const ads = read("src/data/ads.ts");
 if (!ads.includes('publisherId: "ca-pub-3911157640549350"')) {
   failures.push("AdSense publisher ID must match the owner-approved publisher ID.");
 }
-if (!ads.includes("manualSlotsEnabled: false")) {
+if (ADSENSE.manualSlotsEnabled !== false) {
   failures.push("Manual AdSense slots must remain disabled until exact placements and slot IDs are approved.");
 }
-if (!ads.includes("runtimeScriptEnabled: false")) {
+if (ADSENSE.runtimeScriptEnabled !== false) {
   failures.push("AdSense runtime must remain disabled pending account, CMP, and legal approval.");
 }
-if (!ads.includes("verificationExactPaths") || !ads.includes('"/"')) {
+if (ADSENSE.siteApprovedForRendering !== false || ADSENSE.servingEnabled !== false || ADSENSE.autoAdsEnabled !== false) {
+  failures.push("AdSense approval, serving, and Auto Ads gates must remain disabled.");
+}
+if (ADSENSE.approvedManualSlotIds.length !== 0) {
+  failures.push("No manual AdSense slot ID may be approved during Phase 10.");
+}
+if (ADSENSE.verificationMetaEnabled !== true || !layout.includes("AdSenseScript")) {
   failures.push("AdSense site verification must remain available on the homepage.");
 }
 for (const protectedPath of [
@@ -72,8 +80,10 @@ for (const protectedPath of [
   "/quotes/",
   "/meditation/"
 ]) {
-  if (!ads.includes(protectedPath)) failures.push(`AdSense route gate is missing protected path ${protectedPath}.`);
+  if (MONETIZATION_ROUTE_REGISTRY[protectedPath]?.state !== "NEVER_MONETIZE") failures.push(`AdSense route gate is missing protected path ${protectedPath}.`);
 }
+const pageSource = walk(path.join(root, "src/pages"), (file) => file.endsWith(".astro")).map((file) => fs.readFileSync(file, "utf8")).join("\n");
+if (/<AdSlot|import\s+AdSlot/.test(pageSource)) failures.push("Distributed AdSlot placement found outside the central Phase 10 boundary.");
 
 const robots = read("public/robots.txt");
 if (!robots.includes("User-agent: Mediapartners-Google") || !robots.includes("Allow: /")) {

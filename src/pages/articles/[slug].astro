@@ -1,6 +1,5 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import AdSlot from "../../components/AdSlot.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import ArticleShare from "../../components/ArticleShare.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
@@ -477,7 +476,6 @@ const jsonLd = [
             {section.subheading && <h3>{section.subheading}</h3>}
             {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
             {section.visual && <Fragment set:html={section.visual} />}
-            {index === 1 && <AdSlot />}
           </>
         ))}
 
@@ -598,7 +596,6 @@ const jsonLd = [
           <a href="/authors/echo-buddha-editorial/">View editorial profile</a>
           <a href="/editorial-policy/">How we write Echo Buddha content</a>
         </div>
-        <AdSlot size="box" />
       </aside>
     </div>
   </article>

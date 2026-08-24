@@ -1,0 +1,11 @@
+location,integration_type,current_state,network_request,risk,phase_10_action
+src/data/ads.ts,publisher configuration,VERIFICATION_ON_SERVING_OFF,NO,LOW_WITH_GATES,split verification from five delivery gates
+src/components/AdSenseScript.astro,ownership verification meta,META_ONLY_INDEXABLE_PAGES,NO,LOW,preserved; no runtime loader
+src/layouts/Layout.astro,verification inclusion,GLOBAL_LAYOUT_NOINDEX_AWARE,NO,LOW,preserved
+public/ads.txt,seller authorization,VALID_SINGLE_DIRECT_LINE,NO_BROWSER_AD_REQUEST,OWNER_ACCOUNT_MATCH_HOLD,syntax and ID consistency verified
+src/data/monetization.mjs,page and placement resolver,DEFAULT_DENY,NO,LOW,created central source of truth
+src/data/monetization-route-registry.mjs,HTML route policy,335_OF_335_CLASSIFIED,NO,LOW,created exact registry
+src/components/AdSlot.astro,central future manual slot boundary,UNUSED_AND_FIVE_GATES_OFF,NO,LOW,requires page metadata and allowlisted zone
+src/pages/**/*.astro,distributed slot calls,ZERO,NO,NONE_CURRENT,removed 20 legacy placeholder calls from 13 templates
+src/components/ConsentManager.astro,analytics-only consent,AD_STORAGE_AND_PERSONALIZATION_DENIED,NO_AD_REQUEST,NOT_A_CERTIFIED_AD_CMP,preserved; future CMP hard blocker
+src/pages/privacy-policy.astro,privacy disclosure,ADS_OFF_AND_CMP_PREREQUISITE_DISCLOSED,NO,LEGAL_REVIEW_OWNER_HOLD,audited; no substantive change required

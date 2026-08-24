@@ -1,0 +1,15 @@
+template,prior_placeholder_calls,current_placeholder_calls,rendered_empty_placeholders,action,rationale
+src/pages/index.astro,2,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/articles/[slug].astro,2,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/articles/index.astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/articles/category/[category].astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/learn/index.astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/learn/[section]/index.astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/learn/[section]/[slug].astro,2,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/meditation-guide.astro,3,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/meditation/index.astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/meditation/[slug].astro,2,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/quotes.astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/quotes/[category].astro,1,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/pages/quotes/[category]/[story].astro,2,0,0,REMOVED,ads-off templates must not emit cookie-cutter or empty ad areas
+src/components/AdSlot.astro,CENTRAL_COMPONENT,0,0,RETAINED_UNUSED_FAIL_CLOSED_BOUNDARY,future manual integration must cross central page and zone gates

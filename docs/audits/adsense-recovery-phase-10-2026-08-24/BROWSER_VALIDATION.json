@@ -1,0 +1,39 @@
+{
+  "phase": 10,
+  "validated_at": "2026-08-24T19:22:00+05:30",
+  "surface": "local Astro preview in Codex in-app browser",
+  "desktop_routes": [
+    "/articles/right-speech-buddhism/",
+    "/learn/buddhism-101/what-is-buddhism/",
+    "/privacy-policy/",
+    "/search/",
+    "/quotes/mindfulness/begin-the-day-with-awareness/",
+    "/daily-reflections/one-honest-breath/",
+    "/404.html",
+    "/articles/not-in-inventory/"
+  ],
+  "mobile_viewport": "390x844",
+  "mobile_routes": [
+    "/articles/right-speech-buddhism/",
+    "/learn/buddhism-101/what-is-buddhism/",
+    "/privacy-policy/",
+    "/search/",
+    "/quotes/mindfulness/begin-the-day-with-awareness/"
+  ],
+  "results": {
+    "rendered_ad_nodes": 0,
+    "external_adsense_resource_elements": 0,
+    "horizontal_overflow_routes": 0,
+    "missing_main_content_routes": 0,
+    "unknown_route_rendered_noindex_404": true,
+    "noindex_routes_with_verification_meta": 0,
+    "candidate_and_hold_routes_with_verification_meta": 2,
+    "lighthouse_mobile_min_performance": 1,
+    "lighthouse_mobile_min_accessibility": 1,
+    "lighthouse_desktop_min_performance": 1,
+    "lighthouse_desktop_min_accessibility": 1,
+    "lighthouse_max_cls": 0.001734273664773513,
+    "status": "PASS"
+  },
+  "limitation": "Browser DOM/resource-element inspection is combined with complete built-HTML scanning; no real Google request was generated because no AdSense runtime or unit exists."
+}

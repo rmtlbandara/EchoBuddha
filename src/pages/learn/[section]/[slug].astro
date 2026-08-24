@@ -1,6 +1,5 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
-import AdSlot from "../../../components/AdSlot.astro";
 import LearningCard from "../../../components/LearningCard.astro";
 import EditorialAttribution from "../../../components/EditorialAttribution.astro";
 import EditorialStandardsLinks from "../../../components/EditorialStandardsLinks.astro";
@@ -122,7 +121,6 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           <>
             <h2>{section.heading}</h2>
             {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
-            {index === 1 && <AdSlot />}
           </>
         ))}
 
@@ -181,7 +179,6 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
             </ul>
           </div>
         )}
-        <AdSlot size="box" />
       </aside>
     </div>
   </article>
