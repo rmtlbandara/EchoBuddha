@@ -1,0 +1,6 @@
+file,pattern,user_visible_purpose,accessibility_or_ui_classification,search_content,hidden_links,risk,verdict
+src/pages/index.astro,display:none,Decorative hero media fallback hidden at responsive breakpoint,RESPONSIVE_UI,NO,NO,LOW,LEGITIMATE
+src/components/Header.astro,display:none,Mobile/desktop navigation states,RESPONSIVE_NAVIGATION,NO,NO,LOW,LEGITIMATE
+src/components/ConsentManager.astro,display:none,Consent interface visibility state,CONSENT_UI,NO,NO,LOW,LEGITIMATE
+src/components/ArticleShare.astro,display:none,Progressive share fallback state,PROGRESSIVE_ENHANCEMENT,NO,NO,LOW,LEGITIMATE
+src/components/AdSlot.astro,opacity:0.72,Disabled explanatory development component; no invisible content or live ad,NON_SEARCH_DECORATIVE_STYLE,NO,NO,LOW,LEGITIMATE

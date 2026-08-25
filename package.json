@@ -32,6 +32,8 @@
     "audit:phase11": "node scripts/validate-phase-11.mjs && node scripts/validate-phase-11-index-hygiene.mjs",
     "audit:phase11:index": "node scripts/validate-phase-11-index-hygiene.mjs",
     "generate:phase11:index": "node docs/audits/adsense-recovery-phase-11-2026-08-25/generate-phase-11-index-hygiene.mjs",
+    "generate:phase12": "node docs/audits/adsense-recovery-phase-12-2026-08-25/generate-phase-12-policy-redteam.mjs",
+    "audit:phase12": "node scripts/validate-phase-12-policy-redteam.mjs",
     "audit:governance:changes": "node scripts/report-governance-changes.mjs",
     "audit:production-smoke": "node scripts/production-smoke-check.mjs",
     "test": "node --test tests/*.test.mjs",
@@ -40,7 +42,7 @@
     "audit:cornerstones": "node docs/audits/adsense-recovery-phase-6-2026-08-24/validate-phase-6-cornerstone-upgrades.mjs",
     "audit:trust": "node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs",
     "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:cornerstones && npm run audit:trust",
-    "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:phase10 && npm run audit:phase11 && npm run audit:dependencies"
+    "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:phase10 && npm run audit:phase11 && npm run audit:phase12 && npm run audit:dependencies"
   },
   "dependencies": {
     "astro": "^7.1.3"

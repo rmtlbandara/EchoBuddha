@@ -1,0 +1,13 @@
+policy,classification,applicability,corpus_evidence,status,ad_demand_effect,action
+Sexual content,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Shocking content,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"Incidental non-graphic discussion of suffering/death/violence is educational, not prominent graphic content.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Explosives,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+"Guns, gun parts and related products",GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Other weapons,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Tobacco,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Recreational drugs,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Alcohol sale or misuse,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Online gambling,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Prescription drugs,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+Unapproved pharmaceuticals and supplements,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE
+App removed from Google Play Store,GOOGLE_RESTRICTION_NOT_POLICY_VIOLATION,NO,"No promotional, transactional or instructional restricted content found.",NOT_APPLICABLE_BY_CORPUS_REVIEW,NONE_EXPECTED_FROM_CURRENT_CORPUS,NONE

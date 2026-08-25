@@ -1,0 +1,17 @@
+policy,applicable,evidence,affected_URLs,risk_level,google_confirmed,remediation,status
+Cloaking,YES,No user-agent content branches; local normal/Googlebot comparisons are a completion gate.,SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Doorway abuse,YES,"All P0/P1, C0/C1, T2 and similar-topic survivors reviewed; Phase 4 intent decisions preserved.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Expired domain abuse,YES,Verisign RDAP registration date 2024-12-30; no inherited-ranking exploitation evidence found; archive history was inconclusive.,SITE_WIDE_OR_NOT_APPLICABLE,NOT_APPLICABLE,NO_INTERNAL_ASSESSMENT,NONE,NO_RISK_EVIDENCE
+Hacked content,YES,"No unknown routes, injected spam verticals, obfuscated payloads or GSC Security Issues.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Hidden text/link abuse,YES,"All hidden/display rules classified as accessibility, responsive UI, consent UI, share fallback or decorative media.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Keyword stuffing,YES,"Titles, headings, alt text and body scans found no unnatural manipulative blocks.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Link spam,YES,"No affiliate, sponsored, reciprocal, paid-link or generated promotional pattern found; inbound evidence remains limited.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_AVAILABLE_EVIDENCE
+Machine-generated Google Search traffic,YES,"No SERP scraping, automated Google querying or rank bot code found.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Malicious practices,YES,"No back hijack, forced download, injected iframe, obfuscation or unexpected redirect logic.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Misleading functionality,YES,"Search, tools, copy/share, filters and daily reflection controls reviewed; no fake action funnels.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Scaled content abuse,YES,"Programmatic families exist, but noindex quote permalinks fail closed and indexable pages require explicit editorial/index policy.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Scraping,YES,Source links and short quotations are separated from original explanation; targeted exact-phrase checks found no external duplicate expression.,SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Site reputation abuse,NO_CURRENT_THIRD_PARTY_CONTENT,"No sponsored, guest, white-label or unrelated third-party publishing surface.",SITE_WIDE_OR_NOT_APPLICABLE,NOT_APPLICABLE,NO_INTERNAL_ASSESSMENT,NONE,EXPECTED_NOT_APPLICABLE
+Sneaky redirects,YES,"Three Phase 4/11 one-hop consolidations; no device, referrer or bot destination variance expected.",SITE_WIDE_OR_NOT_APPLICABLE,LOW,NO_INTERNAL_ASSESSMENT,NONE,COMPLIANT_BY_EVIDENCE
+Thin affiliation,NO_AFFILIATE_LINKS,No affiliate markers or commercial referral model found.,SITE_WIDE_OR_NOT_APPLICABLE,NOT_APPLICABLE,NO_INTERNAL_ASSESSMENT,NONE,EXPECTED_NOT_APPLICABLE
+UGC spam,NO_PUBLIC_UGC,"No comments, profiles, uploads or crawlable user submissions; search is noindex and client-side.",SITE_WIDE_OR_NOT_APPLICABLE,NOT_APPLICABLE,NO_INTERNAL_ASSESSMENT,NONE,EXPECTED_NOT_APPLICABLE

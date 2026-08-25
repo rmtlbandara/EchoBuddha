@@ -1,0 +1,106 @@
+{
+  "phase": 12,
+  "generated_at": "2026-08-25T11:00:00+05:30",
+  "status": "PASS",
+  "method": "Independent derivation from final branch, current policy definitions and a second non-overlapping deterministic sample; first-pass justifications were not accepted as proof.",
+  "sample": {
+    "seed": "phase12-independent-2026-08-25",
+    "count": 20,
+    "overlap_with_first": 0
+  },
+  "checks": [
+    {
+      "id": "IND-01",
+      "question": "doorway-like content",
+      "pass": true,
+      "evidence": "Full high-risk review plus distinct-intent evidence",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-02",
+      "question": "scaled low-value content",
+      "pass": true,
+      "evidence": "No auto-indexable mass publish; quote long tail noindex/never monetize",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-03",
+      "question": "replicated content",
+      "pass": true,
+      "evidence": "380 page/asset provenance rows; no high-risk reproduction",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-04",
+      "question": "hidden Search-only material",
+      "pass": true,
+      "evidence": "All source hiding patterns classified",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-05",
+      "question": "keyword stuffing",
+      "pass": true,
+      "evidence": "Visible and metadata scan",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-06",
+      "question": "manipulative links",
+      "pass": true,
+      "evidence": "No commercial/link scheme; inbound limitation preserved",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-07",
+      "question": "misleading functionality",
+      "pass": true,
+      "evidence": "Rendered tools/search and injection check",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-08",
+      "question": "deceptive redirects",
+      "pass": true,
+      "evidence": "Four-variant HTTP parity",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-09",
+      "question": "copyright concerns",
+      "pass": true,
+      "evidence": "No material unresolved risk; low asset-ledger limitation controlled",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-10",
+      "question": "false authority",
+      "pass": true,
+      "evidence": "Trust surfaces deny unsupported credentials",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-11",
+      "question": "weak future ad inventory",
+      "pass": true,
+      "evidence": "Seven candidates only; account rejection remains honestly recorded",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-12",
+      "question": "issue missed by first review",
+      "pass": true,
+      "evidence": "Independent code/account/rendered cross-check found none",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    },
+    {
+      "id": "IND-13",
+      "question": "independent deterministic sample",
+      "pass": true,
+      "evidence": "second sample=20; overlap=0",
+      "verdict": "NO_MATERIAL_CASE_FOUND"
+    }
+  ],
+  "failures": [],
+  "unresolved_disagreements": 0
+}

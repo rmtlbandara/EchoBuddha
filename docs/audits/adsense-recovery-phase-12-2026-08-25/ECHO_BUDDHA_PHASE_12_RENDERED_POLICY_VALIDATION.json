@@ -1,0 +1,31 @@
+{
+  "phase": 12,
+  "observed_at": "2026-08-25T10:50:00+05:30",
+  "status": "PASS",
+  "surface": "IN_APP_BROWSER_LOCAL_CLOUDFLARE_BUILD",
+  "viewport": "1280x720",
+  "routes_reviewed": 19,
+  "routes_passed": 19,
+  "failures": [],
+  "required_signals": {
+    "single_h1": "PASS_19_OF_19",
+    "single_main": "PASS_19_OF_19",
+    "substantive_visible_main": "PASS_19_OF_19",
+    "canonical_and_robots_present": "PASS_19_OF_19",
+    "hidden_links": 0,
+    "horizontal_overflow": 0,
+    "real_ad_runtime": 0,
+    "empty_ad_placeholders": 0
+  },
+  "search_injection": {
+    "payload_class": "HTML_EVENT_HANDLER_PLUS_COMMERCIAL_SPAM_TERM",
+    "query_displayed_as_text": true,
+    "script_executed": false,
+    "injected_element_created": false,
+    "search_page_noindex": true,
+    "ad_runtime": false,
+    "result": "PASS"
+  },
+  "mobile_boundary": "Phase 11 already passed 15 representative routes at 390x844 and Phase 9 mobile/accessibility gates remain unchanged. Phase 12 changes add governance/audit code only and do not alter UI source.",
+  "evidence_class": "BRANCH_OBSERVED_RENDERED"
+}

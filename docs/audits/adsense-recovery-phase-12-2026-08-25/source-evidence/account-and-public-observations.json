@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-08-25T10:15:00+05:30",
+  "privacy_boundary": "No account identifiers, email addresses, credentials, tokens, cookies, session data, screenshots or personal details are stored.",
+  "google_account": {
+    "gsc_property": "sc-domain:echobuddha.com",
+    "manual_actions": "No issues detected",
+    "manual_actions_evidence": "GSC_UI_VERIFIED",
+    "security_issues": "No issues detected",
+    "security_issues_evidence": "GSC_UI_VERIFIED",
+    "adsense_site": "echobuddha.com",
+    "adsense_approval_status": "Needs attention",
+    "adsense_status_detail": "Low value content",
+    "ads_txt_status": "Authorized",
+    "adsense_policy_center": "No current issues",
+    "adsense_policy_center_evidence": "ADSENSE_UI_VERIFIED_WITH_INCOMPLETENESS_LIMITATION",
+    "adsense_account_activation": "Not active for earning; site connection still required",
+    "review_or_activation_action_taken": false
+  },
+  "public_research": {
+    "rdap_source": "Verisign RDAP",
+    "domain_registration_date": "2024-12-30T10:45:33Z",
+    "domain_last_changed": "2026-06-24T08:46:08Z",
+    "domain_history_classification": "NO_RISK_EVIDENCE",
+    "archive_history": "INCONCLUSIVE_TIMEOUT",
+    "exact_phrase_checks": 2,
+    "exact_phrase_external_duplicates_found": 0,
+    "reputation_query": "No material EchoBuddha plagiarism, scam or malware accusation found; absence of reputation is not treated as negative reputation.",
+    "safe_browsing": "Public Google Safe Browsing lookup surface reviewed; GSC Security Issues UI is the primary account evidence."
+  },
+  "boundaries": {
+    "production_modified": false,
+    "review_requested": false,
+    "reconsideration_requested": false,
+    "adsense_activated": false,
+    "indexing_requested": false
+  }
+}

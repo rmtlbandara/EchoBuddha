@@ -1,0 +1,20 @@
+policy,applicability,evidence,URL_or_family,evidence_class,governance_class,risk,remediation,status
+Illegal content,NO,No promotion or facilitation of illegal activity.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Intellectual property abuse,YES,Source/translation/quote and repository asset provenance red-team completed; no material copying evidence found.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Dangerous or derogatory content,YES,"No hate, harassment, threats or protected-group disparagement; religious comparison remains educational.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Animal cruelty,NO,No promotion of animal cruelty.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Misrepresentative content,YES,"No fake expertise, credentials, institutional affiliations, awards or traffic claims.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Unreliable and harmful claims,YES,Meditation/wellbeing pages preserve non-medical boundaries and safety escalation.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Deceptive practices,YES,"No phishing, impersonation or deceptive action flow.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Enabling dishonest behavior,NO,"No cheating, falsification or evasion service.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Sexually explicit content,NO,No sexually explicit text or imagery.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Compensated sexual acts,NO,No such content.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Child sexual abuse and exploitation,NO,No such content; report intentionally contains no reproduced material.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Mail-order bride / exploitative marriage,NO,No such service or promotion.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,NOT_APPLICABLE_BY_CORPUS_REVIEW
+Malicious or unwanted software,YES,"No executables, forced downloads, injected scripts or deceptive redirects.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Screens without publisher-content,YES,"Phase 10 default-deny excludes search, errors, legal, trust and behavioral surfaces; seven explicit candidates were fully reviewed.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Out-of-context ads,NO,Real ads and runtime remain off.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,EXPECTED_NOT_APPLICABLE
+Replicated content,YES,"Candidate pages retain substantial original explanation, examples and practice beyond sources.",COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+More ads/promotional material than publisher-content,NO,No real ads or promotional units render; future firewall preserves content-first zones.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,NOT_APPLICABLE,NONE_CURRENT,EXPECTED_NOT_APPLICABLE
+Unsupported language,YES,Pages are primarily English; Pali/Sanskrit teaching terms are contextual.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED,LOW,NONE_CURRENT,COMPLIANT_BY_EVIDENCE
+Privacy disclosures,YES,Public disclosures and Phase 10 consent boundary remain; CMP/account recheck required before serving.,COMPLETE_CORPUS,INTERNAL_POLICY_CLEAR,GOOGLE_POLICY_REQUIRED_AND_PRE_ACTIVATION_CONTROL,LOW,NONE_CURRENT,PASS_WITH_PRE_ACTIVATION_CONTROL

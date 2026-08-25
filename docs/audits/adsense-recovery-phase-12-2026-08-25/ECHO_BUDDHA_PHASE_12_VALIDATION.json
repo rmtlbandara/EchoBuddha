@@ -1,0 +1,87 @@
+{
+  "phase": 12,
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "generated_at": "2026-08-25T11:30:00+05:30",
+  "starting_checkpoint": {
+    "phase_11_status": "PASS_WITH_EXPLICIT_HOLDS",
+    "phase_11_commit": "916f2bef3e477458cb4fa787afe6a88c77fa4bc3",
+    "phase_3_evidence_commit": "2fb776a989aca32da70b8bbdf972a24da8b30fd0",
+    "branch": "codex/adsense-recovery-audit"
+  },
+  "corpus": {
+    "total": 344,
+    "html": 335,
+    "indexable": 149,
+    "noindex": 186,
+    "eligible_candidates": 7,
+    "full_targeted_review": 68,
+    "worst_reviewed": 20,
+    "first_random_sample": 20,
+    "second_random_sample": 20
+  },
+  "account_evidence": {
+    "gsc_manual_actions": "UI_VERIFIED_NO_ISSUES_DETECTED",
+    "gsc_security_issues": "UI_VERIFIED_NO_ISSUES_DETECTED",
+    "adsense_sites": "NEEDS_ATTENTION_LOW_VALUE_CONTENT",
+    "adsense_policy_center": "NO_CURRENT_ISSUES_WITH_EXPLICIT_LIMITATION",
+    "adsense_activation": "NOT_ACTIVE_FOR_EARNING"
+  },
+  "automated_screen": {
+    "crawler_specific_publisher_content": "PASS",
+    "obfuscated_or_private_key_payload": "PASS",
+    "ad_click_encouragement": "PASS",
+    "traffic_exchange_logic": "PASS",
+    "automated_google_search_scraping": "PASS",
+    "religious_ad_audience_profiling": "PASS",
+    "under_construction_or_lorem_content": "PASS",
+    "off_topic_commercial_vertical": "PASS"
+  },
+  "findings": {
+    "total": 3,
+    "p0": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "p4": 3,
+    "unresolved_material": 0
+  },
+  "checks": {
+    "policy_sources": 17,
+    "spam_policies": 16,
+    "publisher_policies": 19,
+    "publisher_restrictions": 12,
+    "quote_attribution_rows": 153,
+    "ip_rows": 380,
+    "external_link_rows": 190,
+    "governance_controls": 27
+  },
+  "completion": {
+    "local_http": "PASS_18_ROUTES_X_4_VARIANTS",
+    "rendered_browser": "PASS_19_ROUTES_PLUS_SEARCH_INJECTION",
+    "prosecution": "PASS",
+    "defense": "PASS",
+    "independent": "PASS_13_OF_13",
+    "red_team": "PASS_60_OF_60",
+    "release_validation": "PASS",
+    "secret_scan": "PASS_40_FILES_0_FINDINGS"
+  },
+  "explicit_holds": [
+    "POST_DEPLOYMENT_GOOGLE_RECRAWL_REQUIRED",
+    "ADSENSE_CMP_CONFIGURATION_REVERIFY_BEFORE_REAL_AD_SERVING",
+    "ADSENSE_POLICY_CENTER_POST_ACTIVATION_RECHECK_REQUIRED",
+    "PRODUCTION_BRANCH_POLICY_VALIDATION_PENDING_DEPLOYMENT"
+  ],
+  "boundaries": {
+    "production_deployed": false,
+    "merged": false,
+    "search_review_requested": false,
+    "indexing_requested": false,
+    "sitemap_submitted": false,
+    "adsense_review_requested": false,
+    "ads_activated": false,
+    "phase_13_started": false,
+    "phase_14_started": false
+  },
+  "phase_13_required": false,
+  "next": "PHASE 14 — PRODUCTION VALIDATION + GOOGLE RECRAWL"
+}

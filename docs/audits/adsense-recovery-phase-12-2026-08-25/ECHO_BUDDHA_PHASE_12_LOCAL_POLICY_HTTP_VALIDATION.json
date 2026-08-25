@@ -1,0 +1,821 @@
+{
+  "phase": 12,
+  "generated_at": "2026-08-25T10:45:00+05:30",
+  "base": "http://127.0.0.1:8789",
+  "status": "PASS",
+  "routes": 18,
+  "variants_per_route": 4,
+  "failures": [],
+  "observations": [
+    {
+      "route": "/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "533f518efaefb6fccaaff64dfb3fc0191d6db8a2c55e7cf2741c87bf6997abfb",
+          "bytes": 41415,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "533f518efaefb6fccaaff64dfb3fc0191d6db8a2c55e7cf2741c87bf6997abfb",
+          "bytes": 41415,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "533f518efaefb6fccaaff64dfb3fc0191d6db8a2c55e7cf2741c87bf6997abfb",
+          "bytes": 41415,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "533f518efaefb6fccaaff64dfb3fc0191d6db8a2c55e7cf2741c87bf6997abfb",
+          "bytes": 41415,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "2b10cd7bbfa8c7c1d798c48688cc6802c6c7a724b7b459ccc0221c2501660db0",
+          "bytes": 28758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "2b10cd7bbfa8c7c1d798c48688cc6802c6c7a724b7b459ccc0221c2501660db0",
+          "bytes": 28758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "2b10cd7bbfa8c7c1d798c48688cc6802c6c7a724b7b459ccc0221c2501660db0",
+          "bytes": 28758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "2b10cd7bbfa8c7c1d798c48688cc6802c6c7a724b7b459ccc0221c2501660db0",
+          "bytes": 28758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhist-wisdom-for-overthinking/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "ee555f320fe52cfe619ef7fb4443d7f5a204ff3d10653003b21d614efddf20b9",
+          "bytes": 57791,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "ee555f320fe52cfe619ef7fb4443d7f5a204ff3d10653003b21d614efddf20b9",
+          "bytes": 57791,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "ee555f320fe52cfe619ef7fb4443d7f5a204ff3d10653003b21d614efddf20b9",
+          "bytes": 57791,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "ee555f320fe52cfe619ef7fb4443d7f5a204ff3d10653003b21d614efddf20b9",
+          "bytes": 57791,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "732d08f94b7cd7c17d68b3ca6c149b9a5d834c0c09a7a8d434385cc653451ee3",
+          "bytes": 49758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "732d08f94b7cd7c17d68b3ca6c149b9a5d834c0c09a7a8d434385cc653451ee3",
+          "bytes": 49758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "732d08f94b7cd7c17d68b3ca6c149b9a5d834c0c09a7a8d434385cc653451ee3",
+          "bytes": 49758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "732d08f94b7cd7c17d68b3ca6c149b9a5d834c0c09a7a8d434385cc653451ee3",
+          "bytes": 49758,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/articles/dhamma-vs-dharma/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "13bbf635caad9e0c75ce28b25100fdfe65b6de8c7647be87a6b04210c6c31331",
+          "bytes": 51364,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "13bbf635caad9e0c75ce28b25100fdfe65b6de8c7647be87a6b04210c6c31331",
+          "bytes": 51364,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "13bbf635caad9e0c75ce28b25100fdfe65b6de8c7647be87a6b04210c6c31331",
+          "bytes": 51364,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "13bbf635caad9e0c75ce28b25100fdfe65b6de8c7647be87a6b04210c6c31331",
+          "bytes": 51364,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhism-101/what-is-mindfulness/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "16db512e43d4de00d642a595b31d5b7e331c5ba9dd04ed680ed085a7004ec1ec",
+          "bytes": 28533,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "16db512e43d4de00d642a595b31d5b7e331c5ba9dd04ed680ed085a7004ec1ec",
+          "bytes": 28533,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "16db512e43d4de00d642a595b31d5b7e331c5ba9dd04ed680ed085a7004ec1ec",
+          "bytes": 28533,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "16db512e43d4de00d642a595b31d5b7e331c5ba9dd04ed680ed085a7004ec1ec",
+          "bytes": 28533,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anicca/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "6eb240c85032d3e62ed6af0f608f382e0639bd9c2df44b5b2babab74136c213a",
+          "bytes": 28030,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "6eb240c85032d3e62ed6af0f608f382e0639bd9c2df44b5b2babab74136c213a",
+          "bytes": 28030,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "6eb240c85032d3e62ed6af0f608f382e0639bd9c2df44b5b2babab74136c213a",
+          "bytes": 28030,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "6eb240c85032d3e62ed6af0f608f382e0639bd9c2df44b5b2babab74136c213a",
+          "bytes": 28030,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/meditation/breathing-meditation/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "033a3e0f64cefb3558890d0c78bde42d29ea50c9f4842f0a9c3cc887c1d41c31",
+          "bytes": 30934,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "033a3e0f64cefb3558890d0c78bde42d29ea50c9f4842f0a9c3cc887c1d41c31",
+          "bytes": 30934,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "033a3e0f64cefb3558890d0c78bde42d29ea50c9f4842f0a9c3cc887c1d41c31",
+          "bytes": 30934,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "033a3e0f64cefb3558890d0c78bde42d29ea50c9f4842f0a9c3cc887c1d41c31",
+          "bytes": 30934,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/quotes/mindfulness/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "1ba9b6eb4c536ad7512350ebedee6dafd09b5fe969e010176d07a373bfe3c18f",
+          "bytes": 49650,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "1ba9b6eb4c536ad7512350ebedee6dafd09b5fe969e010176d07a373bfe3c18f",
+          "bytes": 49650,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "1ba9b6eb4c536ad7512350ebedee6dafd09b5fe969e010176d07a373bfe3c18f",
+          "bytes": 49650,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "1ba9b6eb4c536ad7512350ebedee6dafd09b5fe969e010176d07a373bfe3c18f",
+          "bytes": 49650,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bf8d09724850b2e7d28c28b8a3552f8f2a235991cc5d5bd25a6165b63750e20a",
+          "bytes": 40398,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bf8d09724850b2e7d28c28b8a3552f8f2a235991cc5d5bd25a6165b63750e20a",
+          "bytes": 40398,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bf8d09724850b2e7d28c28b8a3552f8f2a235991cc5d5bd25a6165b63750e20a",
+          "bytes": 40398,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bf8d09724850b2e7d28c28b8a3552f8f2a235991cc5d5bd25a6165b63750e20a",
+          "bytes": 40398,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/thoughts-are-visitors/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "f1d056a6371846eaa396a2ddea8033657ab89922550badb3dfdcda1aaa12cf2d",
+          "bytes": 26949,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "f1d056a6371846eaa396a2ddea8033657ab89922550badb3dfdcda1aaa12cf2d",
+          "bytes": 26949,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "f1d056a6371846eaa396a2ddea8033657ab89922550badb3dfdcda1aaa12cf2d",
+          "bytes": 26949,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "f1d056a6371846eaa396a2ddea8033657ab89922550badb3dfdcda1aaa12cf2d",
+          "bytes": 26949,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/search/?q=casino%3Cscript%3E",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "99533dce927c7171dc8b2a6d6e2fabdd485082cf2ec8823e659cfdcc2309d92d",
+          "bytes": 23929,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "99533dce927c7171dc8b2a6d6e2fabdd485082cf2ec8823e659cfdcc2309d92d",
+          "bytes": 23929,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "99533dce927c7171dc8b2a6d6e2fabdd485082cf2ec8823e659cfdcc2309d92d",
+          "bytes": 23929,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "99533dce927c7171dc8b2a6d6e2fabdd485082cf2ec8823e659cfdcc2309d92d",
+          "bytes": 23929,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bce549b19eec5117cce292d6db8ef7de78d9080feabdc13c017452604f3106e7",
+          "bytes": 21067,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bce549b19eec5117cce292d6db8ef7de78d9080feabdc13c017452604f3106e7",
+          "bytes": 21067,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bce549b19eec5117cce292d6db8ef7de78d9080feabdc13c017452604f3106e7",
+          "bytes": 21067,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "bce549b19eec5117cce292d6db8ef7de78d9080feabdc13c017452604f3106e7",
+          "bytes": 21067,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/404",
+      "expected_status": 200,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 200,
+          "location": "",
+          "body_hash": "a54c9030842e116df8628afdf685c0cd929091b4f5fe4a681c3fe2606bc372f4",
+          "bytes": 17616,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 200,
+          "location": "",
+          "body_hash": "a54c9030842e116df8628afdf685c0cd929091b4f5fe4a681c3fe2606bc372f4",
+          "bytes": 17616,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 200,
+          "location": "",
+          "body_hash": "a54c9030842e116df8628afdf685c0cd929091b4f5fe4a681c3fe2606bc372f4",
+          "bytes": 17616,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 200,
+          "location": "",
+          "body_hash": "a54c9030842e116df8628afdf685c0cd929091b4f5fe4a681c3fe2606bc372f4",
+          "bytes": 17616,
+          "noindex": true,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/phase-12-invalid-route-probe/",
+      "expected_status": 404,
+      "parity": true,
+      "search_safe": true,
+      "variants": {
+        "normal": {
+          "status": 404,
+          "location": "",
+          "body_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "googlebot": {
+          "status": 404,
+          "location": "",
+          "body_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "mobile": {
+          "status": 404,
+          "location": "",
+          "body_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        },
+        "external_referrer": {
+          "status": 404,
+          "location": "",
+          "body_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "noindex": false,
+          "reflected_attack": false,
+          "ad_runtime": false,
+          "empty_ad_placeholder": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/articles/how-to-practice-non-attachment/",
+      "expected_status": 301,
+      "expected_target": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "parity": true,
+      "variants": {
+        "normal": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        },
+        "googlebot": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        },
+        "mobile": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        },
+        "external_referrer": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/articles/letting-go-without-giving-up/",
+      "expected_status": 301,
+      "expected_target": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "parity": true,
+      "variants": {
+        "normal": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        },
+        "googlebot": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        },
+        "mobile": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        },
+        "external_referrer": {
+          "status": 301,
+          "location": "/articles/how-to-let-go-of-attachment-in-buddhism/?utm_source=phase12"
+        }
+      },
+      "pass": true
+    },
+    {
+      "route": "/terms-and-conditions/",
+      "expected_status": 301,
+      "expected_target": "/terms-of-use/",
+      "parity": true,
+      "variants": {
+        "normal": {
+          "status": 301,
+          "location": "/terms-of-use/?utm_source=phase12"
+        },
+        "googlebot": {
+          "status": 301,
+          "location": "/terms-of-use/?utm_source=phase12"
+        },
+        "mobile": {
+          "status": 301,
+          "location": "/terms-of-use/?utm_source=phase12"
+        },
+        "external_referrer": {
+          "status": 301,
+          "location": "/terms-of-use/?utm_source=phase12"
+        }
+      },
+      "pass": true
+    }
+  ]
+}

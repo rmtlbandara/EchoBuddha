@@ -1,0 +1,430 @@
+{
+  "phase": 12,
+  "generated_at": "2026-08-25T11:10:00+05:30",
+  "status": "PASS",
+  "attacks": 60,
+  "bypasses": 0,
+  "failures": [],
+  "attack": [
+    {
+      "id": "RT-01",
+      "family": "SEARCH_SPAM",
+      "description": "crawler-specific content",
+      "pass": true,
+      "evidence": "source scan"
+    },
+    {
+      "id": "RT-02",
+      "family": "SEARCH_SPAM",
+      "description": "Googlebot/user parity",
+      "pass": true,
+      "evidence": "18 routes × 4 variants"
+    },
+    {
+      "id": "RT-03",
+      "family": "SEARCH_SPAM",
+      "description": "doorway survivors",
+      "pass": true,
+      "evidence": "full targeted review"
+    },
+    {
+      "id": "RT-04",
+      "family": "SEARCH_SPAM",
+      "description": "auto-indexable mass publish",
+      "pass": true,
+      "evidence": "fail-closed policy"
+    },
+    {
+      "id": "RT-05",
+      "family": "SEARCH_SPAM",
+      "description": "scaled quote family",
+      "pass": true,
+      "evidence": "noindex/default deny"
+    },
+    {
+      "id": "RT-06",
+      "family": "SEARCH_SPAM",
+      "description": "scraped expression",
+      "pass": true,
+      "evidence": "phrase and provenance review"
+    },
+    {
+      "id": "RT-07",
+      "family": "SEARCH_SPAM",
+      "description": "hidden SEO text",
+      "pass": true,
+      "evidence": "classified source hits"
+    },
+    {
+      "id": "RT-08",
+      "family": "SEARCH_SPAM",
+      "description": "keyword blocks",
+      "pass": true,
+      "evidence": "corpus screen"
+    },
+    {
+      "id": "RT-09",
+      "family": "SEARCH_SPAM",
+      "description": "paid/affiliate links",
+      "pass": true,
+      "evidence": "outbound audit"
+    },
+    {
+      "id": "RT-10",
+      "family": "SEARCH_SPAM",
+      "description": "unauthorized Google querying",
+      "pass": true,
+      "evidence": "repository scan"
+    },
+    {
+      "id": "RT-11",
+      "family": "SEARCH_SPAM",
+      "description": "fake functionality",
+      "pass": true,
+      "evidence": "19 rendered routes"
+    },
+    {
+      "id": "RT-12",
+      "family": "SEARCH_SPAM",
+      "description": "search injection",
+      "pass": true,
+      "evidence": "rendered attack"
+    },
+    {
+      "id": "RT-13",
+      "family": "SEARCH_SPAM",
+      "description": "back hijacking/forced download",
+      "pass": true,
+      "evidence": "source/rendered review"
+    },
+    {
+      "id": "RT-14",
+      "family": "SEARCH_SPAM",
+      "description": "conditional redirects",
+      "pass": true,
+      "evidence": "redirect variants"
+    },
+    {
+      "id": "RT-15",
+      "family": "SEARCH_SPAM",
+      "description": "expired-domain exploitation",
+      "pass": true,
+      "evidence": "RDAP/public research"
+    },
+    {
+      "id": "RT-16",
+      "family": "SEARCH_SPAM",
+      "description": "site reputation rental",
+      "pass": true,
+      "evidence": "corpus/repository"
+    },
+    {
+      "id": "RT-17",
+      "family": "SEARCH_SPAM",
+      "description": "thin affiliation",
+      "pass": true,
+      "evidence": "repository/link scan"
+    },
+    {
+      "id": "RT-18",
+      "family": "SEARCH_SPAM",
+      "description": "UGC spam",
+      "pass": true,
+      "evidence": "route/function review"
+    },
+    {
+      "id": "RT-19",
+      "family": "SECURITY",
+      "description": "hacked routes/content",
+      "pass": true,
+      "evidence": "GSC UI plus repository"
+    },
+    {
+      "id": "RT-20",
+      "family": "SECURITY",
+      "description": "obfuscated payload",
+      "pass": true,
+      "evidence": "repository scan"
+    },
+    {
+      "id": "RT-21",
+      "family": "SECURITY",
+      "description": "unknown ad scripts",
+      "pass": true,
+      "evidence": "rendered/branch"
+    },
+    {
+      "id": "RT-22",
+      "family": "GOOGLE_ACCOUNT",
+      "description": "manual action",
+      "pass": true,
+      "evidence": "GSC UI"
+    },
+    {
+      "id": "RT-23",
+      "family": "GOOGLE_ACCOUNT",
+      "description": "security issue",
+      "pass": true,
+      "evidence": "GSC UI"
+    },
+    {
+      "id": "RT-24",
+      "family": "GOOGLE_ACCOUNT",
+      "description": "Policy Center limitation",
+      "pass": true,
+      "evidence": "explicit limitation"
+    },
+    {
+      "id": "RT-25",
+      "family": "PUBLISHER_POLICY",
+      "description": "illegal content",
+      "pass": true,
+      "evidence": "complete matrix"
+    },
+    {
+      "id": "RT-26",
+      "family": "PUBLISHER_POLICY",
+      "description": "dangerous/derogatory",
+      "pass": true,
+      "evidence": "context review"
+    },
+    {
+      "id": "RT-27",
+      "family": "PUBLISHER_POLICY",
+      "description": "adult content",
+      "pass": true,
+      "evidence": "corpus review"
+    },
+    {
+      "id": "RT-28",
+      "family": "PUBLISHER_POLICY",
+      "description": "child safety",
+      "pass": true,
+      "evidence": "corpus review"
+    },
+    {
+      "id": "RT-29",
+      "family": "PUBLISHER_POLICY",
+      "description": "malicious software",
+      "pass": true,
+      "evidence": "source/build"
+    },
+    {
+      "id": "RT-30",
+      "family": "PUBLISHER_POLICY",
+      "description": "false authority",
+      "pass": true,
+      "evidence": "trust review"
+    },
+    {
+      "id": "RT-31",
+      "family": "PUBLISHER_POLICY",
+      "description": "harmful health promises",
+      "pass": true,
+      "evidence": "wellbeing review"
+    },
+    {
+      "id": "RT-32",
+      "family": "INVENTORY_VALUE",
+      "description": "no-content screens",
+      "pass": true,
+      "evidence": "default deny"
+    },
+    {
+      "id": "RT-33",
+      "family": "INVENTORY_VALUE",
+      "description": "weakest candidate",
+      "pass": true,
+      "evidence": "full candidate audit"
+    },
+    {
+      "id": "RT-34",
+      "family": "INVENTORY_VALUE",
+      "description": "replicated candidates",
+      "pass": true,
+      "evidence": "candidate contribution review"
+    },
+    {
+      "id": "RT-35",
+      "family": "INVENTORY_VALUE",
+      "description": "automatic content without review",
+      "pass": true,
+      "evidence": "governance"
+    },
+    {
+      "id": "RT-36",
+      "family": "INVENTORY_VALUE",
+      "description": "more ads than content",
+      "pass": true,
+      "evidence": "rendered"
+    },
+    {
+      "id": "RT-37",
+      "family": "AD_PLACEMENT",
+      "description": "ads near controls",
+      "pass": true,
+      "evidence": "Phase 10 config"
+    },
+    {
+      "id": "RT-38",
+      "family": "AD_PLACEMENT",
+      "description": "deceptive ad labels",
+      "pass": true,
+      "evidence": "source scan"
+    },
+    {
+      "id": "RT-39",
+      "family": "AD_PLACEMENT",
+      "description": "empty placeholders",
+      "pass": true,
+      "evidence": "rendered 19 routes"
+    },
+    {
+      "id": "RT-40",
+      "family": "INVALID_TRAFFIC",
+      "description": "real serving",
+      "pass": true,
+      "evidence": "config + rendered"
+    },
+    {
+      "id": "RT-41",
+      "family": "INVALID_TRAFFIC",
+      "description": "self-click control",
+      "pass": true,
+      "evidence": "governance"
+    },
+    {
+      "id": "RT-42",
+      "family": "INVALID_TRAFFIC",
+      "description": "traffic exchange",
+      "pass": true,
+      "evidence": "governance + source"
+    },
+    {
+      "id": "RT-43",
+      "family": "INVALID_TRAFFIC",
+      "description": "automated ad traffic",
+      "pass": true,
+      "evidence": "governance"
+    },
+    {
+      "id": "RT-44",
+      "family": "PRIVACY_AD_TARGETING",
+      "description": "religious audience profile",
+      "pass": true,
+      "evidence": "governance + source"
+    },
+    {
+      "id": "RT-45",
+      "family": "PRIVACY_AD_TARGETING",
+      "description": "CMP precondition",
+      "pass": true,
+      "evidence": "explicit hold"
+    },
+    {
+      "id": "RT-46",
+      "family": "IP_COPYRIGHT",
+      "description": "quote attribution",
+      "pass": true,
+      "evidence": "Phase 5 cross-check"
+    },
+    {
+      "id": "RT-47",
+      "family": "IP_COPYRIGHT",
+      "description": "modern translations",
+      "pass": true,
+      "evidence": "source + governance"
+    },
+    {
+      "id": "RT-48",
+      "family": "IP_COPYRIGHT",
+      "description": "image provenance",
+      "pass": true,
+      "evidence": "asset registry"
+    },
+    {
+      "id": "RT-49",
+      "family": "PUBLISHER_RESTRICTION",
+      "description": "restrictions separated",
+      "pass": true,
+      "evidence": "separate matrix"
+    },
+    {
+      "id": "RT-50",
+      "family": "CONTENT_SAFETY",
+      "description": "religious context false positive",
+      "pass": true,
+      "evidence": "context review"
+    },
+    {
+      "id": "RT-51",
+      "family": "STRUCTURED_DATA",
+      "description": "schema spam",
+      "pass": true,
+      "evidence": "Phase 11 schema preservation"
+    },
+    {
+      "id": "RT-52",
+      "family": "LOW_VALUE",
+      "description": "worst 20",
+      "pass": true,
+      "evidence": "risk-ranked review"
+    },
+    {
+      "id": "RT-53",
+      "family": "LOW_VALUE",
+      "description": "first random sample",
+      "pass": true,
+      "evidence": "fixed seed 1"
+    },
+    {
+      "id": "RT-54",
+      "family": "LOW_VALUE",
+      "description": "second random sample",
+      "pass": true,
+      "evidence": "fixed seed 2"
+    },
+    {
+      "id": "RT-55",
+      "family": "LOW_VALUE",
+      "description": "material recovery difference",
+      "pass": true,
+      "evidence": "historical/current comparison"
+    },
+    {
+      "id": "RT-56",
+      "family": "REVIEW_DISCIPLINE",
+      "description": "prosecution completed",
+      "pass": true,
+      "evidence": "hostile case"
+    },
+    {
+      "id": "RT-57",
+      "family": "REVIEW_DISCIPLINE",
+      "description": "defense evidence completed",
+      "pass": true,
+      "evidence": "evidence matrix"
+    },
+    {
+      "id": "RT-58",
+      "family": "REVIEW_DISCIPLINE",
+      "description": "independent pass",
+      "pass": true,
+      "evidence": "13 independent checks"
+    },
+    {
+      "id": "RT-59",
+      "family": "POLICY_RESEARCH",
+      "description": "current first-party sources",
+      "pass": true,
+      "evidence": "current manifest"
+    },
+    {
+      "id": "RT-60",
+      "family": "BOUNDARY",
+      "description": "no prohibited action",
+      "pass": true,
+      "evidence": "Phase boundary contract"
+    }
+  ]
+}

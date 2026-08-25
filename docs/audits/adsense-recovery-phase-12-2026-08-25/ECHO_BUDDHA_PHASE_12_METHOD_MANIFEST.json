@@ -1,0 +1,182 @@
+{
+  "phase": 12,
+  "generated_at": "2026-08-25T10:30:00+05:30",
+  "method": "100% corpus machine/semantic screen + complete high-risk targeted review + two deterministic samples + account UI verification + policy research + prosecution/defense",
+  "sources": {
+    "phase_11_inventory_sha256": "eae501c4e7e6ab0df6349a08b4fa70b8bffd15f023cbd551f29373c761b6ba68",
+    "current_policy_sources": 17
+  },
+  "samples": {
+    "first_seed": "phase12-prosecution-2026-08-25",
+    "second_seed": "phase12-independent-2026-08-25",
+    "first_count": 20,
+    "second_count": 20,
+    "overlap": 0
+  },
+  "evidence_boundaries": [
+    "BRANCH_OBSERVED",
+    "PRODUCTION_PUBLIC_OBSERVED",
+    "GOOGLE_SEARCH_OBSERVED",
+    "GSC_UI_VERIFIED",
+    "ADSENSE_UI_VERIFIED",
+    "GOOGLE_CONFIRMED",
+    "INTERNAL_RED_TEAM_INFERENCE",
+    "UNKNOWN"
+  ],
+  "artifacts": [
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_CLOAKING_REDIRECT_REDTEAM.csv",
+      "sha256": "f05165bb332359856f1d8945273ff726441be43e50a0e674347ef928bf05db56"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_CONTENT_SAFETY_AUDIT.csv",
+      "sha256": "6ca46ede019e3fd188870bf1c2e37f25398a7adfec05adff77f605170187bed4"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_DEFENSE_AND_EVIDENCE.md",
+      "sha256": "3daaf80564039cfbc773b03ffa8897302098211a42584fcd43d4359f5821e55c"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_ELIGIBLE_CANDIDATE_REDTEAM.csv",
+      "sha256": "b9e0a723da152eb87039423522a32eabeb63f436681ea4a9ff30d17be3731661"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_GOOGLE_ACCOUNT_EVIDENCE.md",
+      "sha256": "ebd866b7d50c4c574f3a631fd912cb4937cac0402ba1f64b32a7f5bff83d5f03"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_HIDDEN_TEXT_LINK_AUDIT.csv",
+      "sha256": "68d40ec6fba92910ac8a37700656e1905e4d7083dca13c7b33c02f1869397055"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_INDEPENDENT_VALIDATION.json",
+      "sha256": "7e4a2f4a91bda3bd65108cfe18c3ba1773c0d3eed8a0001a62c09ed107dff1e3"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_INVALID_TRAFFIC_READINESS.md",
+      "sha256": "b23eed28e65382c75cb5bb23de89c610dbbde92fd30ac4bed99ccb6b01b5b34a"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_IP_COPYRIGHT_AUDIT.csv",
+      "sha256": "30806bf84c9a98b156d8fb26aa13f8438e836ffa192dae3c3de57036b97707a9"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_LINK_POLICY_AUDIT.csv",
+      "sha256": "d7f9aa8aa6b2f252a650415a216a4493be996308dc759c46eacbbf5271fb0b4d"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_LOCAL_POLICY_HTTP_VALIDATION.json",
+      "sha256": "c12b821ed9d7cfd2578f39fce766ca326d37e1999ab395e7e98b91fd983b5e0d"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_LOW_VALUE_REJECTION_RECONSTRUCTION.md",
+      "sha256": "1b85452a17fe9e00608b996d57c7e5ae1123416078c365be683b4641bcc12d9e"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_PHASE_13_DECISION.md",
+      "sha256": "67c30c63a4c4d53adfc4c548820872e6add20177e4599b3eb9be18e0e955f410"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_PHASE_14_HANDOFF.md",
+      "sha256": "a0294a79508f860e8de2bc1c6502a26c8e96c3cc846c02808478038135e4f514"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_POLICY_CORPUS.csv",
+      "sha256": "93e999fb8b477c6911e0f68b1d6a09b4384cc13d60ca8b119166b4b54fdc4f55"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_POLICY_GOVERNANCE.md",
+      "sha256": "b357c45e21efa4d90cc45cc88f5c254d8244f7b3a556ef2c30a62f500a775036"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_POLICY_SOURCE_MANIFEST.md",
+      "sha256": "65502b30e9e4225263cbe970fe4e3ab2c1e568751f07843c15e062ffac4062cb"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_PROSECUTION_CASE.md",
+      "sha256": "c646c53bba33f3a3232db4e3a67f70475c4277d0916070f43d7a791bd13b1272"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_PUBLISHER_POLICY_MATRIX.csv",
+      "sha256": "978b629c2c8e958614f94bc0d0dac57226d2146c2c179d5e63b613e98668c933"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_PUBLISHER_RESTRICTIONS_MATRIX.csv",
+      "sha256": "24ee786abf59b6ba608774ee9da0e1629f2fcb6ed4959949911f7af465636033"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_RANDOM_INVENTORY_REVIEW.csv",
+      "sha256": "92b7f7ebd8d6d39a6fb8c35291c6891bc246c663ff295f1643412eaa28d636b7"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_REDTEAM_FINDINGS.csv",
+      "sha256": "3e20b16478fd29e825550659bf2a3ce5ca6bf309f5dbb3184370e461e2f13c0d"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_RED_TEAM_VALIDATION.json",
+      "sha256": "1ae4b21fcccf4547433a51cbcdb155aedee20d65a5025cb2f247a557a4429640"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_RENDERED_POLICY_VALIDATION.json",
+      "sha256": "0497be2666376e7d5a5bf9d448b34800072692a2a928220761e32b41d28cda85"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_REPOSITORY_CODE_SCAN.csv",
+      "sha256": "d6e3db45b0f0c9914bdc5a2f2a087007a46a85f098da829f3f26419460bf1f6f"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_SCALED_CONTENT_REDTEAM.csv",
+      "sha256": "4a0562d597fa8b705262cb89364e6e2d22405819cf493f077f08f32f758172f9"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_SEARCH_SPAM_MATRIX.csv",
+      "sha256": "bba573fb4ae3436b3af543f7602d259100008d2480014ed9b45ce32764b9351d"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_SEARCH_SPAM_PUBLISHER_POLICY_REDTEAM_REPORT.md",
+      "sha256": "0587bc4fcbefbdcbdcb9956fb33646a832304f08d9e7e9c82a4fffb9887d33d5"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_SECOND_REVIEW_SAMPLE.csv",
+      "sha256": "ca0a12d8de3c50ba0a7a4f7afd418e3306d1e6c4299b029432a267a8990243a3"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_SECRET_SCAN.json",
+      "sha256": "8f54bcb2c5f487948dfbb251e65a0d7f68c8a88d746e031796c441578a1deebc"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_VALIDATION.json",
+      "sha256": "8e4503e65b7d91e8783f8b63475aa1b020d7caff872a77a8de1d20585392e96b"
+    },
+    {
+      "name": "ECHO_BUDDHA_PHASE_12_WEAKEST_INVENTORY_REVIEW.csv",
+      "sha256": "148987eb3320cfb9d63911f2d7f63a101704289b961db7e60cbc78d06af35fa8"
+    },
+    {
+      "name": "finalize-phase-12.mjs",
+      "sha256": "411dec647ac82ce4f7bf5609cc926ac696ecbad96b7d4e69e011db664339af38"
+    },
+    {
+      "name": "generate-phase-12-policy-redteam.mjs",
+      "sha256": "81c14907264a512c2b3e41942a1b48d93390daa07fe9a378d358e321442c222b"
+    },
+    {
+      "name": "independently-validate-phase-12.mjs",
+      "sha256": "d6b05cec3182987c5ab8b1846b2381a7b8dfbe17989efe7b6de6a4117b4b00e9"
+    },
+    {
+      "name": "source-evidence/account-and-public-observations.json",
+      "sha256": "4de5a25bbc436f8fa8ef8a39c223463fff6fca215d6d7ceceaa4237d4a4f3b1a"
+    },
+    {
+      "name": "validate-phase-12-http.mjs",
+      "sha256": "2c11407f837661963876574228f1e08662787feedd3bec240e3342c796da2ef2"
+    },
+    {
+      "name": "validate-phase-12-red-team.mjs",
+      "sha256": "4af9bccdcd28922fdf751d9d93fef4986e71bebf1258fd60b0b1bc3d8b0c8563"
+    }
+  ],
+  "finalized_at": "2026-08-25T11:30:00+05:30",
+  "release_validation": "PASS"
+}
