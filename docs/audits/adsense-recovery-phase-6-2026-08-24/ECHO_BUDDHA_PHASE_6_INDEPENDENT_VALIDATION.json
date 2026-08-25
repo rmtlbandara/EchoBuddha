@@ -1,6 +1,6 @@
 {
   "phase": 6,
-  "generated_at": "2026-08-25T04:48:50.435Z",
+  "generated_at": "2026-08-25T05:19:24.357Z",
   "independent_pass": true,
   "status": "PASS",
   "checks_passed": 67,
@@ -305,7 +305,7 @@
     {
       "id": "PRV-01",
       "status": "PASS",
-      "evidence": "all 8 changed paths are governed Phase 6-9 implementation or deterministic validation outputs"
+      "evidence": "all 6 changed paths are governed Phase 6-9 implementation or deterministic validation outputs"
     },
     {
       "id": "PRV-02",
