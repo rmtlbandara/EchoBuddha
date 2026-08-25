@@ -1,0 +1,23 @@
+# EchoBuddha Phase 14 Deployment Manifest
+
+- Source recovery commit: `ad9fe897916c76fd6883efc351461b49db28ac3f`
+- Target production branch: `main`
+- Production deployed commit: `ad9fe897916c76fd6883efc351461b49db28ac3f`
+- Deployment platform: Cloudflare Workers static assets
+- Deployment method: authenticated exact-artifact local fallback after the absent GitHub production environment and competing Cloudflare Git trigger were verified; legacy Git integration was disconnected before advancing `main`.
+- Deployment ID: `f8f3f4c9-b156-422f-ad19-569abc767750`
+- Version ID: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
+- Deployed at: `2026-08-25T05:33:01.801137Z`
+- Included recovery phases: 0–13; Phase 13 created zero URLs and made zero content enhancements.
+- Known production inventory: 344 contract rows = 149 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
+- Built HTML pages: 335
+- Intended sitemap URLs: 149
+- Search records: 314
+- New Phase 13 URLs: 0
+- Permanent redirect sources: 3
+- Rollback target: `2a92b1d8-404d-48cc-9ef1-074a204b82bf`
+- Rollback readiness: verified against the predeploy 14/14 smoke baseline
+- Rollback used: NO
+- Ad serving: OFF
+- AdSense resubmission: BLOCKED
+- Google Indexing API used: NO

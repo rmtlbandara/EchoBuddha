@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-25T05:48:50.626Z",
+  "status": "DEPLOYED_MONITORING_REQUIRED",
+  "immutable_release": {
+    "commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
+    "deployment_id": "f8f3f4c9-b156-422f-ad19-569abc767750",
+    "version_id": "c5f74323-7b3a-450c-96c3-f3a0e432ff42",
+    "deployed_at": "2026-08-25T05:33:01.801137Z"
+  },
+  "methods": [
+    "Detached-worktree Node 22/npm 10 clean install, full release validation, build-once artifact manifest, and aggregate SHA verification",
+    "Authenticated Cloudflare exact-artifact deployment after disconnecting the competing Git integration",
+    "Complete 344-row production HTTP/canonical/robots/sitemap/firewall crawl",
+    "In-app browser journeys and homepage Search Console live URL test",
+    "Search Console Search Analytics and URL Inspection APIs using only webmasters.readonly",
+    "Search Console UI: existing sitemap inspection, three limited indexing requests, Manual Actions, and Security Issues",
+    "Deterministic independent indexable sample and Phase 12 weakest-page sample"
+  ],
+  "evidence_boundaries": [
+    "URL Inspection API reports Google's indexed state, not a live URL test.",
+    "All 16 postdeploy inspection timestamps still predate deployment, so material convergence is not established.",
+    "The in-app browser had no independent mobile viewport override; the exact artifact's Phase 9 responsive release suite supplies the mobile regression evidence.",
+    "Static Worker historical Googlebot logs were not available; complete HTTP crawl and Search Console crawl evidence were used.",
+    "Search query text remains redacted and hashed in repository artifacts."
+  ],
+  "google_indexing_api_used": false,
+  "OAuth_scope": "https://www.googleapis.com/auth/webmasters.readonly",
+  "real_ad_serving": false,
+  "adsense_resubmission_status": "BLOCKED"
+}

@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-08-25T05:48:50.626Z",
+  "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
+  "production_origin": "https://echobuddha.com",
+  "deployed_commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
+  "deployment_id": "f8f3f4c9-b156-422f-ad19-569abc767750",
+  "samples": {
+    "deterministic_seed": "phase14",
+    "deterministic_indexable_sample_size": 20,
+    "deterministic_indexable_urls": [
+      "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "https://echobuddha.com/articles/",
+      "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "https://echobuddha.com/tools/",
+      "https://echobuddha.com/quotes/meditation/",
+      "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "https://echobuddha.com/terms-of-use/",
+      "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "https://echobuddha.com/learn/buddhism-for-beginners/"
+    ],
+    "weakest_phase_12_sample_size": 20,
+    "weakest_phase_12_urls": [
+      "https://echobuddha.com/articles/category/meditation/",
+      "https://echobuddha.com/articles/category/mindfulness/",
+      "https://echobuddha.com/articles/category/reflection/",
+      "https://echobuddha.com/articles/",
+      "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "https://echobuddha.com/articles/category/practice/",
+      "https://echobuddha.com/learn/",
+      "https://echobuddha.com/quotes/impermanence/",
+      "https://echobuddha.com/quotes/renewal/",
+      "https://echobuddha.com/mindful-living/",
+      "https://echobuddha.com/quotes/meditation/",
+      "https://echobuddha.com/quotes/practice/",
+      "https://echobuddha.com/quotes/wisdom/",
+      "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "https://echobuddha.com/quotes/",
+      "https://echobuddha.com/quotes/awareness/",
+      "https://echobuddha.com/quotes/compassion/",
+      "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "https://echobuddha.com/quotes/letting-go/",
+      "https://echobuddha.com/quotes/mindfulness/"
+    ]
+  },
+  "checks": [
+    {
+      "name": "complete production index contract",
+      "pass": true,
+      "evidence": "344/344"
+    },
+    {
+      "name": "SEO P0 production health",
+      "pass": true,
+      "evidence": "3 checked"
+    },
+    {
+      "name": "SEO P1 production health",
+      "pass": true,
+      "evidence": "32 checked"
+    },
+    {
+      "name": "C0 production health",
+      "pass": true,
+      "evidence": "4 checked"
+    },
+    {
+      "name": "C1 production health",
+      "pass": true,
+      "evidence": "4 checked"
+    },
+    {
+      "name": "redirect graph",
+      "pass": true,
+      "evidence": "4 one-hop redirects"
+    },
+    {
+      "name": "sitemap",
+      "pass": true,
+      "evidence": "149 intended canonical URLs"
+    },
+    {
+      "name": "firewall",
+      "pass": true,
+      "evidence": "7 adversarial surfaces; zero ad slots/placeholders"
+    },
+    {
+      "name": "deterministic indexable sample",
+      "pass": true,
+      "evidence": "20/20"
+    },
+    {
+      "name": "weakest Phase 12 sample",
+      "pass": true,
+      "evidence": "20/20"
+    },
+    {
+      "name": "Google processing maturity",
+      "pass": false,
+      "expected_hold": true,
+      "evidence": "all 16 inspected Google crawl timestamps predate deployment"
+    }
+  ],
+  "immediate_technical_result": "PASS",
+  "phase_14_status": "DEPLOYED_MONITORING_REQUIRED"
+}

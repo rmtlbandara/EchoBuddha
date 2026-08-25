@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-08-25T05:24:40.046Z",
+  "phase_12_status": "PASS_WITH_EXPLICIT_HOLDS",
+  "phase_13_status": "PASS_NO_EXPANSION_REQUIRED",
+  "source_recovery_commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
+  "current_production_commit": "83a685bcf942349e632ae043a1327b3ed53549df",
+  "target_production_branch": "main",
+  "worktree_clean_at_phase_13_checkpoint": true,
+  "unresolved_recovery_p0_blockers": 0,
+  "unresolved_recovery_p1_critical_blockers": 0,
+  "predeploy_production_crawl": {
+    "rows": 344,
+    "fetch_errors": 0,
+    "sitemap_urls": 194,
+    "real_ad_signals": 0,
+    "empty_ad_placeholders": 0
+  },
+  "predeploy_search_baseline": {
+    "scope": "https://www.googleapis.com/auth/webmasters.readonly",
+    "data_state": "final",
+    "finalized_end_date": "2026-08-22",
+    "rows": 406,
+    "priority_url_inspections": 16,
+    "sitemap_records": 1
+  },
+  "google_search_update_context": {
+    "checked_on": "2026-08-25",
+    "active_crawling_incident": false,
+    "active_indexing_incident": false,
+    "active_ranking_incident": false,
+    "recent_update": "August 2026 spam update",
+    "recent_update_started": "2026-08-18",
+    "recent_update_duration": "2 days 16 hours",
+    "interpretation": "Completed before deployment; early performance remains potentially confounded by recent ranking-system change."
+  },
+  "rollback": {
+    "current_production_smoke": "PASS_14_OF_14",
+    "rollback_version": "2a92b1d8-404d-48cc-9ef1-074a204b82bf",
+    "rollback_required_predeploy": false
+  },
+  "delivery": {
+    "github_production_environment": "ABSENT",
+    "github_environment_secrets": "ABSENT",
+    "legacy_cloudflare_git_integration": "ACTIVE_PREDEPLOY",
+    "approved_method": "DISCONNECT_LEGACY_TRIGGER_THEN_UPDATE_MAIN_THEN_AUTHENTICATED_EXACT_ARTIFACT_LOCAL_FALLBACK"
+  },
+  "real_ad_serving": false,
+  "auto_ads": false,
+  "adsense_resubmission_status": "BLOCKED",
+  "google_indexing_api_used": false,
+  "predeploy_gate_status": "PASS_PENDING_EXACT_RELEASE_REVALIDATION_AND_LEGACY_TRIGGER_DISCONNECT"
+}

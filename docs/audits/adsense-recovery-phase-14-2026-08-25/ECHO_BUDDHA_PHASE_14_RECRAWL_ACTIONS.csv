@@ -1,0 +1,5 @@
+URL,reason,method,request_date,owner_UI_action,evidence,status
+https://echobuddha.com/sitemap.xml,Broad discovery of the coherent recovery architecture,EXISTING_CANONICAL_SITEMAP,2026-08-25,NO_DUPLICATE_SUBMISSION,GSC showed one successful existing sitemap; last read still predeployment and 194 discovered URLs,AWAITING_GOOGLE_REFETCH
+https://echobuddha.com/,Materially changed site gateway,URL_INSPECTION_UI_REQUEST_INDEXING,2026-08-25,YES,Live URL test: URL is available to Google; indexing-request confirmation displayed,REQUESTED_ONCE
+https://echobuddha.com/articles/right-speech-buddhism/,Protected high-value query owner,URL_INSPECTION_UI_REQUEST_INDEXING,2026-08-25,YES,Indexing-request confirmation displayed,REQUESTED_ONCE
+https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,Primary survivor receiving two approved permanent redirects,URL_INSPECTION_UI_REQUEST_INDEXING,2026-08-25,YES,Indexing-request confirmation displayed,REQUESTED_ONCE

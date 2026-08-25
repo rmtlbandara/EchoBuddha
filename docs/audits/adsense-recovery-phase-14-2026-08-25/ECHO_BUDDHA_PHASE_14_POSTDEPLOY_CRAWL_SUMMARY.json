@@ -1,0 +1,15 @@
+{
+  "mode": "postdeploy",
+  "captured_at": "2026-08-25T05:33:42.793Z",
+  "inventory_rows": 344,
+  "status_counts": {
+    "200": 340,
+    "301": 3,
+    "307": 1
+  },
+  "sitemap_fetch_status": 200,
+  "sitemap_urls": 149,
+  "real_ad_signals": 0,
+  "empty_ad_placeholders": 0,
+  "fetch_errors": 0
+}

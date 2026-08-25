@@ -1,0 +1,8 @@
+URL,policy,http_status,real_ad_runtime_signals,rendered_ad_slots,visible_empty_placeholders,verification_meta_allowed,result
+https://echobuddha.com/,INDEXABLE_HOME,200,0,0,0,YES,PASS
+https://echobuddha.com/search/,SEARCH_NEVER,200,0,0,0,NO,PASS
+https://echobuddha.com/contact/,CONTACT_NEVER,200,0,0,0,YES,PASS
+https://echobuddha.com/privacy-policy/,PRIVACY_NEVER,200,0,0,0,YES,PASS
+https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,NOINDEX_QUOTE_NEVER,200,0,0,0,NO,PASS
+https://echobuddha.com/404,ERROR_NEVER,200,0,0,0,NO,PASS
+https://echobuddha.com/phase-14-firewall-unknown/,UNKNOWN_DENY,404,0,0,0,NO,PASS

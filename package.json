@@ -36,6 +36,8 @@
     "audit:phase12": "node scripts/validate-phase-12-policy-redteam.mjs",
     "generate:phase13": "node docs/audits/adsense-recovery-phase-13-2026-08-25/generate-phase-13-skip.mjs",
     "audit:phase13": "node scripts/validate-phase-13.mjs",
+    "generate:phase14": "node docs/audits/adsense-recovery-phase-14-2026-08-25/generate-phase-14-production-validation.mjs",
+    "audit:phase14": "node scripts/validate-phase-14.mjs",
     "audit:governance:changes": "node scripts/report-governance-changes.mjs",
     "audit:production-smoke": "node scripts/production-smoke-check.mjs",
     "test": "node --test tests/*.test.mjs",

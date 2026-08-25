@@ -1,0 +1,15 @@
+{
+  "mode": "predeploy",
+  "captured_at": "2026-08-25T05:24:40.046Z",
+  "inventory_rows": 344,
+  "status_counts": {
+    "200": 342,
+    "307": 1,
+    "404": 1
+  },
+  "sitemap_fetch_status": 200,
+  "sitemap_urls": 194,
+  "real_ad_signals": 0,
+  "empty_ad_placeholders": 0,
+  "fetch_errors": 0
+}

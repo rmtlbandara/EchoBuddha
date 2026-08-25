@@ -1,0 +1,248 @@
+{
+  "generated_at": "2026-08-25T05:24:50.945Z",
+  "property": "sc-domain:echobuddha.com",
+  "scope": "https://www.googleapis.com/auth/webmasters.readonly",
+  "data_state": "final",
+  "finalized_end_date": "2026-08-22",
+  "windows": {
+    "latest28": {
+      "startDate": "2026-07-26",
+      "endDate": "2026-08-22"
+    },
+    "previous28": {
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-25"
+    }
+  },
+  "sitemap": {
+    "sitemap": [
+      {
+        "path": "https://echobuddha.com/sitemap.xml",
+        "lastSubmitted": "2026-08-21T10:13:06.258Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-08-24T01:44:02.463Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "194",
+            "indexed": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "inspections": [
+    {
+      "URL": "https://echobuddha.com/",
+      "inspected_at": "2026-08-25T05:24:59.934Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-21T05:36:27Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/",
+      "userCanonical": "https://echobuddha.com/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/about/",
+      "inspected_at": "2026-08-25T05:25:07.041Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-22T06:47:33Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/about/",
+      "userCanonical": "https://echobuddha.com/about/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/",
+      "inspected_at": "2026-08-25T05:25:14.341Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-14T18:11:55Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/",
+      "userCanonical": "https://echobuddha.com/articles/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "inspected_at": "2026-08-25T05:25:21.308Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-24T07:33:39Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "userCanonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "inspected_at": "2026-08-25T05:25:28.481Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-07-18T16:55:09Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "userCanonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "inspected_at": "2026-08-25T05:25:35.864Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-06T11:04:10Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "userCanonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "inspected_at": "2026-08-25T05:25:43.047Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-06T11:04:20Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "userCanonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "inspected_at": "2026-08-25T05:25:50.164Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-19T03:46:28Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "userCanonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "inspected_at": "2026-08-25T05:25:57.156Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-06T16:46:09Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "userCanonical": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "inspected_at": "2026-08-25T05:26:04.236Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-07-14T06:18:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "userCanonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "inspected_at": "2026-08-25T05:26:11.326Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-18T14:51:45Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "userCanonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "inspected_at": "2026-08-25T05:26:18.781Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-23T16:40:39Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "userCanonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/daily-reflections/today/",
+      "inspected_at": "2026-08-25T05:26:25.965Z",
+      "verdict": "NEUTRAL",
+      "coverageState": "Excluded by ‘noindex’ tag",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "BLOCKED_BY_META_TAG",
+      "lastCrawlTime": "2026-08-21T21:48:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/daily-reflections/today/",
+      "userCanonical": "https://echobuddha.com/daily-reflections/today/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/quotes/letting-go/",
+      "inspected_at": "2026-08-25T05:26:33.093Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-11T08:32:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/quotes/letting-go/",
+      "userCanonical": "https://echobuddha.com/quotes/letting-go/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "inspected_at": "2026-08-25T05:26:40.259Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-07-31T17:03:53Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "userCanonical": "https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "URL": "https://echobuddha.com/start-here/",
+      "inspected_at": "2026-08-25T05:26:47.313Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-13T17:44:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://echobuddha.com/start-here/",
+      "userCanonical": "https://echobuddha.com/start-here/",
+      "crawledAs": "MOBILE"
+    }
+  ]
+}

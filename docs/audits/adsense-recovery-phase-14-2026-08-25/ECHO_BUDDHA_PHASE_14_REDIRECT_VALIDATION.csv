@@ -1,0 +1,5 @@
+source,expected_status,actual_status,location,final_url,final_status,hops,source_in_sitemap,loop,result
+https://echobuddha.com/404.html,307,307,/404,https://echobuddha.com/404,200,1,NO,NO,PASS
+https://echobuddha.com/articles/how-to-practice-non-attachment/,301,301,/articles/how-to-let-go-of-attachment-in-buddhism/,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,200,1,NO,NO,PASS
+https://echobuddha.com/articles/letting-go-without-giving-up/,301,301,/articles/how-to-let-go-of-attachment-in-buddhism/,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,200,1,NO,NO,PASS
+https://echobuddha.com/terms-and-conditions/,301,301,/terms-of-use/,https://echobuddha.com/terms-of-use/,200,1,NO,NO,PASS
