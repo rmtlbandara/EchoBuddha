@@ -1,0 +1,4 @@
+source,status,target,target_state,hops,source_in_sitemap,target_in_sitemap,internal_links_to_source,loop,relevant,result
+https://echobuddha.com/articles/how-to-practice-non-attachment/,301,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,INDEXABLE_CANONICAL_200,1,NO,YES,0,NO,TOPICALLY_EQUIVALENT_APPROVED_PHASE_4_CONSOLIDATION,PASS
+https://echobuddha.com/articles/letting-go-without-giving-up/,301,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,INDEXABLE_CANONICAL_200,1,NO,YES,0,NO,TOPICALLY_EQUIVALENT_APPROVED_PHASE_4_CONSOLIDATION,PASS
+https://echobuddha.com/terms-and-conditions/,301,https://echobuddha.com/terms-of-use/,INDEXABLE_CANONICAL_200,1,NO,YES,0,NO,EXACT_LEGAL_RENAME,PASS

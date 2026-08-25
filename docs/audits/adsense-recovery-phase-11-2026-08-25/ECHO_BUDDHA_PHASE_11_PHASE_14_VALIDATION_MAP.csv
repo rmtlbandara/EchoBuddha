@@ -1,0 +1,9 @@
+check,sample,expected,rollback_trigger
+Release SHA,entire deployment,deployed SHA equals approved Phase 11 descendant,unexpected SHA or diff
+Canonical convergence,all P0/P1 plus representative families,Google/user canonical agree,wrong cross-URL canonical
+Sitemap,single canonical sitemap,149 canonical 200/index URLs,noindex/redirect/404 listed
+Permanent redirects,3/3,301 one hop to relevant 200,"loop, chain, 4xx or irrelevant target"
+Noindex,all families plus GSC anomaly URLs,crawlable 200 with noindex and absent sitemap,indexable P0/P1 or robots contradiction
+Invalid routes,bad article/quote/learn/static slugs,true 404,soft 200
+Host normalization,HTTP and www,one hop to https://echobuddha.com/,alternate host 200
+Google recrawl,URL Inspection without indexing request,signals converge naturally,material canonical/indexability regression

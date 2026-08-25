@@ -1,6 +1,7 @@
 ---
 import { SITE } from "../data/site";
 import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
+import { getSearchIndexPolicy, SEARCH_INDEX_STATES } from "../data/search-index-policy.mjs";
 
 type Props = {
   title: string;
@@ -78,6 +79,14 @@ const globalJsonLd = [
 const pageJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 const structuredData = [...(shouldEmitSiteIdentity ? globalJsonLd : []), ...pageJsonLd];
 const canonicalUrl = canonicalPath === false ? undefined : new URL(canonicalPath ?? Astro.url.pathname, SITE.url).toString();
+const searchPolicy = getSearchIndexPolicy(Astro.url.pathname);
+const expectedNoindex = searchPolicy.state === SEARCH_INDEX_STATES.NOINDEX || searchPolicy.state === SEARCH_INDEX_STATES.REMOVED_404;
+if (searchPolicy.state === SEARCH_INDEX_STATES.HOLD) {
+  throw new Error(`Unclassified HTML route in Search index policy: ${Astro.url.pathname}`);
+}
+if (noindex !== expectedNoindex) {
+  throw new Error(`Search index policy mismatch for ${Astro.url.pathname}: expected noindex=${expectedNoindex}, received ${noindex}`);
+}
 ---
 
 <title>{pageTitle}</title>

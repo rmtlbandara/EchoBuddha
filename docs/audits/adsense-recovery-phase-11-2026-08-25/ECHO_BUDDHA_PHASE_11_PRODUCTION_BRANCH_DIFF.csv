@@ -1,0 +1,13 @@
+URL,production_status,production_location,production_content_type,branch_expected_status,branch_expected_location,difference,production_provenance,branch_provenance,observed_at
+https://echobuddha.com/,200,,text/html,200,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+http://echobuddha.com/,301,https://echobuddha.com/,text/html; charset=UTF-8,200,,EXPECTED_UNDEPLOYED_BRANCH_CHANGE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://www.echobuddha.com/,301,https://echobuddha.com/,text/html; charset=UTF-8,200,,EXPECTED_UNDEPLOYED_BRANCH_CHANGE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/about,307,/about/,,307,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/About/,404,,,404,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/about/?utm_source=phase11,200,,text/html,200,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/articles/how-to-practice-non-attachment/,200,,text/html,301,https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/,EXPECTED_UNDEPLOYED_BRANCH_CHANGE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/terms-and-conditions/,404,,,301,https://echobuddha.com/terms-of-use/,EXPECTED_UNDEPLOYED_BRANCH_CHANGE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/phase-11-invalid-route-probe/,404,,,404,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/robots.txt,200,,text/plain; charset=utf-8,200,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/sitemap.xml,200,,application/xml,200,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30
+https://echobuddha.com/ads.txt,200,,text/plain,200,,NONE,PRODUCTION_OBSERVED,BRANCH_OBSERVED_OR_EXPECTED_FROM_CONFIG,2026-08-25T08:38:00+05:30

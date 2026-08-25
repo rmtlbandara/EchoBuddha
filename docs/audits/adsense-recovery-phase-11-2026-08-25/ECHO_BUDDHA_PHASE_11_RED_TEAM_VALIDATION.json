@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "attacks": 36,
+  "bypasses": 0,
+  "results": [
+    {
+      "name": "unknown route fails closed",
+      "pass": true,
+      "evidence": "invented route absent"
+    },
+    {
+      "name": "only HTTPS non-www sitemap URL origins",
+      "pass": true,
+      "evidence": "sitemap loc scan; XML namespace excluded"
+    },
+    {
+      "name": "no localhost or preview hostname",
+      "pass": true,
+      "evidence": "sitemap environment scan"
+    },
+    {
+      "name": "no sitemap duplicates",
+      "pass": true,
+      "evidence": 149
+    },
+    {
+      "name": "sitemap equals indexable count",
+      "pass": true,
+      "evidence": "149/149"
+    },
+    {
+      "name": "noindex excluded from sitemap",
+      "pass": true,
+      "evidence": 186
+    },
+    {
+      "name": "redirect sources excluded from sitemap",
+      "pass": true,
+      "evidence": 3
+    },
+    {
+      "name": "redirect targets included",
+      "pass": true,
+      "evidence": "/articles/how-to-let-go-of-attachment-in-buddhism/|/articles/how-to-let-go-of-attachment-in-buddhism/|/terms-of-use/"
+    },
+    {
+      "name": "no redirect loops",
+      "pass": true,
+      "evidence": "three one-hop targets"
+    },
+    {
+      "name": "redirect config exact count",
+      "pass": true,
+      "evidence": "public/_redirects"
+    },
+    {
+      "name": "robots allows Search crawl",
+      "pass": true,
+      "evidence": "public/robots.txt"
+    },
+    {
+      "name": "robots declares canonical sitemap",
+      "pass": true,
+      "evidence": "public/robots.txt"
+    },
+    {
+      "name": "no robots/noindex contradiction",
+      "pass": true,
+      "evidence": "noindex pages remain crawlable"
+    },
+    {
+      "name": "preview host protected",
+      "pass": true,
+      "evidence": "public/_headers"
+    },
+    {
+      "name": "404 has no canonical",
+      "pass": true,
+      "evidence": "dist/404.html"
+    },
+    {
+      "name": "404 is noindex",
+      "pass": true,
+      "evidence": "dist/404.html"
+    },
+    {
+      "name": "parameter canonicalization observed",
+      "pass": true,
+      "evidence": "production query probe"
+    },
+    {
+      "name": "wrong-case behavior observed",
+      "pass": true,
+      "evidence": "production case probe"
+    },
+    {
+      "name": "raw/rendered evidence passes",
+      "pass": true,
+      "evidence": "15 desktop/mobile samples"
+    },
+    {
+      "name": "local full HTTP crawl passes",
+      "pass": true,
+      "evidence": "350 responses/probes"
+    },
+    {
+      "name": "GSC provenance explicit",
+      "pass": true,
+      "evidence": "GSC matrix"
+    },
+    {
+      "name": "no indexing request language as action",
+      "pass": true,
+      "evidence": "validation boundary"
+    },
+    {
+      "name": "Phase 10 ads remain off",
+      "pass": true,
+      "evidence": "Phase 10 firewall"
+    },
+    {
+      "name": "no AdSense runtime in build",
+      "pass": true,
+      "evidence": "dist scan"
+    },
+    {
+      "name": "no build-time sitemap timestamp",
+      "pass": true,
+      "evidence": "sitemap lastmod"
+    },
+    {
+      "name": "structured data audit passes",
+      "pass": true,
+      "evidence": "335 rows"
+    },
+    {
+      "name": "internal link audit passes",
+      "pass": true,
+      "evidence": "335 rows"
+    },
+    {
+      "name": "canonical audit passes",
+      "pass": true,
+      "evidence": "335 rows"
+    },
+    {
+      "name": "sitemap audit passes",
+      "pass": true,
+      "evidence": "343 rows"
+    },
+    {
+      "name": "exact state coverage",
+      "pass": true,
+      "evidence": 344
+    },
+    {
+      "name": "no hold states",
+      "pass": true,
+      "evidence": "zero holds"
+    },
+    {
+      "name": "Phase 3 checkpoint remains ancestor",
+      "pass": true,
+      "evidence": "git ancestry exit 0"
+    },
+    {
+      "name": "Phase 10 checkpoint remains HEAD ancestor",
+      "pass": true,
+      "evidence": "git ancestry exit 0"
+    },
+    {
+      "name": "production unchanged boundary",
+      "pass": true,
+      "evidence": "validation boundary"
+    },
+    {
+      "name": "repository treated private",
+      "pass": true,
+      "evidence": "method manifest"
+    },
+    {
+      "name": "all official sources are first party",
+      "pass": true,
+      "evidence": "10 sources"
+    }
+  ]
+}

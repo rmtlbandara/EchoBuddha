@@ -14,11 +14,14 @@ import {
   quoteCategories,
   quotes
 } from "../data/site";
+import { SEARCH_INDEX_POLICY, SEARCH_INDEX_STATES } from "../data/search-index-policy.mjs";
 
 type SitemapEntry = {
   path: string;
   lastmod?: string;
 };
+
+const searchPolicyByPath = SEARCH_INDEX_POLICY as Record<string, { state: string }>;
 
 const asSitemapEntries = (entries: SitemapEntry[]) => entries;
 
@@ -102,6 +105,15 @@ export const GET: APIRoute = () => {
     ...quoteCategoryPaths,
     ...quoteStoryPaths
   ]);
+  const entryPaths = new Set(entries.map((entry) => entry.path));
+  const intendedIndexablePaths = Object.entries(searchPolicyByPath)
+    .filter(([, policy]) => policy.state === SEARCH_INDEX_STATES.INDEXABLE)
+    .map(([route]) => route);
+  const sitemapContradictions = entries.filter((entry) => searchPolicyByPath[entry.path]?.state !== SEARCH_INDEX_STATES.INDEXABLE);
+  const missingIndexablePaths = intendedIndexablePaths.filter((route) => !entryPaths.has(route));
+  if (sitemapContradictions.length || missingIndexablePaths.length || entryPaths.size !== entries.length) {
+    throw new Error(`Sitemap/index policy mismatch: contradictions=${sitemapContradictions.map((entry) => entry.path).join("|") || "none"}; missing=${missingIndexablePaths.join("|") || "none"}; duplicates=${entries.length - entryPaths.size}`);
+  }
   const urls = entries
     .map((entry) => {
       const loc = new URL(entry.path, SITE.url).toString();

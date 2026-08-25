@@ -1,0 +1,53 @@
+{
+  "phase": 11,
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "generated_at": "2026-08-25T09:00:00+05:30",
+  "inventory": {
+    "total": 344,
+    "html": 335,
+    "indexable": 149,
+    "noindex": 186,
+    "redirects": 3,
+    "removed_404": 0,
+    "removed_410": 0,
+    "technical": 5,
+    "unknown_hold": 0,
+    "temporary_redirects": 1
+  },
+  "checks": {
+    "canonical_matches": 335,
+    "sitemap_count": 149,
+    "broken_internal_links": 0,
+    "internal_links_to_redirects": 0,
+    "redirect_loops": 0,
+    "redirect_chains": 0,
+    "sitemap_non_200_urls": 0,
+    "sitemap_noindex_urls": 0,
+    "structured_data_failures": 0,
+    "unknown_states": 0,
+    "ads_runtime_routes": 0
+  },
+  "failures": [],
+  "pending_completion_checks": [],
+  "boundaries": {
+    "production_deployed": false,
+    "indexing_requested": false,
+    "indexing_api_used": false,
+    "sitemap_submitted": false,
+    "adsense_submitted": false,
+    "phase_12_started": false
+  },
+  "completion": {
+    "local_http": "PASS",
+    "rendered_browser": "PASS_15_ROUTES_DESKTOP_AND_MOBILE",
+    "independent": "PASS",
+    "red_team": "PASS",
+    "secret_scan": "PASS"
+  },
+  "explicit_holds": [
+    "GOOGLE_CANONICAL_REEVALUATION_PENDING_DEPLOYMENT",
+    "PRODUCTION_GSC_CONVERGENCE_PENDING",
+    "MANUAL_ACTION_UI_VERIFICATION_DEFERRED_TO_PHASE_12",
+    "SECURITY_ISSUES_UI_VERIFICATION_DEFERRED_TO_PHASE_12"
+  ]
+}

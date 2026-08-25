@@ -1,0 +1,5 @@
+id,severity,item,state,rationale,blocks_branch_pass,owner_phase
+HOLD-11-01,HOLD,Google processing of branch signals,PENDING_DEPLOYMENT_AND_RECRAWL,Google cannot process unreleased branch code,NO,PHASE_14
+HOLD-11-02,HOLD,Production GSC convergence,PENDING_POST_DEPLOYMENT,URL Inspection evidence describes deployed production,NO,PHASE_14
+HOLD-11-03,HOLD,Manual Actions UI state,DEFERRED,Policy red-team responsibility,NO,PHASE_12
+HOLD-11-04,HOLD,Security Issues UI state,DEFERRED,Policy red-team responsibility,NO,PHASE_12

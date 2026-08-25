@@ -1,0 +1,51 @@
+{
+  "phase": 11,
+  "status": "PASS_WITH_EXPLICIT_HOLDS",
+  "generated_at": "2026-08-25T09:00:00+05:30",
+  "repository_treatment": "PRIVATE_REGARDLESS_OF_HOST_VISIBILITY",
+  "starting_phase_10_checkpoint": "c703bdd1e4bc96c6c636377f6658069992837c31",
+  "protected_phase_3_checkpoint": "2fb776a989aca32da70b8bbdf972a24da8b30fd0",
+  "scope": "Technical SEO and index hygiene only; no production, deployment, merge, Search indexing request, sitemap submission, AdSense action, or Phase 12",
+  "methods": [
+    "static branch build inventory",
+    "raw HTML signal extraction",
+    "sitemap set comparison",
+    "robots and redirect configuration audit",
+    "internal-link graph",
+    "structured-data parse/date check",
+    "read-only production HTTP observations",
+    "existing complete first-party URL Inspection API reconciliation"
+  ],
+  "official_google_sources": [
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting",
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+    "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+    "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+    "https://developers.google.com/search/docs/crawling-indexing/http-network-errors",
+    "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+    "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "https://support.google.com/webmasters/answer/9012289"
+  ],
+  "source_hashes": {
+    "gsc_url_inspection_csv": "ac5260d00a5c6b7407098989d2156d2ab1c083ffe0c99ce9668ecfa47beac61c",
+    "production_observations_json": "b295d7810d90ffd88a7675e57eb0b93d05a54b3274db6b2cd322b3382ac169c3",
+    "robots_txt": "5b008327987cf7fe7dca610b4f3e76e48bdbc11c765a1c322b99929d9ba22172",
+    "sitemap_xml": "4465dc79327bd0f6fe1abccaa89ad1da6dcd971a56db232f6bc7c2825f26afa3"
+  },
+  "provenance_labels": [
+    "PRODUCTION_OBSERVED",
+    "BRANCH_OBSERVED",
+    "EXPECTED_POST_DEPLOYMENT",
+    "GOOGLE_OBSERVED",
+    "INFERRED",
+    "UNKNOWN"
+  ],
+  "gsc": {
+    "evidence_timestamp": "2026-08-24T06:06:01.824Z",
+    "inspected_rows": 340,
+    "describes": "DEPLOYED_PRODUCTION"
+  },
+  "secrets": "OAuth files outside repository were neither read nor copied by this generator"
+}

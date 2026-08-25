@@ -1,0 +1,10 @@
+state,count,status,robots,canonical,sitemap,internal_links
+INDEXABLE_CANONICAL_200,149,200,"index, follow",absolute self,INCLUDE,direct canonical URL
+NOINDEX_USER_PAGE_200,186,200,"noindex, follow",absolute self,EXCLUDE,allowed when user-useful
+PERMANENT_REDIRECT,3,301,NOT_APPLICABLE,NONE,EXCLUDE,zero controlled links to source
+TEMPORARY_REDIRECT,1,307,NOT_APPLICABLE,NONE,EXCLUDE,Cloudflare error-shell filename normalization only
+REMOVED_404,0,404,"noindex, follow on friendly body",NONE,EXCLUDE,zero broken links
+REMOVED_410,0,410,NOT_APPLICABLE,NONE,EXCLUDE,zero broken links
+TECHNICAL_ENDPOINT,5,200,resource-specific,NONE,EXCLUDE,NOT_APPLICABLE
+NON_HTML_RESOURCE,0,200,resource-specific,NONE,EXCLUDE,NOT_APPLICABLE
+HOLD_MANUAL_REVIEW,0,UNKNOWN,UNKNOWN,UNKNOWN,EXCLUDE,manual review

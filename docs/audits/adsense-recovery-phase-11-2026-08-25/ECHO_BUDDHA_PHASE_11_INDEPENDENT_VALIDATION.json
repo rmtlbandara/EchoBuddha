@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "method": "Independent derivation from dist HTML, sitemap XML, redirect config and Phase 3 canonical map without importing the Phase 11 policy module",
+  "sets": {
+    "INDEXABLE_SET": {
+      "count": 149,
+      "sha256": "6ae28d055422f4c2e75d1b2ea5921b858a74b4294506d2936d77ca154339361b"
+    },
+    "NOINDEX_SET": {
+      "count": 186,
+      "sha256": "97c63cd6b7a8a05f7dc072397bde09decff327374738f39737d3660587b8ffc7"
+    },
+    "REDIRECT_SET": {
+      "count": 3,
+      "sha256": "1751d239376b34a0e46be8437ef8e7090e9c3b0e62c005e0fe7de5825a3e339f"
+    },
+    "REMOVED_SET": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "TECHNICAL_SET": {
+      "count": 5,
+      "sha256": "004a896d2ae719c25db9d736ac056f304116c5fce596e3e5604b13a5efc2bd59"
+    }
+  },
+  "checks": [
+    {
+      "name": "335 independently discovered HTML routes",
+      "pass": true,
+      "actual": 335
+    },
+    {
+      "name": "149 independently discovered indexable routes",
+      "pass": true,
+      "actual": 149
+    },
+    {
+      "name": "186 independently discovered noindex routes",
+      "pass": true,
+      "actual": 186
+    },
+    {
+      "name": "sitemap equals independently derived indexable set",
+      "pass": true,
+      "actual": 149
+    },
+    {
+      "name": "three independently parsed permanent redirects",
+      "pass": true,
+      "actual": 3
+    },
+    {
+      "name": "indexable/noindex mutually exclusive",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "sitemap/noindex mutually exclusive",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "sitemap/redirect mutually exclusive",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "technical/indexable mutually exclusive",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "404 build shell noindex and sitemap excluded",
+      "pass": true,
+      "actual": true
+    },
+    {
+      "name": "all P0/P1 canonical-map URLs protected",
+      "pass": true,
+      "actual": {
+        "checked": 32,
+        "failures": []
+      }
+    }
+  ],
+  "failures": []
+}

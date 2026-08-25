@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-08-25T08:38:00+05:30",
+  "provenance": "PRODUCTION_OBSERVED",
+  "method": "Read-only HTTP requests with redirects disabled",
+  "observations": [
+    { "url": "https://echobuddha.com/", "status": 200, "location": "", "content_type": "text/html" },
+    { "url": "http://echobuddha.com/", "status": 301, "location": "https://echobuddha.com/", "content_type": "text/html; charset=UTF-8" },
+    { "url": "https://www.echobuddha.com/", "status": 301, "location": "https://echobuddha.com/", "content_type": "text/html; charset=UTF-8" },
+    { "url": "https://echobuddha.com/about", "status": 307, "location": "/about/", "content_type": "" },
+    { "url": "https://echobuddha.com/About/", "status": 404, "location": "", "content_type": "" },
+    { "url": "https://echobuddha.com/about/?utm_source=phase11", "status": 200, "location": "", "content_type": "text/html" },
+    { "url": "https://echobuddha.com/articles/how-to-practice-non-attachment/", "status": 200, "location": "", "content_type": "text/html" },
+    { "url": "https://echobuddha.com/terms-and-conditions/", "status": 404, "location": "", "content_type": "" },
+    { "url": "https://echobuddha.com/phase-11-invalid-route-probe/", "status": 404, "location": "", "content_type": "" },
+    { "url": "https://echobuddha.com/robots.txt", "status": 200, "location": "", "content_type": "text/plain; charset=utf-8" },
+    { "url": "https://echobuddha.com/sitemap.xml", "status": 200, "location": "", "content_type": "application/xml" },
+    { "url": "https://echobuddha.com/ads.txt", "status": 200, "location": "", "content_type": "text/plain" }
+  ]
+}
