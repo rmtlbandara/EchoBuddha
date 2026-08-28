@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-08-28T04:18:00.212Z",
+  "property": "sc-domain:echobuddha.com",
+  "sitemap": {
+    "path": "https://echobuddha.com/sitemap.xml",
+    "submitted": "2026-08-21",
+    "last_read": "2026-08-27",
+    "status": "Success",
+    "discovered_pages": 149,
+    "discovered_videos": 0,
+    "duplicate_submission_performed": false
+  },
+  "page_indexing": {
+    "indexed_pages": 287,
+    "not_indexed_pages": 65,
+    "not_indexed_reasons": 6,
+    "noindex_examples": 46,
+    "redirect_examples": 9,
+    "critical_recovery_redirect_sources_visible_in_examples": 0,
+    "postdeploy_noindex_example_crawl_observed": false
+  },
+  "manual_actions": "NO_ISSUES_DETECTED",
+  "security_issues": "NO_ISSUES_DETECTED",
+  "notes": [
+    "The sitemap has been refetched after deployment and now reflects the live 149-URL contract.",
+    "The three approved recovery redirect sources were not present in the visible Page-with-redirect examples.",
+    "Visible noindex examples remained crawled before the Phase 14 deployment marker.",
+    "No Search Console write action was performed."
+  ]
+}

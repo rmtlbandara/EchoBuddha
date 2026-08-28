@@ -1,11 +1,11 @@
 journey,URL,evidence,result,tested_at
-desktop navigation,homepage,Main navigation landmark and six primary links rendered,PASS,2026-08-25T05:48:50.626Z
-skip link,homepage,Skip to content link rendered before primary navigation,PASS,2026-08-25T05:48:50.626Z
-search dialog,homepage,Named dialog and named searchbox rendered,PASS,2026-08-25T05:48:50.626Z
-keyboard-critical flow,homepage search,Escape dismissed the search dialog,PASS,2026-08-25T05:48:50.626Z
-article reading,/articles/right-speech-buddhism/,Main landmark and route-specific H1 rendered,PASS,2026-08-25T05:48:50.626Z
-quote browsing,/quotes/letting-go/,Main landmark and route-specific H1 rendered,PASS,2026-08-25T05:48:50.626Z
-trust,/about/,Main landmark and route-specific H1 rendered,PASS,2026-08-25T05:48:50.626Z
-contact,/contact/,Main landmark and route-specific H1 rendered,PASS,2026-08-25T05:48:50.626Z
-mobile regression,responsive source + Phase 9 release suite,Exact deployed artifact passed Phase 9 responsive controls; in-app browser offered no independent viewport override,PASS_WITH_LIMITATION,2026-08-25T05:48:50.626Z
-invalid URL,/phase-9-smoke-missing/,HTTP smoke returned genuine 404,PASS,2026-08-25T05:48:50.626Z
+desktop navigation,homepage,Main navigation landmark and six primary links rendered,PASS,2026-08-28T04:21:06.500Z
+skip link,homepage,Skip to content link rendered before primary navigation,PASS,2026-08-28T04:21:06.500Z
+search dialog,homepage,Named dialog and named searchbox rendered,PASS,2026-08-28T04:21:06.500Z
+keyboard-critical flow,homepage search,Escape dismissed the search dialog,PASS,2026-08-28T04:21:06.500Z
+article reading,/articles/right-speech-buddhism/,Main landmark and route-specific H1 rendered,PASS,2026-08-28T04:21:06.500Z
+quote browsing,/quotes/letting-go/,Main landmark and route-specific H1 rendered,PASS,2026-08-28T04:21:06.500Z
+trust,/about/,Main landmark and route-specific H1 rendered,PASS,2026-08-28T04:21:06.500Z
+contact,/contact/,Main landmark and route-specific H1 rendered,PASS,2026-08-28T04:21:06.500Z
+mobile regression,responsive source + Phase 9 release suite,Exact deployed artifact passed Phase 9 responsive controls; in-app browser offered no independent viewport override,PASS_WITH_LIMITATION,2026-08-28T04:21:06.500Z
+invalid URL,/phase-9-smoke-missing/,HTTP smoke returned genuine 404,PASS,2026-08-28T04:21:06.500Z

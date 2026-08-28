@@ -51,6 +51,10 @@ const baselineByUrl = new Map(baseline.map((row) => [row.URL, row]));
 const inspection = readCsv("ECHO_BUDDHA_PHASE_14_URL_INSPECTION.csv");
 const preGsc = JSON.parse(fs.readFileSync(path.join(outDir, "source-evidence/ECHO_BUDDHA_PHASE_14_GSC_PREDEPLOY_SUMMARY.json"), "utf8"));
 const postGsc = JSON.parse(fs.readFileSync(path.join(outDir, "source-evidence/ECHO_BUDDHA_PHASE_14_GSC_POSTDEPLOY_SUMMARY.json"), "utf8"));
+const monitoringSearch = readCsv("ECHO_BUDDHA_PHASE_14_MONITORING_SEARCH.csv");
+const redirectGoogle = readCsv("ECHO_BUDDHA_PHASE_14_REDIRECT_GOOGLE_PROCESSING.csv");
+const monitoringSummary = JSON.parse(fs.readFileSync(path.join(outDir, "source-evidence/ECHO_BUDDHA_PHASE_14_MONITORING_SEARCH_SUMMARY.json"), "utf8"));
+const gscUiMonitoring = JSON.parse(fs.readFileSync(path.join(outDir, "source-evidence/ECHO_BUDDHA_PHASE_14_GSC_UI_MONITORING_SUMMARY.json"), "utf8"));
 const phase11 = JSON.parse(fs.readFileSync(path.join(root, "docs/audits/adsense-recovery-phase-11-2026-08-25/ECHO_BUDDHA_PHASE_11_VALIDATION.json"), "utf8"));
 const protection = readRepoCsv("docs/audits/adsense-recovery-phase-3-2026-08-24/ECHO_BUDDHA_SEO_GROWTH_PROTECTION_REGISTRY.csv");
 const cornerstones = readRepoCsv("docs/audits/adsense-recovery-phase-6-2026-08-24/ECHO_BUDDHA_PHASE_6_CORNERSTONE_REGISTRY.csv");
@@ -185,6 +189,9 @@ const convergenceRows = inspection.map((row) => {
   const pre = preInspection.get(row.URL) || {};
   const lastCrawlBeforeDeploy = !row.lastCrawlTime || new Date(row.lastCrawlTime) < new Date(deployedAt);
   const intended = live?.intended_state || "PRIORITY_INSPECTION_ONLY";
+  const indexableConverged = !lastCrawlBeforeDeploy && intended === "INDEXABLE_CANONICAL_200" && row.verdict === "PASS" && row.pageFetchState === "SUCCESSFUL" && row.googleCanonical === live?.canonical;
+  const noindexConverged = !lastCrawlBeforeDeploy && intended === "NOINDEX_USER_PAGE_200" && /noindex/i.test(row.coverageState) && row.pageFetchState === "SUCCESSFUL";
+  const converged = indexableConverged || noindexConverged;
   return {
     URL: row.URL,
     priority: protection.find((item) => item.URL === row.URL)?.protection_tier || "REPRESENTATIVE",
@@ -194,10 +201,10 @@ const convergenceRows = inspection.map((row) => {
     Google_current_state: `${row.verdict || "UNKNOWN"}; ${row.coverageState || ""}`,
     last_crawl: row.lastCrawlTime,
     Google_canonical: row.googleCanonical,
-    expected: lastCrawlBeforeDeploy ? "GOOGLE_PROCESSING_EXPECTED" : "REVIEW_NEW_CRAWL",
-    converged: lastCrawlBeforeDeploy ? "NO_NOT_YET_RECRAWLED" : "REVIEW",
-    action: lastCrawlBeforeDeploy ? "MONITOR_WITHOUT_CHURN" : "COMPARE_TO_LIVE_CONTRACT",
-    blocker: lastCrawlBeforeDeploy ? "POSTDEPLOY_GOOGLE_RECRAWL_NOT_YET_OBSERVED" : "",
+    expected: lastCrawlBeforeDeploy ? "GOOGLE_PROCESSING_EXPECTED" : "POSTDEPLOY_CRAWL_OBSERVED",
+    converged: converged ? "YES" : lastCrawlBeforeDeploy ? "NO_NOT_YET_RECRAWLED" : "REVIEW",
+    action: converged ? "MONITOR_STABILITY" : "MONITOR_WITHOUT_CHURN",
+    blocker: converged ? "" : lastCrawlBeforeDeploy ? "POSTDEPLOY_GOOGLE_RECRAWL_NOT_YET_OBSERVED" : "POSTDEPLOY_STATE_REQUIRES_REVIEW",
   };
 });
 writeCsv("ECHO_BUDDHA_PHASE_14_GOOGLE_CONVERGENCE.csv", convergenceRows);
@@ -217,6 +224,17 @@ const weakestRows = weakestUrls.map((URL) => crawlByUrl.get(URL)).filter(Boolean
 const contractFailures = indexRows.filter((row) => row.result !== "PASS");
 const inspectionVerdicts = Object.fromEntries([...new Set(inspection.map((row) => row.verdict))].map((verdict) => [verdict, inspection.filter((row) => row.verdict === verdict).length]));
 const allGoogleCrawlsPredeploy = inspection.every((row) => !row.lastCrawlTime || new Date(row.lastCrawlTime) < new Date(deployedAt));
+const priorityPostdeployCrawls = inspection.filter((row) => row.lastCrawlTime && new Date(row.lastCrawlTime) >= new Date(deployedAt));
+const priorityConverged = convergenceRows.filter((row) => row.converged === "YES");
+const sitemapRecord = postGsc.sitemap?.sitemap?.find((item) => item.path === "https://echobuddha.com/sitemap.xml");
+const sitemapSubmittedCount = Number(sitemapRecord?.contents?.find((item) => item.type === "web")?.submitted || 0);
+const sitemapRefetched = Boolean(sitemapRecord?.lastDownloaded) && new Date(sitemapRecord.lastDownloaded) >= new Date(deployedAt) && sitemapSubmittedCount === 149 && String(sitemapRecord.errors || "0") === "0";
+const redirectSourcesRecrawled = redirectGoogle.filter((row) => row.postdeploy_crawl === "YES");
+const postdeployNoindexConvergence = convergenceRows.filter((row) => row.intended_state === "NOINDEX_USER_PAGE_200" && row.converged === "YES");
+const latestSite = monitoringSearch.find((row) => row.row_type === "SITE_TOTAL" && row.window === "latest28");
+const previousSite = monitoringSearch.find((row) => row.row_type === "SITE_TOTAL" && row.window === "previous28");
+const materialGoogleConvergence = contractFailures.length === 0 && sitemapRefetched && priorityConverged.length >= 3 && redirectSourcesRecrawled.length === redirectGoogle.length && postdeployNoindexConvergence.length >= 1 && gscUiMonitoring.manual_actions === "NO_ISSUES_DETECTED" && gscUiMonitoring.security_issues === "NO_ISSUES_DETECTED";
+const phase14Status = materialGoogleConvergence ? "PASS" : "DEPLOYED_MONITORING_REQUIRED";
 
 const independent = {
   generated_at: generatedAt,
@@ -242,16 +260,21 @@ const independent = {
     { name: "firewall", pass: firewallRows.every((row) => row.result === "PASS"), evidence: `${firewallRows.length} adversarial surfaces; zero ad slots/placeholders` },
     { name: "deterministic indexable sample", pass: deterministic.every(contractCheck), evidence: `${deterministic.length}/${deterministic.length}` },
     { name: "weakest Phase 12 sample", pass: weakestRows.every(contractCheck), evidence: `${weakestRows.length}/${weakestRows.length}` },
-    { name: "Google processing maturity", pass: false, expected_hold: true, evidence: allGoogleCrawlsPredeploy ? "all 16 inspected Google crawl timestamps predate deployment" : "postdeploy crawl observed; further assessment required" },
+    { name: "sitemap postdeploy refetch", pass: sitemapRefetched, evidence: sitemapRefetched ? `refetched ${sitemapRecord.lastDownloaded}; 149 submitted URLs` : "postdeploy 149-URL refetch not observed" },
+    { name: "priority URL postdeploy processing", pass: priorityConverged.length >= 3, evidence: `${priorityConverged.length}/${inspection.length} priority URLs converged after deployment` },
+    { name: "critical redirect-source processing", pass: redirectSourcesRecrawled.length === redirectGoogle.length, expected_hold: redirectSourcesRecrawled.length !== redirectGoogle.length, evidence: `${redirectSourcesRecrawled.length}/${redirectGoogle.length} approved redirect sources recrawled after deployment` },
+    { name: "representative noindex postdeploy processing", pass: postdeployNoindexConvergence.length >= 1, expected_hold: postdeployNoindexConvergence.length < 1, evidence: `${postdeployNoindexConvergence.length} representative noindex priority URLs recrawled and excluded after deployment` },
+    { name: "Search Console account safety", pass: gscUiMonitoring.manual_actions === "NO_ISSUES_DETECTED" && gscUiMonitoring.security_issues === "NO_ISSUES_DETECTED", evidence: "Manual Actions and Security Issues: no issues detected" },
+    { name: "material Google convergence", pass: materialGoogleConvergence, expected_hold: !materialGoogleConvergence, evidence: materialGoogleConvergence ? "all material convergence gates satisfied" : "redirect-source and/or representative noindex postdeploy processing remains pending" },
   ],
   immediate_technical_result: contractFailures.length === 0 && firewallRows.every((row) => row.result === "PASS") ? "PASS" : "FAIL",
-  phase_14_status: "DEPLOYED_MONITORING_REQUIRED",
+  phase_14_status: phase14Status,
 };
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_INDEPENDENT_VALIDATION.json"), `${JSON.stringify(independent, null, 2)}\n`);
 
 const methodManifest = {
   generated_at: generatedAt,
-  status: "DEPLOYED_MONITORING_REQUIRED",
+  status: phase14Status,
   immutable_release: { commit: deployedCommit, deployment_id: deploymentId, version_id: versionId, deployed_at: deployedAt },
   methods: [
     "Detached-worktree Node 22/npm 10 clean install, full release validation, build-once artifact manifest, and aggregate SHA verification",
@@ -264,7 +287,7 @@ const methodManifest = {
   ],
   evidence_boundaries: [
     "URL Inspection API reports Google's indexed state, not a live URL test.",
-    "All 16 postdeploy inspection timestamps still predate deployment, so material convergence is not established.",
+    `${priorityPostdeployCrawls.length}/${inspection.length} priority inspection timestamps now postdate deployment; ${redirectSourcesRecrawled.length}/${redirectGoogle.length} approved redirect sources have postdeployment Google crawl evidence.`,
     "The in-app browser had no independent mobile viewport override; the exact artifact's Phase 9 responsive release suite supplies the mobile regression evidence.",
     "Static Worker historical Googlebot logs were not available; complete HTTP crawl and Search Console crawl evidence were used.",
     "Search query text remains redacted and hashed in repository artifacts.",
@@ -286,32 +309,32 @@ const sitemapDoc = `# EchoBuddha Phase 14 Sitemap and robots.txt Validation
 - Excluded from sitemap: 186 noindex pages, 3 permanent redirect sources, the temporary 404 filename normalization route, and error states.
 - Sitemap contract failures: ${contractFailures.filter((row) => row.expected_sitemap !== row.actual_sitemap).length}.
 - Sitemap host/staging failures: 0.
-- Search Console: one existing canonical sitemap, status Success, 0 errors, 0 warnings; last read 2026-08-24 still reflects the 194-URL predeployment version.
+- Search Console: one existing canonical sitemap, status Success, 0 errors, 0 warnings; refetched ${sitemapRecord?.lastDownloaded || "NOT_OBSERVED"} with ${sitemapSubmittedCount} submitted URLs.
 - Duplicate submission performed: NO.
-- Current state: Google sitemap refetch is pending and is tracked as normal asynchronous processing.
+- Current state: ${sitemapRefetched ? "The postdeployment 149-URL sitemap refetch is confirmed." : "Google sitemap refetch remains pending."}
 
-RESULT = PASS_LIVE / GOOGLE_REFETCH_PENDING
+RESULT = ${sitemapRefetched ? "PASS_LIVE_AND_GSC_REFETCHED" : "PASS_LIVE / GOOGLE_REFETCH_PENDING"}
 `;
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_SITEMAP_ROBOTS_VALIDATION.md"), sitemapDoc);
 
 const runbook = `# EchoBuddha Phase 14 Monitoring Runbook
 
-PHASE_14_STATUS = DEPLOYED_MONITORING_REQUIRED
+PHASE_14_STATUS = ${phase14Status}
 
 Do not redeploy unchanged code and do not begin Phase 15. Preserve the deployment marker ${deployedAt} and the immutable predeploy Search baseline.
 
 ## Immediate and short-term checks
 
 1. Re-run the 344-URL production crawl and fail on any new 5xx, P0/P1 non-200, redirect loop/chain, canonical mismatch, sitemap pollution, accidental noindex, ad runtime, or empty ad placeholder.
-2. Inspect the existing sitemap record. Do not submit a duplicate. Record when Google changes the discovered-page count from the predeploy 194 toward the live 149 contract.
+2. Preserve the confirmed postdeployment 149-URL sitemap refetch. Do not submit a duplicate.
 3. Re-run one URL Inspection API snapshot only at meaningful checkpoints. Do not exhaust quota or call it a live test.
 4. Track every SEO-P0 and SEO-P1 URL for coverage, Google canonical, last crawl, and material click/impression change using finalized comparable windows.
-5. Track the two letting-go redirect sources and their survivor, the legal rename, representative noindex Quote/reflection pages, and removed/error states.
+5. Track the two letting-go redirect sources and the legal rename until Google recrawls them after deployment; also require one representative intended-noindex page to be recrawled and excluded after deployment.
 6. Recheck Page Indexing, Manual Actions, and Security Issues in Search Console.
 
 ## Suggested observation opportunities
 
-- Short-term: when Search Console first shows a post-${deployedAt} crawl or refetched 149-URL sitemap.
+- Short-term: Google has recrawled the three requested priority pages and refetched the 149-URL sitemap; the remaining gate is redirect-source and representative noindex processing.
 - Approximately one week: repeat protected-page and convergence matrices with finalized Search data.
 - Approximately two weeks: repeat only if material convergence is still unproven.
 
@@ -354,12 +377,12 @@ const manifest = `# EchoBuddha Phase 14 Deployment Manifest
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_DEPLOYMENT_MANIFEST.md"), manifest);
 
 const reportSections = [
-  ["Executive Summary", "The approved recovery commit was deployed as one coherent exact artifact. Live technical validation passes; Google has not yet recrawled the inspected priority set, so the correct exit state is DEPLOYED_MONITORING_REQUIRED."],
+  ["Executive Summary", `The approved recovery commit remains stable as one coherent exact artifact. Live technical validation passes. Google refetched the 149-URL sitemap and recrawled ${priorityConverged.length} priority URLs after deployment; critical redirect-source and representative noindex postdeployment processing remain pending, so the exit state is ${phase14Status}.`],
   ["Phase 13 Result", "PASS_NO_EXPANSION_REQUIRED; 0 new indexable URLs and 0 existing-page enhancements."],
   ["Release Commit", `Production serves ${deployedCommit}; deployment ${deploymentId}; version ${versionId}.`],
   ["Predeploy Production Baseline", "344 known URLs were captured against the old deployment: 342 HTTP 200, one 307 and one 404; the old sitemap contained 194 URLs; no ads or placeholders were found."],
   ["Predeploy Search Baseline", `Finalized through ${preGsc.finalized_end_date}; latest and previous comparable 28-day windows, protected pages, hashed Query × Page rows, 16 priority inspections and one sitemap record were preserved as PRE_DEPLOYMENT_GOOGLE_STATE.`],
-  ["Google Search Update Context", "The August 2026 spam update completed before deployment. No active crawling, indexing, or ranking incident was present at the checkpoint; early movement remains confounded by recency."],
+  ["Google Search Update Context", "The August 2026 spam update completed before deployment. The official Search Status Dashboard showed no active crawling, indexing, ranking, or serving incident at the 2026-08-28 monitoring checkpoint; early movement remains confounded by update recency."],
   ["Rollback Readiness", `Previous healthy version ${previousVersion} was identified and its 14/14 smoke baseline verified before deployment.`],
   ["Deployment Execution", `The competing Cloudflare Git auto-deploy integration was disconnected; main was fast-forwarded; the exact detached-worktree artifact was deployed at ${deployedAt}.`],
   ["Immediate Production Health", "The corrected current-contract smoke suite passes 14/14. Homepage, representative content, trust, error handling, HTTPS, security headers and preview noindex are healthy."],
@@ -370,7 +393,7 @@ const reportSections = [
   ["Redirect Validation", `${redirectRows.length} redirects are one hop, end at HTTP 200, avoid loops, and remain outside the sitemap.`],
   ["Canonical Validation", `${canonicalRows.filter((row) => row.canonical_result === "PASS").length}/${canonicalRows.length} applicable canonical checks pass.`],
   ["robots.txt", "HTTP 200, canonical sitemap declaration present, no production-wide disallow, and intended noindex pages remain crawlable."],
-  ["Sitemap", "The live sitemap has 149 intended canonical URLs. Search Console retains one successful submission; its predeploy 194-page read awaits asynchronous refetch."],
+  ["Sitemap", `The live sitemap has 149 intended canonical URLs. Search Console refetched it after deployment on ${sitemapRecord?.lastDownloaded || "UNKNOWN"} and now reports 149 submitted/discovered URLs with zero errors or warnings.`],
   ["Noindex", "All 186 intended user-useful noindex pages remain HTTP 200, crawlable, canonicalized as designed, and excluded from the sitemap."],
   ["Structured Data", "The exact artifact passed Phase 11 parsing with zero structured-data failures; representative production pages expose reviewed types and no staging entities."],
   ["Internal Links", "The exact artifact passed with 0 broken internal links and 0 controlled links through redirect sources; production route delivery matches that artifact."],
@@ -381,32 +404,32 @@ const reportSections = [
   ["AdSense Firewall", `${firewallRows.length}/${firewallRows.length} adversarial surfaces contain zero real ad runtime, slots or empty placeholders. Verification infrastructure is preserved.`],
   ["Production Crawl", `${crawl.length} rows, zero fetch errors, 149 sitemap URLs, zero ad signals and zero empty placeholders.`],
   ["Production vs Intended Contract", `${indexRows.length - contractFailures.length}/${indexRows.length} rows pass; ${changedCount} rows differ materially from old production and all differences are expected.`],
-  ["Search Console Sitemap State", "One canonical sitemap; Success; zero errors and warnings; last read 2026-08-24 with 194 discovered URLs from old production. No duplicate was submitted."],
+  ["Search Console Sitemap State", `One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with ${sitemapSubmittedCount} URLs. No duplicate was submitted.`],
   ["Recrawl Actions", "Three priority UI requests were confirmed once: homepage, Right Speech owner, and the letting-go consolidation survivor."],
-  ["URL Inspection", `${inspection.length} priority API inspections: ${JSON.stringify(inspectionVerdicts)}. This is indexed-state evidence, not live-test evidence.`],
-  ["Google Canonical Processing", "All inspected last-crawl timestamps predate deployment; current Google canonicals therefore represent predeploy processing."],
-  ["Redirect Processing", "Live redirects are correct. Google recognition is pending; monitor sources and the survivor without changing the map."],
-  ["Noindex / Removal Processing", "Live directives are correct. Eventual exclusion/removal is expected and no reindex request was made for noindex pages."],
-  ["Search Performance", "The immutable baseline uses finalized latest and previous 28-day windows. No causal postdeploy claim is possible in the immediate window."],
-  ["P0/P1 Search Protection", "All protected routes are live and technically healthy. Search Console processing and later finalized-window monitoring remain required."],
-  ["Material Google Convergence", "NOT YET ESTABLISHED: all 16 priority last-crawl timestamps predate deployment and the sitemap read still reflects 194 old-production URLs."],
+  ["URL Inspection", `${inspection.length} priority API inspections: ${JSON.stringify(inspectionVerdicts)}; ${priorityPostdeployCrawls.length} last-crawl timestamps now postdate deployment and ${priorityConverged.length} match their intended state. This is indexed-state evidence, not live-test evidence.`],
+  ["Google Canonical Processing", `${priorityConverged.length} postdeployment priority crawls show successful fetches and intended canonical/index states, including all three requested priority URLs.`],
+  ["Redirect Processing", `Live redirects are correct. ${redirectSourcesRecrawled.length}/${redirectGoogle.length} approved redirect sources have postdeployment Google crawl evidence; the survivor has converged, but source recognition remains pending.`],
+  ["Noindex / Removal Processing", `Live directives are correct and Search Console reports 46 excluded noindex examples. ${postdeployNoindexConvergence.length} representative priority noindex URLs have postdeployment crawl/exclusion evidence, so the monitoring gate remains open.`],
+  ["Search Performance", `Finalized through ${monitoringSummary.finalized_end_date}. Latest 28-day site totals are ${latestSite?.clicks || 0} clicks/${latestSite?.impressions || 0} impressions versus ${previousSite?.clicks || 0}/${previousSite?.impressions || 0}; this supports no systemic collapse but does not prove causality.`],
+  ["P0/P1 Search Protection", `All ${p0.length + p1.length} protected routes are live and technically healthy; all P0s and 31/32 P1s have visible latest-window rows, with one low-volume P1 moving from 9 prior impressions to no visible current row.`],
+  ["Material Google Convergence", `${materialGoogleConvergence ? "ESTABLISHED" : "NOT YET ESTABLISHED"}: sitemap refetch=${sitemapRefetched ? "YES" : "NO"}; priority convergence=${priorityConverged.length}/${inspection.length}; redirect sources recrawled=${redirectSourcesRecrawled.length}/${redirectGoogle.length}; representative noindex postdeploy convergence=${postdeployNoindexConvergence.length}.`],
   ["Policy Regression Check", "Representative homepage, article, Quote, trust and weak-page production samples retain reviewed content, authorship/source signals and no hidden/ad content regression."],
   ["Production Privacy / Secret Check", "OAuth material remained outside the repository; query text is hashed; no credential/session/account data is included in artifacts. Final automated scan is recorded separately."],
-  ["Independent Validation", `Immediate technical result PASS; deterministic ${deterministic.length}-URL indexable sample and ${weakestRows.length}-URL weakest-page sample pass. Google maturity is an explicit expected hold.`],
+  ["Independent Validation", `Immediate technical result PASS; deterministic ${deterministic.length}-URL indexable sample and ${weakestRows.length}-URL weakest-page sample pass. Material Google convergence=${materialGoogleConvergence ? "PASS" : "EXPECTED HOLD"}.`],
   ["Rollback / Fix-Forward Actions", "ROLLBACK_REQUIRED = NO. A stale pre-recovery count assertion in the smoke script was corrected to read the current governed inventory; it did not alter production assets."],
-  ["Explicit Holds", "POSTDEPLOY_GOOGLE_RECRAWL_NOT_YET_OBSERVED; SITEMAP_REFETCH_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA."],
-  ["Monitoring Required", "Continue the resumable Phase 14 runbook. Do not redeploy unchanged code or create content churn."],
-  ["Phase 15 Gate", "BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE. Phase 15 was not started."],
-  ["Phase 14 Exit Status", "PHASE_14_STATUS = DEPLOYED_MONITORING_REQUIRED"],
+  ["Explicit Holds", materialGoogleConvergence ? "FIELD_CWV_INSUFFICIENT_DATA only; non-material." : "CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; REPRESENTATIVE_NOINDEX_POSTDEPLOY_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA."],
+  ["Monitoring Required", materialGoogleConvergence ? "No further Phase 14 convergence monitoring is required before Phase 15." : "Continue the resumable Phase 14 runbook. Do not redeploy unchanged code or create content churn."],
+  ["Phase 15 Gate", materialGoogleConvergence ? "OPEN: Phase 14 PASS authorizes Phase 15." : "BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE. Phase 15 was not started."],
+  ["Phase 14 Exit Status", `PHASE_14_STATUS = ${phase14Status}`],
 ];
 const report = `# EchoBuddha Phase 14 Production Validation + Recrawl Report\n\n${reportSections.map(([title, body], index) => `## ${index + 1}. ${title}\n\n${body}`).join("\n\n")}\n`;
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_PRODUCTION_VALIDATION_RECRAWL_REPORT.md"), report);
 
 const handoff = `# EchoBuddha Phase 14 → Phase 15 Gate Record
 
-PHASE_15_GATE = BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE
+PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE"}
 
-This is a gate record, not authorization to begin Phase 15.
+${materialGoogleConvergence ? "This gate record authorizes Phase 15; it does not authorize AdSense submission." : "This is a gate record, not authorization to begin Phase 15."}
 
 - Production commit: \`${deployedCommit}\`
 - Deployment date: \`${deployedAt}\`
@@ -414,17 +437,48 @@ This is a gate record, not authorization to begin Phase 15.
 - Phase 12: PASS_WITH_EXPLICIT_HOLDS compatible with deployment
 - Production inventory: 335 built pages; 149 indexable; 186 noindex; 3 permanent redirects; live contract 344/344 PASS
 - P0/P1: technically healthy in production
-- Google convergence: not established; all 16 inspected crawl timestamps predate deployment
+- Google convergence: ${materialGoogleConvergence ? "established" : `not established; ${priorityConverged.length}/${inspection.length} priority URLs converged, ${redirectSourcesRecrawled.length}/${redirectGoogle.length} redirect sources recrawled, and ${postdeployNoindexConvergence.length} representative noindex URLs converged after deployment`}
 - Random sample: ${deterministic.length}/${deterministic.length} PASS
 - Weakest-page sample: ${weakestRows.length}/${weakestRows.length} PASS
 - AdSense: ads OFF; resubmission BLOCKED
-- Next: CONTINUE PHASE 14 MONITORING / REMEDIATION
+- Next: ${materialGoogleConvergence ? "PHASE 15 — INDEPENDENT FINAL ADSENSE READINESS AUDIT" : "CONTINUE PHASE 14 MONITORING / REMEDIATION"}
 `;
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_PHASE_15_HANDOFF.md"), handoff);
 
+const monitoringCheckpoint = `# EchoBuddha Phase 14 Monitoring Checkpoint — 2026-08-28
+
+PHASE_14_STATUS = ${phase14Status}
+PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE"}
+
+## Confirmed progress
+
+- Production smoke: 14/14 PASS.
+- Complete production contract: ${indexRows.length - contractFailures.length}/${indexRows.length} PASS.
+- Live sitemap: 149 canonical URLs.
+- Search Console sitemap: refetched after deployment; 149 submitted/discovered URLs; Success; zero errors/warnings.
+- Priority URL Inspection: ${priorityConverged.length}/${inspection.length} have postdeployment crawl evidence and match intended state.
+- Requested priority URLs: homepage, Right Speech owner, and letting-go survivor all recrawled after deployment with successful fetch, indexing allowed, and matching Google/user canonicals.
+- Latest finalized Search window (${monitoringSummary.windows.latest28.startDate} to ${monitoringSummary.windows.latest28.endDate}): ${latestSite?.clicks || 0} clicks and ${latestSite?.impressions || 0} impressions, versus ${previousSite?.clicks || 0} and ${previousSite?.impressions || 0} in the previous 28 days.
+- Manual Actions: no issues detected.
+- Security Issues: no issues detected.
+- Real ad serving: OFF.
+
+## Remaining material evidence gaps
+
+- Approved redirect sources recrawled after deployment: ${redirectSourcesRecrawled.length}/${redirectGoogle.length}.
+- Representative intended-noindex priority URLs recrawled and excluded after deployment: ${postdeployNoindexConvergence.length}.
+- Search Console's visible redirect examples do not yet include the three recovery redirect sources.
+- The visible noindex examples remain crawled before the deployment marker.
+
+## Decision
+
+${materialGoogleConvergence ? "Material Google convergence is established. Phase 14 PASS and the Phase 15 gate is open." : "Google has clearly begun processing the release, but the mandatory redirect-source and representative noindex convergence evidence is not yet mature. Continue Phase 14 monitoring without redeploying or repeating indexing requests."}
+`;
+fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_2026-08-28.md"), monitoringCheckpoint);
+
 console.log(JSON.stringify({
   generated_at: generatedAt,
-  phase_14_status: "DEPLOYED_MONITORING_REQUIRED",
+  phase_14_status: phase14Status,
   production_contract: `${indexRows.length - contractFailures.length}/${indexRows.length}`,
   p0: p0.length,
   p1: p1.length,
@@ -434,5 +488,10 @@ console.log(JSON.stringify({
   firewall: `${firewallRows.filter((row) => row.result === "PASS").length}/${firewallRows.length}`,
   url_inspections: inspection.length,
   all_google_crawls_predeploy: allGoogleCrawlsPredeploy,
-  material_google_convergence: false,
+  priority_postdeploy_crawls: priorityPostdeployCrawls.length,
+  priority_converged: priorityConverged.length,
+  sitemap_refetched: sitemapRefetched,
+  redirect_sources_recrawled: `${redirectSourcesRecrawled.length}/${redirectGoogle.length}`,
+  representative_noindex_converged: postdeployNoindexConvergence.length,
+  material_google_convergence: materialGoogleConvergence,
 }, null, 2));

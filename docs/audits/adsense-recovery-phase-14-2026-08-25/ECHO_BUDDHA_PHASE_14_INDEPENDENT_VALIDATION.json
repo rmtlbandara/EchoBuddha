@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:48:50.626Z",
+  "generated_at": "2026-08-28T04:21:06.500Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
   "deployed_commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
@@ -105,10 +105,37 @@
       "evidence": "20/20"
     },
     {
-      "name": "Google processing maturity",
+      "name": "sitemap postdeploy refetch",
+      "pass": true,
+      "evidence": "refetched 2026-08-26T21:18:38.914Z; 149 submitted URLs"
+    },
+    {
+      "name": "priority URL postdeploy processing",
+      "pass": true,
+      "evidence": "3/16 priority URLs converged after deployment"
+    },
+    {
+      "name": "critical redirect-source processing",
       "pass": false,
       "expected_hold": true,
-      "evidence": "all 16 inspected Google crawl timestamps predate deployment"
+      "evidence": "0/3 approved redirect sources recrawled after deployment"
+    },
+    {
+      "name": "representative noindex postdeploy processing",
+      "pass": false,
+      "expected_hold": true,
+      "evidence": "0 representative noindex priority URLs recrawled and excluded after deployment"
+    },
+    {
+      "name": "Search Console account safety",
+      "pass": true,
+      "evidence": "Manual Actions and Security Issues: no issues detected"
+    },
+    {
+      "name": "material Google convergence",
+      "pass": false,
+      "expected_hold": true,
+      "evidence": "redirect-source and/or representative noindex postdeploy processing remains pending"
     }
   ],
   "immediate_technical_result": "PASS",

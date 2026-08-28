@@ -7,15 +7,15 @@ Do not redeploy unchanged code and do not begin Phase 15. Preserve the deploymen
 ## Immediate and short-term checks
 
 1. Re-run the 344-URL production crawl and fail on any new 5xx, P0/P1 non-200, redirect loop/chain, canonical mismatch, sitemap pollution, accidental noindex, ad runtime, or empty ad placeholder.
-2. Inspect the existing sitemap record. Do not submit a duplicate. Record when Google changes the discovered-page count from the predeploy 194 toward the live 149 contract.
+2. Preserve the confirmed postdeployment 149-URL sitemap refetch. Do not submit a duplicate.
 3. Re-run one URL Inspection API snapshot only at meaningful checkpoints. Do not exhaust quota or call it a live test.
 4. Track every SEO-P0 and SEO-P1 URL for coverage, Google canonical, last crawl, and material click/impression change using finalized comparable windows.
-5. Track the two letting-go redirect sources and their survivor, the legal rename, representative noindex Quote/reflection pages, and removed/error states.
+5. Track the two letting-go redirect sources and the legal rename until Google recrawls them after deployment; also require one representative intended-noindex page to be recrawled and excluded after deployment.
 6. Recheck Page Indexing, Manual Actions, and Security Issues in Search Console.
 
 ## Suggested observation opportunities
 
-- Short-term: when Search Console first shows a post-2026-08-25T05:33:01.801137Z crawl or refetched 149-URL sitemap.
+- Short-term: Google has recrawled the three requested priority pages and refetched the 149-URL sitemap; the remaining gate is redirect-source and representative noindex processing.
 - Approximately one week: repeat protected-page and convergence matrices with finalized Search data.
 - Approximately two weeks: repeat only if material convergence is still unproven.
 

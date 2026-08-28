@@ -2,7 +2,7 @@
 
 ## 1. Executive Summary
 
-The approved recovery commit was deployed as one coherent exact artifact. Live technical validation passes; Google has not yet recrawled the inspected priority set, so the correct exit state is DEPLOYED_MONITORING_REQUIRED.
+The approved recovery commit remains stable as one coherent exact artifact. Live technical validation passes. Google refetched the 149-URL sitemap and recrawled 3 priority URLs after deployment; critical redirect-source and representative noindex postdeployment processing remain pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
 
 ## 2. Phase 13 Result
 
@@ -22,7 +22,7 @@ Finalized through 2026-08-22; latest and previous comparable 28-day windows, pro
 
 ## 6. Google Search Update Context
 
-The August 2026 spam update completed before deployment. No active crawling, indexing, or ranking incident was present at the checkpoint; early movement remains confounded by recency.
+The August 2026 spam update completed before deployment. The official Search Status Dashboard showed no active crawling, indexing, ranking, or serving incident at the 2026-08-28 monitoring checkpoint; early movement remains confounded by update recency.
 
 ## 7. Rollback Readiness
 
@@ -66,7 +66,7 @@ HTTP 200, canonical sitemap declaration present, no production-wide disallow, an
 
 ## 17. Sitemap
 
-The live sitemap has 149 intended canonical URLs. Search Console retains one successful submission; its predeploy 194-page read awaits asynchronous refetch.
+The live sitemap has 149 intended canonical URLs. Search Console refetched it after deployment on 2026-08-26T21:18:38.914Z and now reports 149 submitted/discovered URLs with zero errors or warnings.
 
 ## 18. Noindex
 
@@ -110,7 +110,7 @@ No broken assets or systemic HTTP failures appeared in the full crawl/browser jo
 
 ## 28. Search Console Sitemap State
 
-One canonical sitemap; Success; zero errors and warnings; last read 2026-08-24 with 194 discovered URLs from old production. No duplicate was submitted.
+One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with 149 URLs. No duplicate was submitted.
 
 ## 29. Recrawl Actions
 
@@ -118,31 +118,31 @@ Three priority UI requests were confirmed once: homepage, Right Speech owner, an
 
 ## 30. URL Inspection
 
-16 priority API inspections: {"PASS":15,"NEUTRAL":1}. This is indexed-state evidence, not live-test evidence.
+16 priority API inspections: {"PASS":15,"NEUTRAL":1}; 3 last-crawl timestamps now postdate deployment and 3 match their intended state. This is indexed-state evidence, not live-test evidence.
 
 ## 31. Google Canonical Processing
 
-All inspected last-crawl timestamps predate deployment; current Google canonicals therefore represent predeploy processing.
+3 postdeployment priority crawls show successful fetches and intended canonical/index states, including all three requested priority URLs.
 
 ## 32. Redirect Processing
 
-Live redirects are correct. Google recognition is pending; monitor sources and the survivor without changing the map.
+Live redirects are correct. 0/3 approved redirect sources have postdeployment Google crawl evidence; the survivor has converged, but source recognition remains pending.
 
 ## 33. Noindex / Removal Processing
 
-Live directives are correct. Eventual exclusion/removal is expected and no reindex request was made for noindex pages.
+Live directives are correct and Search Console reports 46 excluded noindex examples. 0 representative priority noindex URLs have postdeployment crawl/exclusion evidence, so the monitoring gate remains open.
 
 ## 34. Search Performance
 
-The immutable baseline uses finalized latest and previous 28-day windows. No causal postdeploy claim is possible in the immediate window.
+Finalized through 2026-08-25. Latest 28-day site totals are 17 clicks/2208 impressions versus 13/730; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
-All protected routes are live and technically healthy. Search Console processing and later finalized-window monitoring remain required.
+All 35 protected routes are live and technically healthy; all P0s and 31/32 P1s have visible latest-window rows, with one low-volume P1 moving from 9 prior impressions to no visible current row.
 
 ## 36. Material Google Convergence
 
-NOT YET ESTABLISHED: all 16 priority last-crawl timestamps predate deployment and the sitemap read still reflects 194 old-production URLs.
+NOT YET ESTABLISHED: sitemap refetch=YES; priority convergence=3/16; redirect sources recrawled=0/3; representative noindex postdeploy convergence=0.
 
 ## 37. Policy Regression Check
 
@@ -154,7 +154,7 @@ OAuth material remained outside the repository; query text is hashed; no credent
 
 ## 39. Independent Validation
 
-Immediate technical result PASS; deterministic 20-URL indexable sample and 20-URL weakest-page sample pass. Google maturity is an explicit expected hold.
+Immediate technical result PASS; deterministic 20-URL indexable sample and 20-URL weakest-page sample pass. Material Google convergence=EXPECTED HOLD.
 
 ## 40. Rollback / Fix-Forward Actions
 
@@ -162,7 +162,7 @@ ROLLBACK_REQUIRED = NO. A stale pre-recovery count assertion in the smoke script
 
 ## 41. Explicit Holds
 
-POSTDEPLOY_GOOGLE_RECRAWL_NOT_YET_OBSERVED; SITEMAP_REFETCH_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
+CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; REPRESENTATIVE_NOINDEX_POSTDEPLOY_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
 
 ## 42. Monitoring Required
 

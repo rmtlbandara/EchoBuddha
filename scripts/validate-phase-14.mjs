@@ -6,6 +6,9 @@ const dir = path.join(root, "docs/audits/adsense-recovery-phase-14-2026-08-25");
 const required = [
   "ECHO_BUDDHA_PHASE_14_PREDEPLOY_PRODUCTION_BASELINE.csv",
   "ECHO_BUDDHA_PHASE_14_SEARCH_BASELINE.csv",
+  "ECHO_BUDDHA_PHASE_14_MONITORING_SEARCH.csv",
+  "ECHO_BUDDHA_PHASE_14_REDIRECT_GOOGLE_PROCESSING.csv",
+  "ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_2026-08-28.md",
   "ECHO_BUDDHA_PHASE_14_DEPLOYMENT_MANIFEST.md",
   "ECHO_BUDDHA_PHASE_14_PRODUCTION_CRAWL.csv",
   "ECHO_BUDDHA_PHASE_14_PRODUCTION_DIFF.csv",
@@ -62,6 +65,8 @@ const ux = csv("ECHO_BUDDHA_PHASE_14_UX_SMOKE_VALIDATION.csv");
 const inspections = csv("ECHO_BUDDHA_PHASE_14_URL_INSPECTION.csv");
 const recrawl = csv("ECHO_BUDDHA_PHASE_14_RECRAWL_ACTIONS.csv");
 const convergence = csv("ECHO_BUDDHA_PHASE_14_GOOGLE_CONVERGENCE.csv");
+const monitoringSearch = csv("ECHO_BUDDHA_PHASE_14_MONITORING_SEARCH.csv");
+const redirectGoogle = csv("ECHO_BUDDHA_PHASE_14_REDIRECT_GOOGLE_PROCESSING.csv");
 const independent = json("ECHO_BUDDHA_PHASE_14_INDEPENDENT_VALIDATION.json");
 const method = json("ECHO_BUDDHA_PHASE_14_METHOD_MANIFEST.json");
 const secretScan = json("ECHO_BUDDHA_PHASE_14_SECRET_SCAN.json");
@@ -78,16 +83,21 @@ check("canonical/noindex", canonicals.length === 335 && canonicals.every((row) =
 check("AdSense firewall", firewall.length === 7 && firewall.every((row) => row.result === "PASS" && row.real_ad_runtime_signals === "0" && row.rendered_ad_slots === "0" && row.visible_empty_placeholders === "0"), `${firewall.length} adversarial surfaces`);
 check("UX/accessibility smoke", ux.length >= 10 && ux.every((row) => !row.result.startsWith("FAIL")), `${ux.length} journeys; ${ux.filter((row) => row.result === "PASS_WITH_LIMITATION").length} explicit limitation`);
 check("URL Inspection priority set", inspections.length === 16, `${inspections.length} readonly API inspections`);
-check("Google processing boundary", convergence.length === 16 && convergence.every((row) => row.converged === "NO_NOT_YET_RECRAWLED"), `${convergence.filter((row) => row.converged === "NO_NOT_YET_RECRAWLED").length}/${convergence.length} still predeploy crawl state`);
+check("Google processing boundary", convergence.length === 16 && convergence.every((row) => ["YES", "NO_NOT_YET_RECRAWLED", "REVIEW"].includes(row.converged)), `${convergence.filter((row) => row.converged === "YES").length}/${convergence.length} priority URLs converged after deployment`);
+check("monitoring Search comparison", monitoringSearch.length === 72 && monitoringSearch.filter((row) => row.row_type === "SITE_TOTAL").length === 2, `${monitoringSearch.length} finalized comparison rows`);
+check("redirect-source monitoring", redirectGoogle.length === 3 && redirectGoogle.every((row) => ["YES", "NO"].includes(row.postdeploy_crawl)), `${redirectGoogle.filter((row) => row.postdeploy_crawl === "YES").length}/${redirectGoogle.length} recrawled after deployment`);
 check("limited recrawl", recrawl.filter((row) => row.status === "REQUESTED_ONCE").length === 3 && recrawl.filter((row) => row.method === "EXISTING_CANONICAL_SITEMAP").length === 1, "3 priority requests; existing sitemap retained without duplicate");
-check("independent validation", independent.immediate_technical_result === "PASS" && independent.phase_14_status === "DEPLOYED_MONITORING_REQUIRED" && independent.checks.filter((item) => !item.pass && !item.expected_hold).length === 0, "technical PASS; Google maturity is an expected hold");
+check("independent validation", independent.immediate_technical_result === "PASS" && ["PASS", "DEPLOYED_MONITORING_REQUIRED"].includes(independent.phase_14_status) && independent.checks.filter((item) => !item.pass && !item.expected_hold).length === 0, `technical PASS; status ${independent.phase_14_status}`);
 check("method boundaries", method.google_indexing_api_used === false && method.OAuth_scope === "https://www.googleapis.com/auth/webmasters.readonly" && method.real_ad_serving === false && method.adsense_resubmission_status === "BLOCKED", "readonly GSC; no Indexing API; ads off; submission blocked");
 check("deployment identity", manifest.includes("ad9fe897916c76fd6883efc351461b49db28ac3f") && manifest.includes("f8f3f4c9-b156-422f-ad19-569abc767750") && manifest.includes("Rollback used: NO"), "approved SHA and deployment recorded");
-check("44-section report", (report.match(/^## \d+\./gm) || []).length === 44 && report.includes("PHASE_14_STATUS = DEPLOYED_MONITORING_REQUIRED"), `${(report.match(/^## \d+\./gm) || []).length}/44 sections`);
-check("Phase 15 hard gate", handoff.includes("PHASE_15_GATE = BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE") && handoff.includes("CONTINUE PHASE 14"), "Phase 15 not started");
+check("44-section report", (report.match(/^## \d+\./gm) || []).length === 44 && report.includes(`PHASE_14_STATUS = ${independent.phase_14_status}`), `${(report.match(/^## \d+\./gm) || []).length}/44 sections`);
+const phase15GateCorrect = independent.phase_14_status === "PASS"
+  ? handoff.includes("PHASE_15_GATE = OPEN") && handoff.includes("PHASE 15 — INDEPENDENT FINAL ADSENSE READINESS AUDIT")
+  : handoff.includes("PHASE_15_GATE = BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE") && handoff.includes("CONTINUE PHASE 14");
+check("Phase 15 hard gate", phase15GateCorrect, independent.phase_14_status === "PASS" ? "Phase 15 gate open" : "Phase 15 not started");
 check("secret scan", secretScan.status === "PASS" && secretScan.findings === 0, `${secretScan.findings} findings`);
 
 const failures = checks.filter((item) => !item.pass);
 for (const item of checks) console.log(`${item.pass ? "PASS" : "FAIL"} ${item.name}: ${item.evidence}`);
-console.log(`PHASE_14_STATUS = ${failures.length ? "FAIL" : "DEPLOYED_MONITORING_REQUIRED"}`);
+console.log(`PHASE_14_STATUS = ${failures.length ? "FAIL" : independent.phase_14_status}`);
 if (failures.length) process.exitCode = 1;
