@@ -9,6 +9,7 @@ const required = [
   "ECHO_BUDDHA_PHASE_14_MONITORING_SEARCH.csv",
   "ECHO_BUDDHA_PHASE_14_REDIRECT_GOOGLE_PROCESSING.csv",
   "ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_2026-08-28.md",
+  "ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_2026-08-29.md",
   "ECHO_BUDDHA_PHASE_14_DEPLOYMENT_MANIFEST.md",
   "ECHO_BUDDHA_PHASE_14_PRODUCTION_CRAWL.csv",
   "ECHO_BUDDHA_PHASE_14_PRODUCTION_DIFF.csv",
@@ -86,7 +87,7 @@ check("URL Inspection priority set", inspections.length === 16, `${inspections.l
 check("Google processing boundary", convergence.length === 16 && convergence.every((row) => ["YES", "NO_NOT_YET_RECRAWLED", "REVIEW"].includes(row.converged)), `${convergence.filter((row) => row.converged === "YES").length}/${convergence.length} priority URLs converged after deployment`);
 check("monitoring Search comparison", monitoringSearch.length === 72 && monitoringSearch.filter((row) => row.row_type === "SITE_TOTAL").length === 2, `${monitoringSearch.length} finalized comparison rows`);
 check("redirect-source monitoring", redirectGoogle.length === 3 && redirectGoogle.every((row) => ["YES", "NO"].includes(row.postdeploy_crawl)), `${redirectGoogle.filter((row) => row.postdeploy_crawl === "YES").length}/${redirectGoogle.length} recrawled after deployment`);
-check("limited recrawl", recrawl.filter((row) => row.status === "REQUESTED_ONCE").length === 3 && recrawl.filter((row) => row.method === "EXISTING_CANONICAL_SITEMAP").length === 1, "3 priority requests; existing sitemap retained without duplicate");
+check("limited recrawl", recrawl.filter((row) => row.status === "REQUESTED_ONCE").length === 6 && recrawl.filter((row) => row.status === "REQUEST_REJECTED_INTENDED_NOINDEX").length === 1 && recrawl.filter((row) => row.method === "EXISTING_CANONICAL_SITEMAP").length === 1, "6 accepted one-time requests; 1 intended-noindex rejection; existing sitemap retained without duplicate");
 check("independent validation", independent.immediate_technical_result === "PASS" && ["PASS", "DEPLOYED_MONITORING_REQUIRED"].includes(independent.phase_14_status) && independent.checks.filter((item) => !item.pass && !item.expected_hold).length === 0, `technical PASS; status ${independent.phase_14_status}`);
 check("method boundaries", method.google_indexing_api_used === false && method.OAuth_scope === "https://www.googleapis.com/auth/webmasters.readonly" && method.real_ad_serving === false && method.adsense_resubmission_status === "BLOCKED", "readonly GSC; no Indexing API; ads off; submission blocked");
 check("deployment identity", manifest.includes("ad9fe897916c76fd6883efc351461b49db28ac3f") && manifest.includes("f8f3f4c9-b156-422f-ad19-569abc767750") && manifest.includes("Rollback used: NO"), "approved SHA and deployment recorded");

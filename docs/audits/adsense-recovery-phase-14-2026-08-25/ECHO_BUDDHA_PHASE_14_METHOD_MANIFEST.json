@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T04:21:06.500Z",
+  "generated_at": "2026-08-29T16:55:53.937Z",
   "status": "DEPLOYED_MONITORING_REQUIRED",
   "immutable_release": {
     "commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
@@ -13,12 +13,12 @@
     "Complete 344-row production HTTP/canonical/robots/sitemap/firewall crawl",
     "In-app browser journeys and homepage Search Console live URL test",
     "Search Console Search Analytics and URL Inspection APIs using only webmasters.readonly",
-    "Search Console UI: existing sitemap inspection, three limited indexing requests, Manual Actions, and Security Issues",
+    "Search Console UI: existing sitemap inspection, six accepted one-time indexing requests, one intended-noindex request rejection, Manual Actions, and Security Issues",
     "Deterministic independent indexable sample and Phase 12 weakest-page sample"
   ],
   "evidence_boundaries": [
     "URL Inspection API reports Google's indexed state, not a live URL test.",
-    "3/16 priority inspection timestamps now postdate deployment; 0/3 approved redirect sources have postdeployment Google crawl evidence.",
+    "4/16 priority inspection timestamps now postdate deployment; 0/3 approved redirect sources have postdeployment Google crawl evidence.",
     "The in-app browser had no independent mobile viewport override; the exact artifact's Phase 9 responsive release suite supplies the mobile regression evidence.",
     "Static Worker historical Googlebot logs were not available; complete HTTP crawl and Search Console crawl evidence were used.",
     "Search query text remains redacted and hashed in repository artifacts."

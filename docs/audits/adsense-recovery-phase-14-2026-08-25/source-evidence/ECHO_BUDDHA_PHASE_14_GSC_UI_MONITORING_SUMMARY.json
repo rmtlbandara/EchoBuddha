@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-28T04:18:00.212Z",
+  "captured_at": "2026-08-29T16:54:40Z",
   "property": "sc-domain:echobuddha.com",
   "sitemap": {
     "path": "https://echobuddha.com/sitemap.xml",
@@ -21,10 +21,21 @@
   },
   "manual_actions": "NO_ISSUES_DETECTED",
   "security_issues": "NO_ISSUES_DETECTED",
+  "targeted_recrawl_actions": {
+    "performed_at": "2026-08-29",
+    "redirect_sources_requested_once": 3,
+    "redirect_sources_accepted": 3,
+    "representative_noindex_requested_once": 1,
+    "representative_noindex_request_result": "REJECTED_BECAUSE_INTENDED_NOINDEX_DETECTED",
+    "representative_noindex_live_test": "SUCCESSFUL_FETCH_INTENDED_NOINDEX_DETECTED",
+    "duplicate_requests_performed": false
+  },
   "notes": [
     "The sitemap has been refetched after deployment and now reflects the live 149-URL contract.",
     "The three approved recovery redirect sources were not present in the visible Page-with-redirect examples.",
     "Visible noindex examples remained crawled before the Phase 14 deployment marker.",
-    "No Search Console write action was performed."
+    "All three previously unrequested redirect sources were accepted into the priority crawl queue once on 2026-08-29.",
+    "The representative noindex URL was fetched successfully by the live inspection tool after deployment and the intended noindex was detected; its indexing request was rejected for that expected reason.",
+    "Live-test evidence is not treated as stored indexed-state convergence, so the Phase 15 gate remains blocked."
   ]
 }

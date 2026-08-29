@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-28T04:11:27.975Z",
+  "generated_at": "2026-08-29T15:32:52.076Z",
   "property": "sc-domain:echobuddha.com",
   "scope": "https://www.googleapis.com/auth/webmasters.readonly",
   "inspections": [
     {
       "URL": "https://echobuddha.com/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -20,7 +20,7 @@
     },
     {
       "URL": "https://echobuddha.com/about/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -35,12 +35,12 @@
     },
     {
       "URL": "https://echobuddha.com/articles/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-22T16:42:41Z",
+      "lastCrawlTime": "2026-08-28T20:59:37Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://echobuddha.com/articles/",
       "userCanonical": "https://echobuddha.com/articles/",
@@ -50,7 +50,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -65,7 +65,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -80,7 +80,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/compassion-with-boundaries/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -95,7 +95,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/dhamma-vs-dharma/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -110,7 +110,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -125,7 +125,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -140,7 +140,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -155,7 +155,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -170,7 +170,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/right-speech-buddhism/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -185,7 +185,7 @@
     },
     {
       "URL": "https://echobuddha.com/daily-reflections/today/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "NEUTRAL",
       "coverageState": "Excluded by ‘noindex’ tag",
       "robotsTxtState": "ALLOWED",
@@ -200,7 +200,7 @@
     },
     {
       "URL": "https://echobuddha.com/quotes/letting-go/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -215,7 +215,7 @@
     },
     {
       "URL": "https://echobuddha.com/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -230,7 +230,7 @@
     },
     {
       "URL": "https://echobuddha.com/start-here/",
-      "inspected_at": "2026-08-28T04:11:27.975Z",
+      "inspected_at": "2026-08-29T15:32:52.076Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",

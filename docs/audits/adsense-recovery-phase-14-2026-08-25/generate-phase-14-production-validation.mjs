@@ -175,10 +175,14 @@ const uxRows = [
 writeCsv("ECHO_BUDDHA_PHASE_14_UX_SMOKE_VALIDATION.csv", uxRows);
 
 const recrawlRows = [
-  { URL: "https://echobuddha.com/sitemap.xml", reason: "Broad discovery of the coherent recovery architecture", method: "EXISTING_CANONICAL_SITEMAP", request_date: "2026-08-25", owner_UI_action: "NO_DUPLICATE_SUBMISSION", evidence: "GSC showed one successful existing sitemap; last read still predeployment and 194 discovered URLs", status: "AWAITING_GOOGLE_REFETCH" },
+  { URL: "https://echobuddha.com/sitemap.xml", reason: "Broad discovery of the coherent recovery architecture", method: "EXISTING_CANONICAL_SITEMAP", request_date: "2026-08-25", owner_UI_action: "NO_DUPLICATE_SUBMISSION", evidence: "GSC retained one successful sitemap and refetched the postdeployment 149-URL contract", status: "REFETCHED_POSTDEPLOYMENT" },
   { URL: "https://echobuddha.com/", reason: "Materially changed site gateway", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-25", owner_UI_action: "YES", evidence: "Live URL test: URL is available to Google; indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
   { URL: "https://echobuddha.com/articles/right-speech-buddhism/", reason: "Protected high-value query owner", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-25", owner_UI_action: "YES", evidence: "Indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
   { URL: "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/", reason: "Primary survivor receiving two approved permanent redirects", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-25", owner_UI_action: "YES", evidence: "Indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
+  { URL: "https://echobuddha.com/articles/how-to-practice-non-attachment/", reason: "Approved permanent redirect source awaiting postdeployment Google processing", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-29", owner_UI_action: "YES", evidence: "Live test followed the production redirect successfully; indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
+  { URL: "https://echobuddha.com/articles/letting-go-without-giving-up/", reason: "Approved permanent redirect source awaiting postdeployment Google processing", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-29", owner_UI_action: "YES", evidence: "Indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
+  { URL: "https://echobuddha.com/terms-and-conditions/", reason: "Approved permanent legal rename redirect awaiting postdeployment Google processing", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-29", owner_UI_action: "YES", evidence: "Indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
+  { URL: "https://echobuddha.com/daily-reflections/today/", reason: "Representative intended-noindex URL awaiting stored indexed-state refresh", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-29", owner_UI_action: "YES", evidence: "Postdeployment live test fetched successfully and detected the intended noindex; Search Console rejected the indexing request because noindex is present", status: "REQUEST_REJECTED_INTENDED_NOINDEX" },
 ];
 writeCsv("ECHO_BUDDHA_PHASE_14_RECRAWL_ACTIONS.csv", recrawlRows);
 
@@ -282,7 +286,7 @@ const methodManifest = {
     "Complete 344-row production HTTP/canonical/robots/sitemap/firewall crawl",
     "In-app browser journeys and homepage Search Console live URL test",
     "Search Console Search Analytics and URL Inspection APIs using only webmasters.readonly",
-    "Search Console UI: existing sitemap inspection, three limited indexing requests, Manual Actions, and Security Issues",
+    "Search Console UI: existing sitemap inspection, six accepted one-time indexing requests, one intended-noindex request rejection, Manual Actions, and Security Issues",
     "Deterministic independent indexable sample and Phase 12 weakest-page sample",
   ],
   evidence_boundaries: [
@@ -405,11 +409,11 @@ const reportSections = [
   ["Production Crawl", `${crawl.length} rows, zero fetch errors, 149 sitemap URLs, zero ad signals and zero empty placeholders.`],
   ["Production vs Intended Contract", `${indexRows.length - contractFailures.length}/${indexRows.length} rows pass; ${changedCount} rows differ materially from old production and all differences are expected.`],
   ["Search Console Sitemap State", `One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with ${sitemapSubmittedCount} URLs. No duplicate was submitted.`],
-  ["Recrawl Actions", "Three priority UI requests were confirmed once: homepage, Right Speech owner, and the letting-go consolidation survivor."],
+  ["Recrawl Actions", "Six one-time UI requests were accepted: the original homepage, Right Speech owner, and letting-go survivor plus all three approved redirect sources. A representative noindex request was rejected after a successful postdeployment live fetch detected the intended noindex directive; no request was repeated."],
   ["URL Inspection", `${inspection.length} priority API inspections: ${JSON.stringify(inspectionVerdicts)}; ${priorityPostdeployCrawls.length} last-crawl timestamps now postdate deployment and ${priorityConverged.length} match their intended state. This is indexed-state evidence, not live-test evidence.`],
   ["Google Canonical Processing", `${priorityConverged.length} postdeployment priority crawls show successful fetches and intended canonical/index states, including all three requested priority URLs.`],
   ["Redirect Processing", `Live redirects are correct. ${redirectSourcesRecrawled.length}/${redirectGoogle.length} approved redirect sources have postdeployment Google crawl evidence; the survivor has converged, but source recognition remains pending.`],
-  ["Noindex / Removal Processing", `Live directives are correct and Search Console reports 46 excluded noindex examples. ${postdeployNoindexConvergence.length} representative priority noindex URLs have postdeployment crawl/exclusion evidence, so the monitoring gate remains open.`],
+  ["Noindex / Removal Processing", `Live directives are correct and Search Console reports 46 excluded noindex examples. A 2026-08-29 live inspection fetch detected the intended noindex, but live-test evidence is not stored indexed-state convergence. ${postdeployNoindexConvergence.length} representative priority noindex URLs have postdeployment indexed-state crawl/exclusion evidence, so the monitoring gate remains open.`],
   ["Search Performance", `Finalized through ${monitoringSummary.finalized_end_date}. Latest 28-day site totals are ${latestSite?.clicks || 0} clicks/${latestSite?.impressions || 0} impressions versus ${previousSite?.clicks || 0}/${previousSite?.impressions || 0}; this supports no systemic collapse but does not prove causality.`],
   ["P0/P1 Search Protection", `All ${p0.length + p1.length} protected routes are live and technically healthy; all P0s and 31/32 P1s have visible latest-window rows, with one low-volume P1 moving from 9 prior impressions to no visible current row.`],
   ["Material Google Convergence", `${materialGoogleConvergence ? "ESTABLISHED" : "NOT YET ESTABLISHED"}: sitemap refetch=${sitemapRefetched ? "YES" : "NO"}; priority convergence=${priorityConverged.length}/${inspection.length}; redirect sources recrawled=${redirectSourcesRecrawled.length}/${redirectGoogle.length}; representative noindex postdeploy convergence=${postdeployNoindexConvergence.length}.`],
@@ -445,7 +449,8 @@ ${materialGoogleConvergence ? "This gate record authorizes Phase 15; it does not
 `;
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_PHASE_15_HANDOFF.md"), handoff);
 
-const monitoringCheckpoint = `# EchoBuddha Phase 14 Monitoring Checkpoint — 2026-08-28
+const monitoringDate = generatedAt.slice(0, 10);
+const monitoringCheckpoint = `# EchoBuddha Phase 14 Monitoring Checkpoint — ${monitoringDate}
 
 PHASE_14_STATUS = ${phase14Status}
 PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL_GOOGLE_CONVERGENCE"}
@@ -458,6 +463,8 @@ PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL
 - Search Console sitemap: refetched after deployment; 149 submitted/discovered URLs; Success; zero errors/warnings.
 - Priority URL Inspection: ${priorityConverged.length}/${inspection.length} have postdeployment crawl evidence and match intended state.
 - Requested priority URLs: homepage, Right Speech owner, and letting-go survivor all recrawled after deployment with successful fetch, indexing allowed, and matching Google/user canonicals.
+- One-time recrawl requests accepted on 2026-08-29: all three approved redirect sources.
+- Representative noindex live test on 2026-08-29: successful fetch; intended noindex detected; indexing request rejected because the directive is working.
 - Latest finalized Search window (${monitoringSummary.windows.latest28.startDate} to ${monitoringSummary.windows.latest28.endDate}): ${latestSite?.clicks || 0} clicks and ${latestSite?.impressions || 0} impressions, versus ${previousSite?.clicks || 0} and ${previousSite?.impressions || 0} in the previous 28 days.
 - Manual Actions: no issues detected.
 - Security Issues: no issues detected.
@@ -472,9 +479,9 @@ PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL
 
 ## Decision
 
-${materialGoogleConvergence ? "Material Google convergence is established. Phase 14 PASS and the Phase 15 gate is open." : "Google has clearly begun processing the release, but the mandatory redirect-source and representative noindex convergence evidence is not yet mature. Continue Phase 14 monitoring without redeploying or repeating indexing requests."}
+${materialGoogleConvergence ? "Material Google convergence is established. Phase 14 PASS and the Phase 15 gate is open." : "Google has clearly begun processing the release, but the mandatory redirect-source and representative noindex indexed-state convergence evidence is not yet mature. Continue Phase 14 monitoring without redeploying or repeating indexing requests."}
 `;
-fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_2026-08-28.md"), monitoringCheckpoint);
+fs.writeFileSync(path.join(outDir, `ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_${monitoringDate}.md`), monitoringCheckpoint);
 
 console.log(JSON.stringify({
   generated_at: generatedAt,

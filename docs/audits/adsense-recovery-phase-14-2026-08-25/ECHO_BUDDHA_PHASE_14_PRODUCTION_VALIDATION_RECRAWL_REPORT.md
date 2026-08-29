@@ -2,7 +2,7 @@
 
 ## 1. Executive Summary
 
-The approved recovery commit remains stable as one coherent exact artifact. Live technical validation passes. Google refetched the 149-URL sitemap and recrawled 3 priority URLs after deployment; critical redirect-source and representative noindex postdeployment processing remain pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
+The approved recovery commit remains stable as one coherent exact artifact. Live technical validation passes. Google refetched the 149-URL sitemap and recrawled 4 priority URLs after deployment; critical redirect-source and representative noindex postdeployment processing remain pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
 
 ## 2. Phase 13 Result
 
@@ -114,15 +114,15 @@ One canonical sitemap; Success; zero errors and warnings; postdeployment refetch
 
 ## 29. Recrawl Actions
 
-Three priority UI requests were confirmed once: homepage, Right Speech owner, and the letting-go consolidation survivor.
+Six one-time UI requests were accepted: the original homepage, Right Speech owner, and letting-go survivor plus all three approved redirect sources. A representative noindex request was rejected after a successful postdeployment live fetch detected the intended noindex directive; no request was repeated.
 
 ## 30. URL Inspection
 
-16 priority API inspections: {"PASS":15,"NEUTRAL":1}; 3 last-crawl timestamps now postdate deployment and 3 match their intended state. This is indexed-state evidence, not live-test evidence.
+16 priority API inspections: {"PASS":15,"NEUTRAL":1}; 4 last-crawl timestamps now postdate deployment and 4 match their intended state. This is indexed-state evidence, not live-test evidence.
 
 ## 31. Google Canonical Processing
 
-3 postdeployment priority crawls show successful fetches and intended canonical/index states, including all three requested priority URLs.
+4 postdeployment priority crawls show successful fetches and intended canonical/index states, including all three requested priority URLs.
 
 ## 32. Redirect Processing
 
@@ -130,11 +130,11 @@ Live redirects are correct. 0/3 approved redirect sources have postdeployment Go
 
 ## 33. Noindex / Removal Processing
 
-Live directives are correct and Search Console reports 46 excluded noindex examples. 0 representative priority noindex URLs have postdeployment crawl/exclusion evidence, so the monitoring gate remains open.
+Live directives are correct and Search Console reports 46 excluded noindex examples. A 2026-08-29 live inspection fetch detected the intended noindex, but live-test evidence is not stored indexed-state convergence. 0 representative priority noindex URLs have postdeployment indexed-state crawl/exclusion evidence, so the monitoring gate remains open.
 
 ## 34. Search Performance
 
-Finalized through 2026-08-25. Latest 28-day site totals are 17 clicks/2208 impressions versus 13/730; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-08-26. Latest 28-day site totals are 18 clicks/2258 impressions versus 13/745; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
@@ -142,7 +142,7 @@ All 35 protected routes are live and technically healthy; all P0s and 31/32 P1s 
 
 ## 36. Material Google Convergence
 
-NOT YET ESTABLISHED: sitemap refetch=YES; priority convergence=3/16; redirect sources recrawled=0/3; representative noindex postdeploy convergence=0.
+NOT YET ESTABLISHED: sitemap refetch=YES; priority convergence=4/16; redirect sources recrawled=0/3; representative noindex postdeploy convergence=0.
 
 ## 37. Policy Regression Check
 

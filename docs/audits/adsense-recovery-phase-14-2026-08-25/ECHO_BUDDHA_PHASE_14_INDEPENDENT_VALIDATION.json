@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T04:21:06.500Z",
+  "generated_at": "2026-08-29T16:55:53.937Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
   "deployed_commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
@@ -112,7 +112,7 @@
     {
       "name": "priority URL postdeploy processing",
       "pass": true,
-      "evidence": "3/16 priority URLs converged after deployment"
+      "evidence": "4/16 priority URLs converged after deployment"
     },
     {
       "name": "critical redirect-source processing",

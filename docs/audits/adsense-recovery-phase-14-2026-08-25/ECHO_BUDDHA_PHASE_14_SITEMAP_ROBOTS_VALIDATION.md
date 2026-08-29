@@ -1,6 +1,6 @@
 # EchoBuddha Phase 14 Sitemap and robots.txt Validation
 
-- Captured: 2026-08-28T04:21:06.500Z
+- Captured: 2026-08-29T16:55:53.937Z
 - Production robots.txt: HTTP 200; canonical sitemap declaration present; no development-wide disallow; intended noindex pages remain crawlable.
 - Production sitemap: HTTP 200; 149 unique canonical intended-indexable URLs.
 - Excluded from sitemap: 186 noindex pages, 3 permanent redirect sources, the temporary 404 filename normalization route, and error states.

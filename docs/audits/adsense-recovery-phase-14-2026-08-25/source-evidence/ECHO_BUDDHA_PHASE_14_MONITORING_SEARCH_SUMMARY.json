@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-28T04:15:15.705Z",
+  "generated_at": "2026-08-29T15:32:45.597Z",
   "property": "sc-domain:echobuddha.com",
   "scope": "https://www.googleapis.com/auth/webmasters.readonly",
   "data_state": "final",
-  "finalized_end_date": "2026-08-25",
+  "finalized_end_date": "2026-08-26",
   "windows": {
     "latest28": {
-      "startDate": "2026-07-29",
-      "endDate": "2026-08-25"
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-26"
     },
     "previous28": {
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-28"
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-29"
     }
   },
   "protected_urls": 35,
@@ -19,34 +19,34 @@
     {
       "row_type": "SITE_TOTAL",
       "window": "latest28",
-      "start_date": "2026-07-29",
-      "end_date": "2026-08-25",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-26",
       "URL": "SITE",
       "protection_tier": "SITE",
-      "clicks": 17,
-      "impressions": 2208,
-      "ctr": 0.007699275362318841,
-      "position": 17.97871376811594,
+      "clicks": 18,
+      "impressions": 2258,
+      "ctr": 0.007971656333038087,
+      "position": 17.887068201948626,
       "evidence": "GSC_API_FINAL"
     },
     {
       "row_type": "SITE_TOTAL",
       "window": "previous28",
-      "start_date": "2026-07-01",
-      "end_date": "2026-07-28",
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-29",
       "URL": "SITE",
       "protection_tier": "SITE",
       "clicks": 13,
-      "impressions": 730,
-      "ctr": 0.01780821917808219,
-      "position": 52.35753424657534,
+      "impressions": 745,
+      "ctr": 0.0174496644295302,
+      "position": 52.13020134228188,
       "evidence": "GSC_API_FINAL"
     }
   ],
   "redirect_inspections": [
     {
       "URL": "https://echobuddha.com/articles/how-to-practice-non-attachment/",
-      "inspected_at": "2026-08-28T04:15:01.573Z",
+      "inspected_at": "2026-08-29T15:32:30.945Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -61,7 +61,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/letting-go-without-giving-up/",
-      "inspected_at": "2026-08-28T04:15:08.659Z",
+      "inspected_at": "2026-08-29T15:32:38.379Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -76,7 +76,7 @@
     },
     {
       "URL": "https://echobuddha.com/terms-and-conditions/",
-      "inspected_at": "2026-08-28T04:15:15.699Z",
+      "inspected_at": "2026-08-29T15:32:45.594Z",
       "verdict": "NEUTRAL",
       "coverageState": "Not found (404)",
       "robotsTxtState": "ALLOWED",
