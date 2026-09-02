@@ -37,6 +37,17 @@ test("production deployment is manual, exact-SHA, build-once, serialized, and en
   assert.match(deploy, /audit:production-smoke/);
 });
 
+test("production smoke applies every approved route addition and contraction", () => {
+  const smoke = read("scripts/production-smoke-check.mjs");
+  assert.match(smoke, /governance\/indexable-page-approvals\.json/);
+  assert.match(smoke, /governance\/release-change-approvals\.json/);
+  assert.match(smoke, /redirect-and-content-consolidation/);
+  assert.match(smoke, /quote-indexation-remediation/);
+  assert.match(smoke, /expectedIndexableToNoindex/);
+  assert.match(smoke, /retiredRoutes\.every\(\(route\) => !sitemapRoutes\.has\(route\)\)/);
+  assert.match(smoke, /retiredRoutes\.every\(\(route\) => !searchRoutes\.has\(route\)\)/);
+});
+
 test("rollback requires an explicit version ID and confirmation", () => {
   const rollback = read(".github/workflows/rollback-production.yml");
   const parsed = YAML.parse(rollback);
