@@ -319,12 +319,15 @@ check("Rollback", "Rollback workflow is manual, exact-version guarded and smoke-
 
 check("Runtime", "Node, npm and lockfile reproducibility are aligned", () => {
   const pkg = JSON.parse(read("package.json"));
-  assert.equal(read(".node-version").trim(), "22.16.0");
+  const nodeVersion = read(".node-version").trim();
+  const [nodeMajor, nodeMinor] = nodeVersion.split(".").map(Number);
+  assert.equal(nodeMajor, 22);
+  assert.ok(nodeMinor >= 18, "Node 22 must support unflagged TypeScript type stripping used by repository validators");
   assert.equal(pkg.engines.node, "22.x");
   assert.equal(pkg.engines.npm, "10.x");
   assert.equal(pkg.packageManager, "npm@10.9.8");
   assert.equal(JSON.parse(read("package-lock.json")).lockfileVersion, 3);
-  return "Node 22; npm 10; lockfile v3; npm ci";
+  return `Node ${nodeVersion}; npm 10; lockfile v3; npm ci`;
 });
 
 check("Secrets", "Tracked and pending source contains no recognized high-confidence secret value", () => {

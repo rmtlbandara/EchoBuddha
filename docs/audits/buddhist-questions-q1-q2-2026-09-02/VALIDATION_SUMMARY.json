@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "status": "PASS_CURRENT_STATE_WITH_HISTORICAL_SNAPSHOT_NOTES",
+  "status": "PASS_RELEASE_READY_WITH_HISTORICAL_SNAPSHOTS_PRESERVED",
   "starting_head": "8fca5f729798806bf5851953ab19201294a42bdc",
   "implementation_commit": "fd071f94da9f141b75e82715566a53ee112c88b5",
   "counts": {
@@ -19,14 +19,14 @@
     "npm_run_build": "PASS_337_PAGES",
     "npm_run_typecheck": "PASS",
     "npm_run_lint": "PASS",
-    "npm_test": "PASS_31_OF_31",
+    "npm_test": "PASS_32_OF_32",
     "npm_run_audit_seo": "PASS_WITH_1_LOW_INBOUND_WARNING",
     "npm_run_audit_content": "PASS",
     "npm_run_audit_quotes": "PASS_7_OF_7",
     "npm_run_audit_trust": "PASS_58_OF_58",
     "npm_run_audit_dependencies": "PASS_0_HIGH_0_CRITICAL",
     "npm_run_audit_browser": "PASS_WHEN_RUN_ON_AVAILABLE_PORT_4322",
-    "npm_run_validate_release": "EXPECTED_STOP_AT_FROZEN_CORNERSTONE_SNAPSHOT_AFTER_CURRENT_BUILD_TYPECHECK_LINT_TEST_SEO_CONTENT_AND_QUOTES_PASS",
+    "npm_run_validate_release": "PASS_CURRENT_APPROVAL_AWARE_GATES_AND_HISTORICAL_BOUNDARY_CHECK",
     "targeted_rendered_qa": "PASS_15_ROUTE_VIEWPORT_COMBINATIONS",
     "targeted_axe": "PASS_0_CRITICAL_0_SERIOUS",
     "new_route_monetization": "PASS_2_LEARN_DETAIL_HOLD_MANUAL_REVIEW",
@@ -52,6 +52,7 @@
   },
   "notes": [
     "Frozen historical validators intentionally retain their original 335 HTML / 149 indexable sitemap contract and were not edited to make the new pages appear historical.",
+    "The release gate uses current approval-aware Phase 8 and Phase 10 validators plus a dedicated historical-snapshot boundary check; the frozen count validators remain available as point-in-time diagnostics but are not misapplied to current releases.",
     "Current active approval, build, test, SEO, trust, dependency, browser, canonical, sitemap, search, source, and monetization checks cover the authorized post-Phase-13 state.",
     "The first browser audit attempt used port 4321, which was occupied by another local process and timed out waiting for this site's consent panel; rerunning against the verified preview on port 4322 passed."
   ]
