@@ -43,8 +43,9 @@
     "audit:quotes": "node scripts/validate-quote-governance.mjs",
     "audit:cornerstones": "node docs/audits/adsense-recovery-phase-6-2026-08-24/validate-phase-6-cornerstone-upgrades.mjs",
     "audit:trust": "node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs",
-    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:cornerstones && npm run audit:trust",
-    "validate:release": "npm run validate && npm run audit:phase8 && npm run audit:phase9 && npm run audit:phase10 && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
+    "audit:historical-boundaries": "node scripts/validate-historical-snapshot-boundaries.mjs",
+    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
+    "validate:release": "npm run validate && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
   },
   "dependencies": {
     "astro": "^7.1.3"
