@@ -3,7 +3,7 @@
 Date: 2026-09-02
 Status: IMPLEMENTED_AND_LOCALLY_VALIDATED
 Starting HEAD: `8fca5f729798806bf5851953ab19201294a42bdc`
-Implementation commit: `fd071f94da9f141b75e82715566a53ee112c88b5`
+Implementation commit: `8e363321ac4edf25ec3262a11219975eb16958dd`
 
 ## Authorization and historical boundary
 
@@ -101,10 +101,17 @@ Q1, Q2, the parent, Learn, and Buddhism 101 were rendered at 390×844, 768×1024
 - `tests/buddhist-questions.test.mjs` — focused scope, route, canonical, schema, source, discovery, cross-link, and ad tests.
 - `tests/phase10-monetization-firewall.test.mjs` — current inventory totals updated from 335 to 337 while preserving the seven eligible candidates and fail-closed rules.
 - `docs/audits/buddhist-questions-q1-q2-2026-09-02/*` — current implementation, source, route, and validation evidence.
+- `.node-version` — Node 22 patch level updated to a version that can execute the repository's existing TypeScript-backed validation imports in CI.
+- `package.json` — release validation now runs current approval-aware gates while retaining a separate historical-snapshot boundary gate.
+- `scripts/validate-historical-snapshot-boundaries.mjs` — verifies that the Phase 6/8/10/13 evidence remains historically passing and that the later authorized expansion is exactly Q1 and Q2.
+- `scripts/validate-phase-9.mjs` — runtime reproducibility check accepts supported Node 22 patch releases with unflagged TypeScript type stripping.
+- `tests/governance.test.mjs` — prevents the release workflow from regressing to frozen count validators while requiring the historical boundary check.
 
 ## Production boundary
 
 Deployment status: `NOT_DEPLOYED`
+
+Predeployment `npm run validate:release` status: `PASS`
 
 Production URL status at the 2026-09-02 handoff:
 

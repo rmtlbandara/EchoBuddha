@@ -59,11 +59,26 @@ test("required validation scripts are present", () => {
     "audit:dependencies",
     "audit:browser",
     "audit:lighthouse",
+    "audit:historical-boundaries",
     "validate",
     "validate:release"
   ]) {
     assert.ok(pkg.scripts[script], `missing ${script} script`);
   }
+});
+
+test("release validation uses current approval-aware gates while retaining historical snapshot checks", () => {
+  const pkg = JSON.parse(read("package.json"));
+  assert.match(pkg.scripts.validate, /audit:historical-boundaries/);
+  assert.doesNotMatch(pkg.scripts.validate, /audit:cornerstones/);
+  assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-8\.mjs/);
+  assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-10\.mjs/);
+  assert.doesNotMatch(pkg.scripts["validate:release"], /npm run audit:phase8(?:\s|$)/);
+  assert.doesNotMatch(pkg.scripts["validate:release"], /npm run audit:phase10(?:\s|$)/);
+
+  const [major, minor] = read(".node-version").trim().split(".").map(Number);
+  assert.equal(major, 22);
+  assert.ok(minor >= 18, "Node 22 must support unflagged TypeScript type stripping used by validation imports");
 });
 
 test("robots manifest and security headers are source-controlled", () => {
