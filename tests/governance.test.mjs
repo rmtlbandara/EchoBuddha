@@ -72,8 +72,10 @@ test("release validation uses current approval-aware gates while retaining histo
   assert.match(pkg.scripts.validate, /audit:historical-boundaries/);
   assert.doesNotMatch(pkg.scripts.validate, /audit:cornerstones/);
   assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-8\.mjs/);
+  assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-9\.mjs/);
   assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-10\.mjs/);
   assert.doesNotMatch(pkg.scripts["validate:release"], /npm run audit:phase8(?:\s|$)/);
+  assert.doesNotMatch(pkg.scripts["validate:release"], /npm run audit:phase9(?:\s|$)/);
   assert.doesNotMatch(pkg.scripts["validate:release"], /npm run audit:phase10(?:\s|$)/);
 
   const [major, minor] = read(".node-version").trim().split(".").map(Number);
