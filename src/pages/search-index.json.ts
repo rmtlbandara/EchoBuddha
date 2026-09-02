@@ -6,6 +6,7 @@ import {
   questionsAboutBuddhism,
   resourceGroups
 } from "../data/learn";
+import { buddhistQuestions, getBuddhistQuestionPath } from "../data/buddhistQuestions";
 import {
   fullArticles,
   getQuoteStoryPath,
@@ -93,6 +94,22 @@ const learningItems: SearchIndexItem[] = getAllLearningPages().map((page) => ({
     ...page.relatedLinks.map((link) => link.label)
   ],
   content: pageContent(page)
+}));
+
+const buddhistQuestionItems: SearchIndexItem[] = buddhistQuestions.map((question) => ({
+  title: question.title,
+  url: getBuddhistQuestionPath(question),
+  type: "Buddhist Question",
+  excerpt: question.description,
+  category: question.eyebrow,
+  section: "Questions About Buddhism",
+  keywords: [question.title, ...question.searchTerms, ...question.relatedTerms],
+  content: [
+    question.intro,
+    question.takeaway,
+    ...question.shortAnswer,
+    ...question.sections.flatMap((section) => [section.heading, ...section.paragraphs, ...(section.points ?? [])])
+  ].map((item) => stripHtml(item)).join(" ")
 }));
 
 const meditationItems: SearchIndexItem[] = allMeditationPages.map((page) => ({
@@ -459,6 +476,7 @@ const searchIndex = [
   ...dailyReflectionItems,
   ...quoteItems,
   ...learningItems,
+  ...buddhistQuestionItems,
   ...meditationItems,
   faqItem,
   resourcesItem

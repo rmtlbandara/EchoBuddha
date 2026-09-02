@@ -4,6 +4,7 @@ import {
   getAllLearningPages,
   learningSections
 } from "../data/learn";
+import { buddhistQuestions, getBuddhistQuestionPath } from "../data/buddhistQuestions";
 import {
   SITE,
   articleCategories,
@@ -88,6 +89,10 @@ export const GET: APIRoute = () => {
   const learningPagePaths: SitemapEntry[] = getAllLearningPages().map((page) => ({
     path: `/learn/${page.section}/${page.slug}/`
   }));
+  const buddhistQuestionPaths: SitemapEntry[] = buddhistQuestions.map((question) => ({
+    path: getBuddhistQuestionPath(question),
+    lastmod: "2026-09-02"
+  }));
   const meditationPagePaths: SitemapEntry[] = allMeditationPages.map((page) => ({
     path: `/meditation/${page.slug}/`
   }));
@@ -99,6 +104,7 @@ export const GET: APIRoute = () => {
     ),
     ...learningSectionPaths,
     ...learningPagePaths,
+    ...buddhistQuestionPaths,
     ...meditationPagePaths,
     ...articlePaths,
     ...articleCategoryPaths,
