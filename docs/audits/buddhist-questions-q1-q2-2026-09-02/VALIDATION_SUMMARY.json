@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-02",
+  "status": "PASS_CURRENT_STATE_WITH_HISTORICAL_SNAPSHOT_NOTES",
+  "starting_head": "8fca5f729798806bf5851953ab19201294a42bdc",
+  "implementation_commit": "fd071f94da9f141b75e82715566a53ee112c88b5",
+  "counts": {
+    "html_before": 335,
+    "html_after": 337,
+    "sitemap_before": 149,
+    "sitemap_after": 151,
+    "new_indexable_detail_urls": 2,
+    "unauthorized_extra_urls": 0,
+    "internal_search_records_added": 2,
+    "eligible_ad_candidates_before": 7,
+    "eligible_ad_candidates_after": 7
+  },
+  "current_state_checks": {
+    "npm_ci": "PASS_0_VULNERABILITIES",
+    "npm_run_build": "PASS_337_PAGES",
+    "npm_run_typecheck": "PASS",
+    "npm_run_lint": "PASS",
+    "npm_test": "PASS_31_OF_31",
+    "npm_run_audit_seo": "PASS_WITH_1_LOW_INBOUND_WARNING",
+    "npm_run_audit_content": "PASS",
+    "npm_run_audit_quotes": "PASS_7_OF_7",
+    "npm_run_audit_trust": "PASS_58_OF_58",
+    "npm_run_audit_dependencies": "PASS_0_HIGH_0_CRITICAL",
+    "npm_run_audit_browser": "PASS_WHEN_RUN_ON_AVAILABLE_PORT_4322",
+    "npm_run_validate_release": "EXPECTED_STOP_AT_FROZEN_CORNERSTONE_SNAPSHOT_AFTER_CURRENT_BUILD_TYPECHECK_LINT_TEST_SEO_CONTENT_AND_QUOTES_PASS",
+    "targeted_rendered_qa": "PASS_15_ROUTE_VIEWPORT_COMBINATIONS",
+    "targeted_axe": "PASS_0_CRITICAL_0_SERIOUS",
+    "new_route_monetization": "PASS_2_LEARN_DETAIL_HOLD_MANUAL_REVIEW",
+    "rendered_ad_runtime": "PASS_ZERO"
+  },
+  "production_predeployment_checks": {
+    "q1_http_status": 404,
+    "q2_http_status": 404,
+    "canonical_status": "NOT_APPLICABLE_UNTIL_DEPLOYED",
+    "sitemap_presence": "ABSENT_UNTIL_CONTROLLED_DEPLOYMENT",
+    "deployment_status": "NOT_DEPLOYED"
+  },
+  "historical_snapshot_validators": {
+    "npm_run_audit_cornerstones": "EXPECTED_SNAPSHOT_FAIL_149_VS_151_AND_SCOPE_ALLOWLIST",
+    "npm_run_audit_phase8_active_gate": "PASS_17_OF_17",
+    "npm_run_audit_phase8_frozen_cookie_cutter": "EXPECTED_SNAPSHOT_FAIL_335_VS_337_149_VS_151",
+    "npm_run_audit_phase9": "PASS",
+    "npm_run_audit_phase10_active_gate": "PASS_19_OF_19",
+    "npm_run_audit_phase10_frozen_firewall": "EXPECTED_SNAPSHOT_FAIL_2_NEW_ROUTES",
+    "npm_run_audit_phase11": "PASS_FROZEN_ARTIFACTS",
+    "npm_run_audit_phase12": "PASS_FROZEN_ARTIFACTS",
+    "npm_run_audit_phase13": "PASS_FROZEN_POINT_IN_TIME_NO_EXPANSION_DECISION"
+  },
+  "notes": [
+    "Frozen historical validators intentionally retain their original 335 HTML / 149 indexable sitemap contract and were not edited to make the new pages appear historical.",
+    "Current active approval, build, test, SEO, trust, dependency, browser, canonical, sitemap, search, source, and monetization checks cover the authorized post-Phase-13 state.",
+    "The first browser audit attempt used port 4321, which was occupied by another local process and timed out waiting for this site's consent panel; rerunning against the verified preview on port 4322 passed."
+  ]
+}
