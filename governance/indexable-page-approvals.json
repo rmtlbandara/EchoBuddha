@@ -21,6 +21,46 @@
       "owner": "Echo Buddha project owner via the 2026-08-21 growth-preserving expansion request",
       "approvedAt": "2026-08-21",
       "status": "Approved"
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "topicCluster": "Buddhist Veneration and Remembrance",
+      "pageRole": "Source-aware doctrinal and historical question",
+      "primaryOwner": "/learn/questions-about-buddhism/",
+      "userNeed": "A beginner needs to distinguish the absence of an early recorded command to construct Buddha statues from the separate Buddhist meanings of reverence, relic and stupa practice, later image devotion, and historical art development.",
+      "intendedReader": "A beginner or returning reader asking whether Buddha-image construction and veneration were ordered by the historical Buddha.",
+      "closestExistingPage": "/learn/buddhism-101/who-was-the-buddha/",
+      "whyNotImproveExisting": "The existing lesson introduces the Buddha as a teacher and does not own the source-sensitive history of images, memorial forms, or the early-text versus later-tradition distinction. Expanding it would blur its beginner orientation role.",
+      "uniqueValue": "A direct answer that separates early discourse evidence, DN 16 relic and stupa context, the later Kāliṅgabodhi Jātaka cetiya framework, cautious museum-supported image chronology, and the devotional meaning of Uddesika representation.",
+      "sourceRequirements": "Use DN 16 for early stupa and relic claims, identify the Kāliṅgabodhi Jātaka prose as later Theravāda narrative/commentary, and use reputable museum evidence for early human-form imagery. Avoid long translation quotations and any claim of a universal image ban.",
+      "safetyRequirements": "Independent educational explanation only. Avoid sectarian judgment, invented monastic or academic review, universal claims about all Buddhists, or language disparaging devotional practice.",
+      "indexIntent": "index, follow; self-canonical; include once in sitemap and internal search; discoverable through the existing Questions About Buddhism parent.",
+      "monetizationSuitability": "LEARN_DETAIL / HOLD_MANUAL_REVIEW. No ad runtime, slot, candidate allowlist entry, Auto Ads change, or consent change is authorized.",
+      "nextStep": "Continue to the paired question about respect after Parinibbāna, the Three Jewels lesson, or the practical temple-visiting guide.",
+      "independentValueWithoutSearchOrAds": "Yes. It resolves a common doctrinal and historical misunderstanding through source chronology and respectful explanation for current Echo Buddha learners.",
+      "owner": "Echo Buddha project owner via the 2026-09-02 controlled Q1 and Q2 Buddhist questions implementation request",
+      "approvedAt": "2026-09-02",
+      "status": "Approved"
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "topicCluster": "Buddhist Veneration and Remembrance",
+      "pageRole": "Source-aware doctrinal and devotional-practice question",
+      "primaryOwner": "/learn/questions-about-buddhism/",
+      "userNeed": "A beginner needs a clear account of how Buddhists can honor the Buddha after Parinibbāna without imagining an unseen ordinary personality who requires offerings, and how physical memorials relate to Dhamma practice.",
+      "intendedReader": "A beginner or returning reader asking what relics, stupas, Bodhi trees, images, offerings, and bows mean after the Buddha's Parinibbāna.",
+      "closestExistingPage": "/learn/buddhism-101/the-three-jewels-explained/",
+      "whyNotImproveExisting": "The Three Jewels lesson owns concise refuge orientation. It does not provide the source chronology, cetiya categories, offering interpretation, or physical-object boundary required to answer this distinct question without losing its existing focus.",
+      "uniqueValue": "A direct explanation of post-Parinibbāna remembrance that separates DN 16's early relic and stupa precedent from the later Theravāda cetiya framework, then explains offerings, images, and respect without a physical object.",
+      "sourceRequirements": "Use DN 16 for early stupa, relic, and memorial claims; identify the Kāliṅgabodhi Jātaka prose as later Theravāda narrative/commentary; use museum history only for the limited image-chronology paragraph; reproduce no long modern translation.",
+      "safetyRequirements": "Independent educational explanation only. Do not define Parinibbāna as ordinary postmortem personal existence, claim all Buddhists practice identically, or dismiss physical devotion and ritual.",
+      "indexIntent": "index, follow; self-canonical; include once in sitemap and internal search; discoverable through the existing Questions About Buddhism parent.",
+      "monetizationSuitability": "LEARN_DETAIL / HOLD_MANUAL_REVIEW. No ad runtime, slot, candidate allowlist entry, Auto Ads change, or consent change is authorized.",
+      "nextStep": "Continue to the paired image-history question, the Three Jewels lesson, or Echo Buddha's Buddhist source method.",
+      "independentValueWithoutSearchOrAds": "Yes. It gives current readers a coherent, source-layered explanation of remembrance, offerings, and practice that is substantially more useful than a short FAQ answer.",
+      "owner": "Echo Buddha project owner via the 2026-09-02 controlled Q1 and Q2 Buddhist questions implementation request",
+      "approvedAt": "2026-09-02",
+      "status": "Approved"
     }
   ]
 }

@@ -1,0 +1,331 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
+import EditorialAttribution from "../../../components/EditorialAttribution.astro";
+import EditorialStandardsLinks from "../../../components/EditorialStandardsLinks.astro";
+import LearningCard from "../../../components/LearningCard.astro";
+import {
+  buddhistQuestions,
+  getBuddhistQuestionPath,
+  type BuddhistQuestion
+} from "../../../data/buddhistQuestions";
+import { SITE } from "../../../data/site";
+import {
+  EDITORIAL_AUTHOR_SCHEMA,
+  PUBLISHER_SCHEMA
+} from "../../../data/editorialGovernance";
+import { getBreadcrumbJsonLd } from "../../../data/learn";
+
+export function getStaticPaths() {
+  return buddhistQuestions.map((question) => ({
+    params: { slug: question.slug },
+    props: { question }
+  }));
+}
+
+const { question } = Astro.props as { question: BuddhistQuestion };
+const canonicalPath = getBuddhistQuestionPath(question);
+const breadcrumbs = [
+  { name: "Home", href: "/" },
+  { name: "Learn", href: "/learn/" },
+  { name: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" },
+  { name: question.title, href: canonicalPath }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: question.title,
+    description: question.description,
+    url: `${SITE.url}${canonicalPath}`,
+    mainEntityOfPage: `${SITE.url}${canonicalPath}`,
+    inLanguage: "en",
+    articleSection: "Questions About Buddhism",
+    datePublished: "2026-09-02",
+    dateModified: "2026-09-02",
+    author: EDITORIAL_AUTHOR_SCHEMA,
+    publisher: PUBLISHER_SCHEMA
+  },
+  getBreadcrumbJsonLd(breadcrumbs)
+];
+---
+
+<Layout
+  title={question.seoTitle}
+  description={question.description}
+  canonicalPath={canonicalPath}
+  type="article"
+  publishedDate="2026-09-02"
+  modifiedDate="2026-09-02"
+  author={SITE.author}
+  jsonLd={jsonLd}
+>
+  <article>
+    <header class="page-hero question-hero">
+      <div class="container prose">
+        <Breadcrumbs items={breadcrumbs.map((item, index) => ({
+          label: item.name,
+          href: index < breadcrumbs.length - 1 ? item.href : undefined
+        }))} />
+        <span class="eyebrow">{question.eyebrow}</span>
+        <h1>{question.title}</h1>
+        <p class="lede">{question.intro}</p>
+        <EditorialAttribution />
+      </div>
+    </header>
+
+    <div class="container article-shell question-shell">
+      <div class="prose question-body">
+        <aside class="surface key-box" aria-labelledby="key-takeaway-heading">
+          <h2 id="key-takeaway-heading">Key Takeaway</h2>
+          <p>{question.takeaway}</p>
+        </aside>
+
+        <section aria-labelledby="short-answer-heading">
+          <h2 id="short-answer-heading">Short Answer</h2>
+          {question.shortAnswer.map((paragraph) => <p>{paragraph}</p>)}
+        </section>
+
+        {question.sections.map((section, index) => {
+          const headingId = `section-${index + 1}`;
+          return (
+            <section aria-labelledby={headingId}>
+              <h2 id={headingId}>{section.heading}</h2>
+              {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+              {section.points && (
+                <ul class="concept-list">
+                  {section.points.map((point) => <li set:html={point} />)}
+                </ul>
+              )}
+            </section>
+          );
+        })}
+
+        <section class="sources-section" aria-labelledby="sources-context-heading">
+          <h2 id="sources-context-heading">Sources and Context</h2>
+          <p>{question.sourceNote}</p>
+          <h3>Selected References</h3>
+          <ul class="source-list">
+            {question.sources.map((source) => (
+              <li>
+                <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                <span class="source-type">{source.sourceType}</span>
+                <p>{source.note}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <EditorialStandardsLinks />
+
+        <nav class="question-navigation" aria-label="Questions About Buddhism navigation">
+          {question.previous && (
+            <a class="surface" href={question.previous.href}>
+              <span>Previous question</span>
+              <strong>{question.previous.label.replace(/^Question 1: /, "")}</strong>
+            </a>
+          )}
+          {question.next && (
+            <a class="surface question-navigation__next" href={question.next.href}>
+              <span>Next question</span>
+              <strong>{question.next.label.replace(/^Question 2: /, "")}</strong>
+            </a>
+          )}
+        </nav>
+      </div>
+
+      <aside class="question-sidebar" aria-label="Question context">
+        <div class="surface side-card">
+          <span class="eyebrow">Related terms</span>
+          <ul>
+            {question.relatedTerms.map((term) => <li>{term}</li>)}
+          </ul>
+        </div>
+        <div class="surface side-card">
+          <span class="eyebrow">Question library</span>
+          <p>Return to the short beginner answers or choose the paired source-aware question.</p>
+          <a href="/learn/questions-about-buddhism/">Questions About Buddhism</a>
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <section class="section section-band" aria-labelledby="continue-learning-heading">
+    <div class="container">
+      <span class="eyebrow">Continue learning</span>
+      <h2 id="continue-learning-heading">Related Learning</h2>
+      <div class="grid grid--3">
+        {question.relatedLinks.map((item) => <LearningCard item={item} />)}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .question-hero {
+    padding-bottom: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .question-hero h1 {
+    font-size: clamp(2.35rem, 6vw, 4.65rem);
+  }
+
+  .question-shell {
+    padding-bottom: clamp(3rem, 7vw, 5rem);
+  }
+
+  .question-body > section {
+    margin-top: 2.75rem;
+  }
+
+  .question-body > section h2 {
+    margin-top: 0;
+  }
+
+  .key-box {
+    border-left: 4px solid var(--color-gold);
+    padding: 1.3rem;
+  }
+
+  .key-box h2 {
+    font-size: 1.45rem;
+    margin-top: 0;
+  }
+
+  .key-box p:last-child,
+  .side-card p:last-of-type,
+  .source-list p {
+    margin-bottom: 0;
+  }
+
+  .concept-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    margin-block: 1.25rem;
+    padding-left: 0;
+  }
+
+  .concept-list li {
+    background: rgba(232, 240, 228, 0.58);
+    border-left: 3px solid var(--color-green);
+    padding: 0.75rem 0.9rem;
+  }
+
+  .sources-section {
+    border-top: 1px solid var(--color-line);
+    padding-top: 0.25rem;
+  }
+
+  .source-list {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .source-list li {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.9rem;
+  }
+
+  .source-list a {
+    display: inline;
+    font-weight: 800;
+    overflow-wrap: anywhere;
+  }
+
+  .source-type {
+    color: var(--color-green);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    margin-top: 0.25rem;
+    text-transform: uppercase;
+  }
+
+  .source-list p {
+    color: var(--color-muted);
+    font-size: 0.94rem;
+    margin-top: 0.25rem;
+  }
+
+  .question-sidebar {
+    min-width: 0;
+  }
+
+  .side-card {
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+  }
+
+  .side-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .side-card li {
+    background: var(--color-green-soft);
+    border-radius: 999px;
+    color: var(--color-green);
+    font-size: 0.84rem;
+    font-weight: 800;
+    padding: 0.25rem 0.7rem;
+  }
+
+  .side-card p {
+    color: var(--color-muted);
+    font-size: 0.94rem;
+  }
+
+  .side-card a {
+    font-weight: 800;
+  }
+
+  .question-navigation {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 2.5rem;
+  }
+
+  .question-navigation > a {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .question-navigation span {
+    color: var(--color-green);
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .question-navigation strong {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    line-height: 1.25;
+    margin-top: 0.3rem;
+    overflow-wrap: anywhere;
+  }
+
+  @media (min-width: 620px) {
+    .question-navigation {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .question-navigation__next {
+      grid-column: 2;
+      text-align: right;
+    }
+  }
+</style>
