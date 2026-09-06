@@ -1,21 +1,25 @@
 # EchoBuddha Phase 14 Deployment Manifest
 
-- Source recovery commit: `ad9fe897916c76fd6883efc351461b49db28ac3f`
+- Immutable initial Phase 14 recovery commit: `ad9fe897916c76fd6883efc351461b49db28ac3f`
+- Immutable initial Phase 14 deployment ID: `f8f3f4c9-b156-422f-ad19-569abc767750`
+- Immutable initial Phase 14 version ID: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
+- Immutable initial Phase 14 deployed at: `2026-08-25T05:33:01.801137Z`
 - Target production branch: `main`
-- Production deployed commit: `ad9fe897916c76fd6883efc351461b49db28ac3f`
+- Current authorized production commit: `413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4`
+- Current main documentation head: `00b0b3e86215799d8f8fb7e71d8aa5ce53914537`
 - Deployment platform: Cloudflare Workers static assets
-- Deployment method: authenticated exact-artifact local fallback after the absent GitHub production environment and competing Cloudflare Git trigger were verified; legacy Git integration was disconnected before advancing `main`.
-- Deployment ID: `f8f3f4c9-b156-422f-ad19-569abc767750`
-- Version ID: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
-- Deployed at: `2026-08-25T05:33:01.801137Z`
-- Included recovery phases: 0–13; Phase 13 created zero URLs and made zero content enhancements.
-- Known production inventory: 344 contract rows = 149 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
-- Built HTML pages: 335
-- Intended sitemap URLs: 149
-- Search records: 314
-- New Phase 13 URLs: 0
+- Current deployment method: authorized GitHub/Cloudflare production workflow recorded in `docs/deployments/2026-09-02-q1-q2-buddhist-questions.md`.
+- Current deployment ID: `dc5c106a-e6dc-4a5b-9120-04ad5b5c6fa4`
+- Current version ID: `b5b294f9-6b65-4dad-943f-5400b78cbba5`
+- Current deployed at: `2026-09-02T16:27:35.26782Z`
+- Historical recovery boundary: the initial 344-row release remains immutable; the authorized successor added exactly two indexable Learn detail pages.
+- Current production inventory: 346 contract rows = 151 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
+- Built HTML pages: 337
+- Intended sitemap URLs: 151
+- Search records: 316
+- Authorized successor additions: 2
 - Permanent redirect sources: 3
-- Rollback target: `2a92b1d8-404d-48cc-9ef1-074a204b82bf`
+- Current rollback target: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
 - Rollback readiness: verified against the predeploy 14/14 smoke baseline
 - Rollback used: NO
 - Ad serving: OFF

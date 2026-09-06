@@ -52,8 +52,29 @@ async function request(url, redirect = "manual") {
   } finally { clearTimeout(timer); }
 }
 
-const inventory = parseCsv(fs.readFileSync(inventoryPath, "utf8"));
-if (inventory.length !== 344) throw new Error(`Expected 344 inventory rows; found ${inventory.length}.`);
+const initialInventory = parseCsv(fs.readFileSync(inventoryPath, "utf8"));
+if (initialInventory.length !== 344) throw new Error(`Expected immutable Phase 11 inventory to contain 344 rows; found ${initialInventory.length}.`);
+const authorizedSuccessorAdditions = [
+  {
+    URL: "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    route: "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    family: "LEARN_DETAIL",
+    intended_state: "INDEXABLE_CANONICAL_200",
+    expected_http_status: "200",
+  },
+  {
+    URL: "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+    route: "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+    family: "LEARN_DETAIL",
+    intended_state: "INDEXABLE_CANONICAL_200",
+    expected_http_status: "200",
+  },
+];
+const inventory = mode === "postdeploy"
+  ? [...initialInventory, ...authorizedSuccessorAdditions]
+  : initialInventory;
+const expectedInventoryRows = mode === "postdeploy" ? 346 : 344;
+if (inventory.length !== expectedInventoryRows) throw new Error(`Expected ${expectedInventoryRows} ${mode} inventory rows; found ${inventory.length}.`);
 const sitemapFetch = await request("https://echobuddha.com/sitemap.xml", "follow");
 const sitemapUrls = new Set([...sitemapFetch.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));
 const results = Array(inventory.length);

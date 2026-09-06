@@ -343,3 +343,5 @@ https://echobuddha.com/start-here/,INDEXABLE_CANONICAL_200,200,200,https://echob
 https://echobuddha.com/terms-and-conditions/,PERMANENT_REDIRECT,404,301,,https://echobuddha.com/terms-of-use/,"index, follow","index, follow",NO,NO,YES,EXPECTED
 https://echobuddha.com/terms-of-use/,INDEXABLE_CANONICAL_200,200,200,https://echobuddha.com/terms-of-use/,https://echobuddha.com/terms-of-use/,"index, follow","index, follow",YES,YES,NO,EXPECTED
 https://echobuddha.com/tools/,INDEXABLE_CANONICAL_200,200,200,https://echobuddha.com/tools/,https://echobuddha.com/tools/,"index, follow","index, follow",YES,YES,NO,EXPECTED
+https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/,INDEXABLE_CANONICAL_200,NOT_OBSERVED,200,,https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/,,"index, follow",NO,YES,YES,EXPECTED
+https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/,INDEXABLE_CANONICAL_200,NOT_OBSERVED,200,,https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/,,"index, follow",NO,YES,YES,EXPECTED

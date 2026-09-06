@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-29T15:32:45.597Z",
+  "generated_at": "2026-09-06T12:08:24.458Z",
   "property": "sc-domain:echobuddha.com",
   "scope": "https://www.googleapis.com/auth/webmasters.readonly",
   "data_state": "final",
-  "finalized_end_date": "2026-08-26",
+  "finalized_end_date": "2026-09-04",
   "windows": {
     "latest28": {
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-26"
+      "startDate": "2026-08-08",
+      "endDate": "2026-09-04"
     },
     "previous28": {
-      "startDate": "2026-07-02",
-      "endDate": "2026-07-29"
+      "startDate": "2026-07-11",
+      "endDate": "2026-08-07"
     }
   },
   "protected_urls": 35,
@@ -19,34 +19,56 @@
     {
       "row_type": "SITE_TOTAL",
       "window": "latest28",
-      "start_date": "2026-07-30",
-      "end_date": "2026-08-26",
+      "start_date": "2026-08-08",
+      "end_date": "2026-09-04",
       "URL": "SITE",
       "protection_tier": "SITE",
-      "clicks": 18,
-      "impressions": 2258,
-      "ctr": 0.007971656333038087,
-      "position": 17.887068201948626,
+      "clicks": 19,
+      "impressions": 2851,
+      "ctr": 0.006664328305857594,
+      "position": 16.01999298491757,
       "evidence": "GSC_API_FINAL"
     },
     {
       "row_type": "SITE_TOTAL",
       "window": "previous28",
-      "start_date": "2026-07-02",
-      "end_date": "2026-07-29",
+      "start_date": "2026-07-11",
+      "end_date": "2026-08-07",
       "URL": "SITE",
       "protection_tier": "SITE",
       "clicks": 13,
-      "impressions": 745,
-      "ctr": 0.0174496644295302,
-      "position": 52.13020134228188,
+      "impressions": 1025,
+      "ctr": 0.012682926829268294,
+      "position": 39.68878048780488,
       "evidence": "GSC_API_FINAL"
     }
   ],
+  "sitemap": {
+    "checked_at": "2026-09-06T12:08:24.458Z",
+    "sitemap": [
+      {
+        "path": "https://echobuddha.com/sitemap.xml",
+        "lastSubmitted": "2026-08-21T10:13:06.258Z",
+        "lastDownloaded": "2026-09-06T02:07:18.687Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "151",
+            "indexed": "0"
+          }
+        ],
+        "errors": "0",
+        "warnings": "0"
+      }
+    ]
+  },
   "redirect_inspections": [
     {
       "URL": "https://echobuddha.com/articles/how-to-practice-non-attachment/",
-      "inspected_at": "2026-08-29T15:32:30.945Z",
+      "inspected_at": "2026-09-06T12:08:10.300Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -61,7 +83,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/letting-go-without-giving-up/",
-      "inspected_at": "2026-08-29T15:32:38.379Z",
+      "inspected_at": "2026-09-06T12:08:17.441Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -76,18 +98,18 @@
     },
     {
       "URL": "https://echobuddha.com/terms-and-conditions/",
-      "inspected_at": "2026-08-29T15:32:45.594Z",
+      "inspected_at": "2026-09-06T12:08:24.455Z",
       "verdict": "NEUTRAL",
-      "coverageState": "Not found (404)",
+      "coverageState": "Redirect error",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
-      "lastCrawlTime": "2026-07-09T04:56:13Z",
-      "pageFetchState": "NOT_FOUND",
+      "lastCrawlTime": "2026-08-29T16:54:09Z",
+      "pageFetchState": "REDIRECT_ERROR",
       "googleCanonical": "",
       "userCanonical": "",
       "crawledAs": "MOBILE",
-      "postdeploy_crawl": "NO",
-      "interpretation": "GOOGLE_PROCESSING_PENDING"
+      "postdeploy_crawl": "YES",
+      "interpretation": "GOOGLE_HAS_RECRAWLED_REDIRECT_SOURCE_AFTER_DEPLOYMENT"
     }
   ]
 }

@@ -86,6 +86,7 @@ const query = (request) => api(analyticsUrl, { method: "POST", headers: { "conte
 const isoOffset = (date, days) => { const value = new Date(`${date}T00:00:00Z`); value.setUTCDate(value.getUTCDate() + days); return value.toISOString().slice(0, 10); };
 const today = new Date().toISOString().slice(0, 10);
 const dateProbe = await query({ startDate: isoOffset(today, -21), endDate: today, dimensions: ["date"], type: "web", dataState: "final" });
+const sitemap = await api(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(property)}/sitemaps`);
 const finalizedEnd = (dateProbe.rows || []).map((row) => row.keys?.[0]).filter(Boolean).sort().at(-1);
 if (!finalizedEnd) throw new Error("No finalized Search Analytics date returned.");
 const windows = {
@@ -152,6 +153,7 @@ fs.writeFileSync(path.join(outDir, "source-evidence/ECHO_BUDDHA_PHASE_14_MONITOR
   windows,
   protected_urls: protectedUrls.length,
   site_totals: performanceRows.filter((row) => row.row_type === "SITE_TOTAL"),
+  sitemap,
   redirect_inspections: redirectRows,
 }, null, 2)}\n`);
 

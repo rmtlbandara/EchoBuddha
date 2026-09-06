@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T16:55:53.937Z",
+  "generated_at": "2026-09-06T12:55:46.029Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
-  "deployed_commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
-  "deployment_id": "f8f3f4c9-b156-422f-ad19-569abc767750",
+  "deployed_commit": "413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4",
+  "deployment_id": "dc5c106a-e6dc-4a5b-9120-04ad5b5c6fa4",
   "samples": {
     "deterministic_seed": "phase14",
     "deterministic_indexable_sample_size": 20,
@@ -57,7 +57,12 @@
     {
       "name": "complete production index contract",
       "pass": true,
-      "evidence": "344/344"
+      "evidence": "346/346"
+    },
+    {
+      "name": "authorized successor additions",
+      "pass": true,
+      "evidence": "2/2 current-release additions"
     },
     {
       "name": "SEO P0 production health",
@@ -87,7 +92,7 @@
     {
       "name": "sitemap",
       "pass": true,
-      "evidence": "149 intended canonical URLs"
+      "evidence": "immutable Phase 11 count 149; current authorized count 151"
     },
     {
       "name": "firewall",
@@ -107,24 +112,24 @@
     {
       "name": "sitemap postdeploy refetch",
       "pass": true,
-      "evidence": "refetched 2026-08-26T21:18:38.914Z; 149 submitted URLs"
+      "evidence": "refetched 2026-09-06T02:07:18.687Z; 151 submitted URLs"
     },
     {
       "name": "priority URL postdeploy processing",
       "pass": true,
-      "evidence": "4/16 priority URLs converged after deployment"
+      "evidence": "7/16 priority URLs converged after deployment"
     },
     {
       "name": "critical redirect-source processing",
       "pass": false,
       "expected_hold": true,
-      "evidence": "0/3 approved redirect sources recrawled after deployment"
+      "evidence": "1/3 recrawled; 0/3 processed as intended; 1 redirect-error state(s)"
     },
     {
       "name": "representative noindex postdeploy processing",
-      "pass": false,
-      "expected_hold": true,
-      "evidence": "0 representative noindex priority URLs recrawled and excluded after deployment"
+      "pass": true,
+      "expected_hold": false,
+      "evidence": "1 representative noindex priority URLs recrawled and excluded after deployment"
     },
     {
       "name": "Search Console account safety",
@@ -135,7 +140,7 @@
       "name": "material Google convergence",
       "pass": false,
       "expected_hold": true,
-      "evidence": "redirect-source and/or representative noindex postdeploy processing remains pending"
+      "evidence": "critical redirect-source Google processing remains pending"
     }
   ],
   "immediate_technical_result": "PASS",
