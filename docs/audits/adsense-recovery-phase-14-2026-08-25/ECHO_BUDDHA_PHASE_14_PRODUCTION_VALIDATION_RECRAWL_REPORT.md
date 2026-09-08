@@ -134,7 +134,7 @@ Live directives are correct and Search Console reports 46 excluded noindex examp
 
 ## 34. Search Performance
 
-Finalized through 2026-09-04. Latest 28-day site totals are 19 clicks/2851 impressions versus 13/1025; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-09-06. Latest 28-day site totals are 20 clicks/2909 impressions versus 13/1186; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
