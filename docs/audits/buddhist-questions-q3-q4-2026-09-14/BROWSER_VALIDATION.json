@@ -1,0 +1,609 @@
+{
+  "generatedAt": "2026-09-14T03:30:32.894Z",
+  "baseUrl": "http://127.0.0.1:4323",
+  "routeCount": 5,
+  "viewportCount": 3,
+  "combinations": 15,
+  "criticalViolations": 0,
+  "seriousViolations": 0,
+  "pass": true,
+  "results": [
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 4,
+      "navigationLinks": [],
+      "expectedNavigationLinks": [],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 4,
+      "navigationLinks": [],
+      "expectedNavigationLinks": [],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 4,
+      "navigationLinks": [],
+      "expectedNavigationLinks": [],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    }
+  ]
+}
