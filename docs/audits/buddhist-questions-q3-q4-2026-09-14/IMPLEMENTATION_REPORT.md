@@ -1,7 +1,7 @@
 # Controlled Q3/Q4 Buddhist Questions Implementation Report
 
 Date: 2026-09-14  
-Release state: local release validation passed; pending merge and exact-SHA production deployment  
+Release state: deployed and live-validated
 Starting `origin/main`: `00b0b3e86215799d8f8fb7e71d8aa5ce53914537`
 Validated implementation commit: `1a0b931640f05c2a0c5fcd08be05cd9ce9a646b8`
 
@@ -72,4 +72,10 @@ The prompt-requested aggregate commands `audit:cornerstones`, `audit:phase8`, `a
 
 The first dependency audit correctly failed on a newly published advisory set (1 critical, 6 high). A minimal release-toolchain update moved Astro to 7.3.2, Wrangler to 4.131.1, and affected transitive/overridden packages to patched versions. A subsequent `npm ci`, dependency audit, build, tests, browser checks, and full release gate passed with zero vulnerabilities.
 
-Production workflow details, live smoke checks, and the rollback point are recorded in a separate deployment record after the exact merged SHA is deployed.
+## Production result
+
+PR #24 merged to `main` as `42b853b1b67e3c9b3145e55b1d42374f35e34719` after its release and browser checks passed. The post-merge `main` validation run also passed both jobs. Exact-SHA production workflow run `34803556826` rebuilt, validated, manifested, deployed, and smoke-tested that commit.
+
+Cloudflare deployment `47303d8a-1941-42c2-a02c-db510473d05f` serves version `9e196159-656a-490a-8e18-b0ecfab80a2e` at 100%. The workflow smoke passed 14/14 checks. Independent live verification confirmed both new routes and Q1/Q2 at HTTP 200 with their self-canonicals, bounded navigation, intended schemas, no ad runtime, 153 sitemap URLs, and 318 internal-search records.
+
+The previous last-known-good rollback point is Git SHA `413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4`, Cloudflare deployment `dc5c106a-e6dc-4a5b-9120-04ad5b5c6fa4`, version `b5b294f9-6b65-4dad-943f-5400b78cbba5`. See `docs/deployments/2026-09-14-q3-q4-buddhist-questions.md` for the durable deployment record.

@@ -77,5 +77,16 @@
     "The SEO audit reports one indexable page with two or fewer detected inbound static links; this is a non-blocking repository-wide warning.",
     "An initial release-gate run found 1 critical and 6 high dependency advisories in the previously locked toolchain. Astro 7.3.2, Wrangler 4.131.1, sharp 0.35.4, svgo 4.1.0, js-yaml 4.3.2, and smol-toml 1.8.0 resolved the advisories; npm ci and the complete gate then passed with 0 vulnerabilities."
   ],
+  "production": {
+    "status": "DEPLOYED_AND_LIVE_VALIDATED",
+    "merged_sha": "42b853b1b67e3c9b3145e55b1d42374f35e34719",
+    "github_run_id": "34803556826",
+    "cloudflare_deployment_id": "47303d8a-1941-42c2-a02c-db510473d05f",
+    "cloudflare_version_id": "9e196159-656a-490a-8e18-b0ecfab80a2e",
+    "workflow_smoke": "PASS_14_OF_14",
+    "targeted_live_checks": "PASS_Q1_Q2_Q3_Q4_HUB_SITEMAP_SEARCH_SCHEMA_NAVIGATION_AND_ZERO_AD_RUNTIME",
+    "rollback_git_sha": "413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4",
+    "rollback_cloudflare_version_id": "b5b294f9-6b65-4dad-943f-5400b78cbba5"
+  },
   "validated_sha": "1a0b931640f05c2a0c5fcd08be05cd9ce9a646b8"
 }
