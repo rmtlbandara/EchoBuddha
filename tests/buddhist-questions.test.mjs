@@ -10,64 +10,100 @@ import { MONETIZATION_ROUTE_REGISTRY } from "../src/data/monetization-route-regi
 
 const root = process.cwd();
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
+const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const questionRoutes = buddhistQuestions.map(getBuddhistQuestionPath);
+const releaseDates = ["2026-09-02", "2026-09-02", "2026-09-14", "2026-09-14"];
 
-test("controlled Buddhist question collection contains exactly two complete, unique records", () => {
-  assert.equal(buddhistQuestions.length, 2);
-  assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2]);
-  assert.equal(new Set(buddhistQuestions.map((question) => question.slug)).size, 2);
-  assert.equal(new Set(buddhistQuestions.map((question) => question.title)).size, 2);
-  for (const question of buddhistQuestions) {
+test("controlled Buddhist question collection contains exactly four complete, unique records", () => {
+  assert.equal(buddhistQuestions.length, 4);
+  assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2, 3, 4]);
+  assert.equal(new Set(buddhistQuestions.map((question) => question.slug)).size, 4);
+  assert.equal(new Set(buddhistQuestions.map((question) => question.title)).size, 4);
+  for (const [index, question] of buddhistQuestions.entries()) {
     assert.ok(question.description.trim());
     assert.ok(question.shortAnswer.length >= 2);
     assert.ok(question.sections.length >= 6);
     assert.ok(question.sources.length >= 2);
+    assert.equal(question.publishedDate, releaseDates[index]);
+    assert.equal(question.modifiedDate, releaseDates[index]);
     assert.doesNotMatch(JSON.stringify(question), /placeholder|coming soon|lorem ipsum/i);
   }
+  assert.equal(
+    buddhistQuestions[2].sources.filter((source) => source.sourceType === "Theravāda canonical hagiography").length,
+    2,
+    "Q3 Apadāna sources must not be presented as early discourses"
+  );
   const learnSource = read("src/data/learn.ts");
   const existingFaqSource = learnSource.split("export const questionsAboutBuddhism = [")[1].split("export const resourceGroups")[0];
   assert.equal((existingFaqSource.match(/\n\s{4}question:/g) ?? []).length, 10, "the existing compact FAQ set must remain intact");
 });
 
-test("only Q1 and Q2 public question detail routes are generated", () => {
+test("only the four explicitly approved public question detail routes are generated", () => {
   const detailRoot = path.join(root, "dist/learn/questions-about-buddhism");
   const generated = fs.readdirSync(detailRoot, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .map((entry) => `/learn/questions-about-buddhism/${entry.name}/`)
     .sort();
   assert.deepEqual(generated, [...questionRoutes].sort());
-  assert.equal(generated.some((route) => /question-[3-9]|q(?:uestion)?-?[3-9]/i.test(route)), false);
+  assert.deepEqual(questionRoutes, [
+    "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+    "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+  ]);
+  assert.equal(generated.some((route) => /(?:question|q)-?\d*[5-9]|(?:question|q)-?[1-9]\d+/i.test(route)), false);
 });
 
-test("both question pages resolve in the build with canonical Article and breadcrumb metadata", () => {
+test("question navigation is the exact bounded Q1-to-Q4 chain", () => {
+  const navigation = buddhistQuestions.map((question) => ({
+    previous: question.previous?.href ?? null,
+    next: question.next?.href ?? null
+  }));
+  assert.deepEqual(navigation, [
+    { previous: null, next: questionRoutes[1] },
+    { previous: questionRoutes[0], next: questionRoutes[2] },
+    { previous: questionRoutes[1], next: questionRoutes[3] },
+    { previous: questionRoutes[2], next: null }
+  ]);
+});
+
+test("all four question pages resolve with truthful dates, canonical Article metadata, and exact navigation", () => {
   for (const [index, route] of questionRoutes.entries()) {
     const html = read(`dist${route}index.html`);
-    assert.match(html, new RegExp(`<link rel="canonical" href="https://echobuddha.com${route}"`));
+    assert.match(html, new RegExp(`<link rel="canonical" href="https://echobuddha.com${escapeRegex(route)}"`));
     assert.doesNotMatch(html, /<meta name="robots" content="[^"]*noindex/i);
     assert.match(html, /"@type":"Article"/);
     assert.match(html, /"@type":"BreadcrumbList"/);
+    assert.match(html, new RegExp(`"datePublished":"${releaseDates[index]}"`));
+    assert.match(html, new RegExp(`"dateModified":"${releaseDates[index]}"`));
     assert.doesNotMatch(html, /"@type":"FAQPage"/);
     assert.match(html, /rel="author"[^>]*>Echo Buddha Editorial/);
     assert.match(html, /Sources and Context/);
     assert.match(html, /Selected References/);
     assert.match(html, /target="_blank" rel="noopener noreferrer"/);
-    assert.match(html, new RegExp(questionRoutes[1 - index].replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+    if (index > 0) assert.match(html, new RegExp(escapeRegex(questionRoutes[index - 1])));
+    if (index < questionRoutes.length - 1) assert.match(html, new RegExp(escapeRegex(questionRoutes[index + 1])));
+    if (index === questionRoutes.length - 1) assert.doesNotMatch(html, /Next question/);
     assert.doesNotMatch(html, /pagead2\.googlesyndication|adsbygoogle|google_ad_client|class="[^"]*ad-slot/i);
   }
+  const detailTemplate = read("src/pages/learn/questions-about-buddhism/[slug].astro");
+  assert.doesNotMatch(detailTemplate, /publishedDate="2026-09-02"|modifiedDate="2026-09-02"|datePublished: "2026-09-02"|dateModified: "2026-09-02"/);
 });
 
-test("hub, internal search, and sitemap discover both question pages exactly once", () => {
+test("hub, internal search, and sitemap discover all four question pages exactly once", () => {
   const hub = read("dist/learn/questions-about-buddhism/index.html");
   const sitemap = read("dist/sitemap.xml");
   const searchIndex = JSON.parse(read("dist/search-index.json"));
-  for (const route of questionRoutes) {
-    assert.match(hub, new RegExp(route.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
-    assert.equal((sitemap.match(new RegExp(`https://echobuddha.com${route}`, "g")) ?? []).length, 1);
+  for (const [index, route] of questionRoutes.entries()) {
+    assert.match(hub, new RegExp(escapeRegex(route)));
+    assert.equal((sitemap.match(new RegExp(`https://echobuddha.com${escapeRegex(route)}`, "g")) ?? []).length, 1);
+    assert.match(sitemap, new RegExp(`<loc>https://echobuddha.com${escapeRegex(route)}</loc><lastmod>${releaseDates[index]}</lastmod>`));
     assert.equal(searchIndex.filter((item) => item.url === route).length, 1);
   }
+  assert.equal(searchIndex.length, 318);
 });
 
-test("new question routes remain conservative Learn-detail monetization holds", () => {
+test("all four question routes remain conservative Learn-detail monetization holds", () => {
   for (const route of questionRoutes) {
     assert.deepEqual(MONETIZATION_ROUTE_REGISTRY[route], {
       state: "HOLD_MANUAL_REVIEW",
@@ -76,5 +112,5 @@ test("new question routes remain conservative Learn-detail monetization holds", 
       reason: "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
     });
   }
-  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 337);
+  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 339);
 });
