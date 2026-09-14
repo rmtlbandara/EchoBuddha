@@ -91,7 +91,7 @@ export const GET: APIRoute = () => {
   }));
   const buddhistQuestionPaths: SitemapEntry[] = buddhistQuestions.map((question) => ({
     path: getBuddhistQuestionPath(question),
-    lastmod: "2026-09-02"
+    lastmod: question.modifiedDate
   }));
   const meditationPagePaths: SitemapEntry[] = allMeditationPages.map((page) => ({
     path: `/meditation/${page.slug}/`

@@ -7,7 +7,11 @@ export type BuddhistQuestionLink = {
 export type BuddhistQuestionSource = {
   label: string;
   href: string;
-  sourceType: "Early Buddhist discourse" | "Theravāda narrative/commentary" | "Museum / art history";
+  sourceType:
+    | "Early Buddhist discourse"
+    | "Theravāda canonical hagiography"
+    | "Theravāda narrative/commentary"
+    | "Museum / art history";
   note: string;
 };
 
@@ -18,12 +22,14 @@ export type BuddhistQuestionSection = {
 };
 
 export type BuddhistQuestion = {
-  number: 1 | 2;
+  number: 1 | 2 | 3 | 4;
   slug: string;
   title: string;
   seoTitle: string;
   description: string;
   eyebrow: string;
+  publishedDate: string;
+  modifiedDate: string;
   intro: string;
   takeaway: string;
   shortAnswer: string[];
@@ -48,6 +54,8 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     description:
       "Did the Buddha tell followers to make or venerate Buddha images? Explore early texts, relic and stupa traditions, later Theravāda commentary, and Buddhist art history.",
     eyebrow: "Question 1",
+    publishedDate: "2026-09-02",
+    modifiedDate: "2026-09-02",
     intro:
       "The history of Buddha images and the Buddhist meaning of venerating them are related questions, but they are not the same question.",
     takeaway:
@@ -183,6 +191,8 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     description:
       "Learn how Buddhists honor the Buddha after Parinibbāna through recollection, relics, stupas, Bodhi traditions, images, offerings, and Dhamma practice.",
     eyebrow: "Question 2",
+    publishedDate: "2026-09-02",
+    modifiedDate: "2026-09-02",
     intro:
       "Buddhist respect for the Buddha can continue through recollection and practice without treating him as an unseen person who still needs material support.",
     takeaway:
@@ -300,6 +310,254 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     previous: {
       label: "Question 1: Did the Buddha Order the Construction and Veneration of Buddha Images?",
       href: `${questionsPath}/did-buddha-order-buddha-images/`
+    },
+    next: {
+      label: "Question 3: Is a Buddha Image the Only Uddesika Cetiya?",
+      href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`
+    }
+  },
+  {
+    number: 3,
+    slug: "is-buddha-image-only-uddesika-cetiya",
+    title: "Is a Buddha Image the Only Uddesika Cetiya?",
+    seoTitle: "Is a Buddha Image the Only Uddesika Cetiya? | Echo Buddha",
+    description:
+      "Is Uddesika Cetiya limited to Buddha statues? Explore Theravāda memorial traditions, sand-stupa stories in the Apadāna, and the role of intention and representation.",
+    eyebrow: "Question 3",
+    publishedDate: "2026-09-14",
+    modifiedDate: "2026-09-14",
+    intro:
+      "A Buddha image is an important example of Uddesika Cetiya in later Theravāda explanation, but the underlying idea of a memorial or representational shrine is broader than one artistic form.",
+    takeaway:
+      "A Buddha image can be understood as an Uddesika Cetiya, but it should not be treated as the only possible form of commemorative representation. Theravāda texts preserve stories of deliberately made memorials—including simple sand stupas—used to recollect and honor Buddhas without depending on bodily relics or an object personally used by a Buddha. These stories illustrate a wider devotional logic, although their exact technical classification should be stated cautiously.",
+    shortAnswer: [
+      "No. Within later Theravāda explanation, a Buddha image is a familiar and important example of Uddesika Cetiya, but uddesika points more broadly to a commemorative or representational focus established in relation to the Buddha.",
+      "This differs from a Sārīrika Cetiya, centered on bodily relics, and a Pāribhogika Cetiya, connected with something used by or closely associated with a Buddha. A representational memorial does not depend on either kind of direct physical connection.",
+      "Theravāda hagiographic literature also tells of ascetics deliberately making sand stupas in honor of Buddhas. Those accounts show that meaningful remembrance was not limited to expensive statues or relic-bearing monuments. They do not, however, formally define every sand stupa with the technical label Uddesika Cetiya."
+    ],
+    sections: [
+      {
+        heading: "What Does Uddesika Cetiya Mean?",
+        paragraphs: [
+          "In a later Theravāda explanatory framework, <i>cetiya</i> covers sacred monuments, shrines, and memorial supports. <i>Uddesika</i> identifies the commemorative or representational category: an object established to point toward the Buddha rather than one defined by bodily relics or personal use.",
+          "The familiar threefold classification appears in the prose narrative surrounding the <i>Kāliṅgabodhi Jātaka</i> (Ja 479). It is helpful within Theravāda tradition, but it should not be presented as a universal classification used identically by every Buddhist school or as a verbatim definition from an early discourse."
+        ],
+        points: [
+          "<strong>Sārīrika Cetiya</strong> — a shrine associated with bodily relics.",
+          "<strong>Pāribhogika Cetiya</strong> — a place or object linked with a Buddha’s use or presence, such as the Bodhi tree in the Jetavana narrative.",
+          "<strong>Uddesika Cetiya</strong> — a commemorative or representational focus that points toward the Buddha."
+        ]
+      },
+      {
+        heading: "Why a Buddha Image Is an Important Example",
+        paragraphs: [
+          "A Buddha image clearly performs a representational role. Merely being an image does not give it a bodily-relic connection, nor does it mean the historical Buddha personally used the object. Instead, the image directs attention beyond its material form.",
+          "Stone, metal, wood, or paint is not itself the historical Buddha. In devotional practice, the form can help someone recollect awakening, wisdom, compassion, freedom from greed, hatred, and delusion, and the path taught by the Buddha. This makes the image a strong later example of Uddesika remembrance without reducing the category to statues alone."
+        ]
+      },
+      {
+        heading: "The Sand-Stupa Stories in the Apadāna",
+        paragraphs: [
+          "The Therāpadāna, a collection of canonical Theravāda hagiographies, preserves more than one story about a deliberately constructed sand stupa. In the Puḷinuppādaka account, an ascetic named Devala builds a stupa from sand, adorns it with flowers, and honors Buddhas through it; his students then join that practice. The text connects the act with confidence, recollection, and beneficial karmic results.",
+          "The Puḷinathūpiya account describes an ascetic named Nārada who, wanting a worthy focus for respect, builds and venerates a sand stupa for Buddhas. The account likewise presents the memorial act as karmically fruitful. These are sacred biographies expressing the collection’s devotional and karmic vision, not modern historical reports or early-discourse instructions.",
+          "Echo Buddha paraphrases only the limited source claims needed here. No translated verse or photographed-book passage is reproduced."
+        ]
+      },
+      {
+        heading: "What These Stories Do—and Do Not—Establish",
+        paragraphs: [
+          "The sand-stupa stories help illustrate the broader logic of commemorative or representational devotion. Their memorials do not require a bodily relic, an object personally used by a Buddha, or a costly human-form statue. Their emphasis falls on deliberate construction, recollection, confidence, and veneration.",
+          "The comparison has a boundary. The Apadāna passages are not being treated as though each formally defines its sand stupa with the exact category Uddesika Cetiya. Connecting them with the wider Uddesika idea is an editorial comparison informed by later Theravāda memorial explanation—not a quotation or technical definition supplied by those verses."
+        ]
+      },
+      {
+        heading: "Does Respectful Intention Make Any Object a Cetiya?",
+        paragraphs: [
+          "Intention matters, but intention alone does not automatically turn every object into a cetiya. A random object is not transformed merely because someone feels affection for it.",
+          "A memorial has a deliberate relationship and function: it is dedicated, established, or used to recollect the Buddha, awakening, or qualities connected with the Buddhist path. The sand-stupa narratives make this purposeful orientation visible. Material simplicity does not prevent a memorial function, but neither does emotion remove the need for an intentional connection."
+        ]
+      },
+      {
+        heading: "Why This Matters for Buddha Images",
+        paragraphs: [
+          "If deliberately constructed memorials can support remembrance without bodily relics or direct-use objects, representational devotion need not be confined to one physical form. A stupa of sand and a carefully made Buddha image are materially different, yet each can be deliberately related to recollection of Buddhas within its own textual or historical setting.",
+          "A Buddha image remains one of the clearest later examples of Uddesika Cetiya. The point is not to weaken that role, but to avoid mistaking a major example for the entire category. For the earlier question about whether images were commanded, see <a href=\"/learn/questions-about-buddhism/did-buddha-order-buddha-images/\">Did the Buddha Order the Construction and Veneration of Buddha Images?</a>"
+        ]
+      },
+      {
+        heading: "A Careful Conclusion",
+        paragraphs: [
+          "A Buddha image can be an Uddesika Cetiya, but Uddesika remembrance is better understood through its commemorative or representational function than through one required material form.",
+          "Theravāda sand-stupa stories reinforce the importance of intentional remembrance and the religious value that the tradition assigns to it. Careful source reading also keeps the claim proportionate: the stories illustrate the broader memorial logic without themselves supplying a formal Uddesika definition for every sand stupa."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha educational explanation. It distinguishes the Apadāna’s canonical Theravāda hagiographies from the later cetiya classification in the Kāliṅgabodhi Jātaka prose and from Echo Buddha’s own comparison between them.",
+    sources: [
+      {
+        label: "Puḷinuppādakatthera Apadāna (Tha Ap 489) — SuttaCentral",
+        href: "https://suttacentral.net/tha-ap489/en/walters",
+        sourceType: "Theravāda canonical hagiography",
+        note: "Supports the account of Devala deliberately making and venerating a sand stupa in honor of Buddhas, and the beneficial results the text associates with that devotion. It is not used as a formal definition of Uddesika Cetiya."
+      },
+      {
+        label: "Puḷinathūpiya Therāpadāna (Tha Ap 500) — SuttaCentral",
+        href: "https://suttacentral.net/tha-ap500/en/walters",
+        sourceType: "Theravāda canonical hagiography",
+        note: "Supports the Nārada sand-stupa episode and its devotional and karmic framing. Edition numbering can differ, so the stable SuttaCentral text identifier is provided."
+      },
+      {
+        label: "Kāliṅgabodhi Jātaka (Ja 479) — Ancient Buddhist Texts",
+        href: "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        sourceType: "Theravāda narrative/commentary",
+        note: "Provides the later threefold shrine framework used to explain the distinction among bodily-relic, use-associated, and memorial or representational cetiyas."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "Did the Buddha Order Buddha Images?",
+        href: `${questionsPath}/did-buddha-order-buddha-images/`,
+        description: "Separate early textual claims about commands from the later history and meaning of Buddha images."
+      },
+      {
+        label: "How Can the Buddha Be Respected After Parinibbāna?",
+        href: `${questionsPath}/respecting-buddha-after-parinibbana/`,
+        description: "Place images, stupas, relics, Bodhi traditions, and Dhamma practice in a wider account of remembrance."
+      },
+      {
+        label: "Buddhist Sources and Citations",
+        href: "/buddhist-sources-and-citations/",
+        description: "See how Echo Buddha distinguishes scripture, commentary, history, and editorial explanation."
+      }
+    ],
+    relatedTerms: ["Uddesika Cetiya", "Sārīrika Cetiya", "Pāribhogika Cetiya", "Apadāna", "Sand stupa"],
+    searchTerms: ["Uddesika Cetiya", "Buddha image", "Buddha statue", "cetiya", "sand stupa", "Apadāna", "memorial shrine", "representational shrine"],
+    previous: {
+      label: "Question 2: How Can the Buddha Be Respected After Parinibbāna?",
+      href: `${questionsPath}/respecting-buddha-after-parinibbana/`
+    },
+    next: {
+      label: "Question 4: Why Didn’t the Buddha Ask for a Statue at Jetavana?",
+      href: `${questionsPath}/why-no-buddha-statue-at-jetavana/`
+    }
+  },
+  {
+    number: 4,
+    slug: "why-no-buddha-statue-at-jetavana",
+    title: "If a Buddha Image Can Be an Uddesika Cetiya, Why Didn’t the Buddha Ask for a Statue at Jetavana?",
+    seoTitle: "Why Didn’t the Buddha Ask for a Statue at Jetavana? | Echo Buddha",
+    description:
+      "Why did the Jetavana tradition use a Bodhi tree rather than a Buddha statue? Explore what the Kāliṅgabodhi Jātaka actually says, what it does not say, and why silence is not a prohibition.",
+    eyebrow: "Question 4",
+    publishedDate: "2026-09-14",
+    modifiedDate: "2026-09-14",
+    intro:
+      "The Jetavana Bodhi-tree story tells us what memorial solution Ānanda proposed and the Buddha approved. It does not tell us that Buddha images were forbidden, nor does it record the Buddha saying he would have approved a statue instead.",
+    takeaway:
+      "The Kāliṅgabodhi Jātaka narrative says that Ānanda proposed a Bodhi tree as a focus for reverence at Jetavana and that the Buddha approved the proposal. The narrative records no command to build a statue, but it also records no prohibition against Buddha images. The safest conclusion is limited: the Bodhi tree was the memorial chosen in this traditional account; the absence of a statue instruction cannot by itself invalidate later Buddha-image devotion.",
+    shortAnswer: [
+      "The later Theravāda narrative surrounding the Kāliṅgabodhi Jātaka describes a practical problem: people wanted a suitable focus for reverence at Jetavana when the Buddha was away. Anāthapiṇḍika raised the concern, and Ānanda asked the Buddha about an appropriate shrine.",
+      "Ānanda proposed planting a Bodhi tree, and the Buddha approved that proposal. The tree had a close traditional association with awakening and with the Buddha, making it a natural focus within this particular story.",
+      "The text does not record the Buddha rejecting a statue. It also does not record him saying that a hypothetical statue would have been approved. A careful reading therefore invents neither a prohibition nor an approval that the narrative does not contain."
+    ],
+    sections: [
+      {
+        heading: "What the Jetavana Story Actually Says",
+        paragraphs: [
+          "In the prose narrative introducing the <i>Kāliṅgabodhi Jātaka</i> (Ja 479), devotees arrive at Jetavana with offerings while the Buddha is away and find no fitting focus for their reverence. Anāthapiṇḍika brings the practical concern to Ānanda, who asks the Buddha about suitable shrines.",
+          "The discussion distinguishes bodily-relic, use-associated, and memorial shrines. The Bodhi tree is treated as suitable during the Buddha’s lifetime because of its direct association with awakening. Ānanda proposes planting a descendant of the great Bodhi tree at Jetavana, the Buddha approves the plan, and Anāthapiṇḍika plants it. The narrative later says that the Buddha spends one night beneath the new tree, further connecting it with him.",
+          "This is the sequence that the later Theravāda narrative preserves. It should be paraphrased as such, not silently moved into the earlier discourse layer."
+        ]
+      },
+      {
+        heading: "The Buddha Approved the Bodhi Tree—Not a Recorded Statue Proposal",
+        paragraphs: [
+          "The story gives an affirmative answer to one proposal: Ānanda asks to establish a Bodhi tree at Jetavana, and the proposal is approved. No comparable proposal to make a Buddha statue appears in the narrative.",
+          "Some later readers may reason that a statue could also have been approved. That is an interpretation, not a statement placed in the Buddha’s mouth by Ja 479. Echo Buddha therefore does not present the counterfactual as a quotation or historical fact.",
+          "The equally important boundary runs the other way. The absence of a statue proposal is not a recorded rejection of Buddha images. The text supports the chosen Bodhi-tree memorial; it does not settle every possible later representational practice."
+        ]
+      },
+      {
+        heading: "Why Was a Bodhi Tree a Natural Memorial Focus?",
+        paragraphs: [
+          "The Bodhi tree is inseparable from the traditional account of the Buddha’s awakening. In the threefold cetiya explanation used by this narrative, it belongs to the Pāribhogika category: a memorial associated with a Buddha’s use or presence rather than with bodily relics.",
+          "That direct association makes the tree intelligible as the solution proposed at Jetavana. The story also gives the planted tree a continuing connection when the Buddha sits beneath it. These textual features are enough to explain its role without guessing at Ānanda’s private motives or claiming that a statue was rejected as difficult, unavailable, or improper."
+        ]
+      },
+      {
+        heading: "Does the Absence of a Statue Order Mean Statues Were Rejected?",
+        paragraphs: [
+          "No. A narrative recording one approved solution does not automatically establish that every unmentioned alternative was forbidden. Silence can tell us that no statue instruction is recorded in this scene; it cannot, by itself, become a universal rule against later images.",
+          "The Jetavana story answers a focused question: what devotional support was established in this traditional account while the Buddha was away? It does not answer the broader historical question of whether the Buddha issued a universal prohibition against future human-form images. For that separate issue, see <a href=\"/learn/questions-about-buddhism/did-buddha-order-buddha-images/\">Did the Buddha Order the Construction and Veneration of Buddha Images?</a>"
+        ]
+      },
+      {
+        heading: "Historical Context Also Requires Caution",
+        paragraphs: [
+          "Surviving human-form Buddha images are securely attested centuries after the period in which the Jetavana narrative is set. The Metropolitan Museum of Art dates one early seated Buddha from Gandhāra to the first to mid-second century CE and describes human-form traditions developing in Gandhāra and, contemporaneously, Mathurā.",
+          "This chronology cautions against projecting a fully developed later image culture backward into an earlier setting. It does not prove that all early Buddhists followed a universal image ban, and it does not reveal the undocumented reason why the traditional Ānanda narrative chooses a tree. Archaeological chronology supplies context, not a missing line of dialogue."
+        ]
+      },
+      {
+        heading: "What Later Buddha Images Mean",
+        paragraphs: [
+          "Later Theravāda explanation can treat Buddha images as Uddesika, or representational, cetiyas. Such an image points toward the Buddha and qualities associated with awakening without being identical with the historical Buddha or depending on a bodily relic.",
+          "That later representational practice does not require a claim that a statue was ordered at Jetavana. Religious traditions can preserve an approved Bodhi-tree memorial in one narrative and develop meaningful image devotion in later settings. Q3 explains why <a href=\"/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/\">Uddesika Cetiya is broader than one material form</a>."
+        ]
+      },
+      {
+        heading: "A Better Way to Read the Question",
+        paragraphs: [
+          "The apparent conflict disappears when four questions are kept separate: what the Jetavana narrative records, how later Theravāda explanation classifies devotional objects, how Buddhist art developed historically, and what Buddha-image veneration means in later practice.",
+          "Ja 479 records approval of a Bodhi tree at Jetavana. It records no statue proposal, no rejection of statues, and no certainty about a hypothetical approval. Later Buddha-image devotion should therefore be understood through its own traditional and historical context—not condemned by silence in this story and not justified by words the story never gives the Buddha."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha explanation of a question raised within later Theravāda memorial tradition. It distinguishes the Kāliṅgabodhi Jātaka narrative, later interpretation, art-historical evidence, and Echo Buddha editorial inference.",
+    sources: [
+      {
+        label: "Kāliṅgabodhi Jātaka (Ja 479) — Ancient Buddhist Texts",
+        href: "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        sourceType: "Theravāda narrative/commentary",
+        note: "Supports the Jetavana sequence: the need for a devotional focus, Ānanda’s inquiry and Bodhi-tree proposal, the Buddha’s approval, the planting, and the later connection made by the Buddha sitting beneath the tree. It records no statue proposal."
+      },
+      {
+        label: "Seated Buddha from Gandhāra — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/art/collection/search/72381",
+        sourceType: "Museum / art history",
+        note: "Supports the limited chronology of a securely attested human-form Buddha image dated to the first to mid-second century CE. It does not prove an earlier prohibition or Ānanda’s motive."
+      },
+      {
+        label: "Buddhism and Buddhist Art — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/essays/buddhism-and-buddhist-art",
+        sourceType: "Museum / art history",
+        note: "Supports the broader contextual statement that human-form Buddha traditions emerged in Gandhāra and contemporaneously in Kushan-period Mathurā."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "Did the Buddha Order Buddha Images?",
+        href: `${questionsPath}/did-buddha-order-buddha-images/`,
+        description: "Examine the distinct question of commands, early textual evidence, and later image history."
+      },
+      {
+        label: "Is a Buddha Image the Only Uddesika Cetiya?",
+        href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`,
+        description: "Explore the wider representational and memorial logic behind Uddesika Cetiya."
+      },
+      {
+        label: "Visiting a Buddhist Temple Respectfully",
+        href: "/articles/visiting-a-buddhist-temple-respectfully/",
+        description: "Use calm practical guidance around Bodhi trees, shrines, images, and offerings."
+      }
+    ],
+    relatedTerms: ["Jetavana", "Ānanda", "Bodhi tree", "Uddesika Cetiya", "Kāliṅgabodhi Jātaka"],
+    searchTerms: ["Jetavana", "Ānanda", "Bodhi tree", "Buddha statue", "Uddesika Cetiya", "Kāliṅgabodhi Jātaka", "Buddhist memorial", "Buddha image"],
+    previous: {
+      label: "Question 3: Is a Buddha Image the Only Uddesika Cetiya?",
+      href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`
     }
   }
 ];

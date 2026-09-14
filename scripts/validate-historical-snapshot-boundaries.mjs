@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
+import { buddhistQuestions, getBuddhistQuestionPath } from "../src/data/buddhistQuestions.ts";
 
 const root = process.cwd();
 const readJson = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
@@ -18,8 +19,11 @@ const phase13 = readJson(
   "docs/audits/adsense-recovery-phase-13-2026-08-25/ECHO_BUDDHA_PHASE_13_INDEPENDENT_VALIDATION.json"
 );
 const approvals = readJson("governance/indexable-page-approvals.json").approvals;
-const currentExpansion = readJson(
+const historicalExpansion = readJson(
   "docs/audits/buddhist-questions-q1-q2-2026-09-02/VALIDATION_SUMMARY.json"
+);
+const currentExpansion = readJson(
+  "docs/audits/buddhist-questions-q3-q4-2026-09-14/VALIDATION_SUMMARY.json"
 );
 
 assert.equal(phase6.status, "PASS", "Phase 6 must remain a passing historical snapshot");
@@ -38,25 +42,46 @@ assert.equal(phase13.status, "PASS_NO_EXPANSION_REQUIRED", "Phase 13 decision mu
 assert.equal(phase13.checks_passed, 10, "Phase 13 historical check count changed");
 
 const questionPrefix = "/learn/questions-about-buddhism/";
-const expectedQuestionRoutes = [
+const historicalQuestionRoutes = [
   `${questionPrefix}did-buddha-order-buddha-images/`,
   `${questionPrefix}respecting-buddha-after-parinibbana/`
 ];
+const currentQuestionRoutes = [
+  `${questionPrefix}is-buddha-image-only-uddesika-cetiya/`,
+  `${questionPrefix}why-no-buddha-statue-at-jetavana/`
+];
+const cumulativeQuestionRoutes = [...historicalQuestionRoutes, ...currentQuestionRoutes].sort();
 const approvedQuestionRoutes = approvals
   .filter((approval) => approval.route.startsWith(questionPrefix) && approval.route !== questionPrefix)
   .map((approval) => approval.route)
   .sort();
 
-assert.deepEqual(approvedQuestionRoutes, expectedQuestionRoutes, "the post-Phase-13 question expansion must remain exactly Q1 and Q2");
-for (const route of expectedQuestionRoutes) {
+assert.deepEqual(approvedQuestionRoutes, cumulativeQuestionRoutes, "the cumulative approved question expansion must remain exactly Q1 through Q4");
+assert.deepEqual(buddhistQuestions.map(getBuddhistQuestionPath).sort(), cumulativeQuestionRoutes, "the current data model must generate exactly Q1 through Q4");
+assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2, 3, 4], "no Q5+ question may enter the bounded data model");
+
+for (const route of historicalQuestionRoutes) {
   const approval = approvals.find((entry) => entry.route === route);
   assert.equal(approval.status, "Approved", `${route} must have explicit approval`);
-  assert.ok(approval.approvedAt > "2026-08-25", `${route} approval must remain later than Phase 13`);
+  assert.equal(approval.approvedAt, "2026-09-02", `${route} must retain its historical Q1/Q2 authorization date`);
+}
+for (const route of currentQuestionRoutes) {
+  const approval = approvals.find((entry) => entry.route === route);
+  assert.equal(approval.status, "Approved", `${route} must have explicit approval`);
+  assert.equal(approval.approvedAt, "2026-09-14", `${route} must have the current Q3/Q4 authorization date`);
 }
 
+assert.equal(historicalExpansion.counts.new_indexable_detail_urls, 2);
+assert.equal(historicalExpansion.counts.unauthorized_extra_urls, 0);
+assert.equal(historicalExpansion.counts.html_after, 337);
+assert.equal(historicalExpansion.counts.sitemap_after, 151);
+
+assert.deepEqual(currentExpansion.scope.current_expansion_2.questions, [3, 4]);
 assert.equal(currentExpansion.counts.new_indexable_detail_urls, 2);
 assert.equal(currentExpansion.counts.unauthorized_extra_urls, 0);
-assert.equal(currentExpansion.counts.html_after, 337);
-assert.equal(currentExpansion.counts.sitemap_after, 151);
+assert.equal(currentExpansion.counts.html_before, 337);
+assert.equal(currentExpansion.counts.html_after, 339);
+assert.equal(currentExpansion.counts.sitemap_before, 151);
+assert.equal(currentExpansion.counts.sitemap_after, 153);
 
-console.log("Historical snapshot boundary validation passed: frozen evidence preserved; authorized current expansion is exactly +2.");
+console.log("Historical snapshot boundary validation passed: frozen Phase evidence and Q1/Q2 +2 remain intact; Q3/Q4 is an independent authorized +2; cumulative scope is exactly Q1-Q4.");

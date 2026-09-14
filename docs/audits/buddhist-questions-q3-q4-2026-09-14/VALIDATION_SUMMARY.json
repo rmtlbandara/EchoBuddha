@@ -1,0 +1,81 @@
+{
+  "audit": "Controlled Q3 and Q4 Buddhist Questions expansion",
+  "date": "2026-09-14",
+  "status": "PASS_RELEASE_READY_WITH_HISTORICAL_SNAPSHOTS_PRESERVED",
+  "scope": {
+    "historical_expansion_1": {
+      "date": "2026-09-02",
+      "questions": [1, 2],
+      "new_indexable_detail_urls": 2
+    },
+    "current_expansion_2": {
+      "date": "2026-09-14",
+      "questions": [3, 4],
+      "new_indexable_detail_urls": 2
+    },
+    "cumulative_questions": [1, 2, 3, 4],
+    "unauthorized_extra_urls": 0
+  },
+  "counts": {
+    "html_before": 337,
+    "html_after": 339,
+    "indexable_before": 151,
+    "indexable_after": 153,
+    "nonindexable_before": 186,
+    "nonindexable_after": 186,
+    "sitemap_before": 151,
+    "sitemap_after": 153,
+    "internal_search_before": 316,
+    "internal_search_after": 318,
+    "new_indexable_detail_urls": 2,
+    "unauthorized_extra_urls": 0,
+    "monetization_before": {
+      "NEVER_MONETIZE": 252,
+      "ELIGIBLE_CANDIDATE": 7,
+      "HOLD_MANUAL_REVIEW": 78
+    },
+    "monetization_after": {
+      "NEVER_MONETIZE": 252,
+      "ELIGIBLE_CANDIDATE": 7,
+      "HOLD_MANUAL_REVIEW": 80
+    }
+  },
+  "preservation": {
+    "q1_semantic_sha256": "9dc8e62f77adfd34f9cdf90f1bd0c769a18a094ed4e3a8b6b7616f15c2f145be",
+    "q2_semantic_sha256": "eb75792ed5f61a19995942068cfc96c52f874c99cac1d61bb32c29649d48e380",
+    "historical_q1_q2_audit_modified": false,
+    "adsense_runtime_enabled": false
+  },
+  "current_state_checks": {
+    "npm_ci": "PASS_0_VULNERABILITIES",
+    "npm_run_build": "PASS_339_PAGES",
+    "npm_run_typecheck": "PASS",
+    "npm_run_lint": "PASS",
+    "npm_test": "PASS_34_OF_34",
+    "npm_run_audit_seo": "PASS_WITH_1_LOW_INBOUND_LINK_WARNING",
+    "npm_run_audit_content": "PASS",
+    "npm_run_audit_quotes": "PASS_7_OF_7",
+    "npm_run_audit_trust": "PASS_58_OF_58",
+    "npm_run_audit_phase8_active": "PASS_17_OF_17",
+    "npm_run_audit_phase9_active": "PASS_26_OF_26",
+    "npm_run_audit_phase10_active": "PASS_19_OF_19",
+    "npm_run_audit_phase11": "PASS_17_OF_17_AND_INDEX_HYGIENE_40_OF_40",
+    "npm_run_audit_phase12": "PASS_57_OF_57",
+    "npm_run_audit_phase13": "PASS_11_OF_11",
+    "npm_run_audit_dependencies": "PASS_0_HIGH_0_CRITICAL",
+    "npm_run_validate_release": "PASS",
+    "npm_run_audit_browser": "PASS_18_ROUTES_WITH_CONSENT",
+    "npm_run_audit_q3q4_browser": "PASS_15_ROUTE_VIEWPORT_COMBINATIONS_0_CRITICAL_0_SERIOUS"
+  },
+  "historical_snapshot_diagnostics": {
+    "npm_run_audit_cornerstones": "EXPECTED_SNAPSHOT_FAIL_64_OF_67_AFTER_APPROVED_ROUTE_GROWTH",
+    "npm_run_audit_phase8_full": "ACTIVE_PASS_17_OF_17_THEN_EXPECTED_FROZEN_335_HTML_149_SITEMAP_FAIL",
+    "npm_run_audit_phase9_full": "ACTIVE_PASS_26_OF_26_THEN_EXPECTED_FROZEN_BROWSER_TEMP_AND_EARLIER_SNAPSHOT_FAIL",
+    "npm_run_audit_phase10_full": "ACTIVE_PASS_19_OF_19_THEN_EXPECTED_FROZEN_RED_TEAM_FLAGS_2_AUTHORIZED_NEW_ROUTES"
+  },
+  "warnings": [
+    "The SEO audit reports one indexable page with two or fewer detected inbound static links; this is a non-blocking repository-wide warning.",
+    "An initial release-gate run found 1 critical and 6 high dependency advisories in the previously locked toolchain. Astro 7.3.2, Wrangler 4.131.1, sharp 0.35.4, svgo 4.1.0, js-yaml 4.3.2, and smol-toml 1.8.0 resolved the advisories; npm ci and the complete gate then passed with 0 vulnerabilities."
+  ],
+  "validated_sha": "1a0b931640f05c2a0c5fcd08be05cd9ce9a646b8"
+}

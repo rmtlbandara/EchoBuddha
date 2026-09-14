@@ -41,8 +41,8 @@ const jsonLd = [
     mainEntityOfPage: `${SITE.url}${canonicalPath}`,
     inLanguage: "en",
     articleSection: "Questions About Buddhism",
-    datePublished: "2026-09-02",
-    dateModified: "2026-09-02",
+    datePublished: question.publishedDate,
+    dateModified: question.modifiedDate,
     author: EDITORIAL_AUTHOR_SCHEMA,
     publisher: PUBLISHER_SCHEMA
   },
@@ -55,8 +55,8 @@ const jsonLd = [
   description={question.description}
   canonicalPath={canonicalPath}
   type="article"
-  publishedDate="2026-09-02"
-  modifiedDate="2026-09-02"
+  publishedDate={question.publishedDate}
+  modifiedDate={question.modifiedDate}
   author={SITE.author}
   jsonLd={jsonLd}
 >
@@ -122,13 +122,13 @@ const jsonLd = [
           {question.previous && (
             <a class="surface" href={question.previous.href}>
               <span>Previous question</span>
-              <strong>{question.previous.label.replace(/^Question 1: /, "")}</strong>
+              <strong>{question.previous.label.replace(/^Question \d+: /, "")}</strong>
             </a>
           )}
           {question.next && (
             <a class="surface question-navigation__next" href={question.next.href}>
               <span>Next question</span>
-              <strong>{question.next.label.replace(/^Question 2: /, "")}</strong>
+              <strong>{question.next.label.replace(/^Question \d+: /, "")}</strong>
             </a>
           )}
         </nav>
@@ -143,7 +143,7 @@ const jsonLd = [
         </div>
         <div class="surface side-card">
           <span class="eyebrow">Question library</span>
-          <p>Return to the short beginner answers or choose the paired source-aware question.</p>
+          <p>Return to the question library or continue with another source-aware question.</p>
           <a href="/learn/questions-about-buddhism/">Questions About Buddhism</a>
         </div>
       </aside>

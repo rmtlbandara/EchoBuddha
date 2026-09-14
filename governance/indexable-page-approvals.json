@@ -61,6 +61,46 @@
       "owner": "Echo Buddha project owner via the 2026-09-02 controlled Q1 and Q2 Buddhist questions implementation request",
       "approvedAt": "2026-09-02",
       "status": "Approved"
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "topicCluster": "Buddhist Veneration and Remembrance",
+      "pageRole": "Source-aware doctrinal and memorial-tradition question",
+      "primaryOwner": "/learn/questions-about-buddhism/",
+      "userNeed": "A beginner needs to understand whether Uddesika Cetiya is limited to Buddha statues and how intentionally constructed memorials in Theravāda devotional literature relate to representational remembrance.",
+      "intendedReader": "A beginner or returning reader asking whether only a Buddha image can serve as an Uddesika or representational cetiya.",
+      "closestExistingPage": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "whyNotImproveExisting": "Q1 owns whether the Buddha ordered image construction and veneration. Q3 owns the narrower but distinct scope of Uddesika representation, the relevance of sand-stupa devotional evidence, and the boundary between source text and editorial comparison.",
+      "uniqueValue": "A bounded definition of the three later Theravāda cetiya categories, two verified Apadāna sand-stupa examples, an explicit source-layer distinction, and a careful explanation of why intention and representational function matter without claiming that any object automatically becomes a cetiya.",
+      "sourceRequirements": "Use verified SuttaCentral texts for the Puḷinuppādaka and Puḷinathūpiya Apadāna episodes and Ja 479 for the later threefold shrine framework. Classify Apadāna as canonical Theravāda hagiography, reproduce no long translation, and do not claim that the stories formally define every sand stupa as Uddesika Cetiya.",
+      "safetyRequirements": "Independent educational explanation only. Avoid sectarian judgment, invented textual claims, universal statements across Buddhist schools, copied book prose, or disparagement of devotional practice.",
+      "indexIntent": "index, follow; self-canonical; include once in sitemap and internal search; discoverable through the existing Questions About Buddhism parent.",
+      "monetizationSuitability": "LEARN_DETAIL / HOLD_MANUAL_REVIEW. No ad runtime, slot, candidate allowlist entry, Auto Ads change, or consent change is authorized.",
+      "nextStep": "Continue to Q4's Jetavana clarification, Q1's command-and-history question, or Echo Buddha's Buddhist source method.",
+      "independentValueWithoutSearchOrAds": "Yes. It resolves a specific doctrinal-category question through verified source examples and careful interpretive boundaries for current Echo Buddha learners.",
+      "owner": "Echo Buddha project owner via the 2026-09-14 controlled Q3/Q4 implementation request",
+      "approvedAt": "2026-09-14",
+      "status": "Approved"
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "topicCluster": "Buddhist Veneration and Remembrance",
+      "pageRole": "Source-aware textual and historical clarification",
+      "primaryOwner": "/learn/questions-about-buddhism/",
+      "userNeed": "A beginner needs a source-critical answer to why Ja 479 establishes a Bodhi tree at Jetavana rather than recording a Buddha-statue instruction, without turning textual silence into either a prohibition or an invented approval.",
+      "intendedReader": "A beginner or returning reader asking whether the Jetavana Bodhi-tree narrative undermines later Buddha-image devotion.",
+      "closestExistingPage": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/ and /learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "whyNotImproveExisting": "Q1 owns whether images were commanded and Q3 owns the scope of Uddesika representation. Q4 answers the specific Jetavana/Bodhi-tree objection and distinguishes what Ja 479 says, what it omits, and what later readers infer.",
+      "uniqueValue": "A precise reconstruction of the verified Ja 479 sequence, explicit protection against a false hypothetical quotation, a Bodhi-tree memorial explanation, and limited museum-supported image chronology that is not misused as proof of doctrine or motive.",
+      "sourceRequirements": "Use Ja 479 for the Jetavana sequence and verified Metropolitan Museum of Art sources for limited early human-form image chronology. Reproduce no long translation, do not invent unseen source-book content, and do not claim that the Buddha rejected or explicitly approved a hypothetical statue.",
+      "safetyRequirements": "Independent educational explanation only. Avoid sectarian judgment, universal aniconism claims, invented motives for Ānanda, copied book prose, or archaeological claims presented as doctrinal rules.",
+      "indexIntent": "index, follow; self-canonical; include once in sitemap and internal search; discoverable through the existing Questions About Buddhism parent.",
+      "monetizationSuitability": "LEARN_DETAIL / HOLD_MANUAL_REVIEW. No ad runtime, slot, candidate allowlist entry, Auto Ads change, or consent change is authorized.",
+      "nextStep": "Continue to Q3's Uddesika explanation, Q1's command-and-history question, or the practical temple-visiting guide.",
+      "independentValueWithoutSearchOrAds": "Yes. It resolves a concrete textual objection with source criticism and historical context that is distinct from the broader image-history and memorial-category pages.",
+      "owner": "Echo Buddha project owner via the 2026-09-14 controlled Q3/Q4 implementation request",
+      "approvedAt": "2026-09-14",
+      "status": "Approved"
     }
   ]
 }
