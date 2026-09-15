@@ -69,11 +69,25 @@ const authorizedSuccessorAdditions = [
     intended_state: "INDEXABLE_CANONICAL_200",
     expected_http_status: "200",
   },
+  {
+    URL: "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    route: "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    family: "LEARN_DETAIL",
+    intended_state: "INDEXABLE_CANONICAL_200",
+    expected_http_status: "200",
+  },
+  {
+    URL: "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+    route: "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+    family: "LEARN_DETAIL",
+    intended_state: "INDEXABLE_CANONICAL_200",
+    expected_http_status: "200",
+  },
 ];
 const inventory = mode === "postdeploy"
   ? [...initialInventory, ...authorizedSuccessorAdditions]
   : initialInventory;
-const expectedInventoryRows = mode === "postdeploy" ? 346 : 344;
+const expectedInventoryRows = mode === "postdeploy" ? 348 : 344;
 if (inventory.length !== expectedInventoryRows) throw new Error(`Expected ${expectedInventoryRows} ${mode} inventory rows; found ${inventory.length}.`);
 const sitemapFetch = await request("https://echobuddha.com/sitemap.xml", "follow");
 const sitemapUrls = new Set([...sitemapFetch.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));

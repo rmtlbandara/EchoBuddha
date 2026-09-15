@@ -5,21 +5,21 @@
 - Immutable initial Phase 14 version ID: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
 - Immutable initial Phase 14 deployed at: `2026-08-25T05:33:01.801137Z`
 - Target production branch: `main`
-- Current authorized production commit: `413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4`
-- Current main documentation head: `00b0b3e86215799d8f8fb7e71d8aa5ce53914537`
+- Current authorized production commit: `42b853b1b67e3c9b3145e55b1d42374f35e34719`
+- Current main documentation head: `92c27689615e977aee18c8002367c44ede3cbbd2`
 - Deployment platform: Cloudflare Workers static assets
-- Current deployment method: authorized GitHub/Cloudflare production workflow recorded in `docs/deployments/2026-09-02-q1-q2-buddhist-questions.md`.
-- Current deployment ID: `dc5c106a-e6dc-4a5b-9120-04ad5b5c6fa4`
-- Current version ID: `b5b294f9-6b65-4dad-943f-5400b78cbba5`
-- Current deployed at: `2026-09-02T16:27:35.26782Z`
-- Historical recovery boundary: the initial 344-row release remains immutable; the authorized successor added exactly two indexable Learn detail pages.
-- Current production inventory: 346 contract rows = 151 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
-- Built HTML pages: 337
-- Intended sitemap URLs: 151
-- Search records: 316
-- Authorized successor additions: 2
+- Current deployment method: authorized GitHub/Cloudflare production workflow recorded in `docs/deployments/2026-09-14-q3-q4-buddhist-questions.md`.
+- Current deployment ID: `47303d8a-1941-42c2-a02c-db510473d05f`
+- Current version ID: `9e196159-656a-490a-8e18-b0ecfab80a2e`
+- Current deployed at: `2026-09-14T03:44:54.812871Z`
+- Historical recovery boundary: the initial 344-row release remains immutable; two authorized successor releases added exactly four indexable Learn detail pages in total.
+- Current production inventory: 348 contract rows = 153 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
+- Built HTML pages: 339
+- Intended sitemap URLs: 153
+- Search records: 318
+- Authorized successor additions: 4
 - Permanent redirect sources: 3
-- Current rollback target: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
+- Current rollback target: `b5b294f9-6b65-4dad-943f-5400b78cbba5`
 - Rollback readiness: verified against the predeploy 14/14 smoke baseline
 - Rollback used: NO
 - Ad serving: OFF

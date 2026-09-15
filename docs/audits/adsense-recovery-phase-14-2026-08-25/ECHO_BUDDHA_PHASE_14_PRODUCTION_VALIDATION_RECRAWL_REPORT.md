@@ -2,15 +2,15 @@
 
 ## 1. Executive Summary
 
-The immutable initial Phase 14 release remains preserved and the authorized two-URL successor release is technically healthy. Live validation passes, Google refetched the 151-URL successor sitemap, and 7 priority URLs plus the representative noindex case have postdeployment convergence. Critical redirect-source processing remains pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
+The immutable initial Phase 14 release remains preserved and the authorized four-URL successor expansion is technically healthy. Live validation passes and 7 priority URLs plus the representative noindex case have postdeployment convergence. Google has not yet refetched the current 153-URL sitemap and critical redirect-source processing remains pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
 
 ## 2. Phase 13 Result
 
-PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. A separately authorized successor release later added exactly two governed indexable Learn detail pages.
+PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Two separately authorized successor releases later added exactly four governed indexable Learn detail pages.
 
 ## 3. Release Commit
 
-Initial Phase 14 release ad9fe897916c76fd6883efc351461b49db28ac3f remains the historical baseline. Production now serves authorized successor 413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4; deployment dc5c106a-e6dc-4a5b-9120-04ad5b5c6fa4; version b5b294f9-6b65-4dad-943f-5400b78cbba5.
+Initial Phase 14 release ad9fe897916c76fd6883efc351461b49db28ac3f remains the historical baseline. Production now serves authorized successor 42b853b1b67e3c9b3145e55b1d42374f35e34719; deployment 47303d8a-1941-42c2-a02c-db510473d05f; version 9e196159-656a-490a-8e18-b0ecfab80a2e.
 
 ## 4. Predeploy Production Baseline
 
@@ -26,11 +26,11 @@ The August 2026 spam update completed before deployment. The official Search Sta
 
 ## 7. Rollback Readiness
 
-The initial Phase 14 version c5f74323-7b3a-450c-96c3-f3a0e432ff42 remains the rollback target for the current successor release; no rollback is required.
+Version b5b294f9-6b65-4dad-943f-5400b78cbba5 remains the rollback target for the current successor release; no rollback is required.
 
 ## 8. Deployment Execution
 
-The immutable initial Phase 14 artifact was deployed at 2026-08-25T05:33:01.801137Z. The separately authorized two-URL successor artifact was deployed at 2026-09-02T16:27:35.26782Z through the governed production workflow.
+The immutable initial Phase 14 artifact was deployed at 2026-08-25T05:33:01.801137Z. The current Q3/Q4 successor artifact was deployed at 2026-09-14T03:44:54.812871Z through the governed production workflow, bringing authorized post-baseline additions to four.
 
 ## 9. Immediate Production Health
 
@@ -50,7 +50,7 @@ Retained Quote categories and approved story states are live; noindex Quote perm
 
 ## 13. HTTP Status Validation
 
-{"200":342,"301":3,"307":1} across 346 current-contract rows; 0 contract failures.
+{"200":344,"301":3,"307":1} across 348 current-contract rows; 0 contract failures.
 
 ## 14. Redirect Validation
 
@@ -58,7 +58,7 @@ Retained Quote categories and approved story states are live; noindex Quote perm
 
 ## 15. Canonical Validation
 
-337/337 applicable canonical checks pass.
+339/339 applicable canonical checks pass.
 
 ## 16. robots.txt
 
@@ -66,7 +66,7 @@ HTTP 200, canonical sitemap declaration present, no production-wide disallow, an
 
 ## 17. Sitemap
 
-The live sitemap has 151 intended canonical URLs. Search Console refetched it after the authorized successor deployment on 2026-09-06T02:07:18.687Z and now reports 151 submitted/discovered URLs with zero errors or warnings.
+The live sitemap has 153 intended canonical URLs. Search Console's latest stored sitemap state is 151 URLs from 2026-09-12T14:40:58.761Z, with zero errors or warnings; a post-current-release 153-URL refetch has not yet been observed.
 
 ## 18. Noindex
 
@@ -102,11 +102,11 @@ No broken assets or systemic HTTP failures appeared in the full crawl/browser jo
 
 ## 26. Production Crawl
 
-346 rows, zero fetch errors, 151 sitemap URLs, zero ad signals and zero empty placeholders.
+348 rows, zero fetch errors, 153 sitemap URLs, zero ad signals and zero empty placeholders.
 
 ## 27. Production vs Intended Contract
 
-346/346 rows pass; 48 rows differ materially from old production and all differences are expected.
+348/348 rows pass; 50 rows differ materially from old production and all differences are expected.
 
 ## 28. Search Console Sitemap State
 
@@ -134,7 +134,7 @@ Live directives are correct and Search Console reports 46 excluded noindex examp
 
 ## 34. Search Performance
 
-Finalized through 2026-09-06. Latest 28-day site totals are 20 clicks/2909 impressions versus 13/1186; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-09-12. Latest 28-day site totals are 26 clicks/3243 impressions versus 14/1617; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
@@ -142,7 +142,7 @@ All 35 protected routes are live and technically healthy; all P0s and 31/32 P1s 
 
 ## 36. Material Google Convergence
 
-NOT YET ESTABLISHED: sitemap refetch=YES; priority convergence=7/16; redirect sources recrawled=1/3; redirect sources processed as intended=0/3; redirect errors=1; representative noindex postdeploy convergence=1.
+NOT YET ESTABLISHED: sitemap refetch=NO; priority convergence=7/16; redirect sources recrawled=1/3; redirect sources processed as intended=0/3; redirect errors=1; representative noindex postdeploy convergence=1.
 
 ## 37. Policy Regression Check
 
@@ -162,7 +162,7 @@ ROLLBACK_REQUIRED = NO. A stale pre-recovery count assertion in the smoke script
 
 ## 41. Explicit Holds
 
-REDIRECT_SOURCE_GOOGLE_STATE_ERROR; CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
+CURRENT_RELEASE_SITEMAP_REFETCH_PENDING; REDIRECT_SOURCE_GOOGLE_STATE_ERROR; CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
 
 ## 42. Monitoring Required
 

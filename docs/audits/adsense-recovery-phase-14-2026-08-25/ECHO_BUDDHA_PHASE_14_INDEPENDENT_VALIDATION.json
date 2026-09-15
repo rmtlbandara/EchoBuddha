@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-08T09:11:22.820Z",
+  "generated_at": "2026-09-15T02:25:35.161Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
-  "deployed_commit": "413aa0152a35d6faa2fa9b1c1d9e0e2489bb20c4",
-  "deployment_id": "dc5c106a-e6dc-4a5b-9120-04ad5b5c6fa4",
+  "deployed_commit": "42b853b1b67e3c9b3145e55b1d42374f35e34719",
+  "deployment_id": "47303d8a-1941-42c2-a02c-db510473d05f",
   "samples": {
     "deterministic_seed": "phase14",
     "deterministic_indexable_sample_size": 20,
@@ -57,12 +57,12 @@
     {
       "name": "complete production index contract",
       "pass": true,
-      "evidence": "346/346"
+      "evidence": "348/348"
     },
     {
       "name": "authorized successor additions",
       "pass": true,
-      "evidence": "2/2 current-release additions"
+      "evidence": "4/4 current-release additions"
     },
     {
       "name": "SEO P0 production health",
@@ -92,7 +92,7 @@
     {
       "name": "sitemap",
       "pass": true,
-      "evidence": "immutable Phase 11 count 149; current authorized count 151"
+      "evidence": "immutable Phase 11 count 149; current authorized count 153"
     },
     {
       "name": "firewall",
@@ -111,8 +111,9 @@
     },
     {
       "name": "sitemap postdeploy refetch",
-      "pass": true,
-      "evidence": "refetched 2026-09-06T02:07:18.687Z; 151 submitted URLs"
+      "pass": false,
+      "expected_hold": true,
+      "evidence": "current-release 153-URL refetch not observed; latest stored sitemap state is 151 URLs from 2026-09-12T14:40:58.761Z"
     },
     {
       "name": "priority URL postdeploy processing",
