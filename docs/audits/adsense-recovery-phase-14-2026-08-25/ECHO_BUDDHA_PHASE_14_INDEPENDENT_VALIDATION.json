@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:25:35.161Z",
+  "generated_at": "2026-09-18T08:47:45.867Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
   "deployed_commit": "42b853b1b67e3c9b3145e55b1d42374f35e34719",
@@ -111,9 +111,9 @@
     },
     {
       "name": "sitemap postdeploy refetch",
-      "pass": false,
-      "expected_hold": true,
-      "evidence": "current-release 153-URL refetch not observed; latest stored sitemap state is 151 URLs from 2026-09-12T14:40:58.761Z"
+      "pass": true,
+      "expected_hold": false,
+      "evidence": "refetched 2026-09-16T09:32:21.859Z; 153 submitted URLs"
     },
     {
       "name": "priority URL postdeploy processing",

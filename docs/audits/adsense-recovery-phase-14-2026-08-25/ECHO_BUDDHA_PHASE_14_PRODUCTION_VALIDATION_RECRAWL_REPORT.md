@@ -66,7 +66,7 @@ HTTP 200, canonical sitemap declaration present, no production-wide disallow, an
 
 ## 17. Sitemap
 
-The live sitemap has 153 intended canonical URLs. Search Console's latest stored sitemap state is 151 URLs from 2026-09-12T14:40:58.761Z, with zero errors or warnings; a post-current-release 153-URL refetch has not yet been observed.
+The live sitemap has 153 intended canonical URLs. Search Console's latest stored sitemap state is 153 URLs from 2026-09-16T09:32:21.859Z, with zero errors or warnings; a post-current-release 153-URL refetch has been confirmed.
 
 ## 18. Noindex
 
@@ -110,7 +110,7 @@ No broken assets or systemic HTTP failures appeared in the full crawl/browser jo
 
 ## 28. Search Console Sitemap State
 
-One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with 151 URLs. No duplicate was submitted.
+One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with 153 URLs. No duplicate was submitted.
 
 ## 29. Recrawl Actions
 
@@ -134,7 +134,7 @@ Live directives are correct and Search Console reports 46 excluded noindex examp
 
 ## 34. Search Performance
 
-Finalized through 2026-09-12. Latest 28-day site totals are 26 clicks/3243 impressions versus 14/1617; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-09-15. Latest 28-day site totals are 28 clicks/3676 impressions versus 14/1764; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
@@ -142,7 +142,7 @@ All 35 protected routes are live and technically healthy; all P0s and 31/32 P1s 
 
 ## 36. Material Google Convergence
 
-NOT YET ESTABLISHED: sitemap refetch=NO; priority convergence=7/16; redirect sources recrawled=1/3; redirect sources processed as intended=0/3; redirect errors=1; representative noindex postdeploy convergence=1.
+NOT YET ESTABLISHED: sitemap refetch=YES; priority convergence=7/16; redirect sources recrawled=1/3; redirect sources processed as intended=0/3; redirect errors=1; representative noindex postdeploy convergence=1.
 
 ## 37. Policy Regression Check
 
@@ -162,7 +162,7 @@ ROLLBACK_REQUIRED = NO. A stale pre-recovery count assertion in the smoke script
 
 ## 41. Explicit Holds
 
-CURRENT_RELEASE_SITEMAP_REFETCH_PENDING; REDIRECT_SOURCE_GOOGLE_STATE_ERROR; CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
+REDIRECT_SOURCE_GOOGLE_STATE_ERROR; CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
 
 ## 42. Monitoring Required
 

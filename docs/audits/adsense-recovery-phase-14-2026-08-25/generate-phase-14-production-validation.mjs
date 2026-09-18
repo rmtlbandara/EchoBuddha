@@ -519,7 +519,11 @@ ${redirectSourceErrors.length ? `- Search Console has processed ${redirectSource
 
 ## Decision
 
-${materialGoogleConvergence ? "Material Google convergence is established. Phase 14 PASS and the Phase 15 gate is open." : `The noindex convergence gate is ${postdeployNoindexConvergence.length ? "satisfied" : "still pending"}. Phase 15 remains blocked because the current-release sitemap refetch is ${sitemapRefetched ? "confirmed" : "pending"}, ${redirectGoogle.length - redirectSourcesRecrawled.length} critical redirect source(s) still lack postdeployment processing, and ${redirectSourceErrors.length} processed source(s) remain in a Redirect error indexed state. Continue Phase 14 monitoring without redeploying or repeating indexing requests.`}
+${materialGoogleConvergence ? "Material Google convergence is established. Phase 14 PASS and the Phase 15 gate is open." : `The noindex convergence gate is ${postdeployNoindexConvergence.length ? "satisfied" : "still pending"}. Phase 15 remains blocked because ${[
+  sitemapRefetched ? "" : "the current-release sitemap refetch is pending",
+  redirectGoogle.length - redirectSourcesRecrawled.length ? `${redirectGoogle.length - redirectSourcesRecrawled.length} critical redirect source(s) still lack postdeployment processing` : "",
+  redirectSourceErrors.length ? `${redirectSourceErrors.length} processed source(s) remain in a Redirect error indexed state` : "",
+].filter(Boolean).join("; ")}. Continue Phase 14 monitoring without redeploying or repeating indexing requests.`}
 `;
 fs.writeFileSync(path.join(outDir, `ECHO_BUDDHA_PHASE_14_MONITORING_CHECKPOINT_${monitoringDate}.md`), monitoringCheckpoint);
 

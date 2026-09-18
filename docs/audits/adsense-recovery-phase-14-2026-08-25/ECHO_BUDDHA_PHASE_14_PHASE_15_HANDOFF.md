@@ -13,7 +13,7 @@ This is a gate record, not authorization to begin Phase 15.
 - Production inventory: 339 built pages; 153 indexable; 186 noindex; 3 permanent redirects; live contract 348/348 PASS
 - Authorized successor additions: 4/4 technically healthy
 - P0/P1: technically healthy in production
-- Google convergence: not established; current-release sitemap refetch=NO, 7/16 priority URLs converged, 1/3 redirect sources recrawled, 0/3 redirect sources processed as intended, 1 redirect error(s), and 1 representative noindex URLs converged after deployment
+- Google convergence: not established; current-release sitemap refetch=YES, 7/16 priority URLs converged, 1/3 redirect sources recrawled, 0/3 redirect sources processed as intended, 1 redirect error(s), and 1 representative noindex URLs converged after deployment
 - Random sample: 20/20 PASS
 - Weakest-page sample: 20/20 PASS
 - AdSense: ads OFF; resubmission BLOCKED
