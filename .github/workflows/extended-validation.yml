@@ -46,7 +46,7 @@ jobs:
         run: npm run validate:release
 
       - name: Run consent and accessibility validation
-        run: npm run audit:browser
+        run: npm run audit:browser && npm run audit:buddhist-questions:browser
 
       - name: Run non-blocking-threshold Lighthouse evidence
         run: npm run audit:lighthouse
