@@ -1,7 +1,7 @@
 {
   "audit": "Controlled Q5 Buddhist Question expansion",
   "date": "2026-09-20",
-  "status": "PASS_RELEASE_READY_WITH_HISTORICAL_SNAPSHOTS_PRESERVED",
+  "status": "PASS_DEPLOYED_LIVE_VERIFIED_WITH_HISTORICAL_SNAPSHOTS_PRESERVED",
   "scope": {
     "historical_expansion_1": {
       "date": "2026-09-02",
@@ -81,7 +81,31 @@
     "npm ci initially exposed one moderate devalue denial-of-service advisory. A narrow devalue 5.9.1 override resolved it; the clean reinstall and npm audit then reported zero vulnerabilities."
   ],
   "production": {
-    "status": "PENDING"
+    "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+    "deployed_sha": "d3da65308348cb5379c76271614288d14f150450",
+    "deployment_method": "OWNER_AUTHORIZED_DOCUMENTED_EMERGENCY_LOCAL_PATH_DUE_GITHUB_ACTIONS_BILLING_BLOCK",
+    "cloudflare_deployment_id": "a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc",
+    "cloudflare_version_id": "7bfce8b0-2df8-42db-b5fe-f5ee45790db5",
+    "deployed_at_utc": "2026-09-20T13:01:23.364839Z",
+    "release_manifest_files": 404,
+    "release_manifest_aggregate_sha256": "719823d2431014401e08c86c7ce84ef097f8d3bcd538e8e1a99d3e277c006950",
+    "production_smoke": "PASS_14_OF_14",
+    "live_q1_q5_statuses": [200, 200, 200, 200, 200],
+    "live_sitemap_urls": 154,
+    "live_search_records": 319,
+    "live_adsense_runtime_scripts": 0,
+    "live_manual_ad_slots": 0,
+    "live_q6_plus_routes": 0,
+    "previous_last_known_good_sha": "42b853b1b67e3c9b3145e55b1d42374f35e34719",
+    "rollback_deployment_id": "47303d8a-1941-42c2-a02c-db510473d05f",
+    "rollback_version_id": "9e196159-656a-490a-8e18-b0ecfab80a2e"
   },
-  "validated_sha": null
+  "hosted_ci": {
+    "pull_request_run_id": 35511950711,
+    "release_validation": "PASS",
+    "browser_validation": "NOT_STARTED_GITHUB_ACTIONS_BILLING_OR_SPENDING_LIMIT_BLOCK",
+    "exact_sha_local_browser_validation": "PASS_GENERAL_AND_18_Q_ROUTE_VIEWPORT_COMBINATIONS"
+  },
+  "validated_sha": "d3da65308348cb5379c76271614288d14f150450"
 }
