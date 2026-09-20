@@ -50,7 +50,7 @@
     "validate:release": "npm run validate && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
   },
   "dependencies": {
-    "astro": "^7.3.2"
+    "astro": "^7.3.3"
   },
   "devDependencies": {
     "axe-core": "^4.12.1",
