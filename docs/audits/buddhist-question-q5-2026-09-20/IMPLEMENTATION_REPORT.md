@@ -1,8 +1,11 @@
 # Controlled Q5 Buddhist Question Implementation Report
 
 Date: 2026-09-20  
-Release state: release-ready; production deployment pending  
+Release state: deployed and live-verified
 Starting `origin/main`: `92c27689615e977aee18c8002367c44ede3cbbd2`
+Pull request: https://github.com/rmtlbandara/EchoBuddha/pull/26
+Implementation head: `e669e8bd164e6e91bd4e9474a14a55484c78a996`
+Merged and deployed SHA: `d3da65308348cb5379c76271614288d14f150450`
 
 ## Authorized result
 
@@ -81,4 +84,19 @@ Validation used Node 22.23.1 and npm 10.9.8 from a clean `npm ci` installation.
 
 The validators regenerate some current-state evidence files while running. Those generated changes were restored after verification so the Phase 6–13 and earlier content-audit snapshots remain historically unchanged. The new Q5 audit retains its own browser evidence.
 
-Implementation SHA, deployment identity, live smoke evidence, and rollback target will be recorded after the exact-SHA production workflow completes.
+PR run `35511950711` completed the hosted deterministic release job successfully. GitHub refused to start the replacement browser job or any new hosted job because recent account payments failed or the Actions spending limit required an increase. The release therefore used the repository's documented, owner-authorized emergency local path rather than weakening or editing the workflow.
+
+The exact merged SHA was fetched into a clean detached worktree, installed and validated with Node 22.23.1/npm 10.9.8, rebuilt once, and sealed in a 404-file release manifest with aggregate SHA-256 `719823d2431014401e08c86c7ce84ef097f8d3bcd538e8e1a99d3e277c006950`. Manifest verification and Wrangler strict dry-run passed before deployment.
+
+Production was deployed at `2026-09-20T13:01:23.364839Z`:
+
+- Cloudflare deployment: `a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc`
+- Cloudflare version: `7bfce8b0-2df8-42db-b5fe-f5ee45790db5`
+- Production smoke: PASS, 14/14 checks
+- Sitemap: 154/154 URLs
+- Internal search: 319/319 records
+- Live Q1-Q5 responses: 200/200/200/200/200
+- Live Q5: one exact H1, self-canonical, Article plus BreadcrumbList schemas, no FAQPage, no AdSense runtime, and no manual ad slot
+- Q6+ detected in the Q5 page, sitemap, or search index: 0
+
+The previous last-known-good rollback target is Git SHA `42b853b1b67e3c9b3145e55b1d42374f35e34719`, Cloudflare deployment `47303d8a-1941-42c2-a02c-db510473d05f`, version `9e196159-656a-490a-8e18-b0ecfab80a2e`.
