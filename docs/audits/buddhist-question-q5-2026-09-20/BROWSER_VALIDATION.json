@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T05:58:12.659Z",
+  "generatedAt": "2026-09-20T12:54:06.367Z",
   "baseUrl": "http://127.0.0.1:4321",
   "routeCount": 6,
   "viewportCount": 3,
@@ -40,6 +40,18 @@
       "externalSourceLinks": [],
       "expectedNavigationLinks": [],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -74,6 +86,18 @@
       "externalSourceLinks": [],
       "expectedNavigationLinks": [],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -108,6 +132,18 @@
       "externalSourceLinks": [],
       "expectedNavigationLinks": [],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -157,6 +193,18 @@
         "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -206,6 +254,18 @@
         "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -255,6 +315,18 @@
         "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -306,6 +378,18 @@
         "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -357,6 +441,18 @@
         "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -408,6 +504,18 @@
         "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -458,6 +566,18 @@
         "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -508,6 +628,18 @@
         "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -558,6 +690,18 @@
         "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -608,6 +752,18 @@
         "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -658,6 +814,18 @@
         "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -708,6 +876,18 @@
         "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -756,6 +936,18 @@
         "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -804,6 +996,18 @@
         "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     },
     {
@@ -852,6 +1056,18 @@
         "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
       ],
       "criticalOrSeriousViolations": [],
+      "checks": {
+        "status200": true,
+        "singleH1": true,
+        "noHorizontalOverflow": true,
+        "noReplacementCharacters": true,
+        "keyboardFocusVisible": true,
+        "noHeadingSkips": true,
+        "noCriticalOrSeriousAxeViolations": true,
+        "expectedHubCardCount": true,
+        "expectedNavigation": true,
+        "expectedQ5SourceCount": true
+      },
       "pass": true
     }
   ]

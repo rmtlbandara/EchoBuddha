@@ -8,7 +8,10 @@ const root = process.cwd();
 const port = process.env.BUDDHIST_QUESTIONS_AUDIT_PORT || "4321";
 const baseUrl = process.env.BUDDHIST_QUESTIONS_AUDIT_BASE_URL || `http://127.0.0.1:${port}`;
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-const output = path.join(root, "docs/audits/buddhist-question-q5-2026-09-20/BROWSER_VALIDATION.json");
+const canonicalOutput = path.join(root, "docs/audits/buddhist-question-q5-2026-09-20/BROWSER_VALIDATION.json");
+const artifactOutput = process.env.AUDIT_OUT_DIR
+  ? path.resolve(root, process.env.AUDIT_OUT_DIR, "buddhist-questions-browser-validation.json")
+  : canonicalOutput;
 const consentKey = "echo_buddha_privacy_consent";
 const consentVersion = "2026-08-13";
 const hub = "/learn/questions-about-buddhism/";
@@ -118,16 +121,19 @@ try {
         const seriousViolations = axe.violations.filter((violation) => ["critical", "serious"].includes(violation.impact));
         const headingSkips = pageFacts.headingRanks.filter((rank, index) => index > 0 && rank > pageFacts.headingRanks[index - 1] + 1);
         const expectedLinks = expectedNavigation[route] || [];
-        const pass = response?.status() === 200
-          && pageFacts.h1Count === 1
-          && pageFacts.horizontalOverflow <= 1
-          && pageFacts.replacementCharacters === 0
-          && pageFacts.keyboardFocusVisible
-          && headingSkips.length === 0
-          && seriousViolations.length === 0
-          && (route !== hub || pageFacts.cardCount === 5)
-          && (route === hub || JSON.stringify(pageFacts.navigationLinks) === JSON.stringify(expectedLinks))
-          && (route !== routes[5] || pageFacts.externalSourceLinks.length === 3);
+        const checks = {
+          status200: response?.status() === 200,
+          singleH1: pageFacts.h1Count === 1,
+          noHorizontalOverflow: pageFacts.horizontalOverflow <= 1,
+          noReplacementCharacters: pageFacts.replacementCharacters === 0,
+          keyboardFocusVisible: pageFacts.keyboardFocusVisible,
+          noHeadingSkips: headingSkips.length === 0,
+          noCriticalOrSeriousAxeViolations: seriousViolations.length === 0,
+          expectedHubCardCount: route !== hub || pageFacts.cardCount === 5,
+          expectedNavigation: route === hub || JSON.stringify(pageFacts.navigationLinks) === JSON.stringify(expectedLinks),
+          expectedQ5SourceCount: route !== routes[5] || pageFacts.externalSourceLinks.length === 3
+        };
+        const pass = Object.values(checks).every(Boolean);
         results.push({
           route,
           viewport,
@@ -135,6 +141,7 @@ try {
           ...pageFacts,
           expectedNavigationLinks: expectedLinks,
           criticalOrSeriousViolations: seriousViolations.map((violation) => ({ id: violation.id, impact: violation.impact, nodes: violation.nodes.length })),
+          checks,
           pass
         });
         await context.close();
@@ -155,8 +162,21 @@ try {
     pass: results.every((result) => result.pass),
     results
   };
-  fs.writeFileSync(output, `${JSON.stringify(report, null, 2)}\n`);
-  if (!report.pass) throw new Error(`Buddhist-question browser validation failed; inspect ${path.relative(root, output)}`);
+  fs.mkdirSync(path.dirname(artifactOutput), { recursive: true });
+  fs.writeFileSync(artifactOutput, `${JSON.stringify(report, null, 2)}\n`);
+  if (artifactOutput !== canonicalOutput) {
+    fs.writeFileSync(canonicalOutput, `${JSON.stringify(report, null, 2)}\n`);
+  }
+  if (!report.pass) {
+    const failures = results.filter((result) => !result.pass).map((result) => ({
+      route: result.route,
+      viewport: result.viewport.name,
+      failedChecks: Object.entries(result.checks).filter(([, passed]) => !passed).map(([name]) => name),
+      criticalOrSeriousViolations: result.criticalOrSeriousViolations
+    }));
+    console.error(JSON.stringify({ failures }, null, 2));
+    throw new Error(`Buddhist-question browser validation failed; inspect ${path.relative(root, artifactOutput)}`);
+  }
   console.log(`Buddhist-question browser validation passed: ${results.length} route/viewport combinations, zero critical or serious accessibility violations.`);
 } finally {
   await stopPreview();
