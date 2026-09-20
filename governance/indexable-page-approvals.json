@@ -101,6 +101,26 @@
       "owner": "Echo Buddha project owner via the 2026-09-14 controlled Q3/Q4 implementation request",
       "approvedAt": "2026-09-14",
       "status": "Approved"
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "topicCluster": "Buddhist Veneration and Remembrance",
+      "pageRole": "Source-aware Theravāda memorial-tradition question",
+      "primaryOwner": "/learn/questions-about-buddhism/",
+      "userNeed": "A beginner needs to understand why the Bodhi tree had a distinctive memorial role at Jetavana when other places and objects were also associated with the Buddha, without mistaking later interpretation for a motive stated in the source.",
+      "intendedReader": "A beginner or returning reader asking why the Bodhi tree itself was chosen as the Jetavana devotional focus.",
+      "closestExistingPage": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "whyNotImproveExisting": "Q4 owns the specific question of why the Jetavana story records a Bodhi tree rather than a Buddha-statue proposal. Q5 owns the distinct question of why the Bodhi tree itself had a distinctive memorial role when other objects and places were also associated with the Buddha.",
+      "uniqueValue": "A source-layered explanation of Bodhi-tree significance that distinguishes the Ja 479 narrative, awakening symbolism, Pāribhogika classification, propagation and continuity, broader sacred-tree history, and later editorial hypotheses.",
+      "sourceRequirements": "Use Ja 479 for the Jetavana narrative and classify it as later Theravāda narrative/commentary; use UNESCO only for cultural-heritage context about Bodh Gaya and awakening; use Metropolitan Museum of Art material only for wider tree-shrine and art-historical context. Reproduce no long translation and do not invent comparisons or motives absent from the sources.",
+      "safetyRequirements": "Independent educational explanation only. Avoid sectarian judgment, universal claims across Buddhist schools, copied source-book prose, physical-indestructibility claims, or presenting editorial inference as scripture.",
+      "indexIntent": "index, follow; self-canonical; include once in sitemap and internal search; discoverable through the existing Questions About Buddhism parent.",
+      "monetizationSuitability": "LEARN_DETAIL / HOLD_MANUAL_REVIEW. No ad runtime, slot, candidate allowlist entry, Auto Ads change, or consent change is authorized.",
+      "nextStep": "Continue to Q4's statue-proposal clarification, Q3's Uddesika explanation, or Echo Buddha's Buddhist source method.",
+      "independentValueWithoutSearchOrAds": "Yes. It directly answers why the Bodhi tree carried distinctive memorial meaning through a careful hierarchy of traditional narrative, heritage evidence, art history, and labelled editorial synthesis.",
+      "owner": "Echo Buddha project owner via the 2026-09-20 controlled Q5 implementation request",
+      "approvedAt": "2026-09-20",
+      "status": "Approved"
     }
   ]
 }

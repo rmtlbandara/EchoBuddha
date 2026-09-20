@@ -11,7 +11,8 @@ export type BuddhistQuestionSource = {
     | "Early Buddhist discourse"
     | "Theravāda canonical hagiography"
     | "Theravāda narrative/commentary"
-    | "Museum / art history";
+    | "Museum / art history"
+    | "Cultural heritage / history";
   note: string;
 };
 
@@ -22,7 +23,7 @@ export type BuddhistQuestionSection = {
 };
 
 export type BuddhistQuestion = {
-  number: 1 | 2 | 3 | 4;
+  number: 1 | 2 | 3 | 4 | 5;
   slug: string;
   title: string;
   seoTitle: string;
@@ -558,6 +559,133 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     previous: {
       label: "Question 3: Is a Buddha Image the Only Uddesika Cetiya?",
       href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`
+    },
+    next: {
+      label: "Question 5: Why Was a Bodhi Tree Planted at Jetavana?",
+      href: `${questionsPath}/why-bodhi-tree-planted-at-jetavana/`
+    }
+  },
+  {
+    number: 5,
+    slug: "why-bodhi-tree-planted-at-jetavana",
+    title: "Why Was a Bodhi Tree Planted at Jetavana When Other Objects Had Been Used by the Buddha?",
+    seoTitle: "Why Was a Bodhi Tree Planted at Jetavana? | Echo Buddha",
+    description:
+      "Why was a Bodhi tree chosen at Jetavana when other places and objects were associated with the Buddha? Explore Ja 479, awakening, Pāribhogika Cetiya, and historical context.",
+    eyebrow: "Question 5",
+    publishedDate: "2026-09-20",
+    modifiedDate: "2026-09-20",
+    intro:
+      "The Jetavana Bodhi-tree tradition is better explained through its connection with awakening and memorial continuity than by simply asking which object the Buddha used most often.",
+    takeaway:
+      "Within the later Theravāda narrative, the Bodhi tree carries a distinctive connection with awakening and is explicitly treated as a suitable focus for reverence. The text does not say that other places or objects were inferior or formally rejected. Visibility, propagation, continuity, and the wider history of sacred trees may help explain the reach of Bodhi-tree devotion, but those are contextual observations rather than motives stated by Ja 479.",
+    shortAnswer: [
+      "The Bodhi tree was not important merely because it was another object associated with the Buddha. In Buddhist tradition, the great Bodhi tree at Bodh Gaya is inseparably connected with awakening itself.",
+      "The later Theravāda narrative surrounding the Kāliṅgabodhi Jātaka (Ja 479) gives the Bodhi tree a particular memorial role. When devotees at Jetavana needed a focus for reverence while the Buddha was away, Ānanda proposed a tree propagated from the great Bodhi tree, and the proposal was approved.",
+      "Other places and objects at Jetavana could also carry meaning, but Ja 479 does not rank them by frequency of use. Its choice is better explained by the Bodhi tree’s distinctive association with awakening and the deliberate continuity created in the Jetavana story—not by unsupported guesses about beauty or durability."
+    ],
+    sections: [
+      {
+        heading: "The Bodhi Tree Was More Than an Ordinary ‘Used Object’",
+        paragraphs: [
+          "Within later Theravāda explanation, the Bodhi tree can be discussed as a <i>Pāribhogika Cetiya</i>: a memorial connected with a Buddha’s use or presence. Yet its importance cannot be measured simply by counting how long the Buddha stayed near it.",
+          "The great Bodhi tree at Bodh Gaya is associated above all with the Buddha’s awakening. A seat may recall where a teacher sat, and a dwelling may recall where a teacher stayed. The Bodhi tree recalls the setting of the event through which Siddhattha became the Buddha. That association gives it a religious significance different from ordinary frequency of use.",
+          "UNESCO’s account of the Mahabodhi Temple Complex treats Bodh Gaya as a holy site particularly connected with the attainment of enlightenment and identifies the sacred Bodhi tree as a central element of the complex. This is cultural and historical evidence about the site’s heritage, not a canonical doctrinal definition."
+        ]
+      },
+      {
+        heading: "What the Jetavana Tradition Actually Says",
+        paragraphs: [
+          "In the prose narrative associated with the <i>Kāliṅgabodhi Jātaka</i> (Ja 479), devotees bring offerings to Jetavana while the Buddha is away but lack an appropriate focus for reverence. Anāthapiṇḍika raises the problem with Ānanda, who asks the Buddha about suitable shrines.",
+          "The narrative distinguishes bodily-relic, use-associated, and memorial shrines. It then singles out the great Bodhi tree as suitable for a shrine during a Buddha’s lifetime as well as after a Buddha’s passing. Ānanda proposes planting a Bodhi tree at Jetavana, and the proposal is approved.",
+          "This account belongs to later Theravāda narrative and commentary, not to an early Buddhist discourse. It nevertheless gives a direct traditional answer to this question: within this source, the Bodhi tree already has a distinctive shrine-suitable status."
+        ]
+      },
+      {
+        heading: "A Deliberate Connection with the Great Bodhi Tree",
+        paragraphs: [
+          "Ja 479 does not describe an unrelated tree being chosen at random. Its narrative says that a fruit from the great Bodhi tree was obtained and planted at Jetavana. The new devotional focus was therefore presented through a lineage connected with the tree of awakening.",
+          "The story then adds another connection: the Buddha spends one night beneath the newly planted tree. The narrative thus relates the Jetavana tree both to the great Bodhi tree through propagation and to the Buddha through his later presence there.",
+          "This is best understood as intentional memorial continuity. It does not require claiming that every descendant tree is physically identical with the original or that sacredness is a scientific property transmitted by a seed. The religious continuity lies in lineage, dedication, symbolism, and recollection."
+        ]
+      },
+      {
+        heading: "Why Not the Buddha’s Hut, Seat, or Another Object?",
+        paragraphs: [
+          "The surviving narrative does not compare the Bodhi tree with the Buddha’s hut, bed, chair, or teaching seat and then reject those alternatives. It provides no ranking based on how many hours or days each object was used.",
+          "We therefore cannot say that Ja 479 declares the Bodhi tree better than every other object associated with the Buddha. Other places and objects could retain their own meanings. The narrower source-based conclusion is that the Bodhi tree represented something distinctive—awakening—and that this particular narrative explicitly selected it for Jetavana.",
+          "This question differs from Q4. Q4 asks why the story records a Bodhi-tree proposal rather than a statue proposal; <a href=\"/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/\">that page addresses the limits of an argument from silence</a>. Q5 asks why the Bodhi tree itself could carry such a powerful memorial role."
+        ]
+      },
+      {
+        heading: "A Living Memorial That Could Continue",
+        paragraphs: [
+          "A living tree can become a visible communal focus, and a lineage of trees can be propagated instead of depending on possession of one unique portable artifact. Not every Buddhist community could possess a bodily relic or an original personal object used by the historical Buddha.",
+          "Propagation therefore offers a form of continuity: descendant trees can be dedicated in new places while pointing back to the awakening tradition. This may help explain the wider accessibility and endurance of Bodhi-tree devotion across Buddhist cultures.",
+          "That is an Echo Buddha editorial observation drawn from the narrative’s emphasis on propagation, not a motive explicitly stated by the Buddha or Ānanda in Ja 479. The text does not say that the tree was chosen because it was impossible to steal, burn, damage, or remove."
+        ]
+      },
+      {
+        heading: "The Wider History of Tree Shrines",
+        paragraphs: [
+          "Sacred trees and tree shrines formed part of the broader religious landscape of South Asia. The Metropolitan Museum of Art’s <i>Tree &amp; Serpent</i> material explains that tree shrines were incorporated into early Buddhist sacred settings and describes the Bodhi tree of awakening as especially powerful in living Buddhist tradition.",
+          "Early Buddhist art also used an empty throne beneath a tree to refer to the Buddha’s place of awakening. This historical context helps explain why tree-centered devotion would have been intelligible and meaningful in Buddhist environments.",
+          "The boundary is important: this evidence does not document Ānanda’s personal motive. Ja 479 does not say that the tree was selected because pre-Buddhist communities venerated trees. Cultural background can illuminate the setting without replacing the reason the Theravāda narrative itself supplies."
+        ]
+      },
+      {
+        heading: "A Careful Conclusion",
+        paragraphs: [
+          "The strongest answer begins with awakening. The later Theravāda tradition gives the great Bodhi tree a special shrine role, and the Jetavana story creates continuity through a propagated tree that the Buddha later uses for one night.",
+          "The account does not tell us that other Buddha-associated objects were inferior, examined, or rejected. Nor does it identify beauty, resistance to theft, or resistance to fire and water as reasons for the choice.",
+          "Practical features such as visibility, communal focus, and propagation can be useful secondary observations when they are labelled as interpretation. The traditional core remains more precise: the Bodhi tree was a living memorial whose meaning pointed to awakening. For the broader categories of remembrance, see <a href=\"/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/\">Is a Buddha Image the Only Uddesika Cetiya?</a> and <a href=\"/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/\">How Can the Buddha Be Respected After Parinibbāna?</a>"
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha educational explanation. It distinguishes the later Theravāda Kāliṅgabodhi Jātaka narrative, cultural and historical evidence about Bodhi-tree devotion, and Echo Buddha’s editorial interpretation of why the tree became a particularly powerful memorial.",
+    sources: [
+      {
+        label: "Kāliṅgabodhi Jātaka (Ja 479) — Ancient Buddhist Texts",
+        href: "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        sourceType: "Theravāda narrative/commentary",
+        note: "Supports the Jetavana devotional problem, the three shrine categories, the Bodhi tree’s stated suitability, Ānanda’s proposal, propagation from the great Bodhi tree, planting, and the Buddha’s later night beneath the tree. It is not presented as an early discourse."
+      },
+      {
+        label: "Mahabodhi Temple Complex at Bodh Gaya — UNESCO World Heritage Centre",
+        href: "https://whc.unesco.org/en/list/1056/",
+        sourceType: "Cultural heritage / history",
+        note: "Supports the narrow historical and heritage context linking Bodh Gaya and its sacred Bodhi tree with the Buddha’s awakening. UNESCO is not used as a canonical or doctrinal authority."
+      },
+      {
+        label: "Tree & Serpent: Early Buddhist Art in India — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/exhibitions/tree-and-serpent/visiting-guide",
+        sourceType: "Museum / art history",
+        note: "Supports the broader South Asian tree-shrine context and the incorporation of sacred-tree imagery into early Buddhist settings. It is not used to claim a documented motive for Ānanda or the Buddha."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "Why Didn’t the Buddha Ask for a Statue at Jetavana?",
+        href: `${questionsPath}/why-no-buddha-statue-at-jetavana/`,
+        description: "Separate the story’s recorded Bodhi-tree proposal from claims it never makes about statues."
+      },
+      {
+        label: "Is a Buddha Image the Only Uddesika Cetiya?",
+        href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`,
+        description: "Compare representational remembrance with bodily-relic and use-associated memorials."
+      },
+      {
+        label: "Buddhist Sources and Citations",
+        href: "/buddhist-sources-and-citations/",
+        description: "See how Echo Buddha distinguishes scripture, commentary, history, and editorial explanation."
+      }
+    ],
+    relatedTerms: ["Bodhi tree", "Jetavana", "Pāribhogika Cetiya", "Ānanda", "Kāliṅgabodhi Jātaka", "Bodh Gaya"],
+    searchTerms: ["Bodhi tree", "Jetavana", "Ānanda", "Pāribhogika Cetiya", "Kāliṅgabodhi Jātaka", "Bodh Gaya", "Buddhist shrine", "Buddhist memorial", "sacred tree"],
+    previous: {
+      label: "Question 4: Why Didn’t the Buddha Ask for a Statue at Jetavana?",
+      href: `${questionsPath}/why-no-buddha-statue-at-jetavana/`
     }
   }
 ];

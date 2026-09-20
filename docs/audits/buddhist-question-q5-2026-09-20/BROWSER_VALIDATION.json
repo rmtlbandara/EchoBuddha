@@ -1,0 +1,858 @@
+{
+  "generatedAt": "2026-09-20T05:58:12.659Z",
+  "baseUrl": "http://127.0.0.1:4321",
+  "routeCount": 6,
+  "viewportCount": 3,
+  "combinations": 18,
+  "criticalViolations": 0,
+  "seriousViolations": 0,
+  "pass": true,
+  "results": [
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 5,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [],
+      "externalSourceLinks": [],
+      "expectedNavigationLinks": [],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 5,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [],
+      "externalSourceLinks": [],
+      "expectedNavigationLinks": [],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 5,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [],
+      "externalSourceLinks": [],
+      "expectedNavigationLinks": [],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/dn16/en/sujato",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381",
+        "https://www.metmuseum.org/essays/buddhism-and-buddhist-art"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/dn16/en/sujato",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381",
+        "https://www.metmuseum.org/essays/buddhism-and-buddhist-art"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/dn16/en/sujato",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381",
+        "https://www.metmuseum.org/essays/buddhism-and-buddhist-art"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/dn16/en/sujato",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/dn16/en/sujato",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/dn16/en/sujato",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/tha-ap489/en/walters",
+        "https://suttacentral.net/tha-ap500/en/walters",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/tha-ap489/en/walters",
+        "https://suttacentral.net/tha-ap500/en/walters",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://suttacentral.net/tha-ap489/en/walters",
+        "https://suttacentral.net/tha-ap500/en/walters",
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381",
+        "https://www.metmuseum.org/essays/buddhism-and-buddhist-art"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381",
+        "https://www.metmuseum.org/essays/buddhism-and-buddhist-art"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://www.metmuseum.org/art/collection/search/72381",
+        "https://www.metmuseum.org/essays/buddhism-and-buddhist-art"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://whc.unesco.org/en/list/1056/",
+        "https://www.metmuseum.org/exhibitions/tree-and-serpent/visiting-guide"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://whc.unesco.org/en/list/1056/",
+        "https://www.metmuseum.org/exhibitions/tree-and-serpent/visiting-guide"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "h1Count": 1,
+      "headingRanks": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizontalOverflow": 0,
+      "replacementCharacters": 0,
+      "cardCount": 0,
+      "keyboardFocusTarget": "a.skip-link",
+      "keyboardFocusVisible": true,
+      "navigationLinks": [
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "externalSourceLinks": [
+        "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        "https://whc.unesco.org/en/list/1056/",
+        "https://www.metmuseum.org/exhibitions/tree-and-serpent/visiting-guide"
+      ],
+      "expectedNavigationLinks": [
+        "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/"
+      ],
+      "criticalOrSeriousViolations": [],
+      "pass": true
+    }
+  ]
+}

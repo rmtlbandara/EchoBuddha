@@ -19,6 +19,7 @@
     "audit:dependencies": "node scripts/audit-dependencies.mjs",
     "audit:browser": "node scripts/browser-readiness-check.mjs",
     "audit:q3q4:browser": "node scripts/validate-buddhist-questions-q3-q4-browser.mjs",
+    "audit:buddhist-questions:browser": "node scripts/validate-buddhist-questions-browser.mjs",
     "audit:lighthouse": "node scripts/lighthouse-readiness.mjs",
     "audit:phase8": "node scripts/validate-phase-8.mjs && node docs/audits/adsense-recovery-phase-8-2026-08-24/validate-phase-8-cookie-cutter.mjs",
     "audit:cookie-cutter": "node docs/audits/adsense-recovery-phase-8-2026-08-24/validate-phase-8-cookie-cutter.mjs",
@@ -60,6 +61,7 @@
     "yaml": "2.9.0"
   },
   "overrides": {
+    "devalue": "^5.9.1",
     "postcss": "^8.5.25",
     "sharp": "^0.35.4",
     "svgo": "^4.1.0",

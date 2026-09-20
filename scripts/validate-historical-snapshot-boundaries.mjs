@@ -22,8 +22,11 @@ const approvals = readJson("governance/indexable-page-approvals.json").approvals
 const historicalExpansion = readJson(
   "docs/audits/buddhist-questions-q1-q2-2026-09-02/VALIDATION_SUMMARY.json"
 );
-const currentExpansion = readJson(
+const historicalExpansion2 = readJson(
   "docs/audits/buddhist-questions-q3-q4-2026-09-14/VALIDATION_SUMMARY.json"
+);
+const currentExpansion = readJson(
+  "docs/audits/buddhist-question-q5-2026-09-20/VALIDATION_SUMMARY.json"
 );
 
 assert.equal(phase6.status, "PASS", "Phase 6 must remain a passing historical snapshot");
@@ -46,29 +49,37 @@ const historicalQuestionRoutes = [
   `${questionPrefix}did-buddha-order-buddha-images/`,
   `${questionPrefix}respecting-buddha-after-parinibbana/`
 ];
-const currentQuestionRoutes = [
+const historicalExpansion2Routes = [
   `${questionPrefix}is-buddha-image-only-uddesika-cetiya/`,
   `${questionPrefix}why-no-buddha-statue-at-jetavana/`
 ];
-const cumulativeQuestionRoutes = [...historicalQuestionRoutes, ...currentQuestionRoutes].sort();
+const currentQuestionRoutes = [
+  `${questionPrefix}why-bodhi-tree-planted-at-jetavana/`
+];
+const cumulativeQuestionRoutes = [...historicalQuestionRoutes, ...historicalExpansion2Routes, ...currentQuestionRoutes].sort();
 const approvedQuestionRoutes = approvals
   .filter((approval) => approval.route.startsWith(questionPrefix) && approval.route !== questionPrefix)
   .map((approval) => approval.route)
   .sort();
 
-assert.deepEqual(approvedQuestionRoutes, cumulativeQuestionRoutes, "the cumulative approved question expansion must remain exactly Q1 through Q4");
-assert.deepEqual(buddhistQuestions.map(getBuddhistQuestionPath).sort(), cumulativeQuestionRoutes, "the current data model must generate exactly Q1 through Q4");
-assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2, 3, 4], "no Q5+ question may enter the bounded data model");
+assert.deepEqual(approvedQuestionRoutes, cumulativeQuestionRoutes, "the cumulative approved question expansion must be exactly Q1 through Q5");
+assert.deepEqual(buddhistQuestions.map(getBuddhistQuestionPath).sort(), cumulativeQuestionRoutes, "the current data model must generate exactly Q1 through Q5");
+assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2, 3, 4, 5], "no Q6+ question may enter the bounded data model");
 
 for (const route of historicalQuestionRoutes) {
   const approval = approvals.find((entry) => entry.route === route);
   assert.equal(approval.status, "Approved", `${route} must have explicit approval`);
   assert.equal(approval.approvedAt, "2026-09-02", `${route} must retain its historical Q1/Q2 authorization date`);
 }
+for (const route of historicalExpansion2Routes) {
+  const approval = approvals.find((entry) => entry.route === route);
+  assert.equal(approval.status, "Approved", `${route} must have explicit approval`);
+  assert.equal(approval.approvedAt, "2026-09-14", `${route} must retain its historical Q3/Q4 authorization date`);
+}
 for (const route of currentQuestionRoutes) {
   const approval = approvals.find((entry) => entry.route === route);
   assert.equal(approval.status, "Approved", `${route} must have explicit approval`);
-  assert.equal(approval.approvedAt, "2026-09-14", `${route} must have the current Q3/Q4 authorization date`);
+  assert.equal(approval.approvedAt, "2026-09-20", `${route} must have the Q5 authorization date`);
 }
 
 assert.equal(historicalExpansion.counts.new_indexable_detail_urls, 2);
@@ -76,12 +87,22 @@ assert.equal(historicalExpansion.counts.unauthorized_extra_urls, 0);
 assert.equal(historicalExpansion.counts.html_after, 337);
 assert.equal(historicalExpansion.counts.sitemap_after, 151);
 
-assert.deepEqual(currentExpansion.scope.current_expansion_2.questions, [3, 4]);
-assert.equal(currentExpansion.counts.new_indexable_detail_urls, 2);
-assert.equal(currentExpansion.counts.unauthorized_extra_urls, 0);
-assert.equal(currentExpansion.counts.html_before, 337);
-assert.equal(currentExpansion.counts.html_after, 339);
-assert.equal(currentExpansion.counts.sitemap_before, 151);
-assert.equal(currentExpansion.counts.sitemap_after, 153);
+assert.deepEqual(historicalExpansion2.scope.current_expansion_2.questions, [3, 4]);
+assert.equal(historicalExpansion2.counts.new_indexable_detail_urls, 2);
+assert.equal(historicalExpansion2.counts.unauthorized_extra_urls, 0);
+assert.equal(historicalExpansion2.counts.html_before, 337);
+assert.equal(historicalExpansion2.counts.html_after, 339);
+assert.equal(historicalExpansion2.counts.sitemap_before, 151);
+assert.equal(historicalExpansion2.counts.sitemap_after, 153);
 
-console.log("Historical snapshot boundary validation passed: frozen Phase evidence and Q1/Q2 +2 remain intact; Q3/Q4 is an independent authorized +2; cumulative scope is exactly Q1-Q4.");
+assert.deepEqual(currentExpansion.scope.current_expansion_3.questions, [5]);
+assert.deepEqual(currentExpansion.scope.cumulative_questions, [1, 2, 3, 4, 5]);
+assert.equal(currentExpansion.counts.new_indexable_detail_urls, 1);
+assert.equal(currentExpansion.counts.unauthorized_extra_urls, 0);
+assert.equal(currentExpansion.counts.html_before, 339);
+assert.equal(currentExpansion.counts.html_after, 340);
+assert.equal(currentExpansion.counts.sitemap_before, 153);
+assert.equal(currentExpansion.counts.sitemap_after, 154);
+assert.equal(approvedQuestionRoutes.some((route) => /(?:question|q)-?\d*[6-9]|(?:question|q)-?[1-9]\d+/i.test(route)), false);
+
+console.log("Historical snapshot boundary validation passed: frozen Phase evidence, Q1/Q2 +2, and Q3/Q4 +2 remain intact; Q5 is an independent authorized +1; cumulative scope is exactly Q1-Q5 with no Q6+.");
