@@ -2,9 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import DailyReflectionCard from "../components/DailyReflectionCard.astro";
-import { getBuddhistQuestion, getBuddhistQuestionPath } from "../data/buddhistQuestions";
+import {
+  getBuddhistQuestion,
+  getBuddhistQuestionPath,
+  getBuddhistQuestionReadTime
+} from "../data/buddhistQuestions";
 import { dailyReflections } from "../data/dailyReflections";
 import { SITE, fullArticles } from "../data/site";
+import { formatPublicationDate } from "../utils/publicationMetadata";
 
 const title = "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life";
 const description =
@@ -292,6 +297,11 @@ const homepageJsonLd = [
           <article class="surface question-card">
             <span class="eyebrow">{question.eyebrow}</span>
             <h3><a href={getBuddhistQuestionPath(question)}>{question.title}</a></h3>
+            <p class="question-card__meta">
+              <time datetime={question.publishedDate}>{formatPublicationDate(question.publishedDate)}</time>
+              <span aria-hidden="true">|</span>
+              <span>{getBuddhistQuestionReadTime(question)}</span>
+            </p>
             <p>{question.description}</p>
             <a class="question-card__link" href={getBuddhistQuestionPath(question)}>
               Read the full answer <span aria-hidden="true">→</span>
@@ -553,10 +563,20 @@ const homepageJsonLd = [
   .question-card h3 a {
     color: var(--color-ink);
     display: inline-block;
+    text-decoration: none;
   }
 
   .question-card h3 a:hover {
     color: var(--color-green);
+  }
+
+  .question-card__meta {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.86rem;
+    gap: 0.35rem;
+    margin-top: -0.15rem;
   }
 
   .question-card__link {

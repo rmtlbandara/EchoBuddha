@@ -1,15 +1,16 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import Breadcrumbs from "../../../components/Breadcrumbs.astro";
-import EditorialAttribution from "../../../components/EditorialAttribution.astro";
 import EditorialStandardsLinks from "../../../components/EditorialStandardsLinks.astro";
 import LearningCard from "../../../components/LearningCard.astro";
 import {
   buddhistQuestions,
   getBuddhistQuestionPath,
+  getBuddhistQuestionReadTime,
   type BuddhistQuestion
 } from "../../../data/buddhistQuestions";
 import { SITE } from "../../../data/site";
+import { formatPublicationDate } from "../../../utils/publicationMetadata";
 import {
   EDITORIAL_AUTHOR_SCHEMA,
   PUBLISHER_SCHEMA
@@ -25,6 +26,8 @@ export function getStaticPaths() {
 
 const { question } = Astro.props as { question: BuddhistQuestion };
 const canonicalPath = getBuddhistQuestionPath(question);
+const readTime = getBuddhistQuestionReadTime(question);
+const hasMeaningfulUpdate = question.modifiedDate > question.publishedDate;
 const breadcrumbs = [
   { name: "Home", href: "/" },
   { name: "Learn", href: "/learn/" },
@@ -70,7 +73,14 @@ const jsonLd = [
         <span class="eyebrow">{question.eyebrow}</span>
         <h1>{question.title}</h1>
         <p class="lede">{question.intro}</p>
-        <EditorialAttribution />
+        <div class="article-meta question-meta">
+          <span>By <a href="/authors/echo-buddha-editorial/" rel="author">{SITE.author}</a></span>
+          <span>Published <time datetime={question.publishedDate}>{formatPublicationDate(question.publishedDate)}</time></span>
+          {hasMeaningfulUpdate && (
+            <span>Updated <time datetime={question.modifiedDate}>{formatPublicationDate(question.modifiedDate)}</time></span>
+          )}
+          <span>{readTime}</span>
+        </div>
       </div>
     </header>
 
@@ -168,6 +178,24 @@ const jsonLd = [
 
   .question-hero h1 {
     font-size: clamp(2.35rem, 6vw, 4.65rem);
+  }
+
+  .question-meta span + span::before {
+    color: var(--color-muted);
+    content: "/";
+    margin-right: 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    .question-meta {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .question-meta span + span::before {
+      content: none;
+    }
   }
 
   .question-shell {

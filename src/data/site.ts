@@ -1,3 +1,5 @@
+import { countReadableWords, getReadTimeFromWordCount } from "../utils/publicationMetadata.ts";
+
 export const SITE = {
   name: "Echo Buddha",
   url: "https://echobuddha.com",
@@ -9552,11 +9554,11 @@ export function getArticleWordCount(article: Article) {
     ...(seo?.takeaways ?? []),
     ...(seo?.faqs.flatMap((item) => [item.question, item.answer]) ?? [])
   ].join(" ");
-  return `${content} ${supplemental}`.trim().split(/\s+/).filter(Boolean).length;
+  return countReadableWords(`${content} ${supplemental}`);
 }
 
 export function getArticleReadTime(article: Article) {
-  return `${Math.max(3, Math.ceil(getArticleWordCount(article) / 200))} min read`;
+  return getReadTimeFromWordCount(getArticleWordCount(article));
 }
 
 export const articleCategoryDetails: Record<string, { slug: string; description: string; introduction: string }> = {

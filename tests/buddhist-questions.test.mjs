@@ -4,8 +4,10 @@ import path from "node:path";
 import test from "node:test";
 import {
   buddhistQuestions,
-  getBuddhistQuestionPath
+  getBuddhistQuestionPath,
+  getBuddhistQuestionReadTime
 } from "../src/data/buddhistQuestions.ts";
+import { formatPublicationDate } from "../src/utils/publicationMetadata.ts";
 import { MONETIZATION_ROUTE_REGISTRY } from "../src/data/monetization-route-registry.mjs";
 
 const root = process.cwd();
@@ -26,6 +28,10 @@ test("controlled Buddhist question collection contains exactly five complete, un
     assert.ok(question.sources.length >= 2);
     assert.equal(question.publishedDate, releaseDates[index]);
     assert.equal(question.modifiedDate, releaseDates[index]);
+    assert.ok(!Number.isNaN(Date.parse(`${question.publishedDate}T00:00:00Z`)));
+    assert.ok(!Number.isNaN(Date.parse(`${question.modifiedDate}T00:00:00Z`)));
+    assert.ok(question.modifiedDate >= question.publishedDate);
+    assert.match(getBuddhistQuestionReadTime(question), /^\d+ min read$/);
     assert.doesNotMatch(JSON.stringify(question), /placeholder|coming soon|lorem ipsum/i);
   }
   assert.equal(
@@ -83,6 +89,11 @@ test("all five question pages resolve with truthful dates, canonical Article met
     assert.match(html, /"@type":"BreadcrumbList"/);
     assert.match(html, new RegExp(`"datePublished":"${releaseDates[index]}"`));
     assert.match(html, new RegExp(`"dateModified":"${releaseDates[index]}"`));
+    assert.match(html, /By <a href="\/authors\/echo-buddha-editorial\/" rel="author"[^>]*>Echo Buddha Editorial<\/a>/);
+    assert.match(html, new RegExp(`<time datetime="${releaseDates[index]}"[^>]*>${formatPublicationDate(releaseDates[index])}</time>`));
+    assert.match(html, new RegExp(escapeRegex(getBuddhistQuestionReadTime(buddhistQuestions[index]))));
+    assert.doesNotMatch(html, /Prepared by/);
+    assert.doesNotMatch(html, />Updated <time/);
     assert.doesNotMatch(html, /"@type":"FAQPage"/);
     assert.match(html, /rel="author"[^>]*>Echo Buddha Editorial/);
     assert.match(html, /Sources and Context/);
@@ -124,13 +135,24 @@ test("homepage curates exactly the first three deeper questions in the intended 
   assert.match(deeperSectionHtml, /Deeper Questions About Buddhist Tradition/);
   assert.match(deeperSectionHtml, /Explore all deeper questions/);
   assert.match(deeperSectionHtml, /\/learn\/questions-about-buddhism\/#deeper-questions-heading/);
+  assert.equal((deeperSectionHtml.match(/class="question-card__meta"/g) ?? []).length, 3);
 
-  for (const route of questionRoutes.slice(0, 3)) {
+  for (const [index, route] of questionRoutes.slice(0, 3).entries()) {
     assert.match(deeperSectionHtml, new RegExp(escapeRegex(route)));
+    const question = buddhistQuestions[index];
+    assert.match(
+      deeperSectionHtml,
+      new RegExp(`<time datetime="${question.publishedDate}"[^>]*>${formatPublicationDate(question.publishedDate)}</time>`)
+    );
+    assert.match(deeperSectionHtml, new RegExp(escapeRegex(getBuddhistQuestionReadTime(question))));
   }
   for (const route of questionRoutes.slice(3)) {
     assert.doesNotMatch(deeperSectionHtml, new RegExp(escapeRegex(route)));
   }
+
+  const homepageSource = read("src/pages/index.astro");
+  assert.match(homepageSource, /\.question-card h3 a \{[^}]*text-decoration: none;/s);
+  assert.match(homepageSource, /<h3><a href=\{getBuddhistQuestionPath\(question\)\}>\{question\.title\}<\/a><\/h3>/);
 });
 
 test("all five question routes remain conservative Learn-detail monetization holds", () => {
