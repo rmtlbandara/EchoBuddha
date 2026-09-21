@@ -1,3 +1,5 @@
+import { countReadableWords, getReadTimeFromWordCount } from "../utils/publicationMetadata.ts";
+
 export type BuddhistQuestionLink = {
   label: string;
   href: string;
@@ -696,4 +698,25 @@ export function getBuddhistQuestion(slug: string) {
 
 export function getBuddhistQuestionPath(question: BuddhistQuestion) {
   return `${questionsPath}/${question.slug}/`;
+}
+
+export function getBuddhistQuestionWordCount(question: BuddhistQuestion) {
+  const articleContent = [
+    question.intro,
+    question.takeaway,
+    ...question.shortAnswer,
+    ...question.sections.flatMap((section) => [
+      section.heading,
+      ...section.paragraphs,
+      ...(section.points ?? [])
+    ]),
+    question.sourceNote,
+    ...question.sources.flatMap((source) => [source.label, source.note])
+  ].join(" ");
+
+  return countReadableWords(articleContent);
+}
+
+export function getBuddhistQuestionReadTime(question: BuddhistQuestion) {
+  return getReadTimeFromWordCount(getBuddhistQuestionWordCount(question));
 }
