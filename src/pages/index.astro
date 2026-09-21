@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import DailyReflectionCard from "../components/DailyReflectionCard.astro";
+import { getBuddhistQuestion, getBuddhistQuestionPath } from "../data/buddhistQuestions";
 import { dailyReflections } from "../data/dailyReflections";
 import { SITE, fullArticles } from "../data/site";
 
@@ -70,6 +71,22 @@ const returnPaths = [
     description: "Use a timer, daily prompt, glossary, or simple seven-day practice."
   }
 ];
+
+const homepageQuestionSlugs = [
+  "did-buddha-order-buddha-images",
+  "respecting-buddha-after-parinibbana",
+  "is-buddha-image-only-uddesika-cetiya"
+] as const;
+
+const homepageQuestions = homepageQuestionSlugs.map((slug) => {
+  const question = getBuddhistQuestion(slug);
+
+  if (!question) {
+    throw new Error(`Missing curated homepage Buddhist question: ${slug}`);
+  }
+
+  return question;
+});
 
 const featuredDailyReflection = dailyReflections[0];
 
@@ -259,6 +276,38 @@ const homepageJsonLd = [
     </div>
   </section>
 
+  <section class="section deeper-questions" aria-labelledby="homepage-deeper-questions-heading">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">Source-aware study</span>
+        <h2 id="homepage-deeper-questions-heading">Deeper Questions About Buddhist Tradition</h2>
+        <p>
+          Some Buddhist questions deserve a longer, source-aware answer. Explore explanations that carefully
+          distinguish early texts, later tradition, historical evidence, and modern interpretation when those layers
+          matter.
+        </p>
+      </div>
+      <div class="question-grid">
+        {homepageQuestions.map((question) => (
+          <article class="surface question-card">
+            <span class="eyebrow">{question.eyebrow}</span>
+            <h3><a href={getBuddhistQuestionPath(question)}>{question.title}</a></h3>
+            <p>{question.description}</p>
+            <a class="question-card__link" href={getBuddhistQuestionPath(question)}>
+              Read the full answer <span aria-hidden="true">→</span>
+            </a>
+          </article>
+        ))}
+      </div>
+      <a
+        class="button button--secondary deeper-questions__cta"
+        href="/learn/questions-about-buddhism/#deeper-questions-heading"
+      >
+        Explore all deeper questions <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+
   <section class="section about-section">
     <div class="container about-grid">
       <div>
@@ -365,6 +414,7 @@ const homepageJsonLd = [
   .section-intro p,
   .section-heading p,
   .pathway-card p,
+  .question-card p,
   .return-intro p,
   .about-copy {
     color: var(--color-muted);
@@ -477,6 +527,50 @@ const homepageJsonLd = [
   .return-links span {
     color: var(--color-muted);
     font-size: 0.9rem;
+  }
+
+  .deeper-questions {
+    background: rgba(255, 253, 248, 0.54);
+  }
+
+  .question-grid {
+    display: grid;
+    gap: 1.15rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  }
+
+  .question-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1.35rem;
+  }
+
+  .question-card h3 {
+    font-size: 1.45rem;
+  }
+
+  .question-card h3 a {
+    color: var(--color-ink);
+    display: inline-block;
+  }
+
+  .question-card h3 a:hover {
+    color: var(--color-green);
+  }
+
+  .question-card__link {
+    font-weight: 800;
+    margin-top: auto;
+  }
+
+  .deeper-questions__cta {
+    margin-top: 1.5rem;
+  }
+
+  .question-card__link span,
+  .deeper-questions__cta span {
+    margin-left: 0.2rem;
   }
 
   .about-section {

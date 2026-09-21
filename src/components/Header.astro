@@ -156,6 +156,10 @@ const navState = navItems.map((item) => {
   }
 
   @media (max-width: 860px) {
+    .site-header:has(.skip-link:focus) {
+      padding-top: 3.5rem;
+    }
+
     .header-inner {
       flex-wrap: wrap;
       gap: 0.65rem;

@@ -110,6 +110,29 @@ test("hub, internal search, and sitemap discover all five question pages exactly
   assert.equal(searchIndex.length, 319);
 });
 
+test("homepage curates exactly the first three deeper questions in the intended journey position", () => {
+  const homepage = read("dist/index.html");
+  const returnSection = homepage.indexOf("Come Back for One Useful Moment");
+  const deeperSection = homepage.indexOf('<section class="section deeper-questions"');
+  const aboutSection = homepage.indexOf("A Calm, Accountable Publication");
+
+  assert.ok(returnSection >= 0 && deeperSection > returnSection && aboutSection > deeperSection);
+
+  const deeperSectionHtml = homepage.slice(deeperSection, aboutSection);
+  assert.equal((deeperSectionHtml.match(/<article class="surface question-card"/g) ?? []).length, 3);
+  assert.match(deeperSectionHtml, /Source-aware study/);
+  assert.match(deeperSectionHtml, /Deeper Questions About Buddhist Tradition/);
+  assert.match(deeperSectionHtml, /Explore all deeper questions/);
+  assert.match(deeperSectionHtml, /\/learn\/questions-about-buddhism\/#deeper-questions-heading/);
+
+  for (const route of questionRoutes.slice(0, 3)) {
+    assert.match(deeperSectionHtml, new RegExp(escapeRegex(route)));
+  }
+  for (const route of questionRoutes.slice(3)) {
+    assert.doesNotMatch(deeperSectionHtml, new RegExp(escapeRegex(route)));
+  }
+});
+
 test("all five question routes remain conservative Learn-detail monetization holds", () => {
   for (const route of questionRoutes) {
     assert.deepEqual(MONETIZATION_ROUTE_REGISTRY[route], {
