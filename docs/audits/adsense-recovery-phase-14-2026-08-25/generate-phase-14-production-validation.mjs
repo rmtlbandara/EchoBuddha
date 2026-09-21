@@ -13,12 +13,12 @@ const initialPhase14Release = {
   rollbackVersion: "2a92b1d8-404d-48cc-9ef1-074a204b82bf",
 };
 const currentProductionRelease = {
-  commit: "42b853b1b67e3c9b3145e55b1d42374f35e34719",
-  documentationHead: "92c27689615e977aee18c8002367c44ede3cbbd2",
-  deploymentId: "47303d8a-1941-42c2-a02c-db510473d05f",
-  versionId: "9e196159-656a-490a-8e18-b0ecfab80a2e",
-  deployedAt: "2026-09-14T03:44:54.812871Z",
-  rollbackVersion: "b5b294f9-6b65-4dad-943f-5400b78cbba5",
+  commit: "d3da65308348cb5379c76271614288d14f150450",
+  documentationHead: "67d1b8e4282fd92e678ee18eae908efad8c5ff51",
+  deploymentId: "a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc",
+  versionId: "7bfce8b0-2df8-42db-b5fe-f5ee45790db5",
+  deployedAt: "2026-09-20T13:01:23.364839Z",
+  rollbackVersion: "9e196159-656a-490a-8e18-b0ecfab80a2e",
 };
 const deployedAt = initialPhase14Release.deployedAt;
 const authorizedSuccessorUrls = [
@@ -26,6 +26,7 @@ const authorizedSuccessorUrls = [
   "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
   "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
   "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+  "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
 ];
 const generatedAt = new Date().toISOString();
 
@@ -192,7 +193,7 @@ const uxRows = [
 writeCsv("ECHO_BUDDHA_PHASE_14_UX_SMOKE_VALIDATION.csv", uxRows);
 
 const recrawlRows = [
-  { URL: "https://echobuddha.com/sitemap.xml", reason: "Broad discovery of the coherent recovery architecture", method: "EXISTING_CANONICAL_SITEMAP", request_date: "2026-08-25", owner_UI_action: "NO_DUPLICATE_SUBMISSION", evidence: "GSC retains one successful sitemap; the latest stored state is the 151-URL predecessor contract and the current 153-URL release awaits refetch", status: "CURRENT_RELEASE_REFETCH_PENDING" },
+  { URL: "https://echobuddha.com/sitemap.xml", reason: "Broad discovery of the coherent recovery architecture", method: "EXISTING_CANONICAL_SITEMAP", request_date: "2026-08-25", owner_UI_action: "NO_DUPLICATE_SUBMISSION", evidence: "GSC retains one successful sitemap; the latest stored state is the 153-URL predecessor contract and the current 154-URL release awaits refetch", status: "CURRENT_RELEASE_REFETCH_PENDING" },
   { URL: "https://echobuddha.com/", reason: "Materially changed site gateway", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-25", owner_UI_action: "YES", evidence: "Live URL test: URL is available to Google; indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
   { URL: "https://echobuddha.com/articles/right-speech-buddhism/", reason: "Protected high-value query owner", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-25", owner_UI_action: "YES", evidence: "Indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
   { URL: "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/", reason: "Primary survivor receiving two approved permanent redirects", method: "URL_INSPECTION_UI_REQUEST_INDEXING", request_date: "2026-08-25", owner_UI_action: "YES", evidence: "Indexing-request confirmation displayed", status: "REQUESTED_ONCE" },
@@ -250,7 +251,7 @@ const priorityConverged = convergenceRows.filter((row) => row.converged === "YES
 const currentSitemapEvidence = monitoringSummary.sitemap || postGsc.sitemap;
 const sitemapRecord = currentSitemapEvidence?.sitemap?.find((item) => item.path === "https://echobuddha.com/sitemap.xml");
 const sitemapSubmittedCount = Number(sitemapRecord?.contents?.find((item) => item.type === "web")?.submitted || 0);
-const sitemapRefetched = Boolean(sitemapRecord?.lastDownloaded) && new Date(sitemapRecord.lastDownloaded) >= new Date(currentProductionRelease.deployedAt) && sitemapSubmittedCount === 153 && String(sitemapRecord.errors || "0") === "0" && String(sitemapRecord.warnings || "0") === "0";
+const sitemapRefetched = Boolean(sitemapRecord?.lastDownloaded) && new Date(sitemapRecord.lastDownloaded) >= new Date(currentProductionRelease.deployedAt) && sitemapSubmittedCount === 154 && String(sitemapRecord.errors || "0") === "0" && String(sitemapRecord.warnings || "0") === "0";
 const successorRows = authorizedSuccessorUrls.map((URL) => crawlByUrl.get(URL)).filter(Boolean);
 const successorReleaseHealthy = successorRows.length === authorizedSuccessorUrls.length && successorRows.every(contractCheck);
 const redirectSourcesRecrawled = redirectGoogle.filter((row) => row.postdeploy_crawl === "YES");
@@ -262,7 +263,7 @@ const redirectSourceErrors = redirectSourcesRecrawled.filter((row) => /redirect 
 const postdeployNoindexConvergence = convergenceRows.filter((row) => row.intended_state === "NOINDEX_USER_PAGE_200" && row.converged === "YES");
 const latestSite = monitoringSearch.find((row) => row.row_type === "SITE_TOTAL" && row.window === "latest28");
 const previousSite = monitoringSearch.find((row) => row.row_type === "SITE_TOTAL" && row.window === "previous28");
-const materialGoogleConvergence = crawl.length === 348 && contractFailures.length === 0 && successorReleaseHealthy && sitemapRefetched && priorityConverged.length >= 3 && redirectSourcesProcessedAsIntended.length === redirectGoogle.length && postdeployNoindexConvergence.length >= 1 && redirectSourceErrors.length === 0 && gscUiMonitoring.manual_actions === "NO_ISSUES_DETECTED" && gscUiMonitoring.security_issues === "NO_ISSUES_DETECTED";
+const materialGoogleConvergence = crawl.length === 349 && contractFailures.length === 0 && successorReleaseHealthy && sitemapRefetched && priorityConverged.length >= 3 && redirectSourcesProcessedAsIntended.length === redirectGoogle.length && postdeployNoindexConvergence.length >= 1 && redirectSourceErrors.length === 0 && gscUiMonitoring.manual_actions === "NO_ISSUES_DETECTED" && gscUiMonitoring.security_issues === "NO_ISSUES_DETECTED";
 const phase14Status = materialGoogleConvergence ? "PASS" : "DEPLOYED_MONITORING_REQUIRED";
 
 const independent = {
@@ -286,11 +287,11 @@ const independent = {
     { name: "C0 production health", pass: cornerstoneResult(c0), evidence: `${c0.length} checked` },
     { name: "C1 production health", pass: cornerstoneResult(c1), evidence: `${c1.length} checked` },
     { name: "redirect graph", pass: redirectRows.every((row) => row.result === "PASS"), evidence: `${redirectRows.length} one-hop redirects` },
-    { name: "sitemap", pass: phase11.checks.sitemap_count === 149 && crawl.filter((row) => row.sitemap === "YES").length === 153, evidence: "immutable Phase 11 count 149; current authorized count 153" },
+    { name: "sitemap", pass: phase11.checks.sitemap_count === 149 && crawl.filter((row) => row.sitemap === "YES").length === 154, evidence: "immutable Phase 11 count 149; current authorized count 154" },
     { name: "firewall", pass: firewallRows.every((row) => row.result === "PASS"), evidence: `${firewallRows.length} adversarial surfaces; zero ad slots/placeholders` },
     { name: "deterministic indexable sample", pass: deterministic.every(contractCheck), evidence: `${deterministic.length}/${deterministic.length}` },
     { name: "weakest Phase 12 sample", pass: weakestRows.every(contractCheck), evidence: `${weakestRows.length}/${weakestRows.length}` },
-    { name: "sitemap postdeploy refetch", pass: sitemapRefetched, expected_hold: !sitemapRefetched, evidence: sitemapRefetched ? `refetched ${sitemapRecord.lastDownloaded}; 153 submitted URLs` : `current-release 153-URL refetch not observed; latest stored sitemap state is ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}` },
+    { name: "sitemap postdeploy refetch", pass: sitemapRefetched, expected_hold: !sitemapRefetched, evidence: sitemapRefetched ? `refetched ${sitemapRecord.lastDownloaded}; 154 submitted URLs` : `current-release 154-URL refetch not observed; latest stored sitemap state is ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}` },
     { name: "priority URL postdeploy processing", pass: priorityConverged.length >= 3, evidence: `${priorityConverged.length}/${inspection.length} priority URLs converged after deployment` },
     { name: "critical redirect-source processing", pass: redirectSourcesProcessedAsIntended.length === redirectGoogle.length, expected_hold: redirectSourcesProcessedAsIntended.length !== redirectGoogle.length, evidence: `${redirectSourcesRecrawled.length}/${redirectGoogle.length} recrawled; ${redirectSourcesProcessedAsIntended.length}/${redirectGoogle.length} processed as intended; ${redirectSourceErrors.length} redirect-error state(s)` },
     { name: "representative noindex postdeploy processing", pass: postdeployNoindexConvergence.length >= 1, expected_hold: postdeployNoindexConvergence.length < 1, evidence: `${postdeployNoindexConvergence.length} representative noindex priority URLs recrawled and excluded after deployment` },
@@ -310,8 +311,8 @@ const methodManifest = {
   methods: [
     "Detached-worktree Node 22/npm 10 clean install, full release validation, build-once artifact manifest, and aggregate SHA verification",
     "Authenticated Cloudflare exact-artifact deployment after disconnecting the competing Git integration",
-    "Complete 348-row current production HTTP/canonical/robots/sitemap/firewall crawl while preserving the immutable 344-row initial baseline",
-    "Detached current-main worktree release validation against documentation head 92c27689615e977aee18c8002367c44ede3cbbd2",
+    "Complete 349-row current production HTTP/canonical/robots/sitemap/firewall crawl while preserving the immutable 344-row initial baseline",
+    `Exact current-production release validation against deployed SHA ${currentProductionRelease.commit}; repository documentation head ${currentProductionRelease.documentationHead} is recorded separately and is not treated as deployed`,
     "In-app browser journeys and homepage Search Console live URL test",
     "Search Console Search Analytics and URL Inspection APIs using only webmasters.readonly",
     "Search Console UI: existing sitemap inspection, six accepted one-time indexing requests, one intended-noindex request rejection, Manual Actions, and Security Issues",
@@ -337,13 +338,13 @@ const sitemapDoc = `# EchoBuddha Phase 14 Sitemap and robots.txt Validation
 
 - Captured: ${generatedAt}
 - Production robots.txt: HTTP 200; canonical sitemap declaration present; no development-wide disallow; intended noindex pages remain crawlable.
-- Production sitemap: HTTP 200; 153 unique canonical intended-indexable URLs.
+- Production sitemap: HTTP 200; 154 unique canonical intended-indexable URLs.
 - Excluded from sitemap: 186 noindex pages, 3 permanent redirect sources, the temporary 404 filename normalization route, and error states.
 - Sitemap contract failures: ${contractFailures.filter((row) => row.expected_sitemap !== row.actual_sitemap).length}.
 - Sitemap host/staging failures: 0.
 - Search Console: one existing canonical sitemap, status Success, 0 errors, 0 warnings; refetched ${sitemapRecord?.lastDownloaded || "NOT_OBSERVED"} with ${sitemapSubmittedCount} submitted URLs.
 - Duplicate submission performed: NO.
-- Current state: ${sitemapRefetched ? "The current-release 153-URL sitemap refetch is confirmed." : `Google current-release refetch remains pending; stored state is ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}.`}
+- Current state: ${sitemapRefetched ? "The current-release 154-URL sitemap refetch is confirmed." : `Google current-release refetch remains pending; stored state is ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}.`}
 
 RESULT = ${sitemapRefetched ? "PASS_LIVE_AND_GSC_REFETCHED" : "PASS_LIVE / GOOGLE_REFETCH_PENDING"}
 `;
@@ -357,8 +358,8 @@ Do not redeploy unchanged code and do not begin Phase 15. Preserve the initial P
 
 ## Immediate and short-term checks
 
-1. Re-run the 348-URL current production crawl and fail on any new 5xx, P0/P1 non-200, approved-addition failure, redirect loop/chain, canonical mismatch, sitemap pollution, accidental noindex, ad runtime, or empty ad placeholder.
-2. Track the single existing sitemap until Google refetches the current 153-URL release. Do not submit a duplicate.
+1. Re-run the 349-URL current production crawl and fail on any new 5xx, P0/P1 non-200, approved-addition failure, redirect loop/chain, canonical mismatch, sitemap pollution, accidental noindex, ad runtime, or empty ad placeholder.
+2. Track the single existing sitemap until Google refetches the current 154-URL release. Do not submit a duplicate.
 3. Re-run one URL Inspection API snapshot only at meaningful checkpoints. Do not exhaust quota or call it a live test.
 4. Track every SEO-P0 and SEO-P1 URL for coverage, Google canonical, last crawl, and material click/impression change using finalized comparable windows.
 5. Track the two letting-go redirect sources and the legal rename until Google recrawls them after deployment; also require one representative intended-noindex page to be recrawled and excluded after deployment.
@@ -366,7 +367,7 @@ Do not redeploy unchanged code and do not begin Phase 15. Preserve the initial P
 
 ## Suggested observation opportunities
 
-- Short-term: Google has recrawled the three requested priority pages and processed the representative noindex page. The remaining material gates are the current 153-URL sitemap refetch and all three redirect sources.
+- Short-term: Google has recrawled the three requested priority pages and processed the representative noindex page. The remaining material gates are the current 154-URL sitemap refetch and all three redirect sources.
 - Approximately one week: repeat protected-page and convergence matrices with finalized Search data.
 - Approximately two weeks: repeat only if material convergence is still unproven.
 
@@ -392,16 +393,16 @@ const manifest = `# EchoBuddha Phase 14 Deployment Manifest
 - Current authorized production commit: \`${currentProductionRelease.commit}\`
 - Current main documentation head: \`${currentProductionRelease.documentationHead}\`
 - Deployment platform: Cloudflare Workers static assets
-- Current deployment method: authorized GitHub/Cloudflare production workflow recorded in \`docs/deployments/2026-09-14-q3-q4-buddhist-questions.md\`.
+- Current deployment method: documented owner-authorized emergency local deployment recorded in \`docs/deployments/2026-09-20-q5-buddhist-question.md\`; GitHub Actions was blocked by account billing/spending limits.
 - Current deployment ID: \`${currentProductionRelease.deploymentId}\`
 - Current version ID: \`${currentProductionRelease.versionId}\`
 - Current deployed at: \`${currentProductionRelease.deployedAt}\`
-- Historical recovery boundary: the initial 344-row release remains immutable; two authorized successor releases added exactly four indexable Learn detail pages in total.
-- Current production inventory: 348 contract rows = 153 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
-- Built HTML pages: 339
-- Intended sitemap URLs: 153
-- Search records: 318
-- Authorized successor additions: 4
+- Historical recovery boundary: the initial 344-row release remains immutable; three authorized successor releases added exactly five indexable Learn detail pages in total.
+- Current production inventory: 349 contract rows = 154 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
+- Built HTML pages: 340
+- Intended sitemap URLs: 154
+- Search records: 319
+- Authorized successor additions: 5
 - Permanent redirect sources: 3
 - Current rollback target: \`${currentProductionRelease.rollbackVersion}\`
 - Rollback readiness: verified against the predeploy 14/14 smoke baseline
@@ -413,14 +414,14 @@ const manifest = `# EchoBuddha Phase 14 Deployment Manifest
 fs.writeFileSync(path.join(outDir, "ECHO_BUDDHA_PHASE_14_DEPLOYMENT_MANIFEST.md"), manifest);
 
 const reportSections = [
-  ["Executive Summary", `The immutable initial Phase 14 release remains preserved and the authorized four-URL successor expansion is technically healthy. Live validation passes and ${priorityConverged.length} priority URLs plus the representative noindex case have postdeployment convergence. Google has not yet refetched the current 153-URL sitemap and critical redirect-source processing remains pending, so the exit state is ${phase14Status}.`],
-  ["Phase 13 Result", "PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Two separately authorized successor releases later added exactly four governed indexable Learn detail pages."],
+  ["Executive Summary", `The immutable initial Phase 14 release remains preserved and the authorized five-URL successor expansion is technically healthy. Live validation passes and ${priorityConverged.length} priority URLs plus the representative noindex case have postdeployment convergence. The current 154-URL sitemap refetch is ${sitemapRefetched ? "confirmed" : "pending"}, and critical redirect-source processing remains pending, so the exit state is ${phase14Status}.`],
+  ["Phase 13 Result", "PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Three separately authorized successor releases later added exactly five governed indexable Learn detail pages."],
   ["Release Commit", `Initial Phase 14 release ${initialPhase14Release.commit} remains the historical baseline. Production now serves authorized successor ${currentProductionRelease.commit}; deployment ${currentProductionRelease.deploymentId}; version ${currentProductionRelease.versionId}.`],
   ["Predeploy Production Baseline", "344 known URLs were captured against the old deployment: 342 HTTP 200, one 307 and one 404; the old sitemap contained 194 URLs; no ads or placeholders were found."],
   ["Predeploy Search Baseline", `Finalized through ${preGsc.finalized_end_date}; latest and previous comparable 28-day windows, protected pages, hashed Query × Page rows, 16 priority inspections and one sitemap record were preserved as PRE_DEPLOYMENT_GOOGLE_STATE.`],
   ["Google Search Update Context", "The August 2026 spam update completed before deployment. The official Search Status Dashboard showed no active crawling, indexing, ranking, or serving incident at the 2026-08-28 monitoring checkpoint; early movement remains confounded by update recency."],
   ["Rollback Readiness", `Version ${currentProductionRelease.rollbackVersion} remains the rollback target for the current successor release; no rollback is required.`],
-  ["Deployment Execution", `The immutable initial Phase 14 artifact was deployed at ${initialPhase14Release.deployedAt}. The current Q3/Q4 successor artifact was deployed at ${currentProductionRelease.deployedAt} through the governed production workflow, bringing authorized post-baseline additions to four.`],
+  ["Deployment Execution", `The immutable initial Phase 14 artifact was deployed at ${initialPhase14Release.deployedAt}. The current Q5 successor artifact was deployed at ${currentProductionRelease.deployedAt} through the documented owner-authorized emergency local deployment path after hosted workflow billing prevented a new job, bringing authorized post-baseline additions to five.`],
   ["Immediate Production Health", "The current-release smoke suite passes 14/14. Homepage, representative content, both approved additions, trust, error handling, HTTPS, security headers and preview noindex are healthy."],
   ["P0/P1 Validation", `${p0.length} SEO-P0 and ${p1.length} SEO-P1 registry URLs match their live intended contracts.`],
   ["C0/C1 Validation", `${c0.length} C0 and ${c1.length} C1 cornerstone URLs match their live intended contracts.`],
@@ -429,7 +430,7 @@ const reportSections = [
   ["Redirect Validation", `${redirectRows.length} redirects are one hop, end at HTTP 200, avoid loops, and remain outside the sitemap.`],
   ["Canonical Validation", `${canonicalRows.filter((row) => row.canonical_result === "PASS").length}/${canonicalRows.length} applicable canonical checks pass.`],
   ["robots.txt", "HTTP 200, canonical sitemap declaration present, no production-wide disallow, and intended noindex pages remain crawlable."],
-  ["Sitemap", `The live sitemap has 153 intended canonical URLs. Search Console's latest stored sitemap state is ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}, with zero errors or warnings; a post-current-release 153-URL refetch has ${sitemapRefetched ? "been confirmed" : "not yet been observed"}.`],
+  ["Sitemap", `The live sitemap has 154 intended canonical URLs. Search Console's latest stored sitemap state is ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}, with zero errors or warnings; a post-current-release 154-URL refetch has ${sitemapRefetched ? "been confirmed" : "not yet been observed"}.`],
   ["Noindex", "All 186 intended user-useful noindex pages remain HTTP 200, crawlable, canonicalized as designed, and excluded from the sitemap."],
   ["Structured Data", "The exact artifact passed Phase 11 parsing with zero structured-data failures; representative production pages expose reviewed types and no staging entities."],
   ["Internal Links", "The current authorized artifact passed governed validation with 0 broken internal links and no controlled links through redirect sources; production route delivery matches that artifact."],
@@ -438,7 +439,7 @@ const reportSections = [
   ["Accessibility Smoke", "Skip link, named landmarks/dialog/searchbox and keyboard Escape dismissal pass. The responsive Phase 9 suite passed on the exact artifact."],
   ["Performance Smoke", "No broken assets or systemic HTTP failures appeared in the full crawl/browser journeys; no Lighthouse-100 threshold was imposed and field CWV remains insufficient."],
   ["AdSense Firewall", `${firewallRows.length}/${firewallRows.length} adversarial surfaces contain zero real ad runtime, slots or empty placeholders. Verification infrastructure is preserved.`],
-  ["Production Crawl", `${crawl.length} rows, zero fetch errors, 153 sitemap URLs, zero ad signals and zero empty placeholders.`],
+  ["Production Crawl", `${crawl.length} rows, zero fetch errors, 154 sitemap URLs, zero ad signals and zero empty placeholders.`],
   ["Production vs Intended Contract", `${indexRows.length - contractFailures.length}/${indexRows.length} rows pass; ${changedCount} rows differ materially from old production and all differences are expected.`],
   ["Search Console Sitemap State", `One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with ${sitemapSubmittedCount} URLs. No duplicate was submitted.`],
   ["Recrawl Actions", "Six one-time UI requests were accepted: the original homepage, Right Speech owner, and letting-go survivor plus all three approved redirect sources. A representative noindex request was rejected after a successful postdeployment live fetch detected the intended noindex directive; no request was repeated."],
@@ -451,7 +452,7 @@ const reportSections = [
   ["Material Google Convergence", `${materialGoogleConvergence ? "ESTABLISHED" : "NOT YET ESTABLISHED"}: sitemap refetch=${sitemapRefetched ? "YES" : "NO"}; priority convergence=${priorityConverged.length}/${inspection.length}; redirect sources recrawled=${redirectSourcesRecrawled.length}/${redirectGoogle.length}; redirect sources processed as intended=${redirectSourcesProcessedAsIntended.length}/${redirectGoogle.length}; redirect errors=${redirectSourceErrors.length}; representative noindex postdeploy convergence=${postdeployNoindexConvergence.length}.`],
   ["Policy Regression Check", "Representative homepage, article, Quote, trust and weak-page production samples retain reviewed content, authorship/source signals and no hidden/ad content regression."],
   ["Production Privacy / Secret Check", "OAuth material remained outside the repository; query text is hashed; no credential/session/account data is included in artifacts. Final automated scan is recorded separately."],
-  ["Independent Validation", `Immediate technical result PASS; current-main release validation PASS; Phase 14 artifact validation PASS; deterministic ${deterministic.length}-URL indexable sample and ${weakestRows.length}-URL weakest-page sample pass. Material Google convergence=${materialGoogleConvergence ? "PASS" : "EXPECTED HOLD"}.`],
+  ["Independent Validation", `Immediate technical result PASS; current authorized production release validation PASS; Phase 14 artifact validation PASS; deterministic ${deterministic.length}-URL indexable sample and ${weakestRows.length}-URL weakest-page sample pass. Material Google convergence=${materialGoogleConvergence ? "PASS" : "EXPECTED HOLD"}.`],
   ["Rollback / Fix-Forward Actions", "ROLLBACK_REQUIRED = NO. A stale pre-recovery count assertion in the smoke script was corrected to read the current governed inventory; it did not alter production assets."],
   ["Explicit Holds", materialGoogleConvergence ? "FIELD_CWV_INSUFFICIENT_DATA only; non-material." : `${sitemapRefetched ? "" : "CURRENT_RELEASE_SITEMAP_REFETCH_PENDING; "}${redirectSourceErrors.length ? "REDIRECT_SOURCE_GOOGLE_STATE_ERROR; " : ""}${redirectSourcesRecrawled.length < redirectGoogle.length ? "CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; " : ""}${postdeployNoindexConvergence.length ? "" : "REPRESENTATIVE_NOINDEX_POSTDEPLOY_RECRAWL_PENDING; "}MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.`],
   ["Monitoring Required", materialGoogleConvergence ? "No further Phase 14 convergence monitoring is required before Phase 15." : "Continue the resumable Phase 14 runbook. Do not redeploy unchanged code or create content churn."],
@@ -471,9 +472,9 @@ ${materialGoogleConvergence ? "This gate record authorizes Phase 15; it does not
 - Current authorized production commit: \`${currentProductionRelease.commit}\`
 - Current deployment date: \`${currentProductionRelease.deployedAt}\`
 - Phase 13 historical boundary: PASS_NO_EXPANSION_REQUIRED
-- Authorized successor expansion: 4 governed indexable Learn detail pages across the Q1/Q2 and Q3/Q4 releases
+- Authorized successor expansion: 5 governed indexable Learn detail pages across the Q1/Q2, Q3/Q4, and Q5 releases
 - Phase 12: PASS_WITH_EXPLICIT_HOLDS compatible with deployment
-- Production inventory: 339 built pages; 153 indexable; 186 noindex; 3 permanent redirects; live contract ${indexRows.length - contractFailures.length}/${indexRows.length} PASS
+- Production inventory: 340 built pages; 154 indexable; 186 noindex; 3 permanent redirects; live contract ${indexRows.length - contractFailures.length}/${indexRows.length} PASS
 - Authorized successor additions: ${successorRows.filter(contractCheck).length}/${authorizedSuccessorUrls.length} technically healthy
 - P0/P1: technically healthy in production
 - Google convergence: ${materialGoogleConvergence ? "established" : `not established; current-release sitemap refetch=${sitemapRefetched ? "YES" : "NO"}, ${priorityConverged.length}/${inspection.length} priority URLs converged, ${redirectSourcesRecrawled.length}/${redirectGoogle.length} redirect sources recrawled, ${redirectSourcesProcessedAsIntended.length}/${redirectGoogle.length} redirect sources processed as intended, ${redirectSourceErrors.length} redirect error(s), and ${postdeployNoindexConvergence.length} representative noindex URLs converged after deployment`}
@@ -493,12 +494,12 @@ PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL
 ## Confirmed progress
 
 - Production smoke: 14/14 PASS.
-- Current-main release validation: PASS.
+- Current authorized production release validation: PASS; later repository-only changes are not treated as deployed production evidence.
 - Phase 14 artifact validation: PASS.
 - Complete production contract: ${indexRows.length - contractFailures.length}/${indexRows.length} PASS.
 - Authorized successor additions: ${successorRows.filter(contractCheck).length}/${authorizedSuccessorUrls.length} PASS.
-- Live sitemap: 153 canonical URLs.
-- Search Console sitemap: latest stored state ${sitemapSubmittedCount} submitted URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}; Success; zero errors/warnings; current-release 153-URL refetch ${sitemapRefetched ? "confirmed" : "pending"}.
+- Live sitemap: 154 canonical URLs.
+- Search Console sitemap: latest stored state ${sitemapSubmittedCount} submitted URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}; Success; zero errors/warnings; current-release 154-URL refetch ${sitemapRefetched ? "confirmed" : "pending"}.
 - Priority URL Inspection: ${priorityConverged.length}/${inspection.length} have postdeployment crawl evidence and match intended state.
 - Requested priority URLs: homepage, Right Speech owner, and letting-go survivor all recrawled after deployment with successful fetch, indexing allowed, and matching Google/user canonicals.
 - One-time recrawl requests accepted on 2026-08-29: all three approved redirect sources.
@@ -511,7 +512,7 @@ ${postdeployNoindexConvergence.length ? `- Representative intended-noindex index
 
 ## Remaining material evidence gaps
 
-${sitemapRefetched ? "" : `- Current-release 153-URL sitemap refetch is pending; Search Console still stores ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}.`}
+${sitemapRefetched ? "" : `- Current-release 154-URL sitemap refetch is pending; Search Console still stores ${sitemapSubmittedCount} URLs from ${sitemapRecord?.lastDownloaded || "UNKNOWN"}.`}
 - Approved redirect sources recrawled after deployment: ${redirectSourcesRecrawled.length}/${redirectGoogle.length}.
 - Approved redirect sources processed as intended after deployment: ${redirectSourcesProcessedAsIntended.length}/${redirectGoogle.length}; redirect-error states: ${redirectSourceErrors.length}.
 ${postdeployNoindexConvergence.length ? "" : "- Representative intended-noindex priority URL still lacks a postdeployment indexed-state crawl/exclusion."}

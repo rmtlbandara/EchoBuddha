@@ -2,15 +2,15 @@
 
 ## 1. Executive Summary
 
-The immutable initial Phase 14 release remains preserved and the authorized four-URL successor expansion is technically healthy. Live validation passes and 7 priority URLs plus the representative noindex case have postdeployment convergence. Google has not yet refetched the current 153-URL sitemap and critical redirect-source processing remains pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
+The immutable initial Phase 14 release remains preserved and the authorized five-URL successor expansion is technically healthy. Live validation passes and 7 priority URLs plus the representative noindex case have postdeployment convergence. The current 154-URL sitemap refetch is confirmed, and critical redirect-source processing remains pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
 
 ## 2. Phase 13 Result
 
-PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Two separately authorized successor releases later added exactly four governed indexable Learn detail pages.
+PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Three separately authorized successor releases later added exactly five governed indexable Learn detail pages.
 
 ## 3. Release Commit
 
-Initial Phase 14 release ad9fe897916c76fd6883efc351461b49db28ac3f remains the historical baseline. Production now serves authorized successor 42b853b1b67e3c9b3145e55b1d42374f35e34719; deployment 47303d8a-1941-42c2-a02c-db510473d05f; version 9e196159-656a-490a-8e18-b0ecfab80a2e.
+Initial Phase 14 release ad9fe897916c76fd6883efc351461b49db28ac3f remains the historical baseline. Production now serves authorized successor d3da65308348cb5379c76271614288d14f150450; deployment a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc; version 7bfce8b0-2df8-42db-b5fe-f5ee45790db5.
 
 ## 4. Predeploy Production Baseline
 
@@ -26,11 +26,11 @@ The August 2026 spam update completed before deployment. The official Search Sta
 
 ## 7. Rollback Readiness
 
-Version b5b294f9-6b65-4dad-943f-5400b78cbba5 remains the rollback target for the current successor release; no rollback is required.
+Version 9e196159-656a-490a-8e18-b0ecfab80a2e remains the rollback target for the current successor release; no rollback is required.
 
 ## 8. Deployment Execution
 
-The immutable initial Phase 14 artifact was deployed at 2026-08-25T05:33:01.801137Z. The current Q3/Q4 successor artifact was deployed at 2026-09-14T03:44:54.812871Z through the governed production workflow, bringing authorized post-baseline additions to four.
+The immutable initial Phase 14 artifact was deployed at 2026-08-25T05:33:01.801137Z. The current Q5 successor artifact was deployed at 2026-09-20T13:01:23.364839Z through the documented owner-authorized emergency local deployment path after hosted workflow billing prevented a new job, bringing authorized post-baseline additions to five.
 
 ## 9. Immediate Production Health
 
@@ -50,7 +50,7 @@ Retained Quote categories and approved story states are live; noindex Quote perm
 
 ## 13. HTTP Status Validation
 
-{"200":344,"301":3,"307":1} across 348 current-contract rows; 0 contract failures.
+{"200":345,"301":3,"307":1} across 349 current-contract rows; 0 contract failures.
 
 ## 14. Redirect Validation
 
@@ -58,7 +58,7 @@ Retained Quote categories and approved story states are live; noindex Quote perm
 
 ## 15. Canonical Validation
 
-339/339 applicable canonical checks pass.
+340/340 applicable canonical checks pass.
 
 ## 16. robots.txt
 
@@ -66,7 +66,7 @@ HTTP 200, canonical sitemap declaration present, no production-wide disallow, an
 
 ## 17. Sitemap
 
-The live sitemap has 153 intended canonical URLs. Search Console's latest stored sitemap state is 153 URLs from 2026-09-16T09:32:21.859Z, with zero errors or warnings; a post-current-release 153-URL refetch has been confirmed.
+The live sitemap has 154 intended canonical URLs. Search Console's latest stored sitemap state is 154 URLs from 2026-09-20T17:02:15.115Z, with zero errors or warnings; a post-current-release 154-URL refetch has been confirmed.
 
 ## 18. Noindex
 
@@ -102,15 +102,15 @@ No broken assets or systemic HTTP failures appeared in the full crawl/browser jo
 
 ## 26. Production Crawl
 
-348 rows, zero fetch errors, 153 sitemap URLs, zero ad signals and zero empty placeholders.
+349 rows, zero fetch errors, 154 sitemap URLs, zero ad signals and zero empty placeholders.
 
 ## 27. Production vs Intended Contract
 
-348/348 rows pass; 50 rows differ materially from old production and all differences are expected.
+349/349 rows pass; 51 rows differ materially from old production and all differences are expected.
 
 ## 28. Search Console Sitemap State
 
-One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with 153 URLs. No duplicate was submitted.
+One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with 154 URLs. No duplicate was submitted.
 
 ## 29. Recrawl Actions
 
@@ -134,7 +134,7 @@ Live directives are correct and Search Console reports 46 excluded noindex examp
 
 ## 34. Search Performance
 
-Finalized through 2026-09-15. Latest 28-day site totals are 28 clicks/3676 impressions versus 14/1764; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-09-19. Latest 28-day site totals are 35 clicks/4111 impressions versus 15/2032; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
@@ -154,7 +154,7 @@ OAuth material remained outside the repository; query text is hashed; no credent
 
 ## 39. Independent Validation
 
-Immediate technical result PASS; current-main release validation PASS; Phase 14 artifact validation PASS; deterministic 20-URL indexable sample and 20-URL weakest-page sample pass. Material Google convergence=EXPECTED HOLD.
+Immediate technical result PASS; current authorized production release validation PASS; Phase 14 artifact validation PASS; deterministic 20-URL indexable sample and 20-URL weakest-page sample pass. Material Google convergence=EXPECTED HOLD.
 
 ## 40. Rollback / Fix-Forward Actions
 

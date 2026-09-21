@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:47:45.867Z",
+  "generated_at": "2026-09-21T15:14:58.984Z",
   "status": "DEPLOYED_MONITORING_REQUIRED",
   "immutable_initial_release": {
     "commit": "ad9fe897916c76fd6883efc351461b49db28ac3f",
@@ -8,17 +8,17 @@
     "deployed_at": "2026-08-25T05:33:01.801137Z"
   },
   "current_authorized_release": {
-    "commit": "42b853b1b67e3c9b3145e55b1d42374f35e34719",
-    "documentation_head": "92c27689615e977aee18c8002367c44ede3cbbd2",
-    "deployment_id": "47303d8a-1941-42c2-a02c-db510473d05f",
-    "version_id": "9e196159-656a-490a-8e18-b0ecfab80a2e",
-    "deployed_at": "2026-09-14T03:44:54.812871Z"
+    "commit": "d3da65308348cb5379c76271614288d14f150450",
+    "documentation_head": "67d1b8e4282fd92e678ee18eae908efad8c5ff51",
+    "deployment_id": "a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc",
+    "version_id": "7bfce8b0-2df8-42db-b5fe-f5ee45790db5",
+    "deployed_at": "2026-09-20T13:01:23.364839Z"
   },
   "methods": [
     "Detached-worktree Node 22/npm 10 clean install, full release validation, build-once artifact manifest, and aggregate SHA verification",
     "Authenticated Cloudflare exact-artifact deployment after disconnecting the competing Git integration",
-    "Complete 348-row current production HTTP/canonical/robots/sitemap/firewall crawl while preserving the immutable 344-row initial baseline",
-    "Detached current-main worktree release validation against documentation head 92c27689615e977aee18c8002367c44ede3cbbd2",
+    "Complete 349-row current production HTTP/canonical/robots/sitemap/firewall crawl while preserving the immutable 344-row initial baseline",
+    "Exact current-production release validation against deployed SHA d3da65308348cb5379c76271614288d14f150450; repository documentation head 67d1b8e4282fd92e678ee18eae908efad8c5ff51 is recorded separately and is not treated as deployed",
     "In-app browser journeys and homepage Search Console live URL test",
     "Search Console Search Analytics and URL Inspection APIs using only webmasters.readonly",
     "Search Console UI: existing sitemap inspection, six accepted one-time indexing requests, one intended-noindex request rejection, Manual Actions, and Security Issues",
