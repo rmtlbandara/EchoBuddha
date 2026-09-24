@@ -8,7 +8,7 @@ const root = process.cwd();
 const port = process.env.BUDDHIST_QUESTIONS_AUDIT_PORT || "4321";
 const baseUrl = process.env.BUDDHIST_QUESTIONS_AUDIT_BASE_URL || `http://127.0.0.1:${port}`;
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-const canonicalOutput = path.join(root, "docs/audits/buddhist-question-q5-2026-09-20/BROWSER_VALIDATION.json");
+const canonicalOutput = path.join(root, "docs/audits/buddhist-question-q6-2026-09-24/BROWSER_VALIDATION.json");
 const artifactOutput = process.env.AUDIT_OUT_DIR
   ? path.resolve(root, process.env.AUDIT_OUT_DIR, "buddhist-questions-browser-validation.json")
   : canonicalOutput;
@@ -21,7 +21,8 @@ const routes = [
   "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
   "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
   "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
-  "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/"
+  "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+  "/learn/questions-about-buddhism/appatimo-and-buddha-images/"
 ];
 const viewports = [
   { name: "mobile", width: 390, height: 844 },
@@ -33,7 +34,8 @@ const expectedNavigation = {
   [routes[2]]: [routes[1], routes[3]],
   [routes[3]]: [routes[2], routes[4]],
   [routes[4]]: [routes[3], routes[5]],
-  [routes[5]]: [routes[4]]
+  [routes[5]]: [routes[4], routes[6]],
+  [routes[6]]: [routes[5]]
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -129,9 +131,10 @@ try {
           keyboardFocusVisible: pageFacts.keyboardFocusVisible,
           noHeadingSkips: headingSkips.length === 0,
           noCriticalOrSeriousAxeViolations: seriousViolations.length === 0,
-          expectedHubCardCount: route !== hub || pageFacts.cardCount === 5,
+          expectedHubCardCount: route !== hub || pageFacts.cardCount === 6,
           expectedNavigation: route === hub || JSON.stringify(pageFacts.navigationLinks) === JSON.stringify(expectedLinks),
-          expectedQ5SourceCount: route !== routes[5] || pageFacts.externalSourceLinks.length === 3
+          expectedQ5SourceCount: route !== routes[5] || pageFacts.externalSourceLinks.length === 3,
+          expectedQ6SourceCount: route !== routes[6] || pageFacts.externalSourceLinks.length === 4
         };
         const pass = Object.values(checks).every(Boolean);
         results.push({

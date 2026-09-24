@@ -859,6 +859,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
   },
+  "/learn/questions-about-buddhism/appatimo-and-buddha-images/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/questions-about-buddhism/did-buddha-order-buddha-images/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",

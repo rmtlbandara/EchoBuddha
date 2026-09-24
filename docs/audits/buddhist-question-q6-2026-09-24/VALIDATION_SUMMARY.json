@@ -1,0 +1,69 @@
+{
+  "audit": "Controlled Q6 Buddhist Question expansion",
+  "date": "2026-09-24",
+  "status": "PASS_PRE_RELEASE_VALIDATED",
+  "scope": {
+    "historical_expansion_1": { "date": "2026-09-02", "questions": [1, 2], "new_indexable_detail_urls": 2 },
+    "historical_expansion_2": { "date": "2026-09-14", "questions": [3, 4], "new_indexable_detail_urls": 2 },
+    "historical_expansion_3": { "date": "2026-09-20", "questions": [5], "new_indexable_detail_urls": 1 },
+    "current_expansion_4": { "date": "2026-09-24", "questions": [6], "new_indexable_detail_urls": 1 },
+    "cumulative_questions": [1, 2, 3, 4, 5, 6],
+    "unauthorized_extra_urls": 0
+  },
+  "counts": {
+    "html_before": 340,
+    "html_after": 341,
+    "indexable_before": 154,
+    "indexable_after": 155,
+    "nonindexable_before": 186,
+    "nonindexable_after": 186,
+    "sitemap_before": 154,
+    "sitemap_after": 155,
+    "internal_search_before": 319,
+    "internal_search_after": 320,
+    "new_indexable_detail_urls": 1,
+    "unauthorized_extra_urls": 0,
+    "monetization_before": { "NEVER_MONETIZE": 252, "ELIGIBLE_CANDIDATE": 7, "HOLD_MANUAL_REVIEW": 81 },
+    "monetization_after": { "NEVER_MONETIZE": 252, "ELIGIBLE_CANDIDATE": 7, "HOLD_MANUAL_REVIEW": 82 }
+  },
+  "preservation": {
+    "q1_semantic_sha256": "9dc8e62f77adfd34f9cdf90f1bd0c769a18a094ed4e3a8b6b7616f15c2f145be",
+    "q2_semantic_sha256": "eb75792ed5f61a19995942068cfc96c52f874c99cac1d61bb32c29649d48e380",
+    "q3_semantic_sha256": "ce5aac8bd3acf2c7489b10dbe47ffe001fb1cbc0579ee3c467cd7061bfc6944e",
+    "q4_semantic_sha256": "8778411d48a59cc9f5c72f54359f492fd7ffed20f5d3e449f981ed419bcbf033",
+    "q5_semantic_sha256": "09135cfa576207bda7c176ad49f6dc3160b1a225a663d4cb08dab255e972b400",
+    "historical_q1_q2_audit_modified": false,
+    "historical_q3_q4_audit_modified": false,
+    "historical_q5_audit_modified": false,
+    "adsense_runtime_enabled": false
+  },
+  "current_state_checks": {
+    "npm_ci": "PASS_0_VULNERABILITIES",
+    "npm_run_build": "PASS_341_PAGES",
+    "npm_run_typecheck": "PASS",
+    "npm_run_lint": "PASS",
+    "npm_test": "PASS_35_OF_35",
+    "npm_run_audit_seo": "PASS_WITH_1_LOW_INBOUND_LINK_WARNING",
+    "npm_run_audit_content": "PASS",
+    "npm_run_audit_quotes": "PASS_7_OF_7",
+    "npm_run_audit_trust": "PASS_58_OF_58",
+    "npm_run_audit_historical_boundaries": "PASS_Q1_Q2_PLUS_2_Q3_Q4_PLUS_2_Q5_PLUS_1_Q6_PLUS_1_NO_Q7_PLUS",
+    "npm_run_audit_phase8_active": "PASS_17_OF_17",
+    "npm_run_audit_phase9_active": "PASS_26_OF_26",
+    "npm_run_audit_phase10_active": "PASS_19_OF_19",
+    "npm_run_audit_phase11": "PASS_17_OF_17_AND_INDEX_HYGIENE_40_OF_40",
+    "npm_run_audit_phase12": "PASS_57_OF_57",
+    "npm_run_audit_phase13": "PASS_11_OF_11",
+    "npm_run_audit_dependencies": "PASS_0_HIGH_0_CRITICAL",
+    "npm_run_validate_release": "PASS",
+    "npm_run_audit_browser": "PASS_18_ROUTES_WITH_CONSENT",
+    "npm_run_audit_buddhist_questions_browser": "PASS_21_ROUTE_VIEWPORT_COMBINATIONS_0_CRITICAL_0_SERIOUS_VISIBLE_KEYBOARD_FOCUS"
+  },
+  "warnings": [
+    "The SEO audit reports one indexable page with two or fewer detected inbound static links; this is a non-blocking repository-wide warning.",
+    "The Metropolitan Museum of Art essay endpoint returned HTTP 429 to command-line verification after repeated research requests; browser/web research verified the source and the separate Met educator PDF returned HTTP 200."
+  ],
+  "production": { "status": "PENDING" },
+  "hosted_ci": { "status": "PENDING" },
+  "validated_sha": null
+}

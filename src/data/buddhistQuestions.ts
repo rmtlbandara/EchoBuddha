@@ -12,6 +12,7 @@ export type BuddhistQuestionSource = {
   sourceType:
     | "Early Buddhist discourse"
     | "Theravāda canonical hagiography"
+    | "Theravāda commentary"
     | "Theravāda narrative/commentary"
     | "Museum / art history"
     | "Cultural heritage / history";
@@ -25,7 +26,7 @@ export type BuddhistQuestionSection = {
 };
 
 export type BuddhistQuestion = {
-  number: 1 | 2 | 3 | 4 | 5;
+  number: 1 | 2 | 3 | 4 | 5 | 6;
   slug: string;
   title: string;
   seoTitle: string;
@@ -688,6 +689,145 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     previous: {
       label: "Question 4: Why Didn’t the Buddha Ask for a Statue at Jetavana?",
       href: `${questionsPath}/why-no-buddha-statue-at-jetavana/`
+    },
+    next: {
+      label: "Question 6: Can Buddha Images Represent the Buddha If the Tathāgata Is Called Appaṭimo?",
+      href: `${questionsPath}/appatimo-and-buddha-images/`
+    }
+  },
+  {
+    number: 6,
+    slug: "appatimo-and-buddha-images",
+    title: "Can Buddha Images Represent the Buddha If the Tathāgata Is Called Appaṭimo?",
+    seoTitle: "What Does Appaṭimo Mean for Buddha Images? | Echo Buddha",
+    description:
+      "Does appaṭimo mean Buddha images are invalid? Explore AN 1.174, Theravāda commentary, the limits of exact likeness, and how Buddha images function as representations.",
+    eyebrow: "Question 6",
+    publishedDate: "2026-09-24",
+    modifiedDate: "2026-09-24",
+    intro:
+      "The word appaṭimo describes the Buddha as without a true counterpart or equal. That does not require a Buddha image to be an exact physical replica in order to function as a representation.",
+    takeaway:
+      "AN 1.174 praises the Tathāgata as incomparable within a cluster of terms about having no peer or equal. The later Theravāda commentary adds that no crafted image can reproduce his bodily form exactly. Neither statement is an image prohibition: a Buddha image can represent and recall the Buddha without claiming to be his duplicate or the Buddha himself.",
+    shortAnswer: [
+      "Yes—a Buddha image can represent the Buddha without being an exact copy of him.",
+      "In AN 1.174, <i>appaṭimo</i> appears with several terms that praise the Tathāgata as unique, peerless, incomparable, and unequalled. The passage does not formulate a rule against making religious art.",
+      "The later Aṅguttara commentary is more specific about likeness: it acknowledges images made by people and says that none can reproduce the Tathāgata’s bodily form exactly. That limit distinguishes representation from duplication; it does not make representation impossible."
+    ],
+    sections: [
+      {
+        heading: "Read Appaṭimo in Its Sentence",
+        paragraphs: [
+          "A single English gloss cannot carry the whole argument. AN 1.174 places <i>appaṭimo</i> in a concentrated sequence that describes the fully awakened Buddha as unique, without peer or rival, incomparable, matchless, unequalled, and foremost among people. The subject is the Tathāgata’s unsurpassed status.",
+          "In that setting, <i>appaṭimo</i> can be understood through senses such as ‘without a counterpart’ or ‘incomparable.’ Reading it as ‘no image may represent the Buddha’ would change praise about the Buddha into an unstated rule about art.",
+          "AN 1.174 itself does not discuss statues, prescribe an artistic style, or prohibit representation. It should therefore be used for what it actually supports: the early textual context of incomparability."
+        ]
+      },
+      {
+        heading: "What the Theravāda Commentary Adds",
+        paragraphs: [
+          "The later commentary on this passage explains <i>appaṭimo</i> by saying that there is no other bodily counterpart truly similar to the Tathāgata. It then directly mentions images made by people from materials such as gold and silver.",
+          "Its point is exactness: no such crafted image can reproduce even the smallest portion of the Tathāgata’s bodily form with perfect similarity. That is a stronger claim about the limits of likeness than AN 1.174 itself makes, and it belongs to a later commentarial source layer.",
+          "The wording matters because the commentary both recognizes that people make images and denies that those images are exact physical duplicates. It does not turn that difference into a ban on making or using images."
+        ]
+      },
+      {
+        heading: "Representation Is Not Duplication",
+        paragraphs: [
+          "A representation succeeds by pointing to its subject, not by becoming physically identical with that subject. A portrait, memorial, or map can be recognizable and meaningful without reproducing every feature of what it represents.",
+          "A Buddha image is therefore better understood as an artistic and devotional representation than as a photographic reconstruction of the historical Buddha. Its maker and community need not claim access to an exact face, height, complexion, or set of bodily measurements.",
+          "This distinction avoids two extremes. The statue need not be a perfect duplicate in order to represent the Buddha, and admitting that it is not a duplicate does not make it an invalid representation."
+        ]
+      },
+      {
+        heading: "Why Buddha Images Can Look Different",
+        paragraphs: [
+          "Buddha images developed in different places and periods. Gandhāran and Mathurā traditions used different visual languages, and later Sri Lankan, Southeast Asian, Himalayan, East Asian, and other communities produced further forms. This variety is not what we would expect from the preservation of one exact portrait.",
+          "Recognition instead works through combinations of convention and context. Monastic robes, seated or standing postures, hand gestures, the cranial prominence known as the <i>uṣṇīṣa</i>, the <i>ūrṇā</i> between the eyebrows, elongated earlobes, and the surrounding shrine setting can help viewers identify a Buddha image.",
+          "Not every image uses every feature, and conventions differ across traditions. Their diversity shows why recognizable representation should not be confused with identical facial or bodily measurements."
+        ]
+      },
+      {
+        heading: "What the Image Points Toward",
+        paragraphs: [
+          "For practitioners who use images, the physical form can support recollection of the Buddha and of qualities associated with awakening. The relevant meaning lies beyond stone, bronze, wood, clay, or paint.",
+          "An image may call to mind wisdom, compassion, freedom from greed, hatred, and delusion, and the Dhamma the Buddha taught. In this role, it is a focus for remembrance rather than a claim that the material object has become the historical Buddha.",
+          "This representational function connects with the later Theravāda discussion of <a href=\"/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/\">Uddesika Cetiya</a>. Q3 examines the wider category; Q6 addresses the different linguistic question raised by <i>appaṭimo</i>."
+        ],
+        points: [
+          "awakening and wisdom",
+          "compassion and freedom from greed, hatred, and delusion",
+          "confidence, gratitude, and humility",
+          "the Dhamma and the possibility of practice"
+        ]
+      },
+      {
+        heading: "Respect Is Directed Through the Representation",
+        paragraphs: [
+          "A bow before a Buddha image need not express belief that the material is literally the Buddha. In communities that use images devotionally, the gesture may express gratitude, confidence, humility, or recollection toward what the image represents.",
+          "For the same reason, deliberate desecration can reasonably be experienced as contempt toward the Buddha or Buddhist community even though the object is not the Buddha himself. Intention and context still matter: accidental damage, archaeological study, conservation, and respectful restoration are not equivalent to deliberate contempt.",
+          "This does not claim that all Buddhists use images or explain them identically. It gives a coherent account of how an image can carry devotional meaning without erasing the difference between sign, material object, and person represented."
+        ]
+      },
+      {
+        heading: "A Careful Conclusion",
+        paragraphs: [
+          "The early discourse and the later commentary answer related but different questions. AN 1.174 places <i>appaṭimo</i> in praise of the incomparable Tathāgata. The commentary addresses bodily likeness and says that crafted images cannot reproduce his form exactly.",
+          "Neither source says that an image must be an exact duplicate before it can function as a representation. Neither supplies a general prohibition on Buddha images.",
+          "The careful conclusion is therefore modest: a Buddha image is not the Buddha and should not be presented as a verified physical replica. It can still point toward the Buddha and support recollection. For the distinct historical question about commands and image-making, see <a href=\"/learn/questions-about-buddhism/did-buddha-order-buddha-images/\">Did the Buddha Order Buddha Images?</a>"
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha educational explanation. It distinguishes the early wording of AN 1.174, the later Theravāda commentary on appaṭimo, modern art-historical evidence about Buddhist images, and Echo Buddha’s editorial synthesis.",
+    sources: [
+      {
+        label: "Aṅguttara Nikāya 1.174 — SuttaCentral",
+        href: "https://suttacentral.net/an1.174/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Supports the early textual context: appaṭimo occurs within a sequence praising the Tathāgata as unique, peerless, incomparable, matchless, and unequalled. The discourse is not used as though it discusses or prohibits Buddha statues."
+      },
+      {
+        label: "Ekapuggalavaggavaṇṇanā — Theravāda.vn",
+        href: "https://theravada.vn/13-ekapuggalavaggavannana-2/",
+        sourceType: "Theravāda commentary",
+        note: "Provides the later commentarial explanation that no bodily counterpart is truly like the Tathāgata and that human-made images, including gold and silver ones, cannot reproduce his bodily form exactly. It is not presented as an image ban."
+      },
+      {
+        label: "Buddhism and Buddhist Art — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/essays/buddhism-and-buddhist-art",
+        sourceType: "Museum / art history",
+        note: "Supports the limited art-historical account of differing human-form Buddha traditions in Gandhāra, Mathurā, and later regions. It is not used to identify one style as the Buddha’s exact portrait."
+      },
+      {
+        label: "The Art of South and Southeast Asia — The Metropolitan Museum of Art",
+        href: "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_South_and_Southeast_Asia_A_Resource_for_Educators.pdf",
+        sourceType: "Museum / art history",
+        note: "Supports the description of conventional identifying features used in Buddhist art, including the uṣṇīṣa, ūrṇā, elongated earlobes, and gestures. Conventions vary and are not treated as an exact physical record."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "Is a Buddha Image the Only Uddesika Cetiya?",
+        href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`,
+        description: "Explore the broader category of representational and intentionally established memorials."
+      },
+      {
+        label: "Did the Buddha Order Buddha Images?",
+        href: `${questionsPath}/did-buddha-order-buddha-images/`,
+        description: "Keep the separate command-and-history question distinct from appaṭimo and likeness."
+      },
+      {
+        label: "Buddhist Sources and Citations",
+        href: "/buddhist-sources-and-citations/",
+        description: "See how Echo Buddha distinguishes early texts, commentary, art history, and editorial explanation."
+      }
+    ],
+    relatedTerms: ["Appaṭimo", "Paṭimā", "Buddha image", "Representation", "Uddesika Cetiya", "AN 1.174"],
+    searchTerms: ["appaṭimo", "appatimo", "Buddha image", "Buddha statue", "exact likeness", "representation", "AN 1.174", "Theravāda commentary", "Buddhist iconography"],
+    previous: {
+      label: "Question 5: Why Was a Bodhi Tree Planted at Jetavana?",
+      href: `${questionsPath}/why-bodhi-tree-planted-at-jetavana/`
     }
   }
 ];
