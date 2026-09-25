@@ -93,7 +93,7 @@ const jsonLd = [
 
         <section aria-labelledby="short-answer-heading">
           <h2 id="short-answer-heading">Short Answer</h2>
-          {question.shortAnswer.map((paragraph) => <p>{paragraph}</p>)}
+          {question.shortAnswer.map((paragraph) => <p set:html={paragraph} />)}
         </section>
 
         {question.sections.map((section, index) => {
