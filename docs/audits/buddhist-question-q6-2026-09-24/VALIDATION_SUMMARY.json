@@ -1,7 +1,7 @@
 {
   "audit": "Controlled Q6 Buddhist Question expansion",
   "date": "2026-09-24",
-  "status": "PASS_PRE_RELEASE_VALIDATED",
+  "status": "PASS_DEPLOYED_LIVE_VERIFIED_WITH_HISTORICAL_SNAPSHOTS_PRESERVED",
   "scope": {
     "historical_expansion_1": { "date": "2026-09-02", "questions": [1, 2], "new_indexable_detail_urls": 2 },
     "historical_expansion_2": { "date": "2026-09-14", "questions": [3, 4], "new_indexable_detail_urls": 2 },
@@ -63,7 +63,37 @@
     "The SEO audit reports one indexable page with two or fewer detected inbound static links; this is a non-blocking repository-wide warning.",
     "The Metropolitan Museum of Art essay endpoint returned HTTP 429 to command-line verification after repeated research requests; browser/web research verified the source and the separate Met educator PDF returned HTTP 200."
   ],
-  "production": { "status": "PENDING" },
-  "hosted_ci": { "status": "PENDING" },
-  "validated_sha": null
+  "production": {
+    "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    "deployed_sha": "714704fabcf008a4cff3a74230bd706576c22aed",
+    "deployment_method": "OWNER_AUTHORIZED_DOCUMENTED_LOCAL_PATH_USING_EXACT_HOSTED_ARTIFACT_AFTER_GITHUB_CLOUDFLARE_SECRET_FAILURE",
+    "cloudflare_deployment_id": "2d7c4593-5a68-4976-a707-b73798ea47af",
+    "cloudflare_version_id": "14ac6fca-3e35-481d-ad51-307b35d78206",
+    "deployed_at_utc": "2026-09-25T02:29:04.519064Z",
+    "release_manifest_files": 405,
+    "release_manifest_aggregate_sha256": "91f628d8b1510f224b1b799ab703a0adaea14f76f6d449c082c4da91d0daa096",
+    "production_smoke": "PASS_14_OF_14",
+    "live_q1_q6_statuses": [200, 200, 200, 200, 200, 200],
+    "live_sitemap_urls": 155,
+    "live_search_records": 320,
+    "live_browser_validation": "PASS_21_OF_21_ZERO_CRITICAL_OR_SERIOUS",
+    "live_adsense_runtime_scripts": 0,
+    "live_manual_ad_slots": 0,
+    "live_q7_plus_routes": 0,
+    "previous_last_known_good_sha": "67d1b8e4282fd92e678ee18eae908efad8c5ff51",
+    "rollback_deployment_id": "9080964e-40c5-4758-86d0-1592a884e843",
+    "rollback_version_id": "0953eed2-d020-41e8-a2c9-9717d9173cc3"
+  },
+  "hosted_ci": {
+    "pull_request_run_id": 35959707466,
+    "release_validation": "PASS",
+    "browser_validation": "PASS",
+    "production_workflow_run_id": 36086158120,
+    "exact_sha_artifact_validation": "PASS_405_FILES",
+    "deployment": "FAILED_EMPTY_CLOUDFLARE_API_TOKEN_BEFORE_PRODUCTION_CHANGE",
+    "validated_artifact_id": 10844500294,
+    "exact_hosted_artifact_local_deployment": "PASS"
+  },
+  "validated_sha": "714704fabcf008a4cff3a74230bd706576c22aed"
 }

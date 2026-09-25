@@ -1,8 +1,16 @@
 # Controlled Q6 Buddhist Question Implementation Report
 
-Date: 2026-09-24  
-Release state: pre-release validation passed; production deployment pending  
+Date: 2026-09-24
+
+Release state: deployed and live-verified
+
 Starting `origin/main`: `67d1b8e4282fd92e678ee18eae908efad8c5ff51`
+
+Pull request: https://github.com/rmtlbandara/EchoBuddha/pull/32
+
+Implementation head: `bbbf166faf1433a6f00c6f975ee48c235fd60440`
+
+Merged and deployed SHA: `714704fabcf008a4cff3a74230bd706576c22aed`
 
 ## Authorized result
 
@@ -83,4 +91,23 @@ Validation used Node 22.23.1 and npm 10.9.8 from a clean `npm ci` installation.
 
 Validators regenerate some current-state evidence files while running. Those generated changes were restored after verification so Phase 6–13 and earlier content-audit snapshots remain historically unchanged. The new Q6 audit retains its own browser evidence.
 
-Exact-SHA merge, production deployment, rollback metadata, and live verification will be appended after release.
+PR run `35959707466` passed both hosted release validation and browser/consent validation. Production run `36086158120` revalidated the exact current `main` SHA, passed the full release suite, built the immutable artifact, and verified its 405-file manifest. Its Cloudflare step then failed before any production change because the GitHub production environment supplied an empty `CLOUDFLARE_API_TOKEN`.
+
+The release used the repository’s documented, owner-authorized emergency local path without rebuilding the artifact. The exact hosted artifact was downloaded by artifact ID `10844500294` into a clean detached worktree at merged SHA `714704fabcf008a4cff3a74230bd706576c22aed`. Manifest verification and Wrangler strict dry-run passed before deployment.
+
+Production was deployed at `2026-09-25T02:29:04.519064Z`:
+
+- Cloudflare deployment: `2d7c4593-5a68-4976-a707-b73798ea47af`
+- Cloudflare version: `14ac6fca-3e35-481d-ad51-307b35d78206`
+- Immutable release artifact: 405 files; aggregate SHA-256 `91f628d8b1510f224b1b799ab703a0adaea14f76f6d449c082c4da91d0daa096`
+- Production smoke: PASS, 14/14 checks
+- Sitemap: 155/155 URLs
+- Internal search: 320/320 records
+- Live Q1–Q6 responses: 200/200/200/200/200/200
+- Live Q6: one exact H1, self-canonical, indexable, correct publication date, Article plus BreadcrumbList schemas, no FAQPage, no AdSense runtime, and no manual ad slot
+- Live navigation: Q5 → Q6, Q6 → Q5, and no future Q6 Next-question target
+- Live homepage: exactly Q1–Q3 in the curated section; Q4–Q6 excluded
+- Live browser matrix: PASS for hub plus Q1–Q6 at all three viewports, 21/21 combinations, zero critical/serious findings
+- Unauthorized Q7+ routes in sitemap or search: 0
+
+The previous last-known-good rollback target is Git SHA `67d1b8e4282fd92e678ee18eae908efad8c5ff51`, Cloudflare deployment `9080964e-40c5-4758-86d0-1592a884e843`, version `0953eed2-d020-41e8-a2c9-9717d9173cc3`.
