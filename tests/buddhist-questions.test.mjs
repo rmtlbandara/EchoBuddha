@@ -138,7 +138,7 @@ test("hub, internal search, and sitemap discover all six question pages exactly 
     assert.match(sitemap, new RegExp(`<loc>https://echobuddha.com${escapeRegex(route)}</loc><lastmod>${releaseDates[index]}</lastmod>`));
     assert.equal(searchIndex.filter((item) => item.url === route).length, 1);
   }
-  assert.equal(searchIndex.length, 320);
+  assert.equal(searchIndex.length, 329);
 });
 
 test("homepage curates exactly the first three deeper questions in the intended journey position", () => {
@@ -184,5 +184,5 @@ test("all six question routes remain conservative Learn-detail monetization hold
       reason: "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
     });
   }
-  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 341);
+  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 350);
 });

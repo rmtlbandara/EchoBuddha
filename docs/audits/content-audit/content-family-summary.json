@@ -6,7 +6,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 794
+    "averageWords": 988
   },
   "error": {
     "total": 1,
@@ -33,7 +33,7 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1218
+    "averageWords": 1222
   },
   "article": {
     "total": 48,
@@ -82,22 +82,22 @@
     "averageWords": 2229
   },
   "learningPage": {
-    "total": 9,
-    "indexable": 9,
+    "total": 10,
+    "indexable": 10,
     "noindex": 0,
     "decisions": {
-      "Pass": 9
+      "Pass": 10
     },
-    "averageWords": 750
+    "averageWords": 766
   },
   "learningDetail": {
-    "total": 46,
-    "indexable": 46,
+    "total": 60,
+    "indexable": 60,
     "noindex": 0,
     "decisions": {
-      "Pass": 46
+      "Pass": 60
     },
-    "averageWords": 648
+    "averageWords": 778
   },
   "meditationDetail": {
     "total": 9,

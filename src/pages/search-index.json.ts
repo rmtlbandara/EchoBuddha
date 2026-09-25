@@ -7,6 +7,7 @@ import {
   resourceGroups
 } from "../data/learn";
 import { buddhistQuestions, getBuddhistQuestionPath } from "../data/buddhistQuestions";
+import { HANDBOOK_PATH, getHandbookPath, handbookPages } from "../data/handbook";
 import {
   fullArticles,
   getQuoteStoryPath,
@@ -110,6 +111,20 @@ const buddhistQuestionItems: SearchIndexItem[] = buddhistQuestions.map((question
     ...question.shortAnswer,
     ...question.sections.flatMap((section) => [section.heading, ...section.paragraphs, ...(section.points ?? [])])
   ].map((item) => stripHtml(item)).join(" ")
+}));
+
+const handbookItems: SearchIndexItem[] = handbookPages.map((page) => ({
+  title: page.title,
+  url: getHandbookPath(page),
+  type: "Handbook Chapter",
+  excerpt: page.description,
+  category: page.eyebrow,
+  section: "Buddhist Life & Practice Handbook",
+  date: page.publishedDate,
+  keywords: [page.title, ...page.searchTerms, ...page.relatedTerms],
+  content: [page.intro, page.takeaway, ...page.sections.flatMap((section) => [section.heading, ...section.paragraphs, ...(section.points ?? [])]), page.sourceNote]
+    .map((item) => stripHtml(item))
+    .join(" ")
 }));
 
 const meditationItems: SearchIndexItem[] = allMeditationPages.map((page) => ({
@@ -317,6 +332,16 @@ const hubItems: SearchIndexItem[] = [
     content: "learn Buddhist wisdom daily life Buddhism 101 dictionary Dhamma Sangha Five Precepts Dhammapada reflections sutta notes home practice beginner questions core teachings"
   },
   {
+    title: "Buddhist Life & Practice Handbook",
+    url: `${HANDBOOK_PATH}/`,
+    type: "Learning Collection",
+    excerpt: "An eight-part, source-aware guide to the Triple Gem, refuge, Theravāda traditions, Buddhist respect, and lay–monastic relationships.",
+    category: "Structured Study",
+    section: "Learn",
+    keywords: ["Buddhist handbook", "Triple Gem", "Three Jewels", "taking refuge", "Buddha refuge", "Dhamma refuge", "Sangha refuge", "Saṅgha", "devas", "stupa", "cetiya", "Bodhi tree", "lay Buddhist", "bhikkhu", "monastic community"],
+    content: handbookPages.map((page) => `${page.title} ${page.description} ${page.searchTerms.join(" ")}`).join(" ")
+  },
+  {
     title: "Buddhism 101",
     url: "/learn/buddhism-101/",
     type: "Learning Hub",
@@ -476,6 +501,7 @@ const searchIndex = [
   ...dailyReflectionItems,
   ...quoteItems,
   ...learningItems,
+  ...handbookItems,
   ...buddhistQuestionItems,
   ...meditationItems,
   faqItem,

@@ -799,6 +799,60 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
   },
+  "/learn/buddhist-handbook/": {
+    "state": "NEVER_MONETIZE",
+    "family": "LEARN_NAVIGATION",
+    "indexable": true,
+    "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
+  },
+  "/learn/buddhist-handbook/buddha-as-refuge/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/dhamma-as-refuge/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/forms-of-refuge-theravada/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/lay-sangha-relationship/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/refuge-devas-buddhist-practice/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/respecting-triple-gem/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/sangha-as-refuge/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/taking-refuge-triple-gem/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/buddhist-resources/": {
     "state": "NEVER_MONETIZE",
     "family": "LEARN_NAVIGATION",

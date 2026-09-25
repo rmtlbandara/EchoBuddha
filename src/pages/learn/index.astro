@@ -128,6 +128,18 @@ const jsonLd = [
         </div>
         <a class="button button--secondary" href="/search/">Search Echo Buddha</a>
       </div>
+      <section class="handbook-feature surface" aria-labelledby="handbook-feature-heading">
+        <picture>
+          <source srcset="/images/handbook/buddhist-handbook-journey.avif" type="image/avif" />
+          <img src="/images/handbook/buddhist-handbook-journey.webp" alt="Bodhi leaves, a manuscript, an alms bowl, and a path toward a stupa" width="1600" height="900" loading="lazy" decoding="async" />
+        </picture>
+        <div>
+          <span class="eyebrow">Structured study · 8 chapters</span>
+          <h2 id="handbook-feature-heading">Buddhist Life & Practice Handbook</h2>
+          <p>Study the Buddha, Dhamma, and Saṅgha as refuges, then explore traditional refuge categories, devas, respectful practice, and healthy lay–monastic relationships.</p>
+          <a class="button" href="/learn/buddhist-handbook/">Open the handbook</a>
+        </div>
+      </section>
       <section class="deeper-learning" aria-labelledby="deeper-learning-heading">
         <span class="eyebrow">Continue when ready</span>
         <h2 id="deeper-learning-heading">Specific Lessons Beyond the Starting Path</h2>
@@ -239,6 +251,36 @@ const jsonLd = [
     padding-top: 2rem;
   }
 
+  .handbook-feature {
+    align-items: center;
+    display: grid;
+    gap: 1.25rem 2rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .handbook-feature picture,
+  .handbook-feature img {
+    display: block;
+  }
+
+  .handbook-feature img {
+    aspect-ratio: 16 / 9;
+    border-radius: calc(var(--radius) * 0.75);
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .handbook-feature h2 {
+    font-size: 1.7rem;
+  }
+
+  .handbook-feature p {
+    color: var(--color-muted);
+  }
+
   .deeper-learning h2 {
     font-size: 1.7rem;
   }
@@ -311,6 +353,11 @@ const jsonLd = [
   }
 
   @media (min-width: 720px) {
+    .handbook-feature {
+      grid-template-columns: minmax(220px, 0.75fr) minmax(0, 1.25fr);
+      padding: 1.25rem;
+    }
+
     .learning-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
