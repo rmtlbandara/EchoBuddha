@@ -6,7 +6,7 @@
 - Immutable initial Phase 14 deployed at: `2026-08-25T05:33:01.801137Z`
 - Target production branch: `main`
 - Current authorized production commit: `d3da65308348cb5379c76271614288d14f150450`
-- Current main documentation head: `67d1b8e4282fd92e678ee18eae908efad8c5ff51`
+- Current main documentation head: `714704fabcf008a4cff3a74230bd706576c22aed`
 - Deployment platform: Cloudflare Workers static assets
 - Current deployment method: documented owner-authorized emergency local deployment recorded in `docs/deployments/2026-09-20-q5-buddhist-question.md`; GitHub Actions was blocked by account billing/spending limits.
 - Current deployment ID: `a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc`

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-21T13:58:03.091Z",
+  "generated_at": "2026-09-25T02:25:16.133Z",
   "property": "sc-domain:echobuddha.com",
   "scope": "https://www.googleapis.com/auth/webmasters.readonly",
   "data_state": "final",
-  "finalized_end_date": "2026-09-19",
+  "finalized_end_date": "2026-09-22",
   "windows": {
     "latest28": {
-      "startDate": "2026-08-23",
-      "endDate": "2026-09-19"
+      "startDate": "2026-08-26",
+      "endDate": "2026-09-22"
     },
     "previous28": {
-      "startDate": "2026-07-26",
-      "endDate": "2026-08-22"
+      "startDate": "2026-07-29",
+      "endDate": "2026-08-25"
     }
   },
   "protected_urls": 35,
@@ -19,27 +19,27 @@
     {
       "row_type": "SITE_TOTAL",
       "window": "latest28",
-      "start_date": "2026-08-23",
-      "end_date": "2026-09-19",
+      "start_date": "2026-08-26",
+      "end_date": "2026-09-22",
       "URL": "SITE",
       "protection_tier": "SITE",
-      "clicks": 35,
-      "impressions": 4111,
-      "ctr": 0.008513743614692289,
-      "position": 11.517392361955729,
+      "clicks": 38,
+      "impressions": 4203,
+      "ctr": 0.009041161075422317,
+      "position": 10.958125148703306,
       "evidence": "GSC_API_FINAL"
     },
     {
       "row_type": "SITE_TOTAL",
       "window": "previous28",
-      "start_date": "2026-07-26",
-      "end_date": "2026-08-22",
+      "start_date": "2026-07-29",
+      "end_date": "2026-08-25",
       "URL": "SITE",
       "protection_tier": "SITE",
-      "clicks": 15,
-      "impressions": 2032,
-      "ctr": 0.0073818897637795275,
-      "position": 19.143700787401574,
+      "clicks": 17,
+      "impressions": 2208,
+      "ctr": 0.007699275362318841,
+      "position": 17.97871376811594,
       "evidence": "GSC_API_FINAL"
     }
   ],
@@ -51,7 +51,7 @@
         "isPending": false,
         "isSitemapsIndex": false,
         "type": "sitemap",
-        "lastDownloaded": "2026-09-20T17:02:15.115Z",
+        "lastDownloaded": "2026-09-24T11:45:58.014Z",
         "warnings": "0",
         "errors": "0",
         "contents": [
@@ -67,7 +67,7 @@
   "redirect_inspections": [
     {
       "URL": "https://echobuddha.com/articles/how-to-practice-non-attachment/",
-      "inspected_at": "2026-09-21T13:57:48.716Z",
+      "inspected_at": "2026-09-25T02:25:02.344Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -82,7 +82,7 @@
     },
     {
       "URL": "https://echobuddha.com/articles/letting-go-without-giving-up/",
-      "inspected_at": "2026-09-21T13:57:55.795Z",
+      "inspected_at": "2026-09-25T02:25:09.248Z",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
@@ -97,7 +97,7 @@
     },
     {
       "URL": "https://echobuddha.com/terms-and-conditions/",
-      "inspected_at": "2026-09-21T13:58:03.088Z",
+      "inspected_at": "2026-09-25T02:25:16.131Z",
       "verdict": "NEUTRAL",
       "coverageState": "Redirect error",
       "robotsTxtState": "ALLOWED",

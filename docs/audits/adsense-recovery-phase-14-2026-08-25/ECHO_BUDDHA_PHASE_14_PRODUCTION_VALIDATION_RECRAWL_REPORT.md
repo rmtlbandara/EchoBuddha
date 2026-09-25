@@ -66,7 +66,7 @@ HTTP 200, canonical sitemap declaration present, no production-wide disallow, an
 
 ## 17. Sitemap
 
-The live sitemap has 154 intended canonical URLs. Search Console's latest stored sitemap state is 154 URLs from 2026-09-20T17:02:15.115Z, with zero errors or warnings; a post-current-release 154-URL refetch has been confirmed.
+The live sitemap has 154 intended canonical URLs. Search Console's latest stored sitemap state is 154 URLs from 2026-09-24T11:45:58.014Z, with zero errors or warnings; a post-current-release 154-URL refetch has been confirmed.
 
 ## 18. Noindex
 
@@ -134,7 +134,7 @@ Live directives are correct and Search Console reports 46 excluded noindex examp
 
 ## 34. Search Performance
 
-Finalized through 2026-09-19. Latest 28-day site totals are 35 clicks/4111 impressions versus 15/2032; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-09-22. Latest 28-day site totals are 38 clicks/4203 impressions versus 17/2208; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 

@@ -14,7 +14,7 @@ const initialPhase14Release = {
 };
 const currentProductionRelease = {
   commit: "d3da65308348cb5379c76271614288d14f150450",
-  documentationHead: "67d1b8e4282fd92e678ee18eae908efad8c5ff51",
+  documentationHead: "714704fabcf008a4cff3a74230bd706576c22aed",
   deploymentId: "a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc",
   versionId: "7bfce8b0-2df8-42db-b5fe-f5ee45790db5",
   deployedAt: "2026-09-20T13:01:23.364839Z",
@@ -495,6 +495,7 @@ PHASE_15_GATE = ${materialGoogleConvergence ? "OPEN" : "BLOCKED_PENDING_MATERIAL
 
 - Production smoke: 14/14 PASS.
 - Current authorized production release validation: PASS; later repository-only changes are not treated as deployed production evidence.
+- Repository boundary: current \`origin/main\` includes the Q6 pre-release merge, but Q6 returns 404 in production and is absent from the live sitemap and search index; it is excluded from the 349-row production contract.
 - Phase 14 artifact validation: PASS.
 - Complete production contract: ${indexRows.length - contractFailures.length}/${indexRows.length} PASS.
 - Authorized successor additions: ${successorRows.filter(contractCheck).length}/${authorizedSuccessorUrls.length} PASS.

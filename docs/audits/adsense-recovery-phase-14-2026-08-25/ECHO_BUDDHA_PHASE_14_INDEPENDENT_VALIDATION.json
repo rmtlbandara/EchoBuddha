@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:14:58.984Z",
+  "generated_at": "2026-09-25T02:26:15.833Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
   "deployed_commit": "d3da65308348cb5379c76271614288d14f150450",
@@ -113,7 +113,7 @@
       "name": "sitemap postdeploy refetch",
       "pass": true,
       "expected_hold": false,
-      "evidence": "refetched 2026-09-20T17:02:15.115Z; 154 submitted URLs"
+      "evidence": "refetched 2026-09-24T11:45:58.014Z; 154 submitted URLs"
     },
     {
       "name": "priority URL postdeploy processing",
