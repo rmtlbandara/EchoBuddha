@@ -122,6 +122,12 @@ test("all six question pages resolve with truthful dates, canonical Article meta
   assert.doesNotMatch(detailTemplate, /publishedDate="2026-09-02"|modifiedDate="2026-09-02"|datePublished: "2026-09-02"|dateModified: "2026-09-02"/);
 });
 
+test("question short answers render trusted inline emphasis instead of escaped HTML", () => {
+  const q6Html = read("dist/learn/questions-about-buddhism/appatimo-and-buddha-images/index.html");
+  assert.match(q6Html, /In AN 1\.174, <i>appaṭimo<\/i> appears with several terms/);
+  assert.doesNotMatch(q6Html, /&lt;i&gt;appaṭimo&lt;\/i&gt;/);
+});
+
 test("hub, internal search, and sitemap discover all six question pages exactly once", () => {
   const hub = read("dist/learn/questions-about-buddhism/index.html");
   const sitemap = read("dist/sitemap.xml");
