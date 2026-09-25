@@ -12,6 +12,22 @@ Echo Buddha article imagery uses a quiet contemporary Buddhist editorial languag
 - Keep important subjects in the central safe area for 16:9, 4:3, and 1:1 crops. The image must remain meaningful at a 320 px mobile-card size.
 - Do not place headlines, category labels, dates, CTAs, fake writing, or branding inside artwork.
 
+## What an Echo Buddha image should feel like
+
+The image should connect Buddhist wisdom with a recognizable human moment: learning at a table, pausing before speech, carrying care to a neighbor, tending a shared space, moving through work, or noticing change. It should be compassionate and grounded without advertising enlightenment. Quiet does not mean vacant; every image needs an editorial idea that a reader can grasp at thumbnail size.
+
+Use three complementary editorial modes across the collection:
+
+- **Learn:** books, teaching materials, study rooms, careful comparison, or a concrete visual model. Keep every visible page blank unless genuine source text is essential and verified.
+- **Practice:** ordinary actions, ethical choices, meditation supports, work, walking, listening, and repeatable routines.
+- **Reflect:** change, release, steadiness, attention, and consequence expressed through tactile processes rather than generic scenery.
+
+The library should represent Buddhism as a living global tradition and a practical source of wisdom. Include varied ages, appearances, homes, workplaces, community spaces, and climates without turning any identity or tradition into visual shorthand.
+
+## Anti-AI and anti-cliche gate
+
+Reject or rework an image when it relies on cinematic gold light, anonymous mountains, lone silhouettes, excessive mist, floating objects, glowing halos, symmetrical spiritual spectacle, plastic surfaces, duplicated features, malformed hands, invented text, or the same composition already used elsewhere. A natural landscape is valid only when the landscape itself explains the article concept. Photorealism is not enough: the scene must feel observed, plausible, and editorially specific.
+
 ## Religious and cultural treatment
 
 Prefer human-life and natural metaphors when historical or ritual accuracy is not essential. Do not use Buddha heads as decoration, distorted sacred figures, accidental mudras, invented Pali or Sanskrit, sacred objects underfoot, mixed architectural traditions, fantasy monks, halos, or tourist-poster spectacle. Temple and manuscript scenes require plausible materials and respectful placement.
@@ -88,4 +104,4 @@ NEGATIVE REQUIREMENTS: no text, watermark, anatomy errors, fake script, glossy 3
 4. Inspect built HTML for fallback `src`, `srcset`, `sizes`, alt text, canonical, OG/Twitter image, robots metadata, and Article image URLs.
 5. Confirm every referenced image returns 200 with the expected MIME type and dimensions.
 6. Deploy only the exact validated commit through the protected production workflow, then run production smoke and manually verify representative mobile and desktop pages.
-
+7. Classify every reviewed image as KEEP, REFINE, RECOMPOSE, REGENERATE, or TECHNICAL FIX ONLY. Regeneration is a last resort; preserve strong work when a focused edit or new composition can solve the problem.

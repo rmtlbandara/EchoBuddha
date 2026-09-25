@@ -2522,7 +2522,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "6 min read",
     thumbnail: "/images/articles/compassion-with-boundaries.webp",
-    imageAlt: "Two warm lanterns beside an open garden gate, representing compassion with clear boundaries",
+    imageAlt: "A warm drink and note on one side of a translucent room divider, suggesting care with clear boundaries",
     tags: ["Compassion", "Boundaries", "Brahmaviharas"],
     relatedSlugs: ["compassion-as-a-daily-discipline", "compassion-in-buddhism-beginner-guide", "buddhist-approach-to-anger"],
     content: [
@@ -2652,7 +2652,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "7 min read",
     thumbnail: "/images/articles/visiting-a-buddhist-temple-respectfully.webp",
-    imageAlt: "A pair of shoes placed neatly outside the open entrance of a Buddhist temple",
+    imageAlt: "Shoes arranged on a rack as a visitor steps in socks onto a plain temple entrance mat",
     tags: ["Sangha", "Buddhist community", "temple visit"],
     relatedSlugs: ["what-is-sangha-buddhist-community", "what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide"],
     content: [
@@ -2703,7 +2703,7 @@ export const articles: Article[] = [
     category: "Practice",
     readTime: "7 min read",
     thumbnail: "/images/articles/first-week-buddhist-practice.webp",
-    imageAlt: "Seven stepping stones leading from a meditation cushion toward an open path",
+    imageAlt: "Seven blank practice cards arranged beside a cushion, cup, book, and walking shoes",
     tags: ["Buddhism for beginners", "daily Buddhist practice", "first week practice"],
     relatedSlugs: ["buddhism-for-beginners-simple-guide", "what-is-buddhism-beginner-guide", "right-speech-buddhism"],
     content: [
@@ -2754,7 +2754,7 @@ export const articles: Article[] = [
     category: "Reflection",
     readTime: "7 min read",
     thumbnail: "/images/articles/how-to-practice-non-attachment.webp",
-    imageAlt: "Two open hands holding a loose thread, representing connection without clinging",
+    imageAlt: "Two friends walking side by side with comfortable space between them on a city sidewalk",
     tags: ["non-attachment", "relationships", "letting go"],
     relatedSlugs: ["how-to-let-go-of-attachment-in-buddhism", "impermanence-in-buddhism", "compassion-with-boundaries"],
     content: [
@@ -2927,7 +2927,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "7 min read",
     thumbnail: "/images/articles/what-is-buddhism-beginner-guide.webp",
-    imageAlt: "A study table with lamps, a bowl, and a blank path map for beginning Buddhist study",
+    imageAlt: "An open book, plain journal, tea cup, and meditation cushion in a calm learning room",
     featured: true,
     tags: ["Buddhism for beginners", "Buddhist wisdom", "mindful living"],
     relatedSlugs: ["buddhism-for-beginners-simple-guide", "four-noble-truths-explained-simply", "noble-eightfold-path-practical-guide"],
@@ -2999,7 +2999,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "7 min read",
     thumbnail: "/images/articles/four-noble-truths-explained-simply.webp",
-    imageAlt: "A hand removing an obstacle from a path, representing understanding and release",
+    imageAlt: "Four low stepping blocks leading from scattered pebbles toward a clear doorway",
     featured: true,
     tags: ["Four Noble Truths", "Buddhist teachings", "suffering"],
     relatedSlugs: ["what-is-buddhism-beginner-guide", "noble-eightfold-path-practical-guide", "how-to-let-go-of-attachment-in-buddhism"],
@@ -3071,7 +3071,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "8 min read",
     thumbnail: "/images/articles/noble-eightfold-path-practical-guide.webp",
-    imageAlt: "Eight stone markers connecting home, work, and quiet space along one path",
+    imageAlt: "Eight stone pavers crossing an urban courtyard between a bicycle rack, doorway, and plants",
     featured: true,
     tags: ["Eightfold Path", "Buddhist practice", "daily life"],
     relatedSlugs: ["four-noble-truths-explained-simply", "right-speech-buddhism", "beginning-a-daily-mindfulness-practice"],
@@ -3158,7 +3158,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "7 min read",
     thumbnail: "/images/articles/impermanence-in-buddhism-letting-go.webp",
-    imageAlt: "A sand pattern being softened by a small incoming wave, representing impermanence",
+    imageAlt: "A wave gradually erasing a simple circle drawn in wet sand on an overcast shore",
     featured: true,
     tags: ["impermanence", "letting go", "Buddhist wisdom"],
     relatedSlugs: ["buddhist-teachings-on-impermanence", "how-to-let-go-of-attachment-in-buddhism", "non-attachment-in-relationships"],
@@ -3229,7 +3229,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "7 min read",
     thumbnail: "/images/articles/compassion-in-buddhism-beginner-guide.webp",
-    imageAlt: "A woman offering a warm drink and blanket to a seated man",
+    imageAlt: "A community kitchen worker setting down a warm bowl for a seated guest",
     featured: true,
     tags: ["compassion", "karuna", "Buddhist practice"],
     relatedSlugs: ["compassion-as-a-daily-discipline", "loving-kindness-meditation-guide", "buddhist-teachings-on-forgiveness"],
@@ -3300,7 +3300,7 @@ export const articles: Article[] = [
     category: "Meditation",
     readTime: "7 min read",
     thumbnail: "/images/articles/how-to-meditate-for-beginners.webp",
-    imageAlt: "A meditation cushion, folded support, and timer bowl in a quiet room",
+    imageAlt: "A supported meditation cushion, folded blanket, and small bowl in a quiet room",
     featured: true,
     tags: ["meditation for beginners", "Buddhist meditation", "mindfulness"],
     relatedSlugs: ["mindfulness-of-breathing-guide", "beginning-a-daily-mindfulness-practice", "how-to-meditate-for-anxiety"],
@@ -3514,7 +3514,7 @@ export const articles: Article[] = [
     category: "Reflection",
     readTime: "7 min read",
     thumbnail: "/images/articles/dhammapada-reflection-what-we-think.webp",
-    imageAlt: "A blank journal beside a still pool reflecting clear sky and cloud",
+    imageAlt: "A clear glass casting changing light and shadow across blank paper",
     featured: true,
     tags: ["Dhammapada reflection", "Buddhist quotes", "mind training", "Buddha quote attribution"],
     relatedSlugs: ["dhammapada-verse-1-meaning", "dhammapada-reflection-trained-mind", "what-is-karma-in-buddhism", "right-speech-buddhism"],
@@ -3601,7 +3601,7 @@ export const articles: Article[] = [
     category: "Reflection",
     readTime: "7 min read",
     thumbnail: "/images/articles/dhammapada-reflection-trained-mind.webp",
-    imageAlt: "A young tree supported by garden ties as it grows in the wind",
+    imageAlt: "Clay and handmade bowls at successive stages of shaping on a potter's workbench",
     featured: true,
     tags: ["Dhammapada reflection", "trained mind", "inner peace"],
     relatedSlugs: ["dhammapada-reflection-what-we-think", "mindfulness-of-breathing-guide", "how-to-meditate-for-beginners"],
@@ -3672,7 +3672,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "8 min read",
     thumbnail: "/images/articles/buddhism-for-beginners-simple-guide.webp",
-    imageAlt: "An open garden gate leading to a welcoming path with books and a resting bench",
+    imageAlt: "A blank open book on a round table in an airy everyday study space",
     featured: true,
     tags: ["Buddhism for beginners", "Buddhist teachings", "Four Noble Truths"],
     content: [
@@ -3721,7 +3721,7 @@ export const articles: Article[] = [
     category: "Meditation",
     readTime: "7 min read",
     thumbnail: "/images/articles/how-to-meditate-for-anxiety.webp",
-    imageAlt: "A comfortable chair, woven rug, and warm cup beside a gently moving curtain",
+    imageAlt: "A chair and cup beside a moving curtain with a modest green courtyard beyond",
     featured: true,
     tags: ["meditation for anxiety", "mindful breathing", "grounding practice"],
     content: [
@@ -3770,7 +3770,7 @@ export const articles: Article[] = [
     category: "Meditation",
     readTime: "7 min read",
     thumbnail: "/images/articles/loving-kindness-meditation-beginners.webp",
-    imageAlt: "A woman holding a warm cup while another cup waits across a small table",
+    imageAlt: "Five handmade cups arranged in widening circles around one central cup",
     featured: true,
     tags: ["loving-kindness meditation", "metta meditation", "self-compassion"],
     content: [
@@ -3819,7 +3819,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "9 min read",
     thumbnail: "/images/articles/eightfold-path-explained-daily-life.webp",
-    imageAlt: "Eight everyday objects placed along a path between home and work",
+    imageAlt: "A bag, keys, cup, book, and cushion gathered in an ordinary home entryway",
     tags: ["Noble Eightfold Path", "Buddhist teachings", "daily Buddhist practice"],
     content: [
       {
@@ -3867,7 +3867,7 @@ export const articles: Article[] = [
     category: "Mindfulness",
     readTime: "6 min read",
     thumbnail: "/images/articles/mindfulness-morning-routine.webp",
-    imageAlt: "A morning table with a cup, closed phone, journal, and fresh leaf",
+    imageAlt: "A person opening the morning curtain beside breakfast, water, a journal, and a face-down phone",
     tags: ["mindful morning routine", "morning meditation", "daily mindfulness"],
     content: [
       {
@@ -3963,7 +3963,7 @@ export const articles: Article[] = [
     category: "Meditation",
     readTime: "7 min read",
     thumbnail: "/images/articles/walking-meditation-step-by-step.webp",
-    imageAlt: "Measured bare footsteps moving along a clean shaded garden path",
+    imageAlt: "Bare feet taking a measured step along a quiet covered corridor",
     tags: ["walking meditation", "mindful walking", "meditation for beginners"],
     content: [
       {
@@ -4176,7 +4176,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "6 min read",
     thumbnail: "/images/articles/compassion-as-a-daily-discipline.webp",
-    imageAlt: "Two hands tending a small seedling with a modest watering cup",
+    imageAlt: "A grocery bag and covered food container left with care beside an apartment door",
     featured: true,
     tags: ["compassion", "ethics", "kindness"],
     content: [
@@ -4273,7 +4273,7 @@ export const articles: Article[] = [
     category: "Mindfulness",
     readTime: "5 min read",
     thumbnail: "/images/articles/mindful-listening-in-everyday-life.webp",
-    imageAlt: "Two adults in quiet conversation, one speaking while the other listens attentively",
+    imageAlt: "Two adults at a kitchen table, one listening attentively while the other speaks",
     tags: ["listening", "mindfulness", "relationships"],
     content: [
       {
@@ -4462,7 +4462,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "9 min read",
     thumbnail: "/images/articles/four-noble-truths-explained.webp",
-    imageAlt: "Four river stones forming a crossing from turbulent water toward a calm bank",
+    imageAlt: "A natural-fiber cord shown in four stages from tight knots to a straight usable line",
     featured: true,
     tags: ["Four Noble Truths explained", "Buddhist teachings", "dukkha", "Buddhism for beginners"],
     relatedSlugs: [
@@ -4554,7 +4554,7 @@ export const articles: Article[] = [
     category: "Mindfulness",
     readTime: "8 min read",
     thumbnail: "/images/articles/mindfulness-vs-meditation.webp",
-    imageAlt: "A person walking mindfully outside beside a quiet indoor meditation cushion",
+    imageAlt: "A person mindfully washing a cup while an unused meditation cushion rests nearby",
     featured: true,
     tags: ["mindfulness vs meditation", "meditation for beginners", "daily mindfulness", "breathing practice"],
     relatedSlugs: [
@@ -4855,7 +4855,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "9 min read",
     thumbnail: "/images/articles/eightfold-path-explained.webp",
-    imageAlt: "One path passing through a study grove, bridge, and quiet hills",
+    imageAlt: "Eight colored natural-fiber strands braided into one strong cord",
     featured: true,
     tags: ["eightfold path explained", "Noble Eightfold Path", "Buddhism for beginners", "Right Speech", "Buddhist practice"],
     relatedSlugs: [
@@ -4939,7 +4939,7 @@ export const articles: Article[] = [
     category: "Reflection",
     readTime: "11 min read",
     thumbnail: "/images/articles/how-to-let-go-of-attachment-in-buddhism.webp",
-    imageAlt: "A person releasing a seedpod into flowing water while keeping a walking staff",
+    imageAlt: "An open keepsake box with photographs and a loose ribbon beside a moving curtain",
     featured: true,
     tags: ["buddhist attachment", "how to let go of attachment", "letting go", "non-attachment", "mindfulness"],
     relatedSlugs: [
@@ -5038,7 +5038,7 @@ export const articles: Article[] = [
     category: "Practice",
     readTime: "9 min read",
     thumbnail: "/images/articles/right-speech-buddhism.webp",
-    imageAlt: "Two adults pausing and listening during a respectful conversation",
+    imageAlt: "Two colleagues pausing for a thoughtful, respectful conversation at a work table",
     featured: true,
     tags: ["right speech buddhism", "mindful communication", "Buddhist ethics", "kind speech", "listening"],
     relatedSlugs: [
@@ -5238,7 +5238,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "9 min read",
     thumbnail: "/images/articles/impermanence-in-buddhism.webp",
-    imageAlt: "A branch holding green, golden, falling, and weathered leaves through changing seasons",
+    imageAlt: "Linen cloths at different drying stages moving on a courtyard line",
     featured: true,
     tags: ["impermanence in Buddhism", "buddhist impermanence", "anicca", "accepting change", "letting go"],
     relatedSlugs: [
@@ -5396,7 +5396,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "8 min read",
     thumbnail: "/images/articles/equanimity-in-buddhism.webp",
-    imageAlt: "A still bowl of water reflecting sunlight and rain, representing equanimity amid change",
+    imageAlt: "A protected lamp remaining steady on a balcony through rain and clearing weather",
     tags: ["equanimity", "upekkha", "Buddhist wisdom", "emotional balance"],
     relatedSlugs: ["compassion-in-buddhism-beginner-guide", "impermanence-in-buddhism", "three-ways-to-practice-patience"],
     content: [
@@ -5469,7 +5469,7 @@ export const articles: Article[] = [
     category: "Practice",
     readTime: "10 min read",
     thumbnail: "/images/articles/five-precepts-in-daily-life.webp",
-    imageAlt: "Five handmade lamps marking a garden path, representing ethical training that protects trust",
+    imageAlt: "Five wooden supports standing around a healthy young plant in a community garden",
     tags: ["Five Precepts", "Buddhist ethics", "sila", "daily practice"],
     relatedSlugs: ["right-speech-buddhism", "three-poisons-buddhism-explained", "what-is-karma-in-buddhism", "noble-eightfold-path-practical-guide"],
     content: [
@@ -5656,7 +5656,7 @@ export const articles: Article[] = [
     category: "Buddhist Wisdom",
     readTime: "8 min read",
     thumbnail: "/images/articles/what-is-sangha-buddhist-community.webp",
-    imageAlt: "A respectful circle of varied figures around a shared lamp, symbolizing Buddhist community",
+    imageAlt: "Six adults of varied ages and backgrounds listening together around a shared table",
     tags: ["Sangha", "Buddhist community", "wise friendship", "Buddhism for beginners"],
     relatedSlugs: ["visiting-a-buddhist-temple-respectfully", "what-is-buddhism-beginner-guide", "buddhism-for-beginners-simple-guide", "mindful-listening-in-everyday-life"],
     content: [
