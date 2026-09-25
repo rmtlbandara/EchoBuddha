@@ -1375,7 +1375,7 @@
     "title": "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life",
     "description": "Explore simple Buddhist teachings, daily reflections, quote meanings, beginner meditation guides, and mindfulness practices for a calmer everyday life.",
     "canonical": "https://echobuddha.com/",
-    "words": 794,
+    "words": 988,
     "h1Count": 1,
     "schemaTypes": [
       "WebSite",
@@ -1906,6 +1906,132 @@
     ]
   },
   {
+    "path": "/learn/buddhist-handbook/buddha-as-refuge/",
+    "type": "learning",
+    "noindex": false,
+    "title": "The Buddha as Refuge: Meaning and Practice | Echo Buddha",
+    "description": "Learn what taking refuge in the Buddha means, how recollection works, and how early teachings differ from later Theravāda devotional traditions.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+    "words": 1026,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/dhamma-as-refuge/",
+    "type": "learning",
+    "noindex": false,
+    "title": "The Dhamma as Refuge: Teaching, Practice, and Realization | Echo Buddha",
+    "description": "Understand the Dhamma as teaching, practice, and realization, including the Tipiṭaka, paths and fruits, Nibbāna, and source-aware study.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+    "words": 951,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/forms-of-refuge-theravada/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Four Forms of Refuge in Theravāda Buddhism | Echo Buddha",
+    "description": "Explore mundane and supramundane refuge, four traditional forms of commitment, and what strengthens, weakens, or breaks refuge.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+    "words": 943,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/",
+    "type": "learningHub",
+    "noindex": false,
+    "title": "Buddhist Life &amp; Practice Handbook | Echo Buddha",
+    "description": "A source-aware eight-part guide to the Triple Gem, taking refuge, Theravāda traditions, devas, Buddhist respect, and lay–monastic relationships.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/",
+    "words": 607,
+    "h1Count": 1,
+    "schemaTypes": [
+      "CollectionPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/lay-sangha-relationship/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Lay Buddhists and the Monastic Saṅgha: Support and Boundaries | Echo Buddha",
+    "description": "Learn how laypeople and monastics support one another, maintain healthy boundaries, respond to misconduct, and understand AN 8.88.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+    "words": 921,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Buddhist Refuge, Devas, and Sri Lankan Practice | Echo Buddha",
+    "description": "Understand how devas and regional devotional customs relate to Buddhist refuge, with careful attention to Theravāda teaching and Sri Lankan practice.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+    "words": 960,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/respecting-triple-gem/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Respecting the Buddha, Dhamma, and Saṅgha | Echo Buddha",
+    "description": "Practical, source-aware guidance on respecting the Buddha, Dhamma, Saṅgha, shrines, books, Bodhi trees, temple spaces, and offerings.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+    "words": 934,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/sangha-as-refuge/",
+    "type": "learning",
+    "noindex": false,
+    "title": "The Saṅgha as Refuge: Noble and Monastic Communities | Echo Buddha",
+    "description": "Learn the difference between the Noble Saṅgha, the monastic Saṅgha, and wider Buddhist community, including the four pairs and eight individuals.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+    "words": 998,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/buddhist-handbook/taking-refuge-triple-gem/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Taking Refuge in the Triple Gem: A Practical Guide | Echo Buddha",
+    "description": "A practical guide to taking refuge in the Buddha, Dhamma, and Saṅgha, including the formula, intention, ethics, and daily-life meaning.",
+    "canonical": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+    "words": 948,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
     "path": "/learn/buddhist-resources/",
     "type": "learningHub",
     "noindex": false,
@@ -2038,10 +2164,38 @@
     "title": "Learn Buddhist Wisdom for Daily Life | Echo Buddha",
     "description": "Explore Echo Buddha",
     "canonical": "https://echobuddha.com/learn/",
-    "words": 486,
+    "words": 518,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    "type": "learning",
+    "noindex": false,
+    "title": "What Does Appaṭimo Mean for Buddha Images? | Echo Buddha",
+    "description": "Does appaṭimo mean Buddha images are invalid? Explore AN 1.174, Theravāda commentary, the limits of exact likeness, and how Buddha images function as representations.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    "words": 1562,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Did the Buddha Order Buddha Images? | Echo Buddha",
+    "description": "Did the Buddha tell followers to make or venerate Buddha images? Explore early texts, relic and stupa traditions, later Theravāda commentary, and Buddhist art history.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    "words": 1490,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
       "BreadcrumbList"
     ]
   },
@@ -2052,10 +2206,66 @@
     "title": "Questions About Buddhism | Echo Buddha",
     "description": "Beginner-friendly answers to common questions about Buddhism, meditation, suffering, compassion, attachment, and home practice.",
     "canonical": "https://echobuddha.com/learn/questions-about-buddhism/",
-    "words": 1126,
+    "words": 1425,
     "h1Count": 1,
     "schemaTypes": [
       "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Is a Buddha Image the Only Uddesika Cetiya? | Echo Buddha",
+    "description": "Is Uddesika Cetiya limited to Buddha statues? Explore Theravāda memorial traditions, sand-stupa stories in the Apadāna, and the role of intention and representation.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    "words": 1482,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+    "type": "learning",
+    "noindex": false,
+    "title": "How Is the Buddha Honored After Parinibbāna? | Echo Buddha",
+    "description": "Learn how Buddhists honor the Buddha after Parinibbāna through recollection, relics, stupas, Bodhi traditions, images, offerings, and Dhamma practice.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+    "words": 1387,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Why Was a Bodhi Tree Planted at Jetavana? | Echo Buddha",
+    "description": "Why was a Bodhi tree chosen at Jetavana when other places and objects were associated with the Buddha? Explore Ja 479, awakening, Pāribhogika Cetiya, and historical context.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+    "words": 1738,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+    "type": "learning",
+    "noindex": false,
+    "title": "Why Didn’t the Buddha Ask for a Statue at Jetavana? | Echo Buddha",
+    "description": "Why did the Jetavana tradition use a Bodhi tree rather than a Buddha statue? Explore what the Kāliṅgabodhi Jātaka actually says, what it does not say, and why silence is not a prohibition.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+    "words": 1526,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
       "BreadcrumbList"
     ]
   },

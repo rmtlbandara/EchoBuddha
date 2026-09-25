@@ -5,6 +5,7 @@ import {
   learningSections
 } from "../data/learn";
 import { buddhistQuestions, getBuddhistQuestionPath } from "../data/buddhistQuestions";
+import { getHandbookPath, handbookPages } from "../data/handbook";
 import {
   SITE,
   articleCategories,
@@ -43,6 +44,7 @@ const staticPaths: SitemapEntry[] = [
   { path: "/learn/eightfold-path/" },
   { path: "/learn/questions-about-buddhism/" },
   { path: "/learn/buddhist-resources/" },
+  { path: "/learn/buddhist-handbook/", lastmod: "2026-09-25" },
   { path: "/daily-reflections/" },
   { path: "/mindful-living/" },
   { path: "/tools/" },
@@ -93,6 +95,10 @@ export const GET: APIRoute = () => {
     path: getBuddhistQuestionPath(question),
     lastmod: question.modifiedDate
   }));
+  const handbookPaths: SitemapEntry[] = handbookPages.map((page) => ({
+    path: getHandbookPath(page),
+    lastmod: page.modifiedDate
+  }));
   const meditationPagePaths: SitemapEntry[] = allMeditationPages.map((page) => ({
     path: `/meditation/${page.slug}/`
   }));
@@ -105,6 +111,7 @@ export const GET: APIRoute = () => {
     ...learningSectionPaths,
     ...learningPagePaths,
     ...buddhistQuestionPaths,
+    ...handbookPaths,
     ...meditationPagePaths,
     ...articlePaths,
     ...articleCategoryPaths,

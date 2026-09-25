@@ -1,0 +1,145 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
+import { getBreadcrumbJsonLd } from "../../../data/learn";
+import {
+  HANDBOOK_IMAGE,
+  HANDBOOK_IMAGE_HEIGHT,
+  HANDBOOK_IMAGE_WIDTH,
+  HANDBOOK_PATH,
+  getHandbookPath,
+  getHandbookReadTime,
+  handbookPages
+} from "../../../data/handbook";
+import { SITE } from "../../../data/site";
+
+const title = "Buddhist Life & Practice Handbook";
+const description = "A source-aware eight-part guide to the Triple Gem, taking refuge, Theravāda traditions, devas, Buddhist respect, and lay–monastic relationships.";
+const canonicalPath = `${HANDBOOK_PATH}/`;
+const breadcrumbs = [
+  { name: "Home", href: "/" },
+  { name: "Learn", href: "/learn/" },
+  { name: title, href: canonicalPath }
+];
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: `${SITE.url}${canonicalPath}`,
+    isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: handbookPages.length,
+      itemListElement: handbookPages.map((page, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: page.title,
+        url: `${SITE.url}${getHandbookPath(page)}`
+      }))
+    }
+  },
+  getBreadcrumbJsonLd(breadcrumbs)
+];
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} image={HANDBOOK_IMAGE} jsonLd={jsonLd}>
+  <header class="page-hero handbook-hero">
+    <div class="container handbook-hero__grid">
+      <div class="prose">
+        <Breadcrumbs items={breadcrumbs.map((item, index) => ({ label: item.name, href: index < breadcrumbs.length - 1 ? item.href : undefined }))} />
+        <span class="eyebrow">Structured study · 8 chapters</span>
+        <h1>Buddhist Life & Practice Handbook</h1>
+        <p class="lede">Follow the Triple Gem from meaning to lived practice, with early discourses, later Theravāda explanations, and Sri Lankan customs clearly identified rather than blended together.</p>
+        <a class="button" href={getHandbookPath(handbookPages[0])}>Begin with the Buddha as refuge</a>
+      </div>
+      <picture class="handbook-hero__visual">
+        <source srcset="/images/handbook/buddhist-handbook-journey.avif" type="image/avif" />
+        <img src={HANDBOOK_IMAGE} alt="Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn" width={HANDBOOK_IMAGE_WIDTH} height={HANDBOOK_IMAGE_HEIGHT} loading="eager" decoding="async" fetchpriority="high" />
+      </picture>
+    </div>
+  </header>
+
+  <section class="section section--tight" aria-labelledby="handbook-scope-heading">
+    <div class="container scope-grid">
+      <div class="prose">
+        <span class="eyebrow">How to use this handbook</span>
+        <h2 id="handbook-scope-heading">One Sequence, Clearly Sourced</h2>
+        <p>This collection expands the concise <a href="/learn/buddhism-101/the-three-jewels-explained/">Three Jewels lesson</a>. Read in order for a progressive course, or open the chapter that matches your question.</p>
+        <p>Claims are labelled by source layer. Early-discourse material is distinguished from later Theravāda manuals and commentary, regional custom, academic history, and stories whose provenance could not be verified.</p>
+      </div>
+      <aside class="surface scope-note">
+        <strong>Editorial boundary</strong>
+        <p>This is educational material, not a declaration that every Buddhist school or community uses the same categories. Pāli terms are explained in context, and extraordinary claims are not presented as modern historical proof.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-band" aria-labelledby="chapters-heading">
+    <div class="container">
+      <div class="section-intro prose">
+        <span class="eyebrow">The complete path</span>
+        <h2 id="chapters-heading">Eight Chapters</h2>
+        <p>Chapters 1–3 explain the Three Jewels, 4–6 examine refuge in practice, and 7–8 bring that orientation into temples and community life.</p>
+      </div>
+      <ol class="chapter-grid">
+        {handbookPages.map((page) => (
+          <li class="surface chapter-card">
+            <span class="chapter-number">{String(page.number).padStart(2, "0")}</span>
+            <div>
+              <h3><a href={getHandbookPath(page)}>{page.title}</a></h3>
+              <p>{page.description}</p>
+              <span class="chapter-meta">{getHandbookReadTime(page)}</span>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="pathways-heading">
+    <div class="container">
+      <span class="eyebrow">Choose by experience</span>
+      <h2 id="pathways-heading">Beginner and Deeper-Study Pathways</h2>
+      <div class="pathway-grid">
+        <section class="surface pathway-card">
+          <h3>New to the Triple Gem?</h3>
+          <p>Read chapters 1–4, then connect refuge with ethical training.</p>
+          <a href={getHandbookPath(handbookPages[0])}>Start the four-chapter foundation</a>
+          <a href="/learn/buddhism-101/five-precepts-buddhism/">Continue to the Five Precepts</a>
+        </section>
+        <section class="surface pathway-card">
+          <h3>Studying Theravāda practice?</h3>
+          <p>Use chapters 5–8 for refuge categories, cultural context, respect, and community accountability.</p>
+          <a href={getHandbookPath(handbookPages[4])}>Start with forms of refuge</a>
+          <a href="/buddhist-sources-and-citations/">Review the source method</a>
+        </section>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .handbook-hero { background: linear-gradient(135deg, rgba(240, 232, 211, 0.72), rgba(231, 240, 229, 0.54)); }
+  .handbook-hero__grid { align-items: center; display: grid; gap: clamp(2rem, 5vw, 4.5rem); }
+  .handbook-hero__visual { display: block; }
+  .handbook-hero__visual img { aspect-ratio: 16 / 9; border: 1px solid var(--color-line); border-radius: calc(var(--radius) * 1.5); box-shadow: var(--shadow-soft); display: block; height: auto; object-fit: cover; width: 100%; }
+  .scope-grid, .pathway-grid { display: grid; gap: 1.25rem 2.5rem; }
+  .scope-note, .pathway-card { padding: 1.4rem; }
+  .scope-note p:last-child, .pathway-card p:last-of-type { margin-bottom: 0; }
+  .chapter-grid { display: grid; gap: 1rem; list-style: none; margin: 2rem 0 0; padding: 0; }
+  .chapter-card { display: grid; gap: 1rem; grid-template-columns: auto 1fr; padding: 1.35rem; }
+  .chapter-number { color: var(--color-gold-dark, #75531f); font-family: var(--font-display); font-size: 1.45rem; font-weight: 800; }
+  .chapter-card h3 { font-size: 1.35rem; margin: 0 0 0.45rem; }
+  .chapter-card p { color: var(--color-muted); margin: 0; }
+  .chapter-meta { color: var(--color-muted); display: inline-block; font-size: 0.9rem; margin-top: 0.7rem; }
+  .pathway-card { display: grid; gap: 0.6rem; }
+  .pathway-card h3 { margin: 0; }
+  .pathway-card a { font-weight: 800; }
+  @media (min-width: 760px) {
+    .handbook-hero__grid { grid-template-columns: minmax(0, 0.95fr) minmax(340px, 1.05fr); }
+    .scope-grid { align-items: start; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.55fr); }
+    .chapter-grid, .pathway-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>

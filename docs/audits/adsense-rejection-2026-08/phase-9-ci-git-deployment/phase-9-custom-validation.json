@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:19:33.361Z",
+  "generatedAt": "2026-09-25T11:29:36.897Z",
   "totalChecks": 26,
   "passed": 26,
   "failed": 0,
@@ -21,7 +21,7 @@
       "area": "Routes",
       "name": "Every new indexable URL has complete human approval metadata",
       "pass": true,
-      "evidence": "1 new indexable URL(s); all approved"
+      "evidence": "16 new indexable URL(s); all approved"
     },
     {
       "area": "Indexability",
@@ -33,13 +33,13 @@
       "area": "Sitemap",
       "name": "Sitemap contains only current indexable self-canonical routes",
       "pass": true,
-      "evidence": "149 valid routes (193 protected baseline + 1 approved additions - 2 approved consolidations - 43 approved quote noindex decisions); 0 noindex/redirect/unknown URLs"
+      "evidence": "164 valid routes (193 protected baseline + 16 approved additions - 2 approved consolidations - 43 approved quote noindex decisions); 0 noindex/redirect/unknown URLs"
     },
     {
       "area": "Canonical",
       "name": "All public pages retain self canonicals and 404 retains none",
       "pass": true,
-      "evidence": "334 self canonicals; 404 canonical absent"
+      "evidence": "349 self canonicals; 404 canonical absent"
     },
     {
       "area": "Internal links",
@@ -57,7 +57,7 @@
       "area": "Structured data",
       "name": "JSON-LD parses and cannot fabricate people, reviewers or credentials",
       "pass": true,
-      "evidence": "333 blocks; 0 invalid/fabricated trust entities"
+      "evidence": "348 blocks; 0 invalid/fabricated trust entities"
     },
     {
       "area": "Trust",
@@ -75,7 +75,7 @@
       "area": "AdSense",
       "name": "Phase 8 no-runtime and no-manual-slot state is immutable by default",
       "pass": true,
-      "evidence": "0 runtime scripts/slots across 335 pages; exact meta + ads.txt"
+      "evidence": "0 runtime scripts/slots across 350 pages; exact meta + ads.txt"
     },
     {
       "area": "Consent",
@@ -135,7 +135,7 @@
       "area": "Runtime",
       "name": "Node, npm and lockfile reproducibility are aligned",
       "pass": true,
-      "evidence": "Node 22; npm 10; lockfile v3; npm ci"
+      "evidence": "Node 22.23.1; npm 10; lockfile v3; npm ci"
     },
     {
       "area": "Secrets",

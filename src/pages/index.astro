@@ -241,6 +241,22 @@ const homepageJsonLd = [
   </section>
 
 
+  <section class="section handbook-home" aria-labelledby="homepage-handbook-heading">
+    <div class="container handbook-home__grid">
+      <picture>
+        <source srcset="/images/handbook/buddhist-handbook-journey.avif" type="image/avif" />
+        <img src="/images/handbook/buddhist-handbook-journey.webp" alt="Bodhi leaves, a manuscript, an alms bowl, and a path toward a stupa" width="1600" height="900" loading="lazy" decoding="async" />
+      </picture>
+      <div>
+        <span class="eyebrow">New structured study · 8 chapters</span>
+        <h2 id="homepage-handbook-heading">Buddhist Life & Practice Handbook</h2>
+        <p class="lede">A source-aware course through the Triple Gem, taking refuge, Theravāda traditions, respectful practice, and the relationship between laypeople and the Saṅgha.</p>
+        <a class="button" href="/learn/buddhist-handbook/">Explore the handbook</a>
+      </div>
+    </div>
+  </section>
+
+
   <section class="section">
     <div class="container">
       <div class="section-heading">
@@ -496,6 +512,32 @@ const homepageJsonLd = [
     max-width: 46rem;
   }
 
+  .handbook-home {
+    background: linear-gradient(135deg, rgba(235, 243, 232, 0.58), rgba(247, 240, 229, 0.64));
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .handbook-home__grid {
+    align-items: center;
+    display: grid;
+    gap: 1.5rem 3rem;
+  }
+
+  .handbook-home picture,
+  .handbook-home img {
+    display: block;
+  }
+
+  .handbook-home img {
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--color-line);
+    border-radius: calc(var(--radius) * 1.25);
+    box-shadow: var(--shadow-soft);
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+  }
+
   .article-grid :global(.article-card) {
     height: 100%;
   }
@@ -683,6 +725,10 @@ const homepageJsonLd = [
   }
 
   @media (min-width: 820px) {
+    .handbook-home__grid {
+      grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
+    }
+
     .hero {
       padding: 5rem 0 3.75rem;
     }
