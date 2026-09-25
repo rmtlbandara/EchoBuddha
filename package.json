@@ -21,6 +21,8 @@
     "audit:q3q4:browser": "node scripts/validate-buddhist-questions-q3-q4-browser.mjs",
     "audit:buddhist-questions:browser": "node scripts/validate-buddhist-questions-browser.mjs",
     "audit:lighthouse": "node scripts/lighthouse-readiness.mjs",
+    "images:articles": "node scripts/generate-article-image-variants.mjs",
+    "audit:images": "node scripts/audit-article-images.mjs",
     "audit:phase8": "node scripts/validate-phase-8.mjs && node docs/audits/adsense-recovery-phase-8-2026-08-24/validate-phase-8-cookie-cutter.mjs",
     "audit:cookie-cutter": "node docs/audits/adsense-recovery-phase-8-2026-08-24/validate-phase-8-cookie-cutter.mjs",
     "audit:phase8:release": "node docs/audits/adsense-recovery-phase-8-2026-08-24/run-phase-8-release-validation.mjs",
@@ -46,7 +48,7 @@
     "audit:cornerstones": "node docs/audits/adsense-recovery-phase-6-2026-08-24/validate-phase-6-cornerstone-upgrades.mjs",
     "audit:trust": "node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs",
     "audit:historical-boundaries": "node scripts/validate-historical-snapshot-boundaries.mjs",
-    "validate": "npm run build && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
+    "validate": "npm run build && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
     "validate:release": "npm run validate && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
   },
   "dependencies": {

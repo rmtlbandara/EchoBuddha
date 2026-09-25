@@ -4,6 +4,14 @@
   "changes": [
     {
       "type": "protected-file",
+      "target": "public/_headers",
+      "approved": true,
+      "reason": "The site-wide article thumbnail modernization adds a scoped cache policy for optimized image derivatives while preserving all existing security, preview noindex, and immutable asset controls.",
+      "owner": "Echo Buddha project owner via the 2026-09-25 site-wide article thumbnail modernization and production deployment request",
+      "date": "2026-09-25"
+    },
+    {
+      "type": "protected-file",
       "target": "src/data/ads.ts",
       "approved": true,
       "reason": "Phase 10 replaces broad route permission logic with explicit independent approval, serving, Auto Ads, runtime, and manual-slot kill switches while preserving verification metadata and ads.txt identity.",

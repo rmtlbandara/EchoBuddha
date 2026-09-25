@@ -1,0 +1,40 @@
+---
+import { getArticleImageSet } from "../utils/articleImages";
+
+type Props = {
+  src: string;
+  alt: string;
+  variant?: "card" | "hero";
+  loading?: "eager" | "lazy";
+  fetchpriority?: "high" | "low" | "auto";
+};
+
+const {
+  src,
+  alt,
+  variant = "card",
+  loading = "lazy",
+  fetchpriority = "auto"
+} = Astro.props;
+const images = getArticleImageSet(src);
+const sizes = variant === "hero"
+  ? "(max-width: 760px) calc(100vw - 2rem), 780px"
+  : "(max-width: 640px) calc(100vw - 2rem), (max-width: 1100px) calc(50vw - 2rem), 480px";
+---
+
+<picture>
+  <source type="image/avif" srcset={images.avifSrcset} sizes={sizes} />
+  <source type="image/webp" srcset={images.webpSrcset} sizes={sizes} />
+  <img
+    src={images.primary}
+    srcset={images.webpSrcset}
+    sizes={sizes}
+    alt={alt}
+    width={images.width}
+    height={images.height}
+    loading={loading}
+    decoding="async"
+    fetchpriority={fetchpriority}
+  />
+</picture>
+

@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import ArticleShare from "../../components/ArticleShare.astro";
+import ArticleImage from "../../components/ArticleImage.astro";
 import QuoteCard from "../../components/QuoteCard.astro";
 import EditorialStandardsLinks from "../../components/EditorialStandardsLinks.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
@@ -22,6 +23,7 @@ import {
   PUBLISHER_SCHEMA,
   getSourceReferencesForRoute
 } from "../../data/editorialGovernance";
+import { getArticleImageSet } from "../../utils/articleImages";
 
 export function getStaticPaths() {
   return fullArticles.map((article) => ({
@@ -39,6 +41,9 @@ const formattedDate = new Intl.DateTimeFormat("en", {
 }).format(new Date(`${article.date}T00:00:00Z`));
 const articleUrl = `${SITE.url}${canonicalPath}`;
 const articleImageUrl = new URL(article.thumbnail, SITE.url).toString();
+const articleImages = getArticleImageSet(article.thumbnail);
+const structuredImageUrls = [articleImages.primary, articleImages.image4x3, articleImages.image1x1]
+  .map((image) => new URL(image, SITE.url).toString());
 const category = getArticleCategory(article.category);
 const seoDetails = getArticleSeoDetails(article.slug);
 const readTime = getArticleReadTime(article);
@@ -361,7 +366,7 @@ const jsonLd = [
     wordCount,
     timeRequired: `PT${Number.parseInt(readTime, 10)}M`,
     inLanguage: "en",
-    image: articleImageUrl,
+    image: structuredImageUrls,
     author: { ...EDITORIAL_AUTHOR_SCHEMA, name: article.author },
     publisher: {
       ...PUBLISHER_SCHEMA,
@@ -426,6 +431,7 @@ const jsonLd = [
   canonicalPath={canonicalPath}
   type="article"
   image={article.thumbnail}
+  imageAlt={article.imageAlt}
   publishedDate={article.date}
   modifiedDate={seoDetails.reviewedDate}
   author={article.author}
@@ -460,6 +466,16 @@ const jsonLd = [
         </div>
       </div>
     </header>
+
+    <div class="container article-featured-image">
+      <ArticleImage
+        src={article.thumbnail}
+        alt={article.imageAlt}
+        variant="hero"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </div>
 
     <div class="container article-shell">
       <div class="prose article-content">
@@ -634,6 +650,29 @@ const jsonLd = [
 </Layout>
 
 <style>
+  .article-featured-image {
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    margin-bottom: 2.5rem;
+    margin-top: -1.25rem;
+    max-width: 780px;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .article-featured-image :global(picture),
+  .article-featured-image :global(img) {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .article-featured-image :global(img) {
+    object-fit: cover;
+  }
+
   .breadcrumbs {
     align-items: center;
     color: var(--color-muted);

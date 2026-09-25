@@ -1,5 +1,6 @@
 ---
 import ArticleShare from "./ArticleShare.astro";
+import ArticleImage from "./ArticleImage.astro";
 import { SITE, getArticleCategory, getArticleReadTime, type Article } from "../data/site";
 
 type Props = {
@@ -24,13 +25,13 @@ const formattedDate = new Intl.DateTimeFormat("en", {
   {articleHref ? (
     <a class="article-art" href={articleHref} aria-label={`Read ${article.title}`}>
       {showThumbnail && (
-        <img src={article.thumbnail} alt={article.imageAlt} width="1200" height="675" loading="lazy" decoding="async" />
+        <ArticleImage src={article.thumbnail} alt={article.imageAlt} />
       )}
     </a>
   ) : (
     <div class="article-art">
       {showThumbnail && (
-        <img src={article.thumbnail} alt={article.imageAlt} width="1200" height="675" loading="lazy" decoding="async" />
+        <ArticleImage src={article.thumbnail} alt={article.imageAlt} />
       )}
     </div>
   )}
@@ -78,15 +79,19 @@ const formattedDate = new Intl.DateTimeFormat("en", {
     overflow: hidden;
   }
 
-  .article-art img {
+  .article-art :global(picture),
+  .article-art :global(img) {
     display: block;
     height: 100%;
-    object-fit: cover;
-    transition: transform 180ms ease;
     width: 100%;
   }
 
-  .article-art:hover img {
+  .article-art :global(img) {
+    object-fit: cover;
+    transition: transform 180ms ease;
+  }
+
+  .article-art:hover :global(img) {
     transform: scale(1.02);
   }
 

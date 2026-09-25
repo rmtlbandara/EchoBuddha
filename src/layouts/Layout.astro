@@ -12,6 +12,7 @@ type Props = {
   canonicalPath?: string | false;
   type?: "website" | "article";
   image?: string;
+  imageAlt?: string;
   ogTitle?: string;
   ogDescription?: string;
   twitterTitle?: string;
@@ -29,6 +30,7 @@ const {
   canonicalPath,
   type = "website",
   image,
+  imageAlt,
   ogTitle,
   ogDescription,
   twitterTitle,
@@ -59,6 +61,7 @@ const {
       canonicalPath={canonicalPath}
       type={type}
       image={image}
+      imageAlt={imageAlt}
       ogTitle={ogTitle}
       ogDescription={ogDescription}
       twitterTitle={twitterTitle}

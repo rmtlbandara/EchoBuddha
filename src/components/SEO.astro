@@ -9,6 +9,7 @@ type Props = {
   canonicalPath?: string | false;
   type?: "website" | "article";
   image?: string;
+  imageAlt?: string;
   ogTitle?: string;
   ogDescription?: string;
   twitterTitle?: string;
@@ -26,6 +27,7 @@ const {
   canonicalPath,
   type = "website",
   image = "/og-default.svg",
+  imageAlt,
   ogTitle,
   ogDescription,
   twitterTitle,
@@ -91,7 +93,7 @@ if (noindex !== expectedNoindex) {
 
 <title>{pageTitle}</title>
 <meta name="description" content={description} />
-{noindex && <meta name="robots" content="noindex, follow" />}
+<meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-image-preview:large"} />
 {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
 <meta property="og:locale" content={SITE.locale} />
 <meta property="og:site_name" content={SITE.name} />
@@ -100,6 +102,9 @@ if (noindex !== expectedNoindex) {
 <meta property="og:description" content={openGraphDescription} />
 {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
 <meta property="og:image" content={imageUrl} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="675" />
+{imageAlt && <meta property="og:image:alt" content={imageAlt} />}
 {type === "article" && publishedDate && <meta property="article:published_time" content={publishedDate} />}
 {type === "article" && modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
 {type === "article" && author && <meta property="article:author" content={author} />}
@@ -107,4 +112,5 @@ if (noindex !== expectedNoindex) {
 <meta name="twitter:title" content={twitterCardTitle} />
 <meta name="twitter:description" content={twitterCardDescription} />
 <meta name="twitter:image" content={imageUrl} />
+{imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
 {structuredData.length > 0 && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
