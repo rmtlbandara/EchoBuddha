@@ -107,6 +107,18 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
+      <section class="handbook-feature surface" aria-labelledby="handbook-feature-heading">
+        <picture>
+          <source srcset="/images/handbook/refined/buddhist-life-practice-handbook-800.avif 800w, /images/handbook/refined/buddhist-life-practice-handbook.avif 1600w" sizes="(min-width: 900px) 42vw, 100vw" type="image/avif" />
+          <img src="/images/handbook/refined/buddhist-life-practice-handbook.webp" srcset="/images/handbook/refined/buddhist-life-practice-handbook-800.webp 800w, /images/handbook/refined/buddhist-life-practice-handbook.webp 1600w" sizes="(min-width: 900px) 42vw, 100vw" alt="A Bodhi tree, palm-leaf manuscript, alms bowl, and path toward a stupa at dawn" width="1600" height="900" loading="eager" decoding="async" fetchpriority="high" />
+        </picture>
+        <div>
+          <span class="eyebrow">Part I · The Triple Gem & Refuge</span>
+          <h2 id="handbook-feature-heading">Buddhist Life & Practice Handbook</h2>
+          <p>Follow eight substantial chapters from the Buddha, Dhamma, and Saṅgha through refuge, lived tradition, respectful practice, and healthy lay–monastic relationships.</p>
+          <a class="button" href="/learn/buddhist-handbook/">Open Part I</a>
+        </div>
+      </section>
       <span class="eyebrow">Choose your learning need</span>
       <h2>Four Ways Into the Learning Library</h2>
       <div class="learning-grid">
@@ -128,18 +140,6 @@ const jsonLd = [
         </div>
         <a class="button button--secondary" href="/search/">Search Echo Buddha</a>
       </div>
-      <section class="handbook-feature surface" aria-labelledby="handbook-feature-heading">
-        <picture>
-          <source srcset="/images/handbook/buddhist-handbook-journey.avif" type="image/avif" />
-          <img src="/images/handbook/buddhist-handbook-journey.webp" alt="Bodhi leaves, a manuscript, an alms bowl, and a path toward a stupa" width="1600" height="900" loading="lazy" decoding="async" />
-        </picture>
-        <div>
-          <span class="eyebrow">Structured study · 8 chapters</span>
-          <h2 id="handbook-feature-heading">Buddhist Life & Practice Handbook</h2>
-          <p>Study the Buddha, Dhamma, and Saṅgha as refuges, then explore traditional refuge categories, devas, respectful practice, and healthy lay–monastic relationships.</p>
-          <a class="button" href="/learn/buddhist-handbook/">Open the handbook</a>
-        </div>
-      </section>
       <section class="deeper-learning" aria-labelledby="deeper-learning-heading">
         <span class="eyebrow">Continue when ready</span>
         <h2 id="deeper-learning-heading">Specific Lessons Beyond the Starting Path</h2>
@@ -256,6 +256,7 @@ const jsonLd = [
     display: grid;
     gap: 1.25rem 2rem;
     margin-top: 1rem;
+    margin-bottom: clamp(2.5rem, 6vw, 4rem);
     overflow: hidden;
     padding: 1rem;
   }

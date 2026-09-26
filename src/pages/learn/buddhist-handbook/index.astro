@@ -4,9 +4,12 @@ import Breadcrumbs from "../../../components/Breadcrumbs.astro";
 import { getBreadcrumbJsonLd } from "../../../data/learn";
 import {
   HANDBOOK_IMAGE,
+  HANDBOOK_IMAGE_AVIF,
   HANDBOOK_IMAGE_HEIGHT,
   HANDBOOK_IMAGE_WIDTH,
+  HANDBOOK_PART,
   HANDBOOK_PATH,
+  getHandbookImageVariant,
   getHandbookPath,
   getHandbookReadTime,
   handbookPages
@@ -44,19 +47,19 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={title} description={description} canonicalPath={canonicalPath} image={HANDBOOK_IMAGE} jsonLd={jsonLd}>
+<Layout title={title} description={description} canonicalPath={canonicalPath} image={HANDBOOK_IMAGE} imageAlt="Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn" imageWidth={HANDBOOK_IMAGE_WIDTH} imageHeight={HANDBOOK_IMAGE_HEIGHT} jsonLd={jsonLd}>
   <header class="page-hero handbook-hero">
     <div class="container handbook-hero__grid">
       <div class="prose">
         <Breadcrumbs items={breadcrumbs.map((item, index) => ({ label: item.name, href: index < breadcrumbs.length - 1 ? item.href : undefined }))} />
-        <span class="eyebrow">Structured study · 8 chapters</span>
+        <span class="eyebrow">{HANDBOOK_PART}</span>
         <h1>Buddhist Life & Practice Handbook</h1>
         <p class="lede">Follow the Triple Gem from meaning to lived practice, with early discourses, later Theravāda explanations, and Sri Lankan customs clearly identified rather than blended together.</p>
         <a class="button" href={getHandbookPath(handbookPages[0])}>Begin with the Buddha as refuge</a>
       </div>
       <picture class="handbook-hero__visual">
-        <source srcset="/images/handbook/buddhist-handbook-journey.avif" type="image/avif" />
-        <img src={HANDBOOK_IMAGE} alt="Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn" width={HANDBOOK_IMAGE_WIDTH} height={HANDBOOK_IMAGE_HEIGHT} loading="eager" decoding="async" fetchpriority="high" />
+        <source srcset={`${getHandbookImageVariant(HANDBOOK_IMAGE_AVIF)} 800w, ${HANDBOOK_IMAGE_AVIF} 1600w`} sizes="(min-width: 900px) 50vw, 100vw" type="image/avif" />
+        <img src={HANDBOOK_IMAGE} srcset={`${getHandbookImageVariant(HANDBOOK_IMAGE)} 800w, ${HANDBOOK_IMAGE} 1600w`} sizes="(min-width: 900px) 50vw, 100vw" alt="Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn" width={HANDBOOK_IMAGE_WIDTH} height={HANDBOOK_IMAGE_HEIGHT} loading="eager" decoding="async" fetchpriority="high" />
       </picture>
     </div>
   </header>
@@ -64,14 +67,14 @@ const jsonLd = [
   <section class="section section--tight" aria-labelledby="handbook-scope-heading">
     <div class="container scope-grid">
       <div class="prose">
-        <span class="eyebrow">How to use this handbook</span>
-        <h2 id="handbook-scope-heading">One Sequence, Clearly Sourced</h2>
+        <span class="eyebrow">How to use Part I</span>
+        <h2 id="handbook-scope-heading">Eight Chapters, One Progressive Sequence</h2>
         <p>This collection expands the concise <a href="/learn/buddhism-101/the-three-jewels-explained/">Three Jewels lesson</a>. Read in order for a progressive course, or open the chapter that matches your question.</p>
         <p>Claims are labelled by source layer. Early-discourse material is distinguished from later Theravāda manuals and commentary, regional custom, academic history, and stories whose provenance could not be verified.</p>
       </div>
       <aside class="surface scope-note">
-        <strong>Editorial boundary</strong>
-        <p>This is educational material, not a declaration that every Buddhist school or community uses the same categories. Pāli terms are explained in context, and extraordinary claims are not presented as modern historical proof.</p>
+        <strong>Source guide</strong>
+        <p>Each chapter tells you whether a teaching comes from early discourse, later Theravāda explanation, devotional tradition, local practice, or modern historical study. Pāli terms are explained where they matter.</p>
       </aside>
     </div>
   </section>
@@ -79,9 +82,9 @@ const jsonLd = [
   <section class="section section-band" aria-labelledby="chapters-heading">
     <div class="container">
       <div class="section-intro prose">
-        <span class="eyebrow">The complete path</span>
+        <span class="eyebrow">{HANDBOOK_PART}</span>
         <h2 id="chapters-heading">Eight Chapters</h2>
-        <p>Chapters 1–3 explain the Three Jewels, 4–6 examine refuge in practice, and 7–8 bring that orientation into temples and community life.</p>
+        <p>These are the eight current chapters of Part I—not placeholders for a larger unfinished handbook. Chapters 1–3 explain the Three Jewels, 4–6 examine refuge in practice, and 7–8 bring that orientation into temples and community life.</p>
       </div>
       <ol class="chapter-grid">
         {handbookPages.map((page) => (

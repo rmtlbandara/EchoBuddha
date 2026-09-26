@@ -31,7 +31,9 @@ test("handbook contains exactly eight substantial, unique, source-aware chapters
     assert.ok(page.sources.length >= 3);
     assert.ok(page.relatedLinks.length >= 3);
     assert.equal(page.publishedDate, "2026-09-25");
-    assert.equal(page.modifiedDate, "2026-09-25");
+    assert.equal(page.modifiedDate, "2026-09-26");
+    assert.equal(page.image.width, 1600);
+    assert.equal(page.image.height, 900);
     assert.match(getHandbookReadTime(page), /^\d+ min read$/);
     assert.doesNotMatch(JSON.stringify(page), /placeholder|coming soon|lorem ipsum/i);
   }
@@ -58,8 +60,11 @@ test("handbook generates one hub and exactly eight canonical article routes", ()
     assert.match(html, /"@type":"Article"/);
     assert.match(html, /"@type":"BreadcrumbList"/);
     assert.match(html, /"datePublished":"2026-09-25"/);
-    assert.match(html, /Sources and Tradition Context/);
+    assert.match(html, /How the Sources Fit/);
     assert.match(html, /Selected References/);
+    assert.match(html, /<meta property="og:image:width" content="1600"/);
+    assert.match(html, /<meta property="og:image:height" content="900"/);
+    assert.match(html, new RegExp(escapeRegex(pageImagePath(index))));
     assert.doesNotMatch(html, /<meta name="robots" content="[^"]*noindex/i);
     assert.doesNotMatch(html, /pagead2\.googlesyndication|adsbygoogle|google_ad_client|class="[^"]*ad-slot/i);
     if (index > 0) assert.match(html, new RegExp(escapeRegex(routes[index - 1])));
@@ -109,8 +114,25 @@ test("coverage and asset evidence are complete", () => {
     assert.match(audit, new RegExp(`\\| ${range.replace("–", "–")} \\|`));
   }
   assert.match(audit, /All 119 non-empty paragraphs/);
-  for (const image of ["public/images/handbook/buddhist-handbook-journey.webp", "public/images/handbook/buddhist-handbook-journey.avif"]) {
+  const imagePaths = [
+    "public/images/handbook/refined/buddhist-life-practice-handbook.webp",
+    "public/images/handbook/refined/buddhist-life-practice-handbook.avif",
+    "public/images/handbook/refined/buddhist-life-practice-handbook-800.webp",
+    "public/images/handbook/refined/buddhist-life-practice-handbook-800.avif",
+    ...handbookPages.flatMap((page) => [
+      `public${page.image.src}`,
+      `public${page.image.avif}`,
+      `public${page.image.src.replace(".webp", "-800.webp")}`,
+      `public${page.image.avif.replace(".avif", "-800.avif")}`
+    ])
+  ];
+  assert.equal(new Set(handbookPages.map((page) => page.image.src)).size, 8);
+  for (const image of imagePaths) {
     assert.ok(fs.existsSync(path.join(root, image)), image);
-    assert.ok(fs.statSync(path.join(root, image)).size > 50_000, image);
+    assert.ok(fs.statSync(path.join(root, image)).size > 30_000, image);
   }
 });
+
+function pageImagePath(index) {
+  return handbookPages[index].image.src;
+}

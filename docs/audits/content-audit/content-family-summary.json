@@ -6,7 +6,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 988
+    "averageWords": 990
   },
   "error": {
     "total": 1,
@@ -88,7 +88,7 @@
     "decisions": {
       "Pass": 10
     },
-    "averageWords": 766
+    "averageWords": 768
   },
   "learningDetail": {
     "total": 60,
@@ -97,7 +97,7 @@
     "decisions": {
       "Pass": 60
     },
-    "averageWords": 778
+    "averageWords": 800
   },
   "meditationDetail": {
     "total": 9,
