@@ -13,6 +13,8 @@ type Props = {
   type?: "website" | "article";
   image?: string;
   imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   ogTitle?: string;
   ogDescription?: string;
   twitterTitle?: string;
@@ -31,6 +33,8 @@ const {
   type = "website",
   image,
   imageAlt,
+  imageWidth,
+  imageHeight,
   ogTitle,
   ogDescription,
   twitterTitle,
@@ -62,6 +66,8 @@ const {
       type={type}
       image={image}
       imageAlt={imageAlt}
+      imageWidth={imageWidth}
+      imageHeight={imageHeight}
       ogTitle={ogTitle}
       ogDescription={ogDescription}
       twitterTitle={twitterTitle}

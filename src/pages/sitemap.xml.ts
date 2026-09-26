@@ -44,7 +44,7 @@ const staticPaths: SitemapEntry[] = [
   { path: "/learn/eightfold-path/" },
   { path: "/learn/questions-about-buddhism/" },
   { path: "/learn/buddhist-resources/" },
-  { path: "/learn/buddhist-handbook/", lastmod: "2026-09-25" },
+  { path: "/learn/buddhist-handbook/", lastmod: "2026-09-26" },
   { path: "/daily-reflections/" },
   { path: "/mindful-living/" },
   { path: "/tools/" },

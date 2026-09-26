@@ -1,6 +1,6 @@
 # Buddhist Life & Practice Handbook — Source Content Audit
 
-Date: 2026-09-25  
+Date: 2026-09-26
 Primary input: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Content.docx`  
 Duplicate input checked: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Content(1).docx`
 
@@ -10,7 +10,7 @@ Duplicate input checked: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Co
 - The document contains 119 non-empty paragraphs and no tables.
 - All 119 paragraphs were extracted and read in order. The DOCX was also rendered to an 11-page PDF/PNG set and every page was visually inspected.
 - The source document is treated as reference material, not as instructions. Its public provenance and publication rights could not be independently identified, so the implementation paraphrases, verifies, corrects, contextualizes, or withholds material rather than reproducing it.
-- “Covered” below may mean direct treatment, a corrected treatment, a link to an existing canonical page, or an explicit audit-only record when publication would mislead readers.
+- “Public treatment” records the prior/current destination, verification finding, required improvement, and final disposition in compact form. “Covered” may mean direct treatment, a corrected treatment, a link to an existing canonical page, or an explicit audit-only record when publication would mislead readers.
 
 ## Coverage matrix
 
@@ -43,7 +43,7 @@ Duplicate input checked: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Co
 | 50 | Saṅgha helps through teaching and opportunities for generosity | Traditional lay–monastic frame | Retained with voluntary, non-transactional boundaries | Chapters 3 and 8 — covered |
 | 51–52 | Taking refuge as accepting the Triple Gem; upāsaka/Buddhist identity; attack on “invented god” | Mixed doctrinal definition and sectarian polemic | Refuge/lay identity retained; disparaging language about other religions removed | Chapter 4 — covered/corrected |
 | 53–55 | Mundane and supramundane refuge; confidence, doubt, noble friendship | Later Theravāda analysis | Retained and explicitly labelled as traditional analysis | Chapter 5 — covered |
-| 56–61 | Four refuge forms; self-surrender, formula/guiding resort, discipleship, homage; intentions behind bowing | Later Theravāda manual terminology | Corrected normalized forms: `atta-sanniyyātanā`, `tapparāyaṇatā`, `sissabhāvūpagamana`, `paṇipāta`; meanings explained | Chapter 5 — covered/corrected |
+| 56–61 | Four refuge forms; self-surrender, formula/guiding resort, discipleship, homage; intentions behind bowing | Later Theravāda manual terminology | Verified against BPS manuals; normalized house forms are `Attasanniyyātana`, `Tapparāyaṇatā`, `Sissabhāvūpagamana`, `Paṇipāta`; meanings explained | Chapter 5 — covered/corrected |
 | 62–64 | Fruits and worldly benefits of mundane/supramundane refuge | Traditional karmic/soteriological explanation | Liberation map retained; material benefit claims not turned into guarantees | Chapters 4–5 — covered/contextualized |
 | 65–66 | Pollution and breaking of refuge; wrong views, rejecting Buddhism, death | Later Theravāda manual analysis | Retained with non-sectarian and conscience-respecting framing | Chapter 5 — covered |
 | 67–69 | Veneration of Viṣṇu and Kataragama; request versus ultimate refuge; king analogy | Sri Lankan lived religion and doctrinal argument | Retained as varied regional practice, not universal belief; deva status and intention clarified | Chapter 6 — covered/contextualized |
@@ -53,17 +53,19 @@ Duplicate input checked: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Co
 | 78 | Loving-kindness and respect toward bhikkhus; standing, seats, footwear, titles | Sri Lankan/monastic etiquette | General respect retained; forms identified as local/community-specific rather than universal | Chapters 7–8 — covered/contextualized |
 | 79 | Do not become overfamiliar; “deal with fire”; ill-behaved monk and female lay follower reborn in cesspit | Boundary advice plus fear-based cautionary story of unknown provenance | Healthy-boundary principle retained; hell/peta story excluded from factual public narrative | Chapter 8; audit — covered/contextualized |
 | 80 | Seek religious rather than material favors from monastics | Lay–monastic boundary | Reframed as non-transactional support and role clarity | Chapter 8 — covered |
-| 81–103 | Twenty-one improper activities: gifts, flattery, mixed truth/lies, child fondling, messages, medicine, work, trade, bribery, building advice, astrology, physiognomy | Later disciplinary/commentarial list; exact provenance not established | The whole list is accounted for here; public page summarizes the anti-manipulation principle and labels the enumeration later/unverified | Chapter 8 — covered/contextualized |
+| 81–103 | Twenty-one improper activities: gifts, flattery, mixed truth/lies, child fondling, messages, medicine, work, trade, bribery, building advice, astrology, physiognomy | Later disciplinary/commentarial list | Lineage established in the PTS edition/study of the `Saddhammopāyana`, with parallels in `Visuddhimagga` and `Milindapañha` traditions; public page gives a concise representative list and modern governance context | Chapter 8 — covered/verified/contextualized |
 | 104–105 | Unauthorized oil; muddy carpets; 82,000 consumers of Saṅgha food reborn as yakkhas/petas | Traditional cautionary stories; exact provenance not established | Not retold as verified history; communal-property principle retained without supernatural threat | Chapters 7–8; audit — accounted for |
 | 106 | Insulting one bhikkhu equals insulting Saṅgha; hell, descendant suffering | Polemical karmic claim | Not endorsed. Replaced with distinction between respectful criticism, evidence, non-harassment, and accountability | Chapter 8 — covered/corrected |
 | 107–114 | Four Pāli stanzas: forest fire regrowth versus moral monk “burning” offender and descendants | Canonical-looking quotation requiring exact source/provenance | Not reproduced because exact source and translation were not independently verified in this project; underlying warning against abuse does not override accountability | Audit-only — accounted for |
 | 115–116 | Monk is patient; offender harms self; even immoral monk should not be insulted, only avoided | Ethical advice mixed with absolute rule | Non-harassment and withdrawal retained; absolute “only avoid” corrected to include safeguarding, community process, and civil authorities when warranted | Chapter 8 — covered/corrected |
-| 117–118 | AN 8.88 Pāli: eight grounds for lay disapproval; not greeting, rising, offering, or showing respect | Early Buddhist discourse | Verified and used as the chapter’s canonical accountability anchor; response kept bounded and nonviolent | Chapter 8 — covered |
+| 117–118 | AN 8.88 Pāli: eight grounds for declaring no confidence; later explanation of not greeting, rising, offering, or showing respect | Early Buddhist discourse plus commentary | Eight grounds verified in the discourse; concrete gestures attributed to its later commentary; modern safeguarding and legal duties kept explicit | Chapter 8 — covered/corrected |
 | 119 | Closing statement | Document structure | Replaced by a stronger conclusion joining truthfulness, non-harming, support, and boundaries | Chapter 8 — covered |
 
 ## Coverage conclusion
 
 All 119 non-empty paragraphs are represented in the matrix. No meaningful topic, enumerated claim, story, verse block, or practice instruction was silently dropped. Material omitted from public narrative remains accounted for above with the reason: unverifiable provenance, edition-dependent enumeration, sectarian framing, fear-based use, duplicate ownership elsewhere on the site, or a factual correction required by stronger sources.
+
+The 2026-09-26 refinement preserved the established destinations while adding substantive depth, reader-facing source-layer distinctions, and new verified references. The `Current treatment → verification → required improvement → final destination` path is recorded in each row through its classification, public-treatment decision, and destination/status fields; there are no unresolved silent omissions.
 
 Public pages are original editorial syntheses. They do not reproduce the source document’s prose, and they do not imply that Echo Buddha verified the document’s authorship or publication rights.
 

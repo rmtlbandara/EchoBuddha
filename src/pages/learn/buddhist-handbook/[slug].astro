@@ -5,8 +5,9 @@ import EditorialStandardsLinks from "../../../components/EditorialStandardsLinks
 import LearningCard from "../../../components/LearningCard.astro";
 import { getBreadcrumbJsonLd } from "../../../data/learn";
 import {
-  HANDBOOK_IMAGE,
   HANDBOOK_PATH,
+  HANDBOOK_PART,
+  getHandbookImageVariant,
   getHandbookPath,
   getHandbookReadTime,
   handbookPages,
@@ -37,7 +38,12 @@ const jsonLd = [
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
     mainEntityOfPage: `${SITE.url}${canonicalPath}`,
-    image: `${SITE.url}${HANDBOOK_IMAGE}`,
+    image: {
+      "@type": "ImageObject",
+      url: `${SITE.url}${page.image.src}`,
+      width: page.image.width,
+      height: page.image.height
+    },
     inLanguage: "en",
     articleSection: "Buddhist Life & Practice Handbook",
     datePublished: page.publishedDate,
@@ -49,19 +55,25 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={page.seoTitle} description={page.description} canonicalPath={canonicalPath} type="article" image={HANDBOOK_IMAGE} publishedDate={page.publishedDate} modifiedDate={page.modifiedDate} author={SITE.author} jsonLd={jsonLd}>
+<Layout title={page.seoTitle} description={page.description} canonicalPath={canonicalPath} type="article" image={page.image.src} imageAlt={page.image.alt} imageWidth={page.image.width} imageHeight={page.image.height} publishedDate={page.publishedDate} modifiedDate={page.modifiedDate} author={SITE.author} jsonLd={jsonLd}>
   <article>
     <header class="page-hero handbook-chapter-hero">
-      <div class="container prose">
-        <Breadcrumbs items={breadcrumbs.map((item, index) => ({ label: item.name, href: index < breadcrumbs.length - 1 ? item.href : undefined }))} />
-        <span class="eyebrow">{page.eyebrow}</span>
-        <h1>{page.title}</h1>
-        <p class="lede">{page.intro}</p>
-        <div class="article-meta chapter-meta">
-          <span>By <a href="/authors/echo-buddha-editorial/" rel="author">{SITE.author}</a></span>
-          <span>Published <time datetime={page.publishedDate}>{formatPublicationDate(page.publishedDate)}</time></span>
-          <span>{readTime}</span>
+      <div class="container handbook-chapter-hero__grid">
+        <div class="prose">
+          <Breadcrumbs items={breadcrumbs.map((item, index) => ({ label: item.name, href: index < breadcrumbs.length - 1 ? item.href : undefined }))} />
+          <span class="eyebrow">{page.eyebrow}</span>
+          <h1>{page.title}</h1>
+          <p class="lede">{page.intro}</p>
+          <div class="article-meta chapter-meta">
+            <span>By <a href="/authors/echo-buddha-editorial/" rel="author">{SITE.author}</a></span>
+            <span>Updated <time datetime={page.modifiedDate}>{formatPublicationDate(page.modifiedDate)}</time></span>
+            <span>{readTime}</span>
+          </div>
         </div>
+        <picture class="chapter-visual">
+          <source srcset={`${getHandbookImageVariant(page.image.avif)} 800w, ${page.image.avif} 1600w`} sizes="(min-width: 900px) 50vw, 100vw" type="image/avif" />
+          <img src={page.image.src} srcset={`${getHandbookImageVariant(page.image.src)} 800w, ${page.image.src} 1600w`} sizes="(min-width: 900px) 50vw, 100vw" alt={page.image.alt} width={page.image.width} height={page.image.height} loading="eager" decoding="async" fetchpriority="high" />
+        </picture>
       </div>
     </header>
 
@@ -81,7 +93,7 @@ const jsonLd = [
         ))}
 
         <section class="sources-section" aria-labelledby="sources-context-heading">
-          <h2 id="sources-context-heading">Sources and Tradition Context</h2>
+          <h2 id="sources-context-heading">How the Sources Fit</h2>
           <p>{page.sourceNote}</p>
           <h3>Selected References</h3>
           <ul class="source-list">
@@ -109,8 +121,8 @@ const jsonLd = [
           <ul>{page.relatedTerms.map((term) => <li>{term}</li>)}</ul>
         </div>
         <div class="surface side-card">
-          <span class="eyebrow">Eight-part collection</span>
-          <p>Return to the handbook contents or move through the chapters in sequence.</p>
+          <span class="eyebrow">{HANDBOOK_PART}</span>
+          <p>Return to the Part I contents or move through its eight chapters in sequence.</p>
           <a href={`${HANDBOOK_PATH}/`}>Buddhist Life & Practice Handbook</a>
         </div>
       </aside>
@@ -128,7 +140,10 @@ const jsonLd = [
 
 <style>
   .handbook-chapter-hero { background: linear-gradient(145deg, rgba(245, 237, 220, 0.72), rgba(235, 243, 232, 0.45)); padding-bottom: clamp(2.25rem, 5vw, 3.5rem); }
+  .handbook-chapter-hero__grid { align-items: center; display: grid; gap: clamp(1.5rem, 4vw, 3.5rem); }
   .handbook-chapter-hero h1 { font-size: clamp(2.4rem, 6vw, 4.65rem); }
+  .chapter-visual { display: block; }
+  .chapter-visual img { aspect-ratio: 16 / 9; border: 1px solid var(--color-line); border-radius: calc(var(--radius) * 1.5); box-shadow: var(--shadow-soft); display: block; height: auto; object-fit: cover; width: 100%; }
   .chapter-meta span + span::before { color: var(--color-muted); content: "/"; margin-right: 0.75rem; }
   .handbook-shell { padding-bottom: clamp(3rem, 7vw, 5rem); padding-top: clamp(2rem, 5vw, 3.5rem); }
   .handbook-body > section { margin-top: 2.75rem; }
@@ -155,6 +170,7 @@ const jsonLd = [
     .chapter-meta span + span::before { content: none; }
   }
   @media (min-width: 900px) {
+    .handbook-chapter-hero__grid { grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr); }
     .handbook-shell { align-items: start; grid-template-columns: minmax(0, 760px) minmax(220px, 1fr); }
     .handbook-sidebar { position: sticky; top: 6.5rem; }
     .chapter-navigation { grid-template-columns: repeat(2, minmax(0, 1fr)); }
