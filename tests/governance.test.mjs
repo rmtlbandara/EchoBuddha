@@ -154,3 +154,21 @@ test("content remediation governance assets remain present", () => {
   assert.match(governance, /topicRoleMap/);
   assert.match(governance, /Original Echo Buddha writing/);
 });
+
+test("domain email routing separates editorial inquiries from website support", () => {
+  const site = read("src/data/site.ts");
+  const publisher = read("src/data/editorialGovernance.ts");
+  const contact = read("dist/contact/index.html");
+  const privacy = read("dist/privacy-policy/index.html");
+  const corrections = read("dist/corrections/index.html");
+
+  assert.match(site, /editorialEmail:\s*"info@echobuddha\.com"/);
+  assert.match(site, /supportEmail:\s*"support@echobuddha\.com"/);
+  assert.match(publisher, /PUBLISHER_CONTACT_SCHEMA/);
+  assert.match(publisher, /email:\s*`mailto:\$\{SITE\.editorialEmail\}`/);
+  assert.match(contact, /mailto:info@echobuddha\.com/);
+  assert.match(contact, /mailto:support@echobuddha\.com/);
+  assert.match(privacy, /mailto:support@echobuddha\.com/);
+  assert.match(corrections, /mailto:info@echobuddha\.com/);
+  assert.doesNotMatch(`${site}${publisher}${contact}${privacy}${corrections}`, /gmail[.]com/i);
+});

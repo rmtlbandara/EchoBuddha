@@ -80,7 +80,7 @@ export const EDITORIAL_IDENTITY = {
   bylineUrl: `${SITE.url}/authors/echo-buddha-editorial/`,
   bylineId: `${SITE.url}/authors/echo-buddha-editorial/#editorial-author`,
   publisherId: `${SITE.url}/#organization`,
-  contactEmail: SITE.email,
+  contactEmail: SITE.editorialEmail,
   publicModel:
     "Echo Buddha Editorial is the organizational publication byline used for material published under the Echo Buddha name.",
   accountability:
@@ -114,6 +114,25 @@ export const PUBLISHER_SCHEMA = {
     "@type": "ImageObject",
     url: `${SITE.url}/images/buddha-brand-icon.png`
   }
+} as const;
+
+export const PUBLISHER_CONTACT_SCHEMA = {
+  ...PUBLISHER_SCHEMA,
+  email: `mailto:${SITE.editorialEmail}`,
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "publisher and editorial inquiries",
+      email: SITE.editorialEmail,
+      url: `${SITE.url}/contact/`
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "website support",
+      email: SITE.supportEmail,
+      url: `${SITE.url}/contact/`
+    }
+  ]
 } as const;
 
 export const EDITORIAL_AUTHOR_SCHEMA = {

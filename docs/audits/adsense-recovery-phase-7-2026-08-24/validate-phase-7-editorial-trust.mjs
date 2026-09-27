@@ -106,11 +106,11 @@ check("POL-01", trustCopy.includes("organizational publication byline") && trust
 check("POL-02", !/medically reviewed|fact[- ]checked by|Buddhist Studies expert|monk reviewer|verified author badge/i.test(trustCopy), "No unsupported medical, fact-checker, Buddhist-expert, monastic, or badge claim", "policy");
 check("POL-03", html("/how-echo-buddha-creates-content/").includes("AI and Automation Boundaries") && html("/how-echo-buddha-creates-content/").includes("remains accountable"), "AI/automation disclosure and publisher accountability are public", "policy");
 check("POL-04", method.length === 6 && method.every((row) => row.status === "PASS"), "6/6 content-family creation-method classifications pass", "policy");
-check("POL-05", html("/corrections/").includes("mailto:info.echobuddha@gmail.com") && html("/corrections/").includes("A typo, styling change, build, link repair"), "Functional correction contact and material-update boundary are public", "policy");
+check("POL-05", html("/corrections/").includes("mailto:info@echobuddha.com") && html("/corrections/").includes("A typo, styling change, build, link repair"), "Functional correction contact and material-update boundary are public", "policy");
 check("POL-06", html("/editorial-policy/").includes("does not currently publish affiliate links or sponsored editorial content"), "Current commercial/affiliate state and future disclosure rule are explicit", "policy");
 check("POL-07", !read("src/pages/editorial-policy.astro").includes("author: EDITORIAL_AUTHOR_SCHEMA") && !read("src/pages/how-echo-buddha-creates-content.astro").includes("author: EDITORIAL_AUTHOR_SCHEMA"), "Policy pages do not carry invisible authorship claims", "policy");
 check("POL-08", !["src/pages/articles/[slug].astro", "src/pages/learn/[section]/[slug].astro", "src/pages/meditation/[slug].astro"].map(read).join("\n").match(/topic cluster|page-role-note|Keep future advertising/i), "Internal SEO/advertising role language removed from public templates", "policy");
-check("POL-09", html("/contact/").includes("mailto:info.echobuddha@gmail.com") && html("/about/").includes("independent educational publisher"), "Public publisher identity and contact are accountable", "policy");
+check("POL-09", html("/contact/").includes("mailto:info@echobuddha.com") && html("/about/").includes("independent educational publisher"), "Public publisher identity and contact are accountable", "policy");
 check("POL-10", !/(?:provides|publishes|guarantees) (?:the )?definitive meaning|(?:is|serves as) (?:an|the) official representative of Buddhism|guarantees? accuracy/i.test(trustCopy), "No absolute accuracy or universal Buddhist authority claim", "policy");
 
 const sampleRoutes = [
