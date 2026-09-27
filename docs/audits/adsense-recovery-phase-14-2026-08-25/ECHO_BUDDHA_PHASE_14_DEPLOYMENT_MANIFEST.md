@@ -5,21 +5,21 @@
 - Immutable initial Phase 14 version ID: `c5f74323-7b3a-450c-96c3-f3a0e432ff42`
 - Immutable initial Phase 14 deployed at: `2026-08-25T05:33:01.801137Z`
 - Target production branch: `main`
-- Current authorized production commit: `d3da65308348cb5379c76271614288d14f150450`
-- Current main documentation head: `714704fabcf008a4cff3a74230bd706576c22aed`
+- Current authorized production commit: `13adfcadc0cf0c8e18d6c8bda70bd3ec51af588f`
+- Current main documentation head: `34ef4f0f03f2e4a1b472c13f5c9ff3e5934cbcfb`
 - Deployment platform: Cloudflare Workers static assets
-- Current deployment method: documented owner-authorized emergency local deployment recorded in `docs/deployments/2026-09-20-q5-buddhist-question.md`; GitHub Actions was blocked by account billing/spending limits.
-- Current deployment ID: `a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc`
-- Current version ID: `7bfce8b0-2df8-42db-b5fe-f5ee45790db5`
-- Current deployed at: `2026-09-20T13:01:23.364839Z`
-- Historical recovery boundary: the initial 344-row release remains immutable; three authorized successor releases added exactly five indexable Learn detail pages in total.
-- Current production inventory: 349 contract rows = 154 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
-- Built HTML pages: 340
-- Intended sitemap URLs: 154
-- Search records: 319
-- Authorized successor additions: 5
+- Current deployment method: governed GitHub production workflow recorded in `docs/deployments/2026-09-26-buddhist-handbook-refinement.md`.
+- Current deployment ID: `8ff18ef6-c7e1-4556-b7cd-88d84c71f67b`
+- Current version ID: `dccb37ee-bbc9-4fa8-a86e-50948486c201`
+- Current deployed at: `2026-09-26T15:28:52.935624Z`
+- Historical recovery boundary: the initial 344-row release remains immutable; authorized successor releases added exactly fifteen indexable Learn pages in total.
+- Current production inventory: 359 contract rows = 164 indexable pages + 186 noindex pages + 3 permanent redirects + 1 temporary error-shell normalization + 5 technical resources.
+- Built HTML pages: 350
+- Intended sitemap URLs: 164
+- Search records: 329
+- Authorized successor additions: 15
 - Permanent redirect sources: 3
-- Current rollback target: `9e196159-656a-490a-8e18-b0ecfab80a2e`
+- Current rollback target: `e961211f-34b4-41a9-b1f7-647bdade99d2`
 - Rollback readiness: verified against the predeploy 14/14 smoke baseline
 - Rollback used: NO
 - Ad serving: OFF

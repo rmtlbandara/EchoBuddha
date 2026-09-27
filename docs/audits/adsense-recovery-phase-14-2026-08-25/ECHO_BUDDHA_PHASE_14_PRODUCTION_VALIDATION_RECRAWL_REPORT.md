@@ -2,15 +2,15 @@
 
 ## 1. Executive Summary
 
-The immutable initial Phase 14 release remains preserved and the authorized five-URL successor expansion is technically healthy. Live validation passes and 7 priority URLs plus the representative noindex case have postdeployment convergence. The current 154-URL sitemap refetch is confirmed, and critical redirect-source processing remains pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
+The immutable initial Phase 14 release remains preserved and the authorized fifteen-URL successor expansion is technically healthy. Live validation passes and 7 priority URLs plus the representative noindex case have postdeployment convergence. The current 164-URL sitemap refetch is pending, and critical redirect-source processing remains pending, so the exit state is DEPLOYED_MONITORING_REQUIRED.
 
 ## 2. Phase 13 Result
 
-PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Three separately authorized successor releases later added exactly five governed indexable Learn detail pages.
+PASS_NO_EXPANSION_REQUIRED at the immutable initial release boundary. Later separately authorized releases added exactly fifteen governed indexable Learn pages, including Q1-Q6 and the nine-page Buddhist handbook family.
 
 ## 3. Release Commit
 
-Initial Phase 14 release ad9fe897916c76fd6883efc351461b49db28ac3f remains the historical baseline. Production now serves authorized successor d3da65308348cb5379c76271614288d14f150450; deployment a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc; version 7bfce8b0-2df8-42db-b5fe-f5ee45790db5.
+Initial Phase 14 release ad9fe897916c76fd6883efc351461b49db28ac3f remains the historical baseline. Production now serves authorized successor 13adfcadc0cf0c8e18d6c8bda70bd3ec51af588f; deployment 8ff18ef6-c7e1-4556-b7cd-88d84c71f67b; version dccb37ee-bbc9-4fa8-a86e-50948486c201.
 
 ## 4. Predeploy Production Baseline
 
@@ -26,11 +26,11 @@ The August 2026 spam update completed before deployment. The official Search Sta
 
 ## 7. Rollback Readiness
 
-Version 9e196159-656a-490a-8e18-b0ecfab80a2e remains the rollback target for the current successor release; no rollback is required.
+Version e961211f-34b4-41a9-b1f7-647bdade99d2 remains the rollback target for the current successor release; no rollback is required.
 
 ## 8. Deployment Execution
 
-The immutable initial Phase 14 artifact was deployed at 2026-08-25T05:33:01.801137Z. The current Q5 successor artifact was deployed at 2026-09-20T13:01:23.364839Z through the documented owner-authorized emergency local deployment path after hosted workflow billing prevented a new job, bringing authorized post-baseline additions to five.
+The immutable initial Phase 14 artifact was deployed at 2026-08-25T05:33:01.801137Z. The current handbook-refinement artifact was deployed at 2026-09-26T15:28:52.935624Z through the governed GitHub production workflow, bringing authorized post-baseline additions to fifteen.
 
 ## 9. Immediate Production Health
 
@@ -50,7 +50,7 @@ Retained Quote categories and approved story states are live; noindex Quote perm
 
 ## 13. HTTP Status Validation
 
-{"200":345,"301":3,"307":1} across 349 current-contract rows; 0 contract failures.
+{"200":355,"301":3,"307":1} across 359 current-contract rows; 0 contract failures.
 
 ## 14. Redirect Validation
 
@@ -58,7 +58,7 @@ Retained Quote categories and approved story states are live; noindex Quote perm
 
 ## 15. Canonical Validation
 
-340/340 applicable canonical checks pass.
+350/350 applicable canonical checks pass.
 
 ## 16. robots.txt
 
@@ -66,7 +66,7 @@ HTTP 200, canonical sitemap declaration present, no production-wide disallow, an
 
 ## 17. Sitemap
 
-The live sitemap has 154 intended canonical URLs. Search Console's latest stored sitemap state is 154 URLs from 2026-09-24T11:45:58.014Z, with zero errors or warnings; a post-current-release 154-URL refetch has been confirmed.
+The live sitemap has 164 intended canonical URLs. Search Console's latest stored sitemap state is 154 URLs from 2026-09-24T11:45:58.014Z, with zero errors or warnings; a post-current-release 164-URL refetch has not yet been observed.
 
 ## 18. Noindex
 
@@ -102,15 +102,15 @@ No broken assets or systemic HTTP failures appeared in the full crawl/browser jo
 
 ## 26. Production Crawl
 
-349 rows, zero fetch errors, 154 sitemap URLs, zero ad signals and zero empty placeholders.
+359 rows, zero fetch errors, 164 sitemap URLs, zero ad signals and zero empty placeholders.
 
 ## 27. Production vs Intended Contract
 
-349/349 rows pass; 51 rows differ materially from old production and all differences are expected.
+359/359 rows pass; 210 rows differ materially from old production and all differences are expected.
 
 ## 28. Search Console Sitemap State
 
-One canonical sitemap; Success; zero errors and warnings; postdeployment refetch confirmed with 154 URLs. No duplicate was submitted.
+One canonical sitemap; Success; zero errors and warnings; latest stored state has 154 URLs from 2026-09-24T11:45:58.014Z. The current 164-URL release refetch is pending. No duplicate was submitted.
 
 ## 29. Recrawl Actions
 
@@ -134,7 +134,7 @@ Live directives are correct and Search Console reports 46 excluded noindex examp
 
 ## 34. Search Performance
 
-Finalized through 2026-09-22. Latest 28-day site totals are 38 clicks/4203 impressions versus 17/2208; this supports no systemic collapse but does not prove causality.
+Finalized through 2026-09-24. Latest 28-day site totals are 43 clicks/4243 impressions versus 18/2343; this supports no systemic collapse but does not prove causality.
 
 ## 35. P0/P1 Search Protection
 
@@ -142,7 +142,7 @@ All 35 protected routes are live and technically healthy; all P0s and 31/32 P1s 
 
 ## 36. Material Google Convergence
 
-NOT YET ESTABLISHED: sitemap refetch=YES; priority convergence=7/16; redirect sources recrawled=1/3; redirect sources processed as intended=0/3; redirect errors=1; representative noindex postdeploy convergence=1.
+NOT YET ESTABLISHED: sitemap refetch=NO; priority convergence=7/16; redirect sources recrawled=1/3; redirect sources processed as intended=0/3; redirect errors=1; representative noindex postdeploy convergence=1.
 
 ## 37. Policy Regression Check
 
@@ -162,7 +162,7 @@ ROLLBACK_REQUIRED = NO. A stale pre-recovery count assertion in the smoke script
 
 ## 41. Explicit Holds
 
-REDIRECT_SOURCE_GOOGLE_STATE_ERROR; CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
+CURRENT_RELEASE_SITEMAP_REFETCH_PENDING; REDIRECT_SOURCE_GOOGLE_STATE_ERROR; CRITICAL_REDIRECT_SOURCE_RECRAWL_PENDING; MATERIAL_GOOGLE_CONVERGENCE_PENDING; FIELD_CWV_INSUFFICIENT_DATA.
 
 ## 42. Monitoring Required
 

@@ -1,14 +1,14 @@
 {
   "mode": "postdeploy",
-  "captured_at": "2026-09-21T13:57:03.527Z",
-  "inventory_rows": 349,
+  "captured_at": "2026-09-27T05:02:39.275Z",
+  "inventory_rows": 359,
   "status_counts": {
-    "200": 345,
+    "200": 355,
     "301": 3,
     "307": 1
   },
   "sitemap_fetch_status": 200,
-  "sitemap_urls": 154,
+  "sitemap_urls": 164,
   "real_ad_signals": 0,
   "empty_ad_placeholders": 0,
   "fetch_errors": 0

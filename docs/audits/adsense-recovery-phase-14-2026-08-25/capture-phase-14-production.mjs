@@ -90,11 +90,35 @@ const authorizedSuccessorAdditions = [
     intended_state: "INDEXABLE_CANONICAL_200",
     expected_http_status: "200",
   },
+  {
+    URL: "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    route: "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    family: "LEARN_DETAIL",
+    intended_state: "INDEXABLE_CANONICAL_200",
+    expected_http_status: "200",
+  },
+  ...[
+    "https://echobuddha.com/learn/buddhist-handbook/",
+    "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+    "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+    "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+    "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+    "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+    "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+    "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+    "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+  ].map((href, index) => ({
+    URL: href,
+    route: new URL(href).pathname,
+    family: index === 0 ? "LEARN_HUB" : "LEARN_DETAIL",
+    intended_state: "INDEXABLE_CANONICAL_200",
+    expected_http_status: "200",
+  })),
 ];
 const inventory = mode === "postdeploy"
   ? [...initialInventory, ...authorizedSuccessorAdditions]
   : initialInventory;
-const expectedInventoryRows = mode === "postdeploy" ? 349 : 344;
+const expectedInventoryRows = mode === "postdeploy" ? 359 : 344;
 if (inventory.length !== expectedInventoryRows) throw new Error(`Expected ${expectedInventoryRows} ${mode} inventory rows; found ${inventory.length}.`);
 const sitemapFetch = await request("https://echobuddha.com/sitemap.xml", "follow");
 const sitemapUrls = new Set([...sitemapFetch.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));

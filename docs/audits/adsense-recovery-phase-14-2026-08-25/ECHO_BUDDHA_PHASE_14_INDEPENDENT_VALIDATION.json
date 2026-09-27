@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-25T02:26:15.833Z",
+  "generated_at": "2026-09-27T05:06:05.826Z",
   "reviewer": "INDEPENDENT_DETERMINISTIC_PRODUCTION_REVIEW",
   "production_origin": "https://echobuddha.com",
-  "deployed_commit": "d3da65308348cb5379c76271614288d14f150450",
-  "deployment_id": "a07b1d86-9af9-4d99-97a5-5b0c02c6bdbc",
+  "deployed_commit": "13adfcadc0cf0c8e18d6c8bda70bd3ec51af588f",
+  "deployment_id": "8ff18ef6-c7e1-4556-b7cd-88d84c71f67b",
   "samples": {
     "deterministic_seed": "phase14",
     "deterministic_indexable_sample_size": 20,
@@ -12,6 +12,8 @@
       "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
       "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
       "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
       "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
       "https://echobuddha.com/articles/",
       "https://echobuddha.com/articles/mindfulness-morning-routine/",
@@ -25,9 +27,7 @@
       "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
       "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
       "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
-      "https://echobuddha.com/articles/five-precepts-in-daily-life/",
-      "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
-      "https://echobuddha.com/learn/buddhism-for-beginners/"
+      "https://echobuddha.com/articles/five-precepts-in-daily-life/"
     ],
     "weakest_phase_12_sample_size": 20,
     "weakest_phase_12_urls": [
@@ -57,12 +57,12 @@
     {
       "name": "complete production index contract",
       "pass": true,
-      "evidence": "349/349"
+      "evidence": "359/359"
     },
     {
       "name": "authorized successor additions",
       "pass": true,
-      "evidence": "5/5 current-release additions"
+      "evidence": "15/15 current-release additions"
     },
     {
       "name": "SEO P0 production health",
@@ -92,7 +92,7 @@
     {
       "name": "sitemap",
       "pass": true,
-      "evidence": "immutable Phase 11 count 149; current authorized count 154"
+      "evidence": "immutable Phase 11 count 149; current authorized count 164"
     },
     {
       "name": "firewall",
@@ -111,9 +111,9 @@
     },
     {
       "name": "sitemap postdeploy refetch",
-      "pass": true,
-      "expected_hold": false,
-      "evidence": "refetched 2026-09-24T11:45:58.014Z; 154 submitted URLs"
+      "pass": false,
+      "expected_hold": true,
+      "evidence": "current-release 164-URL refetch not observed; latest stored sitemap state is 154 URLs from 2026-09-24T11:45:58.014Z"
     },
     {
       "name": "priority URL postdeploy processing",
