@@ -1,160 +1,94 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
-import DailyReflectionCard from "../components/DailyReflectionCard.astro";
-import {
-  getBuddhistQuestion,
-  getBuddhistQuestionPath,
-  getBuddhistQuestionReadTime
-} from "../data/buddhistQuestions";
+import { getBuddhistQuestion, getBuddhistQuestionPath } from "../data/buddhistQuestions";
 import { dailyReflections } from "../data/dailyReflections";
-import { SITE, fullArticles } from "../data/site";
-import { formatPublicationDate } from "../utils/publicationMetadata";
+import { fullArticles } from "../data/site";
 
-const title = "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life";
+const title = "Buddhist Wisdom, Learning & Meditation | Echo Buddha";
 const description =
-  "Explore simple Buddhist teachings, daily reflections, quote meanings, beginner meditation guides, and mindfulness practices for a calmer everyday life.";
+  "Explore Buddhist teachings, practical meditation, and everyday application through clear, source-aware guidance for beginners and returning readers.";
 const ogTitle = title;
 const ogDescription = description;
-const twitterTitle = SITE.title;
+const twitterTitle = title;
 const twitterDescription = description;
 
-const getPublishedTime = (date: string) => {
-  const timestamp = Date.parse(date);
-  return Number.isNaN(timestamp) ? Number.NEGATIVE_INFINITY : timestamp;
-};
+const featuredGuideSlugs = [
+  "right-speech-buddhism",
+  "three-poisons-buddhism-explained",
+  "how-to-let-go-of-attachment-in-buddhism"
+] as const;
 
-const homepageArticles = [...fullArticles]
-  .sort((a, b) => getPublishedTime(b.date) - getPublishedTime(a.date))
-  .slice(0, 3);
+const featuredGuides = featuredGuideSlugs.map((slug) => {
+  const article = fullArticles.find((candidate) => candidate.slug === slug);
+  if (!article) throw new Error(`Missing curated homepage guide: ${slug}`);
+  return article;
+});
 
 const corePaths = [
   {
     eyebrow: "Understand",
-    title: "Learn Buddhist Teachings",
+    title: "Learn Buddhism",
     href: "/learn/",
-    description: "Begin with Buddhism, follow the foundations, learn key terms, or read source-aware text notes.",
-    linkLabel: "Choose a learning path"
+    description: "Follow a clear sequence through Buddhist foundations, key terms, and source-aware study.",
+    linkLabel: "Explore the learning paths"
   },
   {
     eyebrow: "Practice",
-    title: "Choose a Meditation",
+    title: "Practice Meditation",
     href: "/meditation/",
-    description: "Find a beginner, breathing, walking, loving-kindness, or short practice that fits today.",
-    linkLabel: "Find a suitable practice"
+    description: "Choose a beginner, breathing, walking, loving-kindness, or short practice with safety guidance.",
+    linkLabel: "Choose a meditation practice"
   },
   {
-    eyebrow: "Read & reflect",
-    title: "Explore Everyday Wisdom",
-    href: "/articles/",
-    description: "Read editorial guidance on Buddhist ideas, mindful living, relationships, speech, and daily choices.",
-    linkLabel: "Browse practical articles"
+    eyebrow: "Live",
+    title: "Apply the Teachings",
+    href: "/mindful-living/",
+    description: "Bring Buddhist perspectives to speech, work, relationships, emotions, and everyday choices.",
+    linkLabel: "Explore mindful living"
   }
 ];
 
 const beginnerPath = [
-  { label: "What Is Buddhism?", href: "/learn/buddhism-101/what-is-buddhism/" },
-  { label: "Four Noble Truths", href: "/learn/four-noble-truths/" },
-  { label: "Noble Eightfold Path", href: "/learn/eightfold-path/" },
-  { label: "Beginner Meditation", href: "/meditation/meditation-for-beginners/" }
+  {
+    label: "What Is Buddhism?",
+    href: "/learn/buddhism-101/what-is-buddhism/",
+    description: "Meet Buddhism as a path of understanding, ethics, and practice."
+  },
+  {
+    label: "Four Noble Truths",
+    href: "/learn/four-noble-truths/",
+    description: "Understand suffering, its causes, release, and the work of the path."
+  },
+  {
+    label: "Noble Eightfold Path",
+    href: "/learn/eightfold-path/",
+    description: "See how wisdom, conduct, and mental training support one another."
+  },
+  {
+    label: "Meditation for Beginners",
+    href: "/meditation/meditation-for-beginners/",
+    description: "Try a short, gentle practice with clear ways to adapt or stop."
+  }
 ];
 
-const returnPaths = [
+const todayUtilities = [
   {
-    label: "Read Today's Reflection",
-    href: "/daily-reflections/today/",
-    description: "One short reflection, practice, and journal question."
+    label: "Try a 10-minute meditation",
+    href: "/meditation/10-minute-meditation-practice/",
+    description: "A short guided practice for a little more space in the day."
   },
   {
-    label: "Browse Original Quotes",
-    href: "/quotes/",
-    description: "Clearly labelled Echo Buddha lines with fuller reflection stories."
-  },
-  {
-    label: "Open Practice Tools",
+    label: "Use the practice tools",
     href: "/tools/",
-    description: "Use a timer, daily prompt, glossary, or simple seven-day practice."
+    description: "Open the timer, daily prompt, glossary, or seven-day practice."
   }
 ];
 
-const homepageQuestionSlugs = [
-  "did-buddha-order-buddha-images",
-  "respecting-buddha-after-parinibbana",
-  "is-buddha-image-only-uddesika-cetiya"
-] as const;
-
-const homepageQuestions = homepageQuestionSlugs.map((slug) => {
-  const question = getBuddhistQuestion(slug);
-
-  if (!question) {
-    throw new Error(`Missing curated homepage Buddhist question: ${slug}`);
-  }
-
-  return question;
-});
+const featuredQuestion = getBuddhistQuestion("respecting-buddha-after-parinibbana");
+if (!featuredQuestion) throw new Error("Missing curated homepage Buddhist question");
 
 const featuredDailyReflection = dailyReflections[0];
-
-const faqItems = [
-  {
-    question: "What is Echo Buddha?",
-    answer:
-      "Echo Buddha is a calm online space for original Buddhist-inspired articles, quotes, learning pages, and meditation guidance for daily life."
-  },
-  {
-    question: "Is Echo Buddha suitable for beginners?",
-    answer:
-      "Yes. The writing is simple, respectful, and practical, so new readers can begin with basic Buddhist wisdom, mindfulness, and meditation without needing prior study."
-  },
-  {
-    question: "What can I read first?",
-    answer:
-      "A good first step is the beginner article library, the meditation guide, or a short quote story that gives you one idea to reflect on during the day."
-  },
-  {
-    question: "Does Echo Buddha provide meditation guidance?",
-    answer:
-      "Echo Buddha offers simple educational meditation guidance, including breathing, posture, and gentle attention practices. It is not a replacement for medical or mental health care."
-  }
-];
-
-const homepageJsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE.url
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqItems.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer
-      }
-    }))
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Featured Echo Buddha articles",
-    itemListElement: homepageArticles.map((article, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: article.title,
-      url: `${SITE.url}/articles/${article.slug}/`
-    }))
-  }
-];
 ---
 
 <Layout
@@ -165,27 +99,24 @@ const homepageJsonLd = [
   ogDescription={ogDescription}
   twitterTitle={twitterTitle}
   twitterDescription={twitterDescription}
-  jsonLd={homepageJsonLd}
 >
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow">Buddhist wisdom for a calmer everyday life</span>
-        <h1>Echo Buddha</h1>
-        <p class="hero-subtitle">Learn Buddhist teachings, practice meditation, and reflect in daily life.</p>
+        <span class="eyebrow">Echo Buddha · Learning, practice, everyday life</span>
+        <h1>Buddhist Wisdom for Everyday Life</h1>
         <p class="lede">
-          Clear, source-aware learning and gentle practices for beginners and returning readers—without requiring
-          prior Buddhist knowledge.
+          Learn Buddhist foundations, choose a meditation practice, and apply the teachings through clear,
+          source-aware guidance—no prior study needed.
         </p>
         <div class="hero-actions" aria-label="Homepage starting points">
-          <a class="button" href="/start-here/">New here? Start here</a>
-          <a class="button button--secondary" href="/daily-reflections/today/">Today's Reflection</a>
-          <a class="hero-text-link" href="/meditation/">Choose a meditation</a>
+          <a class="button" href="/start-here/">Start Here</a>
+          <a class="button button--secondary" href="/meditation/">Choose a Meditation</a>
         </div>
       </div>
       <picture class="hero-visual">
         <source
-          media="(max-width: 639px)"
+          media="(max-width: 819px)"
           srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
         />
         <img
@@ -206,8 +137,8 @@ const homepageJsonLd = [
     <div class="container">
       <div class="section-intro">
         <span class="eyebrow">Choose by what you need</span>
-        <h2>Learn, Practice, or Read and Reflect</h2>
-        <p>Each path has a different purpose. You can begin with one and leave the rest for another day.</p>
+        <h2>Choose Your Path</h2>
+        <p>Start with understanding, a practice, or one area of daily life. Each route has a distinct purpose.</p>
       </div>
       <nav class="pathway-grid" aria-label="Core Echo Buddha pathways">
         {corePaths.map((path) => (
@@ -222,24 +153,43 @@ const homepageJsonLd = [
     </div>
   </section>
 
-  <section class="section section-band">
-    <div class="container split">
-      <div>
-        <span class="eyebrow">A beginner's first steps</span>
+  <section class="section section-band foundations-section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">New to Buddhism?</span>
         <h2>Start With the Foundations</h2>
-        <p class="lede">
-          Start Here explains how to use Echo Buddha. When you are ready to learn, these four pages form a simple
-          first sequence.
-        </p>
-        <ol class="beginner-path">
-          {beginnerPath.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
-        </ol>
-        <a class="button button--secondary beginner-link" href="/start-here/">See the newcomer guide</a>
+        <p>These four pages form a focused first sequence. Read one at a time; no prior study is assumed.</p>
       </div>
-      <DailyReflectionCard reflection={featuredDailyReflection} compact />
+      <ol class="beginner-path">
+        {beginnerPath.map((item) => (
+          <li>
+            <a href={item.href}>{item.label}</a>
+            <span>{item.description}</span>
+          </li>
+        ))}
+      </ol>
+      <a class="text-cta" href="/learn/buddhism-for-beginners/">Open the complete Buddhism for Beginners guide <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
+  <section class="section guides-section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Recommended reading</span>
+          <h2>Featured Guides</h2>
+          <p>
+            Three intentionally selected guides cover ethical speech, the roots of unskillful action, and letting go.
+            They are featured for their usefulness—not simply because they are newest.
+          </p>
+        </div>
+        <a class="text-cta" href="/articles/">Browse the article library <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="article-grid">
+        {featuredGuides.map((article) => <ArticleCard article={article} showShare={false} />)}
+      </div>
+    </div>
+  </section>
 
   <section class="section handbook-home" aria-labelledby="homepage-handbook-heading">
     <div class="container handbook-home__grid">
@@ -248,46 +198,27 @@ const homepageJsonLd = [
         <img src="/images/handbook/refined/buddhist-life-practice-handbook.webp" srcset="/images/handbook/refined/buddhist-life-practice-handbook-800.webp 800w, /images/handbook/refined/buddhist-life-practice-handbook.webp 1600w" sizes="(min-width: 900px) 44vw, 100vw" alt="A Bodhi tree, palm-leaf manuscript, alms bowl, and path toward a stupa at dawn" width="1600" height="900" loading="lazy" decoding="async" />
       </picture>
       <div>
-        <span class="eyebrow">Part I · The Triple Gem & Refuge</span>
+        <span class="eyebrow">Structured study · Eight chapters</span>
         <h2 id="homepage-handbook-heading">Buddhist Life & Practice Handbook</h2>
-        <p class="lede">Eight source-aware chapters through the Triple Gem, taking refuge, Theravāda traditions, respectful practice, and the relationship between laypeople and the Saṅgha.</p>
-        <a class="button" href="/learn/buddhist-handbook/">Explore the handbook</a>
+        <p class="lede">Study the Triple Gem, taking refuge, Theravāda traditions, respectful practice, and the relationship between laypeople and the Saṅgha in one source-aware sequence.</p>
+        <a class="button button--secondary" href="/learn/buddhist-handbook/">Explore the Handbook</a>
       </div>
     </div>
   </section>
 
-
-  <section class="section">
-    <div class="container">
-      <div class="section-heading">
-        <div>
-          <span class="eyebrow">Editorial reading</span>
-          <h2>Recent Articles for Daily Life</h2>
-          <p>
-            Practical articles explore situations and questions in more depth. For a structured sequence, use the
-            Learn section instead.
-          </p>
-        </div>
-        <a class="button button--secondary" href="/articles/">Browse all articles</a>
-      </div>
-      <div class="article-grid">
-        {homepageArticles.map((article) => <ArticleCard article={article} />)}
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-band">
-    <div class="container return-grid">
-      <div class="return-intro">
-        <span class="eyebrow">For a quiet return</span>
-        <h2>Come Back for One Useful Moment</h2>
+  <section class="section section-band today-section">
+    <div class="container today-grid">
+      <div class="today-reflection">
+        <span class="eyebrow">A useful moment for today</span>
+        <h2>Pause With One Reflection</h2>
+        <blockquote>“{featuredDailyReflection.reflection}”</blockquote>
         <p>
-          You do not need to follow a long path each time. Read one reflection, sit for a few minutes, or keep one
-          original line with you through the day.
+          Today's page pairs one original Echo Buddha reflection with a brief meaning, practice, and journal question.
         </p>
+        <a class="button" href="/daily-reflections/today/">Open Today's Reflection</a>
       </div>
-      <nav class="return-links" aria-label="Returning visitor paths">
-        {returnPaths.map((path) => (
+      <nav class="today-links" aria-label="Short daily practice options">
+        {todayUtilities.map((path) => (
           <a href={path.href}>
             <strong>{path.label}</strong>
             <span>{path.description}</span>
@@ -298,39 +229,22 @@ const homepageJsonLd = [
   </section>
 
   <section class="section deeper-questions" aria-labelledby="homepage-deeper-questions-heading">
-    <div class="container">
-      <div class="section-intro">
+    <div class="container question-gateway">
+      <div>
         <span class="eyebrow">Source-aware study</span>
-        <h2 id="homepage-deeper-questions-heading">Deeper Questions About Buddhist Tradition</h2>
+        <h2 id="homepage-deeper-questions-heading">Questions About Buddhist Tradition</h2>
         <p>
-          Some Buddhist questions deserve a longer, source-aware answer. Explore explanations that carefully
-          distinguish early texts, later tradition, historical evidence, and modern interpretation when those layers
-          matter.
+          Explore careful answers that distinguish early texts, later traditions, historical evidence, and modern
+          interpretation when those layers matter.
         </p>
+        <a class="text-cta" href="/learn/questions-about-buddhism/">Explore all Questions About Buddhism <span aria-hidden="true">→</span></a>
       </div>
-      <div class="question-grid">
-        {homepageQuestions.map((question) => (
-          <article class="surface question-card">
-            <span class="eyebrow">{question.eyebrow}</span>
-            <h3><a href={getBuddhistQuestionPath(question)}>{question.title}</a></h3>
-            <p class="question-card__meta">
-              <time datetime={question.publishedDate}>{formatPublicationDate(question.publishedDate)}</time>
-              <span aria-hidden="true">|</span>
-              <span>{getBuddhistQuestionReadTime(question)}</span>
-            </p>
-            <p>{question.description}</p>
-            <a class="question-card__link" href={getBuddhistQuestionPath(question)}>
-              Read the full answer <span aria-hidden="true">→</span>
-            </a>
-          </article>
-        ))}
-      </div>
-      <a
-        class="button button--secondary deeper-questions__cta"
-        href="/learn/questions-about-buddhism/#deeper-questions-heading"
-      >
-        Explore all deeper questions <span aria-hidden="true">→</span>
-      </a>
+      <article class="question-highlight">
+        <span class="eyebrow">From the question library</span>
+        <h3><a href={getBuddhistQuestionPath(featuredQuestion)}>{featuredQuestion.title}</a></h3>
+        <p>{featuredQuestion.description}</p>
+        <a class="question-highlight__link" href={getBuddhistQuestionPath(featuredQuestion)}>Read this source-aware answer <span aria-hidden="true">→</span></a>
+      </article>
     </div>
   </section>
 
@@ -338,41 +252,26 @@ const homepageJsonLd = [
     <div class="container about-grid">
       <div>
         <span class="eyebrow">About Echo Buddha</span>
-        <h2>A Calm, Accountable Publication</h2>
+        <h2>Why Readers Can Trust the Care Behind the Work</h2>
       </div>
       <div class="about-copy">
         <p>
-          Echo Buddha publishes original Buddhist-inspired educational reflections for readers who want calm,
-          practical wisdom in daily life. The writing is designed to be clear, respectful, and useful rather than loud
-          or commercial.
+          Echo Buddha publishes original editorial explanations and practical reflections. Traditional sources,
+          paraphrase, later commentary, historical evidence, and original Echo Buddha writing are distinguished where
+          those differences matter.
         </p>
         <p>
-          Sources, editorial responsibility, quote origins, correction paths, and meditation-safety boundaries remain
-          available for readers who want to verify how the publication works.
+          The publication does not claim monastic, academic, medical, or institutional authority. Its content process,
+          source approach, author identity, corrections path, and meditation-safety boundaries are open to readers.
         </p>
         <div class="about-links" aria-label="Publisher and editorial trust links">
           <a href="/about/">About</a>
+          <a href="/authors/echo-buddha-editorial/">Editorial Team</a>
           <a href="/how-echo-buddha-creates-content/">Content Process</a>
           <a href="/buddhist-sources-and-citations/">Sources & Citations</a>
           <a href="/corrections/">Corrections</a>
+          <a href="/meditation-safety/">Meditation Safety</a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section faq-section">
-    <div class="container">
-      <div class="section-intro">
-        <span class="eyebrow">Quick questions</span>
-        <h2>Beginner FAQ</h2>
-      </div>
-      <div class="faq-list">
-        {faqItems.map((item) => (
-          <details class="faq-item surface">
-            <summary>{item.question}</summary>
-            <p>{item.answer}</p>
-          </details>
-        ))}
       </div>
     </div>
   </section>
@@ -390,13 +289,9 @@ const homepageJsonLd = [
     gap: 2.25rem;
   }
 
-  .hero-subtitle {
-    color: var(--color-brown);
-    font-family: var(--font-serif);
-    font-size: 1.45rem;
-    line-height: 1.32;
-    margin-bottom: 1rem;
-    max-width: 42rem;
+  .hero h1 {
+    font-size: clamp(2.65rem, 6.4vw, 5.15rem);
+    max-width: 16ch;
   }
 
   .hero-actions {
@@ -405,15 +300,6 @@ const homepageJsonLd = [
     flex-wrap: wrap;
     gap: 0.75rem;
     margin-top: 1.5rem;
-  }
-
-  .hero-text-link {
-    align-items: center;
-    color: var(--color-green);
-    display: inline-flex;
-    font-weight: 800;
-    min-height: 2.75rem;
-    padding: 0.55rem 0.25rem;
   }
 
   .hero-visual {
@@ -440,8 +326,8 @@ const homepageJsonLd = [
   .section-intro p,
   .section-heading p,
   .pathway-card p,
-  .question-card p,
-  .return-intro p,
+  .question-gateway p,
+  .today-reflection p,
   .about-copy {
     color: var(--color-muted);
   }
@@ -479,19 +365,71 @@ const homepageJsonLd = [
     border-color: rgba(79, 111, 82, 0.42);
   }
 
-  .beginner-path {
-    display: grid;
-    gap: 0.55rem;
-    margin: 1.25rem 0;
-    padding-left: 1.25rem;
+  .pathway-card:nth-child(1) {
+    border-top: 4px solid var(--color-gold);
   }
 
-  .beginner-path a {
+  .pathway-card:nth-child(2) {
+    border-top: 4px solid var(--color-green);
+  }
+
+  .pathway-card:nth-child(3) {
+    border-top: 4px solid var(--color-brown);
+  }
+
+  .beginner-path {
+    counter-reset: foundation-step;
+    display: grid;
+    gap: 1.15rem;
+    list-style: none;
+    margin: 1.75rem 0 1.4rem;
+    padding: 0;
+  }
+
+  .beginner-path li {
+    border-top: 1px solid var(--color-line);
+    counter-increment: foundation-step;
+    display: grid;
+    gap: 0.35rem;
+    min-width: 0;
+    padding-top: 1rem;
+  }
+
+  .beginner-path li::before {
+    color: var(--color-green);
+    content: "0" counter(foundation-step);
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+  }
+
+  .beginner-path a,
+  .text-cta {
     font-weight: 800;
   }
 
-  .beginner-link {
-    margin-top: 0.25rem;
+  .beginner-path a {
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    line-height: 1.25;
+    text-decoration: none;
+  }
+
+  .beginner-path a:hover {
+    color: var(--color-green);
+  }
+
+  .beginner-path span {
+    color: var(--color-muted);
+    font-size: 0.94rem;
+  }
+
+  .text-cta {
+    align-items: center;
+    color: var(--color-green);
+    display: inline-flex;
+    min-height: 2.75rem;
   }
 
   .section-band {
@@ -542,21 +480,32 @@ const homepageJsonLd = [
     height: 100%;
   }
 
-  .return-grid {
+  .today-grid {
     display: grid;
     gap: 1.5rem 2.5rem;
   }
 
-  .return-intro {
-    max-width: 35rem;
+  .today-reflection {
+    max-width: 42rem;
   }
 
-  .return-links {
+  .today-reflection blockquote {
+    border-left: 3px solid var(--color-gold);
+    color: var(--color-brown);
+    font-family: var(--font-serif);
+    font-size: clamp(1.25rem, 3vw, 1.65rem);
+    line-height: 1.45;
+    margin: 1.15rem 0;
+    padding-left: 1rem;
+  }
+
+  .today-links {
+    align-content: start;
     display: grid;
     gap: 0.65rem;
   }
 
-  .return-links a {
+  .today-links a {
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid var(--color-line);
     border-radius: var(--radius);
@@ -567,16 +516,16 @@ const homepageJsonLd = [
     text-decoration: none;
   }
 
-  .return-links a:hover,
-  .return-links a:focus-visible {
+  .today-links a:hover,
+  .today-links a:focus-visible {
     border-color: var(--color-green);
   }
 
-  .return-links strong {
+  .today-links strong {
     color: var(--color-green);
   }
 
-  .return-links span {
+  .today-links span {
     color: var(--color-muted);
     font-size: 0.9rem;
   }
@@ -585,54 +534,34 @@ const homepageJsonLd = [
     background: rgba(255, 253, 248, 0.54);
   }
 
-  .question-grid {
+  .question-gateway {
+    align-items: start;
     display: grid;
-    gap: 1.15rem;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    gap: 1.75rem 3rem;
   }
 
-  .question-card {
-    display: flex;
-    flex-direction: column;
+  .question-highlight {
+    border-left: 3px solid var(--color-gold);
     min-width: 0;
-    padding: 1.35rem;
+    padding-left: 1.25rem;
   }
 
-  .question-card h3 {
-    font-size: 1.45rem;
+  .question-highlight h3 {
+    font-size: clamp(1.4rem, 3vw, 1.75rem);
   }
 
-  .question-card h3 a {
+  .question-highlight h3 a {
     color: var(--color-ink);
     display: inline-block;
     text-decoration: none;
   }
 
-  .question-card h3 a:hover {
+  .question-highlight h3 a:hover {
     color: var(--color-green);
   }
 
-  .question-card__meta {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.86rem;
-    gap: 0.35rem;
-    margin-top: -0.15rem;
-  }
-
-  .question-card__link {
+  .question-highlight__link {
     font-weight: 800;
-    margin-top: auto;
-  }
-
-  .deeper-questions__cta {
-    margin-top: 1.5rem;
-  }
-
-  .question-card__link span,
-  .deeper-questions__cta span {
-    margin-left: 0.2rem;
   }
 
   .about-section {
@@ -657,54 +586,20 @@ const homepageJsonLd = [
     font-weight: 800;
   }
 
-  .faq-list {
-    display: grid;
-    gap: 0.85rem;
-  }
-
-  .faq-item {
-    padding: 1.1rem 1.2rem;
-  }
-
-  .faq-item summary {
-    color: var(--color-ink);
-    cursor: pointer;
-    font-family: var(--font-serif);
-    font-size: 1.15rem;
-    font-weight: 700;
-  }
-
-  .faq-item p {
-    color: var(--color-muted);
-    margin: 0.75rem 0 0;
-  }
-
-  .ad-placement {
-    padding: 0.5rem 0;
-  }
-
-  .ad-placement :global(.ad-slot) {
-    background: rgba(255, 255, 255, 0.46);
-    border: 1px solid var(--color-line);
-    border-radius: var(--radius);
-    margin: 0.25rem 0;
-    min-height: 4.75rem;
-  }
-
-  .ad-placement--lower :global(.ad-slot) {
-    margin: 0.25rem 0 1.75rem;
-  }
-
   @media (min-width: 640px) {
     .pathway-grid,
     .article-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
+    .beginner-path {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 
-  @media (max-width: 639px) {
+  @media (max-width: 819px) {
     .hero {
-      padding: 2.65rem 0 2rem;
+      padding: 2rem 0 1.6rem;
     }
 
     .hero-grid {
@@ -724,13 +619,20 @@ const homepageJsonLd = [
     }
   }
 
+  @media (max-width: 360px) {
+    .hero h1 {
+      font-size: 2.3rem;
+      max-width: none;
+    }
+  }
+
   @media (min-width: 820px) {
     .handbook-home__grid {
       grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
     }
 
     .hero {
-      padding: 5rem 0 3.75rem;
+      padding: 4.5rem 0 3.5rem;
     }
 
     .hero-grid {
@@ -738,17 +640,20 @@ const homepageJsonLd = [
       grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.78fr);
     }
 
-    .hero-subtitle {
-      font-size: 1.8rem;
-    }
-
-    .return-grid {
+    .today-grid,
+    .question-gateway {
       align-items: start;
       grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
     }
 
     .about-grid {
       grid-template-columns: minmax(12rem, 0.8fr) minmax(0, 1.3fr);
+    }
+  }
+
+  @media (min-width: 960px) {
+    .beginner-path {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 </style>

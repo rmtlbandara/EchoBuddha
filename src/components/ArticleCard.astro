@@ -6,9 +6,10 @@ import { SITE, getArticleCategory, getArticleReadTime, type Article } from "../d
 type Props = {
   article: Article;
   showThumbnail?: boolean;
+  showShare?: boolean;
 };
 
-const { article, showThumbnail = true } = Astro.props;
+const { article, showThumbnail = true, showShare = true } = Astro.props;
 const articleHref = article.content.length > 0 ? `/articles/${article.slug}/` : "";
 const articleUrl = articleHref ? new URL(articleHref, SITE.url).toString() : SITE.url;
 const thumbnailUrl = article.thumbnail ? new URL(article.thumbnail, SITE.url).toString() : "";
@@ -47,7 +48,7 @@ const formattedDate = new Intl.DateTimeFormat("en", {
       <time datetime={article.date}>{formattedDate}</time>
       <span>{readTime}</span>
       {!articleHref && <span>Preview</span>}
-      {articleHref && (
+      {articleHref && showShare && (
         <ArticleShare
           title={article.title}
           description={article.description}

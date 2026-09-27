@@ -141,38 +141,28 @@ test("hub, internal search, and sitemap discover all six question pages exactly 
   assert.equal(searchIndex.length, 329);
 });
 
-test("homepage curates exactly the first three deeper questions in the intended journey position", () => {
+test("homepage uses one representative question as a compact gateway in the intended journey position", () => {
   const homepage = read("dist/index.html");
-  const returnSection = homepage.indexOf("Come Back for One Useful Moment");
+  const returnSection = homepage.indexOf("Pause With One Reflection");
   const deeperSection = homepage.indexOf('<section class="section deeper-questions"');
-  const aboutSection = homepage.indexOf("A Calm, Accountable Publication");
+  const aboutSection = homepage.indexOf("Why Readers Can Trust the Care Behind the Work");
 
   assert.ok(returnSection >= 0 && deeperSection > returnSection && aboutSection > deeperSection);
 
   const deeperSectionHtml = homepage.slice(deeperSection, aboutSection);
-  assert.equal((deeperSectionHtml.match(/<article class="surface question-card"/g) ?? []).length, 3);
+  assert.equal((deeperSectionHtml.match(/<article class="question-highlight"/g) ?? []).length, 1);
   assert.match(deeperSectionHtml, /Source-aware study/);
-  assert.match(deeperSectionHtml, /Deeper Questions About Buddhist Tradition/);
-  assert.match(deeperSectionHtml, /Explore all deeper questions/);
-  assert.match(deeperSectionHtml, /\/learn\/questions-about-buddhism\/#deeper-questions-heading/);
-  assert.equal((deeperSectionHtml.match(/class="question-card__meta"/g) ?? []).length, 3);
-
-  for (const [index, route] of questionRoutes.slice(0, 3).entries()) {
-    assert.match(deeperSectionHtml, new RegExp(escapeRegex(route)));
-    const question = buddhistQuestions[index];
-    assert.match(
-      deeperSectionHtml,
-      new RegExp(`<time datetime="${question.publishedDate}"[^>]*>${formatPublicationDate(question.publishedDate)}</time>`)
-    );
-    assert.match(deeperSectionHtml, new RegExp(escapeRegex(getBuddhistQuestionReadTime(question))));
-  }
-  for (const route of questionRoutes.slice(3)) {
-    assert.doesNotMatch(deeperSectionHtml, new RegExp(escapeRegex(route)));
+  assert.match(deeperSectionHtml, /Questions About Buddhist Tradition/);
+  assert.match(deeperSectionHtml, /Explore all Questions About Buddhism/);
+  assert.match(deeperSectionHtml, /\/learn\/questions-about-buddhism\//);
+  assert.match(deeperSectionHtml, new RegExp(escapeRegex(questionRoutes[1])));
+  for (const [index, route] of questionRoutes.entries()) {
+    if (index !== 1) assert.doesNotMatch(deeperSectionHtml, new RegExp(escapeRegex(route)));
   }
 
   const homepageSource = read("src/pages/index.astro");
-  assert.match(homepageSource, /\.question-card h3 a \{[^}]*text-decoration: none;/s);
-  assert.match(homepageSource, /<h3><a href=\{getBuddhistQuestionPath\(question\)\}>\{question\.title\}<\/a><\/h3>/);
+  assert.match(homepageSource, /\.question-highlight h3 a \{[^}]*text-decoration: none;/s);
+  assert.match(homepageSource, /<h3><a href=\{getBuddhistQuestionPath\(featuredQuestion\)\}>\{featuredQuestion\.title\}<\/a><\/h3>/);
 });
 
 test("all six question routes remain conservative Learn-detail monetization holds", () => {
