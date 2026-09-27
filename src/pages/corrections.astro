@@ -36,8 +36,8 @@ const jsonLd = {
         <span class="eyebrow">Report an issue</span>
         <h2>Contact Echo Buddha</h2>
         <p>
-          Email <a class="email-link" href={`mailto:${SITE.email}`}>{SITE.email}</a> with the page URL, the passage or
-          issue, and any source information that may help review it.
+          Email <a class="email-link" href={`mailto:${SITE.editorialEmail}`}>{SITE.editorialEmail}</a> with the page URL,
+          the passage or issue, and any source information that may help review it.
         </p>
       </div>
 
@@ -58,6 +58,10 @@ const jsonLd = {
       <p>
         Echo Buddha is responsible for this process through the contact above. No response time or individual reply is
         promised, but correction evidence is evaluated on its merits.
+      </p>
+      <p>
+        For a technical website, accessibility, or privacy-settings problem that is not an editorial correction, email
+        <a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a>.
       </p>
 
       <h2>Clarity Updates</h2>

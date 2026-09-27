@@ -12,10 +12,7 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  publisher: {
-    ...PUBLISHER_SCHEMA,
-    email: SITE.email
-  }
+  publisher: PUBLISHER_SCHEMA
 };
 ---
 
@@ -24,7 +21,7 @@ const jsonLd = {
     <div class="container prose">
       <span class="eyebrow">Policy</span>
       <h1>Privacy Policy</h1>
-      <p class="lede">Last updated: August 13, 2026</p>
+      <p class="lede">Last updated: September 27, 2026</p>
     </div>
   </section>
   <section class="section section--tight">
@@ -90,7 +87,7 @@ const jsonLd = {
       <h2>Contact</h2>
       <p>
         Questions about this policy can be sent to
-        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+        <a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a>.
       </p>
     </div>
   </section>

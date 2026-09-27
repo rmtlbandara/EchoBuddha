@@ -47,7 +47,7 @@ Dhammapada and sutta pages generally state that they use original explanation/pa
 
 ## 9. Current Corrections Workflow
 
-Readers have a real mailto path at `info.echobuddha@gmail.com`. The policy identifies minor and substantive changes but does not yet provide a sufficiently concrete triage, attribution/source-check, materiality, date-change, and public-note workflow.
+Readers have a real mailto path at `info@echobuddha.com`. The policy identifies minor and substantive changes but does not yet provide a sufficiently concrete triage, attribution/source-check, materiality, date-change, and public-note workflow.
 
 ## 10. Current Content Process
 

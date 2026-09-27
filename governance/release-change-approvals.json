@@ -28,6 +28,14 @@
     },
     {
       "type": "protected-file",
+      "target": "src/pages/privacy-policy.astro",
+      "approved": true,
+      "reason": "Replace the retired publisher Gmail contact with the approved domain support address for privacy and consent assistance, while preserving the existing consent, analytics, and advertising disclosures and behavior.",
+      "owner": "Echo Buddha project owner via the 2026-09-27 domain email migration and production deployment request",
+      "date": "2026-09-27"
+    },
+    {
+      "type": "protected-file",
       "target": "src/components/Header.astro",
       "approved": true,
       "reason": "Phase 9 exposes the established Quotes content family in primary navigation and slightly tightens desktop link spacing without changing routes, Search ownership, indexability, consent, or deployment behavior.",

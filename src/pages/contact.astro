@@ -1,10 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../data/site";
-import { PUBLISHER_SCHEMA } from "../data/editorialGovernance";
+import { PUBLISHER_CONTACT_SCHEMA } from "../data/editorialGovernance";
 
 const title = "Contact";
-const description = "Contact Echo Buddha with questions, suggestions, article ideas, or general feedback about the website.";
+const description =
+  "Contact Echo Buddha for editorial inquiries, corrections, content suggestions, accessibility, privacy settings, or website support.";
 const canonicalPath = "/contact/";
 const jsonLd = {
   "@context": "https://schema.org",
@@ -12,10 +13,7 @@ const jsonLd = {
   name: title,
   description,
   url: `${SITE.url}${canonicalPath}`,
-  mainEntity: {
-    ...PUBLISHER_SCHEMA,
-    email: SITE.email
-  }
+  mainEntity: PUBLISHER_CONTACT_SCHEMA
 };
 ---
 
@@ -25,30 +23,36 @@ const jsonLd = {
       <span class="eyebrow">Contact</span>
       <h1>Contact Echo Buddha</h1>
       <p class="lede">
-        Send questions, corrections, topic suggestions, or thoughtful feedback about Echo Buddha.
+        Contact Echo Buddha about published content, thoughtful suggestions, corrections, or problems using the
+        website.
       </p>
     </div>
   </section>
   <section class="section section--tight">
     <div class="container prose">
-      <div class="surface contact-panel">
-        <span class="eyebrow">Email</span>
-        <h2>Write to Echo Buddha</h2>
-        <p>Contact the Echo Buddha publisher at:</p>
-        <p><a class="email-link" href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
-        <p>
-          Please include the page URL when reporting a correction. Personal medical, legal, or spiritual counseling
-          cannot be provided by email.
-        </p>
-        <p>
-          Echo Buddha reads messages for editorial feedback, correction requests, and topic suggestions. A reply is not
-          guaranteed, but clear correction reports are reviewed carefully. Read
-          <a href="/corrections/">Corrections and Editorial Updates</a> for what to include.
-        </p>
-        <p>
-          “Echo Buddha Editorial” is the site's organizational publication byline. It does not identify a named person
-          or claim that an expert review team exists.
-        </p>
+      <div class="contact-grid">
+        <article class="surface contact-panel">
+          <span class="eyebrow">General &amp; Editorial</span>
+          <h2>Published content and general inquiries</h2>
+          <p>
+            Use this address for general or publisher inquiries, editorial feedback, content suggestions, source or
+            quotation concerns, and correction reports.
+          </p>
+          <p>
+            <a class="email-link" href={`mailto:${SITE.editorialEmail}`}>{SITE.editorialEmail}</a>
+          </p>
+        </article>
+        <article class="surface contact-panel">
+          <span class="eyebrow">Website Support</span>
+          <h2>Help using the website</h2>
+          <p>
+            Use this address for technical problems, accessibility issues, privacy or consent settings, and trouble
+            accessing site features.
+          </p>
+          <p>
+            <a class="email-link" href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a>
+          </p>
+        </article>
       </div>
       <div>
         <h2>Content Suggestions</h2>
@@ -56,10 +60,15 @@ const jsonLd = {
           Echo Buddha welcomes topic ideas about meditation, compassion, mindful living, and beginner-friendly
           Buddhist education. Suggestions are most useful when they describe the reader question, not only a keyword.
         </p>
-        <h2>Corrections</h2>
+        <h2>Reporting a Correction</h2>
         <p>
-          Accuracy and clarity matter. If you notice an error, unclear wording, or a broken link, contact us with
-          enough detail to review the issue.
+          A useful correction report includes the affected page URL, the relevant passage or section, an explanation
+          of the concern, and a source or reference when applicable. Read
+          <a href="/corrections/">Corrections and Editorial Updates</a> for the review process.
+        </p>
+        <p>
+          Echo Buddha cannot provide individual medical, mental-health, legal, crisis, or personalized spiritual
+          counseling by email. A reply is not guaranteed, but clear correction reports are reviewed carefully.
         </p>
       </div>
     </div>
@@ -67,8 +76,13 @@ const jsonLd = {
 </Layout>
 
 <style>
-  .contact-panel {
+  .contact-grid {
+    display: grid;
+    gap: 1rem;
     margin-bottom: 2rem;
+  }
+
+  .contact-panel {
     padding: 1.25rem;
   }
 
@@ -81,5 +95,11 @@ const jsonLd = {
     font-size: clamp(1rem, 3vw, 1.25rem);
     font-weight: 800;
     overflow-wrap: anywhere;
+  }
+
+  @media (min-width: 760px) {
+    .contact-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 </style>

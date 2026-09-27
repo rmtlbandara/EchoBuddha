@@ -32,7 +32,7 @@ const publicFiles = ["src/pages/about.astro", "src/pages/authors/echo-buddha-edi
 const publicText = (await Promise.all(publicFiles.map((file) => readFile(path.join(ROOT, file), "utf8")))).join("\n");
 const siteData = await readFile(path.join(ROOT, "src/data/site.ts"), "utf8");
 check("authorship-model", /organizational publication byline/i.test(publicText) && !/editorial team|shared editorial voice/i.test(publicText), "Organizational label explicit; team implication absent");
-check("publisher-accountability", /Echo Buddha remains responsible|Echo Buddha is responsible|publisher responsible/i.test(publicText) && /info\.echobuddha@gmail\.com/.test(siteData) && /SITE\.email|contactEmail/.test(publicText), "Brand accountability and real contact present");
+check("publisher-accountability", /Echo Buddha remains responsible|Echo Buddha is responsible|publisher responsible/i.test(publicText) && /info@echobuddha\.com/.test(siteData) && /SITE\.editorialEmail|contactEmail/.test(publicText), "Brand accountability and real contact present");
 check("credential-protection", /namedPersonPublished: false/.test(source) && /verifiedCredentials: \[\]/.test(source) && /externalReviewers: \[\]/.test(source), "No named person, credential, or reviewer data");
 check("source-correction-article", /\/articles\/what-is-karma-in-buddhism\/[\s\S]{0,400}an6\.63\/en\/sujato/.test(source), "Article mapping uses AN 6.63");
 check("source-correction-dictionary", /buddhist-dictionary\/karma[\s\S]{0,400}an6\.63\/en\/sujato/.test(learn), "Dictionary mapping uses AN 6.63");

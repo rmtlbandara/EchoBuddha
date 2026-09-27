@@ -128,7 +128,7 @@ const pages = files.map((file) => {
   const schemaTypes = [...new Set(nodes.flatMap((node) => Array.isArray(node["@type"]) ? node["@type"] : [node["@type"]]).filter(Boolean))];
   const externalSourceCount = [...html.matchAll(/<a\b[^>]*href="https?:\/\/([^/"]+)/gi)].filter((item) => item[1] !== "echobuddha.com").length;
   const hasSourceSection = /Source Note|Selected References|Traditional References|Practice Sources|Sources and Citations|Origin and Practical Context/i.test(text);
-  const hasCorrection = html.includes('href="/corrections/"') || html.includes("mailto:info.echobuddha@gmail.com");
+  const hasCorrection = html.includes('href="/corrections/"') || html.includes("mailto:info@echobuddha.com");
   return {
     route, url: route === "/404.html" ? `${site}/404.html` : `${site}${route === "/" ? "/" : route}`,
     file, html, text, title, h1, canonical, robots, indexable: !robots.toLowerCase().includes("noindex"),
