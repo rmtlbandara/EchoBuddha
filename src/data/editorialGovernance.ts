@@ -902,6 +902,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Dhammatalks: SN 45.8",
       href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
       note: "Primary-text reference for the Noble Eightfold Path context that includes Right Speech."
+    },
+    {
+      label: "Dhammatalks: MN 58",
+      href: "https://www.dhammatalks.org/suttas/MN/MN58.html",
+      note: "Primary-text reference for truth, benefit, agreeability, compassion, and proper timing in speech."
     }
   ],
   "/articles/buddhist-teachings-on-impermanence/": [
@@ -935,6 +940,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "SuttaCentral: SN 56.11",
       href: "https://suttacentral.net/sn56.11/en/sujato",
       note: "Reference for craving and clinging context in the Four Noble Truths."
+    },
+    {
+      label: "Dhammatalks: SN 12.2",
+      href: "https://www.dhammatalks.org/suttas/SN/SN12_2.html",
+      note: "Primary-text reference for craving as a condition for clinging and for the broader meanings of both terms."
     }
   ],
   "/articles/mindfulness-of-breathing-guide/": [
@@ -1055,6 +1065,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Dhammatalks: SN 45.8",
       href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
       note: "Primary-text reference for the Noble Eightfold Path context that includes Right Speech."
+    },
+    {
+      label: "Dhammatalks: MN 58",
+      href: "https://www.dhammatalks.org/suttas/MN/MN58.html",
+      note: "Primary-text reference for evaluating speech by truth, benefit, reception, compassion, and proper timing; digital applications are Echo Buddha editorial guidance."
     }
   ],
   "/articles/dhammapada-reflection-what-we-think/": [
@@ -1079,6 +1094,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "SuttaCentral: Dhammapada translation introduction",
       href: "https://suttacentral.net/edition/dhp/en/sujato/introduction",
       note: "Reference for translation variation and why popular Dhammapada wording should not be treated as automatically exact."
+    },
+    {
+      label: "Ṭhānissaro Bhikkhu: Dhammapada 1–2",
+      href: "https://www.dhammatalks.org/suttas/KN/Dhp/Ch01.html",
+      note: "Independent named translation for comparing the paired verses without constructing a blended Echo Buddha translation."
     }
   ],
   "/articles/buddhist-approach-to-anger/": [

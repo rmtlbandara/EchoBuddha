@@ -143,7 +143,12 @@ check("GAP-02", gaps.every((row) => row["why existing pages cannot satisfy"].len
 const changedHtml = changelog.map((row) => ({ row, html: read(htmlPath(row.URL)) }));
 const expectedAdditions = ["Two Source Tests That Should Not Be Flattened Into One", "Language Family Does Not Create a Perfect Tradition Boundary", "Read Verse 1 Together With Its Pair", "A Provenance Check Readers Can Repeat", "See the Eight Factors as Three Cooperating Trainings", "Overthinking Is Not a Direct Translation of", "A Modern Boundary Is an Application, Not a Canonical Formula"];
 check("BLD-01", expectedAdditions.every((needle) => changedHtml.some(({ html }) => html.includes(needle))), "7/7 page-specific material additions render");
-check("BLD-02", changedHtml.every(({ row, html }) => html.includes(`\"dateModified\":\"2026-08-24\"`) && html.includes(`<link rel="canonical" href="${row.URL}"`)), "dateModified and self-canonical match visible material upgrades");
+check("BLD-02", changedHtml.every(({ row, html }) => {
+  const modifiedDate = html.match(/\"dateModified\":\"(\d{4}-\d{2}-\d{2})\"/)?.[1];
+  return modifiedDate >= "2026-08-24"
+    && html.includes(`datetime="${modifiedDate}"`)
+    && html.includes(`<link rel="canonical" href="${row.URL}"`);
+}), "dateModified is no earlier than the Phase 6 revision, matches a visible date, and retains the self-canonical");
 check("BLD-03", changedHtml.every(({ html }) => html.includes('"@type":["BlogPosting","Article"]') && html.includes('"headline"') && html.includes('"publisher"') && html.includes('"author"') && html.includes('"datePublished"')), "Article structured data retains headline/author/publisher/publication provenance");
 check("BLD-04", changedHtml.every(({ html }) => !/<meta[^>]+name="robots"[^>]+noindex/i.test(html)), "zero accidental noindex directives on changed articles");
 const expectedPrompts = ["Before one consequential message", "Open one Buddhist source you already use", "Compare Verse 1 and Verse 2", "Check one attributed quote", "Review one choice through two neighboring path factors", "Ask whether the last five minutes produced new information", "Name one situation in three lines"];
@@ -180,15 +185,21 @@ const allowedPrefixes = [
   "docs/audits/adsense-rejection-2026-08/phase-9-ci-git-deployment/phase-9-custom-validation.json",
   "docs/audits/adsense-rejection-2026-08/phase-10-search-console-measurement/phase-10-custom-validation.json",
   "docs/audits/content-audit/",
+  "docs/audits/article-library-refinement-2026-09-27/",
+  "docs/audits/aug-5-2026-content-quality-remediation/visual-qa/",
   "docs/audits/echo-buddha-governance-implementation/",
+  "docs/article-audit-inventory.json",
+  "docs/article-audit-report.md",
   "governance/release-change-approvals.json",
   "package.json",
+  "package-lock.json",
   "README.md",
   "scripts/generate-phase-10-route-registry.mjs",
   "scripts/validate-phase-11-index-hygiene.mjs",
   "scripts/validate-phase-12-policy-redteam.mjs",
   "scripts/validate-phase-13.mjs",
   "scripts/lint-governance.mjs",
+  "scripts/audit-articles.mjs",
   "tests/governance.test.mjs",
   "tests/phase10-monetization-firewall.test.mjs",
   "src/data/ads.ts",
@@ -232,9 +243,10 @@ const allowedPrefixes = [
   "src/pages/meditation/[slug].astro",
   "src/pages/quote-attribution-policy.astro",
   "src/pages/quotes/[category]/[story].astro",
-  "src/styles/global.css"
+  "src/styles/global.css",
+  "public/images/articles/mindful-email-and-texting.webp"
 ];
-check("PRV-01", changedFiles.every((file) => allowedPrefixes.some((prefix) => file === prefix || file.startsWith(prefix))), `all ${changedFiles.length} changed paths are governed Phase 6-9 implementation or deterministic validation outputs`);
+check("PRV-01", changedFiles.every((file) => allowedPrefixes.some((prefix) => file === prefix || file.startsWith(prefix))), `all ${changedFiles.length} changed paths are governed implementation or deterministic validation outputs`);
 check("PRV-02", !changedFiles.some((file) => file.includes(".config/echobuddha") || /gsc-(oauth-client|token)\.json/.test(file)), "no OAuth/token path tracked");
 const changedContent = changedFiles.filter((file) => fs.existsSync(path.join(root, file)) && fs.statSync(path.join(root, file)).isFile()).map((file) => read(path.join(root, file))).join("\n");
 const secretMarkers = [["client", "secret"].join("_"), ["refresh", "token"].join("_"), ["access", "token"].join("_"), ["ya29", "."].join(""), ["AI", "za"].join("")];

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-06T16:51:45.946Z",
+  "generatedAt": "2026-09-27T05:59:08.934Z",
   "baseUrl": "http://127.0.0.1:4322",
   "pagesTested": 19,
   "viewportRuns": 38,
-  "screenshotsDirectory": "/Users/tharindu/Documents/EB 2/docs/audits/aug-5-2026-content-quality-remediation/visual-qa",
+  "screenshotsDirectory": "/Users/tharindu/.codex/worktrees/article-quality-production/EB 2/docs/audits/aug-5-2026-content-quality-remediation/visual-qa",
   "pass": true,
   "results": [
     {
@@ -14,11 +14,11 @@
       "title": "Dhamma vs Dharma: Buddhist Meaning and Spelling | Echo Buddha",
       "h1Count": 1,
       "h1": "Dhamma vs Dharma: What Is the Difference?",
-      "bodyWords": 917,
-      "sourceLinkCount": 3,
+      "bodyWords": 1165,
+      "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5922,
+      "screenshotHeight": 7246,
       "pass": true
     },
     {
@@ -29,11 +29,11 @@
       "title": "Visiting a Buddhist Temple Respectfully: Beginner Guide | Echo Buddha",
       "h1Count": 1,
       "h1": "Visiting a Buddhist Temple Respectfully",
-      "bodyWords": 950,
+      "bodyWords": 1402,
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
-      "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6113,
+      "hasSafetyOrSupportLanguage": false,
+      "screenshotHeight": 7960,
       "pass": true
     },
     {
@@ -44,11 +44,11 @@
       "title": "First Week Buddhist Practice for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "First Week Buddhist Practice for Beginners",
-      "bodyWords": 933,
+      "bodyWords": 1095,
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5745,
+      "screenshotHeight": 6958,
       "pass": true
     },
     {
@@ -59,11 +59,11 @@
       "title": "Non-Attachment in Relationships Without Becoming Cold | Echo Buddha",
       "h1Count": 1,
       "h1": "Non-Attachment in Relationships",
-      "bodyWords": 922,
-      "sourceLinkCount": 2,
+      "bodyWords": 1025,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5771,
+      "screenshotHeight": 6487,
       "pass": true
     },
     {
@@ -74,11 +74,11 @@
       "title": "Right Speech Examples for Everyday Life | Echo Buddha",
       "h1Count": 1,
       "h1": "Right Speech Examples for Everyday Life",
-      "bodyWords": 846,
-      "sourceLinkCount": 2,
+      "bodyWords": 1274,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5540,
+      "screenshotHeight": 7213,
       "pass": true
     },
     {
@@ -89,11 +89,11 @@
       "title": "Dhammapada Verse 1 Meaning and Translation Caution | Echo Buddha",
       "h1Count": 1,
       "h1": "Dhammapada Verse 1 Meaning and Translation Caution",
-      "bodyWords": 938,
-      "sourceLinkCount": 2,
+      "bodyWords": 1154,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5810,
+      "screenshotHeight": 7143,
       "pass": true
     },
     {
@@ -104,11 +104,11 @@
       "title": "The Middle Way in Buddhism Explained for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "The Middle Way Explained for Beginners",
-      "bodyWords": 432,
+      "bodyWords": 373,
       "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 2901,
+      "screenshotHeight": 2963,
       "pass": true
     },
     {
@@ -119,11 +119,11 @@
       "title": "Threefold Training in Buddhism: Sila, Samadhi, and Panna | Echo Buddha",
       "h1Count": 1,
       "h1": "The Threefold Training: Sila, Samadhi, and Panna",
-      "bodyWords": 467,
+      "bodyWords": 408,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 3158,
+      "screenshotHeight": 3220,
       "pass": true
     },
     {
@@ -134,11 +134,11 @@
       "title": "Five Hindrances in Buddhism Explained for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "The Five Hindrances in Buddhism",
-      "bodyWords": 413,
+      "bodyWords": 355,
       "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 2874,
+      "screenshotHeight": 2936,
       "pass": true
     },
     {
@@ -149,11 +149,11 @@
       "title": "The Four Brahmaviharas: Loving-Kindness, Compassion, Joy, and Equanimity | Echo Buddha",
       "h1Count": 1,
       "h1": "The Four Brahmaviharas",
-      "bodyWords": 415,
+      "bodyWords": 353,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 2899,
+      "screenshotHeight": 2961,
       "pass": true
     },
     {
@@ -164,11 +164,11 @@
       "title": "Dhammacakkappavattana Sutta and the Four Noble Truths | Echo Buddha",
       "h1Count": 1,
       "h1": "Dhammacakkappavattana Sutta: Four Noble Truths in Context",
-      "bodyWords": 434,
-      "sourceLinkCount": 2,
+      "bodyWords": 559,
+      "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
-      "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 3155,
+      "hasSafetyOrSupportLanguage": true,
+      "screenshotHeight": 3756,
       "pass": true
     },
     {
@@ -179,11 +179,11 @@
       "title": "Magga-vibhanga Sutta and the Noble Eightfold Path | Echo Buddha",
       "h1Count": 1,
       "h1": "Magga-vibhanga Sutta: Eightfold Path Explained Simply",
-      "bodyWords": 433,
-      "sourceLinkCount": 2,
+      "bodyWords": 535,
+      "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3052,
+      "screenshotHeight": 3667,
       "pass": true
     },
     {
@@ -194,11 +194,11 @@
       "title": "Sutta Meaning in Buddhism | Echo Buddha",
       "h1Count": 1,
       "h1": "Sutta",
-      "bodyWords": 377,
+      "bodyWords": 292,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 2605,
+      "screenshotHeight": 2523,
       "pass": true
     },
     {
@@ -209,11 +209,11 @@
       "title": "Pali Canon Meaning for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "Pali Canon",
-      "bodyWords": 429,
+      "bodyWords": 337,
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 2799,
+      "screenshotHeight": 2718,
       "pass": true
     },
     {
@@ -224,11 +224,11 @@
       "title": "10-Minute Meditation Practice | Echo Buddha",
       "h1Count": 1,
       "h1": "10-Minute Meditation Practice",
-      "bodyWords": 525,
+      "bodyWords": 409,
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3638,
+      "screenshotHeight": 3356,
       "pass": true
     },
     {
@@ -239,11 +239,11 @@
       "title": "Meditation Posture for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "Meditation Posture for Beginners",
-      "bodyWords": 548,
+      "bodyWords": 438,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3584,
+      "screenshotHeight": 3328,
       "pass": true
     },
     {
@@ -254,11 +254,11 @@
       "title": "What to Do When Meditation Feels Hard | Echo Buddha",
       "h1Count": 1,
       "h1": "What to Do When Meditation Feels Hard",
-      "bodyWords": 553,
+      "bodyWords": 599,
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3842,
+      "screenshotHeight": 4016,
       "pass": true
     },
     {
@@ -266,14 +266,14 @@
       "viewport": "desktop",
       "status": 200,
       "screenshot": "articles__mindful-email-and-texting__desktop.png",
-      "title": "Mindful Email and Texting with Buddhist Right Speech | Echo Buddha",
+      "title": "Mindful Email and Texting: Buddhist Right Speech | Echo Buddha",
       "h1Count": 1,
-      "h1": "Mindful Email and Texting",
-      "bodyWords": 886,
-      "sourceLinkCount": 2,
+      "h1": "Mindful Email and Texting: Buddhist Right Speech for Digital Communication",
+      "bodyWords": 1237,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5327,
+      "screenshotHeight": 7041,
       "pass": true
     },
     {
@@ -284,11 +284,11 @@
       "title": "Compassion With Boundaries in Buddhist Practice | Echo Buddha",
       "h1Count": 1,
       "h1": "Compassion With Boundaries",
-      "bodyWords": 778,
-      "sourceLinkCount": 3,
+      "bodyWords": 1023,
+      "sourceLinkCount": 5,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 5266,
+      "screenshotHeight": 6735,
       "pass": true
     },
     {
@@ -299,11 +299,11 @@
       "title": "Dhamma vs Dharma: Buddhist Meaning and Spelling | Echo Buddha",
       "h1Count": 1,
       "h1": "Dhamma vs Dharma: What Is the Difference?",
-      "bodyWords": 917,
-      "sourceLinkCount": 3,
+      "bodyWords": 1165,
+      "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 9311,
+      "screenshotHeight": 11520,
       "pass": true
     },
     {
@@ -314,11 +314,11 @@
       "title": "Visiting a Buddhist Temple Respectfully: Beginner Guide | Echo Buddha",
       "h1Count": 1,
       "h1": "Visiting a Buddhist Temple Respectfully",
-      "bodyWords": 950,
+      "bodyWords": 1402,
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
-      "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 9574,
+      "hasSafetyOrSupportLanguage": false,
+      "screenshotHeight": 12719,
       "pass": true
     },
     {
@@ -329,11 +329,11 @@
       "title": "First Week Buddhist Practice for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "First Week Buddhist Practice for Beginners",
-      "bodyWords": 933,
+      "bodyWords": 1095,
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 9131,
+      "screenshotHeight": 11007,
       "pass": true
     },
     {
@@ -344,11 +344,11 @@
       "title": "Non-Attachment in Relationships Without Becoming Cold | Echo Buddha",
       "h1Count": 1,
       "h1": "Non-Attachment in Relationships",
-      "bodyWords": 922,
-      "sourceLinkCount": 2,
+      "bodyWords": 1025,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 9355,
+      "screenshotHeight": 10524,
       "pass": true
     },
     {
@@ -359,11 +359,11 @@
       "title": "Right Speech Examples for Everyday Life | Echo Buddha",
       "h1Count": 1,
       "h1": "Right Speech Examples for Everyday Life",
-      "bodyWords": 846,
-      "sourceLinkCount": 2,
+      "bodyWords": 1274,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 8901,
+      "screenshotHeight": 11748,
       "pass": true
     },
     {
@@ -374,11 +374,11 @@
       "title": "Dhammapada Verse 1 Meaning and Translation Caution | Echo Buddha",
       "h1Count": 1,
       "h1": "Dhammapada Verse 1 Meaning and Translation Caution",
-      "bodyWords": 938,
-      "sourceLinkCount": 2,
+      "bodyWords": 1154,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 9309,
+      "screenshotHeight": 11403,
       "pass": true
     },
     {
@@ -389,11 +389,11 @@
       "title": "The Middle Way in Buddhism Explained for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "The Middle Way Explained for Beginners",
-      "bodyWords": 432,
+      "bodyWords": 373,
       "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3968,
+      "screenshotHeight": 4386,
       "pass": true
     },
     {
@@ -404,11 +404,11 @@
       "title": "Threefold Training in Buddhism: Sila, Samadhi, and Panna | Echo Buddha",
       "h1Count": 1,
       "h1": "The Threefold Training: Sila, Samadhi, and Panna",
-      "bodyWords": 467,
+      "bodyWords": 408,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 4199,
+      "screenshotHeight": 4616,
       "pass": true
     },
     {
@@ -419,11 +419,11 @@
       "title": "Five Hindrances in Buddhism Explained for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "The Five Hindrances in Buddhism",
-      "bodyWords": 413,
+      "bodyWords": 355,
       "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3826,
+      "screenshotHeight": 4243,
       "pass": true
     },
     {
@@ -434,11 +434,11 @@
       "title": "The Four Brahmaviharas: Loving-Kindness, Compassion, Joy, and Equanimity | Echo Buddha",
       "h1Count": 1,
       "h1": "The Four Brahmaviharas",
-      "bodyWords": 415,
+      "bodyWords": 353,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 3986,
+      "screenshotHeight": 4404,
       "pass": true
     },
     {
@@ -449,11 +449,11 @@
       "title": "Dhammacakkappavattana Sutta and the Four Noble Truths | Echo Buddha",
       "h1Count": 1,
       "h1": "Dhammacakkappavattana Sutta: Four Noble Truths in Context",
-      "bodyWords": 434,
-      "sourceLinkCount": 2,
+      "bodyWords": 559,
+      "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
-      "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 3966,
+      "hasSafetyOrSupportLanguage": true,
+      "screenshotHeight": 5285,
       "pass": true
     },
     {
@@ -464,11 +464,11 @@
       "title": "Magga-vibhanga Sutta and the Noble Eightfold Path | Echo Buddha",
       "h1Count": 1,
       "h1": "Magga-vibhanga Sutta: Eightfold Path Explained Simply",
-      "bodyWords": 433,
-      "sourceLinkCount": 2,
+      "bodyWords": 535,
+      "sourceLinkCount": 1,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 4020,
+      "screenshotHeight": 5312,
       "pass": true
     },
     {
@@ -479,11 +479,11 @@
       "title": "Sutta Meaning in Buddhism | Echo Buddha",
       "h1Count": 1,
       "h1": "Sutta",
-      "bodyWords": 377,
+      "bodyWords": 292,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 3601,
+      "screenshotHeight": 3735,
       "pass": true
     },
     {
@@ -494,11 +494,11 @@
       "title": "Pali Canon Meaning for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "Pali Canon",
-      "bodyWords": 429,
+      "bodyWords": 337,
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 3932,
+      "screenshotHeight": 4067,
       "pass": true
     },
     {
@@ -509,11 +509,11 @@
       "title": "10-Minute Meditation Practice | Echo Buddha",
       "h1Count": 1,
       "h1": "10-Minute Meditation Practice",
-      "bodyWords": 525,
+      "bodyWords": 409,
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 4668,
+      "screenshotHeight": 4730,
       "pass": true
     },
     {
@@ -524,11 +524,11 @@
       "title": "Meditation Posture for Beginners | Echo Buddha",
       "h1Count": 1,
       "h1": "Meditation Posture for Beginners",
-      "bodyWords": 548,
+      "bodyWords": 438,
       "sourceLinkCount": 2,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 4673,
+      "screenshotHeight": 4761,
       "pass": true
     },
     {
@@ -539,11 +539,11 @@
       "title": "What to Do When Meditation Feels Hard | Echo Buddha",
       "h1Count": 1,
       "h1": "What to Do When Meditation Feels Hard",
-      "bodyWords": 553,
+      "bodyWords": 599,
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 4876,
+      "screenshotHeight": 5645,
       "pass": true
     },
     {
@@ -551,14 +551,14 @@
       "viewport": "mobile",
       "status": 200,
       "screenshot": "articles__mindful-email-and-texting__mobile.png",
-      "title": "Mindful Email and Texting with Buddhist Right Speech | Echo Buddha",
+      "title": "Mindful Email and Texting: Buddhist Right Speech | Echo Buddha",
       "h1Count": 1,
-      "h1": "Mindful Email and Texting",
-      "bodyWords": 886,
-      "sourceLinkCount": 2,
+      "h1": "Mindful Email and Texting: Buddhist Right Speech for Digital Communication",
+      "bodyWords": 1237,
+      "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 8956,
+      "screenshotHeight": 11463,
       "pass": true
     },
     {
@@ -569,11 +569,11 @@
       "title": "Compassion With Boundaries in Buddhist Practice | Echo Buddha",
       "h1Count": 1,
       "h1": "Compassion With Boundaries",
-      "bodyWords": 778,
-      "sourceLinkCount": 3,
+      "bodyWords": 1023,
+      "sourceLinkCount": 5,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 8575,
+      "screenshotHeight": 10821,
       "pass": true
     }
   ]

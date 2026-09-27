@@ -6,22 +6,39 @@ import ts from "typescript";
 
 const root = process.cwd();
 const sourcePath = path.join(root, "src/data/site.ts");
+const governanceSourcePath = path.join(root, "src/data/editorialGovernance.ts");
+const publicationMetadataSourcePath = path.join(root, "src/utils/publicationMetadata.ts");
 const outDir = path.join(root, "docs");
 const inventoryPath = path.join(outDir, "article-audit-inventory.json");
 const reportPath = path.join(outDir, "article-audit-report.md");
 
 const source = fs.readFileSync(sourcePath, "utf8");
+const compilerOptions = {
+  module: ts.ModuleKind.ES2022,
+  target: ts.ScriptTarget.ES2022
+};
 const transpiled = ts.transpileModule(source, {
-  compilerOptions: {
-    module: ts.ModuleKind.ES2022,
-    target: ts.ScriptTarget.ES2022
-  }
+  compilerOptions
+}).outputText.replace('from "../utils/publicationMetadata.ts"', 'from "./publicationMetadata.mjs"');
+const governanceTranspiled = ts.transpileModule(fs.readFileSync(governanceSourcePath, "utf8"), {
+  compilerOptions
+}).outputText.replace('from "./site"', 'from "./site.mjs"');
+const publicationMetadataTranspiled = ts.transpileModule(fs.readFileSync(publicationMetadataSourcePath, "utf8"), {
+  compilerOptions
 }).outputText;
 
-const tempModule = path.join(os.tmpdir(), `echo-buddha-site-data-${process.pid}.mjs`);
+const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "echo-buddha-article-audit-"));
+const tempModule = path.join(tempDir, "site.mjs");
+const tempGovernanceModule = path.join(tempDir, "editorialGovernance.mjs");
+const tempPublicationMetadataModule = path.join(tempDir, "publicationMetadata.mjs");
 fs.writeFileSync(tempModule, transpiled);
+fs.writeFileSync(tempGovernanceModule, governanceTranspiled);
+fs.writeFileSync(tempPublicationMetadataModule, publicationMetadataTranspiled);
 const site = await import(pathToFileURL(tempModule).href);
-fs.unlinkSync(tempModule);
+const governance = await import(pathToFileURL(tempGovernanceModule).href);
+fs.rmSync(tempDir, { recursive: true, force: true });
+
+const { getSourceReferencesForRoute } = governance;
 
 const {
   SITE,
@@ -422,7 +439,11 @@ const inventory = fullArticles.map((article) => {
     ...continueLearningLinks
   ];
   const internalHrefs = unique([...contentHrefs.filter((href) => href.startsWith("/")), ...generatedHrefs]);
-  const externalHrefs = unique(contentHrefs.filter((href) => /^https?:\/\//.test(href)));
+  const sourceReferenceHrefs = getSourceReferencesForRoute(canonicalPath).map((reference) => reference.href);
+  const externalHrefs = unique([
+    ...contentHrefs.filter((href) => /^https?:\/\//.test(href)),
+    ...sourceReferenceHrefs.filter((href) => /^https?:\/\//.test(href) && !href.startsWith(SITE.url))
+  ]);
   const text = articleBodyText(article);
   const pagePromiseText = `${article.slug} ${article.title} ${article.description}`.toLowerCase();
   const stockTransitionHits = stockTransitions.reduce((sum, phrase) => {
@@ -790,7 +811,7 @@ ${mdTable(["Category", "URL", "Category count", "Article count", "Status"], cate
 - Duplicate meta descriptions: ${duplicateValueReport.metaDescriptions.length}
 - Duplicate canonicals: ${duplicateValueReport.canonicals.length}
 - Missing, duplicated, unlisted, orphaned, or stale article records found from source reconciliation: none.
-- Live \`/articles/\` reference reviewed separately: it lists the same five category counts and 36 article cards.
+- The generated article index and category totals are derived from the same ${inventory.length}-article source collection.
 
 ## Complete Article Inventory
 
