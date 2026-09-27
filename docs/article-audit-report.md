@@ -1,6 +1,6 @@
 # Echo Buddha Article Audit
 
-Generated: 2026-09-27T05:46:07.881Z
+Generated: 2026-09-27T05:58:03.535Z
 
 Scope: every current `fullArticles` record rendered under `/articles/` (48 articles).
 

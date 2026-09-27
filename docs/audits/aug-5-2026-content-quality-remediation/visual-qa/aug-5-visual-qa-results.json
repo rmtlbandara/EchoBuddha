@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-27T05:46:54.519Z",
-  "baseUrl": "http://127.0.0.1:4330",
+  "generatedAt": "2026-09-27T05:59:08.934Z",
+  "baseUrl": "http://127.0.0.1:4322",
   "pagesTested": 19,
   "viewportRuns": 38,
-  "screenshotsDirectory": "/Users/tharindu/Documents/EB 2/docs/audits/aug-5-2026-content-quality-remediation/visual-qa",
+  "screenshotsDirectory": "/Users/tharindu/.codex/worktrees/article-quality-production/EB 2/docs/audits/aug-5-2026-content-quality-remediation/visual-qa",
   "pass": true,
   "results": [
     {
@@ -18,7 +18,7 @@
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6788,
+      "screenshotHeight": 7246,
       "pass": true
     },
     {
@@ -33,7 +33,7 @@
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 7502,
+      "screenshotHeight": 7960,
       "pass": true
     },
     {
@@ -48,7 +48,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6499,
+      "screenshotHeight": 6958,
       "pass": true
     },
     {
@@ -63,7 +63,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6028,
+      "screenshotHeight": 6487,
       "pass": true
     },
     {
@@ -78,7 +78,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6754,
+      "screenshotHeight": 7213,
       "pass": true
     },
     {
@@ -93,7 +93,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6685,
+      "screenshotHeight": 7143,
       "pass": true
     },
     {
@@ -273,7 +273,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6583,
+      "screenshotHeight": 7041,
       "pass": true
     },
     {
@@ -288,7 +288,7 @@
       "sourceLinkCount": 5,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 6276,
+      "screenshotHeight": 6735,
       "pass": true
     },
     {
@@ -303,7 +303,7 @@
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 11299,
+      "screenshotHeight": 11520,
       "pass": true
     },
     {
@@ -318,7 +318,7 @@
       "sourceLinkCount": 4,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": false,
-      "screenshotHeight": 12498,
+      "screenshotHeight": 12719,
       "pass": true
     },
     {
@@ -333,7 +333,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 10786,
+      "screenshotHeight": 11007,
       "pass": true
     },
     {
@@ -348,7 +348,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 10303,
+      "screenshotHeight": 10524,
       "pass": true
     },
     {
@@ -363,7 +363,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 11527,
+      "screenshotHeight": 11748,
       "pass": true
     },
     {
@@ -378,7 +378,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 11181,
+      "screenshotHeight": 11403,
       "pass": true
     },
     {
@@ -558,7 +558,7 @@
       "sourceLinkCount": 3,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 11242,
+      "screenshotHeight": 11463,
       "pass": true
     },
     {
@@ -573,7 +573,7 @@
       "sourceLinkCount": 5,
       "hasHorizontalOverflow": false,
       "hasSafetyOrSupportLanguage": true,
-      "screenshotHeight": 10600,
+      "screenshotHeight": 10821,
       "pass": true
     }
   ]

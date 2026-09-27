@@ -7,6 +7,7 @@ import ts from "typescript";
 const root = process.cwd();
 const sourcePath = path.join(root, "src/data/site.ts");
 const governanceSourcePath = path.join(root, "src/data/editorialGovernance.ts");
+const publicationMetadataSourcePath = path.join(root, "src/utils/publicationMetadata.ts");
 const outDir = path.join(root, "docs");
 const inventoryPath = path.join(outDir, "article-audit-inventory.json");
 const reportPath = path.join(outDir, "article-audit-report.md");
@@ -18,16 +19,21 @@ const compilerOptions = {
 };
 const transpiled = ts.transpileModule(source, {
   compilerOptions
-}).outputText;
+}).outputText.replace('from "../utils/publicationMetadata.ts"', 'from "./publicationMetadata.mjs"');
 const governanceTranspiled = ts.transpileModule(fs.readFileSync(governanceSourcePath, "utf8"), {
   compilerOptions
 }).outputText.replace('from "./site"', 'from "./site.mjs"');
+const publicationMetadataTranspiled = ts.transpileModule(fs.readFileSync(publicationMetadataSourcePath, "utf8"), {
+  compilerOptions
+}).outputText;
 
 const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "echo-buddha-article-audit-"));
 const tempModule = path.join(tempDir, "site.mjs");
 const tempGovernanceModule = path.join(tempDir, "editorialGovernance.mjs");
+const tempPublicationMetadataModule = path.join(tempDir, "publicationMetadata.mjs");
 fs.writeFileSync(tempModule, transpiled);
 fs.writeFileSync(tempGovernanceModule, governanceTranspiled);
+fs.writeFileSync(tempPublicationMetadataModule, publicationMetadataTranspiled);
 const site = await import(pathToFileURL(tempModule).href);
 const governance = await import(pathToFileURL(tempGovernanceModule).href);
 fs.rmSync(tempDir, { recursive: true, force: true });

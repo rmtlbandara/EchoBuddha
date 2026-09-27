@@ -6,7 +6,7 @@
     "decisions": {
       "Pass": 1
     },
-    "averageWords": 990
+    "averageWords": 996
   },
   "error": {
     "total": 1,
@@ -33,7 +33,7 @@
     "decisions": {
       "Pass": 8
     },
-    "averageWords": 1222
+    "averageWords": 1225
   },
   "article": {
     "total": 48,
@@ -43,7 +43,7 @@
       "Minor improvement": 8,
       "Pass": 40
     },
-    "averageWords": 1668
+    "averageWords": 1710
   },
   "articleCategory": {
     "total": 5,
@@ -52,7 +52,7 @@
     "decisions": {
       "Pass": 5
     },
-    "averageWords": 580
+    "averageWords": 581
   },
   "other": {
     "total": 7,
@@ -115,7 +115,7 @@
     "decisions": {
       "Pass": 10
     },
-    "averageWords": 686
+    "averageWords": 687
   },
   "quoteStory": {
     "total": 153,
@@ -124,6 +124,6 @@
     "decisions": {
       "Pass": 153
     },
-    "averageWords": 648
+    "averageWords": 649
   }
 }

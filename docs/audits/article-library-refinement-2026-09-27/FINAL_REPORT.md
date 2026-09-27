@@ -39,7 +39,7 @@ No consolidation was implemented. Existing evidence and role maps support distin
 - Updated descriptions/read times where article scope materially grew.
 - Added contextual links between the Right Speech foundation, examples, and digital guide.
 - Removed public-facing “owner,” “support page,” and “topic cluster” language found in article and Learn content.
-- Added a purpose-built 1200×800 WebP digital-communication image (69 KB); no heavy client JavaScript or dependency was introduced.
+- Added a purpose-built responsive digital-communication image set; the 1200×675 primary WebP is 65 KB, with AVIF, 480-pixel, 800-pixel, 4:3, and square variants. No heavy client JavaScript or runtime dependency was introduced.
 
 ## G. Source-quality review
 
@@ -49,7 +49,7 @@ Current Google Search Central guidance was checked for people-first content, spa
 
 ## H. Validation evidence
 
-- `npm run validate`: PASS — 335 static pages built; typecheck and governance lint passed; 26/26 tests, 7/7 quote checks, 67/67 cornerstone checks, 58/58 editorial-trust checks, and 25/25 independent trust checks passed.
+- `npm run validate:release`: PASS on the current production baseline — 350 static pages built; all 48 article image identities and 384 generated assets passed; typecheck and governance lint passed; 41/41 tests, 7/7 quote checks, 58/58 editorial-trust checks, and 25/25 independent trust checks passed. Phase 8–13 and historical-boundary gates also passed.
 - `npm run audit:dependencies`: PASS — 0 critical and 0 high vulnerabilities. The follow-up `npm audit --audit-level=moderate` also reported 0 vulnerabilities after Astro, Wrangler, and affected transitive packages were updated.
 - `npm run audit:browser`: PASS — accessibility/browser readiness passed for all sampled routes.
 - `npm run audit:lighthouse`: PASS — Lighthouse readiness completed.
