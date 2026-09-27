@@ -2455,58 +2455,72 @@ const articleVisuals = {
 export const articles: Article[] = [
   {
     slug: "mindful-email-and-texting",
-    title: "Mindful Email and Texting",
-    seoTitle: "Mindful Email and Texting with Buddhist Right Speech",
+    title: "Mindful Email and Texting: Buddhist Right Speech for Digital Communication",
+    seoTitle: "Mindful Email and Texting: Buddhist Right Speech",
     description:
-      "Practice mindful email and texting with Buddhist Right Speech, patience, clear intention, and less reactive digital communication.",
+      "Apply Buddhist Right Speech to email, texts, work chat, group messages, privacy, misinformation, and difficult online conversations.",
     date: "2026-08-05",
     author: SITE.author,
     category: "Practice",
-    readTime: "6 min read",
+    readTime: "9 min read",
     thumbnail: "/images/articles/mindful-email-and-texting.webp",
-    imageAlt: "A phone with blank message shapes on a quiet desk beside an envelope and cup",
+    imageAlt: "A hand paused beside a laptop and phone on a quiet, sunlit desk",
     tags: ["Right Speech", "Mindful living", "Digital mindfulness"],
     relatedSlugs: ["right-speech-buddhism", "right-speech-examples", "mindful-listening-in-everyday-life"],
     content: [
       {
         paragraphs: [
-          "Mindful email and texting means bringing Buddhist Right Speech into digital messages. Before sending, pause long enough to notice intention, tone, truth, usefulness, timing, and possible harm.",
-          "This page is a narrow mindful-living support page. The broader Right Speech owner remains <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>."
+          "Mindful email and texting means bringing Buddhist Right Speech into digital communication. Before sending, pause long enough to notice intention, accuracy, tone, timing, privacy, and possible harm. The aim is not perfect wording. It is less careless speech in a medium that is fast, persistent, and easy to misunderstand.",
+          "For the traditional foundation, begin with <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>. This article stays with the particular problems created by email, SMS, messaging apps, work chat, group conversations, and social platforms."
+        ]
+      },
+      {
+        heading: "What the Buddhist Sources Contribute",
+        paragraphs: [
+          "In SN 45.8, Right Speech is described through abstaining from false, divisive, harsh, and idle speech. MN 58 adds a closely related test: the Buddha speaks what is true and beneficial, with a sense of the proper time, whether or not the words are pleasing. These teachings do not mention phones or inboxes, but they offer a demanding ethical frame for what we do with them.",
+          "Questions such as “Is it true, beneficial, respectfully expressed, and timely?” are a modern Echo Buddha synthesis of these teachings, not a verbatim quotation from a single discourse. Digital practice begins by applying the sources honestly rather than turning a convenient checklist into an invented saying."
         ]
       },
       {
         heading: "Pause Before the Send Button",
         paragraphs: [
-          "Digital speech travels fast, but the mind that sends it still has causes and conditions. A message may be shaped by irritation, fear, pride, hurry, kindness, clarity, or care. The Buddhist practice is to see the mind before it becomes a sentence.",
-          "Try one breath before sending a tense reply. Ask: Is this true? Is it useful? Is now the right time? Can the same truth travel with less contempt?"
+          "Digital speech travels quickly, but the mind that sends it still has causes and conditions. A message may be shaped by irritation, fear, pride, hurry, kindness, clarity, or care. The practice is to notice the mind before it becomes a sentence that can be copied, forwarded, or read without the tone you imagined.",
+          "Before a consequential message, separate what you know from what you assume. Read the draft once for facts and once for tone. If your body is heated, save the draft and return later. A mindful reply may simply say, “I have seen this and want to answer carefully. I will respond tomorrow.”"
         ]
       },
       {
-        heading: "Use Right Speech in Messages",
+        heading: "Email, Texts, and Work Chat Need Different Care",
         paragraphs: [
-          "Right Speech does not make every message soft or agreeable. Some messages need to be firm, brief, and direct. The practice is to avoid deception, cruelty, divisive exaggeration, and words that only feed agitation.",
-          "A mindful text might say, \"I need time before I answer well,\" instead of pretending to be calm while sharpening the next sentence."
+          "Email is useful when a clear record, considered explanation, or organized request is needed. A short text is better for a simple update. Work chat invites speed, yet speed does not excuse accusation, public embarrassment, or sending a demand outside agreed hours. Choose the channel that gives the conversation enough context and dignity.",
+          "Tone is especially uncertain in short messages. Do not rely on punctuation, emojis, or imagined warmth to carry a difficult truth. Name the practical issue plainly, avoid mind-reading, and make the next step clear. Firm digital speech can be brief without becoming contemptuous."
         ]
       },
       {
-        heading: "Common Digital Habits to Notice",
+        heading: "Group Chats, Gossip, and Public Pile-Ons",
         paragraphs: [
-          "Notice when you forward something you have not checked, write a message to win, use silence as punishment, exaggerate to gain sympathy, reply while the body is still heated, or take a screenshot of a private exchange for social pressure rather than safety.",
-          "Group chats add another layer. Before forwarding, tagging, quoting, or piling on, ask whether the action clarifies the truth or simply spreads heat. Mindful communication trains a different habit: pause, check intention, speak truthfully, reduce avoidable harm, and listen for the next wise step."
+          "A group chat can turn one complaint into divisive speech very quickly. Before tagging others, forwarding a voice note, or joining a public correction, ask whether everyone needs this information and whether the same purpose could be served privately. Refusing to join ridicule is not passive; it interrupts the social reward that keeps it moving.",
+          "Public criticism may be necessary when public harm or misinformation must be corrected. Even then, correct the claim you can verify rather than speculating about a person's motives. Add the source, state the limit of what is known, and resist turning correction into a spectacle."
         ]
       },
       {
-        heading: "Delay Is Not the Same as Avoidance",
+        heading: "Forwarding, Screenshots, and Privacy",
         paragraphs: [
-          "A mindful delay can be honest: \"I saw this, and I need time before I answer well.\" Avoidance hides behind silence and leaves the other person guessing. Punishment uses silence to control. Right Speech asks whether the delay reduces harm or simply protects pride.",
-          "Some situations need no reply. Harassment, threats, coercion, privacy violations, and unsafe escalation may call for documentation, blocking, reporting, or support rather than another carefully worded message."
+          "Forwarding makes you part of a message's circulation. Check the claim and its source before sharing it, especially when it could damage a person or inflame a community. If you cannot verify it, say so or do not send it. A compelling screenshot is not automatically complete evidence.",
+          "Private messages should normally remain private. Sharing a screenshot for amusement, leverage, or social pressure can betray trust and strip away context. Safety is different: preserving records of harassment, threats, coercion, fraud, or misconduct may be necessary for reporting or support. The ethical question includes purpose, consent, necessity, and who could be harmed by wider exposure."
         ]
       },
       {
-        heading: "A Small Practice for Today",
+        heading: "Delay, Silence, and Knowing When to Leave Text",
         paragraphs: [
-          "Choose one message today and write it twice. First, write the automatic version privately. Then write the version that is true, useful, and less harmful. Send only the second if sending is needed.",
-          "If a conversation involves harassment, threats, coercion, or safety concerns, mindful speech can include documentation, distance, blocking, reporting, or asking for qualified support."
+          "A mindful delay can be honest: “I saw this, and I need time before I answer well.” Avoidance leaves a necessary conversation indefinitely unresolved; punitive silence tries to control another person. A clear time frame can distinguish a wise pause from disappearance when communication is safe and appropriate.",
+          "Some conversations have outgrown text. Move to a call or in-person conversation when nuance, repair, confidentiality, or repeated misunderstanding requires it. But no one owes direct contact in an unsafe situation. Harassment, threats, coercion, stalking, or privacy violations may call for documentation, blocking, reporting, distance, or qualified help rather than another reply."
+        ]
+      },
+      {
+        heading: "A Five-Step Digital Practice",
+        paragraphs: [
+          "For one important message: pause; name your intention; check facts and missing context; choose the right channel and time; then reread for needless harm. Send only if the message still serves a worthwhile purpose.",
+          "After sending, release the demand for an immediate or perfectly reassuring response. Mindful digital speech includes how we wait, how we correct ourselves, and whether we can apologize plainly when a message causes harm. For examples beyond screens, continue with <a href=\"/articles/right-speech-examples/\">Right Speech examples for everyday life</a>."
         ]
       }
     ]
@@ -2528,8 +2542,8 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Compassion with boundaries means caring about suffering without allowing harm, manipulation, contempt, or unsafe closeness to continue unchecked. In Buddhist practice, compassion is wise care, not people-pleasing.",
-          "This page supports the <a href=\"/learn/buddhist-dictionary/compassion/\">Compassion</a> dictionary owner and the <a href=\"/learn/buddhism-101/four-brahmaviharas/\">Four Brahmaviharas</a> foundation page."
+          "Compassion with boundaries means caring about suffering without allowing harm, manipulation, contempt, or unsafe closeness to continue unchecked. “Boundaries” is modern practical language, not a classical Buddhist technical term. The connection lies in applying compassion, non-harming, truthful conduct, wisdom, and equanimity to real limits.",
+          "For the traditional background, read the definition of <a href=\"/learn/buddhist-dictionary/compassion/\">compassion</a> and the guide to the <a href=\"/learn/buddhism-101/four-brahmaviharas/\">Four Brahmavihāras</a>. This article asks the narrower modern question: how can care remain genuine when access, conduct, or responsibility must be limited?"
         ]
       },
       {
@@ -2549,7 +2563,7 @@ export const articles: Article[] = [
       {
         heading: "How This Connects With the Brahmaviharas",
         paragraphs: [
-          "Metta wishes beings well. Karuna responds to suffering. Mudita rejoices in goodness. Upekkha steadies the heart when outcomes cannot be controlled. Boundaries often need all four.",
+          "Mettā wishes beings well. Karuṇā responds to suffering. Muditā rejoices in goodness. Upekkhā steadies the heart when outcomes cannot be controlled. Boundaries may draw on all four, but that application is a modern judgment rather than a canonical boundary system.",
           "Without equanimity, compassion can become anxious control. Without compassion, boundaries can become coldness. Practice lets care and steadiness learn to stand together."
         ]
       },
@@ -2594,13 +2608,13 @@ export const articles: Article[] = [
       {
         paragraphs: [
           "Dhamma and Dharma often point to the same broad Buddhist idea: the teaching, truth, and practice that guide the path. The difference is usually one of language, tradition, and translation context rather than two unrelated teachings.",
-          "On Echo Buddha, <a href=\"/learn/buddhist-dictionary/dhamma/\">Dhamma</a> remains the main definition page. This article only helps beginners understand why another spelling appears in books, temples, online talks, and different Buddhist communities."
+          "If you want a broad definition, begin with <a href=\"/learn/buddhist-dictionary/dhamma/\">Dhamma in the Buddhist Dictionary</a>. Here the focus is why another spelling appears across books, temples, translations, online talks, and Buddhist communities."
         ]
       },
       {
         heading: "The Short Difference",
         paragraphs: [
-          "Dhamma is the common Pali form. Dharma is the common Sanskrit form. Pali is often associated with Theravada and early Buddhist textual contexts, while Sanskrit appears in many Mahayana and broader Indian religious contexts. English readers may meet both forms depending on the source.",
+          "Dhamma is the common Pāli form. Dharma is the corresponding Sanskrit form. Pāli is especially important in Theravāda textual traditions, while Sanskrit and Buddhist Hybrid Sanskrit are important in many other bodies of Buddhist literature. English readers may meet either form depending on the text, translator, lineage, or community.",
           "A beginner does not need to treat the spellings as a contest. When a teacher, book, or temple uses Dhamma, listen in that context. When another uses Dharma, listen in that context. The important question is whether the teaching reduces greed, hatred, confusion, and harm in actual life."
         ]
       },
@@ -2621,8 +2635,8 @@ export const articles: Article[] = [
       {
         heading: "Why Echo Buddha Usually Says Dhamma",
         paragraphs: [
-          "Echo Buddha often uses Dhamma when explaining early Buddhist themes, Pali terms, the Three Jewels, and Dhammapada-related pages. This keeps the vocabulary consistent with many of the source notes and dictionary entries already on the site.",
-          "That choice should not be read as a claim that other traditions are less valid. It is a style and context decision. A Zen, Tibetan, Pure Land, or Mahayana source may naturally use Dharma. A Theravada or Pali-context source may naturally use Dhamma."
+          "Echo Buddha often uses Dhamma when explaining Pāli terms, early Buddhist discourses, the Three Jewels, and Dhammapada-related pages. This keeps the vocabulary consistent with the source context.",
+          "That choice is not a claim that other traditions are less valid. It is a house-style and context decision. A Zen, Tibetan, Pure Land, or Mahāyāna source may naturally use Dharma. A Theravāda or Pāli-context source may naturally use Dhamma."
         ]
       },
       {
@@ -2646,11 +2660,11 @@ export const articles: Article[] = [
     title: "Visiting a Buddhist Temple Respectfully",
     seoTitle: "Visiting a Buddhist Temple Respectfully: Beginner Guide",
     description:
-      "A gentle beginner guide to visiting a Buddhist temple respectfully, asking questions carefully, and understanding temple community without cultural carelessness.",
+      "A practical beginner guide to Buddhist temple etiquette, local customs, clothing, shoes, offerings, photography, accessibility, and respectful participation.",
     date: "2026-08-05",
     author: SITE.author,
     category: "Buddhist Wisdom",
-    readTime: "7 min read",
+    readTime: "9 min read",
     thumbnail: "/images/articles/visiting-a-buddhist-temple-respectfully.webp",
     imageAlt: "Shoes arranged on a rack as a visitor steps in socks onto a plain temple entrance mat",
     tags: ["Sangha", "Buddhist community", "temple visit"],
@@ -2658,29 +2672,64 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Visiting a Buddhist temple can be a meaningful way to meet living practice rather than only reading about Buddhism online. A temple may include chanting, meditation, offerings, teaching, service, cultural customs, and community care.",
-          "This page is a practical support page. The broader Sangha guide remains <a href=\"/articles/what-is-sangha-buddhist-community/\">What Is Sangha? Why Buddhist Community Matters</a>, and the concise term definition remains <a href=\"/learn/buddhist-dictionary/sangha/\">Sangha</a> in the dictionary."
+          "There is no single etiquette list for every Buddhist temple. Theravāda monasteries, Zen centers, Tibetan temples, Pure Land communities, and other Buddhist institutions differ in ritual, dress, language, seating, offerings, and interaction with monastics. The most reliable rule is to check local guidance, observe before acting, and ask without embarrassment.",
+          "A visit can be a meaningful way to meet living practice rather than only reading about Buddhism online. To understand the community dimension more deeply, continue with <a href=\"/articles/what-is-sangha-buddhist-community/\">What Is Sangha?</a> and <a href=\"/learn/buddhism-101/the-three-jewels-explained/\">the Three Jewels</a>."
         ]
       },
       {
         heading: "Before You Visit",
         paragraphs: [
-          "Check the temple's website or contact page first. Look for visitor information, service times, dress expectations, parking, donation customs, accessibility details, and whether beginners are welcome at a particular event. Some gatherings are public; others may be intended for members or a specific language community.",
+          "Check the temple's website or contact page first. Look for visitor information, service times, dress expectations, parking or transit, donation customs, accessibility details, the language used, and whether beginners are welcome at that event. A public meditation, festival, memorial, initiation, retreat, and members' meeting are not interchangeable.",
           "Arrive with humility rather than a consumer mindset. A temple is not a wellness studio, tourist exhibit, or photo background. It is often a sacred and community space where people practice, grieve, celebrate, learn, serve, and preserve tradition."
         ]
       },
       {
-        heading: "During the Visit",
+        heading: "Clothing, Shoes, Phones, and Shrine Spaces",
         paragraphs: [
-          "Move slowly, observe first, and follow posted guidance. Silence your phone. Ask before taking photos. Dress modestly according to local expectations. If people remove shoes before entering a shrine room, do the same where your body safely allows it; if a disability, injury, or medical need makes that difficult, ask locally for help rather than forcing pain.",
-          "Respect does not require pretending you understand everything. A beginner can simply sit, listen, and learn. If a ritual is unfamiliar, you may participate gently where invited or observe without making the moment about yourself."
+          "Choose clean, modest clothing that allows comfortable sitting, but follow the community's stated expectations rather than guessing from stereotypes. Shoes may be removed before a shrine room or particular building, not necessarily everywhere. If disability, injury, orthotics, or another need makes removal difficult, ask about an accommodation rather than forcing pain.",
+          "Silence the phone and put it away unless it is needed for access, translation, or an emergency. Move quietly around altars and teaching spaces. Do not touch statues, ritual implements, books, robes, or offerings unless invited. A shrine is an active devotional space, not scenery."
         ]
       },
       {
-        heading: "Asking Questions Carefully",
+        heading: "Photography and Privacy",
         paragraphs: [
-          "Good questions are welcome in many communities, but timing matters. Asking during a ceremony may be disruptive. Asking afterward, or in a beginner class, is usually better. A respectful question sounds like, \"Could you help me understand what this practice means here?\"",
-          "Avoid asking one person to speak for all of Buddhism. Traditions differ. A Sri Lankan temple, Thai forest center, Zen center, Tibetan center, and Pure Land temple may have very different forms. Let the local community explain itself in its own context."
+          "Ask before photographing the building interior, shrine, ceremony, monastics, or visitors. Permission to enter is not permission to photograph, record, livestream, or post. Some rituals are not photographed; some communities welcome pictures in designated areas; people attending may still prefer privacy.",
+          "When permission is given, avoid interrupting worship or blocking movement for a better angle. Do not photograph children or people in vulnerable moments without clear consent. If no guidance is available, keep the phone away."
+        ]
+      },
+      {
+        heading: "Offerings and Donations",
+        paragraphs: [
+          "Offerings may include flowers, incense, lamps, food, robes, service, or money, depending on the community. Do not assume that every item is suitable or that it should be handed directly to a monastic. Some monastic codes and local customs shape how gifts are received. Ask a volunteer where an offering belongs.",
+          "A donation is normally voluntary. Use the official box, desk, or online method when available, and do not treat payment as a way to purchase spiritual status or special access. If you cannot donate, respectful attendance and practical help may still be welcome."
+        ]
+      },
+      {
+        heading: "Sitting, Chanting, Bowing, and Participation",
+        paragraphs: [
+          "A chair is often acceptable when floor sitting is painful or inaccessible. In some communities, pointing the soles of the feet toward a shrine or teacher is avoided; in others, the issue may not arise. Follow local arrangements and choose a stable posture. Accessibility needs do not make a visit disrespectful.",
+          "You do not have to imitate every bow, chant, mudrā, prostration, or offering. Participate where invited and where it is sincere; otherwise observe quietly. Formal refuge-taking, initiations, vows, and empowerments carry meanings beyond copying a gesture, so ask before joining anything you do not understand."
+        ]
+      },
+      {
+        heading: "Children, Families, and Access Needs",
+        paragraphs: [
+          "Check whether the event is suitable for children and whether family seating or quiet areas are available. Prepare children with one or two simple expectations rather than demanding perfect stillness. If someone needs to step out, do so quietly and without shame.",
+          "Contact the temple about wheelchair access, seating, hearing support, sensory needs, toilets, food restrictions, or assistance animals when that information is not published. Local buildings and resources vary. Advance notice can help the community make a workable arrangement."
+        ]
+      },
+      {
+        heading: "Questions and Interaction With Monastics",
+        paragraphs: [
+          "Good questions are welcome in many communities, but timing matters. Asking during a ceremony may be disruptive. Ask afterward, in a beginner class, or through the contact method the temple provides. A respectful question is specific: “Could you help me understand what this practice means here?”",
+          "Forms of address, physical contact, seating, and how objects are handed to monks or nuns differ by vinaya lineage and local custom. Observe, ask a host, and do not assume that one rule applies to every monastic. Avoid asking one person to speak for all Buddhists or treating monastics as curiosities."
+        ]
+      },
+      {
+        heading: "If You Make a Mistake",
+        paragraphs: [
+          "A small mistake rarely requires panic. Stop, apologize briefly if needed, and follow the correction. Respect is shown more by teachability than by pretending to know every custom. Institutional guides from Amaravati and the Buddhist Society of Western Australia are useful examples precisely because they describe their own communities, not a universal Buddhist code.",
+          "If you are simply exploring Buddhism, that is enough reason to attend an open event respectfully. The <a href=\"/learn/buddhism-for-beginners/\">Buddhism for Beginners</a> path and the <a href=\"/mindful-living/\">Mindful Living</a> practice hub can help you place the visit in a wider context."
         ]
       },
       {
@@ -2709,36 +2758,57 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "A beginner does not need to become expert in one week. The first week can be simple: learn one teaching, sit for a few minutes, practice one careful action, and notice what the mind is learning.",
-          "Use this as a support page for <a href=\"/learn/buddhism-for-beginners/\">Buddhism for Beginners</a>. The hub gives the broader route; this article gives one practical first-week rhythm."
+          "A beginner does not need to perform Buddhism or become an expert in one week. This seven-day sequence combines short study, ethical attention, meditation, generosity, and reflection so that each part supports the others.",
+          "This is an original Echo Buddha learning plan, not a seven-day program taught by the Buddha or required by a Buddhist lineage. Adapt it to your health, responsibilities, culture, and level of interest. For a wider orientation, use the <a href=\"/learn/buddhism-for-beginners/\">Buddhism for Beginners</a> path."
         ]
       },
       {
-        heading: "Day 1: Begin With Intention",
+        heading: "Day 1: Orient Yourself",
         paragraphs: [
-          "Read a short beginner explanation of Buddhism and write one sentence about why you are beginning. Keep it honest and modest. You might write, \"I want to understand suffering with more wisdom,\" or \"I want my speech to cause less harm.\"",
-          "Then sit for three natural breaths. Do not try to create a special state. Just notice that a path can begin in a very ordinary body, on a very ordinary day."
+          "Read a short <a href=\"/articles/what-is-buddhism-beginner-guide/\">beginner explanation of Buddhism</a>. Notice that Buddhism includes ethical conduct, meditation, wisdom, community, and devotional life; it is not only a relaxation method. Write one sentence about why you are exploring it.",
+          "Keep the intention honest and modest: “I want to understand suffering more carefully,” or “I want my actions to cause less harm.” You do not need to adopt a Buddhist identity to begin learning respectfully."
         ]
       },
       {
-        heading: "Days 2 and 3: Study and Sit Briefly",
+        heading: "Day 2: Sit for Five Minutes",
         paragraphs: [
-          "On the second day, read about the <a href=\"/learn/four-noble-truths/\">Four Noble Truths</a>. Ask where stress, craving, release, and the path appear in one real situation. On the third day, read about the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path</a> and choose one path factor to notice.",
-          "Keep meditation short. Five minutes is enough, and less is also acceptable. Feel the body, notice the breath, and return when attention wanders. If breath focus feels uncomfortable, open the eyes, feel the feet, choose sounds as the anchor, or stop and return later."
+          "Choose a stable chair or cushion. Feel contact with the floor or seat, notice a few natural breaths, and return gently when attention wanders. Nothing special has to happen. The practice is recognizing distraction and beginning again.",
+          "Five minutes is enough; one minute is also a real beginning. If breath focus feels uncomfortable, open your eyes, feel your feet or hands, listen to sounds, walk slowly, or stop. The <a href=\"/meditation/meditation-for-beginners/\">beginner meditation guide</a> and <a href=\"/meditation-safety/\">meditation safety guidance</a> offer alternatives."
         ]
       },
       {
-        heading: "Days 4 and 5: Practice Speech and Care",
+        heading: "Day 3: Learn the Four Noble Truths",
         paragraphs: [
-          "On day four, make speech the practice. Before one reply, ask whether the words are true, useful, kind, and timely. If the answer is unclear, wait. This links the first week to <a href=\"/articles/right-speech-buddhism/\">Right Speech</a> rather than only private reflection.",
-          "On day five, practice one act of care. It may be a sincere apology, a generous task, careful listening, or not passing along a harsh story. Buddhist practice becomes real when it enters conduct."
+          "Read the <a href=\"/learn/four-noble-truths/\">Four Noble Truths</a> as a framework of suffering, its conditions, cessation, and a path of practice. Do not force every difficulty into a slogan. Choose one ordinary frustration and notice what happened, what wanting or resistance added, and what eased when you responded more wisely.",
+          "End with one sentence: “This is difficult, and I can study its conditions.” The purpose is investigation, not blaming yourself or explaining every form of suffering with one cause."
         ]
       },
       {
-        heading: "Days 6 and 7: Reflect and Continue",
+        heading: "Day 4: Practice Right Speech",
         paragraphs: [
-          "On day six, read one <a href=\"/daily-reflections/\">daily reflection</a> and carry its question for a few hours. On day seven, review the week without harshness. What helped you remember? What made practice difficult? What small step could continue next week?",
-          "This seven-day sequence is an original Echo Buddha learning plan, not a rule every tradition requires. Do not turn the first week into a performance. The point is to learn how to return. If you missed a day, the path has already given you a practice: begin again without shame."
+          "Before one meaningful conversation, remember the traditional training to avoid false, divisive, harsh, and careless speech. Ask what is known, what is assumed, and what outcome your words are meant to serve. A necessary truth can still be firm.",
+          "For ordinary examples, use <a href=\"/articles/right-speech-examples/\">Right Speech examples</a>. For email, messaging apps, and work chat, use the dedicated <a href=\"/articles/mindful-email-and-texting/\">digital communication guide</a>."
+        ]
+      },
+      {
+        heading: "Day 5: Practice Generosity or Compassion",
+        paragraphs: [
+          "Choose one concrete act that does not require recognition: share time, food, attention, money within your means, practical help, or a sincere apology. Generosity is not measured only by size; notice whether the act loosens possessiveness and serves a real need.",
+          "Compassion does not require unlimited availability. If care would place you or someone else at risk, choose a safer form of help or seek qualified support."
+        ]
+      },
+      {
+        heading: "Day 6: Make an Ordinary Activity the Practice",
+        paragraphs: [
+          "Choose walking, washing dishes, drinking tea, commuting, or tidying. For five minutes, know what the body is doing and notice when the mind leaves. Return without turning the activity into a test of concentration.",
+          "This shows that Buddhist practice is not confined to a meditation seat. Attention, intention, and non-harming can be trained inside ordinary responsibilities."
+        ]
+      },
+      {
+        heading: "Day 7: Review and Choose What Continues",
+        paragraphs: [
+          "Review the week without harshness. What helped you remember? What felt meaningful? What was confusing or uncomfortable? Choose one sustainable practice for the next week: five minutes of sitting, one weekly teaching, a Right Speech pause, or one regular act of generosity.",
+          "Formal refuge-taking, chanting, devotional practice, and temple attendance may become meaningful depending on tradition and personal commitment, but none is a requirement for completing this plan. If you want to begin reading early Buddhist texts, use the <a href=\"/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/\">guide to reading a Buddhist sutta</a>. If you missed a day, begin again without shame. Returning is already part of the training."
         ]
       }
     ]
@@ -2760,21 +2830,28 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Non-attachment in relationships is often misunderstood as emotional distance. In Buddhist practice, it means caring without trying to possess, control, or freeze another person into the version we prefer.",
-          "The main cluster guide remains <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a>. This support page focuses only on relationships, where attachment and care can easily be confused."
+          "Non-attachment in relationships is often misunderstood as emotional distance. A careful Buddhist application means caring without trying to possess, control, or freeze another person into the version we prefer. It does not make affection, commitment, responsibility, or grief spiritually inferior.",
+          "The English phrase “non-attachment” does not map perfectly onto one universal canonical term. This article uses it as accessible language for loosening craving and clinging in relationships. For the broader teaching, read <a href=\"/articles/how-to-let-go-of-attachment-in-buddhism/\">How to Let Go of Attachment in Buddhism</a>."
+        ]
+      },
+      {
+        heading: "Craving and Clinging Are More Precise Than Coldness",
+        paragraphs: [
+          "Early Buddhist sources discuss taṇhā, craving or thirst, and upādāna, commonly translated as clinging, grasping, or sustenance. SN 12.2 places craving as a condition for clinging. These terms have wider meanings than romantic attachment, so they should not be reduced to a personality label or a diagnosis.",
+          "In a relationship, their pattern may become visible as the demand that affection must remove all uncertainty, that another person must confirm a fixed identity, or that change must not happen. The practice is not to stop loving. It is to see where love has become entangled with a demand that reality cannot permanently satisfy."
         ]
       },
       {
         heading: "Attachment Is Not the Same as Love",
         paragraphs: [
           "Love can include warmth, loyalty, patience, honesty, affection, and protection. Attachment adds a tight demand: you must answer exactly this way, stay exactly the same, soothe my fear immediately, or prove my worth. The suffering often comes from that demand.",
-          "Seeing attachment does not mean blaming yourself for wanting connection. The wish to be loved is human. Practice begins when the wish becomes so tight that it starts creating fear, pressure, or harmful speech."
+          "Seeing attachment does not mean blaming yourself for wanting connection. The wish to love and be loved is human. Healthy grief after loss is also not a Buddhist failure. Practice begins when a wish becomes so tight that it creates control, pressure, deception, or harmful speech."
         ]
       },
       {
         heading: "Care With an Open Hand",
         paragraphs: [
-          "Open-handed care still acts. It listens, apologizes, keeps promises, asks for repair, and sets boundaries. What it releases is the fantasy that another person can be managed into permanent certainty.",
+          "Open-handed care still acts. It listens, apologizes, keeps promises, honors consent, shares responsibility, asks for repair, and sets boundaries. What it releases is the fantasy that another person can be managed into permanent certainty.",
           "A useful sentence is: \"I can care for this relationship without controlling every response.\" Say it before sending a message, during a delay, or after a difficult conversation. Let the sentence separate sincere care from anxious command."
         ]
       },
@@ -2788,7 +2865,7 @@ export const articles: Article[] = [
       {
         heading: "What Non-Attachment Does Not Ask",
         paragraphs: [
-          "Non-attachment does not ask you to suppress grief, ignore consent, rush forgiveness, stay in contact, or make reconciliation the proof of spiritual maturity. A careful Buddhist application should leave room for safety, memory, boundaries, and real consequences.",
+          "Non-attachment does not ask you to suppress emotion, ignore consent, rush forgiveness, stay in contact, or make reconciliation the proof of spiritual maturity. Equanimity is not numbness, and impermanence does not cancel promises or responsibility. A careful Buddhist application leaves room for safety, memory, boundaries, grief, and real consequences.",
           "This page is general reflection, not personalized relationship counselling. If a situation involves threats, coercion, abuse, stalking, or fear for safety, seek qualified local support and prioritize protection over trying to appear calm."
         ]
       },
@@ -2806,11 +2883,11 @@ export const articles: Article[] = [
     title: "Right Speech Examples for Everyday Life",
     seoTitle: "Right Speech Examples for Everyday Life",
     description:
-      "Practical Right Speech examples for messages, family conversations, work, disagreement, apology, silence, and anger before speaking.",
+      "Practical Buddhist Right Speech examples for work, family, disagreement, gossip, apology, criticism, anger, listening, silence, and difficult truths.",
     date: "2026-08-05",
     author: SITE.author,
     category: "Practice",
-    readTime: "7 min read",
+    readTime: "9 min read",
     thumbnail: "/images/articles/right-speech-examples.webp",
     imageAlt: "Two place settings with four soft fabric ribbons meeting across a conversation table",
     tags: ["Right Speech", "patience", "Buddhist ethics"],
@@ -2818,36 +2895,64 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Right Speech becomes easier to remember when it is seen in ordinary situations. The broad practical owner remains <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>. This page is a support page for examples.",
-          "Use these examples as training, not as a script for perfect communication. Speech depends on context, relationship, safety, timing, culture, and intention."
+          "Right Speech becomes concrete in ordinary situations: a correction at work, a family disagreement, a rumor, an apology, an angry silence, or a truth that will not be pleasant to hear. These examples show how the teaching can guide choices without reducing it to “always sound nice.”",
+          "For the place of Right Speech within the Noble Eightfold Path, begin with <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>. Use the examples here as training rather than universal scripts; context, culture, safety, relationship, intention, and power all matter."
         ]
       },
       {
-        heading: "Before Sending a Message",
+        heading: "The Traditional Frame Behind the Examples",
         paragraphs: [
-          "The traditional Right Speech frame includes abstaining from false speech, divisive speech, harsh speech, and idle or careless chatter. Echo Buddha's practical questions are an editorial application of that frame: Is this true? Is it useful? Is this the right time? Could the same truth be said with less contempt?",
-          "Example: instead of \"You never listen,\" try \"I do not feel heard yet. Can we slow down and look at this together?\" The second sentence may still be firm, but it leaves more room for understanding."
+          "SN 45.8 describes Right Speech as abstaining from false speech, divisive speech, harsh speech, and idle chatter. MN 58 shows another dimension: speech should be true and beneficial, and even a necessary truth needs a sense of the proper time. Pleasantness alone is not the test.",
+          "Echo Buddha's questions—Is it true? Is it beneficial? Is this the right time? Can it be said without needless contempt?—are a practical synthesis, not a verbatim quotation from one discourse. Right Speech includes restraint, but it also includes the courage to speak when silence would protect harm."
         ]
       },
       {
         heading: "At Work",
         paragraphs: [
-          "Right Speech at work does not mean avoiding hard feedback. It means giving feedback without humiliation, gossip, exaggeration, or hidden attack. A truthful sentence can still be careful.",
-          "Example: instead of criticizing someone in a side conversation, speak directly when appropriate: \"The deadline moved because this part was missing. What support do you need to finish it?\" The aim is clarity and repair, not blame as entertainment."
+          "Right Speech at work does not avoid hard feedback. It gives the relevant facts without humiliation, gossip, exaggeration, or hidden attack. Instead of telling colleagues, “They are completely unreliable,” name the event to the person responsible: “The file arrived after the agreed deadline, so the review moved. What needs to change for Friday?”",
+          "Power matters. A manager's public “joke” can carry more force than the same words between peers. Confidential reporting, documentation, or escalation may be the right form of speech when direct discussion is unsafe or unlikely to stop misconduct."
         ]
       },
       {
         heading: "With Family",
         paragraphs: [
-          "Family speech can move quickly because old roles are familiar. Patience matters here. A pause before speech can prevent one painful sentence from becoming the whole evening.",
-          "Example: instead of answering a repeated criticism with another criticism, try, \"I want to answer this carefully. I need a few minutes.\" This is not avoidance if you return to the conversation with more honesty and less harm."
+          "Family speech can move quickly because old roles and grievances are familiar. Replace character verdicts with the present issue. Instead of “You never listen,” try, “I was interrupted twice, and I want to finish before you respond.” The second sentence is specific enough to answer.",
+          "A pause can prevent one painful sentence from becoming the whole evening: “I want to answer carefully. I need twenty minutes, and I will return at eight.” A time-bound pause is different from disappearing to punish someone."
+        ]
+      },
+      {
+        heading: "Gossip and Divisive Speech",
+        paragraphs: [
+          "Not every true fact is yours to circulate. Before repeating a story, ask whether you know it directly, whether the listener needs it, and whether sharing it would clarify a responsibility or merely recruit an ally. “I heard that...” does not remove responsibility for the harm a rumor causes.",
+          "If someone invites gossip, decline without performing moral superiority: “I do not know their side, so I would rather not speculate.” When a warning is genuinely needed for safety or accountability, share verified information with the people who can act, not the largest possible audience."
+        ]
+      },
+      {
+        heading: "Criticism and Difficult Truth",
+        paragraphs: [
+          "Right Speech can be unpleasing. MN 58 does not say that beneficial truth must always feel agreeable; it emphasizes truth, benefit, compassion, and proper timing. A firm statement such as “This conduct must stop” may be more responsible than a gentle phrase that hides the seriousness of harm.",
+          "Criticize conduct and consequences you can identify. Avoid inflating one mistake into a total identity. Where immediate protection is required, act first and refine the explanation later. Buddhist speech ethics should never be used to silence disclosure, protest, or a clear refusal."
+        ]
+      },
+      {
+        heading: "Apology and Correction",
+        paragraphs: [
+          "A useful apology names the action, recognizes its effect, avoids excuses, and states what will change: “I shared that before checking it. It was inaccurate, and I have corrected it with the same people.” The repair should travel as far as the error when possible.",
+          "When correcting someone else, distinguish a factual error from a difference in judgment. Ask a clarifying question before assuming bad faith. If the correction is public because the error was public, keep it proportionate and do not turn accuracy into humiliation."
+        ]
+      },
+      {
+        heading: "Listening and Silence",
+        paragraphs: [
+          "Right Speech is supported by listening. Let another person finish, check what you heard, and notice whether you are preparing a rebuttal instead of receiving the meaning. “Have I understood you correctly?” can prevent an argument with a position no one actually held.",
+          "Silence may be wise when facts are uncertain, emotions are too heated, confidentiality matters, or words would only feed a quarrel. Silence is not automatically virtuous when it abandons responsibility, conceals harm, or controls another person."
         ]
       },
       {
         heading: "When Anger Is Present",
         paragraphs: [
-          "Anger is not automatically wrong, but it often wants speed. Right Speech asks for enough space to see whether anger is protecting truth or feeding harm. Sometimes the right first speech is: \"I am too heated to speak wisely right now.\"",
-          "If someone is being harmed, do not use patience as an excuse for passivity. Choose the safest firm action available. Later, review the speech with <a href=\"/articles/buddhist-approach-to-anger/\">a Buddhist approach to anger</a>."
+          "Anger is not a complete moral verdict, but it often wants speed and certainty. Right Speech asks for enough space to see whether anger is pointing to a real violation or looking for a target. Sometimes the first responsible sentence is: “I am too heated to discuss this well, but the issue still needs an answer.”",
+          "If someone is being harmed, do not use patience as an excuse for passivity. Choose the safest firm action available. For online and app-based situations, continue with <a href=\"/articles/mindful-email-and-texting/\">mindful email and texting</a>; for working with the emotion itself, read <a href=\"/articles/buddhist-approach-to-anger/\">a Buddhist approach to anger</a>."
         ]
       }
     ]
@@ -2891,7 +2996,7 @@ export const articles: Article[] = [
         heading: "Why English Versions Differ",
         paragraphs: [
           "The opening Pāli contains compact terms—including mano and dhammā—whose range cannot be carried by one uncontested English phrase. Translators make different choices about mind, mental states, phenomena, leadership, and what it means for experience to be mind-made or mind-shaped.",
-          "Echo Buddha does not settle that translation debate by inventing a hybrid verse. The responsible reading method is to name the translator when quoting exact English wording, compare more than one reputable version when a word matters, and keep this page's explanation clearly labeled as explanation."
+          "Echo Buddha does not settle that translation debate by inventing a hybrid verse. The selected references below identify translations by Acharya Buddharakkhita and Ṭhānissaro Bhikkhu so readers can compare the pair without mistaking this article's prose for scripture. The responsible method is to name the translator when quoting exact English wording and keep explanation clearly labeled as explanation."
         ]
       },
       {
@@ -4987,7 +5092,7 @@ export const articles: Article[] = [
         heading: "Common Misunderstandings About Buddhist Attachment",
         paragraphs: [
           "The first misunderstanding is that Buddhism asks people not to love. Love and attachment are not the same. Love wishes for wellbeing. Attachment demands possession, permanence, or control. Love can listen and accept responsibility. Attachment often bargains. Love can grieve. Attachment turns grief into the belief that life must not change.",
-          "The second misunderstanding is that non-attachment means emotional distance. True non-attachment can make care more available because it is less crowded by fear. A parent can guide a child while accepting that the child is not an extension of the parent. A friend can care deeply while allowing another person to have their own path. For the relationship-specific support page, read <a href=\"/articles/non-attachment-in-relationships/\">Non-Attachment in Relationships</a>."
+          "The second misunderstanding is that non-attachment means emotional distance. True non-attachment can make care more available because it is less crowded by fear. A parent can guide a child while accepting that the child is not an extension of the parent. A friend can care deeply while allowing another person to have their own path. For a focused application to partners, family, and friends, read <a href=\"/articles/non-attachment-in-relationships/\">Non-Attachment in Relationships</a>."
         ]
       },
       {
@@ -5711,7 +5816,7 @@ export const articles: Article[] = [
       {
         heading: "Visiting a Temple or Center Respectfully",
         paragraphs: [
-          "Before visiting, read the center's stated tradition, schedule, visitor guidance, and conduct policies if available. Dress modestly, arrive on time, silence the phone, and observe before assuming how things are done. If unsure, ask a simple practical question rather than pretending to know. The focused support page <a href=\"/articles/visiting-a-buddhist-temple-respectfully/\">Visiting a Buddhist Temple Respectfully</a> keeps this practical etiquette guidance separate from the broad Sangha explanation.",
+          "Before visiting, read the center's stated tradition, schedule, visitor guidance, and conduct policies if available. Dress modestly, arrive on time, silence the phone, and observe before assuming how things are done. If unsure, ask a simple practical question rather than pretending to know. The guide to <a href=\"/articles/visiting-a-buddhist-temple-respectfully/\">visiting a Buddhist temple respectfully</a> covers clothing, shoes, offerings, ritual participation, photography, accessibility, and local variation.",
           "You do not need to make a lifelong commitment on the first visit. Attend a public teaching, listen, notice how people treat newcomers, and give yourself permission to learn slowly. For broader orientation, see <a href=\"/articles/what-is-buddhism-beginner-guide/\">What Is Buddhism?</a> and the <a href=\"/articles/eightfold-path-explained/\">Eightfold Path explanation</a>.",
           "If you come from a different religious, cultural, or secular background, humility helps. Avoid treating the space as a wellness studio with unfamiliar decoration. Notice customs around shoes, seating, images, donations, chanting, and teacher interaction. When unsure, follow posted guidance or ask quietly."
         ]
@@ -7406,7 +7511,7 @@ export type ArticleSeoDetails = {
 
 export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
   "mindful-email-and-texting": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "Mindful email and texting applies Buddhist Right Speech to digital messages.",
       "A pause before sending can reveal intention, tone, usefulness, timing, and avoidable harm.",
@@ -7431,7 +7536,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "compassion-with-boundaries": {
-    reviewedDate: "2026-08-24",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "Compassion with boundaries is wise care, not people-pleasing or tolerance of harm.",
       "A boundary can reduce harm while keeping hatred from shaping the heart.",
@@ -7456,10 +7561,10 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhamma-vs-dharma": {
-    reviewedDate: "2026-08-24",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "Dhamma is usually the Pali form and Dharma is usually the Sanskrit form.",
-      "The Dhamma dictionary page remains Echo Buddha's broad Dhamma meaning owner.",
+      "The broader dictionary entry explains Dhamma's meanings; this article focuses on spelling and context.",
       "The safest reading habit is to ask which source, tradition, and practice context is being used."
     ],
     faqs: [
@@ -7481,7 +7586,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "visiting-a-buddhist-temple-respectfully": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "A temple visit should be approached with humility, patience, and local-context awareness.",
       "Temple etiquette varies by tradition and community, so posted guidance and volunteer instructions matter.",
@@ -7506,7 +7611,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "first-week-buddhist-practice": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "A first week of Buddhist practice can be simple, practical, and non-performative.",
       "Study, short meditation, ethical speech, daily reflection, and review can support one another.",
@@ -7531,7 +7636,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "non-attachment-in-relationships": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "Non-attachment in relationships means caring without trying to control or possess.",
       "Boundaries belong to wise non-attachment and should not be treated as coldness.",
@@ -7556,7 +7661,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "right-speech-examples": {
-    reviewedDate: "2026-08-06",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "Right Speech becomes practical when it is applied to messages, work, family, silence, and disagreement.",
       "Patience gives speech enough time to become truthful, useful, kind, and timely.",
@@ -7581,7 +7686,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "dhammapada-verse-1-meaning": {
-    reviewedDate: "2026-08-24",
+    reviewedDate: "2026-09-27",
     takeaways: [
       "Dhammapada Verse 1 points to the mind as a forerunner of speech and action.",
       "Popular wording should be separated from exact translation, paraphrase, and original reflection.",

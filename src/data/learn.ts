@@ -3188,7 +3188,7 @@ export const suttaPages: LearningPage[] = [
         heading: "Why Context Matters",
         paragraphs: [
           "A source-study page helps readers see that the Eightfold Path is not only a modern self-improvement list. It is a Buddhist path of training that connects the mind with speech, action, livelihood, and meditation.",
-          "This page supports the <a href='/learn/eightfold-path/'>Eightfold Path</a> hub, which remains the broad beginner owner for the topic."
+          "For a broader introduction to all eight factors and how they work together, continue with the <a href='/learn/eightfold-path/'>Eightfold Path</a> learning guide."
         ]
       },
       {

@@ -1,6 +1,6 @@
 {
   "phase": 6,
-  "generated_at": "2026-08-25T05:19:24.357Z",
+  "generated_at": "2026-09-27T05:46:15.534Z",
   "independent_pass": true,
   "status": "PASS",
   "checks_passed": 67,
@@ -240,7 +240,7 @@
     {
       "id": "BLD-02",
       "status": "PASS",
-      "evidence": "dateModified and self-canonical match visible material upgrades"
+      "evidence": "dateModified is no earlier than the Phase 6 revision, matches a visible date, and retains the self-canonical"
     },
     {
       "id": "BLD-03",
@@ -305,7 +305,7 @@
     {
       "id": "PRV-01",
       "status": "PASS",
-      "evidence": "all 6 changed paths are governed Phase 6-9 implementation or deterministic validation outputs"
+      "evidence": "all 66 changed paths are governed implementation or deterministic validation outputs"
     },
     {
       "id": "PRV-02",
