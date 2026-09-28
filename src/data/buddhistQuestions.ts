@@ -15,7 +15,9 @@ export type BuddhistQuestionSource = {
     | "Theravāda commentary"
     | "Theravāda narrative/commentary"
     | "Museum / art history"
-    | "Cultural heritage / history";
+    | "Cultural heritage / history"
+    | "Historical Buddhist travel record"
+    | "Academic / historical scholarship";
   note: string;
 };
 
@@ -26,7 +28,7 @@ export type BuddhistQuestionSection = {
 };
 
 export type BuddhistQuestion = {
-  number: 1 | 2 | 3 | 4 | 5 | 6;
+  number: 1 | 2 | 3 | 4 | 5 | 6 | 7;
   slug: string;
   title: string;
   seoTitle: string;
@@ -828,6 +830,167 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     previous: {
       label: "Question 5: Why Was a Bodhi Tree Planted at Jetavana?",
       href: `${questionsPath}/why-bodhi-tree-planted-at-jetavana/`
+    },
+    next: {
+      label: "Question 7: When Did Buddha Statues First Appear?",
+      href: `${questionsPath}/when-did-buddha-statues-first-appear/`
+    }
+  },
+  {
+    number: 7,
+    slug: "when-did-buddha-statues-first-appear",
+    title: "When Did Buddha Statues First Appear? Were Any Made During the Buddha’s Lifetime?",
+    seoTitle: "When Did Buddha Statues First Appear? | Echo Buddha",
+    description:
+      "When did Buddha statues first appear, and were any made during the Buddha’s lifetime? Compare archaeology, Chinese pilgrimage traditions, and Theravāda commentaries.",
+    eyebrow: "Question 7",
+    publishedDate: "2026-09-28",
+    modifiedDate: "2026-09-28",
+    intro:
+      "Buddhist tradition and modern historical evidence answer this question differently. The clearest approach is to keep those evidence layers separate.",
+    takeaway:
+      "Historically, securely datable human-form Buddha images survive from the early centuries CE, especially in Gandhāra and Mathurā—centuries after the Buddha’s lifetime. Later Buddhist traditions tell of images made while the Buddha was alive, most famously the sandalwood image attributed to King Udayana. Those accounts matter as religious tradition, but their surviving texts are much later and do not establish a lifetime statue archaeologically.",
+    shortAnswer: [
+      "The historical answer is cautious: no Buddha statue can currently be demonstrated by archaeology or a contemporary written record to have been made during the historical Buddha’s lifetime. Securely attested human-form Buddha images appear in the surviving record in the early centuries of the Common Era.",
+      "The traditional answer is different. The seventh-century Chinese pilgrim Xuanzang recorded a story that King Udayana commissioned a sandalwood image while the Buddha was away teaching in heaven. Xuanzang was reporting an established tradition roughly a millennium after the period it describes, not witnessing the event himself.",
+      "Theravāda commentaries also know Buddha images, but the relevant passages do not prove a lifetime statue. One describes a relic-bearing image after Parinibbāna; another discusses a relic stupa or image in a practical monastic context. Their extant commentarial form is centuries later than the Buddha."
+    ],
+    sections: [
+      {
+        heading: "Two Answers, Because the Evidence Is Different",
+        paragraphs: [
+          "A religious tradition may preserve a meaningful account even when modern historians cannot verify the event with contemporary evidence. This question therefore needs two plainly labelled answers rather than a forced choice between ‘tradition’ and ‘history.’",
+          "<strong>Traditional Buddhist answer:</strong> later sources tell of Buddha images made during the Buddha’s lifetime. The best-known example attributes a sandalwood image to King Udayana.",
+          "<strong>Modern historical answer:</strong> the securely datable material record places unmistakable human-form Buddha images in the early centuries CE. No surviving object or near-contemporary text presently demonstrates a statue from the Buddha’s own lifetime."
+        ]
+      },
+      {
+        heading: "What the Archaeological Record Can Establish",
+        paragraphs: [
+          "Human-form images identifiable as the Buddha are securely attested in Gandhāra and Mathurā in the early centuries CE. A seated Buddha from Gandhāra in the Metropolitan Museum of Art, for example, is dated to the first to mid-second century CE. The Met’s wider history of Buddhist art also describes human-form traditions developing in Gandhāra and Mathurā under Kushan rule.",
+          "This material is much later than the usual historical dating of the Buddha. It gives us a firm surviving horizon for Buddha images; it does not let us identify the single first image ever made. Earlier works could have been lost, made from perishable materials, or remain undiscovered.",
+          "For the same reason, ‘earliest securely attested’ is more responsible than ‘the first Buddha statue was made in year X.’ Archaeology establishes surviving evidence, not every object that once existed."
+        ]
+      },
+      {
+        heading: "Early Textual Silence Is Not an Image Ban",
+        paragraphs: [
+          "The early Buddhist discourses do not provide a clear contemporary account of commissioning a human-form statue of the Buddha. Their silence limits what historians can claim about lifetime images.",
+          "Silence is not itself a prohibition. It does not prove that an image existed, but it also does not prove that early Buddhists followed one universal rule forbidding representation. Surviving early monuments often refer to the Buddha through such forms as the Bodhi tree, an empty throne, footprints, a wheel, or a stupa, yet scholars have long debated how those choices should be interpreted.",
+          "This is the boundary protected in <a href=\"/learn/questions-about-buddhism/did-buddha-order-buddha-images/\">Q1</a>: absence of a recorded command to make statues is not the same as a recorded command never to make them."
+        ]
+      },
+      {
+        heading: "The Udayana Sandalwood Image Tradition",
+        paragraphs: [
+          "In the seventh century CE, the Chinese monk and pilgrim Xuanzang travelled through India and recorded sacred places and traditions associated with them. In his account of Kauśāmbī, he describes a sandalwood Buddha image attributed to King Udayana.",
+          "The story says that while the Buddha was teaching his mother in a heavenly realm, the king longed for him and commissioned an image. An artisan was miraculously taken to see the Buddha so that the likeness could be made; after the Buddha returned, the image rose as if to greet him. Xuanzang also reports that later copies were based on it.",
+          "This is important evidence that a lifetime-image story circulated by Xuanzang’s era. It is not an eyewitness record of the Buddha’s lifetime, and the reported miracle cannot be converted into archaeological dating. The source establishes the later tradition, not the historical event as a modern historian would require."
+        ]
+      },
+      {
+        heading: "What the Theravāda Commentaries Actually Say",
+        paragraphs: [
+          "Two passages in the Pāli commentarial tradition are especially relevant, but neither should be assigned to the Buddha’s lifetime without evidence. In the commentary to MN 142, the discussion of giving after the Buddha’s Parinibbāna describes placing a relic-bearing image before the twofold Saṅgha. The passage therefore imagines an image in an explicitly post-Parinibbāna setting.",
+          "The commentary to MN 115 says that a Bodhi branch obstructing a relic stupa or an image may be cut. This shows that the commentator regarded images as established sacred objects within Buddhist practice. It does not state when Buddha images first appeared or identify a statue made during the Buddha’s life.",
+          "These locations matter. The first passage belongs to the <i>Dakkhiṇāvibhaṅgasuttavaṇṇanā</i>, the commentary on MN 142; the second belongs to the <i>Bahudhātukasuttavaṇṇanā</i>, the commentary on MN 115. They should not be relocated to similarly named texts or cited as words from the early discourses themselves."
+        ]
+      },
+      {
+        heading: "How Late Are the Extant Commentaries?",
+        paragraphs: [
+          "The Majjhima Nikāya commentary, the <i>Papañcasūdanī</i>, is traditionally associated with Buddhaghosa, whose work is generally placed in the fifth century CE. Buddhaghosa says he drew on older Sinhala commentarial materials preserved in Sri Lanka, and scholars recognize that earlier interpretation lies behind parts of the extant commentaries.",
+          "The older Sinhala commentaries are no longer extant. That means we cannot simply date every sentence in the surviving Pāli work to the fifth century, but we also cannot project each sentence backward to the Buddha’s lifetime. The responsible statement is narrower: the passages are securely available to us in a later commentarial compilation that may preserve older material of uncertain individual date.",
+          "This chronology neither dismisses the commentary nor turns it into contemporary historical documentation. It tells readers what kind of evidence they are using."
+        ]
+      },
+      {
+        heading: "Could Earlier Wooden or Clay Images Have Disappeared?",
+        paragraphs: [
+          "Yes, that is possible. Wood, unfired clay, textiles, and painted surfaces survive unevenly, especially across more than two millennia. The Udayana tradition itself speaks of sandalwood, a material far less durable than stone.",
+          "Possibility, however, is not evidence that a particular object existed. Historians can acknowledge gaps in preservation without filling those gaps with certainty. A missing early statue might one day be discovered, but the present conclusion must rest on what can now be dated and identified.",
+          "This is why the historical answer remains open but disciplined: no demonstrated lifetime statue, and secure human-form images by the early centuries CE."
+        ]
+      },
+      {
+        heading: "Does ‘Aniconic’ Mean Buddhists Rejected Images?",
+        paragraphs: [
+          "The label <i>aniconic</i> is often used for early Buddhist art that represents events or presence without showing the Buddha in human form. The label can describe what is visible, but it should not be treated as proof of a single motive shared by every early Buddhist community.",
+          "An empty throne may refer to awakening or royal presence; a Bodhi tree may evoke the place of awakening; footprints can mark remembered presence; a stupa can hold relic and memorial meaning. These forms were not necessarily failed substitutes awaiting statues. They carried meanings of their own.",
+          "The later rise of human-form images therefore need not be told as a simple move from prohibition to permission. The evidence supports a more varied history of symbolic, relic-centered, architectural, and human representation."
+        ]
+      },
+      {
+        heading: "A Careful Final Answer",
+        paragraphs: [
+          "If the question is historical, the answer is: no surviving evidence currently proves that a Buddha statue was made during the Buddha’s lifetime. Securely attested human-form images belong to the early centuries CE, while the absolute first image remains unknown.",
+          "If the question is about Buddhist tradition, the answer is: yes, later traditions describe lifetime images, especially the sandalwood image of King Udayana recorded by Xuanzang. That account should be identified as a later sacred tradition rather than contemporary documentation.",
+          "Theravāda commentaries confirm that Buddha images were integrated into later Buddhist religious life, including relic-bearing and shrine contexts. They do not close the chronological gap. Keeping these layers visible allows readers to respect traditional memory without overstating what archaeology and textual dating can establish."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha comparison of evidence layers. Archaeology supports a secure surviving horizon, Xuanzang documents a later Buddhist lifetime-image tradition, and the Theravāda commentaries document later image practice. None of those layers is presented as doing the work of another.",
+    sources: [
+      {
+        label: "Seated Buddha from Gandhāra — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/art/collection/search/72381",
+        sourceType: "Museum / art history",
+        note: "Provides a securely dated example from the first to mid-second century CE. It is used as a surviving historical benchmark, not as the first image ever made."
+      },
+      {
+        label: "Buddhism and Buddhist Art — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/essays/buddhism-and-buddhist-art",
+        sourceType: "Museum / art history",
+        note: "Supports the limited account of human-form Buddha traditions in Gandhāra and Mathurā and the importance of earlier symbolic forms. It is not used to infer a universal image ban."
+      },
+      {
+        label: "Si-Yu-Ki: Buddhist Records of the Western World, volume 1 — Internet Archive",
+        href: "https://archive.org/details/siyukibuddhistre01samu",
+        sourceType: "Historical Buddhist travel record",
+        note: "Samuel Beal’s public-domain translation of Xuanzang’s seventh-century travel record preserves the Kauśāmbī story of King Udayana’s sandalwood image. It documents a later tradition, not an eyewitness event from the Buddha’s lifetime."
+      },
+      {
+        label: "Dakkhiṇāvibhaṅgasuttavaṇṇanā (commentary to MN 142) — Chaṭṭha Saṅgāyana Tipiṭaka",
+        href: "https://tipitaka.org/romn/cscd/s0203a.att3.xml",
+        sourceType: "Theravāda commentary",
+        note: "Contains the passage about placing a relic-bearing image before the twofold Saṅgha after the Buddha’s Parinibbāna. The post-Parinibbāna setting is explicit."
+      },
+      {
+        label: "Bahudhātukasuttavaṇṇanā (commentary to MN 115) — Chaṭṭha Saṅgāyana Tipiṭaka",
+        href: "https://tipitaka.org/romn/cscd/s0203a.att1.xml",
+        sourceType: "Theravāda commentary",
+        note: "Contains the practical statement about a Bodhi branch obstructing a relic stupa or an image. It shows later commentarial familiarity with images but supplies no date for their first appearance."
+      },
+      {
+        label: "Theravāda Buddhist Literature — Cambridge University Press sample",
+        href: "https://assets.cambridge.org/97805213/64287/sample/9780521364287ws.pdf",
+        sourceType: "Academic / historical scholarship",
+        note: "Supports the chronology of the extant Pāli commentaries and their relationship to earlier Sinhala commentarial materials. It does not license dating each surviving sentence to the earlier tradition."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "Did the Buddha Order Buddha Images?",
+        href: `${questionsPath}/did-buddha-order-buddha-images/`,
+        description: "Separate the history of images from the distinct question of whether the Buddha commanded them."
+      },
+      {
+        label: "Can Buddha Images Represent the Buddha If He Is Called Appaṭimo?",
+        href: `${questionsPath}/appatimo-and-buddha-images/`,
+        description: "See why representation does not require an exact physical duplicate."
+      },
+      {
+        label: "Buddhist Sources and Citations",
+        href: "/buddhist-sources-and-citations/",
+        description: "Learn how Echo Buddha distinguishes early texts, commentary, traditional narrative, and historical evidence."
+      }
+    ],
+    relatedTerms: ["Buddha statue", "Buddha image", "Gandhāra", "Mathurā", "King Udayana", "Xuanzang", "Papañcasūdanī"],
+    searchTerms: ["first Buddha statue", "earliest Buddha image", "Buddha lifetime statue", "King Udayana sandalwood Buddha", "Xuanzang Buddha image", "Gandhāra Buddha", "Mathurā Buddha", "Theravāda commentary Buddha image"],
+    previous: {
+      label: "Question 6: What Does Appaṭimo Mean for Buddha Images?",
+      href: `${questionsPath}/appatimo-and-buddha-images/`
     }
   }
 ];
