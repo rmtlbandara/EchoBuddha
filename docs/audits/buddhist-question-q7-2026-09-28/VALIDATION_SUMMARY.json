@@ -1,7 +1,7 @@
 {
   "audit": "Controlled Q7 Buddhist Question expansion",
   "date": "2026-09-28",
-  "status": "PASS_IMPLEMENTED_RELEASE_PENDING",
+  "status": "PASS_DEPLOYED_LIVE_VERIFIED_WITH_HISTORICAL_SNAPSHOTS_PRESERVED",
   "scope": {
     "historical_expansion_1": { "date": "2026-09-02", "questions": [1, 2], "new_indexable_detail_urls": 2 },
     "historical_expansion_2": { "date": "2026-09-14", "questions": [3, 4], "new_indexable_detail_urls": 2 },
@@ -59,6 +59,39 @@
     "npm_run_audit_buddhist_questions_browser": "PASS_24_ROUTE_VIEWPORT_COMBINATIONS_0_CRITICAL_0_SERIOUS_VISIBLE_KEYBOARD_FOCUS"
   },
   "production": {
-    "status": "PENDING"
-  }
+    "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED_AFTER_CACHE_CONVERGENCE",
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+    "deployed_sha": "dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a",
+    "deployment_method": "GITHUB_MANUAL_EXACT_SHA_WORKFLOW_USING_HOSTED_VALIDATED_ARTIFACT",
+    "cloudflare_deployment_id": "5539d314-4e9a-41af-8e3a-8e7f45c32fd8",
+    "cloudflare_version_id": "326a474b-be1f-4c46-ad4f-f83243f99c53",
+    "deployed_at_utc": "2026-09-28T07:13:29.596847Z",
+    "release_manifest_files": 802,
+    "release_manifest_aggregate_sha256": "82e82db89678fcf510cce5d810c0a28f3a4957d782f298efb57286f532d72adc",
+    "production_smoke": "PASS_14_OF_14_AFTER_CACHE_CONVERGENCE",
+    "workflow_immediate_smoke": "FAIL_12_OF_14_TRANSIENT_STALE_SITEMAP_AND_SEARCH_COUNTS",
+    "live_q1_q7_statuses": [200, 200, 200, 200, 200, 200, 200],
+    "live_sitemap_urls": 165,
+    "live_search_records": 330,
+    "live_browser_validation": "PASS_24_OF_24_ZERO_CRITICAL_OR_SERIOUS",
+    "live_adsense_runtime_scripts": 0,
+    "live_manual_ad_slots": 0,
+    "live_q8_plus_routes": 0,
+    "previous_last_known_good_sha": "29deac1469a1b20cfa270a41b40572cdd8cdc3f0",
+    "rollback_deployment_id": "78c0719a-631c-415b-b48a-243abb97bd44",
+    "rollback_version_id": "1d62ac59-b2b3-4073-92a3-9a15aaf8f62d"
+  },
+  "hosted_ci": {
+    "pull_request_run_id": 36390052168,
+    "release_validation": "PASS",
+    "browser_validation": "PASS",
+    "production_workflow_run_id": 36390355988,
+    "exact_sha_artifact_validation": "PASS_802_FILES",
+    "deployment": "PASS",
+    "immediate_smoke": "FAIL_TRANSIENT_STALE_CACHED_SITEMAP_164_OF_165_AND_SEARCH_329_OF_330",
+    "post_convergence_smoke": "PASS_14_OF_14",
+    "validated_artifact_id": 10955524178,
+    "deployment_evidence_artifact_id": 10955762345
+  },
+  "validated_sha": "dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a"
 }
