@@ -2,9 +2,15 @@
 
 Date: 2026-09-28
 
-Release state: implementation validated; hosted CI and production release pending
+Release state: deployed and live-verified
 
 Starting `origin/main`: `ed9fa4564c21de314039a87692d73d19d5f7fa91`
+
+Pull request: https://github.com/rmtlbandara/EchoBuddha/pull/47
+
+Implementation head: `98781bfb9c6c31d73e5a3a4c2b8024a5550d4a80`
+
+Merged and deployed SHA: `dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a`
 
 ## Authorized result
 
@@ -63,4 +69,27 @@ Q7 is organized as an evidence comparison rather than a rewrite of supplied mate
 - General browser and consent audit: pass across the standard 18-route set.
 - Buddhist-question browser audit: pass for the hub and Q1–Q7 at 390×844, 768×1024, and 1440×900 (24 combinations), with no overflow, heading skip, replacement character, missing visible keyboard focus, or critical/serious axe finding.
 
-Hosted CI, merge, exact-SHA production deployment, and live verification will be recorded here after completion.
+## Hosted validation and production
+
+PR run `36390052168` passed both release validation and browser/consent validation. PR #47 was merged to exact SHA `dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a`.
+
+Production run `36390355988` checked out that full SHA, rechecked that it was the current `origin/main`, ran the complete release suite, created an immutable 802-file artifact, verified every manifest digest, and deployed the artifact through the protected production environment.
+
+- Cloudflare deployment: `5539d314-4e9a-41af-8e3a-8e7f45c32fd8`
+- Cloudflare version: `326a474b-be1f-4c46-ad4f-f83243f99c53`
+- Deployed at: `2026-09-28T07:13:29.596847Z`
+- Release manifest: 802 files; aggregate SHA-256 `82e82db89678fcf510cce5d810c0a28f3a4957d782f298efb57286f532d72adc`
+
+The workflow’s smoke gate ran less than one second after Cloudflare recorded the deployment. Twelve checks passed, while `sitemap.xml` and `search-index.json` briefly returned the previous cached counts of 164 and 329. The deployed Q7 artifact itself had already passed manifest verification. A post-convergence rerun returned 14/14: 165 sitemap URLs and 330 search records, with Q7 present exactly once in each. No second deployment was performed.
+
+Live verification also confirmed:
+
+- Q1–Q7 all return HTTP 200.
+- Q7 has one exact H1, a self-canonical URL, indexable metadata, the 2026-09-28 publication date, and Article plus BreadcrumbList schemas with no FAQPage.
+- Q6 links forward to Q7; Q7 links back to Q6 and has no future Next target.
+- The hub has exactly seven cards; the homepage remains exactly one curated Q2 gateway and excludes Q7.
+- No AdSense runtime or manual ad slot is present.
+- The live hub plus Q1–Q7 browser matrix passes all 24 viewport combinations with zero critical or serious accessibility findings.
+- No Q8+ route appears in the sitemap, search index, data model, or navigation.
+
+The prior rollback target is Git SHA `29deac1469a1b20cfa270a41b40572cdd8cdc3f0`, Cloudflare deployment `78c0719a-631c-415b-b48a-243abb97bd44`, version `1d62ac59-b2b3-4073-92a3-9a15aaf8f62d`.
