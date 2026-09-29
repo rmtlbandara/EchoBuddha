@@ -76,6 +76,7 @@ const jsonLd = [
         <aside class="surface safety-box" aria-labelledby="meditation-safety-heading">
           <h2 id="meditation-safety-heading">Practice Safety</h2>
           {safetyNotice.map((notice) => <p>{notice}</p>)}
+          {page.sourceNote && <p>{page.sourceNote}</p>}
           <p>
             Read <a href="/meditation-safety/">Meditation Safety and Gentle Practice</a> for the fuller practice
             boundaries used across Echo Buddha.
@@ -111,23 +112,17 @@ const jsonLd = [
             <p>{qualityNote.question}</p>
           </aside>
         )}
-        {page.sourceNote && (
+	        {sourceLinks.length > 0 && (
           <section>
-            <h2>Safety Note</h2>
-            <p>{page.sourceNote}</p>
-            {sourceLinks.length > 0 && (
-              <>
-                <h3>Practice Sources</h3>
-                <ul class="source-list">
-                  {sourceLinks.map((source) => (
-                    <li>
-                      <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
-                      <span>{source.note}</span>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
+            <h2>Practice Sources</h2>
+            <ul class="source-list">
+              {sourceLinks.map((source) => (
+                <li>
+                  <a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a>
+                  <span>{source.note}</span>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
         <EditorialStandardsLinks includeDisclaimer includeMeditationSafety />

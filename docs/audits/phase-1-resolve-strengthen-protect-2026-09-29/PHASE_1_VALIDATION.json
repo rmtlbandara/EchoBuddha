@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-09-29T00:00:00.000Z",
+  "status": "PASS",
+  "totalChecks": 22,
+  "passed": 22,
+  "failed": 0,
+  "counts": {
+    "sitemapUrls": 165,
+    "registryRecords": 165,
+    "searchRecords": 330,
+    "priorityUrls": 44,
+    "changedArticles": 13
+  },
+  "checks": [
+    {
+      "name": "Sitemap URLs are unique",
+      "status": "PASS",
+      "details": "165 entries; 165 unique"
+    },
+    {
+      "name": "Registry covers the complete sitemap",
+      "status": "PASS",
+      "details": "165 registry records; 165 sitemap URLs"
+    },
+    {
+      "name": "On-site search exclusions match the intentional route policy",
+      "status": "PASS",
+      "details": "330 search records; 19 intentionally excluded navigation/policy routes"
+    },
+    {
+      "name": "Six protected clusters are registered",
+      "status": "PASS",
+      "details": "6 clusters; 44 priority URLs"
+    },
+    {
+      "name": "Each protected cluster has one broad owner",
+      "status": "PASS",
+      "details": "Buddhism for Beginners: 1; Impermanence / Anicca: 1; Noble Eightfold Path: 1; Four Noble Truths: 1; Beginner Meditation: 1; Loving-kindness / Mettā: 1"
+    },
+    {
+      "name": "Every sitemap route has rendered HTML",
+      "status": "PASS",
+      "details": "165/165"
+    },
+    {
+      "name": "Indexable routes remain self-canonical",
+      "status": "PASS",
+      "details": "165 self-canonicals"
+    },
+    {
+      "name": "Sitemap contains no noindex routes",
+      "status": "PASS",
+      "details": "0 noindex conflicts"
+    },
+    {
+      "name": "Every indexable page has one visible H1",
+      "status": "PASS",
+      "details": "165 pages with H1"
+    },
+    {
+      "name": "Indexable titles are unique",
+      "status": "PASS",
+      "details": "0 duplicate title groups"
+    },
+    {
+      "name": "Indexable descriptions are unique",
+      "status": "PASS",
+      "details": "0 duplicate description groups"
+    },
+    {
+      "name": "Priority support pages link to their declared owner",
+      "status": "PASS",
+      "details": "44 priority relationships verified"
+    },
+    {
+      "name": "Rendered internal links resolve",
+      "status": "PASS",
+      "details": "0 broken internal hrefs"
+    },
+    {
+      "name": "Rendered internal fragments resolve",
+      "status": "PASS",
+      "details": "0 broken internal fragments"
+    },
+    {
+      "name": "Obsolete FAQPage schema is absent",
+      "status": "PASS",
+      "details": "Visible FAQs remain; 0 FAQPage objects in indexable output"
+    },
+    {
+      "name": "Obsolete HowTo schema is absent",
+      "status": "PASS",
+      "details": "Visible meditation steps remain; 0 HowTo objects in indexable output"
+    },
+    {
+      "name": "Changed articles retain Article and breadcrumb schema",
+      "status": "PASS",
+      "details": "13 article schema pairs verified"
+    },
+    {
+      "name": "Changed articles retain visible reader FAQs",
+      "status": "PASS",
+      "details": "13 visible FAQ sections verified"
+    },
+    {
+      "name": "Explicitly numbered headings avoid duplicate TOC markers",
+      "status": "PASS",
+      "details": "Numbered Eightfold Path review headings use the already-numbered class"
+    },
+    {
+      "name": "Changed articles do not duplicate long substantive paragraphs",
+      "status": "PASS",
+      "details": "0 duplicated substantive paragraphs of 300+ characters"
+    },
+    {
+      "name": "Changed pages retain named source context",
+      "status": "PASS",
+      "details": "13 source-review rows"
+    },
+    {
+      "name": "Growth protections remain non-destructive",
+      "status": "PASS",
+      "details": "0 redirects; 0 noindex changes; 0 cross-page canonical changes"
+    }
+  ]
+}

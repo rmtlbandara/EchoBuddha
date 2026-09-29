@@ -7498,9 +7498,806 @@ function applyWeek3ArticleExpansion(article: Article): Article {
   };
 }
 
+type Phase1IntentRemediation = Pick<Article, "title" | "seoTitle" | "description" | "relatedSlugs" | "content">;
+
+const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
+  "how-to-meditate-for-beginners": {
+    title: "Your First Seven Days of Meditation: A Beginner Habit Plan",
+    seoTitle: "First 7 Days of Meditation: A Beginner Habit Plan",
+    description:
+      "Turn one beginner meditation session into a realistic seven-day habit with short daily steps, obstacle planning, and a gentle review.",
+    relatedSlugs: [
+      "beginning-a-daily-mindfulness-practice",
+      "mindfulness-of-breathing-guide",
+      "how-to-meditate-for-anxiety"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This is a first-week habit plan for someone who already knows the basic instruction: sit stably, notice a natural breath, and return when attention wanders. If you need that first-session method, begin with <a href=\"/meditation/meditation-for-beginners/\">Meditation for Beginners</a>. Here the job is different: make a small practice repeatable for seven ordinary days.",
+          "The week is an experiment, not a test of calm. Keep each session between three and seven minutes. Use the same general time and place when possible, and change the plan when pain, distress, work, care duties, or sleep make the original plan unrealistic."
+        ]
+      },
+      {
+        heading: "Before Day One: Remove Friction",
+        paragraphs: [
+          "Choose a cue that already happens every day, such as finishing tea, brushing your teeth, or closing a laptop. Put a chair or cushion where it is easy to use, decide the session length in advance, and keep the timer within reach. A visible, modest setup asks less willpower from a tired mind.",
+          "Write a fallback version: one minute with open eyes and both feet on the floor. The fallback is not a lesser practice. It protects continuity on a difficult day without teaching you to ignore the body or force attention."
+        ]
+      },
+      {
+        heading: "Days 1–2: Learn the Return",
+        paragraphs: [
+          "Sit for three to five minutes. Feel the support beneath the body and choose one breath location. Each time you notice thinking, planning, sound, or sensation, return to the next breath. Count the returns if that helps you recognize that noticing is the repetition—not evidence of failure.",
+          "When the timer ends, record only two facts: whether you sat and what made returning easier or harder. Avoid rating the session as spiritual, deep, good, or bad. The early habit needs usable information, not a verdict."
+        ]
+      },
+      {
+        heading: "Days 3–4: Plan for the Predictable Obstacle",
+        paragraphs: [
+          "Name the obstacle most likely to break the routine: forgetting, sleepiness, restlessness, discomfort, lack of privacy, or the thought that a short session does not count. Match it with one response. Set a reminder, open the eyes, sit earlier, use a chair, ask for five uninterrupted minutes, or use the fallback session.",
+          "Do not solve every possible obstacle. One specific if–then plan is enough: “If the morning session is missed, I will sit for three minutes before dinner.” A habit becomes durable when interruption has a route back."
+        ]
+      },
+      {
+        heading: "Days 5–6: Carry One Quality Into the Day",
+        paragraphs: [
+          "At the end of sitting, choose one quality to carry into the next activity: patience, careful speech, steadiness, or kindness. Make it observable. Patience might mean letting someone finish a sentence; careful speech might mean rereading one difficult message before sending it.",
+          "This step keeps meditation connected with Buddhist training beyond the cushion. A quiet session that never reaches conduct is incomplete; a brief session that supports less harmful speech can be genuinely useful."
+        ]
+      },
+      {
+        heading: "Day 7: Review Causes, Not Identity",
+        paragraphs: [
+          "Review the week without deciding that you are either disciplined or hopeless. Ask which cue worked, which posture was sustainable, what repeatedly interrupted practice, and what session length you would willingly repeat. These are questions about conditions, not character.",
+          "Choose the next week's minimum. It may remain five minutes. Increase time only if the existing practice feels stable and useful. Missing a day does not erase the week; return at the next planned cue without repayment or punishment."
+        ]
+      },
+      {
+        heading: "When to Adapt or Stop",
+        paragraphs: [
+          "If breath focus feels constricting, use sounds, contact at the feet, or open-eyed awareness. If meditation repeatedly brings panic, dissociation, traumatic re-experiencing, or intense distress, stop and seek qualified support rather than treating endurance as progress.",
+          "For the full range of methods, posture choices, and troubleshooting, continue with the <a href=\"/meditation-guide/\">comprehensive meditation guide</a>. For the site's shared boundaries, read <a href=\"/meditation-safety/\">Meditation Safety and Gentle Practice</a>."
+        ]
+      }
+    ]
+  },
+  "four-noble-truths-explained": {
+    title: "The Four Noble Truths as Four Tasks of Practice",
+    seoTitle: "Four Noble Truths as Four Tasks of Practice",
+    description:
+      "Understand the Four Noble Truths as work to perform: comprehend dukkha, abandon craving, realize cessation, and cultivate the path.",
+    relatedSlugs: [
+      "four-noble-truths-explained-simply",
+      "eightfold-path-explained",
+      "how-to-let-go-of-attachment-in-buddhism"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "The Four Noble Truths are not only four statements to agree with. In the Dhammacakkappavattana Sutta (SN 56.11), each truth is joined to a task: dukkha is to be fully understood, its arising is to be abandoned, cessation is to be realized, and the path is to be developed. This page focuses on that task structure.",
+          "For Echo Buddha's complete foundational overview, use <a href=\"/learn/four-noble-truths/\">The Four Noble Truths</a>. The shorter <a href=\"/articles/four-noble-truths-explained-simply/\">worked everyday example</a> follows one difficult situation through the framework."
+        ]
+      },
+      {
+        heading: "Truth One Is a Task of Comprehension",
+        paragraphs: [
+          "To comprehend dukkha is to know the particular form of strain that is present without reducing all life to misery. Pain may be obvious, but dukkha can also appear as the instability of depending on praise, certainty, health, identity, or a pleasant state that cannot be secured permanently.",
+          "Comprehension asks for precision: What hurts? What feels threatened? What is changing? What is the mind demanding? The task is not self-pity or pessimism. It is seeing the experience closely enough that a useful response becomes possible."
+        ]
+      },
+      {
+        heading: "Truth Two Is a Task of Abandoning Craving",
+        paragraphs: [
+          "The second task is not to eliminate every wholesome wish. The relevant problem is taṇhā—thirst or craving that tightens around pleasure, existence, non-existence, identity, or control. A wish to repair harm can support the path; the demand that everyone confirm our innocence is a different movement.",
+          "Abandoning does not mean pushing craving away with aversion. It begins by recognizing how it operates: rehearsing an insult, checking repeatedly for reassurance, clinging to a role, or insisting that an unpleasant feeling must vanish immediately. Not feeding the next repetition is already part of the task."
+        ]
+      },
+      {
+        heading: "Truth Three Is a Task of Realization",
+        paragraphs: [
+          "Cessation is more than the temporary relief of getting what craving wanted. It points to release when craving and clinging cease. A beginner should avoid claiming a final attainment from a brief calm moment, yet small experiences of non-feeding can make the direction intelligible.",
+          "Notice what happens when an angry reply is not sent, a comparison is not continued, or one breath is allowed without trying to possess it. Such moments do not equal the full cessation described by the tradition, but they can show the contrast between grasping and release."
+        ]
+      },
+      {
+        heading: "Truth Four Is a Task of Cultivation",
+        paragraphs: [
+          "The fourth task is to develop the Noble Eightfold Path. Understanding alone does not replace cultivation. View and intention orient the practice; speech, action, and livelihood shape conduct; effort, mindfulness, and concentration train the mind.",
+          "Cultivation also prevents the truths from becoming a private mood-management system. A path that reduces personal tension while leaving dishonesty, exploitation, or cruelty untouched has missed essential parts of the training."
+        ]
+      },
+      {
+        heading: "Why the Tasks Depend on One Another",
+        paragraphs: [
+          "Trying to abandon craving before comprehending dukkha can become suppression. Speaking of cessation without cultivating the path can become wishful thinking. Practicing techniques without understanding the problem can become restless self-improvement. The four tasks correct and support one another.",
+          "In one conflict, comprehension may reveal fear beneath anger; abandoning may mean not feeding the demand to win; cessation may be glimpsed when the grip relaxes; cultivation may involve truthful speech and mindful restraint. The framework is integrated even when one task is most visible."
+        ]
+      },
+      {
+        heading: "A Four-Task Review",
+        paragraphs: [
+          "Choose one recurring difficulty and write four lines: the dukkha to comprehend; the craving not to feed; the release that becomes possible; and the path factor to cultivate. Keep the statements concrete enough to guide one action.",
+          "This is an Echo Buddha reflection method, not a quotation or traditional liturgy. Use it to study experience, then return to the named source and the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path owner guide</a> for doctrinal context."
+        ]
+      }
+    ]
+  },
+  "four-noble-truths-explained-simply": {
+    title: "Applying the Four Noble Truths to a Difficult Conversation",
+    seoTitle: "Four Noble Truths in a Difficult Conversation",
+    description:
+      "Follow one tense conversation through dukkha, craving, a moment of release, and an Eightfold Path response.",
+    relatedSlugs: [
+      "four-noble-truths-explained",
+      "right-speech-buddhism",
+      "buddhist-approach-to-anger"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This page is a worked application, not another complete summary of Buddhist doctrine. For the broad teaching, begin with <a href=\"/learn/four-noble-truths/\">The Four Noble Truths</a>. Here we follow one ordinary experience: receiving a dismissive message from someone whose respect matters to you.",
+          "The example does not claim that every conflict is caused only by craving. Other people's actions, unequal power, safety, health, and social conditions matter. The framework helps separate what happened, what the mind added, and what response may reduce further suffering."
+        ]
+      },
+      {
+        heading: "The Situation: A Dismissive Message",
+        paragraphs: [
+          "Imagine that you send a careful request and receive: “You are overreacting. I do not have time for this.” Heat rises in the face. The chest tightens. The mind drafts a reply designed to make the other person feel the same sting.",
+          "A wise application does not pretend the message was harmless. It pauses before turning pain into the next action. If there is immediate danger, harassment, or abuse, protection and outside support take priority over completing a reflection exercise."
+        ]
+      },
+      {
+        heading: "First Truth: Name the Dukkha Precisely",
+        paragraphs: [
+          "The first truth is the hurt as actually experienced: dismissal, anger, uncertainty, and the fear that the relationship or work problem will not be addressed. Naming the body sensations and the practical issue prevents the mind from collapsing everything into “my whole life is a disaster.”",
+          "A precise sentence might be: “This response hurts, and the issue is still unresolved.” That sentence leaves room for both emotional truth and practical judgment."
+        ]
+      },
+      {
+        heading: "Second Truth: Find the Grip",
+        paragraphs: [
+          "The added grip may be the demand that the other person understand immediately, apologize in exactly the right words, or never think badly of you. The mind may replay the message because it believes one more rehearsal will produce certainty or control.",
+          "This does not excuse the dismissive behavior. It identifies the part of suffering that is being renewed internally. The workable question is: Which demand am I feeding right now, and does feeding it help me respond?"
+        ]
+      },
+      {
+        heading: "Third Truth: Notice a Small Non-Feeding",
+        paragraphs: [
+          "Put the phone down and feel three ordinary breaths or the contact of both feet. For a moment, do not write the perfect reply and do not replay the insult. The external problem remains, but the cycle is not being fed in that moment.",
+          "This pause is not the full realization of cessation. It is a modest experience of release from one repetition. Its value is practical: the mind now has more room to choose."
+        ]
+      },
+      {
+        heading: "Fourth Truth: Choose a Path Response",
+        paragraphs: [
+          "Right View distinguishes the message from the stories added to it. Right Intention asks whether the aim is repair, protection, clarity, or revenge. Right Speech may produce a firm sentence: “I want to address the issue without dismissing either of us. Can we choose a time to discuss it?”",
+          "Right Action may mean documenting the exchange, setting a boundary, involving an appropriate person, or leaving an unsafe conversation. Mindfulness keeps checking the body and intention; effort interrupts the urge to add needless harm."
+        ]
+      },
+      {
+        heading: "What the Framework Does Not Decide for You",
+        paragraphs: [
+          "The Four Noble Truths do not require reconciliation, silence, or continued access. They do not make every dispute symmetrical. Ethical judgment still needs facts, responsibility, power, and safety.",
+          "Use the truths to see suffering and its renewal more clearly, then choose the response that reduces harm without abandoning truth. For the task structure behind this example, continue with <a href=\"/articles/four-noble-truths-explained/\">the Four Noble Truths as four tasks</a>."
+        ]
+      }
+    ]
+  },
+  "eightfold-path-explained": {
+    title: "How the Eightfold Path Factors Work Together",
+    seoTitle: "How the Eightfold Path Factors Work Together",
+    description:
+      "See how view, intention, conduct, effort, mindfulness, and concentration reinforce one another instead of operating as eight isolated steps.",
+    relatedSlugs: [
+      "noble-eightfold-path-practical-guide",
+      "eightfold-path-explained-daily-life",
+      "right-speech-buddhism"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "The Noble Eightfold Path is often printed as a list, which can make it look like eight boxes to complete in order. This page answers a narrower question: how do the factors function together as one training? For definitions of all eight factors, use the primary <a href=\"/learn/eightfold-path/\">Noble Eightfold Path guide</a>.",
+          "The Pāli term sammā is conventionally translated as “right,” but it carries a sense of being appropriate, complete, or aligned with the path. The factors are not weapons for declaring another person wrong; they are disciplines that continually shape one another."
+        ]
+      },
+      {
+        heading: "View Gives Direction; Practice Tests View",
+        paragraphs: [
+          "Right View orients the path toward understanding dukkha, causes, cessation, and cultivation. But view is not only an opinion held before practice begins. Speech, action, meditation, and their consequences reveal whether our understanding is accurate or self-serving.",
+          "If a supposedly wise view repeatedly produces contempt, deception, or avoidable harm, conduct is providing evidence that the view needs examination. In this way, the path contains feedback rather than a one-way chain."
+        ]
+      },
+      {
+        heading: "Intention Connects Understanding With Conduct",
+        paragraphs: [
+          "Right Intention concerns the direction of the heart: renunciation or non-grasping, goodwill, and non-harming. It translates understanding into the motive carried toward a conversation, purchase, task, or refusal.",
+          "Intention alone does not excuse results. A person can mean well and still speak carelessly. Right Speech and Right Action make the intention answerable to what is actually done and to the harm that needs repair."
+        ]
+      },
+      {
+        heading: "Conduct Creates Conditions for Mental Training",
+        paragraphs: [
+          "Speech, action, and livelihood are not preliminary rules to leave behind once meditation becomes interesting. Deception, exploitation, and unresolved harm agitate the mind and shape the conditions in which attention is trained.",
+          "More careful conduct does not guarantee an easy meditation, but it removes some avoidable conflict and remorse. A steadier mind can then see intention and consequence with greater honesty."
+        ]
+      },
+      {
+        heading: "Effort, Mindfulness, and Concentration Cooperate",
+        paragraphs: [
+          "Right Effort notices which states are being prevented, abandoned, cultivated, or maintained. Right Mindfulness remembers the relevant frame and knows what is occurring. Right Concentration gathers the mind so that knowing is not immediately scattered.",
+          "Effort without mindfulness can become force. Mindfulness without wise effort can become passive observation. Concentration without right view and ethics can steady attention without determining a wholesome use. Their cooperation matters."
+        ]
+      },
+      {
+        heading: "One Conversation Can Involve All Eight Factors",
+        paragraphs: [
+          "Before giving difficult feedback, view distinguishes facts from assumptions. Intention checks whether the aim is benefit or humiliation. Speech chooses truthful, timely wording. Action respects boundaries and responsibility. Livelihood asks how professional power is being used.",
+          "Effort restrains the rehearsed insult, mindfulness notices tightening in the body, and concentration stays with the conversation instead of preparing the next attack. No factor is perfectly completed, yet the path is functioning as a system."
+        ]
+      },
+      {
+        heading: "Diagnose the Missing Support",
+        paragraphs: [
+          "When a practice problem repeats, ask which neighboring factor is missing. Harsh speech may need mindfulness of bodily heat, clearer intention, or a more accurate view of the other person's responsibility. Restless meditation may need ethical repair or wiser effort rather than simply more minutes of sitting.",
+          "For a structured self-review, use the <a href=\"/articles/noble-eightfold-path-practical-guide/\">weekly Eightfold Path practice review</a>. For worked modern situations, use <a href=\"/articles/eightfold-path-explained-daily-life/\">the Eightfold Path in daily decisions</a>."
+        ]
+      }
+    ]
+  },
+  "eightfold-path-explained-daily-life": {
+    title: "The Eightfold Path in Three Everyday Decisions",
+    seoTitle: "Eightfold Path in 3 Everyday Decisions",
+    description:
+      "Apply the Eightfold Path to a difficult message, a questionable work request, and a distracted evening at home.",
+    relatedSlugs: [
+      "eightfold-path-explained",
+      "right-speech-buddhism",
+      "right-livelihood-modern-life"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This is a scenario page. It does not redefine all eight factors; the complete foundation belongs to <a href=\"/learn/eightfold-path/\">the Noble Eightfold Path guide</a>. The three cases show how several factors can become relevant at once in modern life.",
+          "The examples are editorial applications of Buddhist principles, not canonical case rulings. Facts, safety, law, workplace policy, and qualified advice may also matter in a real decision."
+        ]
+      },
+      {
+        heading: "Decision One: Replying to a Provocative Message",
+        paragraphs: [
+          "You receive a message that misrepresents what you said. Right View separates the verifiable claim from the mind's prediction that the sender always acts in bad faith. Right Intention asks whether the reply aims at clarity, protection, repair, or punishment.",
+          "Right Speech removes exaggeration and chooses timing. Mindfulness notices heat in the face and the urge to send immediately; effort supports saving a draft. Concentration stays with the actual issue. A path-aligned reply can be firm: “That is not what I agreed to. Here is the record, and here is the correction I need.”"
+        ]
+      },
+      {
+        heading: "Decision Two: A Questionable Request at Work",
+        paragraphs: [
+          "A manager asks you to present incomplete numbers as a success. Right Livelihood and Right Action raise the ethical stakes; Right Speech shapes how to refuse or clarify without inventing certainty. View considers consequences for customers, colleagues, and trust—not only personal comfort.",
+          "A practical response may document the request, state what the data can and cannot support, offer an accurate alternative, or use an appropriate reporting channel. Mindfulness is not passive acceptance. It helps fear and career pressure become visible while the ethical choice is made."
+        ]
+      },
+      {
+        heading: "Decision Three: A Distracted Evening at Home",
+        paragraphs: [
+          "You intend to listen to a family member but keep reaching for the phone. Right Effort is not a dramatic battle with technology; it may mean placing the phone out of reach for ten minutes. Mindfulness remembers the intention to listen and notices the impulse before the hand moves.",
+          "Right Speech includes the quality of attention given before words are chosen. Concentration stays with one person's sentence. Right Intention may be the simple wish not to treat someone as an interruption."
+        ]
+      },
+      {
+        heading: "Compare the Three Decisions",
+        paragraphs: [
+          "The message case makes speech and restraint visible. The workplace case makes action and livelihood visible. The home case makes effort, mindfulness, and concentration visible. Yet view and intention shape all three, and each outcome becomes feedback for later understanding.",
+          "This is why the path should not be reduced to one favorite factor. Meditation cannot replace ethical judgment; good intentions cannot replace accurate speech; correct words cannot replace the attention needed to hear another person."
+        ]
+      },
+      {
+        heading: "Use a Four-Question Decision Check",
+        paragraphs: [
+          "Before one consequential choice, ask: What facts and assumptions shape my view? What intention is leading? Which speech, action, or livelihood responsibility is involved? What mental training would keep the choice steady?",
+          "This four-question check is an Echo Buddha synthesis, not a traditional formula. Use it as a doorway into the factors, then consult <a href=\"/articles/eightfold-path-explained/\">how the path factors work together</a> for the relationship framework."
+        ]
+      }
+    ]
+  },
+  "noble-eightfold-path-practical-guide": {
+    title: "A Weekly Eightfold Path Self-Review",
+    seoTitle: "Weekly Eightfold Path Self-Review",
+    description:
+      "Use a non-scoring weekly review to examine one path factor, its conditions, its effects, and one next practice experiment.",
+    relatedSlugs: [
+      "eightfold-path-explained",
+      "eightfold-path-explained-daily-life",
+      "beginning-a-daily-mindfulness-practice"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This page is a reusable practice framework, not a third broad explanation of the Eightfold Path. Read the factors first in the <a href=\"/learn/eightfold-path/\">primary Eightfold Path guide</a>, then use this review to study one factor in your own week.",
+          "The review does not produce a spiritual score. It looks for causes, effects, blind spots, and one small experiment. Honest observation is more useful than performing progress."
+        ]
+      },
+      {
+        heading: "1. Choose One Factor and One Setting",
+        paragraphs: [
+          "Select one factor and one recurring setting: Right Speech in team meetings, Right Effort during evening rumination, or Right Mindfulness while caring for a family member. A narrow scope produces clearer evidence than trying to monitor the entire path all day.",
+          "Write a behavioral intention. “Practice Right Speech” is vague; “avoid exaggeration in the Friday status meeting and ask one clarifying question before disagreeing” can be reviewed."
+        ]
+      },
+      {
+        heading: "2. Record One Event Without a Verdict",
+        paragraphs: [
+          "Describe what happened in observable terms: words used, action taken, bodily signals, and immediate result. Separate these from mind-reading and identity claims. “I interrupted twice and raised my voice” is more workable than “I am a terrible practitioner.”",
+          "Include what went well. A review that notices only failure trains aversion, while a review that notices only success protects pride. Both useful and unskillful conditions belong in the evidence."
+        ]
+      },
+      {
+        heading: "3. Find the Supporting and Missing Factors",
+        paragraphs: [
+          "Ask which other factors supported the event. Careful speech may have depended on mindfulness of tension and an intention not to humiliate. A lapse may reveal confused view, scattered attention, livelihood pressure, or effort applied too late.",
+          "This step turns the list into a system. Do not use it to invent a complicated diagnosis; identify the one neighboring factor that would most improve the next attempt."
+        ]
+      },
+      {
+        heading: "4. Trace Conditions and Consequences",
+        paragraphs: [
+          "What conditions were present—fatigue, preparation, fear, supportive company, urgency, privacy, or time pressure? What followed—clarity, repair, agitation, trust, avoidance, or harm? The point is to learn how choices arise, not to reduce every outcome to personal will.",
+          "Where another person was harmed, reflection should lead toward appropriate repair. Good intention does not remove the need to correct facts, apologize, restore something, or change a repeated condition."
+        ]
+      },
+      {
+        heading: "5. Design One Seven-Day Experiment",
+        paragraphs: [
+          "Choose a change small enough to repeat: draft difficult messages and wait ten minutes; begin work with one clear intention; keep the phone away during one conversation; or review livelihood impact before accepting one task.",
+          "Define what will count as attempting the experiment. The result may still be imperfect. A useful experiment improves visibility and choice; it does not guarantee that every condition will cooperate."
+        ]
+      },
+      {
+        heading: "6. Close With Responsibility and Goodwill",
+        paragraphs: [
+          "End with two sentences: “What responsibility is mine?” and “What can I release?” This keeps accountability from becoming total control and keeps letting go from becoming avoidance.",
+          "Return the following week to the same factor or choose another only after writing what was learned. For concrete modern cases, continue with <a href=\"/articles/eightfold-path-explained-daily-life/\">three everyday Eightfold Path decisions</a>."
+        ]
+      }
+    ]
+  },
+  "what-is-buddhism-beginner-guide": {
+    title: "What Buddhism Is—and What It Is Not",
+    seoTitle: "What Buddhism Is—and What It Is Not",
+    description:
+      "Clarify common beginner misconceptions about Buddhism as religion, philosophy, meditation, ethics, community, and a path of liberation.",
+    relatedSlugs: [
+      "first-week-buddhist-practice",
+      "buddhism-for-beginners-simple-guide",
+      "four-noble-truths-explained"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Buddhism is a diverse family of living traditions shaped by teachings attributed to the Buddha, communities of practice, ethical disciplines, meditation, ritual, devotion, study, and paths toward liberation. This page clears up category mistakes that can confuse a first encounter.",
+          "For the comprehensive beginner foundation, go to <a href=\"/learn/buddhism-for-beginners/\">Buddhism for Beginners</a>. For a sequenced course, use <a href=\"/learn/buddhism-101/\">Buddhism 101</a>."
+        ]
+      },
+      {
+        heading: "Buddhism Is Not Only a Philosophy",
+        paragraphs: [
+          "Buddhist texts and arguments can be studied philosophically, but many Buddhists live Buddhism through refuge, precepts, chanting, ritual, generosity, festivals, temples, monastic relationships, and devotion. Calling it only a philosophy erases much of how communities understand and practice it.",
+          "A newcomer may approach through ideas, but respectful learning keeps the religious, cultural, and communal dimensions in view even when personal participation begins with reading."
+        ]
+      },
+      {
+        heading: "Buddhism Is Not Only a Religion in One Uniform Form",
+        paragraphs: [
+          "Theravāda, Mahāyāna, and Vajrayāna traditions contain many schools, languages, histories, practices, and institutions. Beliefs and emphases differ across regions and lineages. One teacher, country, or book cannot stand for every Buddhist community.",
+          "It is still possible to describe shared reference points carefully, including the Buddha, Dhamma or Dharma, Sangha, ethical conduct, meditation, wisdom, compassion, and liberation. Shared terms should not be used to flatten differences."
+        ]
+      },
+      {
+        heading: "Buddhism Is Not Just Meditation or Mindfulness",
+        paragraphs: [
+          "Meditation is important, but Buddhist training also concerns speech, action, livelihood, generosity, intention, community, and understanding. Modern mindfulness exercises may be useful while representing only part of the larger traditions from which they draw.",
+          "A practice that seeks calm while ignoring dishonesty or harm is not a complete account of the Buddhist path. Ethics and wisdom are not optional decoration around meditation."
+        ]
+      },
+      {
+        heading: "The Buddha Is Not a Creator God",
+        paragraphs: [
+          "Buddhist traditions honor the Buddha as the awakened teacher, not as a creator who made the universe. Devotional practices exist, and Buddhist cosmologies include many kinds of beings, but the path is not organized around obedience to a creator deity.",
+          "The central practical concern is the understanding and ending of suffering through cultivation. Beginners should avoid translating every Buddhist practice into a familiar Western category too quickly."
+        ]
+      },
+      {
+        heading: "Non-Attachment Is Not Indifference",
+        paragraphs: [
+          "Buddhist teachings on craving and clinging do not require emotional coldness. Compassion, loving-kindness, generosity, and responsibility are cultivated. Non-attachment asks whether care has become possession, control, or a demand for permanence.",
+          "A person can love deeply, grieve honestly, protect someone, and still practice less clinging. The difference is not the absence of care but the quality of the grip."
+        ]
+      },
+      {
+        heading: "Set a Realistic Beginner Expectation",
+        paragraphs: [
+          "Do not expect Buddhism to make every feeling calm, settle every metaphysical question immediately, or provide one universal cultural style. Expect a long practice of studying causes, reducing harm, training attention, and revising misunderstandings.",
+          "If you want to choose a route based on your actual need—study, practice, community, or terminology—continue with <a href=\"/articles/buddhism-for-beginners-simple-guide/\">Choosing Your First Buddhist Learning Path</a>."
+        ]
+      }
+    ]
+  },
+  "buddhism-for-beginners-simple-guide": {
+    title: "Choosing Your First Buddhist Learning Path",
+    seoTitle: "Choose Your First Buddhist Learning Path",
+    description:
+      "Choose a clear beginner route through Buddhist study, daily practice, meditation, community, or terminology without trying to learn everything at once.",
+    relatedSlugs: [
+      "first-week-buddhist-practice",
+      "what-is-buddhism-beginner-guide",
+      "beginning-a-daily-mindfulness-practice"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "A beginner can become lost because Echo Buddha—and Buddhism itself—contains many valid entry points. This page is a route selector, not a replacement for the broad <a href=\"/learn/buddhism-for-beginners/\">Buddhism for Beginners</a> owner guide.",
+          "Choose the question that is most alive now. Follow one route for a week before adding another. Depth and repetition usually teach more than opening ten introductory pages in one sitting."
+        ]
+      },
+      {
+        heading: "If You Need the Big Picture",
+        paragraphs: [
+          "Start with the beginner owner guide, then read <a href=\"/learn/four-noble-truths/\">the Four Noble Truths</a> and <a href=\"/learn/eightfold-path/\">the Noble Eightfold Path</a>. This route answers what problem the path addresses and what kinds of training it develops.",
+          "Do not treat the two teachings as a complete survey of every Buddhist tradition. They are central foundations that make later study easier to organize."
+        ]
+      },
+      {
+        heading: "If You Want a Structured Course",
+        paragraphs: [
+          "Use <a href=\"/learn/buddhism-101/\">Buddhism 101</a> in sequence. The course keeps lessons shorter and gives each one a bounded job. Resist skipping directly to the most exotic term merely because it sounds advanced.",
+          "After each lesson, write one sentence explaining it in your own words and one question you still have. That prevents passive collecting and identifies where a source or teacher would help."
+        ]
+      },
+      {
+        heading: "If You Want to Begin Practicing",
+        paragraphs: [
+          "Use <a href=\"/articles/first-week-buddhist-practice/\">the first-week practice plan</a> for a rhythm of study, meditation, speech, generosity, and review. Use <a href=\"/meditation/meditation-for-beginners/\">Meditation for Beginners</a> when you need a first seated session.",
+          "Practice should remain small enough to repeat. Five minutes of sitting plus one careful conversation is more useful than an ambitious schedule abandoned after two days."
+        ]
+      },
+      {
+        heading: "If You Need a Term Explained",
+        paragraphs: [
+          "Use the <a href=\"/learn/buddhist-dictionary/\">Buddhist Dictionary</a> for a concise definition, related terms, and links outward. A dictionary page is an entry point, not the final word on a doctrine's history or use across traditions.",
+          "Keep Pāli and Sanskrit terms connected to context. Memorizing an English equivalent without seeing how a term functions in teaching and practice can create false confidence."
+        ]
+      },
+      {
+        heading: "If You Are Looking for Community or a Teacher",
+        paragraphs: [
+          "Use <a href=\"/learn/buddhist-resources/\">Buddhist Resources</a> to begin evaluating texts, organizations, and learning settings. Look for transparent lineage or institutional context, ethical safeguards, clear financial expectations, and room for respectful questions.",
+          "Online reading cannot assess a community for you. Take time, observe conduct as well as teaching, and keep ordinary safety and boundaries intact."
+        ]
+      },
+      {
+        heading: "Build a Route You Can Explain",
+        paragraphs: [
+          "At the end of the week, answer three questions: What did I study? What did I practice? What changed in how I spoke or acted? If you cannot answer, narrow the route rather than adding more material.",
+          "A good next path is not the one that looks most impressive. It is the one that produces clearer understanding, less harm, and a question worth investigating next."
+        ]
+      }
+    ]
+  },
+  "impermanence-in-buddhism": {
+    title: "Impermanence Without Nihilism: What Anicca Does Not Mean",
+    seoTitle: "Impermanence Without Nihilism: Anicca Explained",
+    description:
+      "Correct five common misunderstandings of anicca: that nothing matters, care is pointless, harm should be accepted, grief should end quickly, or no continuity exists.",
+    relatedSlugs: [
+      "buddhist-teachings-on-impermanence",
+      "impermanence-in-buddhism-letting-go",
+      "how-to-let-go-of-attachment-in-buddhism"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Anicca means that conditioned phenomena arise, change, and pass as supporting conditions change. It does not mean that nothing exists, nothing matters, or consequences disappear. This page concentrates on misconceptions; the primary beginner explanation is <a href=\"/learn/buddhism-101/what-is-impermanence/\">What Is Impermanence?</a>.",
+          "The aim is not to use a Buddhist term as a slogan over grief or uncertainty. A correct teaching can become harmful when applied without timing, context, or compassion."
+        ]
+      },
+      {
+        heading: "Misconception 1: If Everything Changes, Nothing Matters",
+        paragraphs: [
+          "Change can make attention and responsibility more urgent, not less. A conversation matters partly because it cannot be replayed in exactly the same conditions. A body needs care partly because health is vulnerable. An apology matters because actions continue through effects even while every condition changes.",
+          "Impermanence challenges possession and complacency; it does not cancel value. Buddhist ethics would make little sense if change erased the significance of conduct."
+        ]
+      },
+      {
+        heading: "Misconception 2: Impermanence Means There Is No Continuity",
+        paragraphs: [
+          "Processes can continue without remaining identical. A flame, habit, relationship, institution, and body persist through changing conditions. The teaching asks us to examine that conditional continuity instead of imagining a permanent, independent core.",
+          "This distinction avoids two extremes: treating things as fixed and unchanging, or claiming that change makes every moment unrelated to the next. Causes and consequences still matter."
+        ]
+      },
+      {
+        heading: "Misconception 3: Acceptance Means Allowing Harm",
+        paragraphs: [
+          "Recognizing that harm is occurring is a form of contact with reality. It can support boundaries, reporting, treatment, repair, or leaving. Telling someone to “accept impermanence” instead of responding to danger confuses clear seeing with passivity.",
+          "Conditions can be changed through action. Impermanence is one reason intervention is possible: patterns are not guaranteed to remain exactly as they are."
+        ]
+      },
+      {
+        heading: "Misconception 4: Grief Shows Failure to Understand",
+        paragraphs: [
+          "Knowing intellectually that a person, role, or season will end does not remove attachment, love, shock, or grief. Buddhist reflection should not be used to rush another person's mourning or to judge the return of painful waves.",
+          "Understanding may gradually reduce the additional demand that loss should not have happened, while care and support address the pain that remains. These are not identical tasks."
+        ]
+      },
+      {
+        heading: "Misconception 5: Pleasant Things Should Not Be Enjoyed",
+        paragraphs: [
+          "Impermanence does not forbid joy. It asks whether joy becomes a demand for possession, repetition, or immunity from change. A pleasant meal, friendship, or quiet morning can be appreciated without pretending it can be secured forever.",
+          "In practice, knowing an experience is passing can deepen gratitude and reduce careless consumption. The point is intimacy without clinging, not emotional withdrawal."
+        ]
+      },
+      {
+        heading: "A Safer Way to Use the Teaching",
+        paragraphs: [
+          "Apply impermanence first to a small direct observation: a sound fading, warmth changing, or an impulse losing force. Then ask what wise care is possible because the condition is changing—not what feeling you are supposed to suppress.",
+          "For canonical teaching context, read <a href=\"/articles/buddhist-teachings-on-impermanence/\">Anicca in Early Buddhist Sources</a>. For a lived application, use <a href=\"/articles/impermanence-in-buddhism-letting-go/\">impermanence when a plan changes</a>."
+        ]
+      }
+    ]
+  },
+  "buddhist-teachings-on-impermanence": {
+    title: "Anicca in Early Buddhist Sources: A Reading Guide",
+    seoTitle: "Anicca in Early Buddhist Sources: Reading Guide",
+    description:
+      "Read core early Buddhist impermanence passages with source boundaries, translation cautions, and questions that prevent slogan-level interpretation.",
+    relatedSlugs: [
+      "impermanence-in-buddhism",
+      "impermanence-in-buddhism-letting-go",
+      "dhammapada-verse-1-meaning"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This is a source-reading guide. It does not replace the beginner owner <a href=\"/learn/buddhism-101/what-is-impermanence/\">What Is Impermanence?</a> or the concise <a href=\"/learn/buddhist-dictionary/anicca/\">Anicca definition</a>. It asks what several early Buddhist passages emphasize and how to read translations carefully.",
+          "Echo Buddha links to named translations for study and paraphrases the relevant themes here. It does not reproduce long translation passages or claim that one English word exhausts the Pāli term."
+        ]
+      },
+      {
+        heading: "Dhammapada 277–279: Three Marks in Sequence",
+        paragraphs: [
+          "Dhammapada verses 277–279 present conditioned phenomena as impermanent, dukkha, and not-self. Reading anicca beside the other two marks prevents it from becoming a generic observation that “change happens.” The verses connect seeing with disenchantment and purification of the path.",
+          "Compare more than one reputable translation if a particular English phrase carries doctrinal weight. “Formations,” “conditioned things,” and similar renderings make interpretive choices that deserve context."
+        ]
+      },
+      {
+        heading: "SN 22.59: Impermanence and the Aggregates",
+        paragraphs: [
+          "The Anattalakkhaṇa Sutta applies impermanence to form, feeling, perception, volitional formations, and consciousness. Its reasoning links what is impermanent and subject to change with dukkha and with the question of whether it is fitting to regard the aggregates as self or possession.",
+          "The discourse is not merely advising positive adaptation to life transitions. It participates in a deeper analysis of experience, clinging, and release. A practical article may draw an application, but it should label that movement as application."
+        ]
+      },
+      {
+        heading: "SN 12.15: Avoiding Existence and Non-Existence Extremes",
+        paragraphs: [
+          "The Kaccānagotta Sutta is useful when impermanence is misread as nihilism. Its dependent-origination context avoids reducing the teaching to either permanent existence or sheer non-existence.",
+          "This does not make every historical Buddhist school agree on one philosophical vocabulary. It does show why a casual “nothing is real” summary is a poor substitute for conditional arising and cessation."
+        ]
+      },
+      {
+        heading: "What Translation Can and Cannot Settle",
+        paragraphs: [
+          "Anicca is conventionally translated as impermanent, inconstant, or unstable. Translation helps readers enter the teaching, but doctrinal meaning also comes from how a term is used across passages and linked with other concepts.",
+          "Do not turn a single dictionary gloss into a complete theory. Read the immediate passage, identify the subject being described, note the practical conclusion, and compare a second translation where nuance matters."
+        ]
+      },
+      {
+        heading: "A Five-Question Source Method",
+        paragraphs: [
+          "For any passage, ask: What is described as impermanent? What causes or conditions are visible? Which related teaching appears? What response does the text encourage? Which part of my modern application is not stated directly in the source?",
+          "These questions are an editorial study aid, not a canonical formula. They help keep quotation, paraphrase, interpretation, and modern use distinct."
+        ]
+      },
+      {
+        heading: "Continue From Source to Application",
+        paragraphs: [
+          "After reading the named passages, return to direct experience: notice one sensation, mood, or thought change. Avoid claiming that a brief observation proves a final doctrinal conclusion.",
+          "For common interpretive errors, continue with <a href=\"/articles/impermanence-in-buddhism/\">Impermanence Without Nihilism</a>. For one practical change scenario, use <a href=\"/articles/impermanence-in-buddhism-letting-go/\">When a Plan Falls Apart</a>."
+        ]
+      }
+    ]
+  },
+  "impermanence-in-buddhism-letting-go": {
+    title: "When a Plan Falls Apart: Practicing Impermanence",
+    seoTitle: "When Plans Change: Practicing Impermanence",
+    description:
+      "Use impermanence in one concrete scenario: a valued plan collapses and the mind must grieve, reassess conditions, and choose the next action.",
+    relatedSlugs: [
+      "impermanence-in-buddhism",
+      "buddhist-teachings-on-impermanence",
+      "how-to-let-go-of-attachment-in-buddhism"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This page applies impermanence to one situation: a plan you invested in cannot continue. It may be a cancelled move, a rejected project, a changed relationship plan, or an opportunity that closed. For the doctrinal foundation, use <a href=\"/learn/buddhism-101/what-is-impermanence/\">What Is Impermanence?</a>.",
+          "The practice is not to pretend the plan was unimportant. It is to distinguish the real loss, the changing conditions, the identity built around the outcome, and the action still available."
+        ]
+      },
+      {
+        heading: "First, Admit What Ended",
+        paragraphs: [
+          "Name the plan and what it carried: income, belonging, recognition, security, companionship, or a picture of who you would become. “Everything changes” is too abstract if it prevents you from acknowledging the specific loss.",
+          "Grief, anger, or relief may all be present. Impermanence does not prescribe the correct emotion. Begin with honest contact and seek support when the loss is severe or destabilizing."
+        ]
+      },
+      {
+        heading: "Separate the Event From the Permanence Demand",
+        paragraphs: [
+          "The event may be: the position was withdrawn. The added demand may be: this future had to happen for my life to be worthwhile. Seeing the difference does not make the event trivial; it reveals the claim that turns one ending into a permanent verdict.",
+          "Write both sentences. Then ask whether the second is a fact, a fear, or an identity under pressure. This creates room without demanding instant optimism."
+        ]
+      },
+      {
+        heading: "Look at the Conditions That Changed",
+        paragraphs: [
+          "Plans depend on bodies, money, timing, institutions, choices, other people, weather, health, and information. Mapping conditions prevents two distortions: blaming yourself for everything or pretending your choices have no effect.",
+          "Identify what changed outside your control, what consequence belongs to your earlier choices, and what condition can still be influenced. Conditionality supports wiser responsibility."
+        ]
+      },
+      {
+        heading: "Letting Go Is Not Deleting the Value",
+        paragraphs: [
+          "A plan can have mattered even when it did not happen. Skills learned, care offered, and truths discovered do not require pretending that the outcome was secretly ideal. Letting go releases the demand to keep living inside the cancelled future.",
+          "If repair, appeal, or another attempt is appropriate, make it. Non-attachment does not forbid sustained effort; it asks whether effort has become inseparable from controlling one result."
+        ]
+      },
+      {
+        heading: "Choose the Next Condition, Not the Whole Future",
+        paragraphs: [
+          "Select one condition you can establish in the next day: ask for accurate feedback, update a budget, rest, speak honestly, gather documents, or tell a trusted person what changed. A small condition is not a guarantee; it is a responsible next cause.",
+          "Notice how the mind wants a replacement future immediately. You can act without demanding certainty from the next plan."
+        ]
+      },
+      {
+        heading: "A Three-Line Change Practice",
+        paragraphs: [
+          "Write: “What ended.” “What I am gripping.” “What wise action remains.” Return to the three lines when the mind repeats the old future as if repetition could restore it.",
+          "This is an Echo Buddha application exercise, not a canonical quotation. For the misunderstandings that can make this practice cold or nihilistic, read <a href=\"/articles/impermanence-in-buddhism/\">Impermanence Without Nihilism</a>."
+        ]
+      }
+    ]
+  },
+  "loving-kindness-meditation-guide": {
+    title: "When Loving-Kindness Meditation Feels Difficult",
+    seoTitle: "When Loving-Kindness Meditation Feels Difficult",
+    description:
+      "Troubleshoot metta when phrases feel false, self-kindness hurts, warmth is absent, anger is present, or boundaries are needed.",
+    relatedSlugs: [
+      "loving-kindness-meditation-beginners",
+      "metta-meditation-script",
+      "compassion-with-boundaries"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "This is a troubleshooting guide for mettā practice. For the primary method, use <a href=\"/meditation/loving-kindness-meditation/\">Loving-Kindness Meditation</a>. For words to follow during a session, use the <a href=\"/articles/metta-meditation-script/\">mettā script</a>.",
+          "Difficulty does not automatically mean the practice is failing. It may reveal that the phrase, recipient, pace, expectation, or level of emotional activation needs to change."
+        ]
+      },
+      {
+        heading: "The Phrases Feel False",
+        paragraphs: [
+          "Replace grand language with a direction you can honestly support. “May I be completely happy” may feel impossible; “May I not add cruelty to this moment” or “May this person be safe from harm” may be workable.",
+          "A mettā phrase is an aspiration, not a prediction or magic formula. If you cannot mean it at all, choose a different recipient or phrase rather than training yourself to repeat words mechanically."
+        ]
+      },
+      {
+        heading: "Starting With Yourself Feels Painful",
+        paragraphs: [
+          "Some people meet shame, numbness, or resistance when beginning with themselves. Start with a benefactor, trusted friend, animal, or memory that makes goodwill easier. Let the mind learn the tone before turning it inward.",
+          "You can later include yourself indirectly: “May the care I wish for this being also be available here.” There is no need to force the traditional order used by a particular modern instruction."
+        ]
+      },
+      {
+        heading: "No Warm Feeling Appears",
+        paragraphs: [
+          "Mettā trains intention; warmth may or may not accompany it. A dry session can still practice non-ill-will, patience, and the refusal to rehearse contempt. Judge less by emotion and more by whether the intention becomes less harmful.",
+          "Try connecting the phrase with one concrete image or action: enough food, a safe journey, a truthful conversation, or rest. Keep the image simple and avoid turning practice into fantasy about controlling another person's life."
+        ]
+      },
+      {
+        heading: "Anger or Grief Takes Over",
+        paragraphs: [
+          "Name what is present before adding phrases: “anger is here” or “this is grief.” Direct goodwill toward the part of experience that is hurting, or return to bodily grounding. Mettā should not be used to deny a necessary emotion.",
+          "If the practice intensifies distress, stop, open the eyes, orient to the room, and choose another practice. Persistent or severe distress deserves qualified support."
+        ]
+      },
+      {
+        heading: "A Difficult Person Feels Unsafe",
+        paragraphs: [
+          "Skip the difficult-person stage when there is trauma, abuse, current danger, coercion, or overwhelming activation. Goodwill does not require contact, reconciliation, trust, access, or silence about harm.",
+          "A boundaried phrase might be: “May harm end, and may I be protected.” Reporting, leaving, blocking, documenting, or seeking help can coexist with the intention not to cultivate hatred."
+        ]
+      },
+      {
+        heading: "The Practice Becomes Another Performance",
+        paragraphs: [
+          "Shorten the session and use one recipient. Stop measuring whether you felt spiritual enough. Finish by choosing one behavior—do not send the cutting message, thank someone, apologize, or rest instead of continuing a hostile inner argument.",
+          "For help finding language that sounds credible, continue with <a href=\"/articles/loving-kindness-meditation-beginners/\">how to choose honest mettā phrases</a>."
+        ]
+      }
+    ]
+  },
+  "loving-kindness-meditation-beginners": {
+    title: "How to Choose Loving-Kindness Phrases That Feel Honest",
+    seoTitle: "Choose Honest Loving-Kindness Meditation Phrases",
+    description:
+      "Build realistic metta phrases for safety, ease, goodwill, boundaries, self-kindness, and difficult days without forcing emotion.",
+    relatedSlugs: [
+      "loving-kindness-meditation-guide",
+      "metta-meditation-script",
+      "compassion-as-a-daily-discipline"
+    ],
+    content: [
+      {
+        paragraphs: [
+          "Loving-kindness phrases give intention a steady direction. They are not quotations from the Buddha, guarantees, affirmations that must feel true, or commands to manufacture warmth. This page helps beginners choose words they can repeat honestly.",
+          "For the complete practice sequence, use <a href=\"/meditation/loving-kindness-meditation/\">Loving-Kindness Meditation</a>. For a paced session, use the <a href=\"/articles/metta-meditation-script/\">mettā meditation script</a>."
+        ]
+      },
+      {
+        heading: "A Useful Phrase Has Three Qualities",
+        paragraphs: [
+          "First, it points toward non-harm or wellbeing. Second, it is brief enough to remember. Third, it is credible as a wish even when the outcome is uncertain. “May I meet this moment without adding harm” meets those conditions better than a sentence you feel required to believe.",
+          "Keep the grammar of aspiration: may I, may you, may we. The phrase sets direction while acknowledging that wellbeing depends on many conditions beyond one person's control."
+        ]
+      },
+      {
+        heading: "Phrases for Safety",
+        paragraphs: [
+          "Try: “May I be protected from harm.” “May I recognize what is unsafe.” “May this person find conditions that reduce harmful action.” Safety phrases can include clarity and boundaries rather than imagining that goodwill alone changes danger.",
+          "When there is current risk, practice is secondary to practical protection. Use appropriate support, reporting, distance, or emergency help; do not turn a phrase into a substitute for action."
+        ]
+      },
+      {
+        heading: "Phrases for Ease Without Denial",
+        paragraphs: [
+          "“May I find moments of ease within this difficulty” is often more honest than “May I be free of every problem.” “May I rest where rest is possible” leaves room for pain while directing care toward the conditions that can soften.",
+          "Ease does not mean avoidance. A truthful conversation, treatment, apology, or boundary may be uncomfortable and still support deeper wellbeing."
+        ]
+      },
+      {
+        heading: "Phrases for Self-Kindness",
+        paragraphs: [
+          "If “May I love myself” creates resistance, try “May I speak to myself without contempt,” “May I learn without punishment,” or “May I give this body the care available today.” Choose language tied to an observable form of care.",
+          "If directing phrases toward yourself remains painful, begin with a supportive person and include yourself later. Difficulty with self-kindness is not a moral failure."
+        ]
+      },
+      {
+        heading: "Phrases for a Difficult Person",
+        paragraphs: [
+          "Use this category only when it is stable enough: “May you be free from the states that lead to harm.” “May wisdom and accountability grow.” “May harm end for everyone involved.” These phrases do not approve conduct or promise reconciliation.",
+          "Skip the person entirely when practice triggers trauma, fear, or overwhelming distress. Mettā can remain with yourself, a safe recipient, or all beings without using the most difficult category."
+        ]
+      },
+      {
+        heading: "Test and Revise the Phrase",
+        paragraphs: [
+          "Repeat one phrase for five breaths. Notice whether it produces steadiness, mechanical repetition, disbelief, pressure, or clarity. Revise one word at a time until the sentence points toward goodwill without asking you to lie.",
+          "Carry the final phrase into one action. If the phrase is about non-harm, let it shape a message or boundary. If phrases remain blocked, use <a href=\"/articles/loving-kindness-meditation-guide/\">the mettā troubleshooting guide</a>."
+        ]
+      }
+    ]
+  }
+};
+
+function applyPhase1IntentRemediation(article: Article): Article {
+  const remediation = phase1IntentRemediations[article.slug];
+  return remediation ? { ...article, ...remediation } : article;
+}
+
 export const fullArticles = articles
   .map(applyWeek2ArticleUpgrade)
   .map(applyWeek3ArticleExpansion)
+  .map(applyPhase1IntentRemediation)
   .filter((article) => article.content.length > 0)
   .sort((a, b) => b.date.localeCompare(a.date));
 
@@ -9646,8 +10443,206 @@ const sixNewArticleSeoDetails: Record<string, ArticleSeoDetails> = {
   }
 };
 
+const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
+  "how-to-meditate-for-beginners": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "This page turns a known first-session method into a seven-day habit.",
+      "A fixed cue, prepared space, and one-minute fallback reduce friction.",
+      "The review studies conditions rather than judging identity or calmness.",
+      "Meditation should carry one ethical or attentive quality into the day.",
+      "Distressing practice should be adapted or stopped, not endured as achievement."
+    ],
+    faqs: [
+      { question: "What should I do during my first week of meditation?", answer: "Sit for three to seven minutes at a repeatable cue, practice returning to one anchor, plan for one predictable obstacle, and review the conditions after seven days." },
+      { question: "What if I miss a day?", answer: "Return at the next planned cue without punishment or making up time. The ability to resume is part of the habit." },
+      { question: "Where can I learn the first meditation method?", answer: "Use Echo Buddha's Meditation for Beginners practice page for posture, breath anchoring, wandering attention, and how to finish a first session." }
+    ]
+  },
+  "four-noble-truths-explained": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "Each Noble Truth is joined to a task, not only a statement to believe.",
+      "Dukkha is to be comprehended and craving is to be abandoned.",
+      "Cessation is to be realized and the Eightfold Path is to be cultivated.",
+      "The tasks correct one another and operate as an integrated framework.",
+      "A four-line review can connect the task structure with one lived difficulty."
+    ],
+    faqs: [
+      { question: "What are the four tasks of the Four Noble Truths?", answer: "Comprehend dukkha, abandon its arising through craving, realize cessation, and cultivate the Noble Eightfold Path." },
+      { question: "Is every desire harmful craving?", answer: "No. Wholesome wishes can support practice. The relevant craving is the tightening thirst that demands pleasure, identity, existence, non-existence, or control." },
+      { question: "Does a brief moment of relief equal final cessation?", answer: "No. A brief non-feeding can illustrate the direction of release without being claimed as the full realization described by Buddhist traditions." }
+    ]
+  },
+  "four-noble-truths-explained-simply": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "One difficult conversation can make all four truths visible.",
+      "The first truth names the hurt and unresolved practical issue precisely.",
+      "The second finds the demand or replay that renews pressure.",
+      "A moment of non-feeding creates room for a wiser response.",
+      "Path practice may include firm speech, documentation, boundaries, or protection."
+    ],
+    faqs: [
+      { question: "How do the Four Noble Truths apply to conflict?", answer: "Name the hurt, identify the grip that adds pressure, notice a moment when the grip is not fed, and choose a response shaped by path factors such as view, intention, speech, and mindfulness." },
+      { question: "Does this framework excuse another person's behavior?", answer: "No. It distinguishes the event from the mind's added renewal of suffering while leaving room for accountability, boundaries, and protection." },
+      { question: "Where is the complete Four Noble Truths guide?", answer: "The /learn/four-noble-truths/ page remains Echo Buddha's broad foundational owner." }
+    ]
+  },
+  "eightfold-path-explained": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "The Eightfold Path functions as a mutually supporting system, not a checklist.",
+      "View guides practice while conduct and consequences test view.",
+      "Intention becomes answerable through speech and action.",
+      "Conduct creates conditions for mental cultivation.",
+      "Repeated difficulty can reveal which neighboring factor needs support."
+    ],
+    faqs: [
+      { question: "Do the Eightfold Path factors have to be practiced in order?", answer: "No. The factors develop together and continually support, correct, and test one another." },
+      { question: "How do mindfulness, effort, and concentration differ?", answer: "Effort shapes which states are fed, mindfulness remembers and knows the relevant experience, and concentration gathers attention so it is not immediately scattered." },
+      { question: "Where are all eight factors defined?", answer: "The /learn/eightfold-path/ page remains the complete broad owner with definitions and foundational context." }
+    ]
+  },
+  "eightfold-path-explained-daily-life": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "A provocative message makes view, intention, speech, and restraint visible.",
+      "A questionable work request brings action and livelihood into focus.",
+      "A distracted conversation shows effort, mindfulness, and concentration cooperating.",
+      "No favorite path factor replaces the rest of the training.",
+      "A four-question check can orient one consequential modern decision."
+    ],
+    faqs: [
+      { question: "How can I apply the Eightfold Path to a difficult message?", answer: "Separate facts from assumptions, check the intention behind replying, choose truthful and timely speech, and use mindfulness and effort before sending." },
+      { question: "Can mindfulness require firm action at work?", answer: "Yes. Clear awareness can support documentation, accurate reporting, ethical refusal, or an appropriate reporting channel rather than passive acceptance." },
+      { question: "Are these scenarios traditional Buddhist rulings?", answer: "No. They are clearly labeled Echo Buddha editorial applications of path principles to modern situations." }
+    ]
+  },
+  "noble-eightfold-path-practical-guide": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "This page is a reusable self-review, not another broad path explanation.",
+      "Review one factor in one setting instead of scoring all eight at once.",
+      "Describe events factually before interpreting them.",
+      "Identify supporting factors, conditions, consequences, and needed repair.",
+      "End with one seven-day experiment and one responsibility boundary."
+    ],
+    faqs: [
+      { question: "How do I conduct an Eightfold Path self-review?", answer: "Choose one factor and setting, record one event, identify supporting factors and conditions, trace consequences, and design one small seven-day experiment." },
+      { question: "Should I score myself on the eight factors?", answer: "No. A score hides context. Use factual observations to learn about causes, effects, responsibility, and the next experiment." },
+      { question: "How often should I use the review?", answer: "A weekly review is frequent enough to notice patterns while leaving time to test one realistic change." }
+    ]
+  },
+  "what-is-buddhism-beginner-guide": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "Buddhism is a diverse family of living religious and philosophical traditions.",
+      "It cannot be reduced to meditation, mindfulness, or one cultural style.",
+      "The Buddha is honored as an awakened teacher, not a creator god.",
+      "Non-attachment does not require indifference or the end of care.",
+      "Beginners should expect patient study and practice rather than instant calm."
+    ],
+    faqs: [
+      { question: "Is Buddhism a religion or a philosophy?", answer: "It can be studied philosophically and lived religiously; actual Buddhist traditions also include ethics, meditation, devotion, ritual, community, and paths toward liberation." },
+      { question: "Is Buddhism only meditation?", answer: "No. Meditation belongs within a wider training that includes understanding, intention, speech, action, livelihood, generosity, and community." },
+      { question: "Where should a beginner learn Buddhism as a whole?", answer: "The /learn/buddhism-for-beginners/ page remains Echo Buddha's broad beginner owner." }
+    ]
+  },
+  "buddhism-for-beginners-simple-guide": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "This page selects routes rather than repeating a complete beginner overview.",
+      "Beginners can choose a big-picture, course, practice, terminology, or community route.",
+      "One route followed for a week usually creates more learning than opening many introductions.",
+      "Each route ends in an observable study or practice step.",
+      "A useful path produces clearer understanding and less harm, not an impressive reading list."
+    ],
+    faqs: [
+      { question: "Which Buddhist beginner path should I choose?", answer: "Choose by need: the broad owner for the big picture, Buddhism 101 for a course, the first-week plan for practice, the dictionary for terminology, or resources for community and teachers." },
+      { question: "Should a beginner study and meditate at the same time?", answer: "They can support one another, but both should remain small and clear enough to repeat. One lesson and a short practice is sufficient." },
+      { question: "How do I know whether my beginner route is useful?", answer: "After a week, name what you studied, what you practiced, and what changed in speech or action. If you cannot, narrow the route." }
+    ]
+  },
+  "impermanence-in-buddhism": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "Impermanence does not mean that nothing matters.",
+      "Changing processes can have continuity, causes, and consequences.",
+      "Acceptance of present facts can support protection and change.",
+      "Grief is not proof that someone failed to understand anicca.",
+      "Pleasant experiences can be appreciated without being possessed."
+    ],
+    faqs: [
+      { question: "Does impermanence mean nothing matters?", answer: "No. Change can deepen urgency, care, gratitude, and ethical responsibility because actions continue through consequences." },
+      { question: "Does accepting impermanence mean accepting harm?", answer: "No. Clear recognition of harm can support boundaries, reporting, treatment, repair, leaving, or other protective action." },
+      { question: "Is grief a failure to understand impermanence?", answer: "No. Intellectual knowledge does not erase love, attachment, shock, or grief, and the teaching should not be used to rush mourning." }
+    ]
+  },
+  "buddhist-teachings-on-impermanence": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "This page is a source-reading guide rather than another general definition.",
+      "Dhammapada 277–279 place anicca beside dukkha and not-self.",
+      "SN 22.59 applies impermanence to the five aggregates and clinging.",
+      "Dependent-origination context guards against a nihilistic summary.",
+      "Quotation, paraphrase, interpretation, and modern application should remain distinct."
+    ],
+    faqs: [
+      { question: "Which early Buddhist sources discuss impermanence?", answer: "This guide highlights Dhammapada 277–279, SN 22.59, and the dependent-origination context of SN 12.15, with links to named translations." },
+      { question: "Why compare translations of anicca passages?", answer: "English choices such as impermanent, inconstant, conditioned, or formations carry nuance; comparison helps readers avoid building doctrine on one isolated gloss." },
+      { question: "Is this page a new translation?", answer: "No. It is Echo Buddha editorial guidance for reading named sources and keeps paraphrase and application labeled." }
+    ]
+  },
+  "impermanence-in-buddhism-letting-go": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "This page applies impermanence to one concrete event: a valued plan ends.",
+      "The real loss should be named before using a general teaching.",
+      "Separating the event from the permanence demand reveals additional suffering.",
+      "Mapping conditions avoids total self-blame and total helplessness.",
+      "Letting go can preserve care and wise effort while releasing one demanded outcome."
+    ],
+    faqs: [
+      { question: "How can impermanence help when a plan falls apart?", answer: "Name what ended, distinguish the event from the permanence demand, map changed conditions, and choose the next condition you can responsibly establish." },
+      { question: "Does letting go mean the plan never mattered?", answer: "No. Value, learning, and grief can remain while the demand to keep living inside the cancelled future is released." },
+      { question: "Can I try again while practicing non-attachment?", answer: "Yes. Non-attachment permits sustained wise effort while questioning the demand that wellbeing depend on one guaranteed result." }
+    ]
+  },
+  "loving-kindness-meditation-guide": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "This is a troubleshooting page for difficult mettā sessions.",
+      "False-feeling phrases should be revised rather than repeated mechanically.",
+      "Beginners may start with a safe recipient instead of themselves.",
+      "Warm emotion is optional; non-ill-will and intention still matter.",
+      "Difficult-person practice is optional and never overrides safety or boundaries."
+    ],
+    faqs: [
+      { question: "What if loving-kindness phrases feel fake?", answer: "Use plainer, credible language and treat the phrase as an aspiration. Change the recipient or wording rather than forcing emotion." },
+      { question: "Do I have to start mettā with myself?", answer: "No. A benefactor, trusted friend, animal, or supportive memory may be a more workable beginning." },
+      { question: "Should I practice mettā for someone who harmed me?", answer: "Not when the person is linked with current danger, trauma, or overwhelming distress. Goodwill does not require access, reconciliation, or silence." }
+    ]
+  },
+  "loving-kindness-meditation-beginners": {
+    reviewedDate: "2026-09-29",
+    takeaways: [
+      "Mettā phrases are aspirations, not guarantees or mandatory quotations.",
+      "A useful phrase points toward wellbeing, stays brief, and feels credible as a wish.",
+      "Safety phrases can include clarity, protection, and boundaries.",
+      "Self-kindness language can focus on non-contempt, learning, and concrete care.",
+      "Test a phrase briefly and revise it until it supports honest goodwill."
+    ],
+    faqs: [
+      { question: "What makes a good loving-kindness phrase?", answer: "It points toward non-harm or wellbeing, is short enough to remember, and remains credible as a sincere wish under uncertain conditions." },
+      { question: "Can I change traditional mettā phrases?", answer: "Yes. Modern practice phrases can be adapted as long as they preserve a direction of goodwill and are not misrepresented as scripture." },
+      { question: "What phrase can I use when self-love feels impossible?", answer: "Try concrete language such as: May I speak to myself without contempt, or May I learn without punishment." }
+    ]
+  }
+};
+
 export function getArticleSeoDetails(slug: string) {
-  return sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  return phase1IntentSeoDetails[slug] ?? sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
 }
 
 export function getArticleWordCount(article: Article) {

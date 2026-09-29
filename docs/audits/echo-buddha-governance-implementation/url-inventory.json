@@ -17,7 +17,7 @@
     "title": "About Echo Buddha | Echo Buddha",
     "description": "Learn about Echo Buddha",
     "canonical": "https://echobuddha.com/about/",
-    "words": 602,
+    "words": 612,
     "h1Count": 1,
     "schemaTypes": [
       "AboutPage"
@@ -34,23 +34,21 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/buddhism-for-beginners-simple-guide/",
     "type": "article",
     "noindex": false,
-    "title": "Buddhism for Beginners: A Simple Guide | Echo Buddha",
-    "description": "A beginner-friendly guide to Buddhism, the Four Noble Truths, meditation, ethics, and simple daily practice without overwhelm.",
+    "title": "Choose Your First Buddhist Learning Path | Echo Buddha",
+    "description": "Choose a clear beginner route through Buddhist study, daily practice, meditation, community, or terminology without trying to learn everything at once.",
     "canonical": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
-    "words": 1794,
+    "words": 1160,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -64,8 +62,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -75,12 +72,11 @@
     "title": "Buddhist Gratitude Practice Without Forced Positivity | Echo Buddha",
     "description": "A reflective Buddhist gratitude practice shaped by contentment, generosity, relationship, and impermanence without denying difficulty.",
     "canonical": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
-    "words": 1762,
+    "words": 1765,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -94,23 +90,21 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/buddhist-teachings-on-impermanence/",
     "type": "article",
     "noindex": false,
-    "title": "Buddhist Teachings on Impermanence | Echo Buddha",
-    "description": "Explore Buddhist teachings on impermanence, change, grief, gratitude, and daily ways to practice anicca with care.",
+    "title": "Anicca in Early Buddhist Sources: Reading Guide | Echo Buddha",
+    "description": "Read core early Buddhist impermanence passages with source boundaries, translation cautions, and questions that prevent slogan-level interpretation.",
     "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
-    "words": 1600,
+    "words": 1131,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -124,8 +118,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -135,7 +128,7 @@
     "title": "Buddhist Wisdom Articles | Echo Buddha",
     "description": "Explore Buddhist wisdom articles about compassion, impermanence, anger, ethics, and the Noble Eightfold Path.",
     "canonical": "https://echobuddha.com/articles/category/buddhist-wisdom/",
-    "words": 914,
+    "words": 915,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -149,7 +142,7 @@
     "title": "Meditation Articles | Echo Buddha",
     "description": "Read practical meditation articles for beginners, including breathing, walking, loving-kindness, and daily mindfulness practice.",
     "canonical": "https://echobuddha.com/articles/category/meditation/",
-    "words": 545,
+    "words": 556,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -205,12 +198,11 @@
     "title": "Compassion as a Daily Buddhist Practice | Echo Buddha",
     "description": "Explore compassion as a daily discipline through speech, listening, boundaries, self-compassion, and small practical choices.",
     "canonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
-    "words": 1498,
+    "words": 1500,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -220,12 +212,11 @@
     "title": "Compassion in Buddhism: Beginner Guide and Daily Practice | Echo Buddha",
     "description": "Learn what compassion means in Buddhism, how it differs from pity, and how to practice it in daily life.",
     "canonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
-    "words": 1495,
+    "words": 1500,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -239,8 +230,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -254,8 +244,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -265,12 +254,11 @@
     "title": "Dhamma vs Dharma: Buddhist Meaning and Spelling | Echo Buddha",
     "description": "Learn the difference between Dhamma and Dharma, why both spellings appear in Buddhist writing, and how beginners can read them without confusion.",
     "canonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
-    "words": 1407,
+    "words": 1406,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -280,12 +268,11 @@
     "title": "Dhammapada Reflection on a Trained Mind and Peace | Echo Buddha",
     "description": "An original Dhammapada-inspired reflection on training the mind, patience, attention, and inner peace in daily life.",
     "canonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
-    "words": 1548,
+    "words": 1552,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -299,8 +286,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -314,38 +300,35 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/eightfold-path-explained/",
     "type": "article",
     "noindex": false,
-    "title": "The Noble Eightfold Path Explained for Beginners | Echo Buddha",
-    "description": "A simple beginner-friendly guide to the Noble Eightfold Path, explaining right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+    "title": "How the Eightfold Path Factors Work Together | Echo Buddha",
+    "description": "See how view, intention, conduct, effort, mindfulness, and concentration reinforce one another instead of operating as eight isolated steps.",
     "canonical": "https://echobuddha.com/articles/eightfold-path-explained/",
-    "words": 1857,
+    "words": 1199,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/eightfold-path-explained-daily-life/",
     "type": "article",
     "noindex": false,
-    "title": "Eightfold Path in Daily Life | Echo Buddha",
-    "description": "See how the Noble Eightfold Path applies to daily life through speech, work, mindfulness, intention, and practical examples.",
+    "title": "Eightfold Path in 3 Everyday Decisions | Echo Buddha",
+    "description": "Apply the Eightfold Path to a difficult message, a questionable work request, and a distracted evening at home.",
     "canonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
-    "words": 1742,
+    "words": 1172,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -355,12 +338,11 @@
     "title": "Equanimity in Buddhism: Balanced Care Without Numbness | Echo Buddha",
     "description": "A clear guide to Buddhist equanimity as balanced care amid gain, loss, praise, blame, pleasure, and pain without becoming indifferent.",
     "canonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
-    "words": 1872,
+    "words": 1875,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -374,8 +356,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -385,42 +366,39 @@
     "title": "Five Precepts in Daily Life: Buddhist Ethics for Beginners | Echo Buddha",
     "description": "Understand the Five Precepts as voluntary Buddhist training rules that reduce harm, protect trust, and support heedful daily conduct.",
     "canonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
-    "words": 2349,
+    "words": 2346,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/four-noble-truths-explained/",
     "type": "article",
     "noindex": false,
-    "title": "The Four Noble Truths Explained Simply | Echo Buddha",
-    "description": "A beginner-friendly explanation of the Four Noble Truths in Buddhism, including suffering, craving, freedom, and the path to a calmer life.",
+    "title": "Four Noble Truths as Four Tasks of Practice | Echo Buddha",
+    "description": "Understand the Four Noble Truths as work to perform: comprehend dukkha, abandon craving, realize cessation, and cultivate the path.",
     "canonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
-    "words": 1787,
+    "words": 1324,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/four-noble-truths-explained-simply/",
     "type": "article",
     "noindex": false,
-    "title": "Four Noble Truths Explained Simply for Beginners | Echo Buddha",
-    "description": "A simple explanation of the Four Noble Truths with daily examples, reflection prompts, and practical Buddhist wisdom.",
+    "title": "Four Noble Truths in a Difficult Conversation | Echo Buddha",
+    "description": "Follow one tense conversation through dukkha, craving, a moment of release, and an Eightfold Path response.",
     "canonical": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
-    "words": 1637,
+    "words": 1267,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -430,12 +408,11 @@
     "title": "How to Let Go of Attachment in Buddhism | Echo Buddha",
     "description": "Learn what attachment means in Buddhism, why clinging creates suffering, and how to practice letting go with mindfulness, patience, and compassion.",
     "canonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
-    "words": 2015,
+    "words": 2018,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -449,53 +426,49 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/how-to-meditate-for-beginners/",
     "type": "article",
     "noindex": false,
-    "title": "How to Meditate for Beginners: Simple Buddhist Guide | Echo Buddha",
-    "description": "A calm beginner meditation guide with posture tips, breath practice, common obstacles, and a simple daily routine.",
+    "title": "First 7 Days of Meditation: A Beginner Habit Plan | Echo Buddha",
+    "description": "Turn one beginner meditation session into a realistic seven-day habit with short daily steps, obstacle planning, and a gentle review.",
     "canonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
-    "words": 1674,
+    "words": 1347,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/impermanence-in-buddhism/",
     "type": "article",
     "noindex": false,
-    "title": "Impermanence in Buddhism: Accepting Change Peacefully | Echo Buddha",
-    "description": "A beginner-friendly explanation of impermanence in Buddhism and how understanding change can help with letting go, grief, patience, and daily peace.",
+    "title": "Impermanence Without Nihilism: Anicca Explained | Echo Buddha",
+    "description": "Correct five common misunderstandings of anicca: that nothing matters, care is pointless, harm should be accepted, grief should end quickly, or no continuity exists.",
     "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
-    "words": 1787,
+    "words": 1194,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/impermanence-in-buddhism-letting-go/",
     "type": "article",
     "noindex": false,
-    "title": "Impermanence in Buddhism and How to Let Go Gently | Echo Buddha",
-    "description": "Understand impermanence in Buddhism with gentle examples, common misunderstandings, and a practical reflection exercise.",
+    "title": "When Plans Change: Practicing Impermanence | Echo Buddha",
+    "description": "Use impermanence in one concrete scenario: a valued plan collapses and the mind must grieve, reassess conditions, and choose the next action.",
     "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
-    "words": 1604,
+    "words": 1160,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -505,7 +478,7 @@
     "title": "Articles and Blog | Echo Buddha",
     "description": "Browse Echo Buddha articles on mindfulness, meditation, compassion, patience, and Buddhist-inspired daily reflection.",
     "canonical": "https://echobuddha.com/articles/",
-    "words": 1734,
+    "words": 1746,
     "h1Count": 1,
     "schemaTypes": [
       "Blog",
@@ -517,30 +490,28 @@
     "path": "/articles/loving-kindness-meditation-beginners/",
     "type": "article",
     "noindex": false,
-    "title": "Loving-Kindness Meditation for Beginners | Echo Buddha",
-    "description": "Practice loving-kindness meditation with simple metta phrases, realistic stages, and gentle ways to bring goodwill into daily life.",
+    "title": "Choose Honest Loving-Kindness Meditation Phrases | Echo Buddha",
+    "description": "Build realistic metta phrases for safety, ease, goodwill, boundaries, self-kindness, and difficult days without forcing emotion.",
     "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
-    "words": 1705,
+    "words": 1191,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/loving-kindness-meditation-guide/",
     "type": "article",
     "noindex": false,
-    "title": "Loving-Kindness Meditation Guide for Beginners | Echo Buddha",
-    "description": "A beginner-friendly loving-kindness meditation guide with phrases, stages, examples, and common misunderstandings.",
+    "title": "When Loving-Kindness Meditation Feels Difficult | Echo Buddha",
+    "description": "Troubleshoot metta when phrases feel false, self-kindness hurts, warmth is absent, anger is present, or boundaries are needed.",
     "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
-    "words": 1640,
+    "words": 1158,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -550,12 +521,11 @@
     "title": "Metta Meditation Script for Loving-Kindness Practice | Echo Buddha",
     "description": "A gentle metta meditation script for beginners to practice loving-kindness toward themselves, loved ones, neutral people, and others.",
     "canonical": "https://echobuddha.com/articles/metta-meditation-script/",
-    "words": 1970,
+    "words": 1972,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -569,8 +539,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -584,8 +553,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -599,8 +567,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -614,8 +581,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -625,12 +591,11 @@
     "title": "Mindfulness of Breathing Guide for Calm and Clarity | Echo Buddha",
     "description": "A step-by-step mindfulness of breathing guide for beginners, including posture, attention, obstacles, and daily practice.",
     "canonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
-    "words": 1642,
+    "words": 1646,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -644,23 +609,21 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/noble-eightfold-path-practical-guide/",
     "type": "article",
     "noindex": false,
-    "title": "Noble Eightfold Path Practical Guide for Daily Life | Echo Buddha",
-    "description": "Learn how the Noble Eightfold Path can guide speech, action, mindfulness, meditation, and everyday choices with clarity.",
+    "title": "Weekly Eightfold Path Self-Review | Echo Buddha",
+    "description": "Use a non-scoring weekly review to examine one path factor, its conditions, its effects, and one next practice experiment.",
     "canonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
-    "words": 1897,
+    "words": 1213,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -670,12 +633,11 @@
     "title": "Non-Attachment in Relationships Without Becoming Cold | Echo Buddha",
     "description": "Learn how Buddhist non-attachment can support relationships through care, boundaries, impermanence, and less controlling love.",
     "canonical": "https://echobuddha.com/articles/non-attachment-in-relationships/",
-    "words": 1252,
+    "words": 1255,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -685,12 +647,11 @@
     "title": "Right Livelihood in Modern Life: Buddhist Work Ethics | Echo Buddha",
     "description": "Explore Right Livelihood as a realistic Buddhist framework for work, income, responsibility, harm reduction, and ethical change.",
     "canonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
-    "words": 2190,
+    "words": 2182,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -700,12 +661,11 @@
     "title": "Right Speech in Buddhism: Meaning, Examples, and Practice | Echo Buddha",
     "description": "Understand Right Speech in Buddhism quickly, with examples for honesty, kindness, useful timing, silence, listening, anger, and the Five Precepts.",
     "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
-    "words": 2130,
+    "words": 2122,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -719,8 +679,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -734,8 +693,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -749,8 +707,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -764,8 +721,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -779,23 +735,21 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
     "path": "/articles/what-is-buddhism-beginner-guide/",
     "type": "article",
     "noindex": false,
-    "title": "What Is Buddhism? Beginner Guide to Buddhist Wisdom | Echo Buddha",
-    "description": "A clear beginner guide to Buddhism, the Buddha",
+    "title": "What Buddhism Is—and What It Is Not | Echo Buddha",
+    "description": "Clarify common beginner misconceptions about Buddhism as religion, philosophy, meditation, ethics, community, and a path of liberation.",
     "canonical": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
-    "words": 1723,
+    "words": 1160,
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -809,8 +763,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -824,8 +777,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "BlogPosting+Article",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -835,7 +787,7 @@
     "title": "Echo Buddha Editorial | Echo Buddha",
     "description": "Understand the organizational Echo Buddha Editorial byline used for accessible Buddhist-inspired education, reflection, and meditation guidance.",
     "canonical": "https://echobuddha.com/authors/echo-buddha-editorial/",
-    "words": 560,
+    "words": 559,
     "h1Count": 1,
     "schemaTypes": [
       "ProfilePage"
@@ -859,9 +811,9 @@
     "type": "policy",
     "noindex": false,
     "title": "Contact | Echo Buddha",
-    "description": "Contact Echo Buddha with questions, suggestions, article ideas, or general feedback about the website.",
+    "description": "Contact Echo Buddha for editorial inquiries, corrections, content suggestions, accessibility, privacy settings, or website support.",
     "canonical": "https://echobuddha.com/contact/",
-    "words": 327,
+    "words": 334,
     "h1Count": 1,
     "schemaTypes": [
       "ContactPage"
@@ -874,7 +826,7 @@
     "title": "Corrections and Editorial Updates | Echo Buddha",
     "description": "How to report Echo Buddha source, quote, typo, safety, clarity, and editorial update concerns.",
     "canonical": "https://echobuddha.com/corrections/",
-    "words": 551,
+    "words": 568,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"
@@ -1031,8 +983,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -1349,7 +1300,7 @@
     "title": "Editorial Policy | Echo Buddha",
     "description": "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.",
     "canonical": "https://echobuddha.com/editorial-policy/",
-    "words": 1090,
+    "words": 1089,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"
@@ -1372,17 +1323,14 @@
     "path": "/",
     "type": "hub",
     "noindex": false,
-    "title": "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life",
-    "description": "Explore simple Buddhist teachings, daily reflections, quote meanings, beginner meditation guides, and mindfulness practices for a calmer everyday life.",
+    "title": "Buddhist Wisdom, Learning &amp; Meditation | Echo Buddha",
+    "description": "Explore Buddhist teachings, practical meditation, and everyday application through clear, source-aware guidance for beginners and returning readers.",
     "canonical": "https://echobuddha.com/",
-    "words": 996,
+    "words": 764,
     "h1Count": 1,
     "schemaTypes": [
       "WebSite",
-      "Organization",
-      "BreadcrumbList",
-      "FAQPage",
-      "ItemList"
+      "Organization"
     ]
   },
   {
@@ -1392,7 +1340,7 @@
     "title": "A Simple Daily Buddhist Practice | Echo Buddha",
     "description": "A gentle daily Buddhist-inspired practice for beginners, including breathing, intention, kind speech, and evening reflection.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
-    "words": 501,
+    "words": 504,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1476,7 +1424,7 @@
     "title": "How to Practice Buddhism at Home | Echo Buddha",
     "description": "Learn simple ways to practice Buddhist-inspired wisdom at home through meditation, speech, kindness, reflection, and daily habits.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
-    "words": 532,
+    "words": 535,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1490,7 +1438,7 @@
     "title": "Buddhism 101 | Echo Buddha",
     "description": "Beginner-friendly lessons on the Buddha, core teachings, karma, mindfulness, and daily practice.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/",
-    "words": 850,
+    "words": 853,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -1532,7 +1480,7 @@
     "title": "The Four Noble Truths Explained | Echo Buddha",
     "description": "A beginner-friendly explanation of the Four Noble Truths and how they help us understand suffering and practice wisely.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
-    "words": 577,
+    "words": 582,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1546,7 +1494,7 @@
     "title": "The Noble Eightfold Path Explained | Echo Buddha",
     "description": "Learn the Noble Eightfold Path in simple language, with examples for speech, action, work, mindfulness, and meditation.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
-    "words": 551,
+    "words": 555,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1602,7 +1550,7 @@
     "title": "What Is Buddhism? A Clear Beginner&#39;s Guide | Echo Buddha",
     "description": "A simple explanation of Buddhism as a path of wisdom, ethical living, meditation, compassion, and practical insight.",
     "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
-    "words": 893,
+    "words": 896,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -1676,8 +1624,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -1747,7 +1694,7 @@
     "title": "Dukkha Meaning: Suffering and Unsatisfactoriness in Buddhism | Echo Buddha",
     "description": "Understand Dukkha in simple language as suffering, stress, and dissatisfaction, with examples for daily life.",
     "canonical": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
-    "words": 414,
+    "words": 419,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2136,7 +2083,7 @@
     "title": "Noble Eightfold Path for Daily Life | Echo Buddha",
     "description": "Learn the Noble Eightfold Path as a practical Buddhist training in wisdom, ethical conduct, effort, mindfulness, and meditation.",
     "canonical": "https://echobuddha.com/learn/eightfold-path/",
-    "words": 869,
+    "words": 857,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2150,7 +2097,7 @@
     "title": "Four Noble Truths Explained for Beginners | Echo Buddha",
     "description": "Learn the Four Noble Truths in simple language: suffering, the causes of suffering, the possibility of release, and the path of practice.",
     "canonical": "https://echobuddha.com/learn/four-noble-truths/",
-    "words": 863,
+    "words": 862,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2178,7 +2125,7 @@
     "title": "What Does Appaṭimo Mean for Buddha Images? | Echo Buddha",
     "description": "Does appaṭimo mean Buddha images are invalid? Explore AN 1.174, Theravāda commentary, the limits of exact likeness, and how Buddha images function as representations.",
     "canonical": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
-    "words": 1562,
+    "words": 1570,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2206,10 +2153,9 @@
     "title": "Questions About Buddhism | Echo Buddha",
     "description": "Beginner-friendly answers to common questions about Buddhism, meditation, suffering, compassion, attachment, and home practice.",
     "canonical": "https://echobuddha.com/learn/questions-about-buddhism/",
-    "words": 1425,
+    "words": 1466,
     "h1Count": 1,
     "schemaTypes": [
-      "FAQPage",
       "BreadcrumbList"
     ]
   },
@@ -2235,6 +2181,20 @@
     "description": "Learn how Buddhists honor the Buddha after Parinibbāna through recollection, relics, stupas, Bodhi traditions, images, offerings, and Dhamma practice.",
     "canonical": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
     "words": 1387,
+    "h1Count": 1,
+    "schemaTypes": [
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "path": "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+    "type": "learning",
+    "noindex": false,
+    "title": "When Did Buddha Statues First Appear? | Echo Buddha",
+    "description": "When did Buddha statues first appear, and were any made during the Buddha’s lifetime? Compare archaeology, Chinese pilgrimage traditions, and Theravāda commentaries.",
+    "canonical": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+    "words": 2060,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2402,7 +2362,7 @@
     "title": "10-Minute Meditation Practice | Echo Buddha",
     "description": "A gentle ten-minute meditation practice for beginners with posture, breath awareness, returning, and safety boundaries.",
     "canonical": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
-    "words": 576,
+    "words": 577,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2416,7 +2376,7 @@
     "title": "5-Minute Meditation Practice | Echo Buddha",
     "description": "A simple five-minute meditation practice for beginners using posture, breath, and a gentle return from distraction.",
     "canonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
-    "words": 525,
+    "words": 523,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2430,7 +2390,7 @@
     "title": "Breathing Meditation | Echo Buddha",
     "description": "Learn a simple breathing meditation practice for steady attention, mindful returning, and daily calm without forcing the breath.",
     "canonical": "https://echobuddha.com/meditation/breathing-meditation/",
-    "words": 823,
+    "words": 821,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2458,7 +2418,7 @@
     "title": "Loving-Kindness Meditation | Echo Buddha",
     "description": "Learn loving-kindness meditation with simple goodwill phrases, common difficulties, boundaries, and daily-life practice.",
     "canonical": "https://echobuddha.com/meditation/loving-kindness-meditation/",
-    "words": 764,
+    "words": 762,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2472,7 +2432,7 @@
     "title": "Meditation for Beginners | Echo Buddha",
     "description": "A gentle beginner",
     "canonical": "https://echobuddha.com/meditation/meditation-for-beginners/",
-    "words": 547,
+    "words": 545,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2486,7 +2446,7 @@
     "title": "Meditation Posture for Beginners | Echo Buddha",
     "description": "Learn beginner meditation posture options for sitting on a chair or cushion with steadiness, comfort, and accessibility.",
     "canonical": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
-    "words": 606,
+    "words": 604,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2500,7 +2460,7 @@
     "title": "Mindfulness in Daily Life | Echo Buddha",
     "description": "Learn how to practice mindfulness during work, conversations, chores, meals, and ordinary transitions.",
     "canonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
-    "words": 535,
+    "words": 533,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2514,7 +2474,7 @@
     "title": "Walking Meditation | Echo Buddha",
     "description": "A simple walking meditation guide for beginners, including step-by-step practice, common mistakes, and daily mindfulness.",
     "canonical": "https://echobuddha.com/meditation/walking-meditation/",
-    "words": 751,
+    "words": 749,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2528,7 +2488,7 @@
     "title": "What to Do When Meditation Feels Hard | Echo Buddha",
     "description": "Gentle guidance for beginners when meditation feels restless, dull, discouraging, emotional, or overwhelming.",
     "canonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
-    "words": 770,
+    "words": 771,
     "h1Count": 1,
     "schemaTypes": [
       "Article",
@@ -2542,11 +2502,9 @@
     "title": "Meditation Guide for Beginners | Echo Buddha",
     "description": "Learn how to meditate with this beginner-friendly guide to posture, breathing, mindfulness, distractions, meditation types, and daily practice.",
     "canonical": "https://echobuddha.com/meditation-guide/",
-    "words": 1674,
+    "words": 1706,
     "h1Count": 1,
     "schemaTypes": [
-      "HowTo",
-      "FAQPage",
       "BreadcrumbList"
     ]
   },
@@ -2570,12 +2528,11 @@
     "title": "Mindful Living with Buddhist Wisdom | Echo Buddha",
     "description": "Explore practical Buddhist-inspired mindfulness for daily life, work, speech, relationships, patience, compassion, and letting go.",
     "canonical": "https://echobuddha.com/mindful-living/",
-    "words": 774,
+    "words": 777,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -2585,7 +2542,7 @@
     "title": "Privacy Policy | Echo Buddha",
     "description": "Read how Echo Buddha handles analytics, cookies, advertising technologies, email messages, and privacy choices.",
     "canonical": "https://echobuddha.com/privacy-policy/",
-    "words": 615,
+    "words": 614,
     "h1Count": 1,
     "schemaTypes": [
       "PrivacyPolicy"
@@ -3521,7 +3478,7 @@
     "title": "Original Meditation Reflection: A short sincere practice can... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;A short sincere practice can steady a long and complicated day.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
-    "words": 614,
+    "words": 618,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3535,7 +3492,7 @@
     "title": "Original Meditation Reflection: Do not search meditation for... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Do not search meditation for a special self; notice the self already searching.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
-    "words": 610,
+    "words": 614,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3549,7 +3506,7 @@
     "title": "Original Meditation Reflection: Every return from distraction strengthens... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Every return from distraction strengthens the path home.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
-    "words": 590,
+    "words": 594,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3563,7 +3520,7 @@
     "title": "Beginner Meditation Wisdom: A Few Quiet Minutes | Echo Buddha",
     "description": "Beginner meditation wisdom about starting with a few quiet minutes instead of waiting for perfect focus or a perfect schedule.",
     "canonical": "https://echobuddha.com/quotes/meditation/few-quiet-minutes/",
-    "words": 798,
+    "words": 802,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3577,7 +3534,7 @@
     "title": "Original Meditation Reflection: Follow the breath lightly, as... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Follow the breath lightly, as you would listen to rain.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
-    "words": 597,
+    "words": 601,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3591,7 +3548,7 @@
     "title": "Original Meditation Quotes Inspired by Buddhist Practice | Echo Buddha",
     "description": "Original meditation quotes about breathing, stillness, distraction, gentle attention, and beginning again.",
     "canonical": "https://echobuddha.com/quotes/meditation/",
-    "words": 640,
+    "words": 649,
     "h1Count": 1,
     "schemaTypes": [
       "CollectionPage",
@@ -3605,7 +3562,7 @@
     "title": "Original Meditation Reflection: Meditation is not leaving life;... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Meditation is not leaving life; it is learning how to be here.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
-    "words": 609,
+    "words": 613,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3619,7 +3576,7 @@
     "title": "Meditation Quote for Beginners: Meditation Is Returning | Echo Buddha",
     "description": "A meditation quote for beginners explaining meditation as the gentle act of returning, not escaping life or performing perfect calm.",
     "canonical": "https://echobuddha.com/quotes/meditation/meditation-is-returning/",
-    "words": 791,
+    "words": 795,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3633,7 +3590,7 @@
     "title": "Mindful Breathing Quote: One Honest Breath | Echo Buddha",
     "description": "A mindful breathing quote about returning to one honest breath when the mind wanders, worries, or tries to move too quickly.",
     "canonical": "https://echobuddha.com/quotes/meditation/one-honest-breath/",
-    "words": 809,
+    "words": 813,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3647,7 +3604,7 @@
     "title": "Original Meditation Reflection: Silence is not empty when... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Silence is not empty when the heart is listening.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
-    "words": 598,
+    "words": 602,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3661,7 +3618,7 @@
     "title": "Original Meditation Reflection: Sit with the day as... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Sit with the day as it is, before asking it to be different.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
-    "words": 608,
+    "words": 612,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3675,7 +3632,7 @@
     "title": "Original Meditation Reflection: Sit without demanding silence, and... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;Sit without demanding silence, and the mind will teach you how it moves.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
-    "words": 611,
+    "words": 615,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3689,7 +3646,7 @@
     "title": "Original Meditation Reflection: The bell fades, but careful... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;The bell fades, but careful listening can continue.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
-    "words": 593,
+    "words": 597,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3703,7 +3660,7 @@
     "title": "Original Meditation Reflection: The cushion is a place... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;The cushion is a place to practice returning, not a place to perform calm.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
-    "words": 614,
+    "words": 618,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -3717,7 +3674,7 @@
     "title": "Original Meditation Reflection: When stillness feels impossible, begin... | Echo Buddha",
     "description": "An original Echo Buddha reflection on meditation practice through the quote &quot;When stillness feels impossible, begin by noticing the restlessness.&quot;",
     "canonical": "https://echobuddha.com/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
-    "words": 600,
+    "words": 604,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
@@ -4922,8 +4879,7 @@
     "h1Count": 1,
     "schemaTypes": [
       "WebPage",
-      "BreadcrumbList",
-      "FAQPage"
+      "BreadcrumbList"
     ]
   },
   {
@@ -4933,7 +4889,7 @@
     "title": "Terms of Use | Echo Buddha",
     "description": "Read the terms for using Echo Buddha articles, original quotes, meditation guidance, and educational resources.",
     "canonical": "https://echobuddha.com/terms-of-use/",
-    "words": 289,
+    "words": 311,
     "h1Count": 1,
     "schemaTypes": [
       "WebPage"

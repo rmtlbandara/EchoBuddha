@@ -967,6 +967,7 @@ export const buddhism101Pages: LearningPage[] = [
     takeaway: "Buddhism is a living path of understanding suffering and practicing wisdom, compassion, and mindful action.",
     practice: "Choose one decision today and examine it through view, intention, and likely harm. Then act; do not use reflection to postpone a necessary boundary or repair.",
     relatedLinks: [
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
       { label: "Noble Eightfold Path", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
       { label: "Buddhist Dictionary", href: "/learn/buddhist-dictionary/" },
       { label: "Daily Buddhist Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
@@ -1051,6 +1052,7 @@ export const buddhism101Pages: LearningPage[] = [
     takeaway: "The Four Noble Truths help us understand suffering, its causes, the possibility of release, and the path of practice.",
     practice: "Name one difficulty and one form of clinging around it. Then choose one kind step that does not feed the clinging.",
     relatedLinks: [
+      { label: "Complete Four Noble Truths Guide", href: "/learn/four-noble-truths/" },
       { label: "Four Noble Truths Article", href: "/articles/four-noble-truths-explained/" },
       { label: "Dukkha Definition", href: "/learn/buddhist-dictionary/dukkha/" },
       { label: "Eightfold Path Lesson", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
@@ -1094,6 +1096,7 @@ export const buddhism101Pages: LearningPage[] = [
     takeaway: "The Noble Eightfold Path turns Buddhist wisdom into daily practice through seeing, intention, speech, action, effort, mindfulness, and concentration.",
     practice: "Choose one path factor for today. Keep it visible and practice it in one specific situation.",
     relatedLinks: [
+      { label: "Complete Eightfold Path Guide", href: "/learn/eightfold-path/" },
       { label: "Eightfold Path Article", href: "/articles/eightfold-path-explained/" },
       { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" },
       { label: "Right Livelihood", href: "/learn/buddhism-101/right-livelihood-buddhism/" },
@@ -1785,6 +1788,7 @@ export const buddhism101Pages: LearningPage[] = [
     takeaway: "Home practice grows through small repeatable actions: meditation, ethical speech, reflection, and kindness.",
     practice: "Choose one practice cue at home, such as morning tea or closing a door, and pair it with one mindful breath.",
     relatedLinks: [
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
       { label: "Meditation Hub", href: "/meditation/" },
       { label: "Simple Daily Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/" },
       { label: "Daily Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
@@ -1827,6 +1831,7 @@ export const buddhism101Pages: LearningPage[] = [
     takeaway: "Daily practice can be one breath, one intention, one careful action, and one honest reflection.",
     practice: "Try this rhythm for one day: morning breath, midday pause, evening reflection.",
     relatedLinks: [
+      { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
       { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" },
       { label: "Right Intention Quote", href: "/quotes/practice/right-intention-turns-the-heart/" },
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
@@ -2094,6 +2099,7 @@ export const dictionaryPages: LearningPage[] = [
     takeaway: "Dukkha names suffering, stress, and dissatisfaction so they can be understood rather than denied.",
     practice: "When stress appears, gently ask, “What am I resisting or clinging to right now?”",
     relatedLinks: [
+      { label: "Complete Four Noble Truths Guide", href: "/learn/four-noble-truths/" },
       { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
       { label: "Dependent Origination", href: "/learn/buddhism-101/dependent-origination-explained/" },
       { label: "Four Noble Truths Article", href: "/articles/four-noble-truths-explained/" },
@@ -3832,6 +3838,7 @@ export const shortMeditationPages: LearningPage[] = [
     takeaway: "A ten-minute practice trains patient returning without making calm into a demand.",
     practice: "Try one ten-minute session this week, then adjust the length honestly.",
     relatedLinks: [
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
       { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" },
       { label: "Meditation Posture", href: "/meditation/meditation-posture-for-beginners/" },
       { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" }
@@ -3925,6 +3932,7 @@ export const shortMeditationPages: LearningPage[] = [
     takeaway: "Hard meditation can be met by naming, shortening, grounding, changing anchors, stopping, or seeking support.",
     practice: "Choose one kind adjustment before the next session begins, not after frustration has already taken over.",
     relatedLinks: [
+      { label: "Meditation for Beginners", href: "/meditation/meditation-for-beginners/" },
       { label: "Meditation Safety", href: "/meditation-safety/" },
       { label: "Five Hindrances", href: "/learn/buddhism-101/five-hindrances-in-buddhism/" },
       { label: "5-Minute Meditation", href: "/meditation/5-minute-meditation-practice/" }
