@@ -22,11 +22,12 @@
 - Added a 165-URL intent registry with current metadata, link authority, index/canonical state, repository-backed GSC fields, ownership, source requirements, and action confidence.
 - Added automated ownership, support-link, registry-coverage, schema, TOC, sitemap, canonical, and search-index governance.
 - Removed seven FAQPage implementations and one obsolete HowTo object while retaining visible reader FAQs and meditation steps.
+- Merged PR #49 and deployed exact SHA `db1da81b19bc5291829cdafd475645d79c6025f5` through production workflow 36512611080.
+- Verified the live artifact, 15 changed/template routes, the production smoke suite, and 18 mobile/desktop browser combinations.
 
 ## Actions deferred
 
 - No merge, redirect, deletion, noindex, slug change, or cross-page canonical was justified without fresh authenticated GSC query-by-page and URL Inspection evidence.
-- Production deployment remains a reviewed merge-and-deploy action; this branch has not been presented as live.
 - Field Core Web Vitals and ranking behavior require post-deployment observation rather than local inference.
 
 ## Expected impact
