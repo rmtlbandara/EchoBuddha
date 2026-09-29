@@ -9,18 +9,6 @@ const description =
   "Beginner-friendly answers to common questions about Buddhism, meditation, suffering, compassion, attachment, and home practice.";
 const canonicalPath = "/learn/questions-about-buddhism/";
 const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: questionsAboutBuddhism.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer
-      }
-    }))
-  },
   getBreadcrumbJsonLd([
     { name: "Home", href: "/" },
     { name: "Learn", href: "/learn/" },

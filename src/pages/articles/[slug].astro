@@ -58,6 +58,7 @@ const sectionsWithIds = article.content.map((section) => ({
   id: section.heading ? slugify(section.heading) : ""
 }));
 const tableOfContents = sectionsWithIds.filter((section) => section.heading);
+const headingAlreadyNumbered = (heading: string) => /^\s*\d+(?:\.\d+)*[.)]?\s+/.test(heading);
 const selectedRelatedArticles = (article.relatedSlugs ?? [])
   .map((slug) => fullArticles.find((item) => item.slug === slug))
   .filter(Boolean);
@@ -409,18 +410,6 @@ const jsonLd = [
         item: articleUrl
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: seoDetails.faqs.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer
-      }
-    }))
   }
 ];
 ---
@@ -590,7 +579,9 @@ const jsonLd = [
             <h2>On This Page</h2>
             <ol>
               {tableOfContents.map((section) => (
-                <li><a href={`#${section.id}`}>{section.heading}</a></li>
+                <li class:list={{ "already-numbered": headingAlreadyNumbered(section.heading ?? "") }}>
+                  <a href={`#${section.id}`}>{section.heading}</a>
+                </li>
               ))}
               <li><a href="#article-faq-heading">Frequently Asked Questions</a></li>
             </ol>
@@ -727,6 +718,10 @@ const jsonLd = [
 
   .article-toc li + li {
     margin-top: 0.5rem;
+  }
+
+  .article-toc li.already-numbered {
+    list-style: none;
   }
 
   .article-toc a {

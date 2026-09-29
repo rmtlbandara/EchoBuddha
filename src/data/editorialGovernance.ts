@@ -1,4 +1,4 @@
-import { SITE, getQuoteSlug, isQuoteStoryIndexable, type Quote } from "./site";
+import { SITE, getQuoteSlug, isQuoteStoryIndexable, type Quote } from "./site.ts";
 
 export type EditorialReviewStatus =
   | "repository-reviewed"
@@ -195,9 +195,17 @@ export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Beginner Buddhism",
     href: "/articles/what-is-buddhism-beginner-guide/",
-    role: "cornerstone guide",
+    role: "supporting article",
     primary: false,
-    publicSummary: "Use this article for a fuller plain-language explanation of Buddhism's basic shape.",
+    publicSummary: "Use this article to clarify what Buddhism is and is not; the beginner hub remains the broad owner.",
+    reviewStatus: "repository-reviewed"
+  },
+  {
+    cluster: "Beginner Buddhism",
+    href: "/articles/buddhism-for-beginners-simple-guide/",
+    role: "topic hub",
+    primary: false,
+    publicSummary: "Use this article to choose among first learning routes; it does not replace the broad beginner foundation.",
     reviewStatus: "repository-reviewed"
   },
   {
@@ -219,18 +227,18 @@ export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Four Noble Truths",
     href: "/articles/four-noble-truths-explained/",
-    role: "cornerstone guide",
+    role: "supporting article",
     primary: false,
-    publicSummary: "Use this article for fuller explanation and daily-life examples.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article for the four truths as four tasks of practice.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Four Noble Truths",
     href: "/articles/four-noble-truths-explained-simply/",
-    role: "beginner introduction",
+    role: "practical application",
     primary: false,
-    publicSummary: "Use this article for the shortest beginner-friendly explanation before deeper study.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article for a worked application to a difficult conversation.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Noble Eightfold Path",
@@ -243,26 +251,26 @@ export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Noble Eightfold Path",
     href: "/articles/eightfold-path-explained/",
-    role: "cornerstone guide",
+    role: "learning reference",
     primary: false,
-    publicSummary: "Use this article for a detailed explanation of the path factors.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article to understand how the eight factors reinforce one another.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Noble Eightfold Path",
     href: "/articles/eightfold-path-explained-daily-life/",
     role: "practical application",
     primary: false,
-    publicSummary: "Use this article for applied daily-life examples after the main path explanation.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article for three worked decisions involving speech, work, and attention.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Noble Eightfold Path",
     href: "/articles/noble-eightfold-path-practical-guide/",
     role: "practical application",
     primary: false,
-    publicSummary: "Use this article as the most practice-oriented Eightfold Path checklist.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article for a weekly, non-scoring Eightfold Path self-review.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Noble Eightfold Path",
@@ -283,26 +291,26 @@ export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Impermanence",
     href: "/articles/impermanence-in-buddhism/",
-    role: "practical application",
+    role: "supporting article",
     primary: false,
-    publicSummary: "Use this article for applied reflection on accepting change.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article to distinguish impermanence from nihilism and passivity.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Impermanence",
     href: "/articles/buddhist-teachings-on-impermanence/",
     role: "source-study page",
     primary: false,
-    publicSummary: "Use this article for a teaching-focused explanation of anicca and change.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article as a reading guide to anicca in named early Buddhist sources.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Impermanence",
     href: "/articles/impermanence-in-buddhism-letting-go/",
-    role: "supporting article",
+    role: "practical application",
     primary: false,
-    publicSummary: "Use this article for the letting-go application of impermanence.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article for a worked impermanence practice when a plan falls apart.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Loving-kindness and Metta",
@@ -323,18 +331,18 @@ export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Loving-kindness and Metta",
     href: "/articles/loving-kindness-meditation-guide/",
-    role: "practical application",
+    role: "supporting article",
     primary: false,
-    publicSummary: "Use this article for a guided explanation of loving-kindness practice.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article to troubleshoot loving-kindness practice that feels false, numb, or overwhelming.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Loving-kindness and Metta",
     href: "/articles/loving-kindness-meditation-beginners/",
-    role: "beginner introduction",
+    role: "practical application",
     primary: false,
-    publicSummary: "Use this article as the gentlest beginner entry into metta practice.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article to choose honest loving-kindness phrases for a specific situation.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Loving-kindness and Metta",
@@ -403,10 +411,10 @@ export const topicRoleMap: TopicRole[] = [
   {
     cluster: "Mindfulness and Meditation",
     href: "/articles/how-to-meditate-for-beginners/",
-    role: "beginner introduction",
+    role: "practical application",
     primary: false,
-    publicSummary: "Use this article for first-session meditation guidance before deeper practice pages.",
-    reviewStatus: "external-review-pending"
+    publicSummary: "Use this article to turn a first meditation session into a realistic seven-day habit.",
+    reviewStatus: "repository-reviewed"
   },
   {
     cluster: "Mindfulness and Meditation",

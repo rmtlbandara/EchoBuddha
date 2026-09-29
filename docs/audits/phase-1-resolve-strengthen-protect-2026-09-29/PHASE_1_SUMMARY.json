@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-29T00:00:00.000Z",
+  "repositoryBaselineSha": "08076a39632748e824a6e82381bf98d8b90c4f25",
+  "productionContentSha": "dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a",
+  "indexableUrlCount": 165,
+  "sitemapUrlCount": 165,
+  "articleCount": 48,
+  "relevantGscEvidenceDate": "2026-08-21",
+  "materiallyRewrittenPages": 13,
+  "titlesChanged": 13,
+  "descriptionsChanged": 13,
+  "h1sChanged": 13,
+  "redirects": 0,
+  "noindexedUrls": 0,
+  "deletedUrls": 0,
+  "canonicalTargetChanges": 0,
+  "faqPageSchemaImplementationsRemoved": 7,
+  "howToSchemaImplementationsRemoved": 1,
+  "priorityRoutes": 44
+}

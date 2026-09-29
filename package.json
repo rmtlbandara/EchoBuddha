@@ -40,6 +40,9 @@
     "audit:phase12": "node scripts/validate-phase-12-policy-redteam.mjs",
     "generate:phase13": "node docs/audits/adsense-recovery-phase-13-2026-08-25/generate-phase-13-skip.mjs",
     "audit:phase13": "node scripts/validate-phase-13.mjs",
+    "generate:phase1:intent": "node --experimental-strip-types scripts/generate-phase-1-resolve-strengthen-protect.mjs",
+    "audit:phase1:intent": "node scripts/validate-phase-1-resolve-strengthen-protect.mjs",
+    "audit:phase1:browser": "node scripts/validate-phase-1-browser.mjs",
     "audit:governance:changes": "node scripts/report-governance-changes.mjs",
     "audit:production-smoke": "node scripts/production-smoke-check.mjs",
     "test": "node --test tests/*.test.mjs",
@@ -48,7 +51,7 @@
     "audit:cornerstones": "node docs/audits/adsense-recovery-phase-6-2026-08-24/validate-phase-6-cornerstone-upgrades.mjs",
     "audit:trust": "node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs",
     "audit:historical-boundaries": "node scripts/validate-historical-snapshot-boundaries.mjs",
-    "validate": "npm run build && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
+    "validate": "npm run build && npm run generate:phase1:intent && npm run audit:phase1:intent && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
     "validate:release": "npm run validate && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
   },
   "dependencies": {

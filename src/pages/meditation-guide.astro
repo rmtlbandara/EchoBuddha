@@ -52,53 +52,6 @@ const sourceLinks = [
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "HowTo",
-    name: title,
-    description,
-    url: `${SITE.url}${canonicalPath}`,
-    totalTime: "PT10M",
-    step: [
-      {
-        "@type": "HowToStep",
-        name: "Choose a place and time",
-        text: "Choose a quiet, ordinary place where you can sit without interruption for a few minutes."
-      },
-      {
-        "@type": "HowToStep",
-        name: "Find a stable posture",
-        text: "Sit on a chair or cushion with an upright but relaxed spine and comfortably supported hands."
-      },
-      {
-        "@type": "HowToStep",
-        name: "Notice the natural breath",
-        text: "Feel the breath at the nose, chest, or belly without forcing it to become deeper or slower."
-      },
-      {
-        "@type": "HowToStep",
-        name: "Return from distraction",
-        text: "When thoughts or sounds carry attention away, acknowledge the distraction and gently return to breathing."
-      },
-      {
-        "@type": "HowToStep",
-        name: "End with awareness",
-        text: "Notice the body and surroundings, then carry one mindful intention into the next part of the day."
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqItems.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer
-      }
-    }))
-  },
-  {
-    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       {
@@ -141,6 +94,11 @@ const jsonLd = [
           This guide begins with mindfulness of breathing, a simple practice that can be done on a chair or cushion.
           You do not need special clothing, equipment, beliefs, or previous experience. Ten unhurried minutes and a
           willingness to begin are enough.
+        </p>
+        <p>
+          If you have never meditated before, use <a href="/meditation/meditation-for-beginners/">Meditation for
+          Beginners</a> for one short first session. This longer reference helps you compare methods, duration,
+          posture, obstacles, and ways to build practice over time.
         </p>
 
         <nav class="guide-contents surface" aria-label="Meditation guide contents">
