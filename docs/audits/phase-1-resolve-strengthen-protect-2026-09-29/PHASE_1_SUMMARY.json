@@ -1,7 +1,11 @@
 {
   "generatedAt": "2026-09-29T00:00:00.000Z",
   "repositoryBaselineSha": "08076a39632748e824a6e82381bf98d8b90c4f25",
-  "productionContentSha": "dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a",
+  "productionContentSha": "db1da81b19bc5291829cdafd475645d79c6025f5",
+  "productionDeploymentRun": "36512611080",
+  "cloudflareDeploymentId": "2e0ab350-8d36-46cd-b036-55fc0bbda40a",
+  "cloudflareVersionId": "48f232f0-5871-4dd0-b067-d85beb937559",
+  "productionVerified": true,
   "indexableUrlCount": 165,
   "sitemapUrlCount": 165,
   "articleCount": 48,

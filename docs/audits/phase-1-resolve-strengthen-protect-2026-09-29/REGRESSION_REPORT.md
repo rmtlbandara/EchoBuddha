@@ -23,6 +23,6 @@ Mindfulness, attachment/non-attachment, Right Speech, the Buddhist Handbook, Bud
 - `npm run audit:phase1:browser`: PASS — 18/18 mobile/desktop route combinations, zero serious/critical axe violations, overflow, broken/missing-alt images, CLS/FCP/LCP threshold failures, or obsolete schema objects.
 - `npm run audit:production-smoke`: PASS against the currently deployed baseline: homepage, consent, AdSense firewall, security headers, robots, 165-URL sitemap, 330-record search index, owner/noindex routes, ads.txt, 404, HTTPS redirect, and preview noindex.
 
-## Scope boundary
+## Production result
 
-Production still serves the previously recorded content SHA. The successful live smoke test establishes that the pre-deployment baseline remains healthy; it is not a claim that this Phase 1 branch has been deployed.
+PR #49 was merged and exact SHA `db1da81b19bc5291829cdafd475645d79c6025f5` was deployed through workflow `36512611080`. The immutable artifact, production smoke suite, 15 changed/template routes, sitemap/search/robots state, and 18 mobile/desktop browser combinations all passed live verification. The previous production content SHA `dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a` remains the recorded rollback checkpoint.

@@ -3,7 +3,7 @@
 ## Baseline
 
 - Repository SHA: `08076a39632748e824a6e82381bf98d8b90c4f25`
-- Recorded production content SHA: `dcd9ce2fd1fdbea7b62ef337d94026ba632d0b4a`
+- Deployed production content SHA: `db1da81b19bc5291829cdafd475645d79c6025f5`
 - Indexable/sitemap URLs: 165 / 165
 - Articles: 48
 - Latest repository-backed GSC evidence: 2026-08-21
@@ -39,7 +39,7 @@
 
 ## Validation
 
-All local, release, targeted browser, dependency, and current-production smoke checks passed. The live smoke check validates the existing production baseline only. This implementation is not deployed.
+All local, release, targeted browser, dependency, workflow, and production checks passed. PR #49 was merged and exact SHA `db1da81b19bc5291829cdafd475645d79c6025f5` was deployed. Live verification confirmed 15/15 changed/template routes match the immutable artifact and 18/18 mobile/desktop combinations pass.
 
 ## Phase 2
 
