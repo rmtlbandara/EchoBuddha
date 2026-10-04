@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-04",
+  "repositoryMain": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+  "productionContentSha": "db1da81b19bc5291829cdafd475645d79c6025f5",
+  "cloudflareDeploymentId": "2e0ab350-8d36-46cd-b036-55fc0bbda40a",
+  "materialContentReleasesAfterPhase1": 0,
+  "postPhase1RepositoryChange": "PR #50 merged deployment documentation only; no public application files changed.",
+  "productionSmoke": "PASS",
+  "monitoredArtifactParity": {
+    "passed": 19,
+    "total": 19,
+    "byteForByte": true
+  },
+  "sitemapUrls": 165,
+  "onSiteSearchRecords": 330,
+  "robots": "PASS",
+  "canonicalCoverage": {
+    "passed": 19,
+    "total": 19
+  },
+  "adsenseRuntime": "DISABLED",
+  "dependencyAudit": {
+    "critical": 0,
+    "high": 0,
+    "moderate": 0,
+    "low": 0,
+    "total": 0
+  }
+}

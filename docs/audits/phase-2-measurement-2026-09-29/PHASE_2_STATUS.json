@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": "2026-10-04",
+  "status": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
+  "phase1MainSha": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+  "phase1ProductionContentSha": "db1da81b19bc5291829cdafd475645d79c6025f5",
+  "currentRepositoryHead": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+  "currentOriginMain": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+  "preWindow": {
+    "start": "2026-08-31",
+    "end": "2026-09-27",
+    "expectedDays": 28,
+    "observedFinalDays": 0,
+    "complete": false
+  },
+  "transitionDay": {
+    "date": "2026-09-28",
+    "excluded": true
+  },
+  "postWindow": {
+    "start": "2026-09-29",
+    "end": "2026-10-26",
+    "expectedDays": 28,
+    "observedFinalDays": 0,
+    "complete": false
+  },
+  "earliestDecisionReview": "2026-10-29",
+  "decisionGateOpen": false,
+  "watchlistDecisionCounts": {
+    "KEEP_DISTINCT": 0,
+    "KEEP_AND_STRENGTHEN": 0,
+    "REPOSITION_FURTHER": 0,
+    "HOLD_MORE_DATA": 13,
+    "MERGE_301_CANDIDATE": 0,
+    "NOINDEX_REVIEW": 0
+  },
+  "destructiveChanges": {
+    "merges": 0,
+    "redirects": 0,
+    "noindex": 0,
+    "canonicalChanges": 0,
+    "deletedUrls": 0
+  },
+  "contentChanges": 0,
+  "sitemapExpected": 165,
+  "onSiteSearchExpected": 330
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": "2026-10-04",
+  "source": "NONE",
+  "dataState": "UNAVAILABLE",
+  "finalizedEndDate": null,
+  "property": "sc-domain:echobuddha.com",
+  "rawEvidenceCommitted": false,
+  "rawDirectory": ".artifacts/phase2-gsc/raw",
+  "privateCsvDirectory": "docs/audits/phase-2-measurement-2026-09-29/private-evidence",
+  "privateDerivedDirectory": ".artifacts/phase2-gsc/derived",
+  "privateDerivedFiles": [
+    {
+      "name": "AI_SEARCH_PERFORMANCE.csv",
+      "sha256": "fa6a116978268eab0782e8703d3f1bf077e9647a73c47f6e00b96e045554e0fb",
+      "rows": 0
+    },
+    {
+      "name": "CLEANED_GSC_DATASET.csv",
+      "sha256": "d89dd24ca0f9458371420b7cd5321cfff6504c7b7ba3dfa7770d7010391a2fb5",
+      "rows": 0
+    },
+    {
+      "name": "COUNTRY_PERFORMANCE.csv",
+      "sha256": "b0ba664f260f89dfe5d5910e42ced44bcaee9de3095c9b27c66ea9668e5546dd",
+      "rows": 0
+    },
+    {
+      "name": "DEVICE_PERFORMANCE.csv",
+      "sha256": "58808e6ef907f7f28fe48a7626da163033a3f46e9e34a1773e8d30c123d61159",
+      "rows": 0
+    },
+    {
+      "name": "MULTIMODAL_PERFORMANCE.csv",
+      "sha256": "fa6a116978268eab0782e8703d3f1bf077e9647a73c47f6e00b96e045554e0fb",
+      "rows": 0
+    },
+    {
+      "name": "PAGE_PERFORMANCE_TABLE.csv",
+      "sha256": "c5e285162716177056212a63dbc808748cebcaa31cbfd8d37817d81d0a85d422",
+      "rows": 0
+    },
+    {
+      "name": "QUERY_FAMILY_MAP.csv",
+      "sha256": "68bc775afb2a3c0d2c2cd4bb03b84854531e0b93b60d38aa2ed8f2525d07d8f5",
+      "rows": 0
+    },
+    {
+      "name": "QUERY_PAGE_PERFORMANCE_TABLE.csv",
+      "sha256": "9dd1457f43e93d64cb623ae6b9fdc204e192723e60411be43b01405960f79421",
+      "rows": 0
+    },
+    {
+      "name": "QUERY_PERFORMANCE_TABLE.csv",
+      "sha256": "895404f0d970c0398d609fcbad21f9943c9cd6119de2a63ecbca195feb1d403f",
+      "rows": 0
+    },
+    {
+      "name": "SEARCH_APPEARANCE_PERFORMANCE.csv",
+      "sha256": "6c18ee7a7612bba65dfb9f6204164db8fd9aaa1ec62e2eca43220300f0b19bb9",
+      "rows": 0
+    },
+    {
+      "name": "WEEKLY_TREND_TABLE.csv",
+      "sha256": "9812d2ff3fb604eb9125fc41965ce3cf401b982b41aaaa48ee9c60255d5ba785",
+      "rows": 0
+    }
+  ],
+  "files": [],
+  "limitations": [
+    "Missing query rows are not proof of zero demand because Google applies privacy filtering.",
+    "Search Analytics API and exports expose top rows rather than a guaranteed exhaustive query set.",
+    "Performance is generally attributed to canonical URLs.",
+    "Property, page, and query totals may differ; omitted query demand must remain unattributed.",
+    "All clean comparison dates use Pacific Time and exclude 2026-09-28 PT."
+  ]
+}

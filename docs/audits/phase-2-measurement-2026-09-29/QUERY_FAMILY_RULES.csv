@@ -1,0 +1,8 @@
+family,reviewable_rule,intended_scope,known_exclusions,review_policy
+beginner_meditation,"beginner/start/first combined with meditate/meditation/meditating","Broad beginner meditation queries","method-specific breathing; walking; posture; anxiety; sleep","Review all unmapped and ambiguous queries manually before decisions"
+four_noble_truths,"four/4 noble truth(s) or cattari ariya saccani","Broad Four Noble Truths family","dukkha-only definitions; named-sutta-only research; worked examples when clearly specific","Keep raw query beside family in private evidence"
+eightfold_path,"eightfold/8 fold/eight fold path or ariya atthangika magga","Broad Noble Eightfold Path family","single-factor queries; Threefold Training; named-sutta-only research; explicit scenario queries","Do not over-cluster distinct user jobs"
+buddhism_for_beginners,"Buddhism/Buddhist combined with beginner/start/new","Broad beginner Buddhism family","home practice; daily practice; terminology; source study; history when explicitly distinct","Review route-selection queries separately"
+impermanence_anicca,"impermanent/impermanence or anicca","Impermanence/anicca family","grief-only queries; named-source queries; nihilism/misconception queries when independently meaningful","Preserve source and scenario distinctions"
+loving_kindness_metta,"loving kindness or metta","Loving-kindness/metta family","phrase selection; troubleshooting; scripts; named-sutta research when independently meaningful","Separate practice method from term/source/application intents"
+unmapped,"normalized raw query","Queries not matched by an explicit rule","None","Manual classification required; never silently discard"
