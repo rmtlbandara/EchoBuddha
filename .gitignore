@@ -17,6 +17,10 @@ lighthouse-report*.html
 lighthouse-report*.json
 *.log
 
+# Private/authenticated Phase 2 Search Console inputs. Only aggregated generated
+# reports and the empty import templates under docs/audits are source-controlled.
+docs/audits/phase-2-measurement-2026-09-29/private-evidence/
+
 # Local final audit evidence kept off main/production.
 ECHO_BUDDHA_FINAL_PRODUCTION_ADSENSE_READINESS_AUDIT.md
 ECHO_BUDDHA_FINAL_READINESS_REMEDIATION_REPORT.md

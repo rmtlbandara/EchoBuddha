@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "phase2Status": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
+  "decisionGateOpen": false,
+  "passed": 38,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Required Phase 2 outputs exist",
+      "details": "29/29 required outputs",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 1 main baseline is pinned",
+      "details": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+      "result": "PASS"
+    },
+    {
+      "name": "Production content baseline is pinned",
+      "details": "db1da81b19bc5291829cdafd475645d79c6025f5",
+      "result": "PASS"
+    },
+    {
+      "name": "Independent production baseline record matches Phase 1",
+      "details": "53125d0be7f2eb517f5992c50e20c4b8c85389d6 / db1da81b19bc5291829cdafd475645d79c6025f5",
+      "result": "PASS"
+    },
+    {
+      "name": "Live baseline smoke and monitored artifact parity passed",
+      "details": "19/19",
+      "result": "PASS"
+    },
+    {
+      "name": "No later material content release contaminated the observation window",
+      "details": "0",
+      "result": "PASS"
+    },
+    {
+      "name": "Release dependency audit has zero known vulnerabilities",
+      "details": "{\"critical\":0,\"high\":0,\"moderate\":0,\"low\":0,\"total\":0}",
+      "result": "PASS"
+    },
+    {
+      "name": "Pre window is exact",
+      "details": "2026-08-31..2026-09-27",
+      "result": "PASS"
+    },
+    {
+      "name": "Transition day is excluded",
+      "details": "2026-09-28",
+      "result": "PASS"
+    },
+    {
+      "name": "Post window is exact",
+      "details": "2026-09-29..2026-10-26",
+      "result": "PASS"
+    },
+    {
+      "name": "Finalization buffer is preserved",
+      "details": "2026-10-29",
+      "result": "PASS"
+    },
+    {
+      "name": "All watchlist URLs have decisions",
+      "details": "13/13",
+      "result": "PASS"
+    },
+    {
+      "name": "Watchlist URLs are unique",
+      "details": "13 unique",
+      "result": "PASS"
+    },
+    {
+      "name": "Watchlist roles and owners match Phase 1",
+      "details": "13 owner relationships checked",
+      "result": "PASS"
+    },
+    {
+      "name": "Decision classes are valid",
+      "details": "HOLD_MORE_DATA",
+      "result": "PASS"
+    },
+    {
+      "name": "Incomplete evidence forces measurement mode",
+      "details": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
+      "result": "PASS"
+    },
+    {
+      "name": "Incomplete evidence forces all watchlist decisions to HOLD_MORE_DATA",
+      "details": "13/13",
+      "result": "PASS"
+    },
+    {
+      "name": "No implementation artifacts are populated before the gate",
+      "details": "consolidations=0; redirects=0; salvage=0; links=0",
+      "result": "PASS"
+    },
+    {
+      "name": "All six governed clusters are present",
+      "details": "6/6",
+      "result": "PASS"
+    },
+    {
+      "name": "Query × page report covers every watchlist URL",
+      "details": "13/13",
+      "result": "PASS"
+    },
+    {
+      "name": "Inspection register covers watchlist and owners",
+      "details": "19 monitored URLs",
+      "result": "PASS"
+    },
+    {
+      "name": "All six Phase 1 owners are protected during observation",
+      "details": "6/6",
+      "result": "PASS"
+    },
+    {
+      "name": "Raw authenticated evidence is explicitly non-committed",
+      "details": "false",
+      "result": "PASS"
+    },
+    {
+      "name": "Detailed derived evidence remains in the ignored artifact area",
+      "details": ".artifacts/phase2-gsc/derived",
+      "result": "PASS"
+    },
+    {
+      "name": "Private derived dataset manifest is complete",
+      "details": "11 derived files",
+      "result": "PASS"
+    },
+    {
+      "name": "Search Console limitations are recorded",
+      "details": "5 limitations",
+      "result": "PASS"
+    },
+    {
+      "name": "Privacy and canonical aggregation limits are explicit",
+      "details": "required limitations found",
+      "result": "PASS"
+    },
+    {
+      "name": "Private CSV evidence directory is ignored",
+      "details": "docs/audits/phase-2-measurement-2026-09-29/private-evidence",
+      "result": "PASS"
+    },
+    {
+      "name": "Private derived evidence directory is ignored",
+      "details": ".artifacts/phase2-gsc/derived",
+      "result": "PASS"
+    },
+    {
+      "name": "Raw/detailed query datasets are not emitted into the committed audit directory",
+      "details": "none",
+      "result": "PASS"
+    },
+    {
+      "name": "No obvious credential/token file is tracked",
+      "details": "none",
+      "result": "PASS"
+    },
+    {
+      "name": "Release A does not change public content or runtime behavior",
+      "details": "no application diff",
+      "result": "PASS"
+    },
+    {
+      "name": "Package command exists: collect:phase2:gsc",
+      "details": "node scripts/collect-phase-2-gsc.mjs",
+      "result": "PASS"
+    },
+    {
+      "name": "Package command exists: generate:phase2:measurement",
+      "details": "node scripts/generate-phase-2-measurement.mjs",
+      "result": "PASS"
+    },
+    {
+      "name": "Package command exists: audit:phase2:measurement",
+      "details": "node scripts/validate-phase-2-measurement.mjs",
+      "result": "PASS"
+    },
+    {
+      "name": "Package command exists: generate:phase2:decisions",
+      "details": "node scripts/generate-phase-2-measurement.mjs --decisions",
+      "result": "PASS"
+    },
+    {
+      "name": "Package command exists: audit:phase2:decisions",
+      "details": "node scripts/validate-phase-2-measurement.mjs --decisions",
+      "result": "PASS"
+    },
+    {
+      "name": "All private-import templates exist",
+      "details": "10/10",
+      "result": "PASS"
+    }
+  ]
+}
