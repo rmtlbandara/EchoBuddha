@@ -46,6 +46,7 @@
     "collect:phase2:gsc": "node scripts/collect-phase-2-gsc.mjs",
     "generate:phase2:measurement": "node scripts/generate-phase-2-measurement.mjs",
     "audit:phase2:measurement": "node scripts/validate-phase-2-measurement.mjs",
+    "audit:phase2:measurement:rc": "node scripts/validate-phase-2-measurement.mjs --local-release-candidate",
     "generate:phase2:decisions": "node scripts/generate-phase-2-measurement.mjs --decisions",
     "audit:phase2:decisions": "node scripts/validate-phase-2-measurement.mjs --decisions",
     "audit:governance:changes": "node scripts/report-governance-changes.mjs",
@@ -57,7 +58,8 @@
     "audit:trust": "node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs",
     "audit:historical-boundaries": "node scripts/validate-historical-snapshot-boundaries.mjs",
     "validate": "npm run build && npm run generate:phase1:intent && npm run audit:phase1:intent && npm run audit:phase2:measurement && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
-    "validate:release": "npm run validate && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
+    "validate:rc": "npm run build && npm run generate:phase1:intent && npm run audit:phase1:intent && npm run audit:phase2:measurement:rc && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
+    "validate:release": "npm run validate:rc && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies"
   },
   "dependencies": {
     "astro": "^7.3.5"
@@ -76,6 +78,7 @@
     "js-yaml": "^4.3.2",
     "sharp": "^0.35.4",
     "smol-toml": "^1.9.0",
+    "source-map-js": "^1.2.2",
     "svgo": "^4.1.0",
     "undici": "7.30.0",
     "http-cache-semantics": "4.3.0"

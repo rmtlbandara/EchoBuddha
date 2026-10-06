@@ -61,6 +61,7 @@ test("required validation scripts are present", () => {
     "audit:lighthouse",
     "audit:historical-boundaries",
     "validate",
+    "validate:rc",
     "validate:release"
   ]) {
     assert.ok(pkg.scripts[script], `missing ${script} script`);
@@ -70,6 +71,8 @@ test("required validation scripts are present", () => {
 test("release validation uses current approval-aware gates while retaining historical snapshot checks", () => {
   const pkg = JSON.parse(read("package.json"));
   assert.match(pkg.scripts.validate, /audit:historical-boundaries/);
+  assert.match(pkg.scripts["validate:rc"], /audit:phase2:measurement:rc/);
+  assert.match(pkg.scripts["validate:release"], /npm run validate:rc/);
   assert.doesNotMatch(pkg.scripts.validate, /audit:cornerstones/);
   assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-8\.mjs/);
   assert.match(pkg.scripts["validate:release"], /node scripts\/validate-phase-9\.mjs/);
