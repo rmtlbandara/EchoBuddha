@@ -46,6 +46,20 @@ test("homepage metadata, canonical, indexability, and schema stay minimal and ac
   assert.doesNotMatch(homepage, /"@type":"(?:FAQPage|BreadcrumbList|ItemList)"/);
 });
 
+test("global footer exposes the official social profiles", () => {
+  const socialProfiles = [
+    ["Facebook", "https://www.facebook.com/EchoBuddha/"],
+    ["Medium", "https://medium.com/@echo_buddha"],
+    ["Pinterest", "https://www.pinterest.com/echobuddha/"],
+    ["LinkedIn", "https://www.linkedin.com/company/echobuddha/"]
+  ];
+  assert.match(homepage, /<nav class="footer-social" aria-labelledby="footer-social-heading"[^>]*>/);
+  for (const [label, href] of socialProfiles) {
+    const escapedHref = href.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    assert.match(homepage, new RegExp(`<a href="${escapedHref}" rel="me"[^>]*>\\s*${label}`));
+  }
+});
+
 test("homepage uses editorially curated guides rather than publication-date sorting", () => {
   const guideSection = main.slice(main.indexOf("Featured Guides"), main.indexOf("Buddhist Life & Practice Handbook"));
   for (const slug of [

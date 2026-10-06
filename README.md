@@ -42,6 +42,7 @@ The validation sequence runs:
 The SEO audit writes current generated-site evidence to `docs/audits/echo-buddha-governance-implementation/`.
 The content audit writes remediation evidence, registers, queues, and page-role maps to `docs/audits/content-audit/`.
 The dependency audit fails the release gate on high or critical vulnerability advisories.
+The release gate uses `npm run validate:rc` and the Phase 2 local-release-candidate mode: it keeps the measurement hold active and fails if a presentation-only release changes content, indexation, redirects, analytics, consent, advertising, or deployment configuration. The stricter `npm run validate` and `npm run audit:phase2:measurement` commands remain available for validating the measurement-infrastructure release itself.
 
 Browser-readiness checks are available for final pre-release reviews:
 

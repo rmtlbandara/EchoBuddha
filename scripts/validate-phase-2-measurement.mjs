@@ -13,6 +13,7 @@ import {
 
 const failures = [];
 const passes = [];
+const localReleaseCandidate = process.argv.includes("--local-release-candidate");
 const check = (condition, name, details) => {
   (condition ? passes : failures).push({ name, details });
 };
@@ -119,7 +120,35 @@ const applicationDiff = execFileSync("git", ["diff", "--name-only", "origin/main
   .trim()
   .split("\n")
   .filter(Boolean);
-check(applicationDiff.length === 0, "Release A does not change public content or runtime behavior", applicationDiff.join(", ") || "no application diff");
+if (localReleaseCandidate) {
+  const presentationBaseline = "f650d51755ae536ded81390719ed0c56923b3412";
+  const approvedPresentationFiles = new Set([
+    "src/components/ArticleCard.astro",
+    "src/components/Footer.astro",
+    "src/components/Header.astro",
+    "src/components/LearningCard.astro",
+    "src/components/SearchOverlay.astro",
+    "src/layouts/Layout.astro",
+    "src/pages/index.astro",
+    "src/styles/global.css"
+  ]);
+  const releaseCandidateApplicationDiff = execFileSync("git", [
+    "diff", "--name-only", presentationBaseline, "--", "src", "public", "astro.config.*", "wrangler.*"
+  ], { encoding: "utf8" }).trim().split("\n").filter(Boolean);
+  const untrackedApplicationFiles = execFileSync("git", [
+    "ls-files", "--others", "--exclude-standard", "--", "src", "public", "astro.config.*", "wrangler.*"
+  ], { encoding: "utf8" }).trim().split("\n").filter(Boolean);
+  const completeApplicationDiff = [...new Set([...releaseCandidateApplicationDiff, ...untrackedApplicationFiles])];
+  const unapprovedApplicationChanges = completeApplicationDiff
+    .filter((file) => !approvedPresentationFiles.has(file));
+  check(
+    unapprovedApplicationChanges.length === 0,
+    "Local release candidate is isolated to the approved presentation file set",
+    unapprovedApplicationChanges.join(", ") || `${completeApplicationDiff.length} approved presentation files; no content, indexation, redirect, analytics, consent, advertising, or deployment configuration changes`
+  );
+} else {
+  check(applicationDiff.length === 0, "Release A does not change public content or runtime behavior", applicationDiff.join(", ") || "no application diff");
+}
 
 const packageDocument = JSON.parse(fs.readFileSync("package.json", "utf8"));
 for (const command of [

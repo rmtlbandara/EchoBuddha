@@ -1,5 +1,11 @@
 ---
 const year = new Date().getFullYear();
+const socialLinks = [
+  { label: "Facebook", href: "https://www.facebook.com/EchoBuddha/" },
+  { label: "Medium", href: "https://medium.com/@echo_buddha" },
+  { label: "Pinterest", href: "https://www.pinterest.com/echobuddha/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/echobuddha/" }
+];
 ---
 
 <footer class="site-footer">
@@ -7,6 +13,16 @@ const year = new Date().getFullYear();
     <div>
       <a class="footer-brand" href="/">Echo Buddha</a>
       <p>Original Buddhist-inspired wisdom, meditation guidance, and educational reflections for steady daily practice.</p>
+      <nav class="footer-social" aria-labelledby="footer-social-heading">
+        <h2 id="footer-social-heading">Follow Echo Buddha</h2>
+        <div class="footer-social-links">
+          {socialLinks.map(({ label, href }) => (
+            <a href={href} rel="me">
+              {label}<span aria-hidden="true">↗</span>
+            </a>
+          ))}
+        </div>
+      </nav>
     </div>
     <div class="footer-links">
       <nav aria-labelledby="footer-explore-heading">
@@ -75,6 +91,28 @@ const year = new Date().getFullYear();
     line-height: 1.55;
     margin-bottom: 0;
     max-width: 480px;
+  }
+
+  .footer-social {
+    margin-top: 1.15rem;
+  }
+
+  .footer-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 1rem;
+  }
+
+  .site-footer .footer-social-links a {
+    gap: 0.25rem;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+    text-underline-offset: 0.2rem;
+  }
+
+  .footer-social-links a span {
+    color: var(--color-green);
+    font-size: 0.75rem;
   }
 
   .footer-links {
