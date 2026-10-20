@@ -79,6 +79,20 @@ The repository controls:
 Robots operating model: the repository contains the base Google Search crawl policy. Production may be edge-augmented by Cloudflare Managed content-signal and AI crawler rules. Verify production `robots.txt` after deployment.
 Header operating model: `public/_headers` defines Cloudflare Static Assets security headers. Verify production response headers after deployment before claiming they are live.
 
+### IndexNow
+
+Every `npm run build` includes a public IndexNow ownership file and a manifest
+of sitemap page hashes. The production workflow compares the previous live
+manifest with the exact release artifact before deployment, then submits only
+added, changed, or removed sitemap pages after production smoke passes. The
+first release bootstraps all current sitemap URLs. Builds and pull-request CI
+do not submit URLs.
+
+Cloudflare Crawler Hints was already enabled on 2026-10-20, while Bing's
+IndexNow view still displayed onboarding. Direct release submissions provide
+an independently recorded result. See [IndexNow operations](docs/indexnow.md)
+for activation, evidence, retry, and rollback boundaries.
+
 ## Privacy and Analytics
 
 Google Analytics uses the property in `src/data/site.ts`, but it is consent-gated by `src/components/ConsentManager.astro`.

@@ -11,7 +11,7 @@
   "scripts": {
     "prebuild": "node scripts/block-legacy-cloudflare-production-build.mjs",
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/build-with-indexnow.mjs",
     "preview": "astro preview",
     "typecheck": "astro sync && tsc --noEmit",
     "lint": "node scripts/lint-governance.mjs",
@@ -76,7 +76,7 @@
     "devalue": "^5.9.1",
     "postcss": "^8.5.25",
     "js-yaml": "^4.3.2",
-    "sharp": "^0.35.4",
+    "sharp": "^0.35.5",
     "smol-toml": "^1.9.0",
     "source-map-js": "^1.2.2",
     "svgo": "^4.1.0",
