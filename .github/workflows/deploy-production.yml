@@ -112,6 +112,9 @@ jobs:
       - name: Verify artifact SHA and every file digest
         run: node scripts/verify-release-manifest.mjs .release
 
+      - name: Plan IndexNow notifications against current production
+        run: node scripts/indexnow.mjs plan .release/dist .artifacts/indexnow/plan.json
+
       - name: Deploy exact artifact to Cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -129,6 +132,9 @@ jobs:
 
       - name: Run production smoke gate
         run: npm run audit:production-smoke
+
+      - name: Notify IndexNow after successful production verification
+        run: node scripts/indexnow.mjs submit .artifacts/indexnow/plan.json .artifacts/indexnow/result.json
 
       - name: Upload deployment and smoke evidence
         if: always()
