@@ -1,0 +1,22 @@
+{
+  "workflowRun": 39999070011,
+  "sourceSha": "6da7c73f12541271866d1c9feb8fca28cdb38c8a",
+  "result": "SUCCESS",
+  "artifactId": 12521087544,
+  "artifactBytes": 3686,
+  "artifactSha256": "a94f8044af1363acd327354378fea1058aa466ca8123ea463d3a386771ef766a",
+  "crc": "PASS",
+  "exactAllowedFiles": 5,
+  "allFourBingEndpointsHttp200": true,
+  "bingSitemapUrls": 165,
+  "rawCredentialsOrQueryRecordsInArtifact": false,
+  "futureObservationClaimed": false,
+  "decisionGateOpen": false,
+  "revisedObservation": {
+    "start": "2026-10-24",
+    "end": "2026-11-20",
+    "timeZone": "America/Los_Angeles",
+    "status": "AWAITING_POST_DEPLOYMENT_FINALIZED_DATA"
+  },
+  "actualServingWebsiteSha": "67f486a8d990f0058374301d9ebf6fd74ed85994"
+}

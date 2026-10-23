@@ -1,6 +1,6 @@
 # Echo Buddha production transformation — 2026-10-23
 
-Implementation was deployed and live-verified. See `../../../deployments/2026-10-23-production-transformation.md` for the exact source SHA, deployment IDs, test counts, and partial-completion verdict. This document retains the implementation decisions, not a claim that every external or future dependency is complete.
+Implementation was deployed and live-verified. See [production deployment report](../../deployments/2026-10-23-production-transformation.md) for the exact source SHA, deployment IDs, test counts, and partial-completion verdict. This document retains the implementation decisions, not a claim that every external or future dependency is complete.
 
 ## Authority and evidence
 
@@ -50,7 +50,7 @@ The live crawl independently reproduced the supplied October 20 figures: 165 sit
 
 The original 28-day comparison runs September 29–October 26 in Pacific Time, with conservative review from October 29. An early content release and the October 23 GA4 privacy changes intervene in that period. `governance/measurement-interventions.json` records explicit authority, the hashed public baseline, the exact reviewed application-file digests, and the revised comparison strategy. The validation gate still rejects unapproved files or drift and keeps destructive decisions on hold even after the original dates finalize.
 
-Finalized Search Console evidence was available through **October 21** at collection time. The original pre window recorded 43 clicks / 4,445 impressions; the incomplete September 29–October 21 post segment recorded 56 / 3,371. These are different-duration windows and are not presented as a growth comparison. The full retained-history request returned 140 clicks / 11,316 impressions. All six owners were indexed; 13/19 inspected URLs were indexed, while six supporting URLs were crawled but currently not indexed. Inspection does not establish that a page should be removed.
+Finalized Search Console evidence was available through **October 21** at collection time. The original pre window recorded 43 clicks / 4,445 impressions; the incomplete September 29–October 21 post segment recorded 56 / 3,371. These are different-duration windows and are not presented as a growth comparison. The full retained-history request returned 140 clicks / 11,316 impressions. All six owners were indexed. The initial inspection found 13/19 indexed and six supporting URLs crawled but not indexed; the later October 23 inspection found 14/19 indexed and five supporting URLs crawled but not indexed. The changed observation is not attributed to the release. Inspection does not establish that a page should be removed.
 
 After the actual deployment day in Pacific Time, collect 28 stable-release days and allow finalization lag. Compare descriptively with the original pre window and preserved pre-intervention segment. Do not claim clean causal attribution across releases, seasonality, search changes, or low samples. Current canonical inspections, unique content value, external links, and a content-preservation review remain necessary for any future consolidation.
 
