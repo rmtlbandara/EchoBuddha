@@ -3,7 +3,7 @@
   "status": "PASS",
   "phase2Status": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
   "decisionGateOpen": false,
-  "passed": 66,
+  "passed": 67,
   "failed": 0,
   "checks": [
     {
@@ -173,7 +173,7 @@
     },
     {
       "name": "Early release remains non-destructive",
-      "details": "Raster share previews, consistent publisher entity, eight source-grounded guide enhancements, permanent exact slash normalization, release identity, and dependency remediation. No published routes are removed or re-owned.",
+      "details": "Raster share previews, consistent publisher entity, eight source-grounded guide enhancements, permanent exact slash normalization, release identity, and dependency remediation. No published routes are removed or re-owned. Restore the existing noindex HTML error page with HTTP 404 through supported asset not-found handling.",
       "result": "PASS"
     },
     {
@@ -297,13 +297,18 @@
       "result": "PASS"
     },
     {
+      "name": "Reviewed intervention file matches: wrangler.jsonc",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
       "name": "Authorized early intervention prevents clean-window decisions",
       "details": "governance/measurement-interventions.json",
       "result": "PASS"
     },
     {
       "name": "Release candidate matches the explicitly approved file scope",
-      "details": "25 reviewed files; baseline preserved and destructive consolidation held",
+      "details": "26 reviewed files; baseline preserved and destructive consolidation held",
       "result": "PASS"
     },
     {

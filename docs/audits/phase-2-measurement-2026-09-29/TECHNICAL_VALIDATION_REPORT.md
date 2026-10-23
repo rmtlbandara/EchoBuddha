@@ -3,7 +3,7 @@
 ## Verified Phase 1 baseline
 
 - Expected current main: `53125d0be7f2eb517f5992c50e20c4b8c85389d6`
-- Current `origin/main`: `5186b26a79c366d210896de1f1e7da41863b7cb5`
+- Current `origin/main`: `67f486a8d990f0058374301d9ebf6fd74ed85994`
 - Production content SHA: `db1da81b19bc5291829cdafd475645d79c6025f5`
 - Cloudflare deployment: `2e0ab350-8d36-46cd-b036-55fc0bbda40a`
 - Expected sitemap inventory: 165 canonical indexable URLs

@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-10-23T17:50:42.885Z",
+  "deployedSha": "67f486a8d990f0058374301d9ebf6fd74ed85994",
+  "tests": {
+    "unit": 69,
+    "productionSmoke": 15,
+    "sitemapHttp200": 165,
+    "htmlArtifactParity": 350,
+    "slash308WithQuery": 349,
+    "groupedImageRoutingParity": 77,
+    "guideBrowser": 72,
+    "accessibilityRoutes": 18,
+    "consent": 8,
+    "userJourneys": 12
+  },
+  "evidence": [
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/before/inventory.json",
+      "bytes": 2360742,
+      "sha256": "b5e4bb753336fbb6b3cadc6f836976a477e99b0e9bf6ded1694dd5e527712a40"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/inventory.json",
+      "bytes": 2489325,
+      "sha256": "39ecf19dea48c8d61b48467acb00729f5a29aea5726c7d556c64c59a63a44099"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/extra-verification.json",
+      "bytes": 17577,
+      "sha256": "63766b5ec08d8f8431128142a02b36ff6111fe7e789059e9d2fe7a95f0f9d86b"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/guides/results.json",
+      "bytes": 11990,
+      "sha256": "fc48bfaaf7dc38cd9156ae2b0471300ddd5ecad0df2a84ad41ab30f2a0154cc9"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/browser/accessibility-browser-results.json",
+      "bytes": 2403,
+      "sha256": "4a8d6be3fef4ccf54f4a058d9fe601c123bdef80c34dfb5c06abd8f09eb0f067"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/browser/consent-browser-results.json",
+      "bytes": 2377,
+      "sha256": "419bdfd7d9af211cf1ed5454c05f7a220bc08c7ed0770fbe912e03678ea17d58"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final-journeys.json",
+      "bytes": 1470,
+      "sha256": "42aacc3152cfbad31e24099e13a5bc077017dc34dd42b5b853ce8fc73ddb481d"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/after/isolated-performance.json",
+      "bytes": 789,
+      "sha256": "8c48b9a83f8df9d82ab1358faec2a0e953bcbad19ff6f1cc2c0ece0d06950e66"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/github/.artifacts/deployment/deployment-record.json",
+      "bytes": 477,
+      "sha256": "9089fa66719e11357300559601d2b5724c363674e87efe25368ef07f68c627fe"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/github/.artifacts/production-smoke/production-smoke-results.json",
+      "bytes": 2274,
+      "sha256": "ff14795d8e0cc552566dfc9b89f64fef7d0e7de77071a8719dfb59dcdb2f16ca"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/github/.release/release-manifest.json",
+      "bytes": 158581,
+      "sha256": "32d69c37287e07b8393f6d4fade7a14de8cd5412b277efc9dbc2658580674a40"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/final/github/.artifacts/indexnow/result.json",
+      "bytes": 47,
+      "sha256": "0e5358a95ee754fb122f3cf90ac5ed60e2046e9bc474b4bbf4d3f012602ccaa1"
+    },
+    {
+      "privateEvidencePath": ".artifacts/transformation-2026-10-23/github-archive/archive-manifest.json",
+      "bytes": 948,
+      "sha256": "d82aac9eb8ada7a43c66f6a3efc32479a5d969e2c53e2c1070b975a9d0f2df67"
+    }
+  ]
+}

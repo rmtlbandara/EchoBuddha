@@ -18,7 +18,7 @@ As of 2026-10-23, the required 2026-09-29–2026-10-26 finalized post window is 
 
 - Starting/current main: `53125d0be7f2eb517f5992c50e20c4b8c85389d6`
 - Production content: `db1da81b19bc5291829cdafd475645d79c6025f5`
-- Phase 2 branch baseline: `5186b26a79c366d210896de1f1e7da41863b7cb5`
+- Phase 2 branch baseline: `67f486a8d990f0058374301d9ebf6fd74ed85994`
 - Production change in Release A: none
 
 ## Next evidence checkpoint

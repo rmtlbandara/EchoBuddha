@@ -65,6 +65,7 @@ jobs:
             docs/audits/phase-2-measurement-2026-09-29/PHASE_2_STATUS.json
             docs/audits/phase-2-measurement-2026-09-29/CLUSTER_TOTAL_PERFORMANCE.csv
             docs/audits/phase-2-measurement-2026-09-29/GSC_PERFORMANCE_SUMMARY.md
+          include-hidden-files: true
           retention-days: 7
           if-no-files-found: error
       - name: Remove private inputs from the runner

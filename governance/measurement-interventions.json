@@ -3,7 +3,7 @@
   "interventions": [
     {
       "id": "production-transformation-2026-10-23",
-      "status": "AUTHORIZED_FOR_RELEASE",
+      "status": "DEPLOYED",
       "authorizedBy": "Echo Buddha project owner via the 2026-10-23 explicit production transformation request",
       "authorizedOn": "2026-10-23",
       "baselineSha": "5186b26a79c366d210896de1f1e7da41863b7cb5",
@@ -11,8 +11,8 @@
       "baselineEvidenceSha256": "001a7e9fbb60efcf9ff73992b6046a2f205a22cc93b7206ee2031cf29bccebcc",
       "measurementImpact": "The original September 29\u2013October 26 period is intervened when this release reaches production. Do not treat it as a clean causal comparison or unlock destructive consolidation from it.",
       "plannedReleaseDate": "2026-10-23",
-      "productionDeployedAt": null,
-      "productionSha": null,
+      "productionDeployedAt": "2026-10-23T12:23:55.359998Z",
+      "productionSha": "67f486a8d990f0058374301d9ebf6fd74ed85994",
       "publicRouteRemovals": 0,
       "indexStateChanges": 0,
       "ownerChanges": 0,
@@ -78,8 +78,24 @@
           "deploymentId": "4cb8eb15-1f15-4554-8fa9-8e0c0e643dc9",
           "versionId": "db0c5ba7-45ff-46a2-81f3-a32b074674a5",
           "verification": "15/15 original smoke checks and full content/image/redirect parity passed; expanded browser verification found a pre-existing empty 404 response, handled by a fix-forward."
+        },
+        {
+          "sha": "67f486a8d990f0058374301d9ebf6fd74ed85994",
+          "deployedAt": "2026-10-23T12:23:55.359998Z",
+          "deploymentId": "20292ccb-9cd7-42f5-9201-b55f3fa7356c",
+          "versionId": "1da4620c-a00b-4a5a-b5a5-97f52933dbda",
+          "verification": "15/15 strengthened smoke checks; 165/165 sitemap HTTP 200; 350 HTML responses match the artifact; 349 exact 308 redirects; 72 cross-browser guide checks, 18 accessibility routes, 8 consent scenarios and 12 user journeys passed."
         }
-      ]
+      ],
+      "revisedObservationDates": {
+        "timeZone": "America/Los_Angeles",
+        "excludedDeploymentDay": "2026-10-23",
+        "start": "2026-10-24",
+        "end": "2026-11-20",
+        "earliestFinalizedReview": "2026-11-23",
+        "state": "FUTURE_DATA_REQUIRED",
+        "condition": "Requires a stable release, actually finalized evidence, and a separately reviewed consolidation decision. A later material release restarts this observation window."
+      }
     }
   ]
 }
