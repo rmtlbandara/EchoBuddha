@@ -22,3 +22,12 @@ test("slash redirects enumerate actual HTML routes without catching assets or un
     assert.throws(() => prepareReleaseAssets(directory, { sha: "main" }), /full Git SHA/);
   } finally { fs.rmSync(directory, { recursive: true, force: true }); }
 });
+
+test("unknown production paths serve the existing noindex HTML error page with a 404 status", () => {
+  const config = JSON.parse(fs.readFileSync("wrangler.jsonc", "utf8"));
+  assert.equal(config.assets.not_found_handling, "404-page");
+  const html = fs.readFileSync("dist/404.html", "utf8");
+  assert.match(html, /<h1\b/);
+  assert.match(html, /name="robots" content="noindex, follow"/);
+  assert.doesNotMatch(html, /rel="canonical"/);
+});

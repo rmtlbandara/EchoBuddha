@@ -61,7 +61,8 @@
     "validate:rc": "npm run build && npm run generate:phase1:intent && npm run audit:phase1:intent && npm run audit:phase2:measurement:rc && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries",
     "validate:release": "npm run validate:rc && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies",
     "audit:guides:browser": "node scripts/validate-topic-guides-browser.mjs",
-    "audit:production-crawl": "node scripts/crawl-production.mjs"
+    "audit:production-crawl": "node scripts/crawl-production.mjs",
+    "collect:bing": "node scripts/collect-bing.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5"
