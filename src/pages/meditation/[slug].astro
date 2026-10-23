@@ -1,4 +1,7 @@
 ---
+import TopicGuide from "../../components/TopicGuide.astro";
+import { getTopicGuide } from "../../data/topicGuides";
+import { getShareImage } from "../../data/brand";
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
@@ -28,6 +31,8 @@ export function getStaticPaths() {
 
 const { page } = Astro.props as { page: LearningPage };
 const canonicalPath = `/meditation/${page.slug}/`;
+const topicGuide = getTopicGuide(canonicalPath);
+const shareImage = getShareImage(canonicalPath);
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
@@ -36,6 +41,11 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${SITE.url}${canonicalPath}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${canonicalPath}` },
+    image: `${SITE.url}${shareImage.path}`,
+    dateModified: topicGuide?.modifiedDate,
+    citation: sourceLinks.map((source) => source.href),
     headline: page.title,
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
@@ -51,7 +61,7 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={page.title} description={page.description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+<Layout title={page.title} description={page.description} canonicalPath={canonicalPath} type="article" modifiedDate={topicGuide?.modifiedDate} jsonLd={jsonLd}>
   <article>
     <header class="page-hero">
       <div class="container prose">
@@ -112,7 +122,8 @@ const jsonLd = [
             <p>{qualityNote.question}</p>
           </aside>
         )}
-	        {sourceLinks.length > 0 && (
+	        <TopicGuide route={canonicalPath} />
+        {sourceLinks.length > 0 && (
           <section>
             <h2>Practice Sources</h2>
             <ul class="source-list">

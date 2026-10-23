@@ -1,4 +1,7 @@
 ---
+import TopicGuide from "../../components/TopicGuide.astro";
+import { getTopicGuide } from "../../data/topicGuides";
+import { getShareImage } from "../../data/brand";
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
@@ -53,10 +56,16 @@ const sourceLinks = [
     note: "Analyzes the Noble Eightfold Path that forms the fourth truth. Translation terminology varies by translator."
   }
 ];
+const topicGuide = getTopicGuide(canonicalPath);
 const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${SITE.url}${canonicalPath}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${canonicalPath}` },
+    dateModified: topicGuide?.modifiedDate,
+    image: `${SITE.url}${getShareImage(canonicalPath).path}`,
+    citation: sourceLinks.map((source) => source.href),
     headline: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
@@ -75,7 +84,7 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" modifiedDate={topicGuide?.modifiedDate} jsonLd={jsonLd}>
   <article>
     <header class="page-hero">
       <div class="container prose">
@@ -140,6 +149,7 @@ const jsonLd = [
           mean not to feed that demand for one moment; and which path factor would support the next response. Do not use
           the exercise to blame yourself for pain or to avoid action on injustice, illness, or unsafe conditions.
         </p>
+        <TopicGuide route={canonicalPath} />
         <h2>Source Notes</h2>
         <p>
           The framework and four tasks are grounded in SN 56.11. The definitions, workplace example, and practice are

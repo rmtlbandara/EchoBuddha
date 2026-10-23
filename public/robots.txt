@@ -8,3 +8,21 @@ User-agent: *
 Allow: /
 
 Sitemap: https://echobuddha.com/sitemap.xml
+
+# Mirror the existing Cloudflare training-crawler restrictions. Search and
+# user-initiated agents continue under the Allow policy above; an agent string
+# is a request for cooperation, not authenticated crawler identity.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /

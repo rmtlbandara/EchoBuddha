@@ -5,9 +5,11 @@
 - Reporting timezone: Pacific Time, matching standard Search Console reporting.
 - Clean pre window: 2026-08-31 through 2026-09-27 (28 days).
 - Transition day excluded: 2026-09-28 PT.
-- Clean post window: 2026-09-29 through 2026-10-26 (28 days).
+- Original post window: 2026-09-29 through 2026-10-26 (28 days).
+- Intervention authorized: true. The original post window must not be treated as a clean comparison after the authorized release. The decision gate stays closed even when all original dates finalize.
+- Actual deployment time and revised comparison: see governance/measurement-interventions.json and the transformation deployment record.
 - Earliest conservative decision review: 2026-10-29, allowing for Search Console finalization lag.
-- Only rows marked `final` may unlock a destructive decision review.
+- Finalized rows are necessary but not sufficient: an intervened window cannot unlock destructive decision review.
 
 ## Evidence acquisition
 

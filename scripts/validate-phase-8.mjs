@@ -140,8 +140,11 @@ check("Redirects", "Only approved permanent content and legacy redirects are emi
   ];
   const normalize = (content) => content.split("\n").map((line) => line.trim()).filter((line) => line && !line.startsWith("#"));
   assert.deepEqual(normalize(read("public/_redirects")), expected);
-  assert.deepEqual(normalize(read("dist/_redirects")), expected);
-  return "3/3 approved permanent one-hop redirects; no hostname rule added";
+  const changes = JSON.parse(read("governance/release-change-approvals.json")).changes;
+  assert.ok(changes.some((change) => change.approved && change.type === "technical-redirect" && change.date === "2026-10-23" && change.target.includes("generated exact 308 rules")), "slash normalization needs explicit approval");
+  const canonicalRules = walk(path.join(root, "dist")).filter((file) => file.endsWith(`${path.sep}index.html`)).map((file) => path.relative(path.join(root, "dist"), path.dirname(file)).split(path.sep).join("/")).filter((route) => route && !/[.%\s?#]/.test(route)).map((route) => `/${route} /${route}/ 308`).sort();
+  assert.deepEqual(normalize(read("dist/_redirects")), [...expected, ...canonicalRules]);
+  return `3/3 approved migrations plus ${canonicalRules.length} exact canonical slash redirects; no wildcard/hostname rule added`;
 });
 check("Exposure", "No source maps or private dotfiles are emitted", () => {
   const emitted = walk(path.join(root, "dist"));

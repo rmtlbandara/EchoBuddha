@@ -8,7 +8,8 @@ import {
   PHASE_1,
   PRIVATE_EVIDENCE_DIR,
   WATCHLIST,
-  parseCsv
+  parseCsv,
+  sha256File
 } from "./phase-2-measurement-lib.mjs";
 
 const failures = [];
@@ -70,7 +71,7 @@ check(status.phase1MainSha === PHASE_1.mainSha, "Phase 1 main baseline is pinned
 check(status.phase1ProductionContentSha === PHASE_1.contentSha, "Production content baseline is pinned", status.phase1ProductionContentSha);
 check(baseline.productionContentSha === PHASE_1.contentSha && baseline.repositoryMain === PHASE_1.mainSha, "Independent production baseline record matches Phase 1", `${baseline.repositoryMain} / ${baseline.productionContentSha}`);
 check(baseline.productionSmoke === "PASS" && baseline.monitoredArtifactParity?.passed === 19 && baseline.monitoredArtifactParity?.byteForByte === true, "Live baseline smoke and monitored artifact parity passed", `${baseline.monitoredArtifactParity?.passed}/${baseline.monitoredArtifactParity?.total}`);
-check(baseline.materialContentReleasesAfterPhase1 === 0, "No later material content release contaminated the observation window", String(baseline.materialContentReleasesAfterPhase1));
+check(baseline.materialContentReleasesAfterPhase1 === 0, "Historical October 4 snapshot records zero later material releases at capture time", String(baseline.materialContentReleasesAfterPhase1));
 check(baseline.dependencyAudit?.total === 0, "Release dependency audit has zero known vulnerabilities", JSON.stringify(baseline.dependencyAudit));
 check(status.preWindow.start === PHASE_1.preStart && status.preWindow.end === PHASE_1.preEnd && status.preWindow.expectedDays === 28, "Pre window is exact", `${status.preWindow.start}..${status.preWindow.end}`);
 check(status.transitionDay.date === PHASE_1.transitionDayPt && status.transitionDay.excluded === true, "Transition day is excluded", status.transitionDay.date);
@@ -139,12 +140,27 @@ if (localReleaseCandidate) {
     "ls-files", "--others", "--exclude-standard", "--", "src", "public", "astro.config.*", "wrangler.*"
   ], { encoding: "utf8" }).trim().split("\n").filter(Boolean);
   const completeApplicationDiff = [...new Set([...releaseCandidateApplicationDiff, ...untrackedApplicationFiles])];
+  const register = JSON.parse(fs.readFileSync("governance/measurement-interventions.json", "utf8"));
+  const interventionFiles = new Map();
+  for (const intervention of register.interventions) {
+    if (intervention.status === "CANCELLED") continue;
+    const baselineMatches = fs.existsSync(intervention.baselineEvidence)
+      && sha256File(intervention.baselineEvidence) === intervention.baselineEvidenceSha256;
+    check(baselineMatches && /^[a-f0-9]{40}$/.test(intervention.baselineSha), "Intervention preserves a hashed production baseline", intervention.id);
+    check(Boolean(intervention.authorizedBy) && /^\d{4}-\d{2}-\d{2}$/.test(intervention.authorizedOn), "Intervention has explicit owner authorization and date", intervention.id);
+    check(intervention.publicRouteRemovals === 0 && intervention.indexStateChanges === 0 && intervention.ownerChanges === 0 && intervention.canonicalChanges === 0, "Early release remains non-destructive", intervention.scope);
+    for (const [file, hash] of Object.entries(intervention.approvedApplicationFiles)) {
+      check(fs.existsSync(file) && sha256File(file) === hash, `Reviewed intervention file matches: ${file}`, intervention.id);
+      interventionFiles.set(file, hash);
+    }
+  }
+  check(status.observationIntervened === true && !status.decisionGateOpen, "Authorized early intervention prevents clean-window decisions", status.interventionRegister);
   const unapprovedApplicationChanges = completeApplicationDiff
-    .filter((file) => !approvedPresentationFiles.has(file));
+    .filter((file) => !approvedPresentationFiles.has(file) && !interventionFiles.has(file));
   check(
     unapprovedApplicationChanges.length === 0,
-    "Local release candidate is isolated to the approved presentation file set",
-    unapprovedApplicationChanges.join(", ") || `${completeApplicationDiff.length} approved presentation files; no content, indexation, redirect, analytics, consent, advertising, or deployment configuration changes`
+    "Release candidate matches the explicitly approved file scope",
+    unapprovedApplicationChanges.join(", ") || `${completeApplicationDiff.length} reviewed files; baseline preserved and destructive consolidation held`
   );
 } else {
   check(applicationDiff.length === 0, "Release A does not change public content or runtime behavior", applicationDiff.join(", ") || "no application diff");

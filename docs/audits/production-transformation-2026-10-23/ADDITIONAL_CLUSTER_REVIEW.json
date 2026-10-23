@@ -1,0 +1,504 @@
+{
+  "generatedAt": "2026-10-23T11:14:37.391Z",
+  "groups": [
+    {
+      "name": "Mindfulness / Sati",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/beginning-a-daily-mindfulness-practice/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+          "mainWords": 1333
+        },
+        {
+          "route": "/articles/category/mindfulness/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/category/mindfulness/",
+          "mainWords": 293
+        },
+        {
+          "route": "/articles/mindfulness-for-better-sleep/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+          "mainWords": 1436
+        },
+        {
+          "route": "/articles/mindfulness-morning-routine/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+          "mainWords": 1381
+        },
+        {
+          "route": "/articles/mindfulness-of-breathing-guide/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+          "mainWords": 1492
+        },
+        {
+          "route": "/articles/mindfulness-vs-meditation/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+          "mainWords": 1719
+        },
+        {
+          "route": "/learn/buddhism-101/what-is-mindfulness/",
+          "role": "Learning introduction or navigation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+          "mainWords": 350
+        },
+        {
+          "route": "/learn/buddhist-dictionary/mindfulness/",
+          "role": "Concise term reference",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+          "mainWords": 195
+        },
+        {
+          "route": "/learn/buddhist-dictionary/sati/",
+          "role": "Concise term reference",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+          "mainWords": 213
+        },
+        {
+          "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+          "role": "Source study",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+          "mainWords": 291
+        },
+        {
+          "route": "/meditation/mindfulness-in-daily-life/",
+          "role": "Practice instructions",
+          "status": 200,
+          "canonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+          "mainWords": 366
+        },
+        {
+          "route": "/quotes/mindfulness/",
+          "role": "Original editorial quotes",
+          "status": 200,
+          "canonical": "https://echobuddha.com/quotes/mindfulness/",
+          "mainWords": 552
+        }
+      ]
+    },
+    {
+      "name": "Compassion / Karuṇā",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/compassion-as-a-daily-discipline/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+          "mainWords": 1346
+        },
+        {
+          "route": "/articles/compassion-in-buddhism-beginner-guide/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+          "mainWords": 1341
+        },
+        {
+          "route": "/articles/compassion-with-boundaries/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+          "mainWords": 1087
+        },
+        {
+          "route": "/learn/buddhist-dictionary/compassion/",
+          "role": "Concise term reference",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+          "mainWords": 200
+        },
+        {
+          "route": "/learn/buddhist-dictionary/karuna/",
+          "role": "Concise term reference",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+          "mainWords": 200
+        },
+        {
+          "route": "/quotes/compassion/",
+          "role": "Original editorial quotes",
+          "status": 200,
+          "canonical": "https://echobuddha.com/quotes/compassion/",
+          "mainWords": 518
+        }
+      ]
+    },
+    {
+      "name": "Karma / Kamma",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/what-is-karma-in-buddhism/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+          "mainWords": 1671
+        },
+        {
+          "route": "/learn/buddhism-101/what-is-karma-in-buddhism/",
+          "role": "Learning introduction or navigation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+          "mainWords": 708
+        },
+        {
+          "route": "/learn/buddhist-dictionary/karma/",
+          "role": "Concise term reference",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+          "mainWords": 234
+        }
+      ]
+    },
+    {
+      "name": "Right Speech",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/right-speech-buddhism/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+          "mainWords": 1972
+        },
+        {
+          "route": "/articles/right-speech-examples/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/right-speech-examples/",
+          "mainWords": 1349
+        },
+        {
+          "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+          "role": "Source study",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+          "mainWords": 259
+        }
+      ]
+    },
+    {
+      "name": "Mindfulness of Breathing",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/mindfulness-of-breathing-guide/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+          "mainWords": 1492
+        },
+        {
+          "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+          "role": "Source study",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+          "mainWords": 291
+        },
+        {
+          "route": "/meditation/breathing-meditation/",
+          "role": "Practice instructions",
+          "status": 200,
+          "canonical": "https://echobuddha.com/meditation/breathing-meditation/",
+          "mainWords": 656
+        }
+      ]
+    },
+    {
+      "name": "Patience",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/three-ways-to-practice-patience/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+          "mainWords": 1321
+        },
+        {
+          "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+          "role": "Source study",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+          "mainWords": 261
+        },
+        {
+          "route": "/quotes/patience/",
+          "role": "Original editorial quotes",
+          "status": 200,
+          "canonical": "https://echobuddha.com/quotes/patience/",
+          "mainWords": 559
+        }
+      ]
+    },
+    {
+      "name": "Five Precepts",
+      "decision": "RETAIN_DISTINCT_PENDING_FINALIZED_QUERY_AND_CANONICAL_REVIEW",
+      "reason": "Definition, source-study, practice, and application jobs are distinct. No low-impression or word-count removal is authorized.",
+      "routes": [
+        {
+          "route": "/articles/five-precepts-in-daily-life/",
+          "role": "Supporting application or extended explanation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+          "mainWords": 2194
+        },
+        {
+          "route": "/learn/buddhism-101/five-precepts-buddhism/",
+          "role": "Learning introduction or navigation",
+          "status": 200,
+          "canonical": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+          "mainWords": 1364
+        }
+      ]
+    }
+  ],
+  "conciseReferenceReview": [
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "role": "Concise term reference",
+      "mainWords": 378,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/glossary.html",
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anatta/",
+      "role": "Concise term reference",
+      "mainWords": 250,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.than.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/anicca/",
+      "role": "Concise term reference",
+      "mainWords": 221,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/compassion/",
+      "role": "Concise term reference",
+      "mainWords": 200,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/dukkha/",
+      "role": "Concise term reference",
+      "mainWords": 249,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karma/",
+      "role": "Concise term reference",
+      "mainWords": 234,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://suttacentral.net/an6.63/en/sujato"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/karuna/",
+      "role": "Concise term reference",
+      "mainWords": 200,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/mindfulness/",
+      "role": "Concise term reference",
+      "mainWords": 195,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/nirvana/",
+      "role": "Concise term reference",
+      "mainWords": 222,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/pali-canon/",
+      "role": "Concise term reference",
+      "mainWords": 337,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/index.html",
+        "https://www.accesstoinsight.org/tipitaka/sutta.html",
+        "https://www.accesstoinsight.org/tipitaka/vin/",
+        "https://www.accesstoinsight.org/tipitaka/abhi/index.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sangha/",
+      "role": "Concise term reference",
+      "mainWords": 263,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
+        "https://www.dhammatalks.org/suttas/SN/SN45_2.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sati/",
+      "role": "Concise term reference",
+      "mainWords": 213,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html"
+      ]
+    },
+    {
+      "route": "/learn/buddhist-dictionary/sutta/",
+      "role": "Concise term reference",
+      "mainWords": 291,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://suttacentral.net/define/sutta",
+        "https://www.accesstoinsight.org/tipitaka/sutta.html"
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "role": "Verse reflection",
+      "mainWords": 253,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "role": "Verse reflection",
+      "mainWords": 370,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "role": "Verse reflection",
+      "mainWords": 324,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.08.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "role": "Verse reflection",
+      "mainWords": 307,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "role": "Verse reflection",
+      "mainWords": 312,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.03.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "role": "Verse reflection",
+      "mainWords": 322,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "role": "Source study",
+      "mainWords": 353,
+      "decision": "Retain concise reference/reflection purpose; word count alone does not establish a usefulness defect.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
+        "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html"
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "role": "Source study",
+      "mainWords": 261,
+      "decision": "Review contextual scope and source distinctions; preserve exact identifier and related practice routes.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html"
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "role": "Source study",
+      "mainWords": 316,
+      "decision": "Review contextual scope and source distinctions; preserve exact identifier and related practice routes.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html"
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "role": "Source study",
+      "mainWords": 291,
+      "decision": "Review contextual scope and source distinctions; preserve exact identifier and related practice routes.",
+      "references": [
+        "https://www.accesstoinsight.org/tipitaka/mn/mn.118.than.html"
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "role": "Source study",
+      "mainWords": 259,
+      "decision": "Review contextual scope and source distinctions; preserve exact identifier and related practice routes.",
+      "references": [
+        "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html"
+      ]
+    }
+  ]
+}

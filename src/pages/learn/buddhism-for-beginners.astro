@@ -1,4 +1,7 @@
 ---
+import TopicGuide from "../../components/TopicGuide.astro";
+import { getTopicGuide } from "../../data/topicGuides";
+import { getShareImage } from "../../data/brand";
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import { SITE } from "../../data/site";
@@ -65,10 +68,16 @@ const faqItems = [
     answer: "You can begin by learning, reflecting, and practicing carefully. Echo Buddha presents beginner-friendly educational material rather than asking for blind belief."
   }
 ];
+const topicGuide = getTopicGuide(canonicalPath);
 const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+    "@id": `${SITE.url}${canonicalPath}#collection`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${canonicalPath}` },
+    dateModified: topicGuide?.modifiedDate,
+    image: `${SITE.url}${getShareImage(canonicalPath).path}`,
+    citation: sourceLinks.map((source) => source.href),
     name: title,
     description,
     url: `${SITE.url}${canonicalPath}`
@@ -134,6 +143,8 @@ const jsonLd = [
       </p>
     </div>
   </section>
+
+  <section class="section section--tight"><div class="container prose"><TopicGuide route={canonicalPath} /></div></section>
 
   <section class="section section--tight">
     <div class="container">

@@ -35,6 +35,11 @@ const get = (pathname, options = {}) => fetch(`${origin}${pathname}`, {
   headers: { "user-agent": "EchoBuddha-Phase9-Smoke/1.0" },
 });
 
+const identityResponse = await get("/release.json");
+let identity = {};
+try { identity = await identityResponse.json(); } catch { /* A missing identity fails below. */ }
+check("release-identity", identityResponse.status === 200 && /^[a-f0-9]{40}$/.test(identity.sha || "") && (!process.env.RELEASE_SHA || identity.sha === process.env.RELEASE_SHA), `${identityResponse.status}; serving ${identity.sha || "unverified"}`);
+
 const homeResponse = await get("/");
 const home = await homeResponse.text();
 check("homepage", homeResponse.status === 200 && /<h1\b/i.test(home), `${homeResponse.status}; H1 ${/<h1\b/i.test(home)}`);
@@ -98,6 +103,7 @@ const result = {
   generatedAt: new Date().toISOString(),
   origin,
   sha: process.env.RELEASE_SHA || "not-provided",
+  deployedIdentity: identity,
   workflowRunId: process.env.GITHUB_RUN_ID || "local",
   total: checks.length,
   passed: checks.length - failures.length,

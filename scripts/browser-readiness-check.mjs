@@ -190,6 +190,32 @@ async function runConsentChecks(browser) {
   });
   await rejectContext.close();
 
+  const privateSearchContext = await browser.newContext();
+  await makeExternalGoogleRequestsDeterministic(privateSearchContext);
+  const privateSearchPage = await privateSearchContext.newPage();
+  await loadAuditPage(privateSearchPage, `${baseUrl}/search/?q=privacy-test%40example.invalid#private-fragment`);
+  await privateSearchPage.locator("[data-consent-accept]").click();
+  const searchRoot = privateSearchPage.locator('[data-search-mode="page"]');
+  await searchRoot.locator("[data-search-input]").fill("privacy-test@example.invalid");
+  await searchRoot.locator('button[type="submit"]').click();
+  const analyticsCommands = await privateSearchPage.evaluate(() => (window.dataLayer || []).map(command => Array.from(command)));
+  const configuration = analyticsCommands.find(command => command[0] === "config");
+  const searchEvents = analyticsCommands.filter(command => command[0] === "event" && command[1] === "search_used");
+  const serializedCommands = JSON.stringify(analyticsCommands);
+  results.scenarios.push({
+    name: "consented search use excludes query text, URL parameters, and fragments",
+    pass: configuration?.[2]?.page_location === `${baseUrl}/search/` && searchEvents.length === 1
+      && searchEvents[0][2]?.search_surface === "page"
+      && !serializedCommands.includes("privacy-test") && !serializedCommands.includes("private-fragment"),
+    details: { queryTextSent: serializedCommands.includes("privacy-test"), searchUseEvents: searchEvents.length, sanitizedPageLocation: configuration?.[2]?.page_location }
+  });
+  await privateSearchPage.locator("[data-privacy-settings]").first().click();
+  await privateSearchPage.locator("[data-consent-reject]").click();
+  await searchRoot.locator('button[type="submit"]').click();
+  const eventsAfterWithdrawal = await privateSearchPage.evaluate(() => (window.dataLayer || []).filter(command => command[0] === "event" && command[1] === "search_used").length);
+  results.scenarios.push({ name: "withdrawal stops aggregate search measurement", pass: eventsAfterWithdrawal === searchEvents.length, details: { eventsBeforeWithdrawal: searchEvents.length, eventsAfterWithdrawal } });
+  await privateSearchContext.close();
+
   const mobileContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
   await makeExternalGoogleRequestsDeterministic(mobileContext);
   await mobileContext.addInitScript(({ key, version }) => {

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "interventions": [
+    {
+      "id": "production-transformation-2026-10-23",
+      "status": "AUTHORIZED_FOR_RELEASE",
+      "authorizedBy": "Echo Buddha project owner via the 2026-10-23 explicit production transformation request",
+      "authorizedOn": "2026-10-23",
+      "baselineSha": "5186b26a79c366d210896de1f1e7da41863b7cb5",
+      "baselineEvidence": "docs/audits/production-transformation-2026-10-23/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "001a7e9fbb60efcf9ff73992b6046a2f205a22cc93b7206ee2031cf29bccebcc",
+      "measurementImpact": "The original September 29\u2013October 26 period is intervened when this release reaches production. Do not treat it as a clean causal comparison or unlock destructive consolidation from it.",
+      "plannedReleaseDate": "2026-10-23",
+      "productionDeployedAt": null,
+      "productionSha": null,
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Raster share previews, consistent publisher entity, eight source-grounded guide enhancements, permanent exact slash normalization, release identity, and dependency remediation. No published routes are removed or re-owned.",
+      "approvedApplicationFiles": {
+        "src/components/SEO.astro": "301cf68f04c8312bca04fabbf9c292c2459d0a4d61490c97cbb00b06b1c62949",
+        "src/components/TopicGuide.astro": "8400fd0f63f57187e596fa8b1545e3d25bc8ead584be9393aedcdaed80cc1a30",
+        "src/data/brand.ts": "2495e47d564733c90e427b06186383ada3c8bdb8fd67885c80aacac68427e6d6",
+        "src/data/topicGuides.ts": "576365b53ea0d1197ae1eb1c557fe2f52ecd885b8b7667794247a85d1a351d0b",
+        "src/data/editorialGovernance.ts": "43a0e3d3997610ca619d4d7b42b196f953deb57a5959a8b96a4dd719ebc353cc",
+        "src/pages/articles/[slug].astro": "c80125713f71f2cc51c3db3fa16b563e77b150f7c36d33fa5f6ab73015e9fb7a",
+        "src/pages/learn/[section]/[slug].astro": "9ce38057daf2043e4b9c42ca07041574b77f571424724fcf97b6299c81977a5e",
+        "src/pages/meditation/[slug].astro": "be4fecb53deaf759502c3befc660f765fdf6db635e5c8b0e149a6d389a5edfc2",
+        "src/pages/learn/four-noble-truths.astro": "fbe6f58d2f8a4bb369c540668e66d946d6c76e58983aad41e8dc41bdf8b68dba",
+        "src/pages/learn/eightfold-path.astro": "7a2116e529c27ba79bc8c41e99e3d66455b8bd13f4bbb3b87a8003a4eb5761cb",
+        "src/pages/learn/buddhism-for-beginners.astro": "8ad243a180472b6245d25a5ea5469b605b67c7ed86558e2799693e14db3b57c4",
+        "public/og-default.png": "606c19601a31563e4c46f6afd28da12aeb669761949df8d2fc4a4b5ad77a635e",
+        "public/og-learn.png": "8ea09eafc1deced34febf7f2ddab9addfc8a130d1d8fc753d0b3a2e870dd7141",
+        "public/og-meditation.png": "82dcd023d88e229a3de13fe11c4ec6bdb6da31377be923216ee4f3a58e034b78",
+        "public/og-quotes.png": "9edf2608be5e1c423f050f7a28d471aa885935bda1711d0f40fe9f1d77d46709",
+        "public/og-handbook.png": "ce27ce4c85c21b4a6d2de2882ecde9372a1575e4bcd72cd94f1cfbef6ea8fcb0",
+        "public/images/publisher-logo.png": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+        "public/images/publisher-logo.svg": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd",
+        "src/styles/global.css": "0b9695362d25efcd13506b217484ccd5269a5a35f4dcf8fd0c69d4e064cfe33c",
+        "src/data/sourceStudyNotes.ts": "cff706217f72d45738ae29452106023ca47a74f9171b4a5a6e83bd3024240580",
+        "src/data/learn.ts": "58a7f122f14454eca1c2b901d6aa4eb635ad1e2000c58b408535370c5fde58fa",
+        "src/components/ConsentManager.astro": "021075bf600404a87e12d6344f6a92e88e45d981773702250a766310d20ad4e2",
+        "public/search.js": "006587af1615bdee663c56811d86ef58ab85f785bc7400a964d80bd432b94cb9",
+        "public/robots.txt": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1"
+      },
+      "revisedComparison": "Retain the original pre window and the pre-intervention post segment as descriptive evidence. Exclude the actual deployment day in Pacific Time, then collect a new 28-day stable-release window starting the next Pacific day. Do not attribute differences causally; require finalized data, current canonical inspections, and a separate reviewed decision before consolidation.",
+      "materiallyRevisedRoutes": [
+        "/learn/four-noble-truths/",
+        "/learn/eightfold-path/",
+        "/learn/buddhism-for-beginners/",
+        "/learn/buddhism-101/what-is-impermanence/",
+        "/meditation/meditation-for-beginners/",
+        "/meditation/loving-kindness-meditation/",
+        "/learn/buddhism-101/five-precepts-buddhism/",
+        "/learn/buddhism-101/three-marks-of-existence/",
+        "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+        "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+        "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+        "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/"
+      ],
+      "externalInterventions": [
+        {
+          "service": "Google Analytics 4",
+          "observedOn": "2026-10-23",
+          "scope": "Stream 15143247803 / G-6QB396HNKN: automatic raw site-search and history-based pageviews disabled; email redaction retained; q, s, search, query, keyword, email, token query keys redacted.",
+          "state": "VERIFIED_SAVED",
+          "evidence": "Private local browser screenshots and authenticated DOM observations; no account credentials committed.",
+          "verifiedAt": "2026-10-23T11:21:23.040724+00:00",
+          "changeTimeBasis": "Changed and independently reopened on October 23; verifiedAt is the retained screenshot verification time, not an invented exact mutation timestamp."
+        }
+      ]
+    }
+  ]
+}
