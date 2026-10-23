@@ -132,7 +132,16 @@ const isProduction = import.meta.env.PROD;
         script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analyticsId)}`;
         document.head.appendChild(script);
         window.gtag("js", new Date());
-        window.gtag("config", analyticsId, { anonymize_ip: true });
+        // Search queries and fragments can contain private text. Keep them out of
+        // page metadata as well as the aggregate search-use event below.
+        const withoutPrivateParameters = (value) => {
+          try { const url = new URL(value); return `${url.origin}${url.pathname}`; } catch { return ""; }
+        };
+        window.gtag("config", analyticsId, {
+          anonymize_ip: true,
+          page_location: withoutPrivateParameters(window.location.href),
+          page_referrer: withoutPrivateParameters(document.referrer)
+        });
       };
 
       const acceptAnalytics = () => {
@@ -160,6 +169,10 @@ const isProduction = import.meta.env.PROD;
         open: openPanel,
         acceptAnalytics,
         rejectAnalytics,
+        trackSearchUsed: (surface) => {
+          if (!analyticsLoaded || readPreference()?.analytics !== true || !["page", "overlay"].includes(surface)) return;
+          window.gtag("event", "search_used", { search_surface: surface });
+        },
         getPreference: readPreference
       };
 

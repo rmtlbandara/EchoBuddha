@@ -67,6 +67,7 @@ async function apiFetch(url, options = {}, attempt = 0) {
   const token = await refreshAccessToken(attempt > 0);
   const response = await fetch(url, {
     ...options,
+    signal: AbortSignal.timeout(30_000),
     headers: { ...(options.headers ?? {}), authorization: `Bearer ${token}` }
   });
   if (response.status === 401 && attempt === 0) return apiFetch(url, options, 1);
@@ -152,11 +153,29 @@ function windowDefinitions(finalizedEndDate) {
     }
   };
   definitions.post.available = finalizedEndDate >= PHASE_1.postStart;
+  const retentionStart = new Date(`${finalizedEndDate}T00:00:00Z`);
+  retentionStart.setUTCMonth(retentionStart.getUTCMonth() - 16);
+  definitions.history = { startDate: retentionStart.toISOString().slice(0, 10), endDate: finalizedEndDate, complete: true };
+  const registerPath = "governance/measurement-interventions.json";
+  if (fs.existsSync(registerPath)) {
+    const deployed = JSON.parse(fs.readFileSync(registerPath, "utf8")).interventions
+      .filter(item => item.productionDeployedAt).sort((a, b) => a.productionDeployedAt.localeCompare(b.productionDeployedAt)).at(-1);
+    if (deployed) {
+      const deploymentDayPt = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(deployed.productionDeployedAt));
+      const startDate = isoDateOffset(deploymentDayPt, 1);
+      const plannedEndDate = isoDateOffset(startDate, 27);
+      definitions.revisedPost = {
+        startDate, endDate: finalizedEndDate >= startDate ? [finalizedEndDate, plannedEndDate].sort()[0] : startDate,
+        plannedEndDate, excludedDeploymentDayPt: deploymentDayPt,
+        available: finalizedEndDate >= startDate, complete: finalizedEndDate >= plannedEndDate
+      };
+    }
+  }
   return definitions;
 }
 
 async function collectWindow(name, window, searchType = "web") {
-  if (name === "post" && !window.available) return { ...window, searchType, available: false, datasets: {} };
+  if (window.available === false) return { ...window, searchType, available: false, datasets: {} };
   const common = {
     startDate: window.startDate,
     endDate: window.endDate,

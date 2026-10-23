@@ -232,6 +232,7 @@ h3 {
 }
 
 .article-shell {
+  grid-template-columns: minmax(0, 1fr);
   display: grid;
   gap: 2rem;
 }

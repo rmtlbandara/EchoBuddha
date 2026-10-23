@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedFor": "2026-10-04",
-  "source": "NONE",
-  "dataState": "UNAVAILABLE",
-  "finalizedEndDate": null,
+  "generatedFor": "2026-10-23",
+  "source": "GSC_API",
+  "dataState": "final",
+  "finalizedEndDate": "2026-10-21",
   "property": "sc-domain:echobuddha.com",
   "rawEvidenceCommitted": false,
   "rawDirectory": ".artifacts/phase2-gsc/raw",
@@ -17,56 +17,67 @@
     },
     {
       "name": "CLEANED_GSC_DATASET.csv",
-      "sha256": "d89dd24ca0f9458371420b7cd5321cfff6504c7b7ba3dfa7770d7010391a2fb5",
-      "rows": 0
+      "sha256": "d373667eab7a77aed8e7842d7b913b066edadfee5724024a6318d3c997788bf3",
+      "rows": 3691
     },
     {
       "name": "COUNTRY_PERFORMANCE.csv",
-      "sha256": "b0ba664f260f89dfe5d5910e42ced44bcaee9de3095c9b27c66ea9668e5546dd",
-      "rows": 0
+      "sha256": "677aeab152f3c2b7c66571fe235960864d580577657f83b1fd754bb1a73d38e1",
+      "rows": 555
     },
     {
       "name": "DEVICE_PERFORMANCE.csv",
-      "sha256": "58808e6ef907f7f28fe48a7626da163033a3f46e9e34a1773e8d30c123d61159",
-      "rows": 0
+      "sha256": "74d09440a97093f0862cba51f95591df1e3ffbf756766e8b91c41aa9b2d53107",
+      "rows": 12
     },
     {
       "name": "MULTIMODAL_PERFORMANCE.csv",
-      "sha256": "fa6a116978268eab0782e8703d3f1bf077e9647a73c47f6e00b96e045554e0fb",
-      "rows": 0
+      "sha256": "4f7a2da9c1e5ab2755fdf2d9a0eaf5087766fd7056c684c42144aa82a825c478",
+      "rows": 33
     },
     {
       "name": "PAGE_PERFORMANCE_TABLE.csv",
-      "sha256": "c5e285162716177056212a63dbc808748cebcaa31cbfd8d37817d81d0a85d422",
-      "rows": 0
+      "sha256": "35b10942675fc6e1d873163689aec78cb9db850d4987745d40dd0c0e41afd6b0",
+      "rows": 692
     },
     {
       "name": "QUERY_FAMILY_MAP.csv",
-      "sha256": "68bc775afb2a3c0d2c2cd4bb03b84854531e0b93b60d38aa2ed8f2525d07d8f5",
-      "rows": 0
+      "sha256": "ff38923824d4e8cf802a5891dd04fc80073409e81edc7901ac27f951a1f5f8cf",
+      "rows": 455
     },
     {
       "name": "QUERY_PAGE_PERFORMANCE_TABLE.csv",
-      "sha256": "9dd1457f43e93d64cb623ae6b9fdc204e192723e60411be43b01405960f79421",
-      "rows": 0
+      "sha256": "5f29027dddbef7d853b0a622417717c96cd45cb56a87b6482311b4ce1bd0bc30",
+      "rows": 1149
     },
     {
       "name": "QUERY_PERFORMANCE_TABLE.csv",
-      "sha256": "895404f0d970c0398d609fcbad21f9943c9cd6119de2a63ecbca195feb1d403f",
-      "rows": 0
+      "sha256": "dc86e5ac00f835f9aab433f9e0cd862e2da06526b0c4921ce4eaa938ea1c8d6f",
+      "rows": 966
     },
     {
       "name": "SEARCH_APPEARANCE_PERFORMANCE.csv",
-      "sha256": "6c18ee7a7612bba65dfb9f6204164db8fd9aaa1ec62e2eca43220300f0b19bb9",
-      "rows": 0
+      "sha256": "7b9f56a29ea9e006acc7a0a737d99fd3282e6348d8e06013ef557be9d9b1eab3",
+      "rows": 3
     },
     {
       "name": "WEEKLY_TREND_TABLE.csv",
-      "sha256": "9812d2ff3fb604eb9125fc41965ce3cf401b982b41aaaa48ee9c60255d5ba785",
-      "rows": 0
+      "sha256": "ea7b5b99fdf7695090b79658998968eacf82047e22119c76513fe83600237a72",
+      "rows": 10
     }
   ],
-  "files": [],
+  "files": [
+    {
+      "path": ".artifacts/phase2-gsc/raw/gsc-api-evidence.json",
+      "sha256": "6f818ab230031b54a4a47468e36393ac3d74a422c664a7961087fd0cf8bb67ba",
+      "bytes": 1089373
+    },
+    {
+      "path": ".artifacts/phase2-gsc/raw/url-inspection-evidence.json",
+      "sha256": "d3571406f105c2404cfb18d2cf7ea44556b778824232d81687a44cf901b1a9f9",
+      "bytes": 24133
+    }
+  ],
   "limitations": [
     "Missing query rows are not proof of zero demand because Google applies privacy filtering.",
     "Search Analytics API and exports expose top rows rather than a guaranteed exhaustive query set.",

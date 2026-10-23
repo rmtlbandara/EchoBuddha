@@ -369,13 +369,7 @@ const jsonLd = [
     inLanguage: "en",
     image: structuredImageUrls,
     author: { ...EDITORIAL_AUTHOR_SCHEMA, name: article.author },
-    publisher: {
-      ...PUBLISHER_SCHEMA,
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE.url}/og-default.svg`
-      }
-    },
+    publisher: PUBLISHER_SCHEMA,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": articleUrl

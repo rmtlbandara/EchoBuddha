@@ -3,7 +3,7 @@
   "status": "PASS",
   "phase2Status": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
   "decisionGateOpen": false,
-  "passed": 38,
+  "passed": 66,
   "failed": 0,
   "checks": [
     {
@@ -32,7 +32,7 @@
       "result": "PASS"
     },
     {
-      "name": "No later material content release contaminated the observation window",
+      "name": "Historical October 4 snapshot records zero later material releases at capture time",
       "details": "0",
       "result": "PASS"
     },
@@ -162,8 +162,148 @@
       "result": "PASS"
     },
     {
-      "name": "Release A does not change public content or runtime behavior",
-      "details": "no application diff",
+      "name": "Intervention preserves a hashed production baseline",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Intervention has explicit owner authorization and date",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Early release remains non-destructive",
+      "details": "Raster share previews, consistent publisher entity, eight source-grounded guide enhancements, permanent exact slash normalization, release identity, and dependency remediation. No published routes are removed or re-owned.",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/components/SEO.astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/components/TopicGuide.astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/data/brand.ts",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/data/topicGuides.ts",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/data/editorialGovernance.ts",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/pages/articles/[slug].astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/pages/learn/[section]/[slug].astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/pages/meditation/[slug].astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/pages/learn/four-noble-truths.astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/pages/learn/eightfold-path.astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/pages/learn/buddhism-for-beginners.astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/og-default.png",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/og-learn.png",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/og-meditation.png",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/og-quotes.png",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/og-handbook.png",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/images/publisher-logo.png",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/images/publisher-logo.svg",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/styles/global.css",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/data/sourceStudyNotes.ts",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/data/learn.ts",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: src/components/ConsentManager.astro",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/search.js",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed intervention file matches: public/robots.txt",
+      "details": "production-transformation-2026-10-23",
+      "result": "PASS"
+    },
+    {
+      "name": "Authorized early intervention prevents clean-window decisions",
+      "details": "governance/measurement-interventions.json",
+      "result": "PASS"
+    },
+    {
+      "name": "Release candidate matches the explicitly approved file scope",
+      "details": "25 reviewed files; baseline preserved and destructive consolidation held",
       "result": "PASS"
     },
     {

@@ -1,3 +1,4 @@
+import { OFFICIAL_SOCIAL_PROFILES, PUBLISHER_LOGO } from "./brand.ts";
 import { SITE, getQuoteSlug, isQuoteStoryIndexable, type Quote } from "./site.ts";
 
 export type EditorialReviewStatus =
@@ -110,9 +111,12 @@ export const PUBLISHER_SCHEMA = {
   name: SITE.name,
   url: SITE.url,
   description: SITE.description,
+  sameAs: OFFICIAL_SOCIAL_PROFILES.map((profile) => profile.href),
   logo: {
     "@type": "ImageObject",
-    url: `${SITE.url}/images/buddha-brand-icon.png`
+    url: `${SITE.url}${PUBLISHER_LOGO.path}`,
+    width: PUBLISHER_LOGO.width,
+    height: PUBLISHER_LOGO.height
   }
 } as const;
 

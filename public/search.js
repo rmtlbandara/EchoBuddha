@@ -129,6 +129,7 @@
     form?.addEventListener("submit", (event) => {
       event.preventDefault();
       const query = input.value.trim();
+      if (query) window.EchoBuddhaPrivacy?.trackSearchUsed?.(mode);
       if (mode === "overlay" && query) {
         window.location.href = `/search/?q=${encodeURIComponent(query)}`;
       } else {

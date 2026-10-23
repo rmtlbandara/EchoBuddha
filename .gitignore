@@ -35,3 +35,6 @@ docs/audits/adsense-rejection-2026-08/phase-7-ux-navigation/browser-qa-screensho
 
 # Phase 9 keeps compact evidence in source; transient CI/browser output belongs in workflow artifacts.
 docs/audits/adsense-rejection-2026-08/phase-9-ci-git-deployment/browser-qa-screenshots/
+
+# Local Wrangler state and caches must never enter a release commit.
+.wrangler/

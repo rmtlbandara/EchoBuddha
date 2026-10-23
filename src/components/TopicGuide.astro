@@ -1,0 +1,31 @@
+---
+import { getTopicGuide } from "../data/topicGuides";
+import { formatPublicationDate } from "../utils/publicationMetadata";
+const { route } = Astro.props as { route: string };
+const guide = getTopicGuide(route);
+---
+{guide && <section class="topic-guide" aria-labelledby="topic-guide-heading">
+  <h2 id="topic-guide-heading">{guide.heading}</h2>
+  <p>{guide.intro}</p>
+  {guide.table && <div class="table-scroll" role="region" aria-label={guide.table.caption} tabindex="0">
+    <table>
+      <caption>{guide.table.caption}</caption>
+      <thead><tr>{guide.table.headers.map((header) => <th scope="col">{header}</th>)}</tr></thead>
+      <tbody>{guide.table.rows.map((row) => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody>
+    </table>
+  </div>}
+  {guide.steps && <><h3>{guide.stepsHeading ?? "Try a Short Practice"}</h3><ol>{guide.steps.map((step) => <li>{step}</li>)}</ol></>}
+  {guide.questions.map((item) => <section><h3>{item.question}</h3><p>{item.answer}</p></section>)}
+  <p class="update-note">Guidance updated <time datetime={guide.modifiedDate}>{formatPublicationDate(guide.modifiedDate)}</time> by <a href="/authors/echo-buddha-editorial/">Echo Buddha Editorial</a>. {guide.sourceNote}</p>
+</section>}
+<style>
+.topic-guide { margin-block: 2rem; }
+.table-scroll { max-width: 100%; overflow-x: auto; margin-block: 1.5rem; border: 1px solid var(--color-line); border-radius: 0.6rem; }
+.table-scroll:focus-visible { outline: 3px solid var(--color-green); outline-offset: 3px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+caption { text-align: left; font-weight: 800; padding: 1rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.75rem; border-top: 1px solid var(--color-line); }
+thead { background: var(--color-green-soft); }
+.update-note { font-size: 0.9rem; color: var(--color-muted); }
+li { margin-block: 0.5rem; }
+</style>

@@ -1,3 +1,4 @@
+import { decisionWindowReady } from "./measurement-window.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
@@ -193,7 +194,15 @@ const postDates = new Set(postRows.map((row) => row.date).filter(Boolean));
 const preComplete = preDates.size >= 28 && preDates.has(PHASE_1.preStart) && preDates.has(PHASE_1.preEnd);
 const postComplete = postDates.size >= 28 && postDates.has(PHASE_1.postStart) && postDates.has(PHASE_1.postEnd);
 const transitionExcluded = !evidence.data.daily_performance.some((row) => row.date === PHASE_1.transitionDayPt && ["pre", "post"].includes(row.window));
-const decisionGateOpen = dataState === "final" && preComplete && postComplete && transitionExcluded;
+const interventionRegister = JSON.parse(fs.readFileSync("governance/measurement-interventions.json", "utf8"));
+const observationIntervened = interventionRegister.interventions.some((item) =>
+  item.status !== "CANCELLED" && item.plannedReleaseDate >= PHASE_1.postStart && item.plannedReleaseDate <= PHASE_1.postEnd
+);
+const decisionGateOpen = decisionWindowReady({
+  finalized: dataState === "final", preComplete, postComplete, transitionExcluded,
+  asOfDate, earliestReview: PHASE_1.earliestDecisionReview,
+  interventions: interventionRegister.interventions, postStart: PHASE_1.postStart, postEnd: PHASE_1.postEnd
+});
 const phaseStatus = decisionGateOpen
   ? "PHASE_2_DECISION_REVIEW_READY"
   : "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD";
@@ -547,9 +556,12 @@ const status = {
   postWindow: { start: PHASE_1.postStart, end: PHASE_1.postEnd, expectedDays: 28, observedFinalDays: postDates.size, complete: postComplete },
   earliestDecisionReview: PHASE_1.earliestDecisionReview,
   decisionGateOpen,
+  observationIntervened,
+  interventionRegister: "governance/measurement-interventions.json",
   watchlistDecisionCounts: Object.fromEntries(DECISION_CLASSES.map((value) => [value, watchlistRows.filter((row) => row.decision === value).length])),
   destructiveChanges: { merges: 0, redirects: 0, noindex: 0, canonicalChanges: 0, deletedUrls: 0 },
-  contentChanges: 0,
+  contentChanges: interventionRegister.interventions.flatMap(item => item.materiallyRevisedRoutes || []).length,
+  changeScope: "See measurement-interventions.json; shared metadata, privacy and exact slash redirects are separate from content consolidation",
   sitemapExpected: PHASE_1.sitemapCount,
   onSiteSearchExpected: PHASE_1.searchRecordCount
 };
@@ -594,9 +606,11 @@ fs.writeFileSync(path.join(AUDIT_DIR, "MEASUREMENT_METHODOLOGY.md"), `# Phase 2 
 - Reporting timezone: Pacific Time, matching standard Search Console reporting.
 - Clean pre window: ${PHASE_1.preStart} through ${PHASE_1.preEnd} (28 days).
 - Transition day excluded: ${PHASE_1.transitionDayPt} PT.
-- Clean post window: ${PHASE_1.postStart} through ${PHASE_1.postEnd} (28 days).
+- Original post window: ${PHASE_1.postStart} through ${PHASE_1.postEnd} (28 days).
+- Intervention authorized: ${observationIntervened}. The original post window must not be treated as a clean comparison after the authorized release. The decision gate stays closed even when all original dates finalize.
+- Actual deployment time and revised comparison: see governance/measurement-interventions.json and the transformation deployment record.
 - Earliest conservative decision review: ${PHASE_1.earliestDecisionReview}, allowing for Search Console finalization lag.
-- Only rows marked \`final\` may unlock a destructive decision review.
+- Finalized rows are necessary but not sufficient: an intervened window cannot unlock destructive decision review.
 
 ## Evidence acquisition
 
@@ -727,7 +741,7 @@ As of ${asOfDate}, the required ${PHASE_1.postStart}–${PHASE_1.postEnd} finali
 
 ## Next evidence checkpoint
 
-Acquire the complete final pre window and the complete final post window after ${PHASE_1.earliestDecisionReview}; then rerun generation and audit. Only after the gate opens should the six clusters, 13 watchlist URLs, owner mismatches, near-winners, CTR opportunities, countries/devices, AI visibility, and multimodal visibility receive final decisions.
+Acquire the complete final pre window and the complete final post window after ${PHASE_1.earliestDecisionReview}; then rerun generation and audit. The original interval is intervened, so complete original-window data alone cannot open the decision gate. Collect the revised stable-release window and require a separate evidence-based review of unique value, current canonicals, and preservation before any destructive decision.
 `);
 
 fs.writeFileSync(path.join(AUDIT_DIR, "README.md"), `# Phase 2 — Measure, Consolidate Selectively and Accelerate Growth
@@ -736,7 +750,7 @@ Current state: **${phaseStatus}**
 
 This directory is the reproducible Release A measurement package. Generate it with \`npm run generate:phase2:measurement\` and validate it with \`npm run audit:phase2:measurement\`. Authenticated inputs remain outside Git; only safe aggregate reports, empty import templates, methodology, and governance records are committed.
 
-No public URL, title, H1, content body, canonical, indexability rule, sitemap entry, redirect, consent behavior, or AdSense setting is changed by this release.
+The original Release A changed no public application behavior. The October 23 authorized intervention changes shared metadata, selected guide content, technical slash redirects, and privacy minimization. Routes, canonicals, index states, ownership, and advertising kill switches are preserved. See governance/measurement-interventions.json; the original post window must not be treated as uncontaminated.
 `);
 
 fs.writeFileSync(path.join(AUDIT_DIR, "PHASE_3_ONGOING_BACKLOG.md"), `# Phase 3 / Ongoing Backlog
@@ -781,3 +795,18 @@ console.log(`${phaseStatus}`);
 console.log(`Audit directory: ${AUDIT_DIR}`);
 console.log(`Evidence source: ${evidence.source}`);
 console.log(`Watchlist: ${watchlistRows.length} rows; decision gate open=${decisionGateOpen}`);
+
+const revised = evidence.metadata.windows?.revisedPost;
+const revisedMetric = revised?.datasets?.property?.rows?.[0];
+fs.writeFileSync(path.join(AUDIT_DIR, "REVISED_OBSERVATION.md"), `# Revised stable-release observation
+
+Status: ${revised?.available ? (revised.complete ? "FINALIZED_WINDOW_AVAILABLE_FOR_REVIEW" : "PARTIAL_FINALIZED_WINDOW") : "AWAITING_POST_DEPLOYMENT_FINALIZED_DATA"}
+
+The original September 29–October 26 comparison is intervened. It cannot unlock destructive consolidation.
+
+${revised ? `New window: ${revised.startDate} through ${revised.plannedEndDate}; exclude deployment day ${revised.excludedDeploymentDayPt} in Pacific Time. Latest collected end: ${revised.endDate}.` : "A new 28-day window starts on the Pacific day after the verified deployment. Its exact dates are calculated from the actual deployment record, never a planned timestamp."}
+
+${revisedMetric ? `Observed finalized clicks: ${revisedMetric.clicks}; impressions: ${revisedMetric.impressions}.` : "No new-window outcome is claimed."}
+
+Compare descriptively with the original pre window and pre-intervention segment. Low samples, other releases, seasonality, and search changes prevent a clean causal claim. New redirects or removals still require canonical, unique-value, external-link, and content-preservation review.
+`);

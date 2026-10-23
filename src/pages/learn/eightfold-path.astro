@@ -1,4 +1,7 @@
 ---
+import TopicGuide from "../../components/TopicGuide.astro";
+import { getTopicGuide } from "../../data/topicGuides";
+import { getShareImage } from "../../data/brand";
 import Layout from "../../layouts/Layout.astro";
 import LearningCard from "../../components/LearningCard.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
@@ -42,6 +45,11 @@ const relatedArticles = ["noble-eightfold-path-practical-guide", "eightfold-path
   .filter(Boolean);
 const sourceLinks = [
   {
+    label: "Culavedalla Sutta (MN 44)",
+    href: "https://www.accesstoinsight.org/tipitaka/mn/mn.044.than.html",
+    note: "Describes how the eight path factors are included in the three aggregates of ethical conduct, concentration, and discernment."
+  },
+  {
     label: "Magga-vibhanga Sutta (SN 45.8)",
     href: "https://suttacentral.net/sn45.8/en/sujato",
     note: "An early-discourse analysis of right view, intention, speech, action, livelihood, effort, mindfulness, and concentration."
@@ -52,10 +60,16 @@ const sourceLinks = [
     note: "Supports the daily-life framing of right livelihood."
   }
 ];
+const topicGuide = getTopicGuide(canonicalPath);
 const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${SITE.url}${canonicalPath}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${canonicalPath}` },
+    dateModified: topicGuide?.modifiedDate,
+    image: `${SITE.url}${getShareImage(canonicalPath).path}`,
+    citation: sourceLinks.map((source) => source.href),
     headline: title,
     description,
     url: `${SITE.url}${canonicalPath}`,
@@ -74,7 +88,7 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" jsonLd={jsonLd}>
+<Layout title={title} description={description} canonicalPath={canonicalPath} type="article" modifiedDate={topicGuide?.modifiedDate} jsonLd={jsonLd}>
   <article>
     <header class="page-hero">
       <div class="container prose">
@@ -140,6 +154,7 @@ const jsonLd = [
           behavior that would express each one. Afterward, review the result without turning the path into a scorecard.
           The aim is to see conditions more clearly and train the next response.
         </p>
+        <TopicGuide route={canonicalPath} />
         <h2>Source Notes</h2>
         <p>
           SN 45.8 supplies the factor definitions. The threefold grouping, modern scenario, and practice are explanatory

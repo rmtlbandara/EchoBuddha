@@ -74,6 +74,38 @@
       "reason": "Phase 5 found no P0/P1 quote story and no story with sufficient independent publisher value to justify standalone Search inventory. All 153 underlying quotes and user permalinks remain available; the protected hub and all ten differentiated categories remain indexable.",
       "owner": "Echo Buddha project owner via the 2026-08-24 Phase 5 quote ecosystem remediation request",
       "date": "2026-08-24"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/editorialGovernance.ts",
+      "approved": true,
+      "reason": "Normalize publisher logo dimensions and owner-approved official social identities; preserve all authors, credentials, topic roles, index policies, and review boundaries.",
+      "owner": "Echo Buddha project owner via the 2026-10-23 production transformation request",
+      "date": "2026-10-23"
+    },
+    {
+      "type": "technical-redirect",
+      "target": "Existing rendered HTML routes without trailing slash -> the same canonical route with trailing slash (generated exact 308 rules)",
+      "approved": true,
+      "reason": "Replace Cloudflare temporary HTML normalization with exact permanent redirects; preserve query strings, canonical URLs, all published routes, assets, APIs, and unknown-path 404s. No topic consolidation.",
+      "owner": "Echo Buddha project owner via the 2026-10-23 production transformation request",
+      "date": "2026-10-23"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/components/ConsentManager.astro",
+      "approved": true,
+      "reason": "Minimize Analytics payloads by removing URL query strings/fragments and count search use without transmitting user search terms; preserve affirmative consent and all advertising kill switches. Companion GA4 setting disables raw search-term and history-based collection.",
+      "owner": "Echo Buddha project owner via the 2026-10-23 production transformation request",
+      "date": "2026-10-23"
+    },
+    {
+      "type": "protected-file",
+      "target": "public/robots.txt",
+      "approved": true,
+      "reason": "Align cooperative robots policy with the five observed existing Cloudflare training crawler blocks. Preserve Googlebot, Bingbot, Mediapartners-Google, OAI-SearchBot and user-initiated access; no security control is relaxed. Claude-User remains an explicitly documented platform-level restriction whose individual control is disabled.",
+      "owner": "Echo Buddha project owner via the 2026-10-23 production transformation request",
+      "date": "2026-10-23"
     }
   ]
 }

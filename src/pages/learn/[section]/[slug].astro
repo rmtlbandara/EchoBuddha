@@ -1,4 +1,8 @@
 ---
+import { sourceStudyNotes } from "../../../data/sourceStudyNotes";
+import TopicGuide from "../../../components/TopicGuide.astro";
+import { getTopicGuide } from "../../../data/topicGuides";
+import { getShareImage } from "../../../data/brand";
 import Layout from "../../../layouts/Layout.astro";
 import LearningCard from "../../../components/LearningCard.astro";
 import EditorialAttribution from "../../../components/EditorialAttribution.astro";
@@ -30,6 +34,10 @@ const section = getLearningSection(page.section);
 const canonicalPath = `/learn/${page.section}/${page.slug}/`;
 const breadcrumbs = getLearningBreadcrumbs(page);
 const relatedItems = page.relatedLinks.map((item) => ({ ...item, description: item.description ?? "" }));
+const topicGuide = getTopicGuide(canonicalPath);
+const studyNote = sourceStudyNotes[canonicalPath];
+const modifiedDate = topicGuide?.modifiedDate ?? studyNote?.modifiedDate;
+const shareImage = getShareImage(canonicalPath);
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
 const sourceLinks = getSourceLinks(page);
@@ -53,6 +61,11 @@ const articleJsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${SITE.url}${canonicalPath}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${canonicalPath}` },
+    image: `${SITE.url}${shareImage.path}`,
+    dateModified: modifiedDate,
+    citation: sourceLinks.map((source) => source.href),
     headline: page.title,
     description: page.description,
     url: `${SITE.url}${canonicalPath}`,
@@ -68,6 +81,7 @@ const dictionaryJsonLd = page.section === "buddhist-dictionary"
       {
         "@context": "https://schema.org",
         "@type": "DefinedTerm",
+        "@id": `${SITE.url}${canonicalPath}#term`,
         name: page.title,
         description: page.description,
         url: `${SITE.url}${canonicalPath}`,
@@ -87,6 +101,7 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
   description={page.description}
   canonicalPath={canonicalPath}
   type="article"
+  modifiedDate={modifiedDate}
   jsonLd={jsonLd}
 >
   <article>
@@ -109,6 +124,15 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
           <h2>{editorialLabels.takeaway}</h2>
           <p>{page.takeaway}</p>
         </aside>
+
+        {studyNote && <section class="learning-note" aria-labelledby="source-context-heading">
+          <h2 id="source-context-heading">Source and Reading Context</h2>
+          <p><strong>{studyNote.reference}</strong></p>
+          <p>{studyNote.context}</p>
+          <p>{studyNote.boundary}</p>
+          <p>Source context updated <time datetime={studyNote.modifiedDate}>October 23, 2026</time> by Echo Buddha Editorial.</p>
+        </section>}
+        {page.section === "dhammapada-reflections" && <p class="source-boundary">The short story below is an original fictional illustration, not a historical account or a traditional commentary.</p>}
 
         {showWhy && qualityNote && (
           <section class="learning-note" aria-labelledby="why-this-matters-heading">
@@ -144,6 +168,8 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
             <p>{qualityNote.question}</p>
           </aside>
         )}
+
+        <TopicGuide route={canonicalPath} />
 
         {(sourceNoteText || sourceLinks.length > 0) && (
           <section>

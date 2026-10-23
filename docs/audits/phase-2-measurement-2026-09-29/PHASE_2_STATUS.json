@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedFor": "2026-10-04",
+  "generatedFor": "2026-10-23",
   "status": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
   "phase1MainSha": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
   "phase1ProductionContentSha": "db1da81b19bc5291829cdafd475645d79c6025f5",
-  "currentRepositoryHead": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
-  "currentOriginMain": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+  "currentRepositoryHead": "5186b26a79c366d210896de1f1e7da41863b7cb5",
+  "currentOriginMain": "5186b26a79c366d210896de1f1e7da41863b7cb5",
   "preWindow": {
     "start": "2026-08-31",
     "end": "2026-09-27",
     "expectedDays": 28,
-    "observedFinalDays": 0,
-    "complete": false
+    "observedFinalDays": 28,
+    "complete": true
   },
   "transitionDay": {
     "date": "2026-09-28",
@@ -21,11 +21,13 @@
     "start": "2026-09-29",
     "end": "2026-10-26",
     "expectedDays": 28,
-    "observedFinalDays": 0,
+    "observedFinalDays": 23,
     "complete": false
   },
   "earliestDecisionReview": "2026-10-29",
   "decisionGateOpen": false,
+  "observationIntervened": true,
+  "interventionRegister": "governance/measurement-interventions.json",
   "watchlistDecisionCounts": {
     "KEEP_DISTINCT": 0,
     "KEEP_AND_STRENGTHEN": 0,
@@ -41,7 +43,8 @@
     "canonicalChanges": 0,
     "deletedUrls": 0
   },
-  "contentChanges": 0,
+  "contentChanges": 12,
+  "changeScope": "See measurement-interventions.json; shared metadata, privacy and exact slash redirects are separate from content consolidation",
   "sitemapExpected": 165,
   "onSiteSearchExpected": 330
 }

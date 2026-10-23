@@ -324,6 +324,16 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "sutta-for-daily-life/right-speech-in-daily-life": [
     {
+      label: "Abhaya Sutta (MN 58)",
+      href: "https://www.accesstoinsight.org/tipitaka/mn/mn.058.than.html",
+      note: "Distinguishes truth, benefit, whether words are welcome, and knowing the appropriate time to speak."
+    },
+    {
+      label: "Magga-vibhanga Sutta (SN 45.8)",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
+      note: "Defines right speech through the four forms of verbal abstention."
+    },
+    {
       label: "Right Speech overview",
       href: "https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca4/samma-vaca/index.html",
       note: "Collects early-discourse criteria for right speech and careful verbal action."
@@ -3142,7 +3152,7 @@ export const suttaPages: LearningPage[] = [
         heading: "The Four Truths Also Carry Four Tasks",
         paragraphs: [
           "SN 56.11 presents more than four propositions. Dukkha is to be fully understood; its origin is to be given up; cessation is to be realized; and the path is to be developed. This task structure prevents the teaching from becoming a label placed on every unpleasant event.",
-          "In a conflict, for example, understanding may mean acknowledging hurt and uncertainty; giving up may mean not feeding the demand to win; realizing cessation may appear as a brief release of that demand; developing the path may mean truthful, non-harming speech. This example is an editorial application, not a line from the discourse."
+          "In a conflict, for example, understanding may mean acknowledging hurt and uncertainty; giving up may mean not feeding the demand to win; a brief release of that demand illustrates a direction without establishing the realization of cessation; developing the path may mean truthful, non-harming speech. This example is an editorial application, not a line from the discourse."
         ]
       },
       {
