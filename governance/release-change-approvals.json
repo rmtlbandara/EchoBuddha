@@ -106,6 +106,14 @@
       "reason": "Align cooperative robots policy with the five observed existing Cloudflare training crawler blocks. Preserve Googlebot, Bingbot, Mediapartners-Google, OAI-SearchBot and user-initiated access; no security control is relaxed. Claude-User remains an explicitly documented platform-level restriction whose individual control is disabled.",
       "owner": "Echo Buddha project owner via the 2026-10-23 production transformation request",
       "date": "2026-10-23"
+    },
+    {
+      "type": "protected-file",
+      "target": "wrangler.jsonc",
+      "approved": true,
+      "reason": "Live full-browser verification found that unknown URLs returned an empty 404 response. Serve the existing noindex 404.html through Cloudflare 404-page asset handling, retaining real HTTP 404 status, security headers, all valid routes, and exact redirects. No SPA fallback or indexing change.",
+      "owner": "Echo Buddha project owner via the 2026-10-23 production transformation and live-verification request",
+      "date": "2026-10-23"
     }
   ]
 }

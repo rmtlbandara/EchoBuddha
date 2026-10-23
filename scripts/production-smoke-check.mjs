@@ -90,7 +90,8 @@ const adsTxt = (await adsResponse.text()).trim();
 check("ads.txt", adsResponse.status === 200 && adsTxt === expectedAdsTxt, `${adsResponse.status}; exact ${adsTxt === expectedAdsTxt}`);
 
 const missingResponse = await get("/phase-9-smoke-missing/", { redirect: "manual" });
-check("404", missingResponse.status === 404, `${missingResponse.status}`);
+const missingHtml = await missingResponse.text();
+check("404", missingResponse.status === 404 && /text\/html/.test(missingResponse.headers.get("content-type") || "") && /<h1\b/i.test(missingHtml) && /name=["']robots["'] content=["']noindex, follow/.test(missingHtml) && !/rel=["']canonical["']/.test(missingHtml), `${missingResponse.status}; rendered HTML error page with H1 and noindex, no canonical`);
 
 const httpResponse = await fetch("http://echobuddha.com/", { redirect: "manual" });
 check("https-redirect", [301, 302, 307, 308].includes(httpResponse.status) && httpResponse.headers.get("location") === `${origin}/`, `${httpResponse.status}; ${httpResponse.headers.get("location")}`);

@@ -17,7 +17,7 @@
       "indexStateChanges": 0,
       "ownerChanges": 0,
       "canonicalChanges": 0,
-      "scope": "Raster share previews, consistent publisher entity, eight source-grounded guide enhancements, permanent exact slash normalization, release identity, and dependency remediation. No published routes are removed or re-owned.",
+      "scope": "Raster share previews, consistent publisher entity, eight source-grounded guide enhancements, permanent exact slash normalization, release identity, and dependency remediation. No published routes are removed or re-owned. Restore the existing noindex HTML error page with HTTP 404 through supported asset not-found handling.",
       "approvedApplicationFiles": {
         "src/components/SEO.astro": "301cf68f04c8312bca04fabbf9c292c2459d0a4d61490c97cbb00b06b1c62949",
         "src/components/TopicGuide.astro": "8400fd0f63f57187e596fa8b1545e3d25bc8ead584be9393aedcdaed80cc1a30",
@@ -42,7 +42,8 @@
         "src/data/learn.ts": "58a7f122f14454eca1c2b901d6aa4eb635ad1e2000c58b408535370c5fde58fa",
         "src/components/ConsentManager.astro": "021075bf600404a87e12d6344f6a92e88e45d981773702250a766310d20ad4e2",
         "public/search.js": "006587af1615bdee663c56811d86ef58ab85f785bc7400a964d80bd432b94cb9",
-        "public/robots.txt": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1"
+        "public/robots.txt": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1",
+        "wrangler.jsonc": "63e90197322b9fbced9c324d7a149c136fa34aa6da3ecef6aa7e696d85d173e0"
       },
       "revisedComparison": "Retain the original pre window and the pre-intervention post segment as descriptive evidence. Exclude the actual deployment day in Pacific Time, then collect a new 28-day stable-release window starting the next Pacific day. Do not attribute differences causally; require finalized data, current canonical inspections, and a separate reviewed decision before consolidation.",
       "materiallyRevisedRoutes": [
@@ -68,6 +69,15 @@
           "evidence": "Private local browser screenshots and authenticated DOM observations; no account credentials committed.",
           "verifiedAt": "2026-10-23T11:21:23.040724+00:00",
           "changeTimeBasis": "Changed and independently reopened on October 23; verifiedAt is the retained screenshot verification time, not an invented exact mutation timestamp."
+        }
+      ],
+      "productionReleases": [
+        {
+          "sha": "d6a5544d62f054c3d99732440fdda0ed74faf3ce",
+          "deployedAt": "2026-10-23T11:28:08.313982Z",
+          "deploymentId": "4cb8eb15-1f15-4554-8fa9-8e0c0e643dc9",
+          "versionId": "db0c5ba7-45ff-46a2-81f3-a32b074674a5",
+          "verification": "15/15 original smoke checks and full content/image/redirect parity passed; expanded browser verification found a pre-existing empty 404 response, handled by a fix-forward."
         }
       ]
     }
