@@ -20,6 +20,6 @@ GA4 property 542992383 / stream 15143247803 was verified for `https://echobuddha
 
 ## Automation boundaries
 
-The weekly Search Measurement workflow automates finalized Search Console collection and current canonical inspections using existing read-only credentials. It does not claim to provide a separate Google AI-overview dimension: the available GSC evidence lacks that breakdown. Bing and GA4 dashboard observations are recorded separately; an unattended account API collector is not claimed configured without verified credentials/scopes and an actual successful run.
+The weekly Search Measurement workflow automates finalized Search Console collection and current canonical inspections using existing read-only credentials. It does not claim to provide a separate Google AI-overview dimension: the available GSC evidence lacks that breakdown. Bing collection uses four supported JSON read endpoints with the already configured API key; authentication/verification codes and unrelated sites are discarded, and only the aggregate summary is uploaded. The hosted run is recorded separately. GA4 dashboard observations remain separate; its unattended Data API collector is not claimed configured.
 
 Referrer stripping, consent rejection, direct navigation, platform behavior, low samples, reporting latency, and changing AI results limit completeness. No invasive tracking is added to compensate.

@@ -2,13 +2,45 @@
   "schemaVersion": 1,
   "asOf": "2026-10-23",
   "items": [
-    {"id":"source-report-originals","state":"UNAVAILABLE","scope":"The four named October 20 DOCX/PDF files were not found in authorized project/Downloads files; their actual contents and format differences cannot be claimed reviewed. The Master Prompt's explicit fallback was used."},
-    {"id":"legacy-publication-dates","state":"EVIDENCE_LIMIT","scope":"46 retained legacy Learn/Meditation Article nodes still lack a verified publication or material-update date. Git timestamps alone are not publication proof. Eleven materially updated Article pages received truthful visible modification dates; no dates were fabricated."},
-    {"id":"finalized-outcomes","state":"FUTURE_DATA_REQUIRED","scope":"The original October 26 window was intervened. The revised 28-day window and finalization lag must pass before outcome comparisons or future consolidation decisions. Scheduled collection is configured; future collection is not marked completed."},
-    {"id":"qualified-review","state":"UNCLAIMED","scope":"No authenticated, authorized named monastic, scholarly, clinical or external expert review is available. Organizational editorial responsibility and existing review boundaries remain explicit."},
-    {"id":"cloudflare-zone-api","state":"TOKEN_SCOPE_LIMIT","scope":"Existing Wrangler OAuth can read/deploy the Worker and custom domain. Zone settings, DNS, rulesets and Bot Management endpoints returned HTTP 403. Available dashboard controls were inspected; no broader credential access was created."},
-    {"id":"claude-user-control","state":"PLATFORM_RESTRICTION_OBSERVED","scope":"Cloudflare classifies Claude-User as an AI Crawler and displays its block switch checked and disabled. Major search/AI-search controls are allowed. No unsupported individual override or broad security relaxation was performed."},
-    {"id":"unattended-account-reporting","state":"PARTIAL_INTEGRATION","scope":"Bing and GA4 were inspected through authenticated dashboards. Their unattended account API collectors are not claimed configured. Search Console and IndexNow automation are implemented and tested separately."},
-    {"id":"field-performance","state":"NO_VERIFIED_FIELD_DATA","scope":"Lighthouse results are lab samples. No real-user CrUX/Core Web Vitals improvement or Google ranking/indexing/AdSense outcome is asserted."}
+    {
+      "id": "source-report-originals",
+      "state": "UNAVAILABLE",
+      "scope": "The four named October 20 DOCX/PDF files were not found in authorized project/Downloads files; their actual contents and format differences cannot be claimed reviewed. The Master Prompt's explicit fallback was used."
+    },
+    {
+      "id": "legacy-publication-dates",
+      "state": "EVIDENCE_LIMIT",
+      "scope": "46 retained legacy Learn/Meditation Article nodes still lack a verified publication or material-update date. Git timestamps alone are not publication proof. Eleven materially updated Article pages received truthful visible modification dates; no dates were fabricated."
+    },
+    {
+      "id": "finalized-outcomes",
+      "state": "FUTURE_DATA_REQUIRED",
+      "scope": "The original October 26 window was intervened. The revised 28-day window and finalization lag must pass before outcome comparisons or future consolidation decisions. Scheduled collection is configured; future collection is not marked completed."
+    },
+    {
+      "id": "qualified-review",
+      "state": "UNCLAIMED",
+      "scope": "No authenticated, authorized named monastic, scholarly, clinical or external expert review is available. Organizational editorial responsibility and existing review boundaries remain explicit."
+    },
+    {
+      "id": "cloudflare-zone-api",
+      "state": "TOKEN_SCOPE_LIMIT",
+      "scope": "Existing Wrangler OAuth can read/deploy the Worker and custom domain. Zone settings, DNS, rulesets and Bot Management endpoints returned HTTP 403. Available dashboard controls were inspected; no broader credential access was created."
+    },
+    {
+      "id": "claude-user-control",
+      "state": "PLATFORM_RESTRICTION_OBSERVED",
+      "scope": "Cloudflare classifies Claude-User as an AI Crawler and displays its block switch checked and disabled. Major search/AI-search controls are allowed. No unsupported individual override or broad security relaxation was performed."
+    },
+    {
+      "id": "unattended-account-reporting",
+      "state": "PARTIAL_INTEGRATION",
+      "scope": "Bing authenticated JSON endpoints were verified using an existing credential and integrated into the weekly workflow. GA4 is verified through its authenticated dashboard; a GA4 unattended account API collector is not configured. Hosted Bing workflow verification is recorded in the final deployment report."
+    },
+    {
+      "id": "field-performance",
+      "state": "NO_VERIFIED_FIELD_DATA",
+      "scope": "Lighthouse results are lab samples. No real-user CrUX/Core Web Vitals improvement or Google ranking/indexing/AdSense outcome is asserted."
+    }
   ]
 }
