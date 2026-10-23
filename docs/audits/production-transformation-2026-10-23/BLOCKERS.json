@@ -4,8 +4,8 @@
   "items": [
     {
       "id": "source-report-originals",
-      "state": "UNAVAILABLE",
-      "scope": "The four named October 20 DOCX/PDF files were not found in authorized project/Downloads files; their actual contents and format differences cannot be claimed reviewed. The Master Prompt's explicit fallback was used."
+      "state": "RESOLVED",
+      "scope": "All four October 20 DOCX/PDF originals were supplied, read, hashed and reconciled before final reporting. The earlier unavailable finding is superseded; source chronology and substantive corrections are documented in SOURCE_RECONCILIATION.md."
     },
     {
       "id": "legacy-publication-dates",

@@ -4,7 +4,7 @@ Status: AWAITING_POST_DEPLOYMENT_FINALIZED_DATA
 
 The original September 29–October 26 comparison is intervened. It cannot unlock destructive consolidation.
 
-A new 28-day window starts on the Pacific day after the verified deployment. Its exact dates are calculated from the actual deployment record, never a planned timestamp.
+New window: 2026-10-24 through 2026-11-20; exclude deployment day 2026-10-23 in Pacific Time. The window has no available finalized observations yet; these are planned observation dates, not collected future measurements.
 
 No new-window outcome is claimed.
 

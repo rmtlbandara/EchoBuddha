@@ -804,7 +804,7 @@ Status: ${revised?.available ? (revised.complete ? "FINALIZED_WINDOW_AVAILABLE_F
 
 The original September 29–October 26 comparison is intervened. It cannot unlock destructive consolidation.
 
-${revised ? `New window: ${revised.startDate} through ${revised.plannedEndDate}; exclude deployment day ${revised.excludedDeploymentDayPt} in Pacific Time. Latest collected end: ${revised.endDate}.` : "A new 28-day window starts on the Pacific day after the verified deployment. Its exact dates are calculated from the actual deployment record, never a planned timestamp."}
+${revised ? `New window: ${revised.startDate} through ${revised.plannedEndDate}; exclude deployment day ${revised.excludedDeploymentDayPt} in Pacific Time. ${revised.available ? `Latest collected end: ${revised.endDate}.` : "The window has no available finalized observations yet; these are planned observation dates, not collected future measurements."}` : "A new 28-day window starts on the Pacific day after the verified deployment. Its exact dates are calculated from the actual deployment record, never a planned timestamp."}
 
 ${revisedMetric ? `Observed finalized clicks: ${revisedMetric.clicks}; impressions: ${revisedMetric.impressions}.` : "No new-window outcome is claimed."}
 

@@ -4,8 +4,8 @@
   "status": "PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD",
   "phase1MainSha": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
   "phase1ProductionContentSha": "db1da81b19bc5291829cdafd475645d79c6025f5",
-  "currentRepositoryHead": "5186b26a79c366d210896de1f1e7da41863b7cb5",
-  "currentOriginMain": "5186b26a79c366d210896de1f1e7da41863b7cb5",
+  "currentRepositoryHead": "67f486a8d990f0058374301d9ebf6fd74ed85994",
+  "currentOriginMain": "67f486a8d990f0058374301d9ebf6fd74ed85994",
   "preWindow": {
     "start": "2026-08-31",
     "end": "2026-09-27",

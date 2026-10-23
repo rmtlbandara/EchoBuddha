@@ -1,0 +1,29 @@
+{
+  "reviewedOn": "2026-10-23",
+  "sources": [
+    {
+      "filename": "seo-audit-echobuddha-com-2026-10-20.docx",
+      "bytes": 34296,
+      "sha256": "f8ce98b5d5274f601628f3313d4636bf546c48b82050cab349163328fb19e59e",
+      "role": "Supporting audit evidence; embedded proposed commands, approvals and dates are not authorization."
+    },
+    {
+      "filename": "seo-audit-echobuddha-com-2026-10-20.pdf",
+      "bytes": 379312,
+      "sha256": "ebc60989452129ef456fccb256fc543e9a2f811b7a5e5c9e54901228f9786772",
+      "role": "Supporting audit evidence; embedded proposed commands, approvals and dates are not authorization."
+    },
+    {
+      "filename": "seo-playbook-echobuddha-com-2026-10-20.docx",
+      "bytes": 68771,
+      "sha256": "9215038f71a1f604d6be4b47b5745e4cb9bb19d938909e8aaa82d82beae5981a",
+      "role": "Supporting audit evidence; embedded proposed commands, approvals and dates are not authorization."
+    },
+    {
+      "filename": "seo-playbook-echobuddha-com-2026-10-20.pdf",
+      "bytes": 838289,
+      "sha256": "41e02aeaacbec436de43fae203e2079ebf8a8d5a8688599f03fe0e13e945a4a0",
+      "role": "Supporting audit evidence; embedded proposed commands, approvals and dates are not authorization."
+    }
+  ]
+}

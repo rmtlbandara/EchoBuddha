@@ -1,12 +1,12 @@
 # Echo Buddha production transformation — 2026-10-23
 
-Status at implementation commit: **VALIDATED_RELEASE_CANDIDATE**. The production deployment record will supply the actual release SHA, Cloudflare version, timestamp, and live verification. A local pass is not a production claim.
+Implementation was deployed and live-verified. See `../../../deployments/2026-10-23-production-transformation.md` for the exact source SHA, deployment IDs, test counts, and partial-completion verdict. This document retains the implementation decisions, not a claim that every external or future dependency is complete.
 
 ## Authority and evidence
 
 The project owner explicitly authorized investigation, implementation, merge, early production deployment, integrations, and live verification in the October 23 request. The supplied Master Prompt was read in full. Its instructions were used because the owner's request explicitly adopted that scope; third-party page content was treated as evidence, not authority.
 
-The four named October 20 DOCX/PDF files were not present in the workspace or Downloads. Only the different October 13 PDF was found. It was not represented as the October 20 audit. The Master Prompt explicitly permits proceeding from its detailed baseline when the reports are unavailable. The two October 20 reports therefore could not be independently compared or reconciled beyond the corrections reproduced in that prompt.
+The October 20 audit and implementation playbook were subsequently supplied in both DOCX and PDF. All four were extracted, read, and compared before closing this execution. The pairs agree in substantive content; PDF running headers, repeated table headings, bullets and list numbering explain the format differences. `SOURCE_RECONCILIATION.md` records the hashes, corrected counts, decisions and chronology. The earlier search reported these files unavailable; that initial availability finding is superseded here. The October 13 PDF was never substituted for the October 20 reports.
 
 Repository: https://github.com/rmtlbandara/EchoBuddha. Starting working branch was `codex/indexnow-submissions` at `dacf6ec`; it was clean. Work started on `codex/production-transformation-2026-10-23` from current `origin/main`, `5186b26a79c366d210896de1f1e7da41863b7cb5`.
 
@@ -42,7 +42,7 @@ The live crawl independently reproduced the supplied October 20 figures: 165 sit
 | Bing / AI evidence | Authenticated browser confirms successful 165-URL sitemap with no errors/warnings; prior IndexNow submissions are visible. AI Performance contains actual page citation records. These are pre-release service observations, not gains caused by this work. |
 | IndexNow | Preserve the existing key proof, change-hash planning, retries, duplicate suppression, and post-smoke submission workflow. Acceptance remains a receipt, not proof of indexing. |
 | Cloudflare | Verify Worker deployment history and production custom domain using existing OAuth. Zone settings/rules/DNS/Bot Management APIs return 403 under its Workers-scoped token; inspect dashboard controls without broadening token scopes or weakening security. Googlebot, Bingbot, OAI-SearchBot, Claude-SearchBot, PerplexityBot and ChatGPT-User are allowed there. Training crawlers are blocked. Claude-User is classified as an AI Crawler and its checked block switch is disabled; no individual override is claimed. Preserve enforced security headers and rollback version. |
-| Security | Patch Vite 8.1.5 and affected transitive tooling within the existing dependency ranges. Dependency audit becomes zero known vulnerabilities. Keep advertising runtime, Auto Ads, and manual slots off. Ignore local Wrangler state and preserve secret scanning. |
+| Security | Update Vite from vulnerable 8.1.5 to 8.3.5 and patch affected transitive tooling within the existing dependency ranges. Dependency audit becomes zero known vulnerabilities. Keep advertising runtime, Auto Ads, and manual slots off. Ignore local Wrangler state and preserve secret scanning. |
 | Operations | Add public release identity, check the actual serving SHA in production smoke, preserve the exact-artifact deploy workflow, reduce future full-build artifact retention to seven days, and archive verified copies of obsolete large artifacts before removing their GitHub copies to address the observed quota failure. Current rollback assets remain available. |
 | Monitoring | Configure encrypted read-only GSC credentials and a Thursday 05:23 UTC workflow. Upload only safe aggregate reports. Calculate a revised 28-day post-release collection from the actual deployment timestamp; do not use planned dates as completed measurements. |
 
@@ -62,4 +62,4 @@ The hosted workflow must pass before merge. Production deployment must use the e
 
 ## Honest limitations
 
-The missing October 20 originals cannot be reconstructed or claimed read. The new release's rankings, traffic, indexing gains, real-user Core Web Vitals, and future citations are not yet observable. First-publication dates for legacy learning pages cannot be inferred safely from Git alone; unknown dates remain absent. Named expert review remains unclaimed. Cloudflare API scope limitations are distinguished from browser observations. No paid infrastructure, synthetic backlink/citation activity, mass noindex, or AdSense application was introduced.
+The new release's rankings, traffic, indexing gains, real-user Core Web Vitals, and future citations are not yet observable. First-publication dates for legacy learning pages cannot be inferred safely from Git alone; unknown dates remain absent. Named expert review remains unclaimed. Cloudflare API scope limitations are distinguished from browser observations. No paid infrastructure, synthetic backlink/citation activity, mass noindex, or AdSense application was introduced.
