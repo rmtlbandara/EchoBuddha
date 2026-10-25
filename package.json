@@ -65,7 +65,7 @@
     "collect:bing": "node scripts/collect-bing.mjs"
   },
   "dependencies": {
-    "astro": "^7.3.5"
+    "astro": "^7.4.2"
   },
   "devDependencies": {
     "axe-core": "^4.12.1",
