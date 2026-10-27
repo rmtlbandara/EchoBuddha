@@ -1,0 +1,48 @@
+{
+  "recordedAt": "2026-10-27T14:24:30.129Z",
+  "method": "Authenticated Chrome accessibility tree and screenshot; read-only. No review, indexing or account-setting mutation.",
+  "adsense": {
+    "site": "echobuddha.com",
+    "status": "Needs attention",
+    "reason": "Low value content",
+    "adsTxtAccountStatus": "Not found",
+    "lastUpdatedDisplayed": "Aug 21, 2026 8:05 PM GMT+5:30",
+    "siteReadyToShowAds": false,
+    "feedbackSummary": "Account asks for authentic unique value, continued curation and genuine user interest. No URL-level scoring explanation or new evaluation of this candidate.",
+    "reviewRequested": false
+  },
+  "bing": {
+    "canonical": "https://echobuddha.com/daily-reflections/",
+    "inspectionStatus": "Indexed successfully; URL can appear on Bing",
+    "lastCrawlDisplayed": "Today at 18:15",
+    "crawlAllowed": true,
+    "pageFetch": "Successful",
+    "indexingAllowed": true,
+    "explorerExactVariant": "https://echobuddha.com/daily-reflections",
+    "explorerState": "Excluded",
+    "explorerLastCrawlDisplayed": "24 Oct 2026",
+    "explorerHttp": 200,
+    "explorerFolder": {
+      "known": 27,
+      "indexed": 0,
+      "warning": 26,
+      "excluded": 1
+    },
+    "globalExplorer": {
+      "known": 241,
+      "indexed": 157,
+      "warning": 82,
+      "excluded": 2,
+      "error": 0
+    },
+    "decision": "Preserve the canonical hub. Fresh canonical inspection is positive; Explorer shows an older slashless variant and a different crawl/report grain. No site defect or canonical indexing loss established. Do not infer that every variant is indexed or submit repeated requests."
+  },
+  "cloudflare": {
+    "worker": "echobuddha",
+    "buildsGitRepository": "Connect (no repository currently connected)",
+    "currentVersion": "1da4620c-a00b-4a5a-b5a5-97f52933dbda",
+    "currentSource": "67f486a8d990f0058374301d9ebf6fd74ed85994",
+    "staticAssetsOnly": true,
+    "limitations": "Builds API denied existing OAuth credential; authenticated dashboard supplies the actual connection-state evidence. Token permission expansion was unnecessary."
+  }
+}

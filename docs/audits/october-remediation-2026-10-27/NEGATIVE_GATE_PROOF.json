@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-27T14:21:11.437Z",
+  "results": [
+    {
+      "name": "unauthorized-current-file-edit",
+      "expected": "FAIL",
+      "observedExit": 1,
+      "pass": true
+    },
+    {
+      "name": "unauthorized-new-route",
+      "expected": "FAIL",
+      "observedExit": 1,
+      "pass": true
+    },
+    {
+      "name": "unauthorized-owner-file-edit",
+      "expected": "FAIL",
+      "observedExit": 1,
+      "pass": true
+    },
+    {
+      "name": "protected-route-removal",
+      "expected": "FAIL",
+      "observedExit": 1,
+      "pass": true
+    },
+    {
+      "name": "canonical-drift",
+      "expected": "FAIL",
+      "observedExit": 1,
+      "pass": true
+    },
+    {
+      "name": "accidental-noindex",
+      "expected": "FAIL",
+      "observedExit": 1,
+      "pass": true
+    }
+  ],
+  "restoration": "Every fixture source and built HTML file restored byte-for-byte in finally blocks. No fixture published."
+}

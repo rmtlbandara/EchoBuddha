@@ -3,6 +3,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { isDeepStrictEqual } from "node:util";
 
 export const ORIGIN = "https://echobuddha.com";
 // Public ownership proof served on the website, not an account/API credential.
@@ -95,7 +96,25 @@ export async function preparePlan(target, fetcher = fetch) {
   return createPlan(target, await response.json());
 }
 
-export async function submitPlan(plan, fetcher = fetch) {
+export async function waitForTargetManifest(target, fetcher, {
+  attempts = 7,
+  delayMs = 5000,
+  sleep = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds))
+} = {}) {
+  assert.ok(Number.isInteger(attempts) && attempts >= 1 && attempts <= 7, "Manifest verification permits 1–7 attempts");
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    const response = await get(`${ORIGIN}${MANIFEST_PATH}`, fetcher);
+    assert.equal(response.status, 200, "Production manifest is not live");
+    const live = validateManifest(await response.json());
+    if (isDeepStrictEqual(live, target)) return attempt;
+    // Asset propagation may briefly expose the preceding valid manifest even
+    // after release.json and smoke pass. Retry reads, never relax equality or POST.
+    if (attempt < attempts) await sleep(delayMs);
+  }
+  throw new Error(`A different release is live: target manifest did not match after ${attempts} verification attempts. Retry the saved plan only after the matching artifact is live.`);
+}
+
+export async function submitPlan(plan, fetcher = fetch, verificationOptions) {
   assert.equal(plan.schemaVersion, 1);
   assert.equal(plan.origin, ORIGIN);
   validateManifest(plan.target);
@@ -113,9 +132,7 @@ export async function submitPlan(plan, fetcher = fetch) {
   const key = await get(`${ORIGIN}${KEY_PATH}`, fetcher);
   assert.equal(key.status, 200, "IndexNow key is not live");
   assert.equal((await key.text()).trim(), KEY, "IndexNow key content mismatch");
-  const manifestResponse = await get(`${ORIGIN}${MANIFEST_PATH}`, fetcher);
-  assert.equal(manifestResponse.status, 200, "Production manifest is not live");
-  assert.deepEqual(validateManifest(await manifestResponse.json()), plan.target, "A different release is live");
+  const manifestVerificationAttempts = await waitForTargetManifest(plan.target, fetcher, verificationOptions);
   const sitemapResponse = await get(`${ORIGIN}/sitemap.xml`, fetcher);
   assert.equal(sitemapResponse.status, 200);
   assert.deepEqual(sitemapUrls(await sitemapResponse.text()), [...current].sort(), "Live sitemap differs from release");
@@ -156,6 +173,7 @@ export async function submitPlan(plan, fetcher = fetch) {
     status: response.status === 200 ? "SUBMITTED" : "KEY_VALIDATION_PENDING",
     httpStatus: response.status,
     submitted: plan.changes.length,
+    manifestVerificationAttempts,
     checkedAt: new Date().toISOString(),
     indexingGuaranteed: false
   };

@@ -1,0 +1,255 @@
+{
+  "verifiedAt": "2026-10-27T14:51:51.039Z",
+  "sha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+  "gitTree": "2351c6b4b404dedb0011962ca694a0b19c940c58",
+  "pr": 64,
+  "prValidationRun": 40520032021,
+  "exactMainValidationRun": 40520704528,
+  "deploymentWorkflow": 40522625427,
+  "deploymentWorkflowConclusion": "failure at notification; deployment/digest/smoke passed; original saved-plan retry succeeded separately",
+  "deployment": {
+    "schemaVersion": 1,
+    "capturedAt": "2026-10-27T14:37:24.154Z",
+    "gitSha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+    "githubRunId": "40522625427",
+    "worker": "echobuddha",
+    "productionUrl": "https://echobuddha.com",
+    "deploymentId": "7d2ff574-9f5c-4760-af26-e280fc488292",
+    "createdOn": "2026-10-27T14:37:19.120275Z",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "b3163338-fcd1-41a4-908c-ac4dbb2eedc7",
+        "percentage": 100
+      }
+    ]
+  },
+  "artifact": {
+    "fileCount": 812,
+    "aggregateSha256": "c2846a5b950b3cbc81ae12680a64e2236a082d11d1a468c2d4a5bc85dccd6301",
+    "manifestSha256": "c0e4ce2d2108aae3291540337f5edec8f7ab3ae499408ab44760f7b976e13907",
+    "allFileDigestsVerified": true
+  },
+  "liveRelease": {
+    "schemaVersion": 1,
+    "sha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-10-27T14:36:17.476Z"
+  },
+  "htmlParity": {
+    "total": 350,
+    "matched": 350
+  },
+  "inventory": {
+    "generatedAt": "2026-10-27T14:44:28.247Z",
+    "origin": "https://echobuddha.com",
+    "sitemap": 165,
+    "sitemap200": 165,
+    "uniqueTitles": 165,
+    "uniqueDescriptions": 165,
+    "svgPreviews": 0,
+    "canonicalFailures": 0,
+    "h1Failures": 0,
+    "noindexInSitemap": 0,
+    "html": 350,
+    "pagesWithTables": 8,
+    "under500MainWords": 59,
+    "undatedLearningArticles": 40,
+    "resources": {
+      "/sitemap.xml": {
+        "status": 200,
+        "sha256": "4468777d9c8944b258f6f36ed0e2b7114533072caf2ad1f5e74240e580cf0e28"
+      },
+      "/robots.txt": {
+        "status": 200,
+        "sha256": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1"
+      },
+      "/indexnow-manifest.json": {
+        "status": 200,
+        "sha256": "b573772cb57fe370e2dae5c6f3cc525a3bda352876d42bc9e69b4d79f11eee4b"
+      },
+      "/search-index.json": {
+        "status": 200,
+        "sha256": "aa6373c4867b243344053bfefffd9048da2ff63532f4c1a0007c49a2b4990578"
+      }
+    }
+  },
+  "smoke": {
+    "generatedAt": "2026-10-27T14:41:27.904Z",
+    "origin": "https://echobuddha.com",
+    "sha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+    "deployedIdentity": {
+      "schemaVersion": 1,
+      "sha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+      "ref": "refs/heads/main",
+      "builtAt": "2026-10-27T14:36:17.476Z"
+    },
+    "workflowRunId": "local",
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "pass": true,
+    "checks": [
+      {
+        "name": "release-identity",
+        "pass": true,
+        "evidence": "200; serving c561f61d7b0793a4cf26a481648bad68e19704e0"
+      },
+      {
+        "name": "homepage",
+        "pass": true,
+        "evidence": "200; H1 true"
+      },
+      {
+        "name": "consent",
+        "pass": true,
+        "evidence": "affirmative preference UI present"
+      },
+      {
+        "name": "adsense-runtime",
+        "pass": true,
+        "evidence": "0 homepage runtime scripts/slots"
+      },
+      {
+        "name": "verification-meta",
+        "pass": true,
+        "evidence": "publisher meta present"
+      },
+      {
+        "name": "security-headers",
+        "pass": true,
+        "evidence": "enforced CSP + 6 baseline headers"
+      },
+      {
+        "name": "robots",
+        "pass": true,
+        "evidence": "200; crawler policy present"
+      },
+      {
+        "name": "sitemap",
+        "pass": true,
+        "evidence": "200; 165/165 URLs; 17 approved additions present; 2 approved consolidations absent; 43 approved quote noindex decisions applied"
+      },
+      {
+        "name": "primary-owner",
+        "pass": true,
+        "evidence": "200; indexable self-canonical"
+      },
+      {
+        "name": "noindex-route",
+        "pass": true,
+        "evidence": "200; noindex follow"
+      },
+      {
+        "name": "search",
+        "pass": true,
+        "evidence": "200; 330/330 items; 17 approved additions present; 2 approved consolidations absent"
+      },
+      {
+        "name": "ads.txt",
+        "pass": true,
+        "evidence": "200; exact true"
+      },
+      {
+        "name": "404",
+        "pass": true,
+        "evidence": "404; rendered HTML error page with H1 and noindex, no canonical"
+      },
+      {
+        "name": "https-redirect",
+        "pass": true,
+        "evidence": "301; https://echobuddha.com/"
+      },
+      {
+        "name": "preview-noindex",
+        "pass": true,
+        "evidence": "200; noindex, nofollow"
+      }
+    ]
+  },
+  "indexnow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 7,
+    "checkedAt": "2026-10-27T14:41:33.013Z",
+    "indexingGuaranteed": false
+  },
+  "productionTools": [
+    {
+      "engine": "chromium",
+      "browserVersion": "149.0.7827.55",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "151.0",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    }
+  ],
+  "limitations": "Initial WebKit search wait timed out once; a fresh diagnostic returned HTTP 200 and 17 accented-search results, then the complete WebKit production suite passed. No application change was needed for that transient wait."
+}

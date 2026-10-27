@@ -103,9 +103,36 @@ test("failed key, stale release, sitemap drift, redirects and noindex prevent al
     [home, new Response(html(article))]
   ]) {
     const fake = fakeProduction(target, new Map([[url, response]]));
-    await assert.rejects(submitPlan(createPlan(target, null), fake.fetcher));
+    await assert.rejects(submitPlan(createPlan(target, null), fake.fetcher, { attempts: 1 }));
     assert.equal(fake.posts.length, 0);
   }
+});
+
+test("transient prior manifests retry reads and submit once only after exact equality", async () => {
+  const target = manifest([[home]]);
+  const previous = manifest([[home, "b"]]);
+  const fake = fakeProduction(target);
+  let reads = 0;
+  const waits = [];
+  const fetcher = async (url, options) => {
+    if (url === `${ORIGIN}${MANIFEST_PATH}`) return Response.json(++reads < 3 ? previous : target);
+    if (options?.method === "POST") assert.equal(reads, 3);
+    return fake.fetcher(url, options);
+  };
+  const result = await submitPlan(createPlan(target, previous), fetcher, { sleep: async ms => { waits.push(ms); } });
+  assert.equal(result.manifestVerificationAttempts, 3);
+  assert.deepEqual(waits, [5000, 5000]);
+  assert.equal(fake.posts.length, 1);
+});
+
+test("a permanently different release exhausts bounded verification without any submission", async () => {
+  const target = manifest([[home]]);
+  const fake = fakeProduction(target, new Map([[`${ORIGIN}${MANIFEST_PATH}`, Response.json(manifest([[home, "b"]]))]]));
+  const waits = [];
+  await assert.rejects(submitPlan(createPlan(target, null), fake.fetcher, { sleep: async ms => { waits.push(ms); } }), /after 7 verification attempts/);
+  assert.equal(waits.length, 6);
+  assert.equal(waits.reduce((a, b) => a + b, 0), 30000);
+  assert.equal(fake.posts.length, 0);
 });
 
 test("removed URLs require a live removal, exclusion or permanent redirect", async () => {
