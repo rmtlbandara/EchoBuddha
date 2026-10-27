@@ -4,7 +4,7 @@ Echo Buddha uses proportionate governance: objective regressions block, while su
 
 ## Setup
 
-Use Node 22 and npm 10. Install exactly from the lockfile:
+Use the exact `.node-version` runtime (22.23.4) and npm 10.9.9 from `packageManager`. Install exactly from the lockfile:
 
 ```bash
 npm ci
@@ -24,6 +24,7 @@ Run browser validation for consent, Analytics, navigation, Search, accessibility
 
 ```bash
 npm run audit:browser
+npm run audit:tools:browser
 ```
 
 Run Lighthouse for layout, runtime, dependency, asset or performance-sensitive work:
@@ -41,6 +42,8 @@ For an existing-page refresh, preserve its role, URL, owner, index state, canoni
 Before adding an indexable page, answer the approval questions in `governance/indexable-page-approvals.json`: user need, reader, nearest existing page, why that page should not be improved instead, unique value, ownership, sources, safety, index intent, monetization review, next step, and independent value without Search or ads.
 
 Potential overlap, structural similarity, thinness or source-density concerns are human-review warnings. They are not automatically treated as proof of low quality. Exact duplication, invalid source references and objective index/route failures block.
+
+Follow [publishing guidance](docs/publishing.md) for source and translation review, dates, imagery, metadata, internal links, approvals and release evidence. Preserve historical audit records. New approved application changes during measurement need an explicit intervention; [per-file supersession](docs/measurement-interventions.md) retains earlier records and validates the latest authorized candidate.
 
 ## High-sensitivity changes
 

@@ -6,6 +6,22 @@ Effective date: 2026-08-13
 
 Owner: Echo Buddha repository owner
 
+## Current operating note October 27 2026
+
+Node 22.23.4 and npm 10.9.9 are the current release toolchain. The GitHub
+`production` environment and expected Cloudflare secret names now exist; the
+earlier missing-setup statements below describe the August baseline. Check the
+latest release record and live settings for actual branch/environment enforcement.
+The repository prebuild guard blocks legacy Workers CI production builds.
+Production continues to use the exact-current-main, single-artifact workflow.
+IndexNow is active and notifies changed canonical URLs after smoke succeeds.
+Historical audit and deployment records remain unchanged.
+
+Application hashes during measurement support reviewed per-file supersession
+without rewriting prior intervention records; see
+[measurement operations](docs/measurement-interventions.md). New source-led
+content follows [publishing guidance](docs/publishing.md).
+
 ## Governing principle
 
 The safe path should be easy and the unsafe path difficult. Repository automation blocks objective, reproducible regressions. Editors and the owner retain judgment over semantic overlap, voice, information gain and other contextual quality decisions.

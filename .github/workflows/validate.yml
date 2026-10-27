@@ -87,7 +87,7 @@ jobs:
         run: npm run build
 
       - name: Run consent and accessibility browser gate
-        run: npm run audit:browser && npm run audit:buddhist-questions:browser && BROWSER_ENGINES=chromium npm run audit:guides:browser
+        run: npm run audit:browser && BROWSER_ENGINES=chromium npm run audit:tools:browser && npm run audit:buddhist-questions:browser && BROWSER_ENGINES=chromium npm run audit:guides:browser
 
       - name: Upload browser evidence
         if: always()

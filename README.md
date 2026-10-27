@@ -17,7 +17,7 @@ npm ci
 npm run dev
 ```
 
-Use Node.js 22 and npm 10, as declared by `.node-version` and `package.json`. The local dev server usually runs at `http://localhost:4321`.
+Use Node.js 22.23.4 and npm 10.9.9, as declared by `.node-version` and `package.json`. With nvm, run `nvm install 22.23.4` and `nvm use 22.23.4` first. The release validator checks that local execution matches CI. The local dev server usually runs at `http://localhost:4321`.
 
 ## Validation
 
@@ -42,16 +42,17 @@ The validation sequence runs:
 The SEO audit writes current generated-site evidence to `docs/audits/echo-buddha-governance-implementation/`.
 The content audit writes remediation evidence, registers, queues, and page-role maps to `docs/audits/content-audit/`.
 The dependency audit fails the release gate on high or critical vulnerability advisories.
-The release gate uses `npm run validate:rc` and the Phase 2 local-release-candidate mode: it keeps the measurement hold active and fails if a presentation-only release changes content, indexation, redirects, analytics, consent, advertising, or deployment configuration. The stricter `npm run validate` and `npm run audit:phase2:measurement` commands remain available for validating the measurement-infrastructure release itself.
+The release gate uses `npm run validate:rc` and the Phase 2 local-release-candidate mode. It retains the measurement hold and checks explicitly approved application hashes. A later authorized intervention may supersede an earlier file hash only through a per-file replacement tied to an unchanged historical record and hashed baseline. Route, canonical, index and owner changes remain separately guarded. See [measurement intervention operations](docs/measurement-interventions.md). The stricter `npm run validate` and `npm run audit:phase2:measurement` commands validate the original measurement-infrastructure-only release scope.
 
 Browser-readiness checks are available for final pre-release reviews:
 
 ```bash
 npm run audit:browser
+npm run audit:tools:browser
 npm run audit:lighthouse
 ```
 
-These commands use system Chrome through `playwright-core` and Lighthouse. CI uploads their generated `.artifacts/` evidence; historical audit evidence remains under `docs/audits/final-readiness-remediation/`.
+The general browser and Lighthouse scripts use system Chrome; the Tools script uses installed Playwright Chromium, Firefox and WebKit by default (`BROWSER_ENGINES=chromium` selects CI's installed engine). Set `AUDIT_OUT_DIR` to an ignored `.artifacts/` directory to preserve historical output. CI uploads generated evidence. See [publishing guidance](docs/publishing.md) for the source-led content workflow.
 
 ## Content Model
 
@@ -116,7 +117,7 @@ Future ad work must review consent/CMP requirements, content quality, policy pag
 
 Production deployment is intended to be a separately authorized operation. The manual `deploy-production.yml` workflow accepts an exact 40-character commit SHA from `main`, validates it, builds once, verifies the immutable artifact, deploys it through the protected `production` environment, and runs smoke checks. Rollback uses the separately confirmed `rollback-production.yml` workflow and a recorded Cloudflare version ID.
 
-The legacy Cloudflare Git integration was observed auto-deploying `main` during the Phase 9 release. The owner must disable that automatic production trigger after configuring the GitHub `production` environment; until that external cutover is verified, merging to `main` can still deploy automatically.
+The GitHub `production` environment and the two named Cloudflare secrets exist, as verified on October 27. Environment and branch enforcement must be read from current GitHub settings; an environment name alone does not establish approval rules. The repository's `prebuild` guard rejects legacy Cloudflare Workers CI production builds. Check the external trigger and current account protections before each release; see the latest deployment record for dated evidence.
 
 For an owner-authorized emergency local deployment only:
 

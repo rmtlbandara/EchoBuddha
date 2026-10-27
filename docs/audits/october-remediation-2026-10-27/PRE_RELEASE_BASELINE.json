@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-10-27T13:52:12.996Z",
+  "baselineSha": "82ba525330ec181511ce85c9e360294e6aa7dd1a",
+  "productionRelease": {
+    "schemaVersion": 1,
+    "sha": "67f486a8d990f0058374301d9ebf6fd74ed85994",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-10-23T12:22:56.121Z"
+  },
+  "historicalInterventions": [
+    {
+      "id": "production-transformation-2026-10-23",
+      "sha256": "69fa88765a6cbbef30a2fc91193697f1fdec16e5ce42aeb8d4784b5cc125250f"
+    }
+  ],
+  "preservedFiles": {
+    "public/_redirects": "0ab1f41c4aa29ce11c2355c77a7b5a6865e3f76b3306f0cb5ea17492684ced87",
+    "public/robots.txt": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1",
+    "public/_headers": "16c0ab41ead01926a385e65d1870467cec8f274d82d2ee7de05b5b5166e9a4b3",
+    "src/pages/sitemap.xml.ts": "3ba2a425a6ab13218d55c99a9943967c989e8145cbf77b3fa9b364eee72017e0",
+    "src/data/search-index-policy.mjs": "7ad4efb4bee1c47ea98bdcf9f149b210ee9e655cdba1843bcb26509db5f7e977",
+    "src/data/monetization.mjs": "47c5e91cd173a4c9ecf03f153a1bb14064a496444f242817476695ab2157cd79"
+  }
+}

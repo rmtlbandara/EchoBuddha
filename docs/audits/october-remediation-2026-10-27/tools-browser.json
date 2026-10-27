@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-10-27T14:16:12.105Z",
+  "origin": "http://127.0.0.1:4321",
+  "results": [
+    {
+      "engine": "chromium",
+      "browserVersion": "149.0.7827.55",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "151.0",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    }
+  ]
+}

@@ -32,6 +32,7 @@ export function getStaticPaths() {
 const { page } = Astro.props as { page: LearningPage };
 const canonicalPath = `/meditation/${page.slug}/`;
 const topicGuide = getTopicGuide(canonicalPath);
+const modifiedDate = page.modifiedDate ?? topicGuide?.modifiedDate;
 const shareImage = getShareImage(canonicalPath);
 const qualityNote = getLearningQualityNote(page);
 const termLinks = getTermLinks(page.terms);
@@ -44,7 +45,7 @@ const jsonLd = [
     "@id": `${SITE.url}${canonicalPath}#article`,
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${canonicalPath}` },
     image: `${SITE.url}${shareImage.path}`,
-    dateModified: topicGuide?.modifiedDate,
+    dateModified: modifiedDate,
     citation: sourceLinks.map((source) => source.href),
     headline: page.title,
     description: page.description,
@@ -61,7 +62,7 @@ const jsonLd = [
 ];
 ---
 
-<Layout title={page.title} description={page.description} canonicalPath={canonicalPath} type="article" modifiedDate={topicGuide?.modifiedDate} jsonLd={jsonLd}>
+<Layout title={page.title} description={page.description} canonicalPath={canonicalPath} type="article" modifiedDate={modifiedDate} jsonLd={jsonLd}>
   <article>
     <header class="page-hero">
       <div class="container prose">
@@ -74,6 +75,7 @@ const jsonLd = [
         <h1>{page.title}</h1>
         <p class="lede">{page.intro}</p>
         <EditorialAttribution />
+        {page.modifiedDate && <p class="muted">Updated <time datetime={page.modifiedDate}>{new Date(`${page.modifiedDate}T12:00:00Z`).toLocaleDateString("en-US", { timeZone: "UTC", year: "numeric", month: "long", day: "numeric" })}</time>. Practice guidance revised by Echo Buddha Editorial.</p>}
       </div>
     </header>
 

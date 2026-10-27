@@ -40,9 +40,10 @@ Cloudflare Crawler Hints remains enabled as an independent service.
 
 ## Activation and retry
 
-The first production deployment publishes the ownership file and manifest and
-submits the 165 currently sitemap-listed pages. This is pending until the
-owner-authorized production deployment runs successfully.
+IndexNow is active. The October 27 audit verified the live 165-URL manifest
+and Bing's recorded submission events. Each later release compares the actual
+old and new manifests; it does not repeat the initial bootstrap. Submission
+receipts and engine indexing observations remain separate evidence.
 
 The workflow artifact includes `.artifacts/indexnow/plan.json` and
 `.artifacts/indexnow/result.json`. Keep the plan if submission fails or returns

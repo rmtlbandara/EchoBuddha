@@ -213,8 +213,9 @@ const jsonLd = [
           <p>Search simple meanings for common Buddhist terms, then open the full dictionary entry.</p>
         </div>
         <label class="visually-hidden" for="tool-glossary-search">Search Buddhist terms</label>
-        <input id="tool-glossary-search" class="tool-search" type="search" data-glossary-search placeholder="Search terms such as metta, karma, anicca..." />
-        <div class="glossary-grid" data-glossary-output></div>
+        <input id="tool-glossary-search" class="tool-search" type="search" data-glossary-search aria-controls="tool-glossary-results" placeholder="Search terms such as metta, karma, anicca..." />
+        <p class="muted" role="status" aria-live="polite" aria-atomic="true" data-glossary-status></p>
+        <div id="tool-glossary-results" class="glossary-grid" data-glossary-output></div>
       </section>
     </div>
   </section>
@@ -258,8 +259,8 @@ const jsonLd = [
 
   <section class="section section--tight">
     <div class="container">
-      <span class="eyebrow">Crawlable resources</span>
-      <h2>Practice Links Available Without JavaScript</h2>
+      <span class="eyebrow">Explore the guides</span>
+      <h2>Guides for Everyday Practice</h2>
       <div class="grid grid--3">
         {staticResourceLinks.map((item) => <LearningCard item={item} />)}
       </div>
@@ -329,10 +330,14 @@ const jsonLd = [
   };
 
   const renderGlossary = () => {
-    const query = (glossarySearch?.value || "").toLowerCase().trim();
-    const matches = glossaryItems
-      .filter((item) => !query || `${item.term} ${item.meaning}`.toLowerCase().includes(query))
-      .slice(0, 12);
+    // Match the main search contract while keeping the original display spelling.
+    const normalize = (value) => value.toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "").trim();
+    const query = normalize(glossarySearch?.value || "");
+    const allMatches = glossaryItems.filter((item) => !query || normalize(`${item.term} ${item.meaning}`).includes(query));
+    const matches = allMatches.slice(0, 12);
+    document.querySelector("[data-glossary-status]").textContent = allMatches.length
+      ? `Showing ${matches.length} of ${allMatches.length} matching terms.`
+      : "No matching terms. Try another spelling or clear the search to browse Buddhist terms.";
     glossaryOutput.innerHTML = matches.map((item) => `
       <a href="${escapeHtml(item.href)}">
         <strong>${escapeHtml(item.term)}</strong>
@@ -525,7 +530,7 @@ const jsonLd = [
   }
 
   .challenge-grid a,
-  .glossary-grid a,
+  .glossary-grid :global(a),
   .tool-path {
     background: rgba(247, 240, 229, 0.58);
     border: 1px solid var(--color-line);
@@ -537,20 +542,20 @@ const jsonLd = [
   }
 
   .challenge-grid a:hover,
-  .glossary-grid a:hover,
+  .glossary-grid :global(a:hover),
   .tool-path:hover {
     border-color: var(--color-green);
   }
 
   .challenge-grid span,
-  .glossary-grid span,
+  .glossary-grid :global(span),
   .tool-path span {
     color: var(--color-muted);
     font-size: 0.88rem;
   }
 
   .challenge-grid strong,
-  .glossary-grid strong,
+  .glossary-grid :global(strong),
   .tool-path strong {
     color: var(--color-ink);
     font-family: var(--font-serif);

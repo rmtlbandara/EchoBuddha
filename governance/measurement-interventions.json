@@ -96,6 +96,60 @@
         "state": "FUTURE_DATA_REQUIRED",
         "condition": "Requires a stable release, actually finalized evidence, and a separately reviewed consolidation decision. A later material release restarts this observation window."
       }
+    },
+    {
+      "id": "october-audit-remediation-2026-10-27",
+      "status": "AUTHORIZED_FOR_RELEASE",
+      "authorizedBy": "Project owner: go with this strongly, adopting writing-block (12).md in the October 27 implementation chat",
+      "authorizedOn": "2026-10-27",
+      "baselineSha": "82ba525330ec181511ce85c9e360294e6aa7dd1a",
+      "baselineEvidence": "docs/audits/october-remediation-2026-10-27/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "7b6d3f280bcce089012588580229140e290dcc97da3cf165270093748af3bb38",
+      "plannedReleaseDate": "2026-10-27",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Supported patched Node and compatible dependencies; glossary normalization, accessible status and WebKit search-overlay focus recovery; six selective source-aware dictionary and practice improvements; append-only measurement supersession; current operating and publishing guidance. No route, owner, canonical, consent, advertising, or index-policy changes.",
+      "approvedApplicationFiles": {
+        "public/search.js": "51684a51efaccb77affa83efa5abc809cc312c4c65e2352583e6f059d24582cc",
+        "src/data/learn.ts": "62abf9c0c5807acbd5ca47c9973c8ef929871c543e82403f4f094baff30cfa96",
+        "src/pages/tools.astro": "be277c974febb5846d9f43d4a5e3d0ffebcd587a0cfe8394b21757ceda1f4054",
+        "src/pages/learn/[section]/[slug].astro": "f07de1035810102a3cb65b2dc4999a2a8e698bb5dfe9f0f6ab9d716038d5881e",
+        "src/pages/meditation/[slug].astro": "e0e34d82fbadf0a55e7a689d43789f87f3882f1b7a9d015b05cc2ab8c98af8d2"
+      },
+      "supersedesFiles": [
+        {
+          "file": "public/search.js",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "006587af1615bdee663c56811d86ef58ab85f785bc7400a964d80bd432b94cb9"
+        },
+        {
+          "file": "src/data/learn.ts",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "58a7f122f14454eca1c2b901d6aa4eb635ad1e2000c58b408535370c5fde58fa"
+        },
+        {
+          "file": "src/pages/learn/[section]/[slug].astro",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "9ce38057daf2043e4b9c42ca07041574b77f571424724fcf97b6299c81977a5e"
+        },
+        {
+          "file": "src/pages/meditation/[slug].astro",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "be4fecb53deaf759502c3befc660f765fdf6db635e5c8b0e149a6d389a5edfc2"
+        }
+      ],
+      "materiallyRevisedRoutes": [
+        "/tools/",
+        "/learn/buddhist-dictionary/compassion/",
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-dictionary/sati/",
+        "/learn/buddhism-101/what-is-mindfulness/",
+        "/meditation/5-minute-meditation-practice/",
+        "/meditation/10-minute-meditation-practice/"
+      ],
+      "measurementImpact": "The October 24-November 20 window becomes intervened when this candidate actually deploys. Retain it as descriptive evidence. Calculate a new 28-day stable window from the first Pacific day after the actual verified release; no invented future observations or causal attribution. Consolidation remains on hold."
     }
   ]
 }

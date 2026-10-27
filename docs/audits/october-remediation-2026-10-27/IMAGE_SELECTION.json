@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-10-27T14:15:01.563Z",
+  "note": "Pre-release production selection; image source files remain unchanged. Existing strong lab results and responsive delivery do not justify speculative replacement.",
+  "results": [
+    {
+      "route": "/",
+      "viewport": 390,
+      "actualViewport": 390,
+      "dpr": 2,
+      "images": [
+        {
+          "src": "https://echobuddha.com/images/articles/right-speech-buddhism-800.avif",
+          "alt": "Two colleagues pausing for a thoughtful, respectful conversation at a work table",
+          "naturalWidth": 358,
+          "width": 356,
+          "height": 199.25,
+          "loading": "lazy",
+          "http": 200,
+          "bytes": 22452
+        },
+        {
+          "src": "https://echobuddha.com/images/articles/three-poisons-buddhism-explained-800.avif",
+          "alt": "Three tangled roots—clutching, thorned, and obscured—loosening beneath a healthy tree",
+          "naturalWidth": 358,
+          "width": 356,
+          "height": 199.25,
+          "loading": "lazy",
+          "http": 200,
+          "bytes": 46915
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "viewport": 1440,
+      "actualViewport": 1440,
+      "dpr": 2,
+      "images": [
+        {
+          "src": "https://echobuddha.com/images/hero-buddha.avif",
+          "alt": "Peaceful Buddha illustration with lotus and soft natural colors",
+          "naturalWidth": 960,
+          "width": 384,
+          "height": 384,
+          "loading": "eager",
+          "http": 200,
+          "bytes": 71256
+        },
+        {
+          "src": "https://echobuddha.com/images/articles/right-speech-buddhism.avif",
+          "alt": "Two colleagues pausing for a thoughtful, respectful conversation at a work table",
+          "naturalWidth": 480,
+          "width": 359.0625,
+          "height": 200.96875,
+          "loading": "lazy",
+          "http": 200,
+          "bytes": 51510
+        },
+        {
+          "src": "https://echobuddha.com/images/articles/three-poisons-buddhism-explained.avif",
+          "alt": "Three tangled roots—clutching, thorned, and obscured—loosening beneath a healthy tree",
+          "naturalWidth": 480,
+          "width": 359.078125,
+          "height": 200.96875,
+          "loading": "lazy",
+          "http": 200,
+          "bytes": 111015
+        }
+      ]
+    },
+    {
+      "route": "/learn/buddhist-handbook/",
+      "viewport": 390,
+      "actualViewport": 390,
+      "dpr": 2,
+      "images": [
+        {
+          "src": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook.avif",
+          "alt": "Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn",
+          "naturalWidth": 390,
+          "width": 358,
+          "height": 201.375,
+          "loading": "eager",
+          "http": 200,
+          "bytes": 160202
+        }
+      ]
+    },
+    {
+      "route": "/learn/buddhist-handbook/",
+      "viewport": 1440,
+      "actualViewport": 1440,
+      "dpr": 2,
+      "images": [
+        {
+          "src": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook.avif",
+          "alt": "Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn",
+          "naturalWidth": 720,
+          "width": 550.1875,
+          "height": 309.46875,
+          "loading": "eager",
+          "http": 200,
+          "bytes": 160202
+        }
+      ]
+    }
+  ]
+}

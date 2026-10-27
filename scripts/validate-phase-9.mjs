@@ -320,12 +320,14 @@ check("Rollback", "Rollback workflow is manual, exact-version guarded and smoke-
 check("Runtime", "Node, npm and lockfile reproducibility are aligned", () => {
   const pkg = JSON.parse(read("package.json"));
   const nodeVersion = read(".node-version").trim();
-  const [nodeMajor, nodeMinor] = nodeVersion.split(".").map(Number);
+  const [nodeMajor, nodeMinor, nodePatch] = nodeVersion.split(".").map(Number);
   assert.equal(nodeMajor, 22);
-  assert.ok(nodeMinor >= 18, "Node 22 must support unflagged TypeScript type stripping used by repository validators");
-  assert.equal(pkg.engines.node, "22.x");
+  assert.ok(nodeMinor > 23 || (nodeMinor === 23 && nodePatch >= 4), "Node must include the October security fixes and satisfy Astro's minimum");
+  assert.equal(process.versions.node, nodeVersion, "Validate with the same exact runtime used by CI");
+  assert.equal(pkg.engines.node, `>=${nodeVersion} <23`);
   assert.equal(pkg.engines.npm, "10.x");
-  assert.equal(pkg.packageManager, "npm@10.9.8");
+  assert.match(pkg.packageManager, /^npm@10\.\d+\.\d+$/);
+  assert.equal(execFileSync("npm", ["--version"], { encoding: "utf8" }).trim(), pkg.packageManager.slice(4));
   assert.equal(JSON.parse(read("package-lock.json")).lockfileVersion, 3);
   return `Node ${nodeVersion}; npm 10; lockfile v3; npm ci`;
 });

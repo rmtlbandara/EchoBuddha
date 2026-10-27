@@ -1,0 +1,22 @@
+{
+  "recordedAt": "2026-10-27T14:17:49.412Z",
+  "runtime": {
+    "node": "22.23.4",
+    "npm": "10.9.9"
+  },
+  "deterministicInstall": "PASS",
+  "releaseGate": "PASS",
+  "unitTests": {
+    "passed": 85,
+    "failed": 0
+  },
+  "measurementNegativeTests": 13,
+  "phase9": {
+    "total": 26,
+    "failed": 0
+  },
+  "browser": "See BROWSER_SUMMARY.json and tools-browser.json",
+  "performance": "20 local Lighthouse template/device runs: Performance 100, automated Accessibility 100; localhost timing not comparable to inherited production timings or a field CWV assertion.",
+  "historicalEvidence": "Original tracked generated audit evidence restored; fresh outputs retained in .artifacts/remediation-2026-10-27/generated-evidence and new compact summaries.",
+  "production": "Not yet deployed at this source-review checkpoint"
+}
