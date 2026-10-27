@@ -1,8 +1,8 @@
 # Echo Buddha CI, Git and Deployment Governance
 
-Version: 1.0.0
+Version: 1.1.0
 
-Effective date: 2026-08-13
+Effective date: 2026-10-27
 
 Owner: Echo Buddha repository owner
 
@@ -10,7 +10,7 @@ Owner: Echo Buddha repository owner
 
 Node 22.23.4 and npm 10.9.9 are the current release toolchain. The GitHub
 `production` environment and expected Cloudflare secret names now exist; the
-earlier missing-setup statements below describe the August baseline. Check the
+earlier missing-setup statements in historical audits describe the August baseline. Check the
 latest release record and live settings for actual branch/environment enforcement.
 The repository prebuild guard blocks legacy Workers CI production builds.
 Production continues to use the exact-current-main, single-artifact workflow.
@@ -60,11 +60,11 @@ Do not interpolate pull-request titles, branch names, issue bodies or other untr
 
 The selected model is manual production deployment after merge. The deploy workflow accepts a lowercase 40-character SHA only when it equals the current `origin/main` SHA. The SHA is checked before validation and again immediately before deploy, preventing a queued older release from overwriting a newer `main`.
 
-Transition warning: the Phase 9 merge proved that a pre-existing Cloudflare Git integration still builds and deploys every `main` merge independently of the governed workflow. Until the owner disables that automatic production trigger and completes the GitHub `production` environment, a `main` merge can reach production before all post-merge checks finish. Treat the manual workflow as the target model, not the exclusive live path, until the external cutover is verified.
+Current delivery state, verified October 27: Cloudflare Worker Settings > Builds shows Git repository: Connect, with no repository connected. The former automatic Git integration is therefore absent in the observed configuration. The repository also blocks legacy Workers CI production builds. Use the governed manual exact-SHA workflow and verify current connection state before future releases.
 
 The validation job builds once, creates per-file SHA-256 evidence, and uploads an artifact named with SHA and workflow run ID. The deployment job verifies every digest and deploys that exact `dist`, not a rebuild. Production jobs share `echobuddha-production` concurrency with `cancel-in-progress: false`.
 
-Only the deploy step receives `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. They must be stored as production-environment secrets and scoped to the single required Cloudflare account/Worker. Current repository settings do not yet contain these secrets or a production environment.
+Only the deploy step receives `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. They must be stored as production-environment secrets and scoped to the single required Cloudflare account/Worker. The production environment and expected two secret names were verified on October 27. Production deployments are restricted to protected branches; main requires both hosted release and browser checks with administrator enforcement. Required human review count is zero for the solo-maintainer model, so an environment name must not be presented as a second-human approval gate.
 
 ## Production verification and failure
 

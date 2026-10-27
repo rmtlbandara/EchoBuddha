@@ -1,108 +1,78 @@
 {
-  "checkedAt": "2026-10-27T14:15:01.563Z",
-  "note": "Pre-release production selection; image source files remain unchanged. Existing strong lab results and responsive delivery do not justify speculative replacement.",
+  "checkedAt": "2026-10-27T14:33:16.367Z",
+  "note": "Fresh isolated browser context for each route/width; current image bytes are unchanged by this release. Existing strong performance and correct responsive delivery support retaining assets.",
   "results": [
     {
       "route": "/",
       "viewport": 390,
       "actualViewport": 390,
       "dpr": 2,
-      "images": [
-        {
-          "src": "https://echobuddha.com/images/articles/right-speech-buddhism-800.avif",
-          "alt": "Two colleagues pausing for a thoughtful, respectful conversation at a work table",
-          "naturalWidth": 358,
-          "width": 356,
-          "height": 199.25,
-          "loading": "lazy",
-          "http": 200,
-          "bytes": 22452
-        },
-        {
-          "src": "https://echobuddha.com/images/articles/three-poisons-buddhism-explained-800.avif",
-          "alt": "Three tangled roots—clutching, thorned, and obscured—loosening beneath a healthy tree",
-          "naturalWidth": 358,
-          "width": 356,
-          "height": 199.25,
-          "loading": "lazy",
-          "http": 200,
-          "bytes": 46915
-        }
-      ]
+      "image": {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+        "srcset": "",
+        "sizes": "",
+        "alt": "Peaceful Buddha illustration with lotus and soft natural colors",
+        "naturalWidth": 1,
+        "width": 0,
+        "height": 0,
+        "inlinePlaceholder": true,
+        "note": "Intentional mobile hero source avoids downloading the hidden desktop artwork."
+      },
+      "freshBrowserContext": true
     },
     {
       "route": "/",
       "viewport": 1440,
       "actualViewport": 1440,
       "dpr": 2,
-      "images": [
-        {
-          "src": "https://echobuddha.com/images/hero-buddha.avif",
-          "alt": "Peaceful Buddha illustration with lotus and soft natural colors",
-          "naturalWidth": 960,
-          "width": 384,
-          "height": 384,
-          "loading": "eager",
-          "http": 200,
-          "bytes": 71256
-        },
-        {
-          "src": "https://echobuddha.com/images/articles/right-speech-buddhism.avif",
-          "alt": "Two colleagues pausing for a thoughtful, respectful conversation at a work table",
-          "naturalWidth": 480,
-          "width": 359.0625,
-          "height": 200.96875,
-          "loading": "lazy",
-          "http": 200,
-          "bytes": 51510
-        },
-        {
-          "src": "https://echobuddha.com/images/articles/three-poisons-buddhism-explained.avif",
-          "alt": "Three tangled roots—clutching, thorned, and obscured—loosening beneath a healthy tree",
-          "naturalWidth": 480,
-          "width": 359.078125,
-          "height": 200.96875,
-          "loading": "lazy",
-          "http": 200,
-          "bytes": 111015
-        }
-      ]
+      "image": {
+        "src": "https://echobuddha.com/images/hero-buddha.avif",
+        "srcset": "",
+        "sizes": "",
+        "alt": "Peaceful Buddha illustration with lotus and soft natural colors",
+        "naturalWidth": 960,
+        "width": 384,
+        "height": 384,
+        "http": 200,
+        "bytes": 71256
+      },
+      "freshBrowserContext": true
     },
     {
       "route": "/learn/buddhist-handbook/",
       "viewport": 390,
       "actualViewport": 390,
       "dpr": 2,
-      "images": [
-        {
-          "src": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook.avif",
-          "alt": "Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn",
-          "naturalWidth": 390,
-          "width": 358,
-          "height": 201.375,
-          "loading": "eager",
-          "http": 200,
-          "bytes": 160202
-        }
-      ]
+      "image": {
+        "src": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook-800.avif",
+        "srcset": "/images/handbook/refined/buddhist-life-practice-handbook-800.webp 800w, /images/handbook/refined/buddhist-life-practice-handbook.webp 1600w",
+        "sizes": "(min-width: 900px) 50vw, 100vw",
+        "alt": "Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn",
+        "naturalWidth": 390,
+        "width": 358,
+        "height": 201.375,
+        "http": 200,
+        "bytes": 51147
+      },
+      "freshBrowserContext": true
     },
     {
       "route": "/learn/buddhist-handbook/",
       "viewport": 1440,
       "actualViewport": 1440,
       "dpr": 2,
-      "images": [
-        {
-          "src": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook.avif",
-          "alt": "Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn",
-          "naturalWidth": 720,
-          "width": 550.1875,
-          "height": 309.46875,
-          "loading": "eager",
-          "http": 200,
-          "bytes": 160202
-        }
-      ]
+      "image": {
+        "src": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook.avif",
+        "srcset": "/images/handbook/refined/buddhist-life-practice-handbook-800.webp 800w, /images/handbook/refined/buddhist-life-practice-handbook.webp 1600w",
+        "sizes": "(min-width: 900px) 50vw, 100vw",
+        "alt": "Bodhi leaves, a palm-leaf manuscript, an alms bowl, and a path toward a distant stupa at dawn",
+        "naturalWidth": 720,
+        "width": 550.1875,
+        "height": 309.46875,
+        "http": 200,
+        "bytes": 160202
+      },
+      "freshBrowserContext": true
     }
   ]
 }

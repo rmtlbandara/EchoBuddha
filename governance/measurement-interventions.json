@@ -99,7 +99,7 @@
     },
     {
       "id": "october-audit-remediation-2026-10-27",
-      "status": "AUTHORIZED_FOR_RELEASE",
+      "status": "DEPLOYED",
       "authorizedBy": "Project owner: go with this strongly, adopting writing-block (12).md in the October 27 implementation chat",
       "authorizedOn": "2026-10-27",
       "baselineSha": "82ba525330ec181511ce85c9e360294e6aa7dd1a",
@@ -149,7 +149,27 @@
         "/meditation/5-minute-meditation-practice/",
         "/meditation/10-minute-meditation-practice/"
       ],
-      "measurementImpact": "The October 24-November 20 window becomes intervened when this candidate actually deploys. Retain it as descriptive evidence. Calculate a new 28-day stable window from the first Pacific day after the actual verified release; no invented future observations or causal attribution. Consolidation remains on hold."
+      "measurementImpact": "The October 24-November 20 window becomes intervened when this candidate actually deploys. Retain it as descriptive evidence. Calculate a new 28-day stable window from the first Pacific day after the actual verified release; no invented future observations or causal attribution. Consolidation remains on hold.",
+      "productionSha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+      "productionDeployedAt": "2026-10-27T14:37:19.120275Z",
+      "productionReleases": [
+        {
+          "sha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+          "deployedAt": "2026-10-27T14:37:19.120275Z",
+          "deploymentId": "7d2ff574-9f5c-4760-af26-e280fc488292",
+          "versionId": "b3163338-fcd1-41a4-908c-ac4dbb2eedc7",
+          "verification": "Hosted exact-main CI and 15 production smoke checks passed. Initial notification stopped on a transient prior-manifest mismatch; exact saved-plan retry after fresh smoke returned HTTP 200 for 7 changed URLs."
+        }
+      ],
+      "revisedObservationDates": {
+        "timeZone": "America/Los_Angeles",
+        "excludedDeploymentDay": "2026-10-27",
+        "start": "2026-10-28",
+        "end": "2026-11-24",
+        "earliestFinalizedReview": "2026-11-27",
+        "state": "FUTURE_DATA_REQUIRED",
+        "condition": "Requires stable substantive content and actually finalized data. October 24-November 20 is intervened/descriptive only; destructive consolidation remains held."
+      }
     }
   ]
 }

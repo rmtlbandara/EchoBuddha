@@ -30,6 +30,13 @@ New and updated pages must be canonical, indexable HTTP 200 pages. Removed
 pages must return 404/410, a permanent redirect, or an explicit noindex.
 Only then does it POST the batch to `https://api.indexnow.org/indexnow`.
 
+After a successful deploy, metadata can briefly propagate at different speeds.
+The notifier checks exact manifest equality up to seven times, waiting five
+seconds between mismatches (at most 30 seconds of scheduled waiting). These are
+read requests, not repeated submissions. A permanently different manifest still
+blocks every POST. Invalid manifests, failed route checks and endpoint failures
+remain failures; use the saved matching plan for a justified retry.
+
 - HTTP 200: URLs submitted; this does not guarantee crawling or indexing.
 - HTTP 202: URLs received; ownership verification is pending.
 - Other responses or network errors: workflow fails with saved failure evidence.
