@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-27T14:14:26.324Z",
+  "consent": {
+    "pass": true,
+    "scenarios": [
+      {
+        "name": "first visit has no inferred consent and no Google network request",
+        "pass": true
+      },
+      {
+        "name": "first visit explicit rejection",
+        "pass": true
+      },
+      {
+        "name": "return visit after rejection",
+        "pass": true
+      },
+      {
+        "name": "accept analytics from privacy settings",
+        "pass": true
+      },
+      {
+        "name": "keyboard withdrawal through reopened settings",
+        "pass": true
+      },
+      {
+        "name": "consented search use excludes query text, URL parameters, and fragments",
+        "pass": true
+      },
+      {
+        "name": "withdrawal stops aggregate search measurement",
+        "pass": true
+      },
+      {
+        "name": "mobile navigation and consent keyboard escape",
+        "pass": true
+      }
+    ]
+  },
+  "accessibility": {
+    "pass": true,
+    "pagesTested": 18,
+    "counts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0,
+      "unknown": 0
+    }
+  },
+  "limitations": "Automated axe plus targeted keyboard, enlargement and reflow checks; no full WCAG certification or real screen-reader test."
+}

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { resolveInterventions } from "./measurement-interventions.mjs";
 import {
   AUDIT_DIR,
   CLUSTERS,
@@ -8,8 +9,7 @@ import {
   PHASE_1,
   PRIVATE_EVIDENCE_DIR,
   WATCHLIST,
-  parseCsv,
-  sha256File
+  parseCsv
 } from "./phase-2-measurement-lib.mjs";
 
 const failures = [];
@@ -141,18 +141,12 @@ if (localReleaseCandidate) {
   ], { encoding: "utf8" }).trim().split("\n").filter(Boolean);
   const completeApplicationDiff = [...new Set([...releaseCandidateApplicationDiff, ...untrackedApplicationFiles])];
   const register = JSON.parse(fs.readFileSync("governance/measurement-interventions.json", "utf8"));
-  const interventionFiles = new Map();
-  for (const intervention of register.interventions) {
-    if (intervention.status === "CANCELLED") continue;
-    const baselineMatches = fs.existsSync(intervention.baselineEvidence)
-      && sha256File(intervention.baselineEvidence) === intervention.baselineEvidenceSha256;
-    check(baselineMatches && /^[a-f0-9]{40}$/.test(intervention.baselineSha), "Intervention preserves a hashed production baseline", intervention.id);
-    check(Boolean(intervention.authorizedBy) && /^\d{4}-\d{2}-\d{2}$/.test(intervention.authorizedOn), "Intervention has explicit owner authorization and date", intervention.id);
-    check(intervention.publicRouteRemovals === 0 && intervention.indexStateChanges === 0 && intervention.ownerChanges === 0 && intervention.canonicalChanges === 0, "Early release remains non-destructive", intervention.scope);
-    for (const [file, hash] of Object.entries(intervention.approvedApplicationFiles)) {
-      check(fs.existsSync(file) && sha256File(file) === hash, `Reviewed intervention file matches: ${file}`, intervention.id);
-      interventionFiles.set(file, hash);
-    }
+  let interventionFiles = new Map();
+  try {
+    interventionFiles = resolveInterventions(register, file => fs.readFileSync(file));
+    check(true, "Historical baselines and explicitly superseded current candidate hashes match", `${interventionFiles.size} files`);
+  } catch (error) {
+    check(false, "Historical baselines and explicitly superseded current candidate hashes match", error.message);
   }
   check(status.observationIntervened === true && !status.decisionGateOpen, "Authorized early intervention prevents clean-window decisions", status.interventionRegister);
   const unapprovedApplicationChanges = completeApplicationDiff

@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-27T14:13:32.638Z",
+  "engine": "Chromium",
+  "results": [
+    {
+      "url": "https://medium.com/@echo_buddha",
+      "priorStatus": "403",
+      "browserStatus": 403,
+      "finalUrl": "https://medium.com/@echo_buddha",
+      "title": "Attention Required! | Cloudflare",
+      "decision": "RESTRICTED_OR_UNVERIFIED; not a confirmed dead link"
+    },
+    {
+      "url": "https://amaravati.org/visiting/frequently-asked-questions/",
+      "priorStatus": "403",
+      "browserStatus": 403,
+      "finalUrl": "https://amaravati.org/visiting/frequently-asked-questions/",
+      "title": "Attention Required! | Cloudflare",
+      "decision": "RESTRICTED_OR_UNVERIFIED; not a confirmed dead link"
+    },
+    {
+      "url": "https://www.wisdomlib.org/",
+      "priorStatus": "403",
+      "browserStatus": 200,
+      "finalUrl": "https://www.wisdomlib.org/",
+      "title": "Wisdom Library; The portal for Hinduism, Sanskrit, Buddhism, Jainism, Mesopotamia etc...",
+      "decision": "BROWSER_ACCESS_VERIFIED"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/buddhism-and-buddhist-art",
+      "priorStatus": "429",
+      "browserStatus": 200,
+      "finalUrl": "https://www.metmuseum.org/essays/buddhism-and-buddhist-art",
+      "title": "Buddhism and Buddhist Art - The Metropolitan Museum of Art",
+      "decision": "BROWSER_ACCESS_VERIFIED"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/72381",
+      "priorStatus": "429",
+      "browserStatus": 200,
+      "finalUrl": "https://www.metmuseum.org/art/collection/search/72381",
+      "title": "Seated Buddha - Pakistan (ancient region of Gandhara) - The Metropolitan Museum of Art",
+      "decision": "BROWSER_ACCESS_VERIFIED"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1056/",
+      "priorStatus": "403",
+      "browserStatus": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1056/?__cf_chl_rt_tk=qVwJgVcO6RCZbeoz.L3vj_A.0xWG4zHSyLWR98cff14-1793110402-1.0.1.1-3xCDANL2gNO6mxfl.GmW8XS1Mth7N3V9k5_NU5D2TC4",
+      "title": "Just a moment...",
+      "decision": "RESTRICTED_OR_UNVERIFIED; not a confirmed dead link"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/tree-and-serpent/visiting-guide",
+      "priorStatus": "429",
+      "browserStatus": 200,
+      "finalUrl": "https://www.metmuseum.org/exhibitions/tree-and-serpent/visiting-guide",
+      "title": "Tree & Serpent: Early Buddhist Art in India, 200 BCE–400 CE - The Metropolitan Museum of Art",
+      "decision": "BROWSER_ACCESS_VERIFIED"
+    },
+    {
+      "url": "https://www.buddhanet.net/",
+      "priorStatus": "403",
+      "browserStatus": 200,
+      "finalUrl": "https://www.buddhanet.net/",
+      "title": "BuddhaNet - Worldwide Buddhist Information and Education Network",
+      "decision": "BROWSER_ACCESS_VERIFIED"
+    }
+  ]
+}

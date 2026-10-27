@@ -10,7 +10,18 @@ Rollback when production is unusable, security/privacy is critically weakened, k
 
 Use the most recent deployment record whose production smoke passed. Confirm its exact Cloudflare version ID and associated Git SHA. Do not assume `main~1` is good.
 
-The Phase 8 last-known-good target recorded on 2026-08-13 is:
+The latest verified target recorded before October 27 remediation is in
+[the October 23 release record](2026-10-23-production-transformation.md):
+
+- Git SHA: `67f486a8d990f0058374301d9ebf6fd74ed85994`
+- Cloudflare deployment: `20292ccb-9cd7-42f5-9201-b55f3fa7356c`
+- Cloudflare version: `1da4620c-a00b-4a5a-b5a5-97f52933dbda`
+
+Confirm the version remains available in Cloudflare before selecting it. Newer
+verified release records take precedence; these IDs are evidence, not a default
+rollback command.
+
+Historical Phase 8 target recorded on 2026-08-13:
 
 - Git implementation SHA: `8de969c74139a68b88849f2404e3dc7c353e6a12`
 - Cloudflare deployment: `891ac394-206e-4c9a-ba55-811b397fb6a4`

@@ -1,0 +1,20 @@
+{
+  "verifiedOn": "2026-10-27",
+  "branch": "main",
+  "requiredChecks": [
+    "Release validation",
+    "Browser and consent validation"
+  ],
+  "strict": true,
+  "enforceAdmins": true,
+  "requiredApprovingReviews": 0,
+  "conversationResolution": true,
+  "allowForcePushes": false,
+  "allowDeletions": false,
+  "productionBranchPolicy": {
+    "protected_branches": true,
+    "custom_branch_policies": false
+  },
+  "productionSecrets": "Expected two names verified; values never printed",
+  "cloudflare": "Existing OAuth account/script/deployment read access and October 23 rollback version verified. Authenticated Worker Settings > Builds visibly shows Git repository: Connect, confirming no Git repository is currently connected; overview also offers Connect your Git repository. Existing OAuth cannot query Builds API (HTTP403), but dashboard verification closes the trigger-state gap. Repository legacy production prebuild guard remains enforced. No credentials or token permissions changed."
+}

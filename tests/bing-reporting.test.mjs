@@ -26,3 +26,14 @@ test("Bing reporting uses only approved JSON read methods and excludes credentia
     }
   } finally { fs.rmSync(out, { recursive: true, force: true }); }
 });
+
+test("optional exact-URL diagnostics use the read endpoint and export only public crawl fields", async () => {
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), "eb-bing-url-"));
+  try {
+    const summary = await collectBing({ key: "private-test-key", out, diagnosticUrls: ["https://echobuddha.com/daily-reflections/"], fetcher: async url => ({ status: 200, json: async () => ({ d: url.pathname.endsWith("GetUserSites") ? [{ Url: "https://echobuddha.com/", IsVerified: true }] : url.pathname.endsWith("GetUrlInfo") ? { IsPage: true, HttpStatus: 200, LastCrawledDate: "/Date(1)/", AuthenticationCode: "must-not-export" } : [] }) }) });
+    assert.equal(summary.urlDiagnostics[0].httpStatus, 200);
+    assert.equal(summary.urlDiagnostics[0].isPage, true);
+    assert.match(summary.urlDiagnostics[0].note, /not an indexed-status assertion/);
+    for (const file of ["raw.json", "summary.json"]) assert.doesNotMatch(fs.readFileSync(path.join(out, file), "utf8"), /private-test-key|must-not-export/);
+  } finally { fs.rmSync(out, { recursive: true, force: true }); }
+});

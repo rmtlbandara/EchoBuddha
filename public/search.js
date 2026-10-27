@@ -193,7 +193,12 @@
       panel.setAttribute("hidden", "");
       backdrop?.setAttribute("hidden", "");
       document.body.classList.remove("search-modal-open");
-      if (previousFocus && typeof previousFocus.focus === "function") previousFocus.focus();
+      // Safari does not necessarily focus a button when it is clicked.
+      // Restore to the trigger when opening left focus on the document body.
+      const focusTarget = previousFocus?.isConnected && previousFocus !== document.body
+        ? previousFocus
+        : button;
+      focusTarget.focus();
     }
 
     button.addEventListener("click", open);

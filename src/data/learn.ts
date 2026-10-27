@@ -17,6 +17,7 @@ export type LearningPage = {
   slug: string;
   title: string;
   seoTitle?: string;
+  modifiedDate?: string;
   description: string;
   eyebrow: string;
   intro: string;
@@ -209,12 +210,17 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "buddhist-dictionary/karuna": [
     {
-      label: "Dhammapada, Yamakavagga (Dhp 5)",
-      href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.budd.html",
-      note: "Supports the non-hatred and non-harming framing behind compassion."
+      label: "Metta Sutta (AN 4.125), translated by Thanissaro Bhikkhu",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an04/an04.125.than.html",
+      note: "Directly treats compassion as an immeasurable cultivation alongside goodwill, appreciative joy, and equanimity. The discourse also discusses rebirth; the everyday examples here are editorial applications."
     }
   ],
   "buddhist-dictionary/sati": [
+    {
+      label: "Indriya-vibhanga Sutta (SN 48.10), translated by Thanissaro Bhikkhu",
+      href: "https://www.accesstoinsight.org/tipitaka/sn/sn48/sn48.010.than.html",
+      note: "Connects the mindfulness faculty with remembering and the four frames of reference; it does not define sati as relaxation alone."
+    },
     {
       label: "Maha-satipatthana Sutta (DN 22)",
       href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
@@ -267,6 +273,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     }
   ],
   "buddhist-dictionary/compassion": [
+    {
+      label: "Metta Sutta (AN 4.125), translated by Thanissaro Bhikkhu",
+      href: "https://www.accesstoinsight.org/tipitaka/an/an04/an04.125.than.html",
+      note: "Provides a direct early-discourse context for cultivated compassion, distinct from the goodwill context of Sn 1.8 below."
+    },
     {
       label: "Karaniya Metta Sutta (Sn 1.8)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
@@ -1626,6 +1637,7 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "what-is-mindfulness",
+    modifiedDate: "2026-10-27",
     title: "What Is Mindfulness?",
     description:
       "A simple Buddhist explanation of mindfulness as remembering to be present with body, feelings, mind, and daily life.",
@@ -1638,6 +1650,13 @@ export const buddhism101Pages: LearningPage[] = [
         paragraphs: [
           "Mindfulness is often used today to mean relaxation or present-moment awareness. In Buddhist practice, it is deeper than a calm mood. It includes remembering the body, feelings, mind states, and patterns clearly enough to respond wisely.",
           "Mindfulness can be peaceful, but it can also reveal restlessness, anger, sadness, or craving. The point is not to force a pleasant state. The point is to know experience honestly."
+        ]
+      },
+      {
+        heading: "What the Buddhist Source Adds",
+        paragraphs: [
+          "DN 22 organizes practice around body, feelings, mind, and mental qualities. Here, feelings include the pleasant, unpleasant, or neutral tone of experience; they are not simply another word for every emotion. The teaching joins mindfulness with alertness and effort within a path toward the ending of suffering.",
+          "The dishwashing example below is a modern starting exercise, not a complete translation of that training. For the Pāli term and its remembering aspect, read <a href='/learn/buddhist-dictionary/sati/'>Sati</a>; for a first guided session, use <a href='/meditation/5-minute-meditation-practice/'>the five-minute practice</a>."
         ]
       },
       {
@@ -2220,13 +2239,14 @@ export const dictionaryPages: LearningPage[] = [
   {
     section: "buddhist-dictionary",
     slug: "karuna",
+    modifiedDate: "2026-10-27",
     title: "Karuna",
     seoTitle: "Karuna Meaning: Compassion in Buddhism",
     description:
       "A simple explanation of Karuna, Buddhist compassion, with daily-life meaning and related teachings.",
     eyebrow: "Buddhist Dictionary",
     intro:
-      "Karuna means compassion: the trembling of the heart in response to suffering and the wish to reduce harm.",
+      "Karuṇā is a Pāli term commonly translated as compassion: care directed toward suffering and the wish for its relief.",
     sections: [
       {
         heading: "Simple Meaning",
@@ -2244,7 +2264,8 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Related Teaching",
         paragraphs: [
-          "Karuna works with metta. Goodwill opens the heart; compassion moves toward suffering with care."
+          "AN 4.125 presents compassion alongside goodwill, appreciative joy, and equanimity. Compassion is cultivated without limiting concern to one favored person or direction. This entry focuses on that early-discourse setting; the <a href='/learn/buddhist-dictionary/compassion/'>Compassion entry</a> explains the broader everyday meaning.",
+          "A useful distinction for practice is that mettā wishes beings well, while karuṇā attends to suffering. These are complementary intentions, not a claim that either practice guarantees a particular feeling or outcome."
         ]
       }
     ],
@@ -2255,12 +2276,13 @@ export const dictionaryPages: LearningPage[] = [
       { label: "Compassion Quotes", href: "/quotes/compassion/" },
       { label: "Metta", href: "/learn/buddhist-dictionary/metta/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote: "Source note: AN 4.125 directly supports compassion as an immeasurable cultivation. The distinction used for everyday practice, boundary examples, and self-compassion language are modern editorial explanation, not a translation or a claim to cover every Buddhist tradition.",
     terms: ["Metta", "Compassion", "Right Speech"]
   },
   {
     section: "buddhist-dictionary",
     slug: "sati",
+    modifiedDate: "2026-10-27",
     title: "Sati",
     seoTitle: "Sati Meaning: Mindfulness in Buddhist Practice",
     description:
@@ -2274,6 +2296,13 @@ export const dictionaryPages: LearningPage[] = [
         paragraphs: [
           "Sati is not only present-moment calm. It is the ability to remember what is happening and what matters. In practice, it notices breathing, posture, feeling tone, thoughts, intentions, and reactions.",
           "This remembering interrupts automatic habit. It gives wisdom a chance to enter before speech or action hardens."
+        ]
+      },
+      {
+        heading: "Remembering and the Four Frames",
+        paragraphs: [
+          "SN 48.10 describes the mindfulness faculty through remembering, then through attention to body, feelings, mind, and mental qualities. Sati therefore carries a remembering or keeping-in-mind aspect that a translation such as present-moment awareness can leave unexplained.",
+          "DN 22 supplies a fuller practice context. Its translator distinguishes mindfulness from alertness and effort, which work together. This term entry explains the vocabulary; <a href='/learn/buddhism-101/what-is-mindfulness/'>What Is Mindfulness?</a> offers the beginner orientation."
         ]
       },
       {
@@ -2296,7 +2325,7 @@ export const dictionaryPages: LearningPage[] = [
       { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
       { label: "Mindfulness Quotes", href: "/quotes/mindfulness/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote: "Source note: SN 48.10 supports the remembering aspect and four frames; DN 22 provides the extended practice context. The door-opening cue and other everyday examples are modern editorial applications, not canonical instructions quoted verbatim.",
     terms: ["Mindfulness", "Meditation", "Dhamma"]
   },
   {
@@ -2530,6 +2559,7 @@ export const dictionaryPages: LearningPage[] = [
   {
     section: "buddhist-dictionary",
     slug: "compassion",
+    modifiedDate: "2026-10-27",
     title: "Compassion",
     seoTitle: "Compassion Meaning in Buddhist Wisdom",
     description:
@@ -2548,13 +2578,14 @@ export const dictionaryPages: LearningPage[] = [
       {
         heading: "Meaning in Daily Life",
         paragraphs: [
-          "Compassion appears when you listen carefully, help without needing attention, apologize sincerely, or speak to yourself gently after a mistake."
+          "Compassion appears when you listen carefully, help without needing attention, apologize sincerely, or speak to yourself gently after a mistake.",
+          "If a colleague is grieving, first ask whether they want listening or practical help. Taking on an agreed task may help more than offering an explanation for their loss. If you cannot help directly, acknowledge the difficulty honestly instead of promising to fix it. This is an original everyday example, not a scriptural case."
         ]
       },
       {
         heading: "Related Teaching",
         paragraphs: [
-          "Compassion is related to karuna and metta. Together they train the heart toward care and goodwill."
+          "Karuṇā is the Pāli term treated in the companion <a href='/learn/buddhist-dictionary/karuna/'>Karuna entry</a>. This page uses the English word to help readers recognize caring responses in ordinary situations. The source on goodwill supports the wider ethical setting; AN 4.125 directly includes compassion as a cultivated quality."
         ]
       }
     ],
@@ -2565,7 +2596,7 @@ export const dictionaryPages: LearningPage[] = [
       { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" },
       { label: "Compassion Quotes", href: "/quotes/compassion/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote: "Source note: AN 4.125 supplies a direct compassion context. Sn 1.8 supports goodwill and non-harming concern, rather than serving as a technical definition of karuṇā. The workplace example, boundaries, and reflection prompt are modern editorial applications.",
     terms: ["Karuna", "Metta", "Right Speech"]
   },
   {
@@ -3778,6 +3809,7 @@ export const shortMeditationPages: LearningPage[] = [
   {
     section: "meditation",
     slug: "5-minute-meditation-practice",
+    modifiedDate: "2026-10-27",
     title: "5-Minute Meditation Practice",
     description:
       "A simple five-minute meditation practice for beginners using posture, breath, and a gentle return from distraction.",
@@ -3788,13 +3820,14 @@ export const shortMeditationPages: LearningPage[] = [
       {
         heading: "Step-by-Step Practice",
         paragraphs: [
-          "Minute one: sit comfortably and feel the support beneath the body. Minute two: notice the natural breath. Minutes three and four: return to breathing each time attention wanders. Minute five: widen awareness to the room and choose one kind intention."
+          "Minute one: sit comfortably and feel the support beneath the body. Minute two: notice the natural breath, or choose the contact of hands, feet, or a neutral sound if breath attention is uncomfortable. Minutes three and four: return to that same anchor each time attention wanders. Minute five: notice the room and choose the next ordinary action with care."
         ]
       },
       {
         heading: "Common Mistakes",
         paragraphs: [
-          "Do not rush to feel peaceful. A five-minute practice may feel restless, sleepy, or ordinary. The value is in returning."
+          "Do not rush to feel peaceful. A five-minute practice may feel restless, sleepy, or ordinary. The value is in returning.",
+          "Use this short session as a small pause between activities: choose one anchor and keep the sequence simple. If there is only a minute available, feel the support beneath you and stop there. For a longer session with time to widen attention, try <a href='/meditation/10-minute-meditation-practice/'>the ten-minute practice</a>; a longer timer is optional, not a measure of success."
         ]
       },
       {
@@ -3817,6 +3850,7 @@ export const shortMeditationPages: LearningPage[] = [
   {
     section: "meditation",
     slug: "10-minute-meditation-practice",
+    modifiedDate: "2026-10-27",
     title: "10-Minute Meditation Practice",
     description:
       "A gentle ten-minute meditation practice for beginners with posture, breath awareness, returning, and safety boundaries.",
@@ -3835,6 +3869,7 @@ export const shortMeditationPages: LearningPage[] = [
         heading: "When the Mind Wanders",
         paragraphs: [
           "Wandering is expected. Each return is part of the practice, not an interruption. If the breath feels uncomfortable, use the hands, feet, sounds, or posture as the anchor.",
+          "The extra time in this session lets you notice how attention changes after returning. When you recognize planning, silently acknowledge it once and return to the anchor. During minutes eight and nine, include sounds and posture without trying to follow every stimulus. If widening attention becomes confusing, stay with the original anchor until the final minute. These are optional practice cues, not tests to pass.",
           "If ten minutes is too much today, use the <a href='/meditation/5-minute-meditation-practice/'>5-minute meditation practice</a> instead, or sit for one minute and stop while practice still feels workable."
         ]
       },
