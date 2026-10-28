@@ -10,6 +10,14 @@ Rollback when production is unusable, security/privacy is critically weakened, k
 
 Use the most recent deployment record whose production smoke passed. Confirm its exact Cloudflare version ID and associated Git SHA. Do not assume `main~1` is good.
 
+Current release and incident-specific fallback choices are recorded in
+[the October 27 verified deployment](2026-10-27-audit-remediation.md).
+For a regression introduced by the latest tooling release, the preceding verified
+material version is `b3163338-fcd1-41a4-908c-ac4dbb2eedc7`
+(source `c561f61d7b0793a4cf26a481648bad68e19704e0`). A regression in the
+material application changes may instead require the older October 23 version.
+Confirm the target and current availability before acting.
+
 The latest verified target recorded before October 27 remediation is in
 [the October 23 release record](2026-10-23-production-transformation.md):
 

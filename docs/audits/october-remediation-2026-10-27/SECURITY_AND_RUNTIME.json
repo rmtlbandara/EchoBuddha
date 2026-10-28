@@ -26,5 +26,10 @@
     "https://github.com/advisories/GHSA-mrhx-c7xc-m3w5",
     "https://github.com/advisories/GHSA-xjj6-f33q-929c"
   ],
-  "exposure": "Build/audit/deploy toolchain; no remotely exploitable static production Node handler established."
+  "exposure": "Build/audit/deploy toolchain; no remotely exploitable static production Node handler established.",
+  "verifiedLocalArchive": {
+    "name": "node-v22.23.4-darwin-arm64.tar.gz",
+    "sha256": "c9e1dbc748b33ed2d14f42445191ecaf14c56259c7a9a26d0042c49ec2b66428",
+    "source": "Official nodejs.org distribution; checksum verified before use"
+  }
 }

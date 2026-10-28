@@ -1,0 +1,66 @@
+{
+  "verifiedAt": "2026-10-27T14:56:57.283Z",
+  "sha": "c561f61d7b0793a4cf26a481648bad68e19704e0",
+  "pages": {
+    "total": 350,
+    "passed": 350,
+    "failures": []
+  },
+  "resources": {
+    "total": 340,
+    "passed": 339,
+    "failures": [
+      {
+        "route": "/favicon-32x32.png",
+        "status": "UNAVAILABLE",
+        "pass": false
+      }
+    ]
+  },
+  "summary": {
+    "generatedAt": "2026-10-27T14:44:28.247Z",
+    "origin": "https://echobuddha.com",
+    "sitemap": 165,
+    "sitemap200": 165,
+    "uniqueTitles": 165,
+    "uniqueDescriptions": 165,
+    "svgPreviews": 0,
+    "canonicalFailures": 0,
+    "h1Failures": 0,
+    "noindexInSitemap": 0,
+    "html": 350,
+    "pagesWithTables": 8,
+    "under500MainWords": 59,
+    "undatedLearningArticles": 40,
+    "resources": {
+      "/sitemap.xml": {
+        "status": 200,
+        "sha256": "4468777d9c8944b258f6f36ed0e2b7114533072caf2ad1f5e74240e580cf0e28"
+      },
+      "/robots.txt": {
+        "status": 200,
+        "sha256": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1"
+      },
+      "/indexnow-manifest.json": {
+        "status": 200,
+        "sha256": "b573772cb57fe370e2dae5c6f3cc525a3bda352876d42bc9e69b4d79f11eee4b"
+      },
+      "/search-index.json": {
+        "status": 200,
+        "sha256": "aa6373c4867b243344053bfefffd9048da2ff63532f4c1a0007c49a2b4990578"
+      }
+    }
+  },
+  "retryEvidence": {
+    "route": "/favicon-32x32.png",
+    "status": 200,
+    "bytes": 2856,
+    "pass": true,
+    "sha256": "3f50d3aaee52799d513814da0e7308888c71027b7cc98a77313f17afcab19cc3"
+  },
+  "resourcesAfterRetry": {
+    "total": 340,
+    "passed": 340,
+    "unresolvedFailures": 0
+  }
+}

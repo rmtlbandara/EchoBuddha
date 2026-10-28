@@ -117,7 +117,7 @@ Future ad work must review consent/CMP requirements, content quality, policy pag
 
 Production deployment is intended to be a separately authorized operation. The manual `deploy-production.yml` workflow accepts an exact 40-character commit SHA from `main`, validates it, builds once, verifies the immutable artifact, deploys it through the protected `production` environment, and runs smoke checks. Rollback uses the separately confirmed `rollback-production.yml` workflow and a recorded Cloudflare version ID.
 
-The GitHub `production` environment and the two named Cloudflare secrets exist, as verified on October 27. Environment and branch enforcement must be read from current GitHub settings; an environment name alone does not establish approval rules. The repository's `prebuild` guard rejects legacy Cloudflare Workers CI production builds. Check the external trigger and current account protections before each release; see the latest deployment record for dated evidence.
+The GitHub `production` environment and the two named Cloudflare secrets exist, as verified on October 27. Environment and branch enforcement must be read from current GitHub settings; an environment name alone does not establish approval rules. The repository's `prebuild` guard rejects legacy Cloudflare Workers CI production builds. Check the external trigger and current account protections before each release; see the [October 27 verified deployment record](docs/deployments/2026-10-27-audit-remediation.md) for dated evidence.
 
 For an owner-authorized emergency local deployment only:
 

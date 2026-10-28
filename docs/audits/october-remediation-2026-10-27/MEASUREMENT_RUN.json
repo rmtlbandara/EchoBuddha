@@ -1,0 +1,177 @@
+{
+  "runId": 40527170981,
+  "sha": "fb9a8111faa90b87e9dd09bd3312bb6ab13d1adf",
+  "conclusion": "success",
+  "bing": {
+    "generatedAt": "2026-10-27T15:03:49.685Z",
+    "site": "https://echobuddha.com/",
+    "verified": true,
+    "endpoints": {
+      "GetUserSites": {
+        "status": 200,
+        "rows": 1
+      },
+      "GetFeeds": {
+        "status": 200,
+        "rows": 1
+      },
+      "GetRankAndTrafficStats": {
+        "status": 200,
+        "rows": 55
+      },
+      "GetCrawlStats": {
+        "status": 200,
+        "rows": 24
+      }
+    },
+    "sitemaps": [
+      {
+        "url": "https://echobuddha.com/sitemap.xml",
+        "status": "Success",
+        "urls": 165,
+        "lastCrawled": "/Date(1790666519000)/"
+      }
+    ],
+    "traffic": {
+      "clicks": 60,
+      "impressions": 3449,
+      "returnedDates": [
+        "/Date(1770768000000)/",
+        "/Date(1770854400000)/",
+        "/Date(1770940800000)/",
+        "/Date(1771027200000)/",
+        "/Date(1771113600000)/",
+        "/Date(1771200000000)/",
+        "/Date(1771286400000)/",
+        "/Date(1771372800000)/",
+        "/Date(1771459200000)/",
+        "/Date(1771545600000)/",
+        "/Date(1771632000000)/",
+        "/Date(1771718400000)/",
+        "/Date(1771804800000)/",
+        "/Date(1771891200000)/",
+        "/Date(1771977600000)/",
+        "/Date(1772064000000)/",
+        "/Date(1772150400000)/",
+        "/Date(1772236800000)/",
+        "/Date(1772323200000)/",
+        "/Date(1772409600000)/",
+        "/Date(1772496000000)/",
+        "/Date(1772582400000)/",
+        "/Date(1772668800000)/",
+        "/Date(1772755200000)/",
+        "/Date(1772841600000)/",
+        "/Date(1772928000000)/",
+        "/Date(1773014400000)/",
+        "/Date(1773100800000)/",
+        "/Date(1773187200000)/",
+        "/Date(1773273600000)/",
+        "/Date(1773360000000)/",
+        "/Date(1790812800000)/",
+        "/Date(1790899200000)/",
+        "/Date(1790985600000)/",
+        "/Date(1791072000000)/",
+        "/Date(1791158400000)/",
+        "/Date(1791244800000)/",
+        "/Date(1791331200000)/",
+        "/Date(1791417600000)/",
+        "/Date(1791504000000)/",
+        "/Date(1791590400000)/",
+        "/Date(1791676800000)/",
+        "/Date(1791763200000)/",
+        "/Date(1791849600000)/",
+        "/Date(1791936000000)/",
+        "/Date(1792022400000)/",
+        "/Date(1792108800000)/",
+        "/Date(1792195200000)/",
+        "/Date(1792281600000)/",
+        "/Date(1792368000000)/",
+        "/Date(1792454400000)/",
+        "/Date(1792540800000)/",
+        "/Date(1792627200000)/",
+        "/Date(1792713600000)/",
+        "/Date(1792800000000)/"
+      ],
+      "note": "Totals cover only the API-returned dates; no invented comparison period or release attribution."
+    },
+    "crawl": {
+      "returnedRows": 24
+    },
+    "urlDiagnostics": [
+      {
+        "url": "https://echobuddha.com/daily-reflections/",
+        "status": 200,
+        "isPage": true,
+        "httpStatus": 0,
+        "lastCrawledDate": "/Date(1793105176000)/",
+        "discoveryDate": "/Date(1785222000000)/",
+        "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/",
+        "status": 200,
+        "isPage": true,
+        "httpStatus": 0,
+        "lastCrawledDate": "/Date(1791993418000)/",
+        "discoveryDate": "/Date(1791874800000)/",
+        "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+      }
+    ],
+    "limitations": [
+      "A submitted sitemap or IndexNow receipt does not prove indexing.",
+      "API-returned traffic and crawl intervals may differ from dashboard selections.",
+      "Raw account records and verification codes are never uploaded in this aggregate report."
+    ]
+  },
+  "phase2Status": {
+    "schemaVersion": 1,
+    "generatedFor": "2026-10-27",
+    "status": "PHASE_2_MEASUREMENT_ACTIVE \u2014 CONSOLIDATION HOLD",
+    "phase1MainSha": "53125d0be7f2eb517f5992c50e20c4b8c85389d6",
+    "phase1ProductionContentSha": "db1da81b19bc5291829cdafd475645d79c6025f5",
+    "currentRepositoryHead": "fb9a8111faa90b87e9dd09bd3312bb6ab13d1adf",
+    "currentOriginMain": "fb9a8111faa90b87e9dd09bd3312bb6ab13d1adf",
+    "preWindow": {
+      "start": "2026-08-31",
+      "end": "2026-09-27",
+      "expectedDays": 28,
+      "observedFinalDays": 28,
+      "complete": true
+    },
+    "transitionDay": {
+      "date": "2026-09-28",
+      "excluded": true
+    },
+    "postWindow": {
+      "start": "2026-09-29",
+      "end": "2026-10-26",
+      "expectedDays": 28,
+      "observedFinalDays": 27,
+      "complete": false
+    },
+    "earliestDecisionReview": "2026-10-29",
+    "decisionGateOpen": false,
+    "observationIntervened": true,
+    "interventionRegister": "governance/measurement-interventions.json",
+    "watchlistDecisionCounts": {
+      "KEEP_DISTINCT": 0,
+      "KEEP_AND_STRENGTHEN": 0,
+      "REPOSITION_FURTHER": 0,
+      "HOLD_MORE_DATA": 13,
+      "MERGE_301_CANDIDATE": 0,
+      "NOINDEX_REVIEW": 0
+    },
+    "destructiveChanges": {
+      "merges": 0,
+      "redirects": 0,
+      "noindex": 0,
+      "canonicalChanges": 0,
+      "deletedUrls": 0
+    },
+    "contentChanges": 19,
+    "changeScope": "See measurement-interventions.json; shared metadata, privacy and exact slash redirects are separate from content consolidation",
+    "sitemapExpected": 165,
+    "onSiteSearchExpected": 330
+  },
+  "revisedObservation": "# Revised stable-release observation\n\nStatus: AWAITING_POST_DEPLOYMENT_FINALIZED_DATA\n\nThe original September 29\u2013October 26 comparison is intervened. It cannot unlock destructive consolidation.\n\nNew window: 2026-10-28 through 2026-11-24; exclude deployment day 2026-10-27 in Pacific Time. The window has no available finalized observations yet; these are planned observation dates, not collected future measurements.\n\nNo new-window outcome is claimed.\n\nCompare descriptively with the original pre window and pre-intervention segment. Low samples, other releases, seasonality, and search changes prevent a clean causal claim. New redirects or removals still require canonical, unique-value, external-link, and content-preservation review.\n"
+}

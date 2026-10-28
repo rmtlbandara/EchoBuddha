@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "url": "https://echobuddha.com/",
+      "fetchTime": "2026-10-27T15:03:50.371Z",
+      "lighthouseVersion": "13.5.0",
+      "performance": 0.98,
+      "automatedAccessibility": 1,
+      "lcpMs": 1771.4740000000002,
+      "cls": 0,
+      "tbtMs": 0
+    },
+    {
+      "url": "https://echobuddha.com/tools/",
+      "fetchTime": "2026-10-27T15:04:05.608Z",
+      "lighthouseVersion": "13.5.0",
+      "performance": 1,
+      "automatedAccessibility": 1,
+      "lcpMs": 1535.5725000000002,
+      "cls": 0.001734273664773513,
+      "tbtMs": 43
+    }
+  ],
+  "limitation": "Two production mobile lab samples from this Mac/network. Not controlled before/after evidence or field CWV. Local 20-template/device runs are recorded separately."
+}
