@@ -7,7 +7,7 @@
   "deterministicInstall": "PASS",
   "releaseGate": "PASS",
   "unitTests": {
-    "passed": 85,
+    "passed": 87,
     "failed": 0
   },
   "measurementNegativeTests": 13,
@@ -18,5 +18,10 @@
   "browser": "See BROWSER_SUMMARY.json and tools-browser.json",
   "performance": "20 local Lighthouse template/device runs: Performance 100, automated Accessibility 100; localhost timing not comparable to inherited production timings or a field CWV assertion.",
   "historicalEvidence": "Original tracked generated audit evidence restored; fresh outputs retained in .artifacts/remediation-2026-10-27/generated-evidence and new compact summaries.",
-  "production": "Not yet deployed at this source-review checkpoint"
+  "production": "See RELEASE_VERIFICATION.json for final verified deployment; FIRST_RELEASE_VERIFICATION.json preserves the earlier material release and notification recovery.",
+  "initialUnitTests": {
+    "passed": 85,
+    "failed": 0
+  },
+  "finalExactMainCI": 40526028874
 }
