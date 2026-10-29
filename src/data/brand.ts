@@ -6,6 +6,15 @@ export const OFFICIAL_SOCIAL_PROFILES = [
   { label: "LinkedIn", href: "https://www.linkedin.com/company/echobuddha/" }
 ] as const;
 
+// Footer presentation is independent of the publisher's established sameAs identities.
+const [facebook, medium, pinterest] = OFFICIAL_SOCIAL_PROFILES;
+export const FOOTER_SOCIAL_PROFILES = [
+  pinterest,
+  { label: "YouTube", href: "https://www.youtube.com/@EchoBuddha" },
+  facebook,
+  medium
+] as const;
+
 export const PUBLISHER_LOGO = { path: "/images/publisher-logo.png", width: 512, height: 512 } as const;
 export const DEFAULT_SHARE_IMAGE = { path: "/og-default.png", width: 1200, height: 630, alt: "Echo Buddha — Buddhist wisdom for everyday life" } as const;
 

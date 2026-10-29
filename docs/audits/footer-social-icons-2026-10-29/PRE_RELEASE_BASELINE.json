@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "baselineSha": "1f23d3688ce3194290ee46199929d4f3900bdeb9",
+  "authorizedOn": "2026-10-29",
+  "authorization": "Project owner: go with this, adopting the pasted Replace Footer Social Media Text Links with Branded Icons task.",
+  "applicationFiles": {
+    "src/components/Footer.astro": "bb3eeccba818184d4651c5774427fba00dd09957dea2512bf9deca49e43a2646",
+    "src/data/brand.ts": "2495e47d564733c90e427b06186383ada3c8bdb8fd67885c80aacac68427e6d6"
+  },
+  "historicalInterventions": [
+    {
+      "id": "production-transformation-2026-10-23",
+      "sha256": "69fa88765a6cbbef30a2fc91193697f1fdec16e5ce42aeb8d4784b5cc125250f"
+    }
+  ],
+  "scope": "Footer presentation only: Pinterest, YouTube, Facebook, Medium icons. Preserve existing social URLs, publisher sameAs, routes, canonicals, indexing, and all other footer content.",
+  "productionDeployment": "Not requested or performed."
+}
