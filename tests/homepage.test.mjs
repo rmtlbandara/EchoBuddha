@@ -46,18 +46,45 @@ test("homepage metadata, canonical, indexability, and schema stay minimal and ac
   assert.doesNotMatch(homepage, /"@type":"(?:FAQPage|BreadcrumbList|ItemList)"/);
 });
 
-test("global footer exposes the official social profiles", () => {
+test("global footer exposes accessible branded icons in the requested platform order", () => {
   const socialProfiles = [
-    ["Facebook", "https://www.facebook.com/EchoBuddha/"],
-    ["Medium", "https://medium.com/@echo_buddha"],
     ["Pinterest", "https://www.pinterest.com/echobuddha/"],
-    ["LinkedIn", "https://www.linkedin.com/company/echobuddha/"]
+    ["YouTube", "https://www.youtube.com/@EchoBuddha"],
+    ["Facebook", "https://www.facebook.com/EchoBuddha/"],
+    ["Medium", "https://medium.com/@echo_buddha"]
   ];
-  assert.match(homepage, /<nav class="footer-social" aria-labelledby="footer-social-heading"[^>]*>/);
-  for (const [label, href] of socialProfiles) {
-    const escapedHref = href.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    assert.match(homepage, new RegExp(`<a href="${escapedHref}" rel="me"[^>]*>\\s*${label}`));
+  const social = homepage.match(/<nav class="footer-social" aria-labelledby="footer-social-heading"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
+  assert.ok(social);
+  assert.match(social, /<h2\b[^>]*>Follow Echo Buddha<\/h2>/);
+  const links = [...social.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/g)];
+  assert.equal(links.length, socialProfiles.length);
+  for (const [index, [label, href]] of socialProfiles.entries()) {
+    const [, tag, content] = links[index];
+    const attributes = Object.fromEntries([...tag.matchAll(/([\w:-]+)="([^"]*)"/g)].map((match) => [match[1], match[2]]));
+    assert.equal(attributes.href, href);
+    assert.equal(attributes["aria-label"], `Echo Buddha on ${label}`);
+    assert.ok(attributes.rel.split(" ").includes("me"));
+    if (attributes.target === "_blank") {
+      assert.ok(attributes.rel.split(" ").includes("noopener"));
+      assert.ok(attributes.rel.split(" ").includes("noreferrer"));
+    }
+    assert.match(content, /<svg\b[^>]*width="22"[^>]*height="22"[^>]*aria-hidden="true"[^>]*focusable="false"/);
+    assert.match(content, /<path\b[^>]*d="[^"]+"/);
+    assert.equal(content.replace(/<[^>]+>/g, "").trim(), "");
   }
+  assert.doesNotMatch(social, /LinkedIn|linkedin|↗/);
+});
+
+test("footer presentation preserves existing publisher structured-data identities", () => {
+  const schemas = [...homepage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+    .flatMap((match) => JSON.parse(match[1]));
+  const publisher = schemas.find((schema) => schema["@type"] === "Organization");
+  assert.deepEqual(publisher.sameAs, [
+    "https://www.facebook.com/EchoBuddha/",
+    "https://medium.com/@echo_buddha",
+    "https://www.pinterest.com/echobuddha/",
+    "https://www.linkedin.com/company/echobuddha/"
+  ]);
 });
 
 test("homepage uses editorially curated guides rather than publication-date sorting", () => {
