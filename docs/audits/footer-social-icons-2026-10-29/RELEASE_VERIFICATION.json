@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_VERIFIED",
+  "verifiedAt": "2026-10-29T08:50:35.618Z",
+  "productionUrl": "https://echobuddha.com/",
+  "pullRequest": {
+    "headRefOid": "0732b06b64d84e9b548139f88dae2821c1b51cb7",
+    "mergeCommit": {
+      "oid": "1a5e000bcccdef67ce539c82707105d50bee74dd"
+    },
+    "mergedAt": "2026-10-29T08:42:53Z",
+    "number": 69,
+    "state": "MERGED",
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/69"
+  },
+  "servingSha": "1a5e000bcccdef67ce539c82707105d50bee74dd",
+  "ci": {
+    "pullRequest": {
+      "runId": 40843763173,
+      "url": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/40843763173",
+      "requiredJobs": "Both passed"
+    },
+    "mergedMain": {
+      "runId": 40844136953,
+      "url": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/40844136953",
+      "requiredJobs": "Both passed"
+    },
+    "deployment": {
+      "runId": 40844142224,
+      "url": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/40844142224",
+      "conclusion": "success"
+    }
+  },
+  "deployment": {
+    "schemaVersion": 1,
+    "capturedAt": "2026-10-29T08:44:32.172Z",
+    "gitSha": "1a5e000bcccdef67ce539c82707105d50bee74dd",
+    "githubRunId": "40844142224",
+    "worker": "echobuddha",
+    "productionUrl": "https://echobuddha.com",
+    "deploymentId": "fc131bd2-ba45-4588-9547-93beae500472",
+    "createdOn": "2026-10-29T08:44:29.589506Z",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "1060f158-17a9-4871-9521-b0bd94df783e",
+        "percentage": 100
+      }
+    ]
+  },
+  "artifact": {
+    "fileCount": 812,
+    "aggregateSha256": "c533b9196fbac6f8e4fe1d939d4e51e24febced6baac045412f6c2e27424a135",
+    "liveHtml": {
+      "passed": 351,
+      "total": 351,
+      "byteForByte": true
+    },
+    "emittedAssets": [
+      {
+        "path": "/_astro/Layout.CJGL4yW9.css",
+        "status": "PASS"
+      },
+      {
+        "path": "/_astro/index.B2ub7MeQ.css",
+        "status": "PASS"
+      }
+    ]
+  },
+  "quality": {
+    "freshReleaseGate": "PASS",
+    "tests": 88,
+    "build": "PASS",
+    "typecheck": "PASS",
+    "projectGovernanceLint": "PASS",
+    "whitespaceValidation": "PASS",
+    "highDependencyAdvisories": 0,
+    "criticalDependencyAdvisories": 0,
+    "productionSmoke": {
+      "passed": 15,
+      "total": 15
+    },
+    "responsiveWidths": [
+      320,
+      390,
+      720,
+      768,
+      1024,
+      1440
+    ],
+    "footerBrowser": {
+      "status": "PASS",
+      "icons": 22,
+      "touchTargets": 44,
+      "keyboard": "PASS",
+      "hover": "PASS",
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "overflow": "NONE"
+    },
+    "accessibility": {
+      "pages": 18,
+      "counts": {
+        "critical": 0,
+        "serious": 0,
+        "moderate": 0,
+        "minor": 0,
+        "unknown": 0
+      },
+      "pass": true
+    },
+    "consent": {
+      "scenarios": 8,
+      "pass": true
+    },
+    "toolsBrowser": {
+      "engines": [
+        "Chromium",
+        "Firefox",
+        "WebKit"
+      ],
+      "status": "PASS"
+    }
+  },
+  "links": [
+    {
+      "label": "Echo Buddha on Pinterest",
+      "href": "https://www.pinterest.com/echobuddha/"
+    },
+    {
+      "label": "Echo Buddha on YouTube",
+      "href": "https://www.youtube.com/@EchoBuddha"
+    },
+    {
+      "label": "Echo Buddha on Facebook",
+      "href": "https://www.facebook.com/EchoBuddha/"
+    },
+    {
+      "label": "Echo Buddha on Medium",
+      "href": "https://medium.com/@echo_buddha"
+    }
+  ],
+  "seo": {
+    "status": "UNCHANGED",
+    "checks": [
+      {
+        "route": "/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/articles/four-noble-truths-explained-simply/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/learn/buddhism-101/what-is-mindfulness/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/meditation/breathing-meditation/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/daily-reflections/one-honest-breath/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/tools/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/search/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/privacy-policy/",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/robots.txt",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      },
+      {
+        "route": "/sitemap.xml",
+        "status": 200,
+        "metadataOrPolicy": "UNCHANGED"
+      }
+    ],
+    "publisherStructuredData": "UNCHANGED",
+    "otherFooterContent": "UNCHANGED"
+  },
+  "lighthouse": {
+    "checks": 20,
+    "performanceRange": [
+      97,
+      100
+    ],
+    "accessibilityRange": [
+      100,
+      100
+    ],
+    "maximumCLS": 0.0003632681237862187,
+    "results": [
+      {
+        "formFactor": "mobile",
+        "label": "Homepage",
+        "path": "/",
+        "performanceScore": 0.97,
+        "accessibilityScore": 1,
+        "fcpMs": 1273.8180000000002,
+        "lcpMs": 1313.2725000000003,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 4581.039400001627,
+        "totalByteWeight": 119157
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Cornerstone article",
+        "path": "/articles/four-noble-truths-explained-simply/",
+        "performanceScore": 0.98,
+        "accessibilityScore": 1,
+        "fcpMs": 1657.2399999999998,
+        "lcpMs": 2107.24,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 1810.2405900009717,
+        "totalByteWeight": 81767
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Learning page",
+        "path": "/learn/buddhism-101/what-is-mindfulness/",
+        "performanceScore": 0.98,
+        "accessibilityScore": 1,
+        "fcpMs": 1004.039,
+        "lcpMs": 1412.0389999999998,
+        "cls": 0,
+        "tbtMs": 40.98049999999989,
+        "speedIndexMs": 4046.6765720006997,
+        "totalByteWeight": 43744
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Quote story",
+        "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+        "performanceScore": 0.97,
+        "accessibilityScore": 1,
+        "fcpMs": 986.514,
+        "lcpMs": 1399.0280000000002,
+        "cls": 0,
+        "tbtMs": 185.0000000000001,
+        "speedIndexMs": 1478.1707779988087,
+        "totalByteWeight": 76398
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Daily reflection",
+        "path": "/daily-reflections/one-honest-breath/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 1404.056,
+        "lcpMs": 1528.056,
+        "cls": 0,
+        "tbtMs": 32,
+        "speedIndexMs": 1606.4453679995222,
+        "totalByteWeight": 42547
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Meditation page",
+        "path": "/meditation/breathing-meditation/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 1328.2465,
+        "lcpMs": 1407.2465,
+        "cls": 0,
+        "tbtMs": 15,
+        "speedIndexMs": 2396.11297396805,
+        "totalByteWeight": 44185
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Topic hub",
+        "path": "/quotes/mindfulness/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 1015.789,
+        "lcpMs": 1465.789,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 1325.114796000762,
+        "totalByteWeight": 45648
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Search",
+        "path": "/search/",
+        "performanceScore": 0.98,
+        "accessibilityScore": 1,
+        "fcpMs": 990.242,
+        "lcpMs": 1590.242,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 4001.243127999029,
+        "totalByteWeight": 41225
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Tools",
+        "path": "/tools/",
+        "performanceScore": 0.98,
+        "accessibilityScore": 1,
+        "fcpMs": 1470.688,
+        "lcpMs": 1529.688,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 3923.1033679998186,
+        "totalByteWeight": 57584
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Privacy",
+        "path": "/privacy-policy/",
+        "performanceScore": 0.98,
+        "accessibilityScore": 1,
+        "fcpMs": 1024.963,
+        "lcpMs": 1324.963,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 3955.3022620013344,
+        "totalByteWeight": 41588
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Homepage",
+        "path": "/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 419.95000000000005,
+        "lcpMs": 459.95000000000005,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 613.06076866647,
+        "totalByteWeight": 212353
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Cornerstone article",
+        "path": "/articles/four-noble-truths-explained-simply/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 424.01199999999994,
+        "lcpMs": 504.01199999999994,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 705.544461166979,
+        "totalByteWeight": 81757
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Learning page",
+        "path": "/learn/buddhism-101/what-is-mindfulness/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 331.943,
+        "lcpMs": 422.943,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 630.5928623326661,
+        "totalByteWeight": 43760
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Quote story",
+        "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 282.912,
+        "lcpMs": 402.91200000000003,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 341.6008477509413,
+        "totalByteWeight": 70490
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Daily reflection",
+        "path": "/daily-reflections/one-honest-breath/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 326.8910000000001,
+        "lcpMs": 428.8910000000001,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 387.37601233312876,
+        "totalByteWeight": 42487
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Meditation page",
+        "path": "/meditation/breathing-meditation/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 364.711,
+        "lcpMs": 484.711,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 424.22461741725533,
+        "totalByteWeight": 44062
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Topic hub",
+        "path": "/quotes/mindfulness/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 365.79200000000003,
+        "lcpMs": 485.79200000000003,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 430.5465603333124,
+        "totalByteWeight": 81349
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Search",
+        "path": "/search/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 348.591,
+        "lcpMs": 468.591,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 528.7450537493493,
+        "totalByteWeight": 41228
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Tools",
+        "path": "/tools/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 439.966,
+        "lcpMs": 479.966,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 501.24786741659136,
+        "totalByteWeight": 57466
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Privacy",
+        "path": "/privacy-policy/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 400.99199999999996,
+        "lcpMs": 491.99199999999996,
+        "cls": 0.0003632681237862187,
+        "tbtMs": 0,
+        "speedIndexMs": 605.1858942496992,
+        "totalByteWeight": 41484
+      }
+    ]
+  },
+  "indexNow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 165,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-10-29T08:44:39.730Z",
+    "indexingGuaranteed": false
+  },
+  "previousVerifiedProduction": {
+    "sha": "e2f2dca788c2346368ab3cb104d71f10197ca085",
+    "deploymentId": "1a0019f3-5f65-4aa2-8772-69fa6e70861a",
+    "versionId": "ae9a9291-7a69-4ea0-93b2-4bbaf740a414",
+    "workflowRunId": 40730144053
+  },
+  "verificationNotes": [
+    "The first hover sampler observed the existing smooth scroll in progress. The local verifier was adjusted to finish scrolling before sampling the unchanged color transition; all six live widths then passed without production source changes.",
+    "An initial broad live browser process stalled during shutdown. The identical 18-page/8-consent audit rerun with diagnostic logging passed; no production source or quality gate was changed.",
+    "Live HTML and emitted assets were compared directly against every relevant digest in the immutable hosted release manifest, avoiding a redundant full asset download.",
+    "Later documentation-only evidence commits do not represent another deployed application or a new content measurement window."
+  ],
+  "remainingIssues": []
+}
