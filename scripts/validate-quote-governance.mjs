@@ -56,7 +56,7 @@ check("fail-closed story index governance", () => {
   return "default noindex; explicit index plus complete approval required";
 });
 
-check("all current quote permalinks remain useful noindex pages", () => {
+check("all current quote permalinks preserve origin, navigation and noindex contracts", () => {
   const failures = storyPages.filter(({ route, html }) =>
     !/<meta name="robots" content="noindex, follow"/.test(html)
     || !html.includes(`<link rel="canonical" href="${origin}${route}"`)
@@ -65,7 +65,7 @@ check("all current quote permalinks remain useful noindex pages", () => {
     || !html.includes("Explore all")
   );
   assert.deepEqual(failures.map((item) => item.route), []);
-  return "153/153 return useful self-canonical noindex, follow experiences";
+  return "153/153 meet origin, navigation and self-canonical noindex contracts; editorial usefulness requires separate review";
 });
 
 check("quote stories are excluded from sitemap but retained in local search", () => {

@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
+import { anchorHrefs, metaContent, canonicalHref } from "./content-audit-lib.mjs";
 
 const root = process.cwd();
 const dist = path.join(root, "dist");
 const site = "https://echobuddha.com";
-const outputDir = path.join(root, "docs/audits/echo-buddha-governance-implementation");
+const outputDir = path.resolve(root, process.env.SEO_AUDIT_OUT_DIR || "docs/audits/echo-buddha-governance-implementation");
 const failures = [];
 const warnings = [];
 
@@ -73,8 +74,8 @@ if (!fs.existsSync(dist)) {
     const route = routeFromHtml(filePath);
     const cleaned = stripBlocks(html);
     const title = html.match(/<title>(.*?)<\/title>/is)?.[1]?.replace(/\s+/g, " ").trim() ?? "";
-    const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)/i)?.[1]?.trim() ?? "";
-    const canonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']*)/i)?.[1]?.trim() ?? "";
+    const description = metaContent(html, "description").trim();
+    const canonical = canonicalHref(html).trim();
     const noindex = /<meta\s+name=["']robots["'][^>]*noindex/i.test(html);
     const h1s = [...cleaned.matchAll(/<h1\b[^>]*>(.*?)<\/h1>/gis)].map((match) => match[1].replace(/<[^>]*>/g, "").trim());
     const words = (textContent(html).match(/\b[A-Za-z][A-Za-z'’-]*\b/g) ?? []).length;
@@ -117,8 +118,7 @@ if (!fs.existsSync(dist)) {
       }
     }
 
-    for (const match of cleaned.matchAll(/<a\b[^>]*\shref=["']([^"']+)["']/gi)) {
-      const href = match[1];
+    for (const href of anchorHrefs(html)) {
       hrefs.push({ from: route, href });
       if (href.startsWith("/") && !href.startsWith("//")) {
         const pathname = new URL(href, site).pathname;

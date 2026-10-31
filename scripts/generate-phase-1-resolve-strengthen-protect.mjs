@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { anchorHrefs, metaContent, canonicalHref } from "./content-audit-lib.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -197,9 +198,9 @@ for (const route of routes) {
   const html = fs.readFileSync(file, "utf8");
   const title = stripHtml(html.match(/<title>(.*?)<\/title>/is)?.[1] ?? "").replace(/ \| Echo Buddha$/, "");
   const h1 = stripHtml(html.match(/<h1\b[^>]*>(.*?)<\/h1>/is)?.[1] ?? "");
-  const description = html.match(/<meta\s+name="description"\s+content="([^"]*)"/i)?.[1] ?? "";
-  const canonical = html.match(/<link\s+rel="canonical"\s+href="([^"]*)"/i)?.[1] ?? "";
-  const links = [...html.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)].map((match) => match[1]);
+  const description = metaContent(html, "description");
+  const canonical = canonicalHref(html);
+  const links = anchorHrefs(html);
   const internal = [...new Set(links.filter((href) => href.startsWith("/")).map((href) => new URL(href, siteUrl).pathname))];
   pages.set(route, { route, title, h1, description, canonical, internal, html });
   for (const target of internal) if (inbound.has(target)) inbound.set(target, inbound.get(target) + 1);

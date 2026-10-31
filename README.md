@@ -41,6 +41,7 @@ The validation sequence runs:
 
 The SEO audit writes current generated-site evidence to `docs/audits/echo-buddha-governance-implementation/`.
 The content audit writes remediation evidence, registers, queues, and page-role maps to `docs/audits/content-audit/`.
+For a fresh audit, set `CONTENT_AUDIT_OUT_DIR` and `SEO_AUDIT_OUT_DIR` to an ignored `.artifacts/` directory to preserve historical reports. Content checks inventory every built page, including noindex pages. They report source-review, similarity and repeated-paragraph signals; a successful command is not editorial certification or an AdSense readiness verdict. Word counts describe main content and never set a publication minimum.
 The dependency audit fails the release gate on high or critical vulnerability advisories.
 The release gate uses `npm run validate:rc` and the Phase 2 local-release-candidate mode. It retains the measurement hold and checks explicitly approved application hashes. A later authorized intervention may supersede an earlier file hash only through a per-file replacement tied to an unchanged historical record and hashed baseline. Route, canonical, index and owner changes remain separately guarded. See [measurement intervention operations](docs/measurement-interventions.md). The stricter `npm run validate` and `npm run audit:phase2:measurement` commands validate the original measurement-infrastructure-only release scope.
 
@@ -108,6 +109,8 @@ Current behavior:
 The privacy policy must stay aligned with actual scripts and services.
 
 ## AdSense Status
+
+The [October 30–31 site-wide recovery report](docs/audits/adsense-final-content-recovery-2026-10-30/13_FINAL_REPORT.md) keeps the page inventory, editorial/source review, authenticated service evidence, release verification and remaining limitations together. Consult its actual verdict before planning another AdSense review.
 
 The AdSense publisher ID is centralized in `src/data/ads.ts` and exposed only through verification metadata and `public/ads.txt`. Runtime AdSense script loading, Auto Ads, and manual ad slots remain disabled through independent approval, serving, runtime, Auto Ads, and manual-slot gates. `src/data/monetization.mjs` is the default-deny route and placement firewall; unknown routes and incomplete metadata cannot render ads.
 

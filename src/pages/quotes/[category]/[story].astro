@@ -52,6 +52,10 @@ const relatedTeaching = {
 const practiceSuggestion = story.practiceSuggestion;
 const reflectionQuestion = story.reflectionQuestion;
 const dailyLifeExample = story.dailyLifeExample;
+const practiceText = hasAuthoredReflection
+  ? story.sections.flatMap(section => section.paragraphs).join(" ")
+  : practiceSuggestion;
+const hasBreathOrBodyExercise = /\b(breath|breathing|body|eyes|sitting|meditation)\b/i.test(practiceText);
 const quoteOriginRecord = getQuoteOriginRecord(quote, canonicalPath);
 const jsonLd = [
   {
@@ -60,6 +64,7 @@ const jsonLd = [
     headline: story.title,
     name: story.title,
     description: story.description,
+    ...(!hasAuthoredReflection ? { dateModified: "2026-10-30" } : {}),
     url: quoteUrl,
     author: EDITORIAL_AUTHOR_SCHEMA,
     publisher: PUBLISHER_SCHEMA,
@@ -173,6 +178,7 @@ const jsonLd = [
 
         {hasAuthoredReflection ? (
           <>
+            <p class="story-context">The story below is an imagined example, not a historical Buddhist account.</p>
             <p class="lede" set:html={story.intro} />
             {story.sections.map((section) => (
               <section>
@@ -186,16 +192,20 @@ const jsonLd = [
             <h2>Use This Quote in One Real Moment</h2>
             <p>{dailyLifeExample}</p>
             <p>{practiceSuggestion}</p>
+            <p>Updated <time datetime="2026-10-30">October 30, 2026</time></p>
           </section>
         )}
 
 
         <h2>Reflection Question</h2>
         <p>{reflectionQuestion}</p>
+        {hasBreathOrBodyExercise && (
+          <p>For breath or body exercises, you can keep your eyes open, choose another point of attention, or stop.
+            Read the <a href="/meditation-safety/">meditation safety guidance</a> before trying an unfamiliar practice.</p>
+        )}
 
         <section class="source-note">
           <h2>Source Note</h2>
-          <p>{story.sourceNote}</p>
           <p>
             Echo Buddha quote stories use original reflection language unless a page clearly states another source.
             Read the <a href="/quote-attribution-policy/">Quote Attribution Policy</a> for attribution standards and

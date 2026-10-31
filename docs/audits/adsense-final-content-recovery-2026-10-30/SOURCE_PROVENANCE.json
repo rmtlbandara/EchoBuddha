@@ -1,0 +1,52 @@
+{
+  "executionDate": "2026-10-30",
+  "timeZone": "Asia/Colombo",
+  "adoptedBrief": {
+    "name": "ECHO BUDDHA master recovery brief",
+    "sha256": "f9635c836ad704bc165bfc09fa672311239dbefb986d0039aa8e0ef4f8a4595c"
+  },
+  "requiredDiscoveryDocuments": [
+    {
+      "path": "README.md",
+      "sha256AtDiscovery": "80e616fb0b69af25f65ceac0737c7578701d1b13894adf31de9a6cdbf87af673"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256AtDiscovery": "80bbc3ac32ed841f530b1631a667f201d09d4f280d08d3723c0cad52d6189e80"
+    },
+    {
+      "path": "ECHO_BUDDHA_SEO_CONTENT_UX_GOVERNANCE.md",
+      "sha256AtDiscovery": "0ed85d39405ac5c5e7bb6379022d59f43a106e254f8ab2385bf1e58551a21982"
+    },
+    {
+      "path": "ECHO_BUDDHA_CI_GIT_DEPLOYMENT_GOVERNANCE.md",
+      "sha256AtDiscovery": "69a95741d2f936be7d2422e8201861cc85d248619d0a9bc7640f58a182cb038a"
+    },
+    {
+      "path": "ECHO_BUDDHA_COMPLETE_CONTENT_AUDIT.md",
+      "sha256AtDiscovery": "703fa9047bcc7471a920d6429ddcb339b2e98b489bd1d68a931e2ad1ae1d4091"
+    },
+    {
+      "path": "ECHO_BUDDHA_CONTENT_AUDIT_IMPLEMENTATION_REPORT.md",
+      "sha256AtDiscovery": "eab3e8290746b656755d1e6b4846c0e7c59cb6214ba8a9cd232c06803efb4089"
+    },
+    {
+      "path": "ECHO_BUDDHA_TARGETED_CONTENT_REMEDIATION_REPORT.md",
+      "sha256AtDiscovery": "2e16e3feacec3bd6d48d373d95b7b36507de5aa2ea662dfef3a6ebc78a239f36"
+    },
+    {
+      "path": "docs/publishing.md",
+      "sha256AtDiscovery": "cfda94793700a3581483c859a3b1f345fc4b10e0bdc2ba45fd22c00860d29fde"
+    },
+    {
+      "path": "docs/measurement-interventions.md",
+      "sha256AtDiscovery": "69e1028ce954a6d9871502de69e9216b3872215f0df88f42714530c34e0ed228"
+    },
+    {
+      "path": "docs/audits/october-remediation-2026-10-27/FINAL_REPORT.md",
+      "sha256AtDiscovery": "9e09346bec12b7cc3e43d20a23f45c4736f75f452a814cc7fe4fecd0312d2c96"
+    }
+  ],
+  "privateEvidenceCommitted": false,
+  "initialUnrelatedLocalWork": "Untracked tools/pinterest-mcp/ preserved and excluded from this release."
+}

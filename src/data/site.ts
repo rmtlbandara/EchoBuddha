@@ -1,3 +1,4 @@
+import { QUOTE_APPLICATIONS } from "./quoteApplications.ts";
 import { countReadableWords, getReadTimeFromWordCount } from "../utils/publicationMetadata.ts";
 
 export const SITE = {
@@ -1940,48 +1941,6 @@ export function getQuoteCategory(theme: string) {
   return quoteCategoryDetails[theme];
 }
 
-const storyCharacters = [
-  "Mara",
-  "Anil",
-  "Sena",
-  "Tara",
-  "Nimal",
-  "Leela",
-  "Ravi",
-  "Maya",
-  "Kiran",
-  "Devi",
-  "Sam"
-];
-
-const storyPlaces = [
-  "a hillside tea shop",
-  "a quiet village library",
-  "a small garden after rain",
-  "a crowded morning bus",
-  "a workshop beside the river",
-  "a family kitchen at dusk",
-  "a footpath through rice fields",
-  "a clinic waiting room",
-  "a market near closing time",
-  "a school courtyard",
-  "a railway platform"
-];
-
-const storyDetails = [
-  "the steam rising from a plain cup",
-  "a bell sounding in the distance",
-  "water gathering on a broad leaf",
-  "the steady sweep of an old broom",
-  "a sparrow pausing on a low wall",
-  "the warmth of sunlight on the floor",
-  "a worn gate opening without complaint",
-  "the rhythm of footsteps nearby",
-  "a candle settling after the door closed",
-  "the patient turning of a wooden wheel",
-  "clouds moving beyond the roof"
-];
-
 const storyFrames: Record<
   string,
   { title: string; struggle: string; action: string; change: string; articleCategory: string; promise: string }
@@ -2068,42 +2027,6 @@ const storyFrames: Record<
   }
 };
 
-const interpretationAngles = [
-  "This reflection is most useful when it is read as a direction for the next response, not as a slogan to admire.",
-  "The quote points to a small inner shift: the moment when habit is seen clearly enough that another choice becomes possible.",
-  "Its value is practical. It asks the reader to notice one specific condition, then answer with less harm and more care.",
-  "The line is brief on purpose. It leaves room for the reader to test the teaching in speech, work, family life, or meditation.",
-  "The quote works best as a mirror for a recurring pattern, especially the part of experience that usually moves too quickly to be noticed."
-];
-
-const practiceOpenings = [
-  "Use this quote during",
-  "Try this line before",
-  "Let the quote accompany",
-  "Bring the sentence into",
-  "Test the meaning during"
-];
-
-const practiceSituations = [
-  "one conversation where the first reply is not the wisest reply",
-  "one routine task that usually disappears into hurry",
-  "one moment of waiting, uncertainty, or unfinished business",
-  "one transition between work, home, rest, or practice",
-  "one place where the body signals stress before the mind has words for it",
-  "one decision where kindness needs both warmth and clarity",
-  "one short meditation, walk, message, chore, or repair"
-];
-
-const reflectionPrompts = [
-  "Where does this quote ask for a different response than the one habit usually offers?",
-  "What exact situation today would change if this quote guided the next sentence or action?",
-  "Which part of this quote feels easy to admire but harder to practice?",
-  "What would this quote look like if it became one honest choice rather than a thought?",
-  "Where is the smallest believable place to practice this without forcing a dramatic change?"
-];
-
-// Quote reflections share attribution controls, but their editorial movement follows
-// the subject of the quote rather than a site-wide story/application/practice shell.
 const quoteReflectionHeadings: Record<string, [string, string, string]> = {
   Mindfulness: ["Where Attention Was Lost", "What Awareness Changed", "One Moment to Practice"],
   Compassion: ["When Care Met a Limit", "What Compassion Required", "A Boundaried Response"],
@@ -2186,7 +2109,7 @@ export function getQuoteQualitySignals(quote: Quote) {
     status,
     themeIndex,
     indexabilityClass: getQuoteIndexabilityClass(quote),
-    uniqueInterpretation: `${quote.theme} reflection ${themeIndex + 1}: ${storyFrames[quote.theme].promise}.`,
+    uniqueInterpretation: quote.story?.description ?? QUOTE_APPLICATIONS[quote.text]?.interpretation ?? "",
     reviewerNote: isQuoteStoryIndexable(quote)
       ? "Indexable only through a complete page-specific editorial approval."
       : "Retained as noindex, follow by default; useful for sharing and internal browsing without forcing standalone Search inventory."
@@ -2217,63 +2140,25 @@ export function getQuoteStory(quote: Quote) {
     };
   }
 
-  const themeQuotes = quotes.filter((item) => item.theme === quote.theme);
-  const themeIndex = themeQuotes.findIndex((item) => item.text === quote.text);
+  const application = QUOTE_APPLICATIONS[quote.text];
+  if (!application) {
+    throw new Error(`Missing quote-specific editorial application: ${quote.text}`);
+  }
   const frame = storyFrames[quote.theme];
-  const character = storyCharacters[themeIndex % storyCharacters.length];
-  const place = storyPlaces[(themeIndex + quote.theme.length) % storyPlaces.length];
-  const detail = storyDetails[(themeIndex * 2 + quote.theme.length) % storyDetails.length];
-  const angle = interpretationAngles[(themeIndex + quote.theme.length) % interpretationAngles.length];
-  const practiceOpening = practiceOpenings[(themeIndex + quote.text.length) % practiceOpenings.length];
-  const practiceSituation = practiceSituations[(themeIndex * 3 + quote.theme.length) % practiceSituations.length];
-  const reflectionQuestion = reflectionPrompts[(themeIndex + quote.text.split(" ").length) % reflectionPrompts.length];
   const titleStart = quote.text.split(" ").slice(0, 5).join(" ");
-  const headings = quoteReflectionHeadings[quote.theme];
-
   return {
     slug: getQuoteSlug(quote),
     title: `Original ${quote.theme} Reflection: ${titleStart}...`,
     description: `An original Echo Buddha reflection on ${quote.theme.toLowerCase()} practice through the quote "${quote.text}"`,
     articleCategory: frame.articleCategory,
-    intro: `${quote.text} is an original Echo Buddha quote about ${quote.theme.toLowerCase()}. This page treats "${quote.text}" as a practical reflection, not as a scripture translation or a historical saying.`,
+    intro: application.interpretation,
     status,
-    dailyLifeExample: `${dailyLifeExamplePrefix(quote.theme)} ${practiceSituation}.`,
-    practiceSuggestion: `${practiceOpening} ${practiceSituation}; let the quote shape one concrete response.`,
-    reflectionQuestion,
+    dailyLifeExample: application.interpretation,
+    practiceSuggestion: application.application,
+    reflectionQuestion: application.question,
     sourceNote: status.note,
-    sections: [
-      {
-        heading: headings?.[0] ?? "A Specific Moment",
-        paragraphs: [
-          `${character} was at ${place} and ${frame.struggle}. In that ordinary setting, ${detail} drew attention away from the old reaction and back toward what was actually happening.`,
-          `The quote, "${quote.text}", did not solve the situation from the outside. It gave ${character} a way to hold the tension without adding another careless word, demand, or story.`
-        ]
-      },
-      {
-        heading: headings?.[1] ?? "What the Quote Is Asking",
-        paragraphs: [
-          `${angle} For this page, the important movement is ${frame.promise}.`,
-          `${frame.action.charAt(0).toUpperCase()}${frame.action.slice(1)}. ${frame.change}`
-        ]
-      },
-      {
-        heading: headings?.[2] ?? "How to Carry It",
-        paragraphs: [
-          `Keep "${quote.text}" close to ${practiceSituation}. If it helps, write this quote in plain language and name the exact moment where it could change a response.`,
-          `The point is not to perform ${quote.theme.toLowerCase()}. It is to let "${quote.text}" become small enough to practice honestly.`
-        ]
-      }
-    ]
+    sections: []
   };
-}
-
-function dailyLifeExamplePrefix(theme: string) {
-  if (theme === "Meditation") return "Use it before sitting, while returning from distraction, or during";
-  if (theme === "Compassion") return "Use it when care needs to stay warm and boundaried in";
-  if (theme === "Patience") return "Use it when waiting or irritation appears in";
-  if (theme === "Letting Go") return "Use it when effort is possible but control is not, especially in";
-  if (theme === "Impermanence") return "Use it when change is visible in";
-  return "Use it during";
 }
 
 export type Article = {
@@ -2300,7 +2185,7 @@ export type Article = {
 
 const articleVisuals = {
   eightfoldPath: `
-    <figure class="article-visual surface" role="group" aria-labelledby="eightfold-framework-caption">
+    <figure class="article-visual surface" aria-labelledby="eightfold-framework-caption">
       <figcaption id="eightfold-framework-caption">Noble Eightfold Path Framework: a simple conceptual map of the three training areas and their daily-life connection.</figcaption>
       <div class="visual-card-grid visual-card-grid--three" aria-label="Noble Eightfold Path Framework">
         <section class="visual-card">
@@ -2349,7 +2234,7 @@ const articleVisuals = {
     </figure>
   `,
   attachment: `
-    <figure class="article-visual surface" role="group" aria-labelledby="attachment-flow-caption">
+    <figure class="article-visual surface" aria-labelledby="attachment-flow-caption">
       <figcaption id="attachment-flow-caption">Attachment to Letting Go: a practice flow for meeting clinging with awareness, patience, and wise care.</figcaption>
       <ol class="visual-flow visual-flow--numbered" aria-label="Attachment to Letting Go flow">
         <li><strong>Notice clinging</strong><span>The mind tightens around a person, result, role, or plan.</span></li>
@@ -2381,7 +2266,7 @@ const articleVisuals = {
     </figure>
   `,
   rightSpeech: `
-    <figure class="article-visual surface" role="group" aria-labelledby="right-speech-caption">
+    <figure class="article-visual surface" aria-labelledby="right-speech-caption">
       <figcaption id="right-speech-caption">Four Filters of Right Speech: a practical guide for choosing words with truth, kindness, usefulness, and timing.</figcaption>
       <div class="visual-card-grid visual-card-grid--four" aria-label="Four Filters of Right Speech">
         <section class="visual-card visual-card--compact"><h3>Is it true?</h3><p>Check whether the words match what is known, not only what is felt.</p></section>
@@ -2399,7 +2284,7 @@ const articleVisuals = {
     </figure>
   `,
   overthinking: `
-    <figure class="article-visual surface" role="group" aria-labelledby="busy-mind-caption">
+    <figure class="article-visual surface" aria-labelledby="busy-mind-caption">
       <figcaption id="busy-mind-caption">Busy Mind to Calm Mind: a conceptual practice flow for meeting repeated thoughts with awareness.</figcaption>
       <ol class="visual-flow visual-flow--numbered" aria-label="Busy Mind to Calm Mind flow">
         <li><strong>Thought appears</strong><span>A memory, worry, or imagined conversation enters awareness.</span></li>
@@ -2430,7 +2315,7 @@ const articleVisuals = {
     </figure>
   `,
   impermanence: `
-    <figure class="article-visual surface" role="group" aria-labelledby="impermanence-cycle-caption">
+    <figure class="article-visual surface" aria-labelledby="impermanence-cycle-caption">
       <figcaption id="impermanence-cycle-caption">Cycle of Change: a reflection guide for seeing how beginnings, growth, endings, and renewal belong to ordinary life.</figcaption>
       <ol class="visual-flow visual-flow--cycle" aria-label="Cycle of Change">
         <li><strong>Beginning</strong><span>Something appears because conditions have gathered.</span></li>
@@ -7941,7 +7826,7 @@ const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
       {
         heading: "If You Need the Big Picture",
         paragraphs: [
-          "Start with the beginner owner guide, then read <a href=\"/learn/four-noble-truths/\">the Four Noble Truths</a> and <a href=\"/learn/eightfold-path/\">the Noble Eightfold Path</a>. This route answers what problem the path addresses and what kinds of training it develops.",
+          "Start with the main beginner guide, then read <a href=\"/learn/four-noble-truths/\">the Four Noble Truths</a> and <a href=\"/learn/eightfold-path/\">the Noble Eightfold Path</a>. This route answers what problem the path addresses and what kinds of training it develops.",
           "Do not treat the two teachings as a complete survey of every Buddhist tradition. They are central foundations that make later study easier to organize."
         ]
       },
@@ -8294,10 +8179,79 @@ function applyPhase1IntentRemediation(article: Article): Article {
   return remediation ? { ...article, ...remediation } : article;
 }
 
+// Page-specific recovery decisions: remove repeated expansions, retain useful steps,
+// and keep source statements distinct from modern editorial exercises.
+const contentRecoveryEdits: Record<string, { remove: string[]; removeParagraphs?: string[]; source?: string[] }> = {
+  "what-is-sangha-buddhist-community": { remove: [] },
+  "visiting-a-buddhist-temple-respectfully": { remove: [] },
+  "how-to-meditate-for-anxiety": {"remove": ["Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"]},
+  "mindfulness-for-better-sleep": {"remove": ["A Gentle Evening Practice", "Create a Transition Ritual", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"]},
+  "five-precepts-in-daily-life": { remove: [] },
+  "metta-meditation-script": { remove: [] },
+  "buddhist-approach-to-anger": {"remove": ["The First Thirty Seconds", "Understand Without Excusing", "Speech Practice When Angry", "A Reflection for Difficult Moments", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"]},
+  "buddhist-gratitude-practice": {"remove": [], "removeParagraphs": ["Let the practice remain small enough to be truthful. Gratitude that releases is lighter than gratitude that clings. It receives, responds, and lets the day pass.", "If the mind starts turning the exercise into a performance, simplify it. One received thing, one condition behind it, one response. That is enough. The aim is not to produce a beautiful journal page; it is to train the heart to notice support and answer without grasping.", "When practiced this way, gratitude is less about improving a mood and more about remembering relationship. The life that feels private is still supported by weather, food, labor, language, ancestors, teachers, strangers, and fragile conditions that deserve care.", "That memory can make gratitude quieter and more durable, especially when a day has been difficult and appreciation must stay modest and honest tonight."]},
+  "compassion-as-a-daily-discipline": {"remove": ["Compassion Is Trained in Ordinary Moments", "A Reflection to Carry", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path", "A Small Practice for Today"]},
+  "compassion-in-buddhism-beginner-guide": {"remove": ["Compassion as a Daily Discipline"]},
+  "equanimity-in-buddhism": {"remove": [], "removeParagraphs": ["This quietness makes equanimity easy to overlook. Many people notice the dramatic reaction more than the wise restraint that prevented harm. Buddhist practice values the restraint anyway. A harsh reply not sent, a compliment not clung to, a loss met without self-pity becoming cruelty: these are not empty moments. They are the path becoming visible in ordinary conditions.", "For readers who fear becoming detached, this is the reassurance: equanimity does not remove love from life. It removes some of the panic around love, the possessiveness around success, and the despair around loss. What remains can be more reliable than emotional intensity because it is less dependent on conditions behaving exactly as hoped.", "This is why equanimity can be practiced in conversation before it is mastered in crisis. Let one pleasant word be pleasant. Let one unpleasant word be known. Then choose the next response from values rather than from the strongest gust."]},
+  "dhammapada-reflection-what-we-think": {"remove": ["How This Reflection Supports Daily Choices"]},
+  "beginning-a-daily-mindfulness-practice": { remove: ["Build the Habit Around a Cue", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"] },
+  "mindfulness-morning-routine": { remove: ["Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path", "A Gentle Ending"] },
+  "walking-meditation-step-by-step": {
+    remove: ["A Step-by-Step Walking Session", "Using Walking Meditation in Daily Life", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"],
+    source: ["<a href='https://www.dhammatalks.org/suttas/MN/MN10.html' target='_blank' rel='noopener noreferrer'>MN 10, translated by Thanissaro Bhikkhu</a>, includes knowing the walking posture and clear awareness while going and returning. The path length, optional movement labels, and turning drill here are contemporary practice suggestions, not an exact prescription quoted from the discourse.", "For a shorter practice outline, see <a href='/meditation/walking-meditation/'>walking meditation</a>; the <a href='/meditation-guide/'>Meditation Guide</a> explains other starting points. Keep your eyes open and your surroundings in view. If walking is unsuitable, choose a comfortable seated point of attention instead; you do not need to walk through pain or dizziness."]
+  },
+  "mindful-listening-in-everyday-life": { remove: ["Why Listening Is a Mindfulness Practice", "A Practice for Difficult Conversations", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path", "A Small Practice for Today"] },
+  "creating-a-peaceful-corner-at-home": { remove: ["What Belongs in a Practice Space", "Make the Space a Cue", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"] },
+  "three-ways-to-practice-patience": {
+    remove: ["A Daily Patience Practice", "Modern Examples of Patience", "A Mindfulness Exercise", "Continue the Path", "A Small Practice for Today"],
+    source: ["<a href='https://www.dhammatalks.org/suttas/KN/Dhp/Ch14.html' target='_blank' rel='noopener noreferrer'>Dhammapada 184, in Thanissaro Bhikkhu's translation</a>, connects patient endurance with non-harming. The three exercises on this page are Echo Buddha editorial applications, not a canonical list of three patience practices.", "If irritation is the main difficulty, continue with <a href='/articles/buddhist-approach-to-anger/'>a Buddhist approach to anger</a>. If the difficulty is a conversation, <a href='/articles/mindful-listening-in-everyday-life/'>mindful listening</a> focuses on understanding before replying. Patience does not require delaying protection, treatment, or another necessary action."]
+  },
+  "dhammapada-reflection-trained-mind": {
+    remove: ["Training Without Harshness"],
+    source: ["The direct textual starting point is <a href='https://www.dhammatalks.org/suttas/KN/Dhp/Ch03.html' target='_blank' rel='noopener noreferrer'>the Dhammapada's Mind chapter, verses 33–43, translated by Thanissaro Bhikkhu</a>. Verses 35–36 concern training and guarding the mind. The daily-life example, three returns, and evening review here are original Echo Buddha applications, not translations or exercises prescribed by those verses."]
+  },
+  "how-to-let-go-of-attachment-in-buddhism": {
+    remove: [],
+    source: ["<a href='https://www.dhammatalks.org/suttas/SN/SN12_2.html' target='_blank' rel='noopener noreferrer'>SN 12.2, translated by Thanissaro Bhikkhu</a>, places clinging in dependence on craving and distinguishes clinging to sensuality, views, habits and practices, and doctrines of self. This article concentrates on familiar control and outcome examples; it is not a full account of those four forms or a claim that every wish is harmful.", "The reflection map and practical exercises are Echo Buddha adaptations. Grief, a wish for safety, and a commitment to repair are not failures that should be dismissed as attachment. For the wider teaching, continue with <a href='/learn/four-noble-truths/'>the Four Noble Truths</a>."]
+  }
+};
+
+function applyContentRecovery(article: Article): Article {
+  const edit = contentRecoveryEdits[article.slug];
+  if (!edit) return article;
+  for (const heading of edit.remove) {
+    if (!article.content.some(section => section.heading === heading)) throw new Error(`Missing reviewed section: ${article.slug}: ${heading}`);
+  }
+  for (const paragraph of edit.removeParagraphs ?? []) {
+    if (!article.content.some(section => section.paragraphs.includes(paragraph))) throw new Error(`Missing reviewed paragraph: ${article.slug}`);
+  }
+  const content = article.content.filter(section => !edit.remove.includes(section.heading ?? ""))
+    .map(section => ({ ...section, paragraphs: section.paragraphs.filter(paragraph => !edit.removeParagraphs?.includes(paragraph)) }))
+    .map(section => {
+    if (article.slug === "what-is-sangha-buddhist-community" && section.heading === "The Traditional Sangha and Broader Community Use") return { ...section, paragraphs: ["A further distinction matters in refuge language: <a href='https://www.dhammatalks.org/suttas/AN/AN11_12.html' target='_blank' rel='noopener noreferrer'>AN 11.12's recollection</a> describes the noble disciples as four pairs or eight individual types. Joining a modern group does not by itself place someone in that spiritual category. The <a href='/learn/buddhist-dictionary/sangha/'>dictionary definition</a> and <a href='/learn/buddhist-handbook/sangha-as-refuge/'>Saṅgha as Refuge</a> explain that religious context; this article focuses on finding and evaluating community support.", ...section.paragraphs] };
+    if (article.slug === "five-precepts-in-daily-life" && section.heading === "The Fifth Precept Protects Heedfulness") return { ...section, paragraphs: [section.paragraphs[0], section.paragraphs[1], "The traditional undertaking is abstention from intoxicants that lead to heedlessness; it should not be redefined here as simply drinking less. Someone working toward that commitment may need medical guidance, recovery support, changed social settings, or trusted support. This precept is not an instruction to change prescribed medication or undertake withdrawal without medical guidance; discuss medical questions with a qualified clinician."] };
+    if (article.slug === "metta-meditation-script" && section.heading === "Choose Loving-Kindness Phrases") return { ...section, paragraphs: section.paragraphs.map(p => p.replace("A traditional set of phrases might be:", "A commonly used modern set of practice phrases is:")) };
+    if (article.slug === "metta-meditation-script" && section.heading === "A Practice of Direction, Not Perfection") return { ...section, paragraphs: section.paragraphs.map(p => p.replace("Each sincere phrase weakens the assumption that contempt is the only protection and reminds us that care can be both warm and wise.", "A sincere phrase can offer an alternative to rehearsing contempt, without requiring you to feel warmth or to give up protection.")) };
+    if (article.slug === "beginning-a-daily-mindfulness-practice" && section.heading === "Choose a Small Daily Rhythm") return { ...section, paragraphs: ["Try one to five minutes at a reliable cue. Keep the seat ready and choose a duration that fits the actual day, including days when your energy is limited.", "After a week, ask whether the cue was noticeable and the practice manageable. Change one of those conditions before increasing the duration; a missed session does not cancel the habit."] };
+    if (article.slug === "beginning-a-daily-mindfulness-practice" && section.heading === "What to Notice During Practice") return { ...section, paragraphs: [...section.paragraphs, "If attention to breathing or bodily sensations increases discomfort, use an external sound or object, shorten the practice, or stop. These are optional habit suggestions, not a treatment or a test of spiritual progress."] };
+    if (article.slug === "mindfulness-morning-routine" && section.heading === "Connect Morning Practice With the Rest of the Day") return { ...section, paragraphs: [...section.paragraphs, "These timings and screen boundaries are original practical suggestions, not a traditional Buddhist timetable. Adapt them to caregiving, work, disability, or a different sleep schedule; no particular morning routine guarantees a calmer day."] };
+    if (article.slug === "creating-a-peaceful-corner-at-home" && section.heading === "Create a Reliable Cue") return { ...section, paragraphs: [section.paragraphs[0], "If a fixed corner is unavailable, put away a portable seat or blanket after use and agree on a manageable time with anyone sharing the room. Pair the space with <a href='/articles/beginning-a-daily-mindfulness-practice/'>a small daily practice</a>; the purpose is to make beginning easier, not to acquire a particular look."] };
+    if (article.slug === "three-ways-to-practice-patience" && section.heading === "Practical Examples in Daily Life") return { ...section, heading: "Irritation, Delay, and Uncertainty" };
+    if (article.slug === "dhammapada-reflection-trained-mind" && section.heading === "Original Reflection and Source Note") return { heading: "An Original Reflection", paragraphs: [section.paragraphs[0]] };
+    if (article.slug === "dhammapada-reflection-trained-mind" && section.heading === "A Gentle Evening Review") return { ...section, paragraphs: ["Review one event without grading the whole day. What happened, what did you do, and what helped or hindered a careful response? If repair is needed, choose one realistic action.", "Then stop the review. Replaying the event repeatedly is not required. If reflection becomes distressing, return to an ordinary supportive activity and seek appropriate support when needed."] };
+    if (article.slug === "dhammapada-reflection-trained-mind" && section.heading === "Signs the Mind Is Becoming More Trainable") return { ...section, paragraphs: [section.paragraphs[0], "These are possible observations, not a scorecard or a guarantee. Difficult feelings may remain. Look at a specific action and its consequences rather than treating calm as proof of progress."] };
+    if (article.slug === "how-to-let-go-of-attachment-in-buddhism" && section.heading === "Common Misunderstandings About Buddhist Attachment") return { ...section, paragraphs: ["Buddhist non-attachment does not require the end of love, care, or grief. The useful distinction here is between caring for someone and demanding possession, permanence, or control. Grieving is not proof that you have failed to understand the teaching.", section.paragraphs[1]] };
+    return section;
+  });
+  if (edit.source) content.push({ heading: "Sources and Scope", paragraphs: edit.source });
+  return { ...article, content };
+}
+
 export const fullArticles = articles
   .map(applyWeek2ArticleUpgrade)
   .map(applyWeek3ArticleExpansion)
   .map(applyPhase1IntentRemediation)
+  .map(applyContentRecovery)
   .filter((article) => article.content.length > 0)
   .sort((a, b) => b.date.localeCompare(a.date));
 
@@ -10486,7 +10440,7 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
     faqs: [
       { question: "How do the Four Noble Truths apply to conflict?", answer: "Name the hurt, identify the grip that adds pressure, notice a moment when the grip is not fed, and choose a response shaped by path factors such as view, intention, speech, and mindfulness." },
       { question: "Does this framework excuse another person's behavior?", answer: "No. It distinguishes the event from the mind's added renewal of suffering while leaving room for accountability, boundaries, and protection." },
-      { question: "Where is the complete Four Noble Truths guide?", answer: "The /learn/four-noble-truths/ page remains Echo Buddha's broad foundational owner." }
+      { question: "Where is the complete Four Noble Truths guide?", answer: "The /learn/four-noble-truths/ page remains Echo Buddha's complete introductory guide." }
     ]
   },
   "eightfold-path-explained": {
@@ -10501,7 +10455,7 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
     faqs: [
       { question: "Do the Eightfold Path factors have to be practiced in order?", answer: "No. The factors develop together and continually support, correct, and test one another." },
       { question: "How do mindfulness, effort, and concentration differ?", answer: "Effort shapes which states are fed, mindfulness remembers and knows the relevant experience, and concentration gathers attention so it is not immediately scattered." },
-      { question: "Where are all eight factors defined?", answer: "The /learn/eightfold-path/ page remains the complete broad owner with definitions and foundational context." }
+      { question: "Where are all eight factors defined?", answer: "The /learn/eightfold-path/ page remains the main guide with all eight definitions and foundational context." }
     ]
   },
   "eightfold-path-explained-daily-life": {
@@ -10642,7 +10596,8 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
 };
 
 export function getArticleSeoDetails(slug: string) {
-  return phase1IntentSeoDetails[slug] ?? sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  const details = phase1IntentSeoDetails[slug] ?? sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  return contentRecoveryEdits[slug] && details ? { ...details, reviewedDate: "2026-10-30" } : details;
 }
 
 export function getArticleWordCount(article: Article) {
@@ -10726,7 +10681,26 @@ const articleCategoryToQuoteTheme: Record<string, string> = {
   Practice: "Practice"
 };
 
+const quoteThemeReadingPaths: Record<string, string[]> = {
+  Mindfulness: ["beginning-a-daily-mindfulness-practice", "mindful-listening-in-everyday-life", "mindfulness-vs-meditation"],
+  Compassion: ["compassion-with-boundaries", "compassion-in-buddhism-beginner-guide", "compassion-as-a-daily-discipline"],
+  Patience: ["three-ways-to-practice-patience", "buddhist-approach-to-anger", "mindful-listening-in-everyday-life"],
+  Awareness: ["buddhist-wisdom-for-overthinking", "mindfulness-vs-meditation", "mindful-email-and-texting"],
+  Practice: ["first-week-buddhist-practice", "five-precepts-in-daily-life", "noble-eightfold-path-practical-guide"],
+  "Letting Go": ["how-to-let-go-of-attachment-in-buddhism", "non-attachment-in-relationships", "impermanence-in-buddhism-letting-go"],
+  Meditation: ["how-to-meditate-for-beginners", "mindfulness-of-breathing-guide", "walking-meditation-step-by-step"],
+  Renewal: ["buddhist-teachings-on-forgiveness", "beginning-a-daily-mindfulness-practice", "first-week-buddhist-practice"],
+  Wisdom: ["right-speech-buddhism", "three-poisons-buddhism-explained", "what-is-karma-in-buddhism"],
+  Impermanence: ["impermanence-in-buddhism", "buddhist-teachings-on-impermanence", "impermanence-in-buddhism-letting-go"]
+};
+
 export function getArticlesForQuoteTheme(theme: string) {
+  const selected = quoteThemeReadingPaths[theme];
+  if (selected) return selected.map(slug => {
+    const article = fullArticles.find(article => article.slug === slug);
+    if (!article) throw new Error(`Missing curated ${theme} reading: ${slug}`);
+    return article;
+  });
   const category = quoteThemeToArticleCategory[theme] ?? "Buddhist Wisdom";
   return fullArticles.filter((article) => article.category === category);
 }

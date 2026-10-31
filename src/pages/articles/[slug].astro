@@ -310,9 +310,9 @@ const topicClusters = [
 const activeTopicCluster = topicClusters.find((cluster) => cluster.slugs.includes(article.slug));
 const topicClusterHub = activeTopicCluster && activeTopicCluster.href !== canonicalPath ? activeTopicCluster : undefined;
 const sourceReferences = getSourceReferencesForRoute(canonicalPath);
-const sourceNoteText =
-  activeTopicCluster?.source ??
-  undefined;
+const sourceNoteText = article.slug === "visiting-a-buddhist-temple-respectfully"
+  ? "This is original Echo Buddha guidance for a respectful temple visit. The linked institutional guides describe their own communities; local expectations should be checked rather than treated as a universal Buddhist etiquette code."
+  : activeTopicCluster?.source ?? undefined;
 const cornerstonePracticePrompts: Record<string, string> = {
   "right-speech-buddhism":
     "Before one consequential message, write what is known, what is inferred, what benefit the message should serve, and whether this is the right time.",

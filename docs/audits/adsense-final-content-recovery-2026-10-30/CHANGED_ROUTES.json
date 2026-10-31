@@ -1,0 +1,846 @@
+[
+  {
+    "route": "/"
+  },
+  {
+    "route": "/articles/"
+  },
+  {
+    "route": "/articles/beginning-a-daily-mindfulness-practice/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/buddhism-for-beginners-simple-guide/"
+  },
+  {
+    "route": "/articles/buddhist-approach-to-anger/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/buddhist-gratitude-practice/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/buddhist-teachings-on-forgiveness/"
+  },
+  {
+    "route": "/articles/buddhist-teachings-on-impermanence/"
+  },
+  {
+    "route": "/articles/buddhist-wisdom-for-overthinking/"
+  },
+  {
+    "route": "/articles/category/buddhist-wisdom/"
+  },
+  {
+    "route": "/articles/category/meditation/"
+  },
+  {
+    "route": "/articles/category/mindfulness/"
+  },
+  {
+    "route": "/articles/category/practice/"
+  },
+  {
+    "route": "/articles/category/reflection/"
+  },
+  {
+    "route": "/articles/compassion-as-a-daily-discipline/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/compassion-in-buddhism-beginner-guide/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/compassion-with-boundaries/"
+  },
+  {
+    "route": "/articles/creating-a-peaceful-corner-at-home/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/dhamma-vs-dharma/"
+  },
+  {
+    "route": "/articles/dhammapada-reflection-trained-mind/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/dhammapada-reflection-what-we-think/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/dhammapada-verse-1-meaning/"
+  },
+  {
+    "route": "/articles/eightfold-path-explained-daily-life/"
+  },
+  {
+    "route": "/articles/eightfold-path-explained/"
+  },
+  {
+    "route": "/articles/equanimity-in-buddhism/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/first-week-buddhist-practice/"
+  },
+  {
+    "route": "/articles/five-precepts-in-daily-life/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/four-noble-truths-explained-simply/"
+  },
+  {
+    "route": "/articles/four-noble-truths-explained/"
+  },
+  {
+    "route": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/how-to-meditate-for-anxiety/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/how-to-meditate-for-beginners/"
+  },
+  {
+    "route": "/articles/impermanence-in-buddhism-letting-go/"
+  },
+  {
+    "route": "/articles/impermanence-in-buddhism/"
+  },
+  {
+    "route": "/articles/loving-kindness-meditation-beginners/"
+  },
+  {
+    "route": "/articles/loving-kindness-meditation-guide/"
+  },
+  {
+    "route": "/articles/metta-meditation-script/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/mindful-email-and-texting/"
+  },
+  {
+    "route": "/articles/mindful-listening-in-everyday-life/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/mindfulness-for-better-sleep/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/mindfulness-morning-routine/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/mindfulness-of-breathing-guide/"
+  },
+  {
+    "route": "/articles/mindfulness-vs-meditation/"
+  },
+  {
+    "route": "/articles/noble-eightfold-path-practical-guide/"
+  },
+  {
+    "route": "/articles/non-attachment-in-relationships/"
+  },
+  {
+    "route": "/articles/right-livelihood-modern-life/"
+  },
+  {
+    "route": "/articles/right-speech-buddhism/"
+  },
+  {
+    "route": "/articles/right-speech-examples/"
+  },
+  {
+    "route": "/articles/three-poisons-buddhism-explained/"
+  },
+  {
+    "route": "/articles/three-ways-to-practice-patience/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/visiting-a-buddhist-temple-respectfully/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/walking-meditation-step-by-step/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/articles/what-is-buddhism-beginner-guide/"
+  },
+  {
+    "route": "/articles/what-is-karma-in-buddhism/"
+  },
+  {
+    "route": "/articles/what-is-sangha-buddhist-community/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/authors/echo-buddha-editorial/"
+  },
+  {
+    "route": "/daily-reflections/"
+  },
+  {
+    "route": "/daily-reflections/today/"
+  },
+  {
+    "route": "/learn/buddhism-101/dependent-origination-explained/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/learn/buddhism-101/five-precepts-buddhism/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/"
+  },
+  {
+    "route": "/learn/buddhism-101/the-three-jewels-explained/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/learn/buddhism-101/who-was-the-buddha/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/dhamma/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/learn/buddhist-dictionary/sangha/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/learn/dhammapada-reflections/"
+  },
+  {
+    "route": "/learn/eightfold-path/"
+  },
+  {
+    "route": "/learn/four-noble-truths/"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/"
+  },
+  {
+    "route": "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/"
+  },
+  {
+    "route": "/mindful-living/"
+  },
+  {
+    "route": "/quotes/"
+  },
+  {
+    "route": "/quotes/awareness/"
+  },
+  {
+    "route": "/quotes/awareness/acceptance-before-next-step/"
+  },
+  {
+    "route": "/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/feelings-without-the-wheel/"
+  },
+  {
+    "route": "/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/one-breath-before-anger-replies/"
+  },
+  {
+    "route": "/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/thoughts-are-visitors/"
+  },
+  {
+    "route": "/quotes/awareness/thoughts-pass-without-commanding-you/"
+  },
+  {
+    "route": "/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/"
+  },
+  {
+    "route": "/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/before-judging-another-life-remember-how-much-of-your/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/compassion-sees-pain-clearly/"
+  },
+  {
+    "route": "/quotes/compassion/gentle-self-compassion/"
+  },
+  {
+    "route": "/quotes/compassion/kindness-as-quiet-practice/"
+  },
+  {
+    "route": "/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/loving-kindness-without-harm/"
+  },
+  {
+    "route": "/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/"
+  },
+  {
+    "route": "/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/change-is-how-life-continues/"
+  },
+  {
+    "route": "/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/meet-change-softly/"
+  },
+  {
+    "route": "/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/"
+  },
+  {
+    "route": "/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/caring-without-clinging/"
+  },
+  {
+    "route": "/quotes/letting-go/forgiveness-without-approving-harm/"
+  },
+  {
+    "route": "/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/open-hands-non-attachment/"
+  },
+  {
+    "route": "/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/soften-around-stress/"
+  },
+  {
+    "route": "/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/where-attachment-begins/"
+  },
+  {
+    "route": "/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/"
+  },
+  {
+    "route": "/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/few-quiet-minutes/"
+  },
+  {
+    "route": "/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/meditation-is-returning/"
+  },
+  {
+    "route": "/quotes/meditation/one-honest-breath/"
+  },
+  {
+    "route": "/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/sit-with-the-day-as-it-is-before-asking/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/"
+  },
+  {
+    "route": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/begin-the-day-with-awareness/"
+  },
+  {
+    "route": "/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/gratitude-notices-enough/"
+  },
+  {
+    "route": "/quotes/mindfulness/ground-yourself-gently/"
+  },
+  {
+    "route": "/quotes/mindfulness/listen-before-answering/"
+  },
+  {
+    "route": "/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/peace-begins-with-attention/"
+  },
+  {
+    "route": "/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/present-moment-one-step/"
+  },
+  {
+    "route": "/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/"
+  },
+  {
+    "route": "/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/be-patient-with-the-part-of-you-that-is/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/family-kindness-and-patience/"
+  },
+  {
+    "route": "/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/patience-is-the-strength-to-remain-present-while-life/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/patience-softens-the-wait/"
+  },
+  {
+    "route": "/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/"
+  },
+  {
+    "route": "/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/bring-the-teaching-into-the-place-where-you-are/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/eightfold-path-daily-choices/"
+  },
+  {
+    "route": "/quotes/practice/mindfulness-at-work-breath/"
+  },
+  {
+    "route": "/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/right-intention-turns-the-heart/"
+  },
+  {
+    "route": "/quotes/practice/small-actions-shape-the-mind/"
+  },
+  {
+    "route": "/quotes/practice/the-path-is-not-far-away-it-is-the/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/practice/your-next-response-is-always-part-of-the-path/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/"
+  },
+  {
+    "route": "/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/a-new-direction-can-start-with-one-different-choice/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/begin-again-gently-the-breath-is-always-willing/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/begin-again-without-shame/"
+  },
+  {
+    "route": "/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/evening-release-reflection/"
+  },
+  {
+    "route": "/quotes/renewal/gentle-hope-keeps-walking/"
+  },
+  {
+    "route": "/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/morning-is-not-the-only-time-a-life-can/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/one-calm-morning-intention/"
+  },
+  {
+    "route": "/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/"
+  },
+  {
+    "route": "/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/contentment-with-what-is-here/"
+  },
+  {
+    "route": "/quotes/wisdom/difficult-people-and-boundaries/"
+  },
+  {
+    "route": "/quotes/wisdom/karma-begins-in-intention/"
+  },
+  {
+    "route": "/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/right-speech-with-kindness/"
+  },
+  {
+    "route": "/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/simplicity-clears-the-room/"
+  },
+  {
+    "route": "/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/understanding-suffering-honestly/"
+  },
+  {
+    "route": "/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/wisdom-sees-clearly/"
+  },
+  {
+    "route": "/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/",
+    "modifiedDate": "2026-10-30"
+  },
+  {
+    "route": "/quotes/wisdom/wise-silence/"
+  },
+  {
+    "route": "/tools/"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "assembledDate": "2026-10-31",
+  "observationDate": "2026-10-30",
+  "generatedHtmlPages": 351,
+  "readerPages": 350,
+  "errorPages": 1,
+  "indexability": {
+    "noindex": 186,
+    "indexable": 165
+  },
+  "sitemapUrls": 165,
+  "pageTypes": {
+    "error": 1,
+    "trustOrUtility": 16,
+    "article": 48,
+    "articleCategory": 5,
+    "articleHub": 1,
+    "dailyReflection": 30,
+    "dailyHub": 1,
+    "todayReflection": 1,
+    "homepage": 1,
+    "learningDetail": 61,
+    "learningHub": 11,
+    "meditationDetail": 9,
+    "meditationHub": 1,
+    "quoteStory": 153,
+    "quoteCategory": 10,
+    "quoteHub": 1,
+    "tools": 1
+  },
+  "reviewAllocation": {
+    "articlesFullBody_root": 8,
+    "articlesFullBody_editorial_inventory": 40,
+    "learningAndMeditationFullBody_policy_sources": 70,
+    "authoredQuoteFullSourceRecord_policy_sources": 43,
+    "individualQuoteApplications_authoredAndSeparatelyModelReviewed": 110,
+    "dailyReflectionFullBodyAndArchive_editorial_inventory": 30,
+    "hubUtilityUniqueTextAndFullSharedCatalogues_editorial_inventory": 50
+  },
+  "unreviewedGeneratedPages": [],
+  "rawPublicSnapshots": ".artifacts/adsense-content-recovery-2026-10-30/editorial/ (ignored)",
+  "limits": [
+    "All routes have actual model editorial/source-record coverage, not just automated extraction.",
+    "Not every doctrinal claim in every edition was independently retrieved; research agent records high-risk source checks and precise limitations.",
+    "No independent human, scholarly, clinical or legal certification; no worldwide plagiarism or historical media-rights certification.",
+    "No production deployment claim in this inventory; exact release and HTTP parity are separate reports 10 and 11.",
+    "Initial lower rubric values remain where a problem was found; final action records implemented fixes rather than retroactively erasing the baseline score.",
+    "Redirect aliases are separate from the 351 HTML pages; see REDIRECT_INVENTORY.csv."
+  ],
+  "outputs": {
+    "02_COMPLETE_CONTENT_INVENTORY.csv": "94d572d5a8fccd3ebf3b58689729c6eb344b3266dee65b8de19c17e37375893e",
+    "03_CONTENT_QUALITY_AUDIT.csv": "12a611396be95303faa31ac3a98ce8417685c6e4ca415d0c2b3bc9c7c38748ea"
+  }
+}

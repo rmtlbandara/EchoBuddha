@@ -438,7 +438,7 @@ const jsonLd = [
   }
 
   .tool-heading p,
-  .tool-output p,
+  .tool-output :global(p),
   .challenge-grid p,
   .copy-status,
   .timer-message {
@@ -456,12 +456,12 @@ const jsonLd = [
     padding: 1rem;
   }
 
-  .tool-output h3 {
+  .tool-output :global(h3) {
     font-size: 1.25rem;
     margin-bottom: 0;
   }
 
-  .tool-output blockquote {
+  .tool-output :global(blockquote) {
     border-left: 3px solid var(--color-gold);
     color: var(--color-brown);
     font-family: var(--font-serif);
@@ -470,7 +470,7 @@ const jsonLd = [
     padding-left: 1rem;
   }
 
-  .tool-output div,
+  .tool-output :global(div),
   .tool-actions {
     display: flex;
     flex-wrap: wrap;
@@ -481,7 +481,10 @@ const jsonLd = [
     cursor: pointer;
   }
 
-  .tool-output a {
+  .tool-output :global(a) {
+    align-items: center;
+    display: inline-flex;
+    min-height: 2.75rem;
     background: var(--color-green-soft);
     border-radius: var(--radius);
     color: var(--color-green);

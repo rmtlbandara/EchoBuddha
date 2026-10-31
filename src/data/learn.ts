@@ -62,6 +62,16 @@ const commonSourceNote = DEFAULT_LEARNING_SOURCE_NOTE;
 const sourceLinksByPage: Record<string, SourceLink[]> = {
   "buddhism-101/who-was-the-buddha": [
     {
+      label: "The Buddha — London Buddhist Vihara",
+      href: "https://londonbuddhistvihara.org/teachings/the-buddha/",
+      note: "An established Theravāda community's presentation of the familiar four-sights life story. Used as evidence of the traditional account, not independent historical verification."
+    },
+    {
+      label: "Ariyapariyesana Sutta (MN 26), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/MN/MN26.html",
+      note: "Early-discourse account of the Buddha's search, departure from household life, training with teachers, and decision to teach. This is a religious textual account, not an independently verified modern biography."
+    },
+    {
       label: "Dhammacakkappavattana Sutta (SN 56.11)",
       href: "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
       note: "A traditional early-discourse context for the Buddha's first teaching after awakening."
@@ -80,6 +90,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     }
   ],
   "buddhism-101/the-three-jewels-explained": [
+    {
+      label: "Mahanama Sutta (AN 11.12), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/AN/AN11_12.html",
+      note: "Gives the recollection formulas, including the noble Sangha as four pairs or eight individual types; modern community examples are editorial applications."
+    },
     {
       label: "Dhammapada, Buddhavagga (Dhp 190-192)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
@@ -236,6 +251,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "buddhist-dictionary/dhamma": [
     {
+      label: "Mahanama Sutta (AN 11.12), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/AN/AN11_12.html",
+      note: "Provides recollection of the Dhamma and the noble Sangha, helping distinguish refuge language from broader modern community usage."
+    },
+    {
       label: "Dhammapada, Buddhavagga (Dhp 190-192)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
       note: "A traditional source for taking refuge in Buddha, Dhamma, and Sangha."
@@ -247,6 +267,16 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     }
   ],
   "buddhist-dictionary/sangha": [
+    {
+      label: "Sangha — Access to Insight",
+      href: "https://www.accesstoinsight.org/ptf/sangha.html",
+      note: "A terminology overview distinguishing ordained and noble communities, with linked discourses for the four pairs and eight individuals."
+    },
+    {
+      label: "Mahanama Sutta (AN 11.12), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/AN/AN11_12.html",
+      note: "The recollection of the Sangha identifies the noble disciples through the four pairs or eight individual types. This supports distinguishing the refuge formula from the broader modern use of Sangha for a practice group."
+    },
     {
       label: "Dhammapada, Buddhavagga (Dhp 190-192)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.14.budd.html",
@@ -897,6 +927,7 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "who-was-the-buddha",
+    modifiedDate: "2026-10-30",
     title: "Who Was the Buddha?",
     seoTitle: "Who Was the Buddha? A Simple Beginner-Friendly Explanation",
     description:
@@ -908,8 +939,15 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "A Human Teacher, Not a Creator God",
         paragraphs: [
-          "The historical Buddha is commonly known as Siddhartha Gautama. Buddhist traditions remember him as a prince who left a life of comfort after seeing sickness, aging, death, and the possibility of spiritual freedom. His search was not a rejection of life, but a sincere attempt to understand why human beings suffer and how the mind can become free from confusion.",
+          "The Buddha is commonly known as Siddhartha Gautama, or Gotama in Pāli. In the early discourse MN 26, he describes recognizing that he too was subject to aging, illness, and death, leaving household life, and seeking freedom from those conditions. The account follows his training with teachers and his eventual decision to teach others.",
           "The word Buddha means awakened one. In this sense, the Buddha is honored as a teacher who saw clearly into experience and shared a path others could test for themselves. Echo Buddha explains this respectfully in simple language, without asking readers to accept anything blindly."
+        ]
+      },
+      {
+        heading: "A Life Story and Its Sources",
+        paragraphs: [
+          "A familiar account presents a sheltered prince encountering an old person, a sick person, a corpse, and a renunciant. It gives a memorable shape to the question of suffering. This page uses MN 26 for the search narrative rather than treating that familiar sequence as an event-by-event historical record established by the cited discourse.",
+          "Early discourses are also religious texts preserved within Buddhist communities. They help us understand how those communities remember the Buddha and his teaching; they do not independently verify every detail of his life. To explore a particular story, ask which text tells it, which translation you are reading, and whether the explanation is scripture, commentary, or modern interpretation."
         ]
       },
       {
@@ -935,7 +973,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ],
     sourceNote:
-      "Source note: This page is an original Echo Buddha educational overview of the historical Buddha as presented across Buddhist traditions. Readers seeking formal study should compare reputable biographies, translations, teachers, and practice communities.",
+      "Source note: MN 26 supports the early-discourse search narrative; SN 56.11 supplies the traditional first-teaching context. London Buddhist Vihara illustrates the familiar four-sights retelling. These sources are not presented as independent modern historical verification of every biographical episode. The morning example and reflection prompt are original Echo Buddha applications, not instructions quoted from those texts.",
     terms: ["Buddha", "Dhamma", "Sangha"]
   },
   {
@@ -1000,6 +1038,7 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "the-three-jewels-explained",
+    modifiedDate: "2026-10-30",
     title: "The Three Jewels Explained",
     description:
       "Understand the Buddha, Dhamma, and Sangha in simple language and learn how the Three Jewels support daily practice.",
@@ -1010,14 +1049,14 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "Buddha, Dhamma, and Sangha",
         paragraphs: [
-          "The Buddha represents awakening and the possibility of seeing clearly. The Dhamma is the teaching and truth discovered through practice. The Sangha is the community of those who practice, from monastic communities to sincere companions on the path.",
+          "The Buddha is the awakened teacher; the Dhamma is the teaching and liberating truth. In the traditional refuge recollection, the Saṅgha is the community of noble disciples, described as four pairs or eight individual types. Ordained communities preserve the training, while broader practice groups can support learning. These related meanings should be distinguished.",
           "Taking refuge in the Three Jewels does not need to sound mysterious. It means turning toward wisdom instead of confusion, toward teaching instead of harmful habit, and toward supportive community instead of isolation."
         ]
       },
       {
         heading: "Daily Meaning",
         paragraphs: [
-          "In daily life, the Buddha can remind us that human beings can wake up from harmful patterns. The Dhamma can guide a difficult choice. The Sangha can be a friend, teacher, or community that helps us remember what matters when the mind forgets.",
+          "In daily life, recollecting the Buddha can orient us toward awakening, and the Dhamma can guide a difficult choice. A wise friend, teacher, or practice group may help us learn about and follow that path; one helpful person is not the same as the refuge Saṅgha. The <a href='/learn/buddhist-dictionary/sangha/'>Sangha definition</a> explains these uses, and <a href='/learn/buddhist-handbook/sangha-as-refuge/'>The Saṅgha as Refuge</a> examines the noble-disciple formula.",
           "For beginners, the Three Jewels offer a simple map: learn from awakening, study the teaching, and practice with support."
         ]
       },
@@ -1036,7 +1075,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "How to Practice at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/" }
     ],
     sourceNote:
-      "Source note: The Three Jewels are widely taught as Buddha, Dhamma, and Sangha. Echo Buddha presents this beginner explanation in original language for general education and daily reflection.",
+      "Source note: AN 11.12 supplies the recollection formulas, including the noble Saṅgha distinction; Dhammapada 190–192 connects refuge with understanding the Four Noble Truths. The friend, anger, and daily-practice examples are original Echo Buddha applications, not canonical descriptions of every community member.",
     terms: ["Buddha", "Dhamma", "Sangha"]
   },
   {
@@ -1114,7 +1153,7 @@ export const buddhism101Pages: LearningPage[] = [
         ]
       }
     ],
-    takeaway: "The Noble Eightfold Path turns Buddhist wisdom into daily practice through seeing, intention, speech, action, effort, mindfulness, and concentration.",
+    takeaway: "The Noble Eightfold Path brings together view, intention, speech, action, livelihood, effort, mindfulness, and concentration.",
     practice: "Choose one path factor for today. Keep it visible and practice it in one specific situation.",
     relatedLinks: [
       { label: "Complete Eightfold Path Guide", href: "/learn/eightfold-path/" },
@@ -1130,6 +1169,7 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "five-precepts-buddhism",
+    modifiedDate: "2026-10-30",
     title: "The Five Precepts in Buddhism",
     seoTitle: "The Five Precepts in Buddhism: A Beginner's Guide to Ethical Living",
     description:
@@ -1184,7 +1224,7 @@ export const buddhism101Pages: LearningPage[] = [
         heading: "The Fifth Precept: Carefulness With Intoxicants",
         paragraphs: [
           "The fifth precept trains us to avoid intoxicants that lead to heedlessness. The heart of this precept is care. When the mind becomes careless, the other precepts become easier to break. Speech becomes loose, desire becomes reckless, anger becomes less restrained, and attention becomes clouded.",
-          "For some people, this precept may mean complete abstinence. For others who are still learning, it may begin as honest reflection: does this habit make me less aware, less truthful, less safe, or less kind? The point is not moral display. The point is protecting the clarity that Buddhist practice needs."
+          "The traditional undertaking is to refrain from intoxicants that lead to heedlessness, rather than simply to use less. Someone working toward that commitment may need medical guidance, recovery support, or help changing social habits. That support can accompany the training without changing its stated meaning. Do not stop or alter prescribed medication on the basis of this page; discuss medical questions with a qualified clinician."
         ]
       },
       {
@@ -1388,6 +1428,7 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "dependent-origination-explained",
+    modifiedDate: "2026-10-30",
     title: "Dependent Origination Explained",
     seoTitle: "Dependent Origination in Buddhism Explained for Beginners",
     description:
@@ -1413,14 +1454,14 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "The Chain From Feeling to Suffering",
         paragraphs: [
-          "One practical way to understand dependent origination is through a familiar chain: contact, feeling, craving, clinging, and suffering. Something happens. A pleasant, unpleasant, or neutral feeling appears. The mind wants more, wants less, or stops paying attention. Craving becomes clinging. Clinging becomes stress.",
+          "A daily-life illustration can focus on contact, feeling tone, craving, and clinging. Something is seen or heard; it is experienced as pleasant, unpleasant, or neutral; and craving or resistance may follow. This is a limited illustration, not the complete twelve-link account in SN 12.2, which also treats ignorance, becoming, birth, and aging-and-death. Feeling does not mean every bodily sensation or emotion, and a feeling need not be followed by the same habitual response.",
           "For example, a notification appears. The feeling is unpleasant because the message sounds critical. Craving appears as the wish to defend yourself immediately. Clinging appears as the thought, I must prove I am right. Suffering appears as tension, angry words, and a mind that keeps replaying the exchange."
         ]
       },
       {
         heading: "A Daily Example: Irritation Becoming Suffering",
         paragraphs: [
-          "Imagine you are cooking and someone points out a small mistake. Contact happens through hearing the words. Feeling appears as heat in the chest. Perception labels the comment as disrespect. Mental formations prepare a sharp reply. Consciousness knows the whole event.",
+          "Imagine you are cooking and someone points out a small mistake. Through hearing, there is contact with the words and an unpleasant feeling tone. Heat in the chest may accompany the reaction, but it is not itself the meaning of feeling tone here. The mind may interpret the comment as disrespect and prepare a sharp reply.",
           "If mindfulness is absent, irritation may become a familiar sentence. If mindfulness is present, the chain can be interrupted. You may feel the heat, breathe, and ask, Is this comment harmful, helpful, clumsy, or simply inconvenient? The response may still be honest, but it does not need to be ruled by the first spark."
         ]
       },
@@ -1474,7 +1515,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Overthinking Article", href: "/articles/buddhist-wisdom-for-overthinking/" }
     ],
     sourceNote:
-      "Source note: Dependent origination is a foundational Buddhist teaching on conditional arising. This page offers an original beginner summary and encourages deeper study with reputable translations and teachers.",
+      "Source note: SN 12.2 provides the twelve-link analysis and distinguishes feeling, craving, and clinging. The cooking, notification, and habit examples isolate parts of that process for modern reflection; they are not a translation or a complete account of dependent origination across Buddhist traditions.",
     terms: ["Karma", "Dukkha", "Mindfulness"]
   },
   {
@@ -2373,6 +2414,7 @@ export const dictionaryPages: LearningPage[] = [
   {
     section: "buddhist-dictionary",
     slug: "dhamma",
+    modifiedDate: "2026-10-30",
     title: "Dhamma",
     seoTitle: "Dhamma Meaning: Buddhist Teaching and Truth",
     description:
@@ -2392,14 +2434,14 @@ export const dictionaryPages: LearningPage[] = [
         heading: "Dhamma vs Dharma",
         paragraphs: [
           "Dhamma is the Pali form. Dharma is the Sanskrit form. English readers may see both spellings depending on the Buddhist tradition, translation, or teacher being referenced.",
-          "On Echo Buddha, Dhamma is used mainly for early Buddhist and Pali-context explanations. Dharma may appear when a page is speaking more broadly across Buddhist traditions. The spelling should not become a separate competing topic unless the page has a clear tradition or language role."
+          "On Echo Buddha, Dhamma is used mainly for early Buddhist and Pali-context explanations. Dharma appears naturally in Sanskrit and many Mahāyāna contexts. For the language distinction, read <a href='/articles/dhamma-vs-dharma/'>Dhamma vs Dharma</a>; this entry explains the term's uses in teaching and practice."
         ]
       },
       {
         heading: "Dhamma in the Three Jewels",
         paragraphs: [
           "Dhamma is one of the Three Jewels, together with Buddha and Sangha. In that context, Dhamma is not a motivational idea. It is the teaching and truth that practitioners take seriously enough to study, test, and live.",
-          "The Buddha points to awakening, the Dhamma points to the teaching and path, and the Sangha points to the community that preserves and practices the teaching. For the community side of this refuge, see <a href='/learn/buddhist-dictionary/sangha/'>Sangha</a> and <a href='/articles/what-is-sangha-buddhist-community/'>What Is Sangha?</a>."
+          "The Buddha is the awakened teacher, and the Dhamma is the teaching and liberating truth. The refuge recollection praises the noble Saṅgha; ordained communities and wider practice groups have related roles in preserving and learning the teaching. See <a href='/learn/buddhist-dictionary/sangha/'>Sangha</a> for those distinctions and <a href='/articles/what-is-sangha-buddhist-community/'>What Is Sangha?</a> for community guidance."
         ]
       },
       {
@@ -2434,35 +2476,37 @@ export const dictionaryPages: LearningPage[] = [
   {
     section: "buddhist-dictionary",
     slug: "sangha",
+    modifiedDate: "2026-10-30",
     title: "Sangha",
     seoTitle: "Sangha Meaning: Buddhist Community Explained Simply",
     description:
       "Learn the meaning of Sangha as Buddhist community and how wise support helps daily practice.",
     eyebrow: "Buddhist Dictionary",
     intro:
-      "Sangha means Buddhist community. This dictionary page gives the short definition and points to a deeper beginner guide.",
+      "Saṅgha means community or assembly, but its Buddhist meaning depends on context. The noble disciples of the refuge formula, an ordained community, and a modern practice group are related uses that should be distinguished.",
     sections: [
       {
         heading: "Simple Meaning",
         paragraphs: [
-          "The Sangha is one of the Three Jewels. In traditional Buddhism, the monastic Sangha preserves and practices the teachings. Many modern readers also use the word for sincere practice community.",
-          "Community matters because the mind forgets. Good companions help us return to patience, wisdom, and care."
+          "In the standard recollection of the Three Jewels, the Saṅgha of noble disciples is described as four pairs or eight individual types. AN 11.12 preserves this formula. In Theravāda explanation, the pairs concern the paths and fruits of awakening; the term does not simply certify every person who joins a Buddhist group.",
+          "The monastic Saṅgha is the ordained community of monks or nuns, with communal training and responsibilities. Many contemporary groups also use sangha more broadly for lay practitioners who learn and practice together. That broader use can be helpful when its meaning is clear."
         ]
       },
       {
         heading: "Meaning in Daily Life",
         paragraphs: [
-          "A Sangha may be a temple, meditation group, teacher, study circle, or a few friends committed to honest practice. It should encourage humility, ethics, and compassion rather than pressure or dependency."
+          "When a local center invites you to join its sangha, it will usually mean its practice community, rather than a claim that every member has attained awakening. Ask what the group offers: instruction, shared practice, ethical commitments, or opportunities to ask questions. A teacher or a building alone is not the same as the community.",
+          "Good companions can support patience, wisdom, and care. A group's Buddhist name does not remove the need for clear boundaries and accountability. Look for respectful treatment, room for questions, and freedom to leave without pressure. These are practical considerations for choosing support, not tests of anyone's spiritual attainment."
         ]
       },
       {
         heading: "Related Teaching",
         paragraphs: [
-          "Sangha supports the Buddha's example and the Dhamma's teaching. Together, the Three Jewels offer refuge. For a fuller explanation of monastic Sangha, broader community use, online practice, and temple visits, read <a href='/articles/what-is-sangha-buddhist-community/'>What Is Sangha? Why Buddhist Community Matters</a>."
+          "For the religious meaning of refuge and the noble-disciple formula, read <a href='/learn/buddhist-handbook/sangha-as-refuge/'>The Saṅgha as Refuge</a>. For choosing community support, online practice, and temple visits, read <a href='/articles/what-is-sangha-buddhist-community/'>What Is Sangha? Why Buddhist Community Matters</a>. The distinction helps you choose the explanation that fits your question."
         ]
       }
     ],
-    takeaway: "Sangha is the community of practice that supports learning, ethical living, and steady return.",
+    takeaway: "Distinguish the noble Saṅgha of refuge, the ordained community, and the broader practice community; context tells you which meaning is intended.",
     practice: "Reach toward one wholesome support: a reliable teaching, teacher, group, or practice friend.",
     relatedLinks: [
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
@@ -2471,7 +2515,7 @@ export const dictionaryPages: LearningPage[] = [
       { label: "Buddhist Resources", href: "/learn/buddhist-resources/" },
       { label: "Questions About Buddhism", href: "/learn/questions-about-buddhism/" }
     ],
-    sourceNote: commonSourceNote,
+    sourceNote: "Source note: AN 11.12 directly supports the noble-disciple recollection formula. SN 45.2 supports the importance of admirable friendship, rather than equating every practice group with the refuge Saṅgha. The suggestions for assessing a local group are Echo Buddha editorial guidance.",
     terms: ["Dhamma", "Buddha", "Refuge"]
   },
   {
@@ -3070,7 +3114,7 @@ export const suttaPages: LearningPage[] = [
       { label: "Buddhist Wisdom Articles", href: "/articles/category/buddhist-wisdom/" }
     ],
     sourceNote:
-      "This is an original practical explanation of a traditional sutta theme. Readers may compare reputable public-domain translations for formal study.",
+      "This is an original practical explanation of a traditional sutta theme. Readers may compare reputable translations for formal study, checking the named translator, edition, and any reuse terms.",
     terms: ["Dhamma", "Wisdom", "Karma"]
   },
   {
@@ -3600,7 +3644,7 @@ export const questionsAboutBuddhism = [
   {
     question: "What does it mean to take refuge?",
     answer:
-      "Taking refuge means turning toward the Buddha, Dhamma, and Sangha for guidance. The Buddha represents awakening and the possibility of clear seeing. The Dhamma is the teaching and practice. The Sangha is the community of those who preserve, practice, and support the path. Refuge is not hiding from life; it is choosing reliable guidance when the mind is pulled by fear, pride, anger, or confusion. In daily life, refuge may look like pausing before harmful speech, reading a teaching, meditating, or asking wise companions for support.",
+      "Taking refuge means turning toward the Buddha, Dhamma, and Saṅgha for guidance. The Buddha is the awakened teacher; the Dhamma is the teaching and liberating truth. The traditional recollection praises the noble Saṅgha, while ordained communities and wider practice groups support learning in related but distinct ways. The linked Sangha definition explains those meanings. Refuge is expressed through ethical conduct, study, practice, and recollection; seeking help from a wise companion can support that direction without making one person the refuge Saṅgha.",
     links: [
       { label: "Three Jewels", href: "/learn/buddhism-101/the-three-jewels-explained/" },
       { label: "Sangha", href: "/learn/buddhist-dictionary/sangha/" },
@@ -3610,11 +3654,12 @@ export const questionsAboutBuddhism = [
   {
     question: "Can anyone practice Buddhist mindfulness?",
     answer:
-      "Anyone can explore mindfulness respectfully, especially simple awareness of breathing, body, speech, and intention. Formal Buddhist practice may include particular traditions, teachers, ethics, chanting, and study, so it is good to approach the roots of mindfulness with humility. Basic mindful awareness can still be practiced in ordinary life: noticing the body before replying, feeling the breath while waiting, or listening without preparing an argument. In Buddhism, mindfulness is connected with wisdom and ethical care, not only stress reduction.",
+      "You can learn about Buddhist mindfulness without first making a formal religious commitment. Whether a particular exercise is suitable depends on the person and circumstances. Start gently if you choose to practice; use an external sound or object when inward attention is uncomfortable, and shorten or stop an exercise that increases distress. Formal Buddhist practice includes traditions, teachers, ethics, and study, so approach its roots with humility. In Buddhism, mindfulness is connected with wisdom and ethical care, not only stress reduction. The meditation safety guidance explains further limits and support options.",
     links: [
       { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
       { label: "Mindfulness in Daily Life", href: "/meditation/mindfulness-in-daily-life/" },
-      { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" }
+      { label: "Mindfulness", href: "/learn/buddhist-dictionary/mindfulness/" },
+      { label: "Meditation Safety", href: "/meditation-safety/" }
     ]
   },
   {
@@ -3727,9 +3772,9 @@ export const learningSections: LearningSection[] = [
     slug: "dhammapada-reflections",
     title: "Dhammapada Reflections",
     shortTitle: "Dhammapada",
-    description: "Original reflections on public-domain-safe Dhammapada themes for daily life.",
+    description: "Original Dhammapada-inspired explanations, practical reflections, and links to named source texts.",
     intro:
-      "Read gentle, original explanations of Dhammapada themes without relying on copyrighted translation text.",
+      "Explore Dhammapada themes through original paraphrase and modern fictional illustrations, with links for reading the source texts.",
     href: "/learn/dhammapada-reflections/",
     eyebrow: "Reflections",
     items: dhammapadaPages

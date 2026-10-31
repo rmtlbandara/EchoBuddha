@@ -61,8 +61,10 @@ test("new guide dates and semantic tables match visible, non-fabricated editoria
     assert.match(html, /<caption\b/, route);
     assert.match(html, /scope="col"/, route);
     assert.match(html, /scope="row"/, route);
-    assert.match(html, /datetime="2026-10-23"/, route);
-    assert.match(html, /"dateModified":"2026-10-23"/, route);
+    // The October 30 source correction materially revised this existing guide.
+    const expectedDate = route === "learn/buddhism-101/five-precepts-buddhism" ? "2026-10-30" : "2026-10-23";
+    assert.ok(html.includes(`datetime="${expectedDate}"`), `${route}: visible approved update date`);
+    assert.ok(html.includes(`"dateModified":"${expectedDate}"`), `${route}: schema approved update date`);
     assert.ok(!html.includes('"@type":"FAQPage"'), route);
   }
 });
