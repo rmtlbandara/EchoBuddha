@@ -164,6 +164,7 @@ for row in inventory:
         live = live_by_path[artifact_path]
         row["httpStatusEvidence"] = f'Verified deployed HTTP{live["status"]} at{live["route"]}; byte parity {live["pass"]}; observation{parity["summary"]["observedAt"]}. Error-document target is a real unknown route when applicable.'
         row["validationEvidence"] += " Final release evidence:11_DEPLOYMENT_VERIFICATION.md and RELEASE_VERIFICATION.json."
+        row["finalAction"] = row["finalAction"].replace("candidate editorial improvement implemented; final release verification is separate", "editorial improvement implemented and verified live against the immutable manifest; deployment identifiers are in report11")
 
 csv_write(REPORT / "02_COMPLETE_CONTENT_INVENTORY.csv", inventory)
 csv_write(REPORT / "03_CONTENT_QUALITY_AUDIT.csv", findings)
@@ -177,7 +178,7 @@ manifest = {"assembledDate": "2026-10-31", "observationDate": "2026-10-30", "gen
     "limits": ["All routes have actual model editorial/source-record coverage, not just automated extraction.",
         "Not every doctrinal claim in every edition was independently retrieved; research agent records high-risk source checks and precise limitations.",
         "No independent human, scholarly, clinical or legal certification; no worldwide plagiarism or historical media-rights certification.",
-        "No production deployment claim in this inventory; exact release and HTTP parity are separate reports 10 and 11.",
+        "HTTP evidence is joined from actual immutable-manifest/live parity where available; exact deployment identifiers and scope are in reports10/11 and RELEASE_VERIFICATION.json.",
         "Initial lower rubric values remain where a problem was found; final action records implemented fixes rather than retroactively erasing the baseline score.",
         "Redirect aliases are separate from the 351 HTML pages; see REDIRECT_INVENTORY.csv."],
     "outputs": {name: hashlib.sha256((REPORT/name).read_bytes()).hexdigest() for name in ["02_COMPLETE_CONTENT_INVENTORY.csv", "03_CONTENT_QUALITY_AUDIT.csv"]}}

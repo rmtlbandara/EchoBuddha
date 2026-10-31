@@ -633,7 +633,33 @@
         "/quotes/wisdom/wise-silence/",
         "/tools/"
       ],
-      "plannedReleaseDate": "2026-10-31"
+      "plannedReleaseDate": "2026-10-31",
+      "productionSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+      "productionDeployedAt": "2026-10-31T01:37:00.732566Z",
+      "productionReleases": [
+        {
+          "sha": "c3133c88696639a6e8366365e0944f90fe15619a",
+          "deployedAt": "2026-10-31T01:37:00.732566Z",
+          "deploymentId": "cb85ab5d-792f-4f5a-9c9b-baf501c8d204",
+          "versionId": "8d61972c-8bb1-480a-8518-1558bf04724b",
+          "workflowRunId": 41156084468,
+          "verification": "Exact-current-main hosted checks and deployment passed; immutable 812-file artifact verified; 351 HTML and 352 redirects match live delivery; independent smoke 15/15; IndexNow HTTP 200 accepted 82 canonical notifications, not indexing."
+        }
+      ],
+      "revisedObservationDates": {
+        "timeZone": "America/Los_Angeles",
+        "excludedDeploymentDay": "2026-10-30",
+        "start": "2026-10-31",
+        "end": "2026-11-27",
+        "earliestFinalizedReview": "2026-11-30",
+        "state": "FUTURE_DATA_REQUIRED",
+        "condition": "Requires stable substantive content and actually finalized data. Earlier windows remain intervened/descriptive. November publishing can intervene again; no causal ranking claim or consolidation authorization."
+      },
+      "latestVerifiedProduction": {
+        "sha": "c3133c88696639a6e8366365e0944f90fe15619a",
+        "deployedAt": "2026-10-31T01:37:00.732566Z",
+        "evidence": "docs/audits/adsense-final-content-recovery-2026-10-30/RELEASE_VERIFICATION.json"
+      }
     }
   ]
 }

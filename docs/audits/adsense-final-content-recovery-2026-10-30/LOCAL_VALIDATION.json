@@ -143,7 +143,7 @@
     "maximumCls": 0.001734273664773513,
     "scope": "Local laboratory, not field evidence or live production measurements. Tools repeated after actual target-size fix;18 other cases unchanged."
   },
-  "production": "NOT_DEPLOYED",
+  "production": "Verified separately in RELEASE_VERIFICATION.json; local measurements retain their original scope",
   "fullMatrixRouteHashDeltaAfterToolsFix": [
     "tools/index.html"
   ],

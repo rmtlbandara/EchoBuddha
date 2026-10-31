@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_REVIEW_HOLD",
+  "verifiedAt": "2026-10-31T01:44:04.632943+00:00",
+  "productionUrl": "https://echobuddha.com/",
+  "pullRequest": {
+    "headRefOid": "ed01c5fa8cdc0b69c28b41d071979d162d8d3ab7",
+    "mergeCommit": {
+      "oid": "c3133c88696639a6e8366365e0944f90fe15619a"
+    },
+    "mergedAt": "2026-10-31T01:32:10Z",
+    "number": 71,
+    "state": "MERGED",
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/71"
+  },
+  "servingSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+  "ci": {
+    "pullRequest": {
+      "conclusion": "success",
+      "databaseId": 41155562843,
+      "headSha": "ed01c5fa8cdc0b69c28b41d071979d162d8d3ab7",
+      "status": "completed",
+      "url": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/41155562843"
+    },
+    "mergedMain": {
+      "conclusion": "success",
+      "databaseId": 41155816574,
+      "headSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+      "status": "completed",
+      "url": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/41155816574"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "databaseId": 41156084468,
+      "headSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+      "status": "completed",
+      "url": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/41156084468"
+    }
+  },
+  "deployment": {
+    "schemaVersion": 1,
+    "capturedAt": "2026-10-31T01:37:04.201Z",
+    "gitSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+    "githubRunId": "41156084468",
+    "worker": "echobuddha",
+    "productionUrl": "https://echobuddha.com",
+    "deploymentId": "cb85ab5d-792f-4f5a-9c9b-baf501c8d204",
+    "createdOn": "2026-10-31T01:37:00.732566Z",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "8d61972c-8bb1-480a-8518-1558bf04724b",
+        "percentage": 100
+      }
+    ]
+  },
+  "artifact": {
+    "fileCount": 812,
+    "aggregateSha256": "c10050546b5855b18e240d03ae53a3e8fb6db9f1986d2eed8af02e471b9bdecc",
+    "allFileDigestsVerified": true,
+    "verificationLocations": [
+      "Hosted deploy job",
+      "Independent local downloaded artifact"
+    ],
+    "githubArtifact": {
+      "digest": "sha256:4519562e14afc15f2af182f7a14567f54c37d9ec87094f09287ed4409a86480b",
+      "expired": false,
+      "id": 13024958920,
+      "name": "production-dist-c3133c88696639a6e8366365e0944f90fe15619a-41156084468",
+      "size_in_bytes": 36513088,
+      "workflow_run": {
+        "head_branch": "main",
+        "head_repository_id": 1276779740,
+        "head_sha": "c3133c88696639a6e8366365e0944f90fe15619a",
+        "id": 41156084468,
+        "repository_id": 1276779740
+      }
+    },
+    "liveParity": {
+      "observedAt": "2026-10-31T01:39:43.134Z",
+      "expectedSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+      "artifactFileCount": 812,
+      "aggregateSha256": "c10050546b5855b18e240d03ae53a3e8fb6db9f1986d2eed8af02e471b9bdecc",
+      "verifiedHtml": 351,
+      "htmlCount": 351,
+      "verifiedResources": 362,
+      "resourceCount": 362,
+      "redirectsPassed": 352,
+      "redirectCount": 352,
+      "liveRelease": {
+        "schemaVersion": 1,
+        "sha": "c3133c88696639a6e8366365e0944f90fe15619a",
+        "ref": "refs/heads/main",
+        "builtAt": "2026-10-31T01:35:57.055Z"
+      },
+      "failures": [],
+      "pass": true
+    }
+  },
+  "productionSmoke": {
+    "hosted": {
+      "passed": 15,
+      "total": 15,
+      "pass": true
+    },
+    "independent": {
+      "passed": 15,
+      "total": 15,
+      "pass": true
+    }
+  },
+  "productionCrawl": {
+    "generatedAt": "2026-10-31T01:38:29.350Z",
+    "origin": "https://echobuddha.com",
+    "sitemap": 165,
+    "sitemap200": 165,
+    "uniqueTitles": 165,
+    "uniqueDescriptions": 165,
+    "svgPreviews": 0,
+    "canonicalFailures": 0,
+    "h1Failures": 0,
+    "noindexInSitemap": 0,
+    "html": 350,
+    "pagesWithTables": 8,
+    "under500MainWords": 57,
+    "undatedLearningArticles": 35,
+    "resources": {
+      "/sitemap.xml": {
+        "status": 200,
+        "sha256": "bf9ff50e4da15535ddd770e3d02127f40baea7d83b4621598d7a70cb529861c8"
+      },
+      "/robots.txt": {
+        "status": 200,
+        "sha256": "392793712f2231d308ba20cd9c1efc59b45154799db549a5601ca5439617aa3b"
+      },
+      "/indexnow-manifest.json": {
+        "status": 200,
+        "sha256": "3ac0682d15f83bd7cfb0bc178deeaef7f7ac78be0430a8465e149067e9778c82"
+      },
+      "/search-index.json": {
+        "status": 200,
+        "sha256": "50047fa36ab7603f629595c46562b97d92fd4e9a24e19f0a74e115f82f466eea"
+      }
+    }
+  },
+  "productionBrowser": {
+    "accessibility": {
+      "routes": 18,
+      "counts": {
+        "critical": 0,
+        "serious": 0,
+        "moderate": 0,
+        "minor": 0,
+        "unknown": 0
+      },
+      "pass": true
+    },
+    "consent": {
+      "scenarios": 8,
+      "pass": true
+    },
+    "tools": {
+      "generatedAt": "2026-10-31T01:38:27.653Z",
+      "origin": "https://echobuddha.com",
+      "results": [
+        {
+          "engine": "chromium",
+          "browserVersion": "149.0.7827.55",
+          "status": "PASS",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "revisedRoutes": [
+            "/learn/buddhist-dictionary/karuna/",
+            "/learn/buddhist-dictionary/compassion/",
+            "/learn/buddhist-dictionary/sati/",
+            "/learn/buddhism-101/what-is-mindfulness/",
+            "/meditation/5-minute-meditation-practice/",
+            "/meditation/10-minute-meditation-practice/"
+          ],
+          "contentResults": [
+            {
+              "route": "/articles/category/buddhist-wisdom/",
+              "widths": [
+                320,
+                390,
+                640,
+                768,
+                1024,
+                1280,
+                1440
+              ],
+              "axeWidths": [
+                320,
+                1440
+              ],
+              "axeViolations": 0
+            },
+            {
+              "route": "/daily-reflections/",
+              "widths": [
+                320,
+                390,
+                640,
+                768,
+                1024,
+                1280,
+                1440
+              ],
+              "axeWidths": [
+                320,
+                1440
+              ],
+              "axeViolations": 0
+            }
+          ],
+          "textResize": "200% at 640 CSS px",
+          "axeViolations": 0,
+          "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+        },
+        {
+          "engine": "firefox",
+          "browserVersion": "151.0",
+          "status": "PASS",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "revisedRoutes": [
+            "/learn/buddhist-dictionary/karuna/",
+            "/learn/buddhist-dictionary/compassion/",
+            "/learn/buddhist-dictionary/sati/",
+            "/learn/buddhism-101/what-is-mindfulness/",
+            "/meditation/5-minute-meditation-practice/",
+            "/meditation/10-minute-meditation-practice/"
+          ],
+          "contentResults": [
+            {
+              "route": "/articles/category/buddhist-wisdom/",
+              "widths": [
+                320,
+                390,
+                640,
+                768,
+                1024,
+                1280,
+                1440
+              ],
+              "axeWidths": [
+                320,
+                1440
+              ],
+              "axeViolations": 0
+            },
+            {
+              "route": "/daily-reflections/",
+              "widths": [
+                320,
+                390,
+                640,
+                768,
+                1024,
+                1280,
+                1440
+              ],
+              "axeWidths": [
+                320,
+                1440
+              ],
+              "axeViolations": 0
+            }
+          ],
+          "textResize": "200% at 640 CSS px",
+          "axeViolations": 0,
+          "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+        },
+        {
+          "engine": "webkit",
+          "browserVersion": "26.5",
+          "status": "PASS",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "revisedRoutes": [
+            "/learn/buddhist-dictionary/karuna/",
+            "/learn/buddhist-dictionary/compassion/",
+            "/learn/buddhist-dictionary/sati/",
+            "/learn/buddhism-101/what-is-mindfulness/",
+            "/meditation/5-minute-meditation-practice/",
+            "/meditation/10-minute-meditation-practice/"
+          ],
+          "contentResults": [
+            {
+              "route": "/articles/category/buddhist-wisdom/",
+              "widths": [
+                320,
+                390,
+                640,
+                768,
+                1024,
+                1280,
+                1440
+              ],
+              "axeWidths": [
+                320,
+                1440
+              ],
+              "axeViolations": 0
+            },
+            {
+              "route": "/daily-reflections/",
+              "widths": [
+                320,
+                390,
+                640,
+                768,
+                1024,
+                1280,
+                1440
+              ],
+              "axeWidths": [
+                320,
+                1440
+              ],
+              "axeViolations": 0
+            }
+          ],
+          "textResize": "200% at 640 CSS px",
+          "axeViolations": 0,
+          "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+        }
+      ]
+    }
+  },
+  "indexNow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 82,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-10-31T01:37:08.259Z",
+    "indexingGuaranteed": false
+  },
+  "measurementWindow": {
+    "timeZone": "America/Los_Angeles",
+    "excludedDeploymentDay": "2026-10-30",
+    "start": "2026-10-31",
+    "end": "2026-11-27",
+    "earliestFinalizedReview": "2026-11-30",
+    "state": "FUTURE_DATA_REQUIRED",
+    "condition": "Requires stable substantive content and actually finalized data. Earlier windows remain intervened/descriptive. November publishing can intervene again; no causal ranking claim or consolidation authorization."
+  },
+  "previousVerifiedProduction": {
+    "sha": "1a5e000bcccdef67ce539c82707105d50bee74dd",
+    "deploymentId": "fc131bd2-ba45-4588-9547-93beae500472",
+    "versionId": "1060f158-17a9-4871-9521-b0bd94df783e",
+    "workflowRunId": 40844142224
+  },
+  "readiness": {
+    "recommendation": "HOLD",
+    "reason": "Authenticated October30 AdSense account still shows Low value content and ads.txt Not found although the public file is correct. A genuine crawler request trace is unavailable. Deployment does not prove Google acceptance.",
+    "reviewRequested": false,
+    "advertisingActivated": false,
+    "novemberBatchPublished": false
+  },
+  "limitations": [
+    "Search/account observations are dated October30, before the release; no post-release indexing or traffic outcome is claimed.",
+    "Small samples, consent and internal/audit traffic limit readership inference.",
+    "No independent human, scholarly, clinical or legal certification; legacy media entitlement and mailbox delivery are not fully verified.",
+    "Local Lighthouse is lab evidence; field Core Web Vitals remains unavailable.",
+    "Later documentation-only receipt commits can advance main without changing serving source or the material observation window."
+  ]
+}
