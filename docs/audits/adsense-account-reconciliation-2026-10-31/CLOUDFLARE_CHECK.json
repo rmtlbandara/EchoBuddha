@@ -1,0 +1,41 @@
+{
+  "observedDate": "2026-10-31",
+  "compiledAt": "2026-10-31T06:23:19.345658+00:00",
+  "method": "Read-only authenticated Cloudflare dashboard for echobuddha.com; source-controlled configuration and public responses checked separately.",
+  "plan": "Free",
+  "securityRules": {
+    "customRules": 0,
+    "customRuleCapacity": 5,
+    "rateLimitingRules": 0,
+    "rateLimitCapacity": 1,
+    "managedRulesSection": "No Managed rules created",
+    "responseRules": "Cloudflare default protection applied",
+    "boundary": "The Settings page separately shows the built-in Cloudflare managed ruleset and HTTP DDoS protection always active; zero user-created rules does not mean all Cloudflare protection is disabled."
+  },
+  "settings": {
+    "botFightMode": "OFF",
+    "aiLabyrinth": "OFF",
+    "browserIntegrityCheck": "ON",
+    "httpDdosProtection": "Always active",
+    "cloudflareManagedRuleset": "Always active",
+    "changed": false
+  },
+  "aiCrawlControl": {
+    "googlebotBlockSwitch": "OFF",
+    "scope": "Search Engine Crawler; this is not proof of Mediapartners-Google delivery. Existing AI training-crawler blocks were preserved."
+  },
+  "requestEvidence": {
+    "surface": "Security Analytics Traffic",
+    "range": "Last 24 hours",
+    "sampling": "Adaptive sampling of incoming HTTP/S; Workers subrequests excluded by the dashboard.",
+    "filter": "Verified Bot Category equals Advertising & Marketing",
+    "result": "No data; No records found",
+    "pathFilter": "Not offered in the inspected Field choices; no hidden API or expanded access used.",
+    "genuineAdSenseRequestTraceFound": false,
+    "interpretation": "This limited sampled category view does not prove no Google request occurred, successful crawler delivery, or a WAF block. No authenticated Mediapartners-Google or Google-Display-Ads-Bot request tied to /ads.txt with response status was established.",
+    "rawVisitorIpsPublished": false
+  },
+  "verifiedCrawlerAccessProven": false,
+  "securityWeakened": false,
+  "technicalDefectEstablished": false
+}

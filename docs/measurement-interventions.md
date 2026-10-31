@@ -32,3 +32,5 @@ the latest actual `productionDeployedAt` record when deriving the revised window
 Keep account credentials and raw queries outside Git; publish only useful
 aggregates. Owner/audit traffic, consent choices, low samples and different report
 grains limit interpretation of reader outcomes.
+
+The stable observation window governs search-outcome measurement and consolidation decisions; it is not an AdSense review-submission prerequisite. Assess submission readiness from current official policy, actual account prerequisites and the verified site. See the [October 31 account reconciliation](audits/adsense-account-reconciliation-2026-10-31/FINAL_REPORT.md).

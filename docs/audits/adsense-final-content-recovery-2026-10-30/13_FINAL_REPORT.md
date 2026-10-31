@@ -1,5 +1,7 @@
 # Final recovery report
 
+> **October 31 account-reconciliation correction:** The readiness hold below is a historical assessment, superseded by [READY_TO_REQUEST_ADSENSE_REVIEW](../adsense-account-reconciliation-2026-10-31/FINAL_REPORT.md). Official guidance does not make ads.txt recognition mandatory when ownership is verified through a supported alternative. The discrepancy's cause remains unknown; this correction does not submit a review, activate ads, or change the verified deployment evidence.
+
 **A. Final verdict — PASS_DEPLOYED_REVIEW_HOLD.** All material in-scope fixes are deployed and verified. Immediate AdSense review remains held because authenticated account evidence reports ads.txt Not found despite correct public delivery. No review request or ads were activated.
 
 **B. Executive summary.** The 351-page review is complete. The release replaces 110 generic quote applications, clarifies 43 imagined stories, improves 20 articles and 6 learning pages, and corrects supported accessibility, reading-path and audit-integrity defects. It preserves branding and existing URLs, topic owners, canonicals and index states.

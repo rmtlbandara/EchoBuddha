@@ -1,0 +1,340 @@
+{
+  "observedAt": "2026-10-31T06:19:57.724Z",
+  "method": "Ordinary unauthenticated GET with explicit audit User-Agent; no Google/crawler impersonation.",
+  "expectedFileSha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+  "adsTxtPass": true,
+  "release": {
+    "schemaVersion": 1,
+    "sha": "c3133c88696639a6e8366365e0944f90fe15619a",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-10-31T01:35:57.055Z"
+  },
+  "home": {
+    "status": 200,
+    "ownershipMeta": "<meta name=\"google-adsense-account\" content=\"ca-pub-3911157640549350\">",
+    "expectedPublisherPresent": true,
+    "adRuntimeAbsent": true
+  },
+  "genuineCrawlerAccessProven": false,
+  "adsTxt": [
+    {
+      "input": "http://echobuddha.com/ads.txt",
+      "hops": [
+        {
+          "url": "http://echobuddha.com/ads.txt",
+          "status": 301,
+          "headers": {
+            "location": "https://echobuddha.com/ads.txt",
+            "content-type": "text/html; charset=UTF-8",
+            "cf-ray": "a5308d0b2c565f90-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        },
+        {
+          "url": "https://echobuddha.com/ads.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/plain",
+            "content-encoding": "br",
+            "cache-control": "public, max-age=3600, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a5308d0cbc0bfe17-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        }
+      ],
+      "finalUrl": "https://echobuddha.com/ads.txt",
+      "finalStatus": 200,
+      "byteLength": 59,
+      "sha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+      "validUtf8": true,
+      "hasUtf8Bom": false,
+      "text": "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0\n",
+      "exactRepositoryBytes": true,
+      "asciiOnly": true,
+      "recordCount": 1,
+      "publisherId": "pub-3911157640549350",
+      "pass": true
+    },
+    {
+      "input": "https://echobuddha.com/ads.txt",
+      "hops": [
+        {
+          "url": "https://echobuddha.com/ads.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/plain",
+            "content-encoding": "br",
+            "cache-control": "public, max-age=3600, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a5308d0e3871fe17-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        }
+      ],
+      "finalUrl": "https://echobuddha.com/ads.txt",
+      "finalStatus": 200,
+      "byteLength": 59,
+      "sha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+      "validUtf8": true,
+      "hasUtf8Bom": false,
+      "text": "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0\n",
+      "exactRepositoryBytes": true,
+      "asciiOnly": true,
+      "recordCount": 1,
+      "publisherId": "pub-3911157640549350",
+      "pass": true
+    },
+    {
+      "input": "http://www.echobuddha.com/ads.txt",
+      "hops": [
+        {
+          "url": "http://www.echobuddha.com/ads.txt",
+          "status": 301,
+          "headers": {
+            "location": "https://echobuddha.com/ads.txt",
+            "content-type": "text/html; charset=UTF-8",
+            "cf-ray": "a5308d101b3b2c14-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        },
+        {
+          "url": "https://echobuddha.com/ads.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/plain",
+            "content-encoding": "br",
+            "cache-control": "public, max-age=3600, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a5308d107f2efe17-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        }
+      ],
+      "finalUrl": "https://echobuddha.com/ads.txt",
+      "finalStatus": 200,
+      "byteLength": 59,
+      "sha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+      "validUtf8": true,
+      "hasUtf8Bom": false,
+      "text": "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0\n",
+      "exactRepositoryBytes": true,
+      "asciiOnly": true,
+      "recordCount": 1,
+      "publisherId": "pub-3911157640549350",
+      "pass": true
+    },
+    {
+      "input": "https://www.echobuddha.com/ads.txt",
+      "hops": [
+        {
+          "url": "https://www.echobuddha.com/ads.txt",
+          "status": 301,
+          "headers": {
+            "location": "https://echobuddha.com/ads.txt",
+            "content-type": "text/html; charset=UTF-8",
+            "cf-ray": "a5308d1328044fc8-HKG",
+            "date": "Sat, 31 Oct 2026 06:19:57 GMT"
+          }
+        },
+        {
+          "url": "https://echobuddha.com/ads.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/plain",
+            "content-encoding": "br",
+            "cache-control": "public, max-age=3600, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a5308d13aee9fe17-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:57 GMT"
+          }
+        }
+      ],
+      "finalUrl": "https://echobuddha.com/ads.txt",
+      "finalStatus": 200,
+      "byteLength": 59,
+      "sha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+      "validUtf8": true,
+      "hasUtf8Bom": false,
+      "text": "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0\n",
+      "exactRepositoryBytes": true,
+      "asciiOnly": true,
+      "recordCount": 1,
+      "publisherId": "pub-3911157640549350",
+      "pass": true
+    }
+  ],
+  "robots": [
+    {
+      "input": "http://echobuddha.com/robots.txt",
+      "hops": [
+        {
+          "url": "http://echobuddha.com/robots.txt",
+          "status": 200,
+          "headers": {
+            "location": "https://echobuddha.com/robots.txt",
+            "content-type": "text/plain; charset=utf-8",
+            "content-encoding": "gzip",
+            "cf-ray": "a5308d0dce575f90-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        }
+      ],
+      "finalUrl": "http://echobuddha.com/robots.txt",
+      "finalStatus": 200,
+      "byteLength": 2676,
+      "sha256": "3073d1e371afb3271c7666148766fedc5145f7d8440f7114062db79b7bd58add",
+      "validUtf8": true
+    },
+    {
+      "input": "https://echobuddha.com/robots.txt",
+      "hops": [
+        {
+          "url": "https://echobuddha.com/robots.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/plain; charset=utf-8",
+            "content-encoding": "br",
+            "cache-control": "public, max-age=3600, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a5308d0eea68fe17-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:56 GMT"
+          }
+        }
+      ],
+      "finalUrl": "https://echobuddha.com/robots.txt",
+      "finalStatus": 200,
+      "byteLength": 3379,
+      "sha256": "392793712f2231d308ba20cd9c1efc59b45154799db549a5601ca5439617aa3b",
+      "validUtf8": true
+    },
+    {
+      "input": "http://www.echobuddha.com/robots.txt",
+      "hops": [
+        {
+          "url": "http://www.echobuddha.com/robots.txt",
+          "status": 200,
+          "headers": {
+            "location": "https://echobuddha.com/robots.txt",
+            "content-type": "text/plain; charset=utf-8",
+            "content-encoding": "gzip",
+            "cf-ray": "a5308d114e6d2c14-SIN",
+            "date": "Sat, 31 Oct 2026 06:19:57 GMT"
+          }
+        }
+      ],
+      "finalUrl": "http://www.echobuddha.com/robots.txt",
+      "finalStatus": 200,
+      "byteLength": 2676,
+      "sha256": "3073d1e371afb3271c7666148766fedc5145f7d8440f7114062db79b7bd58add",
+      "validUtf8": true
+    },
+    {
+      "input": "https://www.echobuddha.com/robots.txt",
+      "hops": [
+        {
+          "url": "https://www.echobuddha.com/robots.txt",
+          "status": 200,
+          "headers": {
+            "location": "https://echobuddha.com/robots.txt",
+            "content-type": "text/plain; charset=utf-8",
+            "content-encoding": "br",
+            "cf-ray": "a5308d145ba84fc8-HKG",
+            "date": "Sat, 31 Oct 2026 06:19:57 GMT"
+          }
+        }
+      ],
+      "finalUrl": "https://www.echobuddha.com/robots.txt",
+      "finalStatus": 200,
+      "byteLength": 2676,
+      "sha256": "3073d1e371afb3271c7666148766fedc5145f7d8440f7114062db79b7bd58add",
+      "validUtf8": true
+    }
+  ],
+  "robotsAssessment": "All four responses allow general crawling. HTTPS apex includes source-controlled Mediapartners-Google Allow: /; the other variants contain Cloudflare-managed wildcard Allow: /. No returned group disallows Googlebot, Mediapartners-Google, or Google-Display-Ads-Bot. Managed AI restrictions differ from AdSense crawler controls.",
+  "smoke": {
+    "generatedAt": "2026-10-31T06:19:59.695Z",
+    "sha": "c3133c88696639a6e8366365e0944f90fe15619a",
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "pass": true,
+    "checks": [
+      {
+        "name": "release-identity",
+        "pass": true,
+        "evidence": "200; serving c3133c88696639a6e8366365e0944f90fe15619a"
+      },
+      {
+        "name": "homepage",
+        "pass": true,
+        "evidence": "200; H1 true"
+      },
+      {
+        "name": "consent",
+        "pass": true,
+        "evidence": "affirmative preference UI present"
+      },
+      {
+        "name": "adsense-runtime",
+        "pass": true,
+        "evidence": "0 homepage runtime scripts/slots"
+      },
+      {
+        "name": "verification-meta",
+        "pass": true,
+        "evidence": "publisher meta present"
+      },
+      {
+        "name": "security-headers",
+        "pass": true,
+        "evidence": "enforced CSP + 6 baseline headers"
+      },
+      {
+        "name": "robots",
+        "pass": true,
+        "evidence": "200; crawler policy present"
+      },
+      {
+        "name": "sitemap",
+        "pass": true,
+        "evidence": "200; 165/165 URLs; 17 approved additions present; 2 approved consolidations absent; 43 approved quote noindex decisions applied"
+      },
+      {
+        "name": "primary-owner",
+        "pass": true,
+        "evidence": "200; indexable self-canonical"
+      },
+      {
+        "name": "noindex-route",
+        "pass": true,
+        "evidence": "200; noindex follow"
+      },
+      {
+        "name": "search",
+        "pass": true,
+        "evidence": "200; 330/330 items; 17 approved additions present; 2 approved consolidations absent"
+      },
+      {
+        "name": "ads.txt",
+        "pass": true,
+        "evidence": "200; exact true"
+      },
+      {
+        "name": "404",
+        "pass": true,
+        "evidence": "404; rendered HTML error page with H1 and noindex, no canonical"
+      },
+      {
+        "name": "https-redirect",
+        "pass": true,
+        "evidence": "301; https://echobuddha.com/"
+      },
+      {
+        "name": "preview-noindex",
+        "pass": true,
+        "evidence": "200; noindex, nofollow"
+      }
+    ]
+  }
+}

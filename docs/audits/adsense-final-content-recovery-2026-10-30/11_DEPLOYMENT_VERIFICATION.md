@@ -1,5 +1,7 @@
 # Deployment verification
 
+> **October 31 account-reconciliation correction:** The readiness hold below is a historical assessment, superseded by [READY_TO_REQUEST_ADSENSE_REVIEW](../adsense-account-reconciliation-2026-10-31/FINAL_REPORT.md). Official guidance does not make ads.txt recognition mandatory when ownership is verified through a supported alternative. The discrepancy's cause remains unknown; this correction does not submit a review, activate ads, or change the verified deployment evidence.
+
 **PASS_DEPLOYED_REVIEW_HOLD.** The existing content remediation is deployed and independently verified. AdSense review remains held for the account evidence concern in 09.
 
 PR [#71](https://github.com/rmtlbandara/EchoBuddha/pull/71) final head `ed01c5fa8cdc0b69c28b41d071979d162d8d3ab7` passed both required checks in [run 41155562843](https://github.com/rmtlbandara/EchoBuddha/actions/runs/41155562843); it merged at 2026-10-31T01:32:10Z as `c3133c88696639a6e8366365e0944f90fe15619a`. Both checks then passed on that exact main SHA in [run 41155816574](https://github.com/rmtlbandara/EchoBuddha/actions/runs/41155816574). No administrator bypass or protection change was used.
