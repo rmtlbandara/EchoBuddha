@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "compiledAt": "2026-10-31T06:23:19.345658+00:00",
+  "recommendation": "READY_TO_REQUEST_ADSENSE_REVIEW",
+  "productionSha": "c3133c88696639a6e8366365e0944f90fe15619a",
+  "baselineDocumentationMain": "31422698d2737abdf41cfd2565a1a78cc94b0d35",
+  "priorAssessmentCorrected": "The earlier PASS_DEPLOYED_REVIEW_HOLD inference treated unrecognized optional ads.txt and a missing verified crawler trace as sufficient reasons to postpone review. Current official guidance and account evidence do not support that prerequisite.",
+  "adsTxtRecognitionRequiredForThisReview": false,
+  "reason": "Google documents ads.txt as optional and supports meta-tag ownership verification. Ownership is shown complete; current meta identity matches; account setup cards are complete apart from the old site rejection. Existing editorial/deployment evidence and current delivery/smoke checks show no known new material defect.",
+  "discrepancyClassification": "INSUFFICIENT_EVIDENCE_TO_ESTABLISH_CAUSE",
+  "pendingRefresh": "Plausible, not confirmed. The inspected UI does not expose an ads.txt last-crawl time or verified crawler response.",
+  "informationalWarning": "Not found remains an unresolved inventory-authorization/crawl-status warning; it is not the Unauthorized status and no submission prerequisite failure was established.",
+  "reviewControlEnabled": true,
+  "reviewSubmissionTested": false,
+  "reviewSubmitted": false,
+  "advertisingActivated": false,
+  "productionChanges": false,
+  "newArticlesPublished": false,
+  "measurementWindowRequiredBeforeReview": false,
+  "trafficOrWordCountThresholdRequired": false,
+  "approvalPredicted": false,
+  "evidence": [
+    "ACCOUNT_CHECK.json",
+    "DELIVERY_CHECK.json",
+    "CLOUDFLARE_CHECK.json",
+    "FINAL_REPORT.md",
+    "../adsense-final-content-recovery-2026-10-30/RELEASE_VERIFICATION.json"
+  ]
+}

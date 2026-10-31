@@ -140,3 +140,5 @@ After the external cutover, normal releases MUST use the governed workflow. See 
 4. Run `npm run validate:release` and `npm run audit:governance:changes`.
 5. Review generated route, sitemap, indexing, structured-data, accessibility, privacy, content, release, and rollback implications.
 6. Update documentation and approval registers when architecture, policy, consent, indexing, workflow, or release behavior materially changes.
+
+Current AdSense review-readiness decision: [October 31 account reconciliation](docs/audits/adsense-account-reconciliation-2026-10-31/FINAL_REPORT.md). This supersedes the earlier ads.txt-based hold without submitting a review or activating advertising.

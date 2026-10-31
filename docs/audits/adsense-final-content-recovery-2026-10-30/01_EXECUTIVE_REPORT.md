@@ -1,5 +1,7 @@
 # Echo Buddha content recovery
 
+> **October 31 account-reconciliation correction:** The readiness hold below is a historical assessment, superseded by [READY_TO_REQUEST_ADSENSE_REVIEW](../adsense-account-reconciliation-2026-10-31/FINAL_REPORT.md). Official guidance does not make ads.txt recognition mandatory when ownership is verified through a supported alternative. The discrepancy's cause remains unknown; this correction does not submit a review, activate ads, or change the verified deployment evidence.
+
 Audit started October 30, 2026; continued October 31, Asia/Colombo. Final status: **PASS_DEPLOYED_REVIEW_HOLD**. All implemented changes reached production and passed independent verification; immediate AdSense review remains held for the unresolved account recognition concern.
 
 The recovery improves existing material rather than publishing the November batch. The review covers all 351 generated HTML files: 165 intended indexable canonicals and 186 intentionally nonindexable files, including the error document. The separate live discovery crawl reached 350 public HTML routes; an unknown route independently returned a real 404. The 352 explicit redirect aliases are recorded separately.

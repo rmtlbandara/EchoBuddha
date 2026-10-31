@@ -1,5 +1,7 @@
 # AdSense policy and readiness assessment
 
+> **October 31 account-reconciliation correction:** The readiness hold below is a historical assessment, superseded by [READY_TO_REQUEST_ADSENSE_REVIEW](../adsense-account-reconciliation-2026-10-31/FINAL_REPORT.md). Official guidance does not make ads.txt recognition mandatory when ownership is verified through a supported alternative. The discrepancy's cause remains unknown; this correction does not submit a review, activate ads, or change the verified deployment evidence.
+
 Final recommendation: **HOLD** after successful production verification because the account recognition concern remains unresolved. No review request or advertising activation is authorized by this assessment.
 
 Official policy research is recorded in research/OFFICIAL_POLICY_RESEARCH.md. The applicable principles are original publisher value, helpful audience-focused content, ongoing curation, accurate attribution, usable navigation, and compliant privacy/advertising behavior. Google provides no approval-guaranteeing word count, visitor threshold, or internal rubric cutoff. A site-level Low value content rejection does not establish the defect on every page.

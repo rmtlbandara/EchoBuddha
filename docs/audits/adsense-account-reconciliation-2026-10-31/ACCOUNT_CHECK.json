@@ -1,0 +1,42 @@
+{
+  "observedDate": "2026-10-31",
+  "siteObservedAt": "2026-10-31T06:20:21.877Z",
+  "homeObservedAt": "2026-10-31T06:21:24.865Z",
+  "policyCenterObservedAt": "2026-10-31T06:22:00.201Z",
+  "compiledAt": "2026-10-31T06:23:19.345658+00:00",
+  "method": "Existing authenticated Chrome session, read-only rendered DOM through CUA. Only Echo Buddha findings retained; no private payment details, unrelated sites, credentials or screenshots published.",
+  "site": "echobuddha.com",
+  "approvalStatus": "Needs attention",
+  "policyReason": "Low value content",
+  "siteListLastUpdatedDisplayed": "Aug 21, 2026 8:05 PM | GMT+5:30",
+  "assessmentScope": "The displayed rejection predates the October31 release. No new review was requested; it is not evidence that Google assessed or rejected this release.",
+  "adsTxtStatus": "Not found",
+  "adsTxtLastCrawlTimestamp": "Not displayed in the inspected site detail; site-list last-updated time is not asserted to be the crawler timestamp.",
+  "ownership": {
+    "stepIcon": "check_circle_filled",
+    "stepLabel": "Verify site ownership",
+    "assessment": "Shown complete. Current production head contains the correct google-adsense-account meta tag, a supported alternative to ads.txt verification.",
+    "defaultDisplayedSnippetOption": "AdSense code snippet",
+    "methodLimitation": "The default radio selection is not asserted to prove the original successful verification method. No verification method or publisher identity was changed."
+  },
+  "reviewControl": {
+    "present": true,
+    "enabled": true,
+    "confirmationChecked": false,
+    "clicked": false,
+    "serverSideAcceptanceTested": false
+  },
+  "accountHome": {
+    "selectedSite": "echobuddha.com",
+    "payments": "Your profile is complete",
+    "ads": "Ads settings confirmed",
+    "sites": "You need to fix some things",
+    "genericBanner": "To start earning from AdSense, you need to add your payment info and connect your site",
+    "assessment": "Specific Payments and Ads cards have green completion icons. The generic banner alone is not proof of missing payment information. The Sites card points to the existing site rejection. No financial details or settings were opened or changed."
+  },
+  "policyCenter": "No current issues",
+  "policyCenterBoundary": "A separate Policy Center result does not cancel the old site-approval rejection.",
+  "reviewSubmitted": false,
+  "advertisingActivated": false,
+  "accountSettingsChanged": false
+}
