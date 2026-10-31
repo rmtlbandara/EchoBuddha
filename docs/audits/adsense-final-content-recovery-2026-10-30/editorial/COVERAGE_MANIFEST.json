@@ -43,12 +43,12 @@
     "All routes have actual model editorial/source-record coverage, not just automated extraction.",
     "Not every doctrinal claim in every edition was independently retrieved; research agent records high-risk source checks and precise limitations.",
     "No independent human, scholarly, clinical or legal certification; no worldwide plagiarism or historical media-rights certification.",
-    "No production deployment claim in this inventory; exact release and HTTP parity are separate reports 10 and 11.",
+    "HTTP evidence is joined from actual immutable-manifest/live parity where available; exact deployment identifiers and scope are in reports10/11 and RELEASE_VERIFICATION.json.",
     "Initial lower rubric values remain where a problem was found; final action records implemented fixes rather than retroactively erasing the baseline score.",
     "Redirect aliases are separate from the 351 HTML pages; see REDIRECT_INVENTORY.csv."
   ],
   "outputs": {
-    "02_COMPLETE_CONTENT_INVENTORY.csv": "94d572d5a8fccd3ebf3b58689729c6eb344b3266dee65b8de19c17e37375893e",
+    "02_COMPLETE_CONTENT_INVENTORY.csv": "06ead17a99c86e4fb13001bbefaa47e1441703a0798685232346953c58d89f83",
     "03_CONTENT_QUALITY_AUDIT.csv": "12a611396be95303faa31ac3a98ce8417685c6e4ca415d0c2b3bc9c7c38748ea"
   }
 }
