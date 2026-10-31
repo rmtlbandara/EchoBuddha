@@ -4,9 +4,10 @@ import { getDailyReflectionPath, type DailyReflection } from "../data/dailyRefle
 type Props = {
   reflection: DailyReflection;
   compact?: boolean;
+  relatedLinksLabel?: string;
 };
 
-const { reflection, compact = false } = Astro.props;
+const { reflection, compact = false, relatedLinksLabel } = Astro.props;
 const reflectionPath = getDailyReflectionPath(reflection);
 ---
 
@@ -28,7 +29,7 @@ const reflectionPath = getDailyReflectionPath(reflection);
       <p>{reflection.journalQuestion}</p>
     </div>
   )}
-  <nav class="reflection-links" aria-label={`Related links for ${reflection.title}`}>
+  <nav class="reflection-links" aria-label={relatedLinksLabel ?? `Related links for ${reflection.title}`}>
     {reflection.relatedLinks.map((link) => <a href={link.href}>{link.label}</a>)}
     <a href={reflectionPath}>Full reflection</a>
   </nav>

@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-10-30T14:29:09.063Z",
+  "property": "sc-domain:echobuddha.com",
+  "scope": "https://www.googleapis.com/auth/webmasters.readonly",
+  "dataState": "final",
+  "timezone": "America/Los_Angeles",
+  "finalizedEndDate": "2026-10-28",
+  "limitations": [
+    "Search Analytics returns top rows and does not guarantee every possible query row.",
+    "Privacy filtering can make query totals lower than property or page totals.",
+    "Performance is generally attributed to Google's selected canonical URL.",
+    "Property, page, and query totals must not be treated as interchangeable."
+  ],
+  "windows": {
+    "pre": {
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-27",
+      "complete": true,
+      "searchType": "web",
+      "available": true,
+      "request": {
+        "startDate": "2026-08-31",
+        "endDate": "2026-09-27",
+        "type": "web",
+        "dataState": "final"
+      },
+      "propertyTotals": [
+        {
+          "clicks": 43,
+          "impressions": 4445,
+          "ctr": 0.00967379077615298,
+          "position": 9.591451068616424
+        }
+      ]
+    },
+    "post": {
+      "startDate": "2026-09-29",
+      "endDate": "2026-10-26",
+      "complete": true,
+      "available": true,
+      "searchType": "web",
+      "request": {
+        "startDate": "2026-09-29",
+        "endDate": "2026-10-26",
+        "type": "web",
+        "dataState": "final"
+      },
+      "propertyTotals": [
+        {
+          "clicks": 66,
+          "impressions": 4077,
+          "ctr": 0.016188373804267846,
+          "position": 7.838361540348295
+        }
+      ]
+    },
+    "context90": {
+      "startDate": "2026-07-31",
+      "endDate": "2026-10-28",
+      "complete": true,
+      "searchType": "web",
+      "available": true,
+      "request": {
+        "startDate": "2026-07-31",
+        "endDate": "2026-10-28",
+        "type": "web",
+        "dataState": "final"
+      },
+      "propertyTotals": [
+        {
+          "clicks": 143,
+          "impressions": 11572,
+          "ctr": 0.012357414448669201,
+          "position": 10.791997926028344
+        }
+      ]
+    },
+    "history": {
+      "startDate": "2025-06-28",
+      "endDate": "2026-10-28",
+      "complete": true,
+      "searchType": "web",
+      "available": true,
+      "request": {
+        "startDate": "2025-06-28",
+        "endDate": "2026-10-28",
+        "type": "web",
+        "dataState": "final"
+      },
+      "propertyTotals": [
+        {
+          "clicks": 156,
+          "impressions": 12372,
+          "ctr": 0.012609117361784675,
+          "position": 13.306417717426447
+        }
+      ]
+    },
+    "revisedPost": {
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "plannedEndDate": "2026-11-24",
+      "excludedDeploymentDayPt": "2026-10-27",
+      "available": true,
+      "complete": false,
+      "searchType": "web",
+      "request": {
+        "startDate": "2026-10-28",
+        "endDate": "2026-10-28",
+        "type": "web",
+        "dataState": "final"
+      },
+      "propertyTotals": [
+        {
+          "clicks": 4,
+          "impressions": 180,
+          "ctr": 0.022222222222222223,
+          "position": 7.522222222222222
+        }
+      ]
+    }
+  },
+  "interpretation": "Historical pre/post periods include material interventions. Compare descriptively only; no causal release attribution or consolidation authority. Revised post period is incomplete."
+}

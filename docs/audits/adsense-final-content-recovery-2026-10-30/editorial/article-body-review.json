@@ -1,0 +1,762 @@
+[
+  {
+    "slug": "buddhism-for-beginners-simple-guide",
+    "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Distinct route-selector purpose; chooses broad overview/course/practice/dictionary/community by reader question. Public owner-guide phrasing is editorial jargon; content otherwise useful and bounded.",
+    "proposedAction": "retain; minor reader-language polish",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "buddhist-approach-to-anger",
+    "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 3,
+      "accuracy": 3,
+      "depthCompleteness": 2,
+      "editorialQuality": 2,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Useful signal/story/urge/aim framework and specific safe boundaries. Later First Thirty Seconds, Understand Without Excusing, Speech Practice, examples and exercise repeat earlier recognition/pausing/causes/boundaries guidance.",
+    "proposedAction": "trim duplicated explanatory tracks; preserve map, source scope and safety",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "buddhist-gratitude-practice",
+    "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 3,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 2,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Clear Khp5/AN4.28 contextual source boundary; gratitude does not erase pain, labor inequity or personal limits. Three-line exercise useful but extended ending repeats simplify/one-line/conditions/response points.",
+    "proposedAction": "trim repetitive closing paragraphs; retain useful examples and difficult-day opt-out",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "buddhist-teachings-on-forgiveness",
+    "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Separates release from reconciliation and accountability; explicit no pressure to forgive and no return to unsafe relationship. Specific self-forgiveness repair and stop-if-overwhelmed exercise satisfy distinct reader need.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "buddhist-teachings-on-impermanence",
+    "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Distinct source-reading purpose compares Dhammapada277\u2013279, SN22.59 and SN12.15 with translation cautions; avoids generic change advice. Explains five-question method as editorial, not canonical.",
+    "proposedAction": "retain; scholarly completeness not certified",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "buddhist-wisdom-for-overthinking",
+    "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "MN18/papa\u00f1ca connection carefully limited; modern replay/action distinction, grounding alternatives and qualified support are useful. Some later practice/FAQ reprises reinforce rather than create new claims.",
+    "proposedAction": "retain; avoid further expansion",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "compassion-as-a-daily-discipline",
+    "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 2,
+      "readerIntent": 3,
+      "accuracy": 3,
+      "depthCompleteness": 2,
+      "editorialQuality": 2,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Distinct conduct-under-pressure intent but multiple late examples/exercise/continue/small-practice blocks repeat speech, boundaries and repair from first half.",
+    "proposedAction": "trim repeated late explanatory track",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "compassion-in-buddhism-beginner-guide",
+    "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 3,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 2,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Useful karuna/pity/rescuing distinctions, safe difficult-person opt-out and daily applications. Later boundaries and discipline blocks partly repeat earlier common-misunderstandings and speech content.",
+    "proposedAction": "trim repeated tail; keep definition and specific beginner practice",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "compassion-with-boundaries",
+    "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Modern boundary language explicitly separated from canonical frameworks. Care/capacity/responsibility check adds decision aid with concrete sentence and safety priority.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "dhamma-vs-dharma",
+    "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Explains Pali/Sanskrit without perfect tradition split; broad multiple meanings defer to dictionary owner. Later Dhamma Is More Than A Word partly reprises One Word Can Do Several Jobs.",
+    "proposedAction": "retain; optional minor condensation",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "dhammapada-reflection-what-we-think",
+    "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Popular paraphrase is not falsely declared exact scripture; repeatable provenance check adds substantial value and no victim-blame scope is explicit. Final daily-choices section repeats intention/thought exercises.",
+    "proposedAction": "retain; condense optional duplicate closing practice",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "dhammapada-verse-1-meaning",
+    "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Reads verses1\u20132 as ethical pair, explains mano/dhamma translation range, names translators and avoids hybrid verse. Distinct translation-study role from popular wording reflection.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "eightfold-path-explained",
+    "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Factors treated as mutually supporting feedback system rather than another list. Single-conversation example illustrates cooperation and missing-support diagnosis.",
+    "proposedAction": "retain; replace public owner jargon if polishing",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "eightfold-path-explained-daily-life",
+    "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Three distinct worked message/work/home scenarios; explicit modern editorial application and four-question synthesis boundaries. No canonical case-ruling claim.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "equanimity-in-buddhism",
+    "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "AN8.6 worldly conditions anchored; praise can distort as much as blame. Practical review distinct from impermanence; last3 Quiet Strength paragraphs repeat steadiness/no-numbness points.",
+    "proposedAction": "retain; optional focused closing condensation",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "first-week-buddhist-practice",
+    "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Specific seven-day sequence is an original plan, not a program required by the Buddha or a lineage. Study, ethics, generosity and community keep it broader than relaxation; short practice has explicit adaptations.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "five-precepts-in-daily-life",
+    "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 2,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Detailed modern applications retain source and tradition boundaries. Fifth-precept wording about abstinence versus other support was referred for primary-source clarification; the prescribed-medication context must remain separate.",
+    "proposedAction": "clarify fifth-precept traditional abstention versus individualized medical/recovery support",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "four-noble-truths-explained",
+    "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "SN 56.11 anchors four distinct tasks. Wholesome wishes are distinguished from craving, a temporary pause is not final realization, and the reflection method is explicitly modern editorial guidance.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "four-noble-truths-explained-simply",
+    "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "A single dismissive-message scenario follows the four truths while respecting safety, unequal power and responsibility. It does not equate a pause with full cessation; the scenario differs from the broad hub and task article.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "how-to-meditate-for-anxiety",
+    "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 2,
+      "editorialQuality": 2,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Early grounding-first practice, flexible anchors and support for persistent distress are useful. Later examples, exercise and continuation repeat the same anchors, permission to stop and links.",
+    "proposedAction": "trim late duplicate practice track; preserve core five-minute exercise and all safety boundaries",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "how-to-meditate-for-beginners",
+    "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "A seven-day meditation habit plan differs from first-session instruction. Cue, fallback, predictable obstacle and review steps are specific; adaptation and stopping for persistent distress are explicit.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "impermanence-in-buddhism",
+    "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Corrects five misunderstandings: nihilism, absence of continuity, accepting harm, grief as failure and prohibition of joy. Conditional continuity and practical care are useful distinctions.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "impermanence-in-buddhism-letting-go",
+    "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "A valued plan ending is examined through loss, a permanence demand, conditions and remaining action. The modern three-line exercise is labeled and does not demand optimism.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "loving-kindness-meditation-beginners",
+    "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Phrase-selection guide distinguishes aspirations from guarantees and covers safety, ease, self-kindness, difficult recipients and honest revision. Purpose differs from the script, method and troubleshooting pages.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "loving-kindness-meditation-guide",
+    "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Focused troubleshooting covers false-feeling phrases, painful self-kindness, absent warmth, anger and grief, unsafe recipients and performance. No forced warmth or reconciliation is required.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "metta-meditation-script",
+    "url": "https://echobuddha.com/articles/metta-meditation-script/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Usable staged script includes pauses, supportive and neutral recipients, an optional difficult-person stage and safety boundaries. Calling the modern phrase set traditional needed precision; a universal phrase-effect claim also needed qualification.",
+    "proposedAction": "retain script; call phrase set commonly used modern practice wording; qualify universal phrase-effect claim",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "mindful-email-and-texting",
+    "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Specific channel, timing, privacy, forwarding and public-correction guidance applies SN 45.8 and MN 58 without inventing a canonical checklist. Silence differs from punishment; documentation and safety remain available.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "mindfulness-for-better-sleep",
+    "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 2,
+      "editorialQuality": 2,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "No sleep guarantee and healthcare boundaries are appropriate. A second transition and body scan repeat the first; late examples and exercise repeat the same wind-down again.",
+    "proposedAction": "trim duplicate secondary scan/ritual and late practice track",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "mindfulness-of-breathing-guide",
+    "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Anchor choice, optional counting, whole-cycle attention and a ten-breath exercise are specific. Alternative anchors and gentle adaptation are available; the modest insight discussion does not claim attainment.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "mindfulness-vs-meditation",
+    "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Distinguishes structured practice from a quality of awareness, recognizes multiple methods and retains ethical intention. Present-moment attention is not assumed inherently wholesome; the paired cue is usable.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "noble-eightfold-path-practical-guide",
+    "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Weekly review examines evidence, conditions, repair and a small experiment rather than a spiritual score. It supports the factors without becoming a third broad overview.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "non-attachment-in-relationships",
+    "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Craving and clinging are distinguished from modern relationship language. The care/control exercise preserves responsibility, boundaries and safety without diagnostic or reconciliation claims.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "right-livelihood-modern-life",
+    "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "A hidden product problem, role and influence constraints, and DN 31 reciprocal duties add reader value. The source is not stretched into a complete labor policy, and employment pressure is not treated as shameful.",
+    "proposedAction": "retain; no speculative employer decisions",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "right-speech-buddhism",
+    "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "SN 45.8 abstentions differ from MN 58 discernment and the editorial four-filter aid. Necessary unwelcome speech, silence versus avoidance, accountability and repair give substantial owner coverage.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "right-speech-examples",
+    "url": "https://echobuddha.com/articles/right-speech-examples/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 4,
+      "distinctiveness": 3
+    },
+    "finding": "Concrete work, family, gossip, criticism, apology and listening examples account for power, privacy and documentation. The modern scripts are contextual applications, and speech ethics does not require passivity.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "three-poisons-buddhism-explained",
+    "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "AN 3.69 roots and counter-roots are illustrated through an unanswered-message case. The recognition exercise neither promises an instant cure nor shames ordinary emotion; it serves a distinct broad teaching purpose.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "visiting-a-buddhist-temple-respectfully",
+    "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 4,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Detailed local etiquette covers access, photography, offerings, ritual participation, monastic interaction and discernment. The old source-context description copied the related Sangha guide and needed correction.",
+    "proposedAction": "correct source-context description to templevisitorpurpose; retain institutionalscope",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "what-is-buddhism-beginner-guide",
+    "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 4,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "A category-mistake guide preserves religious, ritual, cultural and communal diversity. It corrects creator-god, meditation-only and non-attachment-as-indifference assumptions; its purpose differs from the broad hub and route selector.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "what-is-karma-in-buddhism",
+    "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Daily intention, habits, speech and repair applications explicitly avoid fate, instant justice and blaming poverty or hardship. AN 6.63 directly supports intentional action; the broader beginner owner remains linked.",
+    "proposedAction": "retain",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "slug": "what-is-sangha-buddhist-community",
+    "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+    "coverage": "actual generated body read in full by editorial_inventory model",
+    "scores": {
+      "originality": 3,
+      "informationGain": 4,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Traditional monastic and modern community meanings are distinguished. SN 45.2, community discernment, online limitations and a first visit are useful; a sourced noble-Sangha refuge distinction was recommended for completeness.",
+    "proposedAction": "retain; consider sourcednobleSanghaclarification",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  }
+]

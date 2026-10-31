@@ -1,0 +1,151 @@
+{
+  "status": "PASS_LOCAL_VALIDATION",
+  "node": "22.23.4",
+  "npm": "10.9.9",
+  "unitTests": {
+    "total": 98,
+    "passed": 98,
+    "failed": 0
+  },
+  "fullReleaseGate": "PASS",
+  "dependencies": {
+    "high": 0,
+    "critical": 0
+  },
+  "browserEngines": [
+    {
+      "engine": "chromium",
+      "version": "149.0.7827.55",
+      "changedRoutes": 236,
+      "fullMatrixRoutes": 235,
+      "followupRoutes": [
+        "/tools/"
+      ],
+      "reflowWidths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "toolsAdditionalBreakpoint": 412,
+      "axeWidths": [
+        320,
+        1440
+      ],
+      "status": "PASS",
+      "touchTargetContract": "Generated tool links at least24px wide/44px high at412px",
+      "consoleErrors": 0
+    },
+    {
+      "engine": "firefox",
+      "version": "151.0",
+      "changedRoutes": 236,
+      "fullMatrixRoutes": 235,
+      "followupRoutes": [
+        "/tools/"
+      ],
+      "reflowWidths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "toolsAdditionalBreakpoint": 412,
+      "axeWidths": [
+        320,
+        1440
+      ],
+      "status": "PASS",
+      "touchTargetContract": "Generated tool links at least24px wide/44px high at412px",
+      "consoleErrors": 0
+    },
+    {
+      "engine": "webkit",
+      "version": "26.5",
+      "changedRoutes": 236,
+      "fullMatrixRoutes": 235,
+      "followupRoutes": [
+        "/tools/"
+      ],
+      "reflowWidths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "toolsAdditionalBreakpoint": 412,
+      "axeWidths": [
+        320,
+        1440
+      ],
+      "status": "PASS",
+      "touchTargetContract": "Generated tool links at least24px wide/44px high at412px",
+      "consoleErrors": 0
+    }
+  ],
+  "generalAccessibility": {
+    "routes": 18,
+    "counts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0,
+      "unknown": 0
+    },
+    "pass": true
+  },
+  "consent": {
+    "scenarios": 8,
+    "pass": true
+  },
+  "generatedHtml": 351,
+  "sitemapCanonicals": 165,
+  "noindexIncludingError": 186,
+  "changedHtml": 236,
+  "changedIndexable": 82,
+  "materialUpdateDates": 136,
+  "applicationFiles": {
+    "src/components/ArticleCard.astro": "5d8590db72c6b714759fd426bc0596e68a8d0ae1f35d97245be1451c8ef022e7",
+    "src/components/DailyReflectionCard.astro": "7cf27beacf73ed32b6884b264f473a8fd6491e51c24ca72c80d25ff4d76bd610",
+    "src/data/learn.ts": "538fece184a66ce332bc8998ea4e1542b796d71c93832c84ec19e97a88bdff4b",
+    "src/data/quoteApplications.ts": "f6efdbdb038dc635529f5322fc1a12f03b26c91b16e7630e50d3a0ac5d56b596",
+    "src/data/site.ts": "949c8836ff3c0105b5d7dd05c76e0116c2337c69222ce0d0bea772a60d389024",
+    "src/pages/articles/[slug].astro": "37819bdc2c814b8e67e390f98b7356c71f1c9334d6d0d07e3bf253705e26cb09",
+    "src/pages/articles/category/[category].astro": "024b2d9d0f00c31c62cbd503ad4932e099de2e4c54e2dc9d0829588bb18ecf05",
+    "src/pages/daily-reflections/index.astro": "83a4593b8a2fb56154b9845dd1923b16fd74c917a36bc948273ae1426d7a2249",
+    "src/pages/index.astro": "376374e71c956487dd69f3dedfc6c966a988fd25236fae00198880f85f830582",
+    "src/pages/learn/[section]/index.astro": "1be51d056afdab85ea7d683b53e3dcee0a87fd1dfa55b5d7738113455b857615",
+    "src/pages/quotes.astro": "06d95137207cfd2fd887afcb0ae3eb0c3e10ae32aa7ad68a64f914363e7e74de",
+    "src/pages/quotes/[category]/[story].astro": "334ca9fb1a788e9c899c33b8e2deb5970481ec9b7701ea06b294d504f14cbf40",
+    "src/pages/search-index.json.ts": "e996f19bb6f42fec2a8d8559006d75428a116c7f082d0b7bfd1bdb53f1283eb1",
+    "src/pages/tools.astro": "c72c8ab38aef926f12d62af9c57c2af70b7ff07d56ffa41be75e78943e273d8c"
+  },
+  "adSenseRuntime": "DISABLED",
+  "novemberBatchPublished": false,
+  "humanScholarlyCertification": false,
+  "lighthouse": {
+    "cases": 20,
+    "routes": 10,
+    "performanceMin": 100,
+    "performanceMax": 100,
+    "accessibilityMin": 100,
+    "accessibilityMax": 100,
+    "maximumLcpMs": 1358.046,
+    "maximumCls": 0.001734273664773513,
+    "scope": "Local laboratory, not field evidence or live production measurements. Tools repeated after actual target-size fix;18 other cases unchanged."
+  },
+  "production": "NOT_DEPLOYED",
+  "fullMatrixRouteHashDeltaAfterToolsFix": [
+    "tools/index.html"
+  ],
+  "stagedTrustAndSecretScan": "PASS"
+}

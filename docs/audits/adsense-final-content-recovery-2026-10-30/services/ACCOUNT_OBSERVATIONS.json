@@ -1,0 +1,263 @@
+{
+  "observedDate": "2026-10-30",
+  "recordCompiledAt": "2026-10-30T15:01:02.545858+00:00",
+  "method": "Read-only authenticated Chrome accessibility trees through CUA; account state was not changed. Existing project-specific read-only OAuth/API and hosted aggregate artifact supplemented the UI.",
+  "adsense": {
+    "site": "echobuddha.com",
+    "status": "Needs attention",
+    "reason": "Low value content",
+    "adsTxtAccountStatus": "Not found",
+    "decisionTimestampDisplayed": "Aug 21, 2026 8:05 PM GMT+5:30",
+    "siteReadyToShowAds": false,
+    "policyCenter": "No current issues",
+    "policyCenterScope": "No current issues stopping or limiting ad serving in Policy Center; this separate surface does not revoke site activation rejection.",
+    "activationBanner": "Add payment info and connect site; no payment settings were inspected or changed.",
+    "feedback": "Substantial unique value; authentic high-quality information/tools/services; ongoing curation and structural maintenance; genuine user interest.",
+    "ownershipPanel": "Existing publisher snippet shown; no verification or review action was performed. GSC independently confirms domain owner permission.",
+    "reviewRequested": false,
+    "advertisingActivated": false,
+    "limitation": "No authenticated Mediapartners-Google request log/WAF trace; account ads.txt recognition remains unresolved."
+  },
+  "gsc": {
+    "property": "sc-domain:echobuddha.com",
+    "ownership": "You are a verified owner; API siteOwner",
+    "pageIndexingSnapshotDate": "2026-10-23",
+    "allKnownIndexed": 135,
+    "allKnownNotIndexed": 232,
+    "reasonCounts": {
+      "excludedByNoindex": 115,
+      "pageWithRedirect": 10,
+      "crawledCurrentlyNotIndexed": 91,
+      "redirectError": 1,
+      "alternateProperCanonical": 1,
+      "notFound404": 0,
+      "discoveredCurrentlyNotIndexed": 14
+    },
+    "countsScope": "All known historical URLs/variants, not a count of current 165 intended sitemap canonicals. Snapshot predates October27 release.",
+    "redirectError": {
+      "url": "https://echobuddha.com/terms-and-conditions/",
+      "reportedLastCrawl": "2026-08-29",
+      "currentLiveResult": "2026-10-30 curl -IL: single301 to /terms-of-use/ then200; matches existing public/_redirects",
+      "classification": "Historical engine report, no current redirect failure demonstrated"
+    },
+    "manualActions": "No issues detected",
+    "securityIssues": "No issues detected",
+    "coreWebVitals": {
+      "mobile": "No data",
+      "desktop": "No data",
+      "interpretation": "Unavailable field evidence, not a pass or defect"
+    },
+    "breadcrumbs": {
+      "valid": 21,
+      "invalid": 0,
+      "scope": "Overview enhancement report; coverage limited to engine-detected URLs"
+    },
+    "https": {
+      "https": 31,
+      "nonHttps": 0,
+      "scope": "Overview report; not whole-site inventory"
+    },
+    "robots": "All files are valid in Settings",
+    "crawlStats": {
+      "lastUpdated": "2026-10-28",
+      "last90DaysRequestsDisplayed": "1.52K",
+      "downloadSizeDisplayed": "29.2M bytes",
+      "averageResponseTimeMs": 121,
+      "hosts": {
+        "echobuddha.com": {
+          "requests": 1509,
+          "status": "No problems"
+        },
+        "www.echobuddha.com": {
+          "requests": 8,
+          "status": "No problems"
+        }
+      },
+      "responseSharesDisplayed": {
+        "200": "97%",
+        "301": "2%",
+        "404": "1%"
+      },
+      "limitation": "Historical aggregate/resource requests; individual404 targets not exhaustively inspected. AdsBot <1% is not proof of AdSense crawler success."
+    }
+  },
+  "bing": {
+    "site": "https://echobuddha.com/",
+    "searchPerformance": {
+      "rangeDisplayed": "July 30, 2026 to October 29, 2026",
+      "selectedRange": "3 M",
+      "filter": "All",
+      "clicks": 67,
+      "impressionsDisplayed": "4K",
+      "ctrDisplayed": "1.69%",
+      "limitation": "Rounded UI impressions; all vertical totals differ from web-only query/page dimensions and hosted API returned intervals."
+    },
+    "explorer": {
+      "indexed": 157,
+      "error": 0,
+      "warning": 82,
+      "excluded": 2,
+      "sumKnown": 241,
+      "limitation": "Bing report snapshot; noindex/aliases not automatically defects; not interchangeable with sitemap URLs."
+    },
+    "dailyReflectionsCanonical": {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "status": "Indexed successfully; URL can appear on Bing",
+      "lastCrawlDisplayed": "Yesterday at 14:21",
+      "crawlAllowed": true,
+      "pageFetch": "Successful",
+      "indexingAllowed": true,
+      "notice": "Alt attribute for images is missing,1instance",
+      "limitation": "Template decorative image requires source review; notice alone does not justify meaningful text for a decorative logo."
+    },
+    "siteScan": {
+      "name": "Echo Buddha - Full SEO Scan - Sep 2026",
+      "status": "Completed31daysago",
+      "pagesScanned": 250,
+      "errors": 0,
+      "warnings": 362,
+      "warningTypes": {
+        "altAttributeMissing": 249,
+        "titleTooLong": 113
+      },
+      "limitation": "Historical scan; no new scan started. Warnings require current DOM/purpose review; title-length warning is not an AdSense content verdict."
+    },
+    "aiPerformance": {
+      "sources": "Microsoft Copilots and Partners",
+      "rangeDisplayed": "July30\u2013October29,2026",
+      "totalCitationsDisplayed": "3.9K",
+      "averageCitedPagesDisplayed": 18,
+      "limitations": [
+        "Platform says underlying rows are a sample and can be refined.",
+        "Intent/topic labels are AIgenerated.",
+        "Citations are not clicks, visits, verified learning outcomes or GoogleAIOverview measurements."
+      ]
+    },
+    "indexNow": {
+      "submittedUrlsDisplayed": 338,
+      "displayedChartBuckets": {
+        "2026-10-20": 165,
+        "2026-10-23": 165,
+        "2026-10-27": 7,
+        "2026-10-28": 1
+      },
+      "limitation": "UI chart accessibility label erroneously says Jan2022 while table dates areOct2026; preserve inconsistency. Acceptance/submission does not prove indexing. No submission made during this investigation."
+    }
+  },
+  "ga4": {
+    "displayName": "EchoBuddha",
+    "range": {
+      "start": "2026-10-02",
+      "end": "2026-10-29"
+    },
+    "reportAvailableData": "100% of available data; not proof of all visitors or full consent coverage",
+    "totals": {
+      "sessions": 277,
+      "engagedSessions": 153,
+      "engagementRate": "55.23%",
+      "activeUsers": 71,
+      "newUsers": 63,
+      "averageEngagementTimePerSession": "1m14s",
+      "eventCount": 1632,
+      "keyEvents": 2
+    },
+    "channels": [
+      {
+        "channel": "Organic Search",
+        "sessions": 127,
+        "engagedSessions": 87,
+        "engagementRate": "68.5%",
+        "averageEngagementTimePerSession": "2m06s"
+      },
+      {
+        "channel": "Direct",
+        "sessions": 122,
+        "engagedSessions": 48,
+        "engagementRate": "39.34%",
+        "averageEngagementTimePerSession": "17s"
+      },
+      {
+        "channel": "Organic Social",
+        "sessions": 13,
+        "engagedSessions": 9,
+        "engagementRate": "69.23%"
+      },
+      {
+        "channel": "AI Assistant",
+        "sessions": 9,
+        "engagedSessions": 6,
+        "engagementRate": "66.67%"
+      },
+      {
+        "channel": "Unassigned",
+        "sessions": 5,
+        "engagedSessions": 1,
+        "engagementRate": "20%"
+      },
+      {
+        "channel": "Organic Video",
+        "sessions": 2,
+        "engagedSessions": 2,
+        "engagementRate": "100%"
+      }
+    ],
+    "channelArithmetic": {
+      "reportedTotal": 277,
+      "displayedRowSum": 278,
+      "difference": 1,
+      "interpretation": "Cause not established; preserve source values, do not silently reconcile or allege invalid traffic."
+    },
+    "landingCoverage": {
+      "rowsRead": 33,
+      "includesNotSetRow": true,
+      "leadingSessions": {
+        "/daily-reflections/today": 89,
+        "/": 54,
+        "/daily-reflections": 54,
+        "(not set)": 23,
+        "/articles/right-speech-buddhism": 8,
+        "/articles/dhamma-vs-dharma": 6,
+        "/articles/how-to-let-go-of-attachment-in-buddhism": 5,
+        "/learn/buddhism-101/five-precepts-buddhism": 4
+      },
+      "interpretation": "Repeated short-form tool use is observable but owner/test contamination is not separable. Sparse page counts cannot establish lack of reader value. GA4 page paths are reported without trailing slashes; normalize only for comparison."
+    },
+    "deviceActiveUsers": {
+      "desktop": 35,
+      "mobile": 34,
+      "tablet": 2
+    },
+    "returnBehavior": "Retention overview/cohort panel present but no defensible numeric returning-user rate extracted. Do not subtract newUsers from activeUsers as a returning-user count.",
+    "geoObservation": "Home last7daysOct23\u201329: US8,UK5,SriLanka5 active users among leading countries; separate period from28day totals.",
+    "limitations": [
+      "Consent-gated collection omits nonconsenting visitors.",
+      "Low samples, owner/audit traffic and (not set) landings limit attribution.",
+      "GA4, GSC, Bing and edge requests are different measurement populations.",
+      "No traffic simulation, new tracking event, internal filter or account setting was added."
+    ],
+    "identificationEvidence": "Authenticated EchoBuddha display name matched the established project-specific property; numeric account identifiers remain only in private operational evidence."
+  },
+  "cloudflare": {
+    "worker": "echobuddha",
+    "buildsGitRepository": "Connect; no repository connected in authenticated settings",
+    "delivery": "Staticassets-only worker",
+    "underAttackMode": false,
+    "developmentMode": false,
+    "botPreferenceSync": true,
+    "contact": {
+      "publicAddresses": [
+        "info@echobuddha.com",
+        "support@echobuddha.com"
+      ],
+      "publicSourceConsistency": "src/data/site.ts matchescontact/policy mailto consumers",
+      "mx": [
+        "10 mx.zoho.com.",
+        "20 mx2.zoho.com.",
+        "50 mx3.zoho.com."
+      ],
+      "cloudflareRouting": "Account UI shows Enable Email Routing / Onboard Domain, not configured mailbox evidence.",
+      "mailboxVerification": "Unavailable: no existing authenticated Zoho tab observed in scoped browser inventory. DNS and consistent mailto are not delivery proof. No email sent or mailbox provisioned."
+    },
+    "wafTrace": "No verified AdSense crawler request-specificWAF trace collected; security controls unchanged."
+  }
+}

@@ -1,9 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { mainContent, plainText, editorialAction, lexicalTokens, similarityDecision, repeatedParagraphs, anchorHrefs, metaContent, canonicalHref, quoteOriginDeclaration } from "./content-audit-lib.mjs";
 
 const root = process.cwd();
 const dist = path.join(root, "dist");
-const outDir = path.join(root, "docs/audits/content-audit");
+const outDir = path.resolve(root, process.env.CONTENT_AUDIT_OUT_DIR || "docs/audits/content-audit");
 const site = "https://echobuddha.com";
 const failures = [];
 
@@ -80,18 +81,7 @@ const primaryIntent = (type) => ({
   error: "Error recovery"
 }[type] ?? "General");
 
-const decisionFor = (page) => {
-  if (page.noindex) return "Pass";
-  if (page.type === "quoteStory") return "Minor improvement";
-  if (page.type === "meditationDetail") return page.externalLinks.length > 0 ? "Pass" : "Source verification required";
-  if (page.type === "learningDetail") return page.externalLinks.length > 0 ? "Pass" : "Source verification required";
-  if (page.type === "dailyReflection") return "Minor improvement";
-  if (page.type === "article" && /buddh|meditat|mindful|anxiety|sleep|anger|forgiveness|overthinking|impermanence|karma|metta|compassion|eightfold|truths/i.test(page.text)) {
-    return page.externalLinks.length > 0 ? "Pass" : "Minor improvement";
-  }
-  if (page.words < 350 && ["articleCategory", "learningPage", "hub"].includes(page.type)) return "Expand";
-  return "Pass";
-};
+const decisionFor = editorialAction;
 
 const roleMap = [
   { cluster: "Beginner Buddhism", href: "/learn/buddhism-for-beginners/", role: "topic hub", primary: "yes", action: "Keep as primary route" },
@@ -175,7 +165,8 @@ const adSuitabilityRows = [
   }
 ];
 
-const implementationTrackerRows = [
+// Preserve the dated tracker as historical context, never as fresh certification.
+const historicalImplementationTrackerRows = [
   { queueItemId: "CQ-001", urlOrGroup: "153 quote-story URLs", sourceFile: "src/data/site.ts", currentStatus: "repository origin classified", requiredAction: "Keep original-writing classification visible; verify future non-original quotes before publication", evidence: "quote-origin-register.csv", reviewerRequirement: "Owner/legal review before external reuse; Buddhist review for future non-original attribution", repositoryAction: "Quote-origin governance and visible source wording retained", finalStatus: "repository-complete; external review not claimed", validationMethod: "quote-origin-register.csv and npm run audit:content" },
   { queueItemId: "CQ-002", urlOrGroup: "Meditation and wellbeing-sensitive pages", sourceFile: "article, meditation, and daily templates", currentStatus: "repository safety language present", requiredAction: "Avoid treatment, cure, diagnosis, guarantee, and unsafe practice framing", evidence: "safety-review-queue.csv", reviewerRequirement: "Safety/editorial review for trauma, crisis, clinical, or severe-distress topics", repositoryAction: "Safety/adaptation/support wording and ad restrictions retained", finalStatus: "repository-complete; future external safety review documented", validationMethod: "safety-review-queue.csv and npm run validate" },
   { queueItemId: "CQ-003", urlOrGroup: "Article, learning, and meditation source records", sourceFile: "src/data/editorialGovernance.ts and src/data/learn.ts", currentStatus: "visible source context present or original-reflection context documented", requiredAction: "Keep external references visible for doctrinal/meditation claims; avoid copying long translations", evidence: "source-register.csv and source-verification-queue.csv", reviewerRequirement: "Buddhist studies and translation/license review before claiming expert approval", repositoryAction: "Added article selected references and source-register classification", finalStatus: "repository-complete; expert approval not claimed", validationMethod: "source-register.csv and source-verification-queue.csv" },
@@ -185,6 +176,21 @@ const implementationTrackerRows = [
   { queueItemId: "CQ-007", urlOrGroup: "Translation and copyright governance", sourceFile: "source register and reports", currentStatus: "long modern translation reuse prohibited without review", requiredAction: "Keep translator/license notes in source register; do not fabricate permissions", evidence: "source-register.csv", reviewerRequirement: "Owner/legal and Buddhist studies review before substantial quoted translations", repositoryAction: "Source-register notes retained and article references linked without reproducing long excerpts", finalStatus: "repository-complete; legal approval not claimed", validationMethod: "source-register.csv and docs" },
   { queueItemId: "CQ-008", urlOrGroup: "AdSense page-type suitability", sourceFile: "docs/audits/content-audit/adsense-page-type-suitability.csv", currentStatus: "ads disabled and restricted page types documented", requiredAction: "Run separate final AdSense pre-application review before applying or enabling ads", evidence: "adsense-page-type-suitability.csv", reviewerRequirement: "Owner/legal/policy review", repositoryAction: "No ad code or publisher ID added", finalStatus: "repository-complete; separate final review required", validationMethod: "npm run validate and source diff review" }
 ];
+
+const implementationTrackerRows = historicalImplementationTrackerRows.map((row) => {
+  const { currentStatus, requiredAction, finalStatus, ...historicalContext } = row;
+  return {
+    ...historicalContext,
+    historicalCurrentStatus: currentStatus,
+    historicalRequiredAction: requiredAction,
+    historicalStatus: finalStatus,
+    currentStatus: "Not determined by this automated inventory",
+    requiredAction: "Use current page-level editorial, source, safety and technical evidence; historical tracker wording does not resolve current findings",
+    finalStatus: "CURRENT_REVIEW_NOT_CERTIFIED",
+    currentReviewNotCertified: true,
+    statusContext: "Legacy CQ tracker retained for traceability. Historical actions and completion claims are not a current editorial review, source verification or AdSense readiness decision."
+  };
+});
 
 if (!fs.existsSync(dist)) {
   failures.push("Missing dist directory. Run npm run build before npm run audit:content.");
@@ -196,16 +202,17 @@ if (!fs.existsSync(dist)) {
   const pages = htmlFiles.map((filePath) => {
     const html = fs.readFileSync(filePath, "utf8");
     const route = routeFromHtml(filePath);
-    const text = textContent(html);
+    const mainHtml = mainContent(html);
+    const text = plainText(mainHtml);
     const type = classify(route);
     const noindex = /<meta\s+name=["']robots["'][^>]*noindex/i.test(html);
     const title = html.match(/<title>(.*?)<\/title>/is)?.[1]?.replace(/\s+/g, " ").trim() ?? "";
-    const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)/i)?.[1]?.trim() ?? "";
-    const canonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']*)/i)?.[1]?.trim() ?? "";
+    const description = metaContent(html, "description").trim();
+    const canonical = canonicalHref(html).trim();
     const h1 = html.match(/<h1\b[^>]*>(.*?)<\/h1>/is)?.[1]?.replace(/<[^>]+>/g, "").trim() ?? "";
     const blockquote = html.match(/<blockquote\b[^>]*>([\s\S]*?)<\/blockquote>/i)?.[1]?.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim() ?? "";
-    const hrefs = [...stripBlocks(html).matchAll(/<a\b[^>]*\shref=["']([^"']+)["']/gi)].map((match) => match[1]);
-    const externalLinks = hrefs.filter((href) => /^https?:\/\//.test(href) && !href.startsWith(site));
+    const hrefs = anchorHrefs(html);
+    const externalLinks = anchorHrefs(mainHtml).filter(href => /^https?:\/\//.test(href) && new URL(href).origin !== site);
     const schemaTypes = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap((match) => {
       try {
         const parsed = JSON.parse(match[1]);
@@ -218,6 +225,8 @@ if (!fs.existsSync(dist)) {
       route,
       url: `${site}${route}`,
       type,
+      mainHtml,
+      quoteDeclaration: type === "quoteStory" ? quoteOriginDeclaration(mainHtml) : undefined,
       text,
       words: (text.match(/\b[A-Za-z][A-Za-z'’-]*\b/g) ?? []).length,
       noindex,
@@ -265,20 +274,22 @@ if (!fs.existsSync(dist)) {
       pageType: page.type,
       primaryIntent: primaryIntent(page.type),
       visibleWordCount: page.words,
-      contentQualityStatus: action === "Pass" ? "Pass" : "Needs review",
-      originality: page.type === "quoteStory" || page.type === "dailyReflection" ? "Original Echo Buddha writing" : "Original explanatory content",
+      contentQualityStatus: "Not certified by automation; see page-level editorial review",
+      originality: page.type === "quoteStory" || page.type === "dailyReflection"
+        ? "Presented as original Echo Buddha writing; extraction does not independently establish originality"
+        : "Not determined by static extraction; evaluate the page purpose, attribution and original contribution",
       sourceQuality: page.externalLinks.length > 0 ? "Has external source references" : "Repository original/reflection context; external review required before claiming expert approval",
       buddhistAccuracy: /buddh|dhamma|sutta|karma|metta|anicca|dukkha|anatta|nirvana|sangha|mindfulness|meditation/i.test(page.text) ? "Requires risk-based Buddhist studies review" : "Low doctrinal risk",
       duplicationRisk: page.type === "quoteStory" ? "High family-level pattern risk" : page.type === "dailyReflection" ? "Medium family-level pattern risk" : "Medium",
       cannibalizationRisk: roleMap.some((role) => role.href === page.route) ? "Mapped in page-role register" : "Low to medium",
-      internalLinkQuality: (inbound.get(page.route) ?? 0) > 2 || page.route === "/" || page.noindex ? "Pass" : "Needs review",
+      internalLinkQuality: (inbound.get(page.route) ?? 0) > 0 || page.route === "/" ? "Inbound links present; relevance needs review" : "No inbound links detected; review discoverability",
       metadataAlignment: page.title && page.description && page.h1 && page.canonical ? "Pass" : "Needs review",
-      adsenseContribution: ["quoteStory", "dailyReflection", "meditationDetail"].includes(page.type) ? "Needs improvement before final review" : "Positive or neutral",
+      adsenseContribution: "Not determined by automation",
       recommendedAction: action,
-      severity: ["Major improvement", "Source verification required"].includes(action) ? "High" : action === "Pass" ? "Low" : "Medium",
-      effort: action === "Major improvement" ? "L" : action === "Pass" ? "XS" : "M",
-      humanReviewRequirement: /Source|Major/.test(action) ? "Editorial/Buddhist studies or safety reviewer" : "No",
-      recommendationReason: page.noindex ? "Noindex utility or intentionally excluded page." : `Post-remediation automated decision for ${page.type}.`
+      severity: "Review signal; not a confirmed defect grade",
+      effort: "Determine from qualitative findings",
+      humanReviewRequirement: "Editorial review appropriate to the page purpose; source/safety expertise where needed",
+      recommendationReason: `Automated diagnostic for ${page.type}. ${page.noindex ? "Intentional noindex does not establish reader value." : "Indexability does not establish reader value."}`
     };
   });
 
@@ -286,19 +297,19 @@ if (!fs.existsSync(dist)) {
     quoteId: page.route.split("/").filter(Boolean).slice(-2).join(":"),
     quoteText: page.blockquote,
     publicUrl: page.url,
-    originClassification: "Original Echo Buddha writing",
-    attributedAuthor: "Echo Buddha Editorial",
-    primarySource: "Echo Buddha original editorial record",
-    secondaryVerificationSource: "Not applicable for current original-writing classification",
-    canonicalTextReference: "Not a canonical quotation",
-    translator: "Not applicable",
-    translationEdition: "Not applicable",
-    copyrightOrLicenseStatus: "Original site editorial copy; owner/legal review still required before external reuse.",
-    attributionWording: "Original Echo Buddha reflection; not a Buddha quote or scripture translation.",
-    verificationStatus: "repository-reviewed",
+    originClassification: page.quoteDeclaration.originClassification || "Missing visible declaration",
+    attributedAuthor: "See visible attribution wording; not independently verified by extraction",
+    primarySource: "Not verified by extraction",
+    secondaryVerificationSource: "Not verified by extraction",
+    canonicalTextReference: page.quoteDeclaration.canonicalTextReference || "Missing visible scripture status",
+    translator: "Not verified by extraction; consult the declared edition where applicable",
+    translationEdition: "Not verified by extraction",
+    copyrightOrLicenseStatus: "Not verified by extraction; review the actual origin and permissions before external reuse.",
+    attributionWording: page.quoteDeclaration.attributionWording || "Missing visible attribution wording",
+    verificationStatus: page.quoteDeclaration.declarationPresent ? "visible-declaration-present-not-independently-verified" : "visible-declaration-missing-or-incomplete",
     reviewerStatus: "External Buddhist studies review not claimed.",
     indexabilityRecommendation: page.noindex ? "keep-noindex" : "keep-indexable",
-    editorialNotes: "Current repository data presents this as original Echo Buddha writing."
+    editorialNotes: "Records the page's actual visible declaration; neither completeness nor its wording proves attribution accuracy."
   }));
 
   const sourceRows = pages
@@ -309,15 +320,15 @@ if (!fs.existsSync(dist)) {
       claimOrTopicSupported: page.type === "meditationDetail" ? "Meditation practice and safety context" : "Buddhist educational or reflective explanation",
       sourceTitle: page.externalLinks.length > 0 ? "Visible page source links" : "Repository source note; external review pending where claims require it",
       sourceAuthor: page.externalLinks.length > 0 ? "See linked source" : "Echo Buddha Editorial",
-      translator: page.externalLinks.some((href) => href.includes("accesstoinsight")) ? "Thanissaro Bhikkhu or Access to Insight page translator where indicated" : "Not applicable or pending",
+      translator: "Not verified by link extraction; consult the specific source/edition",
       publicationOrInstitution: page.externalLinks.map((href) => new URL(href).hostname).join("; ") || "Echo Buddha",
-      sourceType: page.externalLinks.length > 0 ? "Primary or reputable reference link visible on page" : "Original reflection requiring source review for factual claims",
+      sourceType: page.externalLinks.length > 0 ? "External link present; authority and claim support need source review" : "Original reflection requiring source review for factual claims",
       buddhistTraditionOrTextualContext: /sutta|dhammapada|sn |mn |dn |an |metta|anicca|dukkha|karma|dhamma/i.test(page.text) ? "Buddhist textual or doctrinal context" : "General educational reflection",
       canonicalReference: "See visible page source note or external review queue",
       url: page.externalLinks.join("; "),
       copyrightOrLicenseNote: "Do not reproduce long modern translations without owner/legal review.",
-      accessDate: "2026-07-21",
-      verificationStatus: page.externalLinks.length > 0 ? "repository-reviewed-source-link-present" : "repository-reviewed-original-context",
+      accessDate: "Not collected; static link extraction does not access the destination",
+      verificationStatus: page.externalLinks.length > 0 ? "link-present-not-claim-verified" : "no-external-link-extracted-review-purpose-and-claims",
       reviewerNote: "Repository review does not claim Buddhist studies, clinical, or legal approval."
     }));
 
@@ -343,8 +354,8 @@ if (!fs.existsSync(dist)) {
     .map((page) => ({
       pageUrl: page.url,
       pageType: page.type,
-      diagnosisClaims: "No diagnosis claim detected by repository audit",
-      treatmentClaims: "No treatment/cure claim intended; manual review still required",
+      diagnosisClaims: "Not evaluated by this phrase-presence diagnostic; review claims in context",
+      treatmentClaims: "Not certified by static extraction; review treatment/cure wording in context",
       guaranteedOutcomes: /guarantee|cure|will heal|will sleep/i.test(page.text) ? "Manual review required" : "No guarantee language detected",
       breathFocusDiscomfort: /open your eyes|feel the feet|shorten|stop|grounding/i.test(page.text) ? "Visible adaptation language present" : "Review for adaptation language",
       professionalSupport: /professional support|qualified professional|medical or mental health/i.test(page.text) ? "Visible support limitation present" : "Review support limitation",
@@ -361,11 +372,11 @@ if (!fs.existsSync(dist)) {
       visibleWordCount: page.words,
       indexingStatus: page.noindex ? "noindex" : "indexable",
       sitemapStatus: page.inSitemap ? "in sitemap" : "not in sitemap",
-      distinctThemeDecision: page.type === "todayReflection" ? "Keep as noindex recurring-user utility" : "Keep indexable as an original daily reflection detail page",
-      repeatedStructureRisk: page.type === "todayReflection" ? "Handled by noindex decision" : "Acceptable with current original theme, practice, and journal prompt; review if family expands",
+      distinctThemeDecision: page.noindex ? "Preserve existing noindex; review independent reader purpose" : "Preserve current index intent; review independent reader purpose",
+      repeatedStructureRisk: "Requires editorial comparison; noindex and unique wording do not establish distinctness",
       safetyDecision: /professional support|qualified professional|medical or mental health/i.test(page.text) ? "Support limitation visible" : "Review support limitation",
       repositoryAction: page.type === "todayReflection" ? "Noindex and sitemap exclusion retained" : "No URL, sitemap, or indexability change",
-      finalStatus: "repository-reviewed"
+      finalStatus: "Automated inventory only; editorial distinctness not certified"
     }));
 
   const urlDecisionRows = [
@@ -408,24 +419,13 @@ if (!fs.existsSync(dist)) {
       validationMethod: "Re-run content audit inventory and static link crawl."
     }));
 
-  const tokens = (page) => new Set(page.text.toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter((word) => word.length > 4).slice(0, 500));
+  const tokens = (page) => lexicalTokens(page.text);
   const tokenSets = new Map(pages.map((page) => [page.route, tokens(page)]));
   const roleClusterByHref = new Map(roleMap.map((role) => [role.href, role.cluster]));
   const duplicateDecisionFor = (pageA, pageB) => {
     const clusterA = roleClusterByHref.get(pageA.route);
     const clusterB = roleClusterByHref.get(pageB.route);
-    if (clusterA && clusterA === clusterB) return "Role-map justified priority-cluster overlap";
-    if (pageA.type === "dailyReflection" && pageB.type === "dailyReflection") return "Daily-reflection distinctness review complete";
-    if (pageA.type === "quoteStory" && pageB.type === "quoteStory") return "Quote-family origin classified; monitor standalone value";
-    if (pageA.type === "learningPage" && pageB.type === "learningDetail") return "Legitimate learning hub-to-detail overlap";
-    if (pageA.type === "learningDetail" && pageB.type === "learningPage") return "Legitimate learning detail-to-hub overlap";
-    if (pageA.type === "articleCategory" && pageB.type === "article") return "Legitimate article category-to-detail overlap";
-    if (pageA.type === "article" && pageB.type === "articleCategory") return "Legitimate article detail-to-category overlap";
-    if (pageA.type === "hub" && pageB.type !== "hub") return "Legitimate site hub-to-detail overlap";
-    if (pageA.type !== "hub" && pageB.type === "hub") return "Legitimate detail-to-site hub overlap";
-    if (pageA.type === "quoteCategory" && pageB.type === "quoteStory") return "Legitimate category-to-story overlap";
-    if (pageA.type === "quoteStory" && pageB.type === "quoteCategory") return "Legitimate story-to-category overlap";
-    return "Residual low-priority similarity documented for monitoring";
+    return similarityDecision(pageA, pageB, clusterA, clusterB);
   };
   const similarityRows = [];
   for (let i = 0; i < pages.length; i += 1) {
@@ -487,13 +487,18 @@ if (!fs.existsSync(dist)) {
   }, {});
   const sourceQueueHeaders = ["url", "pageType", "claimArea", "currentSources", "recommendedSourceType", "priority", "humanReviewer"];
   const linkOpportunityHeaders = ["url", "pageType", "currentInboundLinks", "opportunity", "priority", "validationMethod"];
-  const unresolvedSimilarityRows = similarityRows.filter((row) => row.decision === "Manual review or role-map justification required");
+  const unresolvedSimilarityRows = similarityRows;
+  const paragraphRows = repeatedParagraphs(pages);
   const safetyReviewPendingItems = safetyRows.filter((row) => row.status !== "repository-safety-language-present").length;
-  const quoteOriginPendingItems = quoteRows.filter((row) => row.verificationStatus !== "repository-reviewed").length;
+  const quoteOriginPendingItems = quoteRows.filter(row => row.verificationStatus === "visible-declaration-missing-or-incomplete").length;
   const summary = {
     generatedAt: new Date().toISOString(),
-    repositorySafeRemediationDate: "2026-07-21",
-    targetedRemediationPhaseDate: "2026-07-21",
+    editorialCertification: "None. Technical success and automated review queues are not an editorial approval or AdSense readiness result.",
+    wordCountScope: "Main content only; diagnostic metadata, no minimum-word threshold",
+    repeatedParagraphGroups: paragraphRows.length,
+    historicalRepositorySafeRemediationDate: "2026-07-21",
+    historicalTargetedRemediationPhaseDate: "2026-07-21",
+    queueInterpretation: "Signals need qualitative disposition. A missing source link may be appropriate for original practical advice; a present link is not source verification. Historical tracker records do not close current findings.",
     totalHtmlPages: pages.length,
     indexablePages: indexablePages.length,
     noindexPages: pages.length - indexablePages.length,
@@ -506,6 +511,7 @@ if (!fs.existsSync(dist)) {
     meditationPages: pages.filter((page) => page.type === "meditationDetail").length,
     decisionCounts,
     quoteOriginPendingItems,
+    quoteOriginPendingInterpretation: "Counts missing/incomplete visible declarations only. No origin is independently verified by extraction; use the separate origin-governance gate and current editorial evidence to assess attribution accuracy.",
     sourceVerificationItems: sourceQueueRows.length,
     safetyReviewItems: safetyReviewPendingItems,
     safetyReviewRows: safetyRows.length,
@@ -538,7 +544,8 @@ if (!fs.existsSync(dist)) {
   writeCsv("url-decision-map.csv", Object.keys(urlDecisionRows[0]), urlDecisionRows);
   writeCsv("source-verification-queue.csv", sourceQueueHeaders, sourceQueueRows);
   writeCsv("internal-link-opportunities.csv", linkOpportunityHeaders, linkOpportunityRows);
-  writeCsv("duplicate-clusters.csv", Object.keys(similarityRows[0] ?? { urlA: "", urlB: "", pageTypeA: "", pageTypeB: "", similarity: "", decision: "", notes: "" }), similarityRows.slice(0, 250));
+  writeCsv("duplicate-clusters.csv", Object.keys(similarityRows[0] ?? { urlA: "", urlB: "", pageTypeA: "", pageTypeB: "", similarity: "", decision: "", notes: "" }), similarityRows);
+  writeCsv("repeated-paragraphs.csv", ["paragraph", "pageCount", "urls", "disposition"], paragraphRows);
   fs.writeFileSync(path.join(outDir, "content-family-summary.json"), `${JSON.stringify(familySummary, null, 2)}\n`);
   fs.writeFileSync(path.join(outDir, "post-remediation-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
 

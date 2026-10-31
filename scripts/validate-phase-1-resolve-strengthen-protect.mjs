@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { anchorHrefs } from "./content-audit-lib.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -120,7 +121,7 @@ const ownerLinkFailures = [];
 for (const row of priority) {
   if (row.url === row.ownerUrl) continue;
   const html = htmlByRoute.get(row.url) ?? "";
-  const hrefs = [...html.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)].map((match) => normalizeRoute(match[1]));
+  const hrefs = anchorHrefs(html).map(href => normalizeRoute(href));
   if (!hrefs.includes(row.ownerUrl)) ownerLinkFailures.push(`${row.url} -> ${row.ownerUrl}`);
 }
 check("Priority support pages link to their declared owner", ownerLinkFailures.length === 0, ownerLinkFailures.join("; ") || `${priority.length} priority relationships verified`);
@@ -128,8 +129,8 @@ check("Priority support pages link to their declared owner", ownerLinkFailures.l
 const brokenLinks = [];
 const brokenFragments = [];
 for (const [sourceRoute, html] of htmlByRoute) {
-  for (const match of html.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)) {
-    const href = decodeHtml(match[1]);
+  for (const rawHref of anchorHrefs(html)) {
+    const href = decodeHtml(rawHref);
     if (!href.startsWith("/") || href.startsWith("//")) continue;
     const url = new URL(href, siteUrl);
     const targetRoute = normalizeRoute(url.pathname);

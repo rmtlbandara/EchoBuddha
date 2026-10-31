@@ -1,0 +1,36 @@
+{
+  "capturedAt": "2026-10-30T11:40:14.311716+00:00",
+  "baselineSha": "27bca410eaec9541878a8923acdde472e283c7bd",
+  "productionRelease": {
+    "schemaVersion": 1,
+    "sha": "1a5e000bcccdef67ce539c82707105d50bee74dd",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-10-29T08:43:25.176Z"
+  },
+  "historicalInterventions": [
+    {
+      "id": "production-transformation-2026-10-23",
+      "sha256": "69fa88765a6cbbef30a2fc91193697f1fdec16e5ce42aeb8d4784b5cc125250f"
+    },
+    {
+      "id": "october-audit-remediation-2026-10-27",
+      "sha256": "352d11601ba6940dbb9f7c195979b1010b4a3417853d90ea36c9f29f4bdf9c0a"
+    },
+    {
+      "id": "footer-social-icons-2026-10-29",
+      "sha256": "557352ad0d2b8799f15dfa057702de925922d8bed7829e605834a99d574dee30"
+    }
+  ],
+  "preservedFiles": {
+    "public/_redirects": "0ab1f41c4aa29ce11c2355c77a7b5a6865e3f76b3306f0cb5ea17492684ced87",
+    "public/robots.txt": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1",
+    "public/_headers": "16c0ab41ead01926a385e65d1870467cec8f274d82d2ee7de05b5b5166e9a4b3",
+    "public/ads.txt": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+    "src/pages/sitemap.xml.ts": "3ba2a425a6ab13218d55c99a9943967c989e8145cbf77b3fa9b364eee72017e0",
+    "src/data/search-index-policy.mjs": "7ad4efb4bee1c47ea98bdcf9f149b210ee9e655cdba1843bcb26509db5f7e977",
+    "src/data/monetization.mjs": "47c5e91cd173a4c9ecf03f153a1bb14064a496444f242817476695ab2157cd79",
+    "src/data/ads.ts": "918c1e76f3e1a023496659d6f7245425267b5a08a2ac6b7dbd62052ce21b5c13",
+    "src/components/ConsentManager.astro": "021075bf600404a87e12d6344f6a92e88e45d981773702250a766310d20ad4e2"
+  },
+  "userAuthorization": "Project owner adopted the master recovery brief with go with this strongly on 2026-10-30; governed implementation, PR, merge and production deployment authorized; no review request, ads activation or new publishing batch."
+}

@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-30T14:58:11.890Z",
+  "method": "Existing webmasters.readonly OAuth; sites.list and sitemaps.list",
+  "properties": [
+    {
+      "siteUrl": "sc-domain:echobuddha.com",
+      "permissionLevel": "siteOwner"
+    }
+  ],
+  "sitemaps": {
+    "sitemap": [
+      {
+        "path": "https://echobuddha.com/sitemap.xml",
+        "lastSubmitted": "2026-08-21T10:13:06.258Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-10-28T17:40:19.389Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "165",
+            "indexed": "0"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-10-30",
+  "result": "PASS",
+  "scope": "New services files and07report; no raw queries, token fields, numeric GA account identifiers, or raw per-page metric export;47priority states and194URL evidence-presence rows verified. This is a focused pattern/schema review, not a global secrets certification.",
+  "jsonEvidence": [
+    {
+      "file": "docs/audits/adsense-final-content-recovery-2026-10-30/services/GSC_FINALIZED_SUMMARY.json",
+      "check": "Valid JSON; sanitized observation/aggregate/URL-state schema",
+      "sha256": "f7c61610dbc01c9371cefd9b810bbd882d2d77407255ac7e5be998f1a79abf43"
+    },
+    {
+      "file": "docs/audits/adsense-final-content-recovery-2026-10-30/services/GSC_PRIORITY_47.json",
+      "check": "Valid JSON; sanitized observation/aggregate/URL-state schema",
+      "sha256": "29096f4ef1a4b4cbb586d63452312e2c330b4cc485a07858a5922f7d7b3b3095"
+    },
+    {
+      "file": "docs/audits/adsense-final-content-recovery-2026-10-30/services/BING_HOSTED_SUMMARY.json",
+      "check": "Valid JSON; sanitized observation/aggregate/URL-state schema",
+      "sha256": "0ed71283a42b601487bb089e6bef292a7b4f8fbb5fb0e21ce54cea2b4e594164"
+    },
+    {
+      "file": "docs/audits/adsense-final-content-recovery-2026-10-30/services/GSC_PROPERTY_SITEMAPS.json",
+      "check": "Valid JSON; sanitized observation/aggregate/URL-state schema",
+      "sha256": "498f74eb4b68cf50ea1eca9c75fec1d40673487ec8610b8325796a7a47a1ed17"
+    },
+    {
+      "file": "docs/audits/adsense-final-content-recovery-2026-10-30/services/ACCOUNT_OBSERVATIONS.json",
+      "check": "Valid JSON; sanitized observation/aggregate/URL-state schema",
+      "sha256": "21aa90fef245fd33c87fcadecac533237f5442d4bc4667c1cc6aa3a98323a912"
+    }
+  ]
+}

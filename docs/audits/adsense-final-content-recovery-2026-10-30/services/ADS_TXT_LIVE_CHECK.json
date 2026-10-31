@@ -1,0 +1,10 @@
+{
+  "observedAt": "2026-10-30T15:20:24.287699+00:00",
+  "url": "https://echobuddha.com/ads.txt",
+  "httpStatus": 200,
+  "matchesRepositoryFileByteForByte": true,
+  "sha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b",
+  "matchesConfiguredPublisher": true,
+  "recordCount": 1,
+  "interpretation": "Ordinary unauthenticated HTTPS GET; correct publicdelivery/identity does not establish Google account recognition or verified Mediapartners-Google crawler delivery."
+}

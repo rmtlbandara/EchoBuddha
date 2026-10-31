@@ -1,0 +1,791 @@
+[
+  {
+    "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+    "inspectedAt": "2026-10-30T14:54:18.192Z",
+    "previousState": "Submitted and indexed",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-26T20:09:41Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+    "userCanonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+    "inspectedAt": "2026-10-30T14:54:25.173Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-07T09:15:22Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+    "userCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+    "inspectedAt": "2026-10-30T14:54:35.333Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-25T06:54:08Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+    "userCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+    "inspectedAt": "2026-10-30T14:54:45.758Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-24T07:33:39Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+    "userCanonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+    "inspectedAt": "2026-10-30T14:54:52.821Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-08T01:39:56Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+    "userCanonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+    "inspectedAt": "2026-10-30T14:54:59.836Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T02:24:40Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+    "userCanonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+    "referringUrls": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+    "inspectedAt": "2026-10-30T14:55:07.252Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-05T06:57:44Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+    "userCanonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+    "inspectedAt": "2026-10-30T14:55:14.283Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-19T03:46:28Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+    "userCanonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+    "inspectedAt": "2026-10-30T14:55:21.455Z",
+    "previousState": "Submitted and indexed",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-07-28T05:01:09Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+    "userCanonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+    "inspectedAt": "2026-10-30T14:55:28.390Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-16T17:37:18Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+    "userCanonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+    "inspectedAt": "2026-10-30T14:55:35.434Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-06T09:51:01Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+    "userCanonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+    "inspectedAt": "2026-10-30T14:55:42.827Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-21T21:12:16Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+    "userCanonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+    "inspectedAt": "2026-10-30T14:55:49.872Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-24T04:58:58Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+    "userCanonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+    "inspectedAt": "2026-10-30T14:55:56.865Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-07T04:45:31Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+    "userCanonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+    "inspectedAt": "2026-10-30T14:56:03.898Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-07-31T13:09:22Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+    "userCanonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+    "inspectedAt": "2026-10-30T14:56:10.852Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-06T18:15:32Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+    "userCanonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+    "inspectedAt": "2026-10-30T14:56:17.842Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-19T09:35:00Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+    "userCanonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+    "inspectedAt": "2026-10-30T14:56:24.841Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-30T20:43:22Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+    "userCanonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+    "inspectedAt": "2026-10-30T14:56:31.837Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-16T14:35:24Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+    "userCanonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+    "inspectedAt": "2026-10-30T14:56:39.057Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-07-01T22:58:41Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+    "userCanonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+    "inspectedAt": "2026-10-30T14:56:46.470Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-07T03:11:51Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+    "userCanonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+    "inspectedAt": "2026-10-30T14:56:53.656Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T14:24:42Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+    "userCanonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/",
+    "inspectedAt": "2026-10-30T14:57:00.720Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-07-23T16:54:01Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhism-101/",
+    "userCanonical": "https://echobuddha.com/learn/buddhism-101/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+    "inspectedAt": "2026-10-30T14:57:07.720Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T07:11:35Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+    "userCanonical": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+    "inspectedAt": "2026-10-30T14:57:14.705Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-06T18:20:53Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+    "userCanonical": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+    "inspectedAt": "2026-10-30T14:57:21.697Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-14T22:16:24Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+    "userCanonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+    "inspectedAt": "2026-10-30T14:57:28.703Z",
+    "previousState": "Submitted and indexed",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-08T00:16:37Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+    "userCanonical": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+    "inspectedAt": "2026-10-30T14:57:35.877Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-06T18:10:06Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+    "userCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+    "inspectedAt": "2026-10-30T14:57:43.168Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-07-05T22:24:39Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+    "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+    "inspectedAt": "2026-10-30T14:57:50.240Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-04T06:32:47Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+    "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/meditation-guide/",
+    "inspectedAt": "2026-10-30T14:57:57.243Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-08-07T01:41:39Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/meditation-guide/",
+    "userCanonical": "https://echobuddha.com/meditation-guide/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+    "inspectedAt": "2026-10-30T14:58:04.241Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-07-16T03:45:41Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+    "userCanonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+    "inspectedAt": "2026-10-30T14:58:11.230Z",
+    "previousState": "Crawled - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T14:24:41Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+    "userCanonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+    "inspectedAt": "2026-10-30T14:58:18.226Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/",
+    "inspectedAt": "2026-10-30T14:58:25.220Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+    "inspectedAt": "2026-10-30T14:58:32.205Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+    "inspectedAt": "2026-10-30T14:58:39.458Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+    "inspectedAt": "2026-10-30T14:58:46.467Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+    "inspectedAt": "2026-10-30T14:58:53.457Z",
+    "previousState": "URL is unknown to Google",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+    "inspectedAt": "2026-10-30T14:59:00.411Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+    "inspectedAt": "2026-10-30T14:59:07.360Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    "inspectedAt": "2026-10-30T14:59:14.418Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    "inspectedAt": "2026-10-30T14:59:21.387Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    "inspectedAt": "2026-10-30T14:59:28.370Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+    "inspectedAt": "2026-10-30T14:59:35.310Z",
+    "previousState": "URL is unknown to Google",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+    "inspectedAt": "2026-10-30T14:59:42.652Z",
+    "previousState": "URL is unknown to Google",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+    "inspectedAt": "2026-10-30T14:59:49.835Z",
+    "previousState": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://echobuddha.com/sitemap.xml"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "interpretation": "Stored Google index evidence; not live test. Engine selection is not by itself a technical defect."
+  }
+]

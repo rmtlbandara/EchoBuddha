@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-10-29T11:37:16.145Z",
+  "site": "https://echobuddha.com/",
+  "verified": true,
+  "endpoints": {
+    "GetUserSites": {
+      "status": 200,
+      "rows": 1
+    },
+    "GetFeeds": {
+      "status": 200,
+      "rows": 1
+    },
+    "GetRankAndTrafficStats": {
+      "status": 200,
+      "rows": 57
+    },
+    "GetCrawlStats": {
+      "status": 200,
+      "rows": 24
+    }
+  },
+  "sitemaps": [
+    {
+      "url": "https://echobuddha.com/sitemap.xml",
+      "status": "Success",
+      "urls": 165,
+      "lastCrawled": "/Date(1792975065000)/"
+    }
+  ],
+  "traffic": {
+    "clicks": 62,
+    "impressions": 3683,
+    "returnedDates": [
+      "/Date(1770768000000)/",
+      "/Date(1770854400000)/",
+      "/Date(1770940800000)/",
+      "/Date(1771027200000)/",
+      "/Date(1771113600000)/",
+      "/Date(1771200000000)/",
+      "/Date(1771286400000)/",
+      "/Date(1771372800000)/",
+      "/Date(1771459200000)/",
+      "/Date(1771545600000)/",
+      "/Date(1771632000000)/",
+      "/Date(1771718400000)/",
+      "/Date(1771804800000)/",
+      "/Date(1771891200000)/",
+      "/Date(1771977600000)/",
+      "/Date(1772064000000)/",
+      "/Date(1772150400000)/",
+      "/Date(1772236800000)/",
+      "/Date(1772323200000)/",
+      "/Date(1772409600000)/",
+      "/Date(1772496000000)/",
+      "/Date(1772582400000)/",
+      "/Date(1772668800000)/",
+      "/Date(1772755200000)/",
+      "/Date(1772841600000)/",
+      "/Date(1772928000000)/",
+      "/Date(1773014400000)/",
+      "/Date(1773100800000)/",
+      "/Date(1773187200000)/",
+      "/Date(1773273600000)/",
+      "/Date(1773360000000)/",
+      "/Date(1790812800000)/",
+      "/Date(1790899200000)/",
+      "/Date(1790985600000)/",
+      "/Date(1791072000000)/",
+      "/Date(1791158400000)/",
+      "/Date(1791244800000)/",
+      "/Date(1791331200000)/",
+      "/Date(1791417600000)/",
+      "/Date(1791504000000)/",
+      "/Date(1791590400000)/",
+      "/Date(1791676800000)/",
+      "/Date(1791763200000)/",
+      "/Date(1791849600000)/",
+      "/Date(1791936000000)/",
+      "/Date(1792022400000)/",
+      "/Date(1792108800000)/",
+      "/Date(1792195200000)/",
+      "/Date(1792281600000)/",
+      "/Date(1792368000000)/",
+      "/Date(1792454400000)/",
+      "/Date(1792540800000)/",
+      "/Date(1792627200000)/",
+      "/Date(1792713600000)/",
+      "/Date(1792800000000)/",
+      "/Date(1792886400000)/",
+      "/Date(1792972800000)/"
+    ],
+    "note": "Totals cover only the API-returned dates; no invented comparison period or release attribution."
+  },
+  "crawl": {
+    "returnedRows": 24
+  },
+  "urlDiagnostics": [
+    {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1793263911000)/",
+      "discoveryDate": "/Date(1785222000000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1791993418000)/",
+      "discoveryDate": "/Date(1791874800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    }
+  ],
+  "limitations": [
+    "A submitted sitemap or IndexNow receipt does not prove indexing.",
+    "API-returned traffic and crawl intervals may differ from dashboard selections.",
+    "Raw account records and verification codes are never uploaded in this aggregate report."
+  ]
+}

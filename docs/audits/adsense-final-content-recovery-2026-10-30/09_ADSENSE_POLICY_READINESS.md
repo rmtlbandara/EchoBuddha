@@ -1,0 +1,13 @@
+# AdSense policy and readiness assessment
+
+Candidate recommendation: **HOLD** pending governed production verification and the unresolved account recognition concern. No review request or advertising activation is authorized by this assessment.
+
+Official policy research is recorded in research/OFFICIAL_POLICY_RESEARCH.md. The applicable principles are original publisher value, helpful audience-focused content, ongoing curation, accurate attribution, usable navigation, and compliant privacy/advertising behavior. Google provides no approval-guaranteeing word count, visitor threshold, or internal rubric cutoff. A site-level Low value content rejection does not establish the defect on every page.
+
+All accessible page families, including noindex short forms, received editorial review. The internal eight-dimension 0–4 rubric records model editorial judgments, not Google's algorithm, external scholarly approval, or a numerical approval mechanism. Distinct concise utilities were retained; repeated explanations and irrelevant reading links were corrected. The five editorial passes are source/fact, reader value, natural language/repetition, intent/links/metadata, and final safety/publication review. Multiple model passes are not independent human certification.
+
+Authenticated October 30 account evidence shows Needs attention / Low value content, ads.txt Not found, and the displayed August 21 decision timestamp. Policy Center separately says No current issues; that does not revoke the site activation rejection. Public ads.txt returns HTTP 200, matches repository bytes and the configured publisher ID. A genuine Mediapartners-Google request/WAF trace is unavailable. No speculative security relaxation, publisher change, ad script, Auto Ads, manual ad slot, or review request was used to force recognition.
+
+Observed search visibility and readership exist, with consent, small-sample, report-grain, and internal/audit-traffic limitations. They are not proof of editorial quality and no fake engagement was generated. GSC field performance has insufficient data. Mailto consistency and Zoho MX do not prove mailbox delivery. Historical image generation/provenance records do not establish every legacy media entitlement; no new media or invented rights were introduced.
+
+A verified technical release can support a deployed review hold; it cannot guarantee AdSense acceptance. Final outcome and delivery identifiers will appear in 11/13 after verification. The next review decision should consider the actual deployed site and unresolved account concern, without waiting for an invented traffic threshold or interpreting indexing as approval.

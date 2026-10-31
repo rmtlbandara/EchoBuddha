@@ -27,6 +27,9 @@ try {
     const browser = await type.launch({ headless: true });
     try {
       const context = await browser.newContext({ reducedMotion: "reduce" });
+      // Each HTTP-status assertion must observe a fresh response. Firefox and
+      // WebKit otherwise expose304 revalidation on routes revisited by this suite.
+      await context.route("**/*", route => route.continue());
       const page = await context.newPage();
       const errors = [];
       page.on("pageerror", error => errors.push(error.message));
@@ -67,11 +70,19 @@ try {
       assert.ok((await page.locator("[data-quote-output]").textContent()).trim());
       await page.locator("[data-next-reflection]").click();
       assert.ok((await page.locator("[data-reflection-output]").textContent()).trim());
-      for (const width of [320, 390, 640, 768, 1024, 1280, 1440]) {
+      for (const width of [320, 390, 412, 640, 768, 1024, 1280, 1440]) {
         await page.setViewportSize({ width, height: 900 });
         const geometry = await page.evaluate(() => ({ width: innerWidth, overflow: document.documentElement.scrollWidth > innerWidth }));
         assert.equal(geometry.width, width);
         assert.equal(geometry.overflow, false, `${engine}: ${width}px reflow`);
+        if (width === 412) {
+          const targets = await page.locator(".tool-output a").evaluateAll(nodes => nodes.map(node => {
+            const box = node.getBoundingClientRect();
+            return { width: box.width, height: box.height, label: node.textContent };
+          }));
+          assert.ok(targets.length > 0, "Generated tool links exist");
+          assert.ok(targets.every(target => target.width >= 24 && target.height >= 44), "Generated tool links keep usable touch targets at412px");
+        }
         if ([320, 1440].includes(width)) await page.screenshot({ path: path.join(out, `${engine}-tools-${width}.png`), fullPage: true });
         if (width === 320) {
           await input.scrollIntoViewIfNeeded();
@@ -105,8 +116,31 @@ try {
           assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${route}: ${width}px reflow`);
         }
       }
+      const contentRoutes = process.env.AUDIT_CONTENT_ROUTES
+        ? JSON.parse(fs.readFileSync(process.env.AUDIT_CONTENT_ROUTES, "utf8"))
+        : [
+            { route: "/articles/category/buddhist-wisdom/" },
+            { route: "/daily-reflections/" }
+          ];
+      const contentResults = [];
+      for (const { route, modifiedDate } of contentRoutes) {
+        const response = await page.goto(origin + route);
+        assert.equal(response.status(), 200, `${route}: successful HTML response`);
+        assert.equal(await page.locator("main h1").count(), 1, `${route}: one main heading`);
+        if (modifiedDate) assert.equal(await page.locator(`time[datetime="${modifiedDate}"]`).count(), 1, `${route}: visible update date`);
+        for (const width of [320, 390, 640, 768, 1024, 1280, 1440]) {
+          await page.setViewportSize({ width, height: 900 });
+          assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${route}: ${width}px reflow`);
+          if (width === 320 || width === 1440) {
+            await page.addScriptTag({ content: axe.source });
+            const violations = await page.evaluate(async () => (await window.axe.run(document, { resultTypes: ["violations"] })).violations);
+            assert.deepEqual(violations.map(v => v.id), [], `${route}: ${width}px axe violations`);
+          }
+        }
+        contentResults.push({ route, widths: [320, 390, 640, 768, 1024, 1280, 1440], axeWidths: [320, 1440], axeViolations: 0 });
+      }
       assert.deepEqual(errors, [], "No application errors");
-      results.push({ engine, browserVersion: browser.version(), status: "PASS", widths: [320, 390, 640, 768, 1024, 1280, 1440], revisedRoutes, textResize: "200% at 640 CSS px", axeViolations: 0, methods: "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification" });
+      results.push({ engine, browserVersion: browser.version(), status: "PASS", widths: [320, 390, 640, 768, 1024, 1280, 1440], revisedRoutes, contentResults, textResize: "200% at 640 CSS px", axeViolations: 0, methods: "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification" });
       await context.close();
       console.log(`${engine}: tools, search, timers, keyboard, reflow, and axe PASS`);
     } finally { await browser.close(); }

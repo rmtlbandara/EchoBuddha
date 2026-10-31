@@ -365,7 +365,7 @@ const hubItems: SearchIndexItem[] = [
     title: "Dhammapada Reflections",
     url: "/learn/dhammapada-reflections/",
     type: "Learning Hub",
-    excerpt: "Original, public-domain-safe Dhammapada reflections for daily practice, speech, patience, and training the mind.",
+    excerpt: "Original Dhammapada-inspired paraphrase and reflection for daily practice, speech, patience, and training the mind.",
     category: "Dhammapada",
     section: "Learn",
     keywords: ["Dhammapada reflections", "Dhammapada", "mind training", "patience"],

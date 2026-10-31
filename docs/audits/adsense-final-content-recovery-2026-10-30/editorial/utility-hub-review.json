@@ -1,0 +1,952 @@
+[
+  {
+    "url": "https://echobuddha.com/404.html",
+    "route": "/404.html",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 2,
+      "informationGain": 2,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 4
+    },
+    "finding": "Concise genuine error recovery offers search/start/home/learn/meditation; short content fully satisfies error-recovery purpose.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/about/",
+    "route": "/about/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Independent educational publisher, introductory scope and organizational byline explicitly deny invented authority. Contact roles and professional limits clear; mailbox delivery is separate evidence.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+    "route": "/articles/category/buddhist-wisdom/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Twenty-card catalogue organizes core teachings, community and contemporary application. A scoped introduction and guidance to choose a current reader question give this category a clear discovery purpose.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/articles/category/meditation/",
+    "route": "/articles/category/meditation/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Nine-card collection organizes practice, habit and method support, while the meditation hub selects methods. Guidance to choose the shortest steady practice fits this catalogue role.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/articles/category/mindfulness/",
+    "route": "/articles/category/mindfulness/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Five-card collection differentiates listening, morning, evening, overthinking and conceptual comparison. Its bounded browsing purpose does not require extra prose.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/articles/category/practice/",
+    "route": "/articles/category/practice/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Seven-card conduct, work, speech, precepts and patience collection routes readers to practical needs. Shared catalogue presentation is appropriate to its purpose.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/articles/category/reflection/",
+    "route": "/articles/category/reflection/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Seven-card contemplation, provenance, gratitude, attachment and forgiveness collection. Reading slowly with one question is suitable guidance for reflective essays.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/articles/",
+    "route": "/articles/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Complete searchable catalogue of 48 articles in five topic groups. All card titles and descriptions were reviewed across the category pages alongside the article bodies; editorial and learning notes explain how to choose.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+    "route": "/authors/echo-buddha-editorial/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Organizational byline explicitly not person, credential or multiperson-team claim. Editorial responsibilities and selected existing writing make profile useful without invented qualifications.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+    "route": "/buddhist-sources-and-citations/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Source hierarchy judged by claim fit; scripture/commentary/paraphrase/original explanation and translation rights distinguished. Does not imply all linked sources endorse publisher.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/contact/",
+    "route": "/contact/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Reader can route editorial/corrections versus technical/accessibility/privacy questions; explains useful correction inputs and no individualized counselling.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/corrections/",
+    "route": "/corrections/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Clear concern intake/classification/materialcorrection process and date semantics, without response deadline or fake external reviewers. Public correction note required for material trust changes.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/daily-reflections/",
+    "route": "/daily-reflections/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Complete archive of 30 reflections plus a date-selected prompt. All quote, meaning, practice and question fields were read through the detail bodies and full shared archive; catalogue reuse is intentional. Public thin-page language needed replacement.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/daily-reflections/today/",
+    "route": "/daily-reflections/today/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Stable UTC-day selector with permanent archive links, a random alternative and proportionate wellbeing note. All 30 shared cards match the archive. This intentionally noindex utility is not a claim of a newly published daily article.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/disclaimer/",
+    "route": "/disclaimer/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Proportionate educational, health and religious guidance boundaries; concrete stop/adapt/changeanchor choices and no unsafe reconciliation obligation.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/editorial-policy/",
+    "route": "/editorial-policy/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Accountable organizational publication, original writing, quote sources, review boundaries, AI limits, corrections and disabled advertising disclosed. Shared source hierarchy is purposeful policy reuse.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+    "route": "/how-echo-buddha-creates-content/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Concrete source-sensitive publication workflow and AI accountability; checks explicitly internal rather than monastic/academic/clinical certification.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/",
+    "route": "/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Clear learn/practice/live journey, four foundations, curated guides, handbook, daily reflection and source-aware questions. Minor About Editorial Team link wording risks implying team; profile itself is explicit.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-101/",
+    "route": "/learn/buddhism-101/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "An ordered foundation path accompanies the complete 19-lesson catalogue and source context. It explains the one-lesson purpose and offers useful next learning paths.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+    "route": "/learn/buddhism-for-beginners/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Substantial study hub maps understanding, ethics and attention, then offers question-specific routes, a seven-day orientation, tradition diversity, teacher discernment and a source/application boundary.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+    "route": "/learn/buddhist-dictionary/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Searchable catalogue of 14 terms has a simplified-definition boundary, related terms and source context. Lookup is clearly distinct from the course sequence.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-handbook/",
+    "route": "/learn/buddhist-handbook/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Eight existing chapters form a complete Part I sequence. Source layers, beginner and deeper-study pathways and chapter purposes are specific; it is not an unfinished placeholder library.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/buddhist-resources/",
+    "route": "/learn/buddhist-resources/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Curated text, meditation, dictionary, beginner, Sri Lankan and global resources are identified by role without universal endorsement. Internal text-study and source-standard paths add useful context.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+    "route": "/learn/dhammapada-reflections/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 2,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Five bounded source-aware reflection routes are explicitly not a replacement for translation study. Public-domain-safe wording was an unsupported rights assurance and needed removal.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/eightfold-path/",
+    "route": "/learn/eightfold-path/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "The broad owner covers eight factors, three trainings, the meaning of right and an integrated example. Canonical jh\u0101na and a beginner entry practice are distinguished; the tables intentionally reinforce prose.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/four-noble-truths/",
+    "route": "/learn/four-noble-truths/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "The broad owner distinguishes the four tasks, dukkha beyond obvious pain, cessation from brief calm and modern workplace application. It avoids victim blaming and labels source and editorial layers.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/",
+    "route": "/learn/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Learning sequence, lookup, source study and application routes clarify the library. Existing handbook chapters are presented as a complete sequence rather than promised future material.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+    "route": "/learn/questions-about-buddhism/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Ten introductory questions receive substantive answers and deeper links; seven historical and traditional questions are catalogued separately. Anyone-can-practice wording needed a suitability qualification.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+    "route": "/learn/sutta-for-daily-life/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Eight source-study and application routes retain traditional context without claiming to replace full translations. Source-aware reading is encouraged over collecting isolated quotations.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/meditation/",
+    "route": "/meditation/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Experience, method and difficulty select suitable short, beginner, anchor and adaptation routes. Safety and the wider Buddhist context of ethics and wisdom remain visible.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/meditation-guide/",
+    "route": "/meditation-guide/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Comprehensive reference distinguishes first-session route, posture/natural breath/returning/closing, durations, obstacles, five methods and habit cues; adapt/stop/qualifiedsupport explicit.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/meditation-safety/",
+    "route": "/meditation-safety/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Specific educational/non-treatment framing, stop/ground/anchor changes, trauma sensitivity, no reconciliation pressure and support boundaries. General emergency-resource instruction contains no invented contact.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/mindful-living/",
+    "route": "/mindful-living/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Practical speech/work/family/emotion/screens/grief/rest/relationships routing distinct from study sequence and method selector; contextual one-reflection doorway.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/privacy-policy/",
+    "route": "/privacy-policy/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Actual stated consent-first GA, stored preference, withdrawal and advertising disabled are specific. Legal adequacy and authenticated account settings are separate limitations.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quote-attribution-policy/",
+    "route": "/quote-attribution-policy/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Useful five attribution classes; exact traditional quote needs source/translator/rights while original reflection cannot borrow authority. Corrections path clear.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/awareness/",
+    "route": "/quotes/awareness/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Sixteen original quotes follow a naming, body, habit and thought reading path. Sati and overthinking links fit the collection; original attribution is explicit.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/compassion/",
+    "route": "/quotes/compassion/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 2,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Sixteen original quotes are sequenced through care, truth and limits. Teaching links fit, but the old latest-category article selection included unrelated language and temple pages; it needed theme-specific choices.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/impermanence/",
+    "route": "/quotes/impermanence/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 2,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Twelve original quotes move through observable change, gratitude and release with core-guide links. The old related cards incorrectly prioritized compassion, language and temple pages over existing impermanence articles.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/",
+    "route": "/quotes/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "The complete 153-quote collection explicitly distinguishes original editorial writing from Buddha quotations and scripture. Starting points, ten themes and search serve browsing; public Search-page justification needed reader-focused wording.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/letting-go/",
+    "route": "/quotes/letting-go/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Sixteen quotes distinguish care from control and include a practical prompt, grief, memory and boundaries. Attachment and relationship guides fit; related article choices can be more precise.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/meditation/",
+    "route": "/quotes/meditation/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Fourteen quotes move from breath and returning to restlessness, posture and repetition. Links to the practice hub, beginner instruction and breath method support the collection.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/mindfulness/",
+    "route": "/quotes/mindfulness/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Seventeen quotes connect direct attention with tasks, speech and distraction. Canonical-term, daily-practice and current mindfulness article links fit this theme.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/patience/",
+    "route": "/quotes/patience/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Thirteen quotes distinguish patience from passivity and suppression. A reply-pause prompt, safety guardrail and speech-oriented links make the collection practical.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/practice/",
+    "route": "/quotes/practice/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Fifteen quotes connect intention, choices, habits and work with path, daily practice and tools. Shared formatting supports collection reading rather than claiming a different doctrine on every card.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/renewal/",
+    "route": "/quotes/renewal/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Fifteen quotes organize repair, shame, hope and restarting. Forgiveness and daily-practice links are useful; follow-up articles should emphasize returning and repair over the latest broad-category entries.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/quotes/wisdom/",
+    "route": "/quotes/wisdom/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Nineteen quotes follow intention, consequence, speech, conflict and humility. Beginner, truths and Dhamma links fit; theme-specific article choices improve the next reading step.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/search/",
+    "route": "/search/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 2,
+      "informationGain": 2,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 4
+    },
+    "finding": "Focused search/recovery utility with examples, clear/noresults/browse routes; functional and focus behavior verified separately by root browser tests.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/start-here/",
+    "route": "/start-here/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Orienting chooser by learning/practice/one prompt; four-first-step sequence distinct from actual teaching hub. Later deeper-study and search options support returning readers.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/terms-of-use/",
+    "route": "/terms-of-use/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 2,
+      "informationGain": 2,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 4,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 4
+    },
+    "finding": "Concise website use/content sharing/no-guarantee/contact policy sufficient for stated utility. Historical image entitlements and jurisdiction-specific legal adequacy remain unverified separately.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  },
+  {
+    "url": "https://echobuddha.com/tools/",
+    "route": "/tools/",
+    "coverage": "all unique editorial text read; catalogue cards reviewed with their full shared source records and category/detail bodies",
+    "scores": {
+      "originality": 3,
+      "informationGain": 3,
+      "readerIntent": 4,
+      "accuracy": 3,
+      "depthCompleteness": 3,
+      "editorialQuality": 3,
+      "trustTransparency": 3,
+      "distinctiveness": 3
+    },
+    "finding": "Functional reflection/quote/timer/breath/challenge/glossary utility with usage guidance, no-login scope, safety and relevant next-reading. Behavior and privacy tests are separate technical evidence.",
+    "proposedAction": "retain purpose; address specifically recorded wording/link issues",
+    "evidenceDate": "2026-10-30",
+    "version": "post-root8-revision local build"
+  }
+]

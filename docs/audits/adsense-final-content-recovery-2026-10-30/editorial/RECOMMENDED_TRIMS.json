@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "buddhist-approach-to-anger",
+    "risk": "material repetition",
+    "removeHeadings": [
+      "The First Thirty Seconds",
+      "Understand Without Excusing",
+      "Speech Practice When Angry",
+      "A Reflection for Difficult Moments",
+      "Practical Examples in Daily Life",
+      "A Mindfulness Exercise",
+      "Continue the Path"
+    ],
+    "retain": "Keep Notice Anger in the Body First; Signal\u2013Story\u2013Urge\u2013Aim map; Do Not Feed the Inner Argument; Look Beneath Anger With Care; Respond Clearly Without Hatred; When a Pause Is Not Enough; Teaching and Editorial Scope; shared wellbeing/sources/FAQ. These already include body recognition, practical colleague example, boundaries, safety, source/application distinction.",
+    "reason": "A second explanation/exercise/link track repeats the same pause/body/causes/boundaries sequence after a complete substantive first track.",
+    "sourceFile": "src/data/site.ts"
+  },
+  {
+    "slug": "buddhist-gratitude-practice",
+    "risk": "material repetition in ending",
+    "removeHeadings": [],
+    "removeParagraphPrefixes": [
+      "Let the practice remain small enough to be truthful.",
+      "If the mind starts turning the exercise into a performance,",
+      "When practiced this way, gratitude is less about improving a mood",
+      "That memory can make gratitude quieter and more durable,"
+    ],
+    "retain": "Retain three-line instructions, meal/friend examples, gratitude-to-action examples and short one-line option; earlier Difficult Days already explicitly permits skipping. All source context, inequity/boundary distinctions retained.",
+    "reason": "Repeated simplification, relationship and quiet gratitude conclusions add little after the concrete exercise and examples.",
+    "sourceFile": "src/data/site.ts",
+    "removeParagraphs": [
+      "Let the practice remain small enough to be truthful. Gratitude that releases is lighter than gratitude that clings. It receives, responds, and lets the day pass.",
+      "If the mind starts turning the exercise into a performance, simplify it. One received thing, one condition behind it, one response. That is enough. The aim is not to produce a beautiful journal page; it is to train the heart to notice support and answer without grasping.",
+      "When practiced this way, gratitude is less about improving a mood and more about remembering relationship. The life that feels private is still supported by weather, food, labor, language, ancestors, teachers, strangers, and fragile conditions that deserve care.",
+      "That memory can make gratitude quieter and more durable, especially when a day has been difficult and appreciation must stay modest and honest tonight."
+    ],
+    "unmatchedPrefixes": []
+  },
+  {
+    "slug": "compassion-as-a-daily-discipline",
+    "risk": "material repetition",
+    "removeHeadings": [
+      "Compassion Is Trained in Ordinary Moments",
+      "A Reflection to Carry",
+      "Practical Examples in Daily Life",
+      "A Mindfulness Exercise",
+      "Continue the Path",
+      "A Small Practice for Today"
+    ],
+    "retain": "Keep Begin Close to Home; Practice With Speech; Let Compassion Include You; Compassion When You Disagree; Common Misunderstandings; A Daily Compassion Exercise; source/FAQ. The exercise and unique disagree scenario remain.",
+    "reason": "Repeated small conduct, speech, boundaries, restraint, apology and practice passages form several competing endings.",
+    "sourceFile": "src/data/site.ts"
+  },
+  {
+    "slug": "compassion-in-buddhism-beginner-guide",
+    "risk": "material repetition in tail",
+    "removeHeadings": [
+      "Compassion as a Daily Discipline"
+    ],
+    "retain": "Keep definition/karuna/pity/rescuing; beginner speech and self-compassion; Common Misunderstandings; one compassionate wish; boundaries with concrete phrase; difficult-person practice with mildly-difficult start and opt-out.",
+    "reason": "Tail daily-discipline material repeats nearby Seeing, Self-Compassion, Difficult Conversations and Difficult People; the dedicated daily-discipline URL also owns repeated-conduct intent.",
+    "sourceFile": "src/data/site.ts"
+  },
+  {
+    "slug": "equanimity-in-buddhism",
+    "risk": "focused optional condensation",
+    "removeHeadings": [],
+    "removeParagraphPrefixes": [
+      "This quietness makes equanimity easy to overlook.",
+      "For readers who fear becoming detached, this is the reassurance:",
+      "This is why equanimity can be practiced in conversation"
+    ],
+    "retain": "Keep full AN8.6 source anchor, pleasant/unpleasant conditions, care-not-numbness contrast, praise/blame example, practical worldly-winds review and first three Quiet Strength paragraphs.",
+    "reason": "Final three paragraphs restate no-numbness, less-reactivity and quiet-restraint points already established, rather than adding another reader task.",
+    "sourceFile": "src/data/site.ts",
+    "removeParagraphs": [
+      "This quietness makes equanimity easy to overlook. Many people notice the dramatic reaction more than the wise restraint that prevented harm. Buddhist practice values the restraint anyway. A harsh reply not sent, a compliment not clung to, a loss met without self-pity becoming cruelty: these are not empty moments. They are the path becoming visible in ordinary conditions.",
+      "For readers who fear becoming detached, this is the reassurance: equanimity does not remove love from life. It removes some of the panic around love, the possessiveness around success, and the despair around loss. What remains can be more reliable than emotional intensity because it is less dependent on conditions behaving exactly as hoped.",
+      "This is why equanimity can be practiced in conversation before it is mastered in crisis. Let one pleasant word be pleasant. Let one unpleasant word be known. Then choose the next response from values rather than from the strongest gust."
+    ],
+    "unmatchedPrefixes": []
+  },
+  {
+    "slug": "dhammapada-reflection-what-we-think",
+    "risk": "focused optional condensation",
+    "removeHeadings": [
+      "How This Reflection Supports Daily Choices"
+    ],
+    "retain": "Keep unique attribution/provenance method, original-vs-translation boundary, no victim-blame caveats, one thought-tracking exercise and daily intention alternative.",
+    "reason": "Final daily-choices/review reprises intention and thought-tracking methods; popular-paraphrase reader intent is stronger without another generic closing practice track.",
+    "sourceFile": "src/data/site.ts"
+  },
+  {
+    "slug": "how-to-meditate-for-anxiety",
+    "sourceFile": "src/data/site.ts",
+    "risk": "material repetition",
+    "removeHeadings": [
+      "Practical Examples in Daily Life",
+      "A Mindfulness Exercise",
+      "Continue the Path"
+    ],
+    "retain": "Ground-first, easy exhale, thoughts-as-thoughts, short-supportive framing; complete five-minute practice; what-not-to-do; daytime use; More Support; shared wellbeing and sources. All requested safety boundaries already remain.",
+    "reason": "Final three blocks repeat feet/hands/sounds anchors, eyes-open/walk/stop permission and the exact related links after those have been completely explained."
+  },
+  {
+    "slug": "mindfulness-for-better-sleep",
+    "sourceFile": "src/data/site.ts",
+    "risk": "material repetition",
+    "removeHeadings": [
+      "A Gentle Evening Practice",
+      "Create a Transition Ritual",
+      "Practical Examples in Daily Life",
+      "A Mindfulness Exercise",
+      "Continue the Path"
+    ],
+    "retain": "First complete transition/body-scan/thoughts/wakeful-night sequence; common-mistakes paragraph; shared wellbeing/FAQ/source. Existing first sections cover optional natural breath, not forcing sleep, persistent sleep problems and medical support.",
+    "reason": "Second body scan and second30-minute ritual closely repeat first versions; later practical/example/continue blocks repeat them a third time."
+  }
+]

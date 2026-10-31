@@ -1,0 +1,30 @@
+{
+  "build": "existing local dist; verify release identity separately",
+  "pages": 351,
+  "types": {
+    "error": 1,
+    "trustOrUtility": 16,
+    "article": 48,
+    "articleCategory": 5,
+    "articleHub": 1,
+    "dailyReflection": 30,
+    "dailyHub": 1,
+    "todayReflection": 1,
+    "homepage": 1,
+    "learningDetail": 61,
+    "learningHub": 11,
+    "meditationDetail": 9,
+    "meditationHub": 1,
+    "quoteStory": 153,
+    "quoteCategory": 10,
+    "quoteHub": 1,
+    "tools": 1
+  },
+  "indexability": {
+    "noindex": 186,
+    "indexable": 165
+  },
+  "sitemapMembership": 165,
+  "repeatedParagraphGroups": 123,
+  "warning": "Extraction and repetition diagnostics do not establish source accuracy, reader usefulness or human review."
+}
