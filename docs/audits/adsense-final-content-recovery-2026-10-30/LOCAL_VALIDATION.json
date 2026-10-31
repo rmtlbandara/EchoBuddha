@@ -147,5 +147,12 @@
   "fullMatrixRouteHashDeltaAfterToolsFix": [
     "tools/index.html"
   ],
-  "stagedTrustAndSecretScan": "PASS"
+  "stagedTrustAndSecretScan": "PASS",
+  "topicGuideBrowser": {
+    "engine": "chromium",
+    "cases": 24,
+    "sourceCorrectionDateVisible": "2026-10-30 on Five Precepts",
+    "unchangedReferenceTableDate": "2026-10-23 retained",
+    "status": "PASS"
+  }
 }

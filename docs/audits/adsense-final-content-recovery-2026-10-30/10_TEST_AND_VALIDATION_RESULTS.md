@@ -25,3 +25,5 @@ The initial Tools mobile case measured accessibility96 and exposed a real target
 - New CSV files were normalized to repository LF endings; content and evidence values were preserved.
 
 Retained logs and recorded findings distinguish corrections from final passing runs. Complete machine-readable local evidence is in LOCAL_VALIDATION.json. Transient logs/screenshots/raw Lighthouse output remain ignored. Hosted CI and actual production smoke/crawl/parity are separate evidence in11.
+
+The topic-guide browser suite also passed24 Chromium cases (eight guides at desktop/tablet/mobile). It retains the October23 reference-table date assertion and additionally checks that the Five Precepts overall October30 source-correction date is visible. No older source date was changed merely to satisfy a test.

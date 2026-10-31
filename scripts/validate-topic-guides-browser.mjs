@@ -39,7 +39,12 @@ for (const name of (process.env.BROWSER_ENGINES || "chromium,firefox,webkit").sp
         if (updated) {
           assert.equal(await page.locator("table caption").count(), 1, route);
           assert.ok(await page.locator('th[scope="row"]').count() > 0, route);
-          assert.equal(await page.locator('time[datetime="2026-10-23"]').count(), 1, route);
+          assert.equal(await page.locator('time[datetime="2026-10-23"]').count(), 1, `${route}: existing reference-table date`);
+          if (route === "/learn/buddhism-101/five-precepts-buddhism/") {
+            const updatedDate = page.locator('time[datetime="2026-10-30"]');
+            assert.equal(await updatedDate.count(), 1, `${route}: approved source correction date`);
+            assert.equal(await updatedDate.isVisible(), true, `${route}: source correction date visible`);
+          }
           assert.ok(await page.locator(".topic-guide h3").count() > 0, route);
           // The scrollable table remains keyboard reachable even at 200% text zoom.
           await page.locator(".table-scroll").focus();
