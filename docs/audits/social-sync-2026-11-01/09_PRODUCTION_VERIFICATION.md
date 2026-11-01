@@ -21,3 +21,5 @@ Current main branch protection was read live: both stable checks required, stric
 Optional separate full dist artifact download stalled and was terminated; compact deployment evidence and immutablemanifest were downloaded. Workflow verifies allfiles beforedeploy; independentlive parity proves servedHTML/assets. No claim of a successful separatefull dist download.
 
 Prior verifiedfallback: `c3133c88696639a6e8366365e0944f90fe15619a`,Cloudflareversion`8d61972c-8bb1-480a-8518-1558bf04724b`. No rollback performed. Future documentation-only evidence merges do not change the servingapplication identity above or reset the content-observation window.
+
+All five exact footer profile destinations were independently opened in browsers. Pinterest, YouTube and corrected Medium render Echo Buddha profiles; Facebook and Instagram render their verified official content. Anonymous Facebook viewing still shows its normal login invitation. Search-fetch throttling/403 responses were not treated as broken profile links.

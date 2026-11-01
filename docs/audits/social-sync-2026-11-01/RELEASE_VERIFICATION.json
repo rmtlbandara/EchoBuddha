@@ -143,11 +143,20 @@
       "EchoBuddha-Short-01"
     ],
     "committedSchedules": 0,
-    "instagramAccountStatus": "No reach limits; eligible for Explore/Reels/feed recommendations; all three status sections checkmarked."
+    "instagramAccountStatus": "No reach limits; eligible for Explore/Reels/feed recommendations; all three status sections checkmarked.",
+    "instagramNumericMediaId": "17954494611297768",
+    "finalScheduledInventory": "No scheduled posts"
   },
   "routing": {
     "wwwStatus": 301,
     "wwwLocation": "https://echobuddha.com/",
     "canonicalHomepageStatus": 200
+  },
+  "externalProfiles": {
+    "Pinterest": "Correct Echo Buddha profile rendered",
+    "YouTube": "Echo Buddha @EchoBuddha,3 public videos rendered",
+    "Facebook": "Correct Page/Public Reel; anonymous login prompt noted",
+    "Instagram": "Correct public profile and Reel, signed-out playback verified",
+    "Medium": "Correct Echo Buddha profile rendered at exact approved lowercase URL"
   }
 }

@@ -31,16 +31,18 @@
       "title": "The Angriest Text You'll Never Send",
       "mediaSha256": "abb86e7ab2fb3e30b1caddad91086f0b95d24460b3a7afb47d7bc8d85d4cb2e4",
       "destinationPlatform": "Instagram",
-      "destinationPostId": "DfLwzDBktBV",
+      "destinationPostId": "17954494611297768",
       "destinationUrl": "https://www.instagram.com/reel/DfLwzDBktBV/",
       "status": "PUBLISHED_VERIFIED",
       "preparedAt": "2026-11-01T03:25:39.737211+00:00",
       "captionReference": "instagram-episode-03-caption.txt",
       "articleUrl": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
       "preflight": "Profile zero posts. Instagram-only explicit destination; no Facebook crosspost. Clean 1080x1920 original and approved cover; distinct caption includes synthetic narration disclosure. Native AI control to inspect after publication as Suite does not expose it.",
-      "verifiedAt": "2026-11-01T03:40:23.854583+00:00",
+      "verifiedAt": "2026-11-01T03:46:36.813310+00:00",
       "verificationNotes": "Canonical public Reel reopened independently. Native AI switch saved On, public AI content badge visible. 52.885333s transcode, playback advanced >31s; native volume slider set84%, muted=false, no media error. Separate signed-out browser renders same account/caption/AI badge and video advanced49.3s. Not a trial Reel. No duplicate Facebook crosspost.",
-      "evidenceReference": ".artifacts/social-sync-2026-11-01/instagram-episode-03-live.jpg"
+      "evidenceReference": ".artifacts/social-sync-2026-11-01/instagram-episode-03-live.jpg",
+      "destinationShortcode": "DfLwzDBktBV",
+      "inventoryEvidence": "Final Suite Instagram Feed published table contains exactly this Reel; Scheduled tab reports No scheduled posts."
     },
     {
       "sourcePlatform": "Facebook",
@@ -82,5 +84,5 @@
     }
   ],
   "rule": "Before upload reconcile source fingerprint, destination post ID and live inventory. Never repeat ambiguous publication.",
-  "reconciledAt": "2026-11-01T03:40:23.854583+00:00"
+  "reconciledAt": "2026-11-01T03:46:36.813310+00:00"
 }
