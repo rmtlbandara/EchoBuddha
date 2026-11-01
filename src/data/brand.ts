@@ -1,17 +1,20 @@
-// Public profiles approved by the publisher in the official social-links release (#52).
+// Canonical publisher identities, updated by the owner-authorized November 2026 social release.
 export const OFFICIAL_SOCIAL_PROFILES = [
   { label: "Facebook", href: "https://www.facebook.com/EchoBuddha/" },
-  { label: "Medium", href: "https://medium.com/@echo_buddha" },
+  { label: "Medium", href: "https://medium.com/@echobuddha" },
   { label: "Pinterest", href: "https://www.pinterest.com/echobuddha/" },
+  { label: "YouTube", href: "https://www.youtube.com/@EchoBuddha" },
+  { label: "Instagram", href: "https://www.instagram.com/echobuddha/" },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/echobuddha/" }
 ] as const;
 
-// Footer presentation is independent of the publisher's established sameAs identities.
-const [facebook, medium, pinterest] = OFFICIAL_SOCIAL_PROFILES;
+// Footer order shares the canonical URLs; the established LinkedIn identity remains in sameAs.
+const [facebook, medium, pinterest, youtube, instagram] = OFFICIAL_SOCIAL_PROFILES;
 export const FOOTER_SOCIAL_PROFILES = [
   pinterest,
-  { label: "YouTube", href: "https://www.youtube.com/@EchoBuddha" },
+  youtube,
   facebook,
+  instagram,
   medium
 ] as const;
 

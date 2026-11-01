@@ -40,7 +40,15 @@ test("publisher entities use one identity and accurate logo dimensions", async (
       assert.equal(node.logo?.url, "https://echobuddha.com/images/publisher-logo.png", file);
       assert.equal(node.logo?.width, 512, file);
       assert.equal(node.logo?.height, 512, file);
-      assert.equal(node.sameAs?.length, 4, file);
+      assert.deepEqual(node.sameAs, [
+        "https://www.facebook.com/EchoBuddha/",
+        "https://medium.com/@echobuddha",
+        "https://www.pinterest.com/echobuddha/",
+        "https://www.youtube.com/@EchoBuddha",
+        "https://www.instagram.com/echobuddha/",
+        "https://www.linkedin.com/company/echobuddha/"
+      ], file);
+      assert.equal(new Set(node.sameAs).size, node.sameAs.length, file);
     }
     for (const value of Object.values(node)) {
       if (Array.isArray(value)) value.forEach((item) => inspect(item, file));

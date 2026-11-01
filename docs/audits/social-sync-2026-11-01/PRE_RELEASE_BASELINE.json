@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "baselineSha": "646d3951b849969c109362bd86fa5b4127f904d7",
+  "authorizedOn": "2026-11-01",
+  "authorization": "Project owner: pls go with this, adopting the unified social publishing and website release brief with explicit publish, test, merge, deploy authorization.",
+  "applicationFiles": {
+    "src/components/Footer.astro": "9aab0f256db6edc514bfedc24c2d8a91c0ff42523d97afe7c5af449a2b50a8d3",
+    "src/data/brand.ts": "022c6c9de61345faf7d2ba0dac65509bdb8cc3e2e26269f5a2d884836d25f862"
+  },
+  "historicalInterventions": [
+    {
+      "id": "production-transformation-2026-10-23",
+      "sha256": "69fa88765a6cbbef30a2fc91193697f1fdec16e5ce42aeb8d4784b5cc125250f"
+    },
+    {
+      "id": "october-audit-remediation-2026-10-27",
+      "sha256": "352d11601ba6940dbb9f7c195979b1010b4a3417853d90ea36c9f29f4bdf9c0a"
+    },
+    {
+      "id": "footer-social-icons-2026-10-29",
+      "sha256": "557352ad0d2b8799f15dfa057702de925922d8bed7829e605834a99d574dee30"
+    },
+    {
+      "id": "adsense-final-content-recovery-2026-10-30",
+      "sha256": "dab02e5b6ed9a211e0d2e4fe321b8a9ffca430140d1d4bdffaa11b51eb7a15b0"
+    }
+  ],
+  "scope": "Add Instagram directly before Medium, correct official Medium URL, synchronize existing publisher sameAs, preserve established LinkedIn identity and other site behavior."
+}

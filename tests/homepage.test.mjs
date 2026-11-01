@@ -51,7 +51,8 @@ test("global footer exposes accessible branded icons in the requested platform o
     ["Pinterest", "https://www.pinterest.com/echobuddha/"],
     ["YouTube", "https://www.youtube.com/@EchoBuddha"],
     ["Facebook", "https://www.facebook.com/EchoBuddha/"],
-    ["Medium", "https://medium.com/@echo_buddha"]
+    ["Instagram", "https://www.instagram.com/echobuddha/"],
+    ["Medium", "https://medium.com/@echobuddha"]
   ];
   const social = homepage.match(/<nav class="footer-social" aria-labelledby="footer-social-heading"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
   assert.ok(social);
@@ -75,14 +76,16 @@ test("global footer exposes accessible branded icons in the requested platform o
   assert.doesNotMatch(social, /LinkedIn|linkedin|↗/);
 });
 
-test("footer presentation preserves existing publisher structured-data identities", () => {
+test("publisher structured data uses the corrected canonical social identities without duplicates", () => {
   const schemas = [...homepage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
     .flatMap((match) => JSON.parse(match[1]));
   const publisher = schemas.find((schema) => schema["@type"] === "Organization");
   assert.deepEqual(publisher.sameAs, [
     "https://www.facebook.com/EchoBuddha/",
-    "https://medium.com/@echo_buddha",
+    "https://medium.com/@echobuddha",
     "https://www.pinterest.com/echobuddha/",
+    "https://www.youtube.com/@EchoBuddha",
+    "https://www.instagram.com/echobuddha/",
     "https://www.linkedin.com/company/echobuddha/"
   ]);
 });
