@@ -17,7 +17,9 @@ export type BuddhistQuestionSource = {
     | "Museum / art history"
     | "Cultural heritage / history"
     | "Historical Buddhist travel record"
-    | "Academic / historical scholarship";
+    | "Academic / historical scholarship"
+    | "Theravāda canonical scholastic text"
+    | "Sri Lankan Buddhist practice";
   note: string;
 };
 
@@ -28,7 +30,7 @@ export type BuddhistQuestionSection = {
 };
 
 export type BuddhistQuestion = {
-  number: 1 | 2 | 3 | 4 | 5 | 6 | 7;
+  number: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
   slug: string;
   title: string;
   seoTitle: string;
@@ -991,6 +993,282 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     previous: {
       label: "Question 6: What Does Appaṭimo Mean for Buddha Images?",
       href: `${questionsPath}/appatimo-and-buddha-images/`
+    },
+    next: {
+      label: "Question 8: Did Buddhist Teachers Always Agree About Venerating Buddha Images?",
+      href: `${questionsPath}/did-buddhists-agree-on-image-veneration/`
+    }
+  },
+  {
+    number: 8,
+    slug: "did-buddhists-agree-on-image-veneration",
+    title: "Did Buddhist Teachers Always Agree About Venerating Buddha Images?",
+    seoTitle: "Did Buddhists Always Agree on Image Veneration? | Echo Buddha",
+    description:
+      "Did Buddhist teachers always agree about Buddha-image veneration? Explore the Kathāvatthu, historical silence, later Theravāda sources, and what the evidence can actually show.",
+    eyebrow: "Question 8",
+    publishedDate: "2026-11-01",
+    modifiedDate: "2026-11-01",
+    intro:
+      "Buddhist history contains plenty of disagreement. The harder question is whether silence about one subject can be treated as proof that everyone agreed.",
+    takeaway:
+      "The <i>Kathāvatthu</i> preserves more than two hundred disputed points of Buddhist doctrine, yet no explicit controversy about venerating Buddha images was located among the disputes and indexes examined. That silence does not prove unanimity. Its traditional chronology also predates the securely attested human-form image traditions discussed in Q7. Later Theravāda commentaries provide more relevant evidence: they treat Buddha images as familiar sacred objects. The defensible conclusion is broad later acceptance, not universal agreement in every school, place, or period.",
+    shortAnswer: [
+      "No surviving source allows us to say with confidence that every learned Buddhist agreed about Buddha-image veneration.",
+      "The <i>Kathāvatthu</i> is real evidence of extensive Buddhist disagreement: it debates more than two hundred disputed doctrinal points. A search of its Pāli text and standard English translation found references to shrines and acts of reverence, but no controverted point whose subject is Buddha-image veneration.",
+      "That finding must remain narrow. The text did not set out to catalogue every ritual custom or opinion, and its traditional third-century-BCE setting is earlier than the secure material record for human-form Buddha images. Later commentaries treating images as established devotional objects support widespread normalization within Theravāda culture more strongly than the earlier silence supports universal consensus."
+    ],
+    sections: [
+      {
+        heading: "What the Kathāvatthu Was Trying to Do",
+        paragraphs: [
+          "The <i>Kathāvatthu</i>, the fifth book of the Theravāda Abhidhamma Piṭaka, is a scholastic debate text. Theravāda tradition attributes it to Moggaliputta Tissa in the third century BCE. Its question-and-answer arguments test disputed propositions and defend Theravāda positions against alternatives.",
+          "The Pali Text Society describes more than two hundred disputed points in the work. That makes it an important record of doctrinal controversy, but not a transcript of every disagreement ever voiced by every Buddhist community. Its purpose was not to inventory all ritual customs, artistic practices, or temple conventions."
+        ]
+      },
+      {
+        heading: "What the Text Search Did—and Did Not—Find",
+        paragraphs: [
+          "The accessible Pāli text and the standard English translation were searched for terms connected with images, shrines, worship, homage, and veneration. The text does discuss <i>cetiya</i> or shrines in several arguments—for example, whether a person in a particular state might salute or circumambulate a shrine.",
+          "Those passages do not make the legitimacy of Buddha-image veneration the disputed proposition. No explicit controversy about Buddha-image veneration was located among the <i>Kathāvatthu</i> disputes examined or in the consulted contents and indexes.",
+          "This is a research finding with a boundary, not proof that no disagreement ever existed. It says what was not located in this corpus; it does not turn an omission into the opinion of every Buddhist."
+        ]
+      },
+      {
+        heading: "Why Silence Is Not the Same as Consensus",
+        paragraphs: [
+          "Meeting minutes show what was recorded as being argued at a meeting. They cannot establish that every unmentioned subject was unanimously settled by everyone present, absent, or living elsewhere. A polemical text has the same basic limit.",
+          "The absence of an image-veneration controversy from the <i>Kathāvatthu</i> is worth noting. It may tell us about the disputes selected for treatment. It cannot by itself prove agreement among every teacher, school, arahant, region, and century."
+        ]
+      },
+      {
+        heading: "The Timing Changes the Question",
+        paragraphs: [
+          "The traditional setting of the <i>Kathāvatthu</i> is centuries earlier than the securely datable human-form Buddha images now known from Gandhāra and Mathurā. As <a href=\"/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/\">Q7 explains</a>, those image traditions are clearly visible in the surviving record by the early centuries CE.",
+          "If the later institution of Buddha-image devotion had not yet taken the form documented in subsequent centuries, its absence from an earlier debate text would not be surprising. This chronology limits the argument from silence; it does not prove that no earlier image could ever have existed."
+        ]
+      },
+      {
+        heading: "What Later Theravāda Sources Do Show",
+        paragraphs: [
+          "Later Pāli commentaries give evidence closer to the actual practice in question. The commentary to MN 142 discusses a relic-bearing image in a post-Parinibbāna giving context. The commentary to MN 115 refers to an image alongside a relic stupa when discussing a Bodhi branch that obstructs one of them.",
+          "In both cases, the basic existence of Buddha images is assumed rather than introduced as a shocking novelty. These passages support a modest but useful conclusion: images had become normalized sacred objects in the Theravāda religious culture represented by the extant commentaries.",
+          "They still do not establish that every Theravādin agreed about every image, ritual, or explanation. Later normalization and universal unanimity are different historical claims."
+        ]
+      },
+      {
+        heading: "Was Image Veneration Widely Accepted?",
+        paragraphs: [
+          "Yes, in the historically modest sense. Across Buddhist Asia, images became durable focuses of devotion, teaching, pilgrimage, temple life, and artistic patronage. Museum evidence documents major human-form traditions in Gandhāra and Mathurā, followed by many regional forms.",
+          "Wide practice does not logically mean that every Buddhist everywhere agreed about every aspect of it. The evidence supports broad historical adoption without requiring an impossible census of belief."
+        ]
+      },
+      {
+        heading: "A More Honest Conclusion",
+        paragraphs: [
+          "The religious meaning of Buddha images does not depend on proving that every Buddhist teacher who ever lived expressed the same view. A practice can be deeply rooted, widely transmitted, and meaningful without imagined unanimity.",
+          "Q1 asks whether statues were commanded; <a href=\"/learn/questions-about-buddhism/appatimo-and-buddha-images/\">Q6</a> asks how representation works without exact duplication; Q7 asks when human-form images become securely visible. Q8 owns the narrower historical-consensus question.",
+          "We have good evidence that Buddha images became an established part of Buddhist devotional life. We do not have evidence that every learned Buddhist, in every place and period, agreed without exception."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha analysis of a historical argument from silence. It distinguishes the Kathāvatthu’s recorded disputes, the limits of its traditional chronology and purpose, later Theravāda commentarial practice, and art-historical evidence of broad adoption.",
+    sources: [
+      {
+        label: "Kathāvatthu: 2 Volume Set — Pali Text Society",
+        href: "https://palitextsociety.org/product/kathavatthu-2-volume-set/",
+        sourceType: "Theravāda canonical scholastic text",
+        note: "Supports the bibliographic claims that the Kathāvatthu is the fifth Theravāda Abhidhamma book, is traditionally attributed to Moggaliputta Tissa in the third century BCE, and debates more than 200 disputed points. Omission from the work is not treated as proof of universal agreement."
+      },
+      {
+        label: "Kathāvatthu Pāli text and contents — SuttaCentral",
+        href: "https://suttacentral.net/kv",
+        sourceType: "Theravāda canonical scholastic text",
+        note: "Used for direct term and contents checks. Shrine and homage language occurs in several arguments, but no controverted point specifically about Buddha-image veneration was located in the consulted text and index search."
+      },
+      {
+        label: "Dakkhiṇāvibhaṅgasuttavaṇṇanā (commentary to MN 142) — Chaṭṭha Saṅgāyana Tipiṭaka",
+        href: "https://tipitaka.org/romn/cscd/s0203a.att3.xml",
+        sourceType: "Theravāda commentary",
+        note: "Provides a later practical reference to a relic-bearing image in an explicitly post-Parinibbāna context. It supports later normalization, not universal ancient agreement."
+      },
+      {
+        label: "Bahudhātukasuttavaṇṇanā (commentary to MN 115) — Chaṭṭha Saṅgāyana Tipiṭaka",
+        href: "https://tipitaka.org/romn/cscd/s0203a.att1.xml",
+        sourceType: "Theravāda commentary",
+        note: "Refers matter-of-factly to an image alongside a relic stupa in a practical monastic discussion. It establishes later commentarial familiarity, not the beliefs of every Buddhist."
+      },
+      {
+        label: "Buddhism and Buddhist Art — The Metropolitan Museum of Art",
+        href: "https://www.metmuseum.org/essays/buddhism-and-buddhist-art",
+        sourceType: "Museum / art history",
+        note: "Supports the secure material chronology and the wide later development of human-form Buddha imagery, especially in Gandhāra and Mathurā. Wide historical adoption is not equated with unanimity."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "When Did Buddha Statues First Appear?",
+        href: `${questionsPath}/when-did-buddha-statues-first-appear/`,
+        description: "Compare the secure material record with later lifetime-image traditions and Theravāda commentary."
+      },
+      {
+        label: "Did the Buddha Order Buddha Images?",
+        href: `${questionsPath}/did-buddha-order-buddha-images/`,
+        description: "Keep historical consensus separate from the question of an early recorded command."
+      },
+      {
+        label: "What Does Appaṭimo Mean for Buddha Images?",
+        href: `${questionsPath}/appatimo-and-buddha-images/`,
+        description: "See why representation need not claim to be an exact physical duplicate."
+      }
+    ],
+    relatedTerms: ["Kathāvatthu", "Buddha-image veneration", "Theravāda commentary", "Gandhāra", "Mathurā", "historical consensus"],
+    searchTerms: ["Buddhist image veneration", "Kathāvatthu Buddha image", "Buddhist disagreement", "Buddha statue worship", "Theravāda image devotion", "Buddhist historical consensus"],
+    previous: {
+      label: "Question 7: When Did Buddha Statues First Appear?",
+      href: `${questionsPath}/when-did-buddha-statues-first-appear/`
+    },
+    next: {
+      label: "Question 9: Which Cetiya Gives More Merit?",
+      href: `${questionsPath}/which-cetiya-gives-more-merit/`
+    }
+  },
+  {
+    number: 9,
+    slug: "which-cetiya-gives-more-merit",
+    title: "Which Brings More Merit: Relics, a Bodhi Tree, or a Buddha Image?",
+    seoTitle: "Which Cetiya Gives More Merit? | Echo Buddha",
+    description:
+      "Which brings more merit: venerating relics, a Bodhi tree, or a Buddha image? Explore Theravāda cetiya traditions, ritual precedence, intention, and kamma.",
+    eyebrow: "Question 9",
+    publishedDate: "2026-11-01",
+    modifiedDate: "2026-11-01",
+    intro:
+      "Theravāda tradition gives different kinds of sacred objects different relationships to the Buddha. That does not automatically turn them into a fixed scale for measuring merit.",
+    takeaway:
+      "In the Sri Lankan Theravāda practice described by A.G.S. Kariyawasam, a relic-containing dagaba comes first in the traditional order of worship, followed by objects associated with the Buddha and commemorative forms such as images. That order expresses ceremonial precedence and kinds of connection; it is not a karmic points table. AN 6.63 makes intention central to kamma, while AN 6.37 shows that the donor’s mind and qualities associated with the recipients matter in a highly fruitful gift. The cetiya category alone cannot calculate the fruit of one person’s act.",
+    shortAnswer: [
+      "If ‘greater’ means traditional ceremonial precedence in the Sri Lankan practice described by Kariyawasam, bodily relics come first.",
+      "If it means that one category always produces more merit regardless of intention, understanding, conduct, or state of mind, the sources do not give such a rule. The three categories describe different relationships with the Buddha: bodily remains, objects associated with use or presence, and commemorative or representational forms.",
+      "Those differences matter, but merit is not stored inside bone, wood, stone, or metal. AN 6.63 and AN 6.37 help explain why intention and the quality of an act matter, although neither discourse directly ranks cetiyas."
+    ],
+    sections: [
+      {
+        heading: "Three Questions Hidden Inside ‘Which Is Greater?’",
+        paragraphs: [
+          "A comparison of cetiyas can ask at least three things: which category receives greater ceremonial precedence, which has the more direct physical connection with the Buddha, and how much merit a particular person’s act produces.",
+          "The answers are related but not identical. A ritual tradition can place one object first without claiming that the object mechanically determines every karmic result."
+        ],
+        points: [
+          "<strong>Ceremonial precedence</strong> — the order in which sacred objects are traditionally approached and honored.",
+          "<strong>Physical connection</strong> — whether the object consists of bodily relics, is associated with use or presence, or represents the Buddha.",
+          "<strong>Individual merit</strong> — the wholesome quality and fruit of a particular intentional act."
+        ]
+      },
+      {
+        heading: "Why Relics Often Come First",
+        paragraphs: [
+          "Kariyawasam’s account of Sri Lankan temple practice says that the first object of worship is a dagaba containing the Buddha’s bone relics. It then describes three categories approached in due order: <i>Sārīrika</i>, <i>Pāribhogika</i>, and <i>Uddesika</i>.",
+          "Bodily relics have the most direct physical relationship to the Buddha’s body. That helps explain their exceptional ceremonial honor. It does not follow that physical proximity alone fixes the karmic fruit of every person’s act.",
+          "This is a description of Sri Lankan Buddhist practice, not a universal rule imposed on every Buddhist culture."
+        ]
+      },
+      {
+        heading: "What About the Bodhi Tree and Other Pāribhogika Forms?",
+        paragraphs: [
+          "<i>Pāribhogika Cetiya</i> refers to objects or places associated with the Buddha’s use, presence, or life. The Bodhi tree carries an especially powerful connection with awakening and, in the later Jetavana account, with a living line propagated from the great Bodhi tree.",
+          "That different relationship does not make Bodhi-tree devotion second-rate. It explains why its symbolism differs from a bodily relic. <a href=\"/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/\">Q5 examines the Bodhi tree’s distinctive memorial role</a> without turning it into a merit score."
+        ]
+      },
+      {
+        heading: "And What About a Buddha Image?",
+        paragraphs: [
+          "A Buddha image functions representationally. Its meaning does not depend on being made from the Buddha’s body or being an object he personally used. It can support recollection, confidence, gratitude, contemplation of awakening, and respectful devotion.",
+          "The later cetiya framework commonly treats such a representation as <i>Uddesika</i>. <a href=\"/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/\">Q3 explains the wider category</a>, while <a href=\"/learn/questions-about-buddhism/appatimo-and-buddha-images/\">Q6 explains why representation does not require exact duplication</a>."
+        ]
+      },
+      {
+        heading: "Merit Is Not Stored Inside the Object",
+        paragraphs: [
+          "A sacred object can carry real religious meaning. A relic can have a uniquely direct connection; a Bodhi tree can carry lineage and awakening associations; an image can provide a visual focus for recollection. The object is not irrelevant.",
+          "But merit is not a substance stored in bone, wood, stone, or metal and released at a fixed rate. The moral and karmic quality of an act cannot be read from the material in front of the practitioner alone.",
+          "The opposite claim would also go too far. The sources do not say that every act before every cetiya always produces exactly the same merit. They show why object category is only part of the picture."
+        ]
+      },
+      {
+        heading: "What the Early Discourses Add",
+        paragraphs: [
+          "AN 6.63 says that intention is what the Buddha calls kamma: after choosing, a person acts through body, speech, or mind. This makes the inner direction of an act central, but the discourse does not discuss or rank cetiyas.",
+          "AN 6.37 describes a gift with six factors. The donor is glad beforehand, confident while giving, and uplifted afterward. The recipients are free from greed, hatred, and delusion, or practicing for their removal. The merit of such a gift is described as not easily measured.",
+          "AN 6.37 concerns giving to recipients, not worship before three kinds of memorial. It is relevant because it shows that both the giver’s mind and qualities connected with the field of giving matter. Neither AN 6.37 nor AN 6.63 is a three-cetiya ranking chart."
+        ]
+      },
+      {
+        heading: "All Three Can Point Toward the Same Buddha",
+        paragraphs: [
+          "The forms differ, yet devotion through all three can direct recollection toward the Buddha, awakening, wisdom, compassion, freedom from greed, hatred, and delusion, and gratitude for the teaching.",
+          "A physical cetiya is not literally a living recipient. The more precise point is that each form can serve as a devotional reference to the Buddha through a different material relationship."
+        ]
+      },
+      {
+        heading: "A Better Question for Practice",
+        paragraphs: [
+          "Instead of asking only which object gives the highest return, a practitioner can ask: Why am I doing this? What am I recollecting? Is the mind clear or mechanical? Does the act strengthen gratitude, generosity, ethical conduct, or wisdom? Does devotion continue after leaving the shrine?",
+          "A relic shrine may stand first in a traditional order of reverence, but merit is not a leaderboard attached to sacred objects. The object matters; so do intention, understanding, and the quality of mind brought to the act."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha explanation distinguishing Sri Lankan ritual precedence, physical relationship to the Buddha, and the karmic quality of an individual act. The early discourses are used for principles of intention and giving, not as a cetiya ranking table.",
+    sources: [
+      {
+        label: "Nibbedhika Sutta (AN 6.63) — SuttaCentral",
+        href: "https://suttacentral.net/an6.63/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Supports the principle that intention is central to kamma. The discourse does not discuss or rank relics, Bodhi trees, and Buddha images."
+      },
+      {
+        label: "A Gift With Six Factors (AN 6.37) — SuttaCentral",
+        href: "https://suttacentral.net/an6.37/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Supports the donor’s gladness before, confidence during, and uplift after giving; the recipients’ relation to greed, hatred, and delusion; and the description of merit as immeasurable. It concerns giving to recipients, not a direct cetiya ranking."
+      },
+      {
+        label: "Buddhist Ceremonies and Rituals of Sri Lanka — A.G.S. Kariyawasam",
+        href: "https://accesstoinsight.org/lib/authors/kariyawasam/wheel402",
+        sourceType: "Sri Lankan Buddhist practice",
+        note: "Describes a relic-containing dagaba as first in Sri Lankan temple worship and gives the due order of Sārīrika, Pāribhogika, and Uddesika objects. This ritual description is not treated as a universal karmic law."
+      },
+      {
+        label: "Kāliṅgabodhi Jātaka (Ja 479) — Ancient Buddhist Texts",
+        href: "https://ancient-buddhist-texts.net/English-Texts/Jataka/479.htm",
+        sourceType: "Theravāda narrative/commentary",
+        note: "Provides the later Theravāda narrative context for the three shrine categories and the Bodhi tree at Jetavana. It does not supply a numerical scale of merit among the categories."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "Why Was a Bodhi Tree Planted at Jetavana?",
+        href: `${questionsPath}/why-bodhi-tree-planted-at-jetavana/`,
+        description: "Understand the Bodhi tree’s distinctive memorial role without turning symbolism into a merit calculator."
+      },
+      {
+        label: "Is a Buddha Image the Only Uddesika Cetiya?",
+        href: `${questionsPath}/is-buddha-image-only-uddesika-cetiya/`,
+        description: "Explore the scope and limits of representational memorials in later Theravāda tradition."
+      },
+      {
+        label: "How Can the Buddha Be Respected After Parinibbāna?",
+        href: `${questionsPath}/respecting-buddha-after-parinibbana/`,
+        description: "Place relics, stupas, Bodhi trees, images, and Dhamma practice in a wider devotional context."
+      }
+    ],
+    relatedTerms: ["Sārīrika Cetiya", "Pāribhogika Cetiya", "Uddesika Cetiya", "merit", "intention", "kamma"],
+    searchTerms: ["which cetiya gives more merit", "relic merit", "Bodhi tree merit", "Buddha image merit", "Sārīrika Pāribhogika Uddesika", "AN 6.37 giving", "AN 6.63 intention"],
+    previous: {
+      label: "Question 8: Did Buddhist Teachers Always Agree About Venerating Buddha Images?",
+      href: `${questionsPath}/did-buddhists-agree-on-image-veneration/`
     }
   }
 ];

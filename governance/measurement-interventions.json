@@ -692,6 +692,37 @@
       ],
       "materiallyRevisedRoutes": [],
       "measurementImpact": "Social navigation and canonical social-profile maintenance only; preserve existing content observation window and hold. No substantive content revision."
+    },
+    {
+      "id": "buddhist-questions-q8-q9-2026-11-01",
+      "status": "APPROVED_RELEASE_CANDIDATE",
+      "authorizedBy": "Project owner: go with this - Q8 & Q9, followed by an explicit instruction to proceed with the production/live release using all necessary correct steps.",
+      "authorizedOn": "2026-11-01",
+      "baselineSha": "5e45ad3791710b4982e0ff2123a97a97676d4b9b",
+      "baselineEvidence": "docs/audits/buddhist-questions-q8-q9-2026-11-01/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "b4c8cf0bf26dd321e4493d33b53aadb84925a47472666a12e607370c64d622e4",
+      "plannedReleaseDate": "2026-11-01",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Publish exactly two new source-aware Buddhist question detail routes, extend the bounded series from Q1-Q7 to Q1-Q9, add Q7-Q9 navigation, expand the parent hub, sitemap, internal search, and generated conservative monetization registry, and preserve all existing canonical owners and advertising holds.",
+      "approvedApplicationFiles": {
+        "src/data/buddhistQuestions.ts": "8ebd90218ce98d17153ec249e5d40937f82544a6025e46ef86e3e31b80d40d8b",
+        "src/data/monetization-route-registry.mjs": "5c37f663fc2e0e2ac2ad1604a9c197b4e0688efaae4c6969f670b7cb104e11d3"
+      },
+      "materiallyRevisedRoutes": [
+        "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+        "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/"
+      ],
+      "measurementImpact": "Material publishing intervention: two new indexable substantive routes change the question hub, sitemap, search inventory, navigation, and public content surface. The prior Pacific observation window becomes intervened on deployment; exclude the Pacific deployment day and begin a new 28-day window on the following Pacific date. No causal ranking, indexing, traffic, AdSense, or consolidation outcome is guaranteed.",
+      "plannedObservationDates": {
+        "timeZone": "America/Los_Angeles",
+        "deploymentDayRule": "Exclude the actual Pacific deployment day.",
+        "startRule": "Begin on the Pacific calendar day after deployment.",
+        "durationDays": 28,
+        "state": "PENDING_ACTUAL_DEPLOYMENT_TIMESTAMP"
+      }
     }
   ]
 }

@@ -8,7 +8,7 @@ const root = process.cwd();
 const port = process.env.BUDDHIST_QUESTIONS_AUDIT_PORT || "4321";
 const baseUrl = process.env.BUDDHIST_QUESTIONS_AUDIT_BASE_URL || `http://127.0.0.1:${port}`;
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-const canonicalOutput = path.join(root, "docs/audits/buddhist-question-q7-2026-09-28/BROWSER_VALIDATION.json");
+const canonicalOutput = path.join(root, "docs/audits/buddhist-questions-q8-q9-2026-11-01/BROWSER_VALIDATION.json");
 const artifactOutput = process.env.AUDIT_OUT_DIR
   ? path.resolve(root, process.env.AUDIT_OUT_DIR, "buddhist-questions-browser-validation.json")
   : canonicalOutput;
@@ -23,7 +23,9 @@ const routes = [
   "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
   "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
   "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
-  "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/"
+  "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+  "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+  "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/"
 ];
 const viewports = [
   { name: "mobile", width: 390, height: 844 },
@@ -37,7 +39,9 @@ const expectedNavigation = {
   [routes[4]]: [routes[3], routes[5]],
   [routes[5]]: [routes[4], routes[6]],
   [routes[6]]: [routes[5], routes[7]],
-  [routes[7]]: [routes[6]]
+  [routes[7]]: [routes[6], routes[8]],
+  [routes[8]]: [routes[7], routes[9]],
+  [routes[9]]: [routes[8]]
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -133,11 +137,13 @@ try {
           keyboardFocusVisible: pageFacts.keyboardFocusVisible,
           noHeadingSkips: headingSkips.length === 0,
           noCriticalOrSeriousAxeViolations: seriousViolations.length === 0,
-          expectedHubCardCount: route !== hub || pageFacts.cardCount === 7,
+          expectedHubCardCount: route !== hub || pageFacts.cardCount === 9,
           expectedNavigation: route === hub || JSON.stringify(pageFacts.navigationLinks) === JSON.stringify(expectedLinks),
           expectedQ5SourceCount: route !== routes[5] || pageFacts.externalSourceLinks.length === 3,
           expectedQ6SourceCount: route !== routes[6] || pageFacts.externalSourceLinks.length === 4,
-          expectedQ7SourceCount: route !== routes[7] || pageFacts.externalSourceLinks.length === 6
+          expectedQ7SourceCount: route !== routes[7] || pageFacts.externalSourceLinks.length === 6,
+          expectedQ8SourceCount: route !== routes[8] || pageFacts.externalSourceLinks.length === 5,
+          expectedQ9SourceCount: route !== routes[9] || pageFacts.externalSourceLinks.length === 4
         };
         const pass = Object.values(checks).every(Boolean);
         results.push({

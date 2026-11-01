@@ -1,0 +1,6 @@
+route,change,index_state,canonical,sitemap,search,monetization,navigation
+/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/,ADD,index_follow,self,ADD_ONCE,ADD_ONCE,LEARN_DETAIL_HOLD_MANUAL_REVIEW,"previous Q7; next Q9"
+/learn/questions-about-buddhism/which-cetiya-gives-more-merit/,ADD,index_follow,self,ADD_ONCE,ADD_ONCE,LEARN_DETAIL_HOLD_MANUAL_REVIEW,"previous Q8; no next"
+/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/,NAVIGATION_ONLY,index_follow,unchanged,UNCHANGED,UNCHANGED,UNCHANGED,"next Q8 added"
+/learn/questions-about-buddhism/,CARD_INVENTORY_ONLY,index_follow,unchanged,UNCHANGED,UNCHANGED,NEVER_MONETIZE,"cards 7 to 9"
+/,PRESERVED,index_follow,unchanged,UNCHANGED,UNCHANGED,NEVER_MONETIZE,"Q2 remains sole featured gateway"

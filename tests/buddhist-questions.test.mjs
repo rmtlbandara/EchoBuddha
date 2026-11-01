@@ -14,13 +14,13 @@ const root = process.cwd();
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const questionRoutes = buddhistQuestions.map(getBuddhistQuestionPath);
-const releaseDates = ["2026-09-02", "2026-09-02", "2026-09-14", "2026-09-14", "2026-09-20", "2026-09-24", "2026-09-28"];
+const releaseDates = ["2026-09-02", "2026-09-02", "2026-09-14", "2026-09-14", "2026-09-20", "2026-09-24", "2026-09-28", "2026-11-01", "2026-11-01"];
 
-test("controlled Buddhist question collection contains exactly seven complete, unique records", () => {
-  assert.equal(buddhistQuestions.length, 7);
-  assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2, 3, 4, 5, 6, 7]);
-  assert.equal(new Set(buddhistQuestions.map((question) => question.slug)).size, 7);
-  assert.equal(new Set(buddhistQuestions.map((question) => question.title)).size, 7);
+test("controlled Buddhist question collection contains exactly nine complete, unique records", () => {
+  assert.equal(buddhistQuestions.length, 9);
+  assert.deepEqual(buddhistQuestions.map((question) => question.number), [1, 2, 3, 4, 5, 6, 7, 8, 9]);
+  assert.equal(new Set(buddhistQuestions.map((question) => question.slug)).size, 9);
+  assert.equal(new Set(buddhistQuestions.map((question) => question.title)).size, 9);
   for (const [index, question] of buddhistQuestions.entries()) {
     assert.ok(question.description.trim());
     assert.ok(question.shortAnswer.length >= 2);
@@ -70,12 +70,39 @@ test("controlled Buddhist question collection contains exactly seven complete, u
   assert.match(JSON.stringify(buddhistQuestions[6]), /Traditional Buddhist answer/);
   assert.match(JSON.stringify(buddhistQuestions[6]), /Modern historical answer/);
   assert.doesNotMatch(JSON.stringify(buddhistQuestions[6]), /Dhātuvibhaṅga|Manorathapūraṇī/);
+  assert.deepEqual(
+    buddhistQuestions[7].sources.map((source) => source.sourceType),
+    ["Theravāda canonical scholastic text", "Theravāda canonical scholastic text", "Theravāda commentary", "Theravāda commentary", "Museum / art history"],
+    "Q8 must keep canonical scholastic, commentary, and art-history evidence visibly separate"
+  );
+  assert.equal(buddhistQuestions[7].title, "Did Buddhist Teachers Always Agree About Venerating Buddha Images?");
+  assert.equal(buddhistQuestions[7].seoTitle, "Did Buddhists Always Agree on Image Veneration? | Echo Buddha");
+  assert.equal(
+    buddhistQuestions[7].description,
+    "Did Buddhist teachers always agree about Buddha-image veneration? Explore the Kathāvatthu, historical silence, later Theravāda sources, and what the evidence can actually show."
+  );
+  assert.match(JSON.stringify(buddhistQuestions[7]), /No explicit controversy about Buddha-image veneration was located/);
+  assert.doesNotMatch(JSON.stringify(buddhistQuestions[7]), /The Kathāvatthu proves (?:that )?(?:nobody disagreed|universal agreement)/i);
+  assert.deepEqual(
+    buddhistQuestions[8].sources.map((source) => source.sourceType),
+    ["Early Buddhist discourse", "Early Buddhist discourse", "Sri Lankan Buddhist practice", "Theravāda narrative/commentary"],
+    "Q9 must keep early-discourse, Sri Lankan practice, and later narrative evidence visibly separate"
+  );
+  assert.equal(buddhistQuestions[8].title, "Which Brings More Merit: Relics, a Bodhi Tree, or a Buddha Image?");
+  assert.equal(buddhistQuestions[8].seoTitle, "Which Cetiya Gives More Merit? | Echo Buddha");
+  assert.equal(
+    buddhistQuestions[8].description,
+    "Which brings more merit: venerating relics, a Bodhi tree, or a Buddha image? Explore Theravāda cetiya traditions, ritual precedence, intention, and kamma."
+  );
+  assert.match(JSON.stringify(buddhistQuestions[8]), /ceremonial precedence|ritual precedence/i);
+  assert.match(JSON.stringify(buddhistQuestions[8]), /Neither AN 6\.37 nor AN 6\.63 is a three-cetiya ranking chart/);
+  assert.doesNotMatch(JSON.stringify(buddhistQuestions[8]), /relics?\s*=\s*(?:most|highest)|Bodhi tree\s*=\s*(?:medium|second)|images?\s*=\s*(?:least|lowest)|all three always produce exactly the same merit/i);
   const learnSource = read("src/data/learn.ts");
   const existingFaqSource = learnSource.split("export const questionsAboutBuddhism = [")[1].split("export const resourceGroups")[0];
   assert.equal((existingFaqSource.match(/\n\s{4}question:/g) ?? []).length, 10, "the existing compact FAQ set must remain intact");
 });
 
-test("only the seven explicitly approved public question detail routes are generated", () => {
+test("only the nine explicitly approved public question detail routes are generated", () => {
   const detailRoot = path.join(root, "dist/learn/questions-about-buddhism");
   const generated = fs.readdirSync(detailRoot, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
@@ -89,12 +116,15 @@ test("only the seven explicitly approved public question detail routes are gener
     "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
     "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
     "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
-    "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/"
+    "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+    "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+    "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/"
   ]);
-  assert.equal(generated.some((route) => /(?:question|q)-?\d*[8-9]|(?:question|q)-?[1-9]\d+/i.test(route)), false);
+  assert.equal(generated.some((route) => /(?:question|q)-?10|(?:question|q)-?[1-9]\d+/i.test(route)), false);
+  assert.equal(generated.some((route) => /(?:100-questions|question-8|question-9|best-cetiya|highest-merit-cetiya)/i.test(route)), false);
 });
 
-test("question navigation is the exact bounded Q1-to-Q7 chain", () => {
+test("question navigation is the exact bounded Q1-to-Q9 chain", () => {
   const navigation = buddhistQuestions.map((question) => ({
     previous: question.previous?.href ?? null,
     next: question.next?.href ?? null
@@ -106,11 +136,13 @@ test("question navigation is the exact bounded Q1-to-Q7 chain", () => {
     { previous: questionRoutes[2], next: questionRoutes[4] },
     { previous: questionRoutes[3], next: questionRoutes[5] },
     { previous: questionRoutes[4], next: questionRoutes[6] },
-    { previous: questionRoutes[5], next: null }
+    { previous: questionRoutes[5], next: questionRoutes[7] },
+    { previous: questionRoutes[6], next: questionRoutes[8] },
+    { previous: questionRoutes[7], next: null }
   ]);
 });
 
-test("all seven question pages resolve with truthful dates, canonical Article metadata, and exact navigation", () => {
+test("all nine question pages resolve with truthful dates, canonical Article metadata, and exact navigation", () => {
   for (const [index, route] of questionRoutes.entries()) {
     const html = read(`dist${route}index.html`);
     assert.match(html, new RegExp(`<link rel="canonical" href="https://echobuddha.com${escapeRegex(route)}"`));
@@ -144,7 +176,7 @@ test("question short answers render trusted inline emphasis instead of escaped H
   assert.doesNotMatch(q6Html, /&lt;i&gt;appaṭimo&lt;\/i&gt;/);
 });
 
-test("hub, internal search, and sitemap discover all seven question pages exactly once", () => {
+test("hub, internal search, and sitemap discover all nine question pages exactly once", () => {
   const hub = read("dist/learn/questions-about-buddhism/index.html");
   const sitemap = read("dist/sitemap.xml");
   const searchIndex = JSON.parse(read("dist/search-index.json"));
@@ -154,7 +186,8 @@ test("hub, internal search, and sitemap discover all seven question pages exactl
     assert.match(sitemap, new RegExp(`<loc>https://echobuddha.com${escapeRegex(route)}</loc><lastmod>${releaseDates[index]}</lastmod>`));
     assert.equal(searchIndex.filter((item) => item.url === route).length, 1);
   }
-  assert.equal(searchIndex.length, 330);
+  assert.equal((hub.match(/<article class="surface question-card"/g) ?? []).length, 9);
+  assert.equal(searchIndex.length, 332);
 });
 
 test("homepage uses one representative question as a compact gateway in the intended journey position", () => {
@@ -181,7 +214,7 @@ test("homepage uses one representative question as a compact gateway in the inte
   assert.match(homepageSource, /<h3><a href=\{getBuddhistQuestionPath\(featuredQuestion\)\}>\{featuredQuestion\.title\}<\/a><\/h3>/);
 });
 
-test("all seven question routes remain conservative Learn-detail monetization holds", () => {
+test("all nine question routes remain conservative Learn-detail monetization holds", () => {
   for (const route of questionRoutes) {
     assert.deepEqual(MONETIZATION_ROUTE_REGISTRY[route], {
       state: "HOLD_MANUAL_REVIEW",
@@ -190,5 +223,5 @@ test("all seven question routes remain conservative Learn-detail monetization ho
       reason: "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
     });
   }
-  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 351);
+  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 353);
 });
