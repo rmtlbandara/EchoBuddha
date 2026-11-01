@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-01T08:45:23Z",
+  "baselineMainSha": "5e45ad3791710b4982e0ff2123a97a97676d4b9b",
+  "servingProductionSha": "1ed945581f6802046f8d3245e0480f5c58dabc2c",
+  "mainProductionDifference": "Documentation-only social release evidence; the application source at main matches the serving application release.",
+  "production": {
+    "releaseJsonSha": "1ed945581f6802046f8d3245e0480f5c58dabc2c",
+    "cloudflareDeploymentId": "2c067402-d43f-4aac-9ae3-6821e4da2be2",
+    "cloudflareVersionId": "911d7db1-fbed-4451-9761-bd4d6da17364",
+    "deployedAt": "2026-11-01T03:30:48.169578Z",
+    "workflowRunId": 41269372569,
+    "smoke": "PASS_15_OF_15",
+    "indexNow": "HTTP_200_ACCEPTED_165_CANONICAL_NOTIFICATIONS_NOT_INDEXING"
+  },
+  "inventoryBefore": {
+    "html": 351,
+    "indexableSitemap": 165,
+    "noindexHtml": 186,
+    "internalSearch": 330,
+    "questionDetails": 7,
+    "questionHubCards": 7,
+    "monetization": {
+      "NEVER_MONETIZE": 253,
+      "ELIGIBLE_CANDIDATE": 7,
+      "HOLD_MANUAL_REVIEW": 91
+    }
+  },
+  "services": {
+    "gsc": "Stored finalized 90-day context through 2026-10-28: 143 clicks, 11572 impressions, CTR 1.236%, average position 10.79. Stored 47-URL inspection: 4 indexed, 29 crawled-not-indexed, 11 discovered-not-indexed, 3 unknown. No fresh authenticated collection was available in this task.",
+    "bing": "Stored historical population: 157 indexed, 82 warnings, 2 excluded, 0 errors; three-month 67 clicks and rounded 4K impressions. These periods are not combined with GSC.",
+    "adsense": "Authenticated 2026-10-31 record: Needs attention / Low value content; displayed decision dated 2026-08-21; ads.txt dashboard Not found despite correct public delivery; ownership verified; review control available but not submitted; ad serving and runtime off.",
+    "measurement": "The prior Pacific observation window is intervened by this material publishing release and will be restarted after deployment."
+  },
+  "releaseIntent": {
+    "newCanonicalRoutes": 2,
+    "removedRoutes": 0,
+    "canonicalOwnerChanges": 0,
+    "indexStateChanges": 0,
+    "adsEnabled": false,
+    "adsenseReviewSubmitted": false
+  }
+}

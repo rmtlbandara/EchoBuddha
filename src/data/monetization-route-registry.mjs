@@ -925,6 +925,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
+  "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
@@ -938,6 +944,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
   "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
     "indexable": true,

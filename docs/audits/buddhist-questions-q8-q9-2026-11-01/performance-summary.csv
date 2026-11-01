@@ -1,0 +1,21 @@
+formFactor,label,path,performanceScore,accessibilityScore,fcpMs,lcpMs,cls,tbtMs,speedIndexMs,totalByteWeight
+mobile,Homepage,/,1,1,904.5192999999999,937.1491249999999,0,0,904.5192999999999,111516
+mobile,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,1057.2624,1507.2624,0,0,1057.2624,74874
+mobile,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,756.1017999999999,906.1017999999999,0,0,756.1017999999999,38549
+mobile,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,755.2746999999999,905.2746999999999,0,0,755.2746999999999,78294
+mobile,Daily reflection,/daily-reflections/one-honest-breath/,1,1,753.9100000000001,903.9100000000001,0,0,753.9100000000001,37345
+mobile,Meditation page,/meditation/breathing-meditation/,1,1,753.9757999999999,903.9757999999999,0,0,753.9757999999999,38977
+mobile,Topic hub,/quotes/mindfulness/,1,1,755.4764,905.4764,0,0,755.4764,40553
+mobile,Search,/search/,1,1,757.5026,1207.5026,0.001734273664773513,0,757.5026,36116
+mobile,Tools,/tools/,1,1,1054.5709,1054.5709,0,0,1054.5709,50979
+mobile,Privacy,/privacy-policy/,1,1,754.7026000000001,904.7026000000001,0,0,754.7026000000001,36535
+desktop,Homepage,/,1,1,248.48719999999997,428.4872,0,0,248.48719999999997,202500
+desktop,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,287.5427,407.5427,0,0,287.5427,74874
+desktop,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,204.74020000000002,244.74020000000002,0,0,204.74020000000002,38549
+desktop,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,206.4076,246.4076,0,0,206.4076,62793
+desktop,Daily reflection,/daily-reflections/one-honest-breath/,1,1,204.7874,244.7874,0,0,204.7874,37345
+desktop,Meditation page,/meditation/breathing-meditation/,1,1,203.9572,243.9572,0,0,203.9572,38977
+desktop,Topic hub,/quotes/mindfulness/,1,1,207.4228,247.4228,0,0,207.4228,75183
+desktop,Search,/search/,1,1,203.8043,245.8043,0,0,203.8043,36116
+desktop,Tools,/tools/,1,1,284.0246,289.0246,0,0,284.0246,50979
+desktop,Privacy,/privacy-policy/,1,1,205.0795,245.0795,0,0,205.0795,36535
