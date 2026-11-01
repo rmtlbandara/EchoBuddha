@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "overallStatus": "PARTIAL_SOCIAL_PUBLISHING",
+  "websiteStatus": "PASS_DEPLOYED_VERIFIED",
+  "verifiedAt": "2026-11-01T03:41:53.092036+00:00",
+  "implementationPr": "https://github.com/rmtlbandara/EchoBuddha/pull/74",
+  "prCiRun": 41268856997,
+  "mergedMainCiRun": 41269105656,
+  "deploymentRun": 41269372569,
+  "servingSha": "1ed945581f6802046f8d3245e0480f5c58dabc2c",
+  "deployment": {
+    "schemaVersion": 1,
+    "capturedAt": "2026-11-01T03:30:51.733Z",
+    "gitSha": "1ed945581f6802046f8d3245e0480f5c58dabc2c",
+    "githubRunId": "41269372569",
+    "worker": "echobuddha",
+    "productionUrl": "https://echobuddha.com",
+    "deploymentId": "2c067402-d43f-4aac-9ae3-6821e4da2be2",
+    "createdOn": "2026-11-01T03:30:48.169578Z",
+    "strategy": "percentage",
+    "versions": [
+      {
+        "version_id": "911d7db1-fbed-4451-9761-bd4d6da17364",
+        "percentage": 100
+      }
+    ]
+  },
+  "artifact": {
+    "fileCount": 812,
+    "aggregateSha256": "a25abbab474d4098c38b3462458f3240d8e3a69adc3ad562c9ab18e2d25aedb1",
+    "liveHtmlParity": {
+      "passed": 351,
+      "total": 351,
+      "byteForByte": true
+    },
+    "emittedAssets": [
+      {
+        "path": "/_astro/Layout.CJGL4yW9.css",
+        "status": "PASS"
+      },
+      {
+        "path": "/_astro/index.B2ub7MeQ.css",
+        "status": "PASS"
+      }
+    ],
+    "independentDistDownload": "Optional separate full-dist download stalled; terminated after10min. Compact deployment manifest downloaded. Workflow verified every immutable file before deploy; independent public351HTML + emitted asset hashes matched the downloaded manifest."
+  },
+  "smoke": {
+    "passed": 15,
+    "total": 15
+  },
+  "footer": {
+    "status": "PASS",
+    "cases": 18,
+    "engines": [
+      "chromium",
+      "firefox",
+      "webkit"
+    ],
+    "widths": [
+      320,
+      390,
+      720,
+      768,
+      1024,
+      1440
+    ]
+  },
+  "preservation": {
+    "htmlHeads": 351,
+    "policies": [
+      "sitemap.xml",
+      "_redirects",
+      "robots.txt",
+      "_headers",
+      "ads.txt"
+    ],
+    "allowedDifference": "Publisher sameAs only"
+  },
+  "lighthouse": {
+    "mobile": {
+      "performanceRange": [
+        99.0,
+        100
+      ],
+      "accessibilityRange": [
+        100,
+        100
+      ],
+      "homepage": {
+        "formFactor": "mobile",
+        "label": "Homepage",
+        "path": "/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 1260,
+        "lcpMs": 1560,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 1493.2975119822024,
+        "totalByteWeight": 119235
+      },
+      "maxCLS": 0.001734273664773513
+    },
+    "desktop": {
+      "performanceRange": [
+        100,
+        100
+      ],
+      "accessibilityRange": [
+        100,
+        100
+      ],
+      "homepage": {
+        "formFactor": "desktop",
+        "label": "Homepage",
+        "path": "/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 402.07000000000005,
+        "lcpMs": 562.07,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 472.6041871649722,
+        "totalByteWeight": 212596
+      },
+      "maxCLS": 0
+    }
+  },
+  "indexnow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 165,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-01T03:30:57.768Z",
+    "indexingGuaranteed": false
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/reel/996425069458302/",
+    "instagram": "https://www.instagram.com/reel/DfLwzDBktBV/",
+    "pendingInstagramProductions": [
+      "EchoBuddha-Short-02",
+      "EchoBuddha-Short-01"
+    ],
+    "committedSchedules": 0,
+    "instagramAccountStatus": "No reach limits; eligible for Explore/Reels/feed recommendations; all three status sections checkmarked."
+  },
+  "routing": {
+    "wwwStatus": 301,
+    "wwwLocation": "https://echobuddha.com/",
+    "canonicalHomepageStatus": 200
+  }
+}

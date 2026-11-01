@@ -1,0 +1,13 @@
+# Issues and limitations
+
+**Blocking completion of Instagram batch:** no verified desktop path combines native future scheduling withAI disclosure. Suite Reels supports schedules but exposes no AI-label control. Native Instagram web Create/Edit exposes Add AI label but no Schedule option, including expanded Advanced settings. Alternate Suite Create post exposes scheduling but rejects clean9:16 source as outside its legacy4:5–16:9 range; cropping would needlessly damage the approved composition and does not add a missingAI field. No unsupported background job or unlabelled scheduled post was created. Two eligible Reels remain BLOCKED_PLATFORM; overall result is PARTIAL_SOCIAL_PUBLISHING, not PASS_DEPLOYED_VERIFIED.
+
+A future supported native/mobile flow or authorized API integration that explicitly carriesAI labeling can complete these two releases. No new permission or approval is being requested here. The prepared native Episode 02 editor is unsaved and is not a durable platform draft or schedule; original files/captions are durable locally.
+
+**Nonblocking evidence limits:** exact YouTube server upload timestamp not exposed; date/current ordered inventory and existing private-upload record retained. Facebook signed-out page exposes correct public identity/title but shows login prompt; authenticated public playback passed. Instagram signed-out playback passed. Current native Account Status shows checkmarks for removed content/messaging, reach limits and unavailable features. The reach detail explicitly says no reach limits and that account/content can be recommended in Explore, Reels and feed. Current professional linkage and successful publishing were verified. Clickable Instagram website-profile link remains unverified/native-mobile constrained; caption CTAs do not claim one. No new performance/retention or website conversion claim. No fresh human acoustic listening review.
+
+**Resolved validation issue:** old Astro preview daemon served stale state to the local Tools test, producing a target-size finding involving a skip link over a main-content button. Restarted that project preview against the current dist; unchanged full Tools tests then passed in Chromium,Firefox,WebKit. Production baseline also passed. No test or quality gate weakened and no unrelated page changed. MacWebKit keyboard check uses Option-Tab as in the project's existing Tools test.
+
+**Upload helper limitation resolved:** browser-extension file URL permission is off. Native macOS picker completed authorized uploads; no extension/security permission changed.
+
+No unrelated tracked changes, account ownership/security changes, existing-content deletion, paid services, advertisements or new video production.
