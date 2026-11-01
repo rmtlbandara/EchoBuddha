@@ -695,13 +695,25 @@
     },
     {
       "id": "buddhist-questions-q8-q9-2026-11-01",
-      "status": "APPROVED_RELEASE_CANDIDATE",
+      "status": "DEPLOYED",
       "authorizedBy": "Project owner: go with this - Q8 & Q9, followed by an explicit instruction to proceed with the production/live release using all necessary correct steps.",
       "authorizedOn": "2026-11-01",
       "baselineSha": "5e45ad3791710b4982e0ff2123a97a97676d4b9b",
       "baselineEvidence": "docs/audits/buddhist-questions-q8-q9-2026-11-01/PRE_RELEASE_BASELINE.json",
       "baselineEvidenceSha256": "b4c8cf0bf26dd321e4493d33b53aadb84925a47472666a12e607370c64d622e4",
       "plannedReleaseDate": "2026-11-01",
+      "productionSha": "1edcd52d77c6c01545d1439d85617842e08d594f",
+      "productionDeployedAt": "2026-11-01T09:03:59.165251Z",
+      "productionReleases": [
+        {
+          "sha": "1edcd52d77c6c01545d1439d85617842e08d594f",
+          "deployedAt": "2026-11-01T09:03:59.165251Z",
+          "deploymentId": "d777dc4b-6e97-4b7d-ba4d-4b8dfbb687a8",
+          "versionId": "766a496e-d66d-4d7c-b7b9-4212e130dac7",
+          "workflowRunId": 41291362233,
+          "verification": "Exact merged-main hosted checks and production deployment passed; immutable 814-file artifact verified; exact live release identity served; production smoke passed 15/15; Q1-Q9 live browser audit passed 30/30; sitemap and search totals are 167/332 with Q8 and Q9 present once each; IndexNow HTTP 200 accepted four changed canonical notifications, not indexing."
+        }
+      ],
       "publicRouteRemovals": 0,
       "indexStateChanges": 0,
       "ownerChanges": 0,
@@ -716,12 +728,19 @@
         "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/"
       ],
       "measurementImpact": "Material publishing intervention: two new indexable substantive routes change the question hub, sitemap, search inventory, navigation, and public content surface. The prior Pacific observation window becomes intervened on deployment; exclude the Pacific deployment day and begin a new 28-day window on the following Pacific date. No causal ranking, indexing, traffic, AdSense, or consolidation outcome is guaranteed.",
-      "plannedObservationDates": {
+      "revisedObservationDates": {
         "timeZone": "America/Los_Angeles",
-        "deploymentDayRule": "Exclude the actual Pacific deployment day.",
-        "startRule": "Begin on the Pacific calendar day after deployment.",
-        "durationDays": 28,
-        "state": "PENDING_ACTUAL_DEPLOYMENT_TIMESTAMP"
+        "excludedDeploymentDay": "2026-11-01",
+        "start": "2026-11-02",
+        "end": "2026-11-29",
+        "earliestFinalizedReview": "2026-12-02",
+        "state": "FUTURE_DATA_REQUIRED",
+        "condition": "Requires stable substantive content and actually finalized data. Earlier windows remain intervened/descriptive. Any later substantive publishing can intervene again; no causal ranking, indexing, traffic, AdSense, or consolidation claim is authorized."
+      },
+      "latestVerifiedProduction": {
+        "sha": "1edcd52d77c6c01545d1439d85617842e08d594f",
+        "deployedAt": "2026-11-01T09:03:59.165251Z",
+        "evidence": "docs/audits/buddhist-questions-q8-q9-2026-11-01/RELEASE_VERIFICATION.json"
       }
     }
   ]
