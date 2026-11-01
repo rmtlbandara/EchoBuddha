@@ -1,0 +1,13 @@
+# Latest YouTube to Facebook
+
+Current authenticated Echo Buddha Studio overview and date-descending Shorts inventory contain three public uploads. Newest is **The Angriest Text You'll Never Send**, `JJdGuvOEXH0`, dated October 30,2026; Episodes01/02 are October 29. Overview/customization exposes Shorts and Playlists only. No newer upload or unfinished draft observed. Exact server upload time to the second is not exposed; the displayed date and prior private-upload record are preserved without substituting public-save time for upload time.
+
+Source: https://www.youtube.com/shorts/JJdGuvOEXH0. Original filename confirmed in Studio; HD complete, visibilityPublic, no Notice. English narration and17 authored English caption cues. Source article returned200: https://echobuddha.com/articles/buddhist-approach-to-anger/.
+
+Original master: `.artifacts/EchoBuddha-YouTube-Short-03/final/EchoBuddha_Short_03_Final.mp4`; SHA256 `abb86e7ab2fb3e30b1caddad91086f0b95d24460b3a7afb47d7bc8d85d4cb2e4`;52.866667s,1080×1920,9:16,30fps,H.264,AAC48k stereo. Fresh full decode1586 video frames/2537568 audio samples passed. Existing technicalQA and rights record reviewed; representative contact sheet and all17 subtitle cues reviewed. Original rendered fictional scene, original audio, licensed generic synthetic narration, no cloned identity or commercial song. Prior measured−16.16LUFS/−1.49dBTP is historical QA, not a new measurement. No fresh human acoustic listening certification.
+
+Lifetime Facebook inventory first showed two distinct Reels and three photos, no Episode 03. Uploaded original master once through native file picker, used approved custom thumbnail and Facebook-specific caption. ExplicitFacebook-only destination; Public, groups/stories/other-Pages off. Burned authored captions retained, automatic captions off. Facebook reported no copyright issues. Suite lacked AI label; immediately reopened native Edit reel, saved Add AI label On and independently observed public AI content badge.
+
+**PUBLISHED_VERIFIED**: Reel https://www.facebook.com/reel/996425069458302/, feed post`122138071461253292`. Permanent player reopened, full-resolution1080×1920 video advanced21.3s with unmuted audio, readyState4 and no media error. Exact caption includes direct live article, synthetic narration transparency and unsafe-situation qualification. Separate signed-out browser exposes correct title, Public and publisher; Facebook displays its normal login prompt, so unrestricted signed-out playback is not claimed.
+
+Evidence: ignored `.artifacts/social-sync-2026-11-01/` holds current Studio inventory, native live screenshot and signed-out observation. Existing original production records remain preserved.
