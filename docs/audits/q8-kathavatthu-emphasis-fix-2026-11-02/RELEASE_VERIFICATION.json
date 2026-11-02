@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
+  "verifiedAt": "2026-11-02T03:39:21Z",
+  "productionUrl": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+  "implementationPr": {
+    "number": 80,
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/80",
+    "implementationSha": "531da31b2c848aeafb4f144112c380d2cbc56f6a",
+    "mergeSha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd"
+  },
+  "ci": {
+    "pullRequestRun": 41383484087,
+    "exactMergedMainRun": 41383747986,
+    "productionRun": 41384064908,
+    "conclusion": "success"
+  },
+  "deployment": {
+    "capturedAt": "2026-11-02T03:38:30.218Z",
+    "deployedAt": "2026-11-02T03:38:27.501639Z",
+    "deploymentId": "578775c3-6237-4057-8fe8-4a8c05434954",
+    "versionId": "5c42e7f9-2d0f-4cf9-a1d1-fe14a5b31071",
+    "percentage": 100,
+    "servingSha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd"
+  },
+  "artifact": {
+    "fileCount": 814,
+    "aggregateSha256": "63da7696d91a94c6d7fd740b7aa0e228e62ee0a899c5a44f3479f45360ab9503",
+    "releaseManifestSha256": "81e41cd8597724a2463772d85c14131bf40ed9ff600b3c4dd75ff11d9180c49b",
+    "distArtifactId": 13113814967,
+    "distArtifactDigest": "sha256:31892fc3bc5d0b4c74586a6d44732324ca02fd37803e4c6787e3824352ac4a91",
+    "allFileDigestsVerifiedByHostedWorkflow": true
+  },
+  "productionSmoke": {
+    "passed": 15,
+    "total": 15,
+    "pass": true
+  },
+  "liveDom": {
+    "pageStatus": 200,
+    "releaseIdentityMatches": true,
+    "textStartsWith": "The Kathāvatthu preserves more than two hundred disputed points",
+    "innerHtmlStartsWith": "The <i>Kathāvatthu</i> preserves more than two hundred disputed points",
+    "italicElementText": "Kathāvatthu",
+    "computedFontStyle": "italic",
+    "literalTagsVisible": false,
+    "pass": true
+  },
+  "indexNow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 1,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-02T03:38:33.076Z",
+    "indexingGuaranteed": false
+  },
+  "measurementImpact": {
+    "materialContentChange": false,
+    "q8Q9ObservationWindowPreserved": true,
+    "reason": "Presentation-only rendering correction; approved wording and all search, ownership, monetization, and advertising boundaries are unchanged."
+  }
+}

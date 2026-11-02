@@ -745,13 +745,25 @@
     },
     {
       "id": "q8-kathavatthu-emphasis-fix-2026-11-02",
-      "status": "APPROVED_RELEASE_CANDIDATE",
+      "status": "DEPLOYED",
       "authorizedBy": "Project owner supplied a production screenshot showing literal <i>Kathāvatthu</i> markup in the Q8 Key Takeaway and requested: pls fix.",
       "authorizedOn": "2026-11-02",
       "baselineSha": "31441fc5219cea49b25f57977a340677a4ba0af1",
       "baselineEvidence": "docs/audits/q8-kathavatthu-emphasis-fix-2026-11-02/PRE_RELEASE_BASELINE.json",
       "baselineEvidenceSha256": "55091e58b46262f39ab9d9990390d4039085cc97b4a0ba2e2517f1ee732a92f5",
       "plannedReleaseDate": "2026-11-02",
+      "productionSha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd",
+      "productionDeployedAt": "2026-11-02T03:38:27.501639Z",
+      "productionReleases": [
+        {
+          "sha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd",
+          "deployedAt": "2026-11-02T03:38:27.501639Z",
+          "deploymentId": "578775c3-6237-4057-8fe8-4a8c05434954",
+          "versionId": "5c42e7f9-2d0f-4cf9-a1d1-fe14a5b31071",
+          "workflowRunId": 41384064908,
+          "verification": "Exact merged-main validation and production deployment passed; immutable 814-file artifact verified; production smoke passed 15/15; /release.json served the exact SHA; independent live DOM inspection confirmed real italic emphasis for Kathāvatthu and no literal <i> tags; IndexNow HTTP 200 accepted one changed canonical notification, not indexing."
+        }
+      ],
       "publicRouteRemovals": 0,
       "indexStateChanges": 0,
       "ownerChanges": 0,
@@ -761,7 +773,12 @@
         "src/pages/learn/questions-about-buddhism/[slug].astro": "a0d74cc9232e81d8928215a0f815600d4ab0655e24d7bf62299a4eec0f63276b"
       },
       "materiallyRevisedRoutes": [],
-      "measurementImpact": "Presentation-only correction to render already-approved emphasis on Q8. No copy, metadata, URL, canonical, index-state, owner, inventory, monetization, or advertising change; preserve the Q8/Q9 observation window and existing measurement hold."
+      "measurementImpact": "Presentation-only correction to render already-approved emphasis on Q8. No copy, metadata, URL, canonical, index-state, owner, inventory, monetization, or advertising change; preserve the Q8/Q9 observation window and existing measurement hold.",
+      "latestVerifiedProduction": {
+        "sha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd",
+        "deployedAt": "2026-11-02T03:38:27.501639Z",
+        "evidence": "docs/audits/q8-kathavatthu-emphasis-fix-2026-11-02/RELEASE_VERIFICATION.json"
+      }
     }
   ]
 }
