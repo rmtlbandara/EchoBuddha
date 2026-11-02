@@ -1,7 +1,7 @@
 {
   "audit": "Controlled Q8 and Q9 Buddhist Question expansion",
   "date": "2026-11-01",
-  "status": "PASS_PRE_RELEASE_HOSTED_CI_AND_PRODUCTION_PENDING",
+  "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
   "scope": {
     "historical_expansion_1": { "date": "2026-09-02", "questions": [1, 2], "new_indexable_detail_urls": 2 },
     "historical_expansion_2": { "date": "2026-09-14", "questions": [3, 4], "new_indexable_detail_urls": 2 },
@@ -42,7 +42,11 @@
     "browser_validation": "PASS_30_OF_30_ZERO_CRITICAL_ZERO_SERIOUS",
     "lighthouse": "PASS_20_OF_20_PERFORMANCE_100_ACCESSIBILITY_100",
     "source_link_qa": "PASS_8_HTTP_200_PLUS_1_INSTITUTIONAL_RATE_LIMIT_INDEPENDENTLY_VERIFIED",
-    "hosted_ci": "PENDING",
-    "production": "PENDING"
+    "hosted_ci": "PASS_PR_41290958225_AND_EXACT_MAIN_41291155872",
+    "production": "PASS_WORKFLOW_41291362233_EXACT_SHA_AND_15_OF_15_SMOKE",
+    "live_release_identity": "PASS_1edcd52d77c6c01545d1439d85617842e08d594f",
+    "live_question_browser": "PASS_30_OF_30_ZERO_CRITICAL_ZERO_SERIOUS",
+    "live_inventory": "PASS_167_SITEMAP_332_SEARCH_Q8_Q9_EXACTLY_ONCE",
+    "indexnow": "ACCEPTED_HTTP_200_FOUR_CHANGED_URLS_NOT_INDEXING_GUARANTEE"
   }
 }

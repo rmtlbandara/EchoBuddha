@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
+  "verifiedAt": "2026-11-01T09:06:40.054Z",
+  "productionUrl": "https://echobuddha.com/",
+  "implementationPr": {
+    "number": 76,
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/76",
+    "implementationSha": "1393a1e671ff1c67da736dec7a64f3e726afb7d3",
+    "mergeSha": "1edcd52d77c6c01545d1439d85617842e08d594f"
+  },
+  "ci": {
+    "pullRequestRun": 41290958225,
+    "exactMergedMainRun": 41291155872,
+    "productionRun": 41291362233,
+    "conclusion": "success"
+  },
+  "deployment": {
+    "capturedAt": "2026-11-01T09:04:01.825Z",
+    "deployedAt": "2026-11-01T09:03:59.165251Z",
+    "deploymentId": "d777dc4b-6e97-4b7d-ba4d-4b8dfbb687a8",
+    "versionId": "766a496e-d66d-4d7c-b7b9-4212e130dac7",
+    "percentage": 100,
+    "servingSha": "1edcd52d77c6c01545d1439d85617842e08d594f"
+  },
+  "artifact": {
+    "fileCount": 814,
+    "aggregateSha256": "9924c130126f108f7abb44652790e62c50b53599f0f792b77b09ee97e2410ca0",
+    "releaseManifestSha256": "03b2a7fdf6dfdeb8b78fe178ee8fdcacfa07dee30bc9c27ae12e0ce15444bf8a",
+    "distArtifactId": 13076833450,
+    "distArtifactDigest": "sha256:bc17398c1bbb69a86ea2b34560dfdcda722d98faf4149a14c1e77c7340cd3250",
+    "allFileDigestsVerifiedByHostedWorkflow": true
+  },
+  "productionSmoke": {
+    "passed": 15,
+    "total": 15,
+    "pass": true
+  },
+  "liveQuestions": {
+    "routes": [
+      "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/"
+    ],
+    "status200": 2,
+    "selfCanonical": 2,
+    "articleSchema": 2,
+    "breadcrumbSchema": 2,
+    "faqSchema": 0,
+    "adRuntime": 0,
+    "hubQuestionCards": 9,
+    "sitemapUrls": 167,
+    "searchItems": 332,
+    "eachNewRouteOccursOnceInSitemapAndSearch": true,
+    "unauthorizedQ10AndAliasStatus": 404
+  },
+  "productionBrowser": {
+    "baseUrl": "https://echobuddha.com",
+    "routes": 10,
+    "viewports": 3,
+    "combinations": 30,
+    "criticalViolations": 0,
+    "seriousViolations": 0,
+    "pass": true
+  },
+  "indexNow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 4,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-01T09:04:03.670Z",
+    "indexingGuaranteed": false
+  },
+  "measurementWindow": {
+    "timeZone": "America/Los_Angeles",
+    "excludedDeploymentDay": "2026-11-01",
+    "start": "2026-11-02",
+    "end": "2026-11-29",
+    "earliestFinalizedReview": "2026-12-02",
+    "state": "FUTURE_DATA_REQUIRED"
+  },
+  "previousVerifiedProduction": {
+    "sha": "1ed945581f6802046f8d3245e0480f5c58dabc2c",
+    "deploymentId": "2c067402-d43f-4aac-9ae3-6821e4da2be2",
+    "versionId": "911d7db1-fbed-4451-9761-bd4d6da17364",
+    "workflowRunId": 41269372569
+  },
+  "limitations": [
+    "IndexNow acceptance is not an indexing guarantee.",
+    "Local Lighthouse is lab evidence; field Core Web Vitals and ranking outcomes require observation.",
+    "Later documentation-only receipt commits can advance main without changing the serving application SHA or starting another material measurement window."
+  ]
+}

@@ -1,6 +1,6 @@
 # Q8 and Q9 implementation report
 
-Status: pre-release implementation and local validation complete; hosted CI, deployment, and live verification pending.
+Status: **released to production and independently verified.**
 
 ## Scope
 
@@ -25,10 +25,12 @@ All listed sources were opened and checked on 2026-11-01. Claims and boundaries 
 
 Both pages use their approved title, SEO title, description, self-canonical, publication date, and modified date of 2026-11-01. They emit `Article` plus `BreadcrumbList`, with no `FAQPage` or `QAPage` schema.
 
-Expected production inventory after release: 353 HTML documents, 167 sitemap URLs, 186 noindex HTML documents, and 332 internal-search records. Both new routes are `LEARN_DETAIL / HOLD_MANUAL_REVIEW`; advertising remains entirely disabled.
+Production inventory is 353 HTML documents, 167 sitemap URLs, 186 noindex HTML documents, and 332 internal-search records. Both new routes are `LEARN_DETAIL / HOLD_MANUAL_REVIEW`; advertising remains entirely disabled.
 
 Local release validation passed all 98 tests, current phase gates, historical boundaries, dependency checks, and the 353-page build. General browser readiness passed. The dedicated question audit passed 30/30 hub/Q1–Q9 route-and-viewport combinations with zero critical or serious axe findings. The correct release-candidate Lighthouse matrix passed 10 mobile and 10 desktop cases with performance and accessibility scores of 100 throughout. Source-link QA passed eight direct HTTP 200 checks plus one independently verified current Met page that rate-limited the audit client.
 
-## Release path
+## Release receipt
 
-The implementation will use a pull request, required hosted checks, merge to main, exact merged-main validation, and the manual exact-SHA production workflow. The workflow’s smoke gate must pass before its manifest-diff IndexNow submission. No direct local deployment, protection bypass, manual GSC indexing request, or AdSense review submission is authorized.
+PR #76 passed hosted validation and merged. The exact merged-main SHA `1edcd52d77c6c01545d1439d85617842e08d594f` passed its main-branch validation and production workflow `41291362233`. Cloudflare deployment `d777dc4b-6e97-4b7d-ba4d-4b8dfbb687a8` serves version `766a496e-d66d-4d7c-b7b9-4212e130dac7` at 100%.
+
+The hosted smoke suite passed 15/15. Independent live checks confirmed the exact release identity, both Q8/Q9 routes and metadata, a nine-card hub, sitemap/search totals of 167/332 with each new route present once, the intended 404 boundaries, and no ad runtime. The live 30-case question browser audit also passed with zero critical or serious accessibility findings. IndexNow accepted four changed canonical notifications with HTTP 200; this is not an indexing guarantee. No protection bypass, manual GSC indexing request, or AdSense review submission occurred.
