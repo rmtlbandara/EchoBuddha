@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "baselineSha": "31441fc5219cea49b25f57977a340677a4ba0af1",
+  "authorizedOn": "2026-11-02",
+  "authorization": "Project owner supplied a production screenshot showing literal <i>Kathāvatthu</i> markup in the Q8 Key Takeaway and requested that it be fixed.",
+  "applicationFiles": {
+    "src/pages/learn/questions-about-buddhism/[slug].astro": "0fd4d32e7825655ae8b9fe831f3645d756397d4931ce3c42188fc4b62667ba55"
+  },
+  "scope": "Render the existing source-controlled inline emphasis in Buddhist-question Key Takeaway text instead of exposing escaped HTML markup. Preserve all wording, dates, routes, canonicals, index states, page ownership, navigation, monetization state, and advertising controls."
+}
