@@ -742,6 +742,26 @@
         "deployedAt": "2026-11-01T09:03:59.165251Z",
         "evidence": "docs/audits/buddhist-questions-q8-q9-2026-11-01/RELEASE_VERIFICATION.json"
       }
+    },
+    {
+      "id": "q8-kathavatthu-emphasis-fix-2026-11-02",
+      "status": "APPROVED_RELEASE_CANDIDATE",
+      "authorizedBy": "Project owner supplied a production screenshot showing literal <i>Kathāvatthu</i> markup in the Q8 Key Takeaway and requested: pls fix.",
+      "authorizedOn": "2026-11-02",
+      "baselineSha": "31441fc5219cea49b25f57977a340677a4ba0af1",
+      "baselineEvidence": "docs/audits/q8-kathavatthu-emphasis-fix-2026-11-02/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "55091e58b46262f39ab9d9990390d4039085cc97b4a0ba2e2517f1ee732a92f5",
+      "plannedReleaseDate": "2026-11-02",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Render existing source-controlled inline emphasis in Buddhist-question Key Takeaway text instead of exposing escaped HTML markup. Preserve all wording, dates, routes, canonicals, index states, page ownership, navigation, monetization state, and advertising controls.",
+      "approvedApplicationFiles": {
+        "src/pages/learn/questions-about-buddhism/[slug].astro": "a0d74cc9232e81d8928215a0f815600d4ab0655e24d7bf62299a4eec0f63276b"
+      },
+      "materiallyRevisedRoutes": [],
+      "measurementImpact": "Presentation-only correction to render already-approved emphasis on Q8. No copy, metadata, URL, canonical, index-state, owner, inventory, monetization, or advertising change; preserve the Q8/Q9 observation window and existing measurement hold."
     }
   ]
 }

@@ -88,7 +88,7 @@ const jsonLd = [
       <div class="prose question-body">
         <aside class="surface key-box" aria-labelledby="key-takeaway-heading">
           <h2 id="key-takeaway-heading">Key Takeaway</h2>
-          <p>{question.takeaway}</p>
+          <p set:html={question.takeaway} />
         </aside>
 
         <section aria-labelledby="short-answer-heading">

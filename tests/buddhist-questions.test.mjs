@@ -170,10 +170,14 @@ test("all nine question pages resolve with truthful dates, canonical Article met
   assert.doesNotMatch(detailTemplate, /publishedDate="2026-09-02"|modifiedDate="2026-09-02"|datePublished: "2026-09-02"|dateModified: "2026-09-02"/);
 });
 
-test("question short answers render trusted inline emphasis instead of escaped HTML", () => {
+test("question takeaways and short answers render trusted inline emphasis instead of escaped HTML", () => {
   const q6Html = read("dist/learn/questions-about-buddhism/appatimo-and-buddha-images/index.html");
   assert.match(q6Html, /In AN 1\.174, <i>appaṭimo<\/i> appears with several terms/);
   assert.doesNotMatch(q6Html, /&lt;i&gt;appaṭimo&lt;\/i&gt;/);
+
+  const q8Html = read("dist/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/index.html");
+  assert.match(q8Html, /<p[^>]*>The <i>Kathāvatthu<\/i> preserves more than two hundred disputed points/);
+  assert.doesNotMatch(q8Html, /&lt;i&gt;Kathāvatthu&lt;\/i&gt;/);
 });
 
 test("hub, internal search, and sitemap discover all nine question pages exactly once", () => {
