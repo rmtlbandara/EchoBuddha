@@ -71,6 +71,7 @@ const globalJsonLd = [
     url: SITE.url,
     description: SITE.description,
     inLanguage: "en",
+    publisher: { "@id": organizationUrl },
     potentialAction: {
       "@type": "SearchAction",
       target: `${SITE.url}/search/?q={search_term_string}`,

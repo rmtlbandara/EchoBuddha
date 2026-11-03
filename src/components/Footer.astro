@@ -1,6 +1,6 @@
 ---
 const year = new Date().getFullYear();
-import { FOOTER_SOCIAL_PROFILES as socialLinks } from "../data/brand";
+import { FOOTER_SOCIAL_PROFILES as socialLinks, PUBLISHER_LOGO } from "../data/brand";
 
 // Platform logo paths from Simple Icons (CC0): https://github.com/simple-icons/simple-icons
 const socialIconPaths = {
@@ -15,7 +15,10 @@ const socialIconPaths = {
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <a class="footer-brand" href="/">Echo Buddha</a>
+      <a class="footer-brand" href="/" aria-label="Echo Buddha home">
+        <img class="footer-brand-mark" src={PUBLISHER_LOGO.path} alt="" width={PUBLISHER_LOGO.width} height={PUBLISHER_LOGO.height} loading="lazy" aria-hidden="true" />
+        <span>Echo Buddha</span>
+      </a>
       <p>Original Buddhist-inspired wisdom, meditation guidance, and educational reflections for steady daily practice.</p>
       <nav class="footer-social" aria-labelledby="footer-social-heading">
         <h2 id="footer-social-heading">Follow Echo Buddha</h2>
@@ -83,13 +86,23 @@ const socialIconPaths = {
   }
 
   .footer-brand {
+    align-items: center;
     color: var(--color-ink);
     display: inline-flex;
     font-family: var(--font-serif);
     font-size: 1.25rem;
     font-weight: 700;
+    gap: 0.6rem;
     margin-bottom: 0.35rem;
     text-decoration: none;
+  }
+
+  .footer-brand-mark {
+    display: block;
+    flex: none;
+    height: 3.5rem;
+    object-fit: contain;
+    width: 3.5rem;
   }
 
   .site-footer p {

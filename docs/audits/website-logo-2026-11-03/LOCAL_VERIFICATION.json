@@ -1,0 +1,554 @@
+{
+  "status": "LOCAL_VERIFICATION_PASSED",
+  "originalSvgUnchanged": true,
+  "originalPngUnchanged": true,
+  "releaseGate": "npm run validate:release passed; 98/98 tests; zero high/critical dependency advisories",
+  "seo": "357 rendered pages use the canonical header/footer logo and SVG browser icon; share image dimensions and Organization/publisher identity pass",
+  "accessibility": {
+    "generatedAt": "2026-11-03T14:14:50.052Z",
+    "baseUrl": "http://127.0.0.1:4321",
+    "pagesTested": 18,
+    "counts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0,
+      "unknown": 0
+    },
+    "rows": [
+      {
+        "path": "/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/start-here/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/articles/four-noble-truths-explained-simply/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/learn/buddhism-101/what-is-mindfulness/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/learn/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/quotes/mindfulness/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/daily-reflections/one-honest-breath/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/daily-reflections/today/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/meditation/breathing-meditation/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/search/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/tools/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/about/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/contact/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/editorial-policy/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/privacy-policy/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      },
+      {
+        "path": "/missing-audit-url/",
+        "h1Count": 1,
+        "mainCount": 1,
+        "violations": []
+      }
+    ],
+    "pass": true
+  },
+  "consent": {
+    "generatedAt": "2026-11-03T14:14:50.051Z",
+    "baseUrl": "http://127.0.0.1:4321",
+    "analyticsId": "G-6QB396HNKN",
+    "model": "Basic consent mode: Analytics remains off until affirmative acceptance; ad storage and AdSense runtime remain off.",
+    "scenarios": [
+      {
+        "name": "first visit has no inferred consent and no Google network request",
+        "pass": true,
+        "details": {
+          "preference": null,
+          "panelOpen": "true",
+          "gtagScriptRequests": 0,
+          "analyticsCollectionRequests": 0,
+          "adsenseRequests": 0,
+          "analyticsCookieCount": 0
+        }
+      },
+      {
+        "name": "first visit explicit rejection",
+        "pass": true,
+        "details": {
+          "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-03T14:12:35.381Z\"}",
+          "googleRequests": 0
+        }
+      },
+      {
+        "name": "return visit after rejection",
+        "pass": true,
+        "details": {
+          "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-03T14:12:39.239Z\"}",
+          "analyticsRequests": 0,
+          "adsenseRequests": 0
+        }
+      },
+      {
+        "name": "accept analytics from privacy settings",
+        "pass": true,
+        "details": {
+          "preference": "{\"analytics\":true,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-03T14:12:44.020Z\"}",
+          "gtagScriptRequests": 1
+        }
+      },
+      {
+        "name": "keyboard withdrawal through reopened settings",
+        "pass": true,
+        "details": {
+          "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-03T14:12:47.286Z\"}",
+          "analyticsCookieCount": 0
+        }
+      },
+      {
+        "name": "consented search use excludes query text, URL parameters, and fragments",
+        "pass": true,
+        "details": {
+          "queryTextSent": false,
+          "searchUseEvents": 1,
+          "sanitizedPageLocation": "http://127.0.0.1:4321/search/"
+        }
+      },
+      {
+        "name": "withdrawal stops aggregate search measurement",
+        "pass": true,
+        "details": {
+          "eventsBeforeWithdrawal": 1,
+          "eventsAfterWithdrawal": 1
+        }
+      },
+      {
+        "name": "mobile navigation and consent keyboard escape",
+        "pass": true,
+        "details": {
+          "navVisible": true,
+          "acceptFocused": true,
+          "closed": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  "logo": {
+    "htmlPages": 357,
+    "originalLogoSha256": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd",
+    "manifestIcons": 6,
+    "icoSizes": [
+      16,
+      32,
+      48
+    ],
+    "schema": "PASS",
+    "results": [
+      {
+        "width": 320,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 375,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 390,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 768,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 860,
+        "logos": "PASS",
+        "overflow": "PRE_EXISTING_HOMEPAGE_HERO_OVERFLOW",
+        "navigation": "PASS"
+      },
+      {
+        "width": 861,
+        "logos": "PASS",
+        "overflow": "PRE_EXISTING_HOMEPAGE_HERO_OVERFLOW",
+        "navigation": "PASS"
+      },
+      {
+        "width": 1280,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 1440,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "route": "/learn/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/learn/buddhist-handbook/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/meditation/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/articles/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/quotes/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/search/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/about/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      }
+    ]
+  },
+  "lighthouse": {
+    "mobile": [
+      {
+        "formFactor": "mobile",
+        "label": "Homepage",
+        "path": "/",
+        "performanceScore": 0.87,
+        "accessibilityScore": 1,
+        "fcpMs": 1480.5758,
+        "lcpMs": 1870.1516000000001,
+        "cls": 0,
+        "tbtMs": 259.5,
+        "speedIndexMs": 6941.965792704848
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Cornerstone article",
+        "path": "/articles/four-noble-truths-explained-simply/",
+        "performanceScore": 0.93,
+        "accessibilityScore": 1,
+        "fcpMs": 1286.6134000000002,
+        "lcpMs": 1736.6134000000002,
+        "cls": 0.001734273664773513,
+        "tbtMs": 116.69330000000014,
+        "speedIndexMs": 6058.059473998026
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Learning page",
+        "path": "/learn/buddhism-101/what-is-mindfulness/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 754.9579000000001,
+        "lcpMs": 1354.9579,
+        "cls": 0.001734273664773513,
+        "tbtMs": 0,
+        "speedIndexMs": 754.9579000000001
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Quote story",
+        "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+        "performanceScore": 0.94,
+        "accessibilityScore": 1,
+        "fcpMs": 787.18205,
+        "lcpMs": 1366.3640999999998,
+        "cls": 0,
+        "tbtMs": 276.9999999999999,
+        "speedIndexMs": 813.925185393362
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Daily reflection",
+        "path": "/daily-reflections/one-honest-breath/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 762.4884,
+        "lcpMs": 1362.4884,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 762.4884
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Meditation page",
+        "path": "/meditation/breathing-meditation/",
+        "performanceScore": 0.98,
+        "accessibilityScore": 1,
+        "fcpMs": 1086.4276,
+        "lcpMs": 1223.6414,
+        "cls": 0,
+        "tbtMs": 153,
+        "speedIndexMs": 1105.602974982831
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Topic hub",
+        "path": "/quotes/mindfulness/",
+        "performanceScore": 0.94,
+        "accessibilityScore": 1,
+        "fcpMs": 840.09145,
+        "lcpMs": 1362.1828999999998,
+        "cls": 0.001734273664773513,
+        "tbtMs": 295.9999999999999,
+        "speedIndexMs": 932.9633740223113
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Search",
+        "path": "/search/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 758.6895,
+        "lcpMs": 1358.6895,
+        "cls": 0.001734273664773513,
+        "tbtMs": 0,
+        "speedIndexMs": 758.6895
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Tools",
+        "path": "/tools/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 1058.4167,
+        "lcpMs": 1508.4167000000002,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 1058.4167
+      },
+      {
+        "formFactor": "mobile",
+        "label": "Privacy",
+        "path": "/privacy-policy/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 753.6781000000001,
+        "lcpMs": 1353.6781,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 753.6781000000001
+      }
+    ],
+    "desktop": [
+      {
+        "formFactor": "desktop",
+        "label": "Homepage",
+        "path": "/",
+        "performanceScore": 0.92,
+        "accessibilityScore": 1,
+        "fcpMs": 258.98109999999997,
+        "lcpMs": 458.98109999999997,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 3168.430036662879
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Cornerstone article",
+        "path": "/articles/four-noble-truths-explained-simply/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 335.1557,
+        "lcpMs": 455.1557,
+        "cls": 0,
+        "tbtMs": 10,
+        "speedIndexMs": 761.8707180383112
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Learning page",
+        "path": "/learn/buddhism-101/what-is-mindfulness/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 211.82420000000002,
+        "lcpMs": 331.8242,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 211.82420000000002
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Quote story",
+        "path": "/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 214.90140000000002,
+        "lcpMs": 314.9014,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 318.20540496691433
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Daily reflection",
+        "path": "/daily-reflections/one-honest-breath/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 256.02660000000003,
+        "lcpMs": 376.02660000000003,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 264.373047565467
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Meditation page",
+        "path": "/meditation/breathing-meditation/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 204.87990000000002,
+        "lcpMs": 324.8799,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 204.87990000000002
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Topic hub",
+        "path": "/quotes/mindfulness/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 206.6972,
+        "lcpMs": 346.69719999999995,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 206.6972
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Search",
+        "path": "/search/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 203.83249999999998,
+        "lcpMs": 323.8325,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 203.83249999999998
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Tools",
+        "path": "/tools/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 286.3151,
+        "lcpMs": 406.3151,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 286.3151
+      },
+      {
+        "formFactor": "desktop",
+        "label": "Privacy",
+        "path": "/privacy-policy/",
+        "performanceScore": 1,
+        "accessibilityScore": 1,
+        "fcpMs": 205.34890000000001,
+        "lcpMs": 325.3489,
+        "cls": 0,
+        "tbtMs": 0,
+        "speedIndexMs": 205.34890000000001
+      }
+    ]
+  },
+  "limitation": "At 860px and 861px the unchanged homepage hero illustration extends beyond the viewport. Reproduced after restoring the old branding layout in the browser DOM. Header/footer logos fit and navigation works. This pre-existing editorial-image layout issue is outside the logo correction; it is not counted as a passing page-wide overflow check.",
+  "productionStatus": "PENDING_GOVERNED_DEPLOYMENT"
+}

@@ -35,7 +35,11 @@ test("publisher entities use one identity and accurate logo dimensions", async (
   let publishers = 0;
   function inspect(node, file) {
     if (!node || typeof node !== "object") return;
-    if (node["@id"] === "https://echobuddha.com/#organization") {
+    if (node["@type"] === "WebSite" && node["@id"] === "https://echobuddha.com/#website") {
+      assert.deepEqual(node.publisher, { "@id": "https://echobuddha.com/#organization" }, file);
+    }
+    // An @id-only publisher reference resolves to the full Organization object.
+    if (node["@type"] === "Organization" && node["@id"] === "https://echobuddha.com/#organization") {
       publishers++;
       assert.equal(node.logo?.url, "https://echobuddha.com/images/publisher-logo.png", file);
       assert.equal(node.logo?.width, 512, file);
