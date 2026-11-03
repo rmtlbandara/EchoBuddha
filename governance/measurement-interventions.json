@@ -782,13 +782,25 @@
     },
     {
       "id": "handbook-part-two-2026-11-03",
-      "status": "APPROVED_RELEASE_CANDIDATE",
+      "status": "DEPLOYED",
       "authorizedBy": "Project owner adopted the Final Master Integration, Expansion & Production Prompt and explicitly requested production/live deployment with the correct governed steps.",
       "authorizedOn": "2026-11-03",
       "baselineSha": "fa24b21bb357e18401e1c551a49715986e8ba5ee",
       "baselineEvidence": "docs/audits/handbook-part-two-2026-11-03/PRE_RELEASE_BASELINE.json",
       "baselineEvidenceSha256": "0896447ebe5a95707ba406c2a888a04e8a78235d1e4ddaf98488192ed70aef6b",
       "plannedReleaseDate": "2026-11-03",
+      "productionSha": "d6c412da99f54786e4ec7a6bb9563e61cd90671f",
+      "productionDeployedAt": "2026-11-03T09:56:29.331748Z",
+      "productionReleases": [
+        {
+          "sha": "d6c412da99f54786e4ec7a6bb9563e61cd90671f",
+          "deployedAt": "2026-11-03T09:56:29.331748Z",
+          "deploymentId": "8633fdde-cb1b-4cac-a9bb-59a8d3f6f65b",
+          "versionId": "100e9335-3076-4326-9432-1ebca47f1b37",
+          "workflowRunId": 41614901044,
+          "verification": "Exact merged-main hosted checks and deployment passed; immutable 834-file artifact verified; production smoke passed 15/15; /release.json served the exact SHA; independent live checks passed for 13 handbook routes, 16 new image variants, sitemap, search, discovery, source-owner copy, security headers, schema, and no-ad state; live responsive browser QA passed; IndexNow HTTP 200 accepted 16 changed canonical notifications, not indexing."
+        }
+      ],
       "publicRouteRemovals": 0,
       "indexStateChanges": 0,
       "ownerChanges": 0,
@@ -855,7 +867,21 @@
         "/learn/",
         "/"
       ],
-      "measurementImpact": "Material publishing intervention: four new indexable handbook chapters and substantive handbook/right-livelihood revisions change the public content surface, search inventory, sitemap, and navigation. The Q8/Q9 observation window becomes intervened on actual deployment. Exclude the Pacific deployment day and begin any new 28-day window on the following Pacific date; record actual dates only after deployment. No causal ranking, indexing, traffic, AdSense, or consolidation outcome is guaranteed."
+      "measurementImpact": "Material publishing intervention: four new indexable handbook chapters and substantive handbook/right-livelihood revisions change the public content surface, search inventory, sitemap, and navigation. The Q8/Q9 observation window is intervened on deployment. Exclude the Pacific deployment day and begin the new 28-day window on the following Pacific date. No causal ranking, indexing, traffic, AdSense, or consolidation outcome is guaranteed.",
+      "revisedObservationDates": {
+        "timeZone": "America/Los_Angeles",
+        "excludedDeploymentDay": "2026-11-03",
+        "start": "2026-11-04",
+        "end": "2026-12-01",
+        "earliestFinalizedReview": "2026-12-04",
+        "state": "FUTURE_DATA_REQUIRED",
+        "condition": "Requires stable substantive content and actually finalized data. Earlier windows remain intervened/descriptive. Any later substantive publishing can intervene again; no causal ranking, indexing, traffic, AdSense, or consolidation claim is authorized."
+      },
+      "latestVerifiedProduction": {
+        "sha": "d6c412da99f54786e4ec7a6bb9563e61cd90671f",
+        "deployedAt": "2026-11-03T09:56:29.331748Z",
+        "evidence": "docs/audits/handbook-part-two-2026-11-03/RELEASE_VERIFICATION.json"
+      }
     }
   ]
 }

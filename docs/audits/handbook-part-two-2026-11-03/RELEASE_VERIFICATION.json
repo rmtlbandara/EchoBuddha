@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
+  "verifiedAt": "2026-11-03T09:58:00Z",
+  "productionUrl": "https://echobuddha.com/learn/buddhist-handbook/",
+  "source": {
+    "docxSha256": "364d267f69523a837064036b4b73e569ec42c6ebaaed56be95ff13917631c995",
+    "nonEmptyParagraphsAudited": 119,
+    "suppliedPhotoPagesAudited": 12
+  },
+  "implementationPr": {
+    "number": 82,
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/82",
+    "implementationSha": "78b41b5badfc214e7167996d6791a28540d1f37b",
+    "mergeSha": "d6c412da99f54786e4ec7a6bb9563e61cd90671f"
+  },
+  "ci": {
+    "pullRequestRun": 41614307388,
+    "productionRun": 41614901044,
+    "releaseValidation": "success",
+    "browserAndConsentValidation": "success",
+    "productionConclusion": "success"
+  },
+  "deployment": {
+    "capturedAt": "2026-11-03T09:56:31.901Z",
+    "deployedAt": "2026-11-03T09:56:29.331748Z",
+    "deploymentId": "8633fdde-cb1b-4cac-a9bb-59a8d3f6f65b",
+    "versionId": "100e9335-3076-4326-9432-1ebca47f1b37",
+    "percentage": 100,
+    "servingSha": "d6c412da99f54786e4ec7a6bb9563e61cd90671f"
+  },
+  "artifact": {
+    "fileCount": 834,
+    "aggregateSha256": "34845183705429dfd8443f54a97d1689d06d656da8699532a37981dd629de590",
+    "releaseManifestSha256": "5380be75afc6ba5a21b3b72af03add9adb78a56905afe0d8126b0f136790787b",
+    "distArtifactId": 13220372770,
+    "distArtifactDigest": "sha256:451bfb628d3e79aeccb7027ad6a0e327ac0dfc66bb032ca2632a2eab3dbfbb25",
+    "deploymentEvidenceArtifactId": 13220896741,
+    "deploymentEvidenceDigest": "sha256:0a90323ccdc94a9e6499c85a6dd7e77afee23b53d05a50982e3a5ae2519916c8",
+    "allFileDigestsVerifiedByHostedWorkflow": true
+  },
+  "productionSmoke": {
+    "passed": 15,
+    "total": 15,
+    "pass": true
+  },
+  "liveHandbook": {
+    "routesChecked": 13,
+    "newImageVariantsChecked": 16,
+    "sitemapHandbookUrls": 13,
+    "searchHandbookRecords": 13,
+    "searchRecordsTotal": 336,
+    "releaseIdentityMatches": true,
+    "allRoutesHttp200": true,
+    "selfCanonicals": true,
+    "indexFollow": true,
+    "expectedStructuredData": true,
+    "oneH1PerRoute": true,
+    "securityHeaders": true,
+    "allNewImagesHttp200WithImageMime": true,
+    "adsenseRuntimeOrSlots": 0,
+    "responsiveBrowserOverflow": false,
+    "responsiveBrokenImages": 0,
+    "pass": true
+  },
+  "indexNow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 16,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-03T09:56:34.644Z",
+    "indexingGuaranteed": false
+  },
+  "measurementImpact": {
+    "materialContentChange": true,
+    "excludedPacificDeploymentDay": "2026-11-03",
+    "nextObservationWindowStart": "2026-11-04",
+    "nextObservationWindowEnd": "2026-12-01",
+    "earliestFinalizedReview": "2026-12-04",
+    "state": "FUTURE_DATA_REQUIRED"
+  }
+}
