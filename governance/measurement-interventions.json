@@ -882,6 +882,80 @@
         "deployedAt": "2026-11-03T09:56:29.331748Z",
         "evidence": "docs/audits/handbook-part-two-2026-11-03/RELEASE_VERIFICATION.json"
       }
+    },
+    {
+      "id": "website-logo-2026-11-03",
+      "status": "LOCAL_VERIFIED_CANDIDATE",
+      "authorizedBy": "Project owner explicitly selected the original circular Echo Buddha wordmark as canonical; requested consistent headers, footer, icons, social previews and structured data, successful build/SEO/accessibility/responsive checks, and production deployment followed by live verification.",
+      "authorizedOn": "2026-11-03",
+      "baselineSha": "37d4ea1530b11cb14c896a7203fea2d3b00625a6",
+      "baselineEvidence": "docs/audits/website-logo-2026-11-03/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "54a39d34c106e6c95aec75d37a57b41ded0af4ac62172c80bace14666e92119e",
+      "plannedReleaseDate": "2026-11-03",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Use the unchanged original circular publisher wordmark in shared desktop/mobile header and footer; derive browser, Apple touch and webmanifest icons and add the canonical logo to five existing branded social previews. Link WebSite publisher to the canonical Organization identity. Preserve publisher artwork and external platform assets.",
+      "approvedApplicationFiles": {
+        "src/components/Header.astro": "5fa7d6d863f6c2d1398586e4f1f2083503d7fbe046540ab994d75ce3335fdf92",
+        "src/components/Footer.astro": "934c0d2fa7f4ea39a80a09225c61bfc079fbfad9e7779d831a0049d9d8175e91",
+        "src/components/SEO.astro": "dce961f43f0d275f66d8626d42b580a7742479fac8a4bc5cc4cfb533fbad58cb",
+        "src/layouts/Layout.astro": "df2b13332b14128b5836a1c91898c3e1e0733a9a6c8a7071c02e4b5aea3a1680",
+        "public/favicon.ico": "3191925f3aed10d7ae5c0ac62af62b146b2c8d736b32cbc3ecad3722d88d6315",
+        "public/favicon-16x16.png": "68127daaa073ac51765d3d3ec885e827543c6fd1a9b6af24b3c419cc543cb9bd",
+        "public/favicon-32x32.png": "f7cb12aa88161f51078f73961ae3870483d3b4393ea234af5f5c4aa1bc0e80eb",
+        "public/favicon-48x48.png": "01adde449c85fa1fc984e6bd143005c25c6e981794ac8602df4d7c180cf13a8e",
+        "public/apple-touch-icon.png": "491dd9621e57171f547425bb5c5c8c403995f017569247700f4e3ec29547b1d9",
+        "public/icon-192x192.png": "af19a9b6fea0a0f1fc1bcada095e7daf59c8b2e2e21b353aa66d2eddfec1ab26",
+        "public/icon-512x512.png": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+        "public/site.webmanifest": "97aa1daaf760a08a43873ca137457da9450379da9ef15a408d8bd59207df60f7",
+        "public/og-default.svg": "2431179fcf0009f8354b161852d0898f9483eedb7d406ef6c39142f9ab6c8da7",
+        "public/og-default.png": "a1a39b66c0e487977fad30112caf5a52a0182f1ce02229000375d3b58d5019e5",
+        "public/og-learn.png": "d025db1574d8ffa426a4cb7dc7f89df671fec331520cd4c7dba3ce46c989fc7f",
+        "public/og-meditation.png": "9553765e24d5f020a7e8c944166d0b042f45998f4409e32c9408812d7eab06ed",
+        "public/og-handbook.png": "c452a12abe8074437ac4f742fcf6af8490c2793ccf14defffbdfc126e0a9a36e",
+        "public/og-quotes.png": "0b5dc51a0ae3fecce01923be931b125c849cdc5bc511c9102c3189070a073f73"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/components/Footer.astro",
+          "interventionId": "social-sync-2026-11-01",
+          "previousSha256": "e827d4d3769840a009419bcff98407a21698077943e3d4a4fedd0511f6375d91"
+        },
+        {
+          "file": "src/components/SEO.astro",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "301cf68f04c8312bca04fabbf9c292c2459d0a4d61490c97cbb00b06b1c62949"
+        },
+        {
+          "file": "public/og-default.png",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "606c19601a31563e4c46f6afd28da12aeb669761949df8d2fc4a4b5ad77a635e"
+        },
+        {
+          "file": "public/og-learn.png",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "8ea09eafc1deced34febf7f2ddab9addfc8a130d1d8fc753d0b3a2e870dd7141"
+        },
+        {
+          "file": "public/og-meditation.png",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "82dcd023d88e229a3de13fe11c4ec6bdb6da31377be923216ee4f3a58e034b78"
+        },
+        {
+          "file": "public/og-handbook.png",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "ce27ce4c85c21b4a6d2de2882ecde9372a1575e4bcd72cd94f1cfbef6ea8fcb0"
+        },
+        {
+          "file": "public/og-quotes.png",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "9edf2608be5e1c423f050f7a28d471aa885935bda1711d0f40fe9f1d77d46709"
+        }
+      ],
+      "materiallyRevisedRoutes": [],
+      "measurementImpact": "Brand presentation and asset correction only; no editorial content, route, canonical, index state or topic-owner change. Preserve the latest substantive observation window and consolidation hold. No ranking, indexing, traffic or AdSense outcome claim."
     }
   ]
 }
