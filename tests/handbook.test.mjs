@@ -15,11 +15,11 @@ const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const routes = handbookPages.map(getHandbookPath);
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-test("handbook contains exactly eight substantial, unique, source-aware chapters", () => {
-  assert.equal(handbookPages.length, 8);
-  assert.deepEqual(handbookPages.map((page) => page.number), [1, 2, 3, 4, 5, 6, 7, 8]);
-  assert.equal(new Set(handbookPages.map((page) => page.slug)).size, 8);
-  assert.equal(new Set(handbookPages.map((page) => page.title)).size, 8);
+test("handbook contains twelve substantial, unique, source-aware chapters in two complete parts", () => {
+  assert.equal(handbookPages.length, 12);
+  assert.deepEqual(handbookPages.map((page) => page.number), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+  assert.equal(new Set(handbookPages.map((page) => page.slug)).size, 12);
+  assert.equal(new Set(handbookPages.map((page) => page.title)).size, 12);
   for (const page of handbookPages) {
     const readable = [page.intro, page.takeaway, ...page.sections.flatMap((section) => [section.heading, ...section.paragraphs, ...(section.points ?? [])])]
       .join(" ")
@@ -30,8 +30,8 @@ test("handbook contains exactly eight substantial, unique, source-aware chapters
     assert.ok(page.sections.length >= 4);
     assert.ok(page.sources.length >= 3);
     assert.ok(page.relatedLinks.length >= 3);
-    assert.equal(page.publishedDate, "2026-09-25");
-    assert.equal(page.modifiedDate, "2026-09-26");
+    assert.equal(page.publishedDate, page.number <= 8 ? "2026-09-25" : "2026-11-03");
+    assert.equal(page.modifiedDate, page.number >= 7 ? "2026-11-03" : "2026-09-26");
     assert.equal(page.image.width, 1600);
     assert.equal(page.image.height, 900);
     assert.match(getHandbookReadTime(page), /^\d+ min read$/);
@@ -39,14 +39,16 @@ test("handbook contains exactly eight substantial, unique, source-aware chapters
   }
 });
 
-test("handbook generates one hub and exactly eight canonical article routes", () => {
+test("handbook generates one hub and exactly twelve canonical article routes", () => {
   const hub = read(`dist${HANDBOOK_PATH}/index.html`);
   assert.match(hub, new RegExp(`<link rel="canonical" href="https://echobuddha.com${HANDBOOK_PATH}/"`));
   assert.match(hub, /"@type":"CollectionPage"/);
   assert.match(hub, /"@type":"ItemList"/);
-  assert.match(hub, /"numberOfItems":8/);
+  assert.match(hub, /"numberOfItems":12/);
   assert.match(hub, /"@type":"BreadcrumbList"/);
-  assert.equal((hub.match(/class="surface chapter-card"/g) ?? []).length, 8);
+  assert.equal((hub.match(/class="surface chapter-card"/g) ?? []).length, 12);
+  assert.match(hub, /Part I · The Triple Gem &amp; Refuge/);
+  assert.match(hub, /Part II · The Lay Buddhist Path/);
 
   const generated = fs.readdirSync(path.join(root, `dist${HANDBOOK_PATH}`), { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
@@ -59,7 +61,7 @@ test("handbook generates one hub and exactly eight canonical article routes", ()
     assert.match(html, new RegExp(`<link rel="canonical" href="https://echobuddha.com${escapeRegex(route)}"`));
     assert.match(html, /"@type":"Article"/);
     assert.match(html, /"@type":"BreadcrumbList"/);
-    assert.match(html, /"datePublished":"2026-09-25"/);
+    assert.match(html, new RegExp(`"datePublished":"${index < 8 ? "2026-09-25" : "2026-11-03"}"`));
     assert.match(html, /How the Sources Fit/);
     assert.match(html, /Selected References/);
     assert.match(html, /<meta property="og:image:width" content="1600"/);
@@ -80,13 +82,13 @@ test("home, Learn, search, and sitemap discover the complete handbook without du
   assert.match(homepage, new RegExp(`${HANDBOOK_PATH}/`));
   assert.match(learn, new RegExp(`${HANDBOOK_PATH}/`));
   assert.equal(search.filter((item) => item.url === `${HANDBOOK_PATH}/`).length, 1);
-  assert.equal((sitemap.match(new RegExp(`https://echobuddha.com${HANDBOOK_PATH}/`, "g")) ?? []).length, 9);
+    assert.equal((sitemap.match(new RegExp(`https://echobuddha.com${HANDBOOK_PATH}/`, "g")) ?? []).length, 13);
   for (const route of routes) {
     assert.equal(search.filter((item) => item.url === route).length, 1);
     assert.equal((sitemap.match(new RegExp(`https://echobuddha.com${escapeRegex(route)}`, "g")) ?? []).length, 1);
   }
   const corpus = JSON.stringify(search.filter((item) => item.url.startsWith(`${HANDBOOK_PATH}/`)));
-  for (const term of ["Triple Gem", "Three Jewels", "taking refuge", "Buddha refuge", "Dhamma refuge", "Sangha refuge", "Saṅgha", "devas", "stupa", "cetiya", "Bodhi tree", "lay Buddhist", "bhikkhu", "monastic community"]) {
+  for (const term of ["Triple Gem", "Three Jewels", "taking refuge", "Buddha refuge", "Dhamma refuge", "Sangha refuge", "Saṅgha", "devas", "stupa", "cetiya", "Bodhi tree", "lay Buddhist", "upasaka", "Five Precepts", "AN 8.25", "AN 9.17", "patta nikkujjana", "bhikkhu", "monastic community"]) {
     assert.match(corpus, new RegExp(term, "i"), term);
   }
 });
@@ -126,7 +128,8 @@ test("coverage and asset evidence are complete", () => {
       `public${page.image.avif.replace(".avif", "-800.avif")}`
     ])
   ];
-  assert.equal(new Set(handbookPages.map((page) => page.image.src)).size, 8);
+  assert.match(audit, /All 12 supplied photograph pages/);
+  assert.equal(new Set(handbookPages.map((page) => page.image.src)).size, 12);
   for (const image of imagePaths) {
     assert.ok(fs.existsSync(path.join(root, image)), image);
     assert.ok(fs.statSync(path.join(root, image)).size > 30_000, image);

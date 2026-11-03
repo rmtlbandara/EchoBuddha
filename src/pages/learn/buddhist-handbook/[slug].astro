@@ -6,7 +6,7 @@ import LearningCard from "../../../components/LearningCard.astro";
 import { getBreadcrumbJsonLd } from "../../../data/learn";
 import {
   HANDBOOK_PATH,
-  HANDBOOK_PART,
+  getHandbookPart,
   getHandbookImageVariant,
   getHandbookPath,
   getHandbookReadTime,
@@ -24,10 +24,14 @@ export function getStaticPaths() {
 const { page } = Astro.props as { page: HandbookPage };
 const canonicalPath = getHandbookPath(page);
 const readTime = getHandbookReadTime(page);
+const pagePart = getHandbookPart(page);
+const partNumber = page.number <= 8 ? 1 : 2;
+const partChapterCount = partNumber === 1 ? 8 : 4;
 const breadcrumbs = [
   { name: "Home", href: "/" },
   { name: "Learn", href: "/learn/" },
   { name: "Buddhist Life & Practice Handbook", href: `${HANDBOOK_PATH}/` },
+  { name: pagePart, href: `${HANDBOOK_PATH}/#part-${partNumber}` },
   { name: page.title, href: canonicalPath }
 ];
 const jsonLd = [
@@ -45,7 +49,7 @@ const jsonLd = [
       height: page.image.height
     },
     inLanguage: "en",
-    articleSection: "Buddhist Life & Practice Handbook",
+    articleSection: pagePart,
     datePublished: page.publishedDate,
     dateModified: page.modifiedDate,
     author: EDITORIAL_AUTHOR_SCHEMA,
@@ -80,7 +84,7 @@ const jsonLd = [
     <div class="container article-shell handbook-shell">
       <div class="prose handbook-body">
         <aside class="surface key-box" aria-labelledby="key-takeaway-heading">
-          <h2 id="key-takeaway-heading">Key Takeaway</h2>
+          <h2 id="key-takeaway-heading">{page.takeawayHeading ?? "Key Takeaway"}</h2>
           <p>{page.takeaway}</p>
         </aside>
 
@@ -121,8 +125,8 @@ const jsonLd = [
           <ul>{page.relatedTerms.map((term) => <li>{term}</li>)}</ul>
         </div>
         <div class="surface side-card">
-          <span class="eyebrow">{HANDBOOK_PART}</span>
-          <p>Return to the Part I contents or move through its eight chapters in sequence.</p>
+          <span class="eyebrow">{pagePart}</span>
+          <p>Return to the Part {partNumber === 1 ? "I" : "II"} contents or move through its {partChapterCount} chapters in sequence.</p>
           <a href={`${HANDBOOK_PATH}/`}>Buddhist Life & Practice Handbook</a>
         </div>
       </aside>
@@ -171,6 +175,7 @@ const jsonLd = [
   }
   @media (min-width: 900px) {
     .handbook-chapter-hero__grid { grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr); }
+    .handbook-chapter-hero h1 { font-size: clamp(3rem, 4.6vw, 4rem); }
     .handbook-shell { align-items: start; grid-template-columns: minmax(0, 760px) minmax(220px, 1fr); }
     .handbook-sidebar { position: sticky; top: 6.5rem; }
     .chapter-navigation { grid-template-columns: repeat(2, minmax(0, 1fr)); }

@@ -8,6 +8,7 @@ export type HandbookSource = {
   sourceType:
     | "Early Buddhist discourse"
     | "Theravāda canonical collection"
+    | "Theravāda Vinaya and commentary"
     | "Traditional Theravāda manual"
     | "Theravāda commentary / tradition"
     | "Sri Lankan cultural practice"
@@ -40,6 +41,7 @@ export type HandbookPage = {
   modifiedDate: string;
   intro: string;
   takeaway: string;
+  takeawayHeading?: string;
   image: HandbookImage;
   sections: HandbookSection[];
   sourceNote: string;
@@ -52,7 +54,9 @@ export type HandbookPage = {
 };
 
 export const HANDBOOK_PATH = "/learn/buddhist-handbook";
-export const HANDBOOK_PART = "Part I · The Triple Gem & Refuge";
+export const HANDBOOK_PART_ONE = "Part I · The Triple Gem & Refuge";
+export const HANDBOOK_PART_TWO = "Part II · The Lay Buddhist Path";
+export const HANDBOOK_PART = HANDBOOK_PART_ONE;
 export const HANDBOOK_IMAGE = "/images/handbook/refined/buddhist-life-practice-handbook.webp";
 export const HANDBOOK_IMAGE_AVIF = "/images/handbook/refined/buddhist-life-practice-handbook.avif";
 export const HANDBOOK_IMAGE_WIDTH = 1600;
@@ -60,6 +64,10 @@ export const HANDBOOK_IMAGE_HEIGHT = 900;
 
 export function getHandbookImageVariant(src: string, width: 800 | 1600 = 800) {
   return width === 1600 ? src : src.replace(/\.(avif|webp)$/, `-${width}.$1`);
+}
+
+export function getHandbookPart(page: Pick<HandbookPage, "number">) {
+  return page.number <= 8 ? HANDBOOK_PART_ONE : HANDBOOK_PART_TWO;
 }
 
 export const handbookPages: HandbookPage[] = [
@@ -527,7 +535,7 @@ export const handbookPages: HandbookPage[] = [
     description: "Practical, source-aware guidance on respecting the Buddha, Dhamma, Saṅgha, shrines, books, Bodhi trees, temple spaces, and offerings.",
     eyebrow: "Part I · Chapter 7 of 8",
     publishedDate: "2026-09-25",
-    modifiedDate: "2026-09-26",
+    modifiedDate: "2026-11-03",
     intro: "Respect in Buddhist life includes gestures, speech, care for shared places, attention to teachings, and—most importantly—the conduct those forms are meant to support.",
     takeaway: "Bows, offerings, shrines, Dhamma books, Bodhi trees, and temple etiquette can train gratitude and mindfulness. They are most coherent when joined to ethical conduct and an honest understanding of what the objects represent.",
     image: {
@@ -552,6 +560,14 @@ export const handbookPages: HandbookPage[] = [
           "Traditional etiquette treats Dhamma books and teaching spaces with care. In a digital setting, equivalent respect includes accurate quotation, honest attribution, context, and not reshaping a teaching merely to make it more shareable.",
           "Listening respectfully does not mean suppressing questions. The Dhamma is repeatedly presented as something to be examined and known. Good questions attend to the actual claim, its source layer, and how it bears on practice.",
           "Supporting translation, preservation, teaching, and access can be a form of generosity. So can correcting an error without humiliation. Care for the teaching includes care for the people trying to understand it."
+        ]
+      },
+      {
+        heading: "Three Kinds of Cetiya in Later Theravāda Tradition",
+        paragraphs: [
+          "Later Theravāda literature commonly arranges memorials in three groups. <i>Sārīrika cetiya</i> are bodily relics; <i>pāribhogika cetiya</i> are things associated with the Buddha’s use, most prominently the Bodhi tree in this tradition; and <i>uddesika cetiya</i> are commemorative or representational objects. The scheme is useful, but it should not be projected back into every early discourse as though the three-part taxonomy were stated there in full.",
+          "The categories describe kinds of connection, not three substances that contain awakening. A relic shrine can recall the historical Buddha, a Bodhi tree can recall awakening, and an image can direct attention toward remembered qualities. In each case the object supports recollection; it does not replace conduct, meditation, or wisdom.",
+          "Sri Lankan histories and devotional literature attach particular relics and visits to named sites. Those traditions matter to communities and pilgrimage, while their historical claims require source-by-source treatment. The linked Deeper Questions pages examine the categories, images, Bodhi traditions, and claims of precedence in more detail than this practical chapter can responsibly carry."
         ]
       },
       {
@@ -603,7 +619,7 @@ export const handbookPages: HandbookPage[] = [
     description: "Learn how laypeople and monastics support one another, maintain healthy boundaries, respond to misconduct, and understand AN 8.88.",
     eyebrow: "Part I · Chapter 8 of 8",
     publishedDate: "2026-09-25",
-    modifiedDate: "2026-09-26",
+    modifiedDate: "2026-11-03",
     intro: "The lay–monastic relationship is sustained by generosity, teaching, ethical conduct, and trust. Respect does not require blindness, and accountability does not require abuse.",
     takeaway: "Laypeople may support responsible monastic life and receive teaching and example in return. When conduct is seriously harmful, early texts allow principled withdrawal of support; concerns should be handled through evidence, safety, and appropriate community procedures.",
     image: {
@@ -664,11 +680,320 @@ export const handbookPages: HandbookPage[] = [
     relatedLinks: [
       { label: "The Saṅgha as Refuge", href: `${HANDBOOK_PATH}/sangha-as-refuge/`, description: "Distinguish Noble Saṅgha, monastic Saṅgha, and wider community." },
       { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/", description: "Return to the ethical baseline shared by lay practice." },
-      { label: "Compassion With Boundaries", href: "/articles/compassion-with-boundaries/", description: "Apply non-harming without abandoning clear limits." }
+      { label: "Compassion With Boundaries", href: "/articles/compassion-with-boundaries/", description: "Apply non-harming without abandoning clear limits." },
+      { label: "Households, Saṅgha, and Accountability", href: `${HANDBOOK_PATH}/households-sangha-accountability/`, description: "Continue with household hospitality, formal community boundaries, and restoration." }
     ],
     relatedTerms: ["Bhikkhu", "Bhikkhunī", "Upāsaka", "Upāsikā", "Vinaya", "Appasāda"],
     searchTerms: ["lay Buddhist and monks", "lay Sangha relationship", "AN 8.88", "monastic misconduct", "Buddhist accountability"],
-    previous: { label: "Respecting the Triple Gem", href: `${HANDBOOK_PATH}/respecting-triple-gem/` }
+    previous: { label: "Respecting the Triple Gem", href: `${HANDBOOK_PATH}/respecting-triple-gem/` },
+    next: { label: "Becoming a Lay Buddhist", href: `${HANDBOOK_PATH}/becoming-a-lay-buddhist/` }
+  },
+  {
+    number: 9,
+    slug: "becoming-a-lay-buddhist",
+    title: "Becoming a Lay Buddhist",
+    seoTitle: "Becoming a Lay Buddhist: Refuge, Ethics, and Daily Practice",
+    description: "Learn how early texts define an upāsaka or upāsikā through refuge, how the Five Precepts shape ethical practice, and what commitment looks like in daily life.",
+    eyebrow: "Part II · Chapter 1 of 4",
+    publishedDate: "2026-11-03",
+    modifiedDate: "2026-11-03",
+    intro: "A lay Buddhist path begins with a direction of trust and training. Refuge names that direction; ethical conduct shows whether it is becoming part of one’s life.",
+    takeawayHeading: "A Grounded Beginning",
+    takeaway: "In AN 8.25, going for refuge to the Buddha, Dhamma, and Saṅgha defines a lay follower, while refraining from five kinds of harm defines an ethical lay follower. Ceremony may mark the commitment, but repeated choices give it substance.",
+    image: {
+      src: "/images/handbook/refined/becoming-a-lay-buddhist.webp",
+      avif: "/images/handbook/refined/becoming-a-lay-buddhist.avif",
+      alt: "A home practice threshold with flowers, an oil lamp, and a path toward a quiet monastery garden",
+      width: 1600,
+      height: 900
+    },
+    sections: [
+      {
+        heading: "What Upāsaka and Upāsikā Mean",
+        paragraphs: [
+          "The Pāli words <i>upāsaka</i> and <i>upāsikā</i> refer to male and female lay followers. In AN 8.25, Mahānāma asks how a lay follower is defined. The answer is concise: a person who has gone for refuge to the Buddha, the Dhamma, and the Saṅgha is considered a lay follower. The discourse does not make ordination, ethnic identity, family background, or mastery of a large body of doctrine the entry requirement.",
+          "Refuge here is more than admiration from a distance. It is a chosen orientation: the Buddha is trusted as awakened teacher, the Dhamma as teaching and path, and the Noble Saṅgha as evidence that the path can be realized. A lay follower continues with work, family, civic duties, and ordinary responsibilities while allowing that orientation to reshape them.",
+          "English words such as ‘conversion’ can suggest a single dramatic event. Some people do make a formal public commitment; others begin gradually through study and practice. The early definition helps keep the center clear without demanding one cultural script for everyone."
+        ]
+      },
+      {
+        heading: "Refuge and the Five Precepts",
+        paragraphs: [
+          "Mahānāma’s next question in AN 8.25 is how an ethical lay follower is defined. The response names five abstentions: not killing living beings, not taking what has not been given, not engaging in sexual misconduct, not speaking falsely, and not using intoxicants that lead to heedlessness. These are training rules, not claims of instant moral perfection.",
+          "The Five Precepts translate refuge into ordinary pressure points. They reach into food and consumption, property and work, sexuality and power, speech and digital life, alcohol and other intoxicants. Their purpose is not to manufacture a spotless public identity. They train attention to causes of suffering and make trust possible in relationships.",
+          "When a precept is broken, honest recognition matters more than concealment. One can acknowledge the harm, repair what can be repaired, learn the conditions that led to it, and undertake the training again. Refuge does not remove accountability; it gives accountability a direction."
+        ]
+      },
+      {
+        heading: "Formal Ceremony and Lived Commitment",
+        paragraphs: [
+          "In Theravāda communities, a person may request the Three Refuges and Five Precepts from a monastic, often repeating Pāli formulas. Such a ceremony can clarify intention, connect a practitioner with a community, and provide a memorable beginning. Details differ by monastery, country, and occasion, so local forms should not be mistaken for a single universal admission procedure.",
+          "A ceremony is meaningful without being magical. It does not guarantee protection from illness or loss, certify attainment, or make every later decision Buddhist by definition. Its promise is practical: remember this direction, keep learning, and return to the training when attention slips.",
+          "Someone exploring Buddhism need not pretend certainty. It is reasonable to study, attend teachings, ask questions, and try practices before adopting an identity. Commitment made freely is more durable than commitment produced by family pressure, romantic influence, fear, or a desire to belong quickly."
+        ]
+      },
+      {
+        heading: "A Lay Path Has Its Own Responsibilities",
+        paragraphs: [
+          "Lay life is not simply monastic life with fewer rules. Householders care for dependents, earn and use money, navigate intimacy, participate in institutions, and make decisions whose effects spread through families and workplaces. DN 31 treats these relationships as a field of reciprocal duties rather than as distractions with no ethical significance.",
+          "Generosity, learning, meditation, right livelihood, and care for parents or dependents can all belong to lay training. Supporting a monastery may be wholesome, but it should not require neglecting rent, food, medical care, debt, or people for whom one is responsible. Giving is strongest when it is free, informed, and within one’s means.",
+          "The lay path also includes wise friendship. A community can sustain practice through shared study, service, and correction, yet no group should demand secrecy, unquestioning loyalty, or surrender of ordinary safety boundaries. Refuge in the Triple Gem is not ownership by an institution or teacher."
+        ]
+      },
+      {
+        heading: "A First Month of Practice",
+        paragraphs: [
+          "Begin modestly. Each morning, recollect the Three Jewels in language you understand and choose one precept to watch carefully. Each evening, review one action that reduced harm and one moment that needs repair. Add a short period of meditation or attentive reading that can survive a busy week rather than an ambitious schedule that collapses after three days.",
+          "During the month, visit or listen to more than one responsible teacher if possible. Notice whether questions are welcomed, finances and authority are handled transparently, and vulnerable people are protected. Sound communities do not need to isolate learners from family, qualified care, or independent judgment.",
+          "At the end of the month, ask a plain question: is confidence producing more honesty, restraint, generosity, and understanding? The label matters, but its best evidence is a life becoming less governed by greed, hostility, and confusion."
+        ]
+      }
+    ],
+    sourceNote: "AN 8.25 provides the early-discourse definitions of a lay follower and an ethical lay follower. Formal refuge-and-precept ceremonies are established Theravāda practices whose wording and social role vary; this chapter does not turn one regional ceremony into a universal requirement.",
+    sources: [
+      { label: "With Mahānāma (AN 8.25) — SuttaCentral", href: "https://suttacentral.net/an8.25/en/sujato", sourceType: "Early Buddhist discourse", note: "Defines a lay follower through the Three Refuges and an ethical lay follower through the Five Precepts." },
+      { label: "The People of Bamboo Gate (SN 55.7) — SuttaCentral", href: "https://suttacentral.net/sn55.7/en/sujato", sourceType: "Early Buddhist discourse", note: "Applies ethical reciprocity to householders seeking welfare in this life and beyond." },
+      { label: "Advice to Sigālaka (DN 31) — SuttaCentral", href: "https://suttacentral.net/dn31/en/sujato", sourceType: "Early Buddhist discourse", note: "Frames household life through reciprocal responsibilities among family, friends, workers, and spiritual teachers." }
+    ],
+    relatedLinks: [
+      { label: "Taking Refuge in the Triple Gem", href: `${HANDBOOK_PATH}/taking-refuge-triple-gem/`, description: "Study the formula, meaning, and daily renewal of refuge." },
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/", description: "Explore each ethical training rule in practical language." },
+      { label: "How to Practice Buddhism at Home", href: "/learn/buddhism-101/how-to-practice-buddhism-at-home/", description: "Build a small, sustainable home practice." }
+    ],
+    relatedTerms: ["Upāsaka", "Upāsikā", "Saraṇa", "Five Precepts", "Householder"],
+    searchTerms: ["how to become Buddhist", "lay Buddhist", "upasaka upasika", "Buddhist refuge and precepts", "becoming a Theravada Buddhist"],
+    previous: { label: "Lay Buddhists and the Saṅgha", href: `${HANDBOOK_PATH}/lay-sangha-relationship/` },
+    next: { label: "Qualities of a Lay Buddhist", href: `${HANDBOOK_PATH}/qualities-of-a-lay-buddhist/` }
+  },
+  {
+    number: 10,
+    slug: "qualities-of-a-lay-buddhist",
+    title: "Qualities of a Lay Buddhist",
+    seoTitle: "Qualities of a Lay Buddhist: Early and Later Theravāda Lists",
+    description: "Compare the five qualities in AN 5.175 with the ten later virtues in the Milindapañha, including confidence, ethics, generosity, peace, and careful loyalty.",
+    eyebrow: "Part II · Chapter 2 of 4",
+    publishedDate: "2026-11-03",
+    modifiedDate: "2026-11-03",
+    intro: "Buddhist texts do not measure a lay follower by appearance or social prestige. They ask what kind of confidence, conduct, generosity, judgment, and relationship to Dhamma a person is cultivating.",
+    takeawayHeading: "Two Lists, Two Source Layers",
+    takeaway: "AN 5.175 gives an early five-part contrast; the Milindapañha gives a later ten-part portrait. Read together, they emphasize ethical confidence and peaceful commitment—not superstition, rivalry, or religious vanity.",
+    image: {
+      src: "/images/handbook/refined/qualities-of-a-lay-buddhist.webp",
+      avif: "/images/handbook/refined/qualities-of-a-lay-buddhist.avif",
+      alt: "A quiet veranda with a blank palm-leaf manuscript, alms bowl, oil lamp, flowers, and ten natural seeds",
+      width: 1600,
+      height: 900
+    },
+    sections: [
+      {
+        heading: "The Five-Part Contrast in AN 5.175",
+        paragraphs: [
+          "AN 5.175 uses deliberately sharp ancient language to contrast a degraded lay follower with a lay follower compared to a gem and lotuses. The negative portrait is faithless, unethical, absorbed in noisy superstitious rites, guided by omens rather than deeds, and inclined to seek recipients outside the Buddhist community first. The positive portrait reverses each quality.",
+          "The first two qualities are straightforward: confidence and ethical conduct belong together. Confidence without restraint can become identity performance; restraint without a wider direction can become brittle rule-keeping. The discourse joins trust in the path to observable behavior.",
+          "Its rhetoric should be explained rather than copied as an insult for people. Ancient terms translated as ‘corpse-worker,’ ‘outcast,’ or similar labels reflect the force of the passage and its social world. They are not a license for caste contempt, harassment, or ranking modern people’s worth."
+        ]
+      },
+      {
+        heading: "Kamma Rather Than Omens",
+        paragraphs: [
+          "The contrast between deeds and omens is a contrast in moral orientation. A practitioner attends to intention, action, and consequence instead of treating lucky times, noises, dreams, horoscopes, or accidental signs as the governing causes of well-being. This does not require mocking family customs; it requires refusing to hand ethical responsibility over to them.",
+          "Modern superstition can also wear secular clothing. Viral predictions, charismatic certainty, personality systems, and financial or wellness promises may all invite a person to bypass evidence and conduct. The useful question is the same: does this belief clarify action and consequence, or replace them with a wish for control?",
+          "A calm response is neither panic nor contempt. One can decline a fortune-telling claim, make the relevant practical decision, and return attention to what can actually be chosen: speech, conduct, livelihood, generosity, and care."
+        ]
+      },
+      {
+        heading: "Loyalty Without Hostility",
+        paragraphs: [
+          "AN 5.175 also values giving priority to recipients within the Buddhist community. In its historical setting, this expresses commitment to sustaining the tradition one has chosen. It should not be expanded into a ban on humanitarian help, friendship across religions, learning about other traditions, or giving where urgent need is greatest.",
+          "Priority is not proof that every Buddhist institution is trustworthy. Donors may ask how resources are used and may decline coercive, opaque, or harmful appeals. The discourse praises a stable center of commitment, not the abandonment of judgment.",
+          "Likewise, confidence need not become hostility. A person can take the Dhamma as a guide while speaking truthfully and respectfully with people whose convictions differ. Sectarian aggression would undermine the ethical qualities the list is meant to protect."
+        ]
+      },
+      {
+        heading: "Ten Virtues in the Later Milindapañha",
+        paragraphs: [
+          "The post-canonical Milindapañha offers a fuller portrait of a lay disciple. In its ten-part list, the lay follower shares the Saṅgha’s joys and sorrows, takes the Dhamma as guide, gives according to their ability, and works for the teaching’s flourishing when it declines. The list then adds right view and a steadiness that does not run after a new teacher for excitement.",
+          "Its final qualities turn inward and relational: guarding thought and deed, delighting in peace, avoiding jealousy and religious quarrels, and taking refuge in the Buddha, Dhamma, and Saṅgha. These are later literary ideals, not a verbatim extension of AN 5.175. Naming the source layer lets the list speak in its own voice.",
+          "Some older English translations use ‘Order’ and ‘religion’ where contemporary readers may prefer Saṅgha and Dhamma. The underlying portrait is active rather than tribal: care for a community, generosity within one’s means, self-guarding, peace, and responsible preservation."
+        ]
+      },
+      {
+        heading: "A Humane Self-Review",
+        paragraphs: [
+          "Use the lists as questions, not as a scorecard for judging neighbors. Is confidence making conduct more reliable? Do signs and predictions displace responsibility? Is giving proportionate and informed? Does loyalty produce steadiness, or defensiveness and rivalry? Is study joined to peace?",
+          "No one displays every virtue evenly. A generous person may be drawn to omens; a careful student may become quarrelsome; a loyal supporter may avoid necessary questions. Practice begins by seeing the imbalance without building a new identity around failure.",
+          "Choose one quality for a month. Define one observable action—checking a claim before sharing it, giving within a budget, avoiding a needless religious argument, or reviewing conduct each evening. A virtue becomes real through repetition, not through a flattering label."
+        ]
+      }
+    ],
+    sourceNote: "The five-part contrast comes from AN 5.175. The ten virtues come from the Milindapañha, a later, post-canonical Theravāda work whose canonical status varies by regional recension. The lists are therefore related here without being flattened into one early teaching.",
+    sources: [
+      { label: "A Lay Follower (AN 5.175) — SuttaCentral", href: "https://suttacentral.net/an5.175/en/sujato", sourceType: "Early Buddhist discourse", note: "Contrasts five degraded and five exemplary qualities, including confidence, ethics, deeds rather than omens, and giving priorities." },
+      { label: "Qualities of a Lay Disciple (Mil 4.6) — SuttaCentral legacy edition", href: "https://www.dhammatalks.net/suttacentral/sc2016/sc/en/mil4.6.html", sourceType: "Traditional Theravāda manual", note: "Provides the later ten-part portrait of a lay disciple used in this chapter." },
+      { label: "With Dīghajāṇu (AN 8.54) — SuttaCentral", href: "https://suttacentral.net/an8.54/en/sujato", sourceType: "Early Buddhist discourse", note: "Adds a household framework for initiative, protection, good friendship, balanced finances, confidence, ethics, generosity, and wisdom." }
+    ],
+    relatedLinks: [
+      { label: "What Is Karma?", href: "/learn/buddhist-dictionary/karma/", description: "Clarify intentional action without fatalism or omen-based thinking." },
+      { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/", description: "Connect confidence with an ethical baseline." },
+      { label: "Buddhist Sources and Citations", href: "/buddhist-sources-and-citations/", description: "See why early and later source layers are labelled separately." }
+    ],
+    relatedTerms: ["Saddhā", "Sīla", "Kamma", "Maṅgala", "Milindapañha"],
+    searchTerms: ["qualities of a lay Buddhist", "AN 5.175", "upasaka qualities", "Milindapanha lay disciple", "Buddhism omens and karma"],
+    previous: { label: "Becoming a Lay Buddhist", href: `${HANDBOOK_PATH}/becoming-a-lay-buddhist/` },
+    next: { label: "Practicing for Yourself and Others", href: `${HANDBOOK_PATH}/practicing-for-yourself-and-others/` }
+  },
+  {
+    number: 11,
+    slug: "practicing-for-yourself-and-others",
+    title: "Practicing for Yourself and Others",
+    seoTitle: "Practicing for Yourself and Others: The Eight Qualities of AN 8.25",
+    description: "Explore the eight practices in AN 8.25—confidence, ethics, generosity, meeting practitioners, hearing, remembering, examining, and living the Dhamma.",
+    eyebrow: "Part II · Chapter 3 of 4",
+    publishedDate: "2026-11-03",
+    modifiedDate: "2026-11-03",
+    intro: "Mahānāma asks how a lay follower can practice for personal welfare and for the welfare of others. The answer joins inner development to invitation, example, shared learning, and careful encouragement.",
+    takeawayHeading: "Practice That Can Be Shared",
+    takeaway: "AN 8.25 names eight qualities to cultivate personally and encourage in others. Encouragement is not control: it is strongest when grounded in example, kindness, accurate teaching, and respect for another person’s freedom.",
+    image: {
+      src: "/images/handbook/refined/practicing-for-yourself-and-others.webp",
+      avif: "/images/handbook/refined/practicing-for-yourself-and-others.avif",
+      alt: "Two study cushions beside a blank palm-leaf manuscript and flowers in an open monastery pavilion",
+      width: 1600,
+      height: 900
+    },
+    sections: [
+      {
+        heading: "Mahānāma’s Eight Practices",
+        paragraphs: [
+          "In AN 8.25, the eight practices are confidence, ethical conduct, generosity, wanting to see monastics, wanting to hear the true Dhamma, remembering the teachings heard, examining their meaning, and practicing in accordance with both meaning and teaching. A person practicing only for personal welfare develops these but does not encourage others; one practicing for both develops them and encourages others as well.",
+          "The sequence has an important shape. It begins with orientation and conduct, moves through generosity and contact with practitioners, then enters listening, memory, interpretation, and embodiment. Learning is not complete when information has been heard. It must be retained, understood, and tested in life.",
+          "The discourse does not say that every lay follower must become a public teacher. Encouragement can be quiet: making practice possible at home, sharing a reliable source when asked, inviting someone to a teaching, or living in a way that makes ethical training credible."
+        ]
+      },
+      {
+        heading: "Confidence, Ethics, and Generosity",
+        paragraphs: [
+          "Confidence provides energy and direction, ethics provides safety, and generosity loosens possessiveness. When cultivated together, they correct one another. Confidence without ethics can excuse misconduct; ethics without warmth can harden into superiority; generosity without judgment can be manipulated.",
+          "Encouraging these qualities begins with consent and proportion. A parent may create a truthful and kind household without frightening children with karmic threats. Friends may organize a donation without public pressure or donor rankings. A practitioner may explain why a precept matters while leaving another adult free to decide.",
+          "Generosity includes time, attention, knowledge, and protection as well as material gifts. It remains bounded by responsibilities. No teaching on giving requires a person to neglect dependents, surrender financial control, or donate to an institution that refuses reasonable transparency."
+        ]
+      },
+      {
+        heading: "Seeing Practitioners and Hearing Dhamma",
+        paragraphs: [
+          "The text speaks of liking to see mendicants and hear the true teaching. In its original setting, direct contact with the monastic community provided access to instruction, disciplined examples, and a living tradition of memory. Today that contact may happen in a monastery, a local group, a livestream, a book, or a recorded talk, but the need for discernment remains.",
+          "A robe, title, large audience, or polished channel does not by itself establish reliability. Look for accurate sourcing, ethical boundaries, financial clarity, correction of mistakes, and freedom to ask questions. Meeting practitioners should make careful learning more possible, not suspend judgment.",
+          "Encouragement here can be hospitality rather than persuasion: offer transport, accessibility, childcare, a quiet place to listen, or a link to a complete teaching rather than a sensational excerpt. Remove obstacles without trying to own the outcome."
+        ]
+      },
+      {
+        heading: "Remember, Examine, and Practice",
+        paragraphs: [
+          "Remembering does not mean collecting slogans. It means holding enough of a teaching accurately that it can be revisited. Notes, recitation, discussion, and repeated reading may help, but memory remains accountable to the source. A memorable paraphrase should not silently replace the text it summarizes.",
+          "Examining meaning protects against both credulity and dismissal. Ask what the passage says, who is speaking, what problem it addresses, which terms carry technical meanings, and how translations differ. Then ask what interpretation is being added. Inquiry is part of mature respect for Dhamma.",
+          "Practice in accordance with meaning and teaching closes the sequence. Choose a testable application: refrain from one harmful form of speech, give within a plan, sit with one recurring reaction, or repair one breach of trust. Understanding becomes visible in changed conduct, not merely in the ability to explain a list."
+        ]
+      },
+      {
+        heading: "How to Encourage Without Coercing",
+        paragraphs: [
+          "AN 5.159 gives a useful safeguard for anyone sharing Dhamma: teach step by step, explain the method, speak from kindness rather than secret hope of gain, and avoid harming oneself or others. The advice was given about teaching, but its spirit also improves ordinary encouragement.",
+          "Ask before advising. Distinguish a personal experience from a universal promise. Do not use shame, fear of rebirth, family authority, romantic leverage, or social exclusion to produce agreement. When someone says no, respect the boundary. A pressured recitation is not the same as confidence.",
+          "The most durable form of encouragement is a trustworthy example joined to an open door. Practice seriously, acknowledge mistakes, share sources, make room for questions, and allow others their own pace. Working for both self and others does not mean managing another person’s conscience."
+        ]
+      }
+    ],
+    sourceNote: "The eight-part sequence and the distinction between personal and shared welfare come directly from AN 8.25. The non-coercion framework is an explicit modern ethical application, supported by AN 5.159’s requirements for gradual, reasoned, kind, non-exploitative teaching.",
+    sources: [
+      { label: "With Mahānāma (AN 8.25) — SuttaCentral", href: "https://suttacentral.net/an8.25/en/sujato", sourceType: "Early Buddhist discourse", note: "Names the eight practices and distinguishes cultivation for oneself from cultivation encouraged in others." },
+      { label: "With Udāyī (AN 5.159) — SuttaCentral", href: "https://suttacentral.net/an5.159/en/sujato", sourceType: "Early Buddhist discourse", note: "Requires step-by-step, reasoned, kind teaching without secret hope of profit or harm." },
+      { label: "Advice to Sigālaka (DN 31) — SuttaCentral", href: "https://suttacentral.net/dn31/en/sujato", sourceType: "Early Buddhist discourse", note: "Adds reciprocal duties that keep household encouragement relational and responsible." }
+    ],
+    relatedLinks: [
+      { label: "How to Read a Buddhist Sutta", href: "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/", description: "Move from hearing to careful examination." },
+      { label: "A Simple Daily Buddhist Practice", href: "/learn/buddhism-101/a-simple-daily-buddhist-practice/", description: "Turn one teaching into a repeatable daily experiment." },
+      { label: "The Dhamma as Refuge", href: `${HANDBOOK_PATH}/dhamma-as-refuge/`, description: "Connect study, practice, and realization." }
+    ],
+    relatedTerms: ["Mahānāma", "Saddhā", "Dāna", "Dhamma", "Attha"],
+    searchTerms: ["AN 8.25", "practice for self and others Buddhism", "eight qualities lay Buddhist", "sharing Dhamma", "encouraging Buddhist practice"],
+    previous: { label: "Qualities of a Lay Buddhist", href: `${HANDBOOK_PATH}/qualities-of-a-lay-buddhist/` },
+    next: { label: "Households, Saṅgha, and Accountability", href: `${HANDBOOK_PATH}/households-sangha-accountability/` }
+  },
+  {
+    number: 12,
+    slug: "households-sangha-accountability",
+    title: "Households, Saṅgha, and Accountability",
+    seoTitle: "Lay Households and Saṅgha Accountability in Early Buddhist Texts",
+    description: "Study AN 9.17 on household hospitality and AN 8.87 with Vinaya procedure on formal Saṅgha boundaries, restoration, and mutual accountability.",
+    eyebrow: "Part II · Chapter 4 of 4",
+    publishedDate: "2026-11-03",
+    modifiedDate: "2026-11-03",
+    intro: "Lay–monastic relationships need more than warmth. Early texts describe attentive household hospitality, formal community boundaries, reciprocal repair, and conduct that makes trust possible.",
+    takeawayHeading: "Accountability Runs Both Ways",
+    takeaway: "AN 9.17 describes households worth visiting; AN 8.87 and the Vinaya describe a formal Saṅgha act of refusing a layperson’s offerings on serious grounds and later restoring the relationship. Neither passage authorizes private intimidation or mob punishment.",
+    image: {
+      src: "/images/handbook/refined/households-sangha-accountability.webp",
+      avif: "/images/handbook/refined/households-sangha-accountability.avif",
+      alt: "An orderly monastery meeting veranda with two chairs, an upright alms bowl, folded robe, and open doorway at dusk",
+      width: 1600,
+      height: 900
+    },
+    sections: [
+      {
+        heading: "Nine Features of a Household Worth Visiting",
+        paragraphs: [
+          "AN 9.17 describes nine factors that make visiting a family worthwhile for monastics: members rise politely, bow, offer a seat, do not hide what they have, give much when they have much, give refined things when they have refined things, give carefully rather than carelessly, sit nearby to hear the teaching, and listen well. The negative list reverses each feature.",
+          "The list joins material generosity to attention. A household is not praised merely for producing food or goods; it creates a respectful meeting in which teaching can be heard. Care in giving matters alongside the amount, and listening matters alongside ceremony.",
+          "These ancient hospitality forms should not become a test of wealth. ‘Much’ is relative to what a household has, and generosity elsewhere is repeatedly framed within ability. A poor family can offer care and attention; a wealthy family can give extravagantly yet carelessly."
+        ]
+      },
+      {
+        heading: "Hospitality Without Performance or Entitlement",
+        paragraphs: [
+          "Rising, bowing, and offering a seat belonged to a recognizable etiquette. Modern communities may express respect differently because of disability, age, architecture, culture, or local rules. The ethical center is attentive welcome, not forcing every body to perform the same gesture.",
+          "Monastics are not entitled to hidden resources, luxurious gifts, or access to a household simply because a list praises generosity. Laypeople may set times, privacy limits, safeguarding rules, and budgets. A visit should not displace the safety of children, elders, workers, or anyone who depends on the home.",
+          "Listening well also remains reciprocal. Householders can attend carefully and ask responsible questions; teachers can speak within competence and avoid turning hospitality into influence over money, politics, medicine, or intimate decisions."
+        ]
+      },
+      {
+        heading: "What ‘Overturning the Bowl’ Means",
+        paragraphs: [
+          "AN 8.87 lists eight grounds on which the Saṅgha may turn its bowl upside down for a lay follower: trying to deprive monastics of material support, harm them, drive them from a residence, insulting or abusing them, dividing monastics from one another, and disparaging the Buddha, Dhamma, or Saṅgha. The final three are counted separately, producing eight grounds.",
+          "The Vinaya account makes this a formal community transaction, <i>patta-nikkujjana-kamma</i>, not a dramatic gesture improvised by an individual monk at someone’s door. Its practical meaning is refusal to accept offerings from the named layperson’s household and a suspension of the relevant communal relationship.",
+          "That distinction matters. A technical disciplinary act should not be borrowed as a slogan for online boycotts, factional rivalry, personal retaliation, or condemnation without evidence. Formal Saṅgha procedures belong to a constituted monastic community and its Vinaya framework."
+        ]
+      },
+      {
+        heading: "Restoration Is Part of the Procedure",
+        paragraphs: [
+          "AN 8.87 pairs every ground with its cessation and says the Saṅgha may turn the bowl upright again. The Vinaya procedure describes the layperson approaching the community and requesting restoration after changing the conduct. The act is therefore bounded and reversible rather than a declaration of permanent human worthlessness.",
+          "Repair requires more than image management. Harmful conduct stops, facts are acknowledged, and the affected relationship is addressed. Depending on the case, contemporary repair may also require restitution, safeguarding measures, organizational change, or legal reporting. A religious reconciliation does not cancel civil responsibility.",
+          "Communities likewise need records, consistent standards, conflicts-of-interest controls, and clear communication. A formal boundary becomes dangerous when used selectively, secretly, or to silence good-faith reports of abuse. Procedure should serve truth and non-harming rather than institutional reputation."
+        ]
+      },
+      {
+        heading: "Two Directions of Accountability",
+        paragraphs: [
+          "Part I examined AN 8.88, where lay followers may declare no confidence in a monk on specified grounds. This chapter examines the distinct institutional direction: a Saṅgha may formally refuse a harmful lay supporter’s offerings. Together they show that the relationship is not designed as unquestioning obedience on one side.",
+          "The two passages are not identical powers and should not be collapsed. Lay withdrawal can be a bounded response by supporters; bowl-overturning is a Vinaya community act. Both require care with evidence and proportion. Neither permits threats, violence, doxxing, rumor campaigns, or concealment of danger.",
+          "A mature community makes generosity safe, teaching accountable, questions possible, and restoration credible. When immediate safety or alleged crime is involved, protect people first and use qualified safeguarding and civil channels. Respect for Saṅgha is strengthened—not weakened—when truth, procedure, and non-harming remain visible."
+        ]
+      }
+    ],
+    sourceNote: "AN 9.17 supplies the household list. AN 8.87 supplies the eight grounds for turning the bowl over and upright; the Vinaya at Cv V.20 supplies the formal transaction and restoration procedure. This is distinct from AN 8.88, which Part I uses for lay declarations of no confidence in a monk.",
+    sources: [
+      { label: "Families (AN 9.17) — SuttaCentral", href: "https://suttacentral.net/an9.17/en/sujato", sourceType: "Early Buddhist discourse", note: "Lists nine forms of household hospitality, careful giving, and attentive listening." },
+      { label: "Turning the Bowl Upside Down (AN 8.87) — SuttaCentral", href: "https://suttacentral.net/an8.87/en/sujato", sourceType: "Early Buddhist discourse", note: "Lists eight grounds for the Saṅgha to turn the bowl over and the corresponding grounds for turning it upright." },
+      { label: "Disciplinary Transactions — Buddhist Monastic Code", href: "https://www.dhammatalks.org/vinaya/bmc/Section0060.html", sourceType: "Theravāda Vinaya and commentary", note: "Translates and explains the Cv V.20 community procedure, its practical effect, and restoration." }
+    ],
+    relatedLinks: [
+      { label: "Lay Buddhists and the Saṅgha", href: `${HANDBOOK_PATH}/lay-sangha-relationship/`, description: "Review mutual support, AN 8.88, and modern safeguarding boundaries." },
+      { label: "The Saṅgha as Refuge", href: `${HANDBOOK_PATH}/sangha-as-refuge/`, description: "Distinguish Noble Saṅgha, monastic Saṅgha, and community usage." },
+      { label: "Compassion With Boundaries", href: "/articles/compassion-with-boundaries/", description: "Apply non-harming without abandoning clear limits." }
+    ],
+    relatedTerms: ["Kula", "Bhikkhu", "Vinaya", "Patta-nikkujjana", "Saṅghakamma"],
+    searchTerms: ["AN 9.17 households", "AN 8.87 overturning the bowl", "patta nikkujjana", "lay Sangha accountability", "Buddhist monastic community procedure"],
+    previous: { label: "Practicing for Yourself and Others", href: `${HANDBOOK_PATH}/practicing-for-yourself-and-others/` }
   }
 ];
 

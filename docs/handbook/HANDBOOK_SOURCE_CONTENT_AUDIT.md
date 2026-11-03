@@ -1,6 +1,6 @@
 # Buddhist Life & Practice Handbook — Source Content Audit
 
-Date: 2026-09-26
+Date: 2026-11-03
 Primary input: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Content.docx`  
 Duplicate input checked: `/Users/tharindu/Downloads/Handbook_of_the_Buddhist__Content(1).docx`
 
@@ -70,3 +70,32 @@ The 2026-09-26 refinement preserved the established destinations while adding su
 Public pages are original editorial syntheses. They do not reproduce the source document’s prose, and they do not imply that Echo Buddha verified the document’s authorship or publication rights.
 
 An automated contiguous-word comparison between all 119 source paragraphs and the rendered text of all eight chapters found a maximum overlap of five words (`the Triple Gem as the`). This is ordinary doctrinal phrasing, not copied prose.
+
+## 2026-11-03 supplied-photograph coverage
+
+All 12 supplied photograph pages (`EB P1.jpeg` through `EB P12.jpeg`) were opened and visually read in full. They are research inputs, not page instructions and not public image assets. The following matrix accounts for every meaningful topic, list, site claim, and practice concept they contain.
+
+| Photograph | Meaningful source content | Verification and editorial treatment | Public destination / status |
+|---|---|---|---|
+| EB P1 | Three cetiya categories: bodily relic (`sārīrika`), use-associated (`pāribhogika`), and commemorative/representational (`uddesika`) | Retained as a later Theravāda taxonomy; not projected into DN 16 as a complete early-discourse list | Part I chapter 7, dedicated concise section; Deeper Questions retain detailed ownership |
+| EB P2 | Cremation and relic distribution plus later claims about four teeth, two collarbones, forehead relic, relic sizes, colors, quantities, and future reassembly | DN 16 supports cremation, distribution, and stupas. The more detailed relic anatomy, measurements, colors, totals, and future-reassembly narrative require later named sources and are not asserted here as early history | Early layer retained in Part I; later details audit-only pending source-specific treatment |
+| EB P3 | Sri Lankan relic and sacred-site claims: Mahiyangana, Thuparama, Sela Cetiya, Seruvila, Ruvanveli, Tooth Relic, bowl, Jetavana belt, Nāgadīpa, Kelaniya, Sri Mahā Bodhi, and sixteen places | Recognized as Sri Lankan chronicle/devotional tradition, not a single early-discourse record. No unsourced archaeological or relic-authenticity claim added | Brief source boundary in Part I chapter 7; site-by-site claims remain audit-only/deeper-history scope |
+| EB P4 | Sixteen Sri Lankan sacred locations; beginning of Mahānāma’s definition of an `upāsaka` | The site list remains a regional pilgrimage tradition. AN 8.25 directly verifies the lay-follower definition through refuge | Sites audit-only/deeper-history scope; lay definition in Part II chapter 9 |
+| EB P5 | AN 5.175 five degraded lay qualities: lack of confidence, unethical conduct, omen-focused superstition, omens over kamma, and giving outside the Buddhist community first | Verified against the Pāli discourse and a current translation; ancient polemical language is explained without reproducing it as modern abuse | Part II chapter 10 |
+| EB P6 | Five positive reversals in AN 5.175; discussion of omens; beginning of a later ten-virtue list | Verified and separated by source layer. The early five-part list is not blended into the later Milindapañha list | Part II chapter 10 |
+| EB P7 | Ten virtues of a lay disciple in the Milindapañha | Verified in Mil 4.6 and explicitly labelled post-canonical/later Theravāda; older translation vocabulary contextualized | Part II chapter 10 |
+| EB P8 | AN 8.25 self-and-others practices 1–5: confidence, ethics, generosity, seeing monastics, and hearing Dhamma | Verified directly in AN 8.25; encouragement framed through consent and example, not control | Part II chapter 11 |
+| EB P9 | AN 8.25 practices 6–8: remember, examine meaning, and practice accordingly; beginning of AN 9.17 household factors | Both lists verified in their respective discourses and kept distinct | Part II chapters 11 and 12 |
+| EB P10 | Completion of AN 9.17 household factors; introduction to `patta-nikkujjana` | Household list retained with wealth/disability safeguards. Bowl-overturning identified as a formal Saṅgha transaction, not individual retaliation | Part II chapter 12 |
+| EB P11 | Eight grounds for bowl-overturning and explanation of restoration | Verified in AN 8.87 and Cv V.20; formal procedure and reversibility emphasized; modern safeguarding and civil duties remain independent | Part II chapter 12 |
+| EB P12 | AN 5.177 five trades: weapons, living beings, meat, intoxicants, and poisons | Verified against the Pāli and current translation. `Living beings` is used rather than narrowing the term to the photograph’s older rendering “slaves” | Existing Right Livelihood owner strengthened; no competing handbook route created |
+
+All 12 supplied photograph pages are accounted for. Nothing was silently treated as early history merely because it appeared in the supplied material. Claims not published remain visible here with the reason and intended ownership.
+
+## 2026-11-03 final destination summary
+
+- Part I remains eight chapters at its eight established public URLs.
+- Part II adds four complete chapters: becoming a lay Buddhist; qualities of a lay Buddhist; practicing for oneself and others; and households, Saṅgha, and accountability.
+- The existing Right Livelihood owner now carries AN 5.177’s five trades.
+- The existing respect chapter carries the concise three-cetiya taxonomy and routes detailed historical questions to established Deeper Questions owners.
+- The public handbook now contains twelve complete chapters; there are no placeholder pages or announced future parts.

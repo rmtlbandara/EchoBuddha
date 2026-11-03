@@ -7,7 +7,8 @@ import {
   HANDBOOK_IMAGE_AVIF,
   HANDBOOK_IMAGE_HEIGHT,
   HANDBOOK_IMAGE_WIDTH,
-  HANDBOOK_PART,
+  HANDBOOK_PART_ONE,
+  HANDBOOK_PART_TWO,
   HANDBOOK_PATH,
   getHandbookImageVariant,
   getHandbookPath,
@@ -17,8 +18,10 @@ import {
 import { SITE } from "../../../data/site";
 
 const title = "Buddhist Life & Practice Handbook";
-const description = "A source-aware eight-part guide to the Triple Gem, taking refuge, Theravāda traditions, devas, Buddhist respect, and lay–monastic relationships.";
+const description = "A source-aware twelve-chapter guide to the Triple Gem, refuge, the lay Buddhist path, ethical practice, generosity, and lay–monastic accountability.";
 const canonicalPath = `${HANDBOOK_PATH}/`;
+const partOnePages = handbookPages.filter((page) => page.number <= 8);
+const partTwoPages = handbookPages.filter((page) => page.number > 8);
 const breadcrumbs = [
   { name: "Home", href: "/" },
   { name: "Learn", href: "/learn/" },
@@ -52,9 +55,9 @@ const jsonLd = [
     <div class="container handbook-hero__grid">
       <div class="prose">
         <Breadcrumbs items={breadcrumbs.map((item, index) => ({ label: item.name, href: index < breadcrumbs.length - 1 ? item.href : undefined }))} />
-        <span class="eyebrow">{HANDBOOK_PART}</span>
+        <span class="eyebrow">Two-part structured study</span>
         <h1>Buddhist Life & Practice Handbook</h1>
-        <p class="lede">Follow the Triple Gem from meaning to lived practice, with early discourses, later Theravāda explanations, and Sri Lankan customs clearly identified rather than blended together.</p>
+        <p class="lede">Begin with the Triple Gem and refuge, then follow the lay Buddhist path through ethical identity, character, shared practice, household life, and accountable community relationships.</p>
         <a class="button" href={getHandbookPath(handbookPages[0])}>Begin with the Buddha as refuge</a>
       </div>
       <picture class="handbook-hero__visual">
@@ -67,9 +70,9 @@ const jsonLd = [
   <section class="section section--tight" aria-labelledby="handbook-scope-heading">
     <div class="container scope-grid">
       <div class="prose">
-        <span class="eyebrow">How to use Part I</span>
-        <h2 id="handbook-scope-heading">Eight Chapters, One Progressive Sequence</h2>
-        <p>This collection expands the concise <a href="/learn/buddhism-101/the-three-jewels-explained/">Three Jewels lesson</a>. Read in order for a progressive course, or open the chapter that matches your question.</p>
+        <span class="eyebrow">How to use the handbook</span>
+        <h2 id="handbook-scope-heading">Twelve Complete Chapters in Two Parts</h2>
+        <p>Part I expands the concise <a href="/learn/buddhism-101/the-three-jewels-explained/">Three Jewels lesson</a>. Part II carries refuge into the identity, ethics, qualities, generosity, learning, and community responsibilities of lay life. Read in order or open the chapter that matches your question.</p>
         <p>Claims are labelled by source layer. Early-discourse material is distinguished from later Theravāda manuals and commentary, regional custom, academic history, and stories whose provenance could not be verified.</p>
       </div>
       <aside class="surface scope-note">
@@ -79,15 +82,37 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="section section-band" aria-labelledby="chapters-heading">
+  <section class="section section-band" id="part-1" aria-labelledby="part-one-heading">
     <div class="container">
       <div class="section-intro prose">
-        <span class="eyebrow">{HANDBOOK_PART}</span>
-        <h2 id="chapters-heading">Eight Chapters</h2>
-        <p>These are the eight current chapters of Part I—not placeholders for a larger unfinished handbook. Chapters 1–3 explain the Three Jewels, 4–6 examine refuge in practice, and 7–8 bring that orientation into temples and community life.</p>
+        <span class="eyebrow">{HANDBOOK_PART_ONE}</span>
+        <h2 id="part-one-heading">The Triple Gem and Refuge</h2>
+        <p>Chapters 1–3 explain the Three Jewels, 4–6 examine refuge in practice, and 7–8 bring that orientation into temples and community life.</p>
       </div>
       <ol class="chapter-grid">
-        {handbookPages.map((page) => (
+        {partOnePages.map((page) => (
+          <li class="surface chapter-card">
+            <span class="chapter-number">{String(page.number).padStart(2, "0")}</span>
+            <div>
+              <h3><a href={getHandbookPath(page)}>{page.title}</a></h3>
+              <p>{page.description}</p>
+              <span class="chapter-meta">{getHandbookReadTime(page)}</span>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="part-2" aria-labelledby="part-two-heading">
+    <div class="container">
+      <div class="section-intro prose">
+        <span class="eyebrow">{HANDBOOK_PART_TWO}</span>
+        <h2 id="part-two-heading">The Lay Buddhist Path</h2>
+        <p>Chapters 9–12 move from becoming a lay follower to cultivating reliable qualities, practicing for oneself and others, and sustaining healthy relations between households and the monastic Saṅgha.</p>
+      </div>
+      <ol class="chapter-grid" start="9">
+        {partTwoPages.map((page) => (
           <li class="surface chapter-card">
             <span class="chapter-number">{String(page.number).padStart(2, "0")}</span>
             <div>
@@ -104,7 +129,7 @@ const jsonLd = [
   <section class="section" aria-labelledby="pathways-heading">
     <div class="container">
       <span class="eyebrow">Choose by experience</span>
-      <h2 id="pathways-heading">Beginner and Deeper-Study Pathways</h2>
+      <h2 id="pathways-heading">Choose Your Starting Point</h2>
       <div class="pathway-grid">
         <section class="surface pathway-card">
           <h3>New to the Triple Gem?</h3>
@@ -113,9 +138,9 @@ const jsonLd = [
           <a href="/learn/buddhism-101/five-precepts-buddhism/">Continue to the Five Precepts</a>
         </section>
         <section class="surface pathway-card">
-          <h3>Studying Theravāda practice?</h3>
-          <p>Use chapters 5–8 for refuge categories, cultural context, respect, and community accountability.</p>
-          <a href={getHandbookPath(handbookPages[4])}>Start with forms of refuge</a>
+          <h3>Building a lay Buddhist life?</h3>
+          <p>Use Part II for refuge and precepts, lay virtues, shared practice, household hospitality, and community accountability.</p>
+          <a href={getHandbookPath(partTwoPages[0])}>Start Part II</a>
           <a href="/buddhist-sources-and-citations/">Review the source method</a>
         </section>
       </div>

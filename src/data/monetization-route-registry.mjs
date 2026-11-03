@@ -805,6 +805,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
   },
+  "/learn/buddhist-handbook/becoming-a-lay-buddhist/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/buddhist-handbook/buddha-as-refuge/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
@@ -823,6 +829,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
+  "/learn/buddhist-handbook/households-sangha-accountability/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/buddhist-handbook/lay-sangha-relationship/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
@@ -830,6 +842,18 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
   "/learn/buddhist-handbook/refuge-devas-buddhist-practice/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/practicing-for-yourself-and-others/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
     "indexable": true,

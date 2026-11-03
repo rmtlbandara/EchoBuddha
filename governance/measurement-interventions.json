@@ -779,6 +779,83 @@
         "deployedAt": "2026-11-02T03:38:27.501639Z",
         "evidence": "docs/audits/q8-kathavatthu-emphasis-fix-2026-11-02/RELEASE_VERIFICATION.json"
       }
+    },
+    {
+      "id": "handbook-part-two-2026-11-03",
+      "status": "APPROVED_RELEASE_CANDIDATE",
+      "authorizedBy": "Project owner adopted the Final Master Integration, Expansion & Production Prompt and explicitly requested production/live deployment with the correct governed steps.",
+      "authorizedOn": "2026-11-03",
+      "baselineSha": "fa24b21bb357e18401e1c551a49715986e8ba5ee",
+      "baselineEvidence": "docs/audits/handbook-part-two-2026-11-03/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "0896447ebe5a95707ba406c2a888a04e8a78235d1e4ddaf98488192ed70aef6b",
+      "plannedReleaseDate": "2026-11-03",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Preserve the eight established Part I handbook routes; add four complete Part II lay-path chapters; group the hub into two parts; strengthen the existing Right Livelihood owner with AN 5.177; add a concise three-cetiya section to the existing respect owner; update Home, Learn, search, sitemap, schema, breadcrumbs, conservative monetization, governance, tests, source audits, and four original responsive image sets. No route removal, owner reassignment, canonical change, noindex change, advertising enablement, consent change, or AdSense review request.",
+      "approvedApplicationFiles": {
+      "src/data/handbook.ts": "56482f15c76a4268a1eb850308b02d513775c85820ff4e04e5a54b5b9c7505ed",
+        "src/data/learn.ts": "28d035407eeb5f1dcd12100d1ad16a7e8469a19a3173d891f4a68dc469ad545f",
+        "src/data/monetization-route-registry.mjs": "87a825c14fdc6c53cfce2ab6ea8b86558c3b145eed3c33fd097ce3ae7dfa30b5",
+        "src/pages/index.astro": "864d6191da04bb782a6fc3d5eeb3deb20e3baec8185da914f5c85750d2be31ee",
+      "src/pages/learn/buddhist-handbook/[slug].astro": "dcce1f31f0366e11039e7b60f70716d8757f04ecde4ce2682af79d38dee3b765",
+        "src/pages/learn/buddhist-handbook/index.astro": "92c0fe87069af811029eff507f54abe003f4324d306388bd6fa1bebd716b97db",
+        "src/pages/learn/index.astro": "ff994be49234bdde733710b1c964c931e0f2e672a32406c1d7a162d7c2f83c59",
+        "src/pages/search-index.json.ts": "92df6f0bc8586247696509e6b72ef22ba836dfc7b75d619a1bdea5ec5c7e9fa0",
+        "src/pages/sitemap.xml.ts": "57010eca008b984100ec60c0c72bb6708ab9fa6943c2cb5c21d1c0d5d310433e",
+        "public/images/handbook/refined/becoming-a-lay-buddhist-800.avif": "135abacdc4a8a5198aec51567f94765ee54fb285dfee910c57ad087f9e0f9581",
+        "public/images/handbook/refined/becoming-a-lay-buddhist-800.webp": "ab3e54bf9e8d7c585ca2228b28f771e2b1655d889a11f0c1e8e2063eb415f601",
+        "public/images/handbook/refined/becoming-a-lay-buddhist.avif": "94478f4c51ddc22ed66497b968bbca59b27559149882258ab35696986fd68b7d",
+        "public/images/handbook/refined/becoming-a-lay-buddhist.webp": "a59f1c08094c898175ddc12350ece67fbcd48859367c0b01c606a7a97c8f847b",
+        "public/images/handbook/refined/qualities-of-a-lay-buddhist-800.avif": "c5b122dae4bfd3409326928399a614658aa880aad7dff68cf866c90ec4bc12d0",
+        "public/images/handbook/refined/qualities-of-a-lay-buddhist-800.webp": "68ba543f4daa53da50fbb43e9c738c055e821305fd11d8d66b30d43e3381635f",
+        "public/images/handbook/refined/qualities-of-a-lay-buddhist.avif": "971c1347f7d93b1a370d764fb0ee217ddaab210b21c8c915e761c2010b62b45b",
+        "public/images/handbook/refined/qualities-of-a-lay-buddhist.webp": "587a3ad95c529b033969c263c4a2c3a221d9d8aed0944c4ad274ba2e6002ec5c",
+        "public/images/handbook/refined/practicing-for-yourself-and-others-800.avif": "6b1190b7d47b984f9aa6ee3986914559c0812daf9500d2c88bc07e48cdf0d2ae",
+        "public/images/handbook/refined/practicing-for-yourself-and-others-800.webp": "56bbc0a26d75c89007b189586e18f13b11bbe124554c6fc2715fff58c350b28c",
+        "public/images/handbook/refined/practicing-for-yourself-and-others.avif": "6d8281a74bc27d3686a5bccabe0bf641c8450c5a56200f649f104008ea4f7cbe",
+        "public/images/handbook/refined/practicing-for-yourself-and-others.webp": "d227d2000e45274dbdb62db593cc9f87d1a5661ed28a4271ca0e35cd5851fb1e",
+        "public/images/handbook/refined/households-sangha-accountability-800.avif": "323b1d784d05566d238f8b2b21587c3cc58fbae0143b86c1ff30b5a06123099c",
+        "public/images/handbook/refined/households-sangha-accountability-800.webp": "16acd405b7965123c9e89b7e9534685250066ea49d3b8f7bcc3bcccbce13116f",
+        "public/images/handbook/refined/households-sangha-accountability.avif": "62456b57beb7b59dabcadf250f46fa20527ce9bc1a91bcc0986abedf98f15eab",
+        "public/images/handbook/refined/households-sangha-accountability.webp": "68b0e2a8d53234a25391ba6050227276f196e55f14b077b4908194bd75b6e98b"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/learn.ts",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "538fece184a66ce332bc8998ea4e1542b796d71c93832c84ec19e97a88bdff4b"
+        },
+        {
+          "file": "src/pages/index.astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "376374e71c956487dd69f3dedfc6c966a988fd25236fae00198880f85f830582"
+        },
+        {
+          "file": "src/pages/search-index.json.ts",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "e996f19bb6f42fec2a8d8559006d75428a116c7f082d0b7bfd1bdb53f1283eb1"
+        },
+        {
+          "file": "src/data/monetization-route-registry.mjs",
+          "interventionId": "buddhist-questions-q8-q9-2026-11-01",
+          "previousSha256": "5c37f663fc2e0e2ac2ad1604a9c197b4e0688efaae4c6969f670b7cb104e11d3"
+        }
+      ],
+      "materiallyRevisedRoutes": [
+        "/learn/buddhist-handbook/",
+        "/learn/buddhist-handbook/respecting-triple-gem/",
+        "/learn/buddhist-handbook/lay-sangha-relationship/",
+        "/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+        "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+        "/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+        "/learn/buddhist-handbook/households-sangha-accountability/",
+        "/learn/buddhism-101/right-livelihood-buddhism/",
+        "/learn/",
+        "/"
+      ],
+      "measurementImpact": "Material publishing intervention: four new indexable handbook chapters and substantive handbook/right-livelihood revisions change the public content surface, search inventory, sitemap, and navigation. The Q8/Q9 observation window becomes intervened on actual deployment. Exclude the Pacific deployment day and begin any new 28-day window on the following Pacific date; record actual dates only after deployment. No causal ranking, indexing, traffic, AdSense, or consolidation outcome is guaranteed."
     }
   ]
 }

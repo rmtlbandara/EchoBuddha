@@ -2,7 +2,7 @@
   "schemaCounts": {
     "AboutPage": 1,
     "BlogPosting+Article": 48,
-    "BreadcrumbList": 336,
+    "BreadcrumbList": 342,
     "CollectionPage": 28,
     "Blog": 1,
     "ItemList": 1,
@@ -11,7 +11,7 @@
     "ContactPage": 1,
     "WebSite": 1,
     "Organization": 1,
-    "Article": 72,
+    "Article": 78,
     "DefinedTerm": 14,
     "DefinedTermSet": 1,
     "PrivacyPolicy": 1
@@ -23,7 +23,7 @@
     "articleCategory": 5,
     "hub": 9,
     "daily": 30,
-    "learning": 61,
+    "learning": 67,
     "learningHub": 10,
     "meditation": 9,
     "quoteStory": 153,

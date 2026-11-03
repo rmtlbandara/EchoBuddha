@@ -191,7 +191,7 @@ test("hub, internal search, and sitemap discover all nine question pages exactly
     assert.equal(searchIndex.filter((item) => item.url === route).length, 1);
   }
   assert.equal((hub.match(/<article class="surface question-card"/g) ?? []).length, 9);
-  assert.equal(searchIndex.length, 332);
+  assert.equal(searchIndex.length, 336);
 });
 
 test("homepage uses one representative question as a compact gateway in the intended journey position", () => {
@@ -227,5 +227,5 @@ test("all nine question routes remain conservative Learn-detail monetization hol
       reason: "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
     });
   }
-  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 353);
+  assert.equal(Object.keys(MONETIZATION_ROUTE_REGISTRY).length, 357);
 });

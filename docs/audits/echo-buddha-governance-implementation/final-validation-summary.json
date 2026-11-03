@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T02:11:42.873Z",
-  "pageCount": 351,
-  "indexableCount": 165,
+  "generatedAt": "2026-11-03T09:48:04.991Z",
+  "pageCount": 357,
+  "indexableCount": 171,
   "noindexCount": 186,
-  "sitemapCount": 165,
+  "sitemapCount": 171,
   "pageTypeCounts": {
     "other": 9,
     "policy": 7,
@@ -11,7 +11,7 @@
     "articleCategory": 5,
     "hub": 9,
     "daily": 30,
-    "learning": 61,
+    "learning": 67,
     "learningHub": 10,
     "meditation": 9,
     "quoteStory": 153,
@@ -20,7 +20,7 @@
   "schemaCounts": {
     "AboutPage": 1,
     "BlogPosting+Article": 48,
-    "BreadcrumbList": 336,
+    "BreadcrumbList": 342,
     "CollectionPage": 28,
     "Blog": 1,
     "ItemList": 1,
@@ -29,7 +29,7 @@
     "ContactPage": 1,
     "WebSite": 1,
     "Organization": 1,
-    "Article": 72,
+    "Article": 78,
     "DefinedTerm": 14,
     "DefinedTermSet": 1,
     "PrivacyPolicy": 1
