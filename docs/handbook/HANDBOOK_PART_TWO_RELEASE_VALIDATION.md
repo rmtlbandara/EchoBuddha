@@ -36,4 +36,15 @@ The browser review caught an awkward desktop wrap in the final chapter title. Th
 - No AdSense runtime, ad request, Auto Ads activation, or ad placeholder is present.
 - No AdSense review was submitted and no unsupported Google Search Console, Bing, or AdSense account-state claim was made.
 
-Production workflow and live release identity are recorded separately after deployment.
+## Production result
+
+- Implementation PR: https://github.com/rmtlbandara/EchoBuddha/pull/82
+- Merged and deployed SHA: `d6c412da99f54786e4ec7a6bb9563e61cd90671f`
+- Production workflow: https://github.com/rmtlbandara/EchoBuddha/actions/runs/41614901044 — PASS
+- Cloudflare deployment/version: `8633fdde-cb1b-4cac-a9bb-59a8d3f6f65b` / `100e9335-3076-4326-9432-1ebca47f1b37`, 100% traffic
+- Production smoke: 15/15 PASS
+- Independent live handbook checks: 13 routes and 16 new image variants PASS
+- IndexNow: HTTP 200 accepted 16 changed canonical notifications; indexing is not guaranteed
+- Production release identity: exact merged SHA confirmed through `/release.json`
+
+The complete immutable-artifact and live-verification evidence is recorded in `docs/audits/handbook-part-two-2026-11-03/RELEASE_VERIFICATION.json` and `docs/deployments/2026-11-03-buddhist-handbook-part-two.md`.
