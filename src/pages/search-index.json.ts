@@ -335,10 +335,10 @@ const hubItems: SearchIndexItem[] = [
     title: "Buddhist Life & Practice Handbook",
     url: `${HANDBOOK_PATH}/`,
     type: "Learning Collection",
-    excerpt: "An eight-part, source-aware guide to the Triple Gem, refuge, Theravāda traditions, Buddhist respect, and lay–monastic relationships.",
+    excerpt: "A two-part, twelve-chapter guide to the Triple Gem, refuge, lay Buddhist ethics, character, shared practice, and accountable community relationships.",
     category: "Structured Study",
     section: "Learn",
-    keywords: ["Buddhist handbook", "Triple Gem", "Three Jewels", "taking refuge", "Buddha refuge", "Dhamma refuge", "Sangha refuge", "Saṅgha", "devas", "stupa", "cetiya", "Bodhi tree", "lay Buddhist", "bhikkhu", "monastic community"],
+    keywords: ["Buddhist handbook", "Triple Gem", "Three Jewels", "taking refuge", "Buddha refuge", "Dhamma refuge", "Sangha refuge", "Saṅgha", "lay Buddhist path", "upasaka", "upasika", "Five Precepts", "generosity", "householder", "Vinaya", "monastic community"],
     content: handbookPages.map((page) => `${page.title} ${page.description} ${page.searchTerms.join(" ")}`).join(" ")
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T05:53:14.254Z",
+  "generatedAt": "2026-11-03T09:48:09.289Z",
   "totalChecks": 17,
   "passed": 17,
   "failed": 0,
@@ -9,19 +9,19 @@
       "area": "Build",
       "name": "Protected route count",
       "pass": true,
-      "evidence": "350 HTML pages (336 protected baseline + 16 approved additions - 2 approved consolidations)"
+      "evidence": "357 HTML pages (336 protected baseline + 23 approved additions - 2 approved consolidations)"
     },
     {
       "area": "Sitemap",
       "name": "Protected sitemap count and canonical host",
       "pass": true,
-      "evidence": "164 canonical URLs (193 protected baseline + 16 approved additions - 2 approved consolidations - 43 approved quote noindex decisions)"
+      "evidence": "171 canonical URLs (193 protected baseline + 23 approved additions - 2 approved consolidations - 43 approved quote noindex decisions)"
     },
     {
       "area": "Search",
       "name": "Protected search index count",
       "pass": true,
-      "evidence": "329 search records (315 protected baseline + 16 approved additions - 2 approved consolidations)"
+      "evidence": "336 search records (315 protected baseline + 23 approved additions - 2 approved consolidations)"
     },
     {
       "area": "Canonical",
@@ -33,7 +33,7 @@
       "area": "Structured data",
       "name": "Every emitted JSON-LD block parses",
       "pass": true,
-      "evidence": "348 JSON-LD blocks parsed"
+      "evidence": "355 JSON-LD blocks parsed"
     },
     {
       "area": "AdSense",
@@ -87,7 +87,7 @@
       "area": "Redirects",
       "name": "Only approved permanent content and legacy redirects are emitted",
       "pass": true,
-      "evidence": "3/3 approved permanent one-hop redirects; no hostname rule added"
+      "evidence": "3/3 approved migrations plus 355 exact canonical slash redirects; no wildcard/hostname rule added"
     },
     {
       "area": "Exposure",

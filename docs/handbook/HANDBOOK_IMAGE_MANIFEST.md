@@ -1,8 +1,8 @@
 # Handbook Image Manifest
 
-Date: 2026-09-26
+Date: 2026-11-03
 
-All nine images are original project assets generated with OpenAI image generation for this refinement. No stock, scraped, archival, or third-party religious image was used. Masters are 1672×941 PNG files; production derivatives are 1600×900 and 800×450 (16:9) in AVIF and WebP. The browser receives width-based `srcset` and `sizes`; the true hero image is loaded eagerly with explicit intrinsic dimensions. AVIF is preferred and WebP is the fallback. Each chapter image is used in visible content, Open Graph/Twitter metadata, and the corresponding `Article.image` object.
+All thirteen images are original project assets generated with OpenAI image generation across the two handbook releases. No stock, scraped, archival, or third-party religious image was used. Masters are 1672×941 PNG files; production derivatives are 1600×900 and 800×450 (16:9) in AVIF and WebP. The browser receives width-based `srcset` and `sizes`; the true hero image is loaded eagerly with explicit intrinsic dimensions. AVIF is preferred and WebP is the fallback. Each chapter image is used in visible content, Open Graph/Twitter metadata, and the corresponding `Article.image` object.
 
 | Page | Production basename | Concept | Alt text | Master file |
 |---|---|---|---|---|
@@ -15,10 +15,16 @@ All nine images are original project assets generated with OpenAI image generati
 | `/learn/buddhist-handbook/refuge-devas-buddhist-practice/` | `refuge-devas-buddhist-practice` | Stupa, Bodhi tree, and distinct devale in Sri Lankan landscape | A stupa, Bodhi tree, and separate devale shrine in a Sri Lankan landscape at twilight | `exec-fce5d78c-19ed-4b16-adb1-bb71b3d49b26.png` |
 | `/learn/buddhist-handbook/respecting-triple-gem/` | `respecting-triple-gem` | Clean temple courtyard, stupa, Bodhi tree, flowers, books | A clean temple courtyard with a stupa, Bodhi tree, Buddha image, flowers, and Dhamma books | `exec-6e9876d6-4d20-41ff-8d80-8ecad70a8b38.png` |
 | `/learn/buddhist-handbook/lay-sangha-relationship/` | `lay-sangha-relationship` | Open meeting veranda with offering, books, and shared seating | An open monastery meeting veranda with a meal offering, Dhamma books, and community chairs | `exec-d7bbc1c4-d090-481f-ae7d-ee9a4440206a.png` |
+| `/learn/buddhist-handbook/becoming-a-lay-buddhist/` | `becoming-a-lay-buddhist` | Home-practice threshold, flowers, lamp, and monastery path | A home practice threshold with flowers, an oil lamp, and a path toward a quiet monastery garden | `exec-be3606b9-be3f-4fab-8a3f-7151f5bd9959.png` |
+| `/learn/buddhist-handbook/qualities-of-a-lay-buddhist/` | `qualities-of-a-lay-buddhist` | Manuscript, bowl, lamp, flowers, and ten natural seeds | A quiet veranda with a blank palm-leaf manuscript, alms bowl, oil lamp, flowers, and ten natural seeds | `exec-709514cd-7e98-4e7b-b197-ee89d483221a.png` |
+| `/learn/buddhist-handbook/practicing-for-yourself-and-others/` | `practicing-for-yourself-and-others` | Two study cushions, manuscript, flowers, and branching path | Two study cushions beside a blank palm-leaf manuscript and flowers in an open monastery pavilion | `exec-da4e8e84-5156-40e2-83bf-a87a6b8303f0.png` |
+| `/learn/buddhist-handbook/households-sangha-accountability/` | `households-sangha-accountability` | Orderly meeting veranda, upright bowl, robe, two chairs, and open doorway | An orderly monastery meeting veranda with two chairs, an upright alms bowl, folded robe, and open doorway at dusk | `exec-b85f74cb-a6de-4fbb-8f19-f32dbb53ef74.png` |
 
 Master directory: `/Users/tharindu/.codex/generated_images/01a0d83e-0260-72c0-8133-d918a830d1bd/`
 
 Production directory: `public/images/handbook/refined/`
+
+The Part II masters are stored in the same generated-image directory listed below. The discarded first draft for chapter 10 is not used; its corrected replacement is the master recorded above.
 
 ## Generation method and prompt family
 
@@ -26,8 +32,8 @@ Mode: new generation, with targeted edits to remove pseudo-text or watermark-lik
 
 ## Verification
 
-- All 36 production files exist and exceed 30 KB.
+- All 52 production files exist and exceed 30 KB.
 - Full-size production images are 1600×900, responsive variants are 800×450, and markup retains explicit 1600×900 intrinsic dimensions to prevent layout shift.
-- A nine-image contact sheet and each corrected master were visually inspected for composition, artifacts, pseudo-text, and religious sensationalism.
+- The original nine-image set and all four Part II masters were visually inspected for composition, artifacts, pseudo-text, and religious sensationalism. One Part II draft was corrected to remove an ornamental crown-like object, patterned cloth, beads, and a decorative box before production use.
 - Every chapter has a distinct image path; no logo is used as a chapter social image.
 - Public image paths are not blocked by `robots.txt`; pages emit `max-image-preview:large`.

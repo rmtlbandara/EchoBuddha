@@ -1765,6 +1765,14 @@ export const buddhism101Pages: LearningPage[] = [
         ]
       },
       {
+        heading: "The Five Trades Named in AN 5.177",
+        paragraphs: [
+          "AN 5.177 gives lay followers a compact list of five trades not to pursue: trade in weapons, living beings, meat, intoxicants, and poisons. The discourse names <i>living beings</i>, a category broader than the older English rendering ‘slaves.’ Its concern is commerce that depends directly on treating life, violence, heedlessness, or lethal harm as a product.",
+          "The list is a strong baseline, not an exhaustive catalogue of every modern occupation. Supply chains, investment, advertising, software, and institutional work may connect a person to harm indirectly or in mixed ways. Applying the teaching therefore requires looking at what the role actually enables, how close the connection is, what choices and alternatives exist, and who bears the cost.",
+          "Someone already working in a troubling field does not benefit from shame or reckless advice. Begin with accurate assessment: reduce direct harm where possible, refuse deception, seek qualified financial or career guidance, plan a realistic transition when needed, and protect dependents during the change. The path asks for movement toward non-harming, joined to honesty about present conditions."
+        ]
+      },
+      {
         heading: "Money, Ambition, and Buddhist Practice",
         paragraphs: [
           "Buddhism does not require lay people to hate money or reject responsibility. Money can feed families, support education, care for elders, fund generosity, and provide stability. The question is how money is earned, held, and used. Does it increase greed and fear, or does it support a balanced life?",
@@ -1818,10 +1826,10 @@ export const buddhism101Pages: LearningPage[] = [
     relatedLinks: [
       { label: "Noble Eightfold Path", href: "/learn/buddhism-101/the-noble-eightfold-path-explained/" },
       { label: "Five Precepts", href: "/learn/buddhism-101/five-precepts-buddhism/" },
-      { label: "Right Speech Article", href: "/articles/right-speech-buddhism/" }
+      { label: "Becoming a Lay Buddhist", href: "/learn/buddhist-handbook/becoming-a-lay-buddhist/" }
     ],
     sourceNote:
-      "Source note: Right livelihood is traditionally taught as one factor of the Noble Eightfold Path. Echo Buddha presents a practical modern overview for general education and reflection.",
+      "Source note: Right livelihood is one factor of the Noble Eightfold Path. AN 5.177 specifically names five trades for lay followers to avoid; the modern applications on this page are careful ethical extensions, not additional items quoted from that discourse.",
     terms: ["Dhamma", "Karma", "Right Speech"]
   },
   {

@@ -4,126 +4,126 @@
     "indexable": 1,
     "noindex": 0,
     "decisions": {
-      "Pass": 1
+      "Editorial review required": 1
     },
-    "averageWords": 764
+    "averageWords": 513
   },
   "error": {
     "total": 1,
     "indexable": 0,
     "noindex": 1,
     "decisions": {
-      "Pass": 1
+      "Editorial review required": 1
     },
-    "averageWords": 204
+    "averageWords": 31
   },
   "policy": {
     "total": 7,
     "indexable": 7,
     "noindex": 0,
     "decisions": {
-      "Pass": 7
+      "Editorial review required": 7
     },
-    "averageWords": 563
+    "averageWords": 397
   },
   "hub": {
     "total": 8,
     "indexable": 8,
     "noindex": 0,
     "decisions": {
-      "Pass": 8
+      "Editorial review required": 8
     },
-    "averageWords": 1226
+    "averageWords": 1012
   },
   "article": {
     "total": 48,
     "indexable": 48,
     "noindex": 0,
     "decisions": {
-      "Minor improvement": 8,
-      "Pass": 40
+      "Source verification required": 4,
+      "Editorial review required": 44
     },
-    "averageWords": 1569
+    "averageWords": 1250
   },
   "articleCategory": {
     "total": 5,
     "indexable": 5,
     "noindex": 0,
     "decisions": {
-      "Pass": 5
+      "Editorial review required": 5
     },
-    "averageWords": 583
+    "averageWords": 420
   },
   "other": {
     "total": 7,
     "indexable": 6,
     "noindex": 1,
     "decisions": {
-      "Pass": 7
+      "Editorial review required": 7
     },
-    "averageWords": 715
+    "averageWords": 539
   },
   "dailyReflection": {
     "total": 30,
     "indexable": 0,
     "noindex": 30,
     "decisions": {
-      "Pass": 30
+      "Short-form editorial review required": 30
     },
-    "averageWords": 389
+    "averageWords": 190
   },
   "todayReflection": {
     "total": 1,
     "indexable": 0,
     "noindex": 1,
     "decisions": {
-      "Pass": 1
+      "Short-form editorial review required": 1
     },
-    "averageWords": 2229
+    "averageWords": 1875
   },
   "learningPage": {
     "total": 10,
     "indexable": 10,
     "noindex": 0,
     "decisions": {
-      "Pass": 10
+      "Editorial review required": 10
     },
-    "averageWords": 771
+    "averageWords": 698
   },
   "learningDetail": {
-    "total": 61,
-    "indexable": 61,
+    "total": 67,
+    "indexable": 67,
     "noindex": 0,
     "decisions": {
-      "Pass": 61
+      "Editorial review required": 67
     },
-    "averageWords": 822
+    "averageWords": 712
   },
   "meditationDetail": {
     "total": 9,
     "indexable": 9,
     "noindex": 0,
     "decisions": {
-      "Pass": 9
+      "Editorial review required": 9
     },
-    "averageWords": 654
+    "averageWords": 565
   },
   "quoteCategory": {
     "total": 10,
     "indexable": 10,
     "noindex": 0,
     "decisions": {
-      "Pass": 10
+      "Editorial review required": 10
     },
-    "averageWords": 687
+    "averageWords": 494
   },
   "quoteStory": {
     "total": 153,
     "indexable": 0,
     "noindex": 153,
     "decisions": {
-      "Pass": 153
+      "Short-form editorial review required": 153
     },
-    "averageWords": 650
+    "averageWords": 446
   }
 }

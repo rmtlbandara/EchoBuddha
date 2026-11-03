@@ -3,11 +3,11 @@
 Status: **PASS**  
 Checked: 2026-09-29
 
-- Build output: 165 indexable routes with rendered HTML.
+- Build output: 171 indexable routes with rendered HTML.
 - Canonicals: all sitemap routes self-canonical.
 - Robots/indexability: no sitemap/noindex conflicts.
-- Sitemap: 165 unique URLs; exact registry coverage.
-- Search index: 330 records; 146/165 sitemap routes are intentionally searchable and the remaining 19 navigation/policy routes match the explicit exclusion set.
+- Sitemap: 171 unique URLs; exact registry coverage.
+- Search index: 336 records; 152/171 sitemap routes are intentionally searchable and the remaining 19 navigation/policy routes match the explicit exclusion set.
 - Schema: Article/BreadcrumbList retained on 13 changed articles; obsolete FAQPage and HowTo objects removed while visible content remains.
 - Redirects: none introduced.
 - Broken links: 0; broken fragments: 0.
@@ -15,15 +15,15 @@ Checked: 2026-09-29
 
 ## Automated checks
 
-- PASS: Sitemap URLs are unique — 165 entries; 165 unique
-- PASS: Registry covers the complete sitemap — 165 registry records; 165 sitemap URLs
-- PASS: On-site search exclusions match the intentional route policy — 330 search records; 19 intentionally excluded navigation/policy routes
+- PASS: Sitemap URLs are unique — 171 entries; 171 unique
+- PASS: Registry covers the complete sitemap — 171 registry records; 171 sitemap URLs
+- PASS: On-site search exclusions match the intentional route policy — 336 search records; 19 intentionally excluded navigation/policy routes
 - PASS: Six protected clusters are registered — 6 clusters; 44 priority URLs
 - PASS: Each protected cluster has one broad owner — Buddhism for Beginners: 1; Impermanence / Anicca: 1; Noble Eightfold Path: 1; Four Noble Truths: 1; Beginner Meditation: 1; Loving-kindness / Mettā: 1
-- PASS: Every sitemap route has rendered HTML — 165/165
-- PASS: Indexable routes remain self-canonical — 165 self-canonicals
+- PASS: Every sitemap route has rendered HTML — 171/171
+- PASS: Indexable routes remain self-canonical — 171 self-canonicals
 - PASS: Sitemap contains no noindex routes — 0 noindex conflicts
-- PASS: Every indexable page has one visible H1 — 165 pages with H1
+- PASS: Every indexable page has one visible H1 — 171 pages with H1
 - PASS: Indexable titles are unique — 0 duplicate title groups
 - PASS: Indexable descriptions are unique — 0 duplicate description groups
 - PASS: Priority support pages link to their declared owner — 44 priority relationships verified

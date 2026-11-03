@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-03T08:37:15Z",
+  "baselineMainSha": "fa24b21bb357e18401e1c551a49715986e8ba5ee",
+  "servingProductionSha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd",
+  "mainProductionDifference": "Main contains later documentation-only release evidence; the serving application source remains the latest verified Q8 emphasis release.",
+  "production": {
+    "releaseJsonSha": "7a22e2b3a7a7168204032fbf7e62b2eb97585dfd",
+    "deployedAt": "2026-11-02T03:38:27.501639Z",
+    "workflowRunId": 41384064908,
+    "smoke": "PASS_15_OF_15"
+  },
+  "inventoryBefore": {
+    "indexableSitemap": 167,
+    "internalSearch": 332,
+    "handbookHub": 1,
+    "handbookChapters": 8,
+    "handbookPartTwoChapters": 0
+  },
+  "releaseIntent": {
+    "newCanonicalRoutes": 4,
+    "removedRoutes": 0,
+    "canonicalOwnerChanges": 0,
+    "indexStateChanges": 0,
+    "adsEnabled": false,
+    "adsenseReviewSubmitted": false
+  },
+  "historicalInterventions": [
+    {
+      "id": "adsense-final-content-recovery-2026-10-30",
+      "sha256": "dab02e5b6ed9a211e0d2e4fe321b8a9ffca430140d1d4bdffaa11b51eb7a15b0"
+    },
+    {
+      "id": "buddhist-questions-q8-q9-2026-11-01",
+      "sha256": "06264bbbd36639d1f8e71c3c907dae00fad9eedc31028bc368589e163c60381d"
+    }
+  ]
+}
