@@ -11,3 +11,5 @@ Local verification passed: full release gate, all 98 tests, SEO contracts, 18-pa
 Responsive limitation: the unchanged homepage hero illustration overflows at 860px and 861px. The same overflow was reproduced with the prior branding layout restored in the browser DOM. Logo bounds and navigation pass; the unrelated editorial-image layout issue is recorded, not counted as a successful page-wide overflow check.
 
 The historical measurement records are preserved. This is a brand presentation correction with no editorial content, public route, canonical, index-state or owner change. Preserve the latest substantive observation window and consolidation hold. Production status and exact deployment evidence will be recorded after the governed workflow and live verification complete.
+
+Production deployment succeeded at 2026-11-03T14:24:19.725137Z for `edfe72dd8fbb313f6267d1da9580be3b3e5eb671`. PR #84, merged-main CI and production workflow all passed. Live logo assets, metadata and desktop/mobile rendering were independently verified. See `RELEASE_VERIFICATION.json` and `docs/deployments/2026-11-03-website-logo.md`.
