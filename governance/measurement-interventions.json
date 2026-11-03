@@ -885,7 +885,7 @@
     },
     {
       "id": "website-logo-2026-11-03",
-      "status": "LOCAL_VERIFIED_CANDIDATE",
+      "status": "DEPLOYED",
       "authorizedBy": "Project owner explicitly selected the original circular Echo Buddha wordmark as canonical; requested consistent headers, footer, icons, social previews and structured data, successful build/SEO/accessibility/responsive checks, and production deployment followed by live verification.",
       "authorizedOn": "2026-11-03",
       "baselineSha": "37d4ea1530b11cb14c896a7203fea2d3b00625a6",
@@ -955,7 +955,24 @@
         }
       ],
       "materiallyRevisedRoutes": [],
-      "measurementImpact": "Brand presentation and asset correction only; no editorial content, route, canonical, index state or topic-owner change. Preserve the latest substantive observation window and consolidation hold. No ranking, indexing, traffic or AdSense outcome claim."
+      "measurementImpact": "Brand presentation and asset correction only; no editorial content, route, canonical, index state or topic-owner change. Preserve the latest substantive observation window and consolidation hold. No ranking, indexing, traffic or AdSense outcome claim.",
+      "productionSha": "edfe72dd8fbb313f6267d1da9580be3b3e5eb671",
+      "productionDeployedAt": "2026-11-03T14:24:19.725137Z",
+      "productionReleases": [
+        {
+          "sha": "edfe72dd8fbb313f6267d1da9580be3b3e5eb671",
+          "deployedAt": "2026-11-03T14:24:19.725137Z",
+          "deploymentId": "d06b720f-065c-4db0-92a2-1058897cfcb8",
+          "versionId": "49895182-617f-4056-b44c-70bbc84af533",
+          "workflowRunId": 41653115143,
+          "verification": "PR and merged-main release/browser checks passed; exact-main production workflow passed; all 836 artifact digests verified; production smoke 15/15; independent live checks matched 16 asset hashes, branding/metadata on eight pages and responsive logo/navigation checks; original SVG/PNG unchanged. IndexNow HTTP 200 accepted 171 notifications, not indexing."
+        }
+      ],
+      "latestVerifiedProduction": {
+        "sha": "edfe72dd8fbb313f6267d1da9580be3b3e5eb671",
+        "deployedAt": "2026-11-03T14:24:19.725137Z",
+        "evidence": "docs/audits/website-logo-2026-11-03/RELEASE_VERIFICATION.json"
+      }
     }
   ]
 }

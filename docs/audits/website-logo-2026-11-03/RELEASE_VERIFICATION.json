@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_AND_LIVE_VERIFIED",
+  "verifiedAt": "2026-11-03T14:26:01.550Z",
+  "productionUrl": "https://echobuddha.com/",
+  "implementationPr": {
+    "number": 84,
+    "url": "https://github.com/rmtlbandara/EchoBuddha/pull/84",
+    "implementationSha": "2918e76d377cca31ad1f88af23c195f5816786d9",
+    "mergeSha": "edfe72dd8fbb313f6267d1da9580be3b3e5eb671"
+  },
+  "ci": {
+    "pullRequestRun": 41652516184,
+    "mergedMainRun": 41652982570,
+    "productionRun": 41653115143,
+    "releaseValidation": "success",
+    "browserAndConsentValidation": "success",
+    "mergedMainConclusion": "success",
+    "productionConclusion": "success"
+  },
+  "deployment": {
+    "deployedAt": "2026-11-03T14:24:19.725137Z",
+    "deploymentId": "d06b720f-065c-4db0-92a2-1058897cfcb8",
+    "versionId": "49895182-617f-4056-b44c-70bbc84af533",
+    "percentage": 100,
+    "servingSha": "edfe72dd8fbb313f6267d1da9580be3b3e5eb671"
+  },
+  "artifact": {
+    "fileCount": 836,
+    "aggregateSha256": "06ada004bb0a9e9d32659b5ae8fd12ca399b34c85d55e629eea185ea95102e22",
+    "allFileDigestsVerifiedByHostedWorkflow": true,
+    "distArtifactId": 13238985604,
+    "distArtifactDigest": "sha256:9bf446624e75e96921d2f576cf068acac0ba542db17187b1c51fbc29aaefde35",
+    "deploymentEvidenceArtifactId": 13237973859,
+    "deploymentEvidenceDigest": "sha256:701ccc7e0fc9df575ea5e12bd653e1136d95cd533a2df5fbfebd3ecabcf10ffd"
+  },
+  "productionSmoke": {
+    "passed": 15,
+    "total": 15,
+    "pass": true
+  },
+  "liveHttp": {
+    "status": "PASS",
+    "verifiedAt": "2026-11-03T14:26:01.550Z",
+    "productionUrl": "https://echobuddha.com/",
+    "release": {
+      "schemaVersion": 1,
+      "sha": "edfe72dd8fbb313f6267d1da9580be3b3e5eb671",
+      "ref": "refs/heads/main",
+      "builtAt": "2026-11-03T14:23:18.103Z"
+    },
+    "assets": [
+      {
+        "route": "/images/publisher-logo.svg",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "sha256": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd"
+      },
+      {
+        "route": "/images/publisher-logo.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7"
+      },
+      {
+        "route": "/favicon.ico",
+        "status": 200,
+        "mime": "image/vnd.microsoft.icon",
+        "sha256": "3191925f3aed10d7ae5c0ac62af62b146b2c8d736b32cbc3ecad3722d88d6315"
+      },
+      {
+        "route": "/favicon-16x16.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "68127daaa073ac51765d3d3ec885e827543c6fd1a9b6af24b3c419cc543cb9bd"
+      },
+      {
+        "route": "/favicon-32x32.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "f7cb12aa88161f51078f73961ae3870483d3b4393ea234af5f5c4aa1bc0e80eb"
+      },
+      {
+        "route": "/favicon-48x48.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "01adde449c85fa1fc984e6bd143005c25c6e981794ac8602df4d7c180cf13a8e"
+      },
+      {
+        "route": "/apple-touch-icon.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "491dd9621e57171f547425bb5c5c8c403995f017569247700f4e3ec29547b1d9"
+      },
+      {
+        "route": "/icon-192x192.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "af19a9b6fea0a0f1fc1bcada095e7daf59c8b2e2e21b353aa66d2eddfec1ab26"
+      },
+      {
+        "route": "/icon-512x512.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7"
+      },
+      {
+        "route": "/site.webmanifest",
+        "status": 200,
+        "mime": "application/manifest+json",
+        "sha256": "97aa1daaf760a08a43873ca137457da9450379da9ef15a408d8bd59207df60f7"
+      },
+      {
+        "route": "/og-default.svg",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "sha256": "2431179fcf0009f8354b161852d0898f9483eedb7d406ef6c39142f9ab6c8da7"
+      },
+      {
+        "route": "/og-default.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "a1a39b66c0e487977fad30112caf5a52a0182f1ce02229000375d3b58d5019e5"
+      },
+      {
+        "route": "/og-learn.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "d025db1574d8ffa426a4cb7dc7f89df671fec331520cd4c7dba3ce46c989fc7f"
+      },
+      {
+        "route": "/og-meditation.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "9553765e24d5f020a7e8c944166d0b042f45998f4409e32c9408812d7eab06ed"
+      },
+      {
+        "route": "/og-handbook.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "c452a12abe8074437ac4f742fcf6af8490c2793ccf14defffbdfc126e0a9a36e"
+      },
+      {
+        "route": "/og-quotes.png",
+        "status": 200,
+        "mime": "image/png",
+        "sha256": "0b5dc51a0ae3fecce01923be931b125c849cdc5bc511c9102c3189070a073f73"
+      }
+    ],
+    "pages": [
+      {
+        "route": "/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-default.png"
+      },
+      {
+        "route": "/learn/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-learn.png"
+      },
+      {
+        "route": "/learn/buddhist-handbook/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/images/handbook/refined/buddhist-life-practice-handbook.webp"
+      },
+      {
+        "route": "/meditation/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-meditation.png"
+      },
+      {
+        "route": "/articles/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-default.png"
+      },
+      {
+        "route": "/quotes/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-quotes.png"
+      },
+      {
+        "route": "/search/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-default.png"
+      },
+      {
+        "route": "/about/",
+        "status": 200,
+        "headerFooter": "PASS",
+        "icon": "PASS",
+        "openGraph": "https://echobuddha.com/og-default.png"
+      }
+    ],
+    "checks": "Canonical logo bytes, browser/install icons, branded previews and public schema/metadata match the verified source."
+  },
+  "liveResponsive": {
+    "htmlPages": 357,
+    "originalLogoSha256": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd",
+    "manifestIcons": 6,
+    "icoSizes": [
+      16,
+      32,
+      48
+    ],
+    "schema": "PASS",
+    "results": [
+      {
+        "width": 320,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 375,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 390,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 768,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 860,
+        "logos": "PASS",
+        "overflow": "PRE_EXISTING_HOMEPAGE_HERO_OVERFLOW",
+        "navigation": "PASS"
+      },
+      {
+        "width": 861,
+        "logos": "PASS",
+        "overflow": "PRE_EXISTING_HOMEPAGE_HERO_OVERFLOW",
+        "navigation": "PASS"
+      },
+      {
+        "width": 1280,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "width": 1440,
+        "logos": "PASS",
+        "overflow": "PASS",
+        "navigation": "PASS"
+      },
+      {
+        "route": "/learn/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/learn/buddhist-handbook/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/meditation/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/articles/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/quotes/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/search/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      },
+      {
+        "route": "/about/",
+        "logos": "PASS",
+        "overflow": "PASS"
+      }
+    ]
+  },
+  "indexNow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 171,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-03T14:24:30.632Z",
+    "indexingGuaranteed": false
+  },
+  "canonicalArtwork": {
+    "svgSha256": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd",
+    "pngSha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+    "bothUnchanged": true
+  },
+  "externalSettings": {
+    "cloudflareAutomaticGitIntegration": "Disconnected; observed Worker overview prompts Connect your Git repository to enable continuous deployment.",
+    "githubProductionSecrets": "Both expected secret names present; values not read.",
+    "githubRequiredChecks": "Release validation and Browser and consent validation; strict, enforced for admins; both passed."
+  },
+  "knownLimitation": "Unchanged homepage hero illustration has pre-existing viewport overflow at 860/861px, reproduced with previous branding. Header/footer logo bounds and navigation pass. Not counted as a passing page-wide overflow check.",
+  "rollback": {
+    "sha": "d6c412da99f54786e4ec7a6bb9563e61cd90671f",
+    "versionId": "100e9335-3076-4326-9432-1ebca47f1b37"
+  },
+  "measurementImpact": "Presentation-only logo correction. No editorial content, URL, canonical, index-state or owner change; preserve latest substantive observation window and consolidation hold."
+}
