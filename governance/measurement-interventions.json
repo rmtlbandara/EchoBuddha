@@ -973,6 +973,40 @@
         "deployedAt": "2026-11-03T14:24:19.725137Z",
         "evidence": "docs/audits/website-logo-2026-11-03/RELEASE_VERIFICATION.json"
       }
+    },
+    {
+      "id": "right-speech-decision-guide-2026-11-05",
+      "status": "APPROVED_RELEASE_CANDIDATE",
+      "authorizedBy": "Project owner: begin the Right Speech reference resource on an existing page, with no competing URL, and granted permission to publish.",
+      "authorizedOn": "2026-11-05",
+      "baselineSha": "fc7957083037c7504b11cbe5df2a2fcdfd2e4d87",
+      "baselineEvidence": "docs/audits/right-speech-decision-guide-2026-11-05/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "94ae86cecf8a5e1498ae8e1314a72c188d8f4a4e4fe12dc0f83fd0fdf7ba576d",
+      "plannedReleaseDate": "2026-11-05",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Add a source-aware decision guide and source-layer section to the existing Right Speech owner page, and one contextual link from Mindful Email and Texting. No new URL, title, description, index, canonical or owner change.",
+      "approvedApplicationFiles": {
+        "src/data/site.ts": "19b18b18fff6c416f91d7569dcd0c4966e6ac232c7597c66028babf3f29b29ee"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/site.ts",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "949c8836ff3c0105b5d7dd05c76e0116c2337c69222ce0d0bea772a60d389024"
+        }
+      ],
+      "materiallyRevisedRoutes": [
+        "/articles/right-speech-buddhism/",
+        "/articles/mindful-email-and-texting/"
+      ],
+      "changedPublicRoutes": [
+        "/articles/right-speech-buddhism/",
+        "/articles/mindful-email-and-texting/"
+      ],
+      "measurementImpact": "Descriptive only. A material change to one owner page; compare matched complete windows and make no causal claims from short-term index or click changes."
     }
   ]
 }
