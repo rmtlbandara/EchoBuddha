@@ -2283,6 +2283,19 @@ const articleVisuals = {
       </ol>
     </figure>
   `,
+  rightSpeechDecisionGuide: `
+    <figure id="right-speech-decision-guide" class="article-visual surface" aria-labelledby="right-speech-decision-caption">
+      <figcaption id="right-speech-decision-caption">A Right Speech decision guide: six ways a real conversation can go, with what to notice and an example of each. A modern Echo Buddha reference, not a canonical list.</figcaption>
+      <div class="visual-card-grid visual-card-grid--three" aria-label="Six Right Speech decisions">
+        <section class="visual-card visual-card--compact"><h3>Speak now</h3><p>It is true, someone needs it now, and you can say it without wanting to wound.</p><p><em>A colleague is about to send the wrong figures: "Before that goes out, the total on page two looks off."</em></p></section>
+        <section class="visual-card visual-card--compact"><h3>Pause</h3><p>Your body is heated, or the words are mostly for your own relief.</p><p><em>Save the draft and reply: "I have seen this and want to answer carefully. I will respond tomorrow."</em></p></section>
+        <section class="visual-card visual-card--compact"><h3>Choose a different time</h3><p>It is true and useful, but the other person cannot take it in right now.</p><p><em>A friend has just had bad news. The overdue loan can wait until next week.</em></p></section>
+        <section class="visual-card visual-card--compact"><h3>Choose another channel</h3><p>The subject needs privacy, tone or a clear record that this medium cannot carry.</p><p><em>Move a criticism out of the group chat and raise it in person. Put an agreed deadline in writing.</em></p></section>
+        <section class="visual-card visual-card--compact"><h3>Stay silent, for a sound reason</h3><p>You lack the facts, it is not yours to share, or speaking would only feed gossip.</p><p><em>Someone repeats a rumor about a coworker. You do not pass it on.</em></p></section>
+        <section class="visual-card visual-card--compact"><h3>Speak, even though it is hard</h3><p>Staying quiet would let harm continue or withhold something a person needs to know.</p><p><em>You report unsafe behavior at work, or tell a friend what you are worried about. Where speaking could put you at risk, look for a safe route and support first.</em></p></section>
+      </div>
+    </figure>
+  `,
   overthinking: `
     <figure class="article-visual surface" aria-labelledby="busy-mind-caption">
       <figcaption id="busy-mind-caption">Busy Mind to Calm Mind: a conceptual practice flow for meeting repeated thoughts with awareness.</figcaption>
@@ -2357,7 +2370,7 @@ export const articles: Article[] = [
       {
         paragraphs: [
           "Mindful email and texting means bringing Buddhist Right Speech into digital communication. Before sending, pause long enough to notice intention, accuracy, tone, timing, privacy, and possible harm. The aim is not perfect wording. It is less careless speech in a medium that is fast, persistent, and easy to misunderstand.",
-          "For the traditional foundation, begin with <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>. This article stays with the particular problems created by email, SMS, messaging apps, work chat, group conversations, and social platforms."
+          "For the traditional foundation, begin with <a href=\"/articles/right-speech-buddhism/\">Right Speech in Buddhism</a>, and use its <a href=\"/articles/right-speech-buddhism/#right-speech-decision-guide\">decision guide</a> when the question is whether to reply at all. This article stays with the particular problems created by email, SMS, messaging apps, work chat, group conversations, and social platforms."
         ]
       },
       {
@@ -5068,6 +5081,21 @@ export const articles: Article[] = [
         paragraphs: [
           "Two early-discourse passages answer different questions. SN 45.8 defines Right Speech through four kinds of conduct to abandon: false, divisive, harsh, and idle speech. MN 58 describes the Buddha's own discernment about whether words are factual, beneficial, and timely, including occasions when a necessary truth may be unwelcome.",
           "The four-filter graphic on this page is therefore a memory aid, not a replacement translation. In particular, \"kind\" does not mean \"pleasant to hear.\" A warning, correction, boundary, or report of harm may be uncomfortable and still be truthful, beneficial, well-timed, and spoken without the wish to humiliate."
+        ]
+      },
+      {
+        heading: "A Decision Guide: Speak, Pause or Choose Differently",
+        paragraphs: [
+          "The filters above help with wording. This guide helps with an earlier question: should this be said at all, and if so, when and how? Try it on one real message or conversation rather than reading it as a rule. Most difficult moments fit more than one card, so start with whichever description sounds most like what is happening in you."
+        ],
+        visual: articleVisuals.rightSpeechDecisionGuide
+      },
+      {
+        heading: "What in This Guide Is Canonical and What Is Modern",
+        paragraphs: [
+          "The sources supply the values, not the six cards. <a href=\"https://suttacentral.net/sn45.8/en/sujato\">SN 45.8</a> defines right speech as refraining from false, divisive, harsh and idle speech. <a href=\"https://suttacentral.net/mn58/en/sujato\">MN 58</a> describes the Buddha knowing the right time to say what is true and beneficial, whether or not it is welcome. <a href=\"https://suttacentral.net/an5.198/en/sujato\">AN 5.198</a> names five factors of well-spoken speech: timely, true, gentle, beneficial and spoken with a loving mind.",
+          "Sorting those values into six decisions, and every example here, is Echo Buddha's own practical adaptation for modern conversations and messages. No discourse lists these six outcomes, and traditions apply these teachings in different ways. The guide also cannot decide a situation for you, and it is no reason to stay in a conversation that is unsafe.",
+          "To cite this guide: Echo Buddha, \"A Decision Guide: Speak, Pause or Choose Differently,\" in <em>Right Speech in Buddhism</em>, https://echobuddha.com/articles/right-speech-buddhism/#right-speech-decision-guide."
         ]
       },
       {
@@ -9127,7 +9155,7 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "right-speech-buddhism": {
-    reviewedDate: "2026-08-24",
+    reviewedDate: "2026-11-05",
     takeaways: [
       "Right Speech is a Buddhist practice of honest, kind, useful, and timely communication.",
       "The practice avoids lying, divisive speech, harsh speech, and careless speech.",
