@@ -976,7 +976,7 @@
     },
     {
       "id": "right-speech-decision-guide-2026-11-05",
-      "status": "APPROVED_RELEASE_CANDIDATE",
+      "status": "DEPLOYED",
       "authorizedBy": "Project owner: begin the Right Speech reference resource on an existing page, with no competing URL, and granted permission to publish.",
       "authorizedOn": "2026-11-05",
       "baselineSha": "fc7957083037c7504b11cbe5df2a2fcdfd2e4d87",
@@ -1006,7 +1006,33 @@
         "/articles/right-speech-buddhism/",
         "/articles/mindful-email-and-texting/"
       ],
-      "measurementImpact": "Descriptive only. A material change to one owner page; compare matched complete windows and make no causal claims from short-term index or click changes."
+      "measurementImpact": "Descriptive only. A material change to one owner page; compare matched complete windows and make no causal claims from short-term index or click changes.",
+      "productionSha": "dff012658c991e84db2320c1c0a9e4a424e4136f",
+      "productionDeployedAt": "2026-11-05T09:44:52.336299Z",
+      "productionReleases": [
+        {
+          "sha": "dff012658c991e84db2320c1c0a9e4a424e4136f",
+          "deployedAt": "2026-11-05T09:44:52.336299Z",
+          "deploymentId": "2f186d7c-82ee-459a-aecb-526cc51e62c5",
+          "versionId": "69188a75-bd48-442c-9c37-bb8a7be84c54",
+          "workflowRunId": 42004694379,
+          "verification": "Exact-main workflow passed; production smoke 15/15; independent live checks at four widths; see release verification."
+        }
+      ],
+      "revisedObservationDates": {
+        "timeZone": "America/Los_Angeles",
+        "excludedDeploymentDay": "2026-11-05",
+        "start": "2026-11-06",
+        "end": "2026-12-03",
+        "earliestFinalizedReview": "2026-12-06",
+        "state": "FUTURE_DATA_REQUIRED",
+        "condition": "Requires stable substantive content and actually finalized data. Earlier windows remain intervened and descriptive. Any later substantive publishing can intervene again; no causal ranking, indexing or traffic claim."
+      },
+      "latestVerifiedProduction": {
+        "sha": "dff012658c991e84db2320c1c0a9e4a424e4136f",
+        "deployedAt": "2026-11-05T09:44:52.336299Z",
+        "evidence": "docs/audits/right-speech-decision-guide-2026-11-05/RELEASE_VERIFICATION.json"
+      }
     }
   ]
 }
