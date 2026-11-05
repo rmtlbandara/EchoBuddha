@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_DEPLOYED_VERIFIED",
+  "verifiedAt": "2026-11-05T10:00:00Z",
+  "productionUrl": "https://echobuddha.com/articles/right-speech-buddhism/#right-speech-decision-guide",
+  "implementationPr": 89,
+  "deployment": {
+    "sha": "dff012658c991e84db2320c1c0a9e4a424e4136f",
+    "deployedAt": "2026-11-05T09:44:52.336299Z",
+    "deploymentId": "2f186d7c-82ee-459a-aecb-526cc51e62c5",
+    "versionId": "69188a75-bd48-442c-9c37-bb8a7be84c54",
+    "workflowRunId": 42004694379,
+    "source": "workflow deployment record"
+  },
+  "artifact": {
+    "files": 836,
+    "aggregateSha256": "26e15ba41ea9578b526b57f2b48f19789b72acd1618768682e974df898463fbc"
+  },
+  "productionSmoke": {
+    "passed": 15,
+    "total": 15
+  },
+  "liveResponsive": {
+    "widths": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "horizontalOverflow": false,
+    "guideCards": 6
+  },
+  "liveHttp": {
+    "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+    "robots": "index, follow, max-image-preview:large",
+    "sitemapUrls": 171,
+    "linksChecked": 40,
+    "linksNot200": 0
+  },
+  "accessibility": {
+    "tool": "axe-core",
+    "widthPx": 390,
+    "pageViolations": 0,
+    "guideNeedsManualReview": [
+      "aria-prohibited-attr"
+    ],
+    "note": "Automated checks only; not a claim of complete accessibility."
+  },
+  "sources": [
+    "SN 45.8",
+    "MN 58",
+    "AN 5.198"
+  ],
+  "indexNow": {
+    "httpStatus": 200,
+    "submitted": 20,
+    "indexingGuaranteed": false
+  },
+  "notRun": [
+    "Lighthouse",
+    "Cloudflare dashboard check"
+  ]
+}
