@@ -4,7 +4,7 @@ Window: Nov 5–30, 2026. Calendar source: `EchoBuddha_November_2026_Editorial_C
 
 ## Editorial rules for every item
 
-Each item needs one reader question, a checked source, a specific example, a clear label for what is original, and a safety line where relevant. Echo Buddha's own writing is never attributed to the Buddha. Scenarios are labelled fictional. No invented reviewers, testimonials or outcomes. Meditation content keeps stop, adapt, ground and seek-support language and links to `/meditation-safety/`.
+Each item needs one reader question, a checked source and a specific example, with a safety line where the topic calls for it. Written production disclaimers no longer go in ordinary social copy; see the disclosure rule in `PUBLISHING_RUNBOOK.md`. Echo Buddha's own writing is never attributed to the Buddha. Scenarios are never presented as real events. No invented reviewers, testimonials or outcomes. Meditation content keeps stop, adapt, ground and seek-support language and links to `/meditation-safety/`.
 
 ## Changes to the calendar after reconciliation
 

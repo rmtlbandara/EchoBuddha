@@ -2,6 +2,15 @@
 
 How items actually get published. Status values are in `METRICS_DICTIONARY.md`; the record of what happened is `PUBLICATION_LEDGER.csv`, which is append-only: the latest row for a retry key is its current state.
 
+## Disclosure rule (owner, Nov 5)
+
+No repetitive production disclaimers in ordinary social copy. That covers fictional-scene notes, "not a quotation", AI-assistance lines and blanket safety lines.
+
+- **AI use:** the platform's own label. Keep it on for synthetic-narration Reels and YouTube's AI use field. Don't add optional labels to simple graphics.
+- **Keep in the text when it's true and useful:** source attribution and translator credit, a note that an application is modern when the post could be read as a teaching, and a safety line when the topic involves abuse, coercion, threats, self-harm, vulnerability or a meditation practice.
+- **Medium:** the disclosure stays in the first two paragraphs.
+- **Don't** delete and re-upload to remove on-image text. Provenance belongs in internal records.
+
 ## Coverage by platform
 
 Checked in the live tools on Nov 5, 2026.
@@ -15,7 +24,7 @@ Checked in the live tools on Nov 5, 2026.
 | Medium essay | Medium Schedule for later | Yes | Publishes within 5 minutes of the time |
 | Facebook Reel with synthetic narration | Facebook's own editor at facebook.com/reels/create | Not yet tested | It shows both Add AI label and Schedule (Nov 5). Check the label survives on the first scheduled use. Business Suite's Reel flow has no label control |
 | Instagram Reel with synthetic narration | Instagram's native editor on the day | **No** | Has Add AI label but no scheduling. Set the crop to Original; it defaults to square |
-| Pinterest Pin | Echo Buddha Pinterest tool | **No** | Remediation hold stays on. A narrow exception (to Nov 8) covers only the One Breath and Speak, Pause or Choose Pins, and each needs the owner's native approval. Later Pins need a new exception |
+| Pinterest Pin | Echo Buddha Pinterest tool | **No** | Remediation hold stays on. The narrow exception's two Pins are both published. Later Pins need a new exception and the owner's native approval |
 
 A one-off Claude session can't act on later days. Anything marked "No" needs someone, or a new session, on that date.
 
@@ -58,13 +67,29 @@ Do not edit or re-post any of these unless the check fails. Append what you find
 | When (Colombo) | Item | Check |
 |---|---|---|
 | Nov 6, after 7:30 pm | YouTube `BzCVR5fQ9_k` | Studio shows Public; signed-out page plays; AI label and description present; no notices |
-| Nov 7, after 7:30 pm | Facebook group chat post, ID 1135151242304399 | Published list; permalink; caption ends with the AI disclosure; link returns 200 |
+| Nov 7, after 7:30 pm | Facebook group chat post, ID 1135151242304399 | Published list; permalink; caption ends on the guide link with no disclaimer; link returns 200 |
 | Nov 7, after 8:30 pm | Instagram carousel, ID 3689659477869851 | Six slides in order; alt text; profile shows it once |
-| Nov 7 | Speak, Pause or Choose Pin | Run `november-exception-refresh.mjs 2` first if the site has deployed, then `november-exception-publish.mjs 2` for the owner's approval dialog. Exception ends Nov 8 |
+| Done Nov 5 | Speak, Pause or Choose Pin | Published ahead of its calendar date with the owner's native approval, ID 995717798891840153 |
 | Nov 8, after 7:45 pm | Medium `f62f2b71f744` | Public URL; disclosure in the opening lines; no paywall; links work. Medium can return 504s, so retry reads before concluding anything |
 | Nov 8, after 8:30 pm | Instagram Story | Visible on the account; the essay it mentions is live first |
 
+## The Nov 9 Short: release conditions
+
+YouTube `FO4xTrvAaeA` is private and stays private until all of this is true:
+
+1. A person has listened on a phone speaker and on headphones: pronunciation, naturalness, pacing and audio artifacts. Whisper heard "checked" as "check" at about 15.6 s, so listen there first. A transcript isn't a listening review.
+2. The owner has approved it. Record that as `OWNER_PRONUNCIATION_APPROVED` or the approval actually given.
+3. Studio shows no copyright or policy notice, and AI use is still Yes.
+
+Then schedule that same upload for Nov 9, 7:30 pm Colombo. Don't upload a duplicate. If the date has passed, ask the owner rather than publishing late on your own.
+
 If a scheduled item didn't go out, check the platform's scheduled and published lists before doing anything else.
+
+## Editing live captions
+
+- **Facebook Reels:** More, then Edit reel. The save takes about 25 seconds. Leaving the page earlier loses it, and the page gives little warning, so wait for the dialog to close and read the caption back.
+- **Meta scheduled posts:** Post details, then the top menu, then Edit post. The composer ignores a selection made only by script. Use `cmd+Down`, extend to the paragraph boundary, then `Delete`. The button is labelled Schedule, and it keeps the existing time.
+- **YouTube Studio:** expanding Show more marks the page as changed with nothing edited. Read the AI use field there and leave, and don't press Save unless you meant to change something.
 
 ## Interrupted browser sessions
 
