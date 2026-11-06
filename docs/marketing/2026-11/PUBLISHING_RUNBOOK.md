@@ -22,9 +22,9 @@ Checked in the live tools on Nov 5, 2026.
 | Instagram Story (image) | Meta Business Suite scheduler | Yes | Add link was disabled in Suite on Nov 5 |
 | YouTube Short or video | YouTube Studio scheduler | Yes | AI use field is set during upload |
 | Medium essay | Medium Schedule for later | Yes | Publishes within 5 minutes of the time |
-| Facebook Reel with synthetic narration | Facebook's own editor at facebook.com/reels/create | Not yet tested | It shows both Add AI label and Schedule (Nov 5). Check the label survives on the first scheduled use. Business Suite's Reel flow has no label control |
+| Facebook Reel with synthetic narration | Facebook's own editor at facebook.com/reels/create | Yes, label unconfirmed | Seven scheduled on Nov 6 with Add AI label on at save. A scheduled Reel's page can't be read until it goes live, so check the label after the Nov 9 Reel publishes; if it's missing, fix it with Edit reel, then check the other six. Business Suite's Reel flow has no label control |
 | Instagram Reel with synthetic narration | Instagram's native editor on the day | **No** | Has Add AI label but no scheduling. Set the crop to Original; it defaults to square |
-| Pinterest Pin | Echo Buddha Pinterest tool | **No** | Remediation hold stays on. The narrow exception's two Pins are both published. Later Pins need a new exception and the owner's native approval |
+| Pinterest Pin | Echo Buddha Pinterest tool | **No** | Remediation hold stays on. The narrow exception's two Pins are both published. Later Pins need a new exception and the owner's native approval. Three are ready in `PINTEREST_QUEUE_2026-11-06.md` |
 
 A one-off Claude session can't act on later days. Anything marked "No" needs someone, or a new session, on that date.
 
@@ -73,19 +73,11 @@ Do not edit or re-post any of these unless the check fails. Append what you find
 | Nov 8, after 7:45 pm | Medium `f62f2b71f744` | Public URL; disclosure in the opening lines; no paywall; links work. Medium can return 504s, so retry reads before concluding anything |
 | Nov 8, after 8:30 pm | Instagram Story | Visible on the account; the essay it mentions is live first |
 
-## November Shorts: release conditions
+## November Shorts: status
 
-The conditions below apply to every private Short in the ledger: `FO4xTrvAaeA`, `Nm9CkdjkaA0`, `UEEpSAQ-f7I`, `MUXEpWk0lGY`, `W3SKyMT9W9o`, `drKxaKaEd2w` and `EtnrJdlUyHI`. Each has its own target date in the ledger.
+The owner listened to all seven and recorded approval on Nov 6 (`OWNER_AUDIO_QA_APPROVED`). They are scheduled in YouTube Studio; see the ledger. A new Short still needs a person to listen before scheduling. Whisper and loudness checks aren't a listening review.
 
-## The Nov 9 Short: release conditions
-
-YouTube `FO4xTrvAaeA` is private and stays private until all of this is true:
-
-1. A person has listened on a phone speaker and on headphones: pronunciation, naturalness, pacing and audio artifacts. Whisper heard "checked" as "check" at about 15.6 s, so listen there first. A transcript isn't a listening review.
-2. The owner has approved it. Record that as `OWNER_PRONUNCIATION_APPROVED` or the approval actually given.
-3. Studio shows no copyright or policy notice, and AI use is still Yes.
-
-Then schedule that same upload for Nov 9, 7:30 pm Colombo. Don't upload a duplicate. If the date has passed, ask the owner rather than publishing late on your own.
+The Nov 28 practice video (`PSewPrBQB18`) uses a narration file the owner listened to on Nov 6 and reported no problem with. The silences between sections were added after that, so the finished cut itself hasn't been listened to; the ledger row says so.
 
 If a scheduled item didn't go out, check the platform's scheduled and published lists before doing anything else.
 
