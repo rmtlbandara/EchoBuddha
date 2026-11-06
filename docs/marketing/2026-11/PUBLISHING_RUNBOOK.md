@@ -73,6 +73,10 @@ Do not edit or re-post any of these unless the check fails. Append what you find
 | Nov 8, after 7:45 pm | Medium `f62f2b71f744` | Public URL; disclosure in the opening lines; no paywall; links work. Medium can return 504s, so retry reads before concluding anything |
 | Nov 8, after 8:30 pm | Instagram Story | Visible on the account; the essay it mentions is live first |
 
+## November Shorts: release conditions
+
+The conditions below apply to every private Short in the ledger: `FO4xTrvAaeA`, `Nm9CkdjkaA0`, `UEEpSAQ-f7I`, `MUXEpWk0lGY`, `W3SKyMT9W9o`, `drKxaKaEd2w` and `EtnrJdlUyHI`. Each has its own target date in the ledger.
+
 ## The Nov 9 Short: release conditions
 
 YouTube `FO4xTrvAaeA` is private and stays private until all of this is true:
