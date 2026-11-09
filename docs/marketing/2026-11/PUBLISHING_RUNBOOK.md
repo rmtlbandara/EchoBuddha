@@ -23,10 +23,10 @@ Checked in the live tools on Nov 5, 2026.
 | YouTube Short or video | YouTube Studio scheduler | Yes | AI use field is set during upload |
 | Medium essay | Medium Schedule for later | Yes | Publishes within 5 minutes of the time |
 | Facebook Reel with synthetic narration | Facebook's own editor at facebook.com/reels/create | Yes, label unconfirmed | Seven scheduled on Nov 6 with Add AI label on at save. A scheduled Reel's page can't be read until it goes live, so check the label after the Nov 9 Reel publishes; if it's missing, fix it with Edit reel, then check the other six. Business Suite's Reel flow has no label control |
-| Instagram Reel with synthetic narration | Instagram's native editor on the day | **No** | Has Add AI label but no scheduling. Set the crop to Original; it defaults to square |
-| Pinterest Pin | Echo Buddha Pinterest tool | **No** | Remediation hold stays on. The narrow exception's two Pins are both published. Later Pins need a new exception and the owner's native approval. Three are ready in `PINTEREST_QUEUE_2026-11-06.md` |
+| Instagram Reel with synthetic narration | Instagram's native editor on the day | **No** | Has Add AI label but no scheduling (rechecked Nov 6, along with the Suite flow, which still has no label). Set the crop to Original; it defaults to square. Eight Reels are ready, with files, hashes and captions in `.artifacts/marketing-2026-11/ig-reels/`. Meta's publishing API gained an `is_ai_generated` flag in June 2026, but Echo Buddha has no Meta app or token, and creating one is an owner step |
+| Pinterest Pin | Echo Buddha Pinterest tool | **No** | Remediation hold stays on. The owner approved three Pins on Nov 6, but the session's safety classifier refused the tool change as weakening a guard. A tested patch waits for the owner in `.artifacts/pinterest-november-2026/nov-09-23/`. Each Pin still needs the owner's native approval |
 
-A one-off Claude session can't act on later days. Anything marked "No" needs someone, or a new session, on that date.
+A one-off Claude session can't act on later days. Session cron jobs for the Instagram and verification dates run only while the session that created them is open. A daily cloud routine checks YouTube publicly at 9:55 pm Colombo and can't sign in anywhere. A local runner that would start signed-in Claude sessions by itself was refused by the safety classifier and not built. Dates are listed in `.artifacts/marketing-2026-11/DATED_JOBS.md`.
 
 ## Publishing an item
 
@@ -77,7 +77,7 @@ Do not edit or re-post any of these unless the check fails. Append what you find
 
 The owner listened to all seven and recorded approval on Nov 6 (`OWNER_AUDIO_QA_APPROVED`). They are scheduled in YouTube Studio; see the ledger. A new Short still needs a person to listen before scheduling. Whisper and loudness checks aren't a listening review.
 
-The Nov 28 practice video (`PSewPrBQB18`) uses a narration file the owner listened to on Nov 6 and reported no problem with. The silences between sections were added after that, so the finished cut itself hasn't been listened to; the ledger row says so.
+Superseded on Nov 6: `R-J2QM0oJcw` replaces `PSewPrBQB18` (now private, never public) after measurement found a hard section start and dead-silent pauses; see the ledger. The earlier note follows. The Nov 28 practice video (`PSewPrBQB18`) used a narration file the owner listened to on Nov 6 and reported no problem with. The silences between sections were added after that, so the finished cut itself hasn't been listened to; the ledger row says so.
 
 If a scheduled item didn't go out, check the platform's scheduled and published lists before doing anything else.
 
