@@ -1,6 +1,11 @@
 # Outreach drafts, November 2026
 
-**Status: drafts only. Nothing has been sent.** The Right Speech decision guide was verified live on Nov 5, which was the condition for starting. Send only after the owner has reviewed each one, from a real Echo Buddha address, and only once per recipient. Do not follow up more than once.
+**Status: drafts only. Nothing has been sent.** Checked Nov 9 under the owner's authorization to send:
+
+- **Wildmind is held.** The draft cites Rick Hanson's "The five principles of wise communication" on Wildmind. No piece by that title could be found there; the nearest Hanson post on Wildmind is "Is your tone of voice blocking mindful communication?" (2013). Rewrite the note around a piece that exists before sending. Wildmind's contact form goes to Bodhipaksa.
+- **Tricycle is ready but unsent.** The cited "Right Speech Reconsidered" exists, and `editorial@tricycle.org` is still the address for non-submission editorial inquiries. It has to go from an Echo Buddha address, and `echobuddha.com` mail runs on Zoho, which wasn't signed in. Signing in needs the owner.
+
+ The Right Speech decision guide was verified live on Nov 5, which was the condition for starting. Send only after the owner has reviewed each one, from a real Echo Buddha address, and only once per recipient. Do not follow up more than once.
 
 Every draft discloses AI assistance, because the guide was written with it. Leaving that out would be misleading to editors who care about it.
 
