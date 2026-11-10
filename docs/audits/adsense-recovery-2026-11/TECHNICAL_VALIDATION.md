@@ -14,13 +14,13 @@ The earlier same-SHA browser assessment covered 14 live reader journeys. Current
 |---|---|
 | Deterministic release validation | Passed, including 98/98 tests. Covered build, types, metadata, internal URLs, structured data, source metadata, consent defaults, ad runtime off, security and release-governance contracts. |
 | Main accessibility and consent browser suite | Passed against the local Worker. The route set includes reading pages, quote, reflection, search, tools, trust, privacy and the genuine error route. |
-| Tools browser suite | Chromium and Firefox passed timers, glossary search, focus, reflow and axe checks. The first WebKit candidate run returned a transient or environment-specific card-style discrepancy to investigate. |
+| Tools browser suite | Chromium and Firefox passed timers, glossary search, focus, reflow and axe checks. WebKit initially upgraded stylesheet requests to HTTPS on the HTTP-only local Worker because of the production CSP. With local HTTPS and a test context accepting the dev certificate, the full WebKit tools suite passed. The live HTTPS and local stylesheet hashes also match. |
 | Buddhist questions browser suite | Passed 30 route/viewport checks with zero critical or serious automated accessibility violations. |
 | Topic guide browser suite | Passed all 24 Chromium checks across eight guides and mobile, tablet and desktop. |
 | Changed routes and entry points | 17 HTTP/canonical/H1 checks and 78 Chromium reflow checks. axe returned zero automated violations in 34 main-content runs at 320 and 1440 px. |
 | Homepage tablet fix | Passed at 320, 390, 640, 768, 819, 820, 821, 834, 853, 912, 980, 1024, 1280 and 1440 px. |
 | Sitemap and dates | The candidate sitemap URL set matches the live 171 exactly. The publishing and browser contracts cover the relevant update dates and the distinction between modification and publication dates. |
 | Terms and 404 | Both legacy variants return one 301 with the original query to the 200 Terms page. A random unknown URL returns HTTP 404. |
-| Performance | The final candidate lab run is tracked with the pull request. Field Core Web Vitals remain unavailable in Search Console. |
+| Performance | Lighthouse completed 20 local runs over ten routes. Mobile performance scored 99–100 and desktop 100. All 20 accessibility scores were 100. Local mobile LCP ranged from 1.37 to 1.67 seconds, desktop LCP from 0.33 to 0.50 seconds, and total blocking time was zero in all runs. |
 
-Automated accessibility evidence covers the stated routes, browsers and checks. Typography, help text, contrast, focus and reading journeys remain part of owner review and public acceptance. Keep production validation distinct from lab timing and validate actual consent behavior on the serving site after release. [Release verification](RELEASE_VERIFICATION.md)
+Lighthouse values describe a local lab run. Field Core Web Vitals remain unavailable in Search Console. Automated accessibility evidence covers the stated routes, browsers and checks. Typography, help text, contrast, focus and reading journeys remain part of owner review and public acceptance. Keep production validation distinct from lab timing and validate actual consent behavior on the serving site after release. [Release verification](RELEASE_VERIFICATION.md)
