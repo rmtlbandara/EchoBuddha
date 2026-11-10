@@ -136,15 +136,17 @@ check("Redirects", "Only approved permanent content and legacy redirects are emi
   const expected = [
     "/articles/how-to-practice-non-attachment/ /articles/how-to-let-go-of-attachment-in-buddhism/ 301",
     "/articles/letting-go-without-giving-up/ /articles/how-to-let-go-of-attachment-in-buddhism/ 301",
-    "/terms-and-conditions/ /terms-of-use/ 301"
+    "/terms-and-conditions/ /terms-of-use/ 301",
+    "/terms-and-conditions /terms-of-use/ 301"
   ];
   const normalize = (content) => content.split("\n").map((line) => line.trim()).filter((line) => line && !line.startsWith("#"));
   assert.deepEqual(normalize(read("public/_redirects")), expected);
   const changes = JSON.parse(read("governance/release-change-approvals.json")).changes;
   assert.ok(changes.some((change) => change.approved && change.type === "technical-redirect" && change.date === "2026-10-23" && change.target.includes("generated exact 308 rules")), "slash normalization needs explicit approval");
+  assert.ok(changes.some((change) => change.approved && change.type === "technical-redirect" && change.target === "/terms-and-conditions -> /terms-of-use/"), "slashless terms migration needs explicit approval");
   const canonicalRules = walk(path.join(root, "dist")).filter((file) => file.endsWith(`${path.sep}index.html`)).map((file) => path.relative(path.join(root, "dist"), path.dirname(file)).split(path.sep).join("/")).filter((route) => route && !/[.%\s?#]/.test(route)).map((route) => `/${route} /${route}/ 308`).sort();
   assert.deepEqual(normalize(read("dist/_redirects")), [...expected, ...canonicalRules]);
-  return `3/3 approved migrations plus ${canonicalRules.length} exact canonical slash redirects; no wildcard/hostname rule added`;
+  return `${expected.length}/${expected.length} approved migrations plus ${canonicalRules.length} exact canonical slash redirects; no wildcard/hostname rule added`;
 });
 check("Exposure", "No source maps or private dotfiles are emitted", () => {
   const emitted = walk(path.join(root, "dist"));

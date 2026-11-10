@@ -67,6 +67,14 @@
       "date": "2026-08-24"
     },
     {
+      "type": "technical-redirect",
+      "target": "/terms-and-conditions -> /terms-of-use/",
+      "approved": true,
+      "reason": "The slashless legacy legal URL returns 404. Match the existing slash-terminated migration with an exact one-hop 301 to the current terms page.",
+      "owner": "Echo Buddha project owner via the 2026-11-10 evidence-based AdSense remediation request; local candidate, separate production authorization required",
+      "date": "2026-11-10"
+    },
+    {
       "type": "quote-indexation-remediation",
       "target": "43 quote story URLs: index -> noindex, follow; exact URLs recorded in the Phase 5 decision registry",
       "approved": true,

@@ -554,7 +554,7 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     {
       label: "Maha-satipatthana Sutta (DN 22)",
       href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
-      note: "Supports mindfulness as awareness of body, feelings, mind, and mental qualities in ordinary activities."
+      note: "See the passage on alertness in ordinary activities, including going out and returning, eating, and speaking. The exercises on this page are modern applications."
     }
   ],
   "meditation/5-minute-meditation-practice": [
@@ -911,7 +911,7 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
     why:
       "Daily mindfulness matters because most of life happens between formal meditation sessions. The path becomes real in washing, listening, eating, typing, and waiting.",
     clarification:
-      "You do not need to be mindful of everything all day. Choose small repeatable cues and let the habit grow gently.",
+      "If the pause makes the task feel harder, shorten it to a single moment or choose a simpler activity.",
     question: "Which ordinary action could become a reminder to wake up?"
   },
   "meditation/5-minute-meditation-practice": {
@@ -3563,34 +3563,36 @@ export const meditationGuidePages: LearningPage[] = [
     description:
       "Learn how to practice mindfulness during work, conversations, chores, meals, and ordinary transitions.",
     eyebrow: "Meditation Practice",
+    modifiedDate: "2026-11-10",
     intro:
-      "Mindfulness in daily life means remembering awareness during ordinary moments, not only during formal meditation.",
+      "Use an ordinary action you already do to practice noticing when you are about to rush, react, or overlook something. Start with one moment that makes sense in your day.",
     sections: [
       {
-        heading: "Step-by-Step Practice",
+        heading: "Start With an Action That Already Has a Cue",
         paragraphs: [
-          "Choose one daily activity: washing hands, opening a door, eating, or beginning work. Feel the body during that activity. Notice sounds, movement, and intention.",
-          "When the mind rushes ahead, return to the action already happening."
+          "Try turning on the tap to wash your hands. Feel the water as you begin and keep washing at your usual pace. If you catch yourself planning the next task, return to the movement of your hands. One return is enough. There is no need to repeat the activity or start over.",
+          "Choose a cue that will happen anyway, such as setting down your lunch or opening your notebook before work. Tie the practice to the beginning of the action so you have something specific to remember."
         ]
       },
       {
-        heading: "Common Mistakes",
+        heading: "Use the Pause When There Is a Choice",
         paragraphs: [
-          "Do not try to be mindful of everything all day. That becomes exhausting. Choose small repeatable moments. Let practice grow through friendliness, not pressure."
+          "Imagine reading a message that says, “We need to talk.” You feel your hands tighten and begin drafting a defensive reply. Feel your hands on the desk, then read the words again. The message gives you little information about the subject or the sender’s intention. A useful next action might be asking what they want to discuss.",
+          "In a conversation, noticing that you are preparing your answer can help you hear the end of the other person’s sentence. Keep listening to the person. In traffic, while handling a hot pan, or during another task that needs full attention, give the situation your attention and leave the exercise for later."
         ]
       },
       {
-        heading: "Daily Use",
+        heading: "Where the Practice Comes From",
         paragraphs: [
-          "Mindfulness can support listening, patient speech, simpler work, and less automatic reaction. It brings the path into the places you already live."
+          "In the Mahāsatipaṭṭhāna Sutta (DN 22), instructions for monastics include bringing alertness to ordinary bodily activities such as going out and returning, eating, and speaking. The tap and message examples are modern applications of that passage. The discourse places this training within a wider Buddhist practice."
         ]
       }
     ],
-    takeaway: "Daily mindfulness grows through small moments of remembered awareness.",
-    practice: "Pick one routine action and make it a mindfulness bell for one day.",
+    takeaway: "One familiar cue can help you notice what you are doing and choose what to do next.",
+    practice: "Use the same cue once a day for three days. Afterwards, ask what you noticed and whether it changed your next action. If the cue is hard to remember, choose an action with a clearer beginning.",
     relatedLinks: [
       { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
-      { label: "Mindfulness at Work Quote", href: "/quotes/practice/mindfulness-at-work-breath/" },
+      { label: "Right Speech Decision Guide", href: "/articles/right-speech-buddhism/#right-speech-decision-guide" },
       { label: "Mindfulness Articles", href: "/articles/category/mindfulness/" }
     ],
     sourceNote: commonSourceNote,
