@@ -67,6 +67,14 @@
       "date": "2026-08-24"
     },
     {
+      "type": "technical-redirect",
+      "target": "/terms-and-conditions -> /terms-of-use/",
+      "approved": true,
+      "reason": "The slashless legacy legal URL returns 404. Match the existing slash-terminated migration with an exact one-hop 301 to the current terms page.",
+      "owner": "Echo Buddha project owner via the 2026-11-10 evidence-based AdSense remediation request; local candidate, separate production authorization required",
+      "date": "2026-11-10"
+    },
+    {
       "type": "quote-indexation-remediation",
       "target": "43 quote story URLs: index -> noindex, follow; exact URLs recorded in the Phase 5 decision registry",
       "approved": true,
@@ -114,6 +122,30 @@
       "reason": "Live full-browser verification found that unknown URLs returned an empty 404 response. Serve the existing noindex 404.html through Cloudflare 404-page asset handling, retaining real HTTP 404 status, security headers, all valid routes, and exact redirects. No SPA fallback or indexing change.",
       "owner": "Echo Buddha project owner via the 2026-10-23 production transformation and live-verification request",
       "date": "2026-10-23"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/editorialGovernance.ts",
+      "approved": true,
+      "reason": "Add the primary-text MN 61 and SN 36.21 citations for the revised Karma application article.",
+      "owner": "Echo Buddha project owner via November 10 AdSense recovery brief. Candidate requires normal release authorization.",
+      "date": "2026-11-10"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/privacy-policy.astro",
+      "approved": true,
+      "reason": "Describe the existing optional analytics fields and aggregate search-use measurement with Google’s linked explanation.",
+      "owner": "Echo Buddha project owner via November 10 AdSense recovery brief. Candidate requires normal release authorization.",
+      "date": "2026-11-10"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/sitemap.xml.ts",
+      "approved": true,
+      "reason": "Expose the existing substantive modifiedDate values for learning and meditation routes while preserving the sitemap URL set.",
+      "owner": "Echo Buddha project owner via November 10 AdSense recovery brief. Candidate requires normal release authorization.",
+      "date": "2026-11-10"
     }
   ]
 }

@@ -113,6 +113,16 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "Magga-vibhanga Sutta (SN 45.8)",
       href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
       note: "Defines the eight path factors in an early Buddhist discourse."
+    },
+    {
+      label: "Cūḷavedalla Sutta (MN 44)",
+      href: "https://www.dhammatalks.org/suttas/MN/MN44.html",
+      note: "Groups the path factors under virtue, concentration, and discernment."
+    },
+    {
+      label: "Mahānāma Sutta (AN 8.25)",
+      href: "https://suttacentral.net/an8.25/en/sujato",
+      note: "Supplies the lay precept formulation, including restraint from sexual misconduct."
     }
   ],
   "buddhism-101/five-precepts-buddhism": [
@@ -554,7 +564,7 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     {
       label: "Maha-satipatthana Sutta (DN 22)",
       href: "https://www.accesstoinsight.org/tipitaka/dn/dn.22.0.than.html",
-      note: "Supports mindfulness as awareness of body, feelings, mind, and mental qualities in ordinary activities."
+      note: "See the passage on alertness in ordinary activities, including going out and returning, eating, and speaking. The exercises on this page are modern applications."
     }
   ],
   "meditation/5-minute-meditation-practice": [
@@ -591,6 +601,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
       label: "NCCIH: Meditation and Mindfulness",
       href: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
       note: "Health-context safety reference for avoiding medical or guaranteed-benefit claims around meditation."
+    },
+    {
+      label: "NHS: Dizziness",
+      href: "https://www.nhs.uk/symptoms/dizziness/",
+      note: "Supports stopping, resting in a stable position, rising slowly, and seeking help for persistent dizziness."
     }
   ],
   "meditation/when-meditation-feels-hard": [
@@ -911,7 +926,7 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
     why:
       "Daily mindfulness matters because most of life happens between formal meditation sessions. The path becomes real in washing, listening, eating, typing, and waiting.",
     clarification:
-      "You do not need to be mindful of everything all day. Choose small repeatable cues and let the habit grow gently.",
+      "If the pause makes the task feel harder, shorten it to a single moment or choose a simpler activity.",
     question: "Which ordinary action could become a reminder to wake up?"
   },
   "meditation/5-minute-meditation-practice": {
@@ -1125,36 +1140,32 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "the-noble-eightfold-path-explained",
+    modifiedDate: "2026-11-10",
     title: "The Noble Eightfold Path Explained",
     description:
-      "Learn the Noble Eightfold Path in simple language, with examples for speech, action, work, mindfulness, and meditation.",
+      "Read the eight factors alongside SN 45.8, learn how two neighboring factors differ, and choose a source or lesson for your next study.",
     eyebrow: "Buddhism 101",
     intro:
-      "The Noble Eightfold Path is a practical guide for living with clearer understanding, kinder conduct, and steadier attention.",
+      "The Noble Eightfold Path is the training named in the Fourth Noble Truth. Use this lesson as a reading companion to SN 45.8, the early discourse that defines each factor.",
     sections: [
       {
-        heading: "Eight Parts of One Path",
+        heading: "Find the Eight Factors in the Discourse",
         paragraphs: [
-          "The path includes right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration. These are not rigid commandments. They are training areas that support wisdom and reduce harm.",
-          "The word right means skillful or wise in context. It asks whether a way of seeing, speaking, or acting leads toward less greed, hatred, and confusion."
+          "<strong>Wisdom.</strong> Right view understands dukkha, its origin, its cessation, and the way to its cessation. Right intention gives that understanding a direction through renunciation, goodwill, and harmlessness. Read <a href='/learn/four-noble-truths/'>the Four Noble Truths</a> for the framework behind the first factor.",
+          "<strong>Ethical conduct.</strong> Right speech avoids false, divisive, harsh, and idle speech. Right action avoids killing and taking what is not given. SN 45.8 also names celibacy in this monastic teaching, while the lay precepts in AN 8.25 address sexual misconduct. Right livelihood concerns the way one earns a living. See <a href='/articles/right-speech-buddhism/'>Right Speech</a> and the <a href='/learn/buddhism-101/right-livelihood-buddhism/'>Right Livelihood lesson</a>.",
+          "<strong>Mental cultivation.</strong> Right effort prevents and abandons unskillful qualities and develops and sustains skillful qualities. Right mindfulness uses body, feelings, mind, and mental qualities as frames of attention. The discourse describes right concentration through the four jhānas, states of meditative absorption. The <a href='/learn/buddhism-101/what-is-mindfulness/'>mindfulness lesson</a> gives context for the third group."
         ]
       },
       {
-        heading: "Daily Meaning",
+        heading: "Read Two Neighboring Factors Side by Side",
         paragraphs: [
-          "Right speech may appear in a difficult family conversation. Right effort may appear when you protect a helpful habit. Right mindfulness may appear when you notice the body before anger becomes a sentence. Right concentration may appear in a few steady minutes with the breath.",
-          "The path becomes real when it enters ordinary choices. It is not separate from work, relationships, money, conflict, rest, or care."
-        ]
-      },
-      {
-        heading: "A Daily Life Example",
-        paragraphs: [
-          "Before sending a tense email, the path might ask: Am I seeing clearly? What is my intention? Are these words true and useful? Would waiting reduce harm? One email can become a complete field of practice."
+          "Try effort and mindfulness. In a sitting practice you notice irritation and the story that keeps it going. Mindfulness keeps the state in view. Effort concerns what you do next, such as letting the story drop and returning to a workable point of attention. This is an everyday illustration of how the roles differ.",
+          "A few steady breaths can support practice. In SN 45.8, right concentration has the more specific meaning given above. When a modern guide uses a factor in an example, compare its illustration with the discourse definition."
         ]
       }
     ],
     takeaway: "The Noble Eightfold Path brings together view, intention, speech, action, livelihood, effort, mindfulness, and concentration.",
-    practice: "Choose one path factor for today. Keep it visible and practice it in one specific situation.",
+    practice: "Open SN 45.8 and pick two adjacent factors. Write one sentence about the work each does. Then follow the lesson link for the factor you find harder to explain.",
     relatedLinks: [
       { label: "Complete Eightfold Path Guide", href: "/learn/eightfold-path/" },
       { label: "Eightfold Path Article", href: "/articles/eightfold-path-explained/" },
@@ -1163,7 +1174,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Eightfold Path Quote", href: "/quotes/practice/eightfold-path-daily-choices/" }
     ],
     sourceNote:
-      "Source note: This page is an original Echo Buddha explanation of the Noble Eightfold Path as a practical training path in wisdom, ethical conduct, and mental cultivation.",
+      "SN 45.8 supplies the definitions. The threefold grouping appears in MN 44. The example and reading exercise are Echo Buddha applications.",
     terms: ["Mindfulness", "Dhamma", "Sati"]
   },
   {
@@ -1835,36 +1846,37 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "how-to-practice-buddhism-at-home",
+    modifiedDate: "2026-11-10",
     title: "How to Practice Buddhism at Home",
     description:
-      "Learn simple ways to practice Buddhist-inspired wisdom at home through meditation, speech, kindness, reflection, and daily habits.",
+      "Adapt Buddhist home practice to shared rooms, interruptions, shift work, or caregiving with a short routine and a fallback that respects the household.",
     eyebrow: "Buddhism 101",
     intro:
-      "Home practice can be simple: a few quiet minutes, kinder speech, honest reflection, and small repeated choices that reduce harm.",
+      "A household practice needs to fit the people who live there. Start by choosing a time and place you can use without shifting a responsibility onto someone else.",
     sections: [
       {
-        heading: "Begin With What Is Realistic",
+        heading: "Plan for the Room You Have",
         paragraphs: [
-          "Practicing Buddhism at home does not require turning your home into a monastery. Begin with a small, repeatable practice. Sit for five minutes, read one teaching, speak more carefully, or pause before reacting.",
-          "The best home practice is one you can return to without resentment. A small sincere practice is better than an impressive plan that disappears after three days."
+          "In a shared room, ask for a specific window, such as five minutes after the washing-up. Choose a seat that stays clear of doors and shared work areas. Keep a book or cushion somewhere you can put it away quickly. When a family member needs the space, shorten the session or move to another workable spot.",
+          "If your hours change, tie the practice to an event rather than a clock. After you put your work bag down, you could sit briefly or read one paragraph before looking at your phone. Choose a fallback for the days when you come home to an immediate responsibility."
         ]
       },
       {
-        heading: "Three Simple Areas",
+        heading: "Try a Shared Kitchen Routine",
         paragraphs: [
-          "You can practice meditation by following the breath. You can practice ethics by reducing harsh speech and unnecessary harm. You can practice wisdom by noticing impermanence, craving, and the results of your choices.",
-          "These areas support each other. A few quiet breaths can change speech. Kinder speech can reduce regret. Less regret can make meditation more settled."
+          "Imagine two adults share a small kitchen and one gets home just before dinner. They agree that the person finishing the meal gets the counter and the other person clears their own dishes. While waiting for the kettle, the second person feels both feet and notices the urge to complain about a difficult day. When dinner is ready, they put the exercise aside and help with the meal.",
+          "If a child calls during a planned sit, stop and attend to them. Once things settle, you can read a few lines or review one act of speech. Some days the ethical part of the practice will be more available than quiet sitting."
         ]
       },
       {
-        heading: "A Daily Life Example",
+        heading: "Review the Arrangement With the People Affected",
         paragraphs: [
-          "A home practice might be this: sit for five minutes after waking, choose one intention for speech, and end the day by reflecting on one action to continue and one action to repair."
+          "After a week, check whether your practice time worked for the household and whether you could return to it on a busy day. Change the time, place, or duration if someone regularly needed the room or carried an extra task. The <a href='/learn/buddhist-handbook/practicing-for-yourself-and-others/'>Handbook chapter on practicing for yourself and others</a> gives a wider lay practice context."
         ]
       }
     ],
-    takeaway: "Home practice grows through small repeatable actions: meditation, ethical speech, reflection, and kindness.",
-    practice: "Choose one practice cue at home, such as morning tea or closing a door, and pair it with one mindful breath.",
+    takeaway: "Build a home practice around the space, time, and responsibilities your household actually has.",
+    practice: "Choose a workable window, agree it with anyone affected, and write one shorter fallback you can use on a busy day.",
     relatedLinks: [
       { label: "Buddhism for Beginners", href: "/learn/buddhism-for-beginners/" },
       { label: "Meditation Hub", href: "/meditation/" },
@@ -2146,13 +2158,14 @@ export const dictionaryPages: LearningPage[] = [
   {
     section: "buddhist-dictionary",
     slug: "dukkha",
+    modifiedDate: "2026-11-10",
     title: "Dukkha",
     seoTitle: "Dukkha Meaning: Suffering and Unsatisfactoriness in Buddhism",
     description:
       "Understand Dukkha in simple language as suffering, stress, and dissatisfaction, with examples for daily life.",
     eyebrow: "Buddhist Dictionary",
     intro:
-      "Dukkha is often translated as suffering, stress, or unsatisfactoriness. It points to the unease that appears when life is clung to in confused ways.",
+      "Dukkha is often translated as suffering, stress, or unsatisfactoriness. In the First Noble Truth it includes evident suffering such as illness and loss, and points more broadly to the insecurity of what changes and cannot be held.",
     sections: [
       {
         heading: "Simple Meaning",
@@ -2175,7 +2188,7 @@ export const dictionaryPages: LearningPage[] = [
       }
     ],
     takeaway: "Dukkha names suffering, stress, and dissatisfaction so they can be understood rather than denied.",
-    practice: "When stress appears, gently ask, “What am I resisting or clinging to right now?”",
+    practice: "Name the difficulty in plain terms. Then ask what calls for practical care and whether an extra demand or worry is making it harder to bear.",
     relatedLinks: [
       { label: "Complete Four Noble Truths Guide", href: "/learn/four-noble-truths/" },
       { label: "Four Noble Truths", href: "/learn/buddhism-101/the-four-noble-truths-explained/" },
@@ -2288,7 +2301,7 @@ export const dictionaryPages: LearningPage[] = [
   {
     section: "buddhist-dictionary",
     slug: "karuna",
-    modifiedDate: "2026-10-27",
+    modifiedDate: "2026-11-10",
     title: "Karuna",
     seoTitle: "Karuna Meaning: Compassion in Buddhism",
     description:
@@ -2298,34 +2311,32 @@ export const dictionaryPages: LearningPage[] = [
       "Karuṇā is a Pāli term commonly translated as compassion: care directed toward suffering and the wish for its relief.",
     sections: [
       {
-        heading: "Simple Meaning",
+        heading: "Karuṇā as an Immeasurable",
         paragraphs: [
-          "Compassion in Buddhism is not pity from above. It is the recognition that suffering is real and that beings are worthy of care. Karuna includes tenderness, but also wise action.",
-          "Compassion does not require approving harmful behavior. It can include boundaries, truth, and protection."
+          "In AN 4.125, compassion appears alongside goodwill, appreciative joy, and equanimity. The practitioner extends compassion through every direction without confining it to one group. In that setting, karuṇā is a cultivated way of attending to suffering. The <a href='/learn/buddhist-dictionary/compassion/'>Compassion entry</a> focuses on responding to someone who needs help."
         ]
       },
       {
-        heading: "Meaning in Daily Life",
+        heading: "Compare Karuṇā With Mettā",
         paragraphs: [
-          "Karuna may appear when you listen before judging, help someone without needing praise, or speak honestly without cruelty. It may also appear as self-compassion after a mistake."
+          "Try reading the goodwill and compassion passages in AN 4.125 beside each other. Their pattern of extending concern is shared. The distinction is what you attend to: mettā wishes beings well, while karuṇā meets suffering with the wish for relief. In ordinary life both intentions can be present."
         ]
       },
       {
-        heading: "Related Teaching",
+        heading: "Widen the Circle Without Forcing a Feeling",
         paragraphs: [
-          "AN 4.125 presents compassion alongside goodwill, appreciative joy, and equanimity. Compassion is cultivated without limiting concern to one favored person or direction. This entry focuses on that early-discourse setting; the <a href='/learn/buddhist-dictionary/compassion/'>Compassion entry</a> explains the broader everyday meaning.",
-          "A useful distinction for practice is that mettā wishes beings well, while karuṇā attends to suffering. These are complementary intentions, not a claim that either practice guarantees a particular feeling or outcome."
+          "If a neighbor is waiting for difficult news, you can acknowledge that uncertainty hurts. Then extend the same wish for relief to people in similar situations whom you have never met. A brief recognition is enough for this exercise. You can learn about the practice without making contact or taking on an unsafe responsibility."
         ]
       }
     ],
     takeaway: "Karuna is compassion that sees suffering clearly and responds with wise care.",
-    practice: "When someone is difficult, ask: “What pain might be present, and what boundary is still needed?”",
+    practice: "Notice one kind of suffering and extend the wish for relief to others facing it, including people outside your usual circle.",
     relatedLinks: [
       { label: "Compassion Article", href: "/articles/compassion-as-a-daily-discipline/" },
       { label: "Compassion Quotes", href: "/quotes/compassion/" },
       { label: "Metta", href: "/learn/buddhist-dictionary/metta/" }
     ],
-    sourceNote: "Source note: AN 4.125 directly supports compassion as an immeasurable cultivation. The distinction used for everyday practice, boundary examples, and self-compassion language are modern editorial explanation, not a translation or a claim to cover every Buddhist tradition.",
+    sourceNote: "AN 4.125 supplies the example of compassion extended in all directions. The neighbor example and reflection are modern applications.",
     terms: ["Metta", "Compassion", "Right Speech"]
   },
   {
@@ -3563,34 +3574,36 @@ export const meditationGuidePages: LearningPage[] = [
     description:
       "Learn how to practice mindfulness during work, conversations, chores, meals, and ordinary transitions.",
     eyebrow: "Meditation Practice",
+    modifiedDate: "2026-11-10",
     intro:
-      "Mindfulness in daily life means remembering awareness during ordinary moments, not only during formal meditation.",
+      "Use an ordinary action you already do to practice noticing when you are about to rush, react, or overlook something. Start with one moment that makes sense in your day.",
     sections: [
       {
-        heading: "Step-by-Step Practice",
+        heading: "Start With an Action That Already Has a Cue",
         paragraphs: [
-          "Choose one daily activity: washing hands, opening a door, eating, or beginning work. Feel the body during that activity. Notice sounds, movement, and intention.",
-          "When the mind rushes ahead, return to the action already happening."
+          "Try turning on the tap to wash your hands. Feel the water as you begin and keep washing at your usual pace. If you catch yourself planning the next task, return to the movement of your hands. One return is enough. There is no need to repeat the activity or start over.",
+          "Choose a cue that will happen anyway, such as setting down your lunch or opening your notebook before work. Tie the practice to the beginning of the action so you have something specific to remember."
         ]
       },
       {
-        heading: "Common Mistakes",
+        heading: "Use the Pause When There Is a Choice",
         paragraphs: [
-          "Do not try to be mindful of everything all day. That becomes exhausting. Choose small repeatable moments. Let practice grow through friendliness, not pressure."
+          "Imagine reading a message that says, “We need to talk.” You feel your hands tighten and begin drafting a defensive reply. Feel your hands on the desk, then read the words again. The message gives you little information about the subject or the sender’s intention. A useful next action might be asking what they want to discuss.",
+          "In a conversation, noticing that you are preparing your answer can help you hear the end of the other person’s sentence. Keep listening to the person. In traffic, while handling a hot pan, or during another task that needs full attention, give the situation your attention and leave the exercise for later."
         ]
       },
       {
-        heading: "Daily Use",
+        heading: "Where the Practice Comes From",
         paragraphs: [
-          "Mindfulness can support listening, patient speech, simpler work, and less automatic reaction. It brings the path into the places you already live."
+          "In the Mahāsatipaṭṭhāna Sutta (DN 22), instructions for monastics include bringing alertness to ordinary bodily activities such as going out and returning, eating, and speaking. The tap and message examples are modern applications of that passage. The discourse places this training within a wider Buddhist practice."
         ]
       }
     ],
-    takeaway: "Daily mindfulness grows through small moments of remembered awareness.",
-    practice: "Pick one routine action and make it a mindfulness bell for one day.",
+    takeaway: "One familiar cue can help you notice what you are doing and choose what to do next.",
+    practice: "Use the same cue once a day for three days. Afterwards, ask what you noticed and whether it changed your next action. If the cue is hard to remember, choose an action with a clearer beginning.",
     relatedLinks: [
       { label: "What Is Mindfulness?", href: "/learn/buddhism-101/what-is-mindfulness/" },
-      { label: "Mindfulness at Work Quote", href: "/quotes/practice/mindfulness-at-work-breath/" },
+      { label: "Right Speech Decision Guide", href: "/articles/right-speech-buddhism/#right-speech-decision-guide" },
       { label: "Mindfulness Articles", href: "/articles/category/mindfulness/" }
     ],
     sourceNote: commonSourceNote,
@@ -3948,6 +3961,7 @@ export const shortMeditationPages: LearningPage[] = [
   {
     section: "meditation",
     slug: "meditation-posture-for-beginners",
+    modifiedDate: "2026-11-10",
     title: "Meditation Posture for Beginners",
     description:
       "Learn beginner meditation posture options for sitting on a chair or cushion with steadiness, comfort, and accessibility.",
@@ -3966,7 +3980,8 @@ export const shortMeditationPages: LearningPage[] = [
         heading: "Chair and Cushion Options",
         paragraphs: [
           "On a chair, place both feet on the floor if possible and sit forward enough that the back supports itself gently. On a cushion, let the knees and hips find a stable base. Adjust height if the knees or back strain.",
-          "If pain, numbness, dizziness, breathing difficulty, panic, or overwhelm appears, change posture, open the eyes, stand, walk, or stop. Do not endure pain to prove discipline; this page is not medical, ergonomic, or physiotherapy advice."
+          "If a posture causes strain, change to a supported position or end the session. Stop if you feel dizzy and stay in a stable position until it passes. The <a href='https://www.nhs.uk/symptoms/dizziness/'>NHS guidance on dizziness</a> advises lying down until it passes and getting up slowly.",
+          "End the exercise if breathing becomes difficult or you feel panicky or overwhelmed. Seek urgent medical help for <a href='https://www.nhs.uk/symptoms/shortness-of-breath/'>severe difficulty breathing</a>. Ask a healthcare professional about dizziness that keeps returning or does not go away."
         ]
       },
       {

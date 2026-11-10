@@ -1,0 +1,53 @@
+{
+  "baselineSha": "8aaf3911f90e6bb037f96c15c3b914a0155460d9",
+  "authorizedBy": "Project owner adopted the November 10 AdSense investigation and authorized evidence-based remediation in a local candidate. Production release requires separate authorization.",
+  "servingProductionSha": "dff012658c991e84db2320c1c0a9e4a424e4136f",
+  "sitemapUrls": 171,
+  "routes": [
+    "/",
+    "/meditation/mindfulness-in-daily-life/",
+    "/terms-and-conditions"
+  ],
+  "historicalInterventions": [
+    {
+      "id": "production-transformation-2026-10-23",
+      "sha256": "69fa88765a6cbbef30a2fc91193697f1fdec16e5ce42aeb8d4784b5cc125250f"
+    },
+    {
+      "id": "october-audit-remediation-2026-10-27",
+      "sha256": "352d11601ba6940dbb9f7c195979b1010b4a3417853d90ea36c9f29f4bdf9c0a"
+    },
+    {
+      "id": "footer-social-icons-2026-10-29",
+      "sha256": "557352ad0d2b8799f15dfa057702de925922d8bed7829e605834a99d574dee30"
+    },
+    {
+      "id": "adsense-final-content-recovery-2026-10-30",
+      "sha256": "dab02e5b6ed9a211e0d2e4fe321b8a9ffca430140d1d4bdffaa11b51eb7a15b0"
+    },
+    {
+      "id": "social-sync-2026-11-01",
+      "sha256": "2e437b0449776dae55dab56d56f83f2f7ac437d90ed5fc4557cde549b00d10fe"
+    },
+    {
+      "id": "buddhist-questions-q8-q9-2026-11-01",
+      "sha256": "06264bbbd36639d1f8e71c3c907dae00fad9eedc31028bc368589e163c60381d"
+    },
+    {
+      "id": "q8-kathavatthu-emphasis-fix-2026-11-02",
+      "sha256": "7124856a53202589b47c3d51f884c6136bc3a54d05a24296086e85ffa0a5e41a"
+    },
+    {
+      "id": "handbook-part-two-2026-11-03",
+      "sha256": "17c9d733e8841fb7b2f54af2e1464e7df1651b0c0fd503d0b9d921555e8b998b"
+    },
+    {
+      "id": "website-logo-2026-11-03",
+      "sha256": "0059cd02cc11471d5608ce2d00d47fca494d23ea8f1a89683512f29f9c5b50da"
+    },
+    {
+      "id": "right-speech-decision-guide-2026-11-05",
+      "sha256": "e1eff91766370e8b021167309e70f696a2bd324e37f0d915b8d913d8805bddf9"
+    }
+  ]
+}

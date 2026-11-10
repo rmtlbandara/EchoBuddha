@@ -4366,9 +4366,9 @@ export const articles: Article[] = [
   },
   {
     slug: "what-is-karma-in-buddhism",
-    title: "How Karma Shapes Daily Choices in Buddhist Practice",
-    seoTitle: "How Karma Shapes Daily Choices in Buddhist Practice",
-    description: "Explore how karma relates to everyday choices, speech, intention, habits, and mindful living in Buddhist practice.",
+    title: "Karma in Daily Life: How to Review and Repair an Action",
+    seoTitle: "Karma in Daily Life: How to Review and Repair an Action",
+    description: "Use the before, during, and after reflection in MN 61 to examine intention, interrupt harm, and repair a mistake.",
     date: "2026-06-25",
     author: SITE.author,
     category: "Buddhist Wisdom",
@@ -4385,73 +4385,36 @@ export const articles: Article[] = [
     content: [
       {
         paragraphs: [
-          "Karma becomes practical when it is seen in ordinary choices. A sharp reply can deepen tension in a family. A patient pause can prevent a difficult conversation from becoming cruel. Neither action guarantees a neat result, because life contains many conditions beyond our control. Still, intentions and actions matter.",
-          "This article focuses on daily-life application: how speech, habits, repair, and mindful choices shape the conditions we help create. For the main beginner explanation of the teaching, start with <a href=\"/learn/buddhism-101/what-is-karma-in-buddhism/\">What Is Karma in Buddhism? A Beginner's Guide</a>."
+          "You notice that an old version of a shared file has gone to the team. The attachment was a mistake. Leaving it in circulation once you know about it would be another choice. A useful response begins by seeing both events clearly.",
+          "This guide applies a reflection taught to Rāhula in <a href='https://www.dhammatalks.org/suttas/MN/MN61.html'>MN 61</a>. The discourse asks him to examine bodily, verbal, and mental actions before, during, and after doing them. The shared-file example is a modern application. For the meaning of intentional action, start with <a href='/learn/buddhism-101/what-is-karma-in-buddhism/'>the beginner lesson on karma</a>."
         ]
       },
       {
-        heading: "Karma Begins With Everyday Intention",
-        subheading: "Daily choices train the mind",
+        heading: "Before Acting: Check Who Could Be Affected",
         paragraphs: [
-          "The Sanskrit word karma and the Pali word kamma both mean action. In Buddhist teaching, the moral quality of an action is closely connected with intention. Accidentally stepping on an insect is not understood in the same way as deliberately causing harm. The outward event may look similar, but the state of mind and the choice behind it are different.",
-          "Intention does not make consequences disappear. A careless comment can hurt someone even when harm was not intended. Karma invites both kinds of honesty: we examine what motivated us, and we take responsibility for the effect. This balance keeps the teaching from becoming either harsh blame or an easy excuse."
+          "Suppose you are about to send a schedule you edited yesterday. Ask what people will do with the information and what could happen if it is wrong. In this case, someone could arrive at the wrong time. Open the attachment and verify the date against the shared version. If you cannot verify it, mark the schedule as provisional or wait until you can check.",
+          "The reflection in MN 61 considers possible harm to yourself, to others, or to both. You can take that question seriously even when you cannot predict the full outcome. It is enough to check the risk you can reasonably see."
         ]
       },
       {
-        heading: "Karma Is Not Fate",
+        heading: "During the Action: Stop When the Evidence Changes",
         paragraphs: [
-          "One common misunderstanding is that every event was fixed by past karma. That would leave little room for learning, compassion, or change. Buddhist traditions describe life as shaped by many interacting conditions: physical causes, social circumstances, other people's decisions, natural events, and our own past and present actions.",
-          "Past choices influence the present, but they do not write an unchangeable script. If a habit of angry speech has damaged trust, that history matters. Yet a person can begin listening, apologizing, and speaking differently now. The present moment is conditioned, not imprisoned. This is why practice is worthwhile."
+          "You have sent the file to one group. While drafting a second message, you open the attachment and see the wrong date. Stop that send. Put the corrected version in the original thread and say which earlier file to disregard. If someone is already using the old file, contact that person directly. For sensitive material, follow the appropriate reporting procedure instead of copying it into more messages.",
+          "Take a moment to notice what you are tempted to do. Fear of looking careless may make a vague correction feel easier. A short, clear message helps the people who need to make a decision."
         ]
       },
       {
-        heading: "How Actions Shape the Mind",
-        subheading: "Repetition becomes character",
+        heading: "Afterward: Separate Repair From Prevention",
         paragraphs: [
-          "Karma is easiest to observe in the formation of habits. Each time we rehearse resentment, resentment becomes easier to enter. Each time we practice generosity, the mind becomes more familiar with releasing its grip. A single act may seem small, but repeated actions create pathways that influence future choices.",
-          "Imagine a coworker takes credit for your idea. You may spend the afternoon feeding an inner argument, or you may pause, gather the facts, and address the issue clearly. The second response does not require passivity. It trains steadiness while still protecting what matters. For a closer look at this pause, read <a href=\"/articles/buddhist-approach-to-anger/\">A Buddhist Approach to Anger</a>."
+          "Check what happened. If someone lost time because of the old schedule, acknowledge that specific inconvenience and ask what will help now. Then look at the conditions that made the error likely. For example, two files had nearly identical names. Agree on one current copy and mark the old file as superseded.",
+          "MN 61 treats harmful bodily and verbal action as something to disclose to a teacher or knowledgeable companion and resolve to restrain in future. Harmful mental action is treated differently. In an ordinary workplace, acknowledge the error to the people affected and use the appropriate channel. Some repairs also call for discretion, safety, or qualified support."
         ]
       },
       {
-        heading: "Helpful and Harmful Roots",
+        heading: "What This Reflection Can Tell You",
         paragraphs: [
-          "Buddhist teachings often describe harmful action as rooted in greed, hatred, and confusion. Helpful action grows from generosity, goodwill, compassion, and clearer understanding. These are not labels for dividing people into good and bad. They are qualities that can appear in any mind, sometimes within the same hour.",
-          "Before acting, ask a quiet question: what is feeding this choice? A gift may arise from genuine care, from a wish to impress, or from both. Honest reflection reveals mixed motives without demanding purity. As awareness grows, we can strengthen the kinder intention. <a href=\"/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/\">This wisdom reflection</a> offers a short reminder when urgency clouds judgment."
-        ]
-      },
-      {
-        heading: "Karma in Speech and Relationships",
-        paragraphs: [
-          "Speech is one of the clearest places to study karma. Words alter a room. Gossip makes trust fragile. A truthful apology creates conditions for repair. Even tone matters: the same necessary boundary can be spoken with contempt or with firmness that leaves another person's dignity intact.",
-          "Before a difficult conversation, notice your aim. Are you trying to clarify, punish, protect, or be seen as right? Then choose words that serve the wisest aim available. The result still depends on the other person, but your side of the exchange becomes less likely to produce regret. <a href=\"/articles/mindful-listening-in-everyday-life/\">Mindful listening</a> is a useful companion practice."
-        ]
-      },
-      {
-        heading: "Common Misunderstandings About Karma",
-        paragraphs: [
-          "Karma should not be used to blame people for illness, poverty, abuse, or tragedy. We rarely know the full conditions behind another person's suffering, and confident claims about their past karma can become a way of withholding compassion. When someone is hurting, the humane response is care, not speculation.",
-          "Karma is also not instant justice. Kind people encounter hardship, and harmful people sometimes appear to prosper. Effects may be delayed, indirect, or mixed with countless other causes. The teaching is not a promise that life will look fair on our schedule. It is guidance for taking our own intentions seriously."
-        ]
-      },
-      {
-        heading: "How to Practice Karma in Daily Life",
-        paragraphs: [
-          "Choose one recurring moment as a place to observe intention. It might be opening email, correcting a child, spending money, or responding when you feel ignored. Pause for one breath and ask: what action is likely to reduce harm? What quality of mind will this choice strengthen?",
-          "At the end of the day, remember one action that brought ease and one that created tension. Appreciate the helpful action without pride. Review the harmful one without turning reflection into self-attack. If repair is possible, make it. This is karma as living education rather than a theory about the universe."
-        ]
-      },
-      {
-        heading: "Responsibility Without Shame",
-        paragraphs: [
-          "A mature understanding of karma supports responsibility, but shame can freeze the very change we need. Saying “I made a harmful choice” leaves room to learn. Saying “I am permanently bad” turns an action into an identity and may make honest repair harder.",
-          "Buddhist practice emphasizes that conditions change. We inherit habits, but we also contribute new conditions through attention and effort. When you recognize an old pattern beginning, the recognition itself is already different from acting blindly. Explore <a href=\"/articles/buddhist-teachings-on-impermanence/\">impermanence and change</a> for another view of why transformation remains possible."
-        ]
-      },
-      {
-        heading: "A Quiet Way to Understand Karma",
-        paragraphs: [
-          "You do not need to solve every philosophical question about past and future lives before karma becomes useful. Begin where the teaching is visible: intentions affect actions, actions shape habits, and habits influence how we meet the world. Careless choices tend to spread confusion; wise choices create better conditions for clarity and trust.",
-          "Let that understanding encourage attention rather than fear. The next choice does not need to be perfect. It only needs to be a little more honest, compassionate, and awake than the automatic response. Over time, those small choices become a direction."
+          "AN 6.63 links kamma with intention. You can distinguish the accident, the impulse to hide it, and the deliberate choice to correct it. The practical effects still matter. SN 36.21 also challenges the claim that everything someone feels comes solely from past action. The exercise gives you a way to examine your part in one event without diagnosing anyone else's suffering.",
+          "Keep a short record the next time you make a mistake: what you meant to do, what happened, who needs a correction, and what you will change before repeating the task. If an action helped and caused no harm you could see, note what supported it so you can repeat those conditions. For wording a correction, use the <a href='/articles/right-speech-buddhism/#right-speech-decision-guide'>Right Speech decision guide</a>."
         ]
       }
     ]
@@ -7646,7 +7609,7 @@ const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
         heading: "One Conversation Can Involve All Eight Factors",
         paragraphs: [
           "Before giving difficult feedback, view distinguishes facts from assumptions. Intention checks whether the aim is benefit or humiliation. Speech chooses truthful, timely wording. Action respects boundaries and responsibility. Livelihood asks how professional power is being used.",
-          "Effort restrains the rehearsed insult, mindfulness notices tightening in the body, and concentration stays with the conversation instead of preparing the next attack. No factor is perfectly completed, yet the path is functioning as a system."
+          "Effort restrains the rehearsed insult and mindfulness notices tightening in the body. Steadiness developed in meditation can help you listen. SN 45.8 uses right concentration in the more specific sense of the four jhānas. The conversation illustrates how training can support conduct."
         ]
       },
       {
@@ -7679,7 +7642,7 @@ const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
         heading: "Decision One: Replying to a Provocative Message",
         paragraphs: [
           "You receive a message that misrepresents what you said. Right View separates the verifiable claim from the mind's prediction that the sender always acts in bad faith. Right Intention asks whether the reply aims at clarity, protection, repair, or punishment.",
-          "Right Speech removes exaggeration and chooses timing. Mindfulness notices heat in the face and the urge to send immediately; effort supports saving a draft. Concentration stays with the actual issue. A path-aligned reply can be firm: “That is not what I agreed to. Here is the record, and here is the correction I need.”"
+          "Right Speech removes exaggeration and chooses timing. Mindfulness notices heat in the face and the urge to send immediately. Effort supports saving a draft. Steadiness helps you stay with the actual issue. A path-aligned reply can be firm: “That is not what I agreed to. Here is the record, and here is the correction I need.”"
         ]
       },
       {
@@ -7693,13 +7656,13 @@ const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
         heading: "Decision Three: A Distracted Evening at Home",
         paragraphs: [
           "You intend to listen to a family member but keep reaching for the phone. Right Effort is not a dramatic battle with technology; it may mean placing the phone out of reach for ten minutes. Mindfulness remembers the intention to listen and notices the impulse before the hand moves.",
-          "Right Speech includes the quality of attention given before words are chosen. Concentration stays with one person's sentence. Right Intention may be the simple wish not to treat someone as an interruption."
+          "Listening to a full sentence can help you answer truthfully. In SN 45.8, right speech is defined by four kinds of speech to abstain from, while right concentration is explained through the four jhānas. This example uses everyday attention to support the response. Right intention may show up as the wish to hear the person with goodwill."
         ]
       },
       {
         heading: "Compare the Three Decisions",
         paragraphs: [
-          "The message case makes speech and restraint visible. The workplace case makes action and livelihood visible. The home case makes effort, mindfulness, and concentration visible. Yet view and intention shape all three, and each outcome becomes feedback for later understanding.",
+          "The message case makes speech and restraint visible. The workplace case makes action and livelihood visible. The home case makes effort and mindfulness visible and shows how steadiness can support listening. Yet view and intention shape all three, and each outcome becomes feedback for later understanding.",
           "This is why the path should not be reduced to one favorite factor. Meditation cannot replace ethical judgment; good intentions cannot replace accurate speech; correct words cannot replace the attention needed to hear another person."
         ]
       },
@@ -8891,40 +8854,15 @@ export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "what-is-karma-in-buddhism": {
-    reviewedDate: "2026-06-25",
+    reviewedDate: "2026-11-10",
     takeaways: [
-      "In Buddhism, karma means intentional action rather than fate or cosmic punishment.",
-      "Intentions matter, while the real effects of our actions still deserve honest attention.",
-      "Repeated choices shape habits, character, relationships, and the conditions we meet later.",
-      "Past actions influence the present without removing our ability to choose differently now.",
-      "Karma supports responsibility and repair, not shame or blame for another person's suffering."
+      "Review a consequential action before, during, and after it.",
+      "Check likely harm in advance and stop or correct the action when new information appears.",
+      "Acknowledge the actual effect of a mistake and change one condition that made it likely."
     ],
     faqs: [
-      {
-        question: "What is karma in Buddhism in simple terms?",
-        answer:
-          "Karma is intentional action through body, speech, or mind. Such actions shape habits and contribute to future experience, alongside many other conditions."
-      },
-      {
-        question: "Is karma the same as fate?",
-        answer:
-          "No. Past actions influence present conditions, but they do not create a completely fixed future. Present choices, other people, society, and natural causes also matter."
-      },
-      {
-        question: "Does bad karma mean something bad will happen immediately?",
-        answer:
-          "Not necessarily. Consequences may be delayed, indirect, or mixed with other causes. Karma is not a promise of instant reward or punishment."
-      },
-      {
-        question: "Does intention matter more than the result?",
-        answer:
-          "Intention is central to the karmic quality of an action, but results matter too. A person can have a good intention and still need to acknowledge harm, apologize, and learn."
-      },
-      {
-        question: "How can I create helpful karma in daily life?",
-        answer:
-          "Practice generosity, truthful speech, patience, compassion, and careful attention. Begin with small repeated choices rather than trying to control every future result."
-      }
+      { question: "What does MN 61 ask Rāhula to examine?", answer: "It asks him to reflect on bodily, verbal, and mental actions before, during, and after acting, considering harm to himself, to others, or to both." },
+      { question: "How can I apply the reflection after an unintended mistake?", answer: "Identify who was affected, make a clear correction where appropriate, and change the condition that made the error easier to repeat." }
     ]
   },
   "four-noble-truths-explained": {
@@ -10472,7 +10410,7 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "eightfold-path-explained": {
-    reviewedDate: "2026-09-29",
+    reviewedDate: "2026-11-10",
     takeaways: [
       "The Eightfold Path functions as a mutually supporting system, not a checklist.",
       "View guides practice while conduct and consequences test view.",
@@ -10487,11 +10425,11 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "eightfold-path-explained-daily-life": {
-    reviewedDate: "2026-09-29",
+    reviewedDate: "2026-11-10",
     takeaways: [
       "A provocative message makes view, intention, speech, and restraint visible.",
       "A questionable work request brings action and livelihood into focus.",
-      "A distracted conversation shows effort, mindfulness, and concentration cooperating.",
+      "A distracted conversation shows how effort, mindfulness, and ordinary steadiness support listening.",
       "No favorite path factor replaces the rest of the training.",
       "A four-question check can orient one consequential modern decision."
     ],

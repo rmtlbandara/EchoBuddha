@@ -1150,7 +1150,17 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
     {
       label: "SuttaCentral: Nibbedhika Sutta (AN 6.63)",
       href: "https://suttacentral.net/an6.63/en/sujato",
-      note: "Direct early-discourse source for the definition of kamma as intentional action; the page's daily-life examples remain Echo Buddha editorial application."
+      note: "Early-discourse definition of kamma as intentional action."
+    },
+    {
+      label: "Dhammatalks: Ambalaṭṭhikā Rāhulovāda Sutta (MN 61)",
+      href: "https://www.dhammatalks.org/suttas/MN/MN61.html",
+      note: "Source for reflecting on bodily, verbal, and mental actions before, during, and after acting. The shared-file case is an editorial application."
+    },
+    {
+      label: "Dhammatalks: Sīvaka Sutta (SN 36.21)",
+      href: "https://www.dhammatalks.org/suttas/SN/SN36_21.html",
+      note: "Challenges the claim that all felt experience comes solely from past action."
     }
   ],
   "/articles/three-poisons-buddhism-explained/": [
