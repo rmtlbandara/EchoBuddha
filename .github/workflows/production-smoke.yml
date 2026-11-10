@@ -8,6 +8,7 @@ on:
 permissions:
   actions: read
   contents: read
+  deployments: read
 
 concurrency:
   group: production-smoke
@@ -29,24 +30,10 @@ jobs:
         with:
           node-version-file: .node-version
 
-      # Records-only commits can move main ahead of production. Compare the live
-      # site with the last successful deployment, not the newest commit on main.
-      - name: Resolve latest deployed release
-        id: release
+      - name: Resolve verified deployment and check exact production host
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          sha="$(gh run list --workflow deploy-production.yml --branch main --status success --limit 1 --json headSha --jq '.[0].headSha')"
-          if ! printf '%s' "$sha" | grep -Eq '^[a-f0-9]{40}$'; then
-            echo "::error::Could not resolve the latest successful production deployment."
-            exit 1
-          fi
-          echo "sha=$sha" >> "$GITHUB_OUTPUT"
-
-      - name: Check exact production host
-        env:
-          RELEASE_SHA: ${{ steps.release.outputs.sha }}
-        run: npm run audit:production-smoke
+        run: npm run audit:production-smoke -- --monitor
 
       - name: Upload smoke evidence
         if: always()

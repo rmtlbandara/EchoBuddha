@@ -131,7 +131,7 @@ jobs:
           node scripts/capture-cloudflare-deployment.mjs .artifacts/deployment/deployments.json .artifacts/deployment/deployment-record.json
 
       - name: Run production smoke gate
-        run: npm run audit:production-smoke
+        run: npm run audit:production-smoke -- --wait-for-release
 
       - name: Notify IndexNow after successful production verification
         run: node scripts/indexnow.mjs submit .artifacts/indexnow/plan.json .artifacts/indexnow/result.json

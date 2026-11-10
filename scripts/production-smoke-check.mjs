@@ -1,9 +1,28 @@
 import fs from "node:fs";
 import path from "node:path";
+import { classifyProduction, createGitHubReader, PRODUCTION_ORIGIN, resolveProductionDeployment } from "./production-deployment-evidence.mjs";
+import { verifyReleaseIdentity } from "./production-release-identity.mjs";
 
-const origin = process.env.PRODUCTION_ORIGIN || "https://echobuddha.com";
+const monitor = process.argv.includes("--monitor");
+const waitForRelease = process.argv.includes("--wait-for-release");
+const origin = monitor ? PRODUCTION_ORIGIN : process.env.PRODUCTION_ORIGIN || PRODUCTION_ORIGIN;
 const root = process.cwd();
 const outDir = path.resolve(root, process.env.SMOKE_OUT_DIR || ".artifacts/production-smoke");
+fs.mkdirSync(outDir, { recursive: true });
+let deploymentEvidence;
+if (monitor) {
+  try {
+    const repository = process.env.GITHUB_REPOSITORY;
+    deploymentEvidence = await resolveProductionDeployment(repository, createGitHubReader(repository, process.env.GH_TOKEN));
+  } catch (error) {
+    fs.writeFileSync(path.join(outDir, "deployment-evidence-error.json"), JSON.stringify({
+      result: "DEPLOYMENT_EVIDENCE_UNAVAILABLE",
+      error: error.message,
+    }, null, 2) + "\n");
+    throw error;
+  }
+}
+const expectedSha = deploymentEvidence?.verified.sha ?? process.env.RELEASE_SHA;
 const releaseBaseline = JSON.parse(fs.readFileSync(path.join(root, "governance/release-baseline.json"), "utf8"));
 const indexableApprovals = JSON.parse(fs.readFileSync(path.join(root, "governance/indexable-page-approvals.json"), "utf8"));
 const releaseChanges = JSON.parse(fs.readFileSync(path.join(root, "governance/release-change-approvals.json"), "utf8"));
@@ -32,13 +51,20 @@ const checks = [];
 const check = (name, pass, evidence) => checks.push({ name, pass: Boolean(pass), evidence });
 const get = (pathname, options = {}) => fetch(`${origin}${pathname}`, {
   redirect: options.redirect || "follow",
+  signal: AbortSignal.timeout(10000),
   headers: { "user-agent": "EchoBuddha-Phase9-Smoke/1.0" },
 });
 
-const identityResponse = await get("/release.json");
-let identity = {};
-try { identity = await identityResponse.json(); } catch { /* A missing identity fails below. */ }
-check("release-identity", identityResponse.status === 200 && /^[a-f0-9]{40}$/.test(identity.sha || "") && (!process.env.RELEASE_SHA || identity.sha === process.env.RELEASE_SHA), `${identityResponse.status}; serving ${identity.sha || "unverified"}`);
+const identityResult = await verifyReleaseIdentity(origin, expectedSha, {
+  waitForRelease,
+  onRetry: (observation, delay) => console.log(
+    `Release identity still pending (${observation.sha ?? observation.result}); checking again in ${delay / 1000}s.`
+  ),
+});
+const { identity, attempts } = identityResult;
+const lastAttempt = attempts.at(-1);
+check("release-identity", identityResult.pass,
+  `${lastAttempt.status ?? lastAttempt.result}; serving ${identity.sha ?? "unverified"}; ${attempts.length} attempt(s)`);
 
 const homeResponse = await get("/");
 const home = await homeResponse.text();
@@ -103,7 +129,12 @@ const failures = checks.filter((item) => !item.pass);
 const result = {
   generatedAt: new Date().toISOString(),
   origin,
-  sha: process.env.RELEASE_SHA || "not-provided",
+  sha: expectedSha || "not-provided",
+  releaseIdentityAttempts: attempts,
+  ...(deploymentEvidence && {
+    deploymentEvidence,
+    productionStatus: classifyProduction(deploymentEvidence, identity, failures.map(check => check.name)),
+  }),
   deployedIdentity: identity,
   workflowRunId: process.env.GITHUB_RUN_ID || "local",
   total: checks.length,
@@ -112,7 +143,17 @@ const result = {
   pass: failures.length === 0,
   checks,
 };
-fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, "production-smoke-results.json"), `${JSON.stringify(result, null, 2)}\n`);
 for (const item of checks) console.log(`${item.pass ? "PASS" : "FAIL"} ${item.name}: ${item.evidence}`);
+if (deploymentEvidence) {
+  const { latest, verified } = deploymentEvidence;
+  const summary = [
+    `Production monitoring: ${result.productionStatus}`,
+    `Expected ${verified.sha} from deployment ${verified.deploymentId}, status ${verified.statusId} (${verified.verification}).`,
+    `Newest attempt: deployment ${latest.deploymentId} (${latest.state}).`,
+    `Observed: ${identity.sha ?? "unverified"}. Smoke: ${result.passed}/${result.total}.`,
+  ].join("\n");
+  console.log(summary);
+  if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${summary}\n`);
+}
 if (failures.length) process.exitCode = 1;
