@@ -107,10 +107,17 @@ try {
       await page.waitForFunction(() => document.querySelector('[data-search-mode="overlay"] [data-search-results]')?.children.length > 0);
       await page.locator("#header-search-input").press("Escape");
       assert.equal(await open.evaluate(node => document.activeElement === node), true, "Overlay restores focus");
-      const revisedRoutes = ["/learn/buddhist-dictionary/karuna/", "/learn/buddhist-dictionary/compassion/", "/learn/buddhist-dictionary/sati/", "/learn/buddhism-101/what-is-mindfulness/", "/meditation/5-minute-meditation-practice/", "/meditation/10-minute-meditation-practice/"];
-      for (const route of revisedRoutes) {
+      const revisedRoutes = [
+        ["/learn/buddhist-dictionary/karuna/", "2026-11-10"],
+        ["/learn/buddhist-dictionary/compassion/", "2026-10-27"],
+        ["/learn/buddhist-dictionary/sati/", "2026-10-27"],
+        ["/learn/buddhism-101/what-is-mindfulness/", "2026-10-27"],
+        ["/meditation/5-minute-meditation-practice/", "2026-10-27"],
+        ["/meditation/10-minute-meditation-practice/", "2026-10-27"]
+      ];
+      for (const [route, modifiedDate] of revisedRoutes) {
         await page.goto(origin + route);
-        assert.equal(await page.locator('time[datetime="2026-10-27"]').count(), 1, `${route}: visible substantial-update date`);
+        assert.equal(await page.locator(`time[datetime="${modifiedDate}"]`).count(), 1, `${route}: visible substantial-update date`);
         for (const width of [320, 390, 768, 1440]) {
           await page.setViewportSize({ width, height: 900 });
           assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${route}: ${width}px reflow`);

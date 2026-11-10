@@ -1073,6 +1073,90 @@
         "/terms-and-conditions"
       ],
       "measurementImpact": "Local candidate only. If released, record the exact production SHA and actual deployment time, exclude the Pacific deployment day and restart the 28-day stable substantive observation window. Keep all earlier comparisons descriptive."
+    },
+    {
+      "id": "adsense-recovery-editorial-2026-11-10",
+      "status": "PLANNED",
+      "authorizedBy": "Project owner adopted the November AdSense recovery brief and requested evidence-based remediation and a governed pull request. Production follows the separate release approval.",
+      "authorizedOn": "2026-11-10",
+      "baselineSha": "8aaf3911f90e6bb037f96c15c3b914a0155460d9",
+      "baselineEvidence": "docs/audits/adsense-recovery-2026-11/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "aad62097e2218bb8db69130368ac3aa3fd70bc685e6fd7a474175ca10b5a73d2",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Differentiate the karma application, Eightfold Path source lesson, household practice and Karuṇā entry. Correct interpretation, meditation safety and source boundaries. Clarify existing analytics disclosures, and surface recorded page modification dates in the sitemap. Retain the three earlier candidate fixes.",
+      "approvedApplicationFiles": {
+        "src/data/editorialGovernance.ts": "86d9ab98ff6e1ea5fa7eae68183870d9590611cb1e4fca88d24488ab4b9d203e",
+        "src/data/handbook.ts": "253e6bc3f0736f91e12d69b19695337ae10735b39435acc0ff8cb3e5c5f7c9cf",
+        "src/data/learn.ts": "aa02ebedb33d6fa8eaff112ab70104a6c5d7078ec894d6da1bf6c06f8a8810c8",
+        "src/data/site.ts": "9be42644713bd51c373d560d2f087547751bd1a3c38b166b6c0acba4e779f30f",
+        "src/pages/learn/eightfold-path.astro": "34373aab9af5f6c513deae041f15d1f79adf3c2fbc7f121ee949436c4be6f9d6",
+        "src/pages/privacy-policy.astro": "f47e3b66973865780da3040d0f0280a6e621b70fb9a629c51162a5cdd567ccb0",
+        "src/pages/sitemap.xml.ts": "de0da1f9744629a3d35aac6fd587a5d1b9d5c861b8fcb8fe35850678458528bb"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/editorialGovernance.ts",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "43a0e3d3997610ca619d4d7b42b196f953deb57a5959a8b96a4dd719ebc353cc"
+        },
+        {
+          "file": "src/data/handbook.ts",
+          "interventionId": "handbook-part-two-2026-11-03",
+          "previousSha256": "56482f15c76a4268a1eb850308b02d513775c85820ff4e04e5a54b5b9c7505ed"
+        },
+        {
+          "file": "src/data/learn.ts",
+          "interventionId": "adsense-review-2026-11-10",
+          "previousSha256": "7597033718da565d8e9ebd96b30c63fb7e6903efb965f6167efed4f631c2f1f1"
+        },
+        {
+          "file": "src/data/site.ts",
+          "interventionId": "right-speech-decision-guide-2026-11-05",
+          "previousSha256": "19b18b18fff6c416f91d7569dcd0c4966e6ac232c7597c66028babf3f29b29ee"
+        },
+        {
+          "file": "src/pages/learn/eightfold-path.astro",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "7a2116e529c27ba79bc8c41e99e3d66455b8bd13f4bbb3b87a8003a4eb5761cb"
+        },
+        {
+          "file": "src/pages/sitemap.xml.ts",
+          "interventionId": "handbook-part-two-2026-11-03",
+          "previousSha256": "57010eca008b984100ec60c0c72bb6708ab9fa6943c2cb5c21d1c0d5d310433e"
+        }
+      ],
+      "materiallyRevisedRoutes": [
+        "/articles/eightfold-path-explained/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+        "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-handbook/lay-sangha-relationship/",
+        "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+        "/learn/eightfold-path/",
+        "/meditation/meditation-posture-for-beginners/",
+        "/privacy-policy/"
+      ],
+      "changedPublicRoutes": [
+        "/articles/eightfold-path-explained/",
+        "/articles/eightfold-path-explained-daily-life/",
+        "/articles/what-is-karma-in-buddhism/",
+        "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+        "/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+        "/learn/buddhist-dictionary/dukkha/",
+        "/learn/buddhist-dictionary/karuna/",
+        "/learn/buddhist-handbook/lay-sangha-relationship/",
+        "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+        "/learn/eightfold-path/",
+        "/meditation/meditation-posture-for-beginners/",
+        "/privacy-policy/"
+      ],
+      "measurementImpact": "Candidate only. After an authorized release, append the verified release receipt and restart stable observation on the next Pacific day. Historical snapshots stay descriptive."
     }
   ]
 }

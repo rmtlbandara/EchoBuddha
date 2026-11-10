@@ -53,7 +53,7 @@ const staticPaths: SitemapEntry[] = [
   { path: "/meditation/" },
   { path: "/meditation-guide/" },
   { path: "/contact/" },
-  { path: "/privacy-policy/", lastmod: "2026-07-03" },
+  { path: "/privacy-policy/", lastmod: "2026-11-10" },
   { path: "/terms-of-use/", lastmod: "2026-06-24" },
   { path: "/disclaimer/" }
 ];
@@ -89,7 +89,8 @@ export const GET: APIRoute = () => {
     path: section.href
   }));
   const learningPagePaths: SitemapEntry[] = getAllLearningPages().map((page) => ({
-    path: `/learn/${page.section}/${page.slug}/`
+    path: `/learn/${page.section}/${page.slug}/`,
+    lastmod: page.modifiedDate
   }));
   const buddhistQuestionPaths: SitemapEntry[] = buddhistQuestions.map((question) => ({
     path: getBuddhistQuestionPath(question),
@@ -100,7 +101,8 @@ export const GET: APIRoute = () => {
     lastmod: page.modifiedDate
   }));
   const meditationPagePaths: SitemapEntry[] = allMeditationPages.map((page) => ({
-    path: `/meditation/${page.slug}/`
+    path: `/meditation/${page.slug}/`,
+    lastmod: page.modifiedDate
   }));
   const entries = asSitemapEntries([
     ...staticPaths.map((entry) =>

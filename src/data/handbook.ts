@@ -649,7 +649,7 @@ export const handbookPages: HandbookPage[] = [
       {
         heading: "When a Layperson May Withdraw Support",
         paragraphs: [
-          "Aṅguttara Nikāya 8.88 lists eight grounds on which lay followers may declare no confidence in a monk: working for laypeople’s loss or harm, insulting them, dividing them from one another, disparaging the Buddha, Dhamma, or Saṅgha, and being seen in an improper place. The later commentary describes a bounded response: not rising, bowing, going out to meet him, or giving gifts.",
+          "Aṅguttara Nikāya 8.88 lists eight grounds on which lay followers may declare no confidence in a monk: working for laypeople’s loss or harm, insulting them, dividing them from one another, disparaging the Buddha, Dhamma, or Saṅgha, and being seen at an inappropriate place for collecting alms. The same discourse gives grounds for declaring confidence when the conditions are reversed. The later commentary describes withdrawal through withholding customary gestures of support, such as rising, bowing, going out to meet the monk, or offering gifts.",
           "The passage does not authorize harassment, threats, public humiliation, rumor campaigns, or violence. Nor does it remove the need to establish facts. Serious allegations may require safeguarding steps, senior monastic procedures, organizational reporting, or civil authorities, depending on the conduct.",
           "Withdrawal of support can be morally serious without becoming hatred. A layperson can protect people and institutions while refusing to pretend that robes make every action blameless."
         ]
@@ -812,7 +812,7 @@ export const handbookPages: HandbookPage[] = [
       {
         heading: "Ten Virtues in the Later Milindapañha",
         paragraphs: [
-          "The post-canonical Milindapañha offers a fuller portrait of a lay disciple. In its ten-part list, the lay follower shares the Saṅgha’s joys and sorrows, takes the Dhamma as guide, gives according to their ability, and works for the teaching’s flourishing when it declines. The list then adds right view and a steadiness that does not run after a new teacher for excitement.",
+          "The Milindapañha, a later Pāli work included in the Burmese Khuddaka Nikāya, offers a fuller portrait of a lay disciple. In its ten-part list, the lay follower shares the Saṅgha’s joys and sorrows, takes the Dhamma as guide, gives according to their ability, and works for the teaching’s flourishing when it declines. The list then adds right view and a steadiness that does not run after a new teacher for excitement.",
           "Its final qualities turn inward and relational: guarding thought and deed, delighting in peace, avoiding jealousy and religious quarrels, and taking refuge in the Buddha, Dhamma, and Saṅgha. These are later literary ideals, not a verbatim extension of AN 5.175. Naming the source layer lets the list speak in its own voice.",
           "Some older English translations use ‘Order’ and ‘religion’ where contemporary readers may prefer Saṅgha and Dhamma. The underlying portrait is active rather than tribal: care for a community, generosity within one’s means, self-guarding, peace, and responsible preservation."
         ]
@@ -826,7 +826,7 @@ export const handbookPages: HandbookPage[] = [
         ]
       }
     ],
-    sourceNote: "The five-part contrast comes from AN 5.175. The ten virtues come from the Milindapañha, a later, post-canonical Theravāda work whose canonical status varies by regional recension. The lists are therefore related here without being flattened into one early teaching.",
+    sourceNote: "The five-part contrast comes from AN 5.175. The ten virtues come from the Milindapañha, a later Pāli work whose canonical status varies by regional recension. The lists are therefore related here without being flattened into one early teaching.",
     sources: [
       { label: "A Lay Follower (AN 5.175) — SuttaCentral", href: "https://suttacentral.net/an5.175/en/sujato", sourceType: "Early Buddhist discourse", note: "Contrasts five degraded and five exemplary qualities, including confidence, ethics, deeds rather than omens, and giving priorities." },
       { label: "Qualities of a Lay Disciple (Mil 4.6) — SuttaCentral legacy edition", href: "https://www.dhammatalks.net/suttacentral/sc2016/sc/en/mil4.6.html", sourceType: "Traditional Theravāda manual", note: "Provides the later ten-part portrait of a lay disciple used in this chapter." },
