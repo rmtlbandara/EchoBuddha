@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "githubDeploymentId": 7686706882,
+  "githubRunId": 42847152198,
+  "initialFailedStatusId": 21869586318,
+  "sha": "4f9c691049ac3cad20c0cbc56d3df5d1110d6489",
+  "cloudflareDeploymentId": "d1a48ef3-f94e-46ac-bd1c-eb2253dd36c5",
+  "cloudflareVersionId": "61be5a18-59de-45f6-895c-825c0179ef3b",
+  "trafficPercent": 100,
+  "smoke": {
+    "total": 15,
+    "passed": 15,
+    "verifiedAt": "2026-11-10T16:14:40.690Z"
+  },
+  "acceptanceReport": "https://github.com/rmtlbandara/EchoBuddha/blob/732fe714304eb6fa12286589fed4225ac644b158/docs/deployments/2026-11-10-adsense-recovery.md"
+}
