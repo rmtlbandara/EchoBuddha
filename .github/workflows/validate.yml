@@ -60,7 +60,8 @@ jobs:
   browser-validation:
     name: Browser and consent validation
     needs: release-validation
-    runs-on: ubuntu-latest
+    # Keep the browser runtime on an explicit, supported hosted image.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       AUDIT_OUT_DIR: .artifacts/browser-validation
@@ -78,7 +79,11 @@ jobs:
         run: npm ci
 
       - name: Install isolated Chromium
-        run: npx playwright-core install --with-deps chromium
+        timeout-minutes: 5
+        # The hosted image includes browser runtime libraries. APT setup adds
+        # unnecessary mirror availability dependencies; actual browser gates
+        # below still fail if a required runtime library is missing.
+        run: npx playwright-core install chromium
 
       - name: Resolve Chromium path
         run: echo "CHROME_EXECUTABLE_PATH=$(node -e "import('playwright-core').then(({ chromium }) => console.log(chromium.executablePath()))")" >> "$GITHUB_ENV"
