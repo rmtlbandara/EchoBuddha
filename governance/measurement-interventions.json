@@ -1193,7 +1193,7 @@
       "indexStateChanges": 0,
       "ownerChanges": 0,
       "canonicalChanges": 0,
-      "scope": "One public contact address, differentiated reader tasks and source precision, truthful update metadata, repeated practice consolidation and clear resource navigation. Restore analytics consent on same-page reacceptance while initializing the script once and retaining denied advertising consent.",
+      "scope": "One public contact address, differentiated reader tasks and source precision, truthful update metadata, repeated practice consolidation and clear resource navigation. Restore analytics consent on same-page reacceptance while initializing the script once and retaining denied advertising consent. Replace one active hero with incomplete origin evidence using a project-authored SVG and reproducible AVIF derivative; retain its size and accurate alt.",
       "approvedApplicationFiles": {
         "src/data/buddhistQuestions.ts": "c928d06eafa606aa769ecf700391b236e437c4357bab466011d7b5efbb8219a4",
         "src/data/dailyReflections.ts": "a250993699a4de3df314fd3c9ea4ddac45875d5c3a81e5b1766a8510ebde76f8",
@@ -1212,7 +1212,10 @@
         "src/pages/privacy-policy.astro": "a0bf164c191e7f0b1e236183241f7c66f04618d48f142ddbc233462d6a79c973",
         "src/pages/sitemap.xml.ts": "08524e45d3bf0d5add06af4389f145dc6099e35b70c5b40c71d53bb3d93688a2",
         "src/pages/terms-of-use.astro": "d50c48d1741a510a7aefe846f1b8444302107a975390eb53b368068a9369444b",
-        "src/components/ConsentManager.astro": "99f880d8f1211ab679e974e871b4bc4d67f4699cebc560dc737987e61a95ceba"
+        "src/components/ConsentManager.astro": "99f880d8f1211ab679e974e871b4bc4d67f4699cebc560dc737987e61a95ceba",
+        "src/pages/index.astro": "33a0c37b45c5593ae12f3e451b112fa7ad913842edb45c90821eea3a64201c66",
+        "public/images/hero-buddha.avif": "612e8f9860ebd91f94c4b183c89e2ecc112d7690ceb8551f45cc4d988be3d071",
+        "public/images/hero-buddha-source.svg": "8f085c1224d8e8955a33c4813333de04d8cbdde6c722cd45502bd87c37786f07"
       },
       "supersedesFiles": [
         {
@@ -1269,6 +1272,11 @@
           "file": "src/components/ConsentManager.astro",
           "interventionId": "production-transformation-2026-10-23",
           "previousSha256": "021075bf600404a87e12d6344f6a92e88e45d981773702250a766310d20ad4e2"
+        },
+        {
+          "file": "src/pages/index.astro",
+          "interventionId": "adsense-review-2026-11-10",
+          "previousSha256": "4556e11dddad783332fffdada65a64833720b2d3a007bf7aaa042688bc6cfa78"
         }
       ],
       "measurementImpact": "After a verified governed release, append its actual production receipt. Restart stable descriptive observation on the next Pacific day. No causal search or approval guarantee."

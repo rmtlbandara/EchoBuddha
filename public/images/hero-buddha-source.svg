@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960" role="img" aria-labelledby="title desc">
+  <title id="title">A quiet place for Buddhist learning</title>
+  <desc id="desc">An original geometric illustration of a seated Buddha on a lotus, framed by an arch, Bodhi leaves and a still landscape.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbf5e8"/><stop offset="1" stop-color="#eee3cc"/></linearGradient>
+    <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b49b60"/><stop offset="1" stop-color="#826e45"/></linearGradient>
+    <linearGradient id="lotus" x2="0" y2="1"><stop stop-color="#dbbd7e"/><stop offset="1" stop-color="#a78b51"/></linearGradient>
+    <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#7e8969"/><stop offset="1" stop-color="#566b51"/></linearGradient>
+    <path id="bodhi" d="M0 0C-33-33-64-7-51 24C-40 49-11 58 0 86C11 58 40 49 51 24C64-7 33-33 0 0Z"/>
+  </defs>
+  <rect width="960" height="960" rx="48" fill="url(#paper)"/>
+  <path d="M170 684V367a310 310 0 0 1 620 0v317" fill="#f8f0df" stroke="#d9c8a6" stroke-width="2"/>
+  <path d="M200 682V368a280 280 0 0 1 560 0v314" fill="none" stroke="#e6d8ba" stroke-width="2"/>
+  <circle cx="480" cy="302" r="112" fill="#e7ce91" opacity=".7"/>
+  <circle cx="480" cy="302" r="96" fill="none" stroke="#f7edcf" stroke-width="2"/>
+  <path d="M70 635Q186 550 300 611T550 609T890 619V752H70Z" fill="#d4d5ba" opacity=".55"/>
+  <path d="M60 677Q230 607 365 664T640 643T900 678V790H60Z" fill="#aab79a" opacity=".38"/>
+  <path d="M180 741H780M220 758H740M270 775H690" fill="none" stroke="#98a48c" stroke-width="2" opacity=".35"/>
+  <g fill="none" stroke="#697955" stroke-width="4" stroke-linecap="round">
+    <path d="M834 90Q760 120 745 290Q739 350 777 397"/>
+    <path d="M798 136L846 172M758 206L700 218M746 286L804 310"/>
+  </g>
+  <g fill="url(#leaf)">
+    <use href="#bodhi" transform="translate(845 166) rotate(-30) scale(.66)"/>
+    <use href="#bodhi" transform="translate(701 213) rotate(35) scale(.77)"/>
+    <use href="#bodhi" transform="translate(805 304) rotate(-25) scale(.7)"/>
+    <use href="#bodhi" transform="translate(776 389) rotate(-18) scale(.5)"/>
+  </g>
+  <g fill="none" stroke="#c8d0a6" stroke-width="1.4" opacity=".8"><path d="M845 175L861 208M698 222L671 259M805 312L823 348"/></g>
+  <ellipse cx="480" cy="818" rx="251" ry="22" fill="#98866a" opacity=".12"/>
+  <g fill="#c8ad72">
+    <ellipse cx="480" cy="293" rx="48" ry="58"/>
+    <path d="M437 264Q431 227 454 219Q452 198 466 188Q479 177 490 190Q503 201 501 217Q531 227 525 263Q482 241 437 264Z" fill="#86734e"/>
+    <path d="M459 342V375H500V342Z"/>
+    <path d="M435 367Q411 370 398 409L373 514Q366 542 388 548Q407 552 417 525L439 456Z"/>
+    <path d="M518 368Q545 373 559 410L590 511Q600 537 578 546Q557 553 547 528L519 458Z"/>
+  </g>
+  <path d="M446 365Q473 383 508 364Q537 402 538 464L564 589H396L420 464Q424 397 446 365Z" fill="url(#robe)"/>
+  <path d="M500 372Q460 434 435 513M516 395Q476 470 454 558M531 445Q500 504 482 568" fill="none" stroke="#ead8a8" stroke-width="3" opacity=".55"/>
+  <path d="M414 549Q343 535 302 584Q283 607 312 632Q345 662 481 640Q614 665 649 633Q678 607 655 584Q611 536 548 549L486 586Z" fill="url(#robe)"/>
+  <path d="M323 604Q381 592 451 625M639 604Q580 591 514 624" fill="none" stroke="#e5d09d" stroke-width="3" opacity=".65"/>
+  <path d="M389 517Q409 539 461 549L486 559Q508 556 552 520" fill="none" stroke="#c8ad72" stroke-width="22" stroke-linecap="round"/>
+  <path d="M457 548Q480 538 507 549Q499 568 480 568Q463 568 457 548Z" fill="#d8bf86"/>
+  <g fill="none" stroke="#806b47" stroke-width="2.6" stroke-linecap="round"><path d="M452 294Q462 301 471 294M491 294Q502 301 511 294M480 305L476 319H482M467 332Q480 338 492 331"/></g>
+  <g fill="url(#lotus)" stroke="#b0965c" stroke-width="1.5">
+    <path d="M480 779Q416 728 480 646Q544 728 480 779Z"/>
+    <path d="M479 782Q386 775 371 674Q461 699 479 782Z"/>
+    <path d="M481 782Q574 775 589 674Q499 699 481 782Z"/>
+    <path d="M476 790Q361 805 310 710Q413 708 476 790Z"/>
+    <path d="M484 790Q599 805 650 710Q547 708 484 790Z"/>
+    <path d="M478 802Q351 840 259 758Q382 736 478 802Z"/>
+    <path d="M482 802Q609 840 701 758Q578 736 482 802Z"/>
+  </g>
+  <path d="M315 835Q480 855 645 835" fill="none" stroke="#b9a47a" stroke-width="2"/>
+  <g fill="#b7a77f" opacity=".25"><circle cx="148" cy="389" r="3"/><circle cx="183" cy="450" r="2"/><circle cx="792" cy="506" r="3"/><circle cx="755" cy="557" r="2"/></g>
+</svg>

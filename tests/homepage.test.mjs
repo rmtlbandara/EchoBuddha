@@ -129,6 +129,8 @@ test("homepage preserves the AdSense verification-only firewall and valid images
   assert.match(homepage, /<meta name="google-adsense-account" content="ca-pub-3911157640549350"/);
   assert.doesNotMatch(homepage, /pagead2\.googlesyndication|adsbygoogle|google_ad_client|class="[^"]*ad-slot/i);
   for (const [, src] of main.matchAll(/<img\b[^>]*src="([^"]+)"/g)) {
-    assert.ok(fs.existsSync(path.join(root, "public", src)), `${src} should exist`);
+    const url = new URL(src, "https://echobuddha.com");
+    assert.equal(url.origin, "https://echobuddha.com", `${src} should be local`);
+    assert.ok(fs.existsSync(path.join(root, "public", url.pathname)), `${src} should exist`);
   }
 });

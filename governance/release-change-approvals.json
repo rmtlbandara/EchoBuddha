@@ -178,6 +178,14 @@
       "date": "2026-11-11",
       "owner": "Project owner via adopted November 11 final-readiness brief.",
       "reason": "Correct independently reproduced same-page analytics reacceptance; retain affirmative consent gating, denied advertising consent, one script/config initialization and existing minimized fields."
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/index.astro",
+      "approved": true,
+      "date": "2026-11-11",
+      "owner": "Project owner via adopted November 11 final-readiness brief.",
+      "reason": "Replace homepage illustration with unconfirmed historical origin using project-authored geometry, preserving hero size, performance controls and accurate description."
     }
   ]
 }
