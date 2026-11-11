@@ -1,0 +1,452 @@
+{
+  "method": "All local generated-image PNGs compared by 64x36 RGB as candidate selection; best candidate reencoded with repository primary WebP pipeline for exact bytes. Pixel similarity alone does not establish provenance.",
+  "sourcePngs": 143,
+  "articlePrimaries": 49,
+  "results": [
+    {
+      "target": "public/images/articles/beginning-a-daily-mindfulness-practice.webp",
+      "sourceCandidate": "exec-e5124a7d-10cc-44e3-b8b9-dd4eb91ab1d6.png",
+      "meanPixelDifference": 2.7964409722222223,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "3394344022c4c2425243024cfc526fbd3849d2d01e7e08c9b2ebaec869ed2257",
+      "sourceSha256": "bffd27a3f24edd19a46aaab3b9ead2c9b77190c44de54db0cb158e42c796664a"
+    },
+    {
+      "target": "public/images/articles/buddhism-for-beginners-simple-guide.webp",
+      "sourceCandidate": "exec-1461b812-c815-4ab2-bc48-7444a7c4e477.png",
+      "meanPixelDifference": 3.607783564814815,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "fdc8b653a8ca21391afe8a6319b17f9c097ecb8f56b6cced6100272049597f50",
+      "sourceSha256": "8bead1bc676318867d8cc68cabb75cfeed253989c9882707634047b9adf91ca5"
+    },
+    {
+      "target": "public/images/articles/buddhist-approach-to-anger.webp",
+      "sourceCandidate": "exec-c4319e63-0030-4923-a271-8f38e9e931e8.png",
+      "meanPixelDifference": 1.8800636574074074,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "d923a648301de76a5a76faf76c115a1c0d44fd268993f2db9a6e987ddde28eb4",
+      "sourceSha256": "1a7e3b5f5169c510db413e19947bf12e1214e659733e68e3b7fa6f8388ec4c08"
+    },
+    {
+      "target": "public/images/articles/buddhist-gratitude-practice.webp",
+      "sourceCandidate": "exec-49a58cde-728d-4d95-8d14-f6cfc0dae595.png",
+      "meanPixelDifference": 1.7359664351851851,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "3c6dc35201dd97bd185715a4968b6175f66aba6ae07471d3bfbee12419e151fe",
+      "sourceSha256": "12d94f5b9c53b841d555571f30ab62ddc8b2c0def9aab48765a512fa7d551b22"
+    },
+    {
+      "target": "public/images/articles/buddhist-teachings-on-forgiveness.webp",
+      "sourceCandidate": "exec-bab1e2e9-9398-4d26-9022-96d04744e05e.png",
+      "meanPixelDifference": 2.005787037037037,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "25096c97e5cbeca701c2e2330244e6dbf6a2fff218a9af1ba7c4f344f39a53ee",
+      "sourceSha256": "1c60c89c53864dafaae064c35610c64bfdeb1e1db587ee3650d8f7e759429653"
+    },
+    {
+      "target": "public/images/articles/buddhist-teachings-on-impermanence.webp",
+      "sourceCandidate": "exec-c6b11393-f84d-422d-b9ec-408dfc67aab0.png",
+      "meanPixelDifference": 2.0169270833333335,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "50975c99d1a1e3a832dadf19871c9885aca8330766b3f3112b3083ca1c4f186c",
+      "sourceSha256": "1a520d8af8683217124eb9dbb2570b77df45bcf14fa8da350e5793e9c871dac4"
+    },
+    {
+      "target": "public/images/articles/buddhist-wisdom-for-overthinking.webp",
+      "sourceCandidate": "exec-2113ab82-fc4d-475f-abe3-3f6461fdddaa.png",
+      "meanPixelDifference": 3.0072337962962963,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "9737d5ee6b2022ce4266cd2ec3a9456e284ed2bb8f5a4d59402da6ccaf5a607b",
+      "sourceSha256": "3138df920d47700d0b46d16da34b49e8ddd53a9da9ba6fbea459140acd7251b9"
+    },
+    {
+      "target": "public/images/articles/compassion-as-a-daily-discipline.webp",
+      "sourceCandidate": "exec-acd2d43e-a16d-4e41-a79f-aa73f207c0db.png",
+      "meanPixelDifference": 2.8564814814814814,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "f276cec97c4b90cead63932172f9aa04c39c9af932ab9a1f289b265f319f22cd",
+      "sourceSha256": "d622c10d225ced51ed9fe216737431e415094e118c1cdc83ec4e95a4d5de51a1"
+    },
+    {
+      "target": "public/images/articles/compassion-in-buddhism-beginner-guide.webp",
+      "sourceCandidate": "exec-bc209582-73ac-4073-8f57-59b6cce7ba91.png",
+      "meanPixelDifference": 3.0423900462962963,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "af94d102ed1bc34eba94a322cdbda63f82d2923eca8da35884be4fb4f5a7fcdc",
+      "sourceSha256": "10bc3b720372fdd10406b3c03133fa94b3929074ef20d5a2d617d8da0f6b8056"
+    },
+    {
+      "target": "public/images/articles/compassion-with-boundaries.webp",
+      "sourceCandidate": "exec-708f0614-3afb-41cb-a449-a5a2ca3101f0.png",
+      "meanPixelDifference": 2.9678819444444446,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "f7142cc91a78dbf95340b4065faaa2bd7eee717e6cdeaf0396d60fca302ca1c4",
+      "sourceSha256": "74248d573b25a32d8a4b70543ea52803178176a91d54b1653979bc6ea85491ad"
+    },
+    {
+      "target": "public/images/articles/creating-a-peaceful-corner-at-home.webp",
+      "sourceCandidate": "exec-74d75378-635c-49c6-806a-c5a89a923ce8.png",
+      "meanPixelDifference": 3.599826388888889,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "affbc411f9f346b49bde92fb81d40ee8d9c71f1eaba8c901baa3ca8a5c521d95",
+      "sourceSha256": "2200bb6ccc0c35b1182a74f1a4be6b85a86b042f7edc7cdcb142f762ae122166"
+    },
+    {
+      "target": "public/images/articles/dhamma-vs-dharma.webp",
+      "sourceCandidate": "exec-001cf73b-a689-493a-aa0b-8d8c8d2df03b.png",
+      "meanPixelDifference": 2.1005497685185186,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "bf978bb1e250d58c12548be98ddfb306226131062d3fda83fcfb4f8e3f5b868f",
+      "sourceSha256": "4dfcc5ef6e8c9aba74b1d484a5b9a3afc6dd9c3da00db287569324edd5902ed3"
+    },
+    {
+      "target": "public/images/articles/dhammapada-reflection-trained-mind.webp",
+      "sourceCandidate": "exec-eaecc35b-0bd0-4dc6-9a3e-2bc323e10adf.png",
+      "meanPixelDifference": 3.6888020833333335,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "1a34d8c4c11d50e4dbd89662767849f3acb2c53ac7b35a4db11039163040fa0c",
+      "sourceSha256": "11620bad21cabf725276c31aadaa12abd2eb2d870ff3a94d35a2df31b77da02e"
+    },
+    {
+      "target": "public/images/articles/dhammapada-reflection-what-we-think.webp",
+      "sourceCandidate": "exec-0ef3a9ee-ec14-4c2b-917d-b5ab58116c45.png",
+      "meanPixelDifference": 2.435908564814815,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "f5ec037a0f0d1306a0d9043a2d436c7a2e5b841c7bd072cc75537d981a276d12",
+      "sourceSha256": "e9ef0a9015d10e9ca2a0ff5512fe2cc4f32d8915f06a9130330db30664399b8c"
+    },
+    {
+      "target": "public/images/articles/dhammapada-verse-1-meaning.webp",
+      "sourceCandidate": "exec-30655117-8b32-49ad-8d69-caa35617b138.png",
+      "meanPixelDifference": 2.271846064814815,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "4c077191e9bdd211b664dcc2977fa70e3b064c80ea717d9ad492cad4db57b15a",
+      "sourceSha256": "3eb41984c1f1421f894e7d9d53be1c3262a2448a592e9bd44d72ab8f83dab3c8"
+    },
+    {
+      "target": "public/images/articles/eightfold-path-explained-daily-life.webp",
+      "sourceCandidate": "exec-3387007f-8060-420f-afef-fe182a6dcc87.png",
+      "meanPixelDifference": 3.6027199074074074,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "3d21ce6374560aeb1f062e4b8946143ba1c5410aeaf1474a5a1bb3695205a78f",
+      "sourceSha256": "cebf958fd5cb32e58f8dacab4b859b80d103e1405da7c72fa59efce3a294beb2"
+    },
+    {
+      "target": "public/images/articles/eightfold-path-explained.webp",
+      "sourceCandidate": "exec-ecb031f8-6c0b-4169-af41-f65cae76a82a.png",
+      "meanPixelDifference": 2.646701388888889,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "a3fb368c6fde56fe808ecf3ed8781f04087cfc6976fbb810a48085e354452655",
+      "sourceSha256": "7d9c9b089786e793ced0a68f9701584fa2029c328ade37754127170c18d6ff02"
+    },
+    {
+      "target": "public/images/articles/equanimity-in-buddhism.webp",
+      "sourceCandidate": "exec-fb8a404a-ae2d-4e63-ad87-ffdace1f93a3.png",
+      "meanPixelDifference": 3.334346064814815,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "49b57258c97e92ef0c35133edeba43f7f72a03c197ffa5e2cec45808a5afbb04",
+      "sourceSha256": "e6ccf4922a0fc27928c4686ef53bf340afaaae2a0d6e3197ebbab9ac523f7296"
+    },
+    {
+      "target": "public/images/articles/first-week-buddhist-practice.webp",
+      "sourceCandidate": "exec-f136c02c-9350-442a-8a33-2c2da5d26d35.png",
+      "meanPixelDifference": 2.9088541666666665,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "479431a0324149347e38bfe7b589bf9038050cb091c5c68b30f3a34fc47edf3a",
+      "sourceSha256": "8a165a5f6b62be1419e3d3ca8e7d5198823f6626da95ef433f625a08e43e9449"
+    },
+    {
+      "target": "public/images/articles/five-precepts-in-daily-life.webp",
+      "sourceCandidate": "exec-084cd18f-25d1-4b2c-bac3-46d66d70c262.png",
+      "meanPixelDifference": 4.143229166666667,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "aa6e084944c70102905de7833bd67ff5169794a0d3781abded62fca4feda7341",
+      "sourceSha256": "790e69fe807393bf89b1c497194653ed8cb51181baad924619def9faf6972449"
+    },
+    {
+      "target": "public/images/articles/four-noble-truths-explained-simply.webp",
+      "sourceCandidate": "exec-d6334e18-c8d4-48ee-a46f-277a17bd110e.png",
+      "meanPixelDifference": 3.5109953703703702,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "bd3b403c7909812a2fc864744be867ffb68a972de77a9556d3827babfcb357e2",
+      "sourceSha256": "e833704852fc60b97438f88035d0f72fe1538e3331a9bb47811704a2f61373fe"
+    },
+    {
+      "target": "public/images/articles/four-noble-truths-explained.webp",
+      "sourceCandidate": "exec-18ddeae9-6687-4011-8f8e-e595f67cbf98.png",
+      "meanPixelDifference": 2.6827256944444446,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "97a324eac6807d129b8b10774225349328d4feb3c2c0692c2c2b8006a897aaac",
+      "sourceSha256": "e07e961ce1a0d47b0b5cda8df12179978dee660d779a2cdf0582994897c7ec78"
+    },
+    {
+      "target": "public/images/articles/how-to-let-go-of-attachment-in-buddhism.webp",
+      "sourceCandidate": "exec-5961efdd-cac9-4c26-904a-55bacaa730c4.png",
+      "meanPixelDifference": 3.1396122685185186,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "66775cb48b2e6634690ad5bb9c6967f34e666ff2e880a876a237956efade4200",
+      "sourceSha256": "131652acb7a3e44bafd7e1f0447ffcc8a30c2ce79a29bb79cef75b65a7403776"
+    },
+    {
+      "target": "public/images/articles/how-to-meditate-for-anxiety.webp",
+      "sourceCandidate": "exec-07f347e0-bd69-4803-84d2-094a3a7a1f51.png",
+      "meanPixelDifference": 3.2877604166666665,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "9beae2c8ab857c60f5da77c3d54839f14e4df8bcc18419556e88484147ad5268",
+      "sourceSha256": "b964c8e65d872e533c0d0e24dd9af1055dbf9d8905a958dff06f0c3a037c5ed8"
+    },
+    {
+      "target": "public/images/articles/how-to-meditate-for-beginners.webp",
+      "sourceCandidate": "exec-5893180d-3756-451c-88ca-b708ed14b5fd.png",
+      "meanPixelDifference": 3.8156828703703702,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "891a304539bb10187d203acf243cd2b66090388e9453936a0a7f57a9feab5ecf",
+      "sourceSha256": "c7996f12b4110b5b255a00bf762522b2a88b8ef05d87f7bd6772325c7240fd8b"
+    },
+    {
+      "target": "public/images/articles/how-to-practice-non-attachment.webp",
+      "sourceCandidate": "exec-43353d93-6007-4b06-8a7d-16d3ec522120.png",
+      "meanPixelDifference": 3.316550925925926,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "86e9261942f8ddc54de418577de8a1d47240f50c1bdcabd2e51231c4df22a146",
+      "sourceSha256": "12051863a99b11d0d108f4bd892d9c300f63a497b0bf74d1e72717f477c88a35"
+    },
+    {
+      "target": "public/images/articles/impermanence-in-buddhism-letting-go.webp",
+      "sourceCandidate": "exec-3aa9e898-67a7-45ef-8819-8e5203c6494b.png",
+      "meanPixelDifference": 3.072048611111111,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "1d417dbd6c27fe52c8b01c8c7ffda4177d608db93bde0b4039a33df560648945",
+      "sourceSha256": "18b95dc379a338038a72752ae2b4d741c132885e258e87190280d0548019c11c"
+    },
+    {
+      "target": "public/images/articles/impermanence-in-buddhism.webp",
+      "sourceCandidate": "exec-9b68d4cd-52c8-44d7-aea8-3b136236cdf1.png",
+      "meanPixelDifference": 2.802228009259259,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "b8dacbbbd8e675df58ebc29404be809334737a6250311fa186bdd4c8c51eb96a",
+      "sourceSha256": "bf52481d61338ed01179edb5375069d34bd0770ca8b313035d59aa1b5c0d9f7b"
+    },
+    {
+      "target": "public/images/articles/letting-go-without-giving-up.webp",
+      "sourceCandidate": "ig_0d9d029ae740b3cf016a3d530fbba88199b5af78ca27acc4b9.png",
+      "meanPixelDifference": 0.9861111111111112,
+      "exactReencodedBytesMatch": false,
+      "activeArticlePrimary": false,
+      "targetSha256": "f6cac89d35d22411e7372e761bc0acd5d96b44cce3f1595a2a7440f174a38d2a",
+      "sourceSha256": "80c5b454d78ce21112c444b9a4df0db0f7f391479ca57b740f7896acd5408305"
+    },
+    {
+      "target": "public/images/articles/loving-kindness-meditation-beginners.webp",
+      "sourceCandidate": "exec-d67c1ca6-8b15-424e-be2c-3574380d9b64.png",
+      "meanPixelDifference": 3.0849247685185186,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "a41ef31193f162efd7bbb8dc6d623f9de23ea5606209292afb2f0c9963429fc7",
+      "sourceSha256": "97e01751be4cf20c0b02fc1804a8713126302e956f5820381911b91a26f764ef"
+    },
+    {
+      "target": "public/images/articles/loving-kindness-meditation-guide.webp",
+      "sourceCandidate": "exec-58faf768-aedb-48b6-9792-d5805fc59867.png",
+      "meanPixelDifference": 2.4720775462962963,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "2bc03c68244361e66b6a130106bb57a52a13c92e8c871fadeb7b42599684831f",
+      "sourceSha256": "8c4a11cf335f984a07093e8e6f060925424b81224cf1d7196a91a23439fff294"
+    },
+    {
+      "target": "public/images/articles/metta-meditation-script.webp",
+      "sourceCandidate": "exec-aed2201e-1dcd-43df-a29a-7c2e1cb3dfc3.png",
+      "meanPixelDifference": 1.9933449074074074,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "68549c2b987c48dc465684223b07f687ff530231a745369ad745c9b7253f854e",
+      "sourceSha256": "9b849b57d1058503f685d1f597d79c37603fc980c7d5c08cffc26bc0e03cda6f"
+    },
+    {
+      "target": "public/images/articles/mindful-email-and-texting.webp",
+      "sourceCandidate": "exec-668a1f1f-10ad-4700-b65d-7bf9e2a37ec5.png",
+      "meanPixelDifference": 12.705150462962964,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "8e9a34911c1d937a40635471fa8f3b37570eba181487bff4900ffae9bd53f662",
+      "sourceSha256": "14a95a5d0586d203723a1b70d479eee964a95c7b40f329276dcfa8e62ff5a1bd"
+    },
+    {
+      "target": "public/images/articles/mindful-listening-in-everyday-life.webp",
+      "sourceCandidate": "exec-6f94bc02-7a6a-4b69-bddc-0e736f45c66f.png",
+      "meanPixelDifference": 2.389033564814815,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "da12072fda3b6e118c03219272657c26d680560f36ffc151725eb472cc5c15a7",
+      "sourceSha256": "3554a85068b4f08b5a01c6685b686f91a2a6b915943cf37bc8b7c05a8145b399"
+    },
+    {
+      "target": "public/images/articles/mindfulness-for-better-sleep.webp",
+      "sourceCandidate": "exec-a5b4ccf2-3d07-4f84-9a55-2f0c1ba613e9.png",
+      "meanPixelDifference": 2.256221064814815,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "c02a484087f8a9b00bbd6eccb8e60043e170ccf58372ce88331b7fcd6bfc801f",
+      "sourceSha256": "7c24e539392898f0f5e49a645c68eb6b11b2380d4e3b3b15a47f511174dcacb8"
+    },
+    {
+      "target": "public/images/articles/mindfulness-morning-routine.webp",
+      "sourceCandidate": "exec-aef458df-6f1a-4fd2-a822-6e97b3252c43.png",
+      "meanPixelDifference": 2.842303240740741,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "c25b50b0098508a24bbc882503d8a048e1ef8881c95a2415a1b8f3bcae8470b9",
+      "sourceSha256": "dcbfbf4ed4977b5c62830fa7886194c874b5accd50c651524d1f831878d5d9ed"
+    },
+    {
+      "target": "public/images/articles/mindfulness-of-breathing-guide.webp",
+      "sourceCandidate": "exec-06511f69-09cd-4687-b753-e31bd1fe2227.png",
+      "meanPixelDifference": 1.5802951388888888,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "38a0a9badb23e69283d431a6274f16dd7d3198efbcf351c94b90dee9aa745fc3",
+      "sourceSha256": "9fca7d959a9b34974a2e7e776be8fc561cceae47e3c6b938a7cdba8b49c3ff92"
+    },
+    {
+      "target": "public/images/articles/mindfulness-vs-meditation.webp",
+      "sourceCandidate": "exec-02d51ec3-e85d-4774-9ba7-4a61d6c653e5.png",
+      "meanPixelDifference": 3.5698784722222223,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "abd0c36e5f4bab361ebdc83c9fa0e7508aae764e8907e23569df91f7512abb9c",
+      "sourceSha256": "2a3b30c0da316dba7ac6d91c8e448f18cd2b6b0108f492362862796c597db12d"
+    },
+    {
+      "target": "public/images/articles/noble-eightfold-path-practical-guide.webp",
+      "sourceCandidate": "exec-e07e4ba5-a1e3-4439-bc5a-2f0c184f1e11.png",
+      "meanPixelDifference": 3.0473090277777777,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "c94417dbaccce59c65163fc0967beb02eb17f18524438d04f6fc33296c1ae886",
+      "sourceSha256": "6e31453a06e68eb7a8787f13138378747f495ac34b9b7f4a89bfe6ecf1895a9c"
+    },
+    {
+      "target": "public/images/articles/right-livelihood-modern-life.webp",
+      "sourceCandidate": "exec-0820ab62-9045-44c4-8020-fc385df51a83.png",
+      "meanPixelDifference": 3.1102430555555554,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "bf240d356e63415a0faac93a02b59191c0ac769cda3818b4e0b1cf1e454ad02e",
+      "sourceSha256": "e11e724a8f27fbc798e5c81179568b9a5336577b4d7e82cb87cd9fd18325bb52"
+    },
+    {
+      "target": "public/images/articles/right-speech-buddhism.webp",
+      "sourceCandidate": "exec-cd0dfa2f-cf38-4a3e-9479-6b605a0b392e.png",
+      "meanPixelDifference": 3.4442997685185186,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "29b9fae9663ba05c52a14c30c453fccfe1cfc218c6957449a82aad5881f021c4",
+      "sourceSha256": "2f77e4e09d62c0e3b9911be2a5d91af310cd278c3c9bc230ce4c08b98b68364f"
+    },
+    {
+      "target": "public/images/articles/right-speech-examples.webp",
+      "sourceCandidate": "exec-d527cc71-9b84-4059-81fe-4e302328b1d7.png",
+      "meanPixelDifference": 2.3560474537037037,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "baa51473d4d915a71ebb049d759534e1a035c8a36df630ffcc9a94833fa0899e",
+      "sourceSha256": "6594048267636f59f849e035cfad033e3bd3d97d6aee65506dacfa27bcef2610"
+    },
+    {
+      "target": "public/images/articles/three-poisons-buddhism-explained.webp",
+      "sourceCandidate": "exec-f0fe74b1-07fd-457a-bc11-44ffed76e813.png",
+      "meanPixelDifference": 3.5399305555555554,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "e7d07d266f17063956af43e5a8333fd7abc177aacb025af6963c4365085b70f6",
+      "sourceSha256": "266020802abe9c4bd2505586b06bebfa3fdd2d14db74e223908bf11ddddb3f83"
+    },
+    {
+      "target": "public/images/articles/three-ways-to-practice-patience.webp",
+      "sourceCandidate": "exec-8b28794b-6345-4839-afd1-88aa10001eaf.png",
+      "meanPixelDifference": 2.9777199074074074,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "a5cc413a94dd45d5c92c72106797f6d44fa3e989e8f9aa470266a9f4b673b4b5",
+      "sourceSha256": "ed2729d598538c765c30c5ff33a088aa25683ab840640379e94d77a89bd6fa7c"
+    },
+    {
+      "target": "public/images/articles/visiting-a-buddhist-temple-respectfully.webp",
+      "sourceCandidate": "exec-b64fcd3a-1057-4a8a-bd4f-17facd1a33a7.png",
+      "meanPixelDifference": 3.6177662037037037,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "1a4ae3ab1fb2a0e5fd53f5ba4dd98ac72e6d886b12fad4e87c0e6ccd7ad7f41c",
+      "sourceSha256": "251d9e40f28d3e5b8f3266c7a3cb0e13de2780bb3f3072ea7e0e88b8e8a29f39"
+    },
+    {
+      "target": "public/images/articles/walking-meditation-step-by-step.webp",
+      "sourceCandidate": "exec-d3171c95-738f-4be2-80e0-ac975fc4759b.png",
+      "meanPixelDifference": 2.540943287037037,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "296a3bc0b313f4507fcdfc071e2ce14bbb6fbcb20c5f5ab1eb97cca270a7e6a2",
+      "sourceSha256": "ac973929391c6f7b44bd0c0c8b577365f41c1dd2d261b39d1eb92de526906c3c"
+    },
+    {
+      "target": "public/images/articles/what-is-buddhism-beginner-guide.webp",
+      "sourceCandidate": "exec-a3a432c3-ffe2-4ffc-bab1-accfa7fd71d9.png",
+      "meanPixelDifference": 3.6802662037037037,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "ec8f12e267cd43ce13cd19a7beb48de6cdd1066a2f3b90f90a5fd322f4dd1656",
+      "sourceSha256": "24278c2a1d0e559b8fb647e05131168412cc8e29886b774dbe36827072b532ed"
+    },
+    {
+      "target": "public/images/articles/what-is-karma-in-buddhism.webp",
+      "sourceCandidate": "exec-94bf1813-9ec9-478f-b758-14d79e8e8c80.png",
+      "meanPixelDifference": 2.6909722222222223,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "ca0115e9e010065b88ed5d16145e1dd721cb6b618b29025a6925af03d9626772",
+      "sourceSha256": "2e9e6fb911562963a8d83ece25cd21b720a5c7634f8a2f6887de7578dc0d5cd4"
+    },
+    {
+      "target": "public/images/articles/what-is-sangha-buddhist-community.webp",
+      "sourceCandidate": "exec-3cea6e49-30de-4a85-a757-ff063437f355.png",
+      "meanPixelDifference": 3.2369791666666665,
+      "exactReencodedBytesMatch": true,
+      "activeArticlePrimary": true,
+      "targetSha256": "780ed6bf95d987f7e1ba926bf670a4fefb134b4b3f46a18fa354acd992ea3c72",
+      "sourceSha256": "59853d9a8bae52ffbf047f20298023d632a3048a724929aa20a1ff4bb501eee3"
+    }
+  ],
+  "checkedAt": "2026-11-11T03:03:32.218Z",
+  "activePrimaryCount": 48,
+  "activePrimaryExactMatches": 48,
+  "totalExactMatches": 48
+}

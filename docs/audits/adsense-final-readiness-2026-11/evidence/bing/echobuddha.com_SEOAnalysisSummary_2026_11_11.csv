@@ -1,0 +1,5 @@
+﻿"URL","Severity","Page count","Error count"
+"The <img> tag does not have an ALT attribute defined. ","Low severity","17","17"
+"Your site lacks inbound links from high-quality domains. ","Moderate severity","0","1"
+"Important pages using meta robots tag that need review. ","Moderate severity","1","1"
+"Title too long ","High severity","1","1"

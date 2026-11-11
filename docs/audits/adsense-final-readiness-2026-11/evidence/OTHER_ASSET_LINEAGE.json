@@ -1,0 +1,537 @@
+{
+  "checkedAt": "2026-11-11T09:17:36.172351+00:00",
+  "method": "Read-only in-memory reconstruction of repository encoders, built-reference scan, source hashes, and git history. This workstream modified no application art. Root separately replaced the candidate homepage hero, recorded under replacementHero.",
+  "brandMatches": [
+    {
+      "target": "public/images/publisher-logo.png",
+      "method": "sharp(svg).png(compressionLevel9)",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+      "reencodedSha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7"
+    },
+    {
+      "target": "public/favicon-16x16.png",
+      "method": "SVG resize16square PNG compression9",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "68127daaa073ac51765d3d3ec885e827543c6fd1a9b6af24b3c419cc543cb9bd",
+      "reencodedSha256": "68127daaa073ac51765d3d3ec885e827543c6fd1a9b6af24b3c419cc543cb9bd"
+    },
+    {
+      "target": "public/favicon-32x32.png",
+      "method": "SVG resize32square PNG compression9",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "f7cb12aa88161f51078f73961ae3870483d3b4393ea234af5f5c4aa1bc0e80eb",
+      "reencodedSha256": "f7cb12aa88161f51078f73961ae3870483d3b4393ea234af5f5c4aa1bc0e80eb"
+    },
+    {
+      "target": "public/favicon-48x48.png",
+      "method": "SVG resize48square PNG compression9",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "01adde449c85fa1fc984e6bd143005c25c6e981794ac8602df4d7c180cf13a8e",
+      "reencodedSha256": "01adde449c85fa1fc984e6bd143005c25c6e981794ac8602df4d7c180cf13a8e"
+    },
+    {
+      "target": "public/apple-touch-icon.png",
+      "method": "SVG resize180square PNG compression9",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "491dd9621e57171f547425bb5c5c8c403995f017569247700f4e3ec29547b1d9",
+      "reencodedSha256": "491dd9621e57171f547425bb5c5c8c403995f017569247700f4e3ec29547b1d9"
+    },
+    {
+      "target": "public/icon-192x192.png",
+      "method": "SVG resize192square PNG compression9",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "af19a9b6fea0a0f1fc1bcada095e7daf59c8b2e2e21b353aa66d2eddfec1ab26",
+      "reencodedSha256": "af19a9b6fea0a0f1fc1bcada095e7daf59c8b2e2e21b353aa66d2eddfec1ab26"
+    },
+    {
+      "target": "public/icon-512x512.png",
+      "method": "SVG resize512square PNG compression9",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+      "reencodedSha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7"
+    },
+    {
+      "target": "public/favicon.ico",
+      "method": "ICO PNG directory from16/32/48SVG-derivedPNG",
+      "source": "public/images/publisher-logo.svg",
+      "exactBytes": true,
+      "targetSha256": "3191925f3aed10d7ae5c0ac62af62b146b2c8d736b32cbc3ecad3722d88d6315",
+      "reencodedSha256": "3191925f3aed10d7ae5c0ac62af62b146b2c8d736b32cbc3ecad3722d88d6315"
+    },
+    {
+      "target": "public/og-default.png",
+      "method": "AuthoredSVG PNG compression9",
+      "source": "public/og-default.svg",
+      "exactBytes": true,
+      "targetSha256": "a1a39b66c0e487977fad30112caf5a52a0182f1ce02229000375d3b58d5019e5",
+      "reencodedSha256": "a1a39b66c0e487977fad30112caf5a52a0182f1ce02229000375d3b58d5019e5"
+    },
+    {
+      "target": "public/og-learn.png",
+      "method": "Authored sectionSVG PNG compression9",
+      "source": "scripts/generate-brand-images.mjs",
+      "exactBytes": true,
+      "targetSha256": "d025db1574d8ffa426a4cb7dc7f89df671fec331520cd4c7dba3ce46c989fc7f",
+      "reencodedSha256": "d025db1574d8ffa426a4cb7dc7f89df671fec331520cd4c7dba3ce46c989fc7f"
+    },
+    {
+      "target": "public/og-meditation.png",
+      "method": "Authored sectionSVG PNG compression9",
+      "source": "scripts/generate-brand-images.mjs",
+      "exactBytes": true,
+      "targetSha256": "9553765e24d5f020a7e8c944166d0b042f45998f4409e32c9408812d7eab06ed",
+      "reencodedSha256": "9553765e24d5f020a7e8c944166d0b042f45998f4409e32c9408812d7eab06ed"
+    },
+    {
+      "target": "public/og-handbook.png",
+      "method": "Authored sectionSVG PNG compression9",
+      "source": "scripts/generate-brand-images.mjs",
+      "exactBytes": true,
+      "targetSha256": "c452a12abe8074437ac4f742fcf6af8490c2793ccf14defffbdfc126e0a9a36e",
+      "reencodedSha256": "c452a12abe8074437ac4f742fcf6af8490c2793ccf14defffbdfc126e0a9a36e"
+    },
+    {
+      "target": "public/og-quotes.png",
+      "method": "Authored sectionSVG PNG compression9",
+      "source": "scripts/generate-brand-images.mjs",
+      "exactBytes": true,
+      "targetSha256": "0b5dc51a0ae3fecce01923be931b125c849cdc5bc511c9102c3189070a073f73",
+      "reencodedSha256": "0b5dc51a0ae3fecce01923be931b125c849cdc5bc511c9102c3189070a073f73"
+    }
+  ],
+  "generatedLegacyMatches": [
+    {
+      "target": "public/images/handbook/buddhist-handbook-journey.webp",
+      "source": "/Users/tharindu/.codex/generated_images/01a0d83e-0260-72c0-8133-d918a830d1bd/exec-74ef7a09-a435-4336-ba54-d20400dce08e.png",
+      "encoding": "sharp resize1600x900 cover WebP quality84",
+      "exactBytes": true,
+      "sourceSha256": "32a1341bcb2832348afb2d9e80f428d8f67db381359f023c451db6ea13681d1b",
+      "targetSha256": "4a710289669698162c892109fb33b85540899e64f5e4d4d562748fc639af3532"
+    },
+    {
+      "target": "public/images/handbook/buddhist-handbook-journey.avif",
+      "source": "/Users/tharindu/.codex/generated_images/01a0d83e-0260-72c0-8133-d918a830d1bd/exec-74ef7a09-a435-4336-ba54-d20400dce08e.png",
+      "encoding": "sharp resize1600x900 cover AVIF quality58",
+      "exactBytes": true,
+      "sourceSha256": "32a1341bcb2832348afb2d9e80f428d8f67db381359f023c451db6ea13681d1b",
+      "targetSha256": "c7386fdd08cbbb077bb9b8379f58d94fa4a24841ec31c8a06bec008ba3969028"
+    },
+    {
+      "target": "public/images/hero-mindful-lotus.webp",
+      "sourceCandidate": "/Users/tharindu/.codex/generated_images/019eeeb1-7d0e-7c82-8140-a17a28485476/ig_0bf3fe42ac4752e1016a3de592baa88191b0f2deed39ccd79e.png",
+      "exactBytes": false
+    }
+  ],
+  "assetInventory": [
+    {
+      "path": "public/favicon-16x16.png",
+      "url": "/favicon-16x16.png",
+      "sha256": "68127daaa073ac51765d3d3ec885e827543c6fd1a9b6af24b3c419cc543cb9bd",
+      "referencedByCurrentDist": true,
+      "referenceCount": 358,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/site.webmanifest",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/icon-192x192.png",
+      "url": "/icon-192x192.png",
+      "sha256": "af19a9b6fea0a0f1fc1bcada095e7daf59c8b2e2e21b353aa66d2eddfec1ab26",
+      "referencedByCurrentDist": true,
+      "referenceCount": 1,
+      "referenceExamples": [
+        "dist/site.webmanifest"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/og-handbook.png",
+      "url": "/og-handbook.png",
+      "sha256": "c452a12abe8074437ac4f742fcf6af8490c2793ccf14defffbdfc126e0a9a36e",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/og-default.svg",
+      "url": "/og-default.svg",
+      "sha256": "2431179fcf0009f8354b161852d0898f9483eedb7d406ef6c39142f9ab6c8da7",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d3e35bd0b086ab34fbd313ddb8a5dba8018db335 2026-06-24T13:51:49+05:30 Initial commit"
+      ],
+      "sourceInput": true
+    },
+    {
+      "path": "public/favicon.ico",
+      "url": "/favicon.ico",
+      "sha256": "3191925f3aed10d7ae5c0ac62af62b146b2c8d736b32cbc3ecad3722d88d6315",
+      "referencedByCurrentDist": true,
+      "referenceCount": 357,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html",
+        "dist/terms-of-use/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/og-learn.png",
+      "url": "/og-learn.png",
+      "sha256": "d025db1574d8ffa426a4cb7dc7f89df671fec331520cd4c7dba3ce46c989fc7f",
+      "referencedByCurrentDist": true,
+      "referenceCount": 65,
+      "referenceExamples": [
+        "dist/learn/index.html",
+        "dist/learn/four-noble-truths/index.html",
+        "dist/learn/buddhism-for-beginners/index.html",
+        "dist/learn/buddhist-dictionary/index.html",
+        "dist/learn/eightfold-path/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "url": "/apple-touch-icon.png",
+      "sha256": "491dd9621e57171f547425bb5c5c8c403995f017569247700f4e3ec29547b1d9",
+      "referencedByCurrentDist": true,
+      "referenceCount": 358,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/site.webmanifest",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/og-default.png",
+      "url": "/og-default.png",
+      "sha256": "a1a39b66c0e487977fad30112caf5a52a0182f1ce02229000375d3b58d5019e5",
+      "referencedByCurrentDist": true,
+      "referenceCount": 55,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/terms-of-use/index.html",
+        "dist/contact/index.html",
+        "dist/tools/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/favicon-48x48.png",
+      "url": "/favicon-48x48.png",
+      "sha256": "01adde449c85fa1fc984e6bd143005c25c6e981794ac8602df4d7c180cf13a8e",
+      "referencedByCurrentDist": true,
+      "referenceCount": 358,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/site.webmanifest",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/og-quotes.png",
+      "url": "/og-quotes.png",
+      "sha256": "0b5dc51a0ae3fecce01923be931b125c849cdc5bc511c9102c3189070a073f73",
+      "referencedByCurrentDist": true,
+      "referenceCount": 164,
+      "referenceExamples": [
+        "dist/quotes/index.html",
+        "dist/quotes/meditation/index.html",
+        "dist/quotes/letting-go/index.html",
+        "dist/quotes/patience/index.html",
+        "dist/quotes/awareness/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/icon-512x512.png",
+      "url": "/icon-512x512.png",
+      "sha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+      "referencedByCurrentDist": true,
+      "referenceCount": 1,
+      "referenceExamples": [
+        "dist/site.webmanifest"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "url": "/favicon-32x32.png",
+      "sha256": "f7cb12aa88161f51078f73961ae3870483d3b4393ea234af5f5c4aa1bc0e80eb",
+      "referencedByCurrentDist": true,
+      "referenceCount": 358,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/site.webmanifest",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/og-meditation.png",
+      "url": "/og-meditation.png",
+      "sha256": "9553765e24d5f020a7e8c944166d0b042f45998f4409e32c9408812d7eab06ed",
+      "referencedByCurrentDist": true,
+      "referenceCount": 12,
+      "referenceExamples": [
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html",
+        "dist/meditation-guide/index.html",
+        "dist/meditation/loving-kindness-meditation/index.html",
+        "dist/meditation/meditation-posture-for-beginners/index.html"
+      ],
+      "history": [
+        "edfe72dd8fbb313f6267d1da9580be3b3e5eb671 2026-11-03T19:52:02+05:30 fix(brand): use the official circular wordmark throughout the website (#84)",
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/images/publisher-logo.png",
+      "url": "/images/publisher-logo.png",
+      "sha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7",
+      "referencedByCurrentDist": true,
+      "referenceCount": 357,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html",
+        "dist/terms-of-use/index.html"
+      ],
+      "history": [
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/images/hero-mindful-lotus.webp",
+      "url": "/images/hero-mindful-lotus.webp",
+      "sha256": "6be4589ad8f6c18a2c5518e4c081eecabcfdc652b066e8a9d4f0ffaa5c5b772f",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [
+        "0d2a85644e5a650bfde5218fb64cc5a141499d48 2026-06-26T08:13:10+05:30 Update homepage hero art and section order"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/images/hero-buddha.avif",
+      "url": "/images/hero-buddha.avif",
+      "sha256": "612e8f9860ebd91f94c4b183c89e2ecc112d7690ceb8551f45cc4d988be3d071",
+      "referencedByCurrentDist": true,
+      "referenceCount": 1,
+      "referenceExamples": [
+        "dist/index.html"
+      ],
+      "history": [
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false,
+      "lineage": "replacementHero"
+    },
+    {
+      "path": "public/images/publisher-logo.svg",
+      "url": "/images/publisher-logo.svg",
+      "sha256": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd",
+      "referencedByCurrentDist": true,
+      "referenceCount": 357,
+      "referenceExamples": [
+        "dist/index.html",
+        "dist/404.html",
+        "dist/meditation-safety/index.html",
+        "dist/meditation/index.html",
+        "dist/terms-of-use/index.html"
+      ],
+      "history": [
+        "d6a5544d62f054c3d99732440fdda0ed74faf3ce 2026-10-23T16:56:07+05:30 Improve source-grounded guides, share metadata and measurement privacy (#59)"
+      ],
+      "sourceInput": true
+    },
+    {
+      "path": "public/images/hero-buddha-source.svg",
+      "url": "/images/hero-buddha-source.svg",
+      "sha256": "8f085c1224d8e8955a33c4813333de04d8cbdde6c722cd45502bd87c37786f07",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [],
+      "sourceInput": true,
+      "sourceScript": "scripts/generate-homepage-hero.mjs"
+    },
+    {
+      "path": "public/images/buddha-brand-icon.png",
+      "url": "/images/buddha-brand-icon.png",
+      "sha256": "7b11e8dce0e6320880825dbc0082b32a29868d95d8e16ab3e2c6f06d437fec62",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [
+        "86498896bd375fbbde2bba77a6a8a88b8f327aff 2026-06-28T12:21:51+05:30 Update Echo Buddha branding images"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/images/handbook/buddhist-handbook-journey.webp",
+      "url": "/images/handbook/buddhist-handbook-journey.webp",
+      "sha256": "4a710289669698162c892109fb33b85540899e64f5e4d4d562748fc639af3532",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [
+        "b1cbaf3942c2146865ae37b119e76a1c0c0b9e9c 2026-09-25T17:06:47+05:30 feat(handbook): add Buddhist life and practice guide"
+      ],
+      "sourceInput": false
+    },
+    {
+      "path": "public/images/handbook/buddhist-handbook-journey.avif",
+      "url": "/images/handbook/buddhist-handbook-journey.avif",
+      "sha256": "c7386fdd08cbbb077bb9b8379f58d94fa4a24841ec31c8a06bec008ba3969028",
+      "referencedByCurrentDist": false,
+      "referenceCount": 0,
+      "referenceExamples": [],
+      "history": [
+        "b1cbaf3942c2146865ae37b119e76a1c0c0b9e9c 2026-09-25T17:06:47+05:30 feat(handbook): add Buddhist life and practice guide"
+      ],
+      "sourceInput": false
+    }
+  ],
+  "scope": "Original18 non-article/non-Handbook assets plus2 older Handbookjourney files, followed by1 new authored homepage SVG source.21current files.",
+  "referenceMethod": "Literal paths in built HTML,CSS,JS,manifest,JSON,XML plus root-filename references. Reference counts are documents,not occurrences. Served files without references are retained unused assets,not user-facing candidate placements.",
+  "originalHero": {
+    "path": "public/images/hero-buddha.avif",
+    "baselineSha256": "a506b7d613708d17436759637b327ce65e6a0fffcad62d8f9e2af7c678784a2d",
+    "status": "Original origin remained unconfirmed after bounded checks. Superseded in candidate by directly authored SVG and exact reproducible AVIF encoding. Original remains in Git history.",
+    "dimensions": [
+      960,
+      960
+    ],
+    "onlySourceReference": "src/pages/index.astro near124",
+    "recommendedDocumentedMaster": "/Users/tharindu/.codex/generated_images/01a0d83e-0260-72c0-8133-d918a830d1bd/exec-e4315af6-ccc4-4f24-bf3c-563d21e62cca.png",
+    "downloadCopies": [
+      {
+        "path": "/Users/tharindu/Downloads/hero-buddha (1).avif",
+        "sha256": "a506b7d613708d17436759637b327ce65e6a0fffcad62d8f9e2af7c678784a2d",
+        "matchesOriginalProductionBytes": true
+      },
+      {
+        "path": "/Users/tharindu/Downloads/hero-buddha.avif",
+        "sha256": "a506b7d613708d17436759637b327ce65e6a0fffcad62d8f9e2af7c678784a2d",
+        "matchesOriginalProductionBytes": true
+      },
+      {
+        "path": "/Users/tharindu/Downloads/hero-buddha-4.avif",
+        "sha256": "a506b7d613708d17436759637b327ce65e6a0fffcad62d8f9e2af7c678784a2d",
+        "matchesOriginalProductionBytes": true
+      },
+      {
+        "path": "/Users/tharindu/Downloads/hero-buddha-3.avif",
+        "sha256": "a506b7d613708d17436759637b327ce65e6a0fffcad62d8f9e2af7c678784a2d",
+        "matchesOriginalProductionBytes": true
+      },
+      {
+        "path": "/Users/tharindu/Downloads/hero-buddha-2.avif",
+        "sha256": "a506b7d613708d17436759637b327ce65e6a0fffcad62d8f9e2af7c678784a2d",
+        "matchesOriginalProductionBytes": true
+      }
+    ]
+  },
+  "replacementHero": {
+    "path": "public/images/hero-buddha.avif",
+    "source": "public/images/hero-buddha-source.svg",
+    "script": "scripts/generate-homepage-hero.mjs",
+    "pipeline": "sharp(source).resize(960,960).avif({quality:55,effort:6})",
+    "exactBytesIndependentlyVerified": true,
+    "targetSha256": "612e8f9860ebd91f94c4b183c89e2ecc112d7690ceb8551f45cc4d988be3d071",
+    "sourceSha256": "8f085c1224d8e8955a33c4813333de04d8cbdde6c722cd45502bd87c37786f07",
+    "sourceInspection": "Local geometric shapes, gradients and internal path/use references. No external image, font URL or imported artwork.",
+    "visualInspection": "Decoded960squareAVIF viewed. Seated Buddha, lotus, Bodhi leaves, arch and landscape visible. Desktop/mobile webpage layout remains root browser QA.",
+    "publicationStatus": "Candidate only, commit/deployment pending"
+  },
+  "summary": {
+    "originalScopeFiles": 20,
+    "currentFilesIncludingNewSvg": 21,
+    "referencedInBuiltDocuments": 14,
+    "authoredRasterExactMatches": 13,
+    "legacyHandbookExactMatches": 2,
+    "newHeroExactMatch": true,
+    "remainingUnconfirmedActiveOrigin": 0,
+    "retainedUnusedUnconfirmedArt": [
+      "public/images/hero-mindful-lotus.webp",
+      "public/images/buddha-brand-icon.png"
+    ],
+    "legalClearanceGuaranteed": false
+  }
+}
