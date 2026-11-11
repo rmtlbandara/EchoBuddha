@@ -7,8 +7,7 @@ export const SITE = {
   title: "Echo Buddha - Buddhist Wisdom for a Calmer Everyday Life",
   description: "Echo Buddha is a calm space for Buddhist wisdom, meditation, daily reflections, quote meanings, and mindful living practices for everyday life.",
   author: "Echo Buddha Editorial",
-  editorialEmail: "info@echobuddha.com",
-  supportEmail: "support@echobuddha.com",
+  contactEmail: "info@echobuddha.com",
   locale: "en_US"
 };
 
@@ -1146,7 +1145,7 @@ export const quotes: Quote[] = [
         {
           "heading": "A Simple Practice",
           "paragraphs": [
-            "Before a sensitive conversation, write four words: true, kind, useful, timely. Check your main sentence against each one. If one is missing, wait or revise."
+            "Before a sensitive conversation, use this modern reminder: true, kind, useful, timely. It is an editorial aid, not a verbatim canonical list. The traditional four abstentions are false, divisive, harsh, and idle speech; the linked Right Speech article explains those source distinctions. Check your main sentence and pause or revise when the facts, benefit, or timing are unclear."
           ]
         }
       ],
@@ -1537,13 +1536,13 @@ export const quotes: Quote[] = [
         {
           "heading": "The Story Behind This Quote",
           "paragraphs": [
-            "Nimal first encountered the Eightfold Path as a list in a book. Right view, intention, speech, action, livelihood, effort, mindfulness, concentration: it felt important but far away. Then one difficult day gave him all eight in small form. He noticed his assumptions, chose not to exaggerate, spoke carefully, completed work responsibly, protected a helpful habit, returned to the breath, and stayed with one task. Nothing looked spiritual from the outside. Yet the path had quietly entered the day."
+            "Nimal first encountered the Eightfold Path as a list in a book. Right view, intention, speech, action, livelihood, effort, mindfulness, concentration: it felt important but far away. Then one difficult day showed him how several factors could guide ordinary choices. He noticed his assumptions, chose not to exaggerate, spoke carefully, completed work responsibly, protected a helpful habit, returned to the breath, and stayed with one task. These were modest applications of ethical and attentive training. Staying with a task was not the full meaning of right concentration: SN 45.8 describes that factor through the four jhānas."
           ]
         },
         {
           "heading": "How This Applies in Daily Life",
           "paragraphs": [
-            "The Noble Eightfold Path can be understood as a living framework for reducing suffering. Each factor supports the others, and each can appear in simple moments: how we answer, spend, work, listen, practice, and begin again. This is why <a href=\"/articles/eightfold-path-explained/\">the Noble Eightfold Path explained for beginners</a> and <a href=\"/articles/eightfold-path-explained-daily-life/\">the Eightfold Path in daily life</a> are useful companions. The path is not distant from daily life. It is daily life practiced with care."
+            "The Noble Eightfold Path can be understood as a living framework for reducing suffering. Each factor supports the others, and each can appear in simple moments: how we answer, spend, work, listen, practice, and begin again. This is why <a href=\"/articles/eightfold-path-explained/\">the Noble Eightfold Path explained for beginners</a> and <a href=\"/articles/eightfold-path-explained-daily-life/\">the Eightfold Path in daily life</a> are useful companions. These daily examples can support the path without exhausting its meaning. For the source definitions, including the four-jhāna account of right concentration, use the <a href=\"/learn/eightfold-path/\">Noble Eightfold Path guide</a>."
           ]
         },
         {
@@ -3429,9 +3428,10 @@ export const articles: Article[] = [
         ]
       },
       {
-        heading: "Related Terms and Reflection",
+        heading: "How This Beginner Method Relates to MN 118",
         paragraphs: [
-          "Related terms include mindfulness, concentration, anapanasati, calm, insight, body awareness, and present-moment attention.",
+          "The chosen breath location, optional one-to-ten count, and ten-breath exercise are contemporary beginner supports used on this page. They are not a translation of all the instructions in <a href=\"https://www.dhammatalks.org/suttas/MN/MN118.html\">MN 118, translated by Ṭhānissaro Bhikkhu</a>. The shorter <a href=\"/meditation/breathing-meditation/\">breathing meditation practice</a> offers a compact session; this article explains the choices behind it.",
+          "MN 118 presents sixteen instructions, commonly read in four groups: body, feelings, mind, and mental qualities. They extend beyond choosing a sensation and returning: the discourse includes calming bodily fabrication, knowing and settling the mind, and contemplating impermanence, fading, cessation, and relinquishment. It also connects breath practice with the establishments of mindfulness and factors of awakening. A short anchor exercise is an entry point, not evidence that the whole training has been completed.",
           "Original reflection: The breath asks very little from us. It simply invites us to return to the life already happening, one quiet moment at a time."
         ]
       }
@@ -5034,7 +5034,7 @@ export const articles: Article[] = [
       {
         heading: "The Four Filters of Right Speech",
         paragraphs: [
-          "The visual below is a practical decision guide. Before speaking, ask four quiet questions: Is it true? Is it kind? Is it useful? Is it the right time? Not every sentence will pass every filter perfectly, but the questions slow down the habit of speaking from irritation alone.",
+          "The visual below is a practical decision guide. Before speaking, ask four quiet questions: Is it true? Is it kind? Is it useful? Is it the right time? If you are unsure whether a claim is true or speaking would be beneficial, pause to check rather than treating the filters as points that can compensate for one another. Kindness concerns the intention and manner of speaking; a necessary truth may still be unwelcome.",
           "The filters are especially helpful when emotion is strong. If a sentence is true but meant to wound, it may need a different tone. If it is kind but not honest, it may create confusion later. If it is useful but badly timed, silence may serve better for now."
         ],
         visual: articleVisuals.rightSpeech
@@ -5563,6 +5563,8 @@ export const articles: Article[] = [
         heading: "Right Livelihood in the Eightfold Path",
         paragraphs: [
           "In <a href=\"https://www.dhammatalks.org/suttas/SN/SN45_8.html\">SN 45.8, the Magga-Vibhanga Sutta</a>, Thanissaro Bhikkhu's translation lists Right Livelihood as one factor of the Noble Eightfold Path and defines it in contrast with dishonest livelihood. The same path includes Right Speech and Right Action, which matters because work is full of speech and action.",
+          "A more specific lay standard appears in <a href=\"https://www.dhammatalks.org/suttas/AN/AN5_177.html\">AN 5.177, translated by Ṭhānissaro Bhikkhu</a>: a lay follower should not engage in business in weapons, living beings, meat, intoxicants, or poison. This is an explicit warning about kinds of business, not only the private intention of the person earning money.",
+          "Applying that standard to indirect roles, complex supply chains, and constrained employment requires careful contextual judgment. The gradual changes discussed below are practical responses to those conditions; they do not replace the source standard or make any business harmless merely because a worker means well.",
           "Right Livelihood should not be isolated from intention. A job title alone may not reveal everything. What does the work produce? How are customers treated? What speech is required? Who carries the risk? What happens when a problem is discovered? The broader <a href=\"/articles/eightfold-path-explained/\">Eightfold Path</a> gives Right Livelihood its ethical context.",
           "Because it is part of a path, Right Livelihood is not solved by branding oneself ethical. It asks for ongoing examination. A business may begin with a useful purpose and drift toward manipulation. A worker may begin with little influence and later gain authority. A job that once reduced harm may change after new leadership."
         ]
@@ -7377,6 +7379,239 @@ function applyWeek3ArticleExpansion(article: Article): Article {
 type Phase1IntentRemediation = Pick<Article, "title" | "seoTitle" | "description" | "relatedSlugs" | "content">;
 
 const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
+  "walking-meditation-step-by-step": {
+    "title": "Walking Meditation: Turning, Interruptions and a Workable Pace",
+    "seoTitle": "Walking Meditation: Turns, Interruptions and Troubleshooting",
+    "description": "Work through a hallway interruption, deliberate turning, wandering attention, and a pace that stays balanced without forcing slow movement.",
+    "relatedSlugs": [
+      "mindfulness-of-breathing-guide",
+      "beginning-a-daily-mindfulness-practice",
+      "how-to-meditate-for-beginners"
+    ],
+    "content": [
+      {
+        "paragraphs": [
+          "You reach the end of a walking path just as someone enters the hallway carrying laundry. Attention has been with your feet; now it needs to include another person and the space you share. A useful walking practice lets that change matter.",
+          "For a compact starting method, use <a href=\"/meditation/walking-meditation/\">Walking Meditation</a>. This article works through turns, interruptions, and adjustments rather than repeating the full route-and-anchor instructions."
+        ]
+      },
+      {
+        "heading": "A Worked Interruption: Let the Path Become Ordinary Again",
+        "paragraphs": [
+          "In the hallway example, stop the exercise while leaving room for the other person to pass. Look where you are going and move normally if you need to make space. Keeping an internal label or completing a counted step is less important than responding to the actual surroundings.",
+          "When the route is clear, pause in a stable position and notice that you are standing. Decide whether to continue, choose a clearer time, or finish. If you continue, begin with the next step. You do not need to recreate the interrupted stretch or recover a special state of attention."
+        ]
+      },
+      {
+        "heading": "Treat the Turn as a Transition",
+        "paragraphs": [
+          "At the end of a clear path, let walking stop before changing direction. Notice standing, look at the space needed for the turn, and turn at a normal pace that is stable for you. Pause only if useful, then begin the return walk.",
+          "A common difficulty is mentally starting the next stretch before the body has finished turning. If you notice that hurry, let it be the cue to attend to the transition. There is no required number of turning steps. Deliberateness should make movement easier to know, not force an awkward maneuver."
+        ]
+      },
+      {
+        "heading": "When Slower Walking Becomes Less Stable",
+        "paragraphs": [
+          "If an exaggerated slow pace makes you wobble or tense the legs, return to ordinary walking or stop the exercise. You can notice contact and movement without dividing every step into many tiny parts. Optional labels such as lifting or placing are aids; drop them if they interfere with seeing the route or moving naturally.",
+          "Use a clear level space and supports appropriate to your usual movement. Do not test balance for the sake of meditation. If pain, dizziness, breathlessness, or instability appears, stop and settle safely rather than continuing the drill. Choose a seated point of attention when walking is unsuitable; seek qualified guidance about persistent or concerning symptoms."
+        ]
+      },
+      {
+        "heading": "When Attention Is Restless or Too Narrow",
+        "paragraphs": [
+          "If you keep planning, recognize one instance and return to the next contact of a foot with the ground. Do not spend the whole return stretch judging the previous one. If labels add more mental chatter, use the simpler sense of walking.",
+          "If attention becomes so narrow that you forget sounds or people nearby, widen it. In a public space, keep an ordinary pace and give navigation priority. A household route that is repeatedly interrupted may be the wrong setting today, rather than evidence that you need stronger concentration."
+        ]
+      },
+      {
+        "heading": "Review One Adjustment",
+        "paragraphs": [
+          "After a short attempt, choose one observation: the turn felt rushed, the pace was strained, a label helped, or the route needed too much vigilance. Change one condition next time. You are learning what supports a workable practice, not collecting flawless lengths of the path.",
+          "If you want to alternate walking and sitting, end one method clearly before beginning the other. There is no requirement to add time because a session was interrupted."
+        ]
+      },
+      {
+        "heading": "Traditional Context and Modern Instruction",
+        "paragraphs": [
+          "<a href=\"https://www.dhammatalks.org/suttas/MN/MN10.html\">MN 10, translated by Ṭhānissaro Bhikkhu</a>, includes knowing the walking posture and clear awareness while going and returning. The hallway case, turning suggestions, optional labels, and review above are contemporary editorial applications, not a sequence prescribed word for word by that discourse.",
+          "Keep your eyes open and your surroundings in view. Meditation does not require walking through discomfort or overriding a need to stop. The <a href=\"/meditation-safety/\">Meditation Safety</a> page sets out the site’s broader educational boundaries."
+        ]
+      }
+    ]
+  },
+  "beginning-a-daily-mindfulness-practice": {
+    "title": "Beginning a Daily Mindfulness Practice",
+    "seoTitle": "Build a Daily Mindfulness Habit: Cues and Restarting",
+    "description": "Choose a daily mindfulness cue, notice why it gets missed, and revise a small habit without measuring yourself by calm or perfect consistency.",
+    "relatedSlugs": [
+      "how-to-meditate-for-beginners",
+      "mindfulness-morning-routine",
+      "mindfulness-vs-meditation"
+    ],
+    "content": [
+      {
+        "paragraphs": [
+          "You planned to be mindful, but the day passed before you remembered. That is a different problem from knowing how to practice. This article helps you design the reminder, response, and restart that make a small practice easier to find in a real day.",
+          "For a worked ordinary-activity method, use <a href=\"/meditation/mindfulness-in-daily-life/\">Mindfulness in Daily Life</a>. For a week of formal seated sessions, use <a href=\"/articles/how-to-meditate-for-beginners/\">Your First Seven Days of Meditation</a>. Here the experiment is one repeatable cue, not another sitting timetable."
+        ]
+      },
+      {
+        "heading": "Choose a Cue You Can Recognize",
+        "paragraphs": [
+          "“Be mindful more often” has no clear beginning. Choose an event you can recognize: putting keys on their hook, setting lunch on the table, or closing a notebook. Write an observable response beside it: feel contact at the hands or feet, notice where attention has gone, and return to the action once.",
+          "For example: “When I put my keys on the hook, I will feel my feet and notice whether I am still rehearsing work.” The response need not produce calm. It only has to be specific enough that you know whether you tried it."
+        ]
+      },
+      {
+        "heading": "Separate Remembering From Practicing",
+        "paragraphs": [
+          "There are two questions to review. Did the cue catch your attention? If it did, was the response workable? A missed reminder does not tell you whether the method helped; it tells you that the reminder needs attention.",
+          "Suppose you placed your keys down while carrying shopping and helping a child. You only remembered the experiment later. Do not repeat the arrival to make the record look complete. Choose a less crowded event, such as putting the empty shopping bag away, or keep the same cue and make the response just one moment of contact."
+        ]
+      },
+      {
+        "heading": "Keep a Small Cue Record",
+        "paragraphs": [
+          "For three ordinary days, write four short items: cue; noticed or missed; response attempted; obstacle. An entry might read: “Keys on hook; missed; remembered later; both hands full.” Another might read: “Empty bag folded; noticed; felt feet once; no difficulty.” This is a record of conditions, not a streak or a measure of spiritual progress.",
+          "If the cue is noticed but the exercise feels intrusive, reduce the response or choose another activity. If you remember only afterward, revise the cue. Change one thing at a time so you can tell what made the next attempt easier."
+        ]
+      },
+      {
+        "heading": "Plan the Restart Before You Need It",
+        "paragraphs": [
+          "Decide what happens after a missed cue: return at the next normal occurrence, without making up extra practice. Illness, shift work, travel, disability, and care duties may require a different cue for a different kind of day. A habit can be adaptable without becoming vague.",
+          "Keep a minimum version available: notice one contact sensation and resume what you were doing. Increase duration only if it serves the practice. A longer pause that disrupts necessary work is not automatically a better habit."
+        ]
+      },
+      {
+        "heading": "Notice What the Habit Changes",
+        "paragraphs": [
+          "After a few attempts, look for one observable consequence. Did noticing the work rehearsal help you hear the person at home? Did the pause reveal that you needed food or rest before answering a message? It is also useful to discover that a cue changes nothing yet. Do not invent a benefit to justify the record.",
+          "The purpose is remembering that supports clearer action. Calm is neither required nor sufficient evidence of that. For the distinction between a quality of awareness and a formal session, read <a href=\"/articles/mindfulness-vs-meditation/\">Mindfulness vs Meditation</a>."
+        ]
+      },
+      {
+        "heading": "Keep the Experiment Optional and Safe",
+        "paragraphs": [
+          "Use an ordinary activity that can accommodate this attention. When driving, handling heat, supervising a hazard, or responding to an urgent need, give the situation your attention and leave the exercise for later. If a bodily anchor increases discomfort, try a neutral sound or stop.",
+          "The cue record and restart suggestions are Echo Buddha editorial habit aids, not a canonical formula, a clinical treatment, or a guarantee of change. Keep what helps you remember and discard a format that adds pressure."
+        ]
+      }
+    ]
+  },
+  "compassion-in-buddhism-beginner-guide": {
+    "title": "Compassion in Buddhism: A Beginner's Guide",
+    "seoTitle": "Compassion in Buddhism: Karuṇā, Goodwill and Wise Help",
+    "description": "Understand karuṇā beside goodwill and equanimity, then follow one example of responding to suffering without pity or taking over.",
+    "relatedSlugs": [
+      "compassion-as-a-daily-discipline",
+      "compassion-with-boundaries",
+      "equanimity-in-buddhism"
+    ],
+    "content": [
+      {
+        "paragraphs": [
+          "You learn that a colleague has suffered a bereavement. You want to help, but you do not know whether to offer advice, ask questions, or leave them alone. This is a useful place to examine compassion: suffering is present, and your response should serve the person rather than your need to feel helpful.",
+          "Karuṇā, commonly translated as compassion, is directed toward suffering and the wish that it be eased. It belongs beside other cultivated qualities rather than replacing all of them. This beginner guide explains those distinctions and follows one modern example; <a href=\"/articles/compassion-as-a-daily-discipline/\">Compassion as a Daily Discipline</a> asks how help can be sustained over time."
+        ]
+      },
+      {
+        "heading": "Compassion, Goodwill, and Equanimity",
+        "paragraphs": [
+          "Mettā wishes beings well, whether or not an obvious difficulty is present. Karuṇā turns toward suffering with care. Upekkhā, equanimity, supports balance when conditions and outcomes cannot be commanded. These are explanatory distinctions, not three separate personalities or a test of which emotion you feel most strongly.",
+          "In <a href=\"https://www.dhammatalks.org/suttas/AN/AN4_125.html\">AN 4.125, translated by Ṭhānissaro Bhikkhu</a>, goodwill and compassion appear as distinct, expansive cultivations extending in every direction. The discourse has a wider religious context, including rebirth; it is not a workplace support manual. The example below is Echo Buddha application, not a prescribed sutta exercise."
+        ]
+      },
+      {
+        "heading": "Begin With What You Know",
+        "paragraphs": [
+          "Your colleague has told you about the death. That does not tell you how they feel at every moment, what their family customs require, or which practical help they want. Compassion begins by recognizing the disclosed difficulty while leaving room for the person’s own account.",
+          "A simple response might be: “I am sorry. Would it help if I covered the notes for this meeting, or would you prefer something else?” Offer something specific and easy to decline. Avoid making them explain the whole loss before they can receive ordinary consideration."
+        ]
+      },
+      {
+        "heading": "Respond Without Pity or Taking Over",
+        "paragraphs": [
+          "Here, pity means a response that places the other person below you, as though their suffering had become their whole identity. Compassion can acknowledge vulnerability without forgetting their agency, knowledge, humor, and choices. Ask before taking over a task or sharing their news with others.",
+          "If they decline help, respect the answer. Do not turn the offer into a demand for gratitude, disclosure, or reassurance that you are a good person. You can remain considerate without monitoring their grief or deciding when they should be ready to work normally."
+        ]
+      },
+      {
+        "heading": "Choose Help That Fits the Need",
+        "paragraphs": [
+          "Useful care may be practical: agree a deadline adjustment through the appropriate person, provide the notes you offered, or keep a confidence. It may also be listening without supplying an explanation for the death. Do not tell someone that suffering is their karma or that impermanence requires them to stop grieving.",
+          "Sometimes you cannot supply the help required. Say what you can actually offer, avoid promises you cannot keep, and support an appropriate route to further help. For deciding limits, use <a href=\"/articles/compassion-with-boundaries/\">Compassion With Boundaries</a>. Limits do not require abandoning concern."
+        ]
+      },
+      {
+        "heading": "A Small Compassion Reflection",
+        "paragraphs": [
+          "Recall a manageable encounter with suffering. Write what you know, what you are assuming, and one act of care that the person could accept or decline. The difference between those first two lines matters: wanting to help does not make an assumption accurate.",
+          "If you are the person suffering, the same care can begin with naming what hurts and asking for available support. This reflection is optional editorial guidance, not counselling or a way to process overwhelming experience alone. The aim is considerate response, not forcing a warm feeling or proving that you have helped."
+        ]
+      }
+    ]
+  },
+  "compassion-as-a-daily-discipline": {
+    "title": "Compassion as a Daily Discipline",
+    "seoTitle": "Compassion as a Daily Discipline: Care That Follows Through",
+    "description": "Follow one recurring offer of practical help through agreement, capacity, consent, missed commitments, repair, and review.",
+    "relatedSlugs": [
+      "compassion-in-buddhism-beginner-guide",
+      "compassion-with-boundaries",
+      "buddhist-teachings-on-forgiveness"
+    ],
+    "content": [
+      {
+        "paragraphs": [
+          "A neighbor recovering from an illness needs groceries. You offer to collect a few items on your weekly shop. The first offer feels easy; the discipline appears later, when your schedule changes, the list grows, or you forget an item. Compassion becomes trustworthy through what happens after the generous impulse.",
+          "This article follows one ordinary helping commitment. The scenario and review are Echo Buddha applications, not a canonical care plan. For the meaning of karuṇā and its relation to goodwill, begin with <a href=\"/articles/compassion-in-buddhism-beginner-guide/\">Compassion in Buddhism</a>."
+        ]
+      },
+      {
+        "heading": "Make an Offer the Other Person Can Shape",
+        "paragraphs": [
+          "Ask what would actually help before deciding for the person. Agree the day, a manageable list, payment arrangements, and how to communicate a change. Do not assume that being ill removes their preferences or makes every detail yours to manage.",
+          "For example: “I can collect up to one bag with my Saturday shopping. Could you send the list by Friday evening?” This is more useful than “Call me any time for anything” if you cannot sustain that promise. Privacy matters too: ask before sharing the person’s circumstances with someone else."
+        ]
+      },
+      {
+        "heading": "Check Capacity Before Resentment Builds",
+        "paragraphs": [
+          "After two weeks, you discover that the collection regularly takes much longer than expected. Notice the fact before silently blaming the neighbor. Is the route too difficult, the list too large, or the timing unsuitable? Which part can you keep offering honestly?",
+          "A revised agreement might be a smaller list or a different day. Do not recruit a replacement helper or pass on contact details without asking. If the need is larger than an informal offer can meet, discuss appropriate community or qualified support rather than claiming personal responsibility for everything."
+        ]
+      },
+      {
+        "heading": "Keep Care Separate From Control",
+        "paragraphs": [
+          "The neighbor chooses something you would not buy. Unless it falls outside the agreement or raises a concern you need to discuss, the help is not permission to manage their life. Ask rather than lecture. A favor should not purchase obedience, gratitude, or access to private information.",
+          "The ethical direction is concern for suffering without hostility. <a href=\"https://www.dhammatalks.org/suttas/AN/AN4_125.html\">AN 4.125, translated by Ṭhānissaro Bhikkhu</a>, gives traditional context for expansive compassion. The shopping agreement is a modern illustration of conduct that may express such concern; the discourse does not prescribe these logistical steps."
+        ]
+      },
+      {
+        "heading": "Repair a Missed Commitment",
+        "paragraphs": [
+          "Suppose you forget to collect an essential item. Acknowledge the specific mistake and ask what practical correction is needed. Do not make the person comfort you about how guilty you feel, or imply they should be grateful for everything else. If you cannot correct it, say so promptly so they can make another plan.",
+          "Then change the condition that contributed to it: keep one agreed list or confirm changes before leaving. A responsible apology joins acknowledgment with follow-through. For a fuller action-review method, see <a href=\"/articles/what-is-karma-in-buddhism/\">Karma in Daily Life: Review and Repair</a>."
+        ]
+      },
+      {
+        "heading": "Review the Commitment, Not Your Goodness",
+        "paragraphs": [
+          "After a few repetitions, ask: Was the agreed help delivered? Did the other person retain a choice? What burden did the offer remove or create? What should continue, change, or end? Their answer may differ from your impression. Listen without defending the original good intention.",
+          "Record one adjustment, make it, and check again at a sensible time. This keeps reflection tied to effects rather than to an identity as the compassionate one. The same pattern can inform a recurring lift, a shared household task, or regular listening time."
+        ]
+      },
+      {
+        "heading": "Allow an Honest Ending",
+        "paragraphs": [
+          "Your circumstances may change. Give reasonable notice where possible, state what will end, and discuss a transition without making promises for other people. Do not continue until resentment spills out, and do not disappear because the conversation is awkward. Where urgent safety or essential care is at stake, an informal agreement is not enough to assess what support is required.",
+          "Compassionate discipline is not endless availability. It is care that remains truthful about consent, capacity, effects, and responsibility. For a specific limit, use the <a href=\"/articles/compassion-with-boundaries/\">care–capacity–responsibility check</a>."
+        ]
+      }
+    ]
+  },
   "how-to-meditate-for-beginners": {
     title: "Your First Seven Days of Meditation: A Beginner Habit Plan",
     seoTitle: "First 7 Days of Meditation: A Beginner Habit Plan",
@@ -7939,21 +8174,21 @@ const phase1IntentRemediations: Record<string, Phase1IntentRemediation> = {
       {
         heading: "Dhammapada 277–279: Three Marks in Sequence",
         paragraphs: [
-          "Dhammapada verses 277–279 present conditioned phenomena as impermanent, dukkha, and not-self. Reading anicca beside the other two marks prevents it from becoming a generic observation that “change happens.” The verses connect seeing with disenchantment and purification of the path.",
+          "Dhammapada verses 277–278 describe conditioned things as impermanent and dukkha; verse 279 uses the broader formulation that all things are not-self. Preserve that shift in wording rather than giving all three verses the same subject. Read together, the verses connect seeing with disenchantment and purification of the path, beyond the generic observation that “change happens.”",
           "Compare more than one reputable translation if a particular English phrase carries doctrinal weight. “Formations,” “conditioned things,” and similar renderings make interpretive choices that deserve context."
         ]
       },
       {
         heading: "SN 22.59: Impermanence and the Aggregates",
         paragraphs: [
-          "The Anattalakkhaṇa Sutta applies impermanence to form, feeling, perception, volitional formations, and consciousness. Its reasoning links what is impermanent and subject to change with dukkha and with the question of whether it is fitting to regard the aggregates as self or possession.",
+          "The <a href=\"https://www.dhammatalks.org/suttas/SN/SN22_59.html\">Anattalakkhaṇa Sutta (SN 22.59), translated by Ṭhānissaro Bhikkhu</a>, applies impermanence to form, feeling, perception, volitional formations, and consciousness. Its reasoning links what is impermanent and subject to change with dukkha and with the question of whether it is fitting to regard the aggregates as self or possession.",
           "The discourse is not merely advising positive adaptation to life transitions. It participates in a deeper analysis of experience, clinging, and release. A practical article may draw an application, but it should label that movement as application."
         ]
       },
       {
         heading: "SN 12.15: Avoiding Existence and Non-Existence Extremes",
         paragraphs: [
-          "The Kaccānagotta Sutta is useful when impermanence is misread as nihilism. Its dependent-origination context avoids reducing the teaching to either permanent existence or sheer non-existence.",
+          "The <a href=\"https://www.dhammatalks.org/suttas/SN/SN12_15.html\">Kaccānagotta Sutta (SN 12.15), translated by Ṭhānissaro Bhikkhu</a>, is useful when impermanence is misread as nihilism. Its dependent-origination context avoids reducing the teaching to either permanent existence or sheer non-existence.",
           "This does not make every historical Buddhist school agree on one philosophical vocabulary. It does show why a casual “nothing is real” summary is a poor substitute for conditional arising and cessation."
         ]
       },
@@ -8181,16 +8416,9 @@ const contentRecoveryEdits: Record<string, { remove: string[]; removeParagraphs?
   "metta-meditation-script": { remove: [] },
   "buddhist-approach-to-anger": {"remove": ["The First Thirty Seconds", "Understand Without Excusing", "Speech Practice When Angry", "A Reflection for Difficult Moments", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"]},
   "buddhist-gratitude-practice": {"remove": [], "removeParagraphs": ["Let the practice remain small enough to be truthful. Gratitude that releases is lighter than gratitude that clings. It receives, responds, and lets the day pass.", "If the mind starts turning the exercise into a performance, simplify it. One received thing, one condition behind it, one response. That is enough. The aim is not to produce a beautiful journal page; it is to train the heart to notice support and answer without grasping.", "When practiced this way, gratitude is less about improving a mood and more about remembering relationship. The life that feels private is still supported by weather, food, labor, language, ancestors, teachers, strangers, and fragile conditions that deserve care.", "That memory can make gratitude quieter and more durable, especially when a day has been difficult and appreciation must stay modest and honest tonight."]},
-  "compassion-as-a-daily-discipline": {"remove": ["Compassion Is Trained in Ordinary Moments", "A Reflection to Carry", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path", "A Small Practice for Today"]},
-  "compassion-in-buddhism-beginner-guide": {"remove": ["Compassion as a Daily Discipline"]},
   "equanimity-in-buddhism": {"remove": [], "removeParagraphs": ["This quietness makes equanimity easy to overlook. Many people notice the dramatic reaction more than the wise restraint that prevented harm. Buddhist practice values the restraint anyway. A harsh reply not sent, a compliment not clung to, a loss met without self-pity becoming cruelty: these are not empty moments. They are the path becoming visible in ordinary conditions.", "For readers who fear becoming detached, this is the reassurance: equanimity does not remove love from life. It removes some of the panic around love, the possessiveness around success, and the despair around loss. What remains can be more reliable than emotional intensity because it is less dependent on conditions behaving exactly as hoped.", "This is why equanimity can be practiced in conversation before it is mastered in crisis. Let one pleasant word be pleasant. Let one unpleasant word be known. Then choose the next response from values rather than from the strongest gust."]},
   "dhammapada-reflection-what-we-think": {"remove": ["How This Reflection Supports Daily Choices"]},
-  "beginning-a-daily-mindfulness-practice": { remove: ["Build the Habit Around a Cue", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"] },
   "mindfulness-morning-routine": { remove: ["Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path", "A Gentle Ending"] },
-  "walking-meditation-step-by-step": {
-    remove: ["A Step-by-Step Walking Session", "Using Walking Meditation in Daily Life", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"],
-    source: ["<a href='https://www.dhammatalks.org/suttas/MN/MN10.html' target='_blank' rel='noopener noreferrer'>MN 10, translated by Thanissaro Bhikkhu</a>, includes knowing the walking posture and clear awareness while going and returning. The path length, optional movement labels, and turning drill here are contemporary practice suggestions, not an exact prescription quoted from the discourse.", "For a shorter practice outline, see <a href='/meditation/walking-meditation/'>walking meditation</a>; the <a href='/meditation-guide/'>Meditation Guide</a> explains other starting points. Keep your eyes open and your surroundings in view. If walking is unsuitable, choose a comfortable seated point of attention instead; you do not need to walk through pain or dizziness."]
-  },
   "mindful-listening-in-everyday-life": { remove: ["Why Listening Is a Mindfulness Practice", "A Practice for Difficult Conversations", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path", "A Small Practice for Today"] },
   "creating-a-peaceful-corner-at-home": { remove: ["What Belongs in a Practice Space", "Make the Space a Cue", "Practical Examples in Daily Life", "A Mindfulness Exercise", "Continue the Path"] },
   "three-ways-to-practice-patience": {
@@ -10364,6 +10592,102 @@ const sixNewArticleSeoDetails: Record<string, ArticleSeoDetails> = {
 };
 
 const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
+  "walking-meditation-step-by-step": {
+    "reviewedDate": "2026-11-11",
+    "takeaways": [
+      "Turns and interruptions are part of learning to notice movement and surroundings.",
+      "Ordinary stable walking is preferable to an exaggerated pace that strains balance.",
+      "A short review changes one condition without demanding a flawless session."
+    ],
+    "faqs": [
+      {
+        "question": "What should I do when someone interrupts my walking path?",
+        "answer": "Stop the exercise, respond normally to the space and person, and resume only when the route is clear. You do not need to repeat the interrupted stretch."
+      },
+      {
+        "question": "How many steps should I use to turn?",
+        "answer": "There is no required number. Look at the space and use a stable, workable movement rather than forcing a ritualized turn."
+      },
+      {
+        "question": "What if slow walking makes balance harder?",
+        "answer": "Return to an ordinary pace or stop. Do not use meditation to test balance, and choose a supported seated practice when walking is unsuitable."
+      }
+    ]
+  },
+  "mindfulness-of-breathing-guide": {
+    ...week3ArticleSeoDetails["mindfulness-of-breathing-guide"],
+    reviewedDate: "2026-11-11"
+  },
+  "right-livelihood-modern-life": {
+    ...sixNewArticleSeoDetails["right-livelihood-modern-life"],
+    reviewedDate: "2026-11-11"
+  },
+  "beginning-a-daily-mindfulness-practice": {
+    "reviewedDate": "2026-11-11",
+    "takeaways": [
+      "Habit design separates remembering the cue from doing the practice.",
+      "A cue record can show whether the reminder or the response needs adjustment.",
+      "A missed cue calls for a workable restart, not repayment or a spiritual score."
+    ],
+    "faqs": [
+      {
+        "question": "What if I only remember mindfulness after the cue has passed?",
+        "answer": "Note what happened and try the next normal occurrence. If remembering remains difficult, choose a clearer or less crowded event."
+      },
+      {
+        "question": "What should I record?",
+        "answer": "Record the cue, whether you noticed it, the response attempted, and one obstacle. Look at conditions rather than a streak or a calmness score."
+      },
+      {
+        "question": "Is this a plan for formal meditation sessions?",
+        "answer": "No. It focuses on remembering one ordinary daily practice. The separate seven-day meditation article provides a plan for formal sessions."
+      }
+    ]
+  },
+  "compassion-in-buddhism-beginner-guide": {
+    "reviewedDate": "2026-11-11",
+    "takeaways": [
+      "Karuṇā turns toward suffering with the wish that it be eased.",
+      "Goodwill, compassion, and equanimity support related but distinguishable responses.",
+      "A compassionate offer respects what is known, consent, agency, and the ability to decline."
+    ],
+    "faqs": [
+      {
+        "question": "How does compassion differ from goodwill?",
+        "answer": "Goodwill wishes beings well generally; compassion turns toward suffering. The distinction helps explain the qualities without requiring a particular strong emotion."
+      },
+      {
+        "question": "Does compassion mean taking over?",
+        "answer": "No. Ask what is wanted, make a specific offer that can be declined, and respect the person’s choices and privacy."
+      },
+      {
+        "question": "Does AN 4.125 prescribe the workplace example?",
+        "answer": "No. The discourse supplies context for expansive goodwill and compassion. The bereavement example is Echo Buddha editorial application."
+      }
+    ]
+  },
+  "compassion-as-a-daily-discipline": {
+    "reviewedDate": "2026-11-11",
+    "takeaways": [
+      "A generous impulse becomes reliable through clear agreement and follow-through.",
+      "Recurring help should remain answerable to consent, capacity, and actual effects.",
+      "A missed commitment calls for prompt acknowledgment, practical repair, and prevention."
+    ],
+    "faqs": [
+      {
+        "question": "How can compassion become a daily discipline?",
+        "answer": "Make one clear, manageable offer, follow through, and review whether the help actually serves the person without taking away their choices."
+      },
+      {
+        "question": "What if I can no longer sustain an offer?",
+        "answer": "Discuss a realistic change or ending promptly. Ask before involving someone else and avoid promises beyond your capacity."
+      },
+      {
+        "question": "How should I respond when I let someone down?",
+        "answer": "Acknowledge the specific mistake, correct what you can, tell them promptly what you cannot do, and change the condition that contributed to it."
+      }
+    ]
+  },
   "how-to-meditate-for-beginners": {
     reviewedDate: "2026-09-29",
     takeaways: [
@@ -10500,7 +10824,7 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
     ]
   },
   "buddhist-teachings-on-impermanence": {
-    reviewedDate: "2026-09-29",
+    reviewedDate: "2026-11-11",
     takeaways: [
       "This page is a source-reading guide rather than another general definition.",
       "Dhammapada 277–279 place anicca beside dukkha and not-self.",
@@ -10562,7 +10886,9 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
 };
 
 export function getArticleSeoDetails(slug: string) {
-  const details = phase1IntentSeoDetails[slug] ?? sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  const intentDetails = phase1IntentSeoDetails[slug];
+  if (intentDetails) return intentDetails;
+  const details = sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
   return contentRecoveryEdits[slug] && details ? { ...details, reviewedDate: "2026-10-30" } : details;
 }
 

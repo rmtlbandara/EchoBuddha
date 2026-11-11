@@ -118,13 +118,13 @@ const jsonLd = [
             <p>{page.practice}</p>
           </aside>
         )}
+        <TopicGuide route={canonicalPath} />
         {qualityNote && (
           <aside class="surface key-box">
             <h2>After the Session</h2>
             <p>{qualityNote.question}</p>
           </aside>
         )}
-	        <TopicGuide route={canonicalPath} />
         {sourceLinks.length > 0 && (
           <section>
             <h2>Practice Sources</h2>

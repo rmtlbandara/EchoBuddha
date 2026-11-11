@@ -30,30 +30,19 @@ const jsonLd = {
   </section>
   <section class="section section--tight">
     <div class="container prose">
-      <div class="contact-grid">
-        <article class="surface contact-panel">
-          <span class="eyebrow">General &amp; Editorial</span>
-          <h2>Published content and general inquiries</h2>
-          <p>
-            Use this address for general or publisher inquiries, editorial feedback, content suggestions, source or
-            quotation concerns, and correction reports.
-          </p>
-          <p>
-            <a class="email-link" href={`mailto:${SITE.editorialEmail}`}>{SITE.editorialEmail}</a>
-          </p>
-        </article>
-        <article class="surface contact-panel">
-          <span class="eyebrow">Website Support</span>
-          <h2>Help using the website</h2>
-          <p>
-            Use this address for technical problems, accessibility issues, privacy or consent settings, and trouble
-            accessing site features.
-          </p>
-          <p>
-            <a class="email-link" href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a>
-          </p>
-        </article>
-      </div>
+      <article class="surface contact-panel">
+        <h2>Contact the publisher</h2>
+        <p>
+          Email for general and editorial questions, corrections, source or copyright concerns,
+          accessibility, privacy, and help using the website.
+        </p>
+        <p>
+          <a class="email-link" href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
+        </p>
+        <p>
+          Include the relevant page URL and a brief description so the inquiry can be reviewed in context.
+        </p>
+      </article>
       <div>
         <h2>Content Suggestions</h2>
         <p>
@@ -76,13 +65,8 @@ const jsonLd = {
 </Layout>
 
 <style>
-  .contact-grid {
-    display: grid;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
-
   .contact-panel {
+    margin-bottom: 2rem;
     padding: 1.25rem;
   }
 
@@ -97,9 +81,4 @@ const jsonLd = {
     overflow-wrap: anywhere;
   }
 
-  @media (min-width: 760px) {
-    .contact-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
 </style>

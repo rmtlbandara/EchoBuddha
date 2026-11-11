@@ -81,7 +81,7 @@ export const EDITORIAL_IDENTITY = {
   bylineUrl: `${SITE.url}/authors/echo-buddha-editorial/`,
   bylineId: `${SITE.url}/authors/echo-buddha-editorial/#editorial-author`,
   publisherId: `${SITE.url}/#organization`,
-  contactEmail: SITE.editorialEmail,
+  contactEmail: SITE.contactEmail,
   publicModel:
     "Echo Buddha Editorial is the organizational publication byline used for material published under the Echo Buddha name.",
   accountability:
@@ -122,18 +122,12 @@ export const PUBLISHER_SCHEMA = {
 
 export const PUBLISHER_CONTACT_SCHEMA = {
   ...PUBLISHER_SCHEMA,
-  email: `mailto:${SITE.editorialEmail}`,
+  email: `mailto:${SITE.contactEmail}`,
   contactPoint: [
     {
       "@type": "ContactPoint",
-      contactType: "publisher and editorial inquiries",
-      email: SITE.editorialEmail,
-      url: `${SITE.url}/contact/`
-    },
-    {
-      "@type": "ContactPoint",
-      contactType: "website support",
-      email: SITE.supportEmail,
+      contactType: "general, editorial, privacy and website inquiries",
+      email: SITE.contactEmail,
       url: `${SITE.url}/contact/`
     }
   ]
@@ -892,6 +886,13 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       note: "Primary-text reference for the teaching summarized in beginner language."
     }
   ],
+  "/articles/right-livelihood-modern-life/": [
+    {
+      label: "Ṭhānissaro Bhikkhu: AN 5.177",
+      href: "https://www.dhammatalks.org/suttas/AN/AN5_177.html",
+      note: "Primary lay teaching naming five trades to avoid. Workplace cases and transition planning are editorial applications."
+    }
+  ],
   "/articles/eightfold-path-explained/": [
     {
       label: "Dhammatalks: SN 45.8",
@@ -945,6 +946,16 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Dhammapada XX",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
       note: "Traditional reference for impermanence and the marks of existence."
+    },
+    {
+      label: "Ṭhānissaro Bhikkhu: SN 22.59",
+      href: "https://www.dhammatalks.org/suttas/SN/SN22_59.html",
+      note: "Primary discourse for examining the aggregates as impermanent, stressful, and not fit to regard as self."
+    },
+    {
+      label: "Ṭhānissaro Bhikkhu: SN 12.15",
+      href: "https://www.dhammatalks.org/suttas/SN/SN12_15.html",
+      note: "Primary discourse for the middle account between existence and non-existence through dependent origination."
     }
   ],
   "/articles/impermanence-in-buddhism/": [
@@ -1033,6 +1044,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Karaniya Metta Sutta",
       href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
       note: "Traditional source for goodwill, non-harming, and care for beings."
+    },
+    {
+      label: "Ṭhānissaro Bhikkhu: AN 4.125",
+      href: "https://www.dhammatalks.org/suttas/AN/AN4_125.html",
+      note: "Primary reference for extending compassion in every direction. The modern response example is editorial application."
     }
   ],
   "/articles/compassion-as-a-daily-discipline/": [
@@ -1040,6 +1056,11 @@ const articleSourceReferences: Record<string, SourceReference[]> = {
       label: "Access to Insight: Karaniya Metta Sutta",
       href: "https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.than.html",
       note: "Traditional source for goodwill practice."
+    },
+    {
+      label: "Ṭhānissaro Bhikkhu: AN 4.125",
+      href: "https://www.dhammatalks.org/suttas/AN/AN4_125.html",
+      note: "Primary reference for cultivation of compassion. The recurring-care plan is an editorial application."
     }
   ],
   "/articles/compassion-with-boundaries/": [

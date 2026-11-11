@@ -53,8 +53,8 @@ const staticPaths: SitemapEntry[] = [
   { path: "/meditation/" },
   { path: "/meditation-guide/" },
   { path: "/contact/" },
-  { path: "/privacy-policy/", lastmod: "2026-11-10" },
-  { path: "/terms-of-use/", lastmod: "2026-06-24" },
+  { path: "/privacy-policy/", lastmod: "2026-11-11" },
+  { path: "/terms-of-use/", lastmod: "2026-11-11" },
   { path: "/disclaimer/" }
 ];
 

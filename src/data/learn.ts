@@ -354,7 +354,7 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "dhammapada-reflections/peace-comes-from-a-trained-mind": [
     {
-      label: "Dhammapada, Cittavagga (Dhp 33-43)",
+      label: "Dhammapada, Cittavagga (Dhp 35; context 33-43)",
       href: "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.03.budd.html",
       note: "Traditional source for training, guarding, and directing the mind."
     }
@@ -413,6 +413,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
   ],
   "buddhism-101/threefold-training-sila-samadhi-panna": [
     {
+      label: "Cūḷavedalla Sutta (MN 44), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/MN/MN44.html",
+      note: "Directly groups the Eightfold Path factors under virtue, concentration, and discernment."
+    },
+    {
       label: "Magga-vibhanga Sutta (SN 45.8)",
       href: "https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.008.than.html",
       note: "Early-discourse source for the Eightfold Path factors, which are often grouped as wisdom, ethical conduct, and mental cultivation."
@@ -450,6 +455,11 @@ const sourceLinksByPage: Record<string, SourceLink[]> = {
     }
   ],
   "sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path": [
+    {
+      label: "Magga-Vibhaṅga Sutta (SN 45.8), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/SN/SN45_8.html",
+      note: "Comparison translation using resolve and concentration. Its note distinguishes this passage’s celibacy wording from the misconduct wording in DN 22 and MN 141."
+    },
     {
       label: "SuttaCentral: SN 45.8",
       href: "https://suttacentral.net/sn45.8/en/sujato",
@@ -843,7 +853,7 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
       "This theme matters because words can either clarify suffering or multiply it. A small amount of truthful, timely speech can protect more peace than a flood of reaction.",
     clarification:
       "Buddhist speech practice does not mean becoming silent out of fear. It means learning when speech is true, useful, kind, and well-timed.",
-    question: "Where would fewer, truer words serve better than more explanation?"
+    question: "Would shortening this message remove needed facts, or only repeated attempts to defend yourself?"
   },
   "dhammapada-reflections/peace-comes-from-a-trained-mind": {
     why:
@@ -877,8 +887,8 @@ const learningQualityNotes: Record<string, LearningQualityNote> = {
     why:
       "Mindfulness of breathing matters because the breath is always near enough to become a simple training ground for attention, patience, and clear seeing.",
     clarification:
-      "The practice is not about controlling the breath into calmness. It is about knowing the breath and returning when the mind wanders.",
-    question: "What happens when you let one breath be enough?"
+      "Let breathing settle naturally in the starter exercise. The full discourse also includes active cultivation of calm and other qualities, so this first exercise should be read within its wider training.",
+    question: "Which MN 118 instructions concern knowing what is present, and which explicitly concern training a quality?"
   },
   "sutta-for-daily-life/buddhas-teaching-on-patience": {
     why:
@@ -1140,16 +1150,16 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "the-noble-eightfold-path-explained",
-    modifiedDate: "2026-11-10",
+    modifiedDate: "2026-11-11",
     title: "The Noble Eightfold Path Explained",
     description:
-      "Read the eight factors alongside SN 45.8, learn how two neighboring factors differ, and choose a source or lesson for your next study.",
+      "Learn the eight factors in three connected groups and see how effort and mindfulness support a first practice.",
     eyebrow: "Buddhism 101",
     intro:
-      "The Noble Eightfold Path is the training named in the Fourth Noble Truth. Use this lesson as a reading companion to SN 45.8, the early discourse that defines each factor.",
+      "The Noble Eightfold Path is the training named in the Fourth Noble Truth. This introduction groups its eight factors under wisdom, ethical conduct, and mental cultivation.",
     sections: [
       {
-        heading: "Find the Eight Factors in the Discourse",
+        heading: "Meet the Three Groups",
         paragraphs: [
           "<strong>Wisdom.</strong> Right view understands dukkha, its origin, its cessation, and the way to its cessation. Right intention gives that understanding a direction through renunciation, goodwill, and harmlessness. Read <a href='/learn/four-noble-truths/'>the Four Noble Truths</a> for the framework behind the first factor.",
           "<strong>Ethical conduct.</strong> Right speech avoids false, divisive, harsh, and idle speech. Right action avoids killing and taking what is not given. SN 45.8 also names celibacy in this monastic teaching, while the lay precepts in AN 8.25 address sexual misconduct. Right livelihood concerns the way one earns a living. See <a href='/articles/right-speech-buddhism/'>Right Speech</a> and the <a href='/learn/buddhism-101/right-livelihood-buddhism/'>Right Livelihood lesson</a>.",
@@ -1157,15 +1167,15 @@ export const buddhism101Pages: LearningPage[] = [
         ]
       },
       {
-        heading: "Read Two Neighboring Factors Side by Side",
+        heading: "Tell Effort and Mindfulness Apart",
         paragraphs: [
           "Try effort and mindfulness. In a sitting practice you notice irritation and the story that keeps it going. Mindfulness keeps the state in view. Effort concerns what you do next, such as letting the story drop and returning to a workable point of attention. This is an everyday illustration of how the roles differ.",
-          "A few steady breaths can support practice. In SN 45.8, right concentration has the more specific meaning given above. When a modern guide uses a factor in an example, compare its illustration with the discourse definition."
+          "A few steady breaths can support practice. In SN 45.8, right concentration has the more specific meaning given above. The <a href='/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/'>SN 45.8 source lesson</a> compares two translations and explains why ordinary focus and the discourse definition should be distinguished."
         ]
       }
     ],
     takeaway: "The Noble Eightfold Path brings together view, intention, speech, action, livelihood, effort, mindfulness, and concentration.",
-    practice: "Open SN 45.8 and pick two adjacent factors. Write one sentence about the work each does. Then follow the lesson link for the factor you find harder to explain.",
+    practice: "Recall one moment when you noticed a reaction and one choice you made afterward. Identify the roles of mindfulness and effort, then choose a factor to study next.",
     relatedLinks: [
       { label: "Complete Eightfold Path Guide", href: "/learn/eightfold-path/" },
       { label: "Eightfold Path Article", href: "/articles/eightfold-path-explained/" },
@@ -1174,7 +1184,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Eightfold Path Quote", href: "/quotes/practice/eightfold-path-daily-choices/" }
     ],
     sourceNote:
-      "SN 45.8 supplies the definitions. The threefold grouping appears in MN 44. The example and reading exercise are Echo Buddha applications.",
+      "SN 45.8 supplies the definitions. The threefold grouping appears in MN 44. The sitting example and reflection exercise are Echo Buddha applications.",
     terms: ["Mindfulness", "Dhamma", "Sati"]
   },
   {
@@ -1288,13 +1298,14 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "three-marks-of-existence",
+    modifiedDate: "2026-11-11",
     title: "The Three Marks of Existence",
-    seoTitle: "The Three Marks of Existence in Buddhism Explained Simply",
+    seoTitle: "Three Marks of Existence in Buddhism",
     description:
       "Understand the Three Marks of Existence in Buddhism: anicca, dukkha, and anatta. A simple beginner guide with examples, reflections, and practical meaning.",
     eyebrow: "Buddhism 101",
     intro:
-      "The Three Marks of Existence describe three features of conditioned life: impermanence, unsatisfactoriness, and non-self.",
+      "The Three Marks are impermanence, dukkha, and not-self. Dhammapada 277–279 applies the first two to conditioned phenomena and the not-self formulation to all phenomena.",
     sections: [
       {
         heading: "What Are the Three Marks?",
@@ -1365,7 +1376,7 @@ export const buddhism101Pages: LearningPage[] = [
       }
     ],
     takeaway:
-      "The Three Marks help beginners see changing life clearly: all conditioned things change, clinging brings stress, and the self is a changing process.",
+      "The Three Marks examine impermanence and unsatisfactoriness in conditioned phenomena, and not-self in all phenomena. Their different scopes matter.",
     practice:
       "Notice one feeling today and quietly observe: changing, not fully satisfying, not a fixed self.",
     relatedLinks: [
@@ -1978,6 +1989,7 @@ export const buddhism101Pages: LearningPage[] = [
   {
     section: "buddhism-101",
     slug: "threefold-training-sila-samadhi-panna",
+    modifiedDate: "2026-11-11",
     title: "The Threefold Training: Sila, Samadhi, and Panna",
     seoTitle: "Threefold Training in Buddhism: Sila, Samadhi, and Panna",
     description:
@@ -1996,7 +2008,7 @@ export const buddhism101Pages: LearningPage[] = [
       {
         heading: "How They Appear in Ordinary Life",
         paragraphs: [
-          "Sila may appear as honest speech, keeping a promise, or refusing to pass along gossip. Samadhi may appear as returning to one breath, one task, or one conversation. Panna may appear as noticing that a reaction is rooted in fear, pride, craving, or compassion.",
+          "Sila may appear as honest speech, keeping a promise, or refusing to pass along gossip. Returning to one chosen object can support the cultivation of samādhi. Ordinary task focus alone does not establish the right concentration described through the four jhānas in SN 45.8. Panna may appear as noticing that a reaction is rooted in fear, pride, craving, or compassion.",
           "This is why the <a href='/learn/eightfold-path/'>Noble Eightfold Path</a> matters for daily life. The path is not separate from emails, work, money, family, attention, and repair."
         ]
       },
@@ -2017,7 +2029,7 @@ export const buddhism101Pages: LearningPage[] = [
       { label: "Meditation Hub", href: "/meditation/" }
     ],
     sourceNote:
-      "Source note: This page is original Echo Buddha educational guidance on a widely used Buddhist training framework. It avoids presenting the explanation as scripture or tradition-specific authority.",
+      "MN 44 explicitly groups the path factors under virtue, concentration, and discernment. SN 45.8 defines the factors. The ordinary-life illustrations here are editorial applications and starting supports for training.",
     terms: ["Dhamma", "Mindfulness", "Sutta"]
   },
   {
@@ -2874,6 +2886,7 @@ export const dhammapadaPages: LearningPage[] = [
   {
     section: "dhammapada-reflections",
     slug: "better-than-a-thousand-empty-words",
+    modifiedDate: "2026-11-11",
     title: "Better Than a Thousand Empty Words",
     description:
       "A Dhammapada-inspired reflection on meaningful speech, silence, and words that bring peace.",
@@ -2902,18 +2915,19 @@ export const dhammapadaPages: LearningPage[] = [
       }
     ],
     takeaway: "Wise speech is measured by truth, kindness, usefulness, and timing.",
-    practice: "Before speaking today, ask whether fewer words would be more helpful.",
+    practice: "Review a draft message. Underline the fact the reader needs, the request you are making, and any necessary deadline. Remove repetition while preserving those details.",
     relatedLinks: [
       { label: "Right Speech Article", href: "/articles/right-speech-buddhism/" },
       { label: "Wise Silence Quote", href: "/quotes/wisdom/wise-silence/" },
       { label: "Right Speech in Daily Life", href: "/learn/sutta-for-daily-life/right-speech-in-daily-life/" }
     ],
-    sourceNote: "This reflection uses original wording inspired by a traditional Dhammapada theme.",
+    sourceNote: "Dhammapada 100–102 contrasts many unhelpful words or verses with a beneficial one. The truth, care, usefulness, and timing checklist draws on wider Buddhist speech guidance, explained in the linked Right Speech source lesson. The meeting story and message-editing exercise are original editorial applications.",
     terms: ["Right Speech", "Wisdom", "Dhamma"]
   },
   {
     section: "dhammapada-reflections",
     slug: "peace-comes-from-a-trained-mind",
+    modifiedDate: "2026-11-11",
     title: "Peace Comes from a Trained Mind",
     description:
       "A Dhammapada-inspired reflection on training the mind through meditation, patience, and daily awareness.",
@@ -2942,13 +2956,13 @@ export const dhammapadaPages: LearningPage[] = [
       }
     ],
     takeaway: "Peace grows through repeated training of attention, intention, and response.",
-    practice: "Choose one repeated moment today and train it gently: breathing, listening, or pausing.",
+    practice: "Choose one recurring cue, such as reaching for your phone after finishing a task. Decide what you will do at that cue, try it twice, and note what helped or interrupted the choice.",
     relatedLinks: [
       { label: "Meditation Hub", href: "/meditation/" },
       { label: "Sati", href: "/learn/buddhist-dictionary/sati/" },
       { label: "Daily Practice Quote", href: "/quotes/practice/small-actions-shape-the-mind/" }
     ],
-    sourceNote: "This page offers original reflection on a traditional Dhammapada theme.",
+    sourceNote: "Dhammapada 35 provides a focused verse on the benefit of training the hard-to-steady mind; verses 33–43 give the wider chapter context. The teacher-and-student story is fictional, and the cue exercise is a modern editorial application.",
     terms: ["Sati", "Meditation", "Practice"]
   }
 ];
@@ -3139,6 +3153,7 @@ export const suttaPages: LearningPage[] = [
   {
     section: "sutta-for-daily-life",
     slug: "right-speech-in-daily-life",
+    modifiedDate: "2026-11-11",
     title: "Right Speech in Daily Life",
     description:
       "A practical Buddhist explanation of right speech: truthful, kind, useful, and timely communication.",
@@ -3150,13 +3165,13 @@ export const suttaPages: LearningPage[] = [
         heading: "Simple Background",
         paragraphs: [
           "Buddhist teachings often emphasize speech because words shape relationships, memory, trust, and the mind that speaks them. Speech can wound quickly or heal slowly.",
-          "Right speech asks that words be truthful, kind, useful, and timely."
+          "Truth, kindness, usefulness, and timing form a modern reminder used on this page. Compare it with the four abstentions in SN 45.8 and the truth, benefit, and timing distinctions in MN 58."
         ]
       },
       {
         heading: "Main Teaching",
         paragraphs: [
-          "Right speech avoids lying, divisive talk, harshness, and empty chatter that feeds confusion. It does not require silence about hard truths. It asks truth to travel with care."
+          "SN 45.8 defines right speech through abstaining from false, divisive, harsh, and idle speech. MN 58 shows that truthful, beneficial words can be unwelcome and still appropriate at the right time. The reminder about kindness should therefore not be read as a requirement to make every listener feel pleased."
         ]
       },
       {
@@ -3166,8 +3181,8 @@ export const suttaPages: LearningPage[] = [
         ]
       }
     ],
-    takeaway: "Right speech uses truth, kindness, usefulness, and timing to reduce harm.",
-    practice: "Before one important sentence, ask: Is it true, kind, useful, and timely?",
+    takeaway: "SN 45.8 defines right speech through four abstentions. The modern checklist helps reflection but should be read alongside that definition.",
+    practice: "Use the modern reminder to review one draft message for truth, kindness, usefulness, and timing. Then check whether it contains deception, division, harshness, or idle talk.",
     relatedLinks: [
       { label: "Right Speech Article", href: "/articles/right-speech-buddhism/" },
       { label: "Right Speech Quote", href: "/quotes/wisdom/right-speech-with-kindness/" },
@@ -3179,6 +3194,7 @@ export const suttaPages: LearningPage[] = [
   {
     section: "sutta-for-daily-life",
     slug: "mindfulness-of-breathing-explained-simply",
+    modifiedDate: "2026-11-11",
     title: "Mindfulness of Breathing Explained Simply",
     description:
       "A simple explanation of mindfulness of breathing and how the breath supports attention, steadiness, and daily practice.",
@@ -3190,23 +3206,23 @@ export const suttaPages: LearningPage[] = [
         heading: "Simple Background",
         paragraphs: [
           "Many Buddhist meditation instructions use the breath because it is always close, ordinary, and changing. The breath gives attention a gentle place to return.",
-          "The practice does not require controlling the breath. A long breath is known as long. A short breath is known as short."
+          "For the introductory exercise here, observe natural breathing without forcing its rhythm. Recognizing long and short breaths is an opening instruction in MN 118."
         ]
       },
       {
         heading: "Main Teaching",
         paragraphs: [
-          "By staying with breathing, the practitioner learns to notice wandering, return kindly, and see body and mind more clearly. The breath becomes a teacher of impermanence and patience."
+          "MN 118 continues beyond recognizing the breath. It includes training to calm bodily fabrication, experience joy and pleasure, steady and release the mind, and contemplate impermanence and relinquishment. These are purposeful developments within a sixteen-step training, whose interpretation and practice deserve fuller guidance."
         ]
       },
       {
         heading: "Modern Daily Life",
         paragraphs: [
-          "One breath before a reply, meeting, or decision can change the quality of action. Breath practice is portable, quiet, and humble."
+          "To read the source, mark where its instructions move from knowing a breath to training a quality. Then compare the four groups with the body, feeling, mind, and phenomena framework introduced above. The <a href='/meditation/breathing-meditation/'>Breathing Meditation guide</a> provides a starter session."
         ]
       }
     ],
-    takeaway: "Mindfulness of breathing trains attention through the repeated, gentle return to the natural breath.",
+    takeaway: "MN 118 develops mindfulness of breathing through sixteen steps and connects it with mindfulness, awakening factors, and release.",
     practice: "Feel three natural breaths without changing them. Begin again whenever attention wanders.",
     relatedLinks: [
       { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
@@ -3214,7 +3230,7 @@ export const suttaPages: LearningPage[] = [
       { label: "Sati", href: "/learn/buddhist-dictionary/sati/" }
     ],
     sourceNote:
-      "This page is an original, simplified explanation of a traditional Buddhist breathing practice.",
+      "MN 118 supplies the sixteen-step structure. The natural-breath starter exercise and adaptations are editorial guidance, not the complete training or a claim of attainment.",
     terms: ["Sati", "Meditation", "Anicca"]
   },
   {
@@ -3279,13 +3295,14 @@ export const suttaPages: LearningPage[] = [
   {
     section: "sutta-for-daily-life",
     slug: "magga-vibhanga-sutta-eightfold-path",
-    title: "Magga-vibhanga Sutta: Eightfold Path Explained Simply",
+    modifiedDate: "2026-11-11",
+    title: "Reading SN 45.8: Definitions and Translation Choices",
     seoTitle: "Magga-vibhanga Sutta and the Noble Eightfold Path",
     description:
-      "A simple source-aware guide to the Magga-vibhanga Sutta and the Noble Eightfold Path in daily life.",
+      "Compare two translations of SN 45.8, examine its definitions, and distinguish textual wording from a modern daily-life illustration.",
     eyebrow: "Sutta for Daily Life",
     intro:
-      "The Magga-vibhanga Sutta gives a compact analysis of the Noble Eightfold Path, showing how wisdom, conduct, and mental training support one another.",
+      "SN 45.8 defines each factor of the Noble Eightfold Path. Use this page to compare its wording in two translations after reading the beginner overview.",
     sections: [
       {
         heading: "What This Teaching Says",
@@ -3302,10 +3319,10 @@ export const suttaPages: LearningPage[] = [
         ]
       },
       {
-        heading: "Notice What the Short Definitions Emphasize",
+        heading: "Compare Two Translation Choices",
         paragraphs: [
-          "The discourse defines right view through the Four Noble Truths and right intention through renunciation, goodwill, and harmlessness. It defines speech, action, and livelihood ethically, then treats effort, mindfulness, and immersion as trained qualities rather than generic productivity or concentration.",
-          "That pattern matters when applying the path at work. A focused employee is not automatically practicing right concentration if focus serves deception or harm. The factors check and support one another; this workplace example is Echo Buddha's interpretation of their integration."
+          "For sammā-saṅkappa, Sujato uses right purpose and Thanissaro uses right resolve. Read the following definition in each version. Both orient the factor toward renunciation, goodwill, and harmlessness. The comparison gives more information than choosing an English label alone.",
+          "For sammā-samādhi, compare Sujato’s immersion with Thanissaro’s concentration. Both versions describe four jhānas here. A few attentive breaths or sustained workplace focus may support training, but neither example supplies that full definition."
         ]
       },
       {
@@ -3316,23 +3333,23 @@ export const suttaPages: LearningPage[] = [
         ]
       },
       {
-        heading: "How to Use This Source Page",
+        heading: "Check Wording Against a Neighboring Text",
         paragraphs: [
-          "Read SN 45.8 beside the broad hub and select one factor whose definition challenges your current assumptions. Trace how it depends on the others—for example, how right effort needs view and intention, or how speech affects the mind brought into meditation.",
-          "The linked translation renders some technical terms differently from other editions. Treat those differences as an invitation to compare, not as evidence that one English label completely captures the Pali term. Echo Buddha paraphrases the structure and does not reproduce the translation."
+          "The right-action passage also needs close reading. In SN 45.8, Sujato’s unchastity and Thanissaro’s sexual-intercourse wording concern celibacy. Thanissaro’s note points to DN 22 and MN 141, which instead use sexual-misconduct wording. A lay precept summary should identify its own source rather than silently substitute it into this passage.",
+          "Record a factor, the English label in each translation, and the definition that follows it. Keep any example you invent in a separate column. This small reading record helps you notice both translation choices and differences between passages."
         ]
       }
     ],
-    takeaway: "The Magga-vibhanga Sutta gives source context for the Eightfold Path as an integrated daily training.",
+    takeaway: "Compare definitions as well as labels when reading SN 45.8. Context and neighboring passages can change what a familiar English word suggests.",
     practice:
-      "Choose one path factor today and let it guide one ordinary action, such as a message, work decision, or five minutes of attention.",
+      "Compare the final factor in both linked translations. Note its shared four-jhāna structure, then label one everyday attention example as your own application.",
     relatedLinks: [
       { label: "Eightfold Path", href: "/learn/eightfold-path/" },
       { label: "Threefold Training", href: "/learn/buddhism-101/threefold-training-sila-samadhi-panna/" },
       { label: "Right Speech", href: "/articles/right-speech-buddhism/" }
     ],
     sourceNote:
-      "Source note: This page is an original source-aware explanation of SN 45.8 themes. It summarizes rather than reproduces translation text.",
+      "The comparison uses Sujato’s and Thanissaro’s SN 45.8 translations and Thanissaro’s note on right action. Short technical labels identify translation choices. The explanations and reading exercise are original editorial guidance.",
     terms: ["Sutta", "Pali Canon", "Right Speech"]
   },
   {
@@ -3381,6 +3398,7 @@ export const meditationGuidePages: LearningPage[] = [
   {
     section: "meditation",
     slug: "meditation-for-beginners",
+    modifiedDate: "2026-11-11",
     title: "Meditation for Beginners",
     description:
       "A gentle beginner's guide to meditation with posture, breathing, common mistakes, encouragement, and safety notes.",
@@ -3388,13 +3406,6 @@ export const meditationGuidePages: LearningPage[] = [
     intro:
       "Meditation begins with a simple willingness to sit, notice, and return. You do not need a silent mind to begin.",
     sections: [
-      {
-        heading: "How to Practice",
-        paragraphs: [
-          "Sit on a chair or cushion with a stable posture. Let the hands rest. Feel the natural breath at the nose, chest, or belly. When attention wanders, notice gently and return.",
-          "Begin with three to five minutes. A short practice repeated often is more useful than a long practice that creates pressure."
-        ]
-      },
       {
         heading: "Common Mistakes",
         paragraphs: [
@@ -3409,7 +3420,6 @@ export const meditationGuidePages: LearningPage[] = [
       }
     ],
     takeaway: "Beginner meditation is the repeated practice of noticing and returning with kindness.",
-    practice: "Sit for five minutes and return to one natural breath whenever you remember.",
     relatedLinks: [
       { label: "Meditation Guide", href: "/meditation-guide/" },
       { label: "Breathing Meditation", href: "/meditation/breathing-meditation/" },
@@ -3472,6 +3482,7 @@ export const meditationGuidePages: LearningPage[] = [
   {
     section: "meditation",
     slug: "loving-kindness-meditation",
+    modifiedDate: "2026-11-11",
     title: "Loving-Kindness Meditation",
     description:
       "Learn loving-kindness meditation with simple goodwill phrases, common difficulties, boundaries, and daily-life practice.",
@@ -3479,20 +3490,6 @@ export const meditationGuidePages: LearningPage[] = [
     intro:
       "Loving-kindness meditation trains mettā: an intention of goodwill toward oneself and others. The phrases guide intention; they are not a demand to feel warm, forgive on command, or allow unsafe access.",
     sections: [
-      {
-        heading: "Begin With an Honest Recipient",
-        paragraphs: [
-          "Sit comfortably and begin with yourself, a trusted friend, a benefactor, or even an animal whose presence makes goodwill uncomplicated. Choose the starting point that produces the least inner argument.",
-          "Silently repeat two or three phrases at an unhurried pace: May I be safe. May I meet difficulty with care. May I live with ease where possible. Use words you can mean as an aspiration, not a prediction."
-        ]
-      },
-      {
-        heading: "Widen the Circle Gradually",
-        paragraphs: [
-          "After several minutes, offer the same intention to an easy person, a neutral person, and—only if the practice remains steady—a mildly difficult person. You can end by widening goodwill to people beyond your immediate circle and to living beings generally.",
-          "The sequence is training, not a moral exam. Skip a category, return to an easier person, or stay with yourself for the entire session when that is wiser. The canonical Metta Sutta provides the traditional orientation toward expansive goodwill; this staged sequence is a modern practice format."
-        ]
-      },
       {
         heading: "Goodwill Does Not Cancel Boundaries",
         paragraphs: [
@@ -3509,7 +3506,6 @@ export const meditationGuidePages: LearningPage[] = [
       }
     ],
     takeaway: "Loving-kindness meditation trains the heart toward goodwill without denying truth or boundaries.",
-    practice: "Repeat three phrases of goodwill for yourself and one other person today.",
     relatedLinks: [
       { label: "Metta", href: "/learn/buddhist-dictionary/metta/" },
       { label: "Metta Sutta", href: "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/" },

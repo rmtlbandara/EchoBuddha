@@ -1,0 +1,96 @@
+{
+  "observedAt": "2026-11-11T09:18:48.548Z",
+  "rows": [
+    {
+      "engine": "chromium",
+      "width": 390,
+      "visible": false,
+      "loaded": false,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 820,
+      "visible": true,
+      "loaded": true,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "visible": true,
+      "loaded": true,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "width": 390,
+      "visible": false,
+      "loaded": false,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "width": 820,
+      "visible": true,
+      "loaded": true,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "visible": true,
+      "loaded": true,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "visible": false,
+      "loaded": false,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 820,
+      "visible": true,
+      "loaded": true,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "visible": true,
+      "loaded": true,
+      "alt": "Seated Buddha on a lotus, with Bodhi leaves and a quiet landscape",
+      "noOverflow": true,
+      "violations": [],
+      "pass": true
+    }
+  ],
+  "pass": true
+}
