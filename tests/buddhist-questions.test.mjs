@@ -15,6 +15,7 @@ const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const questionRoutes = buddhistQuestions.map(getBuddhistQuestionPath);
 const releaseDates = ["2026-09-02", "2026-09-02", "2026-09-14", "2026-09-14", "2026-09-20", "2026-09-24", "2026-09-28", "2026-11-01", "2026-11-01"];
+const modifiedDates = releaseDates.map((date, index) => index === 1 ? "2026-11-11" : date);
 
 test("controlled Buddhist question collection contains exactly nine complete, unique records", () => {
   assert.equal(buddhistQuestions.length, 9);
@@ -27,7 +28,7 @@ test("controlled Buddhist question collection contains exactly nine complete, un
     assert.ok(question.sections.length >= 6);
     assert.ok(question.sources.length >= 2);
     assert.equal(question.publishedDate, releaseDates[index]);
-    assert.equal(question.modifiedDate, releaseDates[index]);
+    assert.equal(question.modifiedDate, modifiedDates[index]);
     assert.ok(!Number.isNaN(Date.parse(`${question.publishedDate}T00:00:00Z`)));
     assert.ok(!Number.isNaN(Date.parse(`${question.modifiedDate}T00:00:00Z`)));
     assert.ok(question.modifiedDate >= question.publishedDate);
@@ -150,12 +151,13 @@ test("all nine question pages resolve with truthful dates, canonical Article met
     assert.match(html, /"@type":"Article"/);
     assert.match(html, /"@type":"BreadcrumbList"/);
     assert.match(html, new RegExp(`"datePublished":"${releaseDates[index]}"`));
-    assert.match(html, new RegExp(`"dateModified":"${releaseDates[index]}"`));
+    assert.match(html, new RegExp(`"dateModified":"${modifiedDates[index]}"`));
     assert.match(html, /By <a href="\/authors\/echo-buddha-editorial\/" rel="author"[^>]*>Echo Buddha Editorial<\/a>/);
     assert.match(html, new RegExp(`<time datetime="${releaseDates[index]}"[^>]*>${formatPublicationDate(releaseDates[index])}</time>`));
     assert.match(html, new RegExp(escapeRegex(getBuddhistQuestionReadTime(buddhistQuestions[index]))));
     assert.doesNotMatch(html, /Prepared by/);
-    assert.doesNotMatch(html, />Updated <time/);
+    if (index === 1) assert.match(html, /Updated <time datetime="2026-11-11"[^>]*>November 11, 2026<\/time>/);
+    else assert.doesNotMatch(html, />Updated <time/);
     assert.doesNotMatch(html, /"@type":"FAQPage"/);
     assert.match(html, /rel="author"[^>]*>Echo Buddha Editorial/);
     assert.match(html, /Sources and Context/);
@@ -187,7 +189,7 @@ test("hub, internal search, and sitemap discover all nine question pages exactly
   for (const [index, route] of questionRoutes.entries()) {
     assert.match(hub, new RegExp(escapeRegex(route)));
     assert.equal((sitemap.match(new RegExp(`https://echobuddha.com${escapeRegex(route)}`, "g")) ?? []).length, 1);
-    assert.match(sitemap, new RegExp(`<loc>https://echobuddha.com${escapeRegex(route)}</loc><lastmod>${releaseDates[index]}</lastmod>`));
+    assert.match(sitemap, new RegExp(`<loc>https://echobuddha.com${escapeRegex(route)}</loc><lastmod>${modifiedDates[index]}</lastmod>`));
     assert.equal(searchIndex.filter((item) => item.url === route).length, 1);
   }
   assert.equal((hub.match(/<article class="surface question-card"/g) ?? []).length, 9);

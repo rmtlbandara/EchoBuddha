@@ -158,20 +158,33 @@ test("content remediation governance assets remain present", () => {
   assert.match(governance, /Original Echo Buddha writing/);
 });
 
-test("domain email routing separates editorial inquiries from website support", () => {
+test("one public contact address covers publisher and website inquiries", () => {
   const site = read("src/data/site.ts");
-  const publisher = read("src/data/editorialGovernance.ts");
-  const contact = read("dist/contact/index.html");
-  const privacy = read("dist/privacy-policy/index.html");
-  const corrections = read("dist/corrections/index.html");
+  assert.match(site, /contactEmail:\s*"info@echobuddha\.com"/);
+  assert.doesNotMatch(site, /editorialEmail|supportEmail/);
 
-  assert.match(site, /editorialEmail:\s*"info@echobuddha\.com"/);
-  assert.match(site, /supportEmail:\s*"support@echobuddha\.com"/);
-  assert.match(publisher, /PUBLISHER_CONTACT_SCHEMA/);
-  assert.match(publisher, /email:\s*`mailto:\$\{SITE\.editorialEmail\}`/);
-  assert.match(contact, /mailto:info@echobuddha\.com/);
-  assert.match(contact, /mailto:support@echobuddha\.com/);
-  assert.match(privacy, /mailto:support@echobuddha\.com/);
-  assert.match(corrections, /mailto:info@echobuddha\.com/);
-  assert.doesNotMatch(`${site}${publisher}${contact}${privacy}${corrections}`, /gmail[.]com/i);
+  for (const directory of ["src", "public", "dist"]) {
+    const files = fs.readdirSync(directory, { recursive: true })
+      .map(file => `${directory}/${file}`)
+      .filter(file => fs.statSync(file).isFile());
+    for (const file of files) {
+      const content = read(file);
+      assert.doesNotMatch(content, /support@echobuddha\.com/i, `Retired contact in ${file}`);
+      const contacts = content.match(/[a-z0-9._%+-]+@echobuddha\.com/gi) ?? [];
+      assert.ok(contacts.every(email => email.toLowerCase() === "info@echobuddha.com"), `Unexpected public contact in ${file}`);
+    }
+  }
+
+  const contact = read("dist/contact/index.html");
+  const schema = [...contact.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+    .flatMap(match => JSON.parse(match[1]));
+  const contactPage = schema.find(item => item["@type"] === "ContactPage");
+  assert.equal(contactPage.mainEntity.email, "mailto:info@echobuddha.com");
+  assert.equal(contactPage.mainEntity.contactPoint.length, 1);
+  assert.equal(contactPage.mainEntity.contactPoint[0].email, "info@echobuddha.com");
+  assert.equal((contact.match(/class="email-link"[^>]*href="mailto:info@echobuddha\.com"/g) ?? []).length, 1);
+
+  for (const route of ["about", "corrections", "privacy-policy", "terms-of-use", "editorial-policy", "authors/echo-buddha-editorial"]) {
+    assert.match(read(`dist/${route}/index.html`), /mailto:info@echobuddha\.com/, route);
+  }
 });

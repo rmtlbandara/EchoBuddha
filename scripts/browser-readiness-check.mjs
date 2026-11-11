@@ -188,6 +188,27 @@ async function runConsentChecks(browser) {
       analyticsCookieCount: withdrawalCookies.filter((cookie) => cookie.name.startsWith("_ga") || cookie.name === "_gid").length
     }
   });
+  await rejectPage.locator("[data-privacy-settings]").first().click();
+  await rejectPage.locator("[data-consent-accept]").click();
+  const reacceptState = await rejectPage.evaluate(({ key, id }) => {
+    const commands = (window.dataLayer || []).map(command => Array.from(command));
+    const updates = commands.filter(command => command[0] === "consent" && command[1] === "update");
+    return {
+      preference: JSON.parse(localStorage.getItem(key)),
+      disabled: window[`ga-disable-${id}`],
+      consent: updates.at(-1)?.[2],
+      scriptCount: document.querySelectorAll('script[src*="googletagmanager.com/gtag/js"]').length,
+      configCount: commands.filter(command => command[0] === "config").length
+    };
+  }, { key: consentKey, id: analyticsId });
+  results.scenarios.push({
+    name: "accept, withdraw, and reaccept restores analytics without duplicate initialization",
+    pass: reacceptState.preference?.analytics === true && reacceptState.disabled === false
+      && reacceptState.consent?.analytics_storage === "granted"
+      && ["ad_storage", "ad_user_data", "ad_personalization"].every(key => reacceptState.consent?.[key] === "denied")
+      && reacceptState.scriptCount === 1 && reacceptState.configCount === 1,
+    details: reacceptState
+  });
   await rejectContext.close();
 
   const privateSearchContext = await browser.newContext();

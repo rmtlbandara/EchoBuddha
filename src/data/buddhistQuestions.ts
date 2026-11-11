@@ -200,7 +200,7 @@ export const buddhistQuestions: BuddhistQuestion[] = [
       "Learn how Buddhists honor the Buddha after Parinibbāna through recollection, relics, stupas, Bodhi traditions, images, offerings, and Dhamma practice.",
     eyebrow: "Question 2",
     publishedDate: "2026-09-02",
-    modifiedDate: "2026-09-02",
+    modifiedDate: "2026-11-11",
     intro:
       "Buddhist respect for the Buddha can continue through recollection and practice without treating him as an unseen person who still needs material support.",
     takeaway:
@@ -264,13 +264,6 @@ export const buddhistQuestions: BuddhistQuestion[] = [
         paragraphs: [
           "A flower placed before a Buddha image does not become meaningful because the Buddha consumes it. It can become an intentional act of recollection. Flowers may call attention to beauty and impermanence; light may symbolize wisdom overcoming ignorance; incense may express reverence; bowing may cultivate gratitude and humility.",
           "Ritual should not be treated mechanically. Intention, understanding, and the qualities of mind accompanying the action matter. Readers visiting a shrine for the first time may also find <a href=\"/articles/visiting-a-buddhist-temple-respectfully/\">Visiting a Buddhist Temple Respectfully</a> useful."
-        ]
-      },
-      {
-        heading: "Can the Buddha Be Respected Without Any Physical Object?",
-        paragraphs: [
-          "Yes. A person without a shrine, relic, temple, Bodhi tree, or image can still recollect the Buddha’s qualities and practice the Dhamma. Physical supports can be meaningful, but sincere recollection is not geographically confined to them.",
-          "To remember the Buddha is meaningful. To understand the Dhamma and let it shape conduct, meditation, compassion, and wisdom is deeper still."
         ]
       }
     ],

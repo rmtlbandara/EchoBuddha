@@ -135,7 +135,7 @@
       "type": "protected-file",
       "target": "src/pages/privacy-policy.astro",
       "approved": true,
-      "reason": "Describe the existing optional analytics fields and aggregate search-use measurement with Google’s linked explanation.",
+      "reason": "Describe the existing optional analytics fields and aggregate search-use measurement with Google\u2019s linked explanation.",
       "owner": "Echo Buddha project owner via November 10 AdSense recovery brief. Candidate requires normal release authorization.",
       "date": "2026-11-10"
     },
@@ -146,6 +146,38 @@
       "reason": "Expose the existing substantive modifiedDate values for learning and meditation routes while preserving the sitemap URL set.",
       "owner": "Echo Buddha project owner via November 10 AdSense recovery brief. Candidate requires normal release authorization.",
       "date": "2026-11-10"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/editorialGovernance.ts",
+      "approved": true,
+      "date": "2026-11-11",
+      "owner": "Project owner via adopted November 11 final-readiness brief.",
+      "reason": "Unify contact metadata to info@echobuddha.com and register the primary references used by corrected teaching pages."
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/privacy-policy.astro",
+      "approved": true,
+      "date": "2026-11-11",
+      "owner": "Project owner via adopted November 11 final-readiness brief.",
+      "reason": "Use the owner-confirmed working public contact address and its actual policy revision date."
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/sitemap.xml.ts",
+      "approved": true,
+      "date": "2026-11-11",
+      "owner": "Project owner via adopted November 11 final-readiness brief.",
+      "reason": "Publish truthful privacy and terms revision dates, retaining the 171 canonical URL set."
+    },
+    {
+      "type": "protected-file",
+      "target": "src/components/ConsentManager.astro",
+      "approved": true,
+      "date": "2026-11-11",
+      "owner": "Project owner via adopted November 11 final-readiness brief.",
+      "reason": "Correct independently reproduced same-page analytics reacceptance; retain affirmative consent gating, denied advertising consent, one script/config initialization and existing minimized fields."
     }
   ]
 }

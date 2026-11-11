@@ -773,7 +773,7 @@ export const handbookPages: HandbookPage[] = [
     description: "Compare the five qualities in AN 5.175 with the ten later virtues in the Milindapañha, including confidence, ethics, generosity, peace, and careful loyalty.",
     eyebrow: "Part II · Chapter 2 of 4",
     publishedDate: "2026-11-03",
-    modifiedDate: "2026-11-03",
+    modifiedDate: "2026-11-11",
     intro: "Buddhist texts do not measure a lay follower by appearance or social prestige. They ask what kind of confidence, conduct, generosity, judgment, and relationship to Dhamma a person is cultivating.",
     takeawayHeading: "Two Lists, Two Source Layers",
     takeaway: "AN 5.175 gives an early five-part contrast; the Milindapañha gives a later ten-part portrait. Read together, they emphasize ethical confidence and peaceful commitment—not superstition, rivalry, or religious vanity.",
@@ -788,7 +788,7 @@ export const handbookPages: HandbookPage[] = [
       {
         heading: "The Five-Part Contrast in AN 5.175",
         paragraphs: [
-          "AN 5.175 uses deliberately sharp ancient language to contrast a degraded lay follower with a lay follower compared to a gem and lotuses. The negative portrait is faithless, unethical, absorbed in noisy superstitious rites, guided by omens rather than deeds, and inclined to seek recipients outside the Buddhist community first. The positive portrait reverses each quality.",
+          "AN 5.175 uses deliberately sharp ancient language to contrast a degraded lay follower with a lay follower compared to a gem and lotuses. Its five negative qualities are lack of confidence, unethical conduct, superstitious rites with reliance on omens rather than deeds, seeking donation recipients outside the Buddhist community, and making offerings there first. The positive portrait reverses each quality. The rites and reliance on omens form one item; seeking recipients and giving there first are two distinct items.",
           "The first two qualities are straightforward: confidence and ethical conduct belong together. Confidence without restraint can become identity performance; restraint without a wider direction can become brittle rule-keeping. The discourse joins trust in the path to observable behavior.",
           "Its rhetoric should be explained rather than copied as an insult for people. Ancient terms translated as ‘corpse-worker,’ ‘outcast,’ or similar labels reflect the force of the passage and its social world. They are not a license for caste contempt, harassment, or ranking modern people’s worth."
         ]

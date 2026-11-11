@@ -9,7 +9,7 @@
       "baselineSha": "5186b26a79c366d210896de1f1e7da41863b7cb5",
       "baselineEvidence": "docs/audits/production-transformation-2026-10-23/PRE_RELEASE_BASELINE.json",
       "baselineEvidenceSha256": "001a7e9fbb60efcf9ff73992b6046a2f205a22cc93b7206ee2031cf29bccebcc",
-      "measurementImpact": "The original September 29–October 26 period is intervened when this release reaches production. Do not treat it as a clean causal comparison or unlock destructive consolidation from it.",
+      "measurementImpact": "The original September 29\u2013October 26 period is intervened when this release reaches production. Do not treat it as a clean causal comparison or unlock destructive consolidation from it.",
       "plannedReleaseDate": "2026-10-23",
       "productionDeployedAt": "2026-10-23T12:23:55.359998Z",
       "productionSha": "67f486a8d990f0058374301d9ebf6fd74ed85994",
@@ -746,7 +746,7 @@
     {
       "id": "q8-kathavatthu-emphasis-fix-2026-11-02",
       "status": "DEPLOYED",
-      "authorizedBy": "Project owner supplied a production screenshot showing literal <i>Kathāvatthu</i> markup in the Q8 Key Takeaway and requested: pls fix.",
+      "authorizedBy": "Project owner supplied a production screenshot showing literal <i>Kath\u0101vatthu</i> markup in the Q8 Key Takeaway and requested: pls fix.",
       "authorizedOn": "2026-11-02",
       "baselineSha": "31441fc5219cea49b25f57977a340677a4ba0af1",
       "baselineEvidence": "docs/audits/q8-kathavatthu-emphasis-fix-2026-11-02/PRE_RELEASE_BASELINE.json",
@@ -761,7 +761,7 @@
           "deploymentId": "578775c3-6237-4057-8fe8-4a8c05434954",
           "versionId": "5c42e7f9-2d0f-4cf9-a1d1-fe14a5b31071",
           "workflowRunId": 41384064908,
-          "verification": "Exact merged-main validation and production deployment passed; immutable 814-file artifact verified; production smoke passed 15/15; /release.json served the exact SHA; independent live DOM inspection confirmed real italic emphasis for Kathāvatthu and no literal <i> tags; IndexNow HTTP 200 accepted one changed canonical notification, not indexing."
+          "verification": "Exact merged-main validation and production deployment passed; immutable 814-file artifact verified; production smoke passed 15/15; /release.json served the exact SHA; independent live DOM inspection confirmed real italic emphasis for Kath\u0101vatthu and no literal <i> tags; IndexNow HTTP 200 accepted one changed canonical notification, not indexing."
         }
       ],
       "publicRouteRemovals": 0,
@@ -807,11 +807,11 @@
       "canonicalChanges": 0,
       "scope": "Preserve the eight established Part I handbook routes; add four complete Part II lay-path chapters; group the hub into two parts; strengthen the existing Right Livelihood owner with AN 5.177; add a concise three-cetiya section to the existing respect owner; update Home, Learn, search, sitemap, schema, breadcrumbs, conservative monetization, governance, tests, source audits, and four original responsive image sets. No route removal, owner reassignment, canonical change, noindex change, advertising enablement, consent change, or AdSense review request.",
       "approvedApplicationFiles": {
-      "src/data/handbook.ts": "56482f15c76a4268a1eb850308b02d513775c85820ff4e04e5a54b5b9c7505ed",
+        "src/data/handbook.ts": "56482f15c76a4268a1eb850308b02d513775c85820ff4e04e5a54b5b9c7505ed",
         "src/data/learn.ts": "28d035407eeb5f1dcd12100d1ad16a7e8469a19a3173d891f4a68dc469ad545f",
         "src/data/monetization-route-registry.mjs": "87a825c14fdc6c53cfce2ab6ea8b86558c3b145eed3c33fd097ce3ae7dfa30b5",
         "src/pages/index.astro": "864d6191da04bb782a6fc3d5eeb3deb20e3baec8185da914f5c85750d2be31ee",
-      "src/pages/learn/buddhist-handbook/[slug].astro": "dcce1f31f0366e11039e7b60f70716d8757f04ecde4ce2682af79d38dee3b765",
+        "src/pages/learn/buddhist-handbook/[slug].astro": "dcce1f31f0366e11039e7b60f70716d8757f04ecde4ce2682af79d38dee3b765",
         "src/pages/learn/buddhist-handbook/index.astro": "92c0fe87069af811029eff507f54abe003f4324d306388bd6fa1bebd716b97db",
         "src/pages/learn/index.astro": "ff994be49234bdde733710b1c964c931e0f2e672a32406c1d7a162d7c2f83c59",
         "src/pages/search-index.json.ts": "92df6f0bc8586247696509e6b72ef22ba836dfc7b75d619a1bdea5ec5c7e9fa0",
@@ -1086,7 +1086,7 @@
       "indexStateChanges": 0,
       "ownerChanges": 0,
       "canonicalChanges": 0,
-      "scope": "Differentiate the karma application, Eightfold Path source lesson, household practice and Karuṇā entry. Correct interpretation, meditation safety and source boundaries. Clarify existing analytics disclosures, and surface recorded page modification dates in the sitemap. Retain the three earlier candidate fixes.",
+      "scope": "Differentiate the karma application, Eightfold Path source lesson, household practice and Karu\u1e47\u0101 entry. Correct interpretation, meditation safety and source boundaries. Clarify existing analytics disclosures, and surface recorded page modification dates in the sitemap. Retain the three earlier candidate fixes.",
       "approvedApplicationFiles": {
         "src/data/editorialGovernance.ts": "86d9ab98ff6e1ea5fa7eae68183870d9590611cb1e4fca88d24488ab4b9d203e",
         "src/data/handbook.ts": "253e6bc3f0736f91e12d69b19695337ae10735b39435acc0ff8cb3e5c5f7c9cf",
@@ -1157,6 +1157,121 @@
         "/privacy-policy/"
       ],
       "measurementImpact": "Candidate only. After an authorized release, append the verified release receipt and restart stable observation on the next Pacific day. Historical snapshots stay descriptive."
+    },
+    {
+      "id": "adsense-recovery-release-receipt-2026-11-10",
+      "status": "DEPLOYED",
+      "authorizedBy": "Owner authorized the November 10 exact-SHA release and November 11 reconciliation of its verified production state.",
+      "authorizedOn": "2026-11-11",
+      "baselineSha": "4f9c691049ac3cad20c0cbc56d3df5d1110d6489",
+      "baselineEvidence": "docs/deployments/receipts/2026-11-10-adsense-recovery.json",
+      "baselineEvidenceSha256": "7f99e524f07e24ed29f39e573ceae85911ca293ecbe8437dae92a97535a09b9e",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Append the verified November 10 release receipt without changing prior candidate records.",
+      "approvedApplicationFiles": {},
+      "productionSha": "4f9c691049ac3cad20c0cbc56d3df5d1110d6489",
+      "productionDeployedAt": "2026-11-10T15:44:19.632567Z",
+      "latestVerifiedProduction": {
+        "workflowRunId": 42847152198,
+        "cloudflareDeploymentId": "d1a48ef3-f94e-46ac-bd1c-eb2253dd36c5",
+        "cloudflareVersionId": "61be5a18-59de-45f6-895c-825c0179ef3b",
+        "smokePassed": 15
+      }
+    },
+    {
+      "id": "adsense-final-readiness-2026-11-11",
+      "status": "PLANNED",
+      "authorizedBy": "Owner adopted writing-block (27).md on November 11 and authorized necessary content, contact, search, validation and governed release work.",
+      "authorizedOn": "2026-11-11",
+      "baselineSha": "1440d56f6282f177cd8b853592a4416fdfc9a78d",
+      "baselineEvidence": "docs/audits/adsense-final-readiness-2026-11/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "17e36054eb2eac4c67bbf1dad6683c36dd2fec37a73725c973cc646888294186",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "One public contact address, differentiated reader tasks and source precision, truthful update metadata, repeated practice consolidation and clear resource navigation. Restore analytics consent on same-page reacceptance while initializing the script once and retaining denied advertising consent.",
+      "approvedApplicationFiles": {
+        "src/data/buddhistQuestions.ts": "c928d06eafa606aa769ecf700391b236e437c4357bab466011d7b5efbb8219a4",
+        "src/data/dailyReflections.ts": "a250993699a4de3df314fd3c9ea4ddac45875d5c3a81e5b1766a8510ebde76f8",
+        "src/data/editorialGovernance.ts": "89eac0f2c871e34dbb50e3d9a2f4c9fc231f26b7db647f15e096fd239bb7ae1c",
+        "src/data/handbook.ts": "a068b196d48b90374309f04fa4b7c94fad0b78e222a8fd8f16376c9b26d9c2fb",
+        "src/data/learn.ts": "57b185813766e3adda613d3dbd09007dfc6420921f2e7a2d6a1d12052c3dc127",
+        "src/data/site.ts": "9b757b2ca963d962448473cb55cd31314087e6d53a79f12be2e68c6b8ae76b11",
+        "src/pages/about.astro": "a3adb3ce998e4ce46b81e2cf943997f294ef1773fc2e1100cce7d18ab996c598",
+        "src/pages/contact.astro": "840d791f9f176ffd6578d1487066c4ec06f02b5e2bcb5b7bbebc1499ca164e86",
+        "src/pages/corrections.astro": "901b889b9b3181d259fa3a5520565898323dc3a58dc6def42b7bbdce18e086fb",
+        "src/pages/daily-reflections/index.astro": "4b70b6509eabb26d74933efed57c7934e627ebd90242f7a38df4bc7f33b2fc37",
+        "src/pages/editorial-policy.astro": "36dc341ea3983cf3a95fdafc011ab530d16247fb168a5f90cf6bc19f32b2799c",
+        "src/pages/learn/[section]/[slug].astro": "d1c119809c2ef5dd7f7881dde8682a98b3a2a298a78f4fd0cb2b29f5c3bb7de3",
+        "src/pages/learn/buddhist-resources.astro": "11610c2316a1cc247dd27459f8001a25180ec4fb421f32731b7c43445d3f3250",
+        "src/pages/meditation/[slug].astro": "729b853264b57c212f90119a84a1eeb5679f70ca96eae6a32e3dfdeabf4406c1",
+        "src/pages/privacy-policy.astro": "a0bf164c191e7f0b1e236183241f7c66f04618d48f142ddbc233462d6a79c973",
+        "src/pages/sitemap.xml.ts": "08524e45d3bf0d5add06af4389f145dc6099e35b70c5b40c71d53bb3d93688a2",
+        "src/pages/terms-of-use.astro": "d50c48d1741a510a7aefe846f1b8444302107a975390eb53b368068a9369444b",
+        "src/components/ConsentManager.astro": "99f880d8f1211ab679e974e871b4bc4d67f4699cebc560dc737987e61a95ceba"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/buddhistQuestions.ts",
+          "interventionId": "buddhist-questions-q8-q9-2026-11-01",
+          "previousSha256": "8ebd90218ce98d17153ec249e5d40937f82544a6025e46ef86e3e31b80d40d8b"
+        },
+        {
+          "file": "src/data/editorialGovernance.ts",
+          "interventionId": "adsense-recovery-editorial-2026-11-10",
+          "previousSha256": "86d9ab98ff6e1ea5fa7eae68183870d9590611cb1e4fca88d24488ab4b9d203e"
+        },
+        {
+          "file": "src/data/handbook.ts",
+          "interventionId": "adsense-recovery-editorial-2026-11-10",
+          "previousSha256": "253e6bc3f0736f91e12d69b19695337ae10735b39435acc0ff8cb3e5c5f7c9cf"
+        },
+        {
+          "file": "src/data/learn.ts",
+          "interventionId": "adsense-recovery-editorial-2026-11-10",
+          "previousSha256": "aa02ebedb33d6fa8eaff112ab70104a6c5d7078ec894d6da1bf6c06f8a8810c8"
+        },
+        {
+          "file": "src/data/site.ts",
+          "interventionId": "adsense-recovery-editorial-2026-11-10",
+          "previousSha256": "9be42644713bd51c373d560d2f087547751bd1a3c38b166b6c0acba4e779f30f"
+        },
+        {
+          "file": "src/pages/daily-reflections/index.astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "83a4593b8a2fb56154b9845dd1923b16fd74c917a36bc948273ae1426d7a2249"
+        },
+        {
+          "file": "src/pages/learn/[section]/[slug].astro",
+          "interventionId": "october-audit-remediation-2026-10-27",
+          "previousSha256": "f07de1035810102a3cb65b2dc4999a2a8e698bb5dfe9f0f6ab9d716038d5881e"
+        },
+        {
+          "file": "src/pages/meditation/[slug].astro",
+          "interventionId": "october-audit-remediation-2026-10-27",
+          "previousSha256": "e0e34d82fbadf0a55e7a689d43789f87f3882f1b7a9d015b05cc2ab8c98af8d2"
+        },
+        {
+          "file": "src/pages/privacy-policy.astro",
+          "interventionId": "adsense-recovery-editorial-2026-11-10",
+          "previousSha256": "f47e3b66973865780da3040d0f0280a6e621b70fb9a629c51162a5cdd567ccb0"
+        },
+        {
+          "file": "src/pages/sitemap.xml.ts",
+          "interventionId": "adsense-recovery-editorial-2026-11-10",
+          "previousSha256": "de0da1f9744629a3d35aac6fd587a5d1b9d5c861b8fcb8fe35850678458528bb"
+        },
+        {
+          "file": "src/components/ConsentManager.astro",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "021075bf600404a87e12d6344f6a92e88e45d981773702250a766310d20ad4e2"
+        }
+      ],
+      "measurementImpact": "After a verified governed release, append its actual production receipt. Restart stable descriptive observation on the next Pacific day. No causal search or approval guarantee."
     }
   ]
 }

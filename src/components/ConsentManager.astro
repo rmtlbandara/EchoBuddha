@@ -108,25 +108,29 @@ const isProduction = import.meta.env.PROD;
       };
 
       const loadAnalytics = () => {
-        if (analyticsLoaded || !isProduction) return;
-        analyticsLoaded = true;
+        if (!isProduction) return;
         window[`ga-disable-${analyticsId}`] = false;
         window.dataLayer = window.dataLayer || [];
         window.gtag = window.gtag || function gtag() {
           window.dataLayer.push(arguments);
         };
-        window.gtag("consent", "default", {
-          ad_storage: "denied",
-          ad_user_data: "denied",
-          ad_personalization: "denied",
-          analytics_storage: "denied"
-        });
+        if (!analyticsLoaded) {
+          window.gtag("consent", "default", {
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            analytics_storage: "denied"
+          });
+        }
         window.gtag("consent", "update", {
           analytics_storage: "granted",
           ad_storage: "denied",
           ad_user_data: "denied",
           ad_personalization: "denied"
         });
+        // Reacceptance restores consent, while script and config run once per page.
+        if (analyticsLoaded) return;
+        analyticsLoaded = true;
         const script = document.createElement("script");
         script.async = true;
         script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analyticsId)}`;

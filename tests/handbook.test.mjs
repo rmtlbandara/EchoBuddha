@@ -31,7 +31,7 @@ test("handbook contains twelve substantial, unique, source-aware chapters in two
     assert.ok(page.sources.length >= 3);
     assert.ok(page.relatedLinks.length >= 3);
     assert.equal(page.publishedDate, page.number <= 8 ? "2026-09-25" : "2026-11-03");
-    assert.equal(page.modifiedDate, page.number >= 7 ? "2026-11-03" : "2026-09-26");
+    assert.equal(page.modifiedDate, page.slug === "qualities-of-a-lay-buddhist" ? "2026-11-11" : page.number >= 7 ? "2026-11-03" : "2026-09-26");
     assert.equal(page.image.width, 1600);
     assert.equal(page.image.height, 900);
     assert.match(getHandbookReadTime(page), /^\d+ min read$/);

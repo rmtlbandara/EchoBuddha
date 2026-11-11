@@ -175,7 +175,7 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
         {(sourceNoteText || sourceLinks.length > 0) && (
           <section>
             <h2>{editorialLabels.source}</h2>
-            <p>{sourceNoteText}</p>
+            {sourceNoteText && <p>{sourceNoteText}</p>}
             {sourceLinks.length > 0 && (
               <>
                 <h3>Traditional References</h3>

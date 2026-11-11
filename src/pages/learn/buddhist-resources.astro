@@ -8,17 +8,17 @@ const description =
   "A curated Echo Buddha resource page for Buddhist texts, meditation learning, dictionaries, beginner Buddhism, Sri Lankan resources, and global Buddhist study.";
 const canonicalPath = "/learn/buddhist-resources/";
 const internalStudyLinks = [
-  { label: "How to Read a Buddhist Sutta", href: "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/" },
-  { label: "Nirvana", href: "/learn/buddhist-dictionary/nirvana/" },
-  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/" },
-  { label: "The Mind Leads All Things", href: "/learn/dhammapada-reflections/the-mind-leads-all-things/" },
-  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/" },
-  { label: "Peace Comes From a Trained Mind", href: "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/" },
-  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/" },
-  { label: "Metta Sutta Explained for Daily Life", href: "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/" },
-  { label: "Mindfulness of Breathing Explained Simply", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/" },
-  { label: "Buddha's Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/" },
-  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/" }
+  { label: "How to Read a Buddhist Sutta", href: "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/", description: "Decode discourse references, compare translations, and distinguish source wording from interpretation." },
+  { label: "Nirvana", href: "/learn/buddhist-dictionary/nirvana/", description: "Look up the goal of liberation and the limits of everyday metaphors for it." },
+  { label: "Avoid Evil, Do Good, Purify the Mind", href: "/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/", description: "Reflect on restraint, helpful action, and mental training through an original Dhammapada-inspired illustration." },
+  { label: "The Mind Leads All Things", href: "/learn/dhammapada-reflections/the-mind-leads-all-things/", description: "Examine how intention shapes conduct without treating every event as a product of thought." },
+  { label: "Hatred Is Not Ended by Hatred", href: "/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/", description: "Explore non-hatred alongside accountability, protection, and clear boundaries." },
+  { label: "Peace Comes From a Trained Mind", href: "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/", description: "Connect patience and repeated mental training with a practical reflection." },
+  { label: "Kalama Sutta and Wise Thinking", href: "/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/", description: "Read wise inquiry in its ethical context, beyond a slogan about believing only personal experience." },
+  { label: "Metta Sutta Explained for Daily Life", href: "/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/", description: "Explore goodwill, the conduct supporting it, and its application in ordinary relationships." },
+  { label: "Mindfulness of Breathing Explained Simply", href: "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/", description: "Understand introductory breath practice and its relationship to the fuller traditional training." },
+  { label: "Buddha's Teaching on Patience", href: "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/", description: "Practice patience with delay and conflict while preserving necessary action and boundaries." },
+  { label: "Better Than a Thousand Empty Words", href: "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/", description: "Consider meaningful speech and silence through an original reflection inspired by the Dhammapada." }
 ];
 const jsonLd = [
   {
@@ -72,7 +72,7 @@ const jsonLd = [
         </section>
       ))}
       <section class="surface resource-card internal-study">
-        <h2>Echo Buddha Text Study Starting Points</h2>
+        <h2>Echo Buddha Study Starting Points</h2>
         <p>
           Begin with these source-aware internal guides, then compare the external resources above for fuller study and
           different translation choices.
@@ -81,7 +81,7 @@ const jsonLd = [
           {internalStudyLinks.map((link) => (
             <li>
               <a href={link.href}>{link.label}</a>
-              <span>Internal beginner guide with practical reflection and source context.</span>
+              <span>{link.description}</span>
             </li>
           ))}
         </ul>

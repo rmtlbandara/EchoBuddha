@@ -26,10 +26,19 @@ test("substantively revised learning pages expose their actual modification date
     "meditation/10-minute-meditation-practice": "2026-10-27",
     "learn/buddhist-dictionary/karuna": "2026-11-10",
     "learn/buddhist-dictionary/dukkha": "2026-11-10",
-    "learn/buddhism-101/the-noble-eightfold-path-explained": "2026-11-10",
+    "learn/buddhism-101/the-noble-eightfold-path-explained": "2026-11-11",
     "learn/buddhism-101/how-to-practice-buddhism-at-home": "2026-11-10",
     "meditation/meditation-posture-for-beginners": "2026-11-10",
-    "meditation/mindfulness-in-daily-life": "2026-11-10"
+    "meditation/mindfulness-in-daily-life": "2026-11-10",
+    "learn/buddhism-101/three-marks-of-existence": "2026-11-11",
+    "learn/buddhism-101/threefold-training-sila-samadhi-panna": "2026-11-11",
+    "learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply": "2026-11-11",
+    "learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path": "2026-11-11",
+    "learn/sutta-for-daily-life/right-speech-in-daily-life": "2026-11-11",
+    "learn/questions-about-buddhism/respecting-buddha-after-parinibbana": "2026-11-11",
+    "learn/buddhist-handbook/qualities-of-a-lay-buddhist": "2026-11-11",
+    "meditation/meditation-for-beginners": "2026-11-11",
+    "meditation/loving-kindness-meditation": "2026-11-11"
   };
   const sitemap = fs.readFileSync("dist/sitemap.xml", "utf8");
   for (const [route, modified] of Object.entries(datedRoutes)) {
@@ -40,6 +49,20 @@ test("substantively revised learning pages expose their actual modification date
     assert.ok(sitemap.includes(`<loc>https://echobuddha.com/${route}/</loc><lastmod>${modified}</lastmod>`), route);
   }
   const unchanged = fs.readFileSync("dist/learn/buddhist-dictionary/metta/index.html", "utf8");
-  assert.doesNotMatch(unchanged, /datetime="2026-(?:10-27|11-10)"/);
+  assert.doesNotMatch(unchanged, /datetime="2026-(?:10-27|11-10|11-11)"/);
   assert.ok(sitemap.includes("<loc>https://echobuddha.com/learn/buddhist-dictionary/metta/</loc></url>"));
+});
+
+
+test("starter meditation pages retain one complete method before their session review", () => {
+  for (const [slug, heading] of [
+    ["meditation-for-beginners", "Your First Session, Step by Step"],
+    ["loving-kindness-meditation", "Try Three to Five Minutes"]
+  ]) {
+    const html = fs.readFileSync(`dist/meditation/${slug}/index.html`, "utf8");
+    assert.equal(html.includes(">Try One Session<"), false, slug);
+    assert.equal(html.split(heading).length - 1, 1, slug);
+    assert.ok(html.indexOf(heading) < html.indexOf(">After the Session<"), slug);
+    assert.ok(html.includes(">Practice Safety<"), slug);
+  }
 });
