@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "githubDeploymentId": 7712624440,
+  "githubRunId": 43037973572,
+  "githubSuccessStatusId": 21953030283,
+  "sha": "bb44ff95fbba3e312a2a76b6f49a65a35cd2c551",
+  "cloudflareDeploymentId": "2be04185-5869-4457-97bf-9d69c7fb0a73",
+  "cloudflareVersionId": "672b2829-0760-4d5f-b715-0c6b163e867e",
+  "trafficPercent": 100,
+  "deployedAt": "2026-11-11T14:24:30.845944Z",
+  "activationVerificationAttempts": 1,
+  "artifact": {
+    "id": 13864381461,
+    "sha256": "c126b6d871ad7d5171c0ef7c4b72f947fb564ca35fb2e982118322b0ee8ab2f6",
+    "aggregateSha256": "21fe511c4875f0b60c51fc11761c671b0fb49ab1728a9a8e96db3868e313d390",
+    "manifestFiles": 837
+  },
+  "smoke": {
+    "total": 15,
+    "passed": 15,
+    "verifiedAt": "2026-11-11T14:24:35.182Z"
+  },
+  "monitor": {
+    "runId": 43038320353,
+    "total": 15,
+    "passed": 15,
+    "productionStatus": "VERIFIED_LIVE",
+    "verifiedAt": "2026-11-11T14:25:43.086Z"
+  },
+  "publicArtifactVerification": {
+    "observedAt": "2026-11-11T14:32:17.217Z",
+    "sha": "bb44ff95fbba3e312a2a76b6f49a65a35cd2c551",
+    "artifactAggregateSha256": "21fe511c4875f0b60c51fc11761c671b0fb49ab1728a9a8e96db3868e313d390",
+    "artifactFiles": 837,
+    "publicFilesVerified": 835,
+    "excludedConfigurationFiles": 2,
+    "htmlVerified": 357,
+    "byteIdenticalFiles": 834,
+    "edgeTransformedFiles": 1,
+    "allPublicFilesVerified": true,
+    "contacts": [
+      "info@echobuddha.com"
+    ],
+    "adsRuntimeAbsentFromHtml": true,
+    "securityHeadersAllHtml": true
+  },
+  "indexnow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 171,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-11T14:24:42.820Z",
+    "indexingGuaranteed": false
+  },
+  "acceptanceEvidence": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/43037973572/job/130582224097",
+  "acceptanceReportPath": "docs/deployments/2026-11-11-final-readiness.md"
+}

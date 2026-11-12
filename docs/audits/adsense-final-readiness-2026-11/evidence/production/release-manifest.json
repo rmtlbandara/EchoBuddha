@@ -1,0 +1,4196 @@
+{
+  "schemaVersion": 1,
+  "sha": "bb44ff95fbba3e312a2a76b6f49a65a35cd2c551",
+  "ref": "refs/heads/main",
+  "workflowRunId": "43037973572",
+  "createdAt": "2026-11-11T14:23:56.456Z",
+  "fileCount": 837,
+  "aggregateSha256": "21fe511c4875f0b60c51fc11761c671b0fb49ab1728a9a8e96db3868e313d390",
+  "files": [
+    {
+      "path": "dist/404.html",
+      "bytes": 23657,
+      "sha256": "1b29c5dadb711c0fe017b16cb4a21f7b240c0cb68063c1eeb0a10bd6e00bc380"
+    },
+    {
+      "path": "dist/81e7690f87496de3112f2f896e936ac7.txt",
+      "bytes": 33,
+      "sha256": "9486ff6f2b4381c35860eb5cc8e12310f8c6a7cb58f8fc53ab25073f82e5e75a"
+    },
+    {
+      "path": "dist/_astro/Layout.CsPnpYK5.css",
+      "bytes": 16077,
+      "sha256": "790b0bad8802a2bfabd266d47aa2e891eaa85a4847d042149eede6085f674ca9"
+    },
+    {
+      "path": "dist/_astro/_slug_.TpxC2fgR.css",
+      "bytes": 8164,
+      "sha256": "d4cbe91b72474b21bb0a539669c6e9bb31be574107eb6e401487449230e43709"
+    },
+    {
+      "path": "dist/_astro/index.RaHDr6k8.css",
+      "bytes": 4463,
+      "sha256": "69fb9be8dd620a27cb9bfe3d94ec4ca26f8c642d47f88436887664d2dbdb5fbf"
+    },
+    {
+      "path": "dist/_astro/index.WM3ErPku.css",
+      "bytes": 7674,
+      "sha256": "b436604f290fc3a6b641129354470881800040c076a4ebb721148082fc1e0e02"
+    },
+    {
+      "path": "dist/_astro/tools.C2J5eg27.css",
+      "bytes": 4283,
+      "sha256": "69cadee51edbe8efad153a486cf317eb9f21348c98e98cc027a8213209e2b42a"
+    },
+    {
+      "path": "dist/_headers",
+      "bytes": 1350,
+      "sha256": "16c0ab41ead01926a385e65d1870467cec8f274d82d2ee7de05b5b5166e9a4b3"
+    },
+    {
+      "path": "dist/_redirects",
+      "bytes": 36728,
+      "sha256": "8bcd19b5d099a1339ab83d9031ac14bd2bb5a3b4b618f20f8e5ea345ed3cbc47"
+    },
+    {
+      "path": "dist/about/index.html",
+      "bytes": 27828,
+      "sha256": "012d0747f4c3b868a1654fc454070f74aaa75d9ff7f5e9ad62e509bf5d9c5e16"
+    },
+    {
+      "path": "dist/ads.txt",
+      "bytes": 59,
+      "sha256": "ce9bd36c4bfed732f7e84f43b427986394ed8819bc4a3357c1236b395ab7b32b"
+    },
+    {
+      "path": "dist/apple-touch-icon.png",
+      "bytes": 8782,
+      "sha256": "491dd9621e57171f547425bb5c5c8c403995f017569247700f4e3ec29547b1d9"
+    },
+    {
+      "path": "dist/articles/beginning-a-daily-mindfulness-practice/index.html",
+      "bytes": 57616,
+      "sha256": "a4c054b130ffccf0af34e0d8eb734b8f0514d4937cc42c9381ecba6d89519e31"
+    },
+    {
+      "path": "dist/articles/buddhism-for-beginners-simple-guide/index.html",
+      "bytes": 58910,
+      "sha256": "2fa2207df8d345e131f7f91d0735180fee96289d7c1191affa2302b9250fa969"
+    },
+    {
+      "path": "dist/articles/buddhist-approach-to-anger/index.html",
+      "bytes": 59099,
+      "sha256": "6b2201a6a5a85f044d9406719638e24fb39116065d6bd39ac3368c4426736495"
+    },
+    {
+      "path": "dist/articles/buddhist-gratitude-practice/index.html",
+      "bytes": 60969,
+      "sha256": "f942ac5fe97625ed366b65ff26ea36e96518a31025537ef0ad26c9c6b3d426a1"
+    },
+    {
+      "path": "dist/articles/buddhist-teachings-on-forgiveness/index.html",
+      "bytes": 63405,
+      "sha256": "987a5085d9f5809be953c315f75f07b4119dac92df0b928e863b8708f31e4870"
+    },
+    {
+      "path": "dist/articles/buddhist-teachings-on-impermanence/index.html",
+      "bytes": 60234,
+      "sha256": "3815fea057be3d5a0e767762c1f0dd174a056d32407a7fe05d1e74ac546f9d40"
+    },
+    {
+      "path": "dist/articles/buddhist-wisdom-for-overthinking/index.html",
+      "bytes": 67128,
+      "sha256": "73acfcc3715279fe5af9b85932e7bd611c1c6a0c5f92d6989a1cf85c394ca6f6"
+    },
+    {
+      "path": "dist/articles/category/buddhist-wisdom/index.html",
+      "bytes": 94417,
+      "sha256": "eff5fbe0a0f65dfcbf696b4226786d6a9ac277d11fcb96df2beee07b3c6f4751"
+    },
+    {
+      "path": "dist/articles/category/meditation/index.html",
+      "bytes": 59402,
+      "sha256": "9dcdc539542cfcf988411e8e7d233465709f7ef8938b482e269890b57a1c32cc"
+    },
+    {
+      "path": "dist/articles/category/mindfulness/index.html",
+      "bytes": 46340,
+      "sha256": "50fbc8ebc5208009ffc8c1362135cc5255886ed731f7ea047871d9f5cc9e38ea"
+    },
+    {
+      "path": "dist/articles/category/practice/index.html",
+      "bytes": 52522,
+      "sha256": "d420e4d88fdc950b926030511dd92cdb1226b71ad4edc88bc1bc431e2f5c17fb"
+    },
+    {
+      "path": "dist/articles/category/reflection/index.html",
+      "bytes": 52997,
+      "sha256": "d4c838cbe79698175d599b434209b84510bd9be575731361e966f5d2447e8bd2"
+    },
+    {
+      "path": "dist/articles/compassion-as-a-daily-discipline/index.html",
+      "bytes": 58869,
+      "sha256": "9fa8e8f7020985b85d7d80f0b5505883a505b696a41a777565a06ca14fea40fc"
+    },
+    {
+      "path": "dist/articles/compassion-in-buddhism-beginner-guide/index.html",
+      "bytes": 58038,
+      "sha256": "dd5a1b25941a84dec6e863d81bb06c747631047462e55b59aa841f734f1b12da"
+    },
+    {
+      "path": "dist/articles/compassion-with-boundaries/index.html",
+      "bytes": 60009,
+      "sha256": "6b1fec42973889a6e2158af27daac963d59f1590d22f7ec28166f148f4006e2f"
+    },
+    {
+      "path": "dist/articles/creating-a-peaceful-corner-at-home/index.html",
+      "bytes": 56955,
+      "sha256": "ce12d8f4bc585ae69bd5e1e171635d226103bd9b4360e644c7e24a82dd8e1e24"
+    },
+    {
+      "path": "dist/articles/dhamma-vs-dharma/index.html",
+      "bytes": 61038,
+      "sha256": "f6ee11eff8881ead6f3cf48f90e1038f1f1f943939ffb96accdad945af3725d1"
+    },
+    {
+      "path": "dist/articles/dhammapada-reflection-trained-mind/index.html",
+      "bytes": 60880,
+      "sha256": "3775d69f1cf702bc58fda0452bdb2eb2b72c38aac2abbe5b98942784a6e8b93f"
+    },
+    {
+      "path": "dist/articles/dhammapada-reflection-what-we-think/index.html",
+      "bytes": 67977,
+      "sha256": "0a579fbec01bc0192799d1c8db8369c710b22422590aaf07633c0c7ee651fa7d"
+    },
+    {
+      "path": "dist/articles/dhammapada-verse-1-meaning/index.html",
+      "bytes": 61096,
+      "sha256": "9d936f1387124d216b3e4518bda1a7831c8130870a57571f3a4cb2e1b1e79a28"
+    },
+    {
+      "path": "dist/articles/eightfold-path-explained-daily-life/index.html",
+      "bytes": 58597,
+      "sha256": "0b10c1464e870ea2020f70a36227085ebc42a902bf025d6dba2dcc5cb59fde05"
+    },
+    {
+      "path": "dist/articles/eightfold-path-explained/index.html",
+      "bytes": 59407,
+      "sha256": "70ca3cd10ee3bc89bba7acf2c4c660fdd923ae03f97bbb2bf915a676d2b6ca71"
+    },
+    {
+      "path": "dist/articles/equanimity-in-buddhism/index.html",
+      "bytes": 61266,
+      "sha256": "28bdf232465ed7d8d70dde16b173778740866cc8b6ac690d79b12bcb420fe1f9"
+    },
+    {
+      "path": "dist/articles/first-week-buddhist-practice/index.html",
+      "bytes": 60478,
+      "sha256": "2aef627a6b933623983558790180e8ccd3eee119be98c9dad7bf59b2e9dbbce2"
+    },
+    {
+      "path": "dist/articles/five-precepts-in-daily-life/index.html",
+      "bytes": 71087,
+      "sha256": "df2995f7b93c1a147e00375fdefdff95aca663a63654cd7ead4d747c60ca7a40"
+    },
+    {
+      "path": "dist/articles/four-noble-truths-explained-simply/index.html",
+      "bytes": 58855,
+      "sha256": "a1e82c98ed45d35d83960038fe8008bcaa7b8f5c98e8cc190b3f1918a1931916"
+    },
+    {
+      "path": "dist/articles/four-noble-truths-explained/index.html",
+      "bytes": 59775,
+      "sha256": "c454b8dad90845428f72c9b37969a92bdd4cb79e64795359daeb91457f8ec3ad"
+    },
+    {
+      "path": "dist/articles/how-to-let-go-of-attachment-in-buddhism/index.html",
+      "bytes": 63895,
+      "sha256": "14d63aa95c0b0494818e1c426de911f209c5cd50cabb52f212e64d6c20f01e05"
+    },
+    {
+      "path": "dist/articles/how-to-meditate-for-anxiety/index.html",
+      "bytes": 60828,
+      "sha256": "43ac7150349d52e5cd287ec647bd530a62b070e6e20012d51c756a685541e1f9"
+    },
+    {
+      "path": "dist/articles/how-to-meditate-for-beginners/index.html",
+      "bytes": 60214,
+      "sha256": "0c86f7c32207a094ff62bde49ed708cf74a441a76eda03ae320c1fd066c09507"
+    },
+    {
+      "path": "dist/articles/impermanence-in-buddhism-letting-go/index.html",
+      "bytes": 58804,
+      "sha256": "b2b6045f2a9bc5a043f52cb6a66f436b1ac8935e14acceb9656761844b7512bc"
+    },
+    {
+      "path": "dist/articles/impermanence-in-buddhism/index.html",
+      "bytes": 59994,
+      "sha256": "edb7e228e17df8699ff99b14cee31a0ee20f4600373a6e1253f6adc99db1a632"
+    },
+    {
+      "path": "dist/articles/index.html",
+      "bytes": 203193,
+      "sha256": "5873f95a7a1bf1ad1debef8782af7567039aba8ff08d2c12e71fa04553ec6613"
+    },
+    {
+      "path": "dist/articles/loving-kindness-meditation-beginners/index.html",
+      "bytes": 59670,
+      "sha256": "af89eb94294023ddc00525eab08f2fda1943dcfec0018633ae1a15792a8a93d4"
+    },
+    {
+      "path": "dist/articles/loving-kindness-meditation-guide/index.html",
+      "bytes": 59263,
+      "sha256": "9658fbfd9ab8e882fd7abe351379590754839bcefe4ac1075a35942159377b89"
+    },
+    {
+      "path": "dist/articles/metta-meditation-script/index.html",
+      "bytes": 65864,
+      "sha256": "f97b22eeda6e4d8cb37cbc2e904b2bb9a2823c6dcae6bfe6b0b73babe1ca084c"
+    },
+    {
+      "path": "dist/articles/mindful-email-and-texting/index.html",
+      "bytes": 60442,
+      "sha256": "9d5aacad2dff71bd100c162eef9853803a5f8e08ab6b8e7934c57051876ffe08"
+    },
+    {
+      "path": "dist/articles/mindful-listening-in-everyday-life/index.html",
+      "bytes": 56568,
+      "sha256": "4a693ec009c2d714556cf9528f55c92c5244764ca65e744a97d6fe47cf647a5b"
+    },
+    {
+      "path": "dist/articles/mindfulness-for-better-sleep/index.html",
+      "bytes": 58442,
+      "sha256": "0a7089bf1e97d2dbc05fcd698ce01ec91c1c6d56bf456c1b62a6d6632bd18ebc"
+    },
+    {
+      "path": "dist/articles/mindfulness-morning-routine/index.html",
+      "bytes": 58395,
+      "sha256": "958f14e4d929c1f10e75760c955fbf08342bdb3fd12953604e85e5e6b6feb5fc"
+    },
+    {
+      "path": "dist/articles/mindfulness-of-breathing-guide/index.html",
+      "bytes": 63931,
+      "sha256": "c11fb8f79ab6ce5caf940d970a920845c6599c992f8d1af6d8d99843eeb9d8ea"
+    },
+    {
+      "path": "dist/articles/mindfulness-vs-meditation/index.html",
+      "bytes": 65404,
+      "sha256": "13ea96a3e23ac3f13c1e2ae610391b8fed3231f00ec6411f7a1e66515f087656"
+    },
+    {
+      "path": "dist/articles/noble-eightfold-path-practical-guide/index.html",
+      "bytes": 60151,
+      "sha256": "402faffed5015dd7fcef09061637b5ac42c91304cc3409257fa16f7e8819c941"
+    },
+    {
+      "path": "dist/articles/non-attachment-in-relationships/index.html",
+      "bytes": 59476,
+      "sha256": "d94347feed994ec477d3b6f9419d8000fd553f5809d660433b8ba478e037c0c7"
+    },
+    {
+      "path": "dist/articles/right-livelihood-modern-life/index.html",
+      "bytes": 66321,
+      "sha256": "43c983d828564592a3b7d694a5c465f3e39313fae28bce343cd9eab191bffdef"
+    },
+    {
+      "path": "dist/articles/right-speech-buddhism/index.html",
+      "bytes": 77952,
+      "sha256": "926fbf33beff311fee0f35d261646b09358e390de8a4ba9c7bb79b6a1ad9abfd"
+    },
+    {
+      "path": "dist/articles/right-speech-examples/index.html",
+      "bytes": 61146,
+      "sha256": "8a2f6d4de286d7ba21631506f51f26033663c35b8d1cb39ddbb22444d56082d9"
+    },
+    {
+      "path": "dist/articles/three-poisons-buddhism-explained/index.html",
+      "bytes": 68983,
+      "sha256": "1998e47b1d0ee5204dee2f36af15156be96788682e683ca9574f4c31eecb339b"
+    },
+    {
+      "path": "dist/articles/three-ways-to-practice-patience/index.html",
+      "bytes": 58332,
+      "sha256": "736725843202bb079d1828aa7ada10202ce2d7cd49149d88a7012b4eba0fdf50"
+    },
+    {
+      "path": "dist/articles/visiting-a-buddhist-temple-respectfully/index.html",
+      "bytes": 63973,
+      "sha256": "db7d61f48aa031374d1683ef9960ddff51c4fa02e4f3ca176ffb1e7d9ea19630"
+    },
+    {
+      "path": "dist/articles/walking-meditation-step-by-step/index.html",
+      "bytes": 57957,
+      "sha256": "afbf490b4c78a595ac65d000f78b866ee2c474cc00cb214c072c8a59f95bc120"
+    },
+    {
+      "path": "dist/articles/what-is-buddhism-beginner-guide/index.html",
+      "bytes": 59100,
+      "sha256": "030dbb78fbeac41908fc1327d5ffbd57ce77b603033393beda26ed918ac80f06"
+    },
+    {
+      "path": "dist/articles/what-is-karma-in-buddhism/index.html",
+      "bytes": 58666,
+      "sha256": "49fc050a5f0fab47d07b6fb72eabf75feef01f63b153d679fdbcdc89008ea7aa"
+    },
+    {
+      "path": "dist/articles/what-is-sangha-buddhist-community/index.html",
+      "bytes": 70611,
+      "sha256": "07050a9805795c93a3b23e2ed604c48b0f062b7d3faa586c863f4eebc85267a5"
+    },
+    {
+      "path": "dist/authors/echo-buddha-editorial/index.html",
+      "bytes": 49534,
+      "sha256": "6da62a54a67d3e3ac3de077607539c9951c16bab9d83d516bf3cb8a7c5fb75ad"
+    },
+    {
+      "path": "dist/buddhist-sources-and-citations/index.html",
+      "bytes": 29382,
+      "sha256": "5d1f7ba88cfd51ca54831e4526f58a15f7b4030b2dd7ac52508f8730d4ffa0d1"
+    },
+    {
+      "path": "dist/contact/index.html",
+      "bytes": 26319,
+      "sha256": "fc3b34d939b60558b5385fd11841f50fc7f6c2dab6179afb9bb960d43c374ad1"
+    },
+    {
+      "path": "dist/corrections/index.html",
+      "bytes": 28258,
+      "sha256": "fef5f20bd575e20163688d58dca1b13c0a2550c82c5ffe6a7a627fc203a80214"
+    },
+    {
+      "path": "dist/daily-reflections/anger-as-a-signal/index.html",
+      "bytes": 33259,
+      "sha256": "03df29e2b77c607a9f3b61c95ca36d3f7c85a1896b8f0e6c0ea29da093e5d12c"
+    },
+    {
+      "path": "dist/daily-reflections/begin-again-without-shame/index.html",
+      "bytes": 33144,
+      "sha256": "39dce8ef80616a441170dd65e47ee7c36c6319aa592df76ef8f770642c0c2015"
+    },
+    {
+      "path": "dist/daily-reflections/compassion-begins-nearby/index.html",
+      "bytes": 33138,
+      "sha256": "c92c36002f69891b6a9c52ea1658ecd85908c6097ebeb856c00dee80509a93ac"
+    },
+    {
+      "path": "dist/daily-reflections/enough-for-this-moment/index.html",
+      "bytes": 33026,
+      "sha256": "54fb7240586a6d72a1374e8e761c445b8b77ae9ea4d04429c96e016ee3086b84"
+    },
+    {
+      "path": "dist/daily-reflections/evening-release/index.html",
+      "bytes": 33166,
+      "sha256": "c086ae4de6f6a7132e41203346f5eb2873506769e2d2914fad4c9a89237ef117"
+    },
+    {
+      "path": "dist/daily-reflections/family-patience/index.html",
+      "bytes": 32957,
+      "sha256": "a943f0b810639642d7dbb1eedc74d159b94e000f7fa1bbd10508d231483f7704"
+    },
+    {
+      "path": "dist/daily-reflections/forgiveness-without-approval/index.html",
+      "bytes": 33132,
+      "sha256": "e3fc01a83a65672efc3b4c4240878108847cabd8309bc6cadda83b083a3c5e3a"
+    },
+    {
+      "path": "dist/daily-reflections/gratitude-for-change/index.html",
+      "bytes": 32966,
+      "sha256": "b636a990e34d6ce554d5c2c9b7ddd499edae79b63e0ea5bf9bf9bfc17e5d32b7"
+    },
+    {
+      "path": "dist/daily-reflections/gratitude-notices-enough/index.html",
+      "bytes": 33027,
+      "sha256": "4e9ab1580f4dd8ab963a81d4542c971b44e822f5fba9b2b592239a71854b2d6a"
+    },
+    {
+      "path": "dist/daily-reflections/impermanence-softens-clinging/index.html",
+      "bytes": 33160,
+      "sha256": "84f6c4ed7fcec7de2a417df2d2bd2531f1acd191f26cba32409b0980e9e9cd24"
+    },
+    {
+      "path": "dist/daily-reflections/index.html",
+      "bytes": 77284,
+      "sha256": "4c4f31850901c4da1b936bef2c8fbd5f96843e407f1ab2534d4c55b879901758"
+    },
+    {
+      "path": "dist/daily-reflections/kindness-with-boundaries/index.html",
+      "bytes": 33101,
+      "sha256": "c5f6ba4c827d460e814d69570a1164e20f82f575e51cc8ec3813cd6b0a0cc641"
+    },
+    {
+      "path": "dist/daily-reflections/let-the-feeling-pass/index.html",
+      "bytes": 33368,
+      "sha256": "389dfc2c9060ff50311f19d77eb548b1f18ac4598b8c8a24a98428f203f47ee0"
+    },
+    {
+      "path": "dist/daily-reflections/letting-go-keeps-care/index.html",
+      "bytes": 33111,
+      "sha256": "853ff6dc160bbb5ff2323486a025c3c95c54bcad95ebab9d1c9b17bfe500033c"
+    },
+    {
+      "path": "dist/daily-reflections/listen-before-answering/index.html",
+      "bytes": 33029,
+      "sha256": "b7a0b18a4cd2475a5613d06672d0a1025ed7bc632f4207dc571a42379755c1ec"
+    },
+    {
+      "path": "dist/daily-reflections/metta-for-a-difficult-person/index.html",
+      "bytes": 33382,
+      "sha256": "24bad285f813ff0d42bab36ae7461f4a2e9f5d4e9fd6cb2145269d23c04544a7"
+    },
+    {
+      "path": "dist/daily-reflections/mindful-work/index.html",
+      "bytes": 33010,
+      "sha256": "55e52f10d3cb0b85210eab98bd30c4f7a5fc1d73bf0ae369f6a5bee39297f71d"
+    },
+    {
+      "path": "dist/daily-reflections/morning-intention/index.html",
+      "bytes": 32926,
+      "sha256": "1ef739ccba5e5128f5c9ef37f7fe5773ebdb5d16701bb0e4bfce768b02e3f485"
+    },
+    {
+      "path": "dist/daily-reflections/notice-before-fixing/index.html",
+      "bytes": 33079,
+      "sha256": "b93ebb086ff412152317327bd68c31021746e75927c2cb822f5bb62bcdb9506e"
+    },
+    {
+      "path": "dist/daily-reflections/one-honest-breath/index.html",
+      "bytes": 33278,
+      "sha256": "bdc73ce37ccb728cdf620fe006b023e8d2f4e7f733cebc93c6611a45d436f63f"
+    },
+    {
+      "path": "dist/daily-reflections/one-step-on-the-path/index.html",
+      "bytes": 33012,
+      "sha256": "3dabcedf10f0845dfed33451fa98c793b2629b8e9521fb7f45ceee46741b2676"
+    },
+    {
+      "path": "dist/daily-reflections/patience-before-anger-speaks/index.html",
+      "bytes": 33563,
+      "sha256": "731171fc1be836b1ec36b03583296ffe3ca40927a36a72468a6c0c76552dab4a"
+    },
+    {
+      "path": "dist/daily-reflections/rest-without-escape/index.html",
+      "bytes": 33217,
+      "sha256": "87f38b25e07fcde02e598dd63edb0e6594f24e7d77629451299aa3d830886001"
+    },
+    {
+      "path": "dist/daily-reflections/see-the-conditions/index.html",
+      "bytes": 32972,
+      "sha256": "b13a4caf60066d8ab5f976caeaa57e5a4b94f8f94ed099733943839594e60bc6"
+    },
+    {
+      "path": "dist/daily-reflections/simple-goodwill/index.html",
+      "bytes": 33018,
+      "sha256": "a33d2cdfbf53325349785038d3771321dc644068bf5ef1c79c1a43af81d03879"
+    },
+    {
+      "path": "dist/daily-reflections/small-actions-shape-the-mind/index.html",
+      "bytes": 33119,
+      "sha256": "2658be659c1a4861e8e459dd2c0d71740a39b50fea33d8f334fae7ffa2198815"
+    },
+    {
+      "path": "dist/daily-reflections/soften-the-inner-argument/index.html",
+      "bytes": 33059,
+      "sha256": "29daf80f04f51f059e766c00654279c6d6fba12246b80f89b310a49f4c7b9995"
+    },
+    {
+      "path": "dist/daily-reflections/speech-can-reduce-suffering/index.html",
+      "bytes": 33160,
+      "sha256": "71063efd78b084929bdd7719f134d3f7aa5326a93963618a06ed20ea36c6cc6f"
+    },
+    {
+      "path": "dist/daily-reflections/the-first-truth-is-kind/index.html",
+      "bytes": 33053,
+      "sha256": "1ba3e045e70fb838161180e1973f4f74b139950cfe55636c3fc231027c3051ac"
+    },
+    {
+      "path": "dist/daily-reflections/thoughts-are-visitors/index.html",
+      "bytes": 33260,
+      "sha256": "ee1aa5654ae332cab4b3787be955b1588a7a8073b0402e4fd04a58478f50bf34"
+    },
+    {
+      "path": "dist/daily-reflections/today/index.html",
+      "bytes": 80567,
+      "sha256": "14d2b937917f4e4b7eb2395f46ad8c877789493a96f57c4983558cef9c31f25c"
+    },
+    {
+      "path": "dist/daily-reflections/walking-as-practice/index.html",
+      "bytes": 33040,
+      "sha256": "d63e991451d41e525b1be89a003a7ff4b12f817f53ea2f7d06d1245d107c3464"
+    },
+    {
+      "path": "dist/disclaimer/index.html",
+      "bytes": 25952,
+      "sha256": "97b090199bfc501074c8362462cd6ed03a6c22f96ac57e9734c95314eb56dc13"
+    },
+    {
+      "path": "dist/editorial-policy/index.html",
+      "bytes": 33997,
+      "sha256": "327311b1abf92008f155377ae8535394cee13ccfd57208d1d16d71c8fe36fe1b"
+    },
+    {
+      "path": "dist/favicon-16x16.png",
+      "bytes": 483,
+      "sha256": "68127daaa073ac51765d3d3ec885e827543c6fd1a9b6af24b3c419cc543cb9bd"
+    },
+    {
+      "path": "dist/favicon-32x32.png",
+      "bytes": 1199,
+      "sha256": "f7cb12aa88161f51078f73961ae3870483d3b4393ea234af5f5c4aa1bc0e80eb"
+    },
+    {
+      "path": "dist/favicon-48x48.png",
+      "bytes": 1922,
+      "sha256": "01adde449c85fa1fc984e6bd143005c25c6e981794ac8602df4d7c180cf13a8e"
+    },
+    {
+      "path": "dist/favicon.ico",
+      "bytes": 3658,
+      "sha256": "3191925f3aed10d7ae5c0ac62af62b146b2c8d736b32cbc3ecad3722d88d6315"
+    },
+    {
+      "path": "dist/how-echo-buddha-creates-content/index.html",
+      "bytes": 29628,
+      "sha256": "fd37d14d68583f888bc910b4e3174f3069a9dfa30032a4f4484450c80ada211e"
+    },
+    {
+      "path": "dist/icon-192x192.png",
+      "bytes": 9536,
+      "sha256": "af19a9b6fea0a0f1fc1bcada095e7daf59c8b2e2e21b353aa66d2eddfec1ab26"
+    },
+    {
+      "path": "dist/icon-512x512.png",
+      "bytes": 29056,
+      "sha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice-1x1.webp",
+      "bytes": 180002,
+      "sha256": "e0b1dfcd1caa8b98494bbe74fe2defbc40cbd8afa9f1bc93eb13603558aa5755"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice-480.avif",
+      "bytes": 12657,
+      "sha256": "154120b2b79c7a393fe6155d8fc327c464e9faa46868ebaf751e450b2e7654ab"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice-480.webp",
+      "bytes": 26568,
+      "sha256": "6257c9c067f1cc5851d8d181aca5ab3392394a2298929f87b74f7d2e51252e4c"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice-4x3.webp",
+      "bytes": 191620,
+      "sha256": "216461936386d892ff45ac1654b2e198cf2b2e493f2c2802329ea036dd660af0"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice-800.avif",
+      "bytes": 38030,
+      "sha256": "8d873cc5a50194ca35e4f61885a283668cfd67dfede3f8478c1217244a1722f4"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice-800.webp",
+      "bytes": 75938,
+      "sha256": "16f4386fd4e244d7c7a18ae196585be8d03801db8a49d7d58cff4976a9a6279f"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice.avif",
+      "bytes": 96064,
+      "sha256": "d2df3040934d1b66e87f2698d6eb58c0517963c2ee35187b2ba9b76551b7a886"
+    },
+    {
+      "path": "dist/images/articles/beginning-a-daily-mindfulness-practice.webp",
+      "bytes": 176260,
+      "sha256": "3394344022c4c2425243024cfc526fbd3849d2d01e7e08c9b2ebaec869ed2257"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide-1x1.webp",
+      "bytes": 69102,
+      "sha256": "0a088dbc1bd34d40a264875bf581578bdc563e6f637e3b67d52931c121842a14"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide-480.avif",
+      "bytes": 9153,
+      "sha256": "e5d07cfbc71681696f3492dbb70b8946f1f53707f4b1aa254850c1899df57b8e"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide-480.webp",
+      "bytes": 17992,
+      "sha256": "6fad1766e05f8180c9911f558a9a036bbebac2089768f5fb96b54103a39d81d3"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide-4x3.webp",
+      "bytes": 69186,
+      "sha256": "05a549ae8c1ea2c512802cae98ccc169018180b183675e9b48c1183eb602aee1"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide-800.avif",
+      "bytes": 21227,
+      "sha256": "757235df2f8c6000d4ce50b81660cdf44fea13c9b10206427d0354b282ccd887"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide-800.webp",
+      "bytes": 38538,
+      "sha256": "f9d7ff1cec7e72a780352e1e1b97bb9238036c77fb19cceeb19395a52bd44e08"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide.avif",
+      "bytes": 44688,
+      "sha256": "3eb4e86433dcfadc77eb3b58e509f74c6e2f6d85e74dd7095df0056d5eca0903"
+    },
+    {
+      "path": "dist/images/articles/buddhism-for-beginners-simple-guide.webp",
+      "bytes": 75012,
+      "sha256": "fdc8b653a8ca21391afe8a6319b17f9c097ecb8f56b6cced6100272049597f50"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger-1x1.webp",
+      "bytes": 110474,
+      "sha256": "9056db4ba50bc53b217d0e299bc11d86bed4c61cbd4bcc39fa9e17e90bd5f7b6"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger-480.avif",
+      "bytes": 8318,
+      "sha256": "fb2b81bf32be47536b45801bc97731637c6600c9a831935c7b7335db2e133492"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger-480.webp",
+      "bytes": 15282,
+      "sha256": "8f220b3683d97cfc1f01a51f4f99d899e44dc2e938467b02700a29a4d645c706"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger-4x3.webp",
+      "bytes": 103780,
+      "sha256": "09d62cab0669dabf7a23b8bc3bae6ce7c7b711a900580a5f79ab5617f60f85ae"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger-800.avif",
+      "bytes": 23446,
+      "sha256": "4b077b47afdc26f8b9b3337168a3691c855868d743d03dc1ee32d9871a6d92e5"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger-800.webp",
+      "bytes": 41232,
+      "sha256": "193b8b456dd2573e2dc37f62aca5f2a1a594c139c42464ab19dbe03c8699b877"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger.avif",
+      "bytes": 58386,
+      "sha256": "f6fc8d59a5639199e623d6005a6a544371831a4a9c9a5ec95223ec23ecd39115"
+    },
+    {
+      "path": "dist/images/articles/buddhist-approach-to-anger.webp",
+      "bytes": 94536,
+      "sha256": "d923a648301de76a5a76faf76c115a1c0d44fd268993f2db9a6e987ddde28eb4"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice-1x1.webp",
+      "bytes": 98920,
+      "sha256": "00cb2dde54c8c67d5a6fdd580f29e85d62ca3b6d30e9265e086b4e72cc8f2fa8"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice-480.avif",
+      "bytes": 6913,
+      "sha256": "9faadb6b2c1a14bbe872ebcc2692e2867bc4177e1d62b6badfc49cdb4efbcf91"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice-480.webp",
+      "bytes": 10722,
+      "sha256": "aaa095dd055a122f19a7697a9ef48284bc535209d38764ac4f26bad22a89b5ec"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice-4x3.webp",
+      "bytes": 94926,
+      "sha256": "944b7a1c1abebb1f57f54d5bc99da27c9a1adc5e23dcdce6728ed80476210cae"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice-800.avif",
+      "bytes": 20201,
+      "sha256": "f564a82dd4c0e386b2381190860669de9f63d2f3a170e3c94221393c464dd532"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice-800.webp",
+      "bytes": 31722,
+      "sha256": "7c275f61cb88ac43071e20da073c75125ef805e9639e8e95637cf737a109296c"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice.avif",
+      "bytes": 60855,
+      "sha256": "f62bd7ecbd88f758a51b0be117196118e512ea286a8314f4ae1695004f186310"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice.svg",
+      "bytes": 1250,
+      "sha256": "a271f81aad46e1eb92401a152d8090e8a41976978be2fdccc2c4ed08c5ac8d47"
+    },
+    {
+      "path": "dist/images/articles/buddhist-gratitude-practice.webp",
+      "bytes": 92212,
+      "sha256": "3c6dc35201dd97bd185715a4968b6175f66aba6ae07471d3bfbee12419e151fe"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness-1x1.webp",
+      "bytes": 79620,
+      "sha256": "f2fbdfba44b4fd97401b00bdbb82443ff872545baa9174d0a7efa4dd38291b10"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness-480.avif",
+      "bytes": 9877,
+      "sha256": "67b959f56fec7b2a7fcee28bfbdddc3cfaa619de32729c61aefa0b550c927ea4"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness-480.webp",
+      "bytes": 17006,
+      "sha256": "5270176ee1dfb86c46b88f8e2ff4bc8c1206837f734a435a1029fbe967cb616e"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness-4x3.webp",
+      "bytes": 80396,
+      "sha256": "0edefe1976f33bdcc1d945f26e86a825b5ffc1adb43ad466322bc96c57cede33"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness-800.avif",
+      "bytes": 23168,
+      "sha256": "cfcb3740aae71318be6c5eb76db8d064ebc568bd11ccbe8ef1600aca4a71feb8"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness-800.webp",
+      "bytes": 39236,
+      "sha256": "ad60164431adba39e21899ecab1dffbc5cc32e8eee3ee82af8768d5661702d30"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness.avif",
+      "bytes": 51024,
+      "sha256": "d81a20b809126a9730517325cb098dc8e45fce7883b41ef08d5afd9b0c998d30"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-forgiveness.webp",
+      "bytes": 83344,
+      "sha256": "25096c97e5cbeca701c2e2330244e6dbf6a2fff218a9af1ba7c4f344f39a53ee"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence-1x1.webp",
+      "bytes": 121298,
+      "sha256": "41b7b8658891e58d86305fc89f0088ee8b50c500932add860ef5ae62c8008c84"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence-480.avif",
+      "bytes": 11390,
+      "sha256": "de0baf24a156f7b56e576e3e8501bd968a79cc580b9ce7bc7548b4946b70b83a"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence-480.webp",
+      "bytes": 20196,
+      "sha256": "e0edd164297cd3499a3e50a04e75298f5fbc1359618ad8c3a3f7a8a4c1c5bb27"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence-4x3.webp",
+      "bytes": 132086,
+      "sha256": "36030c112293b55e90ca1c5cb58fa40b206d34b2d6c2bd681c159e3230df730e"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence-800.avif",
+      "bytes": 29392,
+      "sha256": "3c387c92cb04f840d110bcf2cbe7e7d82577e41efcb48b01ef0df03f3f11a515"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence-800.webp",
+      "bytes": 50688,
+      "sha256": "ca2ca5c205ae5851fa36e39b4a3f87dd307700e9a19d4d2b0c99ac5176661cb7"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence.avif",
+      "bytes": 70993,
+      "sha256": "fa36f9ecc1f98142cf511360390a7f158988b7651856b4ca5d3c45e49e209c16"
+    },
+    {
+      "path": "dist/images/articles/buddhist-teachings-on-impermanence.webp",
+      "bytes": 112450,
+      "sha256": "50975c99d1a1e3a832dadf19871c9885aca8330766b3f3112b3083ca1c4f186c"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking-1x1.webp",
+      "bytes": 112742,
+      "sha256": "ea4221e120a87be07eb200be658211c19c2092d87c2164d16e5dd5b64ea53854"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking-480.avif",
+      "bytes": 11789,
+      "sha256": "68e1167ad33a4b9a28a4a1dbed871058982043d83c98646f0e870a6de49e771a"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking-480.webp",
+      "bytes": 23950,
+      "sha256": "5e1d9ee15e84caae45c3a33cd34622cb08e54282593ec82e6bc28c6de2bea397"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking-4x3.webp",
+      "bytes": 130074,
+      "sha256": "df9700a60ed0aac6b7aca0f9d29be335fb0f0535eaed2e9961ef94d1e94cc790"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking-800.avif",
+      "bytes": 30304,
+      "sha256": "d34081980680e40a538d458d671390d987d63b4610adb244b0cf8903727008a7"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking-800.webp",
+      "bytes": 58732,
+      "sha256": "4774b621db6bd2bf62786c2153f5695c1b65a8cfa2498c0c41b0b4543fde7857"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking.avif",
+      "bytes": 68805,
+      "sha256": "9cf59d060d495c6e7ae617079e29021297eda03f97d0f1c6f9d96f08702e3897"
+    },
+    {
+      "path": "dist/images/articles/buddhist-wisdom-for-overthinking.webp",
+      "bytes": 126042,
+      "sha256": "9737d5ee6b2022ce4266cd2ec3a9456e284ed2bb8f5a4d59402da6ccaf5a607b"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline-1x1.webp",
+      "bytes": 101582,
+      "sha256": "de683b4cb215b96e7a6189114b54c2a904c4219c968634851b1cd8dae165f347"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline-480.avif",
+      "bytes": 8337,
+      "sha256": "3c315c845d3fa2a0826676d6bafe8fc96df482b1505e71d99964047c2885f49b"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline-480.webp",
+      "bytes": 14702,
+      "sha256": "bf2604104c8083861bd5b547f213add4b446b8a663ef788c3425c25967d505ce"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline-4x3.webp",
+      "bytes": 94428,
+      "sha256": "8336e5e5d7f1263d2bedf4b1f5c034e8663d45cedb7d06763258d54de9dad594"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline-800.avif",
+      "bytes": 20704,
+      "sha256": "08bda31fd3a08ae0e53006fc919706afd6897512e631e4032c417be851624362"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline-800.webp",
+      "bytes": 35890,
+      "sha256": "7ce6e1f8b47da0a04a40b75bca6220822bf5187426b0f2c37ef9c4a50d80e46f"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline.avif",
+      "bytes": 48599,
+      "sha256": "355b1881e3d4e1e0f00358ff228b9298f5275d0af1181e7fae7bd337e8f1954c"
+    },
+    {
+      "path": "dist/images/articles/compassion-as-a-daily-discipline.webp",
+      "bytes": 79002,
+      "sha256": "f276cec97c4b90cead63932172f9aa04c39c9af932ab9a1f289b265f319f22cd"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide-1x1.webp",
+      "bytes": 89296,
+      "sha256": "b0e0c96e9d1d5bf669473ae096a1e6384cf5a8284a08571aceb8dfe99ab7e77b"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide-480.avif",
+      "bytes": 10198,
+      "sha256": "265a07fc37d2d6d195a25b3f3c2e2df969bbb3b6fa164c817770a425a8edf42e"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide-480.webp",
+      "bytes": 17848,
+      "sha256": "fa84a3668534fd4db145653e84976a2deea1812abc747e83d6b5e3eeb548dab2"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide-4x3.webp",
+      "bytes": 81348,
+      "sha256": "8baab1cba76767598e721754555e0c19abb25fc7e609d36ae019535c21413551"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide-800.avif",
+      "bytes": 22969,
+      "sha256": "9195918bac0b738f909205db4c4c6115f2c975a6533470f8cd393712ed14c838"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide-800.webp",
+      "bytes": 37588,
+      "sha256": "d4f0554ccb467ef185e8ae463eb838f7e4872d83577dc0ee26f943f2d1c73aa2"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide.avif",
+      "bytes": 50436,
+      "sha256": "3bc8066f8b8c7c58c7544bf16a47b25a62ce18bb0b482285598358c62a549c5d"
+    },
+    {
+      "path": "dist/images/articles/compassion-in-buddhism-beginner-guide.webp",
+      "bytes": 75954,
+      "sha256": "af94d102ed1bc34eba94a322cdbda63f82d2923eca8da35884be4fb4f5a7fcdc"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries-1x1.webp",
+      "bytes": 91642,
+      "sha256": "1ebee061ba70694e690659e9421159b38fb89a512b9deceec2d841f0e88dc3a7"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries-480.avif",
+      "bytes": 8787,
+      "sha256": "21fbdad3f1ecccc3c22719375a3a2b011cacc172c6cb8f255516f7a2114139d8"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries-480.webp",
+      "bytes": 17216,
+      "sha256": "b132bd2e9eb220b7e06d627d59014e95b5a7b6e8f0f7149705bfce67a26ae9e1"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries-4x3.webp",
+      "bytes": 92908,
+      "sha256": "92300f453cf89b3af91318aa9c329f0b8ae23a9af24d2bba1b113a542a24dfd3"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries-800.avif",
+      "bytes": 22115,
+      "sha256": "9a2c526ebf136cf3864b7e875342865f59f2e5a750bcf7eea30d845844470906"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries-800.webp",
+      "bytes": 42596,
+      "sha256": "7d2510ac82b3b957a4da0d2ba5890db51ec83ebb26e631756fb29390ba858eb0"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries.avif",
+      "bytes": 51488,
+      "sha256": "4f82e91821fc890670c8c4444fb7e33c91e6b2f337f957463af062ba3c3ad97e"
+    },
+    {
+      "path": "dist/images/articles/compassion-with-boundaries.webp",
+      "bytes": 92508,
+      "sha256": "f7142cc91a78dbf95340b4065faaa2bd7eee717e6cdeaf0396d60fca302ca1c4"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home-1x1.webp",
+      "bytes": 142962,
+      "sha256": "e6245d8af08372cccb1d3080fd20df56da9355b7bd315ece0a831332c56a5099"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home-480.avif",
+      "bytes": 12968,
+      "sha256": "fc14462811126fd4acb063234ac7920a03d15c6936a76a04c6ca74aa4bfe3676"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home-480.webp",
+      "bytes": 26984,
+      "sha256": "0dc897e629567273259ff1678c36ed035833f924fc3d24b116a3c74976f197f2"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home-4x3.webp",
+      "bytes": 154548,
+      "sha256": "ad2d86b15950d54febdd3b6a5e05ff587f7db29d3e6c50c91831c982b03fef63"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home-800.avif",
+      "bytes": 32998,
+      "sha256": "925611e55502e77a01781726089f95953491ff3d7b1ddc84e7e6d64abdd6511d"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home-800.webp",
+      "bytes": 65366,
+      "sha256": "1210302c44bdb78cc385b756b38a01952878233c6d1b0b8de0aaeef4adde95a7"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home.avif",
+      "bytes": 77991,
+      "sha256": "a2c4bcfd72962bb5411e148247e21e0a46e71fd938eaddb80adf657abe8c7eeb"
+    },
+    {
+      "path": "dist/images/articles/creating-a-peaceful-corner-at-home.webp",
+      "bytes": 139022,
+      "sha256": "affbc411f9f346b49bde92fb81d40ee8d9c71f1eaba8c901baa3ca8a5c521d95"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma-1x1.webp",
+      "bytes": 200688,
+      "sha256": "1943f7f12694fd33e071426da138f8929d0244b29009e73020921f5a77d92e4d"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma-480.avif",
+      "bytes": 11042,
+      "sha256": "002691390f9f3339bf8f25985b0028071bb3ef4a8a3987fe4f93e54c481fdfae"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma-480.webp",
+      "bytes": 23902,
+      "sha256": "b06fb1649ad0007f94a359a4ea924e208c3826ac12766ffb5ec656a4c153e72b"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma-4x3.webp",
+      "bytes": 204092,
+      "sha256": "388b6e2811e800ebf9aeb9e1421d14f9f11b25b24b1e9da8878c6353a36ef394"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma-800.avif",
+      "bytes": 33036,
+      "sha256": "b17321ba2272bcbf0b6b8505a7c205daa49c2baa931895270ca6fb4e4ccb81ed"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma-800.webp",
+      "bytes": 68042,
+      "sha256": "33d3e49c7bf7da8ba11c65217dca42eb58783151d78901998a5b533e98422365"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma.avif",
+      "bytes": 86516,
+      "sha256": "1842777040f3abe60a85e524935837515952405d28aeb5a1c64651500242f323"
+    },
+    {
+      "path": "dist/images/articles/dhamma-vs-dharma.webp",
+      "bytes": 166454,
+      "sha256": "bf978bb1e250d58c12548be98ddfb306226131062d3fda83fcfb4f8e3f5b868f"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind-1x1.webp",
+      "bytes": 103222,
+      "sha256": "41d33b796d19f822ae1794212138397563381f7f12e9037505badedf43385047"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind-480.avif",
+      "bytes": 10247,
+      "sha256": "24fa64424571a903ea209e4239b1e6bb76de53b63dc7204fa5612cad25a5d41b"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind-480.webp",
+      "bytes": 20696,
+      "sha256": "749b186253b1f875af721cb1043072af865072353e552775b3a4e8199ae9a155"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind-4x3.webp",
+      "bytes": 108586,
+      "sha256": "00e39d14b96d3faf0065f4561105e5d16aa3e29e5b4836db16847591aa473652"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind-800.avif",
+      "bytes": 25260,
+      "sha256": "06e3478f02dc688d46ca465c6b05e7c8eec48fa58e695c62de6ec453d5378da9"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind-800.webp",
+      "bytes": 48834,
+      "sha256": "72f28c33b43c3e658b0e0e2598ee01a0197c1b467b4d761e5b8feae8f1659d03"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind.avif",
+      "bytes": 58815,
+      "sha256": "6c3a91d7aecd63bbe067b2889dabe193b952c83e110280d87eff951b2844433c"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-trained-mind.webp",
+      "bytes": 102906,
+      "sha256": "1a34d8c4c11d50e4dbd89662767849f3acb2c53ac7b35a4db11039163040fa0c"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think-1x1.webp",
+      "bytes": 95370,
+      "sha256": "31e5292a427d39ad7f00162465ba4095d9875fc74b697350a8daee32e883cb1c"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think-480.avif",
+      "bytes": 7660,
+      "sha256": "4bc184caa9f0de34228e1c08c02d6a951279a5ae3f19a80a3d8280a48084f5fb"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think-480.webp",
+      "bytes": 13722,
+      "sha256": "378c3c1b39a2077e542544f3c53afe14c61bd3ec89af3027a2274c3f9d533520"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think-4x3.webp",
+      "bytes": 93076,
+      "sha256": "1f96af7843f5b61b558ba884d67c8c60b16af9414adf1d2c34e2924113cc408b"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think-800.avif",
+      "bytes": 20477,
+      "sha256": "60e3f9a68093d066e9c413a1c98fc34ffcd11aaf90175f40d98e9a2368df2cf9"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think-800.webp",
+      "bytes": 35628,
+      "sha256": "05eb516de51782b68d29e50fa7997339052639d25d54baa6b52e64a1fd1af658"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think.avif",
+      "bytes": 53054,
+      "sha256": "36904d1e856bf8463f44a9ee47a7533481d5a741abd5abb2cd6095921c2d6066"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-reflection-what-we-think.webp",
+      "bytes": 85574,
+      "sha256": "f5ec037a0f0d1306a0d9043a2d436c7a2e5b841c7bd072cc75537d981a276d12"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning-1x1.webp",
+      "bytes": 122922,
+      "sha256": "3db6776ff7d7688a921e67f504ae1ae3cfb59517d80558e5764a545b63d78669"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning-480.avif",
+      "bytes": 9150,
+      "sha256": "f8e094a364678c63e9738be503718378713a07faf15bf9043c496b1aaa54d59b"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning-480.webp",
+      "bytes": 17082,
+      "sha256": "bfec04bd3e118b472fe2321271bd3a3b0b780051528468fdc3d7612731a9b2a7"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning-4x3.webp",
+      "bytes": 114790,
+      "sha256": "8c6ca10f74264e510bb1c03a4ba6eed4699270769c3cc314c8fa9718b18bef07"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning-800.avif",
+      "bytes": 23331,
+      "sha256": "bb74e0b7af44cd612e177e9c06e1876cf58e387c8933d35e4420cda24270efdc"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning-800.webp",
+      "bytes": 42704,
+      "sha256": "6e2276e5ff0be9bd8b7245d97d9af4f24b49fbb6c67444f4c55e328b1bb4b262"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning.avif",
+      "bytes": 55666,
+      "sha256": "0ec75e245ccb2f2a5b3bc0635e776bf62bebd83c5354635435445be3aedc34b4"
+    },
+    {
+      "path": "dist/images/articles/dhammapada-verse-1-meaning.webp",
+      "bytes": 96908,
+      "sha256": "4c077191e9bdd211b664dcc2977fa70e3b064c80ea717d9ad492cad4db57b15a"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-1x1.webp",
+      "bytes": 196988,
+      "sha256": "5c5d62240f92dc321aa720e5704bab579af51c7ad024a9e955f489bee0b3fcd0"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-480.avif",
+      "bytes": 10872,
+      "sha256": "50e61bae8a0716ae5ba995be3809057177406e4252ec163c0d28272fb737f3eb"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-480.webp",
+      "bytes": 24042,
+      "sha256": "53e0e5daff8a28dbb09b323623b02d212f18cf5885c209ac901f61ff6f591ed6"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-4x3.webp",
+      "bytes": 197162,
+      "sha256": "94f90e6b6a94c3398392af988793f9d93ce7c3938dc56e18c1a3042bf8225d8a"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-800.avif",
+      "bytes": 31645,
+      "sha256": "f7438acbfc926d9afdd5856288d505d0eb744314db4f3ce9ed2fb0a342c5ed05"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-800.webp",
+      "bytes": 67400,
+      "sha256": "edc2b70ee72a396467809c69a0f80d6d2e51bfc272c4e0783421725a5ce68c9a"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life-1x1.webp",
+      "bytes": 132292,
+      "sha256": "eb09204dac659e767458d241f5b38debaa52ce2aa6e38aedd9232bc0cbf4aaf6"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life-480.avif",
+      "bytes": 12120,
+      "sha256": "152324f15ac0317331fc19906b9a82e5486d83e03e54589f782fb03bce2fe645"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life-480.webp",
+      "bytes": 23358,
+      "sha256": "cea8f2614460914cf8a8179fae3d27bb7662916789762a4f59e40454a20dc8b1"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life-4x3.webp",
+      "bytes": 121872,
+      "sha256": "721badf9d1221ca3b4fe05668be1631ce188c01de0efd7ee153cee7cf5a95029"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life-800.avif",
+      "bytes": 28540,
+      "sha256": "b1fbfdd2b739e8599a63c5c65e653a7b3437322eb315a8fd69b265b253ce07e3"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life-800.webp",
+      "bytes": 52400,
+      "sha256": "a289487b707e91f769d3df52eec47f99bbd2f07bb0e3116275d4944a5c8cf3b8"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life.avif",
+      "bytes": 63735,
+      "sha256": "56864a7ccc0c78d156b7e72dd5c447995f0765b379a6e8ff2b4b48cb95570ac9"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained-daily-life.webp",
+      "bytes": 107652,
+      "sha256": "3d21ce6374560aeb1f062e4b8946143ba1c5410aeaf1474a5a1bb3695205a78f"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained.avif",
+      "bytes": 88399,
+      "sha256": "9a2dbbc03b9d3840a9691c19da4d7fec895864c9fe5c39cb40a54085e6a6ec1b"
+    },
+    {
+      "path": "dist/images/articles/eightfold-path-explained.webp",
+      "bytes": 166172,
+      "sha256": "a3fb368c6fde56fe808ecf3ed8781f04087cfc6976fbb810a48085e354452655"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism-1x1.webp",
+      "bytes": 122078,
+      "sha256": "b0dba38b4dbdb6564d2ecf7586a59f773b19edaa292de5526ecfd0b1aaa5c70a"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism-480.avif",
+      "bytes": 12090,
+      "sha256": "a738529b95ab7e7d8fe41ae328f40c8f08a1e31f192476ca293ba0e44d6e4164"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism-480.webp",
+      "bytes": 24344,
+      "sha256": "1f2d674d3d23ee5fa480bfe8d69a367c1fcd6f04c7805f095de52bf47496ccd5"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism-4x3.webp",
+      "bytes": 112012,
+      "sha256": "e4248ae314cc36f1d8a4cf23f4b9ecd6f0c1fd09a68f72c4fd11398458864761"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism-800.avif",
+      "bytes": 28771,
+      "sha256": "3a1f154f4b2a963a44c672167f9493977c780cf514ff299ea7075849ccd62afb"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism-800.webp",
+      "bytes": 55212,
+      "sha256": "ab8f4931bd7831769b90d858544fb3a950d1b69e60ee05960e2bbdbab9162c5c"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism.avif",
+      "bytes": 62619,
+      "sha256": "f5fabd9a4a39841e247e93c55e8fdd279d47c50ac4acb7b9d30e63fa32eb9889"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism.svg",
+      "bytes": 1412,
+      "sha256": "c0fdac72a4966c98f37e0aaad2b191ee8e8ad0e452d100a8582cd0fae2819f25"
+    },
+    {
+      "path": "dist/images/articles/equanimity-in-buddhism.webp",
+      "bytes": 110216,
+      "sha256": "49b57258c97e92ef0c35133edeba43f7f72a03c197ffa5e2cec45808a5afbb04"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice-1x1.webp",
+      "bytes": 143168,
+      "sha256": "38b1b096f13104e3e5ee32893ef7a33b8d0c6f39d51748cb08032704e48c2dfd"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice-480.avif",
+      "bytes": 12155,
+      "sha256": "ae6f1996b94263c78e0b1ef130eb6131abee58e0fe091d10e64fa09ee4107263"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice-480.webp",
+      "bytes": 24840,
+      "sha256": "062a1f985762b7f37dea3540f698abe9a146a901453a25219788e1b9bfb5e48d"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice-4x3.webp",
+      "bytes": 148386,
+      "sha256": "8a9a3a765b0088f7af8ee13def258d3ef011478647264ff44295d34621248c1f"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice-800.avif",
+      "bytes": 30870,
+      "sha256": "f4a7d018ffebbe4542de2839dad0388d14613273980d4fdc6099d08f4cbf1b4d"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice-800.webp",
+      "bytes": 60346,
+      "sha256": "678533b13acd4d3114ee3a9c7bfdd802183a4e48855f4792d0cd2ddda2e5d0fa"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice.avif",
+      "bytes": 69159,
+      "sha256": "a310b1a49bed4df70a3e7cfa4822f2125fd3c0583c988adfcd0045b659927750"
+    },
+    {
+      "path": "dist/images/articles/first-week-buddhist-practice.webp",
+      "bytes": 129644,
+      "sha256": "479431a0324149347e38bfe7b589bf9038050cb091c5c68b30f3a34fc47edf3a"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life-1x1.webp",
+      "bytes": 186512,
+      "sha256": "509b9f6a09cc70f3f0ca1682ba999ef8072f98252f86154ac2e276dfd8914681"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life-480.avif",
+      "bytes": 15640,
+      "sha256": "af1736bd19f75fc9c4ba97880b5f3b00f10f511243f66435f0912cd9a74c42de"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life-480.webp",
+      "bytes": 35410,
+      "sha256": "c466752566aa6e32cd33f10695911ccb9be89b821f4d6cd8abede77bef3f279a"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life-4x3.webp",
+      "bytes": 182268,
+      "sha256": "13a10974d49a6e3ea4eff40be60e0edf351ea8f0de61993dffe7636f221373d7"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life-800.avif",
+      "bytes": 38450,
+      "sha256": "f56487754759d9457c6e67225b8f1192adab93059eda96f387ef24c8a462bc54"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life-800.webp",
+      "bytes": 82214,
+      "sha256": "da8665188289a619b2669953fa89461bcf2d22306c3714874dd3819c1678105b"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life.avif",
+      "bytes": 86170,
+      "sha256": "416bf20cb44780627a87cd79e4efb6f747a36ba7c59ae407bec8e3b4916ba14c"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life.svg",
+      "bytes": 1476,
+      "sha256": "8446b58aa5cece26ef107ae3693313b8db9d8682825e0cdf0f222658c4dc5d93"
+    },
+    {
+      "path": "dist/images/articles/five-precepts-in-daily-life.webp",
+      "bytes": 168644,
+      "sha256": "aa6e084944c70102905de7833bd67ff5169794a0d3781abded62fca4feda7341"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-1x1.webp",
+      "bytes": 138274,
+      "sha256": "bc5248744a08ee0e05f8e06c125d49a1f1af4194bb541d582d6dc984712634b8"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-480.avif",
+      "bytes": 12319,
+      "sha256": "723f46ea5c99a17e8cfde6b252fd02c3e00ea1d7369a2e1e28ed0ce419a1e0ce"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-480.webp",
+      "bytes": 26210,
+      "sha256": "85ea40ff3df43f98aafcb2e5e372d2215e5d90812d64f2c34b3066d1276d55eb"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-4x3.webp",
+      "bytes": 141118,
+      "sha256": "d53f14245b5d0b2e5a9a655382ed7c797561c5d8decbf327a64dc0bee8473981"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-800.avif",
+      "bytes": 31321,
+      "sha256": "aca99dd11d129ba315a689a46aef66809ba4bbbbe2f26c1704eab1d78d21c0e3"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-800.webp",
+      "bytes": 62610,
+      "sha256": "eea6f7f542be40d7661345acb65f70bc3da0df45762a0dd46e70b87895af816e"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply-1x1.webp",
+      "bytes": 137466,
+      "sha256": "28cd67df18bb7631ca850f116ba4f9b861e29610cf2a0cf3c3c5712e8fba1718"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply-480.avif",
+      "bytes": 11854,
+      "sha256": "9ef211d6a6520009ed1a3c13b0860e9da2ef5dd6dca68fc7e150fa6489760339"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply-480.webp",
+      "bytes": 24700,
+      "sha256": "67263f7e351071ac1b65322002d3904bdc0de768fef591941938f29e0154916d"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply-4x3.webp",
+      "bytes": 135200,
+      "sha256": "d614be833205abb339fd1ce2502b065ccd7921649fd4668401859697305e809e"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply-800.avif",
+      "bytes": 29951,
+      "sha256": "e59213543dbdd41dc05d24628221b1b757203a0553760e09740adeef7ffa31b7"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply-800.webp",
+      "bytes": 59014,
+      "sha256": "de36de53081cdd95b9fc691e7c7e44af5dd7028e90c67ff39f0bccc725ea3fc6"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply.avif",
+      "bytes": 70932,
+      "sha256": "b5ee7718832eeda24dd20b89f675eb067fddcab8cb13ecb7d0f2511b5e15512b"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained-simply.webp",
+      "bytes": 124714,
+      "sha256": "bd3b403c7909812a2fc864744be867ffb68a972de77a9556d3827babfcb357e2"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained.avif",
+      "bytes": 70948,
+      "sha256": "7a9719cea31a2e2be28d0f3eff78d605cb7465b2fc3ebdcadf4ed7b35a9f1d61"
+    },
+    {
+      "path": "dist/images/articles/four-noble-truths-explained.webp",
+      "bytes": 130948,
+      "sha256": "97a324eac6807d129b8b10774225349328d4feb3c2c0692c2c2b8006a897aaac"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism-1x1.webp",
+      "bytes": 107412,
+      "sha256": "aa9c6c498835476f15ad937f317c7a64425498703b72c79fc6ab130ac3f15a7c"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism-480.avif",
+      "bytes": 10366,
+      "sha256": "c72c993a8f1bfceef256e26d7a2a1bafcb51b0f57de77c855aa3fdaddb9d4d00"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism-480.webp",
+      "bytes": 19958,
+      "sha256": "b84883f35f2d832a6cfa15f62a310fd4959813965325200619f214dfba8f084e"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism-4x3.webp",
+      "bytes": 105002,
+      "sha256": "806233440beee625acbc2e0ea8376d09e2e49aa34691457331a1f59f871e49ef"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism-800.avif",
+      "bytes": 25314,
+      "sha256": "395da55f1f1fef8b914849af523c79d4c26a07cb93d5af16c0b323b79fe13ec4"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism-800.webp",
+      "bytes": 46730,
+      "sha256": "5831b8e428d294d6b1faf329e4ad01e1daa9c705dece1674be1b9a59c1015681"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism.avif",
+      "bytes": 58039,
+      "sha256": "9fdcafa63528d529530505ef5b7819d23c6697eb43d399a27d7a9fb9ba18afdb"
+    },
+    {
+      "path": "dist/images/articles/how-to-let-go-of-attachment-in-buddhism.webp",
+      "bytes": 97748,
+      "sha256": "66775cb48b2e6634690ad5bb9c6967f34e666ff2e880a876a237956efade4200"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety-1x1.webp",
+      "bytes": 160430,
+      "sha256": "533d221af3563b1f450b55c5440bedf04011a26ee3472e38afea120bf5b223c3"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety-480.avif",
+      "bytes": 11906,
+      "sha256": "43139527b427840cb87fd51f8f4459f44456705c71d76afacb6cb0c494160189"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety-480.webp",
+      "bytes": 24916,
+      "sha256": "93045d9a88d16f23617fbb8bc1d4e4ccee2d30800e31c207bd47afd00b0c49d2"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety-4x3.webp",
+      "bytes": 164924,
+      "sha256": "8b32ee7f97257176e286ad21042d6a296e3fa252fa52aece38a22616b051f084"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety-800.avif",
+      "bytes": 33878,
+      "sha256": "5fe22f27c347138a41b4f51800061230e3390d0a25d370e046d159c7ffaa374b"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety-800.webp",
+      "bytes": 66818,
+      "sha256": "7868041b596541cd0eedd271bc8ea72f834c19a21e497c343f62d6758bdf8819"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety.avif",
+      "bytes": 87656,
+      "sha256": "da9b19efff9550bed1d57034002c2b7881d7ffe4406edeeeecc0fec272fef52a"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-anxiety.webp",
+      "bytes": 148482,
+      "sha256": "9beae2c8ab857c60f5da77c3d54839f14e4df8bcc18419556e88484147ad5268"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners-1x1.webp",
+      "bytes": 155900,
+      "sha256": "08493d1da524ec1f2790fd73b16e7df0c7939b6576081b3ddf0e041f8b20e625"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners-480.avif",
+      "bytes": 12409,
+      "sha256": "76438ac806cd99978fd9ce15443173a32213ffd32a8e350d2cccd6bb2ab42ddb"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners-480.webp",
+      "bytes": 26488,
+      "sha256": "97f0fbb09f973d44c682924de27797b93dc1b40a41f3259b806d49b2c6a6e9f5"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners-4x3.webp",
+      "bytes": 149430,
+      "sha256": "cd6c301c81769b34eb50d00656694e76c9845fc6db3e77f101c5a8b9c4b66397"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners-800.avif",
+      "bytes": 33486,
+      "sha256": "2078ae25f48eb744b08e9e470fc8686ec8649342179d46740de97c6ffa27aae4"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners-800.webp",
+      "bytes": 68004,
+      "sha256": "d7dfff2053210bc1d39e9431947b23d3c853546758c284ba4d09f79a0410542f"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners.avif",
+      "bytes": 82284,
+      "sha256": "124db3dc77e5a333da14bf017e8dff22fc5ad6822bf5b33023d8a20519fb60f2"
+    },
+    {
+      "path": "dist/images/articles/how-to-meditate-for-beginners.webp",
+      "bytes": 145968,
+      "sha256": "891a304539bb10187d203acf243cd2b66090388e9453936a0a7f57a9feab5ecf"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment-1x1.webp",
+      "bytes": 112576,
+      "sha256": "783b9354938888a27386b2edfcf6338c3ec89c37a55ef4275bbda2b4d4c6a91e"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment-480.avif",
+      "bytes": 13774,
+      "sha256": "21699ffb65d79e4efb2ffb81f3086390f80d8bdef8d6aa1fb87600bbf5be84d1"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment-480.webp",
+      "bytes": 27586,
+      "sha256": "21510c74f66dca439c6c344c3178c85c7c5e477a45fb61b507a1cb3313feff6c"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment-4x3.webp",
+      "bytes": 137034,
+      "sha256": "869cf3733bd2aadd000b4b339da191810c74f833e39cb88708435665b3fc8c6b"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment-800.avif",
+      "bytes": 34594,
+      "sha256": "cafb9eb33ea0b40a8dd17f550c44cdedf9ff5fcb9d8d3c0365a59cd26ab5646a"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment-800.webp",
+      "bytes": 66400,
+      "sha256": "d591e5e0960fe085f886f66bab4f7b7840678ba96c6105f1fb9cc06c51a44886"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment.avif",
+      "bytes": 80223,
+      "sha256": "922c34e432f0c83dd71060e8e1161a1a5d003ce1e6e50e71620258e2cf03b803"
+    },
+    {
+      "path": "dist/images/articles/how-to-practice-non-attachment.webp",
+      "bytes": 136728,
+      "sha256": "86e9261942f8ddc54de418577de8a1d47240f50c1bdcabd2e51231c4df22a146"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-1x1.webp",
+      "bytes": 107366,
+      "sha256": "3da475fb186eb526bd43acfb4531c0ca85163a2dbc184c16f6a913bba6c2787f"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-480.avif",
+      "bytes": 12038,
+      "sha256": "eee127ff7170f3c5047dec20fae0ab8c7852a3dff0f260dc78dec9023c636346"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-480.webp",
+      "bytes": 23222,
+      "sha256": "f86e5cad5573cdcecd2af281284bceda6d949f412348a95392ead0aaf91cdb03"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-4x3.webp",
+      "bytes": 111246,
+      "sha256": "4c4fa043724d3f0dc8f885f1791f4aa5e5247c2411a0e6deffec491558d0b919"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-800.avif",
+      "bytes": 31368,
+      "sha256": "9ebf1afbd27ef87784cc78c47710ee10788f974f379667afd92a5a18e95ac813"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-800.webp",
+      "bytes": 57740,
+      "sha256": "acc8dc366506da2ddab233a0940a73097fe8d578b07fb42ff76e0c861cea7e18"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go-1x1.webp",
+      "bytes": 142494,
+      "sha256": "3e805206a4063ad7fc2e9fd521c6f094b864db1b596fe894551fe25a0ee9b2f3"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go-480.avif",
+      "bytes": 12373,
+      "sha256": "736a248916f768b07dfa1b0a560f099d9f3a7e0bb2d8b0476e678bd29b445dec"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go-480.webp",
+      "bytes": 26300,
+      "sha256": "2873062ca7cb39be7d4d98e873fb1a0631a6a094f78b68a51a1972623537f3de"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go-4x3.webp",
+      "bytes": 145484,
+      "sha256": "7da63b9c70606caff5f71ebaff327232b31e915b35f9255d5a9f0b0d4b67c7c6"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go-800.avif",
+      "bytes": 32559,
+      "sha256": "dd28df581cc542fd13d3566edc1ba8ba5b80d8ecf29f620e9550f67c73f64cf3"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go-800.webp",
+      "bytes": 64966,
+      "sha256": "2f16a0616cf7b756d8f2f18fb9261edaf030aee3c3f05516c78cf0e46cb7fc1f"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go.avif",
+      "bytes": 76922,
+      "sha256": "271f81f7b11683dab0f746ba89c59b43b066bf2d98f2cb3451455248326ce45e"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism-letting-go.webp",
+      "bytes": 136832,
+      "sha256": "1d417dbd6c27fe52c8b01c8c7ffda4177d608db93bde0b4039a33df560648945"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism.avif",
+      "bytes": 73619,
+      "sha256": "b5ae437629b4e6de7e462a5590921e0375871aebef858e8707f1113e7efb263a"
+    },
+    {
+      "path": "dist/images/articles/impermanence-in-buddhism.webp",
+      "bytes": 124774,
+      "sha256": "b8dacbbbd8e675df58ebc29404be809334737a6250311fa186bdd4c8c51eb96a"
+    },
+    {
+      "path": "dist/images/articles/letting-go-without-giving-up.webp",
+      "bytes": 32406,
+      "sha256": "f6cac89d35d22411e7372e761bc0acd5d96b44cce3f1595a2a7440f174a38d2a"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners-1x1.webp",
+      "bytes": 119192,
+      "sha256": "384680a2ce70509aef918d4551c4a0cf72aed5ea1f1b07b02dc331d4a2bcc444"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners-480.avif",
+      "bytes": 11743,
+      "sha256": "d241dacf3421802cb5fc76d9286628e43cfaa49c11b23ce90d9b8fc48647d2c0"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners-480.webp",
+      "bytes": 23558,
+      "sha256": "3e12e10f5989bda53e3466fb776af32451a95a851a677cb3daf9fb4ba2dd97ba"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners-4x3.webp",
+      "bytes": 117316,
+      "sha256": "3341bf76a374f7b07e46989e1f03d3d9c21fd385db7ef2b0baecac41bb65a3be"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners-800.avif",
+      "bytes": 30340,
+      "sha256": "cce239e37d4e706c612234bf06800b3aa727cf021c24ac37766a769aa7035586"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners-800.webp",
+      "bytes": 57088,
+      "sha256": "9163f1aec3f45866d8d027d7b509cc8c36c129faa4949a585f9bdb9d150a4ee8"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners.avif",
+      "bytes": 69597,
+      "sha256": "183c253eeafe0873bc7bc54a50e5dd59f815264df59839f6ca88163fa714be24"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-beginners.webp",
+      "bytes": 120350,
+      "sha256": "a41ef31193f162efd7bbb8dc6d623f9de23ea5606209292afb2f0c9963429fc7"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide-1x1.webp",
+      "bytes": 164112,
+      "sha256": "6e071298079cc985d02074f5b854e3df41eafb67dabc22b4e6719cf7377cb404"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide-480.avif",
+      "bytes": 12680,
+      "sha256": "0315f2c2b5dc43babdb8e0b34ff41ae02254b94c4170f9fd6dd95964d5730c2a"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide-480.webp",
+      "bytes": 26922,
+      "sha256": "f2a441d143b159ce7b7f5cd309c54f7fc3be57698f1e05911c0d9930affbff5b"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide-4x3.webp",
+      "bytes": 155384,
+      "sha256": "c4fba4c6a15d0f501d2e0b93aef5b9c5329abae5c1eee5ecd0cb9ddf471aeaa9"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide-800.avif",
+      "bytes": 32585,
+      "sha256": "68503532d2ad5f865626468607c29e98a54d846acff2e1eb31b097a4d03b9b5b"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide-800.webp",
+      "bytes": 65056,
+      "sha256": "5fe1beb563fab53a596a6d9ea12c505ebf2dbd2d19f44dc297751907c3867b1c"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide.avif",
+      "bytes": 78620,
+      "sha256": "6b836708652721d3939ab9aa051a15ab993b99517a61e405a91c65a0b7d2c944"
+    },
+    {
+      "path": "dist/images/articles/loving-kindness-meditation-guide.webp",
+      "bytes": 136310,
+      "sha256": "2bc03c68244361e66b6a130106bb57a52a13c92e8c871fadeb7b42599684831f"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script-1x1.webp",
+      "bytes": 188370,
+      "sha256": "9ab54d01fac5500a07891bfcca6f11728cfc95d296c702a724068e671c9f5291"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script-480.avif",
+      "bytes": 9475,
+      "sha256": "f939e9ef3bc6af8de15d53da530488a6cb72a3866fdd4c032a17fa5c9bdc6f5c"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script-480.webp",
+      "bytes": 19556,
+      "sha256": "bb6765c07827fee10d52d8ace0b2552d7d67e4ae07dc71b52c3baf9c962fdf05"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script-4x3.webp",
+      "bytes": 202344,
+      "sha256": "3b288c0149eaac02bda7fc9a38adbf86302db95fad9eb7cc20c08e4b99f0d2df"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script-800.avif",
+      "bytes": 34096,
+      "sha256": "006d8d41f42c3fc07d5fb197d547201a85ebee651961a7dd80dee71118e4b93f"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script-800.webp",
+      "bytes": 67886,
+      "sha256": "6520193a2ac37756a2a5391352c2f3ac9aa6c9d49031095b1c44fe43bcae1b95"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script.avif",
+      "bytes": 98739,
+      "sha256": "52df077911cc76711d23c151ec14d1cb7902507cdbe6f7daca5397e0b2bb72f1"
+    },
+    {
+      "path": "dist/images/articles/metta-meditation-script.webp",
+      "bytes": 179346,
+      "sha256": "68549c2b987c48dc465684223b07f687ff530231a745369ad745c9b7253f854e"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting-1x1.webp",
+      "bytes": 68804,
+      "sha256": "460e90a38cdf476b06573c627fb7ff9ee0e18f1f2844491d35ddfa093797b7df"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting-480.avif",
+      "bytes": 8188,
+      "sha256": "b049780c05e871d07c01cf20730fc3cf3378d49cbb845cbad89419962a49816c"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting-480.webp",
+      "bytes": 16662,
+      "sha256": "506c5407e999ead86320307fc4813265117afa96b469536477216e02a871a7b9"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting-4x3.webp",
+      "bytes": 71866,
+      "sha256": "1189579286eabdc41c97df835846317d11bdd99de56ec975d232f5f9eeced9a5"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting-800.avif",
+      "bytes": 18302,
+      "sha256": "bf88e45b754490901b89da7cdda83d39a40cb577e68f75ec282d9db89e0e65c9"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting-800.webp",
+      "bytes": 34040,
+      "sha256": "b66a3e90177a4333eafe07617f5a343ea49c08877058259451560e4c64736ebf"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting.avif",
+      "bytes": 38910,
+      "sha256": "2beb8a164b99c2e59f395fc3efe244cf1cdc8df8e0f486414a30431d0480454c"
+    },
+    {
+      "path": "dist/images/articles/mindful-email-and-texting.webp",
+      "bytes": 66288,
+      "sha256": "8e9a34911c1d937a40635471fa8f3b37570eba181487bff4900ffae9bd53f662"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life-1x1.webp",
+      "bytes": 89670,
+      "sha256": "95c9517d53b7c95a2e8bc10a83f6a8802808583c59ae0b0d610d01ee11efcd11"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life-480.avif",
+      "bytes": 9606,
+      "sha256": "c2337f1c2f5b7bd8abc8b0e16a94ac051de4012bc12d479af872099af18da376"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life-480.webp",
+      "bytes": 16746,
+      "sha256": "3a9fbc6f29e43a8125173790075526f666ed7157ce48f07594eb889ec0a2c99e"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life-4x3.webp",
+      "bytes": 85264,
+      "sha256": "bac99f631d52fa24aa098c4bd7024973a44c343a332e5163aa6d8dc99ea192f3"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life-800.avif",
+      "bytes": 22993,
+      "sha256": "19214005a04abc36c3f81ebe484647e166222ad941bc1bbd7578592c5a067e04"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life-800.webp",
+      "bytes": 37076,
+      "sha256": "c710a7bf5a4e90c8795c9999b6701dadabce9f4939dc3c65b46710ea2d2371f5"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life.avif",
+      "bytes": 51495,
+      "sha256": "000d230690d8adc6e6e8f9ea42032cc120e6e4dbec8a15354875278b178919da"
+    },
+    {
+      "path": "dist/images/articles/mindful-listening-in-everyday-life.webp",
+      "bytes": 77326,
+      "sha256": "da12072fda3b6e118c03219272657c26d680560f36ffc151725eb472cc5c15a7"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep-1x1.webp",
+      "bytes": 124406,
+      "sha256": "6e1224d409474d7d41b8de462df6ebbe0629f7b9d87ea9aa344e4304ef3ec9c4"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep-480.avif",
+      "bytes": 9524,
+      "sha256": "6a72231dd60d2b4379f2e7ec7cc29bfb5e3bf288bfe1e5f60ddb8fc45fb3db0d"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep-480.webp",
+      "bytes": 18808,
+      "sha256": "8a28ddbd7c6ff44d5db4b450fdcf1ad715a1f2e877001d0c57ca01c8b388e419"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep-4x3.webp",
+      "bytes": 119946,
+      "sha256": "f5c633b92928a31982408ab69af80a7e0d7030157990cec32d1954ecfb05544e"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep-800.avif",
+      "bytes": 26803,
+      "sha256": "f36ff704b5a3332a50920fed8b3cba8a08dc61049db5ffc5c355b4174f44392f"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep-800.webp",
+      "bytes": 48490,
+      "sha256": "3b39ea94bea5910ebb62778af950f3778b134e9d1fbd84e6815ff5049f6cc000"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep.avif",
+      "bytes": 68153,
+      "sha256": "629e7903145eb1bf430bbe45da4005962c7879b5446d98d417f136d45352e336"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-for-better-sleep.webp",
+      "bytes": 111816,
+      "sha256": "c02a484087f8a9b00bbd6eccb8e60043e170ccf58372ce88331b7fcd6bfc801f"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine-1x1.webp",
+      "bytes": 80376,
+      "sha256": "3b99974e1f4f5f65bde69d07767c51768293fff84501dfbd16a64228369b33ba"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine-480.avif",
+      "bytes": 9238,
+      "sha256": "27860700e95812a52474235ad161413fa0cfe41f14776279954fd2358bc7cc53"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine-480.webp",
+      "bytes": 15970,
+      "sha256": "239dad6a562470a7039c74745b782f208eeb90c411cf3df6bfda340ded1a3881"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine-4x3.webp",
+      "bytes": 80216,
+      "sha256": "38aca1e78302ce90a141e2bfbd3214d44974e3eddf4a936dbb12fe1baada54d9"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine-800.avif",
+      "bytes": 22198,
+      "sha256": "b14c0b059c23c8b2244e35ea1041edc2340a7878cfe32b423ee94b3edaef8aa6"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine-800.webp",
+      "bytes": 36482,
+      "sha256": "30ad9a5a19256b549215c663e7f74068aacfb17a2343c78b01b0bd29e1dc197a"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine.avif",
+      "bytes": 50780,
+      "sha256": "19d5b9bdfb63db7c3e688f8f69b296339f5c201c54104bfe765dace6864671eb"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-morning-routine.webp",
+      "bytes": 77540,
+      "sha256": "c25b50b0098508a24bbc882503d8a048e1ef8881c95a2415a1b8f3bcae8470b9"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide-1x1.webp",
+      "bytes": 115134,
+      "sha256": "d00d4509cfd30005f0a55e5a401ed5efbbafd54829dd9ce13655f5e1ceace0d4"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide-480.avif",
+      "bytes": 5991,
+      "sha256": "a22e2b645acb77aa94b3a813a1650fcdc9beaa6ee16a186d13d01f1c03c253a3"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide-480.webp",
+      "bytes": 10160,
+      "sha256": "a9fae88b1febef25d1557e4e33886451d6a78dc7cfb82596d3a8f611d36f491d"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide-4x3.webp",
+      "bytes": 111234,
+      "sha256": "94e99e189e697cc7bf742431f4912023709ef94fb5f5958b3a4e745a7d1fcd41"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide-800.avif",
+      "bytes": 18214,
+      "sha256": "c3b143e6a86fe101eb71441717daa9a75225147632db84dc8db3d128b37afb27"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide-800.webp",
+      "bytes": 31330,
+      "sha256": "724c41d754b127db450f5e3c227b406eab7ce46f7d6507379f850b3f79de2475"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide.avif",
+      "bytes": 52894,
+      "sha256": "b3820b7da999a96396059bd88c74e3fbecbc52e1b3ff87cdf19612884b69c838"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-of-breathing-guide.webp",
+      "bytes": 87560,
+      "sha256": "38a0a9badb23e69283d431a6274f16dd7d3198efbcf351c94b90dee9aa745fc3"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation-1x1.webp",
+      "bytes": 108788,
+      "sha256": "910a81cfdfb4fcfd8cfe38791b33afdcaaffab0aa470dc8685c38cbb9452b5a0"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation-480.avif",
+      "bytes": 11565,
+      "sha256": "26a5f801b27ff5996449efff9b72f5a45436a1bb81cbf0f98e45e6eb2d1882bc"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation-480.webp",
+      "bytes": 22136,
+      "sha256": "ce4aaf0e3d6bd7dad6cce42ac1ed3b78ed7a8a99b01f92c86994b14767a2fe82"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation-4x3.webp",
+      "bytes": 106192,
+      "sha256": "b3ace5eecfff0489b2e798b9b5cbcbb0cf710fc83e0e2b959f984928130e0dc7"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation-800.avif",
+      "bytes": 27802,
+      "sha256": "e2a2ea96c3faf263bf9931757d74128a327cfb8f76790a146ba7f266457de8cf"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation-800.webp",
+      "bytes": 50532,
+      "sha256": "c89ddef887fa75977bd424d7274136cb1a222fd15b66560ad7e80d6633652447"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation.avif",
+      "bytes": 62961,
+      "sha256": "8e5799ffd8425f5d4844a6f1eacefc7606481613fd58087dbe97b113c32c00e0"
+    },
+    {
+      "path": "dist/images/articles/mindfulness-vs-meditation.webp",
+      "bytes": 103914,
+      "sha256": "abd0c36e5f4bab361ebdc83c9fa0e7508aae764e8907e23569df91f7512abb9c"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide-1x1.webp",
+      "bytes": 234470,
+      "sha256": "b353a817897ce222fc3b65f9474b423fcce1496c8cd84f09e20c2d44b508c060"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide-480.avif",
+      "bytes": 13736,
+      "sha256": "d422dadb8edd63ccca83eb7de0a8e63072ac4be1e40f8a51ae26fac571266cb2"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide-480.webp",
+      "bytes": 29732,
+      "sha256": "01237522479499b6eba600d762198735ab590b8fcc3609674222120cf7080fe4"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide-4x3.webp",
+      "bytes": 224662,
+      "sha256": "7ff2d4da32fbcf6df5423593ab35dff1a6bf1cdebca95bccb3e26c63cebc4f02"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide-800.avif",
+      "bytes": 37926,
+      "sha256": "803d9a06773a1f9c0c394aac8a9ccd25dd30ae3e6e6ff3e97214c8038f6c0d8b"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide-800.webp",
+      "bytes": 78554,
+      "sha256": "704963e0feeed58687c7d5d1cf84ea779cd6fbdff5c3f493eae55bd46b63bab5"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide.avif",
+      "bytes": 92221,
+      "sha256": "a43af6112648623f51a3624ade3d5604c2cf8a95aeccb06a4aa10a04364a4959"
+    },
+    {
+      "path": "dist/images/articles/noble-eightfold-path-practical-guide.webp",
+      "bytes": 174332,
+      "sha256": "c94417dbaccce59c65163fc0967beb02eb17f18524438d04f6fc33296c1ae886"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life-1x1.webp",
+      "bytes": 94364,
+      "sha256": "6fd0bd3e629036fd27ab80d9ca867d5f083b79cc93481e4af607aa6202579242"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life-480.avif",
+      "bytes": 10093,
+      "sha256": "fa0cfabbd26f0c28a0e3aadb4851b8462aa7654e19dec8e2e488809baf516f29"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life-480.webp",
+      "bytes": 19868,
+      "sha256": "3731f1468e1ff3177868044833066327cca55a5216d416ac1e7a5fbc59da2460"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life-4x3.webp",
+      "bytes": 97976,
+      "sha256": "7812cc923440168cfc9d50b585ddd13df28eb86a7886e8dbdcea1cdf7cefd752"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life-800.avif",
+      "bytes": 24573,
+      "sha256": "189e27a7f0fc3efdf1bc0067815dc88358bddba83003c730ee93c36827ac41d4"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life-800.webp",
+      "bytes": 46372,
+      "sha256": "b7fbae0d80b167c003c228e1317bd1aac1a4585792b1aa979aedfb5487a23684"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life.avif",
+      "bytes": 57874,
+      "sha256": "56938f9887d31463af8be1f3444a432bc49828e8216de0c52e7c6bd279cd92e1"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life.svg",
+      "bytes": 1351,
+      "sha256": "cc34ec8caf45a589df9763a762fca2cd74ee29a66f753a927fc4f6042f60abe2"
+    },
+    {
+      "path": "dist/images/articles/right-livelihood-modern-life.webp",
+      "bytes": 97466,
+      "sha256": "bf240d356e63415a0faac93a02b59191c0ac769cda3818b4e0b1cf1e454ad02e"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism-1x1.webp",
+      "bytes": 81528,
+      "sha256": "c3b0c8d98bd4349c77a5abea2d46cbb41cebeeff55af78ba6370ba32c92878d1"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism-480.avif",
+      "bytes": 9810,
+      "sha256": "c5d7f5887d7fa6dacea4ad8c8b3bf302bac2c2ca44f7c323f02405a2a82b77d7"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism-480.webp",
+      "bytes": 17646,
+      "sha256": "c1b39ea4920704f02754055bf0cbedf0dd44a8d316b52644c45958af841d33d5"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism-4x3.webp",
+      "bytes": 85840,
+      "sha256": "9db5ccc6b77559dd20a4717844c7e813e881642de0e3a327674a93e1a50cdc1a"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism-800.avif",
+      "bytes": 22452,
+      "sha256": "ff4351241683568fad05272700f8067808384adf70eb4f13207c3a9239b3468e"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism-800.webp",
+      "bytes": 38492,
+      "sha256": "21c5b8f9b8d86be202558f462efde818afdd2700dab841238207b882321eee1b"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism.avif",
+      "bytes": 51510,
+      "sha256": "7ec3e589fdbfb4b7cf899f252719a685392bbfa784d93d1e548433738c844f63"
+    },
+    {
+      "path": "dist/images/articles/right-speech-buddhism.webp",
+      "bytes": 79198,
+      "sha256": "29b9fae9663ba05c52a14c30c453fccfe1cfc218c6957449a82aad5881f021c4"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples-1x1.webp",
+      "bytes": 159570,
+      "sha256": "1058f352fd1cc81e9c04a82caf9419d75459b6772d664a852a02778e45b0704c"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples-480.avif",
+      "bytes": 10301,
+      "sha256": "cf3016b53e1a90c1fdd81675db736132c6f998daeb11b6c6030031d36d5c49be"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples-480.webp",
+      "bytes": 19024,
+      "sha256": "8ee80f557f1200c8f23d6b6914346ab56d80325e210ec41f82611f18e0a6d108"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples-4x3.webp",
+      "bytes": 150484,
+      "sha256": "b04f5356abd6f99fe4d4e0f7995d2e396e9fd75f5a59d3626c873986bc3f022e"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples-800.avif",
+      "bytes": 28723,
+      "sha256": "b4fdafcdc75d5bc2053ce7269ac35a86b22621161f1fbe13b965927054a62524"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples-800.webp",
+      "bytes": 53542,
+      "sha256": "b21e2c832138ba208eafc787c26dd72a708de23cd5a4c4e627140fe0cf3e6200"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples.avif",
+      "bytes": 75681,
+      "sha256": "3954832777940d230039a1d1967c189ddc8910eebf80107ab301a3c11200f4d7"
+    },
+    {
+      "path": "dist/images/articles/right-speech-examples.webp",
+      "bytes": 130666,
+      "sha256": "baa51473d4d915a71ebb049d759534e1a035c8a36df630ffcc9a94833fa0899e"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained-1x1.webp",
+      "bytes": 232366,
+      "sha256": "e52410d8cf3c586bb86c14c5c4926df22591fd7d5ace44f664e3b1024029491a"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained-480.avif",
+      "bytes": 16970,
+      "sha256": "9a7c8ecb39c8141cd0e25519d965066d4ea66b51cc793376548aa53b9a2f8e68"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained-480.webp",
+      "bytes": 37354,
+      "sha256": "a9625d14ccb2db0d09e4712b8e2eb88b55719e990a1b43df9e8047d4be9df571"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained-4x3.webp",
+      "bytes": 225012,
+      "sha256": "848324385db87ae658b6461b73cdbbad4531176be0a13ccb19a05d82c7e40fef"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained-800.avif",
+      "bytes": 46915,
+      "sha256": "2620c343152a8aebdc03b50998203ff93ce4dc04c92b1b60a882fbe0ee7b9277"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained-800.webp",
+      "bytes": 94194,
+      "sha256": "5d6fd64e73cef2dca48fd13169f9f9e4dce15630930b3dd2e69c346693c10796"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained.avif",
+      "bytes": 111015,
+      "sha256": "85eaa190eb627db150703c435b10d758dabf264579bd147ba6cf15bf9b57d64e"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained.svg",
+      "bytes": 1705,
+      "sha256": "14f5627483272a49cb4736a776cd260c34e58ffffb6b3d6c0939bc72928ccc11"
+    },
+    {
+      "path": "dist/images/articles/three-poisons-buddhism-explained.webp",
+      "bytes": 200786,
+      "sha256": "e7d07d266f17063956af43e5a8333fd7abc177aacb025af6963c4365085b70f6"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience-1x1.webp",
+      "bytes": 140890,
+      "sha256": "4909f378e79ea9735bd7dfd6083a6b9db61ab69cbb1cc47711c82195b4ccc131"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience-480.avif",
+      "bytes": 12071,
+      "sha256": "16e21a1fa3eba1defe7e58f4d43ddba945bd4f2cb2f90eefd2f3b37439777c56"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience-480.webp",
+      "bytes": 25220,
+      "sha256": "e708916597d2dda40ad8d6e153a698b513d2da787c0a5d177129b9a4d9369838"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience-4x3.webp",
+      "bytes": 139896,
+      "sha256": "338753602db6e2e8efff86feb794aad46a0564fe16d285e9e38bd28a9edff808"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience-800.avif",
+      "bytes": 32420,
+      "sha256": "c11b48b2b5fc77e93e849801742486a55b7d5625a4349ec75d63574ad3f2aec4"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience-800.webp",
+      "bytes": 64332,
+      "sha256": "8621984055b8a5aab49cb559aff73360d028bfca7eec3a3592667f894740d907"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience.avif",
+      "bytes": 78854,
+      "sha256": "52b84365858d21756e0a043d354636764ae55e65f18b48bb52e71cda04e76a6f"
+    },
+    {
+      "path": "dist/images/articles/three-ways-to-practice-patience.webp",
+      "bytes": 143454,
+      "sha256": "a5cc413a94dd45d5c92c72106797f6d44fa3e989e8f9aa470266a9f4b673b4b5"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully-1x1.webp",
+      "bytes": 123042,
+      "sha256": "71fbc7ae9d3011361d4f30e99c28848050cdef32a9fe1a592d9ddda2d729ce60"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully-480.avif",
+      "bytes": 10129,
+      "sha256": "4a9d645b9fa31a70eb0ab299ea6a9ecc28be95fc7a1f37ed768198ac5b2d49bb"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully-480.webp",
+      "bytes": 21254,
+      "sha256": "59238199c2006daac785fe34db1967fd121af930a88c30fc305b03cb0c6f88f1"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully-4x3.webp",
+      "bytes": 123802,
+      "sha256": "c438714257468685111f8f695fd31319c6c2cc78aa9efdeaa8d55164a570368b"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully-800.avif",
+      "bytes": 26488,
+      "sha256": "0c121f59ae8588fafe717120dafd8fea144c0aa762e3cc559595d12415f60030"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully-800.webp",
+      "bytes": 51726,
+      "sha256": "0c4e2a9c32e8ddbda61e16f431902237878d5cc1cee7c44df046ace29e8431bc"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully.avif",
+      "bytes": 64656,
+      "sha256": "0d40486c562d908613ce187af8ed735a60da7824e4175d660e5d139ba8dd340a"
+    },
+    {
+      "path": "dist/images/articles/visiting-a-buddhist-temple-respectfully.webp",
+      "bytes": 116936,
+      "sha256": "1a4ae3ab1fb2a0e5fd53f5ba4dd98ac72e6d886b12fad4e87c0e6ccd7ad7f41c"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step-1x1.webp",
+      "bytes": 78822,
+      "sha256": "67003e8a2e0ec03e46518c1d109cb86bec5c90c881f576479fd940cb5c2f27e2"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step-480.avif",
+      "bytes": 7837,
+      "sha256": "86a3efe3afa2728d57923c9c58af5fcfa41a7c02a70fbdc85350a13336fab3f0"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step-480.webp",
+      "bytes": 14188,
+      "sha256": "f388a4b13cf97f62cffdad240253e0452becf0bf47c5ad954248f4b906cdc5e2"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step-4x3.webp",
+      "bytes": 72954,
+      "sha256": "cd7de8c314a2c3e44c545320d8753b36ab8295b1869ff7a5afd9b232b19d7da3"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step-800.avif",
+      "bytes": 19382,
+      "sha256": "0482644da6ce8cbafbb3d87fcc7a155d0a0bfaf1bdfdfd3dd506f1362c50e99e"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step-800.webp",
+      "bytes": 32410,
+      "sha256": "50ee6127b53d9a6cb707ed3b31006c67e48d904f8cac196e342d2be7b3958aad"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step.avif",
+      "bytes": 45801,
+      "sha256": "7553be541839e158577ced2015670f654bbbcf57f1b652b7b5be26a5aab2d0bd"
+    },
+    {
+      "path": "dist/images/articles/walking-meditation-step-by-step.webp",
+      "bytes": 68858,
+      "sha256": "296a3bc0b313f4507fcdfc071e2ce14bbb6fbcb20c5f5ab1eb97cca270a7e6a2"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide-1x1.webp",
+      "bytes": 90880,
+      "sha256": "32fc0f8580b72eba6336a75aff13967bca22ad8f7f80249d8268d94fc1522ece"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide-480.avif",
+      "bytes": 10952,
+      "sha256": "a27f9766b916072a2880b5caf7c2224942ca2ef78128b6e736649665b9a79aa1"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide-480.webp",
+      "bytes": 21764,
+      "sha256": "7424e2c7208b1f9012218abb5b5aa2f2bb51fe2c166ecee74a8b53d8e9d297ff"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide-4x3.webp",
+      "bytes": 96424,
+      "sha256": "6f47cdceed98fdd6a54c8ff106477908658feccf0a1c215b3a35faa84a4d4ec3"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide-800.avif",
+      "bytes": 25680,
+      "sha256": "afc8a53a8d272865899f99d3fdd6174a8c75716743fda0035cbb4b163cfd11ad"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide-800.webp",
+      "bytes": 48870,
+      "sha256": "b4a9c26cd42a53eade0aa94b24c05eeb5cc292c1ac2b2fbcf94687e9dc1f4a58"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide.avif",
+      "bytes": 56479,
+      "sha256": "1ad7fbb730e52447c245de4505080fdc625aaf9f42a5f011a47f7969cea2b2a0"
+    },
+    {
+      "path": "dist/images/articles/what-is-buddhism-beginner-guide.webp",
+      "bytes": 100562,
+      "sha256": "ec8f12e267cd43ce13cd19a7beb48de6cdd1066a2f3b90f90a5fd322f4dd1656"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism-1x1.webp",
+      "bytes": 106848,
+      "sha256": "9e8a334806a2f58d7a378a757d1d5786034a5a06c8ec576ff843356073917fc7"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism-480.avif",
+      "bytes": 10881,
+      "sha256": "78faff6548625b3e9a86ad97c7908f6d632033b7bfcc8379a39e603750a8cf31"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism-480.webp",
+      "bytes": 21716,
+      "sha256": "39d6a598193cd20ff85c877d9d1f35ebc2cc507faa5abbfdbad37a772ba0d96d"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism-4x3.webp",
+      "bytes": 105754,
+      "sha256": "3943491c74623885775ba282e77c6c3d9cf2d141c47547fbc57b4f7d261500af"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism-800.avif",
+      "bytes": 24678,
+      "sha256": "a0b626d175acbd179d1aed5d4476ac099a863228f1a2489dcab9f4d50c28706b"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism-800.webp",
+      "bytes": 48992,
+      "sha256": "0c188f602712a083ffdb67f531fb94dd99de793b8d0b28704a640e9e89ad49ed"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism.avif",
+      "bytes": 52975,
+      "sha256": "5be959c98f9b6fca11752736e1c5c67b871b7409566437609d952ee531716c91"
+    },
+    {
+      "path": "dist/images/articles/what-is-karma-in-buddhism.webp",
+      "bytes": 99034,
+      "sha256": "ca0115e9e010065b88ed5d16145e1dd721cb6b618b29025a6925af03d9626772"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community-1x1.webp",
+      "bytes": 114954,
+      "sha256": "483f7b10213d66e263685e1ed1a25c2b91b32afb8d2c75f8b5ba81b427e744be"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community-480.avif",
+      "bytes": 11883,
+      "sha256": "1a49c2f927c3175610a2c57ea29e8e178768448793155b604a7d1f2334a054bc"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community-480.webp",
+      "bytes": 22902,
+      "sha256": "385ca306fde835f09e122cea3b36f75129eba8eda622a82eb28d1c1199cf240f"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community-4x3.webp",
+      "bytes": 113466,
+      "sha256": "b9ce2ab4bfd7a232b2fca8ba0a537eef88bd4d1f098c3cc836f0d4ad65f8cc65"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community-800.avif",
+      "bytes": 27947,
+      "sha256": "d6c2de850e048a001b805c897cb71a55260062d357764380d6b670613394f7b8"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community-800.webp",
+      "bytes": 50388,
+      "sha256": "b7c5d49c92a7a56e5ff7c3959a0017c31ca61f04570b6710bff77e34796fd189"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community.avif",
+      "bytes": 61962,
+      "sha256": "239cddb9f660e290bf3a101938b161b5c3cbb066e998ca69ab01972bb0ac3c45"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community.svg",
+      "bytes": 1381,
+      "sha256": "2ddd496f9fc27e901a77848900f71ae2414eb5391efde04417203a8129b0127b"
+    },
+    {
+      "path": "dist/images/articles/what-is-sangha-buddhist-community.webp",
+      "bytes": 100072,
+      "sha256": "780ed6bf95d987f7e1ba926bf670a4fefb134b4b3f46a18fa354acd992ea3c72"
+    },
+    {
+      "path": "dist/images/buddha-brand-icon.png",
+      "bytes": 16644,
+      "sha256": "7b11e8dce0e6320880825dbc0082b32a29868d95d8e16ab3e2c6f06d437fec62"
+    },
+    {
+      "path": "dist/images/handbook/buddhist-handbook-journey.avif",
+      "bytes": 137997,
+      "sha256": "c7386fdd08cbbb077bb9b8379f58d94fa4a24841ec31c8a06bec008ba3969028"
+    },
+    {
+      "path": "dist/images/handbook/buddhist-handbook-journey.webp",
+      "bytes": 240314,
+      "sha256": "4a710289669698162c892109fb33b85540899e64f5e4d4d562748fc639af3532"
+    },
+    {
+      "path": "dist/images/handbook/refined/becoming-a-lay-buddhist-800.avif",
+      "bytes": 51475,
+      "sha256": "135abacdc4a8a5198aec51567f94765ee54fb285dfee910c57ad087f9e0f9581"
+    },
+    {
+      "path": "dist/images/handbook/refined/becoming-a-lay-buddhist-800.webp",
+      "bytes": 88566,
+      "sha256": "ab3e54bf9e8d7c585ca2228b28f771e2b1655d889a11f0c1e8e2063eb415f601"
+    },
+    {
+      "path": "dist/images/handbook/refined/becoming-a-lay-buddhist.avif",
+      "bytes": 148867,
+      "sha256": "94478f4c51ddc22ed66497b968bbca59b27559149882258ab35696986fd68b7d"
+    },
+    {
+      "path": "dist/images/handbook/refined/becoming-a-lay-buddhist.webp",
+      "bytes": 250084,
+      "sha256": "a59f1c08094c898175ddc12350ece67fbcd48859367c0b01c606a7a97c8f847b"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddha-as-refuge-800.avif",
+      "bytes": 56251,
+      "sha256": "29e1eaa57255f21cfcc7376a73b4f06be1bc610296ec3f80b5ddbad585918be8"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddha-as-refuge-800.webp",
+      "bytes": 76866,
+      "sha256": "485eccda94663b02688acd8115916ce9fe0bb6452fc66305712ef920301c8880"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddha-as-refuge.avif",
+      "bytes": 159435,
+      "sha256": "a8b960c8321605963618abe03bb005d0f440ae5dc747a53e93a6522cfdf2fa4d"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddha-as-refuge.webp",
+      "bytes": 253514,
+      "sha256": "7f3093e1830f0d9a58b3cc0bf4a0d93757a03b73c26235e96849b2c547296583"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddhist-life-practice-handbook-800.avif",
+      "bytes": 51147,
+      "sha256": "ebc6dacdf938ae135824e6c5d6339ebd356666111d057e2c35c16e9cc4af3616"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddhist-life-practice-handbook-800.webp",
+      "bytes": 72654,
+      "sha256": "685684aef3d44d1e15aa99a37e20ffecc2d1c6e1cb3b4ba61b4c52b1a66b191c"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddhist-life-practice-handbook.avif",
+      "bytes": 160202,
+      "sha256": "962e5454eab3ed18580649ead438aae8e45db0e2c1c3c903d0e42bdd9eb211bf"
+    },
+    {
+      "path": "dist/images/handbook/refined/buddhist-life-practice-handbook.webp",
+      "bytes": 256408,
+      "sha256": "8fc4c4164e935be70652ee8c593d74db120dafa46d74a6a3b2ed9789970d0456"
+    },
+    {
+      "path": "dist/images/handbook/refined/dhamma-as-refuge-800.avif",
+      "bytes": 46505,
+      "sha256": "ae78642ebc9ae682d7db0febbfd0e71d1a58fbaffeb8fab65be1cd5f1073ea06"
+    },
+    {
+      "path": "dist/images/handbook/refined/dhamma-as-refuge-800.webp",
+      "bytes": 66708,
+      "sha256": "4cc23b0261e42acb80157b9731b87d882bd333ae6df0f4caad58850c963670cc"
+    },
+    {
+      "path": "dist/images/handbook/refined/dhamma-as-refuge.avif",
+      "bytes": 138137,
+      "sha256": "d2fa90f7f57ae28993026815527cc741b546699cf0586796b0f40784e4518935"
+    },
+    {
+      "path": "dist/images/handbook/refined/dhamma-as-refuge.webp",
+      "bytes": 233216,
+      "sha256": "88181ee9b6556d7ed5dfa49d91b6a9e8fc9d5e81368b13b2516f55c18ac72aba"
+    },
+    {
+      "path": "dist/images/handbook/refined/forms-of-refuge-theravada-800.avif",
+      "bytes": 51889,
+      "sha256": "15ded3d018715107db7cbd614b4aa4ccd673241d3b0ed8311983a370bb3e6013"
+    },
+    {
+      "path": "dist/images/handbook/refined/forms-of-refuge-theravada-800.webp",
+      "bytes": 73606,
+      "sha256": "2f931e9790f0a6b2f0bbc95bd1d9ac49f4b9e6150df0f19c69ad30b70f3d453c"
+    },
+    {
+      "path": "dist/images/handbook/refined/forms-of-refuge-theravada.avif",
+      "bytes": 154145,
+      "sha256": "e8aacd1c7da6f6d0f522f8045cd26e63e292539b914353f58e8fa7c9ccf9031d"
+    },
+    {
+      "path": "dist/images/handbook/refined/forms-of-refuge-theravada.webp",
+      "bytes": 251666,
+      "sha256": "b2b2d102b82ad4c71d1a86d9719b5178c929b49781de01b94f2741199ed4b3de"
+    },
+    {
+      "path": "dist/images/handbook/refined/households-sangha-accountability-800.avif",
+      "bytes": 47600,
+      "sha256": "323b1d784d05566d238f8b2b21587c3cc58fbae0143b86c1ff30b5a06123099c"
+    },
+    {
+      "path": "dist/images/handbook/refined/households-sangha-accountability-800.webp",
+      "bytes": 81424,
+      "sha256": "16acd405b7965123c9e89b7e9534685250066ea49d3b8f7bcc3bcccbce13116f"
+    },
+    {
+      "path": "dist/images/handbook/refined/households-sangha-accountability.avif",
+      "bytes": 144263,
+      "sha256": "62456b57beb7b59dabcadf250f46fa20527ce9bc1a91bcc0986abedf98f15eab"
+    },
+    {
+      "path": "dist/images/handbook/refined/households-sangha-accountability.webp",
+      "bytes": 247772,
+      "sha256": "68b0e2a8d53234a25391ba6050227276f196e55f14b077b4908194bd75b6e98b"
+    },
+    {
+      "path": "dist/images/handbook/refined/lay-sangha-relationship-800.avif",
+      "bytes": 50299,
+      "sha256": "dc37799fd4c3e5d318a695af26e091aac3a2d18bc113b1b67f339da8bbdf8a2e"
+    },
+    {
+      "path": "dist/images/handbook/refined/lay-sangha-relationship-800.webp",
+      "bytes": 73772,
+      "sha256": "5439787c3c006932f156ae4e9f1546b2e0feec7b9586bb68c84aceae0358b945"
+    },
+    {
+      "path": "dist/images/handbook/refined/lay-sangha-relationship.avif",
+      "bytes": 166400,
+      "sha256": "ccad994907f62908884068f1de5c5508e92c683a415fa5fe18f3b2ed4556a7f9"
+    },
+    {
+      "path": "dist/images/handbook/refined/lay-sangha-relationship.webp",
+      "bytes": 277462,
+      "sha256": "66632f90ad30d830be6a8905761d0c708266c1ab8deafa80c9de1da93bfeb3ed"
+    },
+    {
+      "path": "dist/images/handbook/refined/practicing-for-yourself-and-others-800.avif",
+      "bytes": 61696,
+      "sha256": "6b1190b7d47b984f9aa6ee3986914559c0812daf9500d2c88bc07e48cdf0d2ae"
+    },
+    {
+      "path": "dist/images/handbook/refined/practicing-for-yourself-and-others-800.webp",
+      "bytes": 110056,
+      "sha256": "56bbc0a26d75c89007b189586e18f13b11bbe124554c6fc2715fff58c350b28c"
+    },
+    {
+      "path": "dist/images/handbook/refined/practicing-for-yourself-and-others.avif",
+      "bytes": 184558,
+      "sha256": "6d8281a74bc27d3686a5bccabe0bf641c8450c5a56200f649f104008ea4f7cbe"
+    },
+    {
+      "path": "dist/images/handbook/refined/practicing-for-yourself-and-others.webp",
+      "bytes": 321890,
+      "sha256": "d227d2000e45274dbdb62db593cc9f87d1a5661ed28a4271ca0e35cd5851fb1e"
+    },
+    {
+      "path": "dist/images/handbook/refined/qualities-of-a-lay-buddhist-800.avif",
+      "bytes": 45780,
+      "sha256": "c5b122dae4bfd3409326928399a614658aa880aad7dff68cf866c90ec4bc12d0"
+    },
+    {
+      "path": "dist/images/handbook/refined/qualities-of-a-lay-buddhist-800.webp",
+      "bytes": 82738,
+      "sha256": "68ba543f4daa53da50fbb43e9c738c055e821305fd11d8d66b30d43e3381635f"
+    },
+    {
+      "path": "dist/images/handbook/refined/qualities-of-a-lay-buddhist.avif",
+      "bytes": 120803,
+      "sha256": "971c1347f7d93b1a370d764fb0ee217ddaab210b21c8c915e761c2010b62b45b"
+    },
+    {
+      "path": "dist/images/handbook/refined/qualities-of-a-lay-buddhist.webp",
+      "bytes": 210752,
+      "sha256": "587a3ad95c529b033969c263c4a2c3a221d9d8aed0944c4ad274ba2e6002ec5c"
+    },
+    {
+      "path": "dist/images/handbook/refined/refuge-devas-buddhist-practice-800.avif",
+      "bytes": 54910,
+      "sha256": "aee5b931529a0e6cbe41b9bbab29696115a7b723c0487721740a74c4f424c435"
+    },
+    {
+      "path": "dist/images/handbook/refined/refuge-devas-buddhist-practice-800.webp",
+      "bytes": 70954,
+      "sha256": "ef2eee696891ec5d5d8328c884462b718d8128dba34d25097e1b9998acbe7003"
+    },
+    {
+      "path": "dist/images/handbook/refined/refuge-devas-buddhist-practice.avif",
+      "bytes": 186720,
+      "sha256": "11554685578d2e946ce1126d36a36621abdb8f89392778e0001dfb48b5360ba2"
+    },
+    {
+      "path": "dist/images/handbook/refined/refuge-devas-buddhist-practice.webp",
+      "bytes": 290328,
+      "sha256": "2ea6dddaf9fe775861bb31da07a861e5eeea03acc606c1fa9679ad3577899f80"
+    },
+    {
+      "path": "dist/images/handbook/refined/respecting-triple-gem-800.avif",
+      "bytes": 52618,
+      "sha256": "7e7418242f6da626e38b25b000db22518e55d44db42b2613d9f3d13aaa65396b"
+    },
+    {
+      "path": "dist/images/handbook/refined/respecting-triple-gem-800.webp",
+      "bytes": 74350,
+      "sha256": "b94b8733c40b4f3d962a04c70f0b0a9b301afddeec6204faa89998f9bc2e2c0a"
+    },
+    {
+      "path": "dist/images/handbook/refined/respecting-triple-gem.avif",
+      "bytes": 149843,
+      "sha256": "8f4862ad6a5e02fc384801d529eb3f7950cbf9d40704d0e47cfbe8b2a729f70a"
+    },
+    {
+      "path": "dist/images/handbook/refined/respecting-triple-gem.webp",
+      "bytes": 236744,
+      "sha256": "452fc5ecc8b48ddd50be41bbf156616eae947e0c7687c4b5e932493ac8d30d4f"
+    },
+    {
+      "path": "dist/images/handbook/refined/sangha-as-refuge-800.avif",
+      "bytes": 47119,
+      "sha256": "40910ec87bff96d71d7a279952d9257987aa3b5992b5cf0d37e17cb6a7c5b534"
+    },
+    {
+      "path": "dist/images/handbook/refined/sangha-as-refuge-800.webp",
+      "bytes": 69112,
+      "sha256": "93ac15971221ad330232e949211305f40493068ca5929ca716043323f148a143"
+    },
+    {
+      "path": "dist/images/handbook/refined/sangha-as-refuge.avif",
+      "bytes": 149011,
+      "sha256": "01fb8144b1aa8fb979785b8611b49c08147f97a58e16ee57dc354226205ff634"
+    },
+    {
+      "path": "dist/images/handbook/refined/sangha-as-refuge.webp",
+      "bytes": 247228,
+      "sha256": "05105d1f8602faf97543db22db2e1b406c8a9d4b03b405c64f54cd8725c78a1d"
+    },
+    {
+      "path": "dist/images/handbook/refined/taking-refuge-triple-gem-800.avif",
+      "bytes": 35069,
+      "sha256": "6b7fb64175e2ca3bc9784a23874110b842eddbaf0e6dea85a2ec8a5f8f8689d7"
+    },
+    {
+      "path": "dist/images/handbook/refined/taking-refuge-triple-gem-800.webp",
+      "bytes": 47492,
+      "sha256": "9a96664e0886eb10e3e918e32a228d95b8debf9ffb0430e1cdbd4d9f3a1f4fb2"
+    },
+    {
+      "path": "dist/images/handbook/refined/taking-refuge-triple-gem.avif",
+      "bytes": 100960,
+      "sha256": "683024ffca299cb4f6fcff5d7bdc38ccec36d4886c9ef42f3f86d15a3197a7d8"
+    },
+    {
+      "path": "dist/images/handbook/refined/taking-refuge-triple-gem.webp",
+      "bytes": 156276,
+      "sha256": "b2099c5a4b80ceeaf7d7a8686daa7faef36e6209500e1eeb79ff9ff611bb3735"
+    },
+    {
+      "path": "dist/images/hero-buddha-source.svg",
+      "bytes": 4547,
+      "sha256": "8f085c1224d8e8955a33c4813333de04d8cbdde6c722cd45502bd87c37786f07"
+    },
+    {
+      "path": "dist/images/hero-buddha.avif",
+      "bytes": 11541,
+      "sha256": "612e8f9860ebd91f94c4b183c89e2ecc112d7690ceb8551f45cc4d988be3d071"
+    },
+    {
+      "path": "dist/images/hero-mindful-lotus.webp",
+      "bytes": 47012,
+      "sha256": "6be4589ad8f6c18a2c5518e4c081eecabcfdc652b066e8a9d4f0ffaa5c5b772f"
+    },
+    {
+      "path": "dist/images/publisher-logo.png",
+      "bytes": 29056,
+      "sha256": "0138e1ad25916b28e8932273a364fd723c3c05ef85be1563991111c56eba36f7"
+    },
+    {
+      "path": "dist/images/publisher-logo.svg",
+      "bytes": 542,
+      "sha256": "13f24544103874c58018a1b014e388f3d3e0503eb7f59d64cc35d18b459891cd"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 44502,
+      "sha256": "3246d42e198f22835203d56e6819f3efd9247488747a5625b4ed42c3b88829be"
+    },
+    {
+      "path": "dist/indexnow-manifest.json",
+      "bytes": 29794,
+      "sha256": "d840e619c1e20ebc8eaf656526f6450db5a17f6fad5d0b2e0c5423101edf5f69"
+    },
+    {
+      "path": "dist/learn/buddhism-101/a-simple-daily-buddhist-practice/index.html",
+      "bytes": 36252,
+      "sha256": "12e1da5191183e7372f287770ba916e1b0c4013b51bc7c1df5289a60f9267581"
+    },
+    {
+      "path": "dist/learn/buddhism-101/dependent-origination-explained/index.html",
+      "bytes": 42903,
+      "sha256": "d762eedcd56d2d4918bf0739f42fd88bcff6937794ec2c8309ef7f7027f3bbca"
+    },
+    {
+      "path": "dist/learn/buddhism-101/five-aggregates-buddhism/index.html",
+      "bytes": 42157,
+      "sha256": "11d329026a96f7314e9251011d6fd87e87cec1e4def9a24b49c5a00826ba4888"
+    },
+    {
+      "path": "dist/learn/buddhism-101/five-hindrances-in-buddhism/index.html",
+      "bytes": 35985,
+      "sha256": "53cefd7b691e19602955aa6e0255b860bc8be1faa4be2f9203e0bd461d79d41b"
+    },
+    {
+      "path": "dist/learn/buddhism-101/five-precepts-buddhism/index.html",
+      "bytes": 47197,
+      "sha256": "7d8027f20793fb19eeb0be9164a37cb209502eb45f02c528b9f97a70f40bc839"
+    },
+    {
+      "path": "dist/learn/buddhism-101/four-brahmaviharas/index.html",
+      "bytes": 36427,
+      "sha256": "59d0cd517b06936b75c702896e2a1199cbdd92c820289657d02b571ef37bb88d"
+    },
+    {
+      "path": "dist/learn/buddhism-101/how-to-practice-buddhism-at-home/index.html",
+      "bytes": 37474,
+      "sha256": "f7024c89aa45c5eef04e419d57d8a63a3039b125052e89026fc7de2eb8a3f757"
+    },
+    {
+      "path": "dist/learn/buddhism-101/index.html",
+      "bytes": 36672,
+      "sha256": "369473b3c7881d542107a6244f9d10ef2d645c7c970b4f58a1f67e907b07c63c"
+    },
+    {
+      "path": "dist/learn/buddhism-101/middle-way-explained-for-beginners/index.html",
+      "bytes": 36068,
+      "sha256": "6e3eff444c56fbe414db13cdaaa8c6cd9971555824664ca01d2a40b16657eb8a"
+    },
+    {
+      "path": "dist/learn/buddhism-101/right-livelihood-buddhism/index.html",
+      "bytes": 44641,
+      "sha256": "5f4b81c2e62674d24ed5c04f6ff91193832febe35e79c1f093c9dcd172c3f79a"
+    },
+    {
+      "path": "dist/learn/buddhism-101/the-four-noble-truths-explained/index.html",
+      "bytes": 36781,
+      "sha256": "eab40c37ce3087b93993500f106a5fe10fdffc40bda9771473c62e618c2e22bb"
+    },
+    {
+      "path": "dist/learn/buddhism-101/the-noble-eightfold-path-explained/index.html",
+      "bytes": 38596,
+      "sha256": "af707a242ab9549dcc5c82ca9262e5083e9095cc87b42141611685eb1acea8b7"
+    },
+    {
+      "path": "dist/learn/buddhism-101/the-three-jewels-explained/index.html",
+      "bytes": 37507,
+      "sha256": "626afa14ba8d62b03f68bdd93ef0c764a93cd16c2f111d2a0b59a7691f758187"
+    },
+    {
+      "path": "dist/learn/buddhism-101/three-marks-of-existence/index.html",
+      "bytes": 45065,
+      "sha256": "fb7ce66623b87efe7718b1aadc585843df532050630bd5a4d0c614a587eac5ec"
+    },
+    {
+      "path": "dist/learn/buddhism-101/threefold-training-sila-samadhi-panna/index.html",
+      "bytes": 37549,
+      "sha256": "1e3f34315adcf484db354c7476a209745ef088840e3d358d1e776c62a0cf1ad0"
+    },
+    {
+      "path": "dist/learn/buddhism-101/what-is-buddhism/index.html",
+      "bytes": 39458,
+      "sha256": "1eb6875bb378ee611bfdd64f27650fb39f98d0fba0339d12920de81a1cc47285"
+    },
+    {
+      "path": "dist/learn/buddhism-101/what-is-impermanence/index.html",
+      "bytes": 41434,
+      "sha256": "9f492e627955f680968af480ca7339492196174c53bb641f44c3d2cf019fe250"
+    },
+    {
+      "path": "dist/learn/buddhism-101/what-is-karma-in-buddhism/index.html",
+      "bytes": 38900,
+      "sha256": "f11394a3a06579265e6243a3ec4dd57e687a1eca5144ac335e0ec57eb30b444f"
+    },
+    {
+      "path": "dist/learn/buddhism-101/what-is-mindfulness/index.html",
+      "bytes": 37040,
+      "sha256": "58ee2e7cae12ee585ee84287d811115e02aed373d36fa0b77335257de0ca8c69"
+    },
+    {
+      "path": "dist/learn/buddhism-101/who-was-the-buddha/index.html",
+      "bytes": 39249,
+      "sha256": "c2c7040721cefe0f3c31c3868b4fa975465a0c727105e225e99b9f9bd7b75d3f"
+    },
+    {
+      "path": "dist/learn/buddhism-for-beginners/index.html",
+      "bytes": 41220,
+      "sha256": "c1948e5ffa4e2e26f4a1d6cbaf6bc443fc7596d5fd7505aa91adb6f7dc7d12e8"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/anatta/index.html",
+      "bytes": 35572,
+      "sha256": "7279bb32910664e1f577e363b9c81dc7d0f2db7457bdbbe51c7a3fb230b29c55"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/anicca/index.html",
+      "bytes": 35520,
+      "sha256": "4cc79cd91895920d258c7315c5e77dc9165a50fc8afbf6d410826c8d5718776a"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/compassion/index.html",
+      "bytes": 36775,
+      "sha256": "4e9a89312c4db25799a8ddec124506dba8821fc1962518868198752bb8669156"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/dhamma/index.html",
+      "bytes": 39445,
+      "sha256": "3c2bf4442e8939643010a2cfaccaf13ef8cf17867c0ba9433a42325d822fdd8a"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/dukkha/index.html",
+      "bytes": 36166,
+      "sha256": "321ec214921b9ea55405e302e3912d58de1df61206614838a32466640205a32b"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/index.html",
+      "bytes": 38194,
+      "sha256": "052ab4dc56be04c3e12d5d807122e0e57eecfa6741555de0a1df9b1533874792"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/karma/index.html",
+      "bytes": 35542,
+      "sha256": "0c159976d41ecf38696193ec91e105db43cf2d1b866f7ebb71b0b42ea6be28cd"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/karuna/index.html",
+      "bytes": 36172,
+      "sha256": "6d2849adf344b5ecb1b2cac92e028daac95924310299c4c6566ad92671feb2d1"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/metta/index.html",
+      "bytes": 37630,
+      "sha256": "32ad2779b03ab999d926c6837118c86522e523713acfabb57704af5d840995a8"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/mindfulness/index.html",
+      "bytes": 35170,
+      "sha256": "6b337478e9f207c3eb550d255fab110f23eb3bd7ad65119fa4cbea4c2a93b8a4"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/nirvana/index.html",
+      "bytes": 35231,
+      "sha256": "4d1e0f6cc4943eb99d38c1ed087e6da2d1703295fec457149c6409692b4f8c19"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/pali-canon/index.html",
+      "bytes": 36728,
+      "sha256": "0b2482ef7a81209564e0ee3a0c4d8fd2fdbde34c03e137ad882425ed1907b55a"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/sangha/index.html",
+      "bytes": 38669,
+      "sha256": "1b0ae98659e1acd8c1ee90028937b531d07ff2052274f0535c7a392d1b64800e"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/sati/index.html",
+      "bytes": 36913,
+      "sha256": "fab3af7b2e7c20915c27039000bf9e15ca30506371275932c80fa3694b826c1b"
+    },
+    {
+      "path": "dist/learn/buddhist-dictionary/sutta/index.html",
+      "bytes": 35780,
+      "sha256": "843e8807b53cb6184b03ebc09d123c7fa767e3b5a1633ab550cca3e6f7c14eb1"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/becoming-a-lay-buddhist/index.html",
+      "bytes": 45368,
+      "sha256": "8f62fc9f4d61e072865059055112184a20c6b2a0539b0058fd6b3df9cef0fe3e"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/buddha-as-refuge/index.html",
+      "bytes": 44735,
+      "sha256": "889ff5fc9fcc53419cf1fdb90d848369be968cbfc521a5ccf56a0b6d8dbf67f0"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/dhamma-as-refuge/index.html",
+      "bytes": 44623,
+      "sha256": "180b9a219c29b0f07ea403868bbdd0f0fb7d1bb7b46459466c1461edc59a3581"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/forms-of-refuge-theravada/index.html",
+      "bytes": 44342,
+      "sha256": "c463fb30697b6b8208bcc5bf7a8aaba4c58200f3ecd6c630c48f3ea63b5e159f"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/households-sangha-accountability/index.html",
+      "bytes": 45194,
+      "sha256": "c33168330eac41edb4f4e8f0326289ff86d6890f1034383b88d6e49929f4e88a"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/index.html",
+      "bytes": 41481,
+      "sha256": "fe3345d1f1b8193c239c29b360af2a7837449a78ad711e915e2cfa716054460d"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/lay-sangha-relationship/index.html",
+      "bytes": 45128,
+      "sha256": "afdfafaa75ed52e5f7a79f13bcd3184252842c089e3b6eb5b466200a0c356ef0"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/practicing-for-yourself-and-others/index.html",
+      "bytes": 45221,
+      "sha256": "d8f47e8ff522a7ea3102cf4eb90d04455cdbc2ae76178a4fcf726032dddb0181"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/qualities-of-a-lay-buddhist/index.html",
+      "bytes": 45280,
+      "sha256": "ea627a7587bd61bfe185874b43dd39fbb4a227bceaf5c3fdb086adfcd05892fb"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/refuge-devas-buddhist-practice/index.html",
+      "bytes": 45483,
+      "sha256": "4b3237e231d8ff2d63c7d52c97a885072a7f097f09ee4227754e7fc50700f7a4"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/respecting-triple-gem/index.html",
+      "bytes": 46107,
+      "sha256": "8e558cdc35d7dfb6bc39acecc86dfbe3b87780231821e990b083ed31859e65b0"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/sangha-as-refuge/index.html",
+      "bytes": 44412,
+      "sha256": "c767098573386fad56ce15698ed62f613790e0762b8ea1c7910f42fb53f7d76f"
+    },
+    {
+      "path": "dist/learn/buddhist-handbook/taking-refuge-triple-gem/index.html",
+      "bytes": 44262,
+      "sha256": "f5f2973dab10c3529b338f1b9d20f505389cd48e26c2169f64e234c7ee39ef7e"
+    },
+    {
+      "path": "dist/learn/buddhist-resources/index.html",
+      "bytes": 34762,
+      "sha256": "b8ff30f2ec4fb92fe583ae341b0d048eeccdf3b0c53eae0e333c1dfc15416f45"
+    },
+    {
+      "path": "dist/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/index.html",
+      "bytes": 36543,
+      "sha256": "704b95699adbe7f1ad8a552568e43ef3639e09843eeeed1b5f59f7fd370cdc58"
+    },
+    {
+      "path": "dist/learn/dhammapada-reflections/better-than-a-thousand-empty-words/index.html",
+      "bytes": 36810,
+      "sha256": "6d7ca4af3803f40e133592d9d229fc585e82a4efc4a569286994557a3530bdbb"
+    },
+    {
+      "path": "dist/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/index.html",
+      "bytes": 36113,
+      "sha256": "e71f8c161fa3c13503a999eb27798cee92dc02f20b439ea44a9c29c8c9486dea"
+    },
+    {
+      "path": "dist/learn/dhammapada-reflections/index.html",
+      "bytes": 29163,
+      "sha256": "ed6db384988cd88ff1a3defe9e7b8f6d50c33f88120d69494427af387453a2f9"
+    },
+    {
+      "path": "dist/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/index.html",
+      "bytes": 36708,
+      "sha256": "10e41fa93df8b4881448a964175ca970255427e40c24a8b5992093b28c10b45b"
+    },
+    {
+      "path": "dist/learn/dhammapada-reflections/the-mind-leads-all-things/index.html",
+      "bytes": 36183,
+      "sha256": "1f74ef4d37a97e884c0722ef84ac3aa10094928cb059f4b8da504ef6b75cf477"
+    },
+    {
+      "path": "dist/learn/eightfold-path/index.html",
+      "bytes": 54410,
+      "sha256": "92ccf6bc9fb268c3c3e9c2da9a9792ab6eb550b3c8dec1195b0bf1fee81ef4b3"
+    },
+    {
+      "path": "dist/learn/four-noble-truths/index.html",
+      "bytes": 50810,
+      "sha256": "80b6906655ca8bf3009c21839743a7f76ee743247f2a8b35b3e23ae42f2f3e24"
+    },
+    {
+      "path": "dist/learn/index.html",
+      "bytes": 37171,
+      "sha256": "212dbb507a29aa38818877bd74314727b97346886847edc2a9d3f11a1c51b5d1"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/appatimo-and-buddha-images/index.html",
+      "bytes": 47702,
+      "sha256": "1de9b862274012cca93e4484b0884a326c9b8e1a73bf6444eb7ecb2f8580a7b2"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/did-buddha-order-buddha-images/index.html",
+      "bytes": 46978,
+      "sha256": "57dc5a2c9793e67b4c0d718242c6117330c17672077814e38bb44ac192a9bbd2"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/index.html",
+      "bytes": 47420,
+      "sha256": "9242ee5f03448acd8515ce7efac803e14630fedc9d8540e82836b0c7a0a275d6"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/index.html",
+      "bytes": 43808,
+      "sha256": "3c151205b5ff4bf5abbd03043c80ee4ae37d2cf13debe6eedf9a2ed85ef73ad4"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/index.html",
+      "bytes": 46493,
+      "sha256": "58d48b086a7e24c1fc11bd658beb43529d12353bc2f1cfb13ead4f0e218cb6d1"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/index.html",
+      "bytes": 45582,
+      "sha256": "160be7299980ffcb4283035da493788c2d3104bec7e63a2d59b1f8b7812c34e9"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/index.html",
+      "bytes": 51739,
+      "sha256": "d8539ef9cde670f9eb128b0dd453629f9361474c2c6d6cc4dff9d7acdfac2b8c"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/which-cetiya-gives-more-merit/index.html",
+      "bytes": 46982,
+      "sha256": "c2b43fadd685906c35121f60b7cdf08edab1676604c03bbb28f5650d0ae8b15c"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/index.html",
+      "bytes": 48219,
+      "sha256": "87290ebd51693d382fe92f36d737f62bb37ab1f371fbc98640a8e70c44d7e361"
+    },
+    {
+      "path": "dist/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/index.html",
+      "bytes": 46730,
+      "sha256": "8f8738a5eb3484a3c1c05a2d33c9efc2b0e528036dcd031c423cae413b50d84d"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/buddhas-teaching-on-patience/index.html",
+      "bytes": 36863,
+      "sha256": "da9d378e00bb8be0f52b9331c462be7b6fb68b695815b788f1a786c470c98745"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/index.html",
+      "bytes": 37650,
+      "sha256": "bcc9587b3beedceefb0692cec0fe42e363f685127eeac725d4c5f7e0538bfaff"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/index.html",
+      "bytes": 46279,
+      "sha256": "07c5f01c7183bf6135ab73fe823aa8b2ae650126d90a7889f8c2954b0633a1c0"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/index.html",
+      "bytes": 30447,
+      "sha256": "20831de09257d6b7ca2ec01a4c9107e21b0a18ccd719ac81b0f6510af54e2b2f"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/index.html",
+      "bytes": 37398,
+      "sha256": "8e1a00d2e4e978c8efb2d971f87f4c6562748930ce8c8bfc35112f61df7d674c"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/index.html",
+      "bytes": 38454,
+      "sha256": "a4e466296e0dbf0cff90ef52af08bcd02a714ae2f947547789d343dd8dd40f41"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/index.html",
+      "bytes": 37944,
+      "sha256": "1d080c0c414785b98b11fe7af859305a76b42cf75b1548de895e0c597b1d7dbc"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/index.html",
+      "bytes": 38073,
+      "sha256": "469c2664322909f3e08cf705c2e53ee43f196acd4a32733fb9c19814705f2136"
+    },
+    {
+      "path": "dist/learn/sutta-for-daily-life/right-speech-in-daily-life/index.html",
+      "bytes": 38237,
+      "sha256": "29fe9f55cb3f28f2763447b8712201efb412250080e91293c92acd6aa9b9309a"
+    },
+    {
+      "path": "dist/meditation-guide/index.html",
+      "bytes": 40843,
+      "sha256": "96650c82e7ac5940e9052e6621e0415a313a32e1478d100592be71e990aaa612"
+    },
+    {
+      "path": "dist/meditation-safety/index.html",
+      "bytes": 27114,
+      "sha256": "222815d01fc6b822813bf0629b4b90ba40a490fc25a39f8108fcfebc8de0c8b1"
+    },
+    {
+      "path": "dist/meditation/10-minute-meditation-practice/index.html",
+      "bytes": 37747,
+      "sha256": "912925a292d5b0516c961fa1d663162c8fca311c18e4227a1bc3fc762b7c6710"
+    },
+    {
+      "path": "dist/meditation/5-minute-meditation-practice/index.html",
+      "bytes": 36958,
+      "sha256": "3c95cdbd538a689531076589eb60b048da18761aca3debd57c71596124f3684a"
+    },
+    {
+      "path": "dist/meditation/breathing-meditation/index.html",
+      "bytes": 38449,
+      "sha256": "3408389b28ee2506bf3cf173727ccd233f15c9311e58388d13d60da414cc76da"
+    },
+    {
+      "path": "dist/meditation/index.html",
+      "bytes": 31089,
+      "sha256": "60f92bb09f8b59333dfcd1bf9fde5da2a739063bca44e23f498c091793330c80"
+    },
+    {
+      "path": "dist/meditation/loving-kindness-meditation/index.html",
+      "bytes": 40936,
+      "sha256": "20f349517d24958cc93c9ffcca7eac277b02e7b93f947b2550a0b7b76a6c333c"
+    },
+    {
+      "path": "dist/meditation/meditation-for-beginners/index.html",
+      "bytes": 39861,
+      "sha256": "35601743480817cdd1342252f5bf4efbbd9da237d8b763aa9515ba0c4b852f7f"
+    },
+    {
+      "path": "dist/meditation/meditation-posture-for-beginners/index.html",
+      "bytes": 37696,
+      "sha256": "1fe46f6cea908b9f875a2742db8fd814645c900a9543493c5cfdbaadc55b3a56"
+    },
+    {
+      "path": "dist/meditation/mindfulness-in-daily-life/index.html",
+      "bytes": 37802,
+      "sha256": "e547dfd69fc3e47c8244e54e728e7b9c23f69a4d307706c8516e4bbd50a01dff"
+    },
+    {
+      "path": "dist/meditation/walking-meditation/index.html",
+      "bytes": 37922,
+      "sha256": "8e5d3c1ad29003f1d2112177795745d34ba3b844fab4ff1d442882c89cf4b9ec"
+    },
+    {
+      "path": "dist/meditation/when-meditation-feels-hard/index.html",
+      "bytes": 38304,
+      "sha256": "28991d4efae2e0cf0eb50444ca2e5a680aed6797033afd8016dbb2cf42c5c8c6"
+    },
+    {
+      "path": "dist/mindful-living/index.html",
+      "bytes": 69839,
+      "sha256": "854465fa67e83f89ab635b65b07f0f2d433432216c4e053d0d73944d98b9aa05"
+    },
+    {
+      "path": "dist/og-default.png",
+      "bytes": 54073,
+      "sha256": "a1a39b66c0e487977fad30112caf5a52a0182f1ce02229000375d3b58d5019e5"
+    },
+    {
+      "path": "dist/og-default.svg",
+      "bytes": 1724,
+      "sha256": "2431179fcf0009f8354b161852d0898f9483eedb7d406ef6c39142f9ab6c8da7"
+    },
+    {
+      "path": "dist/og-handbook.png",
+      "bytes": 56064,
+      "sha256": "c452a12abe8074437ac4f742fcf6af8490c2793ccf14defffbdfc126e0a9a36e"
+    },
+    {
+      "path": "dist/og-learn.png",
+      "bytes": 50825,
+      "sha256": "d025db1574d8ffa426a4cb7dc7f89df671fec331520cd4c7dba3ce46c989fc7f"
+    },
+    {
+      "path": "dist/og-meditation.png",
+      "bytes": 48480,
+      "sha256": "9553765e24d5f020a7e8c944166d0b042f45998f4409e32c9408812d7eab06ed"
+    },
+    {
+      "path": "dist/og-quotes.png",
+      "bytes": 54295,
+      "sha256": "0b5dc51a0ae3fecce01923be931b125c849cdc5bc511c9102c3189070a073f73"
+    },
+    {
+      "path": "dist/privacy-policy/index.html",
+      "bytes": 27853,
+      "sha256": "579bb74119bcc68be99344ac0f36083ddaa28616611e2fb8d86a02551a87aede"
+    },
+    {
+      "path": "dist/quote-attribution-policy/index.html",
+      "bytes": 27885,
+      "sha256": "b400f6bd3f03a5f9ac9f9180560162bed81e4cd443504a60c618f5cfdb6c17f0"
+    },
+    {
+      "path": "dist/quotes/awareness/acceptance-before-next-step/index.html",
+      "bytes": 49630,
+      "sha256": "94af00b7cbe698a82b1bf3faa3a24667e1c40c5ca047158527422e95d63dc75d"
+    },
+    {
+      "path": "dist/quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/index.html",
+      "bytes": 48869,
+      "sha256": "6ff4a7edbf389d60f6d1e4a6a68b63cdb264bda45059807defd730b0a2544728"
+    },
+    {
+      "path": "dist/quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/index.html",
+      "bytes": 48755,
+      "sha256": "3be69950031c4247d6995737b91d32c4722755c8cf71ea380708e20920e54a75"
+    },
+    {
+      "path": "dist/quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/index.html",
+      "bytes": 48569,
+      "sha256": "2be0d799a01377fd06bb9b5237fd73189f12fc37d8f9781e8c4cda0c9ca7be35"
+    },
+    {
+      "path": "dist/quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/index.html",
+      "bytes": 48792,
+      "sha256": "5b613339ea894004d872611d6c3b983c718f30010324378680e3a3dbabfd23d7"
+    },
+    {
+      "path": "dist/quotes/awareness/feelings-without-the-wheel/index.html",
+      "bytes": 49552,
+      "sha256": "0bcc21f3422a49eb7ede78c22a191ad70ff49aa8b1b7a75f0368db4783184f30"
+    },
+    {
+      "path": "dist/quotes/awareness/index.html",
+      "bytes": 57828,
+      "sha256": "1eecacb406063c6d1edd31c4659103ae890e4b79f12ecee0b6406a902f92888d"
+    },
+    {
+      "path": "dist/quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/index.html",
+      "bytes": 48698,
+      "sha256": "b29e60ec303dc19008348fa999baffaf71ac9d15e6f16dd00d6708b96577c044"
+    },
+    {
+      "path": "dist/quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/index.html",
+      "bytes": 48732,
+      "sha256": "715e66fc5a06ce70685f7c3fc2bc408369c43f2a3ff0f80725c183ff863c8724"
+    },
+    {
+      "path": "dist/quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/index.html",
+      "bytes": 48593,
+      "sha256": "e355e6fa007caf9f9a8c59b6ba168d60490e10e5aecd5c8039e9a4bdee0809d1"
+    },
+    {
+      "path": "dist/quotes/awareness/one-breath-before-anger-replies/index.html",
+      "bytes": 49798,
+      "sha256": "74b7468296edc40fd4f23823b121322c86fff2f0baa8064f14377a82bb015bcd"
+    },
+    {
+      "path": "dist/quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/index.html",
+      "bytes": 48590,
+      "sha256": "53f6a54578a6b238a357839a9b870c84377e12828e44f38530819196b084909d"
+    },
+    {
+      "path": "dist/quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/index.html",
+      "bytes": 48720,
+      "sha256": "1760f4d2a8819fffbe8c6384c38aa7f6898a50fff9b03177276fad52d7173097"
+    },
+    {
+      "path": "dist/quotes/awareness/thoughts-are-visitors/index.html",
+      "bytes": 49839,
+      "sha256": "a114100cc55623b0bf14223c83e2618576be66d1bb417474075550b05c4d8489"
+    },
+    {
+      "path": "dist/quotes/awareness/thoughts-pass-without-commanding-you/index.html",
+      "bytes": 49987,
+      "sha256": "5e5806e4c96b4935f6759235261433b71e82d2b5acbe8bb91c4865a68541d066"
+    },
+    {
+      "path": "dist/quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/index.html",
+      "bytes": 48749,
+      "sha256": "3bccf11237a287a87e1b61dc7a8e377aef57ed0d851d4a0631503a168bd878f6"
+    },
+    {
+      "path": "dist/quotes/awareness/when-the-mind-tightens-let-the-body-be-your/index.html",
+      "bytes": 48528,
+      "sha256": "9b6df06e81bb3800977ffd8eb7127422ea55fcdff251f6ad61c6c6dbf31f39d2"
+    },
+    {
+      "path": "dist/quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/index.html",
+      "bytes": 48555,
+      "sha256": "0f2f2338841a141bbe07dda37f13da48b93c2be44578b33c3eec3559691ebc45"
+    },
+    {
+      "path": "dist/quotes/compassion/before-judging-another-life-remember-how-much-of-your/index.html",
+      "bytes": 48779,
+      "sha256": "444bcff33ba9bd1a659e3eda2d512c6b77d04c56ae8a99ee811167e425e333b2"
+    },
+    {
+      "path": "dist/quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/index.html",
+      "bytes": 48560,
+      "sha256": "23a557e5247fa2c07be8d1e1ce7644b50eceb984cf85a93d3a70794655824266"
+    },
+    {
+      "path": "dist/quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/index.html",
+      "bytes": 48609,
+      "sha256": "0160785b1ce5a0644af90258b32a8058b20a5936e02b9bfe4085bbdc64c7a859"
+    },
+    {
+      "path": "dist/quotes/compassion/compassion-sees-pain-clearly/index.html",
+      "bytes": 49607,
+      "sha256": "30646b2bc1d89198b367d88dbedb12a6b1021dcbac0972da7a1f97267bfedfa6"
+    },
+    {
+      "path": "dist/quotes/compassion/gentle-self-compassion/index.html",
+      "bytes": 49847,
+      "sha256": "fbf01add732c9504fad9db632d8a984f6b9bfe79cdd785146b8dd57206dd2b0a"
+    },
+    {
+      "path": "dist/quotes/compassion/index.html",
+      "bytes": 57882,
+      "sha256": "48751b2cd5ca1ef7c700c71dd3c559be5541a5b49a279ef4f9eafa375731401e"
+    },
+    {
+      "path": "dist/quotes/compassion/kindness-as-quiet-practice/index.html",
+      "bytes": 49442,
+      "sha256": "867a0b2e9b3df3dce6559b1f8707e0b5c724f48f9c30697092fc956c2b8c3935"
+    },
+    {
+      "path": "dist/quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/index.html",
+      "bytes": 48515,
+      "sha256": "87a8576e9d9266339f87393ed96f0b3a7207003280b52930e21ac85d2d1d534c"
+    },
+    {
+      "path": "dist/quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/index.html",
+      "bytes": 48421,
+      "sha256": "0af2fb94314a59ca6ab299b50319ddf64f92280e8c490dde3a736d4292bb1575"
+    },
+    {
+      "path": "dist/quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/index.html",
+      "bytes": 48530,
+      "sha256": "7e4890b61f6883a5091ec7b0fb65f8df7d4da500ad6051c49c520a9cf455ff93"
+    },
+    {
+      "path": "dist/quotes/compassion/loving-kindness-without-harm/index.html",
+      "bytes": 49866,
+      "sha256": "4a35d31b1e4eadbcd7af40c9e7e25be64a2ae47c409784090750172fec883085"
+    },
+    {
+      "path": "dist/quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/index.html",
+      "bytes": 48617,
+      "sha256": "12cf9039f5124e3e1870186ae32a39b2f262c0ca7206c6c55edae3485b940c09"
+    },
+    {
+      "path": "dist/quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/index.html",
+      "bytes": 48557,
+      "sha256": "95c55e84be9cb677e21f2815fe3e201db31002ad330c57f633778a121117cfe6"
+    },
+    {
+      "path": "dist/quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/index.html",
+      "bytes": 48634,
+      "sha256": "cbe4255223b15e7df4cf4faee8f62f96c178124ceb6a751e73ddada425299543"
+    },
+    {
+      "path": "dist/quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/index.html",
+      "bytes": 48632,
+      "sha256": "6995586a41bf340c10446e93a9f06be939e0c94df5a12ced37073156bcaf8c76"
+    },
+    {
+      "path": "dist/quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/index.html",
+      "bytes": 48676,
+      "sha256": "3ea5b0d85c3892427064bb5f7e88bf3665d87d4970187ae5db5f806b19837325"
+    },
+    {
+      "path": "dist/quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/index.html",
+      "bytes": 48763,
+      "sha256": "bfeeeb92e2aabdbaab09eecc5119f5bfe90e4279418cbf370aff8beb1909dd9a"
+    },
+    {
+      "path": "dist/quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/index.html",
+      "bytes": 48719,
+      "sha256": "11d0e96f3251bf114893be78447e0d8005887a0c81fc7d598929f61789bfb471"
+    },
+    {
+      "path": "dist/quotes/impermanence/change-is-how-life-continues/index.html",
+      "bytes": 49721,
+      "sha256": "81c2cdc21e7f8e31b5492ffb2930793c31661e0601904f5a9ad3d8c80291766c"
+    },
+    {
+      "path": "dist/quotes/impermanence/change-takes-nothing-personally-it-simply-continues/index.html",
+      "bytes": 48751,
+      "sha256": "8f13c144744405e370e5d792b1769c4308f79815e656f9f10b5f386027aaded1"
+    },
+    {
+      "path": "dist/quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/index.html",
+      "bytes": 48877,
+      "sha256": "4243a065f9de7ca155156d620736c379127499a2291249e05b582b9d8d36df63"
+    },
+    {
+      "path": "dist/quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/index.html",
+      "bytes": 48709,
+      "sha256": "70afa3816d1bd5c6b74afd8673c5a2a2b43ec42e0938e4a3a8bc901998ed300d"
+    },
+    {
+      "path": "dist/quotes/impermanence/index.html",
+      "bytes": 55023,
+      "sha256": "6bcac8f9c10166fb294ce74dedd1f69c41c14ab8778ed83f58699299010b896a"
+    },
+    {
+      "path": "dist/quotes/impermanence/meet-change-softly/index.html",
+      "bytes": 49767,
+      "sha256": "3948a70ab34448c00741cfc9e0072b0fc9d2d822c1f6d0f5b6b06527bada2b21"
+    },
+    {
+      "path": "dist/quotes/impermanence/no-season-is-asked-to-remain-in-order-to/index.html",
+      "bytes": 48489,
+      "sha256": "a238124163917205d90544f7231b5d9cb7d61106c9c61d210394a47f05f6d95c"
+    },
+    {
+      "path": "dist/quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/index.html",
+      "bytes": 48634,
+      "sha256": "75369705fb59aec01a8b88f19f2901cfe7346a8d2b5a75e184c5ead3297fc207"
+    },
+    {
+      "path": "dist/quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/index.html",
+      "bytes": 48842,
+      "sha256": "439ab35eda69d629b20a96f517aeb745bf6e795306275d2421fb593452c08865"
+    },
+    {
+      "path": "dist/quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/index.html",
+      "bytes": 48858,
+      "sha256": "64c32780aa41c9b7837359145045cf32c76db2eb6763fe99509cf497285e9922"
+    },
+    {
+      "path": "dist/quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/index.html",
+      "bytes": 48781,
+      "sha256": "219d469c18f486d3dd0705716afcce53ddbe0a55d9a9fd543fa43aec383ea030"
+    },
+    {
+      "path": "dist/quotes/index.html",
+      "bytes": 185375,
+      "sha256": "d6a03cc3258460123f0480f1d106d9e976dacfc78b76a94541c9319f2c3b2b3a"
+    },
+    {
+      "path": "dist/quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/index.html",
+      "bytes": 48537,
+      "sha256": "62272f931b820d91a8034fae0894481e63e2a0380b2cb661b20ed910871d7c0c"
+    },
+    {
+      "path": "dist/quotes/letting-go/caring-without-clinging/index.html",
+      "bytes": 49612,
+      "sha256": "97d6483d2a8e441c2b48ec2f8e3c83ccd5093f239dfe959ded8d43ffd329e539"
+    },
+    {
+      "path": "dist/quotes/letting-go/forgiveness-without-approving-harm/index.html",
+      "bytes": 49829,
+      "sha256": "a5ff2e5e23afc1317fb8058f37123a7f0db4d788ee34e8d40bbbd390c9025bc3"
+    },
+    {
+      "path": "dist/quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/index.html",
+      "bytes": 48697,
+      "sha256": "9f718c67c4bd251323798a5b4f2ba6e4ba8d709058579f9f63c4074b448f8d41"
+    },
+    {
+      "path": "dist/quotes/letting-go/index.html",
+      "bytes": 58566,
+      "sha256": "c27f51e0ce5b5b1bdc3955886166fa990299cfc0ed21cec90f46d154c3dcd33c"
+    },
+    {
+      "path": "dist/quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/index.html",
+      "bytes": 48804,
+      "sha256": "99cfb45cf4eedb0cde368b671b628a83ba397c052276065b172d6cfd8009e85e"
+    },
+    {
+      "path": "dist/quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/index.html",
+      "bytes": 48697,
+      "sha256": "a45f413092550c0fcbe4146d764cffb6790ef751e8e2f97ddf43b36f6b45c096"
+    },
+    {
+      "path": "dist/quotes/letting-go/open-hands-non-attachment/index.html",
+      "bytes": 49590,
+      "sha256": "93bb5a0daf3c0d06741e5617fa4deb03f11dbb32f070c7e919c37f76704d61ff"
+    },
+    {
+      "path": "dist/quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/index.html",
+      "bytes": 48748,
+      "sha256": "15fd8434dcd35901093e4fdb45086dcec4193cf14ce0c5e1434320a8e4d9a09f"
+    },
+    {
+      "path": "dist/quotes/letting-go/release-the-need-to-replay-what-can-no-longer/index.html",
+      "bytes": 48676,
+      "sha256": "95ed6326dff15ced7ac63f3714135386c02eb9bee50d10f25c719038c42f23ee"
+    },
+    {
+      "path": "dist/quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/index.html",
+      "bytes": 48726,
+      "sha256": "7df3d721b498b40661a9198744608edd77d24b0c0b6fe7ea1a0a6579c3570076"
+    },
+    {
+      "path": "dist/quotes/letting-go/soften-around-stress/index.html",
+      "bytes": 49817,
+      "sha256": "03dc225882ecf94971ca3f3ebfaba12faa1ae6fb4961ed3b09015d7d0e657621"
+    },
+    {
+      "path": "dist/quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/index.html",
+      "bytes": 48597,
+      "sha256": "95999a073c8cc6024fcd3395c3439148af4c67f210ae918c03108dd4aa171aa1"
+    },
+    {
+      "path": "dist/quotes/letting-go/where-attachment-begins/index.html",
+      "bytes": 49741,
+      "sha256": "756392976cb74b7a6f304726fd7b291eba5b4258c12460e532f0759819cd1ce7"
+    },
+    {
+      "path": "dist/quotes/letting-go/you-can-honor-the-past-without-asking-it-to/index.html",
+      "bytes": 48605,
+      "sha256": "7fe8dad3a33c7463686e6804280abfde6125c2b462f784218acee8daa36e9d61"
+    },
+    {
+      "path": "dist/quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/index.html",
+      "bytes": 48661,
+      "sha256": "5859ea21c5257eae5a413fce057cc0fa52bf78f3c42852ae337dfa7ad096928e"
+    },
+    {
+      "path": "dist/quotes/letting-go/you-do-not-need-to-carry-every-thought-that/index.html",
+      "bytes": 48541,
+      "sha256": "98e13b5449e9c9ac2ecb20eebc4e5a5f06bb65c018b7b00e6f31ffb2821a3c3d"
+    },
+    {
+      "path": "dist/quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/index.html",
+      "bytes": 48639,
+      "sha256": "2ff13ae406290310988f6a28a48704ceb22aef8f79799d08225fe14cdef70ab2"
+    },
+    {
+      "path": "dist/quotes/meditation/do-not-search-meditation-for-a-special-self-notice/index.html",
+      "bytes": 48870,
+      "sha256": "c6c2759ebe9f1f2a0f0173c65bce9aaecbf68d474ec6ae62971eeb0056bb653e"
+    },
+    {
+      "path": "dist/quotes/meditation/every-return-from-distraction-strengthens-the-path-home/index.html",
+      "bytes": 48764,
+      "sha256": "80c0b9ad047abc695e937d8c0644d7b2500f5bfa6d83cd969e0209b9395572b6"
+    },
+    {
+      "path": "dist/quotes/meditation/few-quiet-minutes/index.html",
+      "bytes": 49936,
+      "sha256": "636f926bc3b604f5786af715513cdd775ee77ba3ff69bf1ff0bffdb857899242"
+    },
+    {
+      "path": "dist/quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/index.html",
+      "bytes": 48838,
+      "sha256": "6250db5abb26c03aa3e60e73d74736cd35e860832c841b3618d0ae2c496a5121"
+    },
+    {
+      "path": "dist/quotes/meditation/index.html",
+      "bytes": 56335,
+      "sha256": "f42c649aaddab766140b008cec3355a3945bc53194b2e4867d895ebf017ca993"
+    },
+    {
+      "path": "dist/quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/index.html",
+      "bytes": 48982,
+      "sha256": "0a4599678bfb1509d90ef1a5ec6ae37fb4f31ab857a3db3a7b4eb26481b9992c"
+    },
+    {
+      "path": "dist/quotes/meditation/meditation-is-returning/index.html",
+      "bytes": 50162,
+      "sha256": "2182f56fb48b8332c62ad7e14eda3298684388aa8d4ecda33f752bb9f192597e"
+    },
+    {
+      "path": "dist/quotes/meditation/one-honest-breath/index.html",
+      "bytes": 49881,
+      "sha256": "672d4aa82aa1172470174842306b83c5f745d93790c99172412b73ab31ac5517"
+    },
+    {
+      "path": "dist/quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/index.html",
+      "bytes": 48542,
+      "sha256": "d5d68bb1afeba8a2fe60718d76ebd42350db61816e7d3196daf587ab507ed7df"
+    },
+    {
+      "path": "dist/quotes/meditation/sit-with-the-day-as-it-is-before-asking/index.html",
+      "bytes": 48491,
+      "sha256": "755a5282e81edbcf980bf186b7f6569bb5652a9e98c5445b4c2022fe46556265"
+    },
+    {
+      "path": "dist/quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/index.html",
+      "bytes": 48793,
+      "sha256": "1ed2674fe1150eb95fed0dda761f326bdd579d20075114d3b71f8b71d5d1bf9c"
+    },
+    {
+      "path": "dist/quotes/meditation/the-bell-fades-but-careful-listening-can-continue/index.html",
+      "bytes": 48517,
+      "sha256": "dc6fe32c37ec055dd6ddd6577a959eedf49d54e8c0c0210d07a0ba104b2a14ed"
+    },
+    {
+      "path": "dist/quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/index.html",
+      "bytes": 48727,
+      "sha256": "a76f83174a8ef7af70f8d2209c7022d581d150c3a43a06ff6701bd5eebce79be"
+    },
+    {
+      "path": "dist/quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/index.html",
+      "bytes": 48858,
+      "sha256": "2623a06b24d7fd14eb97d7e2f19052427f87371c3bb4356cab2d2e4b483a6450"
+    },
+    {
+      "path": "dist/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/index.html",
+      "bytes": 48831,
+      "sha256": "f3587b0ad7c5b5b5169f9a08fd96f6a8db56c0655cbb30fad5521598080cbdfa"
+    },
+    {
+      "path": "dist/quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/index.html",
+      "bytes": 48940,
+      "sha256": "67c5e48602d28aecfcebc20a39cfe8756bf347b50d8e18f897d9f2ba2a5240dd"
+    },
+    {
+      "path": "dist/quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/index.html",
+      "bytes": 48574,
+      "sha256": "353132551b206602bf4fa75e6d32f44de673c3046152086b2a8c0b81eae2f9b8"
+    },
+    {
+      "path": "dist/quotes/mindfulness/begin-the-day-with-awareness/index.html",
+      "bytes": 50372,
+      "sha256": "aa01cb8caae3133cbc58fad434cc1175615b14663f630c9d9ae692984cd4209b"
+    },
+    {
+      "path": "dist/quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/index.html",
+      "bytes": 48601,
+      "sha256": "6ff7926754b848ef3d18627fdb118aa35eabfe7d5ca8e919b029813a8ba755a7"
+    },
+    {
+      "path": "dist/quotes/mindfulness/gratitude-notices-enough/index.html",
+      "bytes": 49690,
+      "sha256": "71fdd2a5a536410ecf8adc1de784665fec1ccff7faaaad0451d2ac89873e1d59"
+    },
+    {
+      "path": "dist/quotes/mindfulness/ground-yourself-gently/index.html",
+      "bytes": 49874,
+      "sha256": "03804acc670dd0d4a5300f94db15d083d3c3210c011b50f56849c0ab11bc917f"
+    },
+    {
+      "path": "dist/quotes/mindfulness/index.html",
+      "bytes": 58616,
+      "sha256": "6253b7148586b8d9f73503702b021e39f25d52da55928a7367b293bbfe97eb43"
+    },
+    {
+      "path": "dist/quotes/mindfulness/listen-before-answering/index.html",
+      "bytes": 49649,
+      "sha256": "6c33affe08d4dff5be212d827ecbf32b7cea45fc544973f1a9794b5445fa1a9e"
+    },
+    {
+      "path": "dist/quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/index.html",
+      "bytes": 48587,
+      "sha256": "b379582c7a4578fb7c02778eb3eab2b28d3f597fbb791db7b4d7bc23b7c66bce"
+    },
+    {
+      "path": "dist/quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/index.html",
+      "bytes": 48584,
+      "sha256": "ef9f9d6e08744d7fd443daefabd42492b20c987a82c14d988f9a757dd680ecd5"
+    },
+    {
+      "path": "dist/quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/index.html",
+      "bytes": 48698,
+      "sha256": "1358ea8e0100450f8ef5c62b23377619b7abc5fe73ec79963fcdf3e85a55c949"
+    },
+    {
+      "path": "dist/quotes/mindfulness/peace-begins-with-attention/index.html",
+      "bytes": 50103,
+      "sha256": "c279061c94f823ac4dbc606f2b57993a43239ee4bac79b8430865cb68055a3a3"
+    },
+    {
+      "path": "dist/quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/index.html",
+      "bytes": 48740,
+      "sha256": "a1c82865acfb9b7bbe39c3bf9d9b4101e63a8375410ba4f5d8fe07e96b7b80f3"
+    },
+    {
+      "path": "dist/quotes/mindfulness/present-moment-one-step/index.html",
+      "bytes": 49872,
+      "sha256": "eed35ffbde1ae52deece2882e4c1e85f4b75f09515398400bd6ffb99b104158b"
+    },
+    {
+      "path": "dist/quotes/mindfulness/return-to-the-breath-before-you-return-to-the/index.html",
+      "bytes": 48873,
+      "sha256": "dc2c5b3728d1ddb09041d4571a0b64bc4d9e9d1127584a37502112bdc001da49"
+    },
+    {
+      "path": "dist/quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/index.html",
+      "bytes": 48819,
+      "sha256": "6fe19addf0eb6fcd7b61a61e6c63c2ecb235f0940027dbcd06a17b461473b669"
+    },
+    {
+      "path": "dist/quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/index.html",
+      "bytes": 48729,
+      "sha256": "83c91c71e30fcdf054fc7c654790b0544dd67c2e11705db12dac742f860ddc18"
+    },
+    {
+      "path": "dist/quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/index.html",
+      "bytes": 48702,
+      "sha256": "ea82ff71cb5ce5d00cd31af0bbc88bdd1f8a2b3b46f5581d9c98c5f648c89fd8"
+    },
+    {
+      "path": "dist/quotes/patience/be-patient-with-the-part-of-you-that-is/index.html",
+      "bytes": 48791,
+      "sha256": "0dd26eae7ed6adbdcb1193c75d21719ea0da17a74843e372b4ccea06d8164264"
+    },
+    {
+      "path": "dist/quotes/patience/family-kindness-and-patience/index.html",
+      "bytes": 49897,
+      "sha256": "1f3f331e7f1e049aa4afc64b0bb4367e25d01eb3b6c2831aa219c3cfc45e3e5b"
+    },
+    {
+      "path": "dist/quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/index.html",
+      "bytes": 48511,
+      "sha256": "405f4167b37a8499b672e17e94b3dc7630b7ef79c605150a150151115406ffbe"
+    },
+    {
+      "path": "dist/quotes/patience/index.html",
+      "bytes": 56285,
+      "sha256": "4122987d45fd995be000b7848e815f1814a5f9f0cd4fbd143a141e3330ed0c35"
+    },
+    {
+      "path": "dist/quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/index.html",
+      "bytes": 48461,
+      "sha256": "6da239a15f99ce1385547c751bc28bd4b4f89034e97ff68f62bac5c5126eadb3"
+    },
+    {
+      "path": "dist/quotes/patience/patience-is-the-strength-to-remain-present-while-life/index.html",
+      "bytes": 48540,
+      "sha256": "bdb63c1d0961b1d3fd85f8ff6f9a82fd6d4986bd6a9524c6d50b7677e4424a12"
+    },
+    {
+      "path": "dist/quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/index.html",
+      "bytes": 48446,
+      "sha256": "c58731dd6756c6a2a59af889701ac07a196f694bf289a58da82f64a13db2e414"
+    },
+    {
+      "path": "dist/quotes/patience/patience-softens-the-wait/index.html",
+      "bytes": 49704,
+      "sha256": "2be167c4b0ebb26fe97703cf782d2c4265e45a22ba6e663fe64c96ad908f69d5"
+    },
+    {
+      "path": "dist/quotes/patience/some-answers-become-clear-only-after-the-mind-stops/index.html",
+      "bytes": 48553,
+      "sha256": "1362ecf3a31060fb89345cdd0a020a2d056807f4dc5c5708c4e2d9c483ff853b"
+    },
+    {
+      "path": "dist/quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/index.html",
+      "bytes": 48616,
+      "sha256": "b10455338b79978d303b4d491b8f0dbe649ae15baa64d15f9b054c8821acae17"
+    },
+    {
+      "path": "dist/quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/index.html",
+      "bytes": 48582,
+      "sha256": "a794a4648bb53c2ba3715958b5261a151f130c900385d136ac05031ac55b3289"
+    },
+    {
+      "path": "dist/quotes/patience/wait-long-enough-for-the-first-reaction-to-become/index.html",
+      "bytes": 48462,
+      "sha256": "3b8e3fabbb1390387b241df6b29643e5692cd3aa006052b7ac04012e9031f97b"
+    },
+    {
+      "path": "dist/quotes/patience/when-anger-rises-pause-long-enough-to-see-the/index.html",
+      "bytes": 48508,
+      "sha256": "68103effa823bc19498b2e0aea8d5bd562d44dede653d0ce16d544a69c8632ce"
+    },
+    {
+      "path": "dist/quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/index.html",
+      "bytes": 48565,
+      "sha256": "061972a1ef8ffc2a182f2b4a1a5e7fb47cc0bea539f783eb7033a9ad78531dd6"
+    },
+    {
+      "path": "dist/quotes/practice/begin-with-what-is-possible-then-return-tomorrow/index.html",
+      "bytes": 48347,
+      "sha256": "19a76633cad7a562d5180a851de3eb75ee3090e5e5ffa789b5edd2296c54db02"
+    },
+    {
+      "path": "dist/quotes/practice/bring-the-teaching-into-the-place-where-you-are/index.html",
+      "bytes": 48565,
+      "sha256": "c9a0e5a7e9d8c53069ed58240fd991968d146da5163fe62e66b1611e3d3de14f"
+    },
+    {
+      "path": "dist/quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/index.html",
+      "bytes": 48632,
+      "sha256": "23302aecb2c925abd40373e8704a5d0518c83e8b796508ab15fd10fa9bdf4fb1"
+    },
+    {
+      "path": "dist/quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/index.html",
+      "bytes": 48345,
+      "sha256": "5149b8dc5ac74cffe1577d9b65d4b60dc3c373a98d52f4b341a41bfb69909a2b"
+    },
+    {
+      "path": "dist/quotes/practice/eightfold-path-daily-choices/index.html",
+      "bytes": 50061,
+      "sha256": "6007791ce073c601937198d74096b1325732f3d4a1dfaecc3a380e2f507daf24"
+    },
+    {
+      "path": "dist/quotes/practice/index.html",
+      "bytes": 56984,
+      "sha256": "56c1f8baf5c92136edbe3427b5b3b598211c0668dae7d3f44619591da1677569"
+    },
+    {
+      "path": "dist/quotes/practice/mindfulness-at-work-breath/index.html",
+      "bytes": 49723,
+      "sha256": "42b6685f4294723c9ac98c58e5a5debee60efe0858e1a07ae4e1e42be3e51e34"
+    },
+    {
+      "path": "dist/quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/index.html",
+      "bytes": 48488,
+      "sha256": "a70ed0fc2062d0170fb4770fc14647390d401062a313868845dfc52512b32c79"
+    },
+    {
+      "path": "dist/quotes/practice/right-intention-turns-the-heart/index.html",
+      "bytes": 49684,
+      "sha256": "c38e23b940122be8aa590bf06599c0e95e2c2bf00e8095ed095e597423945b77"
+    },
+    {
+      "path": "dist/quotes/practice/small-actions-shape-the-mind/index.html",
+      "bytes": 49955,
+      "sha256": "7c152941aa12cd3ca246f1daf7c3b0eeb2b012bfdf055da607979ef98e1119bc"
+    },
+    {
+      "path": "dist/quotes/practice/the-path-is-not-far-away-it-is-the/index.html",
+      "bytes": 48317,
+      "sha256": "503e37c7ebbe6f98efde9d3235544fd3e97ddaad1011fbe6f4bae84e5c97c284"
+    },
+    {
+      "path": "dist/quotes/practice/the-path-is-shaped-by-what-you-repeat-when/index.html",
+      "bytes": 48359,
+      "sha256": "4e48506c59b62ace1bc58e2848199d9708aea0af80a42f354b3b04ac9598de2f"
+    },
+    {
+      "path": "dist/quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/index.html",
+      "bytes": 48646,
+      "sha256": "0c3d140c3fe87947952fb14f9e520cb8882753719d3778d151cea7187b84903a"
+    },
+    {
+      "path": "dist/quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/index.html",
+      "bytes": 48547,
+      "sha256": "30e083fdb6c67bbf7f406d31d9a1f4a39c3396d30354369bdb807079cc411f0e"
+    },
+    {
+      "path": "dist/quotes/practice/your-next-response-is-always-part-of-the-path/index.html",
+      "bytes": 48262,
+      "sha256": "db6f5cec0ca953d79786904bfd90a32237aafab0fa1f18f6e87bf25eb3c7b760"
+    },
+    {
+      "path": "dist/quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/index.html",
+      "bytes": 48537,
+      "sha256": "6a18691643e5f414b68d9396759205f0f2ef6645e7d1e2b76d65533a5b45508d"
+    },
+    {
+      "path": "dist/quotes/renewal/a-new-direction-can-start-with-one-different-choice/index.html",
+      "bytes": 48489,
+      "sha256": "fa976c016343629cd5d4b15706796917c8621e3c95f1f1a076ef44b124bd1ef7"
+    },
+    {
+      "path": "dist/quotes/renewal/begin-again-gently-the-breath-is-always-willing/index.html",
+      "bytes": 48744,
+      "sha256": "b4ae7f98dc25cf04db602b077ab59934ab5adee404e8ecc48612113a4beb2248"
+    },
+    {
+      "path": "dist/quotes/renewal/begin-again-without-shame/index.html",
+      "bytes": 49713,
+      "sha256": "a552c436a193b9695060930f001c922a1026858884c3575151516dc93e9575d6"
+    },
+    {
+      "path": "dist/quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/index.html",
+      "bytes": 48619,
+      "sha256": "0740e65aa77d1a5389532795cbf4368f623390f6d41bdf447955ff4bbec064bc"
+    },
+    {
+      "path": "dist/quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/index.html",
+      "bytes": 48520,
+      "sha256": "7081f55432d109198e3fa1234bad322f6b0e098980064c75349cb13299b055e6"
+    },
+    {
+      "path": "dist/quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/index.html",
+      "bytes": 48789,
+      "sha256": "80af1f3df5897fcf18a4b4aea92000f5bdd6bad0ec30386274787cfbac705771"
+    },
+    {
+      "path": "dist/quotes/renewal/evening-release-reflection/index.html",
+      "bytes": 49582,
+      "sha256": "77a8837921297a67c2ba7ed05e6e666614254b463caf3c557c3994e0e611c2e3"
+    },
+    {
+      "path": "dist/quotes/renewal/gentle-hope-keeps-walking/index.html",
+      "bytes": 49615,
+      "sha256": "eb7f7573677dd55f68eb9f486f3a8e32d930bcd6278823308ff062d61673131d"
+    },
+    {
+      "path": "dist/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/index.html",
+      "bytes": 48335,
+      "sha256": "9674f3571cd796defd4c956be991949c29abd2ecc497767c4b6dc2812f4c8665"
+    },
+    {
+      "path": "dist/quotes/renewal/index.html",
+      "bytes": 56714,
+      "sha256": "a4d88c39b7226a15b7fe8b98916918e670357e902c8bd1c27a10c261fd7b04df"
+    },
+    {
+      "path": "dist/quotes/renewal/morning-is-not-the-only-time-a-life-can/index.html",
+      "bytes": 48358,
+      "sha256": "73c105628347f68e2c2202f3234e568a2679f7f5afc557d1e158d6ce0b954bd9"
+    },
+    {
+      "path": "dist/quotes/renewal/one-calm-morning-intention/index.html",
+      "bytes": 49471,
+      "sha256": "9af5570fec1f5fadc98e6e586d866774a905324916a09745b65908951bc6dd68"
+    },
+    {
+      "path": "dist/quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/index.html",
+      "bytes": 48766,
+      "sha256": "a4c67b95fb4f3bdb793d97dc04abc7a9de4e6f7ab062818a7f7c4361c5348c4d"
+    },
+    {
+      "path": "dist/quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/index.html",
+      "bytes": 48575,
+      "sha256": "fd2a0343381aabe6b56013904d14d35b1259c45b197a062c079cffa3e094c0f9"
+    },
+    {
+      "path": "dist/quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/index.html",
+      "bytes": 48435,
+      "sha256": "dbc9c5169f458acad5dcfb5284506fc98a96374082c838af94b2cc423d89c766"
+    },
+    {
+      "path": "dist/quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/index.html",
+      "bytes": 48465,
+      "sha256": "89c11f5621dac8c8c4c9f4daba659276a23b929cdbed904deb0e0935f2eca1a6"
+    },
+    {
+      "path": "dist/quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/index.html",
+      "bytes": 48452,
+      "sha256": "05f3ba126bca678cfab50c0b15bb5a05a521b79bb44744f81c4dc7e674668b06"
+    },
+    {
+      "path": "dist/quotes/wisdom/contentment-with-what-is-here/index.html",
+      "bytes": 49738,
+      "sha256": "af9fcddc1d4be651641e07daece0693c38850eabdb9b7a26ccbaef78c981e2fb"
+    },
+    {
+      "path": "dist/quotes/wisdom/difficult-people-and-boundaries/index.html",
+      "bytes": 49564,
+      "sha256": "124a930a847d943a7a653d917f4f6f9a6e070ee4b5627969185557f0c67ae528"
+    },
+    {
+      "path": "dist/quotes/wisdom/index.html",
+      "bytes": 59553,
+      "sha256": "5905ffab7ad84626fdcc197b10e51c44a2304cb8654e0a0dc9faabc2084c2c1b"
+    },
+    {
+      "path": "dist/quotes/wisdom/karma-begins-in-intention/index.html",
+      "bytes": 49403,
+      "sha256": "e0e57f45939f3b356cf30ae455498e8988746996b61b3853b2af048c4e577159"
+    },
+    {
+      "path": "dist/quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/index.html",
+      "bytes": 48408,
+      "sha256": "9d0f7c37a38361c81c9653e238045d506c84c51189a82341cc0171bd9c30ba11"
+    },
+    {
+      "path": "dist/quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/index.html",
+      "bytes": 48688,
+      "sha256": "fbf0ad0b8c0fec1d132320fc85cc5a3cd1ad4b35963536dd9a65372532c2964a"
+    },
+    {
+      "path": "dist/quotes/wisdom/right-speech-with-kindness/index.html",
+      "bytes": 49631,
+      "sha256": "e1c303b42503f66feb4c1864164cdbb91dcde3e4b6d6b77f6ae667cff3c2135f"
+    },
+    {
+      "path": "dist/quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/index.html",
+      "bytes": 48626,
+      "sha256": "c28908f44882f5cf606042e5843f1bb94e0969f183a32f69010f15c3cae7083a"
+    },
+    {
+      "path": "dist/quotes/wisdom/simplicity-clears-the-room/index.html",
+      "bytes": 49561,
+      "sha256": "79693ab6cdd381a307f2feb322c39179ef288804a5438ae8c95d69f25ec1ab91"
+    },
+    {
+      "path": "dist/quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/index.html",
+      "bytes": 48452,
+      "sha256": "856bfafd74c0f361d7ac68a7d68008b9c1f8ed2cf383275874d21d96a7cd5432"
+    },
+    {
+      "path": "dist/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/index.html",
+      "bytes": 48476,
+      "sha256": "18813765e98834d2688f4cc73608d67f7e2aa4cc8baea82977d78c01580f9c82"
+    },
+    {
+      "path": "dist/quotes/wisdom/understanding-suffering-honestly/index.html",
+      "bytes": 49501,
+      "sha256": "56a99d8e673c9ee0cc5868cca3834043c9c2094c7615caa04af6af68b2eb9277"
+    },
+    {
+      "path": "dist/quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/index.html",
+      "bytes": 48329,
+      "sha256": "a3d3b6eddddd54b8edf4297a21731902d06162cf2dfab07fcf328bdcea668739"
+    },
+    {
+      "path": "dist/quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/index.html",
+      "bytes": 48547,
+      "sha256": "f9818b445d7f1714756350098edffb8d6e1217bc14d2f2479e9d26bd762b493f"
+    },
+    {
+      "path": "dist/quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/index.html",
+      "bytes": 48468,
+      "sha256": "d1dca77b0e49a39e2de1d2e3d5095df7d860950832d0525914f6d793365471ff"
+    },
+    {
+      "path": "dist/quotes/wisdom/wisdom-sees-clearly/index.html",
+      "bytes": 49297,
+      "sha256": "981f24a0150a5751cea363ce264649a0aec7c116dcd1ae0a3ac4ac6dbb1b387e"
+    },
+    {
+      "path": "dist/quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/index.html",
+      "bytes": 48410,
+      "sha256": "2b78c178e632f45d173cd0ef570dfeb7871faacc14a3983a56d68c194a8de315"
+    },
+    {
+      "path": "dist/quotes/wisdom/wise-silence/index.html",
+      "bytes": 49229,
+      "sha256": "9d91ead43a2b4705af9309784cdc6770c19cc668c262757508eaa11848821fb1"
+    },
+    {
+      "path": "dist/release.json",
+      "bytes": 147,
+      "sha256": "02ca081d04a735190fabe7336b849b485585ac34f0a27a1f86e4a3f7d56a6c34"
+    },
+    {
+      "path": "dist/robots.txt",
+      "bytes": 703,
+      "sha256": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1"
+    },
+    {
+      "path": "dist/search-index.json",
+      "bytes": 828119,
+      "sha256": "92e35363034d4eb3b5bdbd5c6a5b73b6c7684ba9e3e0c8d11ce72325361d02b5"
+    },
+    {
+      "path": "dist/search.js",
+      "bytes": 9611,
+      "sha256": "51684a51efaccb77affa83efa5abc809cc312c4c65e2352583e6f059d24582cc"
+    },
+    {
+      "path": "dist/search/index.html",
+      "bytes": 29970,
+      "sha256": "c379ba439596a03501e5f8b18cc0a0392738601b5b3591880f3e5692b869c808"
+    },
+    {
+      "path": "dist/site.webmanifest",
+      "bytes": 933,
+      "sha256": "97aa1daaf760a08a43873ca137457da9450379da9ef15a408d8bd59207df60f7"
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "bytes": 17821,
+      "sha256": "dd231e3ca8e6f1bf1a155aa8ac3085eaae066d8fdac7dce5f06141c681ba246c"
+    },
+    {
+      "path": "dist/start-here/index.html",
+      "bytes": 34082,
+      "sha256": "260d19f9f80ddb5f83d934d63487e4493d4f084151db8716c28f40c37fcc5fbf"
+    },
+    {
+      "path": "dist/terms-of-use/index.html",
+      "bytes": 24929,
+      "sha256": "0fafdb4a9c87fa787fffa0f8997cc95fb0f86b53694cb2a899b23c40be5a60e4"
+    },
+    {
+      "path": "dist/tools/index.html",
+      "bytes": 93411,
+      "sha256": "011b592be505ee1d35a71fe4b4181888ada260aff6719a9372acd75eb962095b"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "site": "echobuddha.com",
+  "publisherId": "pub-3911157640549350",
+  "recordedAt": "2026-11-11T15:26:41Z",
+  "recordedAtLocal": "2026-11-11T20:56:41+05:30",
+  "timestampMeaning": "Result recorded by this time; exact server submission timestamp not exposed.",
+  "before": "Needs attention — Low value content",
+  "after": "Getting ready",
+  "confirmation": "Review requested",
+  "submitted": true,
+  "approvalGranted": false,
+  "adsEnabled": false,
+  "method": "Official authenticated site-detail UI; one request after completed readiness gates.",
+  "policyCenterBeforeRequest": "No current issues",
+  "backgroundTable": "Earlier cached rejection row remained behind new site-detail confirmation; no duplicate request."
+}

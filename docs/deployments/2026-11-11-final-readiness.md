@@ -1,0 +1,11 @@
+# November 11 final readiness production release
+
+**DEPLOYED_AND_VERIFIED** — `bb44ff95fbba3e312a2a76b6f49a65a35cd2c551`. Production workflow [43037973572](https://github.com/rmtlbandara/EchoBuddha/actions/runs/43037973572) succeeded. Cloudflare deployment `2be04185-5869-4457-97bf-9d69c7fb0a73`/version `672b2829-0760-4d5f-b715-0c6b163e867e` activated 2026-11-11T14:24:30.845944Z at 100% traffic.
+
+[PR103](https://github.com/rmtlbandara/EchoBuddha/pull/103) implemented source/contact/consent/rights corrections after independent agent passes and final hosted [43037402718](https://github.com/rmtlbandara/EchoBuddha/actions/runs/43037402718), both jobs passing. Separate [PR104](https://github.com/rmtlbandara/EchoBuddha/pull/104) fixed observed hosted Chromium setup reliability, validated by [43036811888](https://github.com/rmtlbandara/EchoBuddha/actions/runs/43036811888). Exact-current-main guard, 837 file immutable artifact, production environment and IndexNow safeguards remained mandatory. The owner-adopted brief authorized the governed release; no required protection was bypassed.
+
+Acceptance: smoke 15/15; independent monitor [43038320353](https://github.com/rmtlbandara/EchoBuddha/actions/runs/43038320353) 15/15 VERIFIED_LIVE, authoritative deployment 7712624440/status 21953030283.835 public files verified: 834 exact plus unchanged Cloudflare robots prefix/exact source base. 357 HTML exact, 356 linked routes, 171 sitemap 200, only approved public email, ads inactive, seven headers retained, redirects and 404 correct. 33 routes/142 responsive checks/66 axe runs all pass; live consent 9/9.171 IndexNow changed HTML hashes accepted 200; shared runtime change is not 171 editorial rewrites or guaranteed indexing.
+
+[Full acceptance and limitations](../audits/adsense-final-readiness-2026-11/PRODUCTION_RELEASE_VERIFICATION.md) · [Machine receipt](receipts/2026-11-11-final-readiness.json) · [Final report](../audits/adsense-final-readiness-2026-11/FINAL_EXECUTIVE_REPORT.md)
+
+Previous healthy rollback:4f9c691049ac3cad20c0cbc56d3df5d1110d6489 /61be5a18-59de-45f6-895c-825c0179ef3b. No rollback needed. Original November 10 failed workflow and status history remain truthful; PR 102 monitoring corrections are preserved. Documentation-only follow-up is not another website release.
