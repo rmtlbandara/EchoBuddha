@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: analytics requires affirmative consent and advertising storage remains denied
+ok 1 - analytics requires affirmative consent and advertising storage remains denied
+  ---
+  duration_ms: 5.889917
+  type: 'test'
+  ...
+# Subtest: AdSense uses no-network verification and the runtime script is absent from every built page
+ok 2 - AdSense uses no-network verification and the runtime script is absent from every built page
+  ---
+  duration_ms: 255.285084
+  type: 'test'
+  ...
+# Subtest: required validation scripts are present
+ok 3 - required validation scripts are present
+  ---
+  duration_ms: 0.556625
+  type: 'test'
+  ...
+# Subtest: release validation uses current approval-aware gates while retaining historical snapshot checks
+ok 4 - release validation uses current approval-aware gates while retaining historical snapshot checks
+  ---
+  duration_ms: 0.5035
+  type: 'test'
+  ...
+# Subtest: robots manifest and security headers are source-controlled
+ok 5 - robots manifest and security headers are source-controlled
+  ---
+  duration_ms: 1.0535
+  type: 'test'
+  ...
+# Subtest: sitemap output aligns with canonical site when built
+ok 6 - sitemap output aligns with canonical site when built
+  ---
+  duration_ms: 0.574709
+  type: 'test'
+  ...
+# Subtest: Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval
+ok 7 - Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval
+  ---
+  duration_ms: 3.536125
+  type: 'test'
+  ...
+# Subtest: content remediation governance assets remain present
+ok 8 - content remediation governance assets remain present
+  ---
+  duration_ms: 1.169417
+  type: 'test'
+  ...
+# Subtest: one public contact address covers publisher and website inquiries
+ok 9 - one public contact address covers publisher and website inquiries
+  ---
+  duration_ms: 2934.177333
+  type: 'test'
+  ...
+# Subtest: deployment identity retries the preceding SHA and a transient response, then requires the exact target
+ok 10 - deployment identity retries the preceding SHA and a transient response, then requires the exact target
+  ---
+  duration_ms: 51.353333
+  type: 'test'
+  ...
+# Subtest: deployment identity keeps a strict failure after the bounded wait
+ok 11 - deployment identity keeps a strict failure after the bounded wait
+  ---
+  duration_ms: 1.521042
+  type: 'test'
+  ...
+# Subtest: malformed identity fails without retries and routine monitoring observes once
+ok 12 - malformed identity fails without retries and routine monitoring observes once
+  ---
+  duration_ms: 1.57625
+  type: 'test'
+  ...
+# Subtest: failed newest deployment does not redefine the expected SHA, even when the attempt is serving
+ok 13 - failed newest deployment does not redefine the expected SHA, even when the attempt is serving
+  ---
+  duration_ms: 0.494625
+  type: 'test'
+  ...
+# Subtest: an active attempt is reported as a transition without accepting its SHA
+ok 14 - an active attempt is reported as a transition without accepting its SHA
+  ---
+  duration_ms: 0.352625
+  type: 'test'
+  ...
+# Subtest: independently verified activation is accepted with immutable evidence, without changing run history
+ok 15 - independently verified activation is accepted with immutable evidence, without changing run history
+  ---
+  duration_ms: 0.698916
+  type: 'test'
+  ...
+# Subtest: success evidence from an unrelated run or with no verified deployment fails closed
+ok 16 - success evidence from an unrelated run or with no verified deployment fails closed
+  ---
+  duration_ms: 0.273917
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3299.489917
