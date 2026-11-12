@@ -1,0 +1,562 @@
+{
+  "tested": [
+    {
+      "route": "/articles/beginning-a-daily-mindfulness-practice/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/compassion-in-buddhism-beginner-guide/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/compassion-as-a-daily-discipline/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/walking-meditation-step-by-step/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-impermanence/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/mindfulness-of-breathing-guide/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/right-livelihood-modern-life/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/articles/right-speech-buddhism/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/meditation/meditation-for-beginners/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/meditation/loving-kindness-meditation/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/quotes/practice/eightfold-path-daily-choices/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/quotes/wisdom/right-speech-with-kindness/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/daily-reflections/metta-for-a-difficult-person/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/daily-reflections/speech-can-reduce-suffering/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/daily-reflections/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/contact/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/about/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/corrections/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/editorial-policy/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/privacy-policy/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/terms-of-use/",
+      "widths": [
+        320,
+        390,
+        820,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    },
+    {
+      "route": "/",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        819,
+        820,
+        821,
+        834,
+        853,
+        912,
+        980,
+        1024,
+        1280,
+        1440
+      ],
+      "axeWidths": [
+        320,
+        1440
+      ]
+    }
+  ],
+  "homepage": [
+    {
+      "width": 320,
+      "visible": false,
+      "pictureRight": 0,
+      "gridRight": 304,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 390,
+      "visible": false,
+      "pictureRight": 0,
+      "gridRight": 374,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 640,
+      "visible": false,
+      "pictureRight": 0,
+      "gridRight": 624,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 768,
+      "visible": false,
+      "pictureRight": 0,
+      "gridRight": 752,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 819,
+      "visible": false,
+      "pictureRight": 0,
+      "gridRight": 803,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 820,
+      "visible": true,
+      "pictureRight": 804,
+      "gridRight": 804,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 821,
+      "visible": true,
+      "pictureRight": 804.984375,
+      "gridRight": 805,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 834,
+      "visible": true,
+      "pictureRight": 818,
+      "gridRight": 818,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 853,
+      "visible": true,
+      "pictureRight": 837,
+      "gridRight": 837,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 912,
+      "visible": true,
+      "pictureRight": 896,
+      "gridRight": 896,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 980,
+      "visible": true,
+      "pictureRight": 964,
+      "gridRight": 964,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 1024,
+      "visible": true,
+      "pictureRight": 1002.0625,
+      "gridRight": 1008,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 1280,
+      "visible": true,
+      "pictureRight": 1167.203125,
+      "gridRight": 1200,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    },
+    {
+      "width": 1440,
+      "visible": true,
+      "pictureRight": 1247.203125,
+      "gridRight": 1280,
+      "imageLoaded": true,
+      "logo": "/images/publisher-logo.png"
+    }
+  ],
+  "reflowChecks": 142,
+  "axeChecks": 66,
+  "sitemapUrls": 171,
+  "redirects": 2,
+  "genuine404": true
+}

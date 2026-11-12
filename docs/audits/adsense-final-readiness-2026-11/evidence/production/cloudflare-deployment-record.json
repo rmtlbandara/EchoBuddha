@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-11T14:24:33.562Z",
+  "gitSha": "bb44ff95fbba3e312a2a76b6f49a65a35cd2c551",
+  "githubRunId": "43037973572",
+  "worker": "echobuddha",
+  "productionUrl": "https://echobuddha.com",
+  "deploymentId": "2be04185-5869-4457-97bf-9d69c7fb0a73",
+  "createdOn": "2026-11-11T14:24:30.845944Z",
+  "strategy": "percentage",
+  "versions": [
+    {
+      "version_id": "672b2829-0760-4d5f-b715-0c6b163e867e",
+      "percentage": 100
+    }
+  ]
+}

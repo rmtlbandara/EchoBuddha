@@ -1,0 +1,1381 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://echobuddha.com",
+  "bootstrap": false,
+  "target": {
+    "schemaVersion": 1,
+    "origin": "https://echobuddha.com",
+    "pages": [
+      {
+        "url": "https://echobuddha.com/",
+        "sha256": "3246d42e198f22835203d56e6819f3efd9247488747a5625b4ed42c3b88829be"
+      },
+      {
+        "url": "https://echobuddha.com/about/",
+        "sha256": "012d0747f4c3b868a1654fc454070f74aaa75d9ff7f5e9ad62e509bf5d9c5e16"
+      },
+      {
+        "url": "https://echobuddha.com/articles/",
+        "sha256": "5873f95a7a1bf1ad1debef8782af7567039aba8ff08d2c12e71fa04553ec6613"
+      },
+      {
+        "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+        "sha256": "a4c054b130ffccf0af34e0d8eb734b8f0514d4937cc42c9381ecba6d89519e31"
+      },
+      {
+        "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+        "sha256": "2fa2207df8d345e131f7f91d0735180fee96289d7c1191affa2302b9250fa969"
+      },
+      {
+        "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+        "sha256": "6b2201a6a5a85f044d9406719638e24fb39116065d6bd39ac3368c4426736495"
+      },
+      {
+        "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+        "sha256": "f942ac5fe97625ed366b65ff26ea36e96518a31025537ef0ad26c9c6b3d426a1"
+      },
+      {
+        "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+        "sha256": "987a5085d9f5809be953c315f75f07b4119dac92df0b928e863b8708f31e4870"
+      },
+      {
+        "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+        "sha256": "3815fea057be3d5a0e767762c1f0dd174a056d32407a7fe05d1e74ac546f9d40"
+      },
+      {
+        "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+        "sha256": "73acfcc3715279fe5af9b85932e7bd611c1c6a0c5f92d6989a1cf85c394ca6f6"
+      },
+      {
+        "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+        "sha256": "eff5fbe0a0f65dfcbf696b4226786d6a9ac277d11fcb96df2beee07b3c6f4751"
+      },
+      {
+        "url": "https://echobuddha.com/articles/category/meditation/",
+        "sha256": "9dcdc539542cfcf988411e8e7d233465709f7ef8938b482e269890b57a1c32cc"
+      },
+      {
+        "url": "https://echobuddha.com/articles/category/mindfulness/",
+        "sha256": "50fbc8ebc5208009ffc8c1362135cc5255886ed731f7ea047871d9f5cc9e38ea"
+      },
+      {
+        "url": "https://echobuddha.com/articles/category/practice/",
+        "sha256": "d420e4d88fdc950b926030511dd92cdb1226b71ad4edc88bc1bc431e2f5c17fb"
+      },
+      {
+        "url": "https://echobuddha.com/articles/category/reflection/",
+        "sha256": "d4c838cbe79698175d599b434209b84510bd9be575731361e966f5d2447e8bd2"
+      },
+      {
+        "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+        "sha256": "9fa8e8f7020985b85d7d80f0b5505883a505b696a41a777565a06ca14fea40fc"
+      },
+      {
+        "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+        "sha256": "dd5a1b25941a84dec6e863d81bb06c747631047462e55b59aa841f734f1b12da"
+      },
+      {
+        "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+        "sha256": "6b1fec42973889a6e2158af27daac963d59f1590d22f7ec28166f148f4006e2f"
+      },
+      {
+        "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+        "sha256": "ce12d8f4bc585ae69bd5e1e171635d226103bd9b4360e644c7e24a82dd8e1e24"
+      },
+      {
+        "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+        "sha256": "f6ee11eff8881ead6f3cf48f90e1038f1f1f943939ffb96accdad945af3725d1"
+      },
+      {
+        "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+        "sha256": "3775d69f1cf702bc58fda0452bdb2eb2b72c38aac2abbe5b98942784a6e8b93f"
+      },
+      {
+        "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+        "sha256": "0a579fbec01bc0192799d1c8db8369c710b22422590aaf07633c0c7ee651fa7d"
+      },
+      {
+        "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+        "sha256": "9d936f1387124d216b3e4518bda1a7831c8130870a57571f3a4cb2e1b1e79a28"
+      },
+      {
+        "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+        "sha256": "0b10c1464e870ea2020f70a36227085ebc42a902bf025d6dba2dcc5cb59fde05"
+      },
+      {
+        "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+        "sha256": "70ca3cd10ee3bc89bba7acf2c4c660fdd923ae03f97bbb2bf915a676d2b6ca71"
+      },
+      {
+        "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+        "sha256": "28bdf232465ed7d8d70dde16b173778740866cc8b6ac690d79b12bcb420fe1f9"
+      },
+      {
+        "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+        "sha256": "2aef627a6b933623983558790180e8ccd3eee119be98c9dad7bf59b2e9dbbce2"
+      },
+      {
+        "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+        "sha256": "df2995f7b93c1a147e00375fdefdff95aca663a63654cd7ead4d747c60ca7a40"
+      },
+      {
+        "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+        "sha256": "a1e82c98ed45d35d83960038fe8008bcaa7b8f5c98e8cc190b3f1918a1931916"
+      },
+      {
+        "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+        "sha256": "c454b8dad90845428f72c9b37969a92bdd4cb79e64795359daeb91457f8ec3ad"
+      },
+      {
+        "url": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+        "sha256": "14d63aa95c0b0494818e1c426de911f209c5cd50cabb52f212e64d6c20f01e05"
+      },
+      {
+        "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+        "sha256": "43ac7150349d52e5cd287ec647bd530a62b070e6e20012d51c756a685541e1f9"
+      },
+      {
+        "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+        "sha256": "0c86f7c32207a094ff62bde49ed708cf74a441a76eda03ae320c1fd066c09507"
+      },
+      {
+        "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+        "sha256": "b2b6045f2a9bc5a043f52cb6a66f436b1ac8935e14acceb9656761844b7512bc"
+      },
+      {
+        "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+        "sha256": "edb7e228e17df8699ff99b14cee31a0ee20f4600373a6e1253f6adc99db1a632"
+      },
+      {
+        "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+        "sha256": "af89eb94294023ddc00525eab08f2fda1943dcfec0018633ae1a15792a8a93d4"
+      },
+      {
+        "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+        "sha256": "9658fbfd9ab8e882fd7abe351379590754839bcefe4ac1075a35942159377b89"
+      },
+      {
+        "url": "https://echobuddha.com/articles/metta-meditation-script/",
+        "sha256": "f97b22eeda6e4d8cb37cbc2e904b2bb9a2823c6dcae6bfe6b0b73babe1ca084c"
+      },
+      {
+        "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+        "sha256": "9d5aacad2dff71bd100c162eef9853803a5f8e08ab6b8e7934c57051876ffe08"
+      },
+      {
+        "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+        "sha256": "4a693ec009c2d714556cf9528f55c92c5244764ca65e744a97d6fe47cf647a5b"
+      },
+      {
+        "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+        "sha256": "0a7089bf1e97d2dbc05fcd698ce01ec91c1c6d56bf456c1b62a6d6632bd18ebc"
+      },
+      {
+        "url": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+        "sha256": "958f14e4d929c1f10e75760c955fbf08342bdb3fd12953604e85e5e6b6feb5fc"
+      },
+      {
+        "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+        "sha256": "c11fb8f79ab6ce5caf940d970a920845c6599c992f8d1af6d8d99843eeb9d8ea"
+      },
+      {
+        "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+        "sha256": "13ea96a3e23ac3f13c1e2ae610391b8fed3231f00ec6411f7a1e66515f087656"
+      },
+      {
+        "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+        "sha256": "402faffed5015dd7fcef09061637b5ac42c91304cc3409257fa16f7e8819c941"
+      },
+      {
+        "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+        "sha256": "d94347feed994ec477d3b6f9419d8000fd553f5809d660433b8ba478e037c0c7"
+      },
+      {
+        "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+        "sha256": "43c983d828564592a3b7d694a5c465f3e39313fae28bce343cd9eab191bffdef"
+      },
+      {
+        "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+        "sha256": "926fbf33beff311fee0f35d261646b09358e390de8a4ba9c7bb79b6a1ad9abfd"
+      },
+      {
+        "url": "https://echobuddha.com/articles/right-speech-examples/",
+        "sha256": "8a2f6d4de286d7ba21631506f51f26033663c35b8d1cb39ddbb22444d56082d9"
+      },
+      {
+        "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+        "sha256": "1998e47b1d0ee5204dee2f36af15156be96788682e683ca9574f4c31eecb339b"
+      },
+      {
+        "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+        "sha256": "736725843202bb079d1828aa7ada10202ce2d7cd49149d88a7012b4eba0fdf50"
+      },
+      {
+        "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+        "sha256": "db7d61f48aa031374d1683ef9960ddff51c4fa02e4f3ca176ffb1e7d9ea19630"
+      },
+      {
+        "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+        "sha256": "afbf490b4c78a595ac65d000f78b866ee2c474cc00cb214c072c8a59f95bc120"
+      },
+      {
+        "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+        "sha256": "030dbb78fbeac41908fc1327d5ffbd57ce77b603033393beda26ed918ac80f06"
+      },
+      {
+        "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+        "sha256": "49fc050a5f0fab47d07b6fb72eabf75feef01f63b153d679fdbcdc89008ea7aa"
+      },
+      {
+        "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+        "sha256": "07050a9805795c93a3b23e2ed604c48b0f062b7d3faa586c863f4eebc85267a5"
+      },
+      {
+        "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+        "sha256": "6da62a54a67d3e3ac3de077607539c9951c16bab9d83d516bf3cb8a7c5fb75ad"
+      },
+      {
+        "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+        "sha256": "5d1f7ba88cfd51ca54831e4526f58a15f7b4030b2dd7ac52508f8730d4ffa0d1"
+      },
+      {
+        "url": "https://echobuddha.com/contact/",
+        "sha256": "fc3b34d939b60558b5385fd11841f50fc7f6c2dab6179afb9bb960d43c374ad1"
+      },
+      {
+        "url": "https://echobuddha.com/corrections/",
+        "sha256": "fef5f20bd575e20163688d58dca1b13c0a2550c82c5ffe6a7a627fc203a80214"
+      },
+      {
+        "url": "https://echobuddha.com/daily-reflections/",
+        "sha256": "4c4f31850901c4da1b936bef2c8fbd5f96843e407f1ab2534d4c55b879901758"
+      },
+      {
+        "url": "https://echobuddha.com/disclaimer/",
+        "sha256": "97b090199bfc501074c8362462cd6ed03a6c22f96ac57e9734c95314eb56dc13"
+      },
+      {
+        "url": "https://echobuddha.com/editorial-policy/",
+        "sha256": "327311b1abf92008f155377ae8535394cee13ccfd57208d1d16d71c8fe36fe1b"
+      },
+      {
+        "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+        "sha256": "fd37d14d68583f888bc910b4e3174f3069a9dfa30032a4f4484450c80ada211e"
+      },
+      {
+        "url": "https://echobuddha.com/learn/",
+        "sha256": "212dbb507a29aa38818877bd74314727b97346886847edc2a9d3f11a1c51b5d1"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/",
+        "sha256": "369473b3c7881d542107a6244f9d10ef2d645c7c970b4f58a1f67e907b07c63c"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+        "sha256": "12e1da5191183e7372f287770ba916e1b0c4013b51bc7c1df5289a60f9267581"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+        "sha256": "d762eedcd56d2d4918bf0739f42fd88bcff6937794ec2c8309ef7f7027f3bbca"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+        "sha256": "11d329026a96f7314e9251011d6fd87e87cec1e4def9a24b49c5a00826ba4888"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+        "sha256": "53cefd7b691e19602955aa6e0255b860bc8be1faa4be2f9203e0bd461d79d41b"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+        "sha256": "7d8027f20793fb19eeb0be9164a37cb209502eb45f02c528b9f97a70f40bc839"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+        "sha256": "59d0cd517b06936b75c702896e2a1199cbdd92c820289657d02b571ef37bb88d"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+        "sha256": "f7024c89aa45c5eef04e419d57d8a63a3039b125052e89026fc7de2eb8a3f757"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+        "sha256": "6e3eff444c56fbe414db13cdaaa8c6cd9971555824664ca01d2a40b16657eb8a"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+        "sha256": "5f4b81c2e62674d24ed5c04f6ff91193832febe35e79c1f093c9dcd172c3f79a"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+        "sha256": "eab40c37ce3087b93993500f106a5fe10fdffc40bda9771473c62e618c2e22bb"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+        "sha256": "af707a242ab9549dcc5c82ca9262e5083e9095cc87b42141611685eb1acea8b7"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+        "sha256": "626afa14ba8d62b03f68bdd93ef0c764a93cd16c2f111d2a0b59a7691f758187"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+        "sha256": "fb7ce66623b87efe7718b1aadc585843df532050630bd5a4d0c614a587eac5ec"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+        "sha256": "1e3f34315adcf484db354c7476a209745ef088840e3d358d1e776c62a0cf1ad0"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+        "sha256": "1eb6875bb378ee611bfdd64f27650fb39f98d0fba0339d12920de81a1cc47285"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+        "sha256": "9f492e627955f680968af480ca7339492196174c53bb641f44c3d2cf019fe250"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+        "sha256": "f11394a3a06579265e6243a3ec4dd57e687a1eca5144ac335e0ec57eb30b444f"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+        "sha256": "58ee2e7cae12ee585ee84287d811115e02aed373d36fa0b77335257de0ca8c69"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+        "sha256": "c2c7040721cefe0f3c31c3868b4fa975465a0c727105e225e99b9f9bd7b75d3f"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+        "sha256": "c1948e5ffa4e2e26f4a1d6cbaf6bc443fc7596d5fd7505aa91adb6f7dc7d12e8"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+        "sha256": "052ab4dc56be04c3e12d5d807122e0e57eecfa6741555de0a1df9b1533874792"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+        "sha256": "7279bb32910664e1f577e363b9c81dc7d0f2db7457bdbbe51c7a3fb230b29c55"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+        "sha256": "4cc79cd91895920d258c7315c5e77dc9165a50fc8afbf6d410826c8d5718776a"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+        "sha256": "4e9a89312c4db25799a8ddec124506dba8821fc1962518868198752bb8669156"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+        "sha256": "3c2bf4442e8939643010a2cfaccaf13ef8cf17867c0ba9433a42325d822fdd8a"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+        "sha256": "321ec214921b9ea55405e302e3912d58de1df61206614838a32466640205a32b"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+        "sha256": "0c159976d41ecf38696193ec91e105db43cf2d1b866f7ebb71b0b42ea6be28cd"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+        "sha256": "6d2849adf344b5ecb1b2cac92e028daac95924310299c4c6566ad92671feb2d1"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+        "sha256": "32ad2779b03ab999d926c6837118c86522e523713acfabb57704af5d840995a8"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+        "sha256": "6b337478e9f207c3eb550d255fab110f23eb3bd7ad65119fa4cbea4c2a93b8a4"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+        "sha256": "4d1e0f6cc4943eb99d38c1ed087e6da2d1703295fec457149c6409692b4f8c19"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+        "sha256": "0b2482ef7a81209564e0ee3a0c4d8fd2fdbde34c03e137ad882425ed1907b55a"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+        "sha256": "1b0ae98659e1acd8c1ee90028937b531d07ff2052274f0535c7a392d1b64800e"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+        "sha256": "fab3af7b2e7c20915c27039000bf9e15ca30506371275932c80fa3694b826c1b"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+        "sha256": "843e8807b53cb6184b03ebc09d123c7fa767e3b5a1633ab550cca3e6f7c14eb1"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/",
+        "sha256": "fe3345d1f1b8193c239c29b360af2a7837449a78ad711e915e2cfa716054460d"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+        "sha256": "8f62fc9f4d61e072865059055112184a20c6b2a0539b0058fd6b3df9cef0fe3e"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+        "sha256": "889ff5fc9fcc53419cf1fdb90d848369be968cbfc521a5ccf56a0b6d8dbf67f0"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+        "sha256": "180b9a219c29b0f07ea403868bbdd0f0fb7d1bb7b46459466c1461edc59a3581"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+        "sha256": "c463fb30697b6b8208bcc5bf7a8aaba4c58200f3ecd6c630c48f3ea63b5e159f"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+        "sha256": "c33168330eac41edb4f4e8f0326289ff86d6890f1034383b88d6e49929f4e88a"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+        "sha256": "afdfafaa75ed52e5f7a79f13bcd3184252842c089e3b6eb5b466200a0c356ef0"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+        "sha256": "d8f47e8ff522a7ea3102cf4eb90d04455cdbc2ae76178a4fcf726032dddb0181"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+        "sha256": "ea627a7587bd61bfe185874b43dd39fbb4a227bceaf5c3fdb086adfcd05892fb"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+        "sha256": "4b3237e231d8ff2d63c7d52c97a885072a7f097f09ee4227754e7fc50700f7a4"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+        "sha256": "8e558cdc35d7dfb6bc39acecc86dfbe3b87780231821e990b083ed31859e65b0"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+        "sha256": "c767098573386fad56ce15698ed62f613790e0762b8ea1c7910f42fb53f7d76f"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+        "sha256": "f5f2973dab10c3529b338f1b9d20f505389cd48e26c2169f64e234c7ee39ef7e"
+      },
+      {
+        "url": "https://echobuddha.com/learn/buddhist-resources/",
+        "sha256": "b8ff30f2ec4fb92fe583ae341b0d048eeccdf3b0c53eae0e333c1dfc15416f45"
+      },
+      {
+        "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+        "sha256": "ed6db384988cd88ff1a3defe9e7b8f6d50c33f88120d69494427af387453a2f9"
+      },
+      {
+        "url": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+        "sha256": "704b95699adbe7f1ad8a552568e43ef3639e09843eeeed1b5f59f7fd370cdc58"
+      },
+      {
+        "url": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+        "sha256": "6d7ca4af3803f40e133592d9d229fc585e82a4efc4a569286994557a3530bdbb"
+      },
+      {
+        "url": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+        "sha256": "e71f8c161fa3c13503a999eb27798cee92dc02f20b439ea44a9c29c8c9486dea"
+      },
+      {
+        "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+        "sha256": "10e41fa93df8b4881448a964175ca970255427e40c24a8b5992093b28c10b45b"
+      },
+      {
+        "url": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+        "sha256": "1f74ef4d37a97e884c0722ef84ac3aa10094928cb059f4b8da504ef6b75cf477"
+      },
+      {
+        "url": "https://echobuddha.com/learn/eightfold-path/",
+        "sha256": "92ccf6bc9fb268c3c3e9c2da9a9792ab6eb550b3c8dec1195b0bf1fee81ef4b3"
+      },
+      {
+        "url": "https://echobuddha.com/learn/four-noble-truths/",
+        "sha256": "80b6906655ca8bf3009c21839743a7f76ee743247f2a8b35b3e23ae42f2f3e24"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+        "sha256": "3c151205b5ff4bf5abbd03043c80ee4ae37d2cf13debe6eedf9a2ed85ef73ad4"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+        "sha256": "1de9b862274012cca93e4484b0884a326c9b8e1a73bf6444eb7ecb2f8580a7b2"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+        "sha256": "57dc5a2c9793e67b4c0d718242c6117330c17672077814e38bb44ac192a9bbd2"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+        "sha256": "9242ee5f03448acd8515ce7efac803e14630fedc9d8540e82836b0c7a0a275d6"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+        "sha256": "58d48b086a7e24c1fc11bd658beb43529d12353bc2f1cfb13ead4f0e218cb6d1"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+        "sha256": "160be7299980ffcb4283035da493788c2d3104bec7e63a2d59b1f8b7812c34e9"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+        "sha256": "d8539ef9cde670f9eb128b0dd453629f9361474c2c6d6cc4dff9d7acdfac2b8c"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+        "sha256": "c2b43fadd685906c35121f60b7cdf08edab1676604c03bbb28f5650d0ae8b15c"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+        "sha256": "87290ebd51693d382fe92f36d737f62bb37ab1f371fbc98640a8e70c44d7e361"
+      },
+      {
+        "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+        "sha256": "8f8738a5eb3484a3c1c05a2d33c9efc2b0e528036dcd031c423cae413b50d84d"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+        "sha256": "20831de09257d6b7ca2ec01a4c9107e21b0a18ccd719ac81b0f6510af54e2b2f"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+        "sha256": "da9d378e00bb8be0f52b9331c462be7b6fb68b695815b788f1a786c470c98745"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+        "sha256": "bcc9587b3beedceefb0692cec0fe42e363f685127eeac725d4c5f7e0538bfaff"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+        "sha256": "07c5f01c7183bf6135ab73fe823aa8b2ae650126d90a7889f8c2954b0633a1c0"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+        "sha256": "8e1a00d2e4e978c8efb2d971f87f4c6562748930ce8c8bfc35112f61df7d674c"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+        "sha256": "a4e466296e0dbf0cff90ef52af08bcd02a714ae2f947547789d343dd8dd40f41"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+        "sha256": "1d080c0c414785b98b11fe7af859305a76b42cf75b1548de895e0c597b1d7dbc"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+        "sha256": "469c2664322909f3e08cf705c2e53ee43f196acd4a32733fb9c19814705f2136"
+      },
+      {
+        "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+        "sha256": "29fe9f55cb3f28f2763447b8712201efb412250080e91293c92acd6aa9b9309a"
+      },
+      {
+        "url": "https://echobuddha.com/meditation-guide/",
+        "sha256": "96650c82e7ac5940e9052e6621e0415a313a32e1478d100592be71e990aaa612"
+      },
+      {
+        "url": "https://echobuddha.com/meditation-safety/",
+        "sha256": "222815d01fc6b822813bf0629b4b90ba40a490fc25a39f8108fcfebc8de0c8b1"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/",
+        "sha256": "60f92bb09f8b59333dfcd1bf9fde5da2a739063bca44e23f498c091793330c80"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+        "sha256": "912925a292d5b0516c961fa1d663162c8fca311c18e4227a1bc3fc762b7c6710"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+        "sha256": "3c95cdbd538a689531076589eb60b048da18761aca3debd57c71596124f3684a"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/breathing-meditation/",
+        "sha256": "3408389b28ee2506bf3cf173727ccd233f15c9311e58388d13d60da414cc76da"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+        "sha256": "20f349517d24958cc93c9ffcca7eac277b02e7b93f947b2550a0b7b76a6c333c"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+        "sha256": "35601743480817cdd1342252f5bf4efbbd9da237d8b763aa9515ba0c4b852f7f"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+        "sha256": "1fe46f6cea908b9f875a2742db8fd814645c900a9543493c5cfdbaadc55b3a56"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+        "sha256": "e547dfd69fc3e47c8244e54e728e7b9c23f69a4d307706c8516e4bbd50a01dff"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/walking-meditation/",
+        "sha256": "8e5d3c1ad29003f1d2112177795745d34ba3b844fab4ff1d442882c89cf4b9ec"
+      },
+      {
+        "url": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+        "sha256": "28991d4efae2e0cf0eb50444ca2e5a680aed6797033afd8016dbb2cf42c5c8c6"
+      },
+      {
+        "url": "https://echobuddha.com/mindful-living/",
+        "sha256": "854465fa67e83f89ab635b65b07f0f2d433432216c4e053d0d73944d98b9aa05"
+      },
+      {
+        "url": "https://echobuddha.com/privacy-policy/",
+        "sha256": "579bb74119bcc68be99344ac0f36083ddaa28616611e2fb8d86a02551a87aede"
+      },
+      {
+        "url": "https://echobuddha.com/quote-attribution-policy/",
+        "sha256": "b400f6bd3f03a5f9ac9f9180560162bed81e4cd443504a60c618f5cfdb6c17f0"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/",
+        "sha256": "d6a03cc3258460123f0480f1d106d9e976dacfc78b76a94541c9319f2c3b2b3a"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/awareness/",
+        "sha256": "1eecacb406063c6d1edd31c4659103ae890e4b79f12ecee0b6406a902f92888d"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/compassion/",
+        "sha256": "48751b2cd5ca1ef7c700c71dd3c559be5541a5b49a279ef4f9eafa375731401e"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/impermanence/",
+        "sha256": "6bcac8f9c10166fb294ce74dedd1f69c41c14ab8778ed83f58699299010b896a"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/letting-go/",
+        "sha256": "c27f51e0ce5b5b1bdc3955886166fa990299cfc0ed21cec90f46d154c3dcd33c"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/meditation/",
+        "sha256": "f42c649aaddab766140b008cec3355a3945bc53194b2e4867d895ebf017ca993"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/mindfulness/",
+        "sha256": "6253b7148586b8d9f73503702b021e39f25d52da55928a7367b293bbfe97eb43"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/patience/",
+        "sha256": "4122987d45fd995be000b7848e815f1814a5f9f0cd4fbd143a141e3330ed0c35"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/practice/",
+        "sha256": "56c1f8baf5c92136edbe3427b5b3b598211c0668dae7d3f44619591da1677569"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/renewal/",
+        "sha256": "a4d88c39b7226a15b7fe8b98916918e670357e902c8bd1c27a10c261fd7b04df"
+      },
+      {
+        "url": "https://echobuddha.com/quotes/wisdom/",
+        "sha256": "5905ffab7ad84626fdcc197b10e51c44a2304cb8654e0a0dc9faabc2084c2c1b"
+      },
+      {
+        "url": "https://echobuddha.com/start-here/",
+        "sha256": "260d19f9f80ddb5f83d934d63487e4493d4f084151db8716c28f40c37fcc5fbf"
+      },
+      {
+        "url": "https://echobuddha.com/terms-of-use/",
+        "sha256": "0fafdb4a9c87fa787fffa0f8997cc95fb0f86b53694cb2a899b23c40be5a60e4"
+      },
+      {
+        "url": "https://echobuddha.com/tools/",
+        "sha256": "011b592be505ee1d35a71fe4b4181888ada260aff6719a9372acd75eb962095b"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "url": "https://echobuddha.com/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/about/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/mindfulness/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/reflection/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/metta-meditation-script/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-examples/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/contact/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/corrections/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/disclaimer/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/editorial-policy/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-resources/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/eightfold-path/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/four-noble-truths/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation-guide/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation-safety/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/breathing-meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/walking-meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/mindful-living/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/privacy-policy/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quote-attribution-policy/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/awareness/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/compassion/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/impermanence/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/letting-go/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/meditation/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/mindfulness/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/patience/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/practice/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/renewal/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/wisdom/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/start-here/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/terms-of-use/",
+      "kind": "updated"
+    },
+    {
+      "url": "https://echobuddha.com/tools/",
+      "kind": "updated"
+    }
+  ]
+}
