@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../data/novemberEdition";
 import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import LearningCard from "../components/LearningCard.astro";
@@ -88,6 +89,8 @@ const jsonLd = [
     </div>
   </section>
 
+  <section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[171]}</h2><p>{EDITION_COPY[177]}</p><ul><li><a href="/articles/right-speech-examples/">Speech and disagreement</a>: honesty, timing and a clear boundary.</li><li><a href="/articles/compassion-with-boundaries/">Care and limits</a>: consent, responsibility and protection.</li><li><a href="/articles/right-livelihood-modern-life/">Work and responsibility</a>: truthfulness and repair.</li><li><a href="/articles/how-to-let-go-of-attachment-in-buddhism/">Change and attachment</a>: care without demands for control.</li><li><a href="/meditation/mindfulness-in-daily-life/">Ordinary attention</a>: practice alongside household tasks, study and caregiving.</li><li><a href="/articles/appreciative-joy-when-comparison-hurts/">Someone else’s good news</a>: appreciative joy without forced enthusiasm.</li></ul></div></section>
+
   <section class="section section--tight">
     <div class="container">
       <span class="eyebrow">Daily life practice</span>
@@ -133,6 +136,7 @@ const jsonLd = [
       </div>
     </div>
   </section>
+
 </Layout>
 
 <style>

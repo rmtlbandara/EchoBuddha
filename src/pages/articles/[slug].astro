@@ -34,11 +34,11 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const canonicalPath = `/articles/${article.slug}/`;
-const formattedDate = new Intl.DateTimeFormat("en", {
+const formattedDate = article.date ? new Intl.DateTimeFormat("en", {
   month: "long",
   day: "numeric",
   year: "numeric"
-}).format(new Date(`${article.date}T00:00:00Z`));
+}).format(new Date(`${article.date}T00:00:00Z`)) : undefined;
 const articleUrl = `${SITE.url}${canonicalPath}`;
 const articleImageUrl = new URL(article.thumbnail, SITE.url).toString();
 const articleImages = getArticleImageSet(article.thumbnail);
@@ -312,7 +312,9 @@ const topicClusterHub = activeTopicCluster && activeTopicCluster.href !== canoni
 const sourceReferences = getSourceReferencesForRoute(canonicalPath);
 const sourceNoteText = article.slug === "visiting-a-buddhist-temple-respectfully"
   ? "This is original Echo Buddha guidance for a respectful temple visit. The linked institutional guides describe their own communities; local expectations should be checked rather than treated as a universal Buddhist etiquette code."
-  : activeTopicCluster?.source ?? undefined;
+  : article.slug === "appreciative-joy-when-comparison-hurts"
+    ? "This page studies AN 4.125 and MN 62 in original paraphrase. The workplace example and suggested responses are editorial applications, not translations or clinical advice."
+    : activeTopicCluster?.source ?? undefined;
 const cornerstonePracticePrompts: Record<string, string> = {
   "right-speech-buddhism":
     "Before one consequential message, write what is known, what is inferred, what benefit the message should serve, and whether this is the right time.",
@@ -421,7 +423,7 @@ const jsonLd = [
   jsonLd={jsonLd}
 >
   <article>
-    <header class="page-hero">
+    <header class:list={["page-hero", { "manuscript-hero": article.presentation === "manuscript" }]}>
       <div class="container prose">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },
@@ -434,7 +436,7 @@ const jsonLd = [
         <p class="lede">{article.description}</p>
         <div class="article-meta">
           <span>By <a href="/authors/echo-buddha-editorial/" rel="author">{article.author}</a></span>
-          <span>Published <time datetime={article.date}>{formattedDate}</time></span>
+          {article.date && <span>Published <time datetime={article.date}>{formattedDate}</time></span>}
           <span>Updated <time datetime={seoDetails.reviewedDate}>{formattedReviewedDate}</time></span>
           <span>{readTime}</span>
         </div>
@@ -462,12 +464,12 @@ const jsonLd = [
 
     <div class="container article-shell">
       <div class="prose article-content">
-        <aside class="key-takeaways surface" aria-labelledby="key-takeaways-heading">
+        {seoDetails.takeaways.length > 0 && <aside class="key-takeaways surface" aria-labelledby="key-takeaways-heading">
           <h2 id="key-takeaways-heading">Key Takeaways</h2>
           <ul>
             {seoDetails.takeaways.map((takeaway) => <li>{takeaway}</li>)}
           </ul>
-        </aside>
+        </aside>}
 
         {sectionsWithIds.map((section, index) => (
           <>
@@ -513,7 +515,7 @@ const jsonLd = [
           </section>
         )}
 
-        <section class="article-faq" aria-labelledby="article-faq-heading">
+        {seoDetails.faqs.length > 0 && <section class="article-faq" aria-labelledby="article-faq-heading">
           <h2 id="article-faq-heading">Frequently Asked Questions</h2>
           <div class="faq-list">
             {seoDetails.faqs.map((item) => (
@@ -523,7 +525,7 @@ const jsonLd = [
               </details>
             ))}
           </div>
-        </section>
+        </section>}
 
         {(sourceNoteText || sourceReferences.length > 0) && (
           <section class="source-note" aria-labelledby="source-note-heading">
@@ -577,7 +579,7 @@ const jsonLd = [
                   <a href={`#${section.id}`}>{section.heading}</a>
                 </li>
               ))}
-              <li><a href="#article-faq-heading">Frequently Asked Questions</a></li>
+              {seoDetails.faqs.length > 0 && <li><a href="#article-faq-heading">Frequently Asked Questions</a></li>}
             </ol>
           </nav>
         )}
@@ -635,6 +637,12 @@ const jsonLd = [
 </Layout>
 
 <style>
+  .manuscript-hero h1 {
+    font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+    line-height: 1.12;
+    max-width: 22ch;
+  }
+
   .article-featured-image {
     aspect-ratio: 16 / 9;
     border: 1px solid var(--color-line);

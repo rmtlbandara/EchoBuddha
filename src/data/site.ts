@@ -1,3 +1,4 @@
+import { NOVEMBER_QUOTES, APPRECIATIVE_JOY_ARTICLE, applyNovemberArticleEdits, hasNovemberArticleEdit } from "./novemberEdition.ts";
 import { QUOTE_APPLICATIONS } from "./quoteApplications.ts";
 import { countReadableWords, getReadTimeFromWordCount } from "../utils/publicationMetadata.ts";
 
@@ -51,6 +52,7 @@ export type QuoteIndexApproval = {
 };
 
 export type Quote = {
+  updatedDate?: string;
   text: string;
   theme: string;
   searchIndexStatus?: QuoteSearchIndexStatus;
@@ -567,31 +569,28 @@ export const quotes: Quote[] = [
     "text": "One honest breath can bring the wandering mind back home.",
     "theme": "Meditation",
     "story": {
+ updatedDate: "2026-11-14",
       "title": "Mindful Breathing Quote: One Honest Breath",
       "description": "A mindful breathing quote about returning to one honest breath when the mind wanders, worries, or tries to move too quickly.",
       "slug": "one-honest-breath",
-      "intro": "This mindful breathing quote keeps practice simple. The breath does not need to be deep, impressive, or perfectly calm. One honest breath is the breath that is actually here, noticed without force.",
+      "intro": "One breath can be an opportunity to observe how a method is working for you. Calm is not the test of an honest session.",
       "sections": [
-        {
-          "heading": "The Story Behind This Quote",
-          "paragraphs": [
-            "Anil was waiting outside a meeting room, replaying what he should have said the day before. Each imagined sentence made the body tighter. He tried to calm down, but that became another task to fail at. Then he remembered a teacher saying that the breath is not a performance. He stopped trying to breathe like a peaceful person and felt the ordinary inhale that was already happening. It was short. It was uneven. It was real. For a few seconds, the mind had something simple to return to, and the meeting no longer felt like the whole world."
-          ]
-        },
-        {
-          "heading": "How This Applies in Daily Life",
-          "paragraphs": [
-            "Mindful breathing is useful because it gives attention a gentle home. It does not erase difficulty, and it should not be treated as a cure for every form of distress. But in daily life, one honest breath can interrupt the habit of being carried away by every thought. It can help before answering a tense message, before entering a room, or while waiting in traffic. The <a href=\"/meditation-guide/\">Echo Buddha Meditation Guide</a> offers a fuller beginning practice for readers who want structure."
-          ]
-        },
-        {
-          "heading": "A Simple Practice",
-          "paragraphs": [
-            "Place one hand where you can feel breathing clearly. Do not change the breath at first. Notice one inhale and one exhale. If the mind comments, let that be known too. Return to the next breath without scolding yourself."
-          ]
-        }
-      ],
-      "reflectionQuestion": "Where could one honest breath help you return without forcing yourself to feel different?"
+  {
+    "heading": "Changing the support for attention",
+    "paragraphs": [
+      "In this original fictional illustration, Anil sat down for a short practice after work. Each time he attended to breathing, he tried to make it slower. The correction made his shoulders tighter. Instead of continuing the same effort, he opened his eyes and noticed his hands against the chair.",
+      "He stayed with that contact for a little while, then ended the session. There was no special feeling to report. What he had learned was specific: today, following the breath was leading him into strain, and another support was available."
+    ]
+  },
+  {
+    "heading": "A method can be changed",
+    "paragraphs": [
+      "One breath gives attention somewhere to rest, even during a restless session. Notice it as it is, without using calm as a test. If attending to breathing is uncomfortable, feel the ground beneath your feet or end the practice. Honest observation includes recognising when a method does not suit you.",
+      "The <a href=\"/meditation/breathing-meditation/\">breathing guide</a> explains natural breath attention and alternatives. Choose a safe, comfortable support; leave the breath’s depth and pace alone. If practice worsens distress, stop and seek appropriate support."
+    ]
+  }
+],
+      "reflectionQuestion": "Does this support help me observe, or am I turning it into a demand for calm?"
     }
   },
   {
@@ -629,31 +628,28 @@ export const quotes: Quote[] = [
     "text": "A calm mind lets thoughts pass without becoming their servant.",
     "theme": "Awareness",
     "story": {
+ updatedDate: "2026-11-14",
       "title": "Calm Mind Quote: Let Thoughts Pass Without Chasing Them",
       "description": "A calm mind quote about seeing thoughts clearly without chasing every idea, worry, memory, or imagined conversation.",
       "slug": "thoughts-pass-without-commanding-you",
-      "intro": "This calm mind quote is about freedom from automatic obedience to thought. Thoughts may still appear, but awareness can learn to see them as movements of the mind rather than commands that must be followed.",
+      "intro": "A recurring thought need not disappear before you take a responsible next action. This reflection concerns what you do after recognising it.",
       "sections": [
-        {
-          "heading": "The Story Behind This Quote",
-          "paragraphs": [
-            "Ravi noticed that one critical thought at breakfast could shape his whole morning. A small mistake became a forecast. A memory became a trial. An imagined disagreement became a speech he silently rehearsed for an hour. During a quiet walk, he watched leaves moving along a roadside drain after rain. Some stayed caught for a while, some moved on, and none needed his permission. The image stayed with him. A thought could be noticed, even respected, without being treated as the owner of the day."
-          ]
-        },
-        {
-          "heading": "How This Applies in Daily Life",
-          "paragraphs": [
-            "A calm mind is not an empty mind. It is a mind that has learned a wiser relationship with its own activity. This is close to the practice explored in the article on <a href=\"/articles/buddhist-wisdom-for-overthinking/\">Buddhist wisdom for overthinking</a>. When thoughts are seen as visitors, there is more space to choose. You can write down a useful reminder, let an old replay fade, or return to the task in front of you. The point is not to defeat thinking, but to stop being led by every thought as if it were final truth."
-          ]
-        },
-        {
-          "heading": "A Simple Practice",
-          "paragraphs": [
-            "For one minute, label thoughts gently: planning, remembering, judging, worrying. Do not add a story about whether the thoughts are good or bad. After each label, feel the body breathing and return to what is present."
-          ]
-        }
-      ],
-      "reflectionQuestion": "Which thought have you been serving that may only need to be noticed?"
+  {
+    "heading": "Returning the borrowed equipment",
+    "paragraphs": [
+      "In this original fictional illustration, Leena had agreed to return a borrowed projector before an afternoon class. After a tense meeting with its owner, she kept thinking, “They will criticise me whatever I do.” The thought returned while she checked the case. She was tempted to leave the return until tomorrow.",
+      "The class still needed the equipment. Leena checked the cable, put the projector in its case and sent an accurate message about where she would leave it. She did not have to settle the disagreement or feel peaceful first. The thought came back on the walk, but the promised return was no longer waiting on its permission."
+    ]
+  },
+  {
+    "heading": "A choice while the thought remains",
+    "paragraphs": [
+      "A thought can be loud without being the most reliable witness. It may also point to a real concern worth addressing separately. Ask whether there is an action you remain responsible for, and whether it is safe and reasonable to take it now.",
+      "Choose a small duty whose purpose is clear: return something, confirm a time or correct a factual error. Complete it without requiring the thought to leave. If the duty itself is unsafe, seek an appropriate alternative. This is an ordinary ethical example, not treatment for intrusive thoughts or distress."
+    ]
+  }
+],
+      "reflectionQuestion": "What action remains available even if this thought stays for a while?"
     }
   },
   {
@@ -815,31 +811,28 @@ export const quotes: Quote[] = [
     "text": "Kindness is a quiet practice repeated when no one applauds.",
     "theme": "Compassion",
     "story": {
+ updatedDate: "2026-11-14",
       "title": "Kindness Quote for Daily Life: A Quiet Practice",
       "description": "A kindness quote for daily life about small unseen choices that reduce harm and bring warmth into ordinary moments.",
       "slug": "kindness-as-quiet-practice",
-      "intro": "This kindness quote for daily life points away from performance. The deepest kindness often happens quietly, in small choices that may never be noticed by anyone else.",
+      "intro": "Care can be quiet and still overlook what a person wants. This reflection asks whether the help fits the person receiving it.",
       "sections": [
-        {
-          "heading": "The Story Behind This Quote",
-          "paragraphs": [
-            "Mara noticed that she was most polite when someone important was watching and most impatient with people who could not reward her. This realization was uncomfortable. One evening she returned a shopping cart left in the rain, not because it mattered greatly, but because someone else would have to collect it. Another day she chose not to repeat a rumor. Later she washed dishes without making a speech about it. None of these actions made her feel heroic. They simply trained a different direction of the heart."
-          ]
-        },
-        {
-          "heading": "How This Applies in Daily Life",
-          "paragraphs": [
-            "Buddhist-inspired practice brings ethics into ordinary life. Kindness is not only a feeling toward people we like. It is a repeated choice to reduce unnecessary difficulty where we can. It appears in tone, timing, attention, and small acts of care. The <a href=\"/quotes/compassion/\">compassion quotes</a> category gathers more reflections on this theme. A quiet practice matters because habits are shaped when there is nothing to gain except a less harmful way of living."
-          ]
-        },
-        {
-          "heading": "A Simple Practice",
-          "paragraphs": [
-            "Choose one hidden kindness today. Make it small enough to complete: leave something cleaner, answer gently, give someone room, or refrain from a needless criticism. Notice how the action shapes the mind."
-          ]
-        }
-      ],
-      "reflectionQuestion": "What kindness would you still choose if no one knew you chose it?"
+  {
+    "heading": "Before rearranging the kitchen",
+    "paragraphs": [
+      "In this original fictional illustration, Mara visited a friend recovering at home. She began moving cups to a lower shelf, assuming that would make things easier. Her friend asked her to leave them where they were: another household member relied on the familiar arrangement.",
+      "Mara stopped and asked what would help. Washing the cups would be useful; rearranging the shelves would not. She did the smaller job and left the room as she had found it. The friend did not need to accept an unwanted change to show gratitude."
+    ]
+  },
+  {
+    "heading": "Help that leaves a choice",
+    "paragraphs": [
+      "Quiet help can still miss what someone wants. Before offering a solution, ask whether listening, practical assistance or privacy would be useful. The absence of an audience says little about consent; what matters is whether the care suits the person receiving it.",
+      "Ask whether someone wants company, information or practical help before taking charge. A refusal deserves respect. If urgent safety needs arise, respond appropriately; an ordinary offer of help should not erase someone’s control over their space. For a longer example, read <a href=\"/articles/compassion-with-boundaries/\">compassion with boundaries</a>."
+    ]
+  }
+],
+      "reflectionQuestion": "Did I ask what would help, and did I respect the answer?"
     }
   },
   {
@@ -1218,31 +1211,28 @@ export const quotes: Quote[] = [
     "text": "Thoughts may visit often; you do not have to host each one.",
     "theme": "Awareness",
     "story": {
+ updatedDate: "2026-11-14",
       "title": "Buddhist Quote for Overthinking: Thoughts Are Visitors",
       "description": "A Buddhist quote for overthinking about treating repeated thoughts as visitors rather than commands or permanent truths.",
       "slug": "thoughts-are-visitors",
-      "intro": "This Buddhist quote for overthinking offers a lighter relationship with mental activity. Thoughts may visit often, but not every thought needs a room, a meal, and a long conversation.",
+      "intro": "A thought can arrive before you have evidence for it. This original reflection is about recognising that moment, before making a decision.",
       "sections": [
-        {
-          "heading": "The Story Behind This Quote",
-          "paragraphs": [
-            "Ravi replayed a short conversation for two days. The other person had probably forgotten it, but his mind kept inviting the scene back in, changing the wording, imagining hidden meanings. One evening he pictured the thought as a visitor knocking again. He did not need to slam the door or invite it to stay all night. He could notice it, acknowledge it, and return to washing the rice for dinner. The thought knocked again later. This time he smiled slightly. A visitor was not a command."
-          ]
-        },
-        {
-          "heading": "How This Applies in Daily Life",
-          "paragraphs": [
-            "Overthinking often feels powerful because repeated thoughts seem important simply because they repeat. Awareness helps separate repetition from truth. A thought can be a memory, a fear, or a habit of protection without being the whole situation. This theme is explored more fully in <a href=\"/articles/buddhist-wisdom-for-overthinking/\">Buddhist wisdom for overthinking</a>. The practice is not to ban thoughts, which usually creates more struggle. It is to stop hosting every visitor as if it owns the house."
-          ]
-        },
-        {
-          "heading": "A Simple Practice",
-          "paragraphs": [
-            "When a repeated thought appears, say, “A visitor.” Then choose one grounding action: feel your feet, name a sound, wash a cup, or return to one breath. Let the thought leave in its own time."
-          ]
-        }
-      ],
-      "reflectionQuestion": "Which repeated thought have you been hosting longer than necessary?"
+  {
+    "heading": "An unanswered greeting",
+    "paragraphs": [
+      "In this original fictional illustration, Ravi greeted a neighbour at the gate. The neighbour walked on without answering. Before Ravi had reached his door, a thought had become an explanation: “He is angry with me.” Ravi remembered no disagreement. He also did not know whether the greeting had been heard.",
+      "He put down his keys and noticed the difference between those two statements: there had been no answer; he did not know why. Nothing had to be decided yet. He could ask another time if there was a reason to. For now, recognising the thought as an explanation was enough. The neighbour’s silence remained unexplained."
+    ]
+  },
+  {
+    "heading": "Recognition before a conclusion",
+    "paragraphs": [
+      "The interruption is a moment; the story attached to it may last much longer. A thought’s arrival or repetition is not evidence that its account is accurate. Recognition creates a chance to check, including when a concern really does deserve attention.",
+      "Recall one ordinary exchange and separate what was observable from what you supplied. You need not dismiss the interpretation or replace it with a cheerful one. Mark what is still unknown. For a fuller discussion, read <a href=\"/articles/buddhist-wisdom-for-overthinking/\">Buddhist wisdom for overthinking</a>."
+    ]
+  }
+],
+      "reflectionQuestion": "Did I notice the thought before treating it as a fact?"
     }
   },
   {
@@ -1652,31 +1642,28 @@ export const quotes: Quote[] = [
     "text": "Hope can be gentle and still know how to keep walking.",
     "theme": "Renewal",
     "story": {
+ updatedDate: "2026-11-14",
       "title": "Buddhist Inspired Hope Quote: Gentle Hope",
       "description": "A Buddhist inspired hope quote about quiet hope that keeps walking without forcing life to change on command.",
       "slug": "gentle-hope-keeps-walking",
-      "intro": "This Buddhist inspired hope quote describes hope without pressure. Gentle hope does not demand guarantees. It simply keeps taking the next caring step.",
+      "intro": "Hope can include revising a plan when the evidence changes. Continuing carefully may mean changing direction.",
       "sections": [
-        {
-          "heading": "The Story Behind This Quote",
-          "paragraphs": [
-            "Maya disliked loud optimism when life was uncertain. It felt like being asked to pretend. During a hard season, hope returned in smaller forms: making soup, answering one message, opening the curtain, sitting for three breaths. None of these actions promised that everything would become easy. But each one refused to abandon the day. She began to trust a quieter hope, one that did not shout over pain but walked beside it."
-          ]
-        },
-        {
-          "heading": "How This Applies in Daily Life",
-          "paragraphs": [
-            "Buddhist-inspired hope is connected with causes and conditions. If harmful habits can be understood, new conditions can also be cultivated. This does not guarantee outcomes, and it does not erase grief. It means that a small wholesome action still matters. Renewal often begins through ordinary care repeated without certainty. Readers may connect this with <a href=\"/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/\">another Echo Buddha hope reflection</a> and the wider <a href=\"/quotes/renewal/\">renewal category</a>. Hope can be modest and still be real."
-          ]
-        },
-        {
-          "heading": "A Simple Practice",
-          "paragraphs": [
-            "Choose one action that expresses gentle hope today: water a plant, prepare a meal, send a kind message, rest, or return to practice. Let it be small and sincere."
-          ]
-        }
-      ],
-      "reflectionQuestion": "What is one quiet way hope could keep walking in your life today?"
+  {
+    "heading": "A different way to keep the promise",
+    "paragraphs": [
+      "In this original fictional illustration, Maya had promised to visit an older relative on a familiar bus route. A service change made the planned connection impossible. She kept checking the same timetable, reluctant to admit the arrangement would not work.",
+      "She called, explained the problem and asked which alternatives would be useful. They agreed on another day and a shorter call that evening. The change did not remove the disappointment. It made the next step honest and possible."
+    ]
+  },
+  {
+    "heading": "Renewed effort can revise the route",
+    "paragraphs": [
+      "Hope can remain while a problem is unfinished. It may also require a change of plan. When new information shows that yesterday’s approach will not work, renewed effort can mean taking another route. Let the reflection lead to that decision rather than another general assurance about hope.",
+      "When new evidence changes what is possible, state the change and choose a more responsible course. For a reflection on care while uncertainty remains, read <a href=\"/quotes/renewal/hope-can-be-quiet-and-still-keep-walking/\">Hope can be quiet and still keep walking</a>. This page concerns revision rather than repeating that reminder."
+    ]
+  }
+],
+      "reflectionQuestion": "What new information deserves a change of plan?"
     }
   },
   {
@@ -1867,6 +1854,8 @@ export const quotes: Quote[] = [
   }
 ];
 
+quotes.push(...NOVEMBER_QUOTES);
+
 export const quoteCategoryDetails: Record<string, { slug: string; description: string; introduction: string }> = {
   Mindfulness: {
     slug: "mindfulness",
@@ -1878,19 +1867,19 @@ export const quoteCategoryDetails: Record<string, { slug: string; description: s
     slug: "compassion",
     description: "Original Buddhist-inspired compassion quotes about kindness, understanding, boundaries, and reducing harm.",
     introduction:
-      "These compassion quotes reflect on kindness as a daily practice, including patient listening, wise boundaries, and care for ourselves and others."
+      "What would help the other person? These lines consider listening, asking before acting and respecting boundaries. Keep the person’s needs in view, including their need for protection from harm."
   },
   Patience: {
     slug: "patience",
     description: "Original Buddhist-inspired patience quotes for anger, delays, difficult moments, Right Speech, and calm daily practice.",
     introduction:
-      "These patience quotes explore patience as quiet strength before reaction: the pause that can protect speech, soften anger, and keep care present while life takes time."
+      "Waiting can involve anger, a deadline or a responsibility that will not go away. Choose a reflection that helps you see when a pause is useful and when an answer is needed."
   },
   Awareness: {
     slug: "awareness",
     description: "Original awareness quotes about emotions, habits, the body, and seeing experience more clearly.",
     introduction:
-      "These awareness quotes encourage honest observation of thoughts, feelings, reactions, and the physical signals that often appear before words."
+      "A bodily cue, feeling or automatic thought can quickly seem like the whole story. These reflections invite a closer look at what you observe and what interpretation adds."
   },
   Practice: {
     slug: "practice",
@@ -1902,7 +1891,7 @@ export const quoteCategoryDetails: Record<string, { slug: string; description: s
     slug: "letting-go",
     description: "Original letting go quotes about non-attachment, impermanence, releasing control, caring without clinging, and moving forward peacefully.",
     introduction:
-      "These letting go quotes consider how to loosen control without giving up on care, responsibility, or wise action."
+      "What can be released, and what still needs care? These lines distinguish demands for control from responsibilities to people, and forgiveness from overlooking harm."
   },
   Meditation: {
     slug: "meditation",
@@ -1914,19 +1903,19 @@ export const quoteCategoryDetails: Record<string, { slug: string; description: s
     slug: "renewal",
     description: "Original renewal quotes about healing, hope, learning from mistakes, and beginning again with kindness.",
     introduction:
-      "These renewal quotes offer encouragement for returning to the path, repairing what can be repaired, and choosing a new direction."
+      "Yesterday’s plan may need correcting. These reflections consider revised choices, renewed effort and beginnings small enough to make today."
   },
   Wisdom: {
     slug: "wisdom",
     description: "Original Buddhist wisdom quotes about clear seeing, humility, wise speech, suffering, and compassionate choices.",
     introduction:
-      "These wisdom quotes reflect on seeing causes and consequences clearly, holding truth with humility, and choosing what reduces suffering."
+      "A careful question, a considered limit or an honest “I don’t know” can change a decision. Begin with a reflection that gives evidence time to matter."
   },
   Impermanence: {
     slug: "impermanence",
     description: "Original Buddhist quotes about impermanence, change, gratitude, acceptance, loss, and transformation.",
     introduction:
-      "These impermanence quotes explore how accepting change can deepen gratitude, soften resistance, and leave room for healing."
+      "Things can matter deeply even though they change. These lines explore care in that uncertainty, leaving room for grief and for our relationships with people."
   }
 };
 
@@ -2129,7 +2118,7 @@ export function getQuoteStory(quote: Quote) {
       intro: quote.story.intro,
       sections: quote.story.sections.map((section, index) => ({
         ...section,
-        heading: headings?.[index] ?? section.heading
+        heading: quote.story?.updatedDate ? section.heading : (headings?.[index] ?? section.heading)
       })),
       reflectionQuestion: quote.story.reflectionQuestion,
       status,
@@ -2161,11 +2150,12 @@ export function getQuoteStory(quote: Quote) {
 }
 
 export type Article = {
+  presentation?: "manuscript";
   slug: string;
   title: string;
   seoTitle?: string;
   description: string;
-  date: string;
+  date?: string;
   author: string;
   category: string;
   readTime: string;
@@ -8466,13 +8456,14 @@ function applyContentRecovery(article: Article): Article {
   return { ...article, content };
 }
 
-export const fullArticles = articles
+export const fullArticles = [...articles, APPRECIATIVE_JOY_ARTICLE]
   .map(applyWeek2ArticleUpgrade)
   .map(applyWeek3ArticleExpansion)
   .map(applyPhase1IntentRemediation)
   .map(applyContentRecovery)
+  .map(applyNovemberArticleEdits)
   .filter((article) => article.content.length > 0)
-  .sort((a, b) => b.date.localeCompare(a.date));
+  .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
 
 export type ArticleSeoDetails = {
   reviewedDate: string;
@@ -8481,6 +8472,7 @@ export type ArticleSeoDetails = {
 };
 
 export const articleSeoDetails: Record<string, ArticleSeoDetails> = {
+  "appreciative-joy-when-comparison-hurts": { reviewedDate: "2026-11-14", takeaways: [], faqs: [] },
   "mindful-email-and-texting": {
     reviewedDate: "2026-09-27",
     takeaways: [
@@ -10887,8 +10879,9 @@ const phase1IntentSeoDetails: Record<string, ArticleSeoDetails> = {
 
 export function getArticleSeoDetails(slug: string) {
   const intentDetails = phase1IntentSeoDetails[slug];
-  if (intentDetails) return intentDetails;
+  if (intentDetails) return hasNovemberArticleEdit(slug) ? { ...intentDetails, reviewedDate: "2026-11-14" } : intentDetails;
   const details = sixNewArticleSeoDetails[slug] ?? week3ArticleSeoDetails[slug] ?? week2ArticleSeoDetails[slug] ?? articleSeoDetails[slug];
+  if (hasNovemberArticleEdit(slug) && details) return { ...details, reviewedDate: "2026-11-14" };
   return contentRecoveryEdits[slug] && details ? { ...details, reviewedDate: "2026-10-30" } : details;
 }
 
@@ -10914,38 +10907,38 @@ export const articleCategoryDetails: Record<string, { slug: string; description:
     slug: "buddhist-wisdom",
     description: "Explore Buddhist wisdom articles about compassion, impermanence, anger, ethics, and the Noble Eightfold Path.",
     introduction:
-      "These articles explain central Buddhist teachings in clear language and connect them with relationships, emotions, choices, and daily responsibilities."
+      "Examine teachings such as impermanence, dukkha and ethical responsibility. These articles work through interpretations and explain where a common shortcut can lead to misunderstanding."
   },
   Meditation: {
     slug: "meditation",
     description: "Read practical meditation articles for beginners, including breathing, walking, loving-kindness, and daily mindfulness practice.",
     introduction:
-      "These meditation articles offer approachable instructions for building attention, working with distraction, and bringing formal practice into ordinary life."
+      "Explore the difficulties, choices and habits that arise around practice. Use a practice guide for instructions; come here to examine what happens when you try them in daily life."
   },
   Mindfulness: {
     slug: "mindfulness",
     description: "Browse mindfulness articles about morning routines, sleep, listening, presence, and awareness in everyday life.",
     introduction:
-      "These mindfulness articles explore how careful attention can support calmer mornings, better listening, restful evenings, and more deliberate responses."
+      "Read about interruptions, assumptions and attention in an imperfect day. These pieces ask what we notice and how we decide what to do next."
   },
   Reflection: {
     slug: "reflection",
     description: "Read Buddhist-inspired reflections about non-attachment, letting go, change, control, and living with greater freedom.",
     introduction:
-      "These reflective articles consider how to care deeply while releasing the grasping, control, and fixed identities that add unnecessary suffering."
+      "Spend time with uncertainty, change, gratitude and difficult emotions. These essays offer questions for familiar experiences without requiring a particular feeling in response."
   },
   Practice: {
     slug: "practice",
     description: "Explore practical Buddhist articles about patience, mindful action, daily habits, and applying wisdom in difficult moments.",
     introduction:
-      "These practice articles focus on the small, repeatable choices through which patience, awareness, and compassionate action become part of daily life."
+      "Consider the consequences of speaking, repairing a mistake, fulfilling a duty or protecting a boundary. The examples give ethical questions enough detail to become practical."
   }
 };
 
 export const articleCategories = Object.entries(articleCategoryDetails).map(([name, details]) => ({
   name,
   ...details,
-  count: articles.filter((article) => article.category === name).length
+  count: fullArticles.filter((article) => article.category === name).length
 }));
 
 export function getArticleCategory(categoryName: string) {

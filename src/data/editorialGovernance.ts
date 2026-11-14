@@ -826,6 +826,18 @@ const commonHealthReferences: SourceReference[] = [
 ];
 
 const articleSourceReferences: Record<string, SourceReference[]> = {
+  "/articles/appreciative-joy-when-comparison-hurts/": [
+    {
+      label: "AN 4.125 — Goodwill (1), translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/AN/AN4_125.html",
+      note: "The four immeasurable qualities in their wider religious context. The colleague scenario is Echo Buddha’s original application."
+    },
+    {
+      label: "MN 62 — The Greater Exhortation to Rāhula, translated by Thanissaro Bhikkhu",
+      href: "https://www.dhammatalks.org/suttas/MN/MN62.html",
+      note: "Empathetic joy is developed to abandon resentment, within a broader training that includes breathing meditation. This is not a workplace positivity technique."
+    }
+  ],
   "/articles/what-is-buddhism-beginner-guide/": [
     {
       label: "SuttaCentral: SN 56.11",

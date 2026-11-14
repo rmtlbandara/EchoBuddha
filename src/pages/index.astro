@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../data/novemberEdition";
 import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import { getBuddhistQuestion, getBuddhistQuestionPath } from "../data/buddhistQuestions";
@@ -138,7 +139,7 @@ const featuredDailyReflection = dailyReflections[0];
       <div class="section-intro">
         <span class="eyebrow">Choose by what you need</span>
         <h2>Choose Your Path</h2>
-        <p>Start with understanding, a practice, or one area of daily life. Each route has a distinct purpose.</p>
+        <p>{EDITION_COPY[116]}</p><p><a href="/learn/">Begin learning</a> · <a href="/meditation/">Choose a practice</a> · <a href="/daily-reflections/">Read a reflection</a></p>
       </div>
       <nav class="pathway-grid" aria-label="Core Echo Buddha pathways">
         {corePaths.map((path) => (

@@ -42,9 +42,10 @@ test("the built quote pages render the reviewed copy and preserve exclusion and 
       assert.ok(html.includes("imagined example, not a historical Buddhist account"));
     } else {
       for (const text of Object.values(QUOTE_APPLICATIONS[quote.text])) assert.ok(decode(html).includes(text), `${route}: reviewed copy missing`);
-      assert.match(html, /<time\b[^>]*datetime="2026-10-30"[^>]*>/);
+      const expectedDate = quote.updatedDate ?? "2026-10-30";
+      assert.ok(html.includes(`datetime="${expectedDate}"`));
       const schemas = [...html.matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1])).flat();
-      assert.ok(schemas.some(s => s["@type"] === "WebPage" && s.dateModified === "2026-10-30"));
+      assert.ok(schemas.some(s => s["@type"] === "WebPage" && s.dateModified === expectedDate));
       assert.deepEqual(story.sections, [], "Concise permalinks cannot generate fictional filler");
     }
   }

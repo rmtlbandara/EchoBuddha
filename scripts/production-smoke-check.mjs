@@ -36,7 +36,14 @@ const approvedQuoteNoindexCount = releaseChanges.changes
   .filter((change) => change.approved && change.type === "quote-indexation-remediation")
   .reduce((total, change) => total + Number(change.expectedIndexableToNoindex || 0), 0);
 const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length - retiredRoutes.length - approvedQuoteNoindexCount;
-const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length - retiredRoutes.length;
+const approvedUserPermalinks = releaseChanges.changes
+  .filter((change) => change.approved === true && change.type === "user-permalink-addition")
+  .map((change) => change.target);
+if (new Set(approvedUserPermalinks).size !== approvedUserPermalinks.length ||
+    approvedUserPermalinks.some(route => !/^\/(quotes\/[^/]+\/[^/]+|daily-reflections\/[^/]+)\/$/.test(route))) {
+  throw new Error("Approved user permalinks must be unique quote/reflection detail routes.");
+}
+const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length + approvedUserPermalinks.length - retiredRoutes.length;
 const expectedAdsTxt = "google.com, pub-3911157640549350, DIRECT, f08c47fec0942fa0";
 const expectedHeaders = [
   "content-security-policy",
@@ -88,6 +95,7 @@ check(
   sitemapResponse.status === 200 && sitemapUrls.length === expectedSitemapCount &&
     sitemapUrls.every((url) => url.startsWith(`${origin}/`)) &&
     approvedRoutes.every((route) => sitemapRoutes.has(route)) &&
+    approvedUserPermalinks.every((route) => !sitemapRoutes.has(route)) &&
     retiredRoutes.every((route) => !sitemapRoutes.has(route)),
   `${sitemapResponse.status}; ${sitemapUrls.length}/${expectedSitemapCount} URLs; ${approvedRoutes.length} approved additions present; ${retiredRoutes.length} approved consolidations absent; ${approvedQuoteNoindexCount} approved quote noindex decisions applied`
 );
@@ -107,8 +115,9 @@ check(
   "search",
   searchResponse.status === 200 && search.length === expectedSearchCount &&
     approvedRoutes.every((route) => searchRoutes.has(route)) &&
+    approvedUserPermalinks.every((route) => searchRoutes.has(route)) &&
     retiredRoutes.every((route) => !searchRoutes.has(route)),
-  `${searchResponse.status}; ${search.length}/${expectedSearchCount} items; ${approvedRoutes.length} approved additions present; ${retiredRoutes.length} approved consolidations absent`
+  `${searchResponse.status}; ${search.length}/${expectedSearchCount} items; ${approvedRoutes.length} approved indexable additions and ${approvedUserPermalinks.length} noindex permalinks present; ${retiredRoutes.length} approved consolidations absent`
 );
 
 const adsResponse = await get("/ads.txt");

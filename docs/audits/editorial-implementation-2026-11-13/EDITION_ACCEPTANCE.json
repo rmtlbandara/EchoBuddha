@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-14",
+  "authority": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+  "indexableRoutes": [
+    "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+    "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+    "/learn/buddhist-dictionary/vedana/",
+    "/articles/appreciative-joy-when-comparison-hurts/"
+  ],
+  "userPermalinks": [
+    "/daily-reflections/let-someone-help/",
+    "/daily-reflections/name-the-person-who-helped/",
+    "/daily-reflections/before-forwarding-a-claim/",
+    "/daily-reflections/another-persons-good-news/",
+    "/daily-reflections/change-your-mind-clearly/",
+    "/daily-reflections/a-promise-needs-an-answer/",
+    "/daily-reflections/leave-room-for-the-unfamiliar/",
+    "/daily-reflections/accept-a-correction/",
+    "/daily-reflections/notice-the-neutral-moment/",
+    "/daily-reflections/finish-the-practice-and-return/",
+    "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+    "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/"
+  ],
+  "acceptedQuotes": [
+    {
+      "text": "You can give someone time and still tell them when an answer is needed.",
+      "theme": "Patience"
+    },
+    {
+      "text": "Uncertainty belongs in the answer when the evidence is incomplete.",
+      "theme": "Wisdom"
+    }
+  ],
+  "acceptedReflections": [
+    "let-someone-help",
+    "name-the-person-who-helped",
+    "before-forwarding-a-claim",
+    "another-persons-good-news",
+    "change-your-mind-clearly",
+    "a-promise-needs-an-answer",
+    "leave-room-for-the-unfamiliar",
+    "accept-a-correction",
+    "notice-the-neutral-moment",
+    "finish-the-practice-and-return"
+  ],
+  "publicationStatus": "REVIEW_CANDIDATE_ONLY",
+  "qualifiedSourceReview": "NOT_CLAIMED",
+  "deployed": false
+}

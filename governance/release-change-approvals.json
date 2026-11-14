@@ -135,7 +135,7 @@
       "type": "protected-file",
       "target": "src/pages/privacy-policy.astro",
       "approved": true,
-      "reason": "Describe the existing optional analytics fields and aggregate search-use measurement with Google\u2019s linked explanation.",
+      "reason": "Describe the existing optional analytics fields and aggregate search-use measurement with Google’s linked explanation.",
       "owner": "Echo Buddha project owner via November 10 AdSense recovery brief. Candidate requires normal release authorization.",
       "date": "2026-11-10"
     },
@@ -186,6 +186,150 @@
       "date": "2026-11-11",
       "owner": "Project owner via adopted November 11 final-readiness brief.",
       "reason": "Replace homepage illustration with unconfirmed historical origin using project-authored geometry, preserving hero size, performance controls and accurate description."
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/let-someone-help/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/name-the-person-who-helped/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/before-forwarding-a-claim/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/another-persons-good-news/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/change-your-mind-clearly/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/a-promise-needs-an-answer/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/leave-room-for-the-unfamiliar/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/accept-a-correction/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/notice-the-neutral-moment/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/daily-reflections/finish-the-practice-and-return/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "user-permalink-addition",
+      "target": "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/",
+      "approved": true,
+      "reason": "Finite manuscript candidate accepted after full-library comparison; retains noindex, follow and self-canonical; excluded from sitemap; accessible through hub and local search. Candidate creation only.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/index.astro",
+      "approved": true,
+      "reason": "Integrate the adopted manuscript’s first-visit pathways with existing learning, meditation and reflection links.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/editorialGovernance.ts",
+      "approved": true,
+      "reason": "Register AN 4.125 and MN 62 for the appreciative-joy application without changing protected library references.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/pages/sitemap.xml.ts",
+      "approved": true,
+      "reason": "Include four authorized candidate indexable pages through existing data; allow unknown publication dates to stay absent.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/monetization-route-registry.mjs",
+      "approved": true,
+      "reason": "Register exactly four new indexable and twelve noindex candidate routes under conservative existing family states; seven ad candidates unchanged and all runtime gates off.",
+      "owner": "Project owner through adoption of writing-block (33).md and the final edited manuscript; candidate implementation authorization only. No independent human/source review or production release approval is claimed.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": ".github/workflows/validate.yml",
+      "approved": true,
+      "reason": "Add the finite editorial browser acceptance suite after the existing tools gate, retaining all prior release, consent, accessibility, question and guide gates. It verifies accepted routes, UTC rollover, no-JS fallback, accented discovery, keyboard and print behavior on the exact PR commit; no deployment trigger or permission change.",
+      "owner": "Project owner through adoption of writing-block (33).md, which requires a tested reviewable implementation candidate and preserved mandatory controls.",
+      "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": "scripts/production-smoke-check.mjs",
+      "approved": true,
+      "date": "2026-11-14",
+      "owner": "Project owner explicitly approved deployment of the completed editorial candidate to production/live on November 14, 2026.",
+      "reason": "Correct the production and ongoing-monitoring search inventory for the twelve already approved noindex user permalinks; require their presence in local search and exclusion from the sitemap. Preserve all fifteen smoke gates, exact release identity, privacy, advertising-off, headers, 404 and other deployment protections. Three end-to-end fixture regressions exercise success and equal-count missing/leaked routes."
     }
   ]
 }

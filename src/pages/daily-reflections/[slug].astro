@@ -87,7 +87,7 @@ const jsonLd = [
         <span class="eyebrow">{reflection.relatedIdea}</span>
         <h1>{reflection.title}</h1>
         <blockquote>{reflection.reflection}</blockquote>
-        {details && <p class="reflection-form">{details.form}</p>}
+        {details && reflection.presentation !== "manuscript" && <p class="reflection-form">{details.form}</p>}
         <EditorialAttribution label="Reflection by" />
       </div>
     </header>
@@ -96,13 +96,15 @@ const jsonLd = [
       <div class="prose reflection-body">
         <section class="surface reflection-summary">
           <h2>{reflectionModel.insight}</h2>
-          {details && <p>{details.centralObservation}</p>}
+          {details && reflection.presentation !== "manuscript" && <p>{details.centralObservation}</p>}
           <p>{reflection.meaning}</p>
         </section>
 
+        {reflection.presentation !== "manuscript" && <>
         <h2>{reflectionModel.situation}</h2>
         <p>{dailyLifeExample}</p>
         {details && <p class="next-step"><strong>One next step:</strong> {details.nextStep}</p>}
+        </>}
 
         <h2>{reflectionModel.practice}</h2>
         <p>{reflection.practice}</p>

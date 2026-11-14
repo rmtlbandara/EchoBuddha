@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-11-14T02:16:33.430Z",
+  "baseUrl": "http://127.0.0.1:4321",
+  "analyticsId": "G-6QB396HNKN",
+  "model": "Basic consent mode: Analytics remains off until affirmative acceptance; ad storage and AdSense runtime remain off.",
+  "scenarios": [
+    {
+      "name": "first visit has no inferred consent and no Google network request",
+      "pass": true,
+      "details": {
+        "preference": null,
+        "panelOpen": "true",
+        "gtagScriptRequests": 0,
+        "analyticsCollectionRequests": 0,
+        "adsenseRequests": 0,
+        "analyticsCookieCount": 0
+      }
+    },
+    {
+      "name": "first visit explicit rejection",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-14T02:15:50.160Z\"}",
+        "googleRequests": 0
+      }
+    },
+    {
+      "name": "return visit after rejection",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-14T02:15:52.402Z\"}",
+        "analyticsRequests": 0,
+        "adsenseRequests": 0
+      }
+    },
+    {
+      "name": "accept analytics from privacy settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":true,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-14T02:15:53.460Z\"}",
+        "gtagScriptRequests": 1
+      }
+    },
+    {
+      "name": "keyboard withdrawal through reopened settings",
+      "pass": true,
+      "details": {
+        "preference": "{\"analytics\":false,\"version\":\"2026-08-13\",\"updatedAt\":\"2026-11-14T02:15:54.652Z\"}",
+        "analyticsCookieCount": 0
+      }
+    },
+    {
+      "name": "accept, withdraw, and reaccept restores analytics without duplicate initialization",
+      "pass": true,
+      "details": {
+        "preference": {
+          "analytics": true,
+          "version": "2026-08-13",
+          "updatedAt": "2026-11-14T02:15:55.051Z"
+        },
+        "disabled": false,
+        "consent": {
+          "analytics_storage": "granted",
+          "ad_storage": "denied",
+          "ad_user_data": "denied",
+          "ad_personalization": "denied"
+        },
+        "scriptCount": 1,
+        "configCount": 1
+      }
+    },
+    {
+      "name": "consented search use excludes query text, URL parameters, and fragments",
+      "pass": true,
+      "details": {
+        "queryTextSent": false,
+        "searchUseEvents": 1,
+        "sanitizedPageLocation": "http://127.0.0.1:4321/search/"
+      }
+    },
+    {
+      "name": "withdrawal stops aggregate search measurement",
+      "pass": true,
+      "details": {
+        "eventsBeforeWithdrawal": 1,
+        "eventsAfterWithdrawal": 1
+      }
+    },
+    {
+      "name": "mobile navigation and consent keyboard escape",
+      "pass": true,
+      "details": {
+        "navVisible": true,
+        "acceptFocused": true,
+        "closed": true
+      }
+    }
+  ],
+  "pass": true
+}

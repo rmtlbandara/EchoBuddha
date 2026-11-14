@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../../data/novemberEdition";
 import Layout from "../../layouts/Layout.astro";
 import { SITE } from "../../data/site";
 import { getBreadcrumbJsonLd } from "../../data/learn";
@@ -133,6 +134,7 @@ const jsonLd = [
           </section>
         ))}
       </div>
+<div class="prose"><h2>{EDITION_COPY[127]}</h2><p>{EDITION_COPY[128]}</p><p>{EDITION_COPY[129]}</p><p><a href="/learn/buddhist-dictionary/dukkha/">Look up dukkha</a> · <a href="/learn/four-noble-truths/">Read the Four Noble Truths</a> · <a href="/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/">Study a source</a></p></div>
       <div class="search-entry surface">
         <div>
           <h2>Know What You Want?</h2>
@@ -193,6 +195,7 @@ const jsonLd = [
       </nav>
     </div>
   </section>
+
 </Layout>
 
 <style>

@@ -1,0 +1,5 @@
+
+> echo-buddha@1.0.0 audit:buddhist-questions:browser
+> node scripts/validate-buddhist-questions-browser.mjs
+
+Buddhist-question browser validation passed: 30 route/viewport combinations, zero critical or serious accessibility violations.

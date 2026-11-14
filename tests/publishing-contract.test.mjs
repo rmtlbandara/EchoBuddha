@@ -20,15 +20,15 @@ test("representative source-led article reaches sitemap, search, schema and Inde
 test("substantively revised learning pages expose their actual modification dates", () => {
   const datedRoutes = {
     "learn/buddhist-dictionary/compassion": "2026-10-27",
-    "learn/buddhist-dictionary/sati": "2026-10-27",
+    "learn/buddhist-dictionary/sati": "2026-11-14",
     "learn/buddhism-101/what-is-mindfulness": "2026-10-27",
-    "meditation/5-minute-meditation-practice": "2026-10-27",
-    "meditation/10-minute-meditation-practice": "2026-10-27",
+    "meditation/5-minute-meditation-practice": "2026-11-14",
+    "meditation/10-minute-meditation-practice": "2026-11-14",
     "learn/buddhist-dictionary/karuna": "2026-11-10",
     "learn/buddhist-dictionary/dukkha": "2026-11-10",
     "learn/buddhism-101/the-noble-eightfold-path-explained": "2026-11-11",
     "learn/buddhism-101/how-to-practice-buddhism-at-home": "2026-11-10",
-    "meditation/meditation-posture-for-beginners": "2026-11-10",
+    "meditation/meditation-posture-for-beginners": "2026-11-14",
     "meditation/mindfulness-in-daily-life": "2026-11-10",
     "learn/buddhism-101/three-marks-of-existence": "2026-11-11",
     "learn/buddhism-101/threefold-training-sila-samadhi-panna": "2026-11-11",
@@ -37,7 +37,7 @@ test("substantively revised learning pages expose their actual modification date
     "learn/sutta-for-daily-life/right-speech-in-daily-life": "2026-11-11",
     "learn/questions-about-buddhism/respecting-buddha-after-parinibbana": "2026-11-11",
     "learn/buddhist-handbook/qualities-of-a-lay-buddhist": "2026-11-11",
-    "meditation/meditation-for-beginners": "2026-11-11",
+    "meditation/meditation-for-beginners": "2026-11-14",
     "meditation/loving-kindness-meditation": "2026-11-11"
   };
   const sitemap = fs.readFileSync("dist/sitemap.xml", "utf8");
@@ -48,9 +48,9 @@ test("substantively revised learning pages expose their actual modification date
     assert.ok(!html.includes(`"datePublished":"${modified}"`), "Original publication date must not be invented");
     assert.ok(sitemap.includes(`<loc>https://echobuddha.com/${route}/</loc><lastmod>${modified}</lastmod>`), route);
   }
-  const unchanged = fs.readFileSync("dist/learn/buddhist-dictionary/metta/index.html", "utf8");
-  assert.doesNotMatch(unchanged, /datetime="2026-(?:10-27|11-10|11-11)"/);
-  assert.ok(sitemap.includes("<loc>https://echobuddha.com/learn/buddhist-dictionary/metta/</loc></url>"));
+  const revisedMetta = fs.readFileSync("dist/learn/buddhist-dictionary/metta/index.html", "utf8");
+  assert.match(revisedMetta, /datetime="2026-11-14"/);
+  assert.ok(sitemap.includes("<loc>https://echobuddha.com/learn/buddhist-dictionary/metta/</loc><lastmod>2026-11-14</lastmod></url>"));
 });
 
 

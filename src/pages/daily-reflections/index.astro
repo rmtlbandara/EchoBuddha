@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../../data/novemberEdition";
 import Layout from "../../layouts/Layout.astro";
 import DailyReflectionCard from "../../components/DailyReflectionCard.astro";
 import LearningCard from "../../components/LearningCard.astro";
@@ -123,6 +124,8 @@ const jsonLd = [
     </div>
   </section>
 
+  <section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[198]}</h2><p>{EDITION_COPY[199]}</p><p>{EDITION_COPY[200]}</p><nav aria-label="Reflection topics"><ul><li><a href="/daily-reflections/a-promise-needs-an-answer/">Speech and responsibility</a></li><li><a href="/daily-reflections/let-someone-help/">Care and boundaries</a></li><li><a href="/daily-reflections/change-your-mind-clearly/">Change and uncertainty</a></li><li><a href="/daily-reflections/notice-the-neutral-moment/">Attention and practice</a></li></ul></nav></div></section>
+
   <section id="reflection-library" class="section section-band">
     <div class="container">
         <span class="eyebrow">Reflection library</span>
@@ -154,6 +157,7 @@ const jsonLd = [
       </div>
     </div>
   </section>
+
 </Layout>
 
 <style>

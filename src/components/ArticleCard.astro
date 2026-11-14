@@ -15,11 +15,11 @@ const articleUrl = articleHref ? new URL(articleHref, SITE.url).toString() : SIT
 const thumbnailUrl = article.thumbnail ? new URL(article.thumbnail, SITE.url).toString() : "";
 const category = getArticleCategory(article.category);
 const readTime = getArticleReadTime(article);
-const formattedDate = new Intl.DateTimeFormat("en", {
+const formattedDate = article.date ? new Intl.DateTimeFormat("en", {
   month: "long",
   day: "numeric",
   year: "numeric"
-}).format(new Date(`${article.date}T00:00:00Z`));
+}).format(new Date(`${article.date}T00:00:00Z`)) : undefined;
 ---
 
 <article class="article-card surface">
@@ -45,7 +45,7 @@ const formattedDate = new Intl.DateTimeFormat("en", {
     </h3>
     <p>{article.description}</p>
     <div class="article-details">
-      <time datetime={article.date}>{formattedDate}</time>
+      {article.date && <time datetime={article.date}>{formattedDate}</time>}
       <span>{readTime}</span>
       {!articleHref && <span>Preview</span>}
       {articleHref && showShare && (

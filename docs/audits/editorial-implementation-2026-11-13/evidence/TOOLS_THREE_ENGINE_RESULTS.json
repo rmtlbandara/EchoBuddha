@@ -1,0 +1,243 @@
+{
+  "generatedAt": "2026-11-14T02:25:53.833Z",
+  "origin": "http://127.0.0.1:4321",
+  "results": [
+    {
+      "engine": "chromium",
+      "browserVersion": "149.0.7827.55",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        [
+          "/learn/buddhist-dictionary/karuna/",
+          "2026-11-10"
+        ],
+        [
+          "/learn/buddhist-dictionary/compassion/",
+          "2026-10-27"
+        ],
+        [
+          "/learn/buddhist-dictionary/sati/",
+          "2026-11-14"
+        ],
+        [
+          "/learn/buddhism-101/what-is-mindfulness/",
+          "2026-10-27"
+        ],
+        [
+          "/meditation/5-minute-meditation-practice/",
+          "2026-11-14"
+        ],
+        [
+          "/meditation/10-minute-meditation-practice/",
+          "2026-11-14"
+        ]
+      ],
+      "contentResults": [
+        {
+          "route": "/articles/category/buddhist-wisdom/",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "axeWidths": [
+            320,
+            1440
+          ],
+          "axeViolations": 0
+        },
+        {
+          "route": "/daily-reflections/",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "axeWidths": [
+            320,
+            1440
+          ],
+          "axeViolations": 0
+        }
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "151.0",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        [
+          "/learn/buddhist-dictionary/karuna/",
+          "2026-11-10"
+        ],
+        [
+          "/learn/buddhist-dictionary/compassion/",
+          "2026-10-27"
+        ],
+        [
+          "/learn/buddhist-dictionary/sati/",
+          "2026-11-14"
+        ],
+        [
+          "/learn/buddhism-101/what-is-mindfulness/",
+          "2026-10-27"
+        ],
+        [
+          "/meditation/5-minute-meditation-practice/",
+          "2026-11-14"
+        ],
+        [
+          "/meditation/10-minute-meditation-practice/",
+          "2026-11-14"
+        ]
+      ],
+      "contentResults": [
+        {
+          "route": "/articles/category/buddhist-wisdom/",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "axeWidths": [
+            320,
+            1440
+          ],
+          "axeViolations": 0
+        },
+        {
+          "route": "/daily-reflections/",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "axeWidths": [
+            320,
+            1440
+          ],
+          "axeViolations": 0
+        }
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "status": "PASS",
+      "widths": [
+        320,
+        390,
+        640,
+        768,
+        1024,
+        1280,
+        1440
+      ],
+      "revisedRoutes": [
+        [
+          "/learn/buddhist-dictionary/karuna/",
+          "2026-11-10"
+        ],
+        [
+          "/learn/buddhist-dictionary/compassion/",
+          "2026-10-27"
+        ],
+        [
+          "/learn/buddhist-dictionary/sati/",
+          "2026-11-14"
+        ],
+        [
+          "/learn/buddhism-101/what-is-mindfulness/",
+          "2026-10-27"
+        ],
+        [
+          "/meditation/5-minute-meditation-practice/",
+          "2026-11-14"
+        ],
+        [
+          "/meditation/10-minute-meditation-practice/",
+          "2026-11-14"
+        ]
+      ],
+      "contentResults": [
+        {
+          "route": "/articles/category/buddhist-wisdom/",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "axeWidths": [
+            320,
+            1440
+          ],
+          "axeViolations": 0
+        },
+        {
+          "route": "/daily-reflections/",
+          "widths": [
+            320,
+            390,
+            640,
+            768,
+            1024,
+            1280,
+            1440
+          ],
+          "axeWidths": [
+            320,
+            1440
+          ],
+          "axeViolations": 0
+        }
+      ],
+      "textResize": "200% at 640 CSS px",
+      "axeViolations": 0,
+      "methods": "Keyboard, DOM state, live status semantics, functional timers/generators, screenshot, axe; no real screen-reader certification"
+    }
+  ]
+}

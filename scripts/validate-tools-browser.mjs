@@ -39,7 +39,7 @@ try {
       const output = page.locator("[data-glossary-output]");
       const status = page.locator("[data-glossary-status]");
       assert.equal(await status.getAttribute("role"), "status");
-      for (const [query, slug] of [["metta", "metta"], ["mettā", "metta"], ["  METTĀ  ", "metta"], ["karuna", "karuna"], ["karuṇā", "karuna"], ["SATI", "sati"]]) {
+      for (const [query, slug] of [["metta", "metta"], ["mettā", "metta"], ["  METTĀ  ", "metta"], ["karuna", "karuna"], ["karuṇā", "karuna"], ["SATI", "sati"], ["vedana", "vedana"], ["vedanā", "vedana"]]) {
         await input.fill(query);
         assert.ok(await output.locator(`a[href='/learn/buddhist-dictionary/${slug}/']`).count(), `${engine}: ${query}`);
         assert.equal(await input.evaluate(node => document.activeElement === node), true, "Search retains focus");
@@ -110,10 +110,10 @@ try {
       const revisedRoutes = [
         ["/learn/buddhist-dictionary/karuna/", "2026-11-10"],
         ["/learn/buddhist-dictionary/compassion/", "2026-10-27"],
-        ["/learn/buddhist-dictionary/sati/", "2026-10-27"],
+        ["/learn/buddhist-dictionary/sati/", "2026-11-14"],
         ["/learn/buddhism-101/what-is-mindfulness/", "2026-10-27"],
-        ["/meditation/5-minute-meditation-practice/", "2026-10-27"],
-        ["/meditation/10-minute-meditation-practice/", "2026-10-27"]
+        ["/meditation/5-minute-meditation-practice/", "2026-11-14"],
+        ["/meditation/10-minute-meditation-practice/", "2026-11-14"]
       ];
       for (const [route, modifiedDate] of revisedRoutes) {
         await page.goto(origin + route);

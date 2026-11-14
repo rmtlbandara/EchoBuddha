@@ -53,8 +53,8 @@ const sourceNoteText =
   page.sourceNote && page.sourceNote !== DEFAULT_LEARNING_SOURCE_NOTE
     ? page.sourceNote
     : undefined;
-const showWhy = Boolean(qualityNote) && !isDictionary;
-const showClarification = Boolean(qualityNote);
+const showWhy = page.presentation !== "manuscript" && Boolean(qualityNote) && !isDictionary;
+const showClarification = page.presentation !== "manuscript" && Boolean(qualityNote);
 const showPractice = Boolean(page.practice) && !isDictionary;
 const showQuestion = Boolean(qualityNote?.question) && isSourceStudy;
 const articleJsonLd = [
@@ -105,7 +105,7 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
   jsonLd={jsonLd}
 >
   <article>
-    <header class="page-hero">
+    <header class:list={["page-hero", { "manuscript-hero": page.presentation === "manuscript" }]}>
       <div class="container prose">
         <Breadcrumbs items={breadcrumbs.map((item, index) => ({
           label: item.name,
@@ -121,17 +121,17 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 
     <div class="container article-shell">
       <div class="prose learning-body">
-        <aside class="surface key-box">
+        {page.takeaway && page.presentation !== "manuscript" && <aside class="surface key-box">
           <h2>{editorialLabels.takeaway}</h2>
           <p>{page.takeaway}</p>
-        </aside>
+        </aside>}
 
         {studyNote && <section class="learning-note" aria-labelledby="source-context-heading">
           <h2 id="source-context-heading">Source and Reading Context</h2>
           <p><strong>{studyNote.reference}</strong></p>
           <p>{studyNote.context}</p>
           <p>{studyNote.boundary}</p>
-          <p>Source context updated <time datetime={studyNote.modifiedDate}>October 23, 2026</time> by Echo Buddha Editorial.</p>
+          <p>Source context updated <time datetime={studyNote.modifiedDate}>{new Date(`${studyNote.modifiedDate}T12:00:00Z`).toLocaleDateString("en-US", { timeZone: "UTC", year: "numeric", month: "long", day: "numeric" })}</time> by Echo Buddha Editorial.</p>
         </section>}
         {page.section === "dhammapada-reflections" && <p class="source-boundary">The short story below is an original fictional illustration, not a historical account or a traditional commentary.</p>}
 
@@ -144,8 +144,17 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 
         {page.sections.map((section, index) => (
           <>
-            <h2>{section.heading}</h2>
-            {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+            {page.slug === "how-to-read-a-buddhist-sutta" && section.heading === "Before sharing a Buddhist passage" ? (
+              <section class="source-reading-card" id="source-reading-card" aria-labelledby="reading-card-heading">
+                <h2 id="reading-card-heading">{section.heading}</h2>
+                <ol>{section.paragraphs.slice(0, 6).map(paragraph => <li set:html={paragraph} />)}</ol>
+                <p set:html={section.paragraphs[6]} />
+                <p class="source-reading-credit">Echo Buddha · An original source-reading aid · echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/</p>
+              </section>
+            ) : <>
+              <h2>{section.heading}</h2>
+              {section.paragraphs.map((paragraph) => <p set:html={paragraph} />)}
+            </>}
           </>
         ))}
 
@@ -222,6 +231,26 @@ const jsonLd = [...articleJsonLd, ...dictionaryJsonLd];
 </Layout>
 
 <style>
+  .source-reading-card {
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    margin-block: 2rem;
+    padding: 1.25rem;
+  }
+  .source-reading-card li { margin-block: 0.75rem; }
+  .source-reading-credit { font-size: 0.8rem; overflow-wrap: anywhere; }
+  @media print {
+    .source-reading-card { break-inside: avoid; border-color: #444; color: #111; }
+    .source-reading-card h2 { break-after: avoid; }
+    .source-reading-card a { color: inherit; }
+  }
+
+  .manuscript-hero h1 {
+    font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+    line-height: 1.12;
+    max-width: 22ch;
+  }
+
   .key-box,
   .practice-box,
   .clarification-box,

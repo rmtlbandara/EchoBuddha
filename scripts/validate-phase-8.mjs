@@ -41,9 +41,10 @@ const approvedQuoteNoindexCount = quoteIndexationChanges.reduce(
   (total, change) => total + Number(change.expectedIndexableToNoindex || 0),
   0
 );
-const expectedHtmlCount = releaseBaseline.counts.html + approvedRoutes.length - retiredRoutes.length;
+const approvedUserPermalinks = releaseChanges.changes.filter(change => change.approved === true && change.type === "user-permalink-addition").map(change => change.target);
+const expectedHtmlCount = releaseBaseline.counts.html + approvedRoutes.length + approvedUserPermalinks.length - retiredRoutes.length;
 const expectedSitemapCount = releaseBaseline.counts.sitemap + approvedRoutes.length - retiredRoutes.length - approvedQuoteNoindexCount;
-const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length - retiredRoutes.length;
+const expectedSearchCount = releaseBaseline.counts.search + approvedRoutes.length + approvedUserPermalinks.length - retiredRoutes.length;
 const builtRoutes = new Set(htmlFiles.map((file) => {
   const relative = path.relative(path.join(root, "dist"), file).split(path.sep).join("/");
   if (relative === "index.html") return "/";
@@ -56,8 +57,15 @@ const searchRoutes = new Set(searchIndex.map((entry) => entry.url));
 check("Build", "Protected route count", () => {
   assert.equal(htmlFiles.length, expectedHtmlCount);
   assert.ok(approvedRoutes.every((route) => builtRoutes.has(route)));
+  assert.equal(new Set(approvedUserPermalinks).size, approvedUserPermalinks.length);
+  for (const route of approvedUserPermalinks) {
+    assert.ok(/^\/(quotes\/[^/]+\/[^/]+|daily-reflections\/[^/]+)\/$/.test(route), route);
+    assert.ok(builtRoutes.has(route) && searchRoutes.has(route), route);
+    assert.ok(!sitemapRoutes.has(route), route);
+    assert.match(read(`dist${route}index.html`), /<meta name="robots" content="noindex, follow"/, route);
+  }
   assert.ok(retiredRoutes.every((route) => !builtRoutes.has(route)));
-  return `${htmlFiles.length} HTML pages (${releaseBaseline.counts.html} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations)`;
+  return `${htmlFiles.length} HTML pages (${releaseBaseline.counts.html} protected baseline + ${approvedRoutes.length} approved indexable additions + ${approvedUserPermalinks.length} approved noindex permalinks - ${retiredRoutes.length} approved consolidations)`;
 });
 check("Sitemap", "Protected sitemap count and canonical host", () => {
   assert.equal(sitemapUrls.length, expectedSitemapCount);
@@ -70,7 +78,7 @@ check("Search", "Protected search index count", () => {
   assert.equal(searchIndex.length, expectedSearchCount);
   assert.ok(approvedRoutes.every((route) => searchRoutes.has(route)));
   assert.ok(retiredRoutes.every((route) => !searchRoutes.has(route)));
-  return `${searchIndex.length} search records (${releaseBaseline.counts.search} protected baseline + ${approvedRoutes.length} approved additions - ${retiredRoutes.length} approved consolidations)`;
+  return `${searchIndex.length} search records (${releaseBaseline.counts.search} protected baseline + ${approvedRoutes.length} approved indexable additions + ${approvedUserPermalinks.length} approved noindex permalinks - ${retiredRoutes.length} approved consolidations)`;
 });
 check("Canonical", "Every HTML document has at most one canonical", () => {
   const failures = htmlFiles.filter((file, index) => (html[index].match(/rel="canonical"/g) || []).length > 1);

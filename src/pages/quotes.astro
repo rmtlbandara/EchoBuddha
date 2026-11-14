@@ -95,12 +95,9 @@ const jsonLd = [
     <div class="container" data-filter-root>
       <aside class="surface quote-note" aria-labelledby="quote-note-heading">
         <div>
-          <span class="eyebrow">Quote of the day</span>
+          <span class="eyebrow">From the EchoBuddha collection</span>
           <h2 id="quote-note-heading">{quoteOfTheDay.text}</h2>
-          <p>
-            Echo Buddha quotes are original editorial reflections inspired by Buddhist practice. If a future page uses
-            a traditional or named-source quotation, it should be labeled separately and sourced visibly.
-          </p>
+          <p>An original EchoBuddha thought to begin with. Read the linked context to consider how it applies to a particular situation. It is not a historical Buddha quotation.</p>
         </div>
         {quoteOfTheDay.story && (
           <a class="button button--secondary" href={`/quotes/${quoteOfTheDay.theme.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/${quoteOfTheDay.story.slug}/`}>

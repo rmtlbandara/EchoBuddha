@@ -1,0 +1,261 @@
+{
+  "method": "Existing repository validators generate diagnostic outputs in historical report paths. Candidate-generated diagnostics are copied under this edition, then each historical file is restored byte-for-byte from the unchanged source baseline before commit. No historical claim is rewritten to appear current.",
+  "files": [
+    {
+      "path": "docs/audits/adsense-recovery-phase-7-2026-08-24/ECHO_BUDDHA_PHASE_7_GOVERNANCE_VALIDATION.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/adsense-recovery-phase-7-2026-08-24/ECHO_BUDDHA_PHASE_7_GOVERNANCE_VALIDATION.json",
+      "diagnosticSha256": "da6a4653c803ee46b54646c75dcfaf4224993dc3aa0bf1779a31cee9ea052dd4",
+      "originalSha256": "27a522f4c94a99b691c22b4fd34c03415abefac0f3fe8439ab97aaf0cce53b50",
+      "restoredSha256": "27a522f4c94a99b691c22b4fd34c03415abefac0f3fe8439ab97aaf0cce53b50",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/adsense-recovery-phase-7-2026-08-24/ECHO_BUDDHA_PHASE_7_INDEPENDENT_VALIDATION.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/adsense-recovery-phase-7-2026-08-24/ECHO_BUDDHA_PHASE_7_INDEPENDENT_VALIDATION.json",
+      "diagnosticSha256": "f817a11dd7a67c62c780c029b9dceaaa62c45d57b0bdb562d1800e2e9a4b8405",
+      "originalSha256": "4090414cd1f0be485ad2b91e0a1af693d2b15c9e97bfd27ae1c46234e270f201",
+      "restoredSha256": "4090414cd1f0be485ad2b91e0a1af693d2b15c9e97bfd27ae1c46234e270f201",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/adsense-rejection-2026-08/phase-10-search-console-measurement/phase-10-custom-validation.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/adsense-rejection-2026-08/phase-10-search-console-measurement/phase-10-custom-validation.json",
+      "diagnosticSha256": "2350ea1415e017283e65c1d5eba9e7d3bc0791d4262505d1c63f5153ec22c4ed",
+      "originalSha256": "bf6088061e5eecf61fa5ca064d9de95321b146c814106fb5bb7de1ccfe33b410",
+      "restoredSha256": "bf6088061e5eecf61fa5ca064d9de95321b146c814106fb5bb7de1ccfe33b410",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/adsense-rejection-2026-08/phase-8-technical-adsense-privacy/phase-8-custom-validation.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/adsense-rejection-2026-08/phase-8-technical-adsense-privacy/phase-8-custom-validation.json",
+      "diagnosticSha256": "a0cd6eb21773bc4e3c447244de948319f03b8ca7d6dccde76bb4fb69af03c797",
+      "originalSha256": "3a436f590d6b2a6050c5b325f85219bf274a52104c44fb3cfcf90d36fbe7f157",
+      "restoredSha256": "3a436f590d6b2a6050c5b325f85219bf274a52104c44fb3cfcf90d36fbe7f157",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/adsense-rejection-2026-08/phase-9-ci-git-deployment/phase-9-custom-validation.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/adsense-rejection-2026-08/phase-9-ci-git-deployment/phase-9-custom-validation.json",
+      "diagnosticSha256": "aae1729da42d51fb6745d4885a16ff6de6148cc620821c84fe55893069b7ab92",
+      "originalSha256": "40fa7be656cfb470fb5fad271738487c3136515360273944ff5a0af82515c853",
+      "restoredSha256": "40fa7be656cfb470fb5fad271738487c3136515360273944ff5a0af82515c853",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/buddhist-questions-q8-q9-2026-11-01/BROWSER_VALIDATION.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/buddhist-questions-q8-q9-2026-11-01/BROWSER_VALIDATION.json",
+      "diagnosticSha256": "dd20244aba46849659c0a469d76c9e881d82e9f6cccddb59cb12f74ccf0542e8",
+      "originalSha256": "7b2619f250bee6c63597d0fa52a5f1a2e666639523060d300110e6c8efe023ec",
+      "restoredSha256": "7b2619f250bee6c63597d0fa52a5f1a2e666639523060d300110e6c8efe023ec",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/content-decision-matrix.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/content-decision-matrix.csv",
+      "diagnosticSha256": "fb9735a81461b63144047003ce0913941735d397dede965c47a247d7b13013b3",
+      "originalSha256": "06c11228a2db09306eb86af2775c03a70e1c6474cdd61760bdf7922c483004a0",
+      "restoredSha256": "06c11228a2db09306eb86af2775c03a70e1c6474cdd61760bdf7922c483004a0",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/content-family-summary.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/content-family-summary.json",
+      "diagnosticSha256": "11114f0b18cb0845716d1b1cafcd412ce35fc149f491cdfd372c0f43ff6bfc30",
+      "originalSha256": "d52eefdff4282892218fa5fcc10377be2a569407638753292a9b72d779d68b4a",
+      "restoredSha256": "d52eefdff4282892218fa5fcc10377be2a569407638753292a9b72d779d68b4a",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/content-inventory.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/content-inventory.csv",
+      "diagnosticSha256": "d85bd8fa998d5dc80e6426683fe281d647b9ee69c69d88ef3eab868d171286f2",
+      "originalSha256": "c7c752e897e49c3a93edc162a4f07db6dc6c1ae20684c10fd92ac0c448b0722d",
+      "restoredSha256": "c7c752e897e49c3a93edc162a4f07db6dc6c1ae20684c10fd92ac0c448b0722d",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/daily-reflection-review.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/daily-reflection-review.csv",
+      "diagnosticSha256": "564772d786f279f9320e64cc16b0589aca97818738352664595d6ef1ed87c98a",
+      "originalSha256": "3111d3fdf8c4e5aaa45caf0fc44318d8f5a2e69d5e0d5e07abd1093889f2f0e9",
+      "restoredSha256": "3111d3fdf8c4e5aaa45caf0fc44318d8f5a2e69d5e0d5e07abd1093889f2f0e9",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/duplicate-clusters.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/duplicate-clusters.csv",
+      "diagnosticSha256": "720e75e810e64bab10dbcd76a08df656c0ddfd1bdeb2cead9d5e9040bd6bfc2f",
+      "originalSha256": "41ac6cb9ceaa4f8d13ea68990e48d4b6301b45761cd11399fd0b1dec00dcdcc6",
+      "restoredSha256": "41ac6cb9ceaa4f8d13ea68990e48d4b6301b45761cd11399fd0b1dec00dcdcc6",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/internal-link-opportunities.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/internal-link-opportunities.csv",
+      "diagnosticSha256": "e39c23c0a1437e150dd7f179fbcaffbaac12c2917992970db3ce2b4d8b967b1d",
+      "originalSha256": "f34a18480d0de8e8cb9f26a515b09c70ff9c351c3d2a0e13e647fcc083ea5a95",
+      "restoredSha256": "f34a18480d0de8e8cb9f26a515b09c70ff9c351c3d2a0e13e647fcc083ea5a95",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/post-remediation-summary.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/post-remediation-summary.json",
+      "diagnosticSha256": "28668e7ea50fb1b81d11a732d4b5cff9253f9e88fc491f1b1a4f84a9d9f57639",
+      "originalSha256": "801e1be185ba316c538458f49d2650c9be9b2a396ab3a11c74fc5c0005949a89",
+      "restoredSha256": "801e1be185ba316c538458f49d2650c9be9b2a396ab3a11c74fc5c0005949a89",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/quote-origin-register.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/quote-origin-register.csv",
+      "diagnosticSha256": "0f61ae54c2598bc83bbc4533bab70659c86c78769cfe39c6e75fa56b752e4705",
+      "originalSha256": "99378ea12b23ce396e6abdd86c226d5e0ff392272d51d507272003bf5e27744b",
+      "restoredSha256": "99378ea12b23ce396e6abdd86c226d5e0ff392272d51d507272003bf5e27744b",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/repeated-paragraphs.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/repeated-paragraphs.csv",
+      "diagnosticSha256": "f56a2192b57fb9d69fc6e1efaf355709869eace5008409497679259405634b0a",
+      "originalSha256": "60c306d2ea0ee10d9dc569258e7fcb93c90ef14b3a5042a9803346c4d2b1c5c1",
+      "restoredSha256": "60c306d2ea0ee10d9dc569258e7fcb93c90ef14b3a5042a9803346c4d2b1c5c1",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/safety-review-queue.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/safety-review-queue.csv",
+      "diagnosticSha256": "44d28c8de06049dee23e1eb0c6f67c152937f10e9671d873715a3e6215247ffa",
+      "originalSha256": "dc90b03f8dae9d4ac8108e65cccc7df9024a61a10bd7c3623cc6c8ffc1a8b5d6",
+      "restoredSha256": "dc90b03f8dae9d4ac8108e65cccc7df9024a61a10bd7c3623cc6c8ffc1a8b5d6",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/content-audit/source-register.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/content-audit/source-register.csv",
+      "diagnosticSha256": "7d2e02106327e8223c0f57b4680115467993379882f3a69bd2ceda8af2dc0b43",
+      "originalSha256": "b3feef24ae43e381d2b9453ff177805124ec6abc1400870e85f84c2968387767",
+      "restoredSha256": "b3feef24ae43e381d2b9453ff177805124ec6abc1400870e85f84c2968387767",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/echo-buddha-governance-implementation/final-validation-summary.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/echo-buddha-governance-implementation/final-validation-summary.json",
+      "diagnosticSha256": "8376104d622235ee8fde2ae29dfdd1f23a18f407e644cc88d95df4d998ebec63",
+      "originalSha256": "da3ec371b2b5b8f8fed7f74cdc6ba1ddbe53e364ca60d8661d202b02d6ca5525",
+      "restoredSha256": "da3ec371b2b5b8f8fed7f74cdc6ba1ddbe53e364ca60d8661d202b02d6ca5525",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/echo-buddha-governance-implementation/structured-data-matrix.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/echo-buddha-governance-implementation/structured-data-matrix.json",
+      "diagnosticSha256": "0a728fbed51d47578831d795b79d321a833034ff452712f50f1888f869ac2467",
+      "originalSha256": "ef4a25df75009b892818eb401de5e820f6fe2042072debfcf0780742c308f8c8",
+      "restoredSha256": "ef4a25df75009b892818eb401de5e820f6fe2042072debfcf0780742c308f8c8",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/echo-buddha-governance-implementation/thin-page-review.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/echo-buddha-governance-implementation/thin-page-review.json",
+      "diagnosticSha256": "a6a43db1bd95d66ebdb477319283d80c4a869ea2b1c8d906c80bd63739404e59",
+      "originalSha256": "f3f665b2bc6b35804c6735972164c79fa251c3b8793d4018de4f6c2f0d01e3cf",
+      "restoredSha256": "f3f665b2bc6b35804c6735972164c79fa251c3b8793d4018de4f6c2f0d01e3cf",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/echo-buddha-governance-implementation/url-inventory.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/echo-buddha-governance-implementation/url-inventory.json",
+      "diagnosticSha256": "eea45d061f6beefb6a1c4adf6b3a8a275bb2f78a3c7364aef0ccb618f5b40e75",
+      "originalSha256": "ffb88bf4a05820de0079779f0c94b50f364f0852d7b33d838fa416cd1f3346e7",
+      "restoredSha256": "ffb88bf4a05820de0079779f0c94b50f364f0852d7b33d838fa416cd1f3346e7",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/EXECUTIVE_REPORT.md",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/EXECUTIVE_REPORT.md",
+      "diagnosticSha256": "13ad787a9a2aa93781b6b551b20054840ab5b3d9fe5b6ffcb158a6d6fe9c3484",
+      "originalSha256": "ea7846b340a574a6561303ab52f399dda90d288a20580bed5976ebdcebbc0796",
+      "restoredSha256": "ea7846b340a574a6561303ab52f399dda90d288a20580bed5976ebdcebbc0796",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/INTENT_OWNERSHIP_REGISTRY.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/INTENT_OWNERSHIP_REGISTRY.csv",
+      "diagnosticSha256": "09c30cbbf4c12993ea3635aeb796ace315c8a107d820e3a3139bb5cd371c5189",
+      "originalSha256": "743d6bca80b9854ca7fdc58a3594bd6f3e57b82a4793579657d35d814b33425b",
+      "restoredSha256": "743d6bca80b9854ca7fdc58a3594bd6f3e57b82a4793579657d35d814b33425b",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/INTENT_OWNERSHIP_REGISTRY.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/INTENT_OWNERSHIP_REGISTRY.json",
+      "diagnosticSha256": "440b4137147b7c47063c0955133e37fe2d3f128286aa11436d36008eb5836c39",
+      "originalSha256": "d6b613f69539b206a58cc0f0141941f718adb18e23651ab2125a4485824994d0",
+      "restoredSha256": "d6b613f69539b206a58cc0f0141941f718adb18e23651ab2125a4485824994d0",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/INTERNAL_LINKING_REGISTER.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/INTERNAL_LINKING_REGISTER.csv",
+      "diagnosticSha256": "afce9cdf2374bc2069dcbf20dbfc14dc94e96fd5a688748d17e1b44261306c34",
+      "originalSha256": "12123082ce0919e8ffe601587f6978222c687ed8354d846eff2ad6ebd64081b3",
+      "restoredSha256": "12123082ce0919e8ffe601587f6978222c687ed8354d846eff2ad6ebd64081b3",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/PHASE_1_SUMMARY.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/PHASE_1_SUMMARY.json",
+      "diagnosticSha256": "53bc39be1a6ef0ffa9371ae01abacd030e248a5dec49b545616ad7b3be48416b",
+      "originalSha256": "7d23dc00930a36624c49be58d9a93078a7a5c7bc06bc5bc1bacd08765f37145c",
+      "restoredSha256": "7d23dc00930a36624c49be58d9a93078a7a5c7bc06bc5bc1bacd08765f37145c",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/PHASE_1_VALIDATION.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/PHASE_1_VALIDATION.json",
+      "diagnosticSha256": "96a8b693a1d0b779708858fe8372a171673c8e33d1b3a4697a64be94930c36fb",
+      "originalSha256": "41dd8f8313a30a5a03f51d7bfb3379d0f02709db128991a197a659d05601f32b",
+      "restoredSha256": "41dd8f8313a30a5a03f51d7bfb3379d0f02709db128991a197a659d05601f32b",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/PRIORITY_CLUSTER_DECISIONS.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/PRIORITY_CLUSTER_DECISIONS.csv",
+      "diagnosticSha256": "83bef3930f9e2eeef11651ef2634615a9a3466d08e08e2504249d535b2b3a95b",
+      "originalSha256": "191233df3124454f257a16d93f5c5bab5869681d606a6c31417c026296218b95",
+      "restoredSha256": "191233df3124454f257a16d93f5c5bab5869681d606a6c31417c026296218b95",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/SEARCH_PROTECTION_BEFORE_AFTER.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/SEARCH_PROTECTION_BEFORE_AFTER.csv",
+      "diagnosticSha256": "8ce48397f0fc82aa86a24cdb20b9c7fac685dd20c644b7d7599322445b931a5c",
+      "originalSha256": "b64db44e9ccd06a34524366f674a6728261f43525e55fd5b13cc75455c859d5f",
+      "restoredSha256": "b64db44e9ccd06a34524366f674a6728261f43525e55fd5b13cc75455c859d5f",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/SOURCE_REVIEW_REGISTER.csv",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/SOURCE_REVIEW_REGISTER.csv",
+      "diagnosticSha256": "8993626d918d0794aedf8b0206a69476523f63f3bc243b6c91e93c386f52096b",
+      "originalSha256": "be53b769dd2c796b7e29343c10075a31caad2b9c9bef212e7b2bdf44d5fcc275",
+      "restoredSha256": "be53b769dd2c796b7e29343c10075a31caad2b9c9bef212e7b2bdf44d5fcc275",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-1-resolve-strengthen-protect-2026-09-29/TECHNICAL_SEO_VALIDATION.md",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-1-resolve-strengthen-protect-2026-09-29/TECHNICAL_SEO_VALIDATION.md",
+      "diagnosticSha256": "97b2d03d90dd706cdff2ddf033594924284390180b0f0a72e96d84dcc55ab573",
+      "originalSha256": "81adc1e09914527ecbdf5f2d6961a107257bd24bba687416c6d203723820284b",
+      "restoredSha256": "81adc1e09914527ecbdf5f2d6961a107257bd24bba687416c6d203723820284b",
+      "pass": true
+    },
+    {
+      "path": "docs/audits/phase-2-measurement-2026-09-29/PHASE_2_VALIDATION.json",
+      "candidateDiagnosticCopy": "docs/audits/editorial-implementation-2026-11-13/generated-diagnostics/phase-2-measurement-2026-09-29/PHASE_2_VALIDATION.json",
+      "diagnosticSha256": "36228ebc6297d7b44e907b4fc24a2bb1513e014cbba8e8ca7743f80131265d36",
+      "originalSha256": "5b29304fbdc40e64a373c6e1886f5b0a1b66c746d43bb5d15d04e4031934eaa9",
+      "restoredSha256": "5b29304fbdc40e64a373c6e1886f5b0a1b66c746d43bb5d15d04e4031934eaa9",
+      "pass": true
+    }
+  ]
+}

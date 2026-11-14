@@ -23,6 +23,8 @@ if (!fs.existsSync(path.join(dist, "sitemap.xml"))) {
 const sitemap = read("dist/sitemap.xml");
 const sitemapRoutes = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => new URL(match[1]).pathname));
 const searchIndex = JSON.parse(read("dist/search-index.json"));
+const approvedQuoteAdditions = JSON.parse(read("governance/release-change-approvals.json")).changes.filter(change => change.approved === true && change.type === "user-permalink-addition" && change.target.startsWith("/quotes/"));
+const expectedQuoteCount = 153 + approvedQuoteAdditions.length;
 const quoteSearchItems = searchIndex.filter((item) => item.type === "Quote");
 const quoteRoot = path.join(dist, "quotes");
 const categoryDirectories = fs.readdirSync(quoteRoot, { withFileTypes: true })
@@ -40,11 +42,11 @@ const storyPages = categoryDirectories.flatMap((category) => {
 });
 
 check("quote identity and route uniqueness", () => {
-  assert.equal(storyPages.length, 153);
-  assert.equal(quoteSearchItems.length, 153);
-  assert.equal(new Set(quoteSearchItems.map((item) => item.url)).size, 153);
-  assert.equal(new Set(quoteSearchItems.map((item) => item.title.trim().toLowerCase())).size, 153);
-  return "153 unique quote records, routes, titles, and local-search entries";
+  assert.equal(storyPages.length, expectedQuoteCount);
+  assert.equal(quoteSearchItems.length, expectedQuoteCount);
+  assert.equal(new Set(quoteSearchItems.map((item) => item.url)).size, expectedQuoteCount);
+  assert.equal(new Set(quoteSearchItems.map((item) => item.title.trim().toLowerCase())).size, expectedQuoteCount);
+  return `${expectedQuoteCount} unique quote records, routes, titles, and local-search entries`;
 });
 
 check("fail-closed story index governance", () => {
@@ -65,14 +67,14 @@ check("all current quote permalinks preserve origin, navigation and noindex cont
     || !html.includes("Explore all")
   );
   assert.deepEqual(failures.map((item) => item.route), []);
-  return "153/153 meet origin, navigation and self-canonical noindex contracts; editorial usefulness requires separate review";
+  return `${expectedQuoteCount}/${expectedQuoteCount} meet origin, navigation and self-canonical noindex contracts; editorial usefulness requires separate review`;
 });
 
 check("quote stories are excluded from sitemap but retained in local search", () => {
   assert.deepEqual(storyPages.filter(({ route }) => sitemapRoutes.has(route)).map(({ route }) => route), []);
   const indexedLocally = new Set(quoteSearchItems.map((item) => item.url));
   assert.deepEqual(storyPages.filter(({ route }) => !indexedLocally.has(route)).map(({ route }) => route), []);
-  return "0 story sitemap entries; 153/153 local-search entries";
+  return `0 story sitemap entries; ${expectedQuoteCount}/${expectedQuoteCount} local-search entries`;
 });
 
 check("hub and ten curated categories remain protected indexable resources", () => {
