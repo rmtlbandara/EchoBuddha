@@ -1,12 +1,37 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { canonicalInspectionUrls, fetchSearchEvidence, summarizeGoogleInspection } from "../scripts/search-inspection-policy.mjs";
+import { canonicalInspectionUrls, inspectionCohort, inspectCanonicalCohort, fetchSearchEvidence, summarizeGoogleInspection } from "../scripts/search-inspection-policy.mjs";
 
 test("inspection cohort follows current sitemap additions and rejects unsafe or duplicated URLs", () => {
   const xml = '<urlset><url><loc>https://echobuddha.com/learn/buddhist-dictionary/vedana/</loc></url></urlset>';
   assert.deepEqual(canonicalInspectionUrls(xml), ["https://echobuddha.com/learn/buddhist-dictionary/vedana/"]);
   for (const bad of ["https://other.example/", "https://echobuddha.com/?token=x", "https://echobuddha.com/#x"]) assert.throws(() => canonicalInspectionUrls(xml.replace("https://echobuddha.com/learn/buddhist-dictionary/vedana/", bad)));
   assert.throws(() => canonicalInspectionUrls(xml + xml), /Duplicate/);
+});
+
+test("absolute sitemap URLs and relative watchlist routes are deduplicated after normalization", () => {
+  assert.deepEqual(inspectionCohort(["https://echobuddha.com/articles/"], ["/articles/"]), ["https://echobuddha.com/articles/"]);
+  assert.throws(() => inspectionCohort([], ["https://foreign.example/"]));
+});
+
+test("full-cohort inspection bounds concurrency, preserves order and saves pending progress", async () => {
+  const urls=Array.from({length:7},(_,i)=>`https://echobuddha.com/page-${i}/`);
+  let active=0,maxActive=0;const snapshots=[];
+  const rows=await inspectCanonicalCohort(urls, async inspectionUrl=>{
+    active++;maxActive=Math.max(maxActive,active);await new Promise(resolve=>setImmediate(resolve));active--;
+    return {inspectionUrl,httpStatus:200};
+  }, rows=>snapshots.push(rows));
+  assert.equal(maxActive,3);assert.deepEqual(rows.map(row=>row.inspectionUrl),urls);
+  assert.equal(snapshots[0].filter(row=>row.httpStatus==='PENDING').length,7);
+  assert.equal(snapshots.at(-1).filter(row=>row.httpStatus===200).length,7);
+});
+
+test("permanent authentication/quota failure stops queued inspections and preserves unknowns", async () => {
+  for(const status of [403,429]){
+    let calls=0;const rows=await inspectCanonicalCohort(Array.from({length:10},(_,i)=>String(i)),async inspectionUrl=>{calls++;return {inspectionUrl,httpStatus:status};});
+    assert.ok(calls<=3);assert.equal(rows.length,10);assert.equal(rows.filter(row=>row.httpStatus==='NOT_ATTEMPTED').length,10-calls);
+    assert.ok(rows.filter(row=>row.httpStatus==='NOT_ATTEMPTED').every(row=>row.error.status.includes(String(status))));
+  }
 });
 
 test("transient timeout and rate limit recover within bounded attempts and honor retry delay", async () => {

@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { canonicalInspectionUrls, fetchSearchEvidence, summarizeGoogleInspection } from "./search-inspection-policy.mjs";
+import { canonicalInspectionUrls, inspectionCohort, inspectCanonicalCohort, fetchSearchEvidence, summarizeGoogleInspection } from "./search-inspection-policy.mjs";
 import {
   CLUSTERS,
   GSC_PROPERTY,
@@ -249,26 +249,31 @@ async function collectInspection() {
   const sitemapResponse = await fetchSearchEvidence("https://echobuddha.com/sitemap.xml");
   if (!sitemapResponse.ok) throw new Error("Current canonical sitemap could not be fetched");
   const canonicalUrls = canonicalInspectionUrls(await sitemapResponse.text());
-  const monitored = [...new Set([
-    ...canonicalUrls,
+  const monitored = inspectionCohort(canonicalUrls, [
     ...CLUSTERS.map((cluster) => cluster.owner),
     ...WATCHLIST.map((item) => item.url)
-  ])].map((route) => new URL(route, "https://echobuddha.com").toString()).sort();
-  const results = [];
-  let authenticationDenied = false;
-  for (let index = 0; index < monitored.length; index += 1) {
-    const inspectionUrl = monitored[index];
-    if (authenticationDenied) {
-      results.push({ inspectionUrl, httpStatus: "NOT_ATTEMPTED", error: { status: "AUTHENTICATION_BLOCKED" } });
-      continue;
-    }
+  ]);
+  const outputPath = path.join(outputDir, "url-inspection-evidence.json");
+  const saveProgress = results => {
+    const generatedAt = new Date().toISOString();
+    fs.writeFileSync(outputPath, `${JSON.stringify({
+      schemaVersion: 1, generatedAt, property: GSC_PROPERTY, scope: READ_ONLY_SCOPE,
+      urlsRequested: monitored.length, results
+    }, null, 2)}\n`, { mode: 0o600 });
+    fs.writeFileSync(path.join(outputDir, "url-indexing-summary.json"), `${JSON.stringify({
+      schemaVersion: 1, generatedAt, property: GSC_PROPERTY, scope: READ_ONLY_SCOPE,
+      cohort: "Current live sitemap plus existing owner watchlist", sitemapUrls: canonicalUrls.length,
+      urlsRequested: monitored.length, results: results.map(summarizeGoogleInspection)
+    }, null, 2)}\n`);
+  };
+  let completed = 0;
+  const results = await inspectCanonicalCohort(monitored, async inspectionUrl => {
     const response = await apiFetch("https://searchconsole.googleapis.com/v1/urlInspection/index:inspect", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ inspectionUrl, siteUrl: GSC_PROPERTY, languageCode: "en-US" })
     }).catch(() => ({ ok: false, status: "UNAVAILABLE", body: { error: { status: "TRANSPORT_UNAVAILABLE", message: "Bounded read-only request retries exhausted" } } }));
-    if ([401, 403].includes(response.status)) authenticationDenied = true;
-    results.push(response.ok
+    const row = response.ok
       ? { inspectionUrl, httpStatus: response.status, inspectionResult: response.body.inspectionResult ?? {} }
       : {
           inspectionUrl,
@@ -278,24 +283,10 @@ async function collectInspection() {
             status: response.body?.error?.status ?? "UNKNOWN",
             message: response.body?.error?.message ?? "Unspecified API error"
           }
-        });
-    console.log(`URL Inspection ${index + 1}/${monitored.length}`);
-  }
-  const outputPath = path.join(outputDir, "url-inspection-evidence.json");
-  fs.writeFileSync(outputPath, `${JSON.stringify({
-    schemaVersion: 1,
-    generatedAt: new Date().toISOString(),
-    property: GSC_PROPERTY,
-    scope: READ_ONLY_SCOPE,
-    urlsRequested: monitored.length,
-    results
-  }, null, 2)}\n`, { mode: 0o600 });
-  fs.writeFileSync(path.join(outputDir, "url-indexing-summary.json"), `${JSON.stringify({
-    schemaVersion: 1, generatedAt: new Date().toISOString(), property: GSC_PROPERTY,
-    scope: READ_ONLY_SCOPE, cohort: "Current live sitemap plus existing owner watchlist",
-    sitemapUrls: canonicalUrls.length, urlsRequested: monitored.length,
-    results: results.map(summarizeGoogleInspection)
-  }, null, 2)}\n`);
+        };
+    console.log(`URL Inspection ${++completed}/${monitored.length}`);
+    return row;
+  }, saveProgress);
   console.log(`Private inspection evidence written to ${outputPath}`);
   if (results.some(row => row.httpStatus !== 200)) throw new Error("Read-only URL inspection incomplete; see sanitized URL summary");
 }

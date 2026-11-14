@@ -17,7 +17,9 @@ jobs:
   collect:
     name: Collect finalized Search Console evidence
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # The full current canonical cohort is larger than the former watchlist.
+    # Individual requests and concurrency remain bounded in the collector.
+    timeout-minutes: 30
     env:
       ECHOBUDDHA_GSC_CLIENT_FILE: .artifacts/private-auth/client.json
       ECHOBUDDHA_GSC_TOKEN_FILE: .artifacts/private-auth/token.json
