@@ -1648,6 +1648,32 @@
         }
       ],
       "measurementImpact": "Candidate only, not deployed. If separately authorized and deployed, append the actual exact-SHA receipt, exclude its Pacific deployment day and begin a new complete 28-day descriptive observation period the following Pacific day. No causal search conclusion or destructive consolidation is authorized."
+    },
+    {
+      "id": "november-editorial-release-receipt-2026-11-14",
+      "status": "DEPLOYED",
+      "authorizedBy": "Project owner explicitly approved deployment of the completed editorial release to production/live on November 14, 2026.",
+      "authorizedOn": "2026-11-14",
+      "baselineSha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a",
+      "baselineEvidence": "docs/deployments/receipts/2026-11-14-editorial-manuscript.json",
+      "baselineEvidenceSha256": "d358443a26e58ab9d8db0d499822af6c907687287cfc3d2f9582562c2c7f2f85",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Append the actual successful production receipt, 860-resource live parity and live browser acceptance. Preserve all earlier candidate, authorization, baseline and deployment records.",
+      "approvedApplicationFiles": {},
+      "productionSha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a",
+      "productionDeployedAt": "2026-11-14T06:58:47.323747Z",
+      "latestVerifiedProduction": {
+        "workflowRunId": 43568807863,
+        "cloudflareDeploymentId": "d583fc50-fc4f-4fc1-ae31-e9ae3ffb48a2",
+        "cloudflareVersionId": "4c214678-450d-4d71-a84d-746aab5f378c",
+        "smokePassed": 15,
+        "publicFilesVerified": 860,
+        "protectedRoutesUnchanged": 23
+      },
+      "measurementImpact": "Actual Pacific deployment day 2026-11-13 is excluded. New complete descriptive observation window: 2026-11-14 through 2026-12-11, 28 days; allow the existing finalization buffer and require finalized data. Prior intervened windows do not establish causal growth or authorize destructive consolidation."
     }
   ]
 }

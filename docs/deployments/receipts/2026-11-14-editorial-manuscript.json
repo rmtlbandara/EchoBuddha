@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "sha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a",
+  "sourcePullRequest": 106,
+  "approvedHeadSha": "813c548df6fa1cabe866c50a6ca729c5422e4c3c",
+  "githubRunId": 43568807863,
+  "githubDeploymentId": 7784064143,
+  "githubSuccessStatusId": 22181493565,
+  "cloudflareDeploymentId": "d583fc50-fc4f-4fc1-ae31-e9ae3ffb48a2",
+  "cloudflareVersionId": "4c214678-450d-4d71-a84d-746aab5f378c",
+  "trafficPercent": 100,
+  "deployedAt": "2026-11-14T06:58:47.323747Z",
+  "builtAt": "2026-11-14T06:57:55.625Z",
+  "ownerAuthorization": {
+    "date": "2026-11-14",
+    "instruction": "Deploy everything to production/live correctly. I grant my approval.",
+    "scope": "Completed editorial release, necessary verification correction, normal merge, guarded exact-main deployment, live acceptance and durable receipt. No advertising activation or unrelated account changes."
+  },
+  "ci": {
+    "finalPrRunId": 43568113618,
+    "mainRunId": 43568483573,
+    "releaseAndBrowserJobs": "PASS",
+    "tests": 119,
+    "failed": 0
+  },
+  "artifact": {
+    "id": 14103179701,
+    "sha256": "86f58f9ff579caeb13f17113f5a121f6ba0cfba1a95330c0f10c78dc943dd1ec",
+    "aggregateSha256": "d265ff493abdbdccc3608a162571c98425535c760e6b555c5d23186eb369f039",
+    "manifestFiles": 862,
+    "hostedExactShaAndEveryFileDigestVerification": "PASS"
+  },
+  "smoke": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "verifiedAt": "2026-11-14T06:58:50.648Z",
+    "activationVerificationAttempts": 1
+  },
+  "publicArtifactVerification": {
+    "observedAt": "2026-11-14T07:03:29.731Z",
+    "publicFilesVerified": 860,
+    "byteIdenticalFiles": 859,
+    "edgeTransformedFiles": 1,
+    "edgeTransformation": "robots.txt: exact previously verified Cloudflare managed prefix and byte-identical source-controlled suffix. Live and artifact hashes match the November 11 evidence.",
+    "excludedConfigurationFiles": [
+      "dist/_headers",
+      "dist/_redirects"
+    ],
+    "htmlVerified": 373,
+    "protectedRoutesVerifiedUnchanged": 23,
+    "htmlSecurityHeadersVerified": 373,
+    "htmlAdsRuntimeAbsent": 373,
+    "failed": 0,
+    "allPublicFilesVerified": true
+  },
+  "liveBrowser": {
+    "status": "PASS",
+    "routeViewportChecks": 98,
+    "utcTimeZones": [
+      "Pacific/Kiritimati",
+      "America/Los_Angeles",
+      "Asia/Colombo"
+    ],
+    "checks": [
+      "320px and desktop reflow",
+      "WCAG automated checks",
+      "Accented/unaccented page/overlay/glossary discovery",
+      "UTC rollover and random keyboard action",
+      "No-JavaScript fallback and static topic paths",
+      "Printable six-step source-reading aid",
+      "No optional Google request before affirmative analytics consent"
+    ]
+  },
+  "indexnow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 129,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-14T06:58:56.477Z",
+    "indexingGuaranteed": false
+  },
+  "inventory": {
+    "readerRoutes": 372,
+    "htmlIncluding404": 373,
+    "sitemapUrls": 175,
+    "localSearchRecords": 352,
+    "protectedRoutesUnchanged": 23
+  },
+  "measurement": {
+    "timeZone": "America/Los_Angeles",
+    "excludedDeploymentDay": "2026-11-13",
+    "stablePostWindowStart": "2026-11-14",
+    "stablePostWindowEnd": "2026-12-11",
+    "expectedDays": 28,
+    "review": "Allow the existing finalization buffer and verify actual finalized data. Preserve historical windows for descriptive use; no causal ranking or growth conclusion."
+  },
+  "previousVerifiedProduction": {
+    "sha": "bb44ff95fbba3e312a2a76b6f49a65a35cd2c551",
+    "cloudflareVersionId": "672b2829-0760-4d5f-b715-0c6b163e867e"
+  },
+  "acceptanceEvidence": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/43568807863",
+  "acceptanceReportPath": "docs/deployments/2026-11-14-editorial-manuscript.md",
+  "independentProductionMonitor": {
+    "workflowRunId": 43569625793,
+    "productionStatus": "VERIFIED_LIVE",
+    "verifiedAt": "2026-11-14T07:08:11.721Z",
+    "passed": 15,
+    "failed": 0,
+    "sha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a"
+  }
+}
