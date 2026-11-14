@@ -14,6 +14,38 @@ export function canonicalInspectionUrls(xml) {
   return urls.sort();
 }
 
+export function inspectionCohort(sitemapUrls, watchlistRoutes = []) {
+  const absolute = [...sitemapUrls, ...watchlistRoutes].map(value => new URL(value, origin).href);
+  for (const value of absolute) {
+    const url = new URL(value);
+    if (url.origin !== origin || url.username || url.password || url.search || url.hash) throw new Error("Inspection cohort must use public same-host URLs");
+  }
+  return [...new Set(absolute)].sort();
+}
+
+// Three read-only requests in flight; authentication/quota/outage failures stop
+// new requests. Every progress snapshot includes pending/blocked URLs explicitly.
+export async function inspectCanonicalCohort(urls, inspect, onProgress = () => {}) {
+  const results = new Array(urls.length);
+  let cursor = 0;
+  let blocked = null;
+  const snapshot = () => urls.map((url, index) => results[index] ?? {
+    inspectionUrl: url, httpStatus: blocked ? "NOT_ATTEMPTED" : "PENDING",
+    error: { status: blocked ? `COLLECTION_BLOCKED_AFTER_${blocked}` : "NOT_YET_INSPECTED" }
+  });
+  await onProgress(snapshot());
+  await Promise.all(Array.from({ length: Math.min(3, urls.length) }, async () => {
+    while (!blocked && cursor < urls.length) {
+      const index = cursor++;
+      const row = await inspect(urls[index]);
+      results[index] = row;
+      if ([401, 403, 429, "UNAVAILABLE"].includes(row.httpStatus)) blocked = row.httpStatus;
+      await onProgress(snapshot());
+    }
+  }));
+  return snapshot();
+}
+
 export async function fetchSearchEvidence(url, options = {}, { fetcher = fetch, sleep = ms => new Promise(resolve => setTimeout(resolve, ms)), maxAttempts = 4 } = {}) {
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     let response;
