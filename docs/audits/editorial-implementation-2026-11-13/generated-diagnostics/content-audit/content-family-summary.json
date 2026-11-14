@@ -1,0 +1,129 @@
+{
+  "homepage": {
+    "total": 1,
+    "indexable": 1,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 1
+    },
+    "averageWords": 564
+  },
+  "error": {
+    "total": 1,
+    "indexable": 0,
+    "noindex": 1,
+    "decisions": {
+      "Editorial review required": 1
+    },
+    "averageWords": 31
+  },
+  "policy": {
+    "total": 7,
+    "indexable": 7,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 7
+    },
+    "averageWords": 403
+  },
+  "hub": {
+    "total": 8,
+    "indexable": 8,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 8
+    },
+    "averageWords": 1280
+  },
+  "article": {
+    "total": 49,
+    "indexable": 49,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 45,
+      "Source verification required": 4
+    },
+    "averageWords": 1261
+  },
+  "articleCategory": {
+    "total": 5,
+    "indexable": 5,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 5
+    },
+    "averageWords": 435
+  },
+  "other": {
+    "total": 7,
+    "indexable": 6,
+    "noindex": 1,
+    "decisions": {
+      "Editorial review required": 7
+    },
+    "averageWords": 548
+  },
+  "dailyReflection": {
+    "total": 40,
+    "indexable": 0,
+    "noindex": 40,
+    "decisions": {
+      "Short-form editorial review required": 40
+    },
+    "averageWords": 197
+  },
+  "todayReflection": {
+    "total": 1,
+    "indexable": 0,
+    "noindex": 1,
+    "decisions": {
+      "Short-form editorial review required": 1
+    },
+    "averageWords": 3341
+  },
+  "learningPage": {
+    "total": 10,
+    "indexable": 10,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 10
+    },
+    "averageWords": 770
+  },
+  "learningDetail": {
+    "total": 70,
+    "indexable": 70,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 70
+    },
+    "averageWords": 710
+  },
+  "meditationDetail": {
+    "total": 9,
+    "indexable": 9,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 9
+    },
+    "averageWords": 642
+  },
+  "quoteCategory": {
+    "total": 10,
+    "indexable": 10,
+    "noindex": 0,
+    "decisions": {
+      "Editorial review required": 10
+    },
+    "averageWords": 503
+  },
+  "quoteStory": {
+    "total": 155,
+    "indexable": 0,
+    "noindex": 155,
+    "decisions": {
+      "Short-form editorial review required": 155
+    },
+    "averageWords": 449
+  }
+}

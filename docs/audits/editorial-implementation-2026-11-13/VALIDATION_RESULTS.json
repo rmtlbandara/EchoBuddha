@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-11-14T02:42:56.538Z",
+  "status": "PASS_LOCAL_REVIEW_CANDIDATE",
+  "runtime": {
+    "node": "22.23.4",
+    "npm": "10.9.9"
+  },
+  "checks": [
+    {
+      "command": "npm ci",
+      "status": "PASS",
+      "evidence": "Deterministic install completed on the required Node/npm runtime; exact commit CI repeats the install."
+    },
+    {
+      "command": "npm run validate:release",
+      "status": "PASS",
+      "evidence": "evidence/VALIDATE_RELEASE.txt"
+    },
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "tests": 116,
+      "failed": 0,
+      "evidence": "evidence/TEST_RESULTS.txt"
+    },
+    {
+      "command": "node scripts/validate-november-editorial-browser.mjs",
+      "status": "PASS",
+      "routeViewportChecks": 98,
+      "isolatedPreview": "http://127.0.0.1:4326",
+      "evidence": "evidence/EDITORIAL_BROWSER_ACCEPTANCE.json"
+    },
+    {
+      "command": "npm run audit:browser",
+      "status": "PASS",
+      "evidence": "evidence/CONSENT_BROWSER_RESULTS.json; evidence/GENERAL_ACCESSIBILITY_BROWSER_RESULTS.json"
+    },
+    {
+      "command": "npm run audit:tools:browser",
+      "status": "PASS",
+      "engines": [
+        "chromium",
+        "firefox",
+        "webkit"
+      ],
+      "evidence": "evidence/TOOLS_THREE_ENGINE_RESULTS.json"
+    },
+    {
+      "command": "npm run audit:guides:browser",
+      "status": "PASS",
+      "routeViewportEngineChecks": 72,
+      "evidence": "evidence/GUIDES_THREE_ENGINE_RESULTS.json"
+    },
+    {
+      "command": "npm run audit:buddhist-questions:browser",
+      "status": "PASS",
+      "routeViewportChecks": 30,
+      "evidence": "evidence/PROTECTED_QUESTIONS_BROWSER_RESULTS.json"
+    },
+    {
+      "command": "npm run audit:lighthouse",
+      "status": "PASS_LAB_CAPTURE",
+      "evidence": "evidence/LIGHTHOUSE_SUMMARY.csv; evidence/LIGHTHOUSE_CHANGED_RUNTIME.json"
+    },
+    {
+      "command": "Full route, internal-link and fragment crawl",
+      "status": "PASS",
+      "evidence": "CANDIDATE_AUDIT.json"
+    },
+    {
+      "command": "Append-only approval and historical intervention verification",
+      "status": "PASS",
+      "evidence": "APPEND_ONLY_GOVERNANCE_VERIFICATION.json; release gate hash resolution"
+    },
+    {
+      "command": "git diff --check",
+      "status": "PASS",
+      "evidence": "No whitespace errors"
+    }
+  ],
+  "limits": [
+    "No independent qualified Buddhist/human review claimed.",
+    "Browser automation is not certification by screen-reader users.",
+    "Laboratory performance is not field Core Web Vitals or causal search evidence.",
+    "Remote exact-commit CI is reported separately in the delivery receipt.",
+    "Candidate is not merged, deployed, indexed or approved for advertising."
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "appendOnlyRegister": "governance/indexable-page-approvals.json",
+    "beforeRecords": 23,
+    "afterRecords": 27,
+    "originalRecordsUnchanged": true
+  },
+  {
+    "appendOnlyRegister": "governance/release-change-approvals.json",
+    "beforeRecords": 23,
+    "afterRecords": 40,
+    "originalRecordsUnchanged": true
+  },
+  {
+    "appendOnlyRegister": "governance/measurement-interventions.json",
+    "beforeRecords": 15,
+    "afterRecords": 18,
+    "originalRecordsUnchanged": true
+  }
+]

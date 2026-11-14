@@ -1,0 +1,23 @@
+
+> echo-buddha@1.0.0 audit:browser
+> node scripts/browser-readiness-check.mjs
+
+Accessibility audit: /
+Accessibility audit: /start-here/
+Accessibility audit: /articles/four-noble-truths-explained-simply/
+Accessibility audit: /learn/buddhism-101/what-is-mindfulness/
+Accessibility audit: /learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/
+Accessibility audit: /learn/
+Accessibility audit: /quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/
+Accessibility audit: /quotes/mindfulness/
+Accessibility audit: /daily-reflections/one-honest-breath/
+Accessibility audit: /daily-reflections/today/
+Accessibility audit: /meditation/breathing-meditation/
+Accessibility audit: /search/
+Accessibility audit: /tools/
+Accessibility audit: /about/
+Accessibility audit: /contact/
+Accessibility audit: /editorial-policy/
+Accessibility audit: /privacy-policy/
+Accessibility audit: /missing-audit-url/
+Browser readiness check passed.

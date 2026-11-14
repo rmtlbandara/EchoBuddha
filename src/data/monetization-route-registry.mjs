@@ -25,6 +25,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
   },
+  "/articles/appreciative-joy-when-comparison-hurts/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "ARTICLE",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/articles/beginning-a-daily-mindfulness-practice/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "ARTICLE",
@@ -373,13 +379,43 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
   },
+  "/daily-reflections/a-promise-needs-an-answer/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/accept-a-correction/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
   "/daily-reflections/anger-as-a-signal/": {
     "state": "NEVER_MONETIZE",
     "family": "DAILY_REFLECTION",
     "indexable": false,
     "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
   },
+  "/daily-reflections/another-persons-good-news/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/before-forwarding-a-claim/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
   "/daily-reflections/begin-again-without-shame/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/change-your-mind-clearly/": {
     "state": "NEVER_MONETIZE",
     "family": "DAILY_REFLECTION",
     "indexable": false,
@@ -404,6 +440,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
   },
   "/daily-reflections/family-patience/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/finish-the-practice-and-return/": {
     "state": "NEVER_MONETIZE",
     "family": "DAILY_REFLECTION",
     "indexable": false,
@@ -434,6 +476,18 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
   },
   "/daily-reflections/kindness-with-boundaries/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/leave-room-for-the-unfamiliar/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/let-someone-help/": {
     "state": "NEVER_MONETIZE",
     "family": "DAILY_REFLECTION",
     "indexable": false,
@@ -475,7 +529,19 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": false,
     "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
   },
+  "/daily-reflections/name-the-person-who-helped/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
   "/daily-reflections/notice-before-fixing/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DAILY_REFLECTION",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/daily-reflections/notice-the-neutral-moment/": {
     "state": "NEVER_MONETIZE",
     "family": "DAILY_REFLECTION",
     "indexable": false,
@@ -799,6 +865,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
   },
+  "/learn/buddhist-dictionary/vedana/": {
+    "state": "NEVER_MONETIZE",
+    "family": "DICTIONARY",
+    "indexable": true,
+    "reason": "FAMILY_EXCLUDED_OR_NON_SUBSTANTIVE_SCREEN"
+  },
   "/learn/buddhist-handbook/": {
     "state": "NEVER_MONETIZE",
     "family": "LEARN_NAVIGATION",
@@ -841,12 +913,6 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
-  "/learn/buddhist-handbook/refuge-devas-buddhist-practice/": {
-    "state": "HOLD_MANUAL_REVIEW",
-    "family": "LEARN_DETAIL",
-    "indexable": true,
-    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
-  },
   "/learn/buddhist-handbook/practicing-for-yourself-and-others/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
@@ -854,6 +920,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
   "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/buddhist-handbook/refuge-devas-buddhist-practice/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
     "indexable": true,
@@ -1009,6 +1081,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
+  "/learn/sutta-for-daily-life/five-remembrances-an-5-57/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
@@ -1040,6 +1118,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
   "/learn/sutta-for-daily-life/right-speech-in-daily-life/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/sutta-for-daily-life/two-arrows-sn-36-6/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
     "indexable": true,
@@ -1807,6 +1891,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": false,
     "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
   },
+  "/quotes/patience/you-can-give-someone-time-and-still-tell-them/": {
+    "state": "NEVER_MONETIZE",
+    "family": "QUOTE",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
   "/quotes/practice/": {
     "state": "NEVER_MONETIZE",
     "family": "QUOTE",
@@ -2072,6 +2162,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
   },
   "/quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/": {
+    "state": "NEVER_MONETIZE",
+    "family": "QUOTE",
+    "indexable": false,
+    "reason": "NOINDEX_OR_USER_SPECIFIC_ROUTE"
+  },
+  "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/": {
     "state": "NEVER_MONETIZE",
     "family": "QUOTE",
     "indexable": false,

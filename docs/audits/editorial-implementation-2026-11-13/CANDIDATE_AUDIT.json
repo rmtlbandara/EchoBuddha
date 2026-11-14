@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-11-14T02:37:56.980Z",
+  "baselineSha": "b1772552dd7a36a91dfb3b817ec623d93fb5f77a",
+  "readerRoutes": 372,
+  "htmlRoutes": 373,
+  "sitemapUrls": 175,
+  "localSearchRecords": 352,
+  "addedRoutes": [
+    "/articles/appreciative-joy-when-comparison-hurts/",
+    "/daily-reflections/a-promise-needs-an-answer/",
+    "/daily-reflections/accept-a-correction/",
+    "/daily-reflections/another-persons-good-news/",
+    "/daily-reflections/before-forwarding-a-claim/",
+    "/daily-reflections/change-your-mind-clearly/",
+    "/daily-reflections/finish-the-practice-and-return/",
+    "/daily-reflections/leave-room-for-the-unfamiliar/",
+    "/daily-reflections/let-someone-help/",
+    "/daily-reflections/name-the-person-who-helped/",
+    "/daily-reflections/notice-the-neutral-moment/",
+    "/learn/buddhist-dictionary/vedana/",
+    "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+    "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+    "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+    "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/"
+  ],
+  "changedExistingRoutes": 209,
+  "protectedRoutesPassed": 23,
+  "protectedRoutesTotal": 23,
+  "protectedFiles": [
+    {
+      "file": "src/data/handbook.ts",
+      "baselineSha256": "a068b196d48b90374309f04fa4b7c94fad0b78e222a8fd8f16376c9b26d9c2fb",
+      "currentSha256": "a068b196d48b90374309f04fa4b7c94fad0b78e222a8fd8f16376c9b26d9c2fb",
+      "pass": true
+    },
+    {
+      "file": "src/data/buddhistQuestions.ts",
+      "baselineSha256": "c928d06eafa606aa769ecf700391b236e437c4357bab466011d7b5efbb8219a4",
+      "currentSha256": "c928d06eafa606aa769ecf700391b236e437c4357bab466011d7b5efbb8219a4",
+      "pass": true
+    },
+    {
+      "file": "src/pages/learn/buddhist-handbook/index.astro",
+      "baselineSha256": "92c0fe87069af811029eff507f54abe003f4324d306388bd6fa1bebd716b97db",
+      "currentSha256": "92c0fe87069af811029eff507f54abe003f4324d306388bd6fa1bebd716b97db",
+      "pass": true
+    },
+    {
+      "file": "src/pages/learn/buddhist-handbook/[slug].astro",
+      "baselineSha256": "dcce1f31f0366e11039e7b60f70716d8757f04ecde4ce2682af79d38dee3b765",
+      "currentSha256": "dcce1f31f0366e11039e7b60f70716d8757f04ecde4ce2682af79d38dee3b765",
+      "pass": true
+    },
+    {
+      "file": "src/pages/learn/questions-about-buddhism.astro",
+      "baselineSha256": "9979d522fc0733cfbc4ab3723ee8ac0f0b6e25524bef427c09f2d53292084742",
+      "currentSha256": "9979d522fc0733cfbc4ab3723ee8ac0f0b6e25524bef427c09f2d53292084742",
+      "pass": true
+    },
+    {
+      "file": "src/pages/learn/questions-about-buddhism/[slug].astro",
+      "baselineSha256": "a0d74cc9232e81d8928215a0f815600d4ab0655e24d7bf62299a4eec0f63276b",
+      "currentSha256": "a0d74cc9232e81d8928215a0f815600d4ab0655e24d7bf62299a4eec0f63276b",
+      "pass": true
+    },
+    {
+      "file": "src/components/ConsentManager.astro",
+      "baselineSha256": "99f880d8f1211ab679e974e871b4bc4d67f4699cebc560dc737987e61a95ceba",
+      "currentSha256": "99f880d8f1211ab679e974e871b4bc4d67f4699cebc560dc737987e61a95ceba",
+      "pass": true
+    },
+    {
+      "file": "src/data/ads.ts",
+      "baselineSha256": "918c1e76f3e1a023496659d6f7245425267b5a08a2ac6b7dbd62052ce21b5c13",
+      "currentSha256": "918c1e76f3e1a023496659d6f7245425267b5a08a2ac6b7dbd62052ce21b5c13",
+      "pass": true
+    },
+    {
+      "file": "public/_headers",
+      "baselineSha256": "16c0ab41ead01926a385e65d1870467cec8f274d82d2ee7de05b5b5166e9a4b3",
+      "currentSha256": "16c0ab41ead01926a385e65d1870467cec8f274d82d2ee7de05b5b5166e9a4b3",
+      "pass": true
+    },
+    {
+      "file": "public/robots.txt",
+      "baselineSha256": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1",
+      "currentSha256": "2e625514d2ec825f8b1638ab8094f1ebf53669bbbc41656263f67d246c60d6e1",
+      "pass": true
+    },
+    {
+      "file": "src/pages/privacy-policy.astro",
+      "baselineSha256": "a0bf164c191e7f0b1e236183241f7c66f04618d48f142ddbc233462d6a79c973",
+      "currentSha256": "a0bf164c191e7f0b1e236183241f7c66f04618d48f142ddbc233462d6a79c973",
+      "pass": true
+    },
+    {
+      "file": "src/pages/terms-of-use.astro",
+      "baselineSha256": "d50c48d1741a510a7aefe846f1b8444302107a975390eb53b368068a9369444b",
+      "currentSha256": "d50c48d1741a510a7aefe846f1b8444302107a975390eb53b368068a9369444b",
+      "pass": true
+    }
+  ],
+  "removedRoutes": [],
+  "existingCanonicalIndexDrift": [],
+  "brokenLinks": [],
+  "publisherNotesLeaked": []
+}

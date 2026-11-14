@@ -9,7 +9,7 @@
       "baselineSha": "5186b26a79c366d210896de1f1e7da41863b7cb5",
       "baselineEvidence": "docs/audits/production-transformation-2026-10-23/PRE_RELEASE_BASELINE.json",
       "baselineEvidenceSha256": "001a7e9fbb60efcf9ff73992b6046a2f205a22cc93b7206ee2031cf29bccebcc",
-      "measurementImpact": "The original September 29\u2013October 26 period is intervened when this release reaches production. Do not treat it as a clean causal comparison or unlock destructive consolidation from it.",
+      "measurementImpact": "The original September 29–October 26 period is intervened when this release reaches production. Do not treat it as a clean causal comparison or unlock destructive consolidation from it.",
       "plannedReleaseDate": "2026-10-23",
       "productionDeployedAt": "2026-10-23T12:23:55.359998Z",
       "productionSha": "67f486a8d990f0058374301d9ebf6fd74ed85994",
@@ -746,7 +746,7 @@
     {
       "id": "q8-kathavatthu-emphasis-fix-2026-11-02",
       "status": "DEPLOYED",
-      "authorizedBy": "Project owner supplied a production screenshot showing literal <i>Kath\u0101vatthu</i> markup in the Q8 Key Takeaway and requested: pls fix.",
+      "authorizedBy": "Project owner supplied a production screenshot showing literal <i>Kathāvatthu</i> markup in the Q8 Key Takeaway and requested: pls fix.",
       "authorizedOn": "2026-11-02",
       "baselineSha": "31441fc5219cea49b25f57977a340677a4ba0af1",
       "baselineEvidence": "docs/audits/q8-kathavatthu-emphasis-fix-2026-11-02/PRE_RELEASE_BASELINE.json",
@@ -761,7 +761,7 @@
           "deploymentId": "578775c3-6237-4057-8fe8-4a8c05434954",
           "versionId": "5c42e7f9-2d0f-4cf9-a1d1-fe14a5b31071",
           "workflowRunId": 41384064908,
-          "verification": "Exact merged-main validation and production deployment passed; immutable 814-file artifact verified; production smoke passed 15/15; /release.json served the exact SHA; independent live DOM inspection confirmed real italic emphasis for Kath\u0101vatthu and no literal <i> tags; IndexNow HTTP 200 accepted one changed canonical notification, not indexing."
+          "verification": "Exact merged-main validation and production deployment passed; immutable 814-file artifact verified; production smoke passed 15/15; /release.json served the exact SHA; independent live DOM inspection confirmed real italic emphasis for Kathāvatthu and no literal <i> tags; IndexNow HTTP 200 accepted one changed canonical notification, not indexing."
         }
       ],
       "publicRouteRemovals": 0,
@@ -1086,7 +1086,7 @@
       "indexStateChanges": 0,
       "ownerChanges": 0,
       "canonicalChanges": 0,
-      "scope": "Differentiate the karma application, Eightfold Path source lesson, household practice and Karu\u1e47\u0101 entry. Correct interpretation, meditation safety and source boundaries. Clarify existing analytics disclosures, and surface recorded page modification dates in the sitemap. Retain the three earlier candidate fixes.",
+      "scope": "Differentiate the karma application, Eightfold Path source lesson, household practice and Karuṇā entry. Correct interpretation, meditation safety and source boundaries. Clarify existing analytics disclosures, and surface recorded page modification dates in the sitemap. Retain the three earlier candidate fixes.",
       "approvedApplicationFiles": {
         "src/data/editorialGovernance.ts": "86d9ab98ff6e1ea5fa7eae68183870d9590611cb1e4fca88d24488ab4b9d203e",
         "src/data/handbook.ts": "253e6bc3f0736f91e12d69b19695337ae10735b39435acc0ff8cb3e5c5f7c9cf",
@@ -1304,6 +1304,350 @@
         "smokePassed": 15
       },
       "measurementImpact": "Restart descriptive stable observation on November 12 Pacific time. Prior search windows precede this release; no causal or indexing guarantee."
+    },
+    {
+      "id": "november-manuscript-candidate-2026-11-14",
+      "status": "AUTHORIZED_REVIEW_CANDIDATE",
+      "authorizedBy": "Project owner adopted writing-block (33).md and EchoBuddha_Final_Publication_Manuscript_Edited_2026-11-13.docx with go with this, then asked to continue. Authorization covers finite implementation, QA and a reviewable PR; no merge, production deployment, account changes, external publishing or ad activation.",
+      "authorizedOn": "2026-11-14",
+      "baselineSha": "b1772552dd7a36a91dfb3b817ec623d93fb5f77a",
+      "baselineEvidence": "docs/audits/editorial-implementation-2026-11-13/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "4da0eb3d08eb0669a99573646d683be7a25e721a0e69e313d2590f4a9252d8b2",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Four independently useful indexable candidates, ten noindex reflection additions, two noindex quote additions, fifteen learning repairs/source aids, five differentiated quote narratives, nine concrete article scenarios, full hub/navigation coverage and stable UTC reflection selection. Twenty in-scope maintenance findings reviewed; twenty-three protected learning routes and eleven excluded findings remain unchanged.",
+      "newIndexableRoutes": [
+        "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+        "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+        "/learn/buddhist-dictionary/vedana/",
+        "/articles/appreciative-joy-when-comparison-hurts/"
+      ],
+      "newNoindexPermalinks": [
+        "/daily-reflections/let-someone-help/",
+        "/daily-reflections/name-the-person-who-helped/",
+        "/daily-reflections/before-forwarding-a-claim/",
+        "/daily-reflections/another-persons-good-news/",
+        "/daily-reflections/change-your-mind-clearly/",
+        "/daily-reflections/a-promise-needs-an-answer/",
+        "/daily-reflections/leave-room-for-the-unfamiliar/",
+        "/daily-reflections/accept-a-correction/",
+        "/daily-reflections/notice-the-neutral-moment/",
+        "/daily-reflections/finish-the-practice-and-return/",
+        "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+        "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/"
+      ],
+      "approvedApplicationFiles": {
+        "src/components/ArticleCard.astro": "55f34270854bf7f71fe923c0f0492cfedc92ffaf0ac9eecd0c6fb1765b66d04e",
+        "src/data/dailyReflections.ts": "f123ceec3159a8901930121401eb34e8f82862ac801512814a5acc0df3387e59",
+        "src/data/editorialGovernance.ts": "93bb34c2ebcac8b50653742867d55065073028e858347fa46a323342566b83bd",
+        "src/data/learn.ts": "8b2376f70e2c57fc4045760b90e008967f423bc489571bf33524aa4415d44af8",
+        "src/data/monetization-route-registry.mjs": "57721ac69e8a98ea08e90f55bc67ba42e2703002b406fcb3ebabf8f9fb20a314",
+        "src/data/novemberEdition.ts": "fafbb7b88a04cbd64bf31011e1f1678b4a402f868fc3455f05c8368f7e88f6a6",
+        "src/data/quoteApplications.ts": "c4b7f288937f12bb1360dc79e3da9d3904eb36b7181f2a12bae5d4dbc21903a1",
+        "src/data/site.ts": "7a57defea5f0c87fc2326f57e15eee13b58ef8c293a8903d518309daa29830f0",
+        "src/pages/articles/[slug].astro": "b47aa124edf4cbe11ce68537d15fa8bc354dc4d80197cdcdaca77cd7deb8f28e",
+        "src/pages/articles/index.astro": "e688414542c1e39d94b88d29f839e425fa82213028d7c8a9ade63d43d4554469",
+        "src/pages/daily-reflections/[slug].astro": "3ac7bed277aa932534d72179e69feea352c0e53143b0ac9420c29667d92bfa10",
+        "src/pages/daily-reflections/index.astro": "31ae68dfdb4396f6a385cf302a04d26fdff5cc2e3f16265807668406f855c4bd",
+        "src/pages/daily-reflections/today.astro": "7963099ce5bad4e2f641d9c84cb61bf7571e582dee245473744eec990d421be1",
+        "src/pages/index.astro": "c3d5013bbfc9cae769c91ca78819637761cee16d06f102ecff201845ea3171db",
+        "src/pages/learn/[section]/[slug].astro": "98a9bf9dab9ee67fc7ea30c928b6ebaaa8c6665473c941b0f2a7ab34f183f696",
+        "src/pages/learn/[section]/index.astro": "0409e0fe1d3434e4d24fd2d4fc593c6ad938bdf0641aac9adbec472f68e87ffc",
+        "src/pages/learn/buddhist-resources.astro": "5469a4584897182d74cab48f343aa3a24a4b6ffc20113407cb5eecfffe610755",
+        "src/pages/learn/index.astro": "9b3ce8741ad4d5c79f8ac923af6db192b87e12508f9cc04674af215c081b78fd",
+        "src/pages/meditation/index.astro": "e7d864e3ba0db966f74088a20c347084ffe69d9abf6465905be7211e307b1fff",
+        "src/pages/mindful-living.astro": "e692b4ce5481a95e4dc5546c8b56b90ce9c3f0645e772329fbed8c9210d5469f",
+        "src/pages/quotes.astro": "1d13bc03719e9fa46b7bc1a901e61447227640349d9e1e2f33634180f3d7b255",
+        "src/pages/quotes/[category]/[story].astro": "0dbbdf8f57b7475156f8f4c021f7db628dc9c474879600c7bd47da3a63d95d39",
+        "src/pages/search-index.json.ts": "bfafaa25d754d0e5e4b27d83912957d2dad31211bdb0ff8564837c23295348b5",
+        "src/pages/search.astro": "43443fa997d6bb5fcb7009292645596e61282c51026673002f4c12a9750a71fb",
+        "src/pages/sitemap.xml.ts": "8b255c358ed17c77a4ac2ae43d54017fba1b0e970128bbc3f74c29403bc5304e",
+        "src/pages/start-here.astro": "fb41963a211f07b0bd7372fca173ca40d84c097a46f1c1401a295de033912ed9",
+        "src/pages/tools.astro": "806027e511e066b16027a0f6a144febef1e6dda11a17a263530ad2de09d5dedf",
+        "src/utils/reflectionSchedule.mjs": "163e6b6e791efd2d996ae50ed09f2450792942c427f926c4c7fe11094faf62b7"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/components/ArticleCard.astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "5d8590db72c6b714759fd426bc0596e68a8d0ae1f35d97245be1451c8ef022e7"
+        },
+        {
+          "file": "src/data/dailyReflections.ts",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "a250993699a4de3df314fd3c9ea4ddac45875d5c3a81e5b1766a8510ebde76f8"
+        },
+        {
+          "file": "src/data/editorialGovernance.ts",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "89eac0f2c871e34dbb50e3d9a2f4c9fc231f26b7db647f15e096fd239bb7ae1c"
+        },
+        {
+          "file": "src/data/learn.ts",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "57b185813766e3adda613d3dbd09007dfc6420921f2e7a2d6a1d12052c3dc127"
+        },
+        {
+          "file": "src/data/monetization-route-registry.mjs",
+          "interventionId": "handbook-part-two-2026-11-03",
+          "previousSha256": "87a825c14fdc6c53cfce2ab6ea8b86558c3b145eed3c33fd097ce3ae7dfa30b5"
+        },
+        {
+          "file": "src/data/quoteApplications.ts",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "f6efdbdb038dc635529f5322fc1a12f03b26c91b16e7630e50d3a0ac5d56b596"
+        },
+        {
+          "file": "src/data/site.ts",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "9b757b2ca963d962448473cb55cd31314087e6d53a79f12be2e68c6b8ae76b11"
+        },
+        {
+          "file": "src/pages/articles/[slug].astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "37819bdc2c814b8e67e390f98b7356c71f1c9334d6d0d07e3bf253705e26cb09"
+        },
+        {
+          "file": "src/pages/daily-reflections/index.astro",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "4b70b6509eabb26d74933efed57c7934e627ebd90242f7a38df4bc7f33b2fc37"
+        },
+        {
+          "file": "src/pages/index.astro",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "33a0c37b45c5593ae12f3e451b112fa7ad913842edb45c90821eea3a64201c66"
+        },
+        {
+          "file": "src/pages/learn/[section]/[slug].astro",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "d1c119809c2ef5dd7f7881dde8682a98b3a2a298a78f4fd0cb2b29f5c3bb7de3"
+        },
+        {
+          "file": "src/pages/learn/[section]/index.astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "1be51d056afdab85ea7d683b53e3dcee0a87fd1dfa55b5d7738113455b857615"
+        },
+        {
+          "file": "src/pages/learn/buddhist-resources.astro",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "11610c2316a1cc247dd27459f8001a25180ec4fb421f32731b7c43445d3f3250"
+        },
+        {
+          "file": "src/pages/learn/index.astro",
+          "interventionId": "handbook-part-two-2026-11-03",
+          "previousSha256": "ff994be49234bdde733710b1c964c931e0f2e672a32406c1d7a162d7c2f83c59"
+        },
+        {
+          "file": "src/pages/quotes.astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "06d95137207cfd2fd887afcb0ae3eb0c3e10ae32aa7ad68a64f914363e7e74de"
+        },
+        {
+          "file": "src/pages/quotes/[category]/[story].astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "334ca9fb1a788e9c899c33b8e2deb5970481ec9b7701ea06b294d504f14cbf40"
+        },
+        {
+          "file": "src/pages/search-index.json.ts",
+          "interventionId": "handbook-part-two-2026-11-03",
+          "previousSha256": "92df6f0bc8586247696509e6b72ef22ba836dfc7b75d619a1bdea5ec5c7e9fa0"
+        },
+        {
+          "file": "src/pages/sitemap.xml.ts",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "08524e45d3bf0d5add06af4389f145dc6099e35b70c5b40c71d53bb3d93688a2"
+        },
+        {
+          "file": "src/pages/tools.astro",
+          "interventionId": "adsense-final-content-recovery-2026-10-30",
+          "previousSha256": "c72c8ab38aef926f12d62af9c57c2af70b7ff07d56ffa41be75e78943e273d8c"
+        }
+      ],
+      "measurementImpact": "Candidate only, not deployed. If separately authorized and deployed, append the actual exact-SHA receipt, exclude its Pacific deployment day and begin a new complete 28-day descriptive observation period the following Pacific day. No causal search conclusion or destructive consolidation is authorized."
+    },
+    {
+      "id": "november-manuscript-refined-candidate-2026-11-14",
+      "status": "AUTHORIZED_REVIEW_CANDIDATE",
+      "authorizedBy": "Project owner adopted writing-block (33).md and EchoBuddha_Final_Publication_Manuscript_Edited_2026-11-13.docx with go with this, then asked to continue. Authorization covers finite implementation, QA and a reviewable PR; no merge, production deployment, account changes, external publishing or ad activation.",
+      "authorizedOn": "2026-11-14",
+      "baselineSha": "b1772552dd7a36a91dfb3b817ec623d93fb5f77a",
+      "baselineEvidence": "docs/audits/editorial-implementation-2026-11-13/CANDIDATE_REFINEMENT_BASELINE.json",
+      "baselineEvidenceSha256": "a50676e2fd4b26f40eb7e2d20bb04cde18b1d94a0ae0b211f6a82843603c8a89",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Four independently useful indexable candidates, ten noindex reflection additions, two noindex quote additions, fifteen learning repairs/source aids, five differentiated quote narratives, nine concrete article scenarios, full hub/navigation coverage and stable UTC reflection selection. Twenty in-scope maintenance findings reviewed; twenty-three protected learning routes and eleven excluded findings remain unchanged. Final QA refinements add distinct project-authored media and print grouping, improve long-title and guidance placement, preserve disabled-scripting affordances and update the patience example’s source boundary.",
+      "newIndexableRoutes": [
+        "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+        "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+        "/learn/buddhist-dictionary/vedana/",
+        "/articles/appreciative-joy-when-comparison-hurts/"
+      ],
+      "newNoindexPermalinks": [
+        "/daily-reflections/let-someone-help/",
+        "/daily-reflections/name-the-person-who-helped/",
+        "/daily-reflections/before-forwarding-a-claim/",
+        "/daily-reflections/another-persons-good-news/",
+        "/daily-reflections/change-your-mind-clearly/",
+        "/daily-reflections/a-promise-needs-an-answer/",
+        "/daily-reflections/leave-room-for-the-unfamiliar/",
+        "/daily-reflections/accept-a-correction/",
+        "/daily-reflections/notice-the-neutral-moment/",
+        "/daily-reflections/finish-the-practice-and-return/",
+        "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+        "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/"
+      ],
+      "approvedApplicationFiles": {
+        "public/images/articles/appreciative-joy-when-comparison-hurts-1x1.webp": "5526481e07564bd3dc3b3cd987f0b57651d7dfdf35f77c233c01c44f19774a77",
+        "public/images/articles/appreciative-joy-when-comparison-hurts-480.avif": "6bec7445b10eede7e58f0919fda7ee36db0d6deda5d703d5f2985d86fb344ea0",
+        "public/images/articles/appreciative-joy-when-comparison-hurts-480.webp": "7c6bef048daae891a7c14606edd8511dfb76450b8b45c2b95f24544590a183cf",
+        "public/images/articles/appreciative-joy-when-comparison-hurts-4x3.webp": "c35d7b616a7ea808ea89d8606f23cb01ae39365c34e87daa905ee3c9093b26de",
+        "public/images/articles/appreciative-joy-when-comparison-hurts-800.avif": "ec8c42efdd7f5042640b1aa8327852ba2254c94833659ae801460a2e3f54ab8f",
+        "public/images/articles/appreciative-joy-when-comparison-hurts-800.webp": "7b0cd9c943b471f65edfc934617882d71b77577bb9e6d0a529b83044d880277f",
+        "public/images/articles/appreciative-joy-when-comparison-hurts.avif": "bcda635b267bf69da0153bf6d47121134c1d557404f5a9bbd766eb94872d1147",
+        "public/images/articles/appreciative-joy-when-comparison-hurts.svg": "a1acb05e0b49fe381893e2f2a3c1828159788aa841629567c713cec59135ee80",
+        "public/images/articles/appreciative-joy-when-comparison-hurts.webp": "3a4486e4ca2cf0c077018feaa45625289b3cd3f575d748b4b442ddf2c6f1bb19",
+        "src/components/ArticleCard.astro": "55f34270854bf7f71fe923c0f0492cfedc92ffaf0ac9eecd0c6fb1765b66d04e",
+        "src/data/dailyReflections.ts": "f123ceec3159a8901930121401eb34e8f82862ac801512814a5acc0df3387e59",
+        "src/data/editorialGovernance.ts": "93bb34c2ebcac8b50653742867d55065073028e858347fa46a323342566b83bd",
+        "src/data/learn.ts": "8b2376f70e2c57fc4045760b90e008967f423bc489571bf33524aa4415d44af8",
+        "src/data/monetization-route-registry.mjs": "57721ac69e8a98ea08e90f55bc67ba42e2703002b406fcb3ebabf8f9fb20a314",
+        "src/data/novemberEdition.ts": "644520bc0f1df76683b73a1107417c8b5300f7c4a3c5ced0eea5bfd11e0f1cc8",
+        "src/data/quoteApplications.ts": "c4b7f288937f12bb1360dc79e3da9d3904eb36b7181f2a12bae5d4dbc21903a1",
+        "src/data/site.ts": "627268b9014a9f67d8789fdb5e2fb71b11213a15123ab605d80f0efb47f53f56",
+        "src/data/sourceStudyNotes.ts": "e1715130f65c167f80649d14fd30c5be885f5ab1636c847de36a4c5990b364ae",
+        "src/pages/articles/[slug].astro": "42589568bbbb31b77714c6cc7f683072b9c0adcb3eaf4a3bddae51162e916fe7",
+        "src/pages/articles/index.astro": "13ea96e17fe3c352115f104374330b50104a60d9f038c58e7b3bdead4ff3aeaa",
+        "src/pages/daily-reflections/[slug].astro": "3ac7bed277aa932534d72179e69feea352c0e53143b0ac9420c29667d92bfa10",
+        "src/pages/daily-reflections/index.astro": "4a277b717560c9b05e64b675705a4b43904f38e5a2ebd8f027dd9e5caacfad3c",
+        "src/pages/daily-reflections/today.astro": "81fef6c1cf3f9be84605fe09aa6819b49b1f514a1ea0c76b45006f54a0b4ea7f",
+        "src/pages/index.astro": "c3d5013bbfc9cae769c91ca78819637761cee16d06f102ecff201845ea3171db",
+        "src/pages/learn/[section]/[slug].astro": "70badc104106066f5fb59bd5286935e9740d5e230734e4a3e5918b9c7742b6a4",
+        "src/pages/learn/[section]/index.astro": "a2ad54db5608b12c52744bad14d1d0f41c132228d7aac5ee1200ded81ce50fc0",
+        "src/pages/learn/buddhist-resources.astro": "ded2cb335017861d9be64ed37c7bfe280e7314f9880b3d15ee5f8fcbf82fe92e",
+        "src/pages/learn/index.astro": "774e93d1edea831b6bb365f81508ca5b27d233b296675f2e6fbbcf0ca32fe646",
+        "src/pages/meditation/index.astro": "c7e593736fd35f547dd7e4a43e8a249d756970a2c66970f35d3532fa28b54c89",
+        "src/pages/mindful-living.astro": "024986b9d3621e319f5fb3c6a00eee67d3a68000a35b8d16dbccdecf9b320700",
+        "src/pages/quotes.astro": "1d13bc03719e9fa46b7bc1a901e61447227640349d9e1e2f33634180f3d7b255",
+        "src/pages/quotes/[category]/[story].astro": "70cf629afe316eb01ec816b1568404357f40f97fda5e5d9f62715ec2772e1af5",
+        "src/pages/search-index.json.ts": "bfafaa25d754d0e5e4b27d83912957d2dad31211bdb0ff8564837c23295348b5",
+        "src/pages/search.astro": "8a595c68e17a0779ba1b7d7b81d204caed0b1505a21f0ed61ac635f3f0abff03",
+        "src/pages/sitemap.xml.ts": "8b255c358ed17c77a4ac2ae43d54017fba1b0e970128bbc3f74c29403bc5304e",
+        "src/pages/start-here.astro": "fb41963a211f07b0bd7372fca173ca40d84c097a46f1c1401a295de033912ed9",
+        "src/pages/tools.astro": "ed224c8710f9f7b1e73e37d2f09208081dc2c1ae8f32c34adb2bbd1cbf599723",
+        "src/utils/reflectionSchedule.mjs": "163e6b6e791efd2d996ae50ed09f2450792942c427f926c4c7fe11094faf62b7"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/novemberEdition.ts",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "fafbb7b88a04cbd64bf31011e1f1678b4a402f868fc3455f05c8368f7e88f6a6"
+        },
+        {
+          "file": "src/data/site.ts",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "7a57defea5f0c87fc2326f57e15eee13b58ef8c293a8903d518309daa29830f0"
+        },
+        {
+          "file": "src/data/sourceStudyNotes.ts",
+          "interventionId": "production-transformation-2026-10-23",
+          "previousSha256": "cff706217f72d45738ae29452106023ca47a74f9171b4a5a6e83bd3024240580"
+        },
+        {
+          "file": "src/pages/articles/[slug].astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "b47aa124edf4cbe11ce68537d15fa8bc354dc4d80197cdcdaca77cd7deb8f28e"
+        },
+        {
+          "file": "src/pages/articles/index.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "e688414542c1e39d94b88d29f839e425fa82213028d7c8a9ade63d43d4554469"
+        },
+        {
+          "file": "src/pages/daily-reflections/index.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "31ae68dfdb4396f6a385cf302a04d26fdff5cc2e3f16265807668406f855c4bd"
+        },
+        {
+          "file": "src/pages/daily-reflections/today.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "7963099ce5bad4e2f641d9c84cb61bf7571e582dee245473744eec990d421be1"
+        },
+        {
+          "file": "src/pages/learn/[section]/[slug].astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "98a9bf9dab9ee67fc7ea30c928b6ebaaa8c6665473c941b0f2a7ab34f183f696"
+        },
+        {
+          "file": "src/pages/learn/[section]/index.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "0409e0fe1d3434e4d24fd2d4fc593c6ad938bdf0641aac9adbec472f68e87ffc"
+        },
+        {
+          "file": "src/pages/learn/buddhist-resources.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "5469a4584897182d74cab48f343aa3a24a4b6ffc20113407cb5eecfffe610755"
+        },
+        {
+          "file": "src/pages/learn/index.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "9b3ce8741ad4d5c79f8ac923af6db192b87e12508f9cc04674af215c081b78fd"
+        },
+        {
+          "file": "src/pages/meditation/index.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "e7d864e3ba0db966f74088a20c347084ffe69d9abf6465905be7211e307b1fff"
+        },
+        {
+          "file": "src/pages/mindful-living.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "e692b4ce5481a95e4dc5546c8b56b90ce9c3f0645e772329fbed8c9210d5469f"
+        },
+        {
+          "file": "src/pages/quotes/[category]/[story].astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "0dbbdf8f57b7475156f8f4c021f7db628dc9c474879600c7bd47da3a63d95d39"
+        },
+        {
+          "file": "src/pages/search.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "43443fa997d6bb5fcb7009292645596e61282c51026673002f4c12a9750a71fb"
+        },
+        {
+          "file": "src/pages/tools.astro",
+          "interventionId": "november-manuscript-candidate-2026-11-14",
+          "previousSha256": "806027e511e066b16027a0f6a144febef1e6dda11a17a263530ad2de09d5dedf"
+        }
+      ],
+      "measurementImpact": "Candidate only, not deployed. If separately authorized and deployed, append the actual exact-SHA receipt, exclude its Pacific deployment day and begin a new complete 28-day descriptive observation period the following Pacific day. No causal search conclusion or destructive consolidation is authorized."
+    },
+    {
+      "id": "november-manuscript-final-fragment-fix-2026-11-14",
+      "status": "AUTHORIZED_REVIEW_CANDIDATE",
+      "authorizedBy": "Project owner adopted writing-block (33).md and EchoBuddha_Final_Publication_Manuscript_Edited_2026-11-13.docx with go with this, then asked to continue. Authorization covers finite implementation, QA and a reviewable PR; no merge, production deployment, account changes, external publishing or ad activation.",
+      "authorizedOn": "2026-11-14",
+      "baselineSha": "b1772552dd7a36a91dfb3b817ec623d93fb5f77a",
+      "baselineEvidence": "docs/audits/editorial-implementation-2026-11-13/FINAL_FRAGMENT_FIX_BASELINE.json",
+      "baselineEvidenceSha256": "015a508c895139b074bcd4b8136e1abe974b085298b67508ef036904c6509fd2",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Align the optional article FAQ navigation link with the presence of its target. No content, date, privacy, advertising or protected-library change.",
+      "approvedApplicationFiles": {
+        "src/pages/articles/[slug].astro": "3f5ed09dca8660f7a8f0677d6a360d16238e928eaec0f3fcf7d68470a48cb825"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/pages/articles/[slug].astro",
+          "interventionId": "november-manuscript-refined-candidate-2026-11-14",
+          "previousSha256": "42589568bbbb31b77714c6cc7f683072b9c0adcb3eaf4a3bddae51162e916fe7"
+        }
+      ],
+      "measurementImpact": "Candidate only, not deployed. If separately authorized and deployed, append the actual exact-SHA receipt, exclude its Pacific deployment day and begin a new complete 28-day descriptive observation period the following Pacific day. No causal search conclusion or destructive consolidation is authorized."
     }
   ]
 }

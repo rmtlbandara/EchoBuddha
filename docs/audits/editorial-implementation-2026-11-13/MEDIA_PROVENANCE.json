@@ -1,0 +1,62 @@
+{
+  "authorship": "Original code-authored Echo Buddha editorial diagram, created in this implementation. No stock, remotely downloaded artwork, source translation or documentary photograph.",
+  "source": "public/images/articles/appreciative-joy-when-comparison-hurts.svg",
+  "generator": "scripts/generate-appreciative-joy-image.mjs",
+  "dependency": "Existing pinned/transitive sharp installation; no dependency changes.",
+  "purpose": "Distinguish another person’s good news from one’s unmet hope; the article develops the distinction in accessible text.",
+  "disclosure": "SVG title/description, the visible diagram footer and the image alternative identify it as an original editorial reading aid; no scriptural quotation is claimed.",
+  "licensing": "Project-authored source geometry and wording under existing repository/project ownership; no claim to clear unrelated historical media.",
+  "existingMedia": "All pre-existing assets retained byte-for-byte. October 27 per-asset entitlement evidence gaps remain historical and are not recertified.",
+  "assets": [
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-1x1.webp",
+      "bytes": 31128,
+      "sha256": "5526481e07564bd3dc3b3cd987f0b57651d7dfdf35f77c233c01c44f19774a77"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-480.avif",
+      "bytes": 6110,
+      "sha256": "6bec7445b10eede7e58f0919fda7ee36db0d6deda5d703d5f2985d86fb344ea0"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-480.webp",
+      "bytes": 9798,
+      "sha256": "7c6bef048daae891a7c14606edd8511dfb76450b8b45c2b95f24544590a183cf"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-4x3.webp",
+      "bytes": 30922,
+      "sha256": "c35d7b616a7ea808ea89d8606f23cb01ae39365c34e87daa905ee3c9093b26de"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-800.avif",
+      "bytes": 11392,
+      "sha256": "ec8c42efdd7f5042640b1aa8327852ba2254c94833659ae801460a2e3f54ab8f"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-800.webp",
+      "bytes": 18276,
+      "sha256": "7b0cd9c943b471f65edfc934617882d71b77577bb9e6d0a529b83044d880277f"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts.avif",
+      "bytes": 17022,
+      "sha256": "bcda635b267bf69da0153bf6d47121134c1d557404f5a9bbd766eb94872d1147"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts.svg",
+      "bytes": 1622,
+      "sha256": "a1acb05e0b49fe381893e2f2a3c1828159788aa841629567c713cec59135ee80"
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts.webp",
+      "bytes": 29688,
+      "sha256": "3a4486e4ca2cf0c077018feaa45625289b3cd3f575d748b4b442ddf2c6f1bb19"
+    }
+  ],
+  "preExistingPublicFiles": {
+    "total": 470,
+    "unchanged": 470,
+    "changed": []
+  }
+}

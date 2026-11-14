@@ -10,6 +10,16 @@ export type QuoteApplication = {
 };
 
 export const QUOTE_APPLICATIONS: Record<string, QuoteApplication> = {
+  "You can give someone time and still tell them when an answer is needed.": {
+  "interpretation": "Giving time can coexist with a clearly communicated limit. Neither person should have to guess when a decision is needed.",
+  "application": "Patience does not erase a deadline. State the time honestly and leave room for a response.",
+  "question": "Have you explained the deadline, or only expected the other person to know it?"
+},
+  "Uncertainty belongs in the answer when the evidence is incomplete.": {
+  "interpretation": "Honesty includes the limits of knowledge. Naming uncertainty helps someone judge how much weight an answer deserves.",
+  "application": "Do not fill a gap in knowledge with confidence. Say what you know, what you suspect and what you would need to check.",
+  "question": "What part of your answer needs a qualification before someone relies on it?"
+},
   "A peaceful mind begins with one honest breath.": {
     interpretation: "An honest breath is the ordinary breath you can notice, even when you feel unsettled; peacefulness is an invitation, not a promised result.",
     application: "Before reopening a worrying message, notice one natural exhale without making it deeper. If breath attention feels uncomfortable, look around the room and feel your feet instead.",

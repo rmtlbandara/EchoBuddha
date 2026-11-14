@@ -1,0 +1,1399 @@
+
+> echo-buddha@1.0.0 validate:release
+> npm run validate:rc && node scripts/validate-phase-8.mjs && node scripts/validate-phase-9.mjs && node scripts/validate-phase-10.mjs && npm run audit:phase11 && npm run audit:phase12 && npm run audit:phase13 && npm run audit:dependencies
+
+
+> echo-buddha@1.0.0 validate:rc
+> npm run build && npm run generate:phase1:intent && npm run audit:phase1:intent && npm run audit:phase2:measurement:rc && npm run audit:images && npm run typecheck && npm run lint && npm test && npm run audit:seo && npm run audit:content && npm run audit:quotes && npm run audit:trust && npm run audit:historical-boundaries
+
+
+> echo-buddha@1.0.0 prebuild
+> node scripts/block-legacy-cloudflare-production-build.mjs
+
+
+> echo-buddha@1.0.0 build
+> node scripts/build-with-indexnow.mjs
+
+08:02:28 [types] Generated 56ms
+08:02:28 [build] output: "static"
+08:02:28 [build] mode: "static"
+08:02:28 [build] directory: /Users/tharindu/Documents/EB-editorial-2026-11-13/dist/
+08:02:28 [build] Collecting build info...
+08:02:28 [build] ✓ Completed in 103ms.
+08:02:29 [build] Building static entrypoints...
+08:02:29 [vite] ✓ built in 351ms
+08:02:29 [vite] ✓ built in 449ms
+08:02:29 [build] Rearranging server assets...
+
+ generating static routes 
+08:02:29   ├─ /404.html (+11ms) 
+08:02:29   ├─ /about/index.html (+4ms) 
+08:02:29   ├─ /articles/category/buddhist-wisdom/index.html (+9ms) 
+08:02:29   ├─ /articles/category/meditation/index.html (+4ms) 
+08:02:29   ├─ /articles/category/mindfulness/index.html (+3ms) 
+08:02:29   ├─ /articles/category/reflection/index.html (+3ms) 
+08:02:29   ├─ /articles/category/practice/index.html (+3ms) 
+08:02:29   ├─ /articles/mindful-email-and-texting/index.html (+6ms) 
+08:02:29   ├─ /articles/compassion-with-boundaries/index.html (+4ms) 
+08:02:29   ├─ /articles/dhamma-vs-dharma/index.html (+3ms) 
+08:02:30   ├─ /articles/visiting-a-buddhist-temple-respectfully/index.html (+3ms) 
+08:02:30   ├─ /articles/first-week-buddhist-practice/index.html (+3ms) 
+08:02:30   ├─ /articles/non-attachment-in-relationships/index.html (+2ms) 
+08:02:30   ├─ /articles/right-speech-examples/index.html (+2ms) 
+08:02:30   ├─ /articles/dhammapada-verse-1-meaning/index.html (+2ms) 
+08:02:30   ├─ /articles/three-poisons-buddhism-explained/index.html (+3ms) 
+08:02:30   ├─ /articles/equanimity-in-buddhism/index.html (+2ms) 
+08:02:30   ├─ /articles/five-precepts-in-daily-life/index.html (+3ms) 
+08:02:30   ├─ /articles/right-livelihood-modern-life/index.html (+2ms) 
+08:02:30   ├─ /articles/what-is-sangha-buddhist-community/index.html (+3ms) 
+08:02:30   ├─ /articles/buddhist-gratitude-practice/index.html (+2ms) 
+08:02:30   ├─ /articles/what-is-buddhism-beginner-guide/index.html (+2ms) 
+08:02:30   ├─ /articles/four-noble-truths-explained-simply/index.html (+2ms) 
+08:02:30   ├─ /articles/noble-eightfold-path-practical-guide/index.html (+2ms) 
+08:02:30   ├─ /articles/impermanence-in-buddhism-letting-go/index.html (+2ms) 
+08:02:30   ├─ /articles/compassion-in-buddhism-beginner-guide/index.html (+2ms) 
+08:02:30   ├─ /articles/how-to-meditate-for-beginners/index.html (+2ms) 
+08:02:30   ├─ /articles/mindfulness-of-breathing-guide/index.html (+2ms) 
+08:02:30   ├─ /articles/loving-kindness-meditation-guide/index.html (+2ms) 
+08:02:30   ├─ /articles/dhammapada-reflection-what-we-think/index.html (+2ms) 
+08:02:30   ├─ /articles/dhammapada-reflection-trained-mind/index.html (+2ms) 
+08:02:30   ├─ /articles/eightfold-path-explained/index.html (+2ms) 
+08:02:30   ├─ /articles/how-to-let-go-of-attachment-in-buddhism/index.html (+3ms) 
+08:02:30   ├─ /articles/right-speech-buddhism/index.html (+3ms) 
+08:02:30   ├─ /articles/buddhist-wisdom-for-overthinking/index.html (+2ms) 
+08:02:30   ├─ /articles/impermanence-in-buddhism/index.html (+2ms) 
+08:02:30   ├─ /articles/what-is-karma-in-buddhism/index.html (+2ms) 
+08:02:30   ├─ /articles/four-noble-truths-explained/index.html (+2ms) 
+08:02:30   ├─ /articles/mindfulness-vs-meditation/index.html (+2ms) 
+08:02:30   ├─ /articles/buddhist-teachings-on-forgiveness/index.html (+2ms) 
+08:02:30   ├─ /articles/metta-meditation-script/index.html (+2ms) 
+08:02:30   ├─ /articles/buddhism-for-beginners-simple-guide/index.html (+2ms) 
+08:02:30   ├─ /articles/how-to-meditate-for-anxiety/index.html (+2ms) 
+08:02:30   ├─ /articles/loving-kindness-meditation-beginners/index.html (+2ms) 
+08:02:30   ├─ /articles/eightfold-path-explained-daily-life/index.html (+2ms) 
+08:02:30   ├─ /articles/mindfulness-morning-routine/index.html (+3ms) 
+08:02:30   ├─ /articles/buddhist-teachings-on-impermanence/index.html (+2ms) 
+08:02:30   ├─ /articles/walking-meditation-step-by-step/index.html (+2ms) 
+08:02:30   ├─ /articles/buddhist-approach-to-anger/index.html (+2ms) 
+08:02:30   ├─ /articles/mindfulness-for-better-sleep/index.html (+2ms) 
+08:02:30   ├─ /articles/beginning-a-daily-mindfulness-practice/index.html (+2ms) 
+08:02:30   ├─ /articles/compassion-as-a-daily-discipline/index.html (+2ms) 
+08:02:30   ├─ /articles/three-ways-to-practice-patience/index.html (+2ms) 
+08:02:30   ├─ /articles/mindful-listening-in-everyday-life/index.html (+2ms) 
+08:02:30   ├─ /articles/creating-a-peaceful-corner-at-home/index.html (+2ms) 
+08:02:30   ├─ /articles/appreciative-joy-when-comparison-hurts/index.html (+2ms) 
+08:02:30   ├─ /articles/index.html (+11ms) 
+08:02:30   ├─ /authors/echo-buddha-editorial/index.html (+4ms) 
+08:02:30   ├─ /buddhist-sources-and-citations/index.html (+2ms) 
+08:02:30   ├─ /contact/index.html (+2ms) 
+08:02:30   ├─ /corrections/index.html (+2ms) 
+08:02:30   ├─ /daily-reflections/today/index.html (+3ms) 
+08:02:30   ├─ /daily-reflections/patience-before-anger-speaks/index.html (+2ms) 
+08:02:30   ├─ /daily-reflections/one-honest-breath/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/kindness-with-boundaries/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/impermanence-softens-clinging/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/listen-before-answering/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/small-actions-shape-the-mind/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/let-the-feeling-pass/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/begin-again-without-shame/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/notice-before-fixing/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/compassion-begins-nearby/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/one-step-on-the-path/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/gratitude-notices-enough/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/anger-as-a-signal/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/letting-go-keeps-care/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/soften-the-inner-argument/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/metta-for-a-difficult-person/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/thoughts-are-visitors/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/speech-can-reduce-suffering/index.html (+2ms) 
+08:02:30   ├─ /daily-reflections/walking-as-practice/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/see-the-conditions/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/morning-intention/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/rest-without-escape/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/forgiveness-without-approval/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/enough-for-this-moment/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/the-first-truth-is-kind/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/mindful-work/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/family-patience/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/simple-goodwill/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/evening-release/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/gratitude-for-change/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/let-someone-help/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/name-the-person-who-helped/index.html (+2ms) 
+08:02:30   ├─ /daily-reflections/before-forwarding-a-claim/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/another-persons-good-news/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/change-your-mind-clearly/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/a-promise-needs-an-answer/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/leave-room-for-the-unfamiliar/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/accept-a-correction/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/notice-the-neutral-moment/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/finish-the-practice-and-return/index.html (+1ms) 
+08:02:30   ├─ /daily-reflections/index.html (+3ms) 
+08:02:30   ├─ /disclaimer/index.html (+2ms) 
+08:02:30   ├─ /editorial-policy/index.html (+2ms) 
+08:02:30   ├─ /how-echo-buddha-creates-content/index.html (+2ms) 
+08:02:30   ├─ /learn/buddhism-for-beginners/index.html (+2ms) 
+08:02:30   ├─ /learn/buddhist-handbook/buddha-as-refuge/index.html (+2ms) 
+08:02:30   ├─ /learn/buddhist-handbook/dhamma-as-refuge/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/sangha-as-refuge/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/taking-refuge-triple-gem/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/forms-of-refuge-theravada/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/refuge-devas-buddhist-practice/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/respecting-triple-gem/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/lay-sangha-relationship/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/becoming-a-lay-buddhist/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/qualities-of-a-lay-buddhist/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/practicing-for-yourself-and-others/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/households-sangha-accountability/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-handbook/index.html (+3ms) 
+08:02:30   ├─ /learn/buddhist-resources/index.html (+2ms) 
+08:02:30   ├─ /learn/eightfold-path/index.html (+4ms) 
+08:02:30   ├─ /learn/four-noble-truths/index.html (+3ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/did-buddha-order-buddha-images/index.html (+2ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/respecting-buddha-after-parinibbana/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/index.html (+2ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/appatimo-and-buddha-images/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/when-did-buddha-statues-first-appear/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/which-cetiya-gives-more-merit/index.html (+1ms) 
+08:02:30   ├─ /learn/questions-about-buddhism/index.html (+2ms) 
+08:02:30   ├─ /learn/buddhism-101/who-was-the-buddha/index.html (+2ms) 
+08:02:30   ├─ /learn/buddhism-101/what-is-buddhism/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/the-three-jewels-explained/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/the-four-noble-truths-explained/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/the-noble-eightfold-path-explained/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/five-precepts-buddhism/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/three-marks-of-existence/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/what-is-karma-in-buddhism/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/dependent-origination-explained/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/five-aggregates-buddhism/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/what-is-impermanence/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/what-is-mindfulness/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/right-livelihood-buddhism/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/how-to-practice-buddhism-at-home/index.html (+3ms) 
+08:02:30   ├─ /learn/buddhism-101/a-simple-daily-buddhist-practice/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/middle-way-explained-for-beginners/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/threefold-training-sila-samadhi-panna/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/five-hindrances-in-buddhism/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/four-brahmaviharas/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/anicca/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/dukkha/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/anatta/index.html (+2ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/metta/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/karuna/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/sati/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/karma/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/dhamma/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/sangha/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/nirvana/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/mindfulness/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/compassion/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/sutta/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/pali-canon/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/vedana/index.html (+1ms) 
+08:02:30   ├─ /learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/index.html (+1ms) 
+08:02:30   ├─ /learn/dhammapada-reflections/the-mind-leads-all-things/index.html (+1ms) 
+08:02:30   ├─ /learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/index.html (+1ms) 
+08:02:30   ├─ /learn/dhammapada-reflections/better-than-a-thousand-empty-words/index.html (+1ms) 
+08:02:30   ├─ /learn/dhammapada-reflections/peace-comes-from-a-trained-mind/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/right-speech-in-daily-life/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/buddhas-teaching-on-patience/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/five-remembrances-an-5-57/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/two-arrows-sn-36-6/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhism-101/index.html (+1ms) 
+08:02:30   ├─ /learn/buddhist-dictionary/index.html (+1ms) 
+08:02:30   ├─ /learn/dhammapada-reflections/index.html (+1ms) 
+08:02:30   ├─ /learn/sutta-for-daily-life/index.html (+1ms) 
+08:02:30   ├─ /learn/index.html (+2ms) 
+08:02:30   ├─ /meditation/meditation-for-beginners/index.html (+2ms) 
+08:02:30   ├─ /meditation/breathing-meditation/index.html (+1ms) 
+08:02:30   ├─ /meditation/loving-kindness-meditation/index.html (+1ms) 
+08:02:30   ├─ /meditation/walking-meditation/index.html (+1ms) 
+08:02:30   ├─ /meditation/mindfulness-in-daily-life/index.html (+1ms) 
+08:02:30   ├─ /meditation/5-minute-meditation-practice/index.html (+1ms) 
+08:02:30   ├─ /meditation/10-minute-meditation-practice/index.html (+1ms) 
+08:02:30   ├─ /meditation/meditation-posture-for-beginners/index.html (+1ms) 
+08:02:30   ├─ /meditation/when-meditation-feels-hard/index.html (+2ms) 
+08:02:30   ├─ /meditation/index.html (+2ms) 
+08:02:30   ├─ /meditation-guide/index.html (+2ms) 
+08:02:30   ├─ /meditation-safety/index.html (+2ms) 
+08:02:30   ├─ /mindful-living/index.html (+4ms) 
+08:02:30   ├─ /privacy-policy/index.html (+2ms) 
+08:02:30   ├─ /quote-attribution-policy/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/index.html (+3ms) 
+08:02:30   ├─ /quotes/compassion/let-kindness-be-the-echo-you-leave-in-every/index.html (+2ms) 
+08:02:30   ├─ /quotes/patience/when-anger-rises-pause-long-enough-to-see-the/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/small-acts-of-attention-can-turn-an-ordinary-day/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/the-path-is-not-far-away-it-is-the/index.html (+2ms) 
+08:02:30   ├─ /quotes/letting-go/you-do-not-need-to-carry-every-thought-that/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/compassion-grows-where-judgment-loosens-its-grip/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/silence-is-not-empty-when-the-heart-is-listening/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/begin-again-gently-the-breath-is-always-willing/index.html (+2ms) 
+08:02:30   ├─ /quotes/wisdom/wisdom-is-the-art-of-meeting-life-without-adding/index.html (+2ms) 
+08:02:30   ├─ /quotes/mindfulness/return-to-the-breath-before-you-return-to-the/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/peace-grows-when-attention-stops-running-ahead-of-the/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/notice-what-is-here-before-deciding-what-it-means/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/one-mindful-pause-can-change-the-direction-of-an/index.html (+2ms) 
+08:02:30   ├─ /quotes/mindfulness/the-present-moment-asks-for-your-attention-not-your/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/awareness-begins-when-hurry-loosens-its-hold/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/listen-to-the-moment-before-filling-it-with-your/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/a-wandering-mind-is-not-a-failed-mind-it/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/give-one-ordinary-task-the-dignity-of-your-full/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/the-more-clearly-you-notice-life-the-less-carelessly/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/kindness-does-not-need-an-audience-to-become-meaningful/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/before-judging-another-life-remember-how-much-of-your/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/a-gentle-response-can-end-suffering-that-anger-would/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/compassion-asks-what-hurts-before-it-asks-who-is/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/offer-others-the-patience-you-hope-to-receive-on/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/to-understand-someone-is-not-to-excuse-harm-it/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/the-heart-becomes-spacious-each-time-it-chooses-care/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/small-kindnesses-often-reach-places-that-advice-cannot/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/let-your-boundaries-be-clear-and-your-heart-remain/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/when-you-cannot-remove-anothers-burden-do-not-add/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/patience-is-the-strength-to-remain-present-while-life/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/not-every-delay-is-an-obstacle-some-are-invitations/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/wait-long-enough-for-the-first-reaction-to-become/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/growth-is-quiet-work-often-invisible-until-the-season/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/be-patient-with-the-part-of-you-that-is/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/a-difficult-moment-becomes-heavier-when-we-demand-that/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/patience-makes-room-for-truth-to-arrive-without-force/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/the-path-unfolds-at-the-pace-of-sincere-practice/index.html (+2ms) 
+08:02:30   ├─ /quotes/patience/some-answers-become-clear-only-after-the-mind-stops/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/stay-gentle-with-beginnings-they-are-carrying-more-than/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/letting-go-begins-by-admitting-how-tightly-you-are/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/release-the-need-to-replay-what-can-no-longer/index.html (+2ms) 
+08:02:30   ├─ /quotes/letting-go/you-can-honor-the-past-without-asking-it-to/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/an-open-hand-can-care-for-what-a-clenched/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/peace-enters-when-control-is-no-longer-the-price/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/release-the-outcome-but-keep-the-care-you-bring/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/what-leaves-your-life-may-still-leave-wisdom-behind/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/you-do-not-betray-a-memory-by-allowing-yourself/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/let-the-feeling-pass-through-without-building-it-a/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/freedom-often-sounds-like-the-quiet-end-of-an/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/meditation-is-not-leaving-life-it-is-learning-how/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/sit-without-demanding-silence-and-the-mind-will-teach/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/the-cushion-is-a-place-to-practice-returning-not/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/follow-the-breath-lightly-as-you-would-listen-to/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/a-short-sincere-practice-can-steady-a-long-and/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/when-stillness-feels-impossible-begin-by-noticing-the-restlessness/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/every-return-from-distraction-strengthens-the-path-home/index.html (+2ms) 
+08:02:30   ├─ /quotes/meditation/do-not-search-meditation-for-a-special-self-notice/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/sit-with-the-day-as-it-is-before-asking/index.html (+2ms) 
+08:02:30   ├─ /quotes/meditation/the-bell-fades-but-careful-listening-can-continue/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/wisdom-sees-the-whole-fire-not-only-the-spark/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/a-clear-mind-can-hold-two-truths-without-rushing/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/knowing-when-not-to-speak-is-also-a-form/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/the-lesson-repeats-until-attention-replaces-habit/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/what-feels-urgent-is-not-always-what-matters-most/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/wisdom-is-less-interested-in-winning-than-in-ending/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/see-the-conditions-behind-an-action-and-blame-may/index.html (+2ms) 
+08:02:30   ├─ /quotes/wisdom/a-useful-truth-is-carried-with-humility-not-used/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/learn-from-discomfort-without-turning-suffering-into-an-identity/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/the-wise-heart-changes-course-when-clearer-seeing-arrives/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/everything-changes-including-the-part-of-you-that-fears/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/the-fading-flower-does-not-make-its-blooming-less/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/because-this-moment-will-pass-meet-it-while-it/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/change-takes-nothing-personally-it-simply-continues/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/todays-certainty-may-become-tomorrows-lesson-in-humility/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/the-passing-of-joy-teaches-gratitude-the-passing-of/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/no-season-is-asked-to-remain-in-order-to/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/hold-each-day-carefully-knowing-it-cannot-be-held/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/what-changes-is-not-always-lost-sometimes-it-is/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/acceptance-begins-where-the-argument-with-change-ends/index.html (+2ms) 
+08:02:30   ├─ /quotes/practice/walk-slowly-enough-to-notice-where-your-life-is/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/practice-becomes-real-when-it-enters-your-speech-and/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/the-smallest-wholesome-action-is-larger-than-the-finest/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/do-not-wait-to-feel-ready-before-choosing-what/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/your-next-response-is-always-part-of-the-path/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/a-peaceful-life-is-built-from-peaceful-moments-practiced/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/bring-the-teaching-into-the-place-where-you-are/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/daily-practice-turns-understanding-from-an-idea-into-a/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/begin-with-what-is-possible-then-return-tomorrow/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/the-path-is-shaped-by-what-you-repeat-when/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/anger-asks-for-speed-awareness-asks-for-one-more/index.html (+2ms) 
+08:02:30   ├─ /quotes/awareness/name-the-feeling-gently-and-it-may-stop-speaking/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/the-body-often-knows-you-are-overwhelmed-before-the/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/awareness-does-not-remove-the-storm-it-keeps-you/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/look-beneath-the-reaction-and-you-may-find-a/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/what-you-can-observe-clearly-no-longer-controls-you/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/feelings-are-honest-about-their-presence-not-always-about/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/notice-the-habit-before-trying-to-become-someone-without/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/when-the-mind-tightens-let-the-body-be-your/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/clear-seeing-begins-with-the-courage-to-stop-looking/index.html (+2ms) 
+08:02:30   ├─ /quotes/renewal/begin-again-without-turning-yesterday-into-a-sentence/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/a-new-direction-can-start-with-one-different-choice/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/the-path-welcomes-your-return-more-often-than-pride/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/you-are-allowed-to-learn-slowly-and-still-be/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/morning-is-not-the-only-time-a-life-can/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/repair-what-you-can-forgive-what-you-cannot-redo/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/a-mistake-becomes-a-teacher-when-honesty-enters-the/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/do-not-confuse-an-old-pattern-with-an-unchangeable/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/hope-can-be-quiet-and-still-keep-walking/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/each-conscious-breath-is-a-small-vote-for-beginning/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/begin-the-day-with-awareness/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/one-honest-breath/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/peace-begins-with-attention/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/thoughts-pass-without-commanding-you/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/meditation-is-returning/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/few-quiet-minutes/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/loving-kindness-without-harm/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/compassion-sees-pain-clearly/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/gentle-self-compassion/index.html (+1ms) 
+08:02:30   ├─ /quotes/compassion/kindness-as-quiet-practice/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/patience-softens-the-wait/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/one-breath-before-anger-replies/index.html (+2ms) 
+08:02:30   ├─ /quotes/letting-go/forgiveness-without-approving-harm/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/caring-without-clinging/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/open-hands-non-attachment/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/change-is-how-life-continues/index.html (+1ms) 
+08:02:30   ├─ /quotes/impermanence/meet-change-softly/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/acceptance-before-next-step/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/karma-begins-in-intention/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/right-speech-with-kindness/index.html (+2ms) 
+08:02:30   ├─ /quotes/wisdom/wise-silence/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/listen-before-answering/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/thoughts-are-visitors/index.html (+2ms) 
+08:02:30   ├─ /quotes/mindfulness/ground-yourself-gently/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/soften-around-stress/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/one-calm-morning-intention/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/evening-release-reflection/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/gratitude-notices-enough/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/simplicity-clears-the-room/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/contentment-with-what-is-here/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/wisdom-sees-clearly/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/right-intention-turns-the-heart/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/eightfold-path-daily-choices/index.html (+2ms) 
+08:02:30   ├─ /quotes/wisdom/understanding-suffering-honestly/index.html (+2ms) 
+08:02:30   ├─ /quotes/letting-go/where-attachment-begins/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/begin-again-without-shame/index.html (+1ms) 
+08:02:30   ├─ /quotes/renewal/gentle-hope-keeps-walking/index.html (+1ms) 
+08:02:30   ├─ /quotes/awareness/feelings-without-the-wheel/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/mindfulness-at-work-breath/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/family-kindness-and-patience/index.html (+1ms) 
+08:02:30   ├─ /quotes/wisdom/difficult-people-and-boundaries/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/present-moment-one-step/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/small-actions-shape-the-mind/index.html (+2ms) 
+08:02:30   ├─ /quotes/patience/you-can-give-someone-time-and-still-tell-them/index.html (+4ms) 
+08:02:30   ├─ /quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/index.html (+1ms) 
+08:02:30   ├─ /quotes/mindfulness/index.html (+2ms) 
+08:02:30   ├─ /quotes/compassion/index.html (+1ms) 
+08:02:30   ├─ /quotes/patience/index.html (+2ms) 
+08:02:30   ├─ /quotes/awareness/index.html (+1ms) 
+08:02:30   ├─ /quotes/practice/index.html (+1ms) 
+08:02:30   ├─ /quotes/letting-go/index.html (+1ms) 
+08:02:30   ├─ /quotes/meditation/index.html (+2ms) 
+08:02:30   ├─ /quotes/renewal/index.html (+2ms) 
+08:02:30   ├─ /quotes/wisdom/index.html (+2ms) 
+08:02:30   ├─ /quotes/impermanence/index.html (+2ms) 
+08:02:30   ├─ /quotes/index.html (+4ms) 
+08:02:30   ├─ /search/index.html (+2ms) 
+08:02:30   ├─ /search-index.json (+19ms) 
+08:02:30   ├─ /sitemap.xml (+4ms) 
+08:02:30   ├─ /start-here/index.html (+3ms) 
+08:02:30   ├─ /terms-of-use/index.html (+2ms) 
+08:02:30   ├─ /tools/index.html (+3ms) 
+08:02:30   ├─ /index.html (+3ms) 
+08:02:30 ✓ Completed in 670ms.
+
+08:02:30 [build] ✓ Completed in 1.51s.
+08:02:30 [build] 373 page(s) built in 1.80s
+08:02:30 [build] Complete!
+IndexNow proof and manifest built for 175 sitemap URLs.
+
+> echo-buddha@1.0.0 generate:phase1:intent
+> node --experimental-strip-types scripts/generate-phase-1-resolve-strengthen-protect.mjs
+
+Generated Phase 1 evidence for 175 indexable URLs and 44 priority routes.
+
+> echo-buddha@1.0.0 audit:phase1:intent
+> node scripts/validate-phase-1-resolve-strengthen-protect.mjs
+
+PASS Sitemap URLs are unique: 175 entries; 175 unique
+PASS Registry covers the complete sitemap: 175 registry records; 175 sitemap URLs
+PASS On-site search exclusions match the intentional route policy: 352 search records; 19 intentionally excluded navigation/policy routes
+PASS Six protected clusters are registered: 6 clusters; 44 priority URLs
+PASS Each protected cluster has one broad owner: Buddhism for Beginners: 1; Impermanence / Anicca: 1; Noble Eightfold Path: 1; Four Noble Truths: 1; Beginner Meditation: 1; Loving-kindness / Mettā: 1
+PASS Every sitemap route has rendered HTML: 175/175
+PASS Indexable routes remain self-canonical: 175 self-canonicals
+PASS Sitemap contains no noindex routes: 0 noindex conflicts
+PASS Every indexable page has one visible H1: 175 pages with H1
+PASS Indexable titles are unique: 0 duplicate title groups
+PASS Indexable descriptions are unique: 0 duplicate description groups
+PASS Priority support pages link to their declared owner: 44 priority relationships verified
+PASS Rendered internal links resolve: 0 broken internal hrefs
+PASS Rendered internal fragments resolve: 0 broken internal fragments
+PASS Obsolete FAQPage schema is absent: Visible FAQs remain; 0 FAQPage objects in indexable output
+PASS Obsolete HowTo schema is absent: Visible meditation steps remain; 0 HowTo objects in indexable output
+PASS Changed articles retain Article and breadcrumb schema: 13 article schema pairs verified
+PASS Changed articles retain visible reader FAQs: 13 visible FAQ sections verified
+PASS Explicitly numbered headings avoid duplicate TOC markers: Numbered Eightfold Path review headings use the already-numbered class
+PASS Changed articles do not duplicate long substantive paragraphs: 0 duplicated substantive paragraphs of 300+ characters
+PASS Changed pages retain named source context: 13 source-review rows
+PASS Growth protections remain non-destructive: 0 redirects; 0 noindex changes; 0 cross-page canonical changes
+Phase 1 validation passed: 22/22 checks.
+
+> echo-buddha@1.0.0 audit:phase2:measurement:rc
+> node scripts/validate-phase-2-measurement.mjs --local-release-candidate
+
+PASS Required Phase 2 outputs exist: 29/29 required outputs
+PASS Phase 1 main baseline is pinned: 53125d0be7f2eb517f5992c50e20c4b8c85389d6
+PASS Production content baseline is pinned: db1da81b19bc5291829cdafd475645d79c6025f5
+PASS Independent production baseline record matches Phase 1: 53125d0be7f2eb517f5992c50e20c4b8c85389d6 / db1da81b19bc5291829cdafd475645d79c6025f5
+PASS Live baseline smoke and monitored artifact parity passed: 19/19
+PASS Historical October 4 snapshot records zero later material releases at capture time: 0
+PASS Release dependency audit has zero known vulnerabilities: {"critical":0,"high":0,"moderate":0,"low":0,"total":0}
+PASS Pre window is exact: 2026-08-31..2026-09-27
+PASS Transition day is excluded: 2026-09-28
+PASS Post window is exact: 2026-09-29..2026-10-26
+PASS Finalization buffer is preserved: 2026-10-29
+PASS All watchlist URLs have decisions: 13/13
+PASS Watchlist URLs are unique: 13 unique
+PASS Watchlist roles and owners match Phase 1: 13 owner relationships checked
+PASS Decision classes are valid: HOLD_MORE_DATA
+PASS Incomplete evidence forces measurement mode: PHASE_2_MEASUREMENT_ACTIVE — CONSOLIDATION HOLD
+PASS Incomplete evidence forces all watchlist decisions to HOLD_MORE_DATA: 13/13
+PASS No implementation artifacts are populated before the gate: consolidations=0; redirects=0; salvage=0; links=0
+PASS All six governed clusters are present: 6/6
+PASS Query × page report covers every watchlist URL: 13/13
+PASS Inspection register covers watchlist and owners: 19 monitored URLs
+PASS All six Phase 1 owners are protected during observation: 6/6
+PASS Raw authenticated evidence is explicitly non-committed: false
+PASS Detailed derived evidence remains in the ignored artifact area: .artifacts/phase2-gsc/derived
+PASS Private derived dataset manifest is complete: 11 derived files
+PASS Search Console limitations are recorded: 5 limitations
+PASS Privacy and canonical aggregation limits are explicit: required limitations found
+PASS Private CSV evidence directory is ignored: docs/audits/phase-2-measurement-2026-09-29/private-evidence
+PASS Private derived evidence directory is ignored: .artifacts/phase2-gsc/derived
+PASS Raw/detailed query datasets are not emitted into the committed audit directory: none
+PASS No obvious credential/token file is tracked: none
+PASS Historical baselines and explicitly superseded current candidate hashes match: 102 files
+PASS Authorized early intervention prevents clean-window decisions: governance/measurement-interventions.json
+PASS Release candidate matches the explicitly approved file scope: 102 reviewed files; baseline preserved and destructive consolidation held
+PASS Package command exists: collect:phase2:gsc: node scripts/collect-phase-2-gsc.mjs
+PASS Package command exists: generate:phase2:measurement: node scripts/generate-phase-2-measurement.mjs
+PASS Package command exists: audit:phase2:measurement: node scripts/validate-phase-2-measurement.mjs
+PASS Package command exists: generate:phase2:decisions: node scripts/generate-phase-2-measurement.mjs --decisions
+PASS Package command exists: audit:phase2:decisions: node scripts/validate-phase-2-measurement.mjs --decisions
+PASS All private-import templates exist: 10/10
+
+> echo-buddha@1.0.0 audit:images
+> node scripts/audit-article-images.mjs
+
+Article image audit passed for 49 unique article identities and 392 generated assets.
+
+> echo-buddha@1.0.0 typecheck
+> astro sync && tsc --noEmit
+
+08:02:33 [types] Generated 69ms
+
+> echo-buddha@1.0.0 lint
+> node scripts/lint-governance.mjs
+
+Governance lint passed.
+
+> echo-buddha@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# GetUserSites: HTTP 200
+# GetFeeds: HTTP 200
+# GetRankAndTrafficStats: HTTP 200
+# GetCrawlStats: HTTP 200
+# GetUserSites: HTTP 200
+# GetFeeds: HTTP 200
+# GetRankAndTrafficStats: HTTP 200
+# GetCrawlStats: HTTP 200
+# Subtest: Bing reporting uses only approved JSON read methods and excludes credentials and foreign sites
+ok 1 - Bing reporting uses only approved JSON read methods and excludes credentials and foreign sites
+  ---
+  duration_ms: 7.945458
+  type: 'test'
+  ...
+# Subtest: optional exact-URL diagnostics use the read endpoint and export only public crawl fields
+ok 2 - optional exact-URL diagnostics use the read endpoint and export only public crawl fields
+  ---
+  duration_ms: 2.27125
+  type: 'test'
+  ...
+# Subtest: controlled Buddhist question collection contains exactly nine complete, unique records
+ok 3 - controlled Buddhist question collection contains exactly nine complete, unique records
+  ---
+  duration_ms: 8.198958
+  type: 'test'
+  ...
+# Subtest: only the nine explicitly approved public question detail routes are generated
+ok 4 - only the nine explicitly approved public question detail routes are generated
+  ---
+  duration_ms: 0.864917
+  type: 'test'
+  ...
+# Subtest: question navigation is the exact bounded Q1-to-Q9 chain
+ok 5 - question navigation is the exact bounded Q1-to-Q9 chain
+  ---
+  duration_ms: 0.413459
+  type: 'test'
+  ...
+# Subtest: all nine question pages resolve with truthful dates, canonical Article metadata, and exact navigation
+ok 6 - all nine question pages resolve with truthful dates, canonical Article metadata, and exact navigation
+  ---
+  duration_ms: 8.927375
+  type: 'test'
+  ...
+# Subtest: question takeaways and short answers render trusted inline emphasis instead of escaped HTML
+ok 7 - question takeaways and short answers render trusted inline emphasis instead of escaped HTML
+  ---
+  duration_ms: 0.550083
+  type: 'test'
+  ...
+# Subtest: hub, internal search, and sitemap discover all nine question pages exactly once
+ok 8 - hub, internal search, and sitemap discover all nine question pages exactly once
+  ---
+  duration_ms: 7.225208
+  type: 'test'
+  ...
+# Subtest: homepage uses one representative question as a compact gateway in the intended journey position
+ok 9 - homepage uses one representative question as a compact gateway in the intended journey position
+  ---
+  duration_ms: 0.64225
+  type: 'test'
+  ...
+# Subtest: all nine question routes remain conservative Learn-detail monetization holds
+ok 10 - all nine question routes remain conservative Learn-detail monetization holds
+  ---
+  duration_ms: 0.189125
+  type: 'test'
+  ...
+# Subtest: blocks the legacy Cloudflare production branch
+ok 11 - blocks the legacy Cloudflare production branch
+  ---
+  duration_ms: 76.872042
+  type: 'test'
+  ...
+# Subtest: fails closed when Workers Builds omits its branch
+ok 12 - fails closed when Workers Builds omits its branch
+  ---
+  duration_ms: 67.143708
+  type: 'test'
+  ...
+# Subtest: allows previews and governed builds
+ok 13 - allows previews and governed builds
+  ---
+  duration_ms: 132.216166
+  type: 'test'
+  ...
+# Subtest: quote origin diagnostics extract actual declarations without inventing an original classification
+ok 14 - quote origin diagnostics extract actual declarations without inventing an original classification
+  ---
+  duration_ms: 2.724458
+  type: 'test'
+  ...
+# Subtest: metadata extraction retains apostrophes and supports either quote and attribute order
+ok 15 - metadata extraction retains apostrophes and supports either quote and attribute order
+  ---
+  duration_ms: 0.815166
+  type: 'test'
+  ...
+# Subtest: link extraction ignores scripts, styles, comments and attribute-contained fake anchors
+ok 16 - link extraction ignores scripts, styles, comments and attribute-contained fake anchors
+  ---
+  duration_ms: 0.384458
+  type: 'test'
+  ...
+# Subtest: noindex and source-link presence cannot certify editorial quality
+ok 17 - noindex and source-link presence cannot certify editorial quality
+  ---
+  duration_ms: 0.206917
+  type: 'test'
+  ...
+# Subtest: reader-content diagnostics exclude site chrome and retain text after 500 tokens
+ok 18 - reader-content diagnostics exclude site chrome and retain text after 500 tokens
+  ---
+  duration_ms: 1.011166
+  type: 'test'
+  ...
+# Subtest: role maps and original attribution cannot automatically resolve similarity
+ok 19 - role maps and original attribution cannot automatically resolve similarity
+  ---
+  duration_ms: 0.247041
+  type: 'test'
+  ...
+# Subtest: paragraph review records all affected URLs without inflating within-page repeats
+ok 20 - paragraph review records all affected URLs without inflating within-page repeats
+  ---
+  duration_ms: 0.727958
+  type: 'test'
+  ...
+# Subtest: analytics requires affirmative consent and advertising storage remains denied
+ok 21 - analytics requires affirmative consent and advertising storage remains denied
+  ---
+  duration_ms: 2.94625
+  type: 'test'
+  ...
+# Subtest: AdSense uses no-network verification and the runtime script is absent from every built page
+ok 22 - AdSense uses no-network verification and the runtime script is absent from every built page
+  ---
+  duration_ms: 187.313291
+  type: 'test'
+  ...
+# Subtest: required validation scripts are present
+ok 23 - required validation scripts are present
+  ---
+  duration_ms: 0.304292
+  type: 'test'
+  ...
+# Subtest: release validation uses current approval-aware gates while retaining historical snapshot checks
+ok 24 - release validation uses current approval-aware gates while retaining historical snapshot checks
+  ---
+  duration_ms: 0.563334
+  type: 'test'
+  ...
+# Subtest: robots manifest and security headers are source-controlled
+ok 25 - robots manifest and security headers are source-controlled
+  ---
+  duration_ms: 0.587708
+  type: 'test'
+  ...
+# Subtest: sitemap output aligns with canonical site when built
+ok 26 - sitemap output aligns with canonical site when built
+  ---
+  duration_ms: 0.36225
+  type: 'test'
+  ...
+# Subtest: Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval
+ok 27 - Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval
+  ---
+  duration_ms: 4.847542
+  type: 'test'
+  ...
+# Subtest: content remediation governance assets remain present
+ok 28 - content remediation governance assets remain present
+  ---
+  duration_ms: 0.456917
+  type: 'test'
+  ...
+# Subtest: one public contact address covers publisher and website inquiries
+ok 29 - one public contact address covers publisher and website inquiries
+  ---
+  duration_ms: 3053.919541
+  type: 'test'
+  ...
+# Subtest: handbook contains twelve substantial, unique, source-aware chapters in two complete parts
+ok 30 - handbook contains twelve substantial, unique, source-aware chapters in two complete parts
+  ---
+  duration_ms: 6.513917
+  type: 'test'
+  ...
+# Subtest: handbook generates one hub and exactly twelve canonical article routes
+ok 31 - handbook generates one hub and exactly twelve canonical article routes
+  ---
+  duration_ms: 7.861625
+  type: 'test'
+  ...
+# Subtest: home, Learn, search, and sitemap discover the complete handbook without duplication
+ok 32 - home, Learn, search, and sitemap discover the complete handbook without duplication
+  ---
+  duration_ms: 7.572625
+  type: 'test'
+  ...
+# Subtest: handbook monetization remains fail-closed
+ok 33 - handbook monetization remains fail-closed
+  ---
+  duration_ms: 0.505084
+  type: 'test'
+  ...
+# Subtest: coverage and asset evidence are complete
+ok 34 - coverage and asset evidence are complete
+  ---
+  duration_ms: 4.335542
+  type: 'test'
+  ...
+# Subtest: homepage communicates a descriptive purpose with one H1 and eight ordered sections
+ok 35 - homepage communicates a descriptive purpose with one H1 and eight ordered sections
+  ---
+  duration_ms: 1.106209
+  type: 'test'
+  ...
+# Subtest: homepage metadata, canonical, indexability, and schema stay minimal and accurate
+ok 36 - homepage metadata, canonical, indexability, and schema stay minimal and accurate
+  ---
+  duration_ms: 1.469375
+  type: 'test'
+  ...
+# Subtest: global footer exposes accessible branded icons in the requested platform order
+ok 37 - global footer exposes accessible branded icons in the requested platform order
+  ---
+  duration_ms: 0.904083
+  type: 'test'
+  ...
+# Subtest: publisher structured data uses the corrected canonical social identities without duplicates
+ok 38 - publisher structured data uses the corrected canonical social identities without duplicates
+  ---
+  duration_ms: 0.217333
+  type: 'test'
+  ...
+# Subtest: homepage uses editorially curated guides rather than publication-date sorting
+ok 39 - homepage uses editorially curated guides rather than publication-date sorting
+  ---
+  duration_ms: 0.653709
+  type: 'test'
+  ...
+# Subtest: homepage links are non-empty, crawlable, resolvable, and aligned with index policy
+ok 40 - homepage links are non-empty, crawlable, resolvable, and aligned with index policy
+  ---
+  duration_ms: 1.277292
+  type: 'test'
+  ...
+# Subtest: homepage preserves the AdSense verification-only firewall and valid images
+ok 41 - homepage preserves the AdSense verification-only firewall and valid images
+  ---
+  duration_ms: 0.655708
+  type: 'test'
+  ...
+# Subtest: build publishes proof and hashes only canonical, indexable sitemap HTML
+ok 42 - build publishes proof and hashes only canonical, indexable sitemap HTML
+  ---
+  duration_ms: 8.245917
+  type: 'test'
+  ...
+# Subtest: sitemap validation rejects external, duplicate, query and traversal URLs
+ok 43 - sitemap validation rejects external, duplicate, query and traversal URLs
+  ---
+  duration_ms: 1.441416
+  type: 'test'
+  ...
+# Subtest: plans bootstrap, unchanged releases, additions, updates and removals
+ok 44 - plans bootstrap, unchanged releases, additions, updates and removals
+  ---
+  duration_ms: 1.365166
+  type: 'test'
+  ...
+# Subtest: only a missing production manifest bootstraps; server failures stop planning
+ok 45 - only a missing production manifest bootstraps; server failures stop planning
+  ---
+  duration_ms: 20.410875
+  type: 'test'
+  ...
+# Subtest: submission checks live proof and release, and distinguishes 202 from success
+ok 46 - submission checks live proof and release, and distinguishes 202 from success
+  ---
+  duration_ms: 14.22775
+  type: 'test'
+  ...
+# Subtest: failed key, stale release, sitemap drift, redirects and noindex prevent all POSTs
+ok 47 - failed key, stale release, sitemap drift, redirects and noindex prevent all POSTs
+  ---
+  duration_ms: 9.349625
+  type: 'test'
+  ...
+# Subtest: transient prior manifests retry reads and submit once only after exact equality
+ok 48 - transient prior manifests retry reads and submit once only after exact equality
+  ---
+  duration_ms: 1.621375
+  type: 'test'
+  ...
+# Subtest: a permanently different release exhausts bounded verification without any submission
+ok 49 - a permanently different release exhausts bounded verification without any submission
+  ---
+  duration_ms: 5.513166
+  type: 'test'
+  ...
+# Subtest: removed URLs require a live removal, exclusion or permanent redirect
+ok 50 - removed URLs require a live removal, exclusion or permanent redirect
+  ---
+  duration_ms: 5.651042
+  type: 'test'
+  ...
+# Subtest: no-change plans perform no requests; endpoint failures are reported
+ok 51 - no-change plans perform no requests; endpoint failures are reported
+  ---
+  duration_ms: 11.71425
+  type: 'test'
+  ...
+# Subtest: workflow plans before deploy and submits only after production smoke
+ok 52 - workflow plans before deploy and submits only after production smoke
+  ---
+  duration_ms: 21.114291
+  type: 'test'
+  ...
+# Subtest: explicit per-file supersession preserves historical records and checks current content
+ok 53 - explicit per-file supersession preserves historical records and checks current content
+  ---
+  duration_ms: 2.396083
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects unapproved supersession
+ok 54 - intervention validation rejects unapproved supersession
+  ---
+  duration_ms: 0.740792
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects changed historical record
+ok 55 - intervention validation rejects changed historical record
+  ---
+  duration_ms: 0.186542
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects changed historical baseline
+ok 56 - intervention validation rejects changed historical baseline
+  ---
+  duration_ms: 0.134625
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects unapproved candidate edit
+ok 57 - intervention validation rejects unapproved candidate edit
+  ---
+  duration_ms: 0.513666
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects unapproved policy edit
+ok 58 - intervention validation rejects unapproved policy edit
+  ---
+  duration_ms: 0.202292
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects deleted protected route
+ok 59 - intervention validation rejects deleted protected route
+  ---
+  duration_ms: 0.357708
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects changed route declaration
+ok 60 - intervention validation rejects changed route declaration
+  ---
+  duration_ms: 0.283875
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects canonical change
+ok 61 - intervention validation rejects canonical change
+  ---
+  duration_ms: 0.866375
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects index-state change
+ok 62 - intervention validation rejects index-state change
+  ---
+  duration_ms: 2.678
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects owner change
+ok 63 - intervention validation rejects owner change
+  ---
+  duration_ms: 0.437417
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects missing authorization
+ok 64 - intervention validation rejects missing authorization
+  ---
+  duration_ms: 0.189917
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects future or cyclic supersession
+ok 65 - intervention validation rejects future or cyclic supersession
+  ---
+  duration_ms: 0.158834
+  type: 'test'
+  ...
+# Subtest: future finalized rows cannot bypass the review date, missing data, or a real intervention
+ok 66 - future finalized rows cannot bypass the review date, missing data, or a real intervention
+  ---
+  duration_ms: 1.203875
+  type: 'test'
+  ...
+# Subtest: November candidate preserves every protected library body and its metadata
+ok 67 - November candidate preserves every protected library body and its metadata
+  ---
+  duration_ms: 22.436833
+  type: 'test'
+  ...
+# Subtest: November inventory adds only the accepted finite routes and preserves existing index/canonical state
+ok 68 - November inventory adds only the accepted finite routes and preserves existing index/canonical state
+  ---
+  duration_ms: 261.799791
+  type: 'test'
+  ...
+# Subtest: Unknown publication history stays absent while substantive candidate dates remain truthful
+ok 69 - Unknown publication history stays absent while substantive candidate dates remain truthful
+  ---
+  duration_ms: 2.214291
+  type: 'test'
+  ...
+# Subtest: New content keeps its source/application boundary and never publishes internal instructions
+ok 70 - New content keeps its source/application boundary and never publishes internal instructions
+  ---
+  duration_ms: 123.084084
+  type: 'test'
+  ...
+# Subtest: Editorial expansion preserves privacy, security and the disabled advertising runtime
+ok 71 - Editorial expansion preserves privacy, security and the disabled advertising runtime
+  ---
+  duration_ms: 181.418041
+  type: 'test'
+  ...
+# Subtest: Phase 2 clean windows are exactly 28 days and exclude the transition date
+ok 72 - Phase 2 clean windows are exactly 28 days and exclude the transition date
+  ---
+  duration_ms: 1.81525
+  type: 'test'
+  ...
+# Subtest: all 13 watchlist URLs map to one of six declared owners
+ok 73 - all 13 watchlist URLs map to one of six declared owners
+  ---
+  duration_ms: 0.240459
+  type: 'test'
+  ...
+# Subtest: query families normalize explicit broad variants but preserve unmapped raw meaning
+ok 74 - query families normalize explicit broad variants but preserve unmapped raw meaning
+  ---
+  duration_ms: 2.375834
+  type: 'test'
+  ...
+# Subtest: metric aggregation weights average position by impressions
+ok 75 - metric aggregation weights average position by impressions
+  ---
+  duration_ms: 0.243334
+  type: 'test'
+  ...
+# Subtest: canonical URLs normalize to repository routes
+ok 76 - canonical URLs normalize to repository routes
+  ---
+  duration_ms: 0.182834
+  type: 'test'
+  ...
+# Subtest: Phase 10 measurement evidence preserves aggregate and privacy boundaries
+ok 77 - Phase 10 measurement evidence preserves aggregate and privacy boundaries
+  ---
+  duration_ms: 2.47825
+  type: 'test'
+  ...
+# Subtest: Phase 10 protects every route and records zero production remediation
+ok 78 - Phase 10 protects every route and records zero production remediation
+  ---
+  duration_ms: 2.881125
+  type: 'test'
+  ...
+# Subtest: complete current HTML inventory has exactly one conservative registry state
+ok 79 - complete current HTML inventory has exactly one conservative registry state
+  ---
+  duration_ms: 49.36375
+  type: 'test'
+  ...
+# Subtest: eligible candidates are an explicit seven-page reviewed set
+ok 80 - eligible candidates are an explicit seven-page reviewed set
+  ---
+  duration_ms: 1.159959
+  type: 'test'
+  ...
+# Subtest: missing metadata, noindex, unknown, malformed, and external routes fail closed
+ok 81 - missing metadata, noindex, unknown, malformed, and external routes fail closed
+  ---
+  duration_ms: 0.399791
+  type: 'test'
+  ...
+# Subtest: required matrix routes remain never-monetize or manual-review holds
+ok 82 - required matrix routes remain never-monetize or manual-review holds
+  ---
+  duration_ms: 0.241208
+  type: 'test'
+  ...
+# Subtest: page and placement gates are independent and protected zones are denied
+ok 83 - page and placement gates are independent and protected zones are denied
+  ---
+  duration_ms: 0.391417
+  type: 'test'
+  ...
+# Subtest: all global delivery gates and Auto Ads stay off
+ok 84 - all global delivery gates and Auto Ads stay off
+  ---
+  duration_ms: 0.992584
+  type: 'test'
+  ...
+# Subtest: technical resources are not treated as HTML monetization inventory
+ok 85 - technical resources are not treated as HTML monetization inventory
+  ---
+  duration_ms: 0.412917
+  type: 'test'
+  ...
+# Subtest: built output has verification only: zero ad requests, units, and empty ad placeholders
+ok 86 - built output has verification only: zero ad requests, units, and empty ad placeholders
+  ---
+  duration_ms: 270.515708
+  type: 'test'
+  ...
+# Subtest: templates contain no distributed ad placements or direct AdSense snippets
+ok 87 - templates contain no distributed ad placements or direct AdSense snippets
+  ---
+  duration_ms: 28.29925
+  type: 'test'
+  ...
+# Subtest: Phase 9 workflows parse, use least privilege, and pin every action
+ok 88 - Phase 9 workflows parse, use least privilege, and pin every action
+  ---
+  duration_ms: 13.177292
+  type: 'test'
+  ...
+# Subtest: production deployment is manual, exact-SHA, build-once, serialized, and environment gated
+ok 89 - production deployment is manual, exact-SHA, build-once, serialized, and environment gated
+  ---
+  duration_ms: 23.785292
+  type: 'test'
+  ...
+# Subtest: production smoke applies every approved route addition and contraction
+ok 90 - production smoke applies every approved route addition and contraction
+  ---
+  duration_ms: 0.364667
+  type: 'test'
+  ...
+# Subtest: rollback requires an explicit version ID and confirmation
+ok 91 - rollback requires an explicit version ID and confirmation
+  ---
+  duration_ms: 4.909792
+  type: 'test'
+  ...
+# Subtest: AdSense runtime and implicit analytics consent remain disabled
+ok 92 - AdSense runtime and implicit analytics consent remain disabled
+  ---
+  duration_ms: 0.6995
+  type: 'test'
+  ...
+# Subtest: release governance files and owner approval registers exist
+ok 93 - release governance files and owner approval registers exist
+  ---
+  duration_ms: 0.687083
+  type: 'test'
+  ...
+# Subtest: deployment identity retries the preceding SHA and a transient response, then requires the exact target
+ok 94 - deployment identity retries the preceding SHA and a transient response, then requires the exact target
+  ---
+  duration_ms: 53.702375
+  type: 'test'
+  ...
+# Subtest: deployment identity keeps a strict failure after the bounded wait
+ok 95 - deployment identity keeps a strict failure after the bounded wait
+  ---
+  duration_ms: 3.586167
+  type: 'test'
+  ...
+# Subtest: malformed identity fails without retries and routine monitoring observes once
+ok 96 - malformed identity fails without retries and routine monitoring observes once
+  ---
+  duration_ms: 4.409
+  type: 'test'
+  ...
+# Subtest: failed newest deployment does not redefine the expected SHA, even when the attempt is serving
+ok 97 - failed newest deployment does not redefine the expected SHA, even when the attempt is serving
+  ---
+  duration_ms: 1.213542
+  type: 'test'
+  ...
+# Subtest: an active attempt is reported as a transition without accepting its SHA
+ok 98 - an active attempt is reported as a transition without accepting its SHA
+  ---
+  duration_ms: 0.501167
+  type: 'test'
+  ...
+# Subtest: independently verified activation is accepted with immutable evidence, without changing run history
+ok 99 - independently verified activation is accepted with immutable evidence, without changing run history
+  ---
+  duration_ms: 1.324292
+  type: 'test'
+  ...
+# Subtest: success evidence from an unrelated run or with no verified deployment fails closed
+ok 100 - success evidence from an unrelated run or with no verified deployment fails closed
+  ---
+  duration_ms: 0.932958
+  type: 'test'
+  ...
+# Subtest: representative source-led article reaches sitemap, search, schema and IndexNow artifact
+ok 101 - representative source-led article reaches sitemap, search, schema and IndexNow artifact
+  ---
+  duration_ms: 10.413542
+  type: 'test'
+  ...
+# Subtest: substantively revised learning pages expose their actual modification dates
+ok 102 - substantively revised learning pages expose their actual modification dates
+  ---
+  duration_ms: 12.031417
+  type: 'test'
+  ...
+# Subtest: starter meditation pages retain one complete method before their session review
+ok 103 - starter meditation pages retain one complete method before their session review
+  ---
+  duration_ms: 0.754041
+  type: 'test'
+  ...
+# Subtest: quote collections offer relevant, maintained reading paths
+ok 104 - quote collections offer relevant, maintained reading paths
+  ---
+  duration_ms: 1.973167
+  type: 'test'
+  ...
+# Subtest: every concise quote permalink has its own explicit editorial application
+ok 105 - every concise quote permalink has its own explicit editorial application
+  ---
+  duration_ms: 1.044292
+  type: 'test'
+  ...
+# Subtest: the built quote pages render the reviewed copy and preserve exclusion and date signals
+ok 106 - the built quote pages render the reviewed copy and preserve exclusion and date signals
+  ---
+  duration_ms: 73.369541
+  type: 'test'
+  ...
+# Subtest: all 2026 UTC days retain their original selection after library growth
+ok 107 - all 2026 UTC days retain their original selection after library growth
+  ---
+  duration_ms: 6.278708
+  type: 'test'
+  ...
+# Subtest: appending or reordering available records cannot reshuffle scheduled dates
+ok 108 - appending or reordering available records cannot reshuffle scheduled dates
+  ---
+  duration_ms: 18.895084
+  type: 'test'
+  ...
+# Subtest: UTC midnight and offset representations select one consistent day
+ok 109 - UTC midnight and offset representations select one consistent day
+  ---
+  duration_ms: 0.316333
+  type: 'test'
+  ...
+# Subtest: year rollover and leap day use the explicit calendar pool
+ok 110 - year rollover and leap day use the explicit calendar pool
+  ---
+  duration_ms: 0.227625
+  type: 'test'
+  ...
+# Subtest: invalid dates, empty schedules and unavailable records fail safely
+ok 111 - invalid dates, empty schedules and unavailable records fail safely
+  ---
+  duration_ms: 0.377375
+  type: 'test'
+  ...
+# Subtest: slash redirects enumerate actual HTML routes without catching assets or unknown paths
+ok 112 - slash redirects enumerate actual HTML routes without catching assets or unknown paths
+  ---
+  duration_ms: 23.201542
+  type: 'test'
+  ...
+# Subtest: unknown production paths serve the existing noindex HTML error page with a 404 status
+ok 113 - unknown production paths serve the existing noindex HTML error page with a 404 status
+  ---
+  duration_ms: 1.263709
+  type: 'test'
+  ...
+# Subtest: every rendered share image has actual raster dimensions matching its metadata
+ok 114 - every rendered share image has actual raster dimensions matching its metadata
+  ---
+  duration_ms: 146.143833
+  type: 'test'
+  ...
+# Subtest: publisher entities use one identity and accurate logo dimensions
+ok 115 - publisher entities use one identity and accurate logo dimensions
+  ---
+  duration_ms: 77.115833
+  type: 'test'
+  ...
+# Subtest: new guide dates and semantic tables match visible, non-fabricated editorial updates
+ok 116 - new guide dates and semantic tables match visible, non-fabricated editorial updates
+  ---
+  duration_ms: 2.129416
+  type: 'test'
+  ...
+1..116
+# tests 116
+# suites 0
+# pass 116
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3341.50075
+
+> echo-buddha@1.0.0 audit:seo
+> node scripts/audit-seo.mjs
+
+SEO audit passed.
+
+> echo-buddha@1.0.0 audit:content
+> node scripts/audit-content-remediation.mjs
+
+Content remediation audit passed.
+
+> echo-buddha@1.0.0 audit:quotes
+> node scripts/validate-quote-governance.mjs
+
+PASS quote identity and route uniqueness: 155 unique quote records, routes, titles, and local-search entries
+PASS fail-closed story index governance: default noindex; explicit index plus complete approval required
+PASS all current quote permalinks preserve origin, navigation and noindex contracts: 155/155 meet origin, navigation and self-canonical noindex contracts; editorial usefulness requires separate review
+PASS quote stories are excluded from sitemap but retained in local search: 0 story sitemap entries; 155/155 local-search entries
+PASS hub and ten curated categories remain protected indexable resources: 11/11 indexable, self-canonical, and in sitemap
+PASS hub and category curation is visible: hub provenance plus three-level curation across all categories
+PASS quote structured data does not fabricate scripture or reviewers: all quote JSON-LD parses; no fabricated reviewer, credential, or Buddha attribution
+Quote governance validation passed: 7/7 checks.
+
+> echo-buddha@1.0.0 audit:trust
+> node docs/audits/adsense-recovery-phase-7-2026-08-24/validate-phase-7-editorial-trust.mjs
+
+Phase 7 editorial trust validation passed: 58/58 checks; independent 25/25; SECRET_SCAN = PASS.
+
+> echo-buddha@1.0.0 audit:historical-boundaries
+> node scripts/validate-historical-snapshot-boundaries.mjs
+
+Historical snapshot boundary validation passed: frozen Phase evidence, Q1/Q2 +2, Q3/Q4 +2, Q5 +1, Q6 +1, and Q7 +1 remain intact; Q8/Q9 are an independent authorized +2; cumulative scope is exactly Q1-Q9 with no Q10+.
+Phase 8 validation passed: 17/17 checks.
+Phase 9 validation passed: 26/26 checks.
+Phase 10 validation passed: 19/19 checks.
+
+> echo-buddha@1.0.0 audit:phase11
+> node scripts/validate-phase-11.mjs && node scripts/validate-phase-11-index-hygiene.mjs
+
+PASS mandatory deliverables
+PASS 108-section primary report
+PASS route and protection coverage
+PASS indexable content coverage
+PASS Phase 0-10 reconciliation
+PASS current official policy evidence
+PASS evidence gaps are not defects
+PASS 26 indexing exceptions reconciled
+PASS 15 URL inspections and both live-test follow-ups reconciled
+PASS fresh GSC performance export reconciled without false freshness
+PASS account review-in-progress evidence
+PASS eight winners protected
+PASS readiness gates and domains
+PASS reapplication checklist
+PASS no proven P0/P1 blocker and automation closure
+PASS production unchanged and submitted review recorded
+PASS protected dist identity
+Phase 11 validation passed: 17/17 checks.
+PASS artifact ECHO_BUDDHA_PHASE_11_URL_TECHNICAL_INVENTORY.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_INDEX_STATE_CONTRACT.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_EXPECTED_GOOGLE_STATE.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_CANONICAL_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_ROBOTS_DIRECTIVES.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_SITEMAP_DIFF.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_HTTP_STATUS_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_SOFT_404_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_REDIRECT_GRAPH.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_INTERNAL_LINK_HYGIENE.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_STRUCTURED_DATA_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_RAW_RENDERED_DIFF.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_PRODUCTION_BRANCH_DIFF.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_GSC_INDEX_RECONCILIATION.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_TECHNICAL_EXCEPTIONS.csv
+PASS artifact ECHO_BUDDHA_PHASE_11_PHASE_14_VALIDATION_MAP.csv
+PASS artifact ECHO_BUDDHA_TECHNICAL_INDEX_GOVERNANCE.md
+PASS artifact ECHO_BUDDHA_PHASE_11_PHASE_12_HANDOFF.md
+PASS artifact ECHO_BUDDHA_PHASE_11_PHASE_14_HANDOFF.md
+PASS artifact ECHO_BUDDHA_PHASE_11_TECHNICAL_ROLLBACK_PLAN.md
+PASS artifact ECHO_BUDDHA_PHASE_11_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_11_INDEPENDENT_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_11_METHOD_MANIFEST.json
+PASS artifact ECHO_BUDDHA_PHASE_11_TECHNICAL_SEO_INDEX_HYGIENE_REPORT.md
+PASS artifact ECHO_BUDDHA_PHASE_11_LOCAL_HTTP_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_11_RED_TEAM_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_11_SECRET_SCAN.json
+PASS final Phase 11 status: PASS_WITH_EXPLICIT_HOLDS
+PASS complete rebuilt inventory: {"total":344,"html":335,"indexable":149,"noindex":186,"redirects":3,"removed_404":0,"removed_410":0,"technical":5,"unknown_hold":0,"temporary_redirects":1}
+PASS canonical/sitemap/link/schema invariants
+PASS full local HTTP crawl: {"status":"PASS","base_url":"http://127.0.0.1:8788","inventory_rows":344,"probes":7,"passed":351,"failed":0,"failures":[]}
+PASS rendered desktop/mobile evidence
+PASS independent validation
+PASS red-team validation
+PASS secret scan
+PASS 47-section primary report
+PASS production/Google/AdSense boundaries
+PASS GSC production provenance
+PASS Phase 10 firewall preserved
+PASS protected checkpoints remain ancestors
+Phase 11 index-hygiene validation passed: 40/40 checks.
+
+> echo-buddha@1.0.0 audit:phase12
+> node scripts/validate-phase-12-policy-redteam.mjs
+
+PASS artifact ECHO_BUDDHA_PHASE_12_POLICY_SOURCE_MANIFEST.md
+PASS artifact ECHO_BUDDHA_PHASE_12_POLICY_CORPUS.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_SEARCH_SPAM_MATRIX.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_SCALED_CONTENT_REDTEAM.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_PUBLISHER_POLICY_MATRIX.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_PUBLISHER_RESTRICTIONS_MATRIX.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_CONTENT_SAFETY_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_IP_COPYRIGHT_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_LINK_POLICY_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_CLOAKING_REDIRECT_REDTEAM.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_HIDDEN_TEXT_LINK_AUDIT.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_INVALID_TRAFFIC_READINESS.md
+PASS artifact ECHO_BUDDHA_PHASE_12_GOOGLE_ACCOUNT_EVIDENCE.md
+PASS artifact ECHO_BUDDHA_PHASE_12_REDTEAM_FINDINGS.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_PROSECUTION_CASE.md
+PASS artifact ECHO_BUDDHA_PHASE_12_DEFENSE_AND_EVIDENCE.md
+PASS artifact ECHO_BUDDHA_PHASE_12_LOW_VALUE_REJECTION_RECONSTRUCTION.md
+PASS artifact ECHO_BUDDHA_PHASE_12_PHASE_14_HANDOFF.md
+PASS artifact ECHO_BUDDHA_PHASE_12_PHASE_13_DECISION.md
+PASS artifact ECHO_BUDDHA_PHASE_12_POLICY_GOVERNANCE.md
+PASS artifact ECHO_BUDDHA_PHASE_12_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_12_INDEPENDENT_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_12_METHOD_MANIFEST.json
+PASS artifact ECHO_BUDDHA_PHASE_12_SEARCH_SPAM_PUBLISHER_POLICY_REDTEAM_REPORT.md
+PASS artifact ECHO_BUDDHA_PHASE_12_LOCAL_POLICY_HTTP_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_12_RENDERED_POLICY_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_12_RED_TEAM_VALIDATION.json
+PASS artifact ECHO_BUDDHA_PHASE_12_SECRET_SCAN.json
+PASS artifact ECHO_BUDDHA_PHASE_12_WEAKEST_INVENTORY_REVIEW.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_ELIGIBLE_CANDIDATE_REDTEAM.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_RANDOM_INVENTORY_REVIEW.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_SECOND_REVIEW_SAMPLE.csv
+PASS artifact ECHO_BUDDHA_PHASE_12_REPOSITORY_CODE_SCAN.csv
+PASS artifact source-evidence/account-and-public-observations.json
+PASS final Phase 12 status: PASS_WITH_EXPLICIT_HOLDS
+PASS Phase 11 checkpoint
+PASS complete corpus: {"total":344,"html":335,"indexable":149,"noindex":186,"eligible_candidates":7,"full_targeted_review":68,"worst_reviewed":20,"first_random_sample":20,"second_random_sample":20}
+PASS targeted and random review
+PASS GSC Manual Actions UI evidence
+PASS GSC Security Issues UI evidence
+PASS AdSense account evidence and limitation
+PASS full policy matrices
+PASS complete content/IP/link reviews
+PASS HTTP cloaking/redirect parity
+PASS rendered policy review
+PASS independent second review
+PASS 60-attack red team
+PASS no material findings
+PASS secret scan
+PASS 67-section report
+PASS Phase 13 decision
+PASS four explicit deployment/account holds
+PASS no prohibited boundary action
+PASS real ads and Auto Ads off
+PASS fail-closed policy governance
+PASS completion gates: {"local_http":"PASS_18_ROUTES_X_4_VARIANTS","rendered_browser":"PASS_19_ROUTES_PLUS_SEARCH_INJECTION","prosecution":"PASS","defense":"PASS","independent":"PASS_13_OF_13","red_team":"PASS_60_OF_60","release_validation":"PASS","secret_scan":"PASS_40_FILES_0_FINDINGS"}
+PASS protected checkpoints remain ancestors
+Phase 12 policy red-team validation passed: 57/57 checks.
+
+> echo-buddha@1.0.0 audit:phase13
+> node scripts/validate-phase-13.mjs
+
+PASS required artifacts: 6/6
+PASS Phase 12 decision honored
+PASS successful zero-expansion status
+PASS zero new indexable URLs
+PASS zero existing enhancements
+PASS independent review
+PASS 22-section report
+PASS no meaningless expansion artifacts
+PASS people-first sources
+PASS production and advertising boundaries
+PASS protected Phase 3 checkpoint
+Phase 13 validation passed: 11/11; no expansion required.
+
+> echo-buddha@1.0.0 audit:dependencies
+> node scripts/audit-dependencies.mjs
+
+Dependency audit passed: 0 critical, 0 high vulnerabilities.

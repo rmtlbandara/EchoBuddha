@@ -1,0 +1,7 @@
+
+> echo-buddha@1.0.0 audit:tools:browser
+> node scripts/validate-tools-browser.mjs
+
+chromium: tools, search, timers, keyboard, reflow, and axe PASS
+firefox: tools, search, timers, keyboard, reflow, and axe PASS
+webkit: tools, search, timers, keyboard, reflow, and axe PASS

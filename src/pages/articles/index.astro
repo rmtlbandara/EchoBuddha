@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../../data/novemberEdition";
 import Layout from "../../layouts/Layout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import { SITE, articleCategories, fullArticles } from "../../data/site";
@@ -58,6 +59,8 @@ const jsonLd = [
       </p>
     </div>
   </section>
+
+  <section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[179]}</h2><p>{EDITION_COPY[180]}</p><p>{EDITION_COPY[181]}</p></div></section>
   <section class="section section--tight">
     <div class="container article-index">
       <div data-filter-root>
@@ -125,6 +128,7 @@ const jsonLd = [
       </p>
     </div>
   </section>
+
 </Layout>
 
 <style>

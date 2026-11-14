@@ -1,0 +1,718 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-11-14T02:40:07.515Z",
+  "origin": "http://127.0.0.1:4326",
+  "baselineSha": "b1772552dd7a36a91dfb3b817ec623d93fb5f77a",
+  "routeChecks": 98,
+  "results": [
+    {
+      "width": 320,
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/let-someone-help/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/name-the-person-who-helped/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/before-forwarding-a-claim/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/another-persons-good-news/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/change-your-mind-clearly/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/a-promise-needs-an-answer/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/leave-room-for-the-unfamiliar/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/accept-a-correction/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/notice-the-neutral-moment/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/finish-the-practice-and-return/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/start-here/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhism-101/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhist-dictionary/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/dhammapada-reflections/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/sutta-for-daily-life/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhist-resources/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/meditation/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/articles/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/articles/category/practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/mindful-living/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/wisdom/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/daily-reflections/today/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/tools/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/search/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhist-dictionary/anatta/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhist-dictionary/sati/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/learn/buddhist-dictionary/nirvana/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/meditation/when-meditation-feels-hard/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/meditation/5-minute-meditation-practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/meditation/10-minute-meditation-practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/awareness/thoughts-are-visitors/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/awareness/thoughts-pass-without-commanding-you/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/compassion/kindness-as-quiet-practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/meditation/one-honest-breath/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 320,
+      "route": "/quotes/renewal/gentle-hope-keeps-walking/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/let-someone-help/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/name-the-person-who-helped/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/before-forwarding-a-claim/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/another-persons-good-news/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/change-your-mind-clearly/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/a-promise-needs-an-answer/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/leave-room-for-the-unfamiliar/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/accept-a-correction/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/notice-the-neutral-moment/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/finish-the-practice-and-return/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/patience/you-can-give-someone-time-and-still-tell-them/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/wisdom/uncertainty-belongs-in-the-answer-when-the-evidence-is/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/start-here/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhism-101/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhist-dictionary/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/dhammapada-reflections/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/sutta-for-daily-life/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhist-resources/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/meditation/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/articles/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/articles/category/practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/mindful-living/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/wisdom/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/daily-reflections/today/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/tools/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/search/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhist-dictionary/anatta/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhist-dictionary/sati/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/learn/buddhist-dictionary/nirvana/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/meditation/meditation-posture-for-beginners/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/meditation/when-meditation-feels-hard/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/meditation/5-minute-meditation-practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/meditation/10-minute-meditation-practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/awareness/thoughts-are-visitors/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/awareness/thoughts-pass-without-commanding-you/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/compassion/kindness-as-quiet-practice/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/meditation/one-honest-breath/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "route": "/quotes/renewal/gentle-hope-keeps-walking/",
+      "status": 200,
+      "horizontalOverflow": false,
+      "axeViolations": 0
+    },
+    {
+      "check": "Accented/unaccented owner discovery",
+      "pass": true
+    },
+    {
+      "check": "UTC rollover, random keyboard action and full-link parity",
+      "timezoneId": "Pacific/Kiritimati",
+      "pass": true
+    },
+    {
+      "check": "UTC rollover, random keyboard action and full-link parity",
+      "timezoneId": "America/Los_Angeles",
+      "pass": true
+    },
+    {
+      "check": "UTC rollover, random keyboard action and full-link parity",
+      "timezoneId": "Asia/Colombo",
+      "pass": true
+    },
+    {
+      "check": "No-JavaScript fallback, static topic paths and printable six-step reading aid",
+      "pass": true
+    }
+  ]
+}

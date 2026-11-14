@@ -1,0 +1,335 @@
+{
+  "baselineSha": "b1772552dd7a36a91dfb3b817ec623d93fb5f77a",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "baselineSha256": null,
+      "candidateSha256": "d2529c10115ad68dac9f2a52e2a25e1ff56a4dbbbd57a096ab3db10eaa2548e2",
+      "bytes": 3490
+    },
+    {
+      "path": "governance/indexable-page-approvals.json",
+      "baselineSha256": "680934ab916e73573137f10200e69f5e57c0fce71669f0e656a6cba7f33b8ce3",
+      "candidateSha256": "e900fbf629d9424a4077c68e2054e0fe9501b247a6545af549a36dd30de5eb87",
+      "bytes": 61751
+    },
+    {
+      "path": "governance/measurement-interventions.json",
+      "baselineSha256": "3bf8d8b2c4e837cbc99d634b8f467b8f765320b3ae0a0dfb99be8e563d645490",
+      "candidateSha256": "64ced8c767c6681de3706c6f3d7f89a80442ce854dd921713f7998b190e3e41b",
+      "bytes": 110893
+    },
+    {
+      "path": "governance/release-change-approvals.json",
+      "baselineSha256": "bfca522a96b0192d78a9f0820108ee2a95978bddfba0d68237f12912c0a1e6e7",
+      "candidateSha256": "74f8d6484f7a3ee1d7e690917f1630ddd0ad44a0ee8a8061e6d686630552b639",
+      "bytes": 21157
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-1x1.webp",
+      "baselineSha256": null,
+      "candidateSha256": "5526481e07564bd3dc3b3cd987f0b57651d7dfdf35f77c233c01c44f19774a77",
+      "bytes": 31128
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-480.avif",
+      "baselineSha256": null,
+      "candidateSha256": "6bec7445b10eede7e58f0919fda7ee36db0d6deda5d703d5f2985d86fb344ea0",
+      "bytes": 6110
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-480.webp",
+      "baselineSha256": null,
+      "candidateSha256": "7c6bef048daae891a7c14606edd8511dfb76450b8b45c2b95f24544590a183cf",
+      "bytes": 9798
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-4x3.webp",
+      "baselineSha256": null,
+      "candidateSha256": "c35d7b616a7ea808ea89d8606f23cb01ae39365c34e87daa905ee3c9093b26de",
+      "bytes": 30922
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-800.avif",
+      "baselineSha256": null,
+      "candidateSha256": "ec8c42efdd7f5042640b1aa8327852ba2254c94833659ae801460a2e3f54ab8f",
+      "bytes": 11392
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts-800.webp",
+      "baselineSha256": null,
+      "candidateSha256": "7b0cd9c943b471f65edfc934617882d71b77577bb9e6d0a529b83044d880277f",
+      "bytes": 18276
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts.avif",
+      "baselineSha256": null,
+      "candidateSha256": "bcda635b267bf69da0153bf6d47121134c1d557404f5a9bbd766eb94872d1147",
+      "bytes": 17022
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts.svg",
+      "baselineSha256": null,
+      "candidateSha256": "a1acb05e0b49fe381893e2f2a3c1828159788aa841629567c713cec59135ee80",
+      "bytes": 1622
+    },
+    {
+      "path": "public/images/articles/appreciative-joy-when-comparison-hurts.webp",
+      "baselineSha256": null,
+      "candidateSha256": "3a4486e4ca2cf0c077018feaa45625289b3cd3f575d748b4b442ddf2c6f1bb19",
+      "bytes": 29688
+    },
+    {
+      "path": "scripts/generate-appreciative-joy-image.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "f13a62d877abfb64b9b0b64780fe21f4e0fe74ffd8fd6ed2a074e5a25062c670",
+      "bytes": 2826
+    },
+    {
+      "path": "scripts/validate-november-editorial-browser.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "bbd843795d9c98a32542c0d378aa73bc3d8bcffc2c92ffe14578367b6126f3b4",
+      "bytes": 9762
+    },
+    {
+      "path": "scripts/validate-phase-8.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "c65df979a912c2c3796a0772a0999f6db94c766b0873f3655f111195a8c47656",
+      "bytes": 13890
+    },
+    {
+      "path": "scripts/validate-quote-governance.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "bcbc4e04628652ac057a8bf7cd951048fc9d6f1e5a1bdf40e4ab843595c6b2a6",
+      "bytes": 6021
+    },
+    {
+      "path": "scripts/validate-tools-browser.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "e868dc3774b578508d4015bc3d8fd7bdca801754b262cfba0b7aae4d8464c135",
+      "bytes": 10554
+    },
+    {
+      "path": "scripts/validate-topic-guides-browser.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "150e5c1f96d5d4f5ea2d456f14df8edac2af21b729c13f739ea4943c0c1ba755",
+      "bytes": 4718
+    },
+    {
+      "path": "src/components/ArticleCard.astro",
+      "baselineSha256": "5d8590db72c6b714759fd426bc0596e68a8d0ae1f35d97245be1451c8ef022e7",
+      "candidateSha256": "55f34270854bf7f71fe923c0f0492cfedc92ffaf0ac9eecd0c6fb1765b66d04e",
+      "bytes": 3767
+    },
+    {
+      "path": "src/data/dailyReflections.ts",
+      "baselineSha256": "a250993699a4de3df314fd3c9ea4ddac45875d5c3a81e5b1766a8510ebde76f8",
+      "candidateSha256": "f123ceec3159a8901930121401eb34e8f82862ac801512814a5acc0df3387e59",
+      "bytes": 36902
+    },
+    {
+      "path": "src/data/editorialGovernance.ts",
+      "baselineSha256": "89eac0f2c871e34dbb50e3d9a2f4c9fc231f26b7db647f15e096fd239bb7ae1c",
+      "candidateSha256": "93bb34c2ebcac8b50653742867d55065073028e858347fa46a323342566b83bd",
+      "bytes": 51887
+    },
+    {
+      "path": "src/data/learn.ts",
+      "baselineSha256": "57b185813766e3adda613d3dbd09007dfc6420921f2e7a2d6a1d12052c3dc127",
+      "candidateSha256": "8b2376f70e2c57fc4045760b90e008967f423bc489571bf33524aa4415d44af8",
+      "bytes": 277468
+    },
+    {
+      "path": "src/data/monetization-route-registry.mjs",
+      "baselineSha256": "87a825c14fdc6c53cfce2ab6ea8b86558c3b145eed3c33fd097ce3ae7dfa30b5",
+      "candidateSha256": "57721ac69e8a98ea08e90f55bc67ba42e2703002b406fcb3ebabf8f9fb20a314",
+      "bytes": 74163
+    },
+    {
+      "path": "src/data/novemberEdition.ts",
+      "baselineSha256": null,
+      "candidateSha256": "644520bc0f1df76683b73a1107417c8b5300f7c4a3c5ced0eea5bfd11e0f1cc8",
+      "bytes": 55974
+    },
+    {
+      "path": "src/data/quoteApplications.ts",
+      "baselineSha256": "f6efdbdb038dc635529f5322fc1a12f03b26c91b16e7630e50d3a0ac5d56b596",
+      "candidateSha256": "c4b7f288937f12bb1360dc79e3da9d3904eb36b7181f2a12bae5d4dbc21903a1",
+      "bytes": 56409
+    },
+    {
+      "path": "src/data/site.ts",
+      "baselineSha256": "9b757b2ca963d962448473cb55cd31314087e6d53a79f12be2e68c6b8ae76b11",
+      "candidateSha256": "627268b9014a9f67d8789fdb5e2fb71b11213a15123ab605d80f0efb47f53f56",
+      "bytes": 772102
+    },
+    {
+      "path": "src/data/sourceStudyNotes.ts",
+      "baselineSha256": "cff706217f72d45738ae29452106023ca47a74f9171b4a5a6e83bd3024240580",
+      "candidateSha256": "e1715130f65c167f80649d14fd30c5be885f5ab1636c847de36a4c5990b364ae",
+      "bytes": 3356
+    },
+    {
+      "path": "src/pages/articles/[slug].astro",
+      "baselineSha256": "37819bdc2c814b8e67e390f98b7356c71f1c9334d6d0d07e3bf253705e26cb09",
+      "candidateSha256": "3f5ed09dca8660f7a8f0677d6a360d16238e928eaec0f3fcf7d68470a48cb825",
+      "bytes": 39373
+    },
+    {
+      "path": "src/pages/articles/index.astro",
+      "baselineSha256": "a154f90f72e36abe36908d3c95ee71bc31d83a250298b5e16ddbe15ae2d3c51a",
+      "candidateSha256": "13ea96e17fe3c352115f104374330b50104a60d9f038c58e7b3bdead4ff3aeaa",
+      "bytes": 7233
+    },
+    {
+      "path": "src/pages/daily-reflections/[slug].astro",
+      "baselineSha256": "2025c937f12aa9e47728487c1b9d03ba0d64f713a4e4b25aa2d00afc2f339fd8",
+      "candidateSha256": "3ac7bed277aa932534d72179e69feea352c0e53143b0ac9420c29667d92bfa10",
+      "bytes": 8455
+    },
+    {
+      "path": "src/pages/daily-reflections/index.astro",
+      "baselineSha256": "4b70b6509eabb26d74933efed57c7934e627ebd90242f7a38df4bc7f33b2fc37",
+      "candidateSha256": "4a277b717560c9b05e64b675705a4b43904f38e5a2ebd8f027dd9e5caacfad3c",
+      "bytes": 8169
+    },
+    {
+      "path": "src/pages/daily-reflections/today.astro",
+      "baselineSha256": "7e841a01f36c36970bf7cea700fcf38b5ca5fefb7e6bec95c62ecee3fa7f2cf2",
+      "candidateSha256": "81fef6c1cf3f9be84605fe09aa6819b49b1f514a1ea0c76b45006f54a0b4ea7f",
+      "bytes": 8154
+    },
+    {
+      "path": "src/pages/index.astro",
+      "baselineSha256": "33a0c37b45c5593ae12f3e451b112fa7ad913842edb45c90821eea3a64201c66",
+      "candidateSha256": "c3d5013bbfc9cae769c91ca78819637761cee16d06f102ecff201845ea3171db",
+      "bytes": 18357
+    },
+    {
+      "path": "src/pages/learn/[section]/[slug].astro",
+      "baselineSha256": "d1c119809c2ef5dd7f7881dde8682a98b3a2a298a78f4fd0cb2b29f5c3bb7de3",
+      "candidateSha256": "70badc104106066f5fb59bd5286935e9740d5e230734e4a3e5918b9c7742b6a4",
+      "bytes": 11827
+    },
+    {
+      "path": "src/pages/learn/[section]/index.astro",
+      "baselineSha256": "1be51d056afdab85ea7d683b53e3dcee0a87fd1dfa55b5d7738113455b857615",
+      "candidateSha256": "a2ad54db5608b12c52744bad14d1d0f41c132228d7aac5ee1200ded81ce50fc0",
+      "bytes": 17702
+    },
+    {
+      "path": "src/pages/learn/buddhist-resources.astro",
+      "baselineSha256": "11610c2316a1cc247dd27459f8001a25180ec4fb421f32731b7c43445d3f3250",
+      "candidateSha256": "ded2cb335017861d9be64ed37c7bfe280e7314f9880b3d15ee5f8fcbf82fe92e",
+      "bytes": 7133
+    },
+    {
+      "path": "src/pages/learn/index.astro",
+      "baselineSha256": "ff994be49234bdde733710b1c964c931e0f2e672a32406c1d7a162d7c2f83c59",
+      "candidateSha256": "774e93d1edea831b6bb365f81508ca5b27d233b296675f2e6fbbcf0ca32fe646",
+      "bytes": 12382
+    },
+    {
+      "path": "src/pages/meditation/index.astro",
+      "baselineSha256": "285ca6ee25412c32f61cb2aa7e8a452bf729a26a8eb9e4fb0c8ca8daf0be0b2f",
+      "candidateSha256": "c7e593736fd35f547dd7e4a43e8a249d756970a2c66970f35d3532fa28b54c89",
+      "bytes": 7382
+    },
+    {
+      "path": "src/pages/mindful-living.astro",
+      "baselineSha256": "84a2b8fb9ed941534be317cb196933a562c3fdc9f58f87e17deb5ffba453fc8e",
+      "candidateSha256": "024986b9d3621e319f5fb3c6a00eee67d3a68000a35b8d16dbccdecf9b320700",
+      "bytes": 8036
+    },
+    {
+      "path": "src/pages/quotes.astro",
+      "baselineSha256": "06d95137207cfd2fd887afcb0ae3eb0c3e10ae32aa7ad68a64f914363e7e74de",
+      "candidateSha256": "1d13bc03719e9fa46b7bc1a901e61447227640349d9e1e2f33634180f3d7b255",
+      "bytes": 10707
+    },
+    {
+      "path": "src/pages/quotes/[category]/[story].astro",
+      "baselineSha256": "334ca9fb1a788e9c899c33b8e2deb5970481ec9b7701ea06b294d504f14cbf40",
+      "candidateSha256": "70cf629afe316eb01ec816b1568404357f40f97fda5e5d9f62715ec2772e1af5",
+      "bytes": 11312
+    },
+    {
+      "path": "src/pages/search-index.json.ts",
+      "baselineSha256": "92df6f0bc8586247696509e6b72ef22ba836dfc7b75d619a1bdea5ec5c7e9fa0",
+      "candidateSha256": "bfafaa25d754d0e5e4b27d83912957d2dad31211bdb0ff8564837c23295348b5",
+      "bytes": 22124
+    },
+    {
+      "path": "src/pages/search.astro",
+      "baselineSha256": "9d7ca549810a4cfe3daec0b7ea46487c929a73cfcc43d901f1e8fe9de2f7f109",
+      "candidateSha256": "8a595c68e17a0779ba1b7d7b81d204caed0b1505a21f0ed61ac635f3f0abff03",
+      "bytes": 6634
+    },
+    {
+      "path": "src/pages/sitemap.xml.ts",
+      "baselineSha256": "08524e45d3bf0d5add06af4389f145dc6099e35b70c5b40c71d53bb3d93688a2",
+      "candidateSha256": "8b255c358ed17c77a4ac2ae43d54017fba1b0e970128bbc3f74c29403bc5304e",
+      "bytes": 5483
+    },
+    {
+      "path": "src/pages/start-here.astro",
+      "baselineSha256": "f0d5b0516f166f3253d9d03f239e45226d4c2f94679424807176b47e327ccdc1",
+      "candidateSha256": "fb41963a211f07b0bd7372fca173ca40d84c097a46f1c1401a295de033912ed9",
+      "bytes": 8329
+    },
+    {
+      "path": "src/pages/tools.astro",
+      "baselineSha256": "c72c8ab38aef926f12d62af9c57c2af70b7ff07d56ffa41be75e78943e273d8c",
+      "candidateSha256": "ed224c8710f9f7b1e73e37d2f09208081dc2c1ae8f32c34adb2bbd1cbf599723",
+      "bytes": 23075
+    },
+    {
+      "path": "src/utils/reflectionSchedule.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "163e6b6e791efd2d996ae50ed09f2450792942c427f926c4c7fe11094faf62b7",
+      "bytes": 3551
+    },
+    {
+      "path": "tests/buddhist-questions.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "4dba10a78990d785c221bee594fe80e489ca0e0d5b9707cefdba1c56af92a827",
+      "bytes": 14925
+    },
+    {
+      "path": "tests/november-editorial-contract.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "3a7bb7413ff1c486efcad70a6086e1f139df962fc1efbb25ebfb24052c25e055",
+      "bytes": 5829
+    },
+    {
+      "path": "tests/phase10-monetization-firewall.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "b4733611b74b6acfd61928ced5e341d6c6b2f3f0078fdc32a08aacad5c1d1eca",
+      "bytes": 7319
+    },
+    {
+      "path": "tests/publishing-contract.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "e6a14faeee05de8f148c0bbb03694091d35639a6c9d65b52d548ab1571987252",
+      "bytes": 4035
+    },
+    {
+      "path": "tests/quote-applications.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "602685f7d809bffd638bfc00dfa0cdde57149f59d4e9cc491eb8a8b6b1d49106",
+      "bytes": 3153
+    },
+    {
+      "path": "tests/reflection-schedule.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "8dc4197f28f16f2822ccaf1fdedd037f0e98ea38bf01b1d1abedcfedc9a563bd",
+      "bytes": 2325
+    },
+    {
+      "path": "tests/seo-contract.test.mjs",
+      "baselineSha256": null,
+      "candidateSha256": "2513801faa75f1d86ce8618f34ea63af0db088c76be5977091643d6f91f103c2",
+      "bytes": 4736
+    }
+  ]
+}

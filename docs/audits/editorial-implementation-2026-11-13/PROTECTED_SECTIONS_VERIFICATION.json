@@ -1,0 +1,301 @@
+[
+  {
+    "route": "/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "bd1e922adddadfd8316ff19fd0d1d2fe1646ef916cb4810be949417745d9f640",
+    "after": "bd1e922adddadfd8316ff19fd0d1d2fe1646ef916cb4810be949417745d9f640"
+  },
+  {
+    "route": "/learn/buddhist-handbook/buddha-as-refuge/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "ca2c834fdcc2e1d8805fc160e0b962dbbbd69ae278000d6a9444c7c9aa3954b4",
+    "after": "ca2c834fdcc2e1d8805fc160e0b962dbbbd69ae278000d6a9444c7c9aa3954b4"
+  },
+  {
+    "route": "/learn/buddhist-handbook/dhamma-as-refuge/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "7cd12c487b419595b580ae803aee883020cfcb637c3f3c5077d39dd822126011",
+    "after": "7cd12c487b419595b580ae803aee883020cfcb637c3f3c5077d39dd822126011"
+  },
+  {
+    "route": "/learn/buddhist-handbook/forms-of-refuge-theravada/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "03300d6c5fd3bf632a51f0388ad671b8435bd751e33fc23e5da7a7a6ca691301",
+    "after": "03300d6c5fd3bf632a51f0388ad671b8435bd751e33fc23e5da7a7a6ca691301"
+  },
+  {
+    "route": "/learn/buddhist-handbook/households-sangha-accountability/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "a3d0dfcb4accac8a5e47735557b82bf968982fec87d049171030761f570e1c2d",
+    "after": "a3d0dfcb4accac8a5e47735557b82bf968982fec87d049171030761f570e1c2d"
+  },
+  {
+    "route": "/learn/buddhist-handbook/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "500947f382567d20e610f617d3060c8b56f84bfc3b5e4439c2b5c31a8f4a162f",
+    "after": "500947f382567d20e610f617d3060c8b56f84bfc3b5e4439c2b5c31a8f4a162f"
+  },
+  {
+    "route": "/learn/buddhist-handbook/lay-sangha-relationship/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "e40e2675639bb076f0b4cda517f51e44dce0b2c6340835018d7fe65af92e275b",
+    "after": "e40e2675639bb076f0b4cda517f51e44dce0b2c6340835018d7fe65af92e275b"
+  },
+  {
+    "route": "/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "09ac332cf2bf01f13330490f171d898a59650f4e65d62c735abc2bafeb90216f",
+    "after": "09ac332cf2bf01f13330490f171d898a59650f4e65d62c735abc2bafeb90216f"
+  },
+  {
+    "route": "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "a52e74eedee7543f59b466947c0a9df85f925afa5d2b2052356795288a5941c2",
+    "after": "a52e74eedee7543f59b466947c0a9df85f925afa5d2b2052356795288a5941c2"
+  },
+  {
+    "route": "/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "4f04da5ec6eec65be81538adf171c0ab2f2264533993b2573b85345a72ce0d79",
+    "after": "4f04da5ec6eec65be81538adf171c0ab2f2264533993b2573b85345a72ce0d79"
+  },
+  {
+    "route": "/learn/buddhist-handbook/respecting-triple-gem/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "941aaf59eb32c4ad28c019839cd8b697de361fcabd8109a44244847a9e6365ac",
+    "after": "941aaf59eb32c4ad28c019839cd8b697de361fcabd8109a44244847a9e6365ac"
+  },
+  {
+    "route": "/learn/buddhist-handbook/sangha-as-refuge/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "5392fd4bd0101ff032011253bd8fc07433e95e99c9201fda9343f33644a26778",
+    "after": "5392fd4bd0101ff032011253bd8fc07433e95e99c9201fda9343f33644a26778"
+  },
+  {
+    "route": "/learn/buddhist-handbook/taking-refuge-triple-gem/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "41f7615cf4235c47407a104b6d381eb43cf6a0c670b1250674d01e7470f69509",
+    "after": "41f7615cf4235c47407a104b6d381eb43cf6a0c670b1250674d01e7470f69509"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "5035cfaea89dd0e344393caa0c56e898ef03869a571d794ce6ec355eafdcf4fb",
+    "after": "5035cfaea89dd0e344393caa0c56e898ef03869a571d794ce6ec355eafdcf4fb"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "2abaa30296fae82f17d4d195e4da0dc6b3c42eb05f0583e589ccc5d12ce34430",
+    "after": "2abaa30296fae82f17d4d195e4da0dc6b3c42eb05f0583e589ccc5d12ce34430"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "0e788b2539e2ba0440ea5bd6d07dc4073d408d2f9a2909d3fd214f8417dde5c7",
+    "after": "0e788b2539e2ba0440ea5bd6d07dc4073d408d2f9a2909d3fd214f8417dde5c7"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "1dff2650649ce64479360e423e86ac636d97bfad275ad24bc3f99fa359155f90",
+    "after": "1dff2650649ce64479360e423e86ac636d97bfad275ad24bc3f99fa359155f90"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "a3fe86a5adf7351310ef00c9665b101033c7dc51aa0482e62209cb10c6e2a930",
+    "after": "a3fe86a5adf7351310ef00c9665b101033c7dc51aa0482e62209cb10c6e2a930"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "de57dff1e25966c6af29949ef2aaa2af7b5371d78da177a60e22b9e0ddea1bf8",
+    "after": "de57dff1e25966c6af29949ef2aaa2af7b5371d78da177a60e22b9e0ddea1bf8"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "9cc754b1f7b1d315ff860ba4ace01899c9bc0e66c07a12ae051f2c8da74484a5",
+    "after": "9cc754b1f7b1d315ff860ba4ace01899c9bc0e66c07a12ae051f2c8da74484a5"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "d04565ecc93b09001a3fe2c83cdfadb16cf9ee697b8ba2d1850eada9318051f0",
+    "after": "d04565ecc93b09001a3fe2c83cdfadb16cf9ee697b8ba2d1850eada9318051f0"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "756c8a3004d75f992c72b15567ba22a4607cb26344a3d19ea3741358a73c27ed",
+    "after": "756c8a3004d75f992c72b15567ba22a4607cb26344a3d19ea3741358a73c27ed"
+  },
+  {
+    "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+    "pass": true,
+    "checked": [
+      "title",
+      "description",
+      "canonical",
+      "noindex",
+      "mainSha256"
+    ],
+    "before": "80856f4371ef5f45ee067dbe7b59c5c8efcc048ec67051a69c60b1185ce496c2",
+    "after": "80856f4371ef5f45ee067dbe7b59c5c8efcc048ec67051a69c60b1185ce496c2"
+  }
+]

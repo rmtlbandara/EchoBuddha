@@ -1,0 +1,718 @@
+
+> echo-buddha@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# GetUserSites: HTTP 200
+# GetFeeds: HTTP 200
+# GetRankAndTrafficStats: HTTP 200
+# GetCrawlStats: HTTP 200
+# GetUserSites: HTTP 200
+# GetFeeds: HTTP 200
+# GetRankAndTrafficStats: HTTP 200
+# GetCrawlStats: HTTP 200
+# Subtest: Bing reporting uses only approved JSON read methods and excludes credentials and foreign sites
+ok 1 - Bing reporting uses only approved JSON read methods and excludes credentials and foreign sites
+  ---
+  duration_ms: 14.5025
+  type: 'test'
+  ...
+# Subtest: optional exact-URL diagnostics use the read endpoint and export only public crawl fields
+ok 2 - optional exact-URL diagnostics use the read endpoint and export only public crawl fields
+  ---
+  duration_ms: 8.396916
+  type: 'test'
+  ...
+# Subtest: controlled Buddhist question collection contains exactly nine complete, unique records
+ok 3 - controlled Buddhist question collection contains exactly nine complete, unique records
+  ---
+  duration_ms: 9.685209
+  type: 'test'
+  ...
+# Subtest: only the nine explicitly approved public question detail routes are generated
+ok 4 - only the nine explicitly approved public question detail routes are generated
+  ---
+  duration_ms: 0.846084
+  type: 'test'
+  ...
+# Subtest: question navigation is the exact bounded Q1-to-Q9 chain
+ok 5 - question navigation is the exact bounded Q1-to-Q9 chain
+  ---
+  duration_ms: 0.414125
+  type: 'test'
+  ...
+# Subtest: all nine question pages resolve with truthful dates, canonical Article metadata, and exact navigation
+ok 6 - all nine question pages resolve with truthful dates, canonical Article metadata, and exact navigation
+  ---
+  duration_ms: 12.538333
+  type: 'test'
+  ...
+# Subtest: question takeaways and short answers render trusted inline emphasis instead of escaped HTML
+ok 7 - question takeaways and short answers render trusted inline emphasis instead of escaped HTML
+  ---
+  duration_ms: 0.515625
+  type: 'test'
+  ...
+# Subtest: hub, internal search, and sitemap discover all nine question pages exactly once
+ok 8 - hub, internal search, and sitemap discover all nine question pages exactly once
+  ---
+  duration_ms: 9.63525
+  type: 'test'
+  ...
+# Subtest: homepage uses one representative question as a compact gateway in the intended journey position
+ok 9 - homepage uses one representative question as a compact gateway in the intended journey position
+  ---
+  duration_ms: 0.717625
+  type: 'test'
+  ...
+# Subtest: all nine question routes remain conservative Learn-detail monetization holds
+ok 10 - all nine question routes remain conservative Learn-detail monetization holds
+  ---
+  duration_ms: 0.244667
+  type: 'test'
+  ...
+# Subtest: blocks the legacy Cloudflare production branch
+ok 11 - blocks the legacy Cloudflare production branch
+  ---
+  duration_ms: 100.881292
+  type: 'test'
+  ...
+# Subtest: fails closed when Workers Builds omits its branch
+ok 12 - fails closed when Workers Builds omits its branch
+  ---
+  duration_ms: 67.411709
+  type: 'test'
+  ...
+# Subtest: allows previews and governed builds
+ok 13 - allows previews and governed builds
+  ---
+  duration_ms: 123.6615
+  type: 'test'
+  ...
+# Subtest: quote origin diagnostics extract actual declarations without inventing an original classification
+ok 14 - quote origin diagnostics extract actual declarations without inventing an original classification
+  ---
+  duration_ms: 5.177167
+  type: 'test'
+  ...
+# Subtest: metadata extraction retains apostrophes and supports either quote and attribute order
+ok 15 - metadata extraction retains apostrophes and supports either quote and attribute order
+  ---
+  duration_ms: 0.775209
+  type: 'test'
+  ...
+# Subtest: link extraction ignores scripts, styles, comments and attribute-contained fake anchors
+ok 16 - link extraction ignores scripts, styles, comments and attribute-contained fake anchors
+  ---
+  duration_ms: 0.405833
+  type: 'test'
+  ...
+# Subtest: noindex and source-link presence cannot certify editorial quality
+ok 17 - noindex and source-link presence cannot certify editorial quality
+  ---
+  duration_ms: 0.357917
+  type: 'test'
+  ...
+# Subtest: reader-content diagnostics exclude site chrome and retain text after 500 tokens
+ok 18 - reader-content diagnostics exclude site chrome and retain text after 500 tokens
+  ---
+  duration_ms: 0.700792
+  type: 'test'
+  ...
+# Subtest: role maps and original attribution cannot automatically resolve similarity
+ok 19 - role maps and original attribution cannot automatically resolve similarity
+  ---
+  duration_ms: 0.223875
+  type: 'test'
+  ...
+# Subtest: paragraph review records all affected URLs without inflating within-page repeats
+ok 20 - paragraph review records all affected URLs without inflating within-page repeats
+  ---
+  duration_ms: 0.949083
+  type: 'test'
+  ...
+# Subtest: analytics requires affirmative consent and advertising storage remains denied
+ok 21 - analytics requires affirmative consent and advertising storage remains denied
+  ---
+  duration_ms: 4.637917
+  type: 'test'
+  ...
+# Subtest: AdSense uses no-network verification and the runtime script is absent from every built page
+ok 22 - AdSense uses no-network verification and the runtime script is absent from every built page
+  ---
+  duration_ms: 140.687416
+  type: 'test'
+  ...
+# Subtest: required validation scripts are present
+ok 23 - required validation scripts are present
+  ---
+  duration_ms: 0.351042
+  type: 'test'
+  ...
+# Subtest: release validation uses current approval-aware gates while retaining historical snapshot checks
+ok 24 - release validation uses current approval-aware gates while retaining historical snapshot checks
+  ---
+  duration_ms: 0.619333
+  type: 'test'
+  ...
+# Subtest: robots manifest and security headers are source-controlled
+ok 25 - robots manifest and security headers are source-controlled
+  ---
+  duration_ms: 0.524084
+  type: 'test'
+  ...
+# Subtest: sitemap output aligns with canonical site when built
+ok 26 - sitemap output aligns with canonical site when built
+  ---
+  duration_ms: 0.339834
+  type: 'test'
+  ...
+# Subtest: Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval
+ok 27 - Phase 5 keeps every quote permalink useful while requiring explicit standalone Search approval
+  ---
+  duration_ms: 6.944833
+  type: 'test'
+  ...
+# Subtest: content remediation governance assets remain present
+ok 28 - content remediation governance assets remain present
+  ---
+  duration_ms: 0.394
+  type: 'test'
+  ...
+# Subtest: one public contact address covers publisher and website inquiries
+ok 29 - one public contact address covers publisher and website inquiries
+  ---
+  duration_ms: 2612.217875
+  type: 'test'
+  ...
+# Subtest: handbook contains twelve substantial, unique, source-aware chapters in two complete parts
+ok 30 - handbook contains twelve substantial, unique, source-aware chapters in two complete parts
+  ---
+  duration_ms: 6.98875
+  type: 'test'
+  ...
+# Subtest: handbook generates one hub and exactly twelve canonical article routes
+ok 31 - handbook generates one hub and exactly twelve canonical article routes
+  ---
+  duration_ms: 9.171833
+  type: 'test'
+  ...
+# Subtest: home, Learn, search, and sitemap discover the complete handbook without duplication
+ok 32 - home, Learn, search, and sitemap discover the complete handbook without duplication
+  ---
+  duration_ms: 14.674458
+  type: 'test'
+  ...
+# Subtest: handbook monetization remains fail-closed
+ok 33 - handbook monetization remains fail-closed
+  ---
+  duration_ms: 0.312375
+  type: 'test'
+  ...
+# Subtest: coverage and asset evidence are complete
+ok 34 - coverage and asset evidence are complete
+  ---
+  duration_ms: 4.94975
+  type: 'test'
+  ...
+# Subtest: homepage communicates a descriptive purpose with one H1 and eight ordered sections
+ok 35 - homepage communicates a descriptive purpose with one H1 and eight ordered sections
+  ---
+  duration_ms: 1.176458
+  type: 'test'
+  ...
+# Subtest: homepage metadata, canonical, indexability, and schema stay minimal and accurate
+ok 36 - homepage metadata, canonical, indexability, and schema stay minimal and accurate
+  ---
+  duration_ms: 1.398959
+  type: 'test'
+  ...
+# Subtest: global footer exposes accessible branded icons in the requested platform order
+ok 37 - global footer exposes accessible branded icons in the requested platform order
+  ---
+  duration_ms: 1.734583
+  type: 'test'
+  ...
+# Subtest: publisher structured data uses the corrected canonical social identities without duplicates
+ok 38 - publisher structured data uses the corrected canonical social identities without duplicates
+  ---
+  duration_ms: 0.212916
+  type: 'test'
+  ...
+# Subtest: homepage uses editorially curated guides rather than publication-date sorting
+ok 39 - homepage uses editorially curated guides rather than publication-date sorting
+  ---
+  duration_ms: 6.358959
+  type: 'test'
+  ...
+# Subtest: homepage links are non-empty, crawlable, resolvable, and aligned with index policy
+ok 40 - homepage links are non-empty, crawlable, resolvable, and aligned with index policy
+  ---
+  duration_ms: 1.394292
+  type: 'test'
+  ...
+# Subtest: homepage preserves the AdSense verification-only firewall and valid images
+ok 41 - homepage preserves the AdSense verification-only firewall and valid images
+  ---
+  duration_ms: 0.63675
+  type: 'test'
+  ...
+# Subtest: build publishes proof and hashes only canonical, indexable sitemap HTML
+ok 42 - build publishes proof and hashes only canonical, indexable sitemap HTML
+  ---
+  duration_ms: 7.103667
+  type: 'test'
+  ...
+# Subtest: sitemap validation rejects external, duplicate, query and traversal URLs
+ok 43 - sitemap validation rejects external, duplicate, query and traversal URLs
+  ---
+  duration_ms: 1.003667
+  type: 'test'
+  ...
+# Subtest: plans bootstrap, unchanged releases, additions, updates and removals
+ok 44 - plans bootstrap, unchanged releases, additions, updates and removals
+  ---
+  duration_ms: 1.008791
+  type: 'test'
+  ...
+# Subtest: only a missing production manifest bootstraps; server failures stop planning
+ok 45 - only a missing production manifest bootstraps; server failures stop planning
+  ---
+  duration_ms: 16.733667
+  type: 'test'
+  ...
+# Subtest: submission checks live proof and release, and distinguishes 202 from success
+ok 46 - submission checks live proof and release, and distinguishes 202 from success
+  ---
+  duration_ms: 9.627417
+  type: 'test'
+  ...
+# Subtest: failed key, stale release, sitemap drift, redirects and noindex prevent all POSTs
+ok 47 - failed key, stale release, sitemap drift, redirects and noindex prevent all POSTs
+  ---
+  duration_ms: 9.515667
+  type: 'test'
+  ...
+# Subtest: transient prior manifests retry reads and submit once only after exact equality
+ok 48 - transient prior manifests retry reads and submit once only after exact equality
+  ---
+  duration_ms: 1.872833
+  type: 'test'
+  ...
+# Subtest: a permanently different release exhausts bounded verification without any submission
+ok 49 - a permanently different release exhausts bounded verification without any submission
+  ---
+  duration_ms: 4.025042
+  type: 'test'
+  ...
+# Subtest: removed URLs require a live removal, exclusion or permanent redirect
+ok 50 - removed URLs require a live removal, exclusion or permanent redirect
+  ---
+  duration_ms: 3.343167
+  type: 'test'
+  ...
+# Subtest: no-change plans perform no requests; endpoint failures are reported
+ok 51 - no-change plans perform no requests; endpoint failures are reported
+  ---
+  duration_ms: 7.616208
+  type: 'test'
+  ...
+# Subtest: workflow plans before deploy and submits only after production smoke
+ok 52 - workflow plans before deploy and submits only after production smoke
+  ---
+  duration_ms: 15.920583
+  type: 'test'
+  ...
+# Subtest: explicit per-file supersession preserves historical records and checks current content
+ok 53 - explicit per-file supersession preserves historical records and checks current content
+  ---
+  duration_ms: 2.980459
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects unapproved supersession
+ok 54 - intervention validation rejects unapproved supersession
+  ---
+  duration_ms: 0.607875
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects changed historical record
+ok 55 - intervention validation rejects changed historical record
+  ---
+  duration_ms: 0.166375
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects changed historical baseline
+ok 56 - intervention validation rejects changed historical baseline
+  ---
+  duration_ms: 0.125959
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects unapproved candidate edit
+ok 57 - intervention validation rejects unapproved candidate edit
+  ---
+  duration_ms: 0.458209
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects unapproved policy edit
+ok 58 - intervention validation rejects unapproved policy edit
+  ---
+  duration_ms: 0.642792
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects deleted protected route
+ok 59 - intervention validation rejects deleted protected route
+  ---
+  duration_ms: 0.483292
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects changed route declaration
+ok 60 - intervention validation rejects changed route declaration
+  ---
+  duration_ms: 0.233667
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects canonical change
+ok 61 - intervention validation rejects canonical change
+  ---
+  duration_ms: 0.834208
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects index-state change
+ok 62 - intervention validation rejects index-state change
+  ---
+  duration_ms: 1.142875
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects owner change
+ok 63 - intervention validation rejects owner change
+  ---
+  duration_ms: 1.411458
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects missing authorization
+ok 64 - intervention validation rejects missing authorization
+  ---
+  duration_ms: 0.211333
+  type: 'test'
+  ...
+# Subtest: intervention validation rejects future or cyclic supersession
+ok 65 - intervention validation rejects future or cyclic supersession
+  ---
+  duration_ms: 0.171167
+  type: 'test'
+  ...
+# Subtest: future finalized rows cannot bypass the review date, missing data, or a real intervention
+ok 66 - future finalized rows cannot bypass the review date, missing data, or a real intervention
+  ---
+  duration_ms: 1.038667
+  type: 'test'
+  ...
+# Subtest: November candidate preserves every protected library body and its metadata
+ok 67 - November candidate preserves every protected library body and its metadata
+  ---
+  duration_ms: 19.210625
+  type: 'test'
+  ...
+# Subtest: November inventory adds only the accepted finite routes and preserves existing index/canonical state
+ok 68 - November inventory adds only the accepted finite routes and preserves existing index/canonical state
+  ---
+  duration_ms: 193.196708
+  type: 'test'
+  ...
+# Subtest: Unknown publication history stays absent while substantive candidate dates remain truthful
+ok 69 - Unknown publication history stays absent while substantive candidate dates remain truthful
+  ---
+  duration_ms: 1.84175
+  type: 'test'
+  ...
+# Subtest: New content keeps its source/application boundary and never publishes internal instructions
+ok 70 - New content keeps its source/application boundary and never publishes internal instructions
+  ---
+  duration_ms: 96.601458
+  type: 'test'
+  ...
+# Subtest: Editorial expansion preserves privacy, security and the disabled advertising runtime
+ok 71 - Editorial expansion preserves privacy, security and the disabled advertising runtime
+  ---
+  duration_ms: 111.575125
+  type: 'test'
+  ...
+# Subtest: Phase 2 clean windows are exactly 28 days and exclude the transition date
+ok 72 - Phase 2 clean windows are exactly 28 days and exclude the transition date
+  ---
+  duration_ms: 0.868292
+  type: 'test'
+  ...
+# Subtest: all 13 watchlist URLs map to one of six declared owners
+ok 73 - all 13 watchlist URLs map to one of six declared owners
+  ---
+  duration_ms: 0.253
+  type: 'test'
+  ...
+# Subtest: query families normalize explicit broad variants but preserve unmapped raw meaning
+ok 74 - query families normalize explicit broad variants but preserve unmapped raw meaning
+  ---
+  duration_ms: 2.188542
+  type: 'test'
+  ...
+# Subtest: metric aggregation weights average position by impressions
+ok 75 - metric aggregation weights average position by impressions
+  ---
+  duration_ms: 0.198583
+  type: 'test'
+  ...
+# Subtest: canonical URLs normalize to repository routes
+ok 76 - canonical URLs normalize to repository routes
+  ---
+  duration_ms: 0.154041
+  type: 'test'
+  ...
+# Subtest: Phase 10 measurement evidence preserves aggregate and privacy boundaries
+ok 77 - Phase 10 measurement evidence preserves aggregate and privacy boundaries
+  ---
+  duration_ms: 2.2055
+  type: 'test'
+  ...
+# Subtest: Phase 10 protects every route and records zero production remediation
+ok 78 - Phase 10 protects every route and records zero production remediation
+  ---
+  duration_ms: 6.602083
+  type: 'test'
+  ...
+# Subtest: complete current HTML inventory has exactly one conservative registry state
+ok 79 - complete current HTML inventory has exactly one conservative registry state
+  ---
+  duration_ms: 37.004667
+  type: 'test'
+  ...
+# Subtest: eligible candidates are an explicit seven-page reviewed set
+ok 80 - eligible candidates are an explicit seven-page reviewed set
+  ---
+  duration_ms: 1.010166
+  type: 'test'
+  ...
+# Subtest: missing metadata, noindex, unknown, malformed, and external routes fail closed
+ok 81 - missing metadata, noindex, unknown, malformed, and external routes fail closed
+  ---
+  duration_ms: 0.378084
+  type: 'test'
+  ...
+# Subtest: required matrix routes remain never-monetize or manual-review holds
+ok 82 - required matrix routes remain never-monetize or manual-review holds
+  ---
+  duration_ms: 0.239834
+  type: 'test'
+  ...
+# Subtest: page and placement gates are independent and protected zones are denied
+ok 83 - page and placement gates are independent and protected zones are denied
+  ---
+  duration_ms: 0.480459
+  type: 'test'
+  ...
+# Subtest: all global delivery gates and Auto Ads stay off
+ok 84 - all global delivery gates and Auto Ads stay off
+  ---
+  duration_ms: 0.214042
+  type: 'test'
+  ...
+# Subtest: technical resources are not treated as HTML monetization inventory
+ok 85 - technical resources are not treated as HTML monetization inventory
+  ---
+  duration_ms: 0.27475
+  type: 'test'
+  ...
+# Subtest: built output has verification only: zero ad requests, units, and empty ad placeholders
+ok 86 - built output has verification only: zero ad requests, units, and empty ad placeholders
+  ---
+  duration_ms: 210.543916
+  type: 'test'
+  ...
+# Subtest: templates contain no distributed ad placements or direct AdSense snippets
+ok 87 - templates contain no distributed ad placements or direct AdSense snippets
+  ---
+  duration_ms: 24.935625
+  type: 'test'
+  ...
+# Subtest: Phase 9 workflows parse, use least privilege, and pin every action
+ok 88 - Phase 9 workflows parse, use least privilege, and pin every action
+  ---
+  duration_ms: 1.713208
+  type: 'test'
+  ...
+# Subtest: production deployment is manual, exact-SHA, build-once, serialized, and environment gated
+ok 89 - production deployment is manual, exact-SHA, build-once, serialized, and environment gated
+  ---
+  duration_ms: 6.281167
+  type: 'test'
+  ...
+# Subtest: production smoke applies every approved route addition and contraction
+ok 90 - production smoke applies every approved route addition and contraction
+  ---
+  duration_ms: 0.489208
+  type: 'test'
+  ...
+# Subtest: rollback requires an explicit version ID and confirmation
+ok 91 - rollback requires an explicit version ID and confirmation
+  ---
+  duration_ms: 2.484958
+  type: 'test'
+  ...
+# Subtest: AdSense runtime and implicit analytics consent remain disabled
+ok 92 - AdSense runtime and implicit analytics consent remain disabled
+  ---
+  duration_ms: 0.387875
+  type: 'test'
+  ...
+# Subtest: release governance files and owner approval registers exist
+ok 93 - release governance files and owner approval registers exist
+  ---
+  duration_ms: 0.162958
+  type: 'test'
+  ...
+# Subtest: deployment identity retries the preceding SHA and a transient response, then requires the exact target
+ok 94 - deployment identity retries the preceding SHA and a transient response, then requires the exact target
+  ---
+  duration_ms: 25.571959
+  type: 'test'
+  ...
+# Subtest: deployment identity keeps a strict failure after the bounded wait
+ok 95 - deployment identity keeps a strict failure after the bounded wait
+  ---
+  duration_ms: 3.502458
+  type: 'test'
+  ...
+# Subtest: malformed identity fails without retries and routine monitoring observes once
+ok 96 - malformed identity fails without retries and routine monitoring observes once
+  ---
+  duration_ms: 2.668291
+  type: 'test'
+  ...
+# Subtest: failed newest deployment does not redefine the expected SHA, even when the attempt is serving
+ok 97 - failed newest deployment does not redefine the expected SHA, even when the attempt is serving
+  ---
+  duration_ms: 0.590209
+  type: 'test'
+  ...
+# Subtest: an active attempt is reported as a transition without accepting its SHA
+ok 98 - an active attempt is reported as a transition without accepting its SHA
+  ---
+  duration_ms: 0.226666
+  type: 'test'
+  ...
+# Subtest: independently verified activation is accepted with immutable evidence, without changing run history
+ok 99 - independently verified activation is accepted with immutable evidence, without changing run history
+  ---
+  duration_ms: 0.664208
+  type: 'test'
+  ...
+# Subtest: success evidence from an unrelated run or with no verified deployment fails closed
+ok 100 - success evidence from an unrelated run or with no verified deployment fails closed
+  ---
+  duration_ms: 0.357041
+  type: 'test'
+  ...
+# Subtest: representative source-led article reaches sitemap, search, schema and IndexNow artifact
+ok 101 - representative source-led article reaches sitemap, search, schema and IndexNow artifact
+  ---
+  duration_ms: 7.009542
+  type: 'test'
+  ...
+# Subtest: substantively revised learning pages expose their actual modification dates
+ok 102 - substantively revised learning pages expose their actual modification dates
+  ---
+  duration_ms: 5.023625
+  type: 'test'
+  ...
+# Subtest: starter meditation pages retain one complete method before their session review
+ok 103 - starter meditation pages retain one complete method before their session review
+  ---
+  duration_ms: 0.601958
+  type: 'test'
+  ...
+# Subtest: quote collections offer relevant, maintained reading paths
+ok 104 - quote collections offer relevant, maintained reading paths
+  ---
+  duration_ms: 2.245792
+  type: 'test'
+  ...
+# Subtest: every concise quote permalink has its own explicit editorial application
+ok 105 - every concise quote permalink has its own explicit editorial application
+  ---
+  duration_ms: 0.761875
+  type: 'test'
+  ...
+# Subtest: the built quote pages render the reviewed copy and preserve exclusion and date signals
+ok 106 - the built quote pages render the reviewed copy and preserve exclusion and date signals
+  ---
+  duration_ms: 57.69375
+  type: 'test'
+  ...
+# Subtest: all 2026 UTC days retain their original selection after library growth
+ok 107 - all 2026 UTC days retain their original selection after library growth
+  ---
+  duration_ms: 6.651334
+  type: 'test'
+  ...
+# Subtest: appending or reordering available records cannot reshuffle scheduled dates
+ok 108 - appending or reordering available records cannot reshuffle scheduled dates
+  ---
+  duration_ms: 15.748708
+  type: 'test'
+  ...
+# Subtest: UTC midnight and offset representations select one consistent day
+ok 109 - UTC midnight and offset representations select one consistent day
+  ---
+  duration_ms: 0.306416
+  type: 'test'
+  ...
+# Subtest: year rollover and leap day use the explicit calendar pool
+ok 110 - year rollover and leap day use the explicit calendar pool
+  ---
+  duration_ms: 0.1525
+  type: 'test'
+  ...
+# Subtest: invalid dates, empty schedules and unavailable records fail safely
+ok 111 - invalid dates, empty schedules and unavailable records fail safely
+  ---
+  duration_ms: 0.272
+  type: 'test'
+  ...
+# Subtest: slash redirects enumerate actual HTML routes without catching assets or unknown paths
+ok 112 - slash redirects enumerate actual HTML routes without catching assets or unknown paths
+  ---
+  duration_ms: 18.9145
+  type: 'test'
+  ...
+# Subtest: unknown production paths serve the existing noindex HTML error page with a 404 status
+ok 113 - unknown production paths serve the existing noindex HTML error page with a 404 status
+  ---
+  duration_ms: 0.73025
+  type: 'test'
+  ...
+# Subtest: every rendered share image has actual raster dimensions matching its metadata
+ok 114 - every rendered share image has actual raster dimensions matching its metadata
+  ---
+  duration_ms: 123.418208
+  type: 'test'
+  ...
+# Subtest: publisher entities use one identity and accurate logo dimensions
+ok 115 - publisher entities use one identity and accurate logo dimensions
+  ---
+  duration_ms: 66.046458
+  type: 'test'
+  ...
+# Subtest: new guide dates and semantic tables match visible, non-fabricated editorial updates
+ok 116 - new guide dates and semantic tables match visible, non-fabricated editorial updates
+  ---
+  duration_ms: 1.822375
+  type: 'test'
+  ...
+1..116
+# tests 116
+# suites 0
+# pass 116
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2861.451833

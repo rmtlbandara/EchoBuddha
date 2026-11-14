@@ -1,0 +1,21 @@
+formFactor,label,path,performanceScore,accessibilityScore,fcpMs,lcpMs,cls,tbtMs,speedIndexMs,totalByteWeight
+mobile,Homepage,/,0.99,1,909.1605,1434.1605,0,0,3228.3902040206312,126039
+mobile,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,1057.3594,1507.3593999999998,0,0,1057.3594,89293
+mobile,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,754.3197,1354.3197,0,0,784.7667999895859,53024
+mobile,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,755.2609,1355.2609,0,0,755.2609,92626
+mobile,Daily reflection,/daily-reflections/one-honest-breath/,1,1,756.3965000000001,1356.3965,0.001734273664773513,0,756.3965000000001,51682
+mobile,Meditation page,/meditation/breathing-meditation/,1,1,757.1819,1357.1819,0,8,757.1819,53309
+mobile,Topic hub,/quotes/mindfulness/,1,1,754.3688,1354.3688,0.001734273664773513,0,754.3688,54935
+mobile,Search,/search/,1,1,755.2967000000001,1355.2967,0.001734273664773513,0,755.2967000000001,50639
+mobile,Tools,/tools/,1,1,1054.156,1504.156,0.001734273664773513,0,1054.156,69557
+mobile,Privacy,/privacy-policy/,1,1,756.3906,1356.3906,0.001734273664773513,0,756.3906,51026
+desktop,Homepage,/,1,1,246.60399999999998,366.60400000000004,0,0,1044.2514566668997,157308
+desktop,Cornerstone article,/articles/four-noble-truths-explained-simply/,1,1,288.445,408.44500000000005,0,0,288.445,89293
+desktop,Learning page,/learn/buddhism-101/what-is-mindfulness/,1,1,205.64589999999998,325.6459,0,0,205.64589999999998,53024
+desktop,Quote story,/quotes/mindfulness/a-peaceful-mind-begins-with-one-honest-breath/,1,1,206.7212,346.72120000000007,0,0,206.7212,77125
+desktop,Daily reflection,/daily-reflections/one-honest-breath/,1,1,202.82639999999998,322.8264,0,0,202.82639999999998,51682
+desktop,Meditation page,/meditation/breathing-meditation/,1,1,205.17989999999998,325.1799,0,0,206.7008042885497,53309
+desktop,Topic hub,/quotes/mindfulness/,1,1,205.25330000000002,345.2533,0,0,205.25330000000002,89565
+desktop,Search,/search/,1,1,204.3447,284.3447,0,0,204.3447,50639
+desktop,Tools,/tools/,1,1,284.9488,404.9488,0,0,284.9488,69557
+desktop,Privacy,/privacy-policy/,1,1,204.09410000000003,324.0941,0,0,204.09410000000003,51026

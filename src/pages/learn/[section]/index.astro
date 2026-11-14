@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../../../data/novemberEdition";
 import Layout from "../../../layouts/Layout.astro";
 import LearningCard from "../../../components/LearningCard.astro";
 import { SITE } from "../../../data/site";
@@ -16,6 +17,7 @@ const canonicalPath = section.href;
 const dictionaryLetters = section.slug === "buddhist-dictionary"
   ? [...new Set(section.items.map((item) => item.title[0].toUpperCase()))].sort()
   : [];
+const editionSection = ({ "buddhism-101": [132, 133, 134], "buddhist-dictionary": [136, 137, 138], "dhammapada-reflections": [140, 141, 142, 143], "sutta-for-daily-life": [145, 146, 147, 148] } as Record<string, number[]>)[section.slug];
 const sectionGuidance = {
   "buddhism-101": {
     title: "How to use Buddhism 101",
@@ -217,6 +219,8 @@ const jsonLd = [
     </div>
   </section>
 
+  <section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[editionSection[0]]}</h2>{editionSection.slice(1).map(i => <p>{EDITION_COPY[i]}</p>)}{section.slug === "sutta-for-daily-life" && <p><a href="/learn/sutta-for-daily-life/five-remembrances-an-5-57/">Read AN 5.57</a> · <a href="/learn/sutta-for-daily-life/two-arrows-sn-36-6/">Read SN 36.6</a></p>}</div></section>
+
   <section class="section section--tight">
     <div class="container" data-filter-root={section.slug === "buddhist-dictionary" ? "" : undefined}>
       {sectionGuidance && (
@@ -316,6 +320,7 @@ const jsonLd = [
       </div>
     </div>
   </section>
+
 </Layout>
 
 <style>

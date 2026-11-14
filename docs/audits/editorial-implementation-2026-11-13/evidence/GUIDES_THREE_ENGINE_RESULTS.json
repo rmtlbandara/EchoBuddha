@@ -1,0 +1,512 @@
+{
+  "generatedAt": "2026-11-14T02:26:59.799Z",
+  "origin": "http://127.0.0.1:4321",
+  "updated": true,
+  "passed": 72,
+  "results": [
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "chromium",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "firefox",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "desktop",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "tablet",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/learn/four-noble-truths/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/learn/eightfold-path/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/learn/buddhism-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/meditation/meditation-for-beginners/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 200,
+      "violations": []
+    },
+    {
+      "engine": "webkit",
+      "device": "mobile",
+      "route": "/learn/buddhism-101/three-marks-of-existence/",
+      "status": 200,
+      "violations": []
+    }
+  ]
+}

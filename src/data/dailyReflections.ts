@@ -1,4 +1,8 @@
+import { NOVEMBER_REFLECTIONS } from "./novemberEdition.ts";
+import { getScheduledReflectionSlug } from "../utils/reflectionSchedule.mjs";
+
 export type DailyReflection = {
+  presentation?: "manuscript";
   slug: string;
   title: string;
   reflection: string;
@@ -293,22 +297,24 @@ export const dailyReflections: DailyReflection[] = [
     relatedLinks: [coreLinks.compassion, coreLinks.eightfoldPath]
   },
   {
+    presentation: "manuscript",
     slug: "impermanence-softens-clinging",
     title: "Impermanence Softens Clinging",
     reflection: "Because this moment will change, meet it carefully while it is here.",
-    meaning: "Impermanence is not meant to make life cold. It can make attention warmer because we remember that nothing can be possessed forever.",
-    practice: "Notice one pleasant thing today without trying to hold it longer than it lasts.",
-    journalQuestion: "What am I trying to keep unchanged?",
+    meaning: "A meal goes well, a walk feels easy, or a conversation brings unexpected relief. You immediately begin planning how to make it happen again. Planning is often harmless. But notice when appreciation becomes a demand that the next occasion feel exactly the same. Other people and circumstances will have changed. A good experience can remain valuable without anyone having to recreate it.",
+    practice: "Acknowledge one specific thing you enjoyed today. Let the experience finish before deciding whether to make a routine of it.",
+    journalQuestion: "Would I allow this moment to be worthwhile even if it never happened in exactly the same way again?",
     relatedIdea: "Anicca",
     relatedLinks: [coreLinks.impermanence, coreLinks.lettingGo]
   },
   {
+    presentation: "manuscript",
     slug: "listen-before-answering",
     title: "Listen Before Answering",
     reflection: "Many conversations soften when listening becomes more important than winning.",
-    meaning: "Right speech begins before speech. It begins with the intention to understand, reduce harm, and speak truthfully.",
-    practice: "In one conversation, let the other person finish before forming your response.",
-    journalQuestion: "What did I hear when I stopped preparing my reply?",
+    meaning: "Someone is telling you about a difficult day. Before they finish, you have three solutions ready. They may already know those options. Perhaps they want to be heard, or need practical help your plan does not provide. Let them finish before deciding what would be useful.",
+    practice: "Ask, “Would it help to think through options, or would you rather I listen first?” Follow their answer. If urgent safety needs arise, take appropriate action rather than treating the exchange only as a listening exercise.",
+    journalQuestion: "What did I assume the person needed before I asked?",
     relatedIdea: "Right Speech",
     relatedLinks: [coreLinks.rightSpeech, coreLinks.eightfoldPath]
   },
@@ -562,6 +568,8 @@ export const dailyReflections: DailyReflection[] = [
     relatedIdea: "Impermanence",
     relatedLinks: [coreLinks.impermanence, { label: "Anicca", href: "/learn/buddhist-dictionary/anicca/" }]
   }
+
+  ,...NOVEMBER_REFLECTIONS
 ];
 
 export function getDailyReflectionByIndex(index: number) {
@@ -582,10 +590,8 @@ export function getDailyReflectionDetails(reflection: DailyReflection) {
 }
 
 export function getDailyReflectionForDate(date = new Date()) {
-  const start = Date.UTC(date.getUTCFullYear(), 0, 0);
-  const today = Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
-  const dayOfYear = Math.floor((today - start) / 86400000);
-  return getDailyReflectionByIndex(dayOfYear - 1);
+  const slug = getScheduledReflectionSlug(date, dailyReflections.map(item => item.slug));
+  return dailyReflections.find(item => item.slug === slug) ?? dailyReflections[0];
 }
 
 export function getDailyReflectionExample(reflection: DailyReflection) {

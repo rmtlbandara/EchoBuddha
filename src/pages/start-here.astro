@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../data/novemberEdition";
 import Layout from "../layouts/Layout.astro";
 import DailyReflectionCard from "../components/DailyReflectionCard.astro";
 import { dailyReflections } from "../data/dailyReflections";
@@ -112,6 +113,7 @@ const jsonLd = [
     </div>
   </section>
 
+<section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[119]}</h2><p>{EDITION_COPY[120]}</p><ul><li><a href="/learn/buddhism-for-beginners/">New to Buddhism?</a> Read the opening and choose one question. Give the Four Noble Truths time to make sense.</li><li><a href="/meditation/5-minute-meditation-practice/">Looking for a short practice?</a> Use a supported position and keep your eyes open if that suits you.</li><li><a href="/quotes/">Arrived through a quotation?</a> Read its context and follow a related lesson.</li></ul><p>{EDITION_COPY[124]}</p></div></section>
   <section class="section section-band">
     <div class="container split">
       <div>

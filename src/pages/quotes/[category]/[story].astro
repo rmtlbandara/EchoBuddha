@@ -35,6 +35,8 @@ const canonicalPath = `/quotes/${category.slug}/${story.slug}/`;
 const quoteUrl = `${SITE.url}${canonicalPath}`;
 const isIndexable = isQuoteStoryIndexable(quote);
 const hasAuthoredReflection = Boolean(quote.story);
+const modifiedDate = quote.story?.updatedDate ?? quote.updatedDate ?? (!hasAuthoredReflection ? "2026-10-30" : undefined);
+const modifiedLabel = modifiedDate ? new Intl.DateTimeFormat("en", { timeZone: "UTC", year: "numeric", month: "long", day: "numeric" }).format(new Date(`${modifiedDate}T12:00:00Z`)) : undefined;
 const relatedQuotes = quotes.filter((item) => item.theme === quote.theme && item.text !== quote.text).slice(0, 3);
 const relatedArticles = getArticlesForQuoteTheme(quote.theme).slice(0, 2);
 const relatedTeaching = {
@@ -64,7 +66,7 @@ const jsonLd = [
     headline: story.title,
     name: story.title,
     description: story.description,
-    ...(!hasAuthoredReflection ? { dateModified: "2026-10-30" } : {}),
+    ...(modifiedDate ? { dateModified: modifiedDate } : {}),
     url: quoteUrl,
     author: EDITORIAL_AUTHOR_SCHEMA,
     publisher: PUBLISHER_SCHEMA,
@@ -192,11 +194,12 @@ const jsonLd = [
             <h2>Use This Quote in One Real Moment</h2>
             <p>{dailyLifeExample}</p>
             <p>{practiceSuggestion}</p>
-            <p>Updated <time datetime="2026-10-30">October 30, 2026</time></p>
+
           </section>
         )}
 
 
+        {modifiedDate && <p>Updated <time datetime={modifiedDate}>{modifiedLabel}</time></p>}
         <h2>Reflection Question</h2>
         <p>{reflectionQuestion}</p>
         {hasBreathOrBodyExercise && (

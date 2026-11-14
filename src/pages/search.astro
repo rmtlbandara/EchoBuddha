@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../data/novemberEdition";
 import Layout from "../layouts/Layout.astro";
 
 const title = "Search Echo Buddha";
@@ -48,6 +49,8 @@ const noResultLinks = [
     </div>
   </section>
 
+  <section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[215]}</h2><p>{EDITION_COPY[216]}</p></div></section>
+
   <section class="section section--tight">
     <div class="container search-page" data-search-root data-search-mode="page">
       <form class="search-page-form surface" data-search-form action="/search/" method="get" role="search">
@@ -83,7 +86,7 @@ const noResultLinks = [
 
       <div class="surface search-page-state" data-search-no-results hidden>
         <h2>No results found</h2>
-        <p>Try fewer words, check the spelling, or clear the query and browse a section below.</p>
+        <p>{EDITION_COPY[217].replace("Empty-state candidate: ", "")}</p>
         <button type="button" class="restart-search" data-search-clear>Clear this search</button>
         <nav class="no-result-links" aria-label="Helpful search alternatives">
           {noResultLinks.map((link) => <a href={link.href}>{link.label}</a>)}
@@ -93,6 +96,7 @@ const noResultLinks = [
       <ol class="search-page-results" data-search-results aria-label="Search results" aria-busy="false"></ol>
     </div>
   </section>
+
 </Layout>
 
 <style>

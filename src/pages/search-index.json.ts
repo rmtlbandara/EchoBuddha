@@ -44,7 +44,7 @@ function stripHtml(value = "") {
   return value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function pageContent(page: { intro: string; sections: { heading: string; paragraphs: string[] }[]; takeaway: string; practice?: string; terms?: string[] }) {
+function pageContent(page: { intro: string; sections: { heading: string; paragraphs: string[] }[]; takeaway?: string; practice?: string; terms?: string[] }) {
   return [
     page.intro,
     page.takeaway,

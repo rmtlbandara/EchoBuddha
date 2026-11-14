@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-11-14T02:22:50.776Z",
+  "results": [
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "device": "mobile",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 1361.0137,
+      "cls": 0,
+      "totalBytes": 70165
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "device": "desktop",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 366.3388,
+      "cls": 0,
+      "totalBytes": 70165
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "device": "mobile",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 1509.9135,
+      "cls": 0.016707800479917642,
+      "totalBytes": 63525
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "device": "desktop",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 363.8166,
+      "cls": 0,
+      "totalBytes": 63525
+    }
+  ]
+}

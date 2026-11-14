@@ -1,4 +1,5 @@
 ---
+import { EDITION_COPY } from "../data/novemberEdition";
 import Layout from "../layouts/Layout.astro";
 import LearningCard from "../components/LearningCard.astro";
 import { dailyReflections, getDailyReflectionPath } from "../data/dailyReflections";
@@ -129,6 +130,8 @@ const jsonLd = [
       </p>
     </div>
   </section>
+
+  <section class="section section--tight"><div class="container prose"><h2>{EDITION_COPY[211]}</h2><p>{EDITION_COPY[212]}</p><p>{EDITION_COPY[213]}</p><p>After the timer, choose a <a href="/meditation/breathing-meditation/">breathing</a>, <a href="/meditation/walking-meditation/">walking</a> or <a href="/meditation/loving-kindness-meditation/">loving-kindness</a> guide. <a href="/learn/buddhist-dictionary/">Look up a term</a> or <a href="/daily-reflections/">choose a reflection</a> when that suits your next question.</p></div></section>
 
   <section class="section section--tight">
     <div class="container tool-grid" data-tools-root>
@@ -266,6 +269,7 @@ const jsonLd = [
       </div>
     </div>
   </section>
+
 </Layout>
 
 <script define:vars={{ reflectionItems, quoteItems, glossaryItems }}>

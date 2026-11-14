@@ -21,7 +21,7 @@ export const sourceStudyNotes: Record<string, { reference: string; context: stri
   "/learn/sutta-for-daily-life/buddhas-teaching-on-patience/": {
     reference: "Dhammapada 184 — a verse reference within this study collection",
     context: "The immediate reference on this page is a Dhammapada verse praising patient endurance, rather than a separate discourse titled The Buddha's Teaching on Patience. Its wider setting also emphasizes non-harming and restraint. This distinction matters when looking up the source.",
-    boundary: "The examples about traffic, messages, and changing habits are original modern applications. Patience does not require remaining in danger or allowing abuse. Keep a necessary boundary, take protective action, and seek appropriate support rather than treating endurance as an unconditional demand.",
-    modifiedDate: "2026-10-23"
+    boundary: "The disagreement scene on this page is an original modern application. Patience does not require remaining in danger or allowing abuse. Keep a necessary boundary, take protective action, and seek appropriate support rather than treating endurance as an unconditional demand.",
+    modifiedDate: "2026-11-14"
   }
 };

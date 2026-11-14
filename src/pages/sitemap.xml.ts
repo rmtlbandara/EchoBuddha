@@ -59,7 +59,7 @@ const staticPaths: SitemapEntry[] = [
 ];
 
 export const GET: APIRoute = () => {
-  const getArticleLastmod = (slug: string, fallback: string) => getArticleSeoDetails(slug)?.reviewedDate ?? fallback;
+  const getArticleLastmod = (slug: string, fallback?: string) => getArticleSeoDetails(slug)?.reviewedDate ?? fallback;
   const latestArticleLastmod = fullArticles
     .map((article) => getArticleLastmod(article.slug, article.date))
     .sort()
