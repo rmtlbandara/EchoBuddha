@@ -23,6 +23,22 @@ export function inspectionCohort(sitemapUrls, watchlistRoutes = []) {
   return [...new Set(absolute)].sort();
 }
 
+export function bingPriorityCohort(canonicalUrls) {
+  const current = new Set(canonicalUrls);
+  return inspectionCohort([], [
+    "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+    "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+    "/learn/buddhist-dictionary/vedana/",
+    "/articles/appreciative-joy-when-comparison-hurts/",
+    "/meditation/meditation-for-beginners/",
+    "/learn/four-noble-truths/",
+    "/learn/eightfold-path/",
+    "/learn/buddhism-for-beginners/",
+    "/learn/buddhism-101/what-is-impermanence/",
+    "/meditation/loving-kindness-meditation/"
+  ]).filter(url => current.has(url));
+}
+
 // Three read-only requests in flight; authentication/quota/outage failures stop
 // new requests. Every progress snapshot includes pending/blocked URLs explicitly.
 export async function inspectCanonicalCohort(urls, inspect, onProgress = () => {}) {

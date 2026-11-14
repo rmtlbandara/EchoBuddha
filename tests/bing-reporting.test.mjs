@@ -4,6 +4,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { collectBing } from "../scripts/collect-bing.mjs";
+import { bingPriorityCohort } from "../scripts/search-inspection-policy.mjs";
 
 test("Bing reporting uses only approved JSON read methods and excludes credentials and foreign sites", async () => {
   const out = fs.mkdtempSync(path.join(os.tmpdir(), "eb-bing-"));
@@ -36,4 +37,25 @@ test("optional exact-URL diagnostics use the read endpoint and export only publi
     assert.match(summary.urlDiagnostics[0].note, /not an indexed-status assertion/);
     for (const file of ["raw.json", "summary.json"]) assert.doesNotMatch(fs.readFileSync(path.join(out, file), "utf8"), /private-test-key|must-not-export/);
   } finally { fs.rmSync(out, { recursive: true, force: true }); }
+});
+
+test("Bing priority diagnostics include all four new owners and remain a bounded canonical cohort", () => {
+  const urls=[...fs.readFileSync('dist/sitemap.xml','utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
+  const cohort=bingPriorityCohort(urls);assert.equal(cohort.length,10);
+  for(const slug of ['five-remembrances-an-5-57','two-arrows-sn-36-6','vedana','appreciative-joy-when-comparison-hurts']) assert.ok(cohort.some(url=>url.includes('/'+slug+'/')));
+  assert.ok(cohort.every(url=>urls.includes(url)));
+});
+
+test("Bing diagnostics pace requests and stop on typed HTTP-400 throttling without disclosing raw errors", async () => {
+  const out=fs.mkdtempSync(path.join(os.tmpdir(),'eb-bing-limit-'));const delays=[];let diagnostics=0;
+  try{
+    const summary=await collectBing({key:'private-key',out,diagnosticUrls:['https://echobuddha.com/','https://echobuddha.com/articles/','https://echobuddha.com/learn/'],sleep:async ms=>delays.push(ms),fetcher:async url=>{
+      const diagnostic=url.pathname.endsWith('GetUrlInfo');if(diagnostic)diagnostics++;
+      const limited=diagnostic&&diagnostics===2;
+      return {status:limited?400:200,json:async()=>limited?{ErrorCode:4,Message:'secret error with private-key'}:{d:url.pathname.endsWith('GetUserSites')?[{Url:'https://echobuddha.com/',IsVerified:true}]:diagnostic?{IsPage:true}:[]}};
+    }});
+    assert.deepEqual(delays,[7000]);assert.equal(diagnostics,2);assert.equal(summary.urlDiagnostics[1].classification,'RATE_LIMITED');
+    assert.equal(summary.urlDiagnostics[2].status,'NOT_ATTEMPTED');assert.equal(summary.urlDiagnostics[2].apiErrorCode,4);
+    assert.doesNotMatch(fs.readFileSync(path.join(out,'summary.json'),'utf8'),/private-key|secret error/);
+  }finally{fs.rmSync(out,{recursive:true,force:true});}
 });

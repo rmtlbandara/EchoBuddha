@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { canonicalInspectionUrls, fetchSearchEvidence } from "./search-inspection-policy.mjs";
+import { canonicalInspectionUrls, bingPriorityCohort, fetchSearchEvidence } from "./search-inspection-policy.mjs";
 
 const SITE = "https://echobuddha.com/";
 const METHODS = ["GetUserSites", "GetFeeds", "GetRankAndTrafficStats", "GetCrawlStats"];
@@ -22,7 +22,7 @@ export function summarizeBing(evidence) {
   };
 }
 
-export async function collectBing({ key, out, fetcher = fetch, diagnosticUrls = [] }) {
+export async function collectBing({ key, out, fetcher = fetch, diagnosticUrls = [], sleep = ms => new Promise(resolve => setTimeout(resolve, ms)) }) {
   if (!key) throw new Error("Existing Bing API credential is required");
   fs.mkdirSync(out, { recursive: true });
   const evidence = {};
@@ -44,9 +44,18 @@ export async function collectBing({ key, out, fetcher = fetch, diagnosticUrls = 
     }
   }
   evidence.urlDiagnostics = [];
+  let blockedCode = null;
+  let diagnosticCalls = 0;
   for (const page of diagnosticUrls) {
     const target = new URL(page);
     if (target.origin !== new URL(SITE).origin || target.username || target.password || target.search || target.hash) throw new Error("Bing diagnostics require a public same-site canonical URL");
+    if (blockedCode !== null) {
+      evidence.urlDiagnostics.push({ url: target.href, status: "NOT_ATTEMPTED", apiErrorCode: blockedCode, classification: "API_LIMIT_OR_ACCESS_BLOCKED" });
+      continue;
+    }
+    // Avoid burst diagnostics. Bing can return typed throttling as HTTP 400,
+    // rather than 429; retain only its numeric code, never its raw error body.
+    if (diagnosticCalls++) await sleep(7000);
     const url = new URL("https://ssl.bing.com/webmaster/api.svc/json/GetUrlInfo");
     url.searchParams.set("apikey", key);
     url.searchParams.set("siteUrl", SITE);
@@ -55,7 +64,9 @@ export async function collectBing({ key, out, fetcher = fetch, diagnosticUrls = 
       const response = await fetcher(url, { signal: AbortSignal.timeout(30_000) });
       const body = await response.json();
       const row = body.d || {};
-      evidence.urlDiagnostics.push({ url: target.href, status: response.status, isPage: row.IsPage ?? null, httpStatus: row.HttpStatus ?? null, lastCrawledDate: row.LastCrawledDate ?? null, discoveryDate: row.DiscoveryDate ?? null, note: "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views." });
+      const apiErrorCode = Number.isInteger(body.ErrorCode) ? body.ErrorCode : null;
+      if ([3, 4, 5, 6, 14, 18].includes(apiErrorCode)) blockedCode = apiErrorCode;
+      evidence.urlDiagnostics.push({ url: target.href, status: response.status, apiErrorCode, classification: [4, 5].includes(apiErrorCode) ? "RATE_LIMITED" : response.status === 200 ? "CRAWL_DATA_ONLY" : "API_ERROR_UNKNOWN_INDEX_STATUS", isPage: row.IsPage ?? null, httpStatus: row.HttpStatus ?? null, lastCrawledDate: row.LastCrawledDate ?? null, discoveryDate: row.DiscoveryDate ?? null, note: "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views." });
     } catch {
       evidence.urlDiagnostics.push({ url: target.href, status: "UNAVAILABLE" });
     }
@@ -72,5 +83,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
   if (!file) throw new Error("Set ECHOBUDDHA_BING_KEY_FILE to an existing private credential file");
   const sitemap = await fetchSearchEvidence(`${SITE}sitemap.xml`);
   if (!sitemap.ok) throw new Error("Current canonical sitemap could not be fetched");
-  await collectBing({ key: fs.readFileSync(file, "utf8").trim(), out: process.env.BING_OUT_DIR || ".artifacts/bing", diagnosticUrls: canonicalInspectionUrls(await sitemap.text()) });
+  await collectBing({ key: fs.readFileSync(file, "utf8").trim(), out: process.env.BING_OUT_DIR || ".artifacts/bing", diagnosticUrls: bingPriorityCohort(canonicalInspectionUrls(await sitemap.text())) });
 }
