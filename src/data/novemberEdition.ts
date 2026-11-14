@@ -428,6 +428,7 @@ export const APPRECIATIVE_JOY_ARTICLE: Article = {
   "seoTitle": "Appreciative Joy When Comparison Hurts",
   "description": "What if someone else’s good news brings up envy or disappointment? Explore muditā without forced positivity, with one honest way to respond.",
   "author": "Echo Buddha Editorial",
+  "date": "2026-11-14",
   "category": "Practice",
   "readTime": "5 min read",
   "presentation": "manuscript",

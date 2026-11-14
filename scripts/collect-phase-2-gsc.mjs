@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { canonicalInspectionUrls, fetchSearchEvidence, summarizeGoogleInspection } from "./search-inspection-policy.mjs";
 import {
   CLUSTERS,
   GSC_PROPERTY,
@@ -61,20 +62,13 @@ async function refreshAccessToken(force = false) {
   return accessToken;
 }
 
-const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
-
 async function apiFetch(url, options = {}, attempt = 0) {
   const token = await refreshAccessToken(attempt > 0);
-  const response = await fetch(url, {
+  const response = await fetchSearchEvidence(url, {
     ...options,
-    signal: AbortSignal.timeout(30_000),
     headers: { ...(options.headers ?? {}), authorization: `Bearer ${token}` }
   });
   if (response.status === 401 && attempt === 0) return apiFetch(url, options, 1);
-  if ([429, 500, 502, 503, 504].includes(response.status) && attempt < 5) {
-    await wait(Math.min(30_000, 1000 * 2 ** attempt));
-    return apiFetch(url, options, attempt + 1);
-  }
   const text = await response.text();
   let body;
   try {
@@ -252,18 +246,28 @@ async function collectAnalytics() {
 }
 
 async function collectInspection() {
+  const sitemapResponse = await fetchSearchEvidence("https://echobuddha.com/sitemap.xml");
+  if (!sitemapResponse.ok) throw new Error("Current canonical sitemap could not be fetched");
+  const canonicalUrls = canonicalInspectionUrls(await sitemapResponse.text());
   const monitored = [...new Set([
+    ...canonicalUrls,
     ...CLUSTERS.map((cluster) => cluster.owner),
     ...WATCHLIST.map((item) => item.url)
   ])].map((route) => new URL(route, "https://echobuddha.com").toString()).sort();
   const results = [];
+  let authenticationDenied = false;
   for (let index = 0; index < monitored.length; index += 1) {
     const inspectionUrl = monitored[index];
+    if (authenticationDenied) {
+      results.push({ inspectionUrl, httpStatus: "NOT_ATTEMPTED", error: { status: "AUTHENTICATION_BLOCKED" } });
+      continue;
+    }
     const response = await apiFetch("https://searchconsole.googleapis.com/v1/urlInspection/index:inspect", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ inspectionUrl, siteUrl: GSC_PROPERTY, languageCode: "en-US" })
-    });
+    }).catch(() => ({ ok: false, status: "UNAVAILABLE", body: { error: { status: "TRANSPORT_UNAVAILABLE", message: "Bounded read-only request retries exhausted" } } }));
+    if ([401, 403].includes(response.status)) authenticationDenied = true;
     results.push(response.ok
       ? { inspectionUrl, httpStatus: response.status, inspectionResult: response.body.inspectionResult ?? {} }
       : {
@@ -286,8 +290,15 @@ async function collectInspection() {
     urlsRequested: monitored.length,
     results
   }, null, 2)}\n`, { mode: 0o600 });
+  fs.writeFileSync(path.join(outputDir, "url-indexing-summary.json"), `${JSON.stringify({
+    schemaVersion: 1, generatedAt: new Date().toISOString(), property: GSC_PROPERTY,
+    scope: READ_ONLY_SCOPE, cohort: "Current live sitemap plus existing owner watchlist",
+    sitemapUrls: canonicalUrls.length, urlsRequested: monitored.length,
+    results: results.map(summarizeGoogleInspection)
+  }, null, 2)}\n`);
   console.log(`Private inspection evidence written to ${outputPath}`);
+  if (results.some(row => row.httpStatus !== 200)) throw new Error("Read-only URL inspection incomplete; see sanitized URL summary");
 }
 
-if (mode === "all" || mode === "analytics") await collectAnalytics();
 if (mode === "all" || mode === "inspection") await collectInspection();
+if (mode === "all" || mode === "analytics") await collectAnalytics();

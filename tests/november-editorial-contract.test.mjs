@@ -48,14 +48,16 @@ test('November inventory adds only the accepted finite routes and preserves exis
   }
 });
 
-test('Unknown publication history stays absent while substantive candidate dates remain truthful', () => {
+test('Verified article publication matches the release receipt while learning date provenance stays unchanged', () => {
   const fresh = html('/articles/appreciative-joy-when-comparison-hurts/');
   const schemas = [...fresh.matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].flatMap(m=>JSON.parse(m[1]));
   const article = schemas.find(s=>[s['@type']].flat().includes('Article'));
   assert.ok(article);
-  assert.equal(article.datePublished, undefined);
+  const receipt = JSON.parse(fs.readFileSync('docs/deployments/receipts/2026-11-14-editorial-manuscript.json'));
+  assert.equal(receipt.sha, '036bd282f1b112f7af4f0f3ca82c62e67286ed6a');
+  assert.equal(article.datePublished, receipt.deployedAt.slice(0, 10));
   assert.equal(article.dateModified, '2026-11-14');
-  assert.doesNotMatch(fresh, /Published\s*<time/);
+  assert.match(fresh, /Published\s*<time datetime="2026-11-14"/);
   for (const route of ['/learn/sutta-for-daily-life/five-remembrances-an-5-57/','/learn/sutta-for-daily-life/two-arrows-sn-36-6/','/learn/buddhist-dictionary/vedana/']) {
     assert.match(html(route), /"dateModified":"2026-11-14"/, route);
     assert.doesNotMatch(html(route), /"datePublished"/, route);

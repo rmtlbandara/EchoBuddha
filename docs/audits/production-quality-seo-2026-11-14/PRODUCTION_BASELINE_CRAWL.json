@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-11-14T07:36:58.637Z",
+  "origin": "https://echobuddha.com",
+  "sitemap": 175,
+  "sitemap200": 175,
+  "uniqueTitles": 175,
+  "uniqueDescriptions": 175,
+  "svgPreviews": 0,
+  "canonicalFailures": 0,
+  "h1Failures": 0,
+  "noindexInSitemap": 0,
+  "html": 372,
+  "pagesWithTables": 8,
+  "under500MainWords": 48,
+  "undatedLearningArticles": 14,
+  "resources": {
+    "/sitemap.xml": {
+      "status": 200,
+      "sha256": "39145976f0f27d71cd419b240fca5fcff3365e082e3f9b85c3fd399507b26e44"
+    },
+    "/robots.txt": {
+      "status": 200,
+      "sha256": "392793712f2231d308ba20cd9c1efc59b45154799db549a5601ca5439617aa3b"
+    },
+    "/indexnow-manifest.json": {
+      "status": 200,
+      "sha256": "0eff88777a747d8201be1d992772e8d96cd9e6a3c596aa6e00080cb74268eaf1"
+    },
+    "/search-index.json": {
+      "status": 200,
+      "sha256": "02e03deb0951a183fe5f876992c693803dcba9098a51c6edc3e4cb4df084674b"
+    }
+  }
+}

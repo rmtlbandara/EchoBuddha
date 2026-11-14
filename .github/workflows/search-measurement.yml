@@ -56,11 +56,13 @@ jobs:
       - name: Generate aggregate measurement reports
         run: npm run generate:phase2:measurement
       - name: Upload aggregate evidence only
+        if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: search-measurement-${{ github.run_id }}
           path: |
             .artifacts/bing/summary.json
+            .artifacts/phase2-gsc/raw/url-indexing-summary.json
             docs/audits/phase-2-measurement-2026-09-29/REVISED_OBSERVATION.md
             docs/audits/phase-2-measurement-2026-09-29/PHASE_2_STATUS.json
             docs/audits/phase-2-measurement-2026-09-29/CLUSTER_TOTAL_PERFORMANCE.csv

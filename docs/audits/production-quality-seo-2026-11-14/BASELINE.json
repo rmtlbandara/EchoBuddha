@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-11-14T07:48:04.518Z",
+  "mainSha": "321e2f124f52bb1ad5f3c7821c2edb0fbf3a3475",
+  "production": {
+    "schemaVersion": 1,
+    "sha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-11-14T06:57:55.625Z"
+  },
+  "ownerInstruction": "Complete everything correctly according to the prompt and deploy to production/live.",
+  "adoptedPromptSha256": "484deae13ab9a177c53b3405da1fbe8a8919ef67f2366cc8096f38bdc4d696bd",
+  "firstPublication": {
+    "date": "2026-11-14",
+    "sourceSha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a",
+    "sourcePullRequest": 106,
+    "receipt": "docs/deployments/receipts/2026-11-14-editorial-manuscript.json",
+    "actualDeploymentUtc": "2026-11-14T06:58:47.323747Z",
+    "reason": "The article is new in the first successful public deployment. Use the calendar date of publication in UTC/Sri Lanka, independently of Pacific measurement reporting day; do not derive it from the review date or Git import."
+  },
+  "historicalInterventions": [
+    {
+      "id": "november-manuscript-refined-candidate-2026-11-14",
+      "sha256": "f133032a82eb107c9650011b4b4dbbe492e97746d67809dacee861a64fd88585"
+    }
+  ],
+  "baselineArticleDataSha256": "644520bc0f1df76683b73a1107417c8b5300f7c4a3c5ced0eea5bfd11e0f1cc8"
+}

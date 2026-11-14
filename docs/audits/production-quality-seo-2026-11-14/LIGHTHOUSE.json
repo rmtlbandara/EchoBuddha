@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-11-14T07:55:02.539Z",
+  "environment": "Local laboratory; not field Core Web Vitals or a ranking prediction",
+  "rows": [
+    {
+      "route": "/articles/",
+      "device": "mobile",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 1748.6853,
+      "cls": 0,
+      "tbtMs": 32.15734999999995
+    },
+    {
+      "route": "/articles/",
+      "device": "desktop",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 410.01279999999997,
+      "cls": 0,
+      "tbtMs": 0
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "device": "mobile",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 1353.6911,
+      "cls": 0.001734273664773513,
+      "tbtMs": 0
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "device": "desktop",
+      "performance": 1,
+      "accessibility": 1,
+      "lcpMs": 364.48030000000006,
+      "cls": 0,
+      "tbtMs": 0
+    }
+  ]
+}
