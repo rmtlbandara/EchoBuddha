@@ -1,0 +1,1354 @@
+{
+  "schemaVersion": 1,
+  "reportAsOf": "2026-11-09",
+  "observed": 167,
+  "currentSitemap": 175,
+  "notInHistoricalReport": [
+    "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+    "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+    "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+    "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+    "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+    "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+    "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+    "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/"
+  ],
+  "records": [
+    {
+      "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/terms-of-use/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 9, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/tools/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/start-here/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/disclaimer/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-resources/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 5, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/metta-meditation-script/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 5, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/privacy-policy/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/editorial-policy/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/eightfold-path/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/mindful-living/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/about/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/four-noble-truths/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Nov 3, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 30, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/corrections/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 30, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 30, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/reflection/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 30, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/contact/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 29, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 29, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/compassion/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/walking-meditation/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/breathing-meditation/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 26, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/renewal/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 24, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 19, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 17, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/awareness/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 16, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 12, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 30, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 30, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 26, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/letting-go/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quote-attribution-policy/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 24, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 24, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 18, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation-safety/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 9, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 9, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 9, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-examples/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 2, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 22, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 22, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/wisdom/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 21, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 20, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 19, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 18, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/meditation/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 16, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/practice/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 12, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/mindfulness/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 12, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/mindfulness/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/patience/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/impermanence/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 5, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 5, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/meditation/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 1, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 28, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "googleIndexedStatus": "Indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:01:15.743Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 29, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Oct 27, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 10, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Sep 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 31, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 25, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 24, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 24, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 22, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 19, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 19, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 18, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 18, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 16, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 16, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 15, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 15, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 8, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation-guide/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 7, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 5, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Aug 4, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 31, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 23, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 16, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 6, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "googleIndexedStatus": "Crawled - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6Jul 2, 2026",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:03:00.281Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "googleIndexedStatus": "Discovered - currently not indexed",
+      "googleLastCrawlDisplayed": "\ue14d\ue89e\ue8b6N/A",
+      "reportAsOf": "2026-11-09",
+      "cohort": "https://echobuddha.com/sitemap.xml",
+      "observedAt": "2026-11-14T08:04:33.084Z"
+    }
+  ]
+}

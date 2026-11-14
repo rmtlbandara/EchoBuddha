@@ -1,0 +1,26 @@
+{
+  "observedAt": "2026-11-14T08:12:00.079Z",
+  "expectedSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+  "releaseIdentity": {
+    "schemaVersion": 1,
+    "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-11-14T08:07:50.693Z"
+  },
+  "artifactAggregateSha256": "b8c79f96baa3fae65a757927024fe9c8b7e7b6ef36c198de9b8728441ad51274",
+  "artifactFiles": 862,
+  "publicFiles": 860,
+  "excludedConfigurationFiles": [
+    "dist/_headers",
+    "dist/_redirects"
+  ],
+  "byteIdentical": 859,
+  "edgeTransformedFiles": 1,
+  "html": 373,
+  "protectedRoutes": 23,
+  "protectedPassed": 23,
+  "htmlSecurityHeaders": 373,
+  "htmlAdsRuntimeAbsent": 373,
+  "failures": [],
+  "pass": true
+}

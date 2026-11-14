@@ -1,0 +1,258 @@
+{
+  "baselineMainSha": "321e2f124f52bb1ad5f3c7821c2edb0fbf3a3475",
+  "applicationFilesChanged": [
+    "src/data/novemberEdition.ts"
+  ],
+  "applicationScope": "One verified publication-date field; no authored content or protected-library change",
+  "publicAssetsChanged": [],
+  "canonicalIndexRedirectOwnerChanges": 0,
+  "documentationManifestExcludesItsOwnHash": true,
+  "files": [
+    {
+      "file": ".github/workflows/search-measurement.yml",
+      "beforeSha256": "f8bf38dce797edb773b223563f214a5925deb6cb8fa9a474b816f18abd76010b",
+      "currentSha256": "4af52da562f8741adf5f2bcefd87eed04bbb301d515c1a69e20f3de54d69de44",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/ARTICLE_PUBLICATION_METADATA.json",
+      "beforeSha256": null,
+      "currentSha256": "c158cee8d3cac35efdfa4cb28acf734ecf200091ce0faecbd827c3f41a5b9a69",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/AUTHENTICATED_ACCOUNT_OBSERVATIONS.json",
+      "beforeSha256": null,
+      "currentSha256": "63bb7760f67ce12c977da4102c9f7ff722eb2f840a14f390ea573ee3f5d85a27",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/BASELINE.json",
+      "beforeSha256": null,
+      "currentSha256": "6ee80133123d9fc4d472ed1dabf893b235c0f09981b0f04e2a3380ebf6546bb7",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/BING_CURRENT_CRAWL.json",
+      "beforeSha256": null,
+      "currentSha256": "790d28793ffd78ad93808f40c50b17911f30212b79551d2023514f96d34fe296",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/BING_DIAGNOSTIC_LIMITS.md",
+      "beforeSha256": null,
+      "currentSha256": "36f6b65618396b847283bf20958007bfbe9edbd7587cfa2bd328cd0ce50f98e5",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/BING_HISTORICAL_DIAGNOSTICS.json",
+      "beforeSha256": null,
+      "currentSha256": "4e1e0abd80b518c1fd19fc52a427c7af84feeb4585efdfad743d5a68663bec68",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/CANDIDATE_BROWSER_ACCEPTANCE.json",
+      "beforeSha256": null,
+      "currentSha256": "2bb85bb43d14296b19080b4edf44e3c2cfb6f0f007b27e19d28a4dbcc989f32f",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/CHANGED_ROUTES.csv",
+      "beforeSha256": null,
+      "currentSha256": "8a82810f3dbcdd39816107944630e24e74a7afc6266f65f8470ec46867d75496",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/EXTERNAL_LINKS.json",
+      "beforeSha256": null,
+      "currentSha256": "43dd99992c65954fa63535e8304b735b4260c5c8f10d458b6de0c910d1306fb2",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/FINAL_ISSUE_STATUS.csv",
+      "beforeSha256": null,
+      "currentSha256": "2e21ef8b9cfe3cb4951e69fae43a7067a068f790ee4c2f7da7166a886c480acf",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/FINAL_REPORT.md",
+      "beforeSha256": null,
+      "currentSha256": "f41d6d493214dd6582c9cb86ec0daf1b87c37ef46b9ad236a8b3411f9f31bf1a",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/GOOGLE_CURRENT_INSPECTION.json",
+      "beforeSha256": null,
+      "currentSha256": "9412f22009b67cdcb365592f63afa60cc54fa85e3d9451ff51b509fe78910510",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/GOOGLE_HISTORICAL_SITEMAP_COHORT.json",
+      "beforeSha256": null,
+      "currentSha256": "aab56634f506e2d7b1a5af5ff01fcae9d952f69525b8ce7989cd083b4e877c79",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/IMPLEMENTATION.md",
+      "beforeSha256": null,
+      "currentSha256": "cb1df51a851cba4fa3dce1a68e21852759bb03d92d0a574f1ced92a97e5121db",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/LIGHTHOUSE.json",
+      "beforeSha256": null,
+      "currentSha256": "29cd3c5f792cf9a321ad7c055788f94f7f0e27ebe692a7fae8aeed0561fc3ef2",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/LIVE_ARTIFACT_SUMMARY.json",
+      "beforeSha256": null,
+      "currentSha256": "d4ab43c4a31941cb79fa5bbc52415edae54fd57111e845cb409c6ec4476f8bc4",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/LIVE_BROWSER_ACCEPTANCE.json",
+      "beforeSha256": null,
+      "currentSha256": "508e20a133d4a020a5ddbf2d4f6581486d670b66586da3b4e0361e265c54199d",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/LIVE_COPY_LINK_ACCEPTANCE.json",
+      "beforeSha256": null,
+      "currentSha256": "5ded08e3aae0b044b1a59c29722c9121da2f9996d2274831dd01e766e4339bac",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/MICRO_QUALITY_ISSUES.csv",
+      "beforeSha256": null,
+      "currentSha256": "fd7220a799953916ab4dc8b228c4347bce19f05498da9d5fedb94f0bb81eec9c",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/MONITORING.json",
+      "beforeSha256": null,
+      "currentSha256": "4ca9d01cc19f14ca1eb85463f93a3ea8ebfa5136778e702d92459024ff9e5a55",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/MONITORING_FOLLOWUP.md",
+      "beforeSha256": null,
+      "currentSha256": "9b528a6824db0f9650f803aaf4912ad77bd8f539b4bdc4f6f08f9ce24b85ea11",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/PRODUCTION_BASELINE_CRAWL.json",
+      "beforeSha256": null,
+      "currentSha256": "802ec1972da29425c37f625c01e19c2c762f6d402f1df8598836c6148a4326a6",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/PRODUCTION_MONITOR.json",
+      "beforeSha256": null,
+      "currentSha256": "15602927129195253f6926b68df8cfccd182903ce1bf46ee4f5b715483b68f31",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/PRODUCTION_SMOKE.json",
+      "beforeSha256": null,
+      "currentSha256": "6446b2f872a6c8646812c61a2012332f9e606d510f390bc3aaed86c08ef3c989",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/PUBLIC_ARTIFACT_PARITY.csv",
+      "beforeSha256": null,
+      "currentSha256": "e2c3bdf6785bf6741c4ae1088a393371d7fa822dd83d728c74aac1f515cf983c",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/STATIC_QUALITY.json",
+      "beforeSha256": null,
+      "currentSha256": "4e49aab8bd224881544210e6cf4875a524b8171e897cba0d7c6144759ca03517",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/URL_INDEXING_REGISTER.csv",
+      "beforeSha256": null,
+      "currentSha256": "25a1251da880cad6ee3b0a664282ff7506d24c87e98bd30ec2eb371a18d71776",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/URL_INDEXING_REGISTER.json",
+      "beforeSha256": null,
+      "currentSha256": "8104e4867d4a29b9b8371ae967f503f034a60b36add75456b1fc722f9e6ae7d7",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/deployments/2026-11-14-publication-quality-seo.md",
+      "beforeSha256": null,
+      "currentSha256": "ff3d4d475aec02e2509555e839086937ccd36c987021dccfe1eb109b94d9a9eb",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "docs/deployments/receipts/2026-11-14-publication-quality-seo.json",
+      "beforeSha256": null,
+      "currentSha256": "2179f42a5115e5231635c21dbc2103351e0eaca36fa9e168f6c9ebf10818b4b9",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "governance/measurement-interventions.json",
+      "beforeSha256": "c1cda65599302e62ce0ae3fe46ca1adddd59222692a667f5c6083d115c6a061a",
+      "currentSha256": "bac9e962f486ca66e8145e589e521f3061d62f1bffa6cf391e0dade840177051",
+      "kind": "documentation/governance"
+    },
+    {
+      "file": "scripts/collect-bing.mjs",
+      "beforeSha256": "b99f7b284ee6a8f5645725964af3a93394538913c878c49ad08235044c2bcec2",
+      "currentSha256": "856da75fbf098c9061c26d5a449995880c52a90c881f7c7c996259f9f23785c1",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "scripts/collect-phase-2-gsc.mjs",
+      "beforeSha256": "19c74489deb04275b21374e3dfd047a686b1633e55bf20a66c6b77dcbb787ef5",
+      "currentSha256": "f5850613c4a654b5863a1332fed072653536b79c03587671edf1f5e0823ed6f4",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "scripts/search-inspection-policy.mjs",
+      "beforeSha256": null,
+      "currentSha256": "28923fbf5647d1e638acb1e54369792f872cfc676c2794a612c67212328fb3f7",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "src/data/novemberEdition.ts",
+      "beforeSha256": "644520bc0f1df76683b73a1107417c8b5300f7c4a3c5ced0eea5bfd11e0f1cc8",
+      "currentSha256": "9a8ca59e3e80912b054ab4d099252f953451741dc774ea14bce0e757001122f1",
+      "kind": "application"
+    },
+    {
+      "file": "tests/article-publication-date.test.mjs",
+      "beforeSha256": null,
+      "currentSha256": "fc5c6fe4003d2573154eec36d451ce7e3d0b12f5f3860ef69ed3d627ab08e9bf",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "tests/bing-reporting.test.mjs",
+      "beforeSha256": "95e78542b776ce0b1f5bad8f0fab923c8fbedfae917175959e9499831c99f974",
+      "currentSha256": "27df4be29724163c63769382b34824a9285944627a1e4ab3ae92b4db308bc4e3",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "tests/november-editorial-contract.test.mjs",
+      "beforeSha256": "3a7bb7413ff1c486efcad70a6086e1f139df962fc1efbb25ebfb24052c25e055",
+      "currentSha256": "4c669ff48b1ff6999f479e7826d5db65cd5b8610280a0a8e9ff0e2011e5b1084",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "tests/search-inspection-policy.test.mjs",
+      "beforeSha256": null,
+      "currentSha256": "a3baaf03f88160180f4a61180245b2b5dfb6f1bbb4014573e2fcc1b70df3a4c4",
+      "kind": "tooling/test"
+    },
+    {
+      "file": "docs/audits/production-quality-seo-2026-11-14/CHANGED_FILES.json",
+      "beforeSha256": null,
+      "currentSha256": null,
+      "kind": "documentation; own digest intentionally excluded"
+    }
+  ]
+}

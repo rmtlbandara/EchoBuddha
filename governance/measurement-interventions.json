@@ -1699,6 +1699,32 @@
         }
       ],
       "measurementImpact": "A metadata-only correction of a verified date is not an editorial rewrite. Append the actual deployment receipt and observation-window classification after successful production verification. No causal growth or consolidation decision is authorized."
+    },
+    {
+      "id": "publication-quality-release-receipt-2026-11-14",
+      "status": "DEPLOYED",
+      "authorizedBy": "Project owner adopted writing-block (34).md and explicitly requested complete execution and production/live deployment, then confirmed newest-first article placement.",
+      "authorizedOn": "2026-11-14",
+      "baselineSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+      "baselineEvidence": "docs/deployments/receipts/2026-11-14-publication-quality-seo.json",
+      "baselineEvidenceSha256": "2179f42a5115e5231635c21dbc2103351e0eaca36fa9e168f6c9ebf10818b4b9",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Append actual date/order correction release, full live parity and browser acceptance, successful Google/Bing sitemap processing, four Google indexed confirmations and successful paced read-only monitoring. Preserve every earlier authorization, candidate, baseline and deployment record.",
+      "approvedApplicationFiles": {},
+      "productionSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+      "productionDeployedAt": "2026-11-14T08:08:46.245129Z",
+      "latestVerifiedProduction": {
+        "workflowRunId": 43574280649,
+        "cloudflareDeploymentId": "591fafff-cd21-4bec-b5e2-effb29fe1852",
+        "cloudflareVersionId": "6b111083-65c1-4099-bcc7-219d5957c2db",
+        "smokePassed": 15,
+        "publicFilesVerified": 860,
+        "protectedRoutesUnchanged": 23
+      },
+      "measurementImpact": "The visible date/order correction intervenes in the earlier November 14–December 11 Pacific window. Exclude actual deployment day November 14. New complete descriptive window: November 15–December 12, 2026, 28 days; apply the existing finalization buffer and verify actual finalized data. No causal CTR/ranking/growth conclusion or destructive consolidation is authorized."
     }
   ]
 }

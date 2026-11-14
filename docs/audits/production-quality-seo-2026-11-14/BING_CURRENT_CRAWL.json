@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-11-14T08:41:08.318Z",
+  "site": "https://echobuddha.com/",
+  "verified": true,
+  "endpoints": {
+    "GetUserSites": {
+      "status": 200,
+      "rows": 1
+    },
+    "GetFeeds": {
+      "status": 200,
+      "rows": 2
+    },
+    "GetRankAndTrafficStats": {
+      "status": 200,
+      "rows": 73
+    },
+    "GetCrawlStats": {
+      "status": 200,
+      "rows": 37
+    }
+  },
+  "sitemaps": [
+    {
+      "url": "https://echobuddha.com/sitemap.xml",
+      "status": "Success",
+      "urls": 175,
+      "lastCrawled": "/Date(1794644133000)/"
+    },
+    {
+      "url": "https://www.echobuddha.com/sitemap.xml",
+      "status": "Success",
+      "urls": 171,
+      "lastCrawled": "/Date(1793824984000)/"
+    }
+  ],
+  "urlDiagnostics": [
+    {
+      "url": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639571000)/",
+      "discoveryDate": "/Date(1794643200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639595000)/",
+      "discoveryDate": "/Date(1784876400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794450409000)/",
+      "discoveryDate": "/Date(1784617200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639560000)/",
+      "discoveryDate": "/Date(1794643200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/eightfold-path/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794396408000)/",
+      "discoveryDate": "/Date(1787036400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/four-noble-truths/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1793236365000)/",
+      "discoveryDate": "/Date(1787122800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639713000)/",
+      "discoveryDate": "/Date(1794643200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639716000)/",
+      "discoveryDate": "/Date(1794643200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792489880000)/",
+      "discoveryDate": "/Date(1786345200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "status": 200,
+      "apiErrorCode": null,
+      "classification": "CRAWL_DATA_ONLY",
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792323010000)/",
+      "discoveryDate": "/Date(1786086000000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    }
+  ],
+  "limitations": [
+    "A submitted sitemap or IndexNow receipt does not prove indexing.",
+    "API-returned traffic and crawl intervals may differ from dashboard selections.",
+    "Raw account records and verification codes are never uploaded in this aggregate report."
+  ],
+  "diagnosticScope": "Four new owners plus six established core owners; paced seven seconds between diagnostic calls. Current complete 175-URL Google coverage is separate."
+}

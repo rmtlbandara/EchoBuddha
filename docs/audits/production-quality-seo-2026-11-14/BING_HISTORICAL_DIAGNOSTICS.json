@@ -1,0 +1,1586 @@
+{
+  "generatedAt": "2026-11-14T08:23:24.109Z",
+  "cohort": 175,
+  "httpStatusCounts": {
+    "200": 20,
+    "400": 155
+  },
+  "results": [
+    {
+      "url": "https://echobuddha.com/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794641033000)/",
+      "discoveryDate": "/Date(1768982400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/about/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1793154368000)/",
+      "discoveryDate": "/Date(1786950000000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792897938000)/",
+      "discoveryDate": "/Date(1786690800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639571000)/",
+      "discoveryDate": "/Date(1794643200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794621462000)/",
+      "discoveryDate": "/Date(1785222000000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794640529000)/",
+      "discoveryDate": "/Date(1786777200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794421374000)/",
+      "discoveryDate": "/Date(1785049200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792902852000)/",
+      "discoveryDate": "/Date(1786690800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794299948000)/",
+      "discoveryDate": "/Date(1784876400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792111030000)/",
+      "discoveryDate": "/Date(1785740400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/mindfulness/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/reflection/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/metta-meditation-script/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-examples/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/contact/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/corrections/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/disclaimer/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/editorial-policy/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1793503897000)/",
+      "discoveryDate": "/Date(1785740400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1791646765000)/",
+      "discoveryDate": "/Date(1785481200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639596000)/",
+      "discoveryDate": "/Date(1784962800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792956725000)/",
+      "discoveryDate": "/Date(1792911600000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792099822000)/",
+      "discoveryDate": "/Date(1785740400000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639577000)/",
+      "discoveryDate": "/Date(1783494000000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1792829348000)/",
+      "discoveryDate": "/Date(1788159600000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794639560000)/",
+      "discoveryDate": "/Date(1794643200000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1794325822000)/",
+      "discoveryDate": "/Date(1791874800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+      "status": 200,
+      "isPage": true,
+      "httpStatus": 0,
+      "lastCrawledDate": "/Date(1793986994000)/",
+      "discoveryDate": "/Date(1793692800000)/",
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-resources/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/eightfold-path/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/four-noble-truths/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation-guide/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation-safety/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/breathing-meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/walking-meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/mindful-living/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/privacy-policy/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quote-attribution-policy/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/awareness/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/compassion/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/impermanence/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/letting-go/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/meditation/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/mindfulness/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/patience/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/practice/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/renewal/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/quotes/wisdom/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/start-here/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/terms-of-use/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    },
+    {
+      "url": "https://echobuddha.com/tools/",
+      "status": 400,
+      "isPage": null,
+      "httpStatus": null,
+      "lastCrawledDate": null,
+      "discoveryDate": null,
+      "note": "GetUrlInfo crawl evidence; IsPage alone is not an indexed-status assertion or a reconciliation of all dashboard views."
+    }
+  ],
+  "note": "Historical rapid sweep; older untyped HTTP 400 responses do not establish website failure or indexed state."
+}

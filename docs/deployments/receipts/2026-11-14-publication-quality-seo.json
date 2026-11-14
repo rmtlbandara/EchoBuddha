@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+  "sourcePullRequest": 108,
+  "sourcePrHeadSha": "b365642c955075b5156afd2f52f261be8885c414",
+  "githubRunId": 43574280649,
+  "githubDeploymentId": 7784780514,
+  "githubSuccessStatusId": 22183847041,
+  "cloudflareDeploymentId": "591fafff-cd21-4bec-b5e2-effb29fe1852",
+  "cloudflareVersionId": "6b111083-65c1-4099-bcc7-219d5957c2db",
+  "trafficPercent": 100,
+  "deployedAt": "2026-11-14T08:08:46.245129Z",
+  "builtAt": "2026-11-14T08:07:50.693Z",
+  "ownerAuthorization": {
+    "date": "2026-11-14",
+    "instruction": "Complete everything correctly according to the prompt and deploy to production/live.",
+    "adoptedPromptSha256": "484deae13ab9a177c53b3405da1fbe8a8919ef67f2366cc8096f38bdc4d696bd",
+    "scope": "Complete the adopted production quality/SEO prompt, necessary non-destructive fixes, governed release and official justified submissions. Preserve protected libraries, authored content, privacy/security and advertising-off state."
+  },
+  "ci": {
+    "sourcePrRunId": 43573478373,
+    "mainRunId": 43573825167,
+    "releaseAndBrowserJobs": "PASS",
+    "deployedSourceTests": 127,
+    "failed": 0,
+    "monitoringFollowupPr": 109,
+    "monitoringFollowupCiRunId": 43575497577,
+    "monitoringFollowupTests": 130,
+    "applicationChangesInFollowup": 0,
+    "latestToolingTests": 132,
+    "bingPacingFollowupPr": 110,
+    "bingPacingCiRunId": 43576863972,
+    "bingPacingMergeSha": "1186e030195b12d7c90db2f645fb4f4f0c0bab7a"
+  },
+  "artifact": {
+    "id": 14105084734,
+    "sha256": "ace762c7e06362640090f04269ad3fc3b4f585b23c6496b862bc32c6261d7463",
+    "aggregateSha256": "b8c79f96baa3fae65a757927024fe9c8b7e7b6ef36c198de9b8728441ad51274",
+    "manifestFiles": 862,
+    "hostedExactShaAndEveryFileDigestVerification": "PASS"
+  },
+  "smoke": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "verifiedAt": "2026-11-14T08:08:49.683Z"
+  },
+  "publicArtifactVerification": {
+    "observedAt": "2026-11-14T08:12:00.079Z",
+    "expectedSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+    "releaseIdentity": {
+      "schemaVersion": 1,
+      "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+      "ref": "refs/heads/main",
+      "builtAt": "2026-11-14T08:07:50.693Z"
+    },
+    "artifactAggregateSha256": "b8c79f96baa3fae65a757927024fe9c8b7e7b6ef36c198de9b8728441ad51274",
+    "artifactFiles": 862,
+    "publicFiles": 860,
+    "excludedConfigurationFiles": [
+      "dist/_headers",
+      "dist/_redirects"
+    ],
+    "byteIdentical": 859,
+    "edgeTransformedFiles": 1,
+    "html": 373,
+    "protectedRoutes": 23,
+    "protectedPassed": 23,
+    "htmlSecurityHeaders": 373,
+    "htmlAdsRuntimeAbsent": 373,
+    "failures": [],
+    "pass": true
+  },
+  "liveBrowser": {
+    "status": "PASS",
+    "routeViewportChecks": 214,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440
+    ],
+    "allArticleDetailsChecked": 49,
+    "enlargedText200Percent": true,
+    "optionalGoogleRequests": 0,
+    "keyboardCopyExactUrlAtFiveWidths": "PASS"
+  },
+  "publicationCorrection": {
+    "url": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+    "firstPublished": "2026-11-14",
+    "existingEditorialReview": "2026-11-14",
+    "visibleTimeAndSchemaAndSocialDates": "PASS",
+    "newestFirstInAllArticlesAndPractice": "PASS",
+    "authoredContentChanged": false,
+    "historicalArticleDatesChanged": false
+  },
+  "inventory": {
+    "readerRoutes": 372,
+    "htmlIncluding404": 373,
+    "sitemapUrls": 175,
+    "localSearchRecords": 352,
+    "protectedRoutesUnchanged": 23
+  },
+  "indexnow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 4,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-14T08:08:51.241Z",
+    "indexingGuaranteed": false
+  },
+  "google": {
+    "priorityRequestsAccepted": 4,
+    "liveTestsEligible": 4,
+    "sitemapStatus": "Success",
+    "sitemapLastRead": "2026-11-14",
+    "sitemapDiscovered": 175,
+    "priorityIndexedConfirmed": 4,
+    "indexedCanonicalMismatches": 0,
+    "fullCohortInspected": 175,
+    "fullCohortCoverage": {
+      "Submitted and indexed": 124,
+      "Crawled - currently not indexed": 44,
+      "URL is unknown to Google": 1,
+      "Discovered - currently not indexed": 6
+    },
+    "inspectionVerifiedAt": "2026-11-14T08:47:20.286Z"
+  },
+  "bing": {
+    "priorityLiveTestsEligible": 4,
+    "sitemapResubmitted": "2026-11-14",
+    "sitemapStatus": "Success",
+    "noRepeatedDirectUrlSubmissions": true,
+    "earlierBrowserSitemapStatus": "Processing",
+    "sitemapDiscovered": 175,
+    "pacedDiagnosticHttp200": 10,
+    "indexStateFromCrawlApi": "NOT_INFERRED",
+    "earlierOfficialBrowserSnapshotsNotIndexed": 4,
+    "currentIndexedSelectionFromCrawlApi": "UNKNOWN; preserve earlier official browser observations with timestamps"
+  },
+  "independentProductionMonitor": {
+    "workflowRunId": 43575787950,
+    "productionStatus": "VERIFIED_LIVE",
+    "verifiedAt": "2026-11-14T08:26:04.261Z",
+    "passed": 15,
+    "failed": 0,
+    "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a"
+  },
+  "measurement": {
+    "timeZone": "America/Los_Angeles",
+    "excludedDeploymentDay": "2026-11-14",
+    "stablePostWindowStart": "2026-11-15",
+    "stablePostWindowEnd": "2026-12-12",
+    "expectedDays": 28,
+    "previousWindow": "2026-11-14 through 2026-12-11 is now intervened; preserve as historical descriptive context.",
+    "review": "Allow the existing finalization buffer, verify actual finalized data and claim no causal ranking, CTR or growth outcome."
+  },
+  "previousVerifiedProduction": {
+    "sha": "036bd282f1b112f7af4f0f3ca82c62e67286ed6a",
+    "cloudflareVersionId": "4c214678-450d-4d71-a84d-746aab5f378c"
+  },
+  "acceptanceEvidence": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/43574280649",
+  "acceptanceReportPath": "docs/deployments/2026-11-14-publication-quality-seo.md",
+  "searchMonitoring": {
+    "status": "ACTIVE_AND_EXECUTED",
+    "searchWorkflowRunId": 43576863316,
+    "searchWorkflowSourceHead": "ffab15ac2dbaf70a622b6e1919d6bb07d96344ee",
+    "executionRef": "Scoped tooling branch; its complete source tree matches the checked squash merge on main",
+    "searchWorkflowState": "active",
+    "searchScheduleUtc": "23 5 * * 4",
+    "googleCurrentSitemapInspections": 175,
+    "googleInspectionHttp200": 175,
+    "googleCounts": {
+      "Submitted and indexed": 124,
+      "Crawled - currently not indexed": 44,
+      "URL is unknown to Google": 1,
+      "Discovered - currently not indexed": 6
+    },
+    "googlePriorityIndexed": 4,
+    "bingCoreEndpoints": "4/4 HTTP 200; verified property",
+    "bingPacedPriorityDiagnostics": "10/10 HTTP 200; no typed throttle error",
+    "bingSitemap": "Success; 175",
+    "productionSmokeRunId": 43575787950,
+    "productionStatus": "VERIFIED_LIVE",
+    "productionSmokeScheduleUtc": "31 4 * * 3",
+    "newSchedulesOrCredentials": false,
+    "limitation": "Bing crawl records do not establish exact indexed selection. Earlier API-400 history is retained separately.",
+    "toolingMergeSha": "1186e030195b12d7c90db2f645fb4f4f0c0bab7a"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "ACTIVE_AND_EXECUTED",
+  "searchWorkflowRunId": 43576863316,
+  "searchWorkflowSourceHead": "ffab15ac2dbaf70a622b6e1919d6bb07d96344ee",
+  "executionRef": "Scoped tooling branch; its complete source tree matches the checked squash merge on main",
+  "searchWorkflowState": "active",
+  "searchScheduleUtc": "23 5 * * 4",
+  "googleCurrentSitemapInspections": 175,
+  "googleInspectionHttp200": 175,
+  "googleCounts": {
+    "Submitted and indexed": 124,
+    "Crawled - currently not indexed": 44,
+    "URL is unknown to Google": 1,
+    "Discovered - currently not indexed": 6
+  },
+  "googlePriorityIndexed": 4,
+  "bingCoreEndpoints": "4/4 HTTP 200; verified property",
+  "bingPacedPriorityDiagnostics": "10/10 HTTP 200; no typed throttle error",
+  "bingSitemap": "Success; 175",
+  "productionSmokeRunId": 43575787950,
+  "productionStatus": "VERIFIED_LIVE",
+  "productionSmokeScheduleUtc": "31 4 * * 3",
+  "newSchedulesOrCredentials": false,
+  "limitation": "Bing crawl records do not establish exact indexed selection. Earlier API-400 history is retained separately."
+}
