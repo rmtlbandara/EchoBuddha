@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { canonicalInspectionUrls, fetchSearchEvidence } from "./search-inspection-policy.mjs";
 
 const SITE = "https://echobuddha.com/";
 const METHODS = ["GetUserSites", "GetFeeds", "GetRankAndTrafficStats", "GetCrawlStats"];
@@ -69,5 +70,7 @@ export async function collectBing({ key, out, fetcher = fetch, diagnosticUrls = 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   const file = process.env.ECHOBUDDHA_BING_KEY_FILE;
   if (!file) throw new Error("Set ECHOBUDDHA_BING_KEY_FILE to an existing private credential file");
-  await collectBing({ key: fs.readFileSync(file, "utf8").trim(), out: process.env.BING_OUT_DIR || ".artifacts/bing", diagnosticUrls: ["https://echobuddha.com/daily-reflections/", "https://echobuddha.com/learn/buddhist-handbook/"] });
+  const sitemap = await fetchSearchEvidence(`${SITE}sitemap.xml`);
+  if (!sitemap.ok) throw new Error("Current canonical sitemap could not be fetched");
+  await collectBing({ key: fs.readFileSync(file, "utf8").trim(), out: process.env.BING_OUT_DIR || ".artifacts/bing", diagnosticUrls: canonicalInspectionUrls(await sitemap.text()) });
 }

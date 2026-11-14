@@ -1674,6 +1674,31 @@
         "protectedRoutesUnchanged": 23
       },
       "measurementImpact": "Actual Pacific deployment day 2026-11-13 is excluded. New complete descriptive observation window: 2026-11-14 through 2026-12-11, 28 days; allow the existing finalization buffer and require finalized data. Prior intervened windows do not establish causal growth or authorize destructive consolidation."
+    },
+    {
+      "id": "production-quality-publication-date-2026-11-14",
+      "status": "AUTHORIZED_RELEASE_CANDIDATE",
+      "authorizedBy": "Project owner adopted writing-block (34).md and explicitly requested complete execution and production deployment; additionally requested newest-first article ordering.",
+      "authorizedOn": "2026-11-14",
+      "baselineSha": "321e2f124f52bb1ad5f3c7821c2edb0fbf3a3475",
+      "baselineEvidence": "docs/audits/production-quality-seo-2026-11-14/BASELINE.json",
+      "baselineEvidenceSha256": "6ee80133123d9fc4d472ed1dabf893b235c0f09981b0f04e2a3380ebf6546bb7",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Restore the verified first-publication date of Appreciative Joy. Existing chronological card ordering then places it first. Preserve authored content, URLs, source metadata, protected learning libraries, original historical dates, consent and advertising-off settings. Improve the existing read-only search measurement workflow with bounded transport retries and current live sitemap inspection; no new schedule or account permissions.",
+      "approvedApplicationFiles": {
+        "src/data/novemberEdition.ts": "9a8ca59e3e80912b054ab4d099252f953451741dc774ea14bce0e757001122f1"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/novemberEdition.ts",
+          "interventionId": "november-manuscript-refined-candidate-2026-11-14",
+          "previousSha256": "644520bc0f1df76683b73a1107417c8b5300f7c4a3c5ced0eea5bfd11e0f1cc8"
+        }
+      ],
+      "measurementImpact": "A metadata-only correction of a verified date is not an editorial rewrite. Append the actual deployment receipt and observation-window classification after successful production verification. No causal growth or consolidation decision is authorized."
     }
   ]
 }

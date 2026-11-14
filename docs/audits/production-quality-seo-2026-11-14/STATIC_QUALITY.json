@@ -1,0 +1,3897 @@
+{
+  "generatedAt": "2026-11-14T07:50:46.884738+00:00",
+  "html": 373,
+  "readerRoutes": 372,
+  "sitemap": 175,
+  "searchRecords": 352,
+  "uniqueSitemapTitles": 175,
+  "uniqueSitemapDescriptions": 175,
+  "uniqueLocalImages": 64,
+  "protected": 23,
+  "protectedPassed": 23,
+  "issues": [],
+  "intendedIndexable": [
+    {
+      "url": "https://echobuddha.com/",
+      "family": "home",
+      "canonical": "https://echobuddha.com/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Wisdom, Learning &amp; Meditation | Echo Buddha",
+      "description": "Explore Buddhist teachings, practical meditation, and everyday application through clear, source-aware guidance for beginners and returning readers.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 71,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebSite",
+        "Organization"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/about/",
+      "family": "about",
+      "canonical": "https://echobuddha.com/about/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "About Echo Buddha | Echo Buddha",
+      "description": "Learn about Echo Buddha's purpose, educational approach, editorial standards, and respectful Buddhist-inspired content.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 44,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "AboutPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/start-here/",
+      "family": "start-here",
+      "canonical": "https://echobuddha.com/start-here/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Start Here - Begin Your Buddhist Wisdom and Mindfulness Journey | Echo Buddha",
+      "description": "New to Echo Buddha? Start with simple Buddhist teachings, beginner meditation, daily reflections, and practical mindfulness guidance.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 58,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/editorial-policy/",
+      "family": "editorial-policy",
+      "canonical": "https://echobuddha.com/editorial-policy/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Editorial Policy | Echo Buddha",
+      "description": "Read the Echo Buddha editorial policy covering content purpose, originality, review, corrections, and responsible limitations.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 47,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "family": "how-echo-buddha-creates-content",
+      "canonical": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How Echo Buddha Creates Content | Echo Buddha",
+      "description": "Learn how Echo Buddha creates original Buddhist-inspired articles, quotes, reflections, and meditation guidance with source-aware review.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 39,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "family": "buddhist-sources-and-citations",
+      "canonical": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Sources and Citations | Echo Buddha",
+      "description": "How Echo Buddha references Buddhist teachings, translations, paraphrases, scripture, commentary, and further reading.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 37,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quote-attribution-policy/",
+      "family": "quote-attribution-policy",
+      "canonical": "https://echobuddha.com/quote-attribution-policy/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Quote Attribution Policy | Echo Buddha",
+      "description": "How Echo Buddha labels original quote reflections, verified quotes, paraphrases, popular sayings, and quote corrections.",
+      "h1Count": 1,
+      "internalInbound": 172,
+      "internalLinks": 37,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation-safety/",
+      "family": "meditation-safety",
+      "canonical": "https://echobuddha.com/meditation-safety/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Meditation Safety and Gentle Practice | Echo Buddha",
+      "description": "Echo Buddha's meditation safety guidance for educational practice, grounding, adapting, stopping, and seeking qualified support.",
+      "h1Count": 1,
+      "internalInbound": 100,
+      "internalLinks": 38,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/corrections/",
+      "family": "corrections",
+      "canonical": "https://echobuddha.com/corrections/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Corrections and Editorial Updates | Echo Buddha",
+      "description": "How to report Echo Buddha source, quote, typo, safety, clarity, and editorial update concerns.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 37,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "family": "authors",
+      "canonical": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Echo Buddha Editorial | Echo Buddha",
+      "description": "Understand the organizational Echo Buddha Editorial byline used for accessible Buddhist-inspired education, reflection, and meditation guidance.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 57,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "ProfilePage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Learn Buddhist Wisdom for Daily Life | Echo Buddha",
+      "description": "Explore Echo Buddha's calm learning library with beginner-friendly Buddhist teachings, dictionary terms, meditation guidance, Dhammapada reflections, sutta notes, and practical daily wisdom.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 72,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhism for Beginners - Simple Buddhist Teachings | Echo Buddha",
+      "description": "Start learning Buddhism with a calm 7-day path through the Buddha, Four Noble Truths, Eightfold Path, mindfulness, ethics, compassion, karma, and meditation.",
+      "h1Count": 1,
+      "internalInbound": 16,
+      "internalLinks": 59,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/four-noble-truths/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/four-noble-truths/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Four Noble Truths Explained for Beginners | Echo Buddha",
+      "description": "Learn the Four Noble Truths in simple language: suffering, the causes of suffering, the possibility of release, and the path of practice.",
+      "h1Count": 1,
+      "internalInbound": 23,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-23",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/eightfold-path/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/eightfold-path/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Noble Eightfold Path for Daily Life | Echo Buddha",
+      "description": "Learn the Noble Eightfold Path as a practical Buddhist training in wisdom, ethical conduct, effort, mindfulness, and meditation.",
+      "h1Count": 1,
+      "internalInbound": 44,
+      "internalLinks": 61,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-23",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Questions About Buddhism | Echo Buddha",
+      "description": "Beginner-friendly answers to common questions about Buddhism, meditation, suffering, compassion, attachment, and home practice.",
+      "h1Count": 1,
+      "internalInbound": 15,
+      "internalLinks": 85,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-resources/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-resources/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Resources | Echo Buddha",
+      "description": "A curated Echo Buddha resource page for Buddhist texts, meditation learning, dictionaries, beginner Buddhism, Sri Lankan resources, and global Buddhist study.",
+      "h1Count": 1,
+      "internalInbound": 12,
+      "internalLinks": 62,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Life &amp; Practice Handbook | Echo Buddha",
+      "description": "A source-aware twelve-chapter guide to the Triple Gem, refuge, the lay Buddhist path, ethical practice, generosity, and lay–monastic accountability.",
+      "h1Count": 1,
+      "internalInbound": 14,
+      "internalLinks": 55,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "family": "daily-reflections",
+      "canonical": "https://echobuddha.com/daily-reflections/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Daily Buddhist Reflections for Mindful Living | Echo Buddha",
+      "description": "Read short Buddhist-inspired daily reflections with simple meanings, mindful practices, and journal questions for everyday life.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 207,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/mindful-living/",
+      "family": "mindful-living",
+      "canonical": "https://echobuddha.com/mindful-living/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindful Living with Buddhist Wisdom | Echo Buddha",
+      "description": "Explore practical Buddhist-inspired mindfulness for daily life, work, speech, relationships, patience, compassion, and letting go.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 96,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/tools/",
+      "family": "tools",
+      "canonical": "https://echobuddha.com/tools/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Mindfulness Tools and Daily Practice Resources | Echo Buddha",
+      "description": "Use simple mindfulness tools including a daily reflection generator, Buddhist quote tool, meditation timer, breathing timer, and 7-day practice path.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 65,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Buddhist-Inspired Quotes | Echo Buddha",
+      "description": "Read original Echo Buddha quotes inspired by Buddhist practice, with clear origin labels, reflection stories, and mindful browsing by theme.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 542,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Articles and Blog | Echo Buddha",
+      "description": "Browse Echo Buddha articles on mindfulness, meditation, compassion, patience, and Buddhist-inspired daily reflection.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 187,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Blog",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Beginner Meditation Guides and Mindfulness Practices | Echo Buddha",
+      "description": "Learn simple meditation practices, breathing exercises, walking meditation, and mindful awareness techniques for beginners.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation-guide/",
+      "family": "meditation-guide",
+      "canonical": "https://echobuddha.com/meditation-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Meditation Guide for Beginners | Echo Buddha",
+      "description": "Learn how to meditate with this beginner-friendly guide to posture, breathing, mindfulness, distractions, meditation types, and daily practice.",
+      "h1Count": 1,
+      "internalInbound": 10,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/contact/",
+      "family": "contact",
+      "canonical": "https://echobuddha.com/contact/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Contact | Echo Buddha",
+      "description": "Contact Echo Buddha for editorial inquiries, corrections, content suggestions, accessibility, privacy settings, or website support.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 37,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "ContactPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/privacy-policy/",
+      "family": "privacy-policy",
+      "canonical": "https://echobuddha.com/privacy-policy/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Privacy Policy | Echo Buddha",
+      "description": "Read how Echo Buddha handles analytics, cookies, advertising technologies, email messages, and privacy choices.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 39,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "PrivacyPolicy"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/terms-of-use/",
+      "family": "terms-of-use",
+      "canonical": "https://echobuddha.com/terms-of-use/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Terms of Use | Echo Buddha",
+      "description": "Read the terms for using Echo Buddha articles, original quotes, meditation guidance, and educational resources.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 36,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/disclaimer/",
+      "family": "disclaimer",
+      "canonical": "https://echobuddha.com/disclaimer/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Disclaimer | Echo Buddha",
+      "description": "Read the Echo Buddha disclaimer about educational content, meditation guidance, wellness topics, and spiritual study.",
+      "h1Count": 1,
+      "internalInbound": 372,
+      "internalLinks": 37,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "WebPage"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhism 101 | Echo Buddha",
+      "description": "Beginner-friendly lessons on the Buddha, core teachings, karma, mindfulness, and daily practice.",
+      "h1Count": 1,
+      "internalInbound": 25,
+      "internalLinks": 72,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Dictionary | Echo Buddha",
+      "description": "A practical glossary of Buddhist terms explained in simple, beginner-friendly English.",
+      "h1Count": 1,
+      "internalInbound": 23,
+      "internalLinks": 56,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "DefinedTermSet",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhammapada Reflections | Echo Buddha",
+      "description": "Original Dhammapada-inspired explanations, practical reflections, and links to named source texts.",
+      "h1Count": 1,
+      "internalInbound": 13,
+      "internalLinks": 46,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Sutta for Daily Life | Echo Buddha",
+      "description": "Simple explanations of Buddhist teachings from sutta themes, written for ordinary readers.",
+      "h1Count": 1,
+      "internalInbound": 14,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Who Was the Buddha? A Simple Beginner-Friendly Explanation | Echo Buddha",
+      "description": "Learn who the Buddha was, why he is called the awakened one, and how his life story can guide modern daily practice.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Is Buddhism? A Clear Beginner&#39;s Guide | Echo Buddha",
+      "description": "A simple explanation of Buddhism as a path of wisdom, ethical living, meditation, compassion, and practical insight.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 54,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Three Jewels Explained | Echo Buddha",
+      "description": "Understand the Buddha, Dhamma, and Sangha in simple language and learn how the Three Jewels support daily practice.",
+      "h1Count": 1,
+      "internalInbound": 14,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Four Noble Truths Explained | Echo Buddha",
+      "description": "A beginner-friendly explanation of the Four Noble Truths and how they help us understand suffering and practice wisely.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Noble Eightfold Path Explained | Echo Buddha",
+      "description": "Learn the eight factors in three connected groups and see how effort and mindfulness support a first practice.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 58,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Five Precepts in Buddhism: A Beginner&#39;s Guide to Ethical Living | Echo Buddha",
+      "description": "Learn the Five Precepts in Buddhism in simple language. A beginner-friendly guide to Buddhist ethics, daily choices, right speech, honesty, kindness, and mindful living.",
+      "h1Count": 1,
+      "internalInbound": 15,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Three Marks of Existence in Buddhism | Echo Buddha",
+      "description": "Understand the Three Marks of Existence in Buddhism: anicca, dukkha, and anatta. A simple beginner guide with examples, reflections, and practical meaning.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 56,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Is Karma in Buddhism? A Beginner&#39;s Guide | Echo Buddha",
+      "description": "Learn what karma means in Buddhism, how intention shapes actions, and how beginners can understand karma in everyday life.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dependent Origination in Buddhism Explained for Beginners | Echo Buddha",
+      "description": "Learn dependent origination in Buddhism in simple terms. Understand causes, conditions, craving, clinging, suffering, and how mindfulness can interrupt old patterns.",
+      "h1Count": 1,
+      "internalInbound": 10,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Five Aggregates in Buddhism Explained Simply | Echo Buddha",
+      "description": "A simple beginner guide to the Five Aggregates in Buddhism: form, feeling, perception, mental formations, and consciousness, with practical examples.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Is Impermanence? | Echo Buddha",
+      "description": "Understand impermanence in Buddhism and how noticing change can deepen gratitude, patience, and wise letting go.",
+      "h1Count": 1,
+      "internalInbound": 29,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Is Mindfulness? | Echo Buddha",
+      "description": "A simple Buddhist explanation of mindfulness as remembering to be present with body, feelings, mind, and daily life.",
+      "h1Count": 1,
+      "internalInbound": 41,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-27",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Right Livelihood in Buddhism: A Beginner&#39;s Guide to Ethical Work | Echo Buddha",
+      "description": "Learn Right Livelihood in Buddhism and how it applies to modern work, money, business, ambition, honesty, stress, and ethical daily choices.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 52,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How to Practice Buddhism at Home | Echo Buddha",
+      "description": "Adapt Buddhist home practice to shared rooms, interruptions, shift work, or caregiving with a short routine and a fallback that respects the household.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "A Simple Daily Buddhist Practice | Echo Buddha",
+      "description": "A gentle daily Buddhist-inspired practice for beginners, including breathing, intention, kind speech, and evening reflection.",
+      "h1Count": 1,
+      "internalInbound": 32,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Middle Way in Buddhism Explained for Beginners | Echo Buddha",
+      "description": "Learn the Middle Way in Buddhism as a practical path between harsh self-denial and careless indulgence.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Threefold Training in Buddhism: Sila, Samadhi, and Panna | Echo Buddha",
+      "description": "Understand the Threefold Training in Buddhism: ethical conduct, concentration, and wisdom in daily practice.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 52,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Five Hindrances in Buddhism Explained for Beginners | Echo Buddha",
+      "description": "Learn the five hindrances in Buddhism and how desire, ill will, dullness, restlessness, and doubt affect practice.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Four Brahmaviharas: Loving-Kindness, Compassion, Joy, and Equanimity | Echo Buddha",
+      "description": "Learn the Four Brahmaviharas in Buddhism: loving-kindness, compassion, appreciative joy, and equanimity.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Anicca Meaning: Impermanence in Buddhism Explained Simply | Echo Buddha",
+      "description": "Learn the meaning of Anicca, the Buddhist teaching on impermanence, with daily-life examples and related terms.",
+      "h1Count": 1,
+      "internalInbound": 26,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dukkha Meaning: Suffering and Unsatisfactoriness in Buddhism | Echo Buddha",
+      "description": "Understand Dukkha in simple language as suffering, stress, and dissatisfaction, with examples for daily life.",
+      "h1Count": 1,
+      "internalInbound": 45,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Anatta Meaning: Non-Self in Buddhism Explained for Beginners | Echo Buddha",
+      "description": "Learn Anatta, the Buddhist teaching of non-self, in simple beginner-friendly language with daily reflection.",
+      "h1Count": 1,
+      "internalInbound": 13,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Metta Meaning: Loving-Kindness in Buddhism | Echo Buddha",
+      "description": "Learn Metta, or loving-kindness, as a Buddhist practice of goodwill toward oneself and others.",
+      "h1Count": 1,
+      "internalInbound": 22,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Karuna Meaning: Compassion in Buddhism | Echo Buddha",
+      "description": "A simple explanation of Karuna, Buddhist compassion, with daily-life meaning and related teachings.",
+      "h1Count": 1,
+      "internalInbound": 11,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Sati Meaning: Mindfulness in Buddhist Practice | Echo Buddha",
+      "description": "Learn Sati, the Buddhist term often translated as mindfulness, with simple examples for daily awareness.",
+      "h1Count": 1,
+      "internalInbound": 61,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Karma Meaning in Buddhism: Intention, Action, and Consequences | Echo Buddha",
+      "description": "Learn the Buddhist meaning of karma as intentional action and the way choices shape habits and consequences.",
+      "h1Count": 1,
+      "internalInbound": 37,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhamma Meaning: Buddhist Teaching and Truth | Echo Buddha",
+      "description": "Understand Dhamma as Buddhist teaching, truth, practice, Dharma spelling, and the way things are seen through wisdom.",
+      "h1Count": 1,
+      "internalInbound": 76,
+      "internalLinks": 55,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Sangha Meaning: Buddhist Community Explained Simply | Echo Buddha",
+      "description": "Learn the meaning of Sangha as Buddhist community and how wise support helps daily practice.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 54,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Nirvana Meaning in Buddhism Explained Simply | Echo Buddha",
+      "description": "A gentle beginner-friendly explanation of Nirvana as the ending of greed, hatred, and delusion.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness Meaning in Buddhist Practice | Echo Buddha",
+      "description": "Learn mindfulness as clear awareness and remembering, with practical examples for Buddhist-inspired daily life.",
+      "h1Count": 1,
+      "internalInbound": 34,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Compassion Meaning in Buddhist Wisdom | Echo Buddha",
+      "description": "Learn compassion in Buddhist wisdom as clear care for suffering with boundaries, kindness, and wise action.",
+      "h1Count": 1,
+      "internalInbound": 46,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-27",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Sutta Meaning in Buddhism | Echo Buddha",
+      "description": "Learn what a sutta is in Buddhism, how suttas relate to Buddhist texts, and how beginners can read them carefully.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Pali Canon Meaning for Beginners | Echo Buddha",
+      "description": "Learn what the Pali Canon is, why it matters in Buddhist study, and how beginners can approach it carefully.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Vedanā Meaning in Buddhism: Three Feeling Tones | Echo Buddha",
+      "description": "Vedanā is the pleasant, painful or neutral tone of experience. Learn how it differs from emotion, a judgment or the whole story of a moment.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Avoid Evil, Do Good, Purify the Mind | Echo Buddha",
+      "description": "An original Dhammapada-inspired reflection on avoiding harm, cultivating good, and training the mind.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Mind Leads All Things | Echo Buddha",
+      "description": "A Dhammapada-inspired reflection on how intention, thought, and attention shape speech and action.",
+      "h1Count": 1,
+      "internalInbound": 5,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Hatred Is Not Ended by Hatred | Echo Buddha",
+      "description": "A Dhammapada-inspired reflection on meeting hostility with wisdom, boundaries, and non-hatred.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Better Than a Thousand Empty Words | Echo Buddha",
+      "description": "A Dhammapada-inspired reflection on meaningful speech, silence, and words that bring peace.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 47,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Peace Comes from a Trained Mind | Echo Buddha",
+      "description": "A Dhammapada-inspired reflection on training the mind through meditation, patience, and daily awareness.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 47,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How to Read a Buddhist Sutta: A Beginner&#39;s Guide | Echo Buddha",
+      "description": "Learn a source-aware way to read a Buddhist sutta: decode references, notice context and repetition, compare translations, and reflect carefully.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 59,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Metta Sutta Explained for Daily Life | Echo Buddha",
+      "description": "A simple, practical explanation of the Metta Sutta and how loving-kindness can shape speech, family life, and daily practice.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Kalama Sutta and Wise Thinking | Echo Buddha",
+      "description": "A beginner-friendly explanation of the Kalama Sutta theme of wise inquiry, testing teachings, and recognizing harmful or helpful qualities.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-10-23",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Right Speech in Daily Life | Echo Buddha",
+      "description": "A practical Buddhist explanation of right speech: truthful, kind, useful, and timely communication.",
+      "h1Count": 1,
+      "internalInbound": 11,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness of Breathing Explained Simply | Echo Buddha",
+      "description": "A simple explanation of mindfulness of breathing and how the breath supports attention, steadiness, and daily practice.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 49,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhammacakkappavattana Sutta and the Four Noble Truths | Echo Buddha",
+      "description": "A source-aware beginner guide to the Dhammacakkappavattana Sutta, the Middle Way, and the Four Noble Truths.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Magga-vibhanga Sutta and the Noble Eightfold Path | Echo Buddha",
+      "description": "Compare two translations of SN 45.8, examine its definitions, and distinguish textual wording from a modern daily-life illustration.",
+      "h1Count": 1,
+      "internalInbound": 5,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Buddha&#39;s Teaching on Patience | Echo Buddha",
+      "description": "A practical reflection on patience in Buddhist teaching, including delay, conflict, anger, and daily practice.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 47,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Five Remembrances in Buddhism: AN 5.57 Explained | Echo Buddha",
+      "description": "Read the five recollections in AN 5.57, why they include our actions, and how to reflect without turning the teaching into a fear exercise.",
+      "h1Count": 1,
+      "internalInbound": 2,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Two Arrows in Buddhism: SN 36.6 Explained | Echo Buddha",
+      "description": "Explore the two-arrow teaching in SN 36.6, how painful feeling and reactions differ, and why it must never be used to blame distress.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 48,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Did the Buddha Order Buddha Images? | Echo Buddha",
+      "description": "Did the Buddha tell followers to make or venerate Buddha images? Explore early texts, relic and stupa traditions, later Theravāda commentary, and Buddhist art history.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 54,
+      "publicationDate": "2026-09-02",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-02",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How Is the Buddha Honored After Parinibbāna? | Echo Buddha",
+      "description": "Learn how Buddhists honor the Buddha after Parinibbāna through recollection, relics, stupas, Bodhi traditions, images, offerings, and Dhamma practice.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 54,
+      "publicationDate": "2026-09-02",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Is a Buddha Image the Only Uddesika Cetiya? | Echo Buddha",
+      "description": "Is Uddesika Cetiya limited to Buddha statues? Explore Theravāda memorial traditions, sand-stupa stories in the Apadāna, and the role of intention and representation.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 52,
+      "publicationDate": "2026-09-14",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Why Didn’t the Buddha Ask for a Statue at Jetavana? | Echo Buddha",
+      "description": "Why did the Jetavana tradition use a Bodhi tree rather than a Buddha statue? Explore what the Kāliṅgabodhi Jātaka actually says, what it does not say, and why silence is not a prohibition.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 53,
+      "publicationDate": "2026-09-14",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Why Was a Bodhi Tree Planted at Jetavana? | Echo Buddha",
+      "description": "Why was a Bodhi tree chosen at Jetavana when other places and objects were associated with the Buddha? Explore Ja 479, awakening, Pāribhogika Cetiya, and historical context.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 54,
+      "publicationDate": "2026-09-20",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-20",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Does Appaṭimo Mean for Buddha Images? | Echo Buddha",
+      "description": "Does appaṭimo mean Buddha images are invalid? Explore AN 1.174, Theravāda commentary, the limits of exact likeness, and how Buddha images function as representations.",
+      "h1Count": 1,
+      "internalInbound": 5,
+      "internalLinks": 54,
+      "publicationDate": "2026-09-24",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-24",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "When Did Buddha Statues First Appear? | Echo Buddha",
+      "description": "When did Buddha statues first appear, and were any made during the Buddha’s lifetime? Compare archaeology, Chinese pilgrimage traditions, and Theravāda commentaries.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 55,
+      "publicationDate": "2026-09-28",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-28",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Did Buddhists Always Agree on Image Veneration? | Echo Buddha",
+      "description": "Did Buddhist teachers always agree about Buddha-image veneration? Explore the Kathāvatthu, historical silence, later Theravāda sources, and what the evidence can actually show.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 55,
+      "publicationDate": "2026-11-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-01",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Which Cetiya Gives More Merit? | Echo Buddha",
+      "description": "Which brings more merit: venerating relics, a Bodhi tree, or a Buddha image? Explore Theravāda cetiya traditions, ritual precedence, intention, and kamma.",
+      "h1Count": 1,
+      "internalInbound": 2,
+      "internalLinks": 54,
+      "publicationDate": "2026-11-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-01",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Buddha as Refuge: Meaning and Practice | Echo Buddha",
+      "description": "Learn what taking refuge in the Buddha means, how recollection works, and how early teachings differ from later Theravāda devotional traditions.",
+      "h1Count": 1,
+      "internalInbound": 2,
+      "internalLinks": 51,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-26",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Dhamma as Refuge: Teaching, Practice, and Realization | Echo Buddha",
+      "description": "Understand the Dhamma as teaching, practice, and realization, including the Tipiṭaka, paths and fruits, Nibbāna, and source-aware study.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 52,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-26",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "The Saṅgha as Refuge: Noble and Monastic Communities | Echo Buddha",
+      "description": "Learn the difference between the Noble Saṅgha, the monastic Saṅgha, and wider Buddhist community, including the four pairs and eight individuals.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 52,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-26",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Taking Refuge in the Triple Gem: A Practical Guide | Echo Buddha",
+      "description": "A practical guide to taking refuge in the Buddha, Dhamma, and Saṅgha, including the formula, intention, ethics, and daily-life meaning.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 52,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-26",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Four Forms of Refuge in Theravāda Buddhism | Echo Buddha",
+      "description": "Explore mundane and supramundane refuge, four traditional forms of commitment, and what strengthens, weakens, or breaks refuge.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 52,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-26",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Refuge, Devas, and Sri Lankan Practice | Echo Buddha",
+      "description": "Understand how devas and regional devotional customs relate to Buddhist refuge, with careful attention to Theravāda teaching and Sri Lankan practice.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 53,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-26",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Respecting the Buddha, Dhamma, and Saṅgha | Echo Buddha",
+      "description": "Practical, source-aware guidance on respecting the Buddha, Dhamma, Saṅgha, shrines, books, Bodhi trees, temple spaces, and offerings.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 52,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-03",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Lay Buddhists and the Monastic Saṅgha: Support and Boundaries | Echo Buddha",
+      "description": "Learn how laypeople and monastics support one another, maintain healthy boundaries, respond to misconduct, and understand AN 8.88.",
+      "h1Count": 1,
+      "internalInbound": 5,
+      "internalLinks": 53,
+      "publicationDate": "2026-09-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-03",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Becoming a Lay Buddhist: Refuge, Ethics, and Daily Practice | Echo Buddha",
+      "description": "Learn how early texts define an upāsaka or upāsikā through refuge, how the Five Precepts shape ethical practice, and what commitment looks like in daily life.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 52,
+      "publicationDate": "2026-11-03",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-03",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Qualities of a Lay Buddhist: Early and Later Theravāda Lists | Echo Buddha",
+      "description": "Compare the five qualities in AN 5.175 with the ten later virtues in the Milindapañha, including confidence, ethics, generosity, peace, and careful loyalty.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 52,
+      "publicationDate": "2026-11-03",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Practicing for Yourself and Others: The Eight Qualities of AN 8.25 | Echo Buddha",
+      "description": "Explore the eight practices in AN 8.25—confidence, ethics, generosity, meeting practitioners, hearing, remembering, examining, and living the Dhamma.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 52,
+      "publicationDate": "2026-11-03",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-03",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "family": "learn",
+      "canonical": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Lay Households and Saṅgha Accountability in Early Buddhist Texts | Echo Buddha",
+      "description": "Study AN 9.17 on household hospitality and AN 8.87 with Vinaya procedure on formal Saṅgha boundaries, restoration, and mutual accountability.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 51,
+      "publicationDate": "2026-11-03",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-03",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Meditation for Beginners | Echo Buddha",
+      "description": "A gentle beginner's guide to meditation with posture, breathing, common mistakes, encouragement, and safety notes.",
+      "h1Count": 1,
+      "internalInbound": 40,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/breathing-meditation/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/breathing-meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Breathing Meditation | Echo Buddha",
+      "description": "Learn a simple breathing meditation practice for steady attention, mindful returning, and daily calm without forcing the breath.",
+      "h1Count": 1,
+      "internalInbound": 12,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Loving-Kindness Meditation | Echo Buddha",
+      "description": "Learn loving-kindness meditation with simple goodwill phrases, common difficulties, boundaries, and daily-life practice.",
+      "h1Count": 1,
+      "internalInbound": 12,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/walking-meditation/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/walking-meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Walking Meditation | Echo Buddha",
+      "description": "A simple walking meditation guide for beginners, including step-by-step practice, common mistakes, and daily mindfulness.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness in Daily Life | Echo Buddha",
+      "description": "Learn how to practice mindfulness during work, conversations, chores, meals, and ordinary transitions.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 50,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "5-Minute Meditation Practice | Echo Buddha",
+      "description": "A simple five-minute meditation practice for beginners using posture, breath, and a gentle return from distraction.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 51,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "10-Minute Meditation Practice | Echo Buddha",
+      "description": "A gentle ten-minute meditation practice for beginners with posture, breath awareness, returning, and safety boundaries.",
+      "h1Count": 1,
+      "internalInbound": 5,
+      "internalLinks": 54,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Meditation Posture for Beginners | Echo Buddha",
+      "description": "Learn beginner meditation posture options for sitting on a chair or cushion with steadiness, comfort, and accessibility.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 54,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "family": "meditation",
+      "canonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What to Do When Meditation Feels Hard | Echo Buddha",
+      "description": "Gentle guidance for beginners when meditation feels restless, dull, discouraging, emotional, or overwhelming.",
+      "h1Count": 1,
+      "internalInbound": 3,
+      "internalLinks": 53,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Appreciative Joy When Comparison Hurts | Echo Buddha",
+      "description": "What if someone else’s good news brings up envy or disappointment? Explore muditā without forced positivity, with one honest way to respond.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 78,
+      "publicationDate": "2026-11-14",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindful Email and Texting: Buddhist Right Speech | Echo Buddha",
+      "description": "Apply Buddhist Right Speech to email, texts, work chat, group messages, privacy, misinformation, and difficult online conversations.",
+      "h1Count": 1,
+      "internalInbound": 10,
+      "internalLinks": 82,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Compassion With Boundaries in Buddhist Practice | Echo Buddha",
+      "description": "Learn compassion with boundaries through Buddhist wisdom, loving-kindness, truth, protection, and wise care.",
+      "h1Count": 1,
+      "internalInbound": 29,
+      "internalLinks": 84,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhamma vs Dharma: Buddhist Meaning and Spelling | Echo Buddha",
+      "description": "Learn the difference between Dhamma and Dharma, why both spellings appear in Buddhist writing, and how beginners can read them without confusion.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 89,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Visiting a Buddhist Temple Respectfully: Beginner Guide | Echo Buddha",
+      "description": "A practical beginner guide to Buddhist temple etiquette, local customs, clothing, shoes, offerings, photography, accessibility, and respectful participation.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 93,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "First Week Buddhist Practice for Beginners | Echo Buddha",
+      "description": "A calm first-week Buddhist practice plan for beginners using study, meditation, ethical speech, reflection, and ordinary daily care.",
+      "h1Count": 1,
+      "internalInbound": 22,
+      "internalLinks": 93,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-27",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Non-Attachment in Relationships Without Becoming Cold | Echo Buddha",
+      "description": "Learn how Buddhist non-attachment can support relationships through care, boundaries, impermanence, and less controlling love.",
+      "h1Count": 1,
+      "internalInbound": 21,
+      "internalLinks": 83,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-27",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-examples/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/right-speech-examples/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Right Speech Examples for Everyday Life | Echo Buddha",
+      "description": "Practical Buddhist Right Speech examples for work, family, disagreement, gossip, apology, criticism, anger, listening, silence, and difficult truths.",
+      "h1Count": 1,
+      "internalInbound": 10,
+      "internalLinks": 89,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-27",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhammapada Verse 1 Meaning and Translation Caution | Echo Buddha",
+      "description": "A source-aware guide to Dhammapada Verse 1, mind-leading themes, paraphrase vs translation, and why popular wording needs careful attribution.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 87,
+      "publicationDate": "2026-08-05",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-27",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Three Poisons in Buddhism: Greed, Aversion, and Delusion | Echo Buddha",
+      "description": "Learn how the three poisons in Buddhism work as roots of unskillful action, and how non-greed, non-hatred, and clear seeing change daily choices.",
+      "h1Count": 1,
+      "internalInbound": 25,
+      "internalLinks": 92,
+      "publicationDate": "2026-07-13",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-07-13",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Equanimity in Buddhism: Balanced Care Without Numbness | Echo Buddha",
+      "description": "A clear guide to Buddhist equanimity as balanced care amid gain, loss, praise, blame, pleasure, and pain without becoming indifferent.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 81,
+      "publicationDate": "2026-07-13",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Five Precepts in Daily Life: Buddhist Ethics for Beginners | Echo Buddha",
+      "description": "Understand the Five Precepts as voluntary Buddhist training rules that reduce harm, protect trust, and support heedful daily conduct.",
+      "h1Count": 1,
+      "internalInbound": 20,
+      "internalLinks": 94,
+      "publicationDate": "2026-07-13",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Right Livelihood in Modern Life: Buddhist Work Ethics | Echo Buddha",
+      "description": "Explore Right Livelihood as a realistic Buddhist framework for work, income, responsibility, harm reduction, and ethical change.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 87,
+      "publicationDate": "2026-07-13",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Is Sangha? Buddhist Community for Beginners | Echo Buddha",
+      "description": "Understand Sangha as monastic community, Buddhist community, and wise companionship, with practical guidance for learning responsibly.",
+      "h1Count": 1,
+      "internalInbound": 6,
+      "internalLinks": 98,
+      "publicationDate": "2026-07-13",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Gratitude Practice Without Forced Positivity | Echo Buddha",
+      "description": "A reflective Buddhist gratitude practice shaped by contentment, generosity, relationship, and impermanence without denying difficulty.",
+      "h1Count": 1,
+      "internalInbound": 2,
+      "internalLinks": 82,
+      "publicationDate": "2026-07-13",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "What Buddhism Is—and What It Is Not | Echo Buddha",
+      "description": "Clarify common beginner misconceptions about Buddhism as religion, philosophy, meditation, ethics, community, and a path of liberation.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 85,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Four Noble Truths in a Difficult Conversation | Echo Buddha",
+      "description": "Follow one tense conversation through dukkha, craving, a moment of release, and an Eightfold Path response.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 83,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Weekly Eightfold Path Self-Review | Echo Buddha",
+      "description": "Use a non-scoring weekly review to examine one path factor, its conditions, its effects, and one next practice experiment.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 85,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "When Plans Change: Practicing Impermanence | Echo Buddha",
+      "description": "Use impermanence in one concrete scenario: a valued plan collapses and the mind must grieve, reassess conditions, and choose the next action.",
+      "h1Count": 1,
+      "internalInbound": 7,
+      "internalLinks": 83,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Compassion in Buddhism: Karuṇā, Goodwill and Wise Help | Echo Buddha",
+      "description": "Understand karuṇā beside goodwill and equanimity, then follow one example of responding to suffering without pity or taking over.",
+      "h1Count": 1,
+      "internalInbound": 24,
+      "internalLinks": 80,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "First 7 Days of Meditation: A Beginner Habit Plan | Echo Buddha",
+      "description": "Turn one beginner meditation session into a realistic seven-day habit with short daily steps, obstacle planning, and a gentle review.",
+      "h1Count": 1,
+      "internalInbound": 22,
+      "internalLinks": 86,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness of Breathing Guide for Calm and Clarity | Echo Buddha",
+      "description": "A step-by-step mindfulness of breathing guide for beginners, including posture, attention, obstacles, and daily practice.",
+      "h1Count": 1,
+      "internalInbound": 21,
+      "internalLinks": 91,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "When Loving-Kindness Meditation Feels Difficult | Echo Buddha",
+      "description": "Troubleshoot metta when phrases feel false, self-kindness hurts, warmth is absent, anger is present, or boundaries are needed.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 86,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhammapada What We Think: Translation, Paraphrase, Reflection | Echo Buddha",
+      "description": "A careful Dhammapada reflection on the popular “what we think, we become” wording, distinguishing paraphrase, translation, source context, and Echo Buddha reflection.",
+      "h1Count": 1,
+      "internalInbound": 5,
+      "internalLinks": 96,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Dhammapada Reflection on a Trained Mind and Peace | Echo Buddha",
+      "description": "An original Dhammapada-inspired reflection on training the mind, patience, attention, and inner peace in daily life.",
+      "h1Count": 1,
+      "internalInbound": 4,
+      "internalLinks": 88,
+      "publicationDate": "2026-07-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How the Eightfold Path Factors Work Together | Echo Buddha",
+      "description": "See how view, intention, conduct, effort, mindfulness, and concentration reinforce one another instead of operating as eight isolated steps.",
+      "h1Count": 1,
+      "internalInbound": 12,
+      "internalLinks": 85,
+      "publicationDate": "2026-06-26",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How to Let Go of Attachment in Buddhism | Echo Buddha",
+      "description": "Learn what attachment means in Buddhism, why clinging creates suffering, and how to practice letting go with mindfulness, patience, and compassion.",
+      "h1Count": 1,
+      "internalInbound": 39,
+      "internalLinks": 85,
+      "publicationDate": "2026-06-26",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Right Speech in Buddhism: Meaning, Examples, and Practice | Echo Buddha",
+      "description": "Understand Right Speech in Buddhism quickly, with examples for honesty, kindness, useful timing, silence, listening, anger, and the Five Precepts.",
+      "h1Count": 1,
+      "internalInbound": 72,
+      "internalLinks": 107,
+      "publicationDate": "2026-06-26",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-05",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Wisdom for Overthinking and a Busy Mind | Echo Buddha",
+      "description": "Discover Buddhist-inspired ways to understand overthinking, calm a busy mind, return to the present moment, and respond to thoughts with awareness.",
+      "h1Count": 1,
+      "internalInbound": 27,
+      "internalLinks": 85,
+      "publicationDate": "2026-06-26",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Impermanence Without Nihilism: Anicca Explained | Echo Buddha",
+      "description": "Correct five common misunderstandings of anicca: that nothing matters, care is pointless, harm should be accepted, grief should end quickly, or no continuity exists.",
+      "h1Count": 1,
+      "internalInbound": 23,
+      "internalLinks": 85,
+      "publicationDate": "2026-06-26",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Karma in Daily Life: How to Review and Repair an Action | Echo Buddha",
+      "description": "Use the before, during, and after reflection in MN 61 to examine intention, interrupt harm, and repair a mistake.",
+      "h1Count": 1,
+      "internalInbound": 12,
+      "internalLinks": 84,
+      "publicationDate": "2026-06-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Four Noble Truths as Four Tasks of Practice | Echo Buddha",
+      "description": "Understand the Four Noble Truths as work to perform: comprehend dukkha, abandon craving, realize cessation, and cultivate the path.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 85,
+      "publicationDate": "2026-06-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness vs Meditation: Simple Beginner Guide | Echo Buddha",
+      "description": "Understand the difference between mindfulness and meditation, how they work together, and how beginners can practice both in daily life.",
+      "h1Count": 1,
+      "internalInbound": 25,
+      "internalLinks": 92,
+      "publicationDate": "2026-06-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-06-25",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Teachings on Forgiveness and Letting Go | Echo Buddha",
+      "description": "Explore Buddhist-inspired teachings on forgiveness, letting go of resentment, and finding peace without excusing harmful actions.",
+      "h1Count": 1,
+      "internalInbound": 24,
+      "internalLinks": 84,
+      "publicationDate": "2026-06-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/metta-meditation-script/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/metta-meditation-script/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Metta Meditation Script for Loving-Kindness Practice | Echo Buddha",
+      "description": "A gentle metta meditation script for beginners to practice loving-kindness toward themselves, loved ones, neutral people, and others.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 91,
+      "publicationDate": "2026-06-25",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Choose Your First Buddhist Learning Path | Echo Buddha",
+      "description": "Choose a clear beginner route through Buddhist study, daily practice, meditation, community, or terminology without trying to learn everything at once.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 90,
+      "publicationDate": "2026-06-24",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "How to Meditate for Anxiety Gently | Echo Buddha",
+      "description": "Learn a gentle meditation for anxiety using grounding, breath awareness, body support, and mindful choices without forcing calm.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 82,
+      "publicationDate": "2026-06-23",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Choose Honest Loving-Kindness Meditation Phrases | Echo Buddha",
+      "description": "Build realistic metta phrases for safety, ease, goodwill, boundaries, self-kindness, and difficult days without forcing emotion.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 87,
+      "publicationDate": "2026-06-22",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-09-29",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Eightfold Path in 3 Everyday Decisions | Echo Buddha",
+      "description": "Apply the Eightfold Path to a difficult message, a questionable work request, and a distracted evening at home.",
+      "h1Count": 1,
+      "internalInbound": 9,
+      "internalLinks": 83,
+      "publicationDate": "2026-06-21",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-10",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindful Morning Routine for Beginners | Echo Buddha",
+      "description": "Build a simple mindful morning routine with breathing, intention, movement, and screen boundaries for a calmer start.",
+      "h1Count": 1,
+      "internalInbound": 12,
+      "internalLinks": 78,
+      "publicationDate": "2026-06-20",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Anicca in Early Buddhist Sources: Reading Guide | Echo Buddha",
+      "description": "Read core early Buddhist impermanence passages with source boundaries, translation cautions, and questions that prevent slogan-level interpretation.",
+      "h1Count": 1,
+      "internalInbound": 19,
+      "internalLinks": 90,
+      "publicationDate": "2026-06-19",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Walking Meditation: Turns, Interruptions and Troubleshooting | Echo Buddha",
+      "description": "Work through a hallway interruption, deliberate turning, wandering attention, and a pace that stays balanced without forcing slow movement.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 79,
+      "publicationDate": "2026-06-18",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "A Buddhist Approach to Anger | Echo Buddha",
+      "description": "Learn a Buddhist-inspired approach to anger using mindful pause, body awareness, compassion, boundaries, and wise response.",
+      "h1Count": 1,
+      "internalInbound": 33,
+      "internalLinks": 81,
+      "publicationDate": "2026-06-17",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness for Better Sleep | Echo Buddha",
+      "description": "Use gentle mindfulness before sleep with body awareness, evening routines, common mistakes, and calm ways to meet wakefulness.",
+      "h1Count": 1,
+      "internalInbound": 8,
+      "internalLinks": 80,
+      "publicationDate": "2026-06-16",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Build a Daily Mindfulness Habit: Cues and Restarting | Echo Buddha",
+      "description": "Choose a daily mindfulness cue, notice why it gets missed, and revise a small habit without measuring yourself by calm or perfect consistency.",
+      "h1Count": 1,
+      "internalInbound": 55,
+      "internalLinks": 79,
+      "publicationDate": "2026-06-01",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Compassion as a Daily Discipline: Care That Follows Through | Echo Buddha",
+      "description": "Follow one recurring offer of practical help through agreement, capacity, consent, missed commitments, repair, and review.",
+      "h1Count": 1,
+      "internalInbound": 19,
+      "internalLinks": 82,
+      "publicationDate": "2026-05-18",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-11",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Three Ways to Practice Patience | Echo Buddha",
+      "description": "Learn three practical ways to practice patience with delays, emotions, difficult people, and everyday stress without passivity.",
+      "h1Count": 1,
+      "internalInbound": 24,
+      "internalLinks": 83,
+      "publicationDate": "2026-04-12",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-11-14",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindful Listening in Everyday Life | Echo Buddha",
+      "description": "Practice mindful listening with presence, pauses, reflection, boundaries, and practical examples for everyday relationships.",
+      "h1Count": 1,
+      "internalInbound": 28,
+      "internalLinks": 77,
+      "publicationDate": "2026-03-24",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Create a Peaceful Meditation Corner | Echo Buddha",
+      "description": "Create a peaceful meditation corner at home with simple space, posture support, respectful objects, and daily practice cues.",
+      "h1Count": 1,
+      "internalInbound": 2,
+      "internalLinks": 77,
+      "publicationDate": "2026-03-03",
+      "publicationDateStatus": "KNOWN",
+      "modificationDate": "2026-10-30",
+      "structuredDataTypes": [
+        [
+          "BlogPosting",
+          "Article"
+        ],
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Buddhist Wisdom Articles | Echo Buddha",
+      "description": "Explore Buddhist wisdom articles about compassion, impermanence, anger, ethics, and the Noble Eightfold Path.",
+      "h1Count": 1,
+      "internalInbound": 112,
+      "internalLinks": 97,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/meditation/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/category/meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Meditation Articles | Echo Buddha",
+      "description": "Read practical meditation articles for beginners, including breathing, walking, loving-kindness, and daily mindfulness practice.",
+      "h1Count": 1,
+      "internalInbound": 66,
+      "internalLinks": 64,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/mindfulness/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/category/mindfulness/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Mindfulness Articles | Echo Buddha",
+      "description": "Browse mindfulness articles about morning routines, sleep, listening, presence, and awareness in everyday life.",
+      "h1Count": 1,
+      "internalInbound": 53,
+      "internalLinks": 52,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/reflection/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/category/reflection/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Reflection Articles | Echo Buddha",
+      "description": "Read Buddhist-inspired reflections about non-attachment, letting go, change, control, and living with greater freedom.",
+      "h1Count": 1,
+      "internalInbound": 51,
+      "internalLinks": 58,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/practice/",
+      "family": "articles",
+      "canonical": "https://echobuddha.com/articles/category/practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Practice Articles | Echo Buddha",
+      "description": "Explore practical Buddhist articles about patience, mindful action, daily habits, and applying wisdom in difficult moments.",
+      "h1Count": 1,
+      "internalInbound": 77,
+      "internalLinks": 61,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/mindfulness/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/mindfulness/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Mindfulness Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original mindfulness quotes about presence, attention, breathing, and returning to the present moment.",
+      "h1Count": 1,
+      "internalInbound": 43,
+      "internalLinks": 111,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/compassion/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/compassion/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Compassion Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original Buddhist-inspired compassion quotes about kindness, understanding, boundaries, and reducing harm.",
+      "h1Count": 1,
+      "internalInbound": 34,
+      "internalLinks": 108,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/patience/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/patience/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Patience Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original Buddhist-inspired patience quotes for anger, delays, difficult moments, Right Speech, and calm daily practice.",
+      "h1Count": 1,
+      "internalInbound": 34,
+      "internalLinks": 104,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/awareness/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/awareness/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Awareness Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original awareness quotes about emotions, habits, the body, and seeing experience more clearly.",
+      "h1Count": 1,
+      "internalInbound": 40,
+      "internalLinks": 108,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/practice/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/practice/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Practice Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original Buddhist practice quotes about daily effort, ethical choices, mindful action, and steady spiritual growth.",
+      "h1Count": 1,
+      "internalInbound": 53,
+      "internalLinks": 105,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/letting-go/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/letting-go/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Letting Go Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original letting go quotes about non-attachment, impermanence, releasing control, caring without clinging, and moving forward peacefully.",
+      "h1Count": 1,
+      "internalInbound": 37,
+      "internalLinks": 109,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/meditation/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/meditation/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Meditation Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original meditation quotes about breathing, stillness, distraction, gentle attention, and beginning again.",
+      "h1Count": 1,
+      "internalInbound": 38,
+      "internalLinks": 102,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/renewal/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/renewal/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Renewal Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original renewal quotes about healing, hope, learning from mistakes, and beginning again with kindness.",
+      "h1Count": 1,
+      "internalInbound": 28,
+      "internalLinks": 105,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/wisdom/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/wisdom/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Wisdom Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original Buddhist wisdom quotes about clear seeing, humility, wise speech, suffering, and compassionate choices.",
+      "h1Count": 1,
+      "internalInbound": 70,
+      "internalLinks": 120,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    },
+    {
+      "url": "https://echobuddha.com/quotes/impermanence/",
+      "family": "quotes",
+      "canonical": "https://echobuddha.com/quotes/impermanence/",
+      "robots": "index, follow, max-image-preview:large",
+      "sitemap": true,
+      "title": "Original Impermanence Quotes Inspired by Buddhist Practice | Echo Buddha",
+      "description": "Original Buddhist quotes about impermanence, change, gratitude, acceptance, loss, and transformation.",
+      "h1Count": 1,
+      "internalInbound": 29,
+      "internalLinks": 96,
+      "publicationDate": null,
+      "publicationDateStatus": "NOT_ASSERTED",
+      "modificationDate": null,
+      "structuredDataTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "metadataValidation": "PASS"
+    }
+  ],
+  "protectedComparison": [
+    {
+      "route": "/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+      "mainSha256": "bd1e922adddadfd8316ff19fd0d1d2fe1646ef916cb4810be949417745d9f640",
+      "expectedMainSha256": "bd1e922adddadfd8316ff19fd0d1d2fe1646ef916cb4810be949417745d9f640",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/buddha-as-refuge/",
+      "mainSha256": "ca2c834fdcc2e1d8805fc160e0b962dbbbd69ae278000d6a9444c7c9aa3954b4",
+      "expectedMainSha256": "ca2c834fdcc2e1d8805fc160e0b962dbbbd69ae278000d6a9444c7c9aa3954b4",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/dhamma-as-refuge/",
+      "mainSha256": "7cd12c487b419595b580ae803aee883020cfcb637c3f3c5077d39dd822126011",
+      "expectedMainSha256": "7cd12c487b419595b580ae803aee883020cfcb637c3f3c5077d39dd822126011",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "mainSha256": "03300d6c5fd3bf632a51f0388ad671b8435bd751e33fc23e5da7a7a6ca691301",
+      "expectedMainSha256": "03300d6c5fd3bf632a51f0388ad671b8435bd751e33fc23e5da7a7a6ca691301",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/households-sangha-accountability/",
+      "mainSha256": "a3d0dfcb4accac8a5e47735557b82bf968982fec87d049171030761f570e1c2d",
+      "expectedMainSha256": "a3d0dfcb4accac8a5e47735557b82bf968982fec87d049171030761f570e1c2d",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/",
+      "mainSha256": "500947f382567d20e610f617d3060c8b56f84bfc3b5e4439c2b5c31a8f4a162f",
+      "expectedMainSha256": "500947f382567d20e610f617d3060c8b56f84bfc3b5e4439c2b5c31a8f4a162f",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/lay-sangha-relationship/",
+      "mainSha256": "e40e2675639bb076f0b4cda517f51e44dce0b2c6340835018d7fe65af92e275b",
+      "expectedMainSha256": "e40e2675639bb076f0b4cda517f51e44dce0b2c6340835018d7fe65af92e275b",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "mainSha256": "09ac332cf2bf01f13330490f171d898a59650f4e65d62c735abc2bafeb90216f",
+      "expectedMainSha256": "09ac332cf2bf01f13330490f171d898a59650f4e65d62c735abc2bafeb90216f",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "mainSha256": "a52e74eedee7543f59b466947c0a9df85f925afa5d2b2052356795288a5941c2",
+      "expectedMainSha256": "a52e74eedee7543f59b466947c0a9df85f925afa5d2b2052356795288a5941c2",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "mainSha256": "4f04da5ec6eec65be81538adf171c0ab2f2264533993b2573b85345a72ce0d79",
+      "expectedMainSha256": "4f04da5ec6eec65be81538adf171c0ab2f2264533993b2573b85345a72ce0d79",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/respecting-triple-gem/",
+      "mainSha256": "941aaf59eb32c4ad28c019839cd8b697de361fcabd8109a44244847a9e6365ac",
+      "expectedMainSha256": "941aaf59eb32c4ad28c019839cd8b697de361fcabd8109a44244847a9e6365ac",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/sangha-as-refuge/",
+      "mainSha256": "5392fd4bd0101ff032011253bd8fc07433e95e99c9201fda9343f33644a26778",
+      "expectedMainSha256": "5392fd4bd0101ff032011253bd8fc07433e95e99c9201fda9343f33644a26778",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "mainSha256": "41f7615cf4235c47407a104b6d381eb43cf6a0c670b1250674d01e7470f69509",
+      "expectedMainSha256": "41f7615cf4235c47407a104b6d381eb43cf6a0c670b1250674d01e7470f69509",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "mainSha256": "5035cfaea89dd0e344393caa0c56e898ef03869a571d794ce6ec355eafdcf4fb",
+      "expectedMainSha256": "5035cfaea89dd0e344393caa0c56e898ef03869a571d794ce6ec355eafdcf4fb",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "mainSha256": "2abaa30296fae82f17d4d195e4da0dc6b3c42eb05f0583e589ccc5d12ce34430",
+      "expectedMainSha256": "2abaa30296fae82f17d4d195e4da0dc6b3c42eb05f0583e589ccc5d12ce34430",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "mainSha256": "0e788b2539e2ba0440ea5bd6d07dc4073d408d2f9a2909d3fd214f8417dde5c7",
+      "expectedMainSha256": "0e788b2539e2ba0440ea5bd6d07dc4073d408d2f9a2909d3fd214f8417dde5c7",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/",
+      "mainSha256": "1dff2650649ce64479360e423e86ac636d97bfad275ad24bc3f99fa359155f90",
+      "expectedMainSha256": "1dff2650649ce64479360e423e86ac636d97bfad275ad24bc3f99fa359155f90",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "mainSha256": "a3fe86a5adf7351310ef00c9665b101033c7dc51aa0482e62209cb10c6e2a930",
+      "expectedMainSha256": "a3fe86a5adf7351310ef00c9665b101033c7dc51aa0482e62209cb10c6e2a930",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "mainSha256": "de57dff1e25966c6af29949ef2aaa2af7b5371d78da177a60e22b9e0ddea1bf8",
+      "expectedMainSha256": "de57dff1e25966c6af29949ef2aaa2af7b5371d78da177a60e22b9e0ddea1bf8",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "mainSha256": "9cc754b1f7b1d315ff860ba4ace01899c9bc0e66c07a12ae051f2c8da74484a5",
+      "expectedMainSha256": "9cc754b1f7b1d315ff860ba4ace01899c9bc0e66c07a12ae051f2c8da74484a5",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "mainSha256": "d04565ecc93b09001a3fe2c83cdfadb16cf9ee697b8ba2d1850eada9318051f0",
+      "expectedMainSha256": "d04565ecc93b09001a3fe2c83cdfadb16cf9ee697b8ba2d1850eada9318051f0",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "mainSha256": "756c8a3004d75f992c72b15567ba22a4607cb26344a3d19ea3741358a73c27ed",
+      "expectedMainSha256": "756c8a3004d75f992c72b15567ba22a4607cb26344a3d19ea3741358a73c27ed",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    },
+    {
+      "route": "/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "mainSha256": "80856f4371ef5f45ee067dbe7b59c5c8efcc048ec67051a69c60b1185ce496c2",
+      "expectedMainSha256": "80856f4371ef5f45ee067dbe7b59c5c8efcc048ec67051a69c60b1185ce496c2",
+      "canonicalUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "noindexUnchanged": true,
+      "pass": true
+    }
+  ]
+}
