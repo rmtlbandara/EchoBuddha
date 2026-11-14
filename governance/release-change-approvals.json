@@ -322,6 +322,14 @@
       "reason": "Add the finite editorial browser acceptance suite after the existing tools gate, retaining all prior release, consent, accessibility, question and guide gates. It verifies accepted routes, UTC rollover, no-JS fallback, accented discovery, keyboard and print behavior on the exact PR commit; no deployment trigger or permission change.",
       "owner": "Project owner through adoption of writing-block (33).md, which requires a tested reviewable implementation candidate and preserved mandatory controls.",
       "date": "2026-11-14"
+    },
+    {
+      "type": "protected-file",
+      "target": "scripts/production-smoke-check.mjs",
+      "approved": true,
+      "date": "2026-11-14",
+      "owner": "Project owner explicitly approved deployment of the completed editorial candidate to production/live on November 14, 2026.",
+      "reason": "Correct the production and ongoing-monitoring search inventory for the twelve already approved noindex user permalinks; require their presence in local search and exclusion from the sitemap. Preserve all fifteen smoke gates, exact release identity, privacy, advertising-off, headers, 404 and other deployment protections. Three end-to-end fixture regressions exercise success and equal-count missing/leaked routes."
     }
   ]
 }
