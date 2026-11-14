@@ -1,0 +1,8 @@
+id,area,finalStatus,actualResult,evidence
+Q01,Publication date,RESOLVED_LIVE,"November 14, 2026 visible on card/detail and matching semantic/schema/social metadata",PR108; deployed27dd09a; live acceptance
+Q02,Article ordering,RESOLVED_LIVE,First in All Articles and Practice through existing publication-date sort,Rendered regression; default live listing and Chrome screenshot
+Q03,Read-only search collection,RESOLVED_AND_EXECUTED,"175 unique Google inspections; bounded concurrency, retries and saved progress; ten paced Bing priorities all HTTP200",PR109/110; workflow43576863316
+Q04,Bing decorative image notice,REVIEWED_NO_DEFECT,Two intentional empty alternatives on decorative brand marks; informative alternatives present,W3C WAI; full HTML/image audit
+Q05,Priority indexing,GOOGLE_CONFIRMED_INDEXED; BING_SELECTION_UNCONFIRMED,All four Google PASS with expected selected canonicals; four earlier Bing browser exclusions and live eligibility preserved; both feeds Success175,GOOGLE_CURRENT_INSPECTION.json; AUTHENTICATED_ACCOUNT_OBSERVATIONS.json
+Q06,Historically unasserted original learning dates,INTENTIONAL_PRESERVED,No fabricated originals or protected-library metadata changes,23 protected comparisons; date contracts
+Q07,External source availability,DOCUMENTED_EXTERNAL_LIMITS,141 of149 available; zero404/410; eight external access/rate/server/transport limitations; no speculative replacements,EXTERNAL_LINKS.json

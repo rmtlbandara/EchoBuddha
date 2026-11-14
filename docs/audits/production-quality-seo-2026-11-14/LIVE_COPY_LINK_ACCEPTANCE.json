@@ -1,0 +1,38 @@
+{
+  "observedAt": "2026-11-14T08:28:12.377Z",
+  "origin": "https://echobuddha.com",
+  "status": "PASS",
+  "permissionScope": "Isolated headless QA contexts only; no account, website or native browser permission changes",
+  "rows": [
+    {
+      "width": 320,
+      "keyboardCopy": "PASS",
+      "liveStatus": "Copied",
+      "exactClipboardUrl": "PASS"
+    },
+    {
+      "width": 375,
+      "keyboardCopy": "PASS",
+      "liveStatus": "Copied",
+      "exactClipboardUrl": "PASS"
+    },
+    {
+      "width": 768,
+      "keyboardCopy": "PASS",
+      "liveStatus": "Copied",
+      "exactClipboardUrl": "PASS"
+    },
+    {
+      "width": 1024,
+      "keyboardCopy": "PASS",
+      "liveStatus": "Copied",
+      "exactClipboardUrl": "PASS"
+    },
+    {
+      "width": 1440,
+      "keyboardCopy": "PASS",
+      "liveStatus": "Copied",
+      "exactClipboardUrl": "PASS"
+    }
+  ]
+}

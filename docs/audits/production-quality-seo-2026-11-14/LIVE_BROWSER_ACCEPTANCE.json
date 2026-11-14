@@ -1,0 +1,1940 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-11-14T08:13:39.665Z",
+  "origin": "https://echobuddha.com",
+  "routeViewportChecks": 214,
+  "articleRecords": 49,
+  "allArticleDetailsChecked": 49,
+  "filterClearAndNoResult": true,
+  "keyboardShareAndArticleLink": true,
+  "enlargedText200Percent": true,
+  "optionalGoogleRequests": 0,
+  "results": [
+    {
+      "route": "/",
+      "width": 320,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/",
+      "width": 320,
+      "cards": 49,
+      "loadedCardImages": 49,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "width": 320,
+      "cards": 11,
+      "loadedCardImages": 11,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "width": 320,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/search/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "width": 320,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "width": 320,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "width": 320,
+      "cards": 20,
+      "loadedCardImages": 20,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "width": 320,
+      "cards": 9,
+      "loadedCardImages": 9,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "width": 320,
+      "cards": 5,
+      "loadedCardImages": 5,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "width": 320,
+      "cards": 7,
+      "loadedCardImages": 7,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/practice/",
+      "width": 320,
+      "cards": 8,
+      "loadedCardImages": 8,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/",
+      "width": 375,
+      "cards": 49,
+      "loadedCardImages": 49,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "width": 375,
+      "cards": 11,
+      "loadedCardImages": 11,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/about/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/contact/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/search/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "width": 375,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "width": 375,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "width": 375,
+      "cards": 20,
+      "loadedCardImages": 20,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "width": 375,
+      "cards": 9,
+      "loadedCardImages": 9,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "width": 375,
+      "cards": 5,
+      "loadedCardImages": 5,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "width": 375,
+      "cards": 7,
+      "loadedCardImages": 7,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/practice/",
+      "width": 375,
+      "cards": 8,
+      "loadedCardImages": 8,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/",
+      "width": 768,
+      "cards": 49,
+      "loadedCardImages": 49,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "width": 768,
+      "cards": 11,
+      "loadedCardImages": 11,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "width": 768,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/search/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "width": 768,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "width": 768,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "width": 768,
+      "cards": 20,
+      "loadedCardImages": 20,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "width": 768,
+      "cards": 9,
+      "loadedCardImages": 9,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "width": 768,
+      "cards": 5,
+      "loadedCardImages": 5,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "width": 768,
+      "cards": 7,
+      "loadedCardImages": 7,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/practice/",
+      "width": 768,
+      "cards": 8,
+      "loadedCardImages": 8,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/",
+      "width": 1024,
+      "cards": 49,
+      "loadedCardImages": 49,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "width": 1024,
+      "cards": 11,
+      "loadedCardImages": 11,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "width": 1024,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/about/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/search/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "width": 1024,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "width": 1024,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "width": 1024,
+      "cards": 20,
+      "loadedCardImages": 20,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "width": 1024,
+      "cards": 9,
+      "loadedCardImages": 9,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "width": 1024,
+      "cards": 5,
+      "loadedCardImages": 5,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "width": 1024,
+      "cards": 7,
+      "loadedCardImages": 7,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/practice/",
+      "width": 1024,
+      "cards": 8,
+      "loadedCardImages": 8,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/start-here/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhism-101/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/dhammapada-reflections/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-resources/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/5-minute-meditation-practice/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/meditation/10-minute-meditation-practice/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/",
+      "width": 1440,
+      "cards": 49,
+      "loadedCardImages": 49,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/mindful-living/",
+      "width": 1440,
+      "cards": 11,
+      "loadedCardImages": 11,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/quotes/wisdom/",
+      "width": 1440,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/daily-reflections/today/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/editorial-policy/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/buddhist-sources-and-citations/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/search/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "width": 1440,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/learn/buddhist-dictionary/vedana/",
+      "width": 1440,
+      "cards": 0,
+      "loadedCardImages": 0,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/buddhist-wisdom/",
+      "width": 1440,
+      "cards": 20,
+      "loadedCardImages": 20,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/meditation/",
+      "width": 1440,
+      "cards": 9,
+      "loadedCardImages": 9,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/mindfulness/",
+      "width": 1440,
+      "cards": 5,
+      "loadedCardImages": 5,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/reflection/",
+      "width": 1440,
+      "cards": 7,
+      "loadedCardImages": 7,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/category/practice/",
+      "width": 1440,
+      "cards": 8,
+      "loadedCardImages": 8,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/appreciative-joy-when-comparison-hurts/",
+      "width": 375,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/mindful-email-and-texting/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/compassion-with-boundaries/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/dhamma-vs-dharma/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/visiting-a-buddhist-temple-respectfully/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/first-week-buddhist-practice/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/non-attachment-in-relationships/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/right-speech-examples/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/dhammapada-verse-1-meaning/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/three-poisons-buddhism-explained/",
+      "width": 375,
+      "cards": 4,
+      "loadedCardImages": 4,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/equanimity-in-buddhism/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/five-precepts-in-daily-life/",
+      "width": 375,
+      "cards": 4,
+      "loadedCardImages": 4,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/right-livelihood-modern-life/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/what-is-sangha-buddhist-community/",
+      "width": 375,
+      "cards": 4,
+      "loadedCardImages": 4,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhist-gratitude-practice/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/what-is-buddhism-beginner-guide/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/four-noble-truths-explained-simply/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/noble-eightfold-path-practical-guide/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism-letting-go/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/compassion-in-buddhism-beginner-guide/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/how-to-meditate-for-beginners/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/mindfulness-of-breathing-guide/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-guide/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/dhammapada-reflection-what-we-think/",
+      "width": 375,
+      "cards": 4,
+      "loadedCardImages": 4,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/dhammapada-reflection-trained-mind/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/eightfold-path-explained/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "width": 375,
+      "cards": 2,
+      "loadedCardImages": 2,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/right-speech-buddhism/",
+      "width": 375,
+      "cards": 5,
+      "loadedCardImages": 5,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhist-wisdom-for-overthinking/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/impermanence-in-buddhism/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/what-is-karma-in-buddhism/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/four-noble-truths-explained/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/mindfulness-vs-meditation/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-forgiveness/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/metta-meditation-script/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhism-for-beginners-simple-guide/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/how-to-meditate-for-anxiety/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/loving-kindness-meditation-beginners/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/eightfold-path-explained-daily-life/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/mindfulness-morning-routine/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhist-teachings-on-impermanence/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/walking-meditation-step-by-step/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/buddhist-approach-to-anger/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/mindfulness-for-better-sleep/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/beginning-a-daily-mindfulness-practice/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/compassion-as-a-daily-discipline/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/three-ways-to-practice-patience/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/mindful-listening-in-everyday-life/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    },
+    {
+      "route": "/articles/creating-a-peaceful-corner-at-home/",
+      "width": 375,
+      "cards": 3,
+      "loadedCardImages": 3,
+      "overflow": false,
+      "axeViolations": 0,
+      "pass": true
+    }
+  ]
+}

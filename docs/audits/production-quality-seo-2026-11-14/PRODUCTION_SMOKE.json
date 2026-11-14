@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-11-14T08:08:49.683Z",
+  "origin": "https://echobuddha.com",
+  "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+  "releaseIdentityAttempts": [
+    {
+      "status": 200,
+      "result": "matched",
+      "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a"
+    }
+  ],
+  "deployedIdentity": {
+    "schemaVersion": 1,
+    "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-11-14T08:07:50.693Z"
+  },
+  "workflowRunId": "43574280649",
+  "total": 15,
+  "passed": 15,
+  "failed": 0,
+  "pass": true,
+  "checks": [
+    {
+      "name": "release-identity",
+      "pass": true,
+      "evidence": "200; serving 27dd09aa0abd7be3df46b8444f626c06952c194a; 1 attempt(s)"
+    },
+    {
+      "name": "homepage",
+      "pass": true,
+      "evidence": "200; H1 true"
+    },
+    {
+      "name": "consent",
+      "pass": true,
+      "evidence": "affirmative preference UI present"
+    },
+    {
+      "name": "adsense-runtime",
+      "pass": true,
+      "evidence": "0 homepage runtime scripts/slots"
+    },
+    {
+      "name": "verification-meta",
+      "pass": true,
+      "evidence": "publisher meta present"
+    },
+    {
+      "name": "security-headers",
+      "pass": true,
+      "evidence": "enforced CSP + 6 baseline headers"
+    },
+    {
+      "name": "robots",
+      "pass": true,
+      "evidence": "200; crawler policy present"
+    },
+    {
+      "name": "sitemap",
+      "pass": true,
+      "evidence": "200; 175/175 URLs; 27 approved additions present; 2 approved consolidations absent; 43 approved quote noindex decisions applied"
+    },
+    {
+      "name": "primary-owner",
+      "pass": true,
+      "evidence": "200; indexable self-canonical"
+    },
+    {
+      "name": "noindex-route",
+      "pass": true,
+      "evidence": "200; noindex follow"
+    },
+    {
+      "name": "search",
+      "pass": true,
+      "evidence": "200; 352/352 items; 27 approved indexable additions and 12 noindex permalinks present; 2 approved consolidations absent"
+    },
+    {
+      "name": "ads.txt",
+      "pass": true,
+      "evidence": "200; exact true"
+    },
+    {
+      "name": "404",
+      "pass": true,
+      "evidence": "404; rendered HTML error page with H1 and noindex, no canonical"
+    },
+    {
+      "name": "https-redirect",
+      "pass": true,
+      "evidence": "301; https://echobuddha.com/"
+    },
+    {
+      "name": "preview-noindex",
+      "pass": true,
+      "evidence": "200; noindex, nofollow"
+    }
+  ]
+}

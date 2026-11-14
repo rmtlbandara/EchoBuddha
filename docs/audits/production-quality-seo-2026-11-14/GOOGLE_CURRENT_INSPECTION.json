@@ -1,0 +1,2747 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-14T08:47:20.286Z",
+  "property": "sc-domain:echobuddha.com",
+  "scope": "https://www.googleapis.com/auth/webmasters.readonly",
+  "cohort": "Current live sitemap plus existing owner watchlist",
+  "sitemapUrls": 175,
+  "urlsRequested": 175,
+  "results": [
+    {
+      "url": "https://echobuddha.com/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T02:17:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/",
+      "googleCanonical": "https://echobuddha.com/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/about/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T08:58:47Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/about/",
+      "googleCanonical": "https://echobuddha.com/about/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T10:08:46Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/",
+      "googleCanonical": "https://echobuddha.com/articles/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T08:14:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "googleCanonical": "https://echobuddha.com/articles/appreciative-joy-when-comparison-hurts/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-10-26T20:09:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "googleCanonical": "https://echobuddha.com/articles/beginning-a-daily-mindfulness-practice/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-16T23:26:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "googleCanonical": "https://echobuddha.com/articles/buddhism-for-beginners-simple-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-11-14T04:18:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "googleCanonical": "https://echobuddha.com/articles/buddhist-approach-to-anger/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-22T17:48:29Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "googleCanonical": "https://echobuddha.com/articles/buddhist-gratitude-practice/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T08:15:58Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "googleCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-forgiveness/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-25T06:54:08Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "googleCanonical": "https://echobuddha.com/articles/buddhist-teachings-on-impermanence/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-24T07:33:39Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "googleCanonical": "https://echobuddha.com/articles/buddhist-wisdom-for-overthinking/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T04:33:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "googleCanonical": "https://echobuddha.com/articles/category/buddhist-wisdom/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/meditation/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-01T06:45:00Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/category/meditation/",
+      "googleCanonical": "https://echobuddha.com/articles/category/meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/mindfulness/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-07T22:17:19Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/category/mindfulness/",
+      "googleCanonical": "https://echobuddha.com/articles/category/mindfulness/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/practice/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T23:55:50Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/category/practice/",
+      "googleCanonical": "https://echobuddha.com/articles/category/practice/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/category/reflection/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T20:03:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/category/reflection/",
+      "googleCanonical": "https://echobuddha.com/articles/category/reflection/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-08T01:39:56Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "googleCanonical": "https://echobuddha.com/articles/compassion-as-a-daily-discipline/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-07T11:45:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "googleCanonical": "https://echobuddha.com/articles/compassion-in-buddhism-beginner-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-20T20:35:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "googleCanonical": "https://echobuddha.com/articles/compassion-with-boundaries/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-10T02:24:40Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "googleCanonical": "https://echobuddha.com/articles/creating-a-peaceful-corner-at-home/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T18:10:48Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "googleCanonical": "https://echobuddha.com/articles/dhamma-vs-dharma/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-05T06:57:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "googleCanonical": "https://echobuddha.com/articles/dhammapada-reflection-trained-mind/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T14:28:36Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "googleCanonical": "https://echobuddha.com/articles/dhammapada-reflection-what-we-think/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-08T17:57:26Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "googleCanonical": "https://echobuddha.com/articles/dhammapada-verse-1-meaning/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-07-28T05:01:09Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "googleCanonical": "https://echobuddha.com/articles/eightfold-path-explained-daily-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-18T06:06:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "googleCanonical": "https://echobuddha.com/articles/eightfold-path-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-16T17:37:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "googleCanonical": "https://echobuddha.com/articles/equanimity-in-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-10T04:54:40Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "googleCanonical": "https://echobuddha.com/articles/first-week-buddhist-practice/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-06T09:51:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "googleCanonical": "https://echobuddha.com/articles/five-precepts-in-daily-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T00:13:12Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "googleCanonical": "https://echobuddha.com/articles/four-noble-truths-explained-simply/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-21T21:12:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "googleCanonical": "https://echobuddha.com/articles/four-noble-truths-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-05T19:18:37Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "googleCanonical": "https://echobuddha.com/articles/how-to-let-go-of-attachment-in-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-24T04:58:58Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "googleCanonical": "https://echobuddha.com/articles/how-to-meditate-for-anxiety/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-07T04:45:31Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "googleCanonical": "https://echobuddha.com/articles/how-to-meditate-for-beginners/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-10-12T10:54:07Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "googleCanonical": "https://echobuddha.com/articles/impermanence-in-buddhism-letting-go/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-17T20:06:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "googleCanonical": "https://echobuddha.com/articles/impermanence-in-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-08T01:47:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "googleCanonical": "https://echobuddha.com/articles/loving-kindness-meditation-beginners/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-15T09:21:42Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "googleCanonical": "https://echobuddha.com/articles/loving-kindness-meditation-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/metta-meditation-script/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-05T07:08:35Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/metta-meditation-script/",
+      "googleCanonical": "https://echobuddha.com/articles/metta-meditation-script/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-05T20:33:36Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "googleCanonical": "https://echobuddha.com/articles/mindful-email-and-texting/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-07-31T13:09:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "googleCanonical": "https://echobuddha.com/articles/mindful-listening-in-everyday-life/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-07-25T04:50:25Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "googleCanonical": "https://echobuddha.com/articles/mindfulness-for-better-sleep/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-10-28T22:02:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "googleCanonical": "https://echobuddha.com/articles/mindfulness-morning-routine/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-06T18:15:32Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "googleCanonical": "https://echobuddha.com/articles/mindfulness-of-breathing-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-19T09:35:00Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "googleCanonical": "https://echobuddha.com/articles/mindfulness-vs-meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-30T20:43:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "googleCanonical": "https://echobuddha.com/articles/noble-eightfold-path-practical-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-07T14:15:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "googleCanonical": "https://echobuddha.com/articles/non-attachment-in-relationships/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-16T14:35:24Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "googleCanonical": "https://echobuddha.com/articles/right-livelihood-modern-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-09T19:46:45Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "googleCanonical": "https://echobuddha.com/articles/right-speech-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/right-speech-examples/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-08T05:15:23Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/right-speech-examples/",
+      "googleCanonical": "https://echobuddha.com/articles/right-speech-examples/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T23:33:28Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "googleCanonical": "https://echobuddha.com/articles/three-poisons-buddhism-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-07-01T22:58:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "googleCanonical": "https://echobuddha.com/articles/three-ways-to-practice-patience/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-20T09:28:53Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "googleCanonical": "https://echobuddha.com/articles/visiting-a-buddhist-temple-respectfully/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-07T03:11:51Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "googleCanonical": "https://echobuddha.com/articles/walking-meditation-step-by-step/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T10:34:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "googleCanonical": "https://echobuddha.com/articles/what-is-buddhism-beginner-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-10T14:24:42Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "googleCanonical": "https://echobuddha.com/articles/what-is-karma-in-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-25T17:37:47Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "googleCanonical": "https://echobuddha.com/articles/what-is-sangha-buddhist-community/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-08T02:37:08Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "googleCanonical": "https://echobuddha.com/authors/echo-buddha-editorial/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T18:48:04Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "googleCanonical": "https://echobuddha.com/buddhist-sources-and-citations/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/contact/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T22:33:07Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/contact/",
+      "googleCanonical": "https://echobuddha.com/contact/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/corrections/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T07:03:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/corrections/",
+      "googleCanonical": "https://echobuddha.com/corrections/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/daily-reflections/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T20:03:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/daily-reflections/",
+      "googleCanonical": "https://echobuddha.com/daily-reflections/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/disclaimer/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T09:42:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/disclaimer/",
+      "googleCanonical": "https://echobuddha.com/disclaimer/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/editorial-policy/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T16:16:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/editorial-policy/",
+      "googleCanonical": "https://echobuddha.com/editorial-policy/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-26T08:11:56Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "googleCanonical": "https://echobuddha.com/how-echo-buddha-creates-content/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T11:51:04Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/",
+      "googleCanonical": "https://echobuddha.com/learn/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-07-23T16:54:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-21T16:11:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/a-simple-daily-buddhist-practice/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-25T07:53:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/dependent-origination-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-30T07:11:35Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/five-aggregates-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T16:18:19Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/five-hindrances-in-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-21T10:17:30Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/five-precepts-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-08T21:01:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/four-brahmaviharas/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-25T04:55:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/how-to-practice-buddhism-at-home/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-25T07:28:45Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/middle-way-explained-for-beginners/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-06T18:20:53Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/right-livelihood-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-21T10:53:47Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/the-four-noble-truths-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-14T22:16:24Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/the-noble-eightfold-path-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T09:27:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/the-three-jewels-explained/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-08T00:16:37Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/three-marks-of-existence/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T11:16:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/threefold-training-sila-samadhi-panna/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T10:43:14Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-11-13T18:48:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-impermanence/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-06T18:10:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-karma-in-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T05:13:04Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/what-is-mindfulness/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T08:48:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-101/who-was-the-buddha/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-17T21:21:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhism-for-beginners/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-08T23:43:09Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-06T18:25:28Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/anatta/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T05:33:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/anicca/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-11-13T16:03:19Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/compassion/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T05:02:15Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/dhamma/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-06T18:36:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/dukkha/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T09:59:34Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/karma/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/karuna/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T05:31:14Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/metta/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-21T10:05:26Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/mindfulness/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-06T21:27:29Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/nirvana/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-08T02:45:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/pali-canon/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-21T04:11:10Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/sangha/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T06:15:59Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/sati/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-30T10:16:39Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/sutta/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T07:49:55Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-dictionary/vedana/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T15:03:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/becoming-a-lay-buddhist/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T03:00:14Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/buddha-as-refuge/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-26T04:46:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/dhamma-as-refuge/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T08:46:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/forms-of-refuge-theravada/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T07:40:29Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/households-sangha-accountability/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T06:03:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/lay-sangha-relationship/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T07:00:46Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/practicing-for-yourself-and-others/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/qualities-of-a-lay-buddhist/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T10:59:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/refuge-devas-buddhist-practice/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-29T20:23:48Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/respecting-triple-gem/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T12:18:05Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/sangha-as-refuge/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T14:18:08Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-handbook/taking-refuge-triple-gem/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/buddhist-resources/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T08:59:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/buddhist-resources/",
+      "googleCanonical": "https://echobuddha.com/learn/buddhist-resources/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-08T00:15:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "googleCanonical": "https://echobuddha.com/learn/dhammapada-reflections/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-21T06:11:10Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "googleCanonical": "https://echobuddha.com/learn/dhammapada-reflections/avoid-evil-do-good-purify-the-mind/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-19T04:35:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "googleCanonical": "https://echobuddha.com/learn/dhammapada-reflections/better-than-a-thousand-empty-words/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-05T07:38:07Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "googleCanonical": "https://echobuddha.com/learn/dhammapada-reflections/hatred-is-not-ended-by-hatred/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/peace-comes-from-a-trained-mind/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T16:25:05Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "googleCanonical": "https://echobuddha.com/learn/dhammapada-reflections/the-mind-leads-all-things/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/eightfold-path/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T01:03:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/eightfold-path/",
+      "googleCanonical": "https://echobuddha.com/learn/eightfold-path/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/four-noble-truths/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-12T06:33:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/four-noble-truths/",
+      "googleCanonical": "https://echobuddha.com/learn/four-noble-truths/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T02:31:25Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T03:33:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/appatimo-and-buddha-images/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddha-order-buddha-images/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T17:51:09Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T23:33:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/respecting-buddha-after-parinibbana/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T10:01:04Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T10:10:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/why-bodhi-tree-planted-at-jetavana/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T10:38:33Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "googleCanonical": "https://echobuddha.com/learn/questions-about-buddhism/why-no-buddha-statue-at-jetavana/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-27T07:38:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T19:13:02Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/buddhas-teaching-on-patience/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-05T07:37:31Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/dhammacakkappavattana-sutta-four-noble-truths/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T07:41:52Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/five-remembrances-an-5-57/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-30T16:17:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/how-to-read-a-buddhist-sutta/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-06T15:39:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/kalama-sutta-and-wise-thinking/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-22T01:17:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/magga-vibhanga-sutta-eightfold-path/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T07:30:59Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/metta-sutta-explained-for-daily-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-18T19:13:50Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/mindfulness-of-breathing-explained-simply/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-04T06:32:47Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/right-speech-in-daily-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-14T07:45:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "googleCanonical": "https://echobuddha.com/learn/sutta-for-daily-life/two-arrows-sn-36-6/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation-guide/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-08-07T01:41:39Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation-guide/",
+      "googleCanonical": "https://echobuddha.com/meditation-guide/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation-safety/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-10T12:11:38Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation-safety/",
+      "googleCanonical": "https://echobuddha.com/meditation-safety/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-03T16:51:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/",
+      "googleCanonical": "https://echobuddha.com/meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-02T11:51:27Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "googleCanonical": "https://echobuddha.com/meditation/10-minute-meditation-practice/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-07-16T03:45:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "googleCanonical": "https://echobuddha.com/meditation/5-minute-meditation-practice/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/breathing-meditation/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-27T04:13:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/breathing-meditation/",
+      "googleCanonical": "https://echobuddha.com/meditation/breathing-meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T17:49:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "googleCanonical": "https://echobuddha.com/meditation/loving-kindness-meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T21:03:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "googleCanonical": "https://echobuddha.com/meditation/meditation-for-beginners/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-24T07:59:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "googleCanonical": "https://echobuddha.com/meditation/meditation-posture-for-beginners/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-10T14:24:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "googleCanonical": "https://echobuddha.com/meditation/mindfulness-in-daily-life/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/walking-meditation/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-27T06:06:47Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/walking-meditation/",
+      "googleCanonical": "https://echobuddha.com/meditation/walking-meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "httpStatus": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlTime": "2026-09-09T18:53:48Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "googleCanonical": "https://echobuddha.com/meditation/when-meditation-feels-hard/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/mindful-living/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T11:03:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/mindful-living/",
+      "googleCanonical": "https://echobuddha.com/mindful-living/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/privacy-policy/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T18:33:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/privacy-policy/",
+      "googleCanonical": "https://echobuddha.com/privacy-policy/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quote-attribution-policy/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-24T08:55:48Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quote-attribution-policy/",
+      "googleCanonical": "https://echobuddha.com/quote-attribution-policy/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T09:01:45Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/",
+      "googleCanonical": "https://echobuddha.com/quotes/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/awareness/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-15T19:01:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/awareness/",
+      "googleCanonical": "https://echobuddha.com/quotes/awareness/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/compassion/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-27T06:44:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/compassion/",
+      "googleCanonical": "https://echobuddha.com/quotes/compassion/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/impermanence/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-06T09:36:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/impermanence/",
+      "googleCanonical": "https://echobuddha.com/quotes/impermanence/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/letting-go/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-09-25T08:32:08Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/letting-go/",
+      "googleCanonical": "https://echobuddha.com/quotes/letting-go/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/meditation/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-16T05:07:28Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/meditation/",
+      "googleCanonical": "https://echobuddha.com/quotes/meditation/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/mindfulness/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-12T05:56:48Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/mindfulness/",
+      "googleCanonical": "https://echobuddha.com/quotes/mindfulness/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/patience/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-11T16:18:04Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/patience/",
+      "googleCanonical": "https://echobuddha.com/quotes/patience/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/practice/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-12T07:11:48Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/practice/",
+      "googleCanonical": "https://echobuddha.com/quotes/practice/",
+      "sitemaps": [],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/renewal/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-10-24T20:15:43Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/renewal/",
+      "googleCanonical": "https://echobuddha.com/quotes/renewal/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/quotes/wisdom/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-08-21T17:45:12Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/quotes/wisdom/",
+      "googleCanonical": "https://echobuddha.com/quotes/wisdom/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/start-here/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-06T10:34:50Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/start-here/",
+      "googleCanonical": "https://echobuddha.com/start-here/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/terms-of-use/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-09T17:16:49Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/terms-of-use/",
+      "googleCanonical": "https://echobuddha.com/terms-of-use/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    },
+    {
+      "url": "https://echobuddha.com/tools/",
+      "httpStatus": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "lastCrawlTime": "2026-11-13T13:33:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "userCanonical": "https://echobuddha.com/tools/",
+      "googleCanonical": "https://echobuddha.com/tools/",
+      "sitemaps": [
+        "https://echobuddha.com/sitemap.xml"
+      ],
+      "errorStatus": null
+    }
+  ]
+}
