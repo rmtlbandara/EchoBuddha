@@ -1,0 +1,37 @@
+name: Publication Watch
+
+# Session-independent monitoring for the November 2026 social schedule.
+# Read-only: it never publishes and uses no credentials. A failed run is the alert;
+# GitHub emails failed scheduled-run notifications to the account that last changed this schedule.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 13 * * *" # 19:15 Colombo: reminder before the 20:00 manual Instagram Reels
+    - cron: "40 14 * * *" # 20:10 Colombo: YouTube public check after the 19:30 slot
+    - cron: "30 9 * * *" # 15:00 Colombo: anything due yesterday still unverified in the ledger
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publication-watch
+  cancel-in-progress: true
+
+jobs:
+  watch:
+    name: Publication watch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout ledger and manifest
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+
+      - name: Check due items against the ledger and YouTube
+        run: node scripts/publication-watch.mjs

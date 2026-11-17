@@ -1,0 +1,174 @@
+{
+  "campaign": "echobuddha-2026-11",
+  "timezone_note": "due_utc is UTC. Asia/Colombo is UTC+05:30.",
+  "ledger": "docs/marketing/2026-11/PUBLICATION_LEDGER.csv",
+  "watch_until_utc": "2026-12-02T00:00:00Z",
+  "thresholds_minutes": {
+    "manual_reminder_before_due": 90,
+    "youtube_public_after_due": 20,
+    "unrecorded_after_due": 1080
+  },
+  "modes": {
+    "platform_scheduled": "Queued in the platform's own scheduler (Meta, YouTube, Medium). Publishes without Claude Code.",
+    "manual_native": "Instagram Reel. No scheduler keeps the AI label, so a person (or an open Claude Code session) must publish it natively on the day. This watch only reminds and alerts; it does not publish.",
+    "owner_native_approval": "Pinterest Pin that publishes only after the owner clicks Approve in the local native dialog."
+  },
+  "items": [
+    {
+      "retry_key": "2026-11-17-ig-story-reading-path",
+      "due_utc": "2026-11-17T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-23-pin-five-minutes-no-cushion",
+      "due_utc": "2026-11-18T03:30:00Z",
+      "mode": "owner_native_approval",
+      "note": "Pin 3. Eligible from 2026-11-17T19:26Z under the 6-hour pacing rule. Needs the owner's click in the native Pinterest approval dialog."
+    },
+    {
+      "retry_key": "2026-11-18-fb-old-login",
+      "due_utc": "2026-11-18T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-18-ig-precepts-carousel",
+      "due_utc": "2026-11-18T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-19-yt-karma-scoreboard",
+      "due_utc": "2026-11-19T14:00:00Z",
+      "mode": "platform_scheduled",
+      "youtube_id": "MUXEpWk0lGY"
+    },
+    {
+      "retry_key": "2026-11-19-fb-karma-reel",
+      "due_utc": "2026-11-19T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-19-ig-karma-reel",
+      "due_utc": "2026-11-19T14:30:00Z",
+      "mode": "manual_native"
+    },
+    {
+      "retry_key": "2026-11-20-fb-tuesday-practice",
+      "due_utc": "2026-11-20T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-20-ig-story-act-of-care",
+      "due_utc": "2026-11-20T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-21-ig-quote-check-carousel",
+      "due_utc": "2026-11-21T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-22-medium-handbook",
+      "due_utc": "2026-11-22T14:10:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-22-fb-one-chapter",
+      "due_utc": "2026-11-22T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-22-ig-story-handbook",
+      "due_utc": "2026-11-22T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-23-yt-five-minutes",
+      "due_utc": "2026-11-23T14:00:00Z",
+      "mode": "platform_scheduled",
+      "youtube_id": "W3SKyMT9W9o"
+    },
+    {
+      "retry_key": "2026-11-23-fb-five-minutes-reel",
+      "due_utc": "2026-11-23T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-23-ig-five-minutes-reel",
+      "due_utc": "2026-11-23T14:30:00Z",
+      "mode": "manual_native"
+    },
+    {
+      "retry_key": "2026-11-24-ig-story-two-minutes",
+      "due_utc": "2026-11-24T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-25-fb-traffic",
+      "due_utc": "2026-11-25T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-25-ig-notice-name-choose-carousel",
+      "due_utc": "2026-11-25T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-26-yt-gratitude",
+      "due_utc": "2026-11-26T14:00:00Z",
+      "mode": "platform_scheduled",
+      "youtube_id": "drKxaKaEd2w"
+    },
+    {
+      "retry_key": "2026-11-26-fb-gratitude-reel",
+      "due_utc": "2026-11-26T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-26-ig-gratitude-reel",
+      "due_utc": "2026-11-26T14:30:00Z",
+      "mode": "manual_native"
+    },
+    {
+      "retry_key": "2026-11-27-fb-first-sentence",
+      "due_utc": "2026-11-27T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-27-ig-story-kind-sentence",
+      "due_utc": "2026-11-27T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-28-yt-practice-video",
+      "due_utc": "2026-11-28T14:00:00Z",
+      "mode": "platform_scheduled",
+      "youtube_id": "R-J2QM0oJcw"
+    },
+    {
+      "retry_key": "2026-11-28-ig-story-busy-days",
+      "due_utc": "2026-11-28T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-29-ig-story-journal",
+      "due_utc": "2026-11-29T15:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-30-yt-december",
+      "due_utc": "2026-11-30T14:00:00Z",
+      "mode": "platform_scheduled",
+      "youtube_id": "EtnrJdlUyHI"
+    },
+    {
+      "retry_key": "2026-11-30-fb-december-reel",
+      "due_utc": "2026-11-30T14:00:00Z",
+      "mode": "platform_scheduled"
+    },
+    {
+      "retry_key": "2026-11-30-ig-december-reel",
+      "due_utc": "2026-11-30T14:30:00Z",
+      "mode": "manual_native"
+    }
+  ]
+}
