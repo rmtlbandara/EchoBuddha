@@ -74,3 +74,11 @@ test("the real November manifest matches the ledger and stays credential-free", 
   assert.match(workflow, /contents: read/);
   assert.doesNotMatch(workflow, /: write/);
 });
+
+test("API-published Reels get no native-publish reminder, so the two mechanisms can't race", () => {
+  const apiManifest = { ...manifest, items: [{ retry_key: "reel", due_utc: "2026-11-19T14:30:00Z", mode: "api_publisher" }] };
+  const result = evaluate({ manifest: apiManifest, ledgerRows: [row("reel", "READY")], now: new Date("2026-11-19T13:45:00Z") });
+  assert.deepEqual(kinds(result), []);
+  const real = JSON.parse(fs.readFileSync("docs/marketing/2026-11/publication-watch.json", "utf8"));
+  assert.deepEqual(real.items.filter((i) => i.retry_key.includes("-ig-") && i.retry_key.endsWith("-reel")).map((i) => i.mode), ["api_publisher", "api_publisher", "api_publisher", "api_publisher"]);
+});

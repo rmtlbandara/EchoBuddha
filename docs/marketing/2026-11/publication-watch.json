@@ -11,7 +11,8 @@
   "modes": {
     "platform_scheduled": "Queued in the platform's own scheduler (Meta, YouTube, Medium). Publishes without Claude Code.",
     "manual_native": "Instagram Reel. No scheduler keeps the AI label, so a person (or an open Claude Code session) must publish it natively on the day. This watch only reminds and alerts; it does not publish.",
-    "owner_native_approval": "Pinterest Pin that publishes only after the owner clicks Approve in the local native dialog."
+    "owner_native_approval": "Pinterest Pin that publishes only after the owner clicks Approve in the local native dialog.",
+    "api_publisher": "Instagram Reel published by the private GitHub Actions Reel Publisher (rmtlbandara/echobuddha-reel-publisher) through the official Graph API. That publisher alerts on its own failures (issue + failed run). If the API path is not ready, a person disables the queue item first, then publishes natively. No native-publish reminder is sent, so the two mechanisms can't race."
   },
   "items": [
     {
@@ -49,7 +50,7 @@
     {
       "retry_key": "2026-11-19-ig-karma-reel",
       "due_utc": "2026-11-19T14:30:00Z",
-      "mode": "manual_native"
+      "mode": "api_publisher"
     },
     {
       "retry_key": "2026-11-20-fb-tuesday-practice",
@@ -95,7 +96,7 @@
     {
       "retry_key": "2026-11-23-ig-five-minutes-reel",
       "due_utc": "2026-11-23T14:30:00Z",
-      "mode": "manual_native"
+      "mode": "api_publisher"
     },
     {
       "retry_key": "2026-11-24-ig-story-two-minutes",
@@ -126,7 +127,7 @@
     {
       "retry_key": "2026-11-26-ig-gratitude-reel",
       "due_utc": "2026-11-26T14:30:00Z",
-      "mode": "manual_native"
+      "mode": "api_publisher"
     },
     {
       "retry_key": "2026-11-27-fb-first-sentence",
@@ -168,7 +169,7 @@
     {
       "retry_key": "2026-11-30-ig-december-reel",
       "due_utc": "2026-11-30T14:30:00Z",
-      "mode": "manual_native"
+      "mode": "api_publisher"
     }
   ]
 }
