@@ -1,7 +1,7 @@
 {
   "audit": "Controlled Q10, Q11, and Q12 Buddhist Question expansion",
   "date": "2026-11-18",
-  "status": "LOCAL_RELEASE_CANDIDATE_VALIDATION_PASSED",
+  "status": "DEPLOYED_AND_VERIFIED_LIVE",
   "scope": {
     "historical_expansion_1": { "date": "2026-09-02", "questions": [1, 2], "new_indexable_detail_urls": 2 },
     "historical_expansion_2": { "date": "2026-09-14", "questions": [3, 4], "new_indexable_detail_urls": 2 },
@@ -42,12 +42,13 @@
     "full_release_validation": "PASS_142_TESTS_ALL_PHASE_8_TO_13_GATES_PASS",
     "dependency_audit": "PASS_WITH_ONE_EXACT_TIME_BOUNDED_EXCEPTION_0_CRITICAL_10_HIGH_TRANSITIVE_PATHS_0_UNACCEPTED_EXPIRES_2026_12_02",
     "source_link_check": "PASS_8_HTTP_200_ONE_PUBLISHER_403_TO_AUTOMATED_CLIENT_BROWSER_VERIFIED",
-    "browser_validation": "PASS_52_ROUTE_VIEWPORT_COMBINATIONS_ZERO_CRITICAL_OR_SERIOUS_ACCESSIBILITY_VIOLATIONS",
+    "browser_validation": "PASS_CANDIDATE_AND_LIVE_52_ROUTE_VIEWPORT_COMBINATIONS_EACH_ZERO_CRITICAL_OR_SERIOUS_ACCESSIBILITY_VIOLATIONS",
     "global_browser_readiness": "PASS",
     "lighthouse": "PASS_20_RUNS_MIN_PERFORMANCE_1_00_MIN_ACCESSIBILITY_1_00",
-    "hosted_ci": "PENDING",
-    "production": "PENDING",
-    "live_release_identity": "PENDING",
-    "indexnow": "PENDING_NOT_AN_INDEXING_GUARANTEE"
+    "hosted_ci": "PASS_PR_RUN_44434103491_MAIN_RUN_44434709409",
+    "production": "PASS_RUN_44435296691_SMOKE_15_OF_15_CLOUDFLARE_VERSION_551184B8_3D03_4F8F_BA99_18A48AA5F840_TRAFFIC_100_PERCENT",
+    "live_release_identity": "PASS_59766461E71A1C3A59917C95194EFB40AAD50BE5",
+    "live_inventory": "PASS_376_HTML_178_SITEMAP_198_NOINDEX_355_SEARCH",
+    "indexnow": "SUBMITTED_HTTP_200_5_CHANGED_URLS_NOT_AN_INDEXING_GUARANTEE"
   }
 }

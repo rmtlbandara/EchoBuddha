@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "sha": "59766461e71a1c3a59917c95194efb40aad50be5",
+  "sourcePullRequest": 120,
+  "sourcePrHeadSha": "993fa5183b6514ba7686949c1d62bf9d983e8b1a",
+  "githubRunId": 44435296691,
+  "githubDeploymentId": 7901093500,
+  "githubSuccessStatusId": 22587262477,
+  "cloudflareDeploymentId": "24f6708e-3680-4d89-9cd5-16199ad8ff04",
+  "cloudflareVersionId": "551184b8-3d03-4f8f-ba99-18a48aa5f840",
+  "trafficPercent": 100,
+  "deployedAt": "2026-11-19T01:15:16.743607Z",
+  "builtAt": "2026-11-19T01:14:14.838Z",
+  "releaseDatePacific": "2026-11-18",
+  "releaseDateColombo": "2026-11-19",
+  "ownerAuthorization": {
+    "date": "2026-11-18",
+    "instruction": "Go with the definitive Q10–Q12 prompt and continue through the production/live release using the necessary correct steps.",
+    "adoptedPromptSha256": "cfa06e8f5da1b6623b1f8808704643999aa7836a6f36bdee28a27049a0e78977",
+    "scope": "Publish exactly Q10, Q11 and Q12 as source-aware Learn detail pages; preserve Q1–Q9 except Q9 forward navigation, the ten-item FAQ, homepage Q2 curation, privacy/security controls and advertising-off state."
+  },
+  "ci": {
+    "sourcePrRunId": 44434103491,
+    "mainRunId": 44434709409,
+    "releaseAndBrowserJobs": "PASS",
+    "localTests": 142,
+    "failed": 0
+  },
+  "artifact": {
+    "id": 14489291087,
+    "sizeBytes": 59666,
+    "expiresAt": "2027-02-17T01:13:52Z",
+    "aggregateSha256": "920fd75e0591d64c3c994bb0a084bf1a0534497a4535a624e2035fc9ff1f60aa",
+    "manifestFiles": 865,
+    "hostedExactShaAndEveryFileDigestVerification": "PASS",
+    "evidenceHashes": {
+      "deploymentRecord": "2a878a3422a8a0844aa7b09ea4c6cba96ca50df565634fb637f78f060c3c0017",
+      "releaseManifest": "184aed9ec4c80ef0ce965604ae95c1297258544c7ba8fa723b5d2db75b8f7c10",
+      "productionSmoke": "fc5b31fbc9de0895bb3377eac73985014488b5bb1e1ed0b0a90b5903344c1f5e",
+      "indexNowPlan": "917574467e5a3f767ad09555723bd5e44ddf642bb17cbde9fa2a45d029f95a03",
+      "indexNowResult": "76a34cca17877d0b34e6cbe04a603b40db875725b8d6114df78ab5e76503fe40"
+    }
+  },
+  "smoke": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "verifiedAt": "2026-11-19T01:15:21.457Z",
+    "releaseIdentityAttempts": 1
+  },
+  "liveReleaseIdentity": {
+    "schemaVersion": 1,
+    "sha": "59766461e71a1c3a59917c95194efb40aad50be5",
+    "ref": "refs/heads/main",
+    "builtAt": "2026-11-19T01:14:14.838Z"
+  },
+  "routes": [
+    "https://echobuddha.com/learn/questions-about-buddhism/can-miracles-identify-buddha-relics/",
+    "https://echobuddha.com/learn/questions-about-buddhism/offerings-after-parinibbana-merit/",
+    "https://echobuddha.com/learn/questions-about-buddhism/is-intention-alone-enough-for-kamma/"
+  ],
+  "liveTechnicalVerification": {
+    "observedAt": "2026-11-19T01:17:58.673Z",
+    "statuses": "3/3 HTTP 200",
+    "selfCanonicals": "3/3",
+    "indexable": "3/3",
+    "hubCards": "3/3",
+    "escapedInlineMarkup": 0,
+    "homepageFeaturedQuestion": 2,
+    "homepageQ10Promotion": false,
+    "adsenseRuntimePresent": false
+  },
+  "liveBrowser": {
+    "status": "PASS",
+    "routeViewportChecks": 52,
+    "widths": [320, 390, 768, 1440],
+    "criticalAccessibilityViolations": 0,
+    "seriousAccessibilityViolations": 0,
+    "artifactSha256": "1634eaaa3fa808da67f212144b1eb85226f504fbc9d9230274206ae76a21c6ac"
+  },
+  "inventory": {
+    "htmlIncluding404": 376,
+    "sitemapUrls": 178,
+    "noindexHtml": 198,
+    "localSearchRecords": 355,
+    "monetization": {
+      "NEVER_MONETIZE": 266,
+      "ELIGIBLE_CANDIDATE": 7,
+      "HOLD_MANUAL_REVIEW": 103
+    }
+  },
+  "indexnow": {
+    "status": "SUBMITTED",
+    "httpStatus": 200,
+    "submitted": 5,
+    "added": 3,
+    "updated": 2,
+    "removed": 0,
+    "manifestVerificationAttempts": 1,
+    "checkedAt": "2026-11-19T01:15:23.745Z",
+    "indexingGuaranteed": false,
+    "urls": [
+      { "url": "https://echobuddha.com/learn/questions-about-buddhism/", "kind": "updated" },
+      { "url": "https://echobuddha.com/learn/questions-about-buddhism/can-miracles-identify-buddha-relics/", "kind": "added" },
+      { "url": "https://echobuddha.com/learn/questions-about-buddhism/is-intention-alone-enough-for-kamma/", "kind": "added" },
+      { "url": "https://echobuddha.com/learn/questions-about-buddhism/offerings-after-parinibbana-merit/", "kind": "added" },
+      { "url": "https://echobuddha.com/learn/questions-about-buddhism/which-cetiya-gives-more-merit/", "kind": "updated" }
+    ]
+  },
+  "measurement": {
+    "timeZone": "America/Los_Angeles",
+    "excludedDeploymentDay": "2026-11-18",
+    "stablePostWindowStart": "2026-11-19",
+    "stablePostWindowEnd": "2026-12-16",
+    "expectedDays": 28,
+    "earliestFinalReview": "2026-12-19",
+    "review": "Require finalized data and make no causal ranking, CTR, revenue, AdSense or consolidation claim."
+  },
+  "previousVerifiedProduction": {
+    "sha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+    "cloudflareDeploymentId": "591fafff-cd21-4bec-b5e2-effb29fe1852",
+    "cloudflareVersionId": "6b111083-65c1-4099-bcc7-219d5957c2db"
+  },
+  "acceptanceEvidence": "https://github.com/rmtlbandara/EchoBuddha/actions/runs/44435296691",
+  "acceptanceReportPath": "docs/audits/buddhist-questions-q10-q12-2026-11-18/PRODUCTION_VERIFICATION.md"
+}
