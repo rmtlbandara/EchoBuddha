@@ -1769,6 +1769,33 @@
         "noindex": 0
       },
       "measurementImpact": "This material publication intervenes in the November 15–December 12 descriptive window. If deployed November 18 Pacific Time, exclude November 18; the next full 28-day descriptive period is November 19–December 16, with earliest finalized review December 19 under the existing three-day buffer. Append actual deployment and IndexNow evidence after production. No causal SEO, ranking, revenue, AdSense, or consolidation conclusion is authorized."
+    },
+    {
+      "id": "buddhist-questions-q10-q12-release-receipt-2026-11-18",
+      "status": "DEPLOYED",
+      "authorizedBy": "Project owner adopted the definitive Q10–Q12 production prompt and explicitly instructed completion and production/live release.",
+      "authorizedOn": "2026-11-18",
+      "baselineSha": "59766461e71a1c3a59917c95194efb40aad50be5",
+      "baselineEvidence": "docs/deployments/receipts/2026-11-18-buddhist-questions-q10-q12.json",
+      "baselineEvidenceSha256": "b83eb5ad9d7f842cb8ff21fda9daf4260496b1ef3b0c26d34440d8362149580c",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Append the actual Q10–Q12 release receipt, exact-main deployment identity, Cloudflare version, 15/15 smoke acceptance, 52/52 live browser checks, live inventory, five-URL IndexNow acceptance and rollback target. Preserve the earlier candidate authorization without rewriting it.",
+      "approvedApplicationFiles": {},
+      "productionSha": "59766461e71a1c3a59917c95194efb40aad50be5",
+      "productionDeployedAt": "2026-11-19T01:15:16.743607Z",
+      "latestVerifiedProduction": {
+        "workflowRunId": 44435296691,
+        "cloudflareDeploymentId": "24f6708e-3680-4d89-9cd5-16199ad8ff04",
+        "cloudflareVersionId": "551184b8-3d03-4f8f-ba99-18a48aa5f840",
+        "smokePassed": 15,
+        "manifestFiles": 865,
+        "liveRouteViewportChecks": 52,
+        "indexNowSubmitted": 5
+      },
+      "measurementImpact": "Actual Pacific deployment day 2026-11-18 is excluded. New complete descriptive observation window: 2026-11-19 through 2026-12-16, 28 days; earliest review 2026-12-19 after the existing three-day buffer. IndexNow HTTP 200 is submission acceptance, not an indexing guarantee. No causal SEO, ranking, revenue, AdSense or destructive consolidation conclusion is authorized."
     }
   ]
 }
