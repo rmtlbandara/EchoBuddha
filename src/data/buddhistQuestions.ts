@@ -19,7 +19,10 @@ export type BuddhistQuestionSource = {
     | "Historical Buddhist travel record"
     | "Academic / historical scholarship"
     | "Theravāda canonical scholastic text"
-    | "Sri Lankan Buddhist practice";
+    | "Sri Lankan Buddhist practice"
+    | "Theravāda canonical devotional verse"
+    | "Theravāda chronicle"
+    | "Theravāda scholastic/commentarial treatise";
   note: string;
 };
 
@@ -30,7 +33,7 @@ export type BuddhistQuestionSection = {
 };
 
 export type BuddhistQuestion = {
-  number: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+  number: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
   slug: string;
   title: string;
   seoTitle: string;
@@ -1262,6 +1265,429 @@ export const buddhistQuestions: BuddhistQuestion[] = [
     previous: {
       label: "Question 8: Did Buddhist Teachers Always Agree About Venerating Buddha Images?",
       href: `${questionsPath}/did-buddhists-agree-on-image-veneration/`
+    },
+    next: {
+      label: "Question 10: Can Miracles Identify Genuine Buddha Relics?",
+      href: `${questionsPath}/can-miracles-identify-buddha-relics/`
+    }
+  },
+  {
+    number: 10,
+    slug: "can-miracles-identify-buddha-relics",
+    title: "Do Buddha Relics Perform Miracles—and Can Miracles Prove They Are Genuine?",
+    seoTitle: "Can Miracles Identify Genuine Buddha Relics? | Echo Buddha",
+    description:
+      "Do Buddhist texts say relics perform miracles, and can miracles prove a relic is genuine? Compare DN 16, later Theravāda relic traditions, and historical evidence.",
+    eyebrow: "Question 10",
+    publishedDate: "2026-11-18",
+    modifiedDate: "2026-11-18",
+    intro:
+      "Buddhist texts contain extraordinary stories around relics, but that is not the same thing as giving Buddhists a miracle-based test for deciding whether a claimed relic is authentic.",
+    takeaway:
+      "DN 16 says that bodily relics remained after the Buddha’s cremation and describes extraordinary events around the funeral. It does not say that genuine relics must perform miracles to identify themselves. Later Theravāda chronicles go further: the <i>Mahāvaṃsa</i> tells of relics rising and performing the twin miracle, and one account connects the event with a prior resolution of the Buddha. These are sacred narratives, not a modern authentication method. A tradition’s account of wonder and a claimed relic’s historical provenance are different kinds of evidence.",
+    shortAnswer: [
+      "Buddhist tradition certainly contains relic-miracle narratives. DN 16 describes divine participation and other extraordinary events around the Buddha’s funeral. Later Theravāda chronicles describe relics rising into the air, assuming the Buddha’s form, and displaying the twin miracle.",
+      "The relics are not presented as independent conscious beings deciding to perform demonstrations. In <i>Mahāvaṃsa</i> chapter 17, the miracle is connected with a prior resolution made by the Buddha. Later narratives may also describe devas or devotional conditions around relic ceremonies.",
+      "None of this creates a universal test saying, ‘If it performs a miracle, it is genuine.’ A reported wonder may carry religious meaning, while historical identification asks about archaeological context, inscriptions, provenance, documented transmission, and—where appropriate—material examination. Those questions should not be collapsed."
+    ],
+    sections: [
+      {
+        heading: "What Does DN 16 Say Remained After the Cremation?",
+        paragraphs: [
+          "The <i>Mahāparinibbāna Sutta</i> (DN 16) narrates the Buddha’s funeral and cremation. It says that skin, hide, flesh, sinews, and joint fluid left no ash or soot; only the bodily relics remained. The text then describes their division and the monuments built for them, their urn, and the embers.",
+          "This gives a clear textual meaning for relics in this setting: material remains associated with the Buddha after cremation. The Pāli word <i>dhātu</i> has a wider range of meanings, including element or constituent and, in a relic context, relic. No special invented etymology is needed to make the point."
+        ]
+      },
+      {
+        heading: "Are the Relics Presented as Conscious Beings?",
+        paragraphs: [
+          "A bodily relic is not a living person with its own intentions. Describing a relic as moving in a sacred story therefore need not mean that a fragment of bone independently decided to act like an agent.",
+          "Traditional narratives can explain extraordinary activity through conditions beyond the object itself. The most explicit example used here is the Buddha’s prior resolution in the <i>Mahāvaṃsa</i>. That explanation belongs to the narrative’s religious world; it does not turn every relic report into one universal doctrine."
+        ]
+      },
+      {
+        heading: "Extraordinary Events Already Appear in DN 16",
+        paragraphs: [
+          "It would be inaccurate to say that the early discourse contains no wonders around the funeral. DN 16 says Mallian chiefs cannot lift the body because the deities have a different plan. Later, the funeral pyre does not ignite until Mahākassapa and the monks pay respects. When the cremation is complete, water appears from the sky and from the sal trees to extinguish the pyre.",
+          "These events form part of the funeral narrative. Yet DN 16 never turns them into an authentication rule. It does not instruct later Buddhists to demand a miracle from every genuine relic or reject every quiet relic as false."
+        ]
+      },
+      {
+        heading: "When Later Theravāda Tradition Speaks of Relic Miracles",
+        paragraphs: [
+          "The <i>Mahāvaṃsa</i> is a later Sri Lankan Theravāda chronicle, not an early discourse or a modern field report. Chapter 17 tells of a collarbone relic rising from an elephant’s back and displaying the twin miracle. The chronicle explains that the Buddha had made resolutions concerning the relic, including that it would perform this wonder when enshrined.",
+          "Chapter 31 gives another elaborate enshrinement account. A relic casket rises, opens, and the relics assume the Buddha’s form and perform the twin miracle. They then return to the casket and later rest in the reclining form desired during the king’s devotional act.",
+          "These stories show that miraculous relic traditions are genuinely part of Theravāda sacred literature. Their source layer matters: they disclose how a tradition remembers and venerates relics, not what an archaeologist directly observed at the Buddha’s cremation."
+        ]
+      },
+      {
+        heading: "Prior Resolutions, Devas, and Devotional Conditions",
+        paragraphs: [
+          "Later Buddhist narratives sometimes explain extraordinary events through prior resolutions, devas, or devotional conditions. DN 16 itself includes deities participating in the funeral, while the <i>Mahāvaṃsa</i> chapter 17 account explicitly emphasizes a resolution made by the Buddha.",
+          "That does not justify assigning the same cause to every unexplained light, fragrance, movement, or multiplication reported around a relic. A source can support the explanation it actually gives; it cannot supply a blanket cause for every story in every community."
+        ]
+      },
+      {
+        heading: "Can a Miracle Authenticate a Relic?",
+        paragraphs: [
+          "A reported extraordinary event may be spiritually meaningful within a community. It may deepen confidence, become part of a ceremony’s remembered history, or be interpreted through that community’s sacred texts. None of those possibilities should be mocked.",
+          "Historical authentication asks a different question: can this object be traced to a particular ancient person? Relevant evidence can include archaeological context, inscriptions, provenance, a documented chain of transmission, age, and material examination where such study is appropriate and respectfully permitted.",
+          "Even strong evidence may establish context or probability rather than absolute personal identity. A surprising event does not supply the missing chain of custody, date an object, or identify whose remains they are. Conversely, the absence of a miracle is not evidence that an otherwise well-provenanced relic is false."
+        ]
+      },
+      {
+        heading: "Faith and Historical Evidence Ask Different Questions",
+        paragraphs: [
+          "Imagine that a community reports an unusual light or fragrance during a relic ceremony. The event may matter deeply in its devotional life. A historian asking whether the relic can be traced to the Buddha is still asking about provenance, context, and transmission. Neither question has to insult the other.",
+          "Modern scholarship on Buddhist relics helps explain how relics make the absent Buddha present in ritual, memory, place, and community. It does not decide whether miracles are metaphysically possible, and sacred narrative alone does not complete modern provenance research."
+        ]
+      },
+      {
+        heading: "A Careful Answer",
+        paragraphs: [
+          "Yes, Buddhist texts contain relic miracles. No, they do not give a reliable universal formula for authenticating every claimed Buddha relic by miracle.",
+          "A respectful approach can receive a miracle story as part of Buddhist sacred tradition while remaining honest about what historical evidence can and cannot establish. The most defensible conclusion is not disbelief or automatic belief, but clarity about the kind of claim being made."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha comparison of an early funeral discourse, later Theravāda sacred chronicles, and modern historical questions. It treats miracle narratives respectfully while keeping devotional meaning separate from provenance and material authentication.",
+    sources: [
+      {
+        label: "Mahāparinibbāna Sutta (DN 16) — SuttaCentral",
+        href: "https://suttacentral.net/dn16/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Supports the cremation and bodily-relic account, funeral veneration, divine participation, extraordinary funeral events, distribution of the relics, and monuments. It does not establish a miracle-based authenticity test."
+      },
+      {
+        label: "Mahāvaṃsa, Chapter 17: The Arrival of the Relics — Wilhelm Geiger translation",
+        href: "https://www.vipassana.org/resources/mahavamsa/mhv17.html",
+        sourceType: "Theravāda chronicle",
+        note: "Describes the collarbone relic rising and performing the twin miracle, and connects the event with resolutions previously made by the Buddha. It is a later sacred chronicle, not contemporary archaeological documentation."
+      },
+      {
+        label: "Mahāvaṃsa, Chapter 31: The Enshrining of the Relics — Wilhelm Geiger translation",
+        href: "https://www.vipassana.org/resources/mahavamsa/mhv31.html",
+        sourceType: "Theravāda chronicle",
+        note: "Describes relics rising, taking the Buddha’s form, performing the twin miracle, and assuming a reclining form during enshrinement. It is used as later Theravāda sacred narrative."
+      },
+      {
+        label: "Relics of the Buddha — John S. Strong, Princeton University Press",
+        href: "https://press.princeton.edu/books/hardcover/9780691117645/relics-of-the-buddha",
+        sourceType: "Academic / historical scholarship",
+        note: "Provides broader scholarly context for the serious and integral place of relic veneration and relic narratives in South and Southeast Asian Buddhist traditions. It is not used to rule on metaphysical possibility."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "How Can the Buddha Be Respected After Parinibbāna?",
+        href: `${questionsPath}/respecting-buddha-after-parinibbana/`,
+        description: "Place relics and stupas within the wider meaning of remembrance after the Buddha’s final passing."
+      },
+      {
+        label: "Which Cetiya Gives More Merit?",
+        href: `${questionsPath}/which-cetiya-gives-more-merit/`,
+        description: "Keep ceremonial precedence, sacred connection, and individual karmic quality distinct."
+      },
+      {
+        label: "When Did Buddha Statues First Appear?",
+        href: `${questionsPath}/when-did-buddha-statues-first-appear/`,
+        description: "Compare sacred traditions with the different claims supported by securely dated material evidence."
+      }
+    ],
+    relatedTerms: ["Buddha relics", "Dhātu", "Sarīradhātu", "Mahāvaṃsa", "Twin miracle", "Provenance"],
+    searchTerms: ["Buddha relic miracles", "Buddha relic authenticity", "genuine Buddha relic", "dhātu", "sarīradhātu", "relic miracle", "Mahāvaṃsa relic", "twin miracle", "Buddhist relics", "Parinibbāna relics"],
+    previous: {
+      label: "Question 9: Which Cetiya Gives More Merit?",
+      href: `${questionsPath}/which-cetiya-gives-more-merit/`
+    },
+    next: {
+      label: "Question 11: Do Offerings After Parinibbāna Still Create Merit?",
+      href: `${questionsPath}/offerings-after-parinibbana-merit/`
+    }
+  },
+  {
+    number: 11,
+    slug: "offerings-after-parinibbana-merit",
+    title: "Do Offerings to the Buddha After Parinibbāna Still Create Merit?",
+    seoTitle: "Do Offerings After Parinibbāna Create Merit? | Echo Buddha",
+    description:
+      "Can an offering to the Buddha after Parinibbāna still be meritorious if it is not physically received or used? Explore DN 16, AN 6.63, Vimānavatthu 47, and MN 142.",
+    eyebrow: "Question 11",
+    publishedDate: "2026-11-18",
+    modifiedDate: "2026-11-18",
+    intro:
+      "A flower placed before a stupa is not physically consumed by the Buddha. Buddhist texts nevertheless give good reason not to treat the act as spiritually meaningless.",
+    takeaway:
+      "DN 16 explicitly describes post-Parinibbāna veneration at a monument for the Buddha and says that offerings, bows, and confidence there are for the devotee’s lasting welfare and happiness. A Theravāda canonical verse in <i>Vimānavatthu</i> 47 goes further, describing equal fruit when the quality of mind is the same whether the Tathāgata is living or fully quenched. AN 6.63 makes intention central to kamma. Together, these sources show that the Buddha’s physical acceptance or use is not what makes post-Parinibbāna devotion meaningful—but they do not reduce every offering to an identical karmic equation.",
+    shortAnswer: [
+      "Yes. Theravāda sources explicitly treat offerings and veneration after the Buddha’s Parinibbāna as meaningful and meritorious. The Buddha no longer needs food, flowers, incense, or material care, and the practice does not depend on pretending otherwise.",
+      "The act can cultivate confidence, gratitude, generosity, recollection, and wholesome intention. DN 16 directly supports veneration at a post-Parinibbāna monument. <i>Vimānavatthu</i> 47 expresses the stronger devotional principle that when the mind is equally confident, the fruit is equal whether the Buddha is living or fully quenched.",
+      "That verse should not be converted into a merit calculator. The kind of act, the quality of intention, its context, and the relevant field of giving still matter. The narrower conclusion is that physical non-use by the Buddha does not make a sincere memorial offering empty or meritless."
+    ],
+    sections: [
+      {
+        heading: "If the Buddha Does Not Receive the Offering, What Is It For?",
+        paragraphs: [
+          "A person may place flowers before a stupa while fully understanding that the Buddha is not physically taking them. The flowers will fade. Their religious meaning lies in the act of honoring the Buddha and in what the act can cultivate in the giver: confidence, gratitude, generosity, humility, and recollection.",
+          "In this context, merit or <i>puñña</i> means the wholesome karmic quality and beneficial potential associated with a skillful intentional act. It is not invisible currency stored in the flower, a guaranteed worldly reward, or a fixed number of points."
+        ]
+      },
+      {
+        heading: "DN 16 Already Supports Post-Parinibbāna Veneration",
+        paragraphs: [
+          "DN 16 gives unusually direct support. In instructions concerning a monument for the Tathāgata, the discourse says that someone who offers garlands, fragrance, or powder there, bows, or develops confidence will have lasting welfare and happiness.",
+          "The setting is explicitly the Buddha’s memorial after Parinibbāna. Physical consumption is not part of the explanation. The act is meaningful as veneration and as a condition for confidence in the devotee."
+        ]
+      },
+      {
+        heading: "Why Intention Matters",
+        paragraphs: [
+          "AN 6.63 says that intention is kamma and immediately adds that, after intending, one acts through body, speech, or mind. This makes the moral direction of the giver’s mind central without claiming that intention is the only relevant condition in every act.",
+          "An expensive display motivated by rivalry is not automatically better than a simple flower offered with clear gratitude. At the same time, this page does not claim that every offering has exactly the same result. Intention matters within an act that also has a form, context, and object."
+        ]
+      },
+      {
+        heading: "What Vimānavatthu 47 Says",
+        paragraphs: [
+          "The <i>Pītavimāna</i> of <i>Vimānavatthu</i> 47 is a Theravāda canonical devotional verse. Its story concerns flowers intended for a stupa connected with the Teacher’s bodily relics. The verses praise relic veneration and state that, with the same quality of mind, the fruit is the same whether the Tathāgata is living or fully quenched.",
+          "This is stronger than the modest claim that later offerings are merely permitted. It presents confident post-Parinibbāna devotion as genuinely fruitful. Its genre and wording should still be respected: it is canonical devotional poetry, not an early prose analysis of every possible variable in kamma."
+        ]
+      },
+      {
+        heading: "Mahāpajāpatī Gotamī and the Pair of Cloths",
+        paragraphs: [
+          "MN 142 begins with Mahāpajāpatī Gotamī bringing a new pair of cloths she had prepared for the Buddha. She was the sister of his birth mother Māyā—his maternal aunt—and became his nurse and foster mother after Māyā’s death.",
+          "The Buddha tells her to give the cloths to the Saṅgha, saying that when she gives to the Saṅgha, both he and the Saṅgha will be honored. This is a redirection of an actual gift, not a declaration that a close personal relationship is irrelevant."
+        ]
+      },
+      {
+        heading: "What MN 142 Does—and Does Not—Prove",
+        paragraphs: [
+          "MN 142 supports the importance of gifts directed to the Saṅgha and includes gifts to the communities of monks and nuns after the Tathāgata’s final Nibbāna in its list of offerings to the Saṅgha. It also distinguishes kinds of recipients and fields of giving.",
+          "The discourse does not itself say that the Buddha redirected the cloths solely to manufacture a second quantity of merit. Nor is it a direct description of flowers at a stupa. It helps clarify that honoring the Buddha and giving to the Saṅgha can be connected without pretending that every devotional act is identical."
+        ]
+      },
+      {
+        heading: "Does Physical Non-Use Reduce Merit to Nothing?",
+        paragraphs: [
+          "No. DN 16 and <i>Vimānavatthu</i> 47 directly prevent that conclusion. In memorial devotion, the Buddha’s physical use is not required for the act to express confidence and honor or to possess wholesome karmic significance.",
+          "The reverse absolute also fails. Acceptance, recipient, context, and the actual deed can matter in Buddhist accounts of giving. The safe conclusion is not that all variables disappear, but that physical non-use after Parinibbāna does not by itself cancel the act’s meaning."
+        ]
+      },
+      {
+        heading: "Respect Without Pretending the Buddha Needs the Gift",
+        paragraphs: [
+          "Post-Parinibbāna offerings need not be explained as supplies sent to an invisible person. The Buddha is not waiting to eat food or enjoy flowers. A practitioner can understand this and still make a sincere offering.",
+          "The fading flower can become a practice of recollection and impermanence; a lamp can express gratitude for the teaching; care for a stupa can preserve a shared place of memory. Devotion is strongest when it continues in ethical conduct and practice beyond the shrine."
+        ]
+      },
+      {
+        heading: "A Careful Final Answer",
+        paragraphs: [
+          "Offerings to the Buddha after Parinibbāna can be meritorious in Theravāda sources even though the Buddha does not physically accept or use them. Their meaning includes the wholesome intention and qualities cultivated by the person acting.",
+          "That answer does not require a mechanical claim that every offering always has exactly the same fruit. It asks us to preserve both parts of the textual picture: post-Parinibbāna devotion is meaningful, and kamma is more nuanced than a points table."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha explanation of post-Parinibbāna devotion. It distinguishes an early discourse, a Theravāda canonical devotional verse, and the different giving context of MN 142 rather than turning them into one quantitative merit rule.",
+    sources: [
+      {
+        label: "Mahāparinibbāna Sutta (DN 16) — SuttaCentral",
+        href: "https://suttacentral.net/dn16/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Directly supports post-Parinibbāna veneration at a monument through garlands, fragrance or powder, bows, and confidence, described as conducive to lasting welfare and happiness."
+      },
+      {
+        label: "Nibbedhika Sutta (AN 6.63) — SuttaCentral",
+        href: "https://suttacentral.net/an6.63/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Supports intention as central to kamma and action through body, speech, or mind. It does not specifically discuss offerings at stupas."
+      },
+      {
+        label: "Pītavimāna (Vimānavatthu 47) — SuttaCentral Pāli text",
+        href: "https://suttacentral.net/vv47/pli/ms",
+        sourceType: "Theravāda canonical devotional verse",
+        note: "Supports relic veneration and the devotional formulation that, with equal quality of mind, the fruit is equal whether the Tathāgata is living or fully quenched. It is not used as a complete quantitative theory of merit."
+      },
+      {
+        label: "Dakkhiṇāvibhaṅga Sutta (MN 142) — SuttaCentral",
+        href: "https://suttacentral.net/mn142/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Supports Mahāpajāpatī Gotamī’s relationship as maternal aunt and foster mother, her cloth offering, the redirection to the Saṅgha, and the statement that both Buddha and Saṅgha are honored. The discourse does not state the later book’s complete additional-merit rationale."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "How Can the Buddha Be Respected After Parinibbāna?",
+        href: `${questionsPath}/respecting-buddha-after-parinibbana/`,
+        description: "See the wider place of relics, stupas, images, offerings, and Dhamma practice in remembrance."
+      },
+      {
+        label: "Which Cetiya Gives More Merit?",
+        href: `${questionsPath}/which-cetiya-gives-more-merit/`,
+        description: "Understand why intention matters without turning sacred objects or offerings into a karmic leaderboard."
+      },
+      {
+        label: "If Intention Is Kamma, Is Intending Alone Enough?",
+        href: `${questionsPath}/is-intention-alone-enough-for-kamma/`,
+        description: "Continue with the distinction between wholesome intention and a completed external act."
+      }
+    ],
+    relatedTerms: ["Parinibbāna", "Puñña", "Stupa offering", "Vimānavatthu", "Mahāpajāpatī Gotamī", "Saṅgha"],
+    searchTerms: ["offerings after Parinibbāna", "Buddha offering merit", "post-Parinibbāna offering", "Vimānavatthu merit", "relic offering", "stupa offering", "Mahāpajāpatī Gotamī", "MN 142", "AN 6.63"],
+    previous: {
+      label: "Question 10: Can Miracles Identify Genuine Buddha Relics?",
+      href: `${questionsPath}/can-miracles-identify-buddha-relics/`
+    },
+    next: {
+      label: "Question 12: Is Intention Alone Enough for Kamma?",
+      href: `${questionsPath}/is-intention-alone-enough-for-kamma/`
+    }
+  },
+  {
+    number: 12,
+    slug: "is-intention-alone-enough-for-kamma",
+    title: "If Intention Is Kamma, Is Intending Alone Enough—or Must We Act?",
+    seoTitle: "Is Intention Alone Enough for Kamma? | Echo Buddha",
+    description:
+      "If intention is kamma, is thinking about a good deed enough? Explore AN 6.63, the difference between intention and completed action, generosity, and later Theravāda analysis.",
+    eyebrow: "Question 12",
+    publishedDate: "2026-11-18",
+    modifiedDate: "2026-11-18",
+    intro:
+      "The statement ‘intention is kamma’ can sound as though thinking about a good deed is the same as actually doing it. AN 6.63 says something more precise.",
+    takeaway:
+      "The Buddha says in AN 6.63 that intention is kamma—and immediately adds that, intending, a person acts through body, speech, or mind. So intention gives intentional action its karmic direction, but this does not make an imagined donation identical to a completed gift. A sincere wish to give is a mental event; actually relinquishing and giving something is another event. Later Theravāda scholastic texts analyze bodily expression in technical terms. Those models belong to Theravāda intellectual history and should not be presented as modern physiology.",
+    shortAnswer: [
+      "No. ‘Intention is kamma’ does not mean that merely thinking ‘I should give’ is automatically the same as giving. Intention is central because it gives an intentional act its ethical direction.",
+      "AN 6.63 explicitly connects intention with action through body, speech, and mind. Some kamma is therefore mental; a visible movement or financial expense is not required for every intentional act. But when the particular act is donating a meal, robe, money, or another possession, completing the gift involves actually relinquishing it.",
+      "Intention and action should be distinguished without separating them completely. A wholesome wish can matter even if circumstances prevent completion, while a good intention does not erase harm caused by what someone later does."
+    ],
+    sections: [
+      {
+        heading: "Why ‘Intention Is Kamma’ Can Be Misunderstood",
+        paragraphs: [
+          "The phrase can be pulled in opposite directions. One person may conclude that only inner motive matters and outward conduct is irrelevant. Another may conclude that only visible behavior counts and thoughts never have ethical significance.",
+          "AN 6.63 avoids both extremes. It places intention at the center of kamma and then describes intentional action through three channels: body, speech, and mind."
+        ]
+      },
+      {
+        heading: "What Cetanā Means Here",
+        paragraphs: [
+          "The Pāli word <i>cetanā</i> is commonly translated as intention or volition. Here it is more useful to understand it as the purposive direction of mind involved in intentional action, not as a casual idea that happens to pass through awareness.",
+          "Cetanā is not identical with effort or <i>viriya</i>, and it is not mysterious physical energy. Saying that intention directs action is enough for this beginner question; it avoids turning a Buddhist analytical term into an imaginary force."
+        ]
+      },
+      {
+        heading: "AN 6.63 Includes Body, Speech, and Mind",
+        paragraphs: [
+          "The full principle matters: intention is kamma; after intending, a person acts by body, speech, or mind. Mental kamma is real within this framework. Deliberately nurturing cruelty, for example, is not ethically empty simply because no one else sees a gesture.",
+          "Yet the inclusion of mental action does not make every imagined bodily act a completed bodily act. Planning to apologize is not the spoken apology. Wanting to give is not yet the recipient’s access to the gift."
+        ]
+      },
+      {
+        heading: "Wanting to Give and Actually Giving Are Related—but Not Identical",
+        paragraphs: [
+          "Suppose someone thinks, ‘I would like to give that meal to a person who needs it.’ That wholesome direction of mind matters. It may weaken stinginess and prepare an act of generosity.",
+          "A completed donation normally involves more: picking up the meal, relinquishing control, and handing it over or making it available. The intention continues through the act, but the recipient now has something they did not have before. Calling both moments identical would hide that real difference."
+        ]
+      },
+      {
+        heading: "What If I Intend to Help but Cannot?",
+        paragraphs: [
+          "Sometimes completion becomes impossible. Illness may intervene, an emergency may redirect the resources, the recipient may disappear, a transaction may fail, or the intended item may be destroyed.",
+          "It would be too harsh to say that no wholesome mental intention ever existed. The sincere wish and any honest effort can remain ethically significant. But they are not identical with the completed donation. This distinction also helps separate inability from repeatedly refusing to act while taking comfort in good intentions."
+        ]
+      },
+      {
+        heading: "Generosity Is Not Limited to Spending Money",
+        paragraphs: [
+          "Completing a material gift requires actually relinquishing that material. Buddhist kamma in general does not require wealth or payment. Generosity may involve food, possessions, money, time, labor, care, knowledge, attention, or another genuine benefit.",
+          "A person with little money can still act generously. The key question is what the intended act actually is and whether it has been carried through, not whether a bank balance changed."
+        ]
+      },
+      {
+        heading: "AN 6.37 Describes More Than an Abstract Wish",
+        paragraphs: [
+          "AN 6.37 describes a gift with six factors. The donor is glad before giving, confident while giving, and uplifted after giving. The recipients are free from greed, hatred, and delusion, or practicing for their removal.",
+          "The discourse concerns an actual donation and shows a sequence rather than one isolated thought. It does not teach the later technical model of bodily intimation, and it should not be used as though it proved that model. It simply reinforces that generosity includes intention before, during, and after a deed that takes place."
+        ]
+      },
+      {
+        heading: "How Later Theravāda Analysis Describes Bodily Intimation",
+        paragraphs: [
+          "The <i>Visuddhimagga</i> is a later Theravāda scholastic and commentarial treatise. In XIV.61 it analyzes bodily intimation through consciousness-originated materiality and the air or motion element. Its function, the text says, is to display intention through bodily activity.",
+          "This traditional model helps show that later Theravāda thinkers distinguished a mental intention from the bodily form through which it becomes perceptible to others. It is an intellectual-history source for Theravāda analysis, not a statement spoken in AN 6.63."
+        ]
+      },
+      {
+        heading: "Why the ‘Mind-Produced Wind Element’ Needs Context",
+        paragraphs: [
+          "Terms such as <i>cittaja vāyo dhātu</i>—a consciousness-originated air or motion element—belong to a classical Buddhist analysis of mind and materiality. They should not be advertised as modern anatomy, neuroscience, biomechanics, or a scientifically verified account of muscular movement.",
+          "A traditional scholastic framework and contemporary physiology answer questions in different vocabularies. Respecting the traditional model does not require pretending that the two are interchangeable."
+        ]
+      },
+      {
+        heading: "A Practical Way to Understand Intention",
+        paragraphs: [
+          "Before acting, check the direction: what am I trying to bring about? While acting, notice whether greed, hostility, or care is shaping the deed. Afterward, review both the outcome and the mind without rewriting harm as harmless merely because the original motive sounded good.",
+          "Good intention matters greatly, but it is not a moral eraser. When action is possible, let the wholesome intention become a skillful deed. When action is blocked, acknowledge the sincere intention honestly and look for another workable form of help."
+        ]
+      },
+      {
+        heading: "Final Answer",
+        paragraphs: [
+          "Intending alone can itself be mental kamma, so it is not necessarily nothing. But intending a particular external act is not automatically the same as completing that act.",
+          "For giving, the clearest distinction is between a mind directed toward generosity and an actual relinquishment that makes the gift available. Both can be wholesome; they are related stages, not one identical event."
+        ]
+      }
+    ],
+    sourceNote:
+      "This page is an original Echo Buddha explanation using AN 6.63 as the primary early-discourse source, AN 6.37 for the sequence of an actual gift, and Visuddhimagga XIV.61 only as a later Theravāda scholastic account of bodily intimation.",
+    sources: [
+      {
+        label: "Nibbedhika Sutta (AN 6.63) — SuttaCentral",
+        href: "https://suttacentral.net/an6.63/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Primary support for intention as kamma and for intentional action through body, speech, or mind. It prevents both a behavior-only account and the claim that imagining an external deed completes it."
+      },
+      {
+        label: "A Gift With Six Factors (AN 6.37) — SuttaCentral",
+        href: "https://suttacentral.net/an6.37/en/sujato",
+        sourceType: "Early Buddhist discourse",
+        note: "Describes an actual gift through the donor’s state before, during, and after giving, together with recipient factors. It does not present the later technical analysis of bodily intimation."
+      },
+      {
+        label: "The Path of Purification (Visuddhimagga), XIV.61 — Bhikkhu Ñāṇamoli translation",
+        href: "https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf",
+        sourceType: "Theravāda scholastic/commentarial treatise",
+        note: "Supports the later Theravāda analysis of bodily intimation in relation to a consciousness-originated air or motion element whose function is to display intention. It is a scholastic model, not modern physiology."
+      }
+    ],
+    relatedLinks: [
+      {
+        label: "What Is Karma in Buddhism?",
+        href: "/learn/buddhism-101/what-is-karma-in-buddhism/",
+        description: "Review the broader beginner owner for kamma, choices, conditions, and results."
+      },
+      {
+        label: "Karma in Buddhism: A Practical Explanation",
+        href: "/articles/what-is-karma-in-buddhism/",
+        description: "Apply intention and responsibility to ordinary decisions without fatalism."
+      },
+      {
+        label: "Do Offerings After Parinibbāna Still Create Merit?",
+        href: `${questionsPath}/offerings-after-parinibbana-merit/`,
+        description: "See how intention matters within a specific question about devotional offerings and merit."
+      }
+    ],
+    relatedTerms: ["Cetanā", "Kamma", "Mental kamma", "Generosity", "Bodily intimation", "Cittaja vāyo dhātu"],
+    searchTerms: ["cetanā", "intention kamma", "intention karma", "AN 6.63", "intention versus action", "volition Buddhism", "giving intention", "completed donation", "cittaja vāyo dhātu"],
+    previous: {
+      label: "Question 11: Do Offerings After Parinibbāna Still Create Merit?",
+      href: `${questionsPath}/offerings-after-parinibbana-merit/`
     }
   }
 ];

@@ -5,9 +5,9 @@
   "passed": 22,
   "failed": 0,
   "counts": {
-    "sitemapUrls": 171,
-    "registryRecords": 171,
-    "searchRecords": 336,
+    "sitemapUrls": 178,
+    "registryRecords": 178,
+    "searchRecords": 355,
     "priorityUrls": 44,
     "changedArticles": 13
   },
@@ -15,17 +15,17 @@
     {
       "name": "Sitemap URLs are unique",
       "status": "PASS",
-      "details": "171 entries; 171 unique"
+      "details": "178 entries; 178 unique"
     },
     {
       "name": "Registry covers the complete sitemap",
       "status": "PASS",
-      "details": "171 registry records; 171 sitemap URLs"
+      "details": "178 registry records; 178 sitemap URLs"
     },
     {
       "name": "On-site search exclusions match the intentional route policy",
       "status": "PASS",
-      "details": "336 search records; 19 intentionally excluded navigation/policy routes"
+      "details": "355 search records; 19 intentionally excluded navigation/policy routes"
     },
     {
       "name": "Six protected clusters are registered",
@@ -40,12 +40,12 @@
     {
       "name": "Every sitemap route has rendered HTML",
       "status": "PASS",
-      "details": "171/171"
+      "details": "178/178"
     },
     {
       "name": "Indexable routes remain self-canonical",
       "status": "PASS",
-      "details": "171 self-canonicals"
+      "details": "178 self-canonicals"
     },
     {
       "name": "Sitemap contains no noindex routes",
@@ -55,7 +55,7 @@
     {
       "name": "Every indexable page has one visible H1",
       "status": "PASS",
-      "details": "171 pages with H1"
+      "details": "178 pages with H1"
     },
     {
       "name": "Indexable titles are unique",

@@ -330,6 +330,54 @@
       "date": "2026-11-14",
       "owner": "Project owner explicitly approved deployment of the completed editorial candidate to production/live on November 14, 2026.",
       "reason": "Correct the production and ongoing-monitoring search inventory for the twelve already approved noindex user permalinks; require their presence in local search and exclusion from the sitemap. Preserve all fifteen smoke gates, exact release identity, privacy, advertising-off, headers, 404 and other deployment protections. Three end-to-end fixture regressions exercise success and equal-count missing/leaked routes."
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/buddhistQuestions.ts",
+      "approved": true,
+      "date": "2026-11-18",
+      "owner": "Project owner via the definitive Q10–Q12 prompt and explicit production/live release instruction.",
+      "reason": "Add exactly three source-aware question records, the three required source categories, and the Q9→Q10→Q11→Q12 bounded navigation. Preserve Q1–Q9 bodies, metadata, sources and dates; add no Q13, alias, placeholder or FAQ entry."
+    },
+    {
+      "type": "protected-file",
+      "target": "src/data/monetization-route-registry.mjs",
+      "approved": true,
+      "date": "2026-11-18",
+      "owner": "Project owner via the definitive Q10–Q12 prompt and explicit production/live release instruction.",
+      "reason": "Register exactly Q10, Q11 and Q12 as indexable LEARN_DETAIL / HOLD_MANUAL_REVIEW routes while preserving seven existing eligible candidates and every advertising runtime, serving, Auto Ads and manual-slot kill switch."
+    },
+    {
+      "type": "protected-file",
+      "target": "scripts/validate-historical-snapshot-boundaries.mjs",
+      "approved": true,
+      "date": "2026-11-18",
+      "owner": "Project owner via the definitive Q10–Q12 prompt and explicit production/live release instruction.",
+      "reason": "Preserve all frozen Q1–Q9 evidence and add one independent +3 expansion boundary requiring exactly Q1–Q12, the dated approvals, expected inventory delta, and no Q13+."
+    },
+    {
+      "type": "release-control",
+      "target": "package-lock.json",
+      "approved": true,
+      "date": "2026-11-18",
+      "owner": "Project owner via the definitive Q10–Q12 prompt and explicit production/live release instruction.",
+      "reason": "Apply the compatible Astro 7.4.12 dependency update and its resolved transitive graph before production validation, without changing the declared package manifest range."
+    },
+    {
+      "type": "release-control",
+      "target": "scripts/audit-dependencies.mjs",
+      "approved": true,
+      "date": "2026-11-18",
+      "owner": "Project owner via the definitive Q10–Q12 prompt and explicit production/live release instruction.",
+      "reason": "Resolve transitive advisory chains and accept only active, exact-URL, exact-package dependency exceptions; fail closed for every unaccepted high or critical advisory."
+    },
+    {
+      "type": "release-control",
+      "target": "governance/dependency-risk-exceptions.json",
+      "approved": true,
+      "date": "2026-11-18",
+      "owner": "Project owner via the definitive Q10–Q12 prompt and explicit production/live release instruction.",
+      "reason": "Record one transparent fourteen-day exception for GHSA-fc5q-39xc-vjpf because no patched Picomatch release exists; constrain it to the static build graph and expire it automatically on 2026-12-02."
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "audit": "Controlled Q10, Q11, and Q12 Buddhist Question expansion",
+  "date": "2026-11-18",
+  "status": "LOCAL_RELEASE_CANDIDATE_VALIDATION_PASSED",
+  "scope": {
+    "historical_expansion_1": { "date": "2026-09-02", "questions": [1, 2], "new_indexable_detail_urls": 2 },
+    "historical_expansion_2": { "date": "2026-09-14", "questions": [3, 4], "new_indexable_detail_urls": 2 },
+    "historical_expansion_3": { "date": "2026-09-20", "questions": [5], "new_indexable_detail_urls": 1 },
+    "historical_expansion_4": { "date": "2026-09-24", "questions": [6], "new_indexable_detail_urls": 1 },
+    "historical_expansion_5": { "date": "2026-09-28", "questions": [7], "new_indexable_detail_urls": 1 },
+    "historical_expansion_6": { "date": "2026-11-01", "questions": [8, 9], "new_indexable_detail_urls": 2 },
+    "current_expansion_7": { "date": "2026-11-18", "questions": [10, 11, 12], "new_indexable_detail_urls": 3 },
+    "cumulative_questions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "unauthorized_extra_urls": 0
+  },
+  "counts": {
+    "html_before": 373,
+    "html_after": 376,
+    "indexable_before": 175,
+    "indexable_after": 178,
+    "nonindexable_before": 198,
+    "nonindexable_after": 198,
+    "sitemap_before": 175,
+    "sitemap_after": 178,
+    "internal_search_before": 352,
+    "internal_search_after": 355,
+    "new_indexable_detail_urls": 3,
+    "unauthorized_extra_urls": 0,
+    "monetization_before": { "NEVER_MONETIZE": 266, "ELIGIBLE_CANDIDATE": 7, "HOLD_MANUAL_REVIEW": 100 },
+    "monetization_after": { "NEVER_MONETIZE": 266, "ELIGIBLE_CANDIDATE": 7, "HOLD_MANUAL_REVIEW": 103 }
+  },
+  "preservation": {
+    "q1_through_q9_content_and_metadata": "UNCHANGED_EXCEPT_Q9_NEXT_NAVIGATION",
+    "homepage_featured_question": 2,
+    "compact_beginner_faq_count": 10,
+    "adsense_runtime_enabled": false,
+    "adsense_review_resubmitted": false
+  },
+  "currentStateChecks": {
+    "npm_ci": "PASS_348_PACKAGES_INSTALLED_349_AUDITED",
+    "initial_build": "PASS_376_PAGES_178_SITEMAP_355_SEARCH",
+    "full_release_validation": "PASS_142_TESTS_ALL_PHASE_8_TO_13_GATES_PASS",
+    "dependency_audit": "PASS_WITH_ONE_EXACT_TIME_BOUNDED_EXCEPTION_0_CRITICAL_10_HIGH_TRANSITIVE_PATHS_0_UNACCEPTED_EXPIRES_2026_12_02",
+    "source_link_check": "PASS_8_HTTP_200_ONE_PUBLISHER_403_TO_AUTOMATED_CLIENT_BROWSER_VERIFIED",
+    "browser_validation": "PASS_52_ROUTE_VIEWPORT_COMBINATIONS_ZERO_CRITICAL_OR_SERIOUS_ACCESSIBILITY_VIOLATIONS",
+    "global_browser_readiness": "PASS",
+    "lighthouse": "PASS_20_RUNS_MIN_PERFORMANCE_1_00_MIN_ACCESSIBILITY_1_00",
+    "hosted_ci": "PENDING",
+    "production": "PENDING",
+    "live_release_identity": "PENDING",
+    "indexnow": "PENDING_NOT_AN_INDEXING_GUARANTEE"
+  }
+}

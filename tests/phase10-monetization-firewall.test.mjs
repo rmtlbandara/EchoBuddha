@@ -25,13 +25,13 @@ const htmlFiles = () => fs.readdirSync(path.join(root, "dist"), { recursive: tru
 
 test("complete current HTML inventory has exactly one conservative registry state", () => {
   const entries = Object.entries(MONETIZATION_ROUTE_REGISTRY);
-  assert.equal(entries.length, 373);
-  assert.equal(new Set(entries.map(([route]) => route)).size, 373);
+  assert.equal(entries.length, 376);
+  assert.equal(new Set(entries.map(([route]) => route)).size, 376);
   assert.deepEqual(
     Object.fromEntries(Object.values(MONETIZATION_STATES).slice(0, 3).map((state) => [state, entries.filter(([, row]) => row.state === state).length])),
-    { NEVER_MONETIZE: 266, ELIGIBLE_CANDIDATE: 7, HOLD_MANUAL_REVIEW: 100 }
+    { NEVER_MONETIZE: 266, ELIGIBLE_CANDIDATE: 7, HOLD_MANUAL_REVIEW: 103 }
   );
-  assert.equal(entries.filter(([, row]) => row.indexable).length, 175);
+  assert.equal(entries.filter(([, row]) => row.indexable).length, 178);
   assert.equal(entries.filter(([, row]) => !row.indexable).length, 198);
   assert.equal(htmlFiles().length, entries.length);
 });
@@ -117,7 +117,7 @@ test("technical resources are not treated as HTML monetization inventory", () =>
 
 test("built output has verification only: zero ad requests, units, and empty ad placeholders", () => {
   const files = htmlFiles();
-  assert.equal(files.length, 373);
+  assert.equal(files.length, 376);
   for (const file of files) {
     const html = fs.readFileSync(file, "utf8");
     assert.doesNotMatch(html, /pagead2\.googlesyndication|adsbygoogle|google_ad_client|<ins[^>]+class=["'][^"']*adsbygoogle/i, file);

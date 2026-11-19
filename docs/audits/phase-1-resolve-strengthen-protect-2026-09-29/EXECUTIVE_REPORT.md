@@ -19,7 +19,7 @@
 
 - Repositioned 13 support articles around distinct tasks, scenarios, troubleshooting jobs, source study, and route selection.
 - Preserved all six declared broad owners and every current URL.
-- Added a 171-URL intent registry with current metadata, link authority, index/canonical state, repository-backed GSC fields, ownership, source requirements, and action confidence.
+- Added a 178-URL intent registry with current metadata, link authority, index/canonical state, repository-backed GSC fields, ownership, source requirements, and action confidence.
 - Added automated ownership, support-link, registry-coverage, schema, TOC, sitemap, canonical, and search-index governance.
 - Removed seven FAQPage implementations and one obsolete HowTo object while retaining visible reader FAQs and meditation steps.
 - Merged PR #49 and deployed exact SHA `db1da81b19bc5291829cdafd475645d79c6025f5` through production workflow 36512611080.

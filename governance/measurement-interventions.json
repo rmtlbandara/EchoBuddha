@@ -1725,6 +1725,50 @@
         "protectedRoutesUnchanged": 23
       },
       "measurementImpact": "The visible date/order correction intervenes in the earlier November 14–December 11 Pacific window. Exclude actual deployment day November 14. New complete descriptive window: November 15–December 12, 2026, 28 days; apply the existing finalization buffer and verify actual finalized data. No causal CTR/ranking/growth conclusion or destructive consolidation is authorized."
+    },
+    {
+      "id": "buddhist-questions-q10-q12-2026-11-18",
+      "status": "AUTHORIZED_RELEASE_CANDIDATE",
+      "authorizedBy": "Project owner adopted the definitive Q10–Q12 production prompt and explicitly instructed completion and production/live release.",
+      "authorizedOn": "2026-11-18",
+      "baselineSha": "04a99b52d6fe02c19deaac2024d4f8337dbb31c7",
+      "baselineProductionSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+      "baselineEvidence": "docs/audits/buddhist-questions-q10-q12-2026-11-18/PRE_RELEASE_BASELINE.json",
+      "baselineEvidenceSha256": "d559a204fd2095ca4668483768389c8c002f4526d369bac6c1755b9755ed99b0",
+      "publicRouteRemovals": 0,
+      "indexStateChanges": 0,
+      "ownerChanges": 0,
+      "canonicalChanges": 0,
+      "scope": "Publish exactly three independently useful source-aware Buddhist question pages: Q10 on relic miracles versus authentication, Q11 on post-Parinibbāna offerings and merit, and Q12 on intention versus completed action. Add Q9 forward navigation and three hub cards; preserve Q1–Q9 content and metadata, the ten-item FAQ, homepage Q2 curation, existing owners, ad-off state, and the absence of Q13.",
+      "newIndexableRoutes": [
+        "/learn/questions-about-buddhism/can-miracles-identify-buddha-relics/",
+        "/learn/questions-about-buddhism/offerings-after-parinibbana-merit/",
+        "/learn/questions-about-buddhism/is-intention-alone-enough-for-kamma/"
+      ],
+      "approvedApplicationFiles": {
+        "src/data/buddhistQuestions.ts": "864bbf7be7f7f717212527f63f9998ff398b1bcdbf38f031aa6b4fd964c11498",
+        "src/data/monetization-route-registry.mjs": "3aa7af52db403de5271f7172dd8dce17b369654ab42ddf999796008c3796aa87"
+      },
+      "supersedesFiles": [
+        {
+          "file": "src/data/buddhistQuestions.ts",
+          "interventionId": "adsense-final-readiness-2026-11-11",
+          "previousSha256": "c928d06eafa606aa769ecf700391b236e437c4357bab466011d7b5efbb8219a4"
+        },
+        {
+          "file": "src/data/monetization-route-registry.mjs",
+          "interventionId": "november-manuscript-refined-candidate-2026-11-14",
+          "previousSha256": "57721ac69e8a98ea08e90f55bc67ba42e2703002b406fcb3ebabf8f9fb20a314"
+        }
+      ],
+      "routeDelta": {
+        "html": 3,
+        "sitemap": 3,
+        "internalSearch": 3,
+        "holdManualReview": 3,
+        "noindex": 0
+      },
+      "measurementImpact": "This material publication intervenes in the November 15–December 12 descriptive window. If deployed November 18 Pacific Time, exclude November 18; the next full 28-day descriptive period is November 19–December 16, with earliest finalized review December 19 under the existing three-day buffer. Append actual deployment and IndexNow evidence after production. No causal SEO, ranking, revenue, AdSense, or consolidation conclusion is authorized."
     }
   ]
 }

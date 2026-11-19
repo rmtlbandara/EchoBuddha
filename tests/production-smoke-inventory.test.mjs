@@ -37,8 +37,8 @@ function runSmoke(mutate=()=>{}) {
 
 test('production smoke accepts the complete release with twelve approved noindex search permalinks',()=>{
   const {exit,report,output}=runSmoke();assert.equal(exit,0,output);assert.equal(report.passed,15);
-  assert.equal(report.failed,0);assert.match(report.checks.find(c=>c.name==='search').evidence,/352\/352/);
-  assert.match(report.checks.find(c=>c.name==='sitemap').evidence,/175\/175/);
+  assert.equal(report.failed,0);assert.match(report.checks.find(c=>c.name==='search').evidence,/355\/355/);
+  assert.match(report.checks.find(c=>c.name==='sitemap').evidence,/178\/178/);
 });
 
 test('production smoke rejects a missing approved permalink even when total search count is unchanged',()=>{

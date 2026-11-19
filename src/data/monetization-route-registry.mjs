@@ -1015,6 +1015,12 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "indexable": true,
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
+  "/learn/questions-about-buddhism/can-miracles-identify-buddha-relics/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
   "/learn/questions-about-buddhism/did-buddha-order-buddha-images/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
@@ -1028,6 +1034,18 @@ export const MONETIZATION_ROUTE_REGISTRY = {
     "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
   },
   "/learn/questions-about-buddhism/is-buddha-image-only-uddesika-cetiya/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/questions-about-buddhism/is-intention-alone-enough-for-kamma/": {
+    "state": "HOLD_MANUAL_REVIEW",
+    "family": "LEARN_DETAIL",
+    "indexable": true,
+    "reason": "INDEXABLE_SUBSTANTIVE_ROUTE_NOT_EXPLICITLY_APPROVED"
+  },
+  "/learn/questions-about-buddhism/offerings-after-parinibbana-merit/": {
     "state": "HOLD_MANUAL_REVIEW",
     "family": "LEARN_DETAIL",
     "indexable": true,
