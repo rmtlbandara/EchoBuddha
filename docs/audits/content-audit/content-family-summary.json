@@ -6,7 +6,7 @@
     "decisions": {
       "Editorial review required": 1
     },
-    "averageWords": 513
+    "averageWords": 564
   },
   "error": {
     "total": 1,
@@ -24,7 +24,7 @@
     "decisions": {
       "Editorial review required": 7
     },
-    "averageWords": 397
+    "averageWords": 405
   },
   "hub": {
     "total": 8,
@@ -33,17 +33,17 @@
     "decisions": {
       "Editorial review required": 8
     },
-    "averageWords": 1012
+    "averageWords": 1281
   },
   "article": {
-    "total": 48,
-    "indexable": 48,
+    "total": 49,
+    "indexable": 49,
     "noindex": 0,
     "decisions": {
-      "Source verification required": 4,
-      "Editorial review required": 44
+      "Editorial review required": 45,
+      "Source verification required": 4
     },
-    "averageWords": 1250
+    "averageWords": 1261
   },
   "articleCategory": {
     "total": 5,
@@ -52,7 +52,7 @@
     "decisions": {
       "Editorial review required": 5
     },
-    "averageWords": 420
+    "averageWords": 435
   },
   "other": {
     "total": 7,
@@ -61,16 +61,16 @@
     "decisions": {
       "Editorial review required": 7
     },
-    "averageWords": 539
+    "averageWords": 548
   },
   "dailyReflection": {
-    "total": 30,
+    "total": 40,
     "indexable": 0,
-    "noindex": 30,
+    "noindex": 40,
     "decisions": {
-      "Short-form editorial review required": 30
+      "Short-form editorial review required": 40
     },
-    "averageWords": 190
+    "averageWords": 197
   },
   "todayReflection": {
     "total": 1,
@@ -79,7 +79,7 @@
     "decisions": {
       "Short-form editorial review required": 1
     },
-    "averageWords": 1875
+    "averageWords": 3341
   },
   "learningPage": {
     "total": 10,
@@ -88,16 +88,16 @@
     "decisions": {
       "Editorial review required": 10
     },
-    "averageWords": 698
+    "averageWords": 783
   },
   "learningDetail": {
-    "total": 67,
-    "indexable": 67,
+    "total": 73,
+    "indexable": 73,
     "noindex": 0,
     "decisions": {
-      "Editorial review required": 67
+      "Editorial review required": 73
     },
-    "averageWords": 712
+    "averageWords": 739
   },
   "meditationDetail": {
     "total": 9,
@@ -106,7 +106,7 @@
     "decisions": {
       "Editorial review required": 9
     },
-    "averageWords": 565
+    "averageWords": 642
   },
   "quoteCategory": {
     "total": 10,
@@ -115,15 +115,15 @@
     "decisions": {
       "Editorial review required": 10
     },
-    "averageWords": 494
+    "averageWords": 503
   },
   "quoteStory": {
-    "total": 153,
+    "total": 155,
     "indexable": 0,
-    "noindex": 153,
+    "noindex": 155,
     "decisions": {
-      "Short-form editorial review required": 153
+      "Short-form editorial review required": 155
     },
-    "averageWords": 446
+    "averageWords": 449
   }
 }

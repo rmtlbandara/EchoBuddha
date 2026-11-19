@@ -81,3 +81,26 @@ test("release governance files and owner approval registers exist", () => {
     "governance/release-change-approvals.json"
   ]) assert.ok(fs.existsSync(path.join(root, file)), file);
 });
+
+test("dependency exceptions are exact, short-lived, and fail closed", () => {
+  const register = JSON.parse(read("governance/dependency-risk-exceptions.json"));
+  const dependencyAudit = read("scripts/audit-dependencies.mjs");
+
+  assert.equal(register.schemaVersion, 1);
+  assert.equal(register.exceptions.length, 1);
+
+  const [exception] = register.exceptions;
+  assert.equal(exception.id, "picomatch-single-branch-extglob-redos-2026-11-18");
+  assert.equal(exception.advisoryUrl, "https://github.com/advisories/GHSA-fc5q-39xc-vjpf");
+  assert.equal(exception.severity, "high");
+  assert.equal(exception.effectiveOn, "2026-11-18");
+  assert.equal(exception.expiresOn, "2026-12-02");
+  assert.equal(exception.upstream.patchedVersionAvailable, false);
+  assert.ok(exception.allowedVulnerabilityNames.includes("picomatch"));
+  assert.match(exception.scope, /Build and preview dependency paths only/);
+
+  assert.match(dependencyAudit, /today <= exception\.expiresOn/);
+  assert.match(dependencyAudit, /advisoryUrls\.every\(\(url\) => url === candidate\.advisoryUrl\)/);
+  assert.match(dependencyAudit, /if \(blocking\.length > 0\)/);
+  assert.match(dependencyAudit, /process\.exit\(1\)/);
+});

@@ -8,7 +8,7 @@ const root = process.cwd();
 const port = process.env.BUDDHIST_QUESTIONS_AUDIT_PORT || "4321";
 const baseUrl = process.env.BUDDHIST_QUESTIONS_AUDIT_BASE_URL || `http://127.0.0.1:${port}`;
 const chromePath = process.env.CHROME_EXECUTABLE_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-const canonicalOutput = path.join(root, "docs/audits/buddhist-questions-q8-q9-2026-11-01/BROWSER_VALIDATION.json");
+const canonicalOutput = path.join(root, "docs/audits/buddhist-questions-q10-q12-2026-11-18/BROWSER_VALIDATION.json");
 const artifactOutput = process.env.AUDIT_OUT_DIR
   ? path.resolve(root, process.env.AUDIT_OUT_DIR, "buddhist-questions-browser-validation.json")
   : canonicalOutput;
@@ -25,9 +25,13 @@ const routes = [
   "/learn/questions-about-buddhism/appatimo-and-buddha-images/",
   "/learn/questions-about-buddhism/when-did-buddha-statues-first-appear/",
   "/learn/questions-about-buddhism/did-buddhists-agree-on-image-veneration/",
-  "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/"
+  "/learn/questions-about-buddhism/which-cetiya-gives-more-merit/",
+  "/learn/questions-about-buddhism/can-miracles-identify-buddha-relics/",
+  "/learn/questions-about-buddhism/offerings-after-parinibbana-merit/",
+  "/learn/questions-about-buddhism/is-intention-alone-enough-for-kamma/"
 ];
 const viewports = [
+  { name: "narrow-mobile", width: 320, height: 800 },
   { name: "mobile", width: 390, height: 844 },
   { name: "tablet", width: 768, height: 1024 },
   { name: "desktop", width: 1440, height: 900 }
@@ -41,7 +45,10 @@ const expectedNavigation = {
   [routes[6]]: [routes[5], routes[7]],
   [routes[7]]: [routes[6], routes[8]],
   [routes[8]]: [routes[7], routes[9]],
-  [routes[9]]: [routes[8]]
+  [routes[9]]: [routes[8], routes[10]],
+  [routes[10]]: [routes[9], routes[11]],
+  [routes[11]]: [routes[10], routes[12]],
+  [routes[12]]: [routes[11]]
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -137,13 +144,16 @@ try {
           keyboardFocusVisible: pageFacts.keyboardFocusVisible,
           noHeadingSkips: headingSkips.length === 0,
           noCriticalOrSeriousAxeViolations: seriousViolations.length === 0,
-          expectedHubCardCount: route !== hub || pageFacts.cardCount === 9,
+          expectedHubCardCount: route !== hub || pageFacts.cardCount === 12,
           expectedNavigation: route === hub || JSON.stringify(pageFacts.navigationLinks) === JSON.stringify(expectedLinks),
           expectedQ5SourceCount: route !== routes[5] || pageFacts.externalSourceLinks.length === 3,
           expectedQ6SourceCount: route !== routes[6] || pageFacts.externalSourceLinks.length === 4,
           expectedQ7SourceCount: route !== routes[7] || pageFacts.externalSourceLinks.length === 6,
           expectedQ8SourceCount: route !== routes[8] || pageFacts.externalSourceLinks.length === 5,
-          expectedQ9SourceCount: route !== routes[9] || pageFacts.externalSourceLinks.length === 4
+          expectedQ9SourceCount: route !== routes[9] || pageFacts.externalSourceLinks.length === 4,
+          expectedQ10SourceCount: route !== routes[10] || pageFacts.externalSourceLinks.length === 4,
+          expectedQ11SourceCount: route !== routes[11] || pageFacts.externalSourceLinks.length === 4,
+          expectedQ12SourceCount: route !== routes[12] || pageFacts.externalSourceLinks.length === 3
         };
         const pass = Object.values(checks).every(Boolean);
         results.push({

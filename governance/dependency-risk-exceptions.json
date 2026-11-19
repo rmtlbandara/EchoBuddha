@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "exceptions": [
+    {
+      "id": "picomatch-single-branch-extglob-redos-2026-11-18",
+      "advisoryUrl": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
+      "severity": "high",
+      "effectiveOn": "2026-11-18",
+      "expiresOn": "2026-12-02",
+      "authorizedBy": "Project owner authorized completion and production deployment; release engineering applied a bounded exception because no patched Picomatch release exists and the affected parser is build-time only in this static site.",
+      "allowedVulnerabilityNames": [
+        "picomatch",
+        "@astrojs/internal-helpers",
+        "@astrojs/markdown-satteri",
+        "@astrojs/vite-plugin-astro",
+        "anymatch",
+        "astro",
+        "fdir",
+        "tinyglobby",
+        "unstorage",
+        "vite"
+      ],
+      "scope": "Build and preview dependency paths only. Production is prerendered static assets; no server-side Astro runtime, public glob input, or user-controlled build pattern is deployed.",
+      "mitigations": [
+        "All build patterns are repository-controlled and reviewed.",
+        "The production artifact contains static files rather than the affected Node package graph.",
+        "Any unrelated high or critical advisory still fails the release gate.",
+        "The exception expires automatically and must be removed when an upstream patched release is available."
+      ],
+      "upstream": {
+        "latestObservedVersion": "4.0.7",
+        "patchedVersionAvailable": false,
+        "checkedAt": "2026-11-18T17:10:00Z"
+      }
+    }
+  ]
+}

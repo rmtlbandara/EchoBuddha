@@ -163,7 +163,7 @@
     },
     {
       "name": "Historical baselines and explicitly superseded current candidate hashes match",
-      "details": "62 files",
+      "details": "102 files",
       "result": "PASS"
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "name": "Release candidate matches the explicitly approved file scope",
-      "details": "63 reviewed files; baseline preserved and destructive consolidation held",
+      "details": "102 reviewed files; baseline preserved and destructive consolidation held",
       "result": "PASS"
     },
     {

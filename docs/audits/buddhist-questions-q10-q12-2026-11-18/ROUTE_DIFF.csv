@@ -1,0 +1,7 @@
+route,change,index_state,canonical,search,monetization,notes
+/learn/questions-about-buddhism/can-miracles-identify-buddha-relics/,ADD,index_follow,self,ADD,HOLD_MANUAL_REVIEW,Q10 only
+/learn/questions-about-buddhism/offerings-after-parinibbana-merit/,ADD,index_follow,self,ADD,HOLD_MANUAL_REVIEW,Q11 only
+/learn/questions-about-buddhism/is-intention-alone-enough-for-kamma/,ADD,index_follow,self,ADD,HOLD_MANUAL_REVIEW,Q12 only
+/learn/questions-about-buddhism/which-cetiya-gives-more-merit/,MODIFY_NAV_ONLY,unchanged,unchanged,unchanged,unchanged,Q9 gains next link to Q10
+/learn/questions-about-buddhism/,MODIFY_CARD_SET,unchanged,unchanged,unchanged,unchanged,Hub deeper cards 9 to 12; compact FAQ remains 10
+/,UNCHANGED_FEATURE,unchanged,unchanged,unchanged,unchanged,Homepage representative question remains Q2

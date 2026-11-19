@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-18T16:44:52Z",
+  "baselineMainSha": "04a99b52d6fe02c19deaac2024d4f8337dbb31c7",
+  "servingProductionSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+  "mainProductionDifference": "Documentation, operations, search-measurement, and workflow-governance changes only; no newer src, public, or Astro application change is bundled without review.",
+  "production": {
+    "releaseJsonSha": "27dd09aa0abd7be3df46b8444f626c06952c194a",
+    "builtAt": "2026-11-14T08:07:50.693Z",
+    "scheduledSmokeRunId": 44312201788,
+    "scheduledSmokeResult": "APPLICATION_PASS_15_OF_15_ARTIFACT_UPLOAD_QUOTA_FAILURE"
+  },
+  "inventoryBefore": {
+    "html": 373,
+    "indexableSitemap": 175,
+    "noindexHtml": 198,
+    "internalSearch": 352,
+    "questionDetails": 9,
+    "questionHubCards": 9,
+    "monetization": {
+      "NEVER_MONETIZE": 266,
+      "ELIGIBLE_CANDIDATE": 7,
+      "HOLD_MANUAL_REVIEW": 100
+    }
+  },
+  "services": {
+    "gsc": "Latest authenticated read-only aggregate (workflow 43576863316, generated 2026-11-14T08:47:20.286Z): 175/175 sitemap URLs inspected; 124 submitted and indexed, 44 crawled-currently-not-indexed, 6 discovered-currently-not-indexed, 1 unknown; zero indexed canonical mismatches.",
+    "bing": "Latest authenticated read-only aggregate (workflow 43576863316, generated 2026-11-14T08:41:08.318Z): canonical sitemap Success with 175 URLs. Bing diagnostics are crawl/discovery evidence, not confirmed indexing.",
+    "adsense": "No authenticated account connector was available in this task. The latest durable project record says the November 11 review was requested and ads remained off; no account action is authorized or taken.",
+    "measurement": "The November 15–December 12 descriptive window is intervened by this material publication if deployed on November 18 Pacific Time."
+  },
+  "historicalInterventions": [
+    {
+      "id": "adsense-final-readiness-2026-11-11",
+      "sha256": "03a0591ea5b2c48f1c575f56aff84bd73ff92948f4aa82da7620b19dda3fd0c9"
+    },
+    {
+      "id": "november-manuscript-refined-candidate-2026-11-14",
+      "sha256": "f133032a82eb107c9650011b4b4dbbe492e97746d67809dacee861a64fd88585"
+    }
+  ],
+  "releaseIntent": {
+    "newCanonicalRoutes": 3,
+    "removedRoutes": 0,
+    "canonicalOwnerChanges": 0,
+    "indexStateChanges": 0,
+    "adsEnabled": false,
+    "adsenseReviewSubmitted": false
+  }
+}
